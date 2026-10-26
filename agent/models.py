@@ -8,6 +8,8 @@ from pydantic import BaseModel, Field, create_model
 class Assignment(BaseModel):
     article_id: str = Field(description="입력 기사의 id (예: a3)")
     relevant: bool = Field(description="반도체·디스플레이 산업과 직접 관련 있으면 true")
+    # issue_id보다 먼저 쓰게 해서, 회사·분야가 아니라 사건을 비교한 뒤 이슈를 고르게 함
+    event: str = Field(description="기사의 핵심 사건 한 줄 (예: SK하이닉스 HBM4 양산 시작)")
     issue_id: str = Field(description="기존 이슈 id, 또는 새 이슈 키(new-1, new-2 …). relevant가 false면 빈 문자열")
 
 

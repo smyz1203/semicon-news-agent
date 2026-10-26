@@ -237,10 +237,12 @@ class Analyzer:
             "title": g.lead.title,
             "snippet": g.lead.text[:200],
         } for i, g in enumerate(groups)]
+        # 회사 목록 대신 처음 기사 제목을 보여줌: 회사만 같으면 다른 사건도 붙이는 오판을 줄이고,
+        # 잘못 붙은 기사로 헤드라인이 바뀌어도 원래 사건을 알 수 있게
         issues = [{
             "id": issue["id"],
             "title": issue["headline"] or issue["articles"][0]["title"],
-            "companies": issue["companies"],
+            "articles": [a["title"] for a in issue["articles"][:3]],
         } for issue in active_issues]
 
         result = self._parse(

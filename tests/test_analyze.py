@@ -1,3 +1,4 @@
+from datetime import datetime, timezone
 from types import SimpleNamespace
 
 import anthropic
@@ -7,7 +8,9 @@ import pytest
 
 from agent.analyze import (AIError, AIStopped, Analyzer, clean_facts, clean_summary, copies_source,
                            resolve_assignments)
+from agent.collect import Article
 from agent.config import load_config
+from agent.dedupe import Group
 from agent.models import Assignment, ClusterResult, IssueFacts, IssueSummary
 
 SETTINGS = load_config().settings
@@ -90,13 +93,13 @@ SUMMARIZED = {**ISSUE, "headline": "삼성전자 HBM4 양산 검토", "summary":
 
 def test_resolve_assignments_validates_ai_output():
     result = ClusterResult(assignments=[
-        Assignment(article_id="a0", relevant=True, issue_id="c-old"),   # 기존 이슈
-        Assignment(article_id="a1", relevant=True, issue_id="new-1"),
-        Assignment(article_id="a2", relevant=True, issue_id="new-1"),   # 같은 새 이슈
-        Assignment(article_id="a3", relevant=False, issue_id=""),       # 관련 없음
-        Assignment(article_id="a3", relevant=True, issue_id="new-9"),   # 중복 배정 → 무시
-        Assignment(article_id="zz", relevant=True, issue_id="new-2"),   # 모르는 기사 → 무시
-        Assignment(article_id="a4", relevant=True, issue_id="c-unknown"),  # 모르는 이슈 → 새 이슈
+        Assignment(article_id="a0", relevant=True, event="", issue_id="c-old"),   # 기존 이슈
+        Assignment(article_id="a1", relevant=True, event="", issue_id="new-1"),
+        Assignment(article_id="a2", relevant=True, event="", issue_id="new-1"),   # 같은 새 이슈
+        Assignment(article_id="a3", relevant=False, event="", issue_id=""),       # 관련 없음
+        Assignment(article_id="a3", relevant=True, event="", issue_id="new-9"),   # 중복 배정 → 무시
+        Assignment(article_id="zz", relevant=True, event="", issue_id="new-2"),   # 모르는 기사 → 무시
+        Assignment(article_id="a4", relevant=True, event="", issue_id="c-unknown"),  # 모르는 이슈 → 새 이슈
     ])
     out = resolve_assignments(result, ["a0", "a1", "a2", "a3", "a4", "a5"], {"c-old"})
     assert out == {"a0": "c-old", "a1": "new:new-1", "a2": "new:new-1", "a3": None,
@@ -174,6 +177,37 @@ def test_openai_request_shape_and_usage():
     # 캐시된 입력 토큰은 따로 집계
     assert analyzer.usage == {"calls": 1, "input": 600, "output": 200, "cache_write": 0, "cache_read": 400}
     assert analyzer.cost_usd() > 0
+
+
+def test_cluster_compares_events_not_companies():
+    # 2026-10-26 실제 오판: 'GSAT 실시' 이슈에 '이재용 취임 4년' 기사, 'HBM 매출' 이슈에 '엑시노스 2700' 기사가 붙음.
+    # 둘 다 같은 회사(삼성)의 다른 사건이라 회사 규칙(guard_ai_merges)으로는 못 막으므로, AI가 사건을 비교하게 한다.
+    issues = [
+        {"id": "c-gsat", "headline": "삼성, 2026년 하반기 GSAT 실시",
+         "companies": ["삼성전자", "삼성디스플레이", "삼성SDI", "삼성물산"],
+         "articles": [{"title": "삼성, 2026년 하반기 삼성직무적성검사(GSAT) 실시"}]},
+        {"id": "c-hbm", "headline": "삼성전자, HBM 매출 SK하이닉스 앞서나", "companies": ["삼성전자", "SK하이닉스"],
+         "articles": [{"title": "Samsung may have overtaken SK hynix in HBM revenue, analysis suggests"}]},
+    ]
+    groups = [Group(articles=[Article(key=f"k{i}", url=f"https://e.com/{i}", title=title, source="전자신문",
+                                      source_id="etnews", lang="ko", published_at=datetime(2026, 10, 26, tzinfo=timezone.utc),
+                                      text="", filter=True)], norm="", companies=frozenset())
+              for i, title in enumerate(["이재용 취임 4년, 반도체 부활 넘어 M&A 승부수…미래사업 확장 가속",
+                                         "삼성 엑시노스 2700, 스냅드래곤 최신 칩 앞섰다…CPU 성능 20% 우위"])]
+    reply = ClusterResult(assignments=[
+        Assignment(article_id="a0", relevant=True, event="이재용 회장 취임 4년 M&A 전략", issue_id="new-1"),
+        Assignment(article_id="a1", relevant=True, event="엑시노스 2700 성능 시험 결과", issue_id="new-2"),
+    ])
+    client, calls = openai_client(openai_ok(reply))
+    assert Analyzer(OPENAI, client=client).cluster(groups, issues) == {0: "new:new-1", 1: "new:new-2"}
+    call = calls.calls[0]
+    # 이슈는 회사 목록이 아니라 처음 기사 제목으로 보여줌 (회사만 같으면 붙이는 오판 방지)
+    assert "삼성직무적성검사(GSAT)" in call["input"] and "overtaken SK hynix" in call["input"]
+    assert "삼성물산" not in call["input"]
+    # 사건(event)을 먼저 적고 나서 이슈를 고르도록 응답 형식에서 순서를 정함
+    assert call["text_format"] is ClusterResult
+    assert list(Assignment.model_fields) == ["article_id", "relevant", "event", "issue_id"]
+    assert "같은 회사의 소식이라도 사건이 다르면 다른 이슈다" in call["instructions"]
 
 
 def test_openai_without_reasoning_omits_effort():
