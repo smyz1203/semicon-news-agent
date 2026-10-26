@@ -1,5 +1,6 @@
 """수집과 AI를 가짜로 바꿔 끼우고 전체 흐름(main.run)을 실행해 보는 테스트."""
 
+from dataclasses import replace
 from datetime import datetime, timedelta, timezone
 
 from agent import main, store
@@ -91,6 +92,25 @@ def test_full_run(tmp_path, monkeypatch):
     assert len(store.load_issues(tmp_path)) == 1
 
 
+# 키워드 검사 대상인데 관련 단어가 없어 1차 거르기에서 빠지는 기사
+OFFTOPIC = replace(article("프로야구 개막전 전석 매진", "https://a.kr/99"), filter=True)
+
+
+def test_offtopic_articles_are_not_new_next_run(tmp_path, monkeypatch):
+    setup(monkeypatch, articles=ARTICLES + [OFFTOPIC])
+    record = main.run(data_dir=tmp_path)
+    assert record["new"] == 5 and record["relevant"] == 4
+    state = store.load_state(tmp_path)
+    assert OFFTOPIC.key in state["seen"]
+
+    # 같은 기사로 다시 실행하면 새 기사가 0건이고, 매체의 '마지막 새 기사' 시각도 그대로여야 함
+    state["sources"]["디일렉"]["last_new_at"] = "2000-01-01T00:00:00Z"
+    store.save_state(tmp_path, state)
+    record2 = main.run(data_dir=tmp_path)
+    assert record2["new"] == 0
+    assert store.load_state(tmp_path)["sources"]["디일렉"]["last_new_at"] == "2000-01-01T00:00:00Z"
+
+
 def test_ai_stopped_publishes_pending_then_retries(tmp_path, monkeypatch):
     setup(monkeypatch, {"stop_on_summary": True})
     record = main.run(data_dir=tmp_path)
@@ -109,9 +129,11 @@ def test_deferred_groups_are_processed_next_run(tmp_path, monkeypatch):
     # 서로 다른 기사 3건, 실행당 상한 1 → 세 번의 실행에 걸쳐 모두 처리돼야 함 (잃어버리면 안 됨)
     titles = ["LG디스플레이 8.6세대 OLED 투자 확정", "TSMC 2나노 미국 공장 양산 시작", "마이크론 일본 히로시마 HBM 증설"]
     feed = [article(t, f"https://d.kr/{i}") for i, t in enumerate(titles)]
-    setup(monkeypatch, articles=feed)
+    setup(monkeypatch, articles=feed + [OFFTOPIC])
     records = [main.run(data_dir=tmp_path, limit=1) for _ in range(3)]
     assert [r["deferred"] for r in records] == [2, 1, 0]
+    # 미룬 관련 기사는 다음 실행에서 다시 새 기사로 잡히고, 관련 없는 기사는 첫 실행에만 셈
+    assert [r["new"] for r in records] == [4, 2, 1]
     assert len(store.load_issues(tmp_path)) == 3
 
 
