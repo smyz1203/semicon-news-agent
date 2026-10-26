@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-26T19:19:29Z",
+  "updated_at": "2026-10-26T19:31:01Z",
   "issues": [
     {
       "id": "c20261026-0090",
@@ -74,13 +74,13 @@
       "companies": [
         "DB하이텍"
       ],
-      "event_type": "신제품·신기술·양산",
+      "event_type": "업계 일반",
       "confirmed": true,
       "parties": [
         "DB하이텍"
       ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점, 매체 4곳 보도 +1 → 5점(최고점)",
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 매체 4곳 보도 +1 → 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -121,7 +121,8 @@
           "published_at": "2026-10-26T10:13:03Z"
         }
       ],
-      "importance_raw": 6
+      "importance_raw": 3,
+      "type_checked": true
     },
     {
       "id": "c20261026-0111",
@@ -257,13 +258,13 @@
       "companies": [
         "LG디스플레이"
       ],
-      "event_type": "신제품·신기술·양산",
+      "event_type": "업계 일반",
       "confirmed": true,
       "parties": [
         "LG디스플레이"
       ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점, 관심 기업(LG디스플레이) +1 → 5점(최고점)",
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(LG디스플레이) +1 → 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -280,7 +281,8 @@
           "published_at": "2026-10-24T22:00:01Z"
         }
       ],
-      "importance_raw": 6
+      "importance_raw": 3,
+      "type_checked": true
     },
     {
       "id": "c20261026-0140",
@@ -298,13 +300,13 @@
         "불량 판별 기준"
       ],
       "companies": [],
-      "event_type": "신제품·신기술·양산",
+      "event_type": "업계 일반",
       "confirmed": true,
       "parties": [
         "국내 연구팀"
       ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점",
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -321,7 +323,8 @@
           "published_at": "2026-10-25T03:00:01Z"
         }
       ],
-      "importance_raw": 5
+      "importance_raw": 2,
+      "type_checked": true
     },
     {
       "id": "c20261026-0141",
@@ -437,14 +440,14 @@
         "삼성전자",
         "SK하이닉스"
       ],
-      "event_type": "신제품·신기술·양산",
+      "event_type": "설비 투자",
       "confirmed": true,
       "parties": [
         "삼성전자",
         "SK하이닉스"
       ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점, 관심 기업(삼성전자, SK하이닉스) +1 → 5점(최고점)",
+      "importance": 4,
+      "importance_reason": "설비 투자 3점, 관심 기업(삼성전자, SK하이닉스) +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -461,7 +464,8 @@
           "published_at": "2026-10-26T02:00:00Z"
         }
       ],
-      "importance_raw": 6
+      "importance_raw": 4,
+      "type_checked": true
     },
     {
       "id": "c20261026-0144",
@@ -481,13 +485,13 @@
       "companies": [
         "삼성전자"
       ],
-      "event_type": "신제품·신기술·양산",
+      "event_type": "업계 일반",
       "confirmed": true,
       "parties": [
         "삼성전자"
       ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점, 관심 기업(삼성전자) +1 → 5점(최고점)",
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(삼성전자) +1 → 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -504,7 +508,8 @@
           "published_at": "2026-10-26T02:09:31Z"
         }
       ],
-      "importance_raw": 6
+      "importance_raw": 3,
+      "type_checked": true
     },
     {
       "id": "c20261026-0145",
@@ -592,7 +597,8 @@
           "published_at": "2026-10-26T05:30:00Z"
         }
       ],
-      "importance_raw": 6
+      "importance_raw": 6,
+      "type_checked": true
     },
     {
       "id": "c20261026-0147",
@@ -657,13 +663,11 @@
       "companies": [
         "OPTOMAN"
       ],
-      "event_type": "신제품·신기술·양산",
+      "event_type": "업계 일반",
       "confirmed": true,
-      "parties": [
-        "OPTOMAN"
-      ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점",
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -680,7 +684,8 @@
           "published_at": "2026-10-26T12:55:37Z"
         }
       ],
-      "importance_raw": 5
+      "importance_raw": 2,
+      "type_checked": true
     },
     {
       "id": "c20261026-0149",
@@ -724,7 +729,8 @@
           "published_at": "2026-10-26T12:58:47Z"
         }
       ],
-      "importance_raw": 5
+      "importance_raw": 5,
+      "type_checked": true
     },
     {
       "id": "c20261026-0150",
@@ -836,13 +842,13 @@
       "companies": [
         "스팟파이어"
       ],
-      "event_type": "신제품·신기술·양산",
+      "event_type": "업계 일반",
       "confirmed": true,
       "parties": [
         "스팟파이어"
       ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점",
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -859,7 +865,8 @@
           "published_at": "2026-10-26T13:15:12Z"
         }
       ],
-      "importance_raw": 5
+      "importance_raw": 2,
+      "type_checked": true
     },
     {
       "id": "c20261026-0153",
@@ -903,7 +910,8 @@
           "published_at": "2026-10-26T18:30:33Z"
         }
       ],
-      "importance_raw": 5
+      "importance_raw": 5,
+      "type_checked": true
     },
     {
       "id": "c20261026-0098",
@@ -954,7 +962,8 @@
           "published_at": "2026-10-26T19:00:07Z"
         }
       ],
-      "importance_raw": 5
+      "importance_raw": 5,
+      "type_checked": true
     },
     {
       "id": "c20261026-0093",
@@ -1072,14 +1081,14 @@
         "삼성전자",
         "퀄컴"
       ],
-      "event_type": "신제품·신기술·양산",
+      "event_type": "실적",
       "confirmed": true,
       "parties": [
         "삼성전자",
         "퀄컴"
       ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점, 관심 기업(삼성전자) +1 → 5점(최고점)",
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자) +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -1104,7 +1113,8 @@
           "published_at": "2026-10-25T01:40:13Z"
         }
       ],
-      "importance_raw": 6
+      "importance_raw": 4,
+      "type_checked": true
     },
     {
       "id": "c20261026-0130",
@@ -1386,15 +1396,15 @@
         "한화시스템",
         "보잉"
       ],
-      "event_type": "신제품·신기술·양산",
+      "event_type": "설비 투자",
       "confirmed": true,
       "parties": [
         "LG디스플레이",
         "한화시스템",
         "보잉"
       ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점, 관심 기업(LG디스플레이) +1 → 5점(최고점)",
+      "importance": 4,
+      "importance_reason": "설비 투자 3점, 관심 기업(LG디스플레이) +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -1411,7 +1421,8 @@
           "published_at": "2026-10-25T03:00:05Z"
         }
       ],
-      "importance_raw": 6
+      "importance_raw": 4,
+      "type_checked": true
     },
     {
       "id": "c20261026-0137",
@@ -1496,13 +1507,13 @@
       "companies": [
         "연구진"
       ],
-      "event_type": "신제품·신기술·양산",
+      "event_type": "업계 일반",
       "confirmed": true,
       "parties": [
-        "연구진"
+        "한국"
       ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점",
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -1519,7 +1530,8 @@
           "published_at": "2026-10-25T04:30:29Z"
         }
       ],
-      "importance_raw": 5
+      "importance_raw": 2,
+      "type_checked": true
     },
     {
       "id": "c20261026-0089",
@@ -1674,13 +1686,13 @@
       "companies": [
         "ASM"
       ],
-      "event_type": "신제품·신기술·양산",
+      "event_type": "홍보·수상",
       "confirmed": true,
       "parties": [
         "ASM"
       ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점",
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -1697,7 +1709,8 @@
           "published_at": "2026-10-25T22:30:18Z"
         }
       ],
-      "importance_raw": 5
+      "importance_raw": 1,
+      "type_checked": true
     },
     {
       "id": "c20261026-0095",
@@ -1873,7 +1886,8 @@
           "published_at": "2026-10-25T22:31:15Z"
         }
       ],
-      "importance_raw": 5
+      "importance_raw": 5,
+      "type_checked": true
     },
     {
       "id": "c20261026-0100",
@@ -2247,13 +2261,13 @@
       "companies": [
         "삼성전자"
       ],
-      "event_type": "신제품·신기술·양산",
+      "event_type": "업계 일반",
       "confirmed": true,
       "parties": [
         "삼성전자"
       ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점, 관심 기업(삼성전자) +1 → 5점(최고점)",
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(삼성전자) +1 → 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -2270,7 +2284,8 @@
           "published_at": "2026-10-26T04:46:39Z"
         }
       ],
-      "importance_raw": 6
+      "importance_raw": 3,
+      "type_checked": true
     },
     {
       "id": "c20261026-0110",
@@ -2333,13 +2348,13 @@
       "companies": [
         "헨켈"
       ],
-      "event_type": "신제품·신기술·양산",
+      "event_type": "업계 일반",
       "confirmed": true,
       "parties": [
         "헨켈"
       ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점",
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -2356,7 +2371,8 @@
           "published_at": "2026-10-26T06:20:34Z"
         }
       ],
-      "importance_raw": 5
+      "importance_raw": 2,
+      "type_checked": true
     },
     {
       "id": "c20261026-0113",
@@ -2469,15 +2485,16 @@
         "퓨리오사AI",
         "경북IT융합산업기술원"
       ],
-      "event_type": "정책·규제·법",
+      "event_type": "지역·인프라",
       "confirmed": true,
       "parties": [
         "경북도",
         "퓨리오사AI",
+        "경산시",
         "경북IT융합산업기술원"
       ],
-      "importance": 4,
-      "importance_reason": "정책·규제·법 4점",
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -2494,7 +2511,8 @@
           "published_at": "2026-10-26T06:59:49Z"
         }
       ],
-      "importance_raw": 4
+      "importance_raw": 2,
+      "type_checked": true
     },
     {
       "id": "c20261026-0116",
@@ -2557,13 +2575,11 @@
         "공사 중단"
       ],
       "companies": [],
-      "event_type": "정책·규제·법",
+      "event_type": "지역·인프라",
       "confirmed": false,
-      "parties": [
-        "시민사회단체"
-      ],
-      "importance": 3,
-      "importance_reason": "정책·규제·법 4점, 미확정 -1 → 3점",
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -2580,7 +2596,8 @@
           "published_at": "2026-10-26T07:01:14Z"
         }
       ],
-      "importance_raw": 3
+      "importance_raw": 1,
+      "type_checked": true
     },
     {
       "id": "c20261026-0118",
@@ -2598,13 +2615,13 @@
         "변압기"
       ],
       "companies": [],
-      "event_type": "정책·규제·법",
+      "event_type": "지역·인프라",
       "confirmed": true,
       "parties": [
         "정부"
       ],
-      "importance": 4,
-      "importance_reason": "정책·규제·법 4점",
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -2621,7 +2638,8 @@
           "published_at": "2026-10-26T07:05:01Z"
         }
       ],
-      "importance_raw": 4
+      "importance_raw": 2,
+      "type_checked": true
     },
     {
       "id": "c20261026-0119",
@@ -2684,14 +2702,11 @@
         "사회격차"
       ],
       "companies": [],
-      "event_type": "정책·규제·법",
+      "event_type": "업계 일반",
       "confirmed": true,
-      "parties": [
-        "임문영 의원",
-        "여야 35인"
-      ],
-      "importance": 4,
-      "importance_reason": "정책·규제·법 4점",
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -2708,7 +2723,8 @@
           "published_at": "2026-10-26T07:51:45Z"
         }
       ],
-      "importance_raw": 4
+      "importance_raw": 2,
+      "type_checked": true
     },
     {
       "id": "c20261026-0121",
@@ -2725,13 +2741,13 @@
         "인재양성"
       ],
       "companies": [],
-      "event_type": "정책·규제·법",
+      "event_type": "지역·인프라",
       "confirmed": true,
       "parties": [
         "전라남도 교육청"
       ],
-      "importance": 4,
-      "importance_reason": "정책·규제·법 4점",
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -2748,7 +2764,8 @@
           "published_at": "2026-10-26T08:33:45Z"
         }
       ],
-      "importance_raw": 4
+      "importance_raw": 2,
+      "type_checked": true
     },
     {
       "id": "c20261026-0122",
@@ -2899,11 +2916,11 @@
         "항공기 기술"
       ],
       "companies": [],
-      "event_type": "신제품·신기술·양산",
-      "confirmed": false,
+      "event_type": "업계 일반",
+      "confirmed": true,
       "parties": [],
-      "importance": 4,
-      "importance_reason": "신제품·신기술·양산 5점, 미확정 -1 → 4점",
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -2920,7 +2937,8 @@
           "published_at": "2026-10-26T10:19:34Z"
         }
       ],
-      "importance_raw": 4
+      "importance_raw": 2,
+      "type_checked": true
     },
     {
       "id": "c20261026-0126",
@@ -2939,11 +2957,11 @@
         "기술 혁신"
       ],
       "companies": [],
-      "event_type": "신제품·신기술·양산",
+      "event_type": "업계 일반",
       "confirmed": false,
       "parties": [],
-      "importance": 4,
-      "importance_reason": "신제품·신기술·양산 5점, 미확정 -1 → 4점",
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -2960,7 +2978,8 @@
           "published_at": "2026-10-26T13:00:00Z"
         }
       ],
-      "importance_raw": 4
+      "importance_raw": 1,
+      "type_checked": true
     }
   ]
 }
