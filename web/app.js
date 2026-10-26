@@ -323,6 +323,29 @@ function renderCompanies(shown) {
   });
 }
 
+// ── 참고자료: 중요도 기준표 ─────────────────────────────────
+
+function renderRubric() {
+  const rubric = meta.rubric;
+  $("rubric").hidden = !rubric;  // 기준표가 없는 예전 데이터면 숨김
+  if (!rubric) return;
+  const scores = [...new Set(rubric.event_types.map((t) => t.score))].sort((a, b) => b - a);
+  $("rubric-base").replaceChildren(...scores.map((score) => h("tr", null,
+    h("td", null, h("span", { class: `imp imp-${score}` }, `${score}점`)),
+    h("td", null, h("div", { class: "rubric-types" },
+      rubric.event_types.filter((t) => t.score === score)
+        .map((t) => h("span", { class: "rubric-type", title: t.desc }, t.name)))),
+  )));
+  $("rubric-adjust").replaceChildren(...rubric.adjust.map((a) => h("tr", null,
+    h("td", { class: "num rubric-value" }, a.value > 0 ? `+${a.value}` : `−${-a.value}`),
+    h("td", null, a.condition),
+  )));
+  $("rubric-watch").replaceChildren(...rubric.watch_companies.map((name, i) => h("tr", null,
+    h("td", { class: "num" }, i + 1),
+    h("td", null, name),
+  )));
+}
+
 // ── 화면 2. 수집 현황 ────────────────────────────────────────
 
 function renderMeta() {
@@ -523,6 +546,7 @@ async function load(version = window.BUILD || Date.now()) {
     return;
   }
   renderMeta();
+  renderRubric();
   render();
   resumeLocalJob();
   startAutoWatch();

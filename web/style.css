@@ -527,6 +527,20 @@ details[open] > .toggle::after { content: " ▴"; }
 .runs .zero { color: var(--faint); }
 .runs tr.alert td:first-child::after { content: " 경고"; color: var(--error-ink); font-size: 12px; font-weight: 600; }
 
+/* ── 참고자료: 중요도 기준표 ── */
+.rubric-formula { margin: 0 0 12px; color: var(--muted); }
+.rubric-grid { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: var(--gap); align-items: start; }
+.panel-head h3 { font-size: 14px; font-weight: 600; }
+.rubric-table { width: 100%; border-collapse: collapse; }
+.rubric-table th { text-align: left; font-weight: 400; color: var(--faint); font-size: 12px; padding: 0 12px 8px 0; border-bottom: 1px solid var(--border); white-space: nowrap; }
+.rubric-table td { padding: 9px 12px 9px 0; border-top: 1px solid var(--rule); vertical-align: top; }
+.rubric-table tr:first-child td { border-top: 0; }
+.rubric-table th:first-child, .rubric-table td:first-child { width: 1%; white-space: nowrap; }
+.rubric-table th:last-child, .rubric-table td:last-child { padding-right: 0; }
+.rubric-value { font-weight: 600; }
+.rubric-types { display: flex; flex-wrap: wrap; gap: 6px; }
+.rubric-type { display: inline-flex; align-items: center; height: 22px; padding: 0 8px; border-radius: var(--radius-chip); background: var(--raised); font-size: 13px; cursor: help; }
+
 .footer {
   max-width: calc(var(--column) + 48px);
   margin: 0 auto;
@@ -546,6 +560,7 @@ details[open] > .toggle::after { content: " ▴"; }
   .row-title, .row-cat { white-space: normal; }
   .source-list .name { white-space: normal; }
   .row .detail { padding-left: calc(var(--pad) + 96px + 16px); }
+  .rubric-grid { grid-template-columns: minmax(0, 1fr); }
 }
 
 /* ── 휴대폰 ── */
@@ -572,10 +587,11 @@ details[open] > .toggle::after { content: " ▴"; }
   .runs th:first-child, .runs td:first-child { position: sticky; left: 0; z-index: 1; background: var(--surface); }
 
   .overview, .top-grid, .ops-grid { grid-template-columns: 1fr; }
-  /* 휴대폰에서는 뉴스가 먼저: 주요 이슈 → 그래프 → 그 밖의 이슈 */
+  /* 휴대폰에서는 뉴스가 먼저: 주요 이슈 → 그래프 → 그 밖의 이슈 → 중요도 기준표 */
   #view-brief:not([hidden]) { display: flex; flex-direction: column; }
   #view-brief .overview { order: 2; }
-  #view-brief .block:last-child { order: 3; }
+  #view-brief [aria-labelledby="all-title"] { order: 3; }
+  #view-brief .rubric { order: 4; }
   .source-list { grid-template-columns: minmax(0, 1fr); grid-template-rows: none; grid-auto-flow: row; }
 
   /* 목록 행: 두 줄 (중요도·제목 / 분야·매체·시각) */
