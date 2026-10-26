@@ -437,17 +437,8 @@ details[open] > .toggle::after { content: " ▴"; }
 }
 .issue-cols { height: 38px; color: var(--faint); font-size: 12px; border-bottom: 1px solid var(--border); }
 .issue-cols .num { text-align: right; }
-.day-head {
-  display: flex;
-  gap: 8px;
-  align-items: baseline;
-  padding: 14px var(--pad) 6px;
-  font-size: 13px;
-  font-weight: 600;
-}
-.day-head .num { color: var(--faint); font-weight: 400; }
 .row { border-top: 1px solid var(--rule); }
-.day-head + .row { border-top: 0; }
+.row:first-child { border-top: 0; }
 .row > summary { min-height: 46px; cursor: pointer; list-style: none; }
 .row > summary::-webkit-details-marker { display: none; }
 .row > summary:hover { background: var(--ground); }
