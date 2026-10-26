@@ -7,11 +7,9 @@ __pycache__/
 # 비밀값 (절대 커밋 금지)
 .env
 
-# 빌드 결과 (Actions·Vercel이 매번 새로 만듦)
+# 빌드 결과 (Actions가 매번 새로 만듦)
 _site/
 _site.tmp/
-.vercel-venv/
-.vercel/
 
 # 내 PC 서버(python -m agent.serve)용 페이지
 local-site/
