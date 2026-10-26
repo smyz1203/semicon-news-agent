@@ -103,6 +103,7 @@ button, input, select { font: inherit; color: inherit; }
   place-items: center;
   cursor: pointer;
 }
+.refresh[hidden] { display: none; }
 .refresh:hover { background: rgba(255, 255, 255, 0.08); color: #ffffff; }
 .refresh:focus-visible { outline: 2px solid var(--gold); outline-offset: 1px; }
 .refresh svg { width: 18px; height: 18px; fill: none; stroke: currentColor; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round; }

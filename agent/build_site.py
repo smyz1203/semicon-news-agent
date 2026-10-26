@@ -24,7 +24,8 @@ ISSUE_FIELDS = ("id", "headline", "summary", "category", "tags", "companies", "i
 ARTICLE_FIELDS = ("title", "url", "source", "lang", "published_at")
 
 
-def build(data_dir: Path = DATA_DIR, out_dir: Path = SITE_DIR) -> Path:
+def build(data_dir: Path = DATA_DIR, out_dir: Path = SITE_DIR, local: bool = False) -> Path:
+    """local=True면 내 PC 서버(agent.serve)용: 새로고침 버튼이 GitHub 대신 내 PC에서 Agent를 실행한다."""
     cfg = load_config()
     now = datetime.now(timezone.utc)
     issues = store.read_json(data_dir / "issues.json", {"version": store.SCHEMA_VERSION, "issues": []})
@@ -39,6 +40,7 @@ def build(data_dir: Path = DATA_DIR, out_dir: Path = SITE_DIR) -> Path:
         "ai": _ai_label(cfg.settings, runs),
         # '지금 업데이트' 버튼이 실행을 요청할 저장소. Actions에서는 GitHub이 알려주는 값을 우선 사용
         "repo": os.environ.get("GITHUB_REPOSITORY") or cfg.settings.get("github_repo"),
+        "mode": "local" if local else "github",
         "sources": [_source_status(s, state["sources"].get(s.id, {})) for s in cfg.sources],
         "runs": [{k: r.get(k) for k in RUN_FIELDS} for r in runs[-24:]],
     }
@@ -48,16 +50,25 @@ def build(data_dir: Path = DATA_DIR, out_dir: Path = SITE_DIR) -> Path:
         "issues": [_public_issue(i) for i in issues["issues"]],
     }
 
-    shutil.rmtree(out_dir, ignore_errors=True)
-    shutil.copytree(WEB_DIR, out_dir)
-    store.write_json(out_dir / "data" / "issues.json", published)
-    store.write_json(out_dir / "data" / "meta.json", meta)
+    # 옆 폴더에 먼저 다 만든 뒤 바꿔치기 (로컬 서버가 페이지를 보여주는 중에도 반쯤 만든 폴더가 보이지 않게)
+    tmp = out_dir.with_name(out_dir.name + ".tmp")
+    shutil.rmtree(tmp, ignore_errors=True)
+    shutil.copytree(WEB_DIR, tmp, dirs_exist_ok=True)  # 지난번 임시 폴더가 다 안 지워졌어도 덮어씀
+    store.write_json(tmp / "data" / "issues.json", published)
+    store.write_json(tmp / "data" / "meta.json", meta)
 
     # 브라우저가 예전 파일을 캐시해서 보여주지 않도록 빌드 시각을 주소에 붙임
-    index = out_dir / "index.html"
+    index = tmp / "index.html"
     index.write_text(index.read_text(encoding="utf-8").replace("__BUILD__", now.strftime("%Y%m%d%H%M%S")),
                      encoding="utf-8", newline="\n")
-    (out_dir / ".nojekyll").touch()
+    (tmp / ".nojekyll").touch()
+
+    shutil.rmtree(out_dir, ignore_errors=True)
+    try:
+        tmp.rename(out_dir)
+    except OSError:  # 윈도에서 파일이 잠시 잠겨 옛 폴더를 다 지우지 못한 경우: 내용만 덮어씀
+        shutil.copytree(tmp, out_dir, dirs_exist_ok=True)
+        shutil.rmtree(tmp, ignore_errors=True)
     return out_dir
 
 
@@ -98,8 +109,9 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="웹 페이지(_site/) 만들기")
     parser.add_argument("--data-dir", type=Path, default=DATA_DIR)
     parser.add_argument("--out-dir", type=Path, default=SITE_DIR)
+    parser.add_argument("--local", action="store_true", help="내 PC 서버(agent.serve)용으로 만들기")
     args = parser.parse_args()
-    out = build(args.data_dir, args.out_dir)
+    out = build(args.data_dir, args.out_dir, local=args.local)
     print(f"완료: {out}")
 
 

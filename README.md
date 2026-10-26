@@ -45,6 +45,7 @@ agent/          Python Agent
   store.py        JSON 저장
   build_site.py   웹페이지 만들기
   health.py       실행 결과 점검
+  serve.py        내 PC(localhost)에서 웹페이지 + 실행 서버
 config/         설정 (모델, 한도, 카테고리, 중요도 기준, RSS 목록)
 data/           Agent 결과 (Actions가 자동 커밋)
 web/            웹페이지 (HTML/CSS/JS)
@@ -52,31 +53,39 @@ tests/          테스트
 docs/design.md  설계 문서
 ```
 
-## 내 컴퓨터에서 실행하기
+## 내 컴퓨터에서 실행하기 (localhost, GitHub 없이)
 
-Windows PowerShell 기준입니다.
+Agent와 웹페이지를 내 PC에서 함께 띄울 수 있습니다. 이때 상단 새로고침 버튼은 GitHub 대신 **내 PC에서 Agent를 실행**하며, 토큰이 필요 없습니다.
+
+처음 한 번 (Windows PowerShell):
 
 ```powershell
-# 1. 가상환경 만들기와 패키지 설치 (처음 한 번)
+# 1. 가상환경 만들기와 패키지 설치
 py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 
 # 2. API 키 넣기: .env.example을 복사해 .env를 만들고 OPENAI_API_KEY(또는 Claude면 ANTHROPIC_API_KEY)를 붙여넣기
 Copy-Item .env.example .env
 notepad .env
+```
 
-# 3. AI 없이 수집만 해보기 (비용 0원)
-.\.venv\Scripts\python.exe -m agent.main --dry-run
+실행: 폴더의 **`run-local.cmd`를 더블클릭**하거나 아래 명령을 실행하면 브라우저에 `http://localhost:8000`이 열립니다.
 
-# 4. 소량만 실제로 실행 (결과는 local-data/ 폴더에, GitHub에는 안 올라감)
-.\.venv\Scripts\python.exe -m agent.main --limit 5 --data-dir local-data
+```powershell
+.\.venv\Scripts\python.exe -m agent.serve                 # 새로고침 버튼으로 실행
+.\.venv\Scripts\python.exe -m agent.serve --every 180     # 켜 두는 동안 180분마다 자동 실행
+.\.venv\Scripts\python.exe -m agent.serve --run-now       # 켜자마자 한 번 실행
+```
 
-# 5. 웹페이지 미리보기 → 브라우저에서 http://localhost:8000
-.\.venv\Scripts\python.exe -m agent.build_site --data-dir local-data
-.\.venv\Scripts\python.exe -m http.server 8000 -d _site
+- 결과는 `local-data/` 폴더에 저장되며 GitHub에 올라가지 않습니다 (GitHub에서 도는 데이터 `data/`와 섞이지 않음).
+- 이 컴퓨터에서만 접속할 수 있고, 실행 요청은 이 페이지의 버튼에서 온 것만 받습니다.
 
-# 테스트
-.\.venv\Scripts\python.exe -m pytest -q
+그 밖의 명령:
+
+```powershell
+.\.venv\Scripts\python.exe -m agent.main --dry-run                          # AI 없이 수집만 (비용 0원)
+.\.venv\Scripts\python.exe -m agent.main --limit 5 --data-dir local-data    # 소량만 실행
+.\.venv\Scripts\python.exe -m pytest -q                                     # 테스트
 ```
 
 ## 설정 바꾸기

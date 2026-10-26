@@ -1,3 +1,6 @@
 * text=auto eol=lf
+# 윈도 명령 파일은 CRLF여야 cmd.exe가 제대로 읽음
+*.cmd text eol=crlf
+*.bat text eol=crlf
 *.png binary
 *.jpg binary
