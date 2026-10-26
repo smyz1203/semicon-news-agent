@@ -81,14 +81,22 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
         ai_stopped = "ANTHROPIC_API_KEY가 설정되지 않음"
 
     # ── F3 AI 이슈 묶기·분류 ─────────────────────────────────
+    # 묶기를 못 하면(키 없음, AI 중단, 실패) 새 이슈를 만들지 않고 다음 실행으로 미룸.
+    # 묶지 않은 채 이슈를 만들면 나중에 AI가 돌아와도 중복 이슈가 그대로 남기 때문.
     targets: dict[int, str | None] = {}
-    if analyzer and to_ai:
+    if to_ai:
         try:
+            if not analyzer:
+                raise AIStopped(ai_stopped)
             targets = analyzer.cluster(to_ai, active)
-        except AIError as e:
-            log.warning("이슈 묶기 실패, 묶음마다 새 이슈로 처리: %s", e)
-        except AIStopped as e:
-            ai_stopped = str(e)
+        except (AIError, AIStopped) as e:
+            if isinstance(e, AIStopped):
+                ai_stopped = str(e)
+            log.warning("이슈 묶기를 못 해 새 기사 묶음 %d개를 다음 실행으로 미룸: %s", len(to_ai), e)
+            deferred = deferred + to_ai
+            to_ai = []
+            deferred_ids = {id(g) for g in deferred}
+            processed = [g for g in groups if id(g) not in deferred_ids]
     index_of = {id(g): i for i, g in enumerate(to_ai)}
 
     by_id = {i["id"]: i for i in issues}

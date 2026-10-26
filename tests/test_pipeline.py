@@ -120,11 +120,30 @@ def test_failed_resummary_is_retried(tmp_path, monkeypatch):
     assert issue["needs_summary"] is False
 
 
-def test_without_api_key_everything_is_pending(tmp_path, monkeypatch):
+def test_without_api_key_articles_wait_for_next_run(tmp_path, monkeypatch):
     setup(monkeypatch)
     monkeypatch.delenv("ANTHROPIC_API_KEY")
     record = main.run(data_dir=tmp_path)
-    issues = store.load_issues(tmp_path)
-    # AI가 없으면 관련성 판단도 못 하므로, 1차 거르기를 통과한 묶음마다 요약 대기 이슈가 됨
-    assert issues and all(i["status"] == "pending" for i in issues)
-    assert "ANTHROPIC_API_KEY" in record["ai_stopped"]
+    # AI 없이 이슈를 만들면 중복이 남으므로, 아무 이슈도 만들지 않고 기사도 '본 것'으로 기록하지 않음
+    assert store.load_issues(tmp_path) == []
+    assert store.load_state(tmp_path)["seen"] == {}
+    assert "ANTHROPIC_API_KEY" in record["ai_stopped"] and record["deferred"] == 3
+
+    # 키가 생기면 미뤘던 기사가 정상적으로 묶여 처리됨
+    setup(monkeypatch)
+    main.run(data_dir=tmp_path)
+    [issue] = store.load_issues(tmp_path)
+    assert issue["status"] == "summarized" and len(issue["articles"]) == 3
+
+
+def test_cluster_failure_defers_instead_of_creating_unmerged_issues(tmp_path, monkeypatch):
+    from agent.analyze import AIError
+
+    class Failing(FakeAnalyzer):
+        def cluster(self, groups, active):
+            raise AIError("응답 형식 오류")
+
+    setup(monkeypatch)
+    monkeypatch.setattr(main, "Analyzer", lambda s: Failing(s))
+    record = main.run(data_dir=tmp_path)
+    assert store.load_issues(tmp_path) == [] and record["deferred"] == 3
