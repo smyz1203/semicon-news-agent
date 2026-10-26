@@ -163,7 +163,8 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
         except AIStopped as e:
             ai_stopped = str(e)
 
-    # 예전 방식(AI가 점수를 매김)으로 요약한 이슈나, 기준표의 사건 유형이 바뀐 이슈는 분류만 다시 함 (요약은 그대로)
+    # 예전 방식(AI가 점수를 매김)으로 요약한 이슈, 기준표의 사건 유형이 바뀐 이슈, 점수가 높은 유형을 아직 확인하지 않은
+    # 이슈는 분류만 다시 함 (요약은 그대로)
     scorer = Scorer(s)
     reclassify = [i for i in issues
                   if scorer.needs_classification(i) and i.get("attempts", 0) < limits["summary_max_attempts"]]
