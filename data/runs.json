@@ -1,0 +1,28 @@
+[
+  {
+    "at": "2026-10-26T12:01:53Z",
+    "collected": 416,
+    "new": 416,
+    "relevant": 92,
+    "groups": 90,
+    "deferred": 10,
+    "irrelevant_by_ai": 38,
+    "new_issues": 42,
+    "summarized": 30,
+    "pending": 12,
+    "sources_ok": 17,
+    "sources_total": 18,
+    "ai_model": "openai/gpt-4o-mini",
+    "ai_calls": 31,
+    "tokens": {
+      "calls": 31,
+      "input": 49636,
+      "output": 6517,
+      "cache_write": 0,
+      "cache_read": 0
+    },
+    "cost_usd": 0.0114,
+    "ai_stopped": null,
+    "alerts": []
+  }
+]
