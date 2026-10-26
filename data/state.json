@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "last_success_at": "2026-10-26T23:28:17Z",
+  "last_success_at": "2026-10-26T23:44:15Z",
   "seen": {
     "67e888f32aff56da": "2026-10-26T18:29:43Z",
     "8b13c5c997482746": "2026-10-26T18:29:43Z",
@@ -660,7 +660,14 @@
     "e4064d9664f82e64": "2026-10-26T23:28:17Z",
     "a5644d44b0a1e01c": "2026-10-26T23:28:17Z",
     "d481c632b0293378": "2026-10-26T23:28:17Z",
-    "55511074092bc9e9": "2026-10-26T23:28:17Z"
+    "55511074092bc9e9": "2026-10-26T23:28:17Z",
+    "11b93aa6ad333dd8": "2026-10-26T23:44:15Z",
+    "6be5307bc1373157": "2026-10-26T23:44:15Z",
+    "5eaeb465399803f4": "2026-10-26T23:44:15Z",
+    "6a39c12fb948c5c3": "2026-10-26T23:44:15Z",
+    "36adea29d6cf6b4f": "2026-10-26T23:44:15Z",
+    "514ea2cead395720": "2026-10-26T23:44:15Z",
+    "052bc357b291ae58": "2026-10-26T23:44:15Z"
   },
   "sources": {
     "thelec-semi": {
@@ -683,67 +690,67 @@
     },
     "etnews": {
       "fail_streak": 0,
-      "last_checked_at": "2026-10-26T23:28:17Z",
-      "last_ok_at": "2026-10-26T23:28:17Z",
+      "last_checked_at": "2026-10-26T23:44:15Z",
+      "last_ok_at": "2026-10-26T23:44:15Z",
       "last_new_at": "2026-10-26T18:35:59Z"
     },
     "kipost": {
       "fail_streak": 0,
-      "last_checked_at": "2026-10-26T23:28:17Z",
-      "last_ok_at": "2026-10-26T23:28:17Z",
+      "last_checked_at": "2026-10-26T23:44:15Z",
+      "last_ok_at": "2026-10-26T23:44:15Z",
       "last_new_at": "2026-10-26T18:35:59Z"
     },
     "dt-ict": {
       "fail_streak": 0,
-      "last_checked_at": "2026-10-26T23:28:17Z",
-      "last_ok_at": "2026-10-26T23:28:17Z",
+      "last_checked_at": "2026-10-26T23:44:15Z",
+      "last_ok_at": "2026-10-26T23:44:15Z",
       "last_new_at": "2026-10-26T23:28:17Z"
     },
     "dt-industry": {
       "fail_streak": 0,
-      "last_checked_at": "2026-10-26T23:28:17Z",
-      "last_ok_at": "2026-10-26T23:28:17Z",
+      "last_checked_at": "2026-10-26T23:44:15Z",
+      "last_ok_at": "2026-10-26T23:44:15Z",
       "last_new_at": "2026-10-26T23:28:17Z"
     },
     "yna-industry": {
       "fail_streak": 0,
-      "last_checked_at": "2026-10-26T23:28:17Z",
-      "last_ok_at": "2026-10-26T23:28:17Z",
-      "last_new_at": "2026-10-26T23:28:17Z"
+      "last_checked_at": "2026-10-26T23:44:15Z",
+      "last_ok_at": "2026-10-26T23:44:15Z",
+      "last_new_at": "2026-10-26T23:44:15Z"
     },
     "zdnet-kr": {
       "fail_streak": 0,
-      "last_checked_at": "2026-10-26T23:28:17Z",
-      "last_ok_at": "2026-10-26T23:28:17Z",
+      "last_checked_at": "2026-10-26T23:44:15Z",
+      "last_ok_at": "2026-10-26T23:44:15Z",
       "last_new_at": "2026-10-26T22:48:57Z"
     },
     "semieng": {
       "fail_streak": 0,
-      "last_checked_at": "2026-10-26T23:28:17Z",
-      "last_ok_at": "2026-10-26T23:28:17Z",
+      "last_checked_at": "2026-10-26T23:44:15Z",
+      "last_ok_at": "2026-10-26T23:44:15Z",
       "last_new_at": "2026-10-26T18:29:43Z"
     },
     "toms-semi": {
       "fail_streak": 0,
-      "last_checked_at": "2026-10-26T23:28:17Z",
-      "last_ok_at": "2026-10-26T23:28:17Z",
+      "last_checked_at": "2026-10-26T23:44:15Z",
+      "last_ok_at": "2026-10-26T23:44:15Z",
       "last_new_at": "2026-10-26T18:29:43Z"
     },
     "oled-info": {
       "fail_streak": 0,
-      "last_checked_at": "2026-10-26T23:28:17Z",
-      "last_ok_at": "2026-10-26T23:28:17Z",
+      "last_checked_at": "2026-10-26T23:44:15Z",
+      "last_ok_at": "2026-10-26T23:44:15Z",
       "last_new_at": "2026-10-26T19:02:04Z"
     },
     "trendforce-semi": {
       "fail_streak": 0,
-      "last_checked_at": "2026-10-26T23:28:17Z",
-      "last_ok_at": "2026-10-26T23:28:17Z"
+      "last_checked_at": "2026-10-26T23:44:15Z",
+      "last_ok_at": "2026-10-26T23:44:15Z"
     },
     "trendforce-display": {
       "fail_streak": 0,
-      "last_checked_at": "2026-10-26T23:28:17Z",
-      "last_ok_at": "2026-10-26T23:28:17Z"
+      "last_checked_at": "2026-10-26T23:44:15Z",
+      "last_ok_at": "2026-10-26T23:44:15Z"
     },
     "thelec-en": {
       "fail_streak": 0,
@@ -753,44 +760,44 @@
     },
     "eetimes": {
       "fail_streak": 0,
-      "last_checked_at": "2026-10-26T23:28:17Z",
-      "last_ok_at": "2026-10-26T23:28:17Z",
+      "last_checked_at": "2026-10-26T23:44:15Z",
+      "last_ok_at": "2026-10-26T23:44:15Z",
       "last_new_at": "2026-10-26T22:48:57Z"
     },
     "digitimes": {
       "fail_streak": 0,
-      "last_checked_at": "2026-10-26T23:28:17Z",
-      "last_ok_at": "2026-10-26T23:28:17Z",
+      "last_checked_at": "2026-10-26T23:44:15Z",
+      "last_ok_at": "2026-10-26T23:44:15Z",
       "last_new_at": "2026-10-26T18:35:59Z"
     },
     "koreaherald": {
       "fail_streak": 0,
-      "last_checked_at": "2026-10-26T23:28:17Z",
-      "last_ok_at": "2026-10-26T23:28:17Z",
+      "last_checked_at": "2026-10-26T23:44:15Z",
+      "last_ok_at": "2026-10-26T23:44:15Z",
       "last_new_at": "2026-10-26T18:35:59Z"
     },
     "thelec": {
       "fail_streak": 0,
-      "last_checked_at": "2026-10-26T23:28:17Z",
-      "last_ok_at": "2026-10-26T23:28:17Z",
+      "last_checked_at": "2026-10-26T23:44:15Z",
+      "last_ok_at": "2026-10-26T23:44:15Z",
       "last_new_at": "2026-10-26T22:48:57Z"
     },
     "inews24-it": {
       "fail_streak": 0,
-      "last_checked_at": "2026-10-26T23:28:17Z",
-      "last_ok_at": "2026-10-26T23:28:17Z",
-      "last_new_at": "2026-10-26T22:48:57Z"
+      "last_checked_at": "2026-10-26T23:44:15Z",
+      "last_ok_at": "2026-10-26T23:44:15Z",
+      "last_new_at": "2026-10-26T23:44:15Z"
     },
     "epnc": {
       "fail_streak": 0,
-      "last_checked_at": "2026-10-26T23:28:17Z",
-      "last_ok_at": "2026-10-26T23:28:17Z",
-      "last_new_at": "2026-10-26T19:07:39Z"
+      "last_checked_at": "2026-10-26T23:44:15Z",
+      "last_ok_at": "2026-10-26T23:44:15Z",
+      "last_new_at": "2026-10-26T23:44:15Z"
     },
     "semidigest": {
       "fail_streak": 0,
-      "last_checked_at": "2026-10-26T23:28:17Z",
-      "last_ok_at": "2026-10-26T23:28:17Z",
+      "last_checked_at": "2026-10-26T23:44:15Z",
+      "last_ok_at": "2026-10-26T23:44:15Z",
       "last_new_at": "2026-10-26T19:07:39Z"
     }
   },
