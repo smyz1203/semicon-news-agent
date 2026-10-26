@@ -156,6 +156,10 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
 
     # ── F5 저장 ──────────────────────────────────────────────
     store.mark_seen(state, (a.key for g in processed for a in g.articles), now)
+    # 1차 거르기에서 빠진 기사도 기록해야 다음 실행에서 또 '새 기사'로 세지 않음
+    # (미룬 관련 기사는 다음 실행에서 다시 처리하도록 기록하지 않음)
+    relevant_keys = {a.key for a in relevant}
+    store.mark_seen(state, (a.key for a in fresh if a.key not in relevant_keys), now)
     store.prune_seen(state, s["retention"]["seen_url_days"], now)
     store.update_source_health(state, results, now)
     issues = store.archive_old(data_dir, issues, s["retention"]["issues_days"], now)
