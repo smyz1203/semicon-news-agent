@@ -15,7 +15,8 @@ from agent import store
 from agent.config import DATA_DIR, SITE_DIR, WEB_DIR, load_config
 
 RUN_FIELDS = ("at", "collected", "relevant", "groups", "deferred", "new_issues", "summarized", "pending",
-              "sources_ok", "sources_total", "cost_usd", "alerts")
+              "sources_ok", "sources_total", "ai_model", "cost_usd", "alerts")
+AI_NAMES = {"openai": "OpenAI", "claude": "Claude"}
 # 웹에 게시하는 필드만 골라 담음 (내부 관리용 필드나 실수로 들어간 값이 공개되지 않도록)
 ISSUE_FIELDS = ("id", "headline", "summary", "category", "tags", "companies", "importance", "importance_reason",
                 "status", "region", "first_seen", "updated_at")
@@ -34,6 +35,7 @@ def build(data_dir: Path = DATA_DIR, out_dir: Path = SITE_DIR) -> Path:
         "last_run_at": runs[-1]["at"] if runs else None,
         "last_success_at": state["last_success_at"],
         "categories": cfg.settings["categories"],
+        "ai": _ai_label(cfg.settings, runs),
         "sources": [_source_status(s, state["sources"].get(s.id, {})) for s in cfg.sources],
         "runs": [{k: r.get(k) for k in RUN_FIELDS} for r in runs[-24:]],
     }
@@ -54,6 +56,22 @@ def build(data_dir: Path = DATA_DIR, out_dir: Path = SITE_DIR) -> Path:
                      encoding="utf-8", newline="\n")
     (out_dir / ".nojekyll").touch()
     return out_dir
+
+
+def _ai_label(settings: dict, runs: list[dict]) -> str:
+    """요약을 실제로 만든 모델 이름. 실행 기록에 남은 모델을 쓰고, 기록이 없으면 현재 설정을 씀."""
+    used = []
+    for r in reversed(runs):  # 최근 실행부터
+        if r.get("ai_model") and r.get("summarized") and r["ai_model"] not in used:
+            used.append(r["ai_model"])
+    if not used:
+        provider = settings.get("provider", "")
+        used = [f"{provider}/{settings.get(provider, {}).get('model', '')}"]
+    labels = []
+    for value in used:
+        provider, _, model = value.partition("/")
+        labels.append(f"{AI_NAMES.get(provider, provider)} {model}".strip())
+    return ", ".join(labels)
 
 
 def _public_issue(issue: dict) -> dict:

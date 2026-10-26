@@ -24,6 +24,8 @@ RESULTS = {"디일렉": {"ok": True, "count": 3}, "전자신문": {"ok": True, "
 
 
 class FakeAnalyzer:
+    model = "fake-model"
+
     def __init__(self, settings, stop_on_summary=False):
         self.usage = {"calls": 0, "input": 0, "output": 0, "cache_write": 0, "cache_read": 0}
         self.stop_on_summary = stop_on_summary
@@ -53,8 +55,15 @@ class FakeAnalyzer:
         return 0.01
 
 
+from agent.analyze import KEY_ENV as KEYS  # noqa: E402
+from agent.config import load_config  # noqa: E402
+
+# 설정의 provider에 맞는 키 이름 (provider를 claude로 바꿔도 테스트가 그대로 동작하도록)
+KEY_ENV = KEYS[load_config().settings["provider"]]
+
+
 def setup(monkeypatch, analyzer_kwargs=None, articles=None):
-    monkeypatch.setenv("ANTHROPIC_API_KEY", "test")
+    monkeypatch.setenv(KEY_ENV, "test")
     feed = ARTICLES if articles is None else articles
     monkeypatch.setattr(main, "collect", lambda cfg, now: (list(feed), {k: dict(v) for k, v in RESULTS.items()}))
     monkeypatch.setattr(main, "Analyzer", lambda s: FakeAnalyzer(s, **(analyzer_kwargs or {})))
@@ -122,18 +131,27 @@ def test_failed_resummary_is_retried(tmp_path, monkeypatch):
 
 def test_without_api_key_articles_wait_for_next_run(tmp_path, monkeypatch):
     setup(monkeypatch)
-    monkeypatch.delenv("ANTHROPIC_API_KEY")
+    monkeypatch.delenv(KEY_ENV)
     record = main.run(data_dir=tmp_path)
     # AI 없이 이슈를 만들면 중복이 남으므로, 아무 이슈도 만들지 않고 기사도 '본 것'으로 기록하지 않음
     assert store.load_issues(tmp_path) == []
     assert store.load_state(tmp_path)["seen"] == {}
-    assert "ANTHROPIC_API_KEY" in record["ai_stopped"] and record["deferred"] == 3
+    assert KEY_ENV in record["ai_stopped"] and record["deferred"] == 3
 
     # 키가 생기면 미뤘던 기사가 정상적으로 묶여 처리됨
     setup(monkeypatch)
     main.run(data_dir=tmp_path)
     [issue] = store.load_issues(tmp_path)
     assert issue["status"] == "summarized" and len(issue["articles"]) == 3
+
+
+def test_invalid_provider_stops_with_clear_message(tmp_path, monkeypatch):
+    import pytest
+    real = load_config()
+    real.settings["provider"] = "gemini"
+    monkeypatch.setattr(main, "load_config", lambda: real)
+    with pytest.raises(SystemExit, match="provider"):
+        main.run(data_dir=tmp_path)
 
 
 def test_cluster_failure_defers_instead_of_creating_unmerged_issues(tmp_path, monkeypatch):

@@ -36,6 +36,8 @@ jobs:
       - name: Agent 실행 (수집 → 묶기 → 요약 → 저장)
         run: python -m agent.main
         env:
+          # config/settings.yaml의 provider에 맞는 키만 쓰임 (openai → OPENAI_API_KEY, claude → ANTHROPIC_API_KEY)
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
 
       - name: 데이터 커밋

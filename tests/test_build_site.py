@@ -10,7 +10,10 @@ def test_build_site(tmp_path):
     store.save_issues(data, [{"id": "c1", "updated_at": "2026-10-26T03:17:00Z", "headline": "반도체",
                               "attempts": 1, "needs_summary": False, "secret": "x",
                               "articles": [{"key": "k", "title": "t", "url": "https://a.kr", "text": "본문"}]}], now)
-    store.append_run(data, {"at": "2026-10-26T03:17:00Z", "relevant": 5, "tokens": {"input": 1}}, keep=10)
+    store.append_run(data, {"at": "2026-10-26T00:17:00Z", "relevant": 5, "summarized": 2,
+                            "ai_model": "claude/claude-sonnet-5-5"}, keep=10)
+    store.append_run(data, {"at": "2026-10-26T03:17:00Z", "relevant": 5, "summarized": 3,
+                            "ai_model": "openai/gpt-4o-mini", "tokens": {"input": 1}}, keep=10)
 
     build_site.build(data, out)
 
@@ -24,6 +27,8 @@ def test_build_site(tmp_path):
     assert set(issue["articles"][0]) == {"title", "url", "source", "lang", "published_at"}
     meta = json.loads((out / "data" / "meta.json").read_text(encoding="utf-8"))
     assert meta["last_run_at"] == "2026-10-26T03:17:00Z"
+    # 화면의 AI 이름은 실제로 요약을 만든 모델들 (최근 것부터)
+    assert meta["ai"] == "OpenAI gpt-4o-mini, Claude claude-sonnet-5-5"
     assert "tokens" not in meta["runs"][0]  # 웹에는 필요한 필드만
     assert len(meta["sources"]) >= 10 and {"name", "ok"} <= set(meta["sources"][0])
     assert (out / ".nojekyll").exists()

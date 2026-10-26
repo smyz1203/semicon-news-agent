@@ -88,6 +88,29 @@ def test_drop_irrelevant_only_checks_filtered_sources():
     assert not kw.is_relevant("microchip-free gadget")
 
 
+def test_guard_ai_merges_rejects_different_companies():
+    from agent.dedupe import guard_ai_merges
+    groups = group_articles([
+        art("삼성전자 HBM, 경쟁사보다 최대 25% 비싸다", hours=0),
+        art("SK하이닉스 HBM4 양산 돌입", hours=1),
+        art("SK hynix starts HBM4 mass production", hours=2),
+        art("반도체 업계 전반 투자 확대", hours=3),
+    ], COMPANIES, 0.6, 48)
+    by_title = {g.lead.title: i for i, g in enumerate(groups)}
+    samsung, hynix_ko, hynix_en, general = (by_title[t] for t in (
+        "삼성전자 HBM, 경쟁사보다 최대 25% 비싸다", "SK하이닉스 HBM4 양산 돌입",
+        "SK hynix starts HBM4 mass production", "반도체 업계 전반 투자 확대"))
+    issues = [{"id": "c-hynix", "articles": [{"title": "SK하이닉스, HBM4 세계 최초 양산"}]}]
+    targets = {samsung: "c-hynix",      # 다른 회사 → 되돌림
+               hynix_ko: "new:x",       # 같은 회사끼리 새 이슈 → 유지
+               hynix_en: "new:x",
+               general: "c-hynix"}      # 회사를 못 찾은 기사 → AI 판단 유지
+    assert guard_ai_merges(groups, targets, issues, COMPANIES) == 1
+    assert targets[samsung] == f"new:a{samsung}"
+    assert targets[hynix_ko] == targets[hynix_en] == "new:x"
+    assert targets[general] == "c-hynix"
+
+
 def test_attach_to_existing_issue():
     groups = group_articles([art("[속보] SK하이닉스 HBM4 세계 최초 양산 돌입")], COMPANIES, 0.6, 48)
     issues = [{"id": "c1", "articles": [{"title": "SK하이닉스, HBM4 세계 최초 양산 돌입"}]},

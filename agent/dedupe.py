@@ -141,6 +141,34 @@ def group_articles(articles: list[Article], companies: CompanyMatcher,
     return groups
 
 
+def guard_ai_merges(groups: list[Group], targets: dict[int, str | None], active_issues: list[dict],
+                    companies: CompanyMatcher) -> int:
+    """AI의 묶기 결과에 1차 거르기와 같은 규칙을 적용한다: 언급된 회사가 서로 전혀 다르면 같은 이슈로 묶지 않음.
+
+    양쪽 모두 회사가 확인될 때만 판단한다 (한쪽이라도 회사를 못 찾으면 AI 판단을 따름).
+    규칙에 걸린 묶음은 혼자 새 이슈가 되도록 targets를 고치고, 고친 개수를 돌려준다.
+    """
+    issue_companies = {
+        issue["id"]: frozenset().union(*(companies.find(a["title"]) for a in issue["articles"]))
+        for issue in active_issues
+    }
+    new_key_companies: dict[str, frozenset[str]] = {}
+    rejected = 0
+    for i, g in enumerate(groups):
+        target = targets.get(i)
+        if target is None:
+            continue
+        mine = frozenset().union(*(companies.find(a.title) for a in g.articles))
+        if target.startswith("new:"):
+            theirs = new_key_companies.setdefault(target, mine)
+        else:
+            theirs = issue_companies.get(target, frozenset())
+        if mine and theirs and not (mine & theirs):
+            targets[i] = f"new:a{i}"
+            rejected += 1
+    return rejected
+
+
 def attach_to_issues(groups: list[Group], active_issues: list[dict],
                      companies: CompanyMatcher, threshold: float) -> None:
     """묶음이 기존 이슈의 기사 제목과 거의 같으면 그 이슈에 바로 배정한다 (group.issue_id 설정).

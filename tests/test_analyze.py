@@ -2,6 +2,7 @@ from types import SimpleNamespace
 
 import anthropic
 import httpx2
+import openai
 import pytest
 
 from agent.analyze import AIError, AIStopped, Analyzer, clean_summary, copies_source, resolve_assignments
@@ -9,10 +10,12 @@ from agent.config import load_config
 from agent.models import Assignment, ClusterResult, IssueSummary
 
 SETTINGS = load_config().settings
+OPENAI = {**SETTINGS, "provider": "openai"}
+CLAUDE = {**SETTINGS, "provider": "claude"}
 
 
-class FakeMessages:
-    """client.beta.messages.parse 자리에 들어가는 가짜. 미리 정한 응답이나 예외를 차례로 돌려준다."""
+class FakeCalls:
+    """SDK의 parse 자리에 들어가는 가짜. 미리 정한 응답이나 예외를 차례로 돌려준다."""
 
     def __init__(self, replies):
         self.replies = list(replies)
@@ -26,20 +29,48 @@ class FakeMessages:
         return reply
 
 
-def fake_client(*replies):
-    messages = FakeMessages(replies)
-    return SimpleNamespace(beta=SimpleNamespace(messages=messages)), messages
+class FakeRaw:
+    """with_raw_response.parse()가 돌려주는 원시 응답 흉내: HTTP 본문(usage 포함) + parse()."""
+
+    def __init__(self, usage: dict, parsed=None, parse_error: Exception | None = None):
+        self.http_response = SimpleNamespace(json=lambda: {"usage": usage})
+        self._parsed, self._error = parsed, parse_error
+
+    def parse(self):
+        if self._error:
+            raise self._error
+        return self._parsed
 
 
-def ok(parsed, stop_reason="end_turn"):
-    usage = SimpleNamespace(input_tokens=1000, output_tokens=200,
-                            cache_creation_input_tokens=0, cache_read_input_tokens=500)
-    return SimpleNamespace(parsed_output=parsed, stop_reason=stop_reason, usage=usage)
+def openai_client(*replies):
+    calls = FakeCalls(replies)
+    return SimpleNamespace(responses=SimpleNamespace(with_raw_response=calls)), calls
 
 
-def api_error(cls, status, message):
-    response = httpx2.Response(status, request=httpx2.Request("POST", "https://api.anthropic.com/v1/messages"))
-    return cls(message, response=response, body=None)
+def claude_client(*replies):
+    calls = FakeCalls(replies)
+    return SimpleNamespace(beta=SimpleNamespace(messages=SimpleNamespace(with_raw_response=calls))), calls
+
+
+OPENAI_USAGE = {"input_tokens": 1000, "output_tokens": 200, "input_tokens_details": {"cached_tokens": 400}}
+CLAUDE_USAGE = {"input_tokens": 1000, "output_tokens": 200, "cache_creation_input_tokens": 0,
+                "cache_read_input_tokens": 500}
+
+
+def openai_ok(parsed, status="completed", refusal=False, parse_error=None):
+    part = SimpleNamespace(type="refusal" if refusal else "output_text")
+    resp = SimpleNamespace(status=status, incomplete_details=SimpleNamespace(reason="max_output_tokens"),
+                           output=[SimpleNamespace(type="message", content=[part])], output_parsed=parsed)
+    return FakeRaw(OPENAI_USAGE, resp, parse_error)
+
+
+def claude_ok(parsed, stop_reason="end_turn", parse_error=None):
+    return FakeRaw(CLAUDE_USAGE, SimpleNamespace(parsed_output=parsed, stop_reason=stop_reason), parse_error)
+
+
+def status_error(module, cls, status, message, body=None):
+    response = httpx2.Response(status, request=httpx2.Request("POST", "https://api.example.com/v1"))
+    return getattr(module, cls)(message, response=response, body=body)
 
 
 SUMMARY = IssueSummary(headline="SK하이닉스 HBM4 양산", summary=["첫째.", "둘째.", "셋째.", "넷째."],
@@ -48,6 +79,9 @@ SUMMARY = IssueSummary(headline="SK하이닉스 HBM4 양산", summary=["첫째."
 ISSUE = {"id": "c1", "headline": "", "companies": [], "articles": [
     {"key": "k1", "title": "제목1", "source": "디일렉", "lang": "ko", "published_at": "2026-10-26T00:00:00Z"},
 ]}
+
+
+# ── 응답 검증 (제공사와 무관) ────────────────────────────────
 
 
 def test_resolve_assignments_validates_ai_output():
@@ -95,57 +129,135 @@ def test_copies_source():
     assert not copies_source([copied], [""])
 
 
-def test_summary_that_copies_article_is_rejected():
-    body = "가나다라마바사아자차카타파하" * 5
-    copied = SUMMARY.model_copy(update={"summary": [body[:60], "둘째.", "셋째."]})
-    client, _ = fake_client(ok(copied))
-    with pytest.raises(AIError):
-        Analyzer(SETTINGS, client=client).summarize(ISSUE, {"k1": body})
+def test_unknown_provider_is_rejected():
+    with pytest.raises(ValueError):
+        Analyzer({**SETTINGS, "provider": "gemini"}, client=object())
 
 
-def test_summarize_request_shape_and_usage():
-    client, messages = fake_client(ok(SUMMARY))
-    analyzer = Analyzer(SETTINGS, client=client)
+# ── OpenAI ──────────────────────────────────────────────────
+
+
+def test_openai_request_shape_and_usage():
+    client, calls = openai_client(openai_ok(SUMMARY))
+    analyzer = Analyzer(OPENAI, client=client)
     out = analyzer.summarize(ISSUE, {"k1": "본문" * 2000})
     assert out["headline"] == "SK하이닉스 HBM4 양산"
-    call = messages.calls[0]
-    assert call["model"] == SETTINGS["model"]
-    assert call["output_format"] is IssueSummary
-    assert call["output_config"] == {"effort": SETTINGS["effort"]["summarize"]}
-    assert call["system"][0]["cache_control"] == {"type": "ephemeral"}
-    assert call["fallbacks"] == "default"
+    call = calls.calls[0]
+    assert call["model"] == SETTINGS["openai"]["model"]
+    assert call["text_format"] is IssueSummary
+    assert call["store"] is False
+    assert "중요도 기준" in call["instructions"]
+    if SETTINGS["openai"]["reasoning"]:
+        assert call["reasoning"] == {"effort": SETTINGS["effort"]["summarize"]}
     assert "temperature" not in call
     # 본문은 설정한 글자 수까지만 보냄
-    assert "본문" * (SETTINGS["limits"]["summary_input_chars"] // 2) in call["messages"][0]["content"]
-    assert "본문" * 1000 not in call["messages"][0]["content"]
-    assert analyzer.usage["calls"] == 1 and analyzer.cost_usd() > 0
+    assert "본문" * (SETTINGS["limits"]["summary_input_chars"] // 2) in call["input"]
+    assert "본문" * 1000 not in call["input"]
+    # 캐시된 입력 토큰은 따로 집계
+    assert analyzer.usage == {"calls": 1, "input": 600, "output": 200, "cache_write": 0, "cache_read": 400}
+    assert analyzer.cost_usd() > 0
 
 
-def test_refusal_is_a_single_failure():
-    client, _ = fake_client(ok(None, stop_reason="refusal"))
+def test_openai_without_reasoning_omits_effort():
+    settings = {**OPENAI, "openai": {**SETTINGS["openai"], "reasoning": False}}
+    client, calls = openai_client(openai_ok(SUMMARY))
+    Analyzer(settings, client=client).summarize(ISSUE, {})
+    assert "reasoning" not in calls.calls[0]
+
+
+@pytest.mark.parametrize("reply", [
+    openai_ok(None, refusal=True),
+    openai_ok(SUMMARY, status="incomplete"),
+    openai_ok(None),
+    openai_ok(None, parse_error=ValueError("잘린 JSON")),  # 출력이 잘리면 SDK가 해석 중 ValidationError
+])
+def test_openai_bad_responses_are_single_failures_but_still_billed(reply):
+    client, _ = openai_client(reply)
+    analyzer = Analyzer(OPENAI, client=client)
     with pytest.raises(AIError):
-        Analyzer(SETTINGS, client=client).summarize(ISSUE, {})
+        analyzer.summarize(ISSUE, {})
+    # 쓸 수 없는 응답도 요금은 나가므로 토큰이 집계돼야 함
+    assert analyzer.usage["output"] == 200 and analyzer.cost_usd() > 0
 
 
-def test_credit_error_stops_ai():
-    err = api_error(anthropic.BadRequestError, 400, "Your credit balance is too low to access the Anthropic API.")
-    client, _ = fake_client(err)
+@pytest.mark.parametrize("body", [{"code": "insufficient_quota", "type": "insufficient_quota"},
+                                  {"code": "credit_balance_exhausted", "type": "insufficient_quota"},
+                                  {"code": "project_spend_limit_exceeded", "type": "requests"}])
+def test_openai_out_of_credits_stops_ai(body):
+    err = status_error(openai, "RateLimitError", 429, "You exceeded your current quota", body=body)
+    client, _ = openai_client(err)
     with pytest.raises(AIStopped):
-        Analyzer(SETTINGS, client=client).summarize(ISSUE, {})
+        Analyzer(OPENAI, client=client).summarize(ISSUE, {})
 
 
-def test_auth_error_stops_ai():
-    client, _ = fake_client(api_error(anthropic.AuthenticationError, 401, "invalid x-api-key"))
+def test_openai_normal_rate_limit_is_single_failure():
+    err = status_error(openai, "RateLimitError", 429, "Rate limit reached", body={"code": "rate_limit_exceeded"})
+    client, _ = openai_client(err)
+    with pytest.raises(AIError):
+        Analyzer(OPENAI, client=client).summarize(ISSUE, {})
+
+
+def test_openai_auth_error_stops_ai():
+    client, _ = openai_client(status_error(openai, "AuthenticationError", 401, "Incorrect API key"))
     with pytest.raises(AIStopped):
-        Analyzer(SETTINGS, client=client).summarize(ISSUE, {})
+        Analyzer(OPENAI, client=client).summarize(ISSUE, {})
 
 
-def test_three_failures_in_a_row_stop_ai():
-    err = api_error(anthropic.InternalServerError, 500, "server error")
-    client, _ = fake_client(err, err, err)
-    analyzer = Analyzer(SETTINGS, client=client)
+def test_openai_three_failures_in_a_row_stop_ai():
+    err = status_error(openai, "InternalServerError", 500, "server error")
+    client, _ = openai_client(err, err, err)
+    analyzer = Analyzer(OPENAI, client=client)
     for _ in range(2):
         with pytest.raises(AIError):
             analyzer.summarize(ISSUE, {})
     with pytest.raises(AIStopped):
         analyzer.summarize(ISSUE, {})
+
+
+def test_summary_that_copies_article_is_rejected():
+    body = "가나다라마바사아자차카타파하" * 5
+    copied = SUMMARY.model_copy(update={"summary": [body[:60], "둘째.", "셋째."]})
+    client, _ = openai_client(openai_ok(copied))
+    with pytest.raises(AIError):
+        Analyzer(OPENAI, client=client).summarize(ISSUE, {"k1": body})
+
+
+# ── Claude (설정에서 provider: claude로 되돌렸을 때) ─────────────
+
+
+def test_claude_request_shape_and_usage():
+    client, calls = claude_client(claude_ok(SUMMARY))
+    analyzer = Analyzer(CLAUDE, client=client)
+    out = analyzer.summarize(ISSUE, {"k1": "본문"})
+    assert out["headline"] == "SK하이닉스 HBM4 양산"
+    call = calls.calls[0]
+    assert call["model"] == SETTINGS["claude"]["model"]
+    assert call["output_format"] is IssueSummary
+    assert call["output_config"] == {"effort": SETTINGS["effort"]["summarize"]}
+    assert call["system"][0]["cache_control"] == {"type": "ephemeral"}
+    assert call["fallbacks"] == "default"
+    assert "temperature" not in call
+    assert analyzer.usage["cache_read"] == 500 and analyzer.cost_usd() > 0
+
+
+@pytest.mark.parametrize("reply", [claude_ok(None, stop_reason="refusal"),
+                                   claude_ok(None, parse_error=ValueError("잘린 JSON"))])
+def test_claude_bad_responses_are_single_failures_but_still_billed(reply):
+    client, _ = claude_client(reply)
+    analyzer = Analyzer(CLAUDE, client=client)
+    with pytest.raises(AIError):
+        analyzer.summarize(ISSUE, {})
+    assert analyzer.usage["output"] == 200
+
+
+def test_claude_credit_error_stops_ai():
+    err = status_error(anthropic, "BadRequestError", 400, "Your credit balance is too low to access the Anthropic API.")
+    client, _ = claude_client(err)
+    with pytest.raises(AIStopped):
+        Analyzer(CLAUDE, client=client).summarize(ISSUE, {})
+
+
+def test_claude_auth_error_stops_ai():
+    client, _ = claude_client(status_error(anthropic, "AuthenticationError", 401, "invalid x-api-key"))
+    with pytest.raises(AIStopped):
+        Analyzer(CLAUDE, client=client).summarize(ISSUE, {})
