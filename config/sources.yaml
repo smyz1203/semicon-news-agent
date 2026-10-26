@@ -6,20 +6,22 @@
 #   name: 언론사 이름. 같은 언론사의 RSS는 이름을 같게 씀 (중요도의 '매체 N곳 보도'를 셀 때 한 곳으로 침)
 #         예: thelec.net(The Elec)은 국내 언론사 디일렉(thelec.kr)이 내는 영문판이라 name이 디일렉, section이 영문판
 #   section: 같은 매체의 RSS가 여러 개일 때 웹에서 구분하는 이름
-# 2026-10-26 기준으로 모두 동작을 확인한 주소입니다.
+# 2026-10-27 기준으로 모두 동작을 확인한 주소입니다.
 
 sources:
-  # ── 국내 (디일렉 영문판은 영어 기사지만 국내 언론사 디일렉이 내므로 여기에) ──
-  - {id: thelec-semi,    name: 디일렉,        section: 반도체,   url: "https://www.thelec.kr/rss/S1N2.xml",        lang: ko, filter: false, tz: Asia/Seoul}
-  - {id: thelec-display, name: 디일렉,        section: 디스플레이, url: "https://www.thelec.kr/rss/S1N4.xml",      lang: ko, filter: false, tz: Asia/Seoul}
-  - {id: thelec-equip,   name: 디일렉,        section: 소재장비, url: "https://www.thelec.kr/rss/S1N3.xml",        lang: ko, filter: false, tz: Asia/Seoul}
-  - {id: thelec-en,      name: 디일렉,        section: 영문판,   url: "https://www.thelec.net/rss/allArticle.xml", lang: en, filter: true,  tz: Asia/Seoul}
+  # ── 국내 ────────────────────────────────────────────
+  # 디일렉은 전체 기사 RSS 하나로 (게임·보안·배터리 기사도 섞여 있어 키워드 필터 적용)
+  - {id: thelec,         name: 디일렉,                           url: "https://www.thelec.kr/rss/allArticle.xml",  lang: ko, filter: true,  tz: Asia/Seoul}
   - {id: etnews,         name: 전자신문,      section: 전자,     url: "https://rss.etnews.com/06.xml",             lang: ko, filter: true,  tz: Asia/Seoul}
   - {id: kipost,         name: KIPOST,                           url: "https://www.kipost.net/rss/allArticle.xml", lang: ko, filter: true,  tz: Asia/Seoul}
   - {id: dt-ict,         name: 디지털타임스,  section: IT,       url: "https://www.dt.co.kr/rss/google/ict",       lang: ko, filter: true,  tz: Asia/Seoul}
   - {id: dt-industry,    name: 디지털타임스,  section: 산업,     url: "https://www.dt.co.kr/rss/google/industry",  lang: ko, filter: true,  tz: Asia/Seoul}
   - {id: yna-industry,   name: 연합뉴스,      section: 산업,     url: "https://www.yna.co.kr/rss/industry.xml",    lang: ko, filter: true,  tz: Asia/Seoul}
   - {id: zdnet-kr,       name: ZDNet Korea,                      url: "https://feeds.feedburner.com/zdkorea",      lang: ko, filter: true,  tz: Asia/Seoul}
+  - {id: inews24-it,     name: 아이뉴스24,    section: IT,       url: "https://www.inews24.com/rss/news_it.xml",   lang: ko, filter: true,  tz: Asia/Seoul}
+  - {id: epnc,           name: 테크월드뉴스,                     url: "https://www.epnc.co.kr/rss/allArticle.xml", lang: ko, filter: true,  tz: Asia/Seoul}
+  # 디일렉 영문판(The Elec)은 한국어 기사를 2~3일 뒤 번역한 것이라 같은 뉴스가 겹쳐서 끔
+  - {id: thelec-en,      name: 디일렉,        section: 영문판,   url: "https://www.thelec.net/rss/allArticle.xml", lang: en, filter: true,  tz: Asia/Seoul, enabled: false}
 
   # ── 해외 (영문) ──────────────────────────────────────
   - {id: semieng,            name: Semiconductor Engineering,                   url: "https://semiengineering.com/feed/",                     lang: en, filter: false, tz: UTC}
@@ -30,6 +32,7 @@ sources:
   - {id: eetimes,            name: EE Times,                                    url: "https://www.eetimes.com/feed/",                         lang: en, filter: true,  tz: UTC}
   - {id: digitimes,          name: DigiTimes Asia,                              url: "https://www.digitimes.com/rss/daily.xml",               lang: en, filter: true,  tz: Asia/Taipei}
   - {id: koreaherald,        name: Korea Herald,     section: Business,         url: "https://www.koreaherald.com/rss/kh_Business",           lang: en, filter: true,  tz: Asia/Seoul}
+  - {id: semidigest,         name: Semiconductor Digest,                        url: "https://www.semiconductor-digest.com/feed/",            lang: en, filter: false, tz: UTC}
 
 # Google 뉴스 RSS 검색 (기본 꺼짐)
 # 로이터·닛케이 등 더 많은 매체를 잡을 수 있지만, Google의 robots.txt가 자동 수집을 허용하지 않아
