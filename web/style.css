@@ -348,6 +348,12 @@ button.barlist-row:hover { border-color: var(--control); }
 .barlist-value { flex: none; font-weight: 500; }
 .barlist-value .unit { font-size: 12px; margin-left: 1px; color: var(--muted); }
 .barlist-more { margin: 8px 0 0; padding: 0 8px; color: var(--faint); font-size: 12px; }
+.barlist-rank { flex: none; min-width: 2ch; color: var(--faint); text-align: right; }
+
+/* 개요 카드의 '전체 순위 보기'와 순위 창 */
+.more-button { display: block; border: 0; background: none; color: var(--link); cursor: pointer; text-align: left; }
+.more-button:hover { text-decoration: underline; }
+.rank-list { max-height: min(60vh, 560px); overflow-y: auto; margin-top: 14px; }
 
 /* 얇은 막대 목록: 이름 아래 2px 막대, 1위만 진하게 */
 .barlist.is-thin { gap: 2px; }
@@ -574,7 +580,7 @@ details[open] > .toggle::after { content: " ▴"; }
   .search { flex: 1 1 100%; max-width: none; min-width: 0; margin: 0; }
   .search input { height: 44px; font-size: 16px; }   /* 16px 미만이면 아이폰이 확대함 */
   .toggle { display: flex; align-items: center; min-height: 44px; }
-  .barlist-row, .barlist.is-thin .barlist-row { min-height: 44px; }
+  .barlist-row, .barlist.is-thin .barlist-row, .more-button { min-height: 44px; }
   .runs th:first-child, .runs td:first-child { position: sticky; left: 0; z-index: 1; background: var(--surface); }
 
   .overview, .top-grid, .ops-grid { grid-template-columns: 1fr; }

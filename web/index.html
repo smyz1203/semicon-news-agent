@@ -69,6 +69,19 @@
     </form>
   </dialog>
 
+  <!-- 전체 순위: '분야별 이슈'·'많이 나온 기업' 카드에는 상위 5개만, 이 창에는 전부 -->
+  <dialog id="rank-dialog" class="update-dialog" aria-labelledby="rank-title">
+    <form method="dialog">
+      <h2 id="rank-title">전체 순위</h2>
+      <p id="rank-note"></p>
+      <div id="rank-list" class="rank-list"></div>
+      <div class="dialog-actions">
+        <span class="spacer"></span>
+        <button value="cancel" type="submit" class="ghost">닫기</button>
+      </div>
+    </form>
+  </dialog>
+
   <main class="canvas">
     <div id="stale" class="notice" role="status" hidden></div>
 
