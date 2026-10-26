@@ -73,12 +73,13 @@ function periodStart() {
   return new Date(dayStart(Date.now()) - (view.period - 1) * 24 * HOUR);
 }
 
-function matches(issue, { ignoreCategory = false } = {}) {
+// ignoreCategory/ignoreCompany: 분야·기업 카드는 자기 필터를 빼고 세서, 하나를 골라도 전체 순위가 그대로 남음
+function matches(issue, { ignoreCategory = false, ignoreCompany = false } = {}) {
   if (new Date(issue.updated_at) < periodStart()) return false;
   if (view.region !== "all" && issue.region !== view.region && issue.region !== "both") return false;
   if (view.minImp && (issue.importance || 0) < view.minImp) return false;
   if (!ignoreCategory && view.category && categoryOf(issue) !== view.category) return false;
-  if (view.company && !(issue.companies || []).includes(view.company)) return false;
+  if (!ignoreCompany && view.company && !(issue.companies || []).includes(view.company)) return false;
   if (view.query) {
     const haystack = [
       issue.headline, ...(issue.summary || []), ...(issue.tags || []), ...(issue.companies || []),
@@ -188,7 +189,7 @@ function render() {
   renderMix(shown);
   renderTrend(shown);
   renderCategories();
-  renderCompanies(shown);
+  renderCompanies();
   if ($("rank-dialog").open) drawRanking();
 }
 
@@ -276,10 +277,13 @@ function renderCategories() {
   if (!rows.length) $("category-chart").replaceChildren(h("p", { class: "barlist-more" }, "이 조건에 맞는 이슈가 없습니다."));
 }
 
-// 많이 나온 기업: 누르면 그 기업으로 검색
-function renderCompanies(shown) {
+// 많이 나온 기업: 누르면 그 기업 이슈만 봄. 고른 기업은 테두리로 표시하고 순위는 그대로
+function renderCompanies() {
   const counts = new Map();
-  for (const issue of shown) for (const name of new Set(issue.companies || [])) counts.set(name, (counts.get(name) || 0) + 1);
+  for (const issue of issues.filter((i) => matches(i, { ignoreCompany: true }))) {
+    for (const name of new Set(issue.companies || [])) counts.set(name, (counts.get(name) || 0) + 1);
+  }
+  if (view.company && !counts.has(view.company)) counts.set(view.company, 0);  // 다른 필터로 0건이 돼도 눌러서 풀 수 있게
   const ranked = [...counts].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "ko"))
     .map(([label, value]) => ({ label, value, selected: view.company === label }));
   const rows = topRows(ranked);
