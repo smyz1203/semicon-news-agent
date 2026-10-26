@@ -19,8 +19,8 @@ RUN_FIELDS = ("at", "collected", "relevant", "groups", "deferred", "new_issues",
               "classified", "pending", "failed", "sources_ok", "sources_total", "ai_model", "cost_usd", "alerts")
 AI_NAMES = {"openai": "OpenAI", "claude": "Claude"}
 # 웹에 게시하는 필드만 골라 담음 (내부 관리용 필드나 실수로 들어간 값이 공개되지 않도록)
-ISSUE_FIELDS = ("id", "headline", "summary", "category", "tags", "companies", "importance", "importance_reason",
-                "status", "region", "first_seen", "updated_at")
+ISSUE_FIELDS = ("id", "headline", "summary", "category", "tags", "companies", "importance", "importance_raw",
+                "importance_reason", "status", "region", "first_seen", "updated_at")
 ARTICLE_FIELDS = ("title", "url", "source", "lang", "published_at")
 
 

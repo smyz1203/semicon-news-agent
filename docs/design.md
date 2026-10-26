@@ -92,6 +92,7 @@ flowchart TD
 
 - `status`: `summarized`(요약 완료) 또는 `pending`(AI 오류로 요약 대기)
 - `event_type`·`confirmed`·`parties`: AI가 고른 사실. `importance`·`importance_reason`은 이 값과 기사 매체 수로 코드가 계산한 결과
+- `importance_raw`: 1~5점으로 맞추기 전 점수(기본점 + 가감점). 웹은 이 점수가 높은 순, 같으면 보도 시각(이슈의 가장 오래된 기사 발행 시각)이 최신인 순으로 정렬한다
 - `region`: `ko`(국내 기사만), `en`(해외 기사만), `both`(둘 다)
 
 ### `data/state.json`

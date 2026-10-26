@@ -61,6 +61,15 @@ def test_score_is_kept_within_1_to_5():
     assert Scorer(SETTINGS).score(issue("칼럼·인터뷰", confirmed=False)) == (1, "칼럼·인터뷰 1점, 미확정 -1 → 1점(최저점)")
 
 
+def test_raw_score_keeps_points_cut_by_the_cap():
+    # 1~5점으로 맞추며 잘린 가산점·감점은 조정 전 점수에 남음 → 중요도가 같은 이슈끼리 정렬할 때 씀
+    capped, plain, floor = issue("신제품·신기술·양산", parties=["SK하이닉스"]), issue("신제품·신기술·양산"),         issue("칼럼·인터뷰", confirmed=False)
+    Scorer(SETTINGS).apply([capped, plain, floor])
+    assert (capped["importance"], capped["importance_raw"]) == (5, 6)
+    assert (plain["importance"], plain["importance_raw"]) == (5, 5)
+    assert (floor["importance"], floor["importance_raw"]) == (1, 0)
+
+
 def test_adjustment_set_to_zero_is_hidden():
     settings = copy.deepcopy(SETTINGS)
     settings["importance"]["adjust"]["watch_company"] = 0

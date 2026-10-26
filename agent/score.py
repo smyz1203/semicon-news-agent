@@ -31,6 +31,15 @@ class Scorer:
 
     def score(self, issue: dict) -> tuple[int, str] | None:
         """(중요도, 판단 근거). 사건 유형을 모르면 None."""
+        result = self.calculate(issue)
+        return (result[0], result[2]) if result else None
+
+    def calculate(self, issue: dict) -> tuple[int, int, str] | None:
+        """(중요도, 조정 전 점수, 판단 근거). 사건 유형을 모르면 None.
+
+        조정 전 점수 = 기본점 + 가감점 (1~5점으로 맞추기 전). 중요도가 같은 이슈끼리 정렬할 때 쓴다.
+        예: 신제품 5점 + 관심 기업 +1 = 6 → 중요도 5점이지만, 조정 전 점수가 5인 이슈보다 위.
+        """
         event_type = issue.get("event_type")
         if event_type not in self.base:
             return None
@@ -54,7 +63,7 @@ class Scorer:
             reason += f" → {final}점"
             if final != total:
                 reason += "(최고점)" if total > final else "(최저점)"
-        return final, reason
+        return final, total, reason
 
     def watched(self, parties: list[str]) -> list[str]:
         """직접 당사자 중 관심 기업 (대표 이름, 설정에 적은 순서)."""
@@ -70,6 +79,6 @@ class Scorer:
         사건 유형을 모르는 이슈(분류 전)는 원래 값을 그대로 둔다.
         """
         for issue in issues:
-            result = self.score(issue)
+            result = self.calculate(issue)
             if result:
-                issue["importance"], issue["importance_reason"] = result
+                issue["importance"], issue["importance_raw"], issue["importance_reason"] = result

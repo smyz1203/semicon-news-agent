@@ -535,6 +535,7 @@ details[open] > .toggle::after { content: " ▴"; }
 .rubric-table th:first-child, .rubric-table td:first-child { width: 1%; white-space: nowrap; }
 .rubric-table th:last-child, .rubric-table td:last-child { padding-right: 0; }
 .rubric-value { font-weight: 600; }
+.rubric-sub { display: block; margin-top: 2px; color: var(--faint); font-size: 12px; }
 .rubric-types { display: flex; flex-wrap: wrap; gap: 6px; }
 .rubric-type { display: inline-flex; align-items: center; height: 22px; padding: 0 8px; border-radius: var(--radius-chip); background: var(--raised); font-size: 13px; cursor: help; }
 
