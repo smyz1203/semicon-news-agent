@@ -589,8 +589,9 @@ async function load(version = window.BUILD || Date.now()) {
 // 이 페이지는 정적 파일이라 직접 Agent를 돌리지 않는다. 실행은 GitHub Actions가 한다.
 //   - 1시간마다 자동 실행, 또는 휴대폰 GitHub 앱 등에서 "Run workflow"로 실행
 //   - 페이지는 실행이 시작되면 스스로 알아채 진행 상황을 보여주고, 끝나면 저절로 새로고침 (토큰 불필요: 공개 저장소)
-//   - 새로고침 버튼: 이 브라우저에 토큰을 저장해 둔 경우(주인 PC)만 바로 실행 요청, 아니면 최신 결과 확인
-//   - 토큰 저장 창은 주소 끝에 #setup 을 붙여 열 때만 나옴 (다른 컴퓨터에서 토큰을 묻지 않도록)
+//   - 새로고침 버튼: 이 브라우저에 토큰을 저장해 둔 경우(주인 PC)만 바로 실행 요청.
+//     토큰이 없으면 실행 방법(GitHub Actions에서 직접 실행 / 토큰 등록)을 안내하는 창을 띄움 (진행 중인 실행이 있으면 그 진행 상황)
+//   - 안내 창은 주소 끝에 #setup 을 붙여 열어도 나옴
 
 const TOKEN_KEY = "semicon-news:github-token";
 const RUN_POLL_MS = 8000;                 // (토큰 있음) 실행 상황·새 결과를 8초마다 확인
@@ -731,7 +732,8 @@ async function startUpdate() {
   }
 }
 
-// 토큰이 없는 컴퓨터(면접관 PC 등): 실행을 요청하지 않고, 진행 중인 실행이 있으면 그걸 보여주고 아니면 최신 결과만 확인
+// 토큰이 없는 컴퓨터(면접관 PC 등): 실행을 요청할 수 없으므로, 진행 중인 실행이 있으면 그걸 보여주고
+// 아니면 실행 방법(GitHub Actions에서 직접 실행 / 이 브라우저에 토큰 등록)을 안내하는 창을 띄움
 async function checkWithoutToken(previousRunAt) {
   try {
     const run = await latestRun(null);
@@ -739,9 +741,10 @@ async function checkWithoutToken(previousRunAt) {
       watchRun(null, { runId: run.id });
       return;
     }
-  } catch { /* GitHub 확인이 안 돼도 최신 결과 확인은 이미 했음 */ }
+  } catch { /* GitHub 확인이 안 돼도 안내 창은 띄움 */ }
   setUpdating(false);
-  flashFreshness(meta.last_run_at !== previousRunAt ? "새 뉴스로 업데이트했어요" : "최신 결과예요");
+  if (meta.last_run_at !== previousRunAt) flashFreshness("새 뉴스로 업데이트했어요");
+  openUpdateDialog();
 }
 
 // 페이지를 열어 두는 동안: 새 결과가 올라오면 저절로 새로고침하고, 실행이 시작되면 진행 상황을 보여줌.
