@@ -93,6 +93,19 @@ notepad .env
 | 수집 매체 추가·끄기 | `sources.yaml` |
 | 실행 주기 | `.github/workflows/update.yml` → `cron` |
 
+## 지금 바로 업데이트하기
+
+웹페이지 상단 "업데이트 N분 전" 옆의 새로고침 아이콘을 누르면 GitHub Actions에 즉시 실행을 요청하고, 3~4분 뒤 새 결과가 반영되면 페이지가 저절로 갱신됩니다.
+
+이 페이지는 누구나 볼 수 있으므로, 실행은 저장소 주인만 할 수 있게 되어 있습니다. 처음 한 번 GitHub 토큰을 등록해야 합니다.
+
+1. [GitHub 토큰 만들기](https://github.com/settings/personal-access-tokens/new) (Fine-grained token)
+2. Repository access → **Only select repositories** → `semicon-news-agent`
+3. Permissions → **Actions: Read and write** (다른 권한은 주지 않음)
+4. 새로고침 아이콘 → 나오는 창에 토큰(`github_pat_…`)을 붙여넣고 "저장하고 실행"
+
+토큰은 그 브라우저에만 저장되며 저장소나 서버로 올라가지 않습니다. 토큰 없이도 창의 "GitHub Actions 열기" → "Run workflow"로 실행할 수 있습니다.
+
 ## 운영 메모
 
 - **처음 한 번**: 저장소 Settings → Pages → Build and deployment → Source를 **GitHub Actions**로 바꾼 뒤, Actions 탭에서 "뉴스 업데이트"를 수동 실행(Run workflow)합니다.

@@ -21,9 +21,49 @@
         </svg>
         <span>칩앤패널 브리핑</span>
       </a>
-      <span id="freshness" class="freshness"></span>
+      <div class="update-box">
+        <span id="freshness" class="freshness" aria-live="polite"></span>
+        <button id="refresh" class="refresh" type="button" title="지금 업데이트" aria-label="지금 업데이트">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 12a8 8 0 1 1-2.34-5.66"/>
+            <path d="M20 4v5h-5"/>
+          </svg>
+        </button>
+      </div>
     </div>
   </header>
+
+  <!-- 지금 업데이트: GitHub Actions 실행 권한(토큰)이 이 브라우저에 없을 때 안내 -->
+  <dialog id="update-dialog" class="update-dialog" aria-labelledby="update-dialog-title">
+    <form method="dialog">
+      <h2 id="update-dialog-title">지금 업데이트</h2>
+      <p>뉴스 수집·요약은 GitHub Actions에서 실행됩니다. 이 페이지는 누구나 볼 수 있으므로, 실행은 저장소 주인만 할 수 있게 되어 있습니다.</p>
+
+      <h3>방법 1. GitHub에서 직접 실행</h3>
+      <p><a id="actions-link" target="_blank" rel="noopener noreferrer">GitHub Actions 열기</a> → "Run workflow" 버튼을 누르세요. 3~4분 뒤 이 페이지에 반영됩니다.</p>
+
+      <h3>방법 2. 이 버튼으로 바로 실행 (토큰 한 번 등록)</h3>
+      <ol class="token-steps">
+        <li><a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">GitHub 토큰 만들기</a> (Fine-grained token)</li>
+        <li>Repository access → <b>Only select repositories</b> → <span id="repo-name">이 저장소</span></li>
+        <li>Permissions → <b>Actions: Read and write</b> (다른 권한은 주지 않음)</li>
+        <li>만든 토큰(<code>github_pat_…</code>)을 아래에 붙여넣고 저장</li>
+      </ol>
+      <label class="token-field">
+        <span>GitHub 토큰</span>
+        <input id="token-input" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…">
+      </label>
+      <p class="hint">토큰은 이 브라우저에만 저장되고 어디에도 올라가지 않습니다. 공용 컴퓨터에서는 저장하지 마세요.</p>
+      <p id="dialog-error" class="dialog-error" hidden></p>
+
+      <div class="dialog-actions">
+        <button id="token-clear" type="button" class="ghost" hidden>저장된 토큰 삭제</button>
+        <span class="spacer"></span>
+        <button value="cancel" type="submit" class="ghost">닫기</button>
+        <button id="token-save" type="button" class="primary">저장하고 실행</button>
+      </div>
+    </form>
+  </dialog>
 
   <div id="stale" class="stale" hidden></div>
 

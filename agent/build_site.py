@@ -7,6 +7,7 @@
 """
 
 import argparse
+import os
 import shutil
 from datetime import datetime, timezone
 from pathlib import Path
@@ -36,6 +37,8 @@ def build(data_dir: Path = DATA_DIR, out_dir: Path = SITE_DIR) -> Path:
         "last_success_at": state["last_success_at"],
         "categories": cfg.settings["categories"],
         "ai": _ai_label(cfg.settings, runs),
+        # '지금 업데이트' 버튼이 실행을 요청할 저장소. Actions에서는 GitHub이 알려주는 값을 우선 사용
+        "repo": os.environ.get("GITHUB_REPOSITORY") or cfg.settings.get("github_repo"),
         "sources": [_source_status(s, state["sources"].get(s.id, {})) for s in cfg.sources],
         "runs": [{k: r.get(k) for k in RUN_FIELDS} for r in runs[-24:]],
     }
