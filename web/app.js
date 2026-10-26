@@ -4,11 +4,12 @@
 "use strict";
 
 const KST = "Asia/Seoul";
-const STALE_HOURS = 6;
+const STALE_HOURS = 3;   // 1시간마다 자동 실행하므로 3시간 넘게 그대로면 멈춘 것으로 봄
 const TOP_LIMIT = 6;
 const HOUR = 3600000;
-const SLOT = 3 * HOUR;          // 수집 주기 3시간 = 그래프 한 칸
-const OPS_DAYS = 7;             // '수집 현황' 그래프 기간
+const TODAY_BIN = 3 * HOUR;     // '오늘' 추이 그래프의 한 칸
+const RUN_SLOT = HOUR;          // 실행 주기 1시간 = '수집 현황' 그래프의 한 칸
+const OPS_DAYS = 3;             // '수집 현황' 그래프 기간 (실행 기록은 100개 ≈ 4일 보관)
 const LIST_ROWS = 5;            // 개요 카드의 순위 목록 줄 수
 
 const IMPORTANCE = { 5: "5 매우 중요", 4: "4 중요", 3: "3 보통", 2: "2 낮음", 1: "1 낮음" };
@@ -70,13 +71,13 @@ function clock(iso) {
   }).format(new Date(iso));
 }
 
-// 한국 시간(UTC+9, 서머타임 없음) 기준으로 3시간 칸·하루 칸의 시작 시각을 구함
+// 한국 시간(UTC+9, 서머타임 없음) 기준으로 size 길이 칸(1시간·3시간·하루)의 시작 시각을 구함
 const kst = (ms) => new Date(ms + 9 * HOUR);
-const slotStart = (ms) => Math.floor((ms + 9 * HOUR) / SLOT) * SLOT - 9 * HOUR;
-const dayStart = (ms) => Math.floor((ms + 9 * HOUR) / (24 * HOUR)) * 24 * HOUR - 9 * HOUR;
+const slotStart = (ms, size) => Math.floor((ms + 9 * HOUR) / size) * size - 9 * HOUR;
+const dayStart = (ms) => slotStart(ms, 24 * HOUR);
 const shortDay = (ms) => `${kst(ms).getUTCMonth() + 1}/${kst(ms).getUTCDate()}`;
 const longDay = (ms) => `${kst(ms).getUTCMonth() + 1}월 ${kst(ms).getUTCDate()}일`;
-const slotText = (ms) => `${longDay(ms)} ${kst(ms).getUTCHours()}~${kst(ms).getUTCHours() + 3}시`;
+const slotText = (ms, size) => `${longDay(ms)} ${kst(ms).getUTCHours()}~${kst(ms).getUTCHours() + size / HOUR}시`;
 
 // ── 필터 ───────────────────────────────────────────────────
 
@@ -251,9 +252,9 @@ function renderMix(shown) {
 // 새로 잡힌 이슈: 오늘은 3시간 단위, 그 밖의 기간은 하루 단위
 function renderTrend(shown) {
   const now = Date.now();
-  const len = view.period === 1 ? SLOT : 24 * HOUR;
+  const len = view.period === 1 ? TODAY_BIN : 24 * HOUR;
   const first = view.period === 1 ? dayStart(now) : dayStart(periodStart().getTime());
-  const last = view.period === 1 ? slotStart(now) : dayStart(now);
+  const last = view.period === 1 ? slotStart(now, TODAY_BIN) : dayStart(now);
   const bins = [];
   for (let t = first; t <= last; t += len) bins.push(t);
   const values = bins.map((t) => shown.filter((i) => {
@@ -261,7 +262,7 @@ function renderTrend(shown) {
     return seen >= t && seen < t + len;
   }).length);
   const labels = bins.map((t) => (view.period === 1 ? `${kst(t).getUTCHours()}시` : shortDay(t)));
-  const names = bins.map((t) => (view.period === 1 ? slotText(t) : longDay(t)));
+  const names = bins.map((t) => (view.period === 1 ? slotText(t, TODAY_BIN) : longDay(t)));
 
   $("trend-note").textContent = view.period === 1 ? "3시간 단위" : "하루 단위";
   Charts.columns($("trend-chart"), {
@@ -388,11 +389,13 @@ function renderOps() {
     h("div", { class: "value num" }, c.value),
     h("div", { class: "sub" }, c.sub))));
 
-  // 실행 기록: 3시간 칸마다 상태 띠, 그 아래 관련 기사 수
-  const end = slotStart(now);
+  // 실행 기록: 1시간 칸마다 상태 띠, 그 아래 관련 기사 수
+  const opsSpan = `최근 ${OPS_DAYS}일`;
+  $("tracker-note").textContent = `${opsSpan} · 1시간 단위`;
+  const end = slotStart(now, RUN_SLOT);
   const slots = [];
-  for (let t = end - (OPS_DAYS * 8 - 1) * SLOT; t <= end; t += SLOT) slots.push(t);
-  const inSlot = slots.map((t) => runs.filter((r) => { const at = new Date(r.at).getTime(); return at >= t && at < t + SLOT; }));
+  for (let t = end - (OPS_DAYS * 24 - 1) * RUN_SLOT; t <= end; t += RUN_SLOT) slots.push(t);
+  const inSlot = slots.map((t) => runs.filter((r) => { const at = new Date(r.at).getTime(); return at >= t && at < t + RUN_SLOT; }));
   const states = inSlot.map((list) => {
     if (!list.length) return "none";
     const found = list.map(runState);
@@ -403,8 +406,8 @@ function renderOps() {
     const worst = list.reduce((m, r) => Math.min(m, r.sources_ok ?? 0), Infinity);
     const total = list.length ? list[0].sources_total : 0;
     const detail = list.length ? ` · 실행 ${list.length}회 · 매체 ${worst}/${total}` : "";
-    return { state: states[i], lines: [`${STATE_TEXT[states[i]]}${detail}`, slotText(t)] };
-  }), "최근 7일 3시간 단위 실행 상태");
+    return { state: states[i], lines: [`${STATE_TEXT[states[i]]}${detail}`, slotText(t, RUN_SLOT)] };
+  }), `${opsSpan} 1시간 단위 실행 상태`);
   $("tracker-legend").replaceChildren(...["ok", "partial", "alert", "none"].filter((s) => states.includes(s)).map((s) =>
     h("li", {}, h("span", { class: `swatch tracker-cell is-${s}` }), STATE_TEXT[s])));
 
@@ -414,8 +417,8 @@ function renderOps() {
     xAt: slots.map((t, i) => (kst(t).getUTCHours() === 0 ? i : -1)).filter((i) => i >= 0),
     values: relevantBySlot,
     height: 150,
-    tipText: (i) => [`관련 기사 ${num(relevantBySlot[i])}건`, slotText(slots[i])],
-    caption: "최근 7일 3시간 단위 관련 기사 수",
+    tipText: (i) => [`관련 기사 ${num(relevantBySlot[i])}건`, slotText(slots[i], RUN_SLOT)],
+    caption: `${opsSpan} 1시간 단위 관련 기사 수`,
   });
 
   // 수집 매체
@@ -431,7 +434,7 @@ function renderOps() {
       state);
   }));
 
-  // 기사를 많이 낸 매체 (최근 7일 이슈에 묶인 기사)
+  // 기사를 많이 낸 매체 (같은 기간 이슈에 묶인 기사)
   const since = now - OPS_DAYS * 24 * HOUR;
   const outlets = new Map();
   for (const issue of issues) {
@@ -439,8 +442,9 @@ function renderOps() {
     for (const a of issue.articles) outlets.set(a.source, (outlets.get(a.source) || 0) + 1);
   }
   const outletRows = [...outlets].sort((a, b) => b[1] - a[1]).slice(0, 8).map(([label, value]) => ({ label, value }));
-  if (outletRows.length) Charts.barList($("outlet-chart"), outletRows, { caption: "최근 7일 매체별 기사 수" });
-  else $("outlet-chart").replaceChildren(h("p", { class: "barlist-more" }, "최근 7일 동안 이슈에 묶인 기사가 없습니다."));
+  $("outlets-note").textContent = opsSpan;
+  if (outletRows.length) Charts.barList($("outlet-chart"), outletRows, { caption: `${opsSpan} 매체별 기사 수` });
+  else $("outlet-chart").replaceChildren(h("p", { class: "barlist-more" }, `${opsSpan} 동안 이슈에 묶인 기사가 없습니다.`));
 
   // 최근 실행 8회
   const cell = (value, text = num(value)) =>
@@ -521,16 +525,29 @@ async function load(version = window.BUILD || Date.now()) {
   renderMeta();
   render();
   resumeLocalJob();
+  startAutoWatch();
 }
 
-// ── 지금 업데이트 ───────────────────────────────────────────
-// 이 페이지는 정적 파일이라 직접 Agent를 돌릴 수 없으므로, GitHub에 "지금 실행"을 요청한다.
-// 요청에는 저장소 주인이 만든 토큰(Actions 쓰기 권한만)이 필요하며, 토큰은 이 브라우저에만 저장한다.
+// ── 업데이트 (GitHub Actions) ───────────────────────────────
+// 이 페이지는 정적 파일이라 직접 Agent를 돌리지 않는다. 실행은 GitHub Actions가 한다.
+//   - 1시간마다 자동 실행, 또는 휴대폰 GitHub 앱 등에서 "Run workflow"로 실행
+//   - 페이지는 실행이 시작되면 스스로 알아채 진행 상황을 보여주고, 끝나면 저절로 새로고침 (토큰 불필요: 공개 저장소)
+//   - 새로고침 버튼: 이 브라우저에 토큰을 저장해 둔 경우(주인 PC)만 바로 실행 요청, 아니면 최신 결과 확인
+//   - 토큰 저장 창은 주소 끝에 #setup 을 붙여 열 때만 나옴 (다른 컴퓨터에서 토큰을 묻지 않도록)
 
 const TOKEN_KEY = "semicon-news:github-token";
-const POLL_MS = 20000;              // 새 결과가 올라왔는지 20초마다 확인
-const POLL_LIMIT_MS = 12 * 60000;   // 12분이 지나도 안 바뀌면 그만 기다림
+const RUN_POLL_MS = 8000;                 // (토큰 있음) 실행 상황·새 결과를 8초마다 확인
+const PUBLIC_RUN_POLL_MS = 30000;         // (토큰 없음) GitHub API는 토큰 없이 시간당 60회까지라 30초마다
+const AUTO_META_MS = 60000;               // 새 결과가 올라왔는지 1분마다 확인
+const AUTO_RUN_MS = 120000;               // 실행이 시작됐는지 2분마다 확인
+const FIND_RUN_LIMIT_MS = 3 * 60000;      // 요청한 실행이 3분 안에 GitHub에 안 보이면 그만 기다림
+const RUN_LIMIT_MS = 40 * 60000;          // 실행이 40분 넘게 끝나지 않으면 그만 기다림 (Actions 제한 시간)
+const FAILED_GRACE_MS = 90000;            // 실행이 실패로 끝나면 90초만 더 기다려 봄
+const DEPLOY_GRACE_MS = 3 * 60000;        // 실행이 끝난 뒤 페이지에 반영되기까지 최대 3분
+const COOLDOWN_MS = 5 * 60000;            // 마지막 실행이 시작된 뒤 5분 안에는 다시 시작하지 않음
+const RUNNING = new Set(["queued", "in_progress", "waiting", "requested", "pending"]);
 let updating = false;
+let watching = false;
 
 function readToken() {
   try { return localStorage.getItem(TOKEN_KEY) || ""; } catch { return ""; }
@@ -552,64 +569,225 @@ function setUpdating(on, text) {
   else if (meta) renderMeta();
 }
 
+// 잠깐 상단 시각 자리에 메시지를 보여줬다가 원래대로
+function flashFreshness(text) {
+  $("freshness").textContent = text;
+  setTimeout(() => { if (!updating && meta) renderMeta(); }, 4000);
+}
+
+// token이 없으면 인증 없이 요청 (공개 저장소의 실행 기록은 누구나 볼 수 있음)
+function githubHeaders(token) {
+  return {
+    Accept: "application/vnd.github+json",
+    "X-GitHub-Api-Version": "2022-11-28",
+    ...(token ? { Authorization: `Bearer ${token}` } : {}),
+  };
+}
+
+function githubError(status) {
+  if (status === 401) return new Error("토큰이 올바르지 않거나 만료되었습니다. 새 토큰이 필요합니다.");
+  if (status === 403 || status === 404) {
+    return new Error("이 토큰에는 이 저장소의 Actions 실행 권한이 없습니다. 토큰 설정을 확인해 주세요.");
+  }
+  return new Error(`GitHub 요청이 실패했습니다 (${status}). 잠시 후 다시 시도해 주세요.`);
+}
+
+// GitHub API 호출 (네트워크 오류는 알아보기 쉬운 한국어 메시지로)
+async function githubFetch(url, options) {
+  try {
+    return await fetch(url, options);
+  } catch {
+    throw Object.assign(new Error("GitHub에 연결하지 못했습니다. 인터넷 연결을 확인해 주세요."), { network: true });
+  }
+}
+
+// 가장 최근 뉴스 업데이트 실행: state는 none / running / done
+async function latestRun(token) {
+  const res = await githubFetch(
+    `https://api.github.com/repos/${meta.repo}/actions/workflows/update.yml/runs?per_page=1`,
+    { headers: githubHeaders(token), cache: "no-store" },
+  );
+  if (!res.ok) throw githubError(res.status);
+  const run = ((await res.json()).workflow_runs || [])[0];
+  if (!run) return { state: "none" };
+  return {
+    id: run.id,
+    state: RUNNING.has(run.status) ? "running" : "done",
+    status: run.status,
+    conclusion: run.conclusion,
+    created_at: run.created_at,
+  };
+}
+
 async function dispatchUpdate(token) {
-  const res = await fetch(`https://api.github.com/repos/${meta.repo}/actions/workflows/update.yml/dispatches`, {
+  const res = await githubFetch(`https://api.github.com/repos/${meta.repo}/actions/workflows/update.yml/dispatches`, {
     method: "POST",
-    headers: {
-      Accept: "application/vnd.github+json",
-      Authorization: `Bearer ${token}`,
-      "X-GitHub-Api-Version": "2022-11-28",
-      "Content-Type": "application/json",
-    },
+    headers: { ...githubHeaders(token), "Content-Type": "application/json" },
     body: JSON.stringify({ ref: "main" }),
   });
-  if (res.status === 204) return;
-  if (res.status === 401) throw new Error("토큰이 올바르지 않거나 만료되었습니다. 새 토큰을 등록해 주세요.");
-  if (res.status === 403 || res.status === 404) {
-    throw new Error("이 토큰에는 이 저장소의 Actions 쓰기 권한이 없습니다. 토큰 설정을 확인해 주세요.");
-  }
-  throw new Error(`GitHub 요청이 실패했습니다 (${res.status}). 잠시 후 다시 시도해 주세요.`);
+  if (res.status !== 204 && res.status !== 200) throw githubError(res.status);
 }
+
+// 이 실행의 결과가 이미 페이지에 올라와 있는지 (Agent 실행 시각은 항상 실행 생성 시각보다 뒤)
+const publishedFor = (runAt, run) => Boolean(runAt && run?.created_at && Date.parse(runAt) >= Date.parse(run.created_at));
 
 async function startUpdate() {
   if (updating) return;
   if (meta?.mode === "local") return startLocalUpdate();
-  const token = readToken();
-  if (!token || !meta?.repo) {
-    openUpdateDialog();
+  $("stale").hidden = true;  // 지난 안내 문구 지우기
+  setUpdating(true, "최신 결과 확인 중…");
+  // 오래 열어 둔 페이지일 수 있으니 최신 데이터부터 다시 불러옴
+  const before = meta?.last_run_at;
+  await load(Date.now());
+  if (!meta?.repo) {
+    setUpdating(false);
+    showNotice("데이터를 불러오지 못했습니다. 잠시 후 다시 시도해 주세요.");
     return;
   }
+  const token = readToken();
+  if (!token) return checkWithoutToken(before);
   setUpdating(true, "업데이트 요청 중…");
   try {
-    await dispatchUpdate(token);
-  } catch (error) {
-    setUpdating(false);
-    openUpdateDialog(error.message);
-    return;
-  }
-  setUpdating(true, "업데이트 실행 중 · 약 3~4분");
-  waitForNewData(meta.last_run_at);
-}
-
-function waitForNewData(previousRunAt) {
-  const started = Date.now();
-  const timer = setInterval(async () => {
-    try {
-      const latest = await fetchJson(`data/meta.json?t=${Date.now()}`);
-      if (latest.last_run_at && latest.last_run_at !== previousRunAt) {
-        clearInterval(timer);
-        await load(Date.now());
+    const current = await latestRun(token);
+    if (current.state === "running") {
+      if (publishedFor(meta.last_run_at, current)) {
+        // 결과는 이미 화면에 있고 마무리 점검만 남은 실행
         setUpdating(false);
+        showNotice("방금 업데이트된 결과입니다. 잠시 후 다시 눌러 주세요.");
         return;
       }
-    } catch { /* 배포 중에는 잠깐 못 읽을 수 있음. 다음 확인에서 다시 시도 */ }
-    if (Date.now() - started > POLL_LIMIT_MS) {
-      clearInterval(timer);
-      setUpdating(false);
-      $("stale").textContent = "업데이트가 아직 반영되지 않았습니다. GitHub Actions에서 실행 상태를 확인해 주세요.";
-      $("stale").hidden = false;
+      watchRun(token, { runId: current.id });  // 이미 실행 중이면 새로 시작하지 않고 그 실행을 기다림
+      return;
     }
-  }, POLL_MS);
+    const sinceLast = current.created_at ? Date.now() - Date.parse(current.created_at) : Infinity;
+    if (sinceLast < COOLDOWN_MS) {
+      setUpdating(false);
+      showNotice(`방금 업데이트가 실행됐어요. ${Math.max(1, Math.ceil((COOLDOWN_MS - sinceLast) / 60000))}분 뒤에 다시 눌러 주세요.`);
+      return;
+    }
+    await dispatchUpdate(token);
+    watchRun(token, { beforeId: current.id ?? null });
+  } catch (error) {
+    setUpdating(false);
+    if (error.network) showNotice(error.message);
+    else openUpdateDialog(error.message);  // 저장해 둔 토큰이 만료되는 등 (주인 PC에서만 생기는 경우)
+  }
+}
+
+// 토큰이 없는 컴퓨터(면접관 PC 등): 실행을 요청하지 않고, 진행 중인 실행이 있으면 그걸 보여주고 아니면 최신 결과만 확인
+async function checkWithoutToken(previousRunAt) {
+  try {
+    const run = await latestRun(null);
+    if (run.state === "running" && !publishedFor(meta.last_run_at, run)) {
+      watchRun(null, { runId: run.id });
+      return;
+    }
+  } catch { /* GitHub 확인이 안 돼도 최신 결과 확인은 이미 했음 */ }
+  setUpdating(false);
+  flashFreshness(meta.last_run_at !== previousRunAt ? "새 뉴스로 업데이트했어요" : "최신 결과예요");
+}
+
+// 페이지를 열어 두는 동안: 새 결과가 올라오면 저절로 새로고침하고, 실행이 시작되면 진행 상황을 보여줌.
+// (휴대폰 GitHub 앱이나 1시간마다 자동 실행으로 업데이트가 돌면 면접관 화면이 스스로 갱신됨)
+let autoWatchStarted = false;
+function startAutoWatch() {
+  if (autoWatchStarted || meta?.mode !== "github") return;
+  autoWatchStarted = true;
+  let lastRunCheck = 0;
+  const tick = async () => {
+    if (document.visibilityState === "visible" && !updating && !watching) {
+      try {
+        const latest = await fetchJson(`data/meta.json?t=${Date.now()}`);
+        if (latest.last_run_at && latest.last_run_at !== meta.last_run_at && !updating && !watching) {
+          await load(Date.now());
+          flashFreshness("새 뉴스로 업데이트했어요");
+        }
+      } catch { /* 다음 확인에서 다시 시도 */ }
+      if (Date.now() - lastRunCheck >= AUTO_RUN_MS && !updating && !watching) {
+        lastRunCheck = Date.now();
+        try {
+          const token = readToken() || null;
+          const run = await latestRun(token);
+          if (run.state === "running" && !publishedFor(meta.last_run_at, run) && !updating && !watching) {
+            watchRun(token, { runId: run.id });
+          }
+        } catch { /* 토큰 없이 확인하는 횟수 제한에 걸리면 다음에 다시 */ }
+      }
+    }
+    setTimeout(tick, AUTO_META_MS);
+  };
+  tick();
+}
+
+// 실행 상황을 보여주다가, 그 실행의 결과가 페이지에 올라오면 다시 불러온다.
+// 어떤 실행인지는 컴퓨터 시계가 아니라 GitHub 실행 번호로 구분한다.
+//   runId: 이미 돌고 있던 실행을 기다릴 때 그 번호
+//   beforeId: 방금 실행을 요청했을 때, 요청 직전의 최근 실행 번호 (이것과 다른 새 실행이 '우리 실행')
+function watchRun(token, { runId = null, beforeId = null }) {
+  if (watching) return;
+  watching = true;
+  const started = Date.now();
+  let ours = null;       // 우리 실행 (찾으면 채움)
+  let doneAt = null;
+  let stopped = false;
+  let timer = null;
+
+  const finish = (notice) => {
+    if (stopped) return;
+    stopped = true;
+    clearTimeout(timer);
+    watching = false;
+    setUpdating(false);
+    if (notice) showNotice(notice);
+  };
+
+  const tick = async () => {
+    // 1) GitHub 실행 상황
+    try {
+      const run = await latestRun(token);
+      if (stopped) return;
+      const isOurs = runId ? run.id === runId : (run.id && run.id !== beforeId);
+      if (isOurs) ours = run;
+    } catch { /* 다음 확인에서 다시 시도 */ }
+
+    // 2) 우리 실행의 결과가 페이지에 올라왔으면 다시 불러오고 끝
+    try {
+      const latest = await fetchJson(`data/meta.json?t=${Date.now()}`);
+      if (stopped) return;
+      if (latest.last_run_at !== meta.last_run_at) await load(Date.now());  // 더 새로운 데이터는 일단 보여줌
+      if (ours && publishedFor(latest.last_run_at, ours)) {
+        const warned = ours.state === "done" && ours.conclusion !== "success";
+        finish(warned ? "업데이트는 반영됐지만 경고가 있습니다. 아래 '최근 실행'을 확인하세요." : null);
+        if (!warned) flashFreshness("새 뉴스로 업데이트했어요");
+        return;
+      }
+    } catch { /* 배포 중에는 잠깐 못 읽을 수 있음 */ }
+    if (stopped) return;
+
+    // 3) 진행 상황 표시와 그만 기다릴 조건
+    const minutes = Math.floor((Date.now() - started) / 60000);
+    if (!ours) {
+      $("freshness").textContent = "업데이트 대기 중…";
+      if (Date.now() - started > FIND_RUN_LIMIT_MS) return finish("요청한 업데이트가 시작되지 않았습니다. GitHub Actions 실행 기록을 확인하세요.");
+    } else if (ours.state === "running") {
+      $("freshness").textContent = ours.status === "queued" ? "업데이트 대기 중…" : `뉴스 수집·요약 중 · ${minutes}분 경과`;
+      if (Date.now() - started > RUN_LIMIT_MS) return finish("업데이트가 너무 오래 걸립니다. GitHub Actions 실행 기록을 확인하세요.");
+    } else {
+      doneAt = doneAt || Date.now();
+      $("freshness").textContent = "페이지에 반영 중…";
+      if (ours.conclusion !== "success" && Date.now() - doneAt > FAILED_GRACE_MS) {
+        return finish("업데이트 실행이 실패했습니다. GitHub Actions 실행 기록을 확인하세요.");
+      }
+      if (Date.now() - doneAt > DEPLOY_GRACE_MS) {
+        return finish("업데이트는 끝났지만 페이지 반영이 늦어지고 있습니다. 잠시 후 페이지를 새로고침해 보세요.");
+      }
+    }
+    // 이번 확인이 끝난 뒤에 다음 확인을 예약 (겹치지 않게). 토큰 없이 확인할 때는 횟수 제한 때문에 천천히
+    timer = setTimeout(tick, token ? RUN_POLL_MS : PUBLIC_RUN_POLL_MS);
+  };
+
+  setUpdating(true, "업데이트 시작 중…");
+  tick();
 }
 
 // ── 내 PC 모드 (python -m agent.serve) ──────────────────────
@@ -736,6 +914,13 @@ $("token-clear").addEventListener("click", () => {
   $("dialog-error").hidden = false;
 });
 
+// 주인 PC에서 토큰을 저장할 때만: 주소 끝에 #setup 을 붙여 열면 토큰 저장 창이 뜸
+async function openSetupIfRequested() {
+  if (location.hash !== "#setup" || window.top !== window.self) return;
+  for (let i = 0; i < 50 && !meta; i++) await new Promise((r) => setTimeout(r, 200));
+  if (meta) openUpdateDialog();
+}
+
 bindSegmented("period", "period", Number);
 bindSegmented("region", "region", String);
 $("importance").addEventListener("change", (e) => { view.minImp = Number(e.target.value); render(); });
@@ -748,3 +933,4 @@ $("query").addEventListener("input", (e) => {
   typing = setTimeout(() => { view.query = e.target.value.trim().toLowerCase(); render(); }, 150);
 });
 load();
+openSetupIfRequested();

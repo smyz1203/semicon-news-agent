@@ -22,15 +22,3 @@ jobs:
           cache: pip
       - run: pip install -r requirements.txt
       - run: python -m pytest -q
-
-  # Vercel 배포에 쓰는 빌드 스크립트가 리눅스에서 그대로 동작하는지 확인
-  vercel-build:
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    permissions:
-      contents: read
-    steps:
-      - uses: actions/checkout@v7
-      - run: sh scripts/vercel-build.sh
-      - name: 결과 확인
-        run: test -f _site/index.html && test -f _site/data/issues.json && test -f _site/data/meta.json

@@ -38,6 +38,17 @@ def test_build_site(tmp_path):
     assert (out / ".nojekyll").exists()
 
 
+def test_no_token_is_ever_published(tmp_path, monkeypatch):
+    # 어떤 환경변수가 있어도 페이지 데이터에 토큰이 들어가지 않아야 함
+    monkeypatch.setenv("DEMO_DISPATCH_TOKEN", "github_pat_should_not_appear")
+    monkeypatch.setenv("OPENAI_API_KEY", "sk-should-not-appear")
+    out = build_site.build(tmp_path / "d", tmp_path / "site")
+    for path in out.rglob("*"):
+        if path.is_file():
+            text = path.read_text(encoding="utf-8", errors="ignore")
+            assert "should_not_appear" not in text and "should-not-appear" not in text
+
+
 def test_build_site_without_data(tmp_path):
     out = build_site.build(tmp_path / "empty", tmp_path / "_site")
     meta = json.loads((out / "data" / "meta.json").read_text(encoding="utf-8"))
