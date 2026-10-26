@@ -20,6 +20,7 @@ class Source:
     lang: str
     filter: bool
     tz: str = "UTC"
+    section: str = ""   # 같은 매체의 여러 RSS를 웹에서 구분하기 위한 이름 (예: 반도체)
     enabled: bool = True
 
 
