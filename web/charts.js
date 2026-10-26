@@ -198,11 +198,11 @@
 
   /**
    * 순위 목록 (행 배경이 곧 막대). rows: [{ label, value, selected }]
-   * onSelect가 있으면 행이 버튼이 되어 누르면 그 값으로 걸러 봄. thin이면 이름 아래 2px 막대
+   * onSelect가 있으면 행이 버튼이 되어 누르면 그 값으로 걸러 봄. rank면 앞에 순위 번호
    */
-  function barList(box, rows, { unit = "건", onSelect = null, thin = false, rank = false, caption = "" } = {}) {
+  function barList(box, rows, { unit = "건", onSelect = null, rank = false, caption = "" } = {}) {
     const max = Math.max(1, ...rows.map((r) => r.value));
-    const list = el("ol", thin ? "barlist is-thin" : "barlist");
+    const list = el("ol", "barlist");
     list.setAttribute("aria-label", caption);
     rows.forEach((r, k) => {
       const item = el("li");
@@ -214,7 +214,6 @@
       }
       const fill = el("span", "barlist-fill");
       fill.style.width = `${(r.value / max) * 100}%`;
-      if (thin && k === 0) fill.classList.add("is-lead");
       const name = el("span", "barlist-label", r.label);
       name.title = r.label;
       const value = el("span", "barlist-value num", nf.format(r.value));
