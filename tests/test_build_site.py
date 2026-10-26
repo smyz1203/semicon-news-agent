@@ -33,6 +33,12 @@ def test_build_site(tmp_path):
     assert meta["repo"] == "smyz1203/semicon-news-agent"
     index_html = (out / "index.html").read_text(encoding="utf-8")
     assert 'id="refresh"' in index_html and 'id="update-dialog"' in index_html
+    # 브리핑 맨 아래 중요도 기준표: settings.yaml의 기준표 그대로
+    rubric = meta["rubric"]
+    assert len(rubric["event_types"]) == 17 and {"name", "score", "desc"} == set(rubric["event_types"][0])
+    assert [a["value"] for a in rubric["adjust"]] == [1, 1, -1]
+    assert rubric["watch_companies"] == ["LG디스플레이", "삼성디스플레이", "삼성전자", "SK하이닉스", "엔비디아"]
+    assert 'id="rubric"' in index_html and "가 판단했으며" in index_html
     assert "tokens" not in meta["runs"][0]  # 웹에는 필요한 필드만
     assert len(meta["sources"]) >= 10 and {"name", "ok"} <= set(meta["sources"][0])
     assert (out / ".nojekyll").exists()

@@ -38,6 +38,7 @@ def build(data_dir: Path = DATA_DIR, out_dir: Path = SITE_DIR, local: bool = Fal
         "last_success_at": state["last_success_at"],
         "categories": cfg.settings["categories"],
         "ai": _ai_label(cfg.settings, runs),
+        "rubric": _rubric(cfg.settings),
         # '지금 업데이트' 버튼이 실행을 요청할 저장소. Actions에서는 GitHub이 알려주는 값을 우선 사용
         "repo": os.environ.get("GITHUB_REPOSITORY") or cfg.settings.get("github_repo"),
         # 새로고침 버튼 동작: local = 내 PC 서버, github = GitHub Actions 실행 요청
@@ -87,6 +88,22 @@ def _ai_label(settings: dict, runs: list[dict]) -> str:
         provider, _, model = value.partition("/")
         labels.append(f"{AI_NAMES.get(provider, provider)} {model}".strip())
     return ", ".join(labels)
+
+
+def _rubric(settings: dict) -> dict:
+    """브리핑 맨 아래 '중요도 기준표' 참고자료. settings.yaml의 기준표를 그대로 옮기므로 설정을 고치면 표도 바뀐다."""
+    imp = settings["importance"]
+    adjust = imp["adjust"]
+    conditions = [
+        (adjust["watch_company"], "관심 기업이 사건의 직접 당사자"),
+        (adjust["wide_coverage"], f"서로 다른 매체 {imp['wide_coverage_sources']}곳 이상이 보도"),
+        (adjust["unconfirmed"], "검토·추진·계획·전망·루머처럼 아직 확정되지 않은 사건"),
+    ]
+    return {
+        "event_types": [{"name": t["name"], "score": t["score"], "desc": t["desc"]} for t in imp["event_types"]],
+        "adjust": [{"value": value, "condition": text} for value, text in conditions if value],  # 0으로 끈 항목은 뺌
+        "watch_companies": list(imp["watch_companies"]),
+    }
 
 
 def _public_issue(issue: dict) -> dict:
