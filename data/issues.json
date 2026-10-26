@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-26T16:57:53Z",
+  "updated_at": "2026-10-26T17:02:53Z",
   "issues": [
     {
       "id": "c20261026-0003",
@@ -59,7 +59,8 @@
       "confirmed": true,
       "parties": [
         "삼성전자"
-      ]
+      ],
+      "importance_raw": 3
     },
     {
       "id": "c20261026-0005",
@@ -111,7 +112,8 @@
       "confirmed": true,
       "parties": [
         "삼성전자"
-      ]
+      ],
+      "importance_raw": 4
     },
     {
       "id": "c20261026-0006",
@@ -160,7 +162,8 @@
       "confirmed": true,
       "parties": [
         "PC 제조사"
-      ]
+      ],
+      "importance_raw": 3
     },
     {
       "id": "c20261026-0011",
@@ -213,7 +216,8 @@
       "parties": [
         "SK하이닉스",
         "솔리다임"
-      ]
+      ],
+      "importance_raw": 3
     },
     {
       "id": "c20261026-0020",
@@ -265,7 +269,8 @@
       "confirmed": true,
       "parties": [
         "삼성디스플레이"
-      ]
+      ],
+      "importance_raw": 3
     },
     {
       "id": "c20261026-0026",
@@ -327,7 +332,8 @@
       "parties": [
         "삼성전자",
         "SK하이닉스"
-      ]
+      ],
+      "importance_raw": 4
     },
     {
       "id": "c20261026-0043",
@@ -372,7 +378,8 @@
       "parties": [
         "삼성전자",
         "퀄컴"
-      ]
+      ],
+      "importance_raw": 6
     },
     {
       "id": "c20261026-0001",
@@ -413,7 +420,8 @@
       "confirmed": true,
       "parties": [
         "한국"
-      ]
+      ],
+      "importance_raw": 2
     },
     {
       "id": "c20261026-0002",
@@ -461,7 +469,8 @@
         "LG디스플레이",
         "한화시스템",
         "보잉"
-      ]
+      ],
+      "importance_raw": 6
     },
     {
       "id": "c20261026-0004",
@@ -502,7 +511,8 @@
       "confirmed": true,
       "parties": [
         "국내 연구진"
-      ]
+      ],
+      "importance_raw": 5
     },
     {
       "id": "c20261026-0007",
@@ -545,7 +555,8 @@
       "confirmed": true,
       "parties": [
         "에버디스플레이"
-      ]
+      ],
+      "importance_raw": 3
     },
     {
       "id": "c20261026-0008",
@@ -587,7 +598,8 @@
       ],
       "event_type": "가격 동향",
       "confirmed": true,
-      "parties": []
+      "parties": [],
+      "importance_raw": 3
     },
     {
       "id": "c20261026-0009",
@@ -630,7 +642,8 @@
       "confirmed": true,
       "parties": [
         "파나소닉 아비오닉스"
-      ]
+      ],
+      "importance_raw": 3
     },
     {
       "id": "c20261026-0010",
@@ -674,7 +687,8 @@
       "parties": [
         "인피니온",
         "NVIDIA"
-      ]
+      ],
+      "importance_raw": 4
     },
     {
       "id": "c20261026-0012",
@@ -717,7 +731,8 @@
       "confirmed": true,
       "parties": [
         "ASM"
-      ]
+      ],
+      "importance_raw": 1
     },
     {
       "id": "c20261026-0013",
@@ -759,7 +774,8 @@
       "confirmed": true,
       "parties": [
         "기가비스"
-      ]
+      ],
+      "importance_raw": 3
     },
     {
       "id": "c20261026-0014",
@@ -803,7 +819,8 @@
       "confirmed": false,
       "parties": [
         "SK 하이퍼"
-      ]
+      ],
+      "importance_raw": 1
     },
     {
       "id": "c20261026-0015",
@@ -845,7 +862,8 @@
       "confirmed": false,
       "parties": [
         "다우인시스"
-      ]
+      ],
+      "importance_raw": 4
     },
     {
       "id": "c20261026-0016",
@@ -889,7 +907,8 @@
       "parties": [
         "글로벌 테크",
         "현대 모비스"
-      ]
+      ],
+      "importance_raw": 3
     },
     {
       "id": "c20261026-0017",
@@ -931,7 +950,8 @@
       "confirmed": true,
       "parties": [
         "한솔아이오네스"
-      ]
+      ],
+      "importance_raw": 3
     },
     {
       "id": "c20261026-0018",
@@ -975,7 +995,8 @@
       "confirmed": false,
       "parties": [
         "SK하이닉스"
-      ]
+      ],
+      "importance_raw": 2
     },
     {
       "id": "c20261026-0019",
@@ -1018,7 +1039,8 @@
       "confirmed": true,
       "parties": [
         "DB하이텍"
-      ]
+      ],
+      "importance_raw": 2
     },
     {
       "id": "c20261026-0021",
@@ -1061,7 +1083,8 @@
       "parties": [
         "코트라",
         "인베스트 코리아"
-      ]
+      ],
+      "importance_raw": 1
     },
     {
       "id": "c20261026-0022",
@@ -1102,7 +1125,8 @@
       "confirmed": true,
       "parties": [
         "중소벤처기업부"
-      ]
+      ],
+      "importance_raw": 2
     },
     {
       "id": "c20261026-0023",
@@ -1144,7 +1168,8 @@
       "confirmed": true,
       "parties": [
         "삼성전자"
-      ]
+      ],
+      "importance_raw": 6
     },
     {
       "id": "c20261026-0024",
@@ -1183,7 +1208,8 @@
       ],
       "event_type": "채용·인력",
       "confirmed": false,
-      "parties": []
+      "parties": [],
+      "importance_raw": 1
     },
     {
       "id": "c20261026-0025",
@@ -1225,7 +1251,8 @@
       "confirmed": true,
       "parties": [
         "SK하이닉스"
-      ]
+      ],
+      "importance_raw": 2
     },
     {
       "id": "c20261026-0027",
@@ -1267,7 +1294,8 @@
       "confirmed": true,
       "parties": [
         "LS 에코 에너지"
-      ]
+      ],
+      "importance_raw": 3
     },
     {
       "id": "c20261026-0028",
@@ -1310,7 +1338,8 @@
       "confirmed": true,
       "parties": [
         "헨켈"
-      ]
+      ],
+      "importance_raw": 5
     },
     {
       "id": "c20261026-0029",
@@ -1355,7 +1384,8 @@
       "parties": [
         "아스플로",
         "A사"
-      ]
+      ],
+      "importance_raw": 3
     },
     {
       "id": "c20261026-0030",
@@ -1401,7 +1431,8 @@
       "parties": [
         "우프틱스",
         "삼성"
-      ]
+      ],
+      "importance_raw": 3
     },
     {
       "id": "c20261026-0031",
@@ -1445,7 +1476,8 @@
       "parties": [
         "경북도",
         "퓨리오사AI"
-      ]
+      ],
+      "importance_raw": 2
     },
     {
       "id": "c20261026-0032",
@@ -1487,7 +1519,8 @@
       "parties": [
         "용인시",
         "시민단체"
-      ]
+      ],
+      "importance_raw": 2
     },
     {
       "id": "c20261026-0033",
@@ -1529,7 +1562,8 @@
       "parties": [
         "호남 지역",
         "정부"
-      ]
+      ],
+      "importance_raw": 2
     },
     {
       "id": "c20261026-0034",
@@ -1572,7 +1606,8 @@
       "confirmed": true,
       "parties": [
         "ACM리서치"
-      ]
+      ],
+      "importance_raw": 3
     },
     {
       "id": "c20261026-0035",
@@ -1615,7 +1650,8 @@
       "parties": [
         "하이닉스",
         "삼성전자"
-      ]
+      ],
+      "importance_raw": 2
     },
     {
       "id": "c20261026-0036",
@@ -1656,7 +1692,8 @@
       "parties": [
         "임문영 의원",
         "국회"
-      ]
+      ],
+      "importance_raw": 4
     },
     {
       "id": "c20261026-0037",
@@ -1694,7 +1731,8 @@
       ],
       "event_type": "채용·인력",
       "confirmed": false,
-      "parties": []
+      "parties": [],
+      "importance_raw": 1
     },
     {
       "id": "c20261026-0038",
@@ -1737,7 +1775,8 @@
       "confirmed": true,
       "parties": [
         "삼성전자"
-      ]
+      ],
+      "importance_raw": 4
     },
     {
       "id": "c20261026-0039",
@@ -1782,7 +1821,8 @@
       "parties": [
         "LB세미콘",
         "퀄컴"
-      ]
+      ],
+      "importance_raw": 3
     },
     {
       "id": "c20261026-0040",
@@ -1827,7 +1867,8 @@
       "parties": [
         "큐알티",
         "원자력연구원"
-      ]
+      ],
+      "importance_raw": 5
     },
     {
       "id": "c20261026-0041",
@@ -1868,7 +1909,8 @@
       "confirmed": true,
       "parties": [
         "DB하이텍"
-      ]
+      ],
+      "importance_raw": 2
     },
     {
       "id": "c20261026-0042",
@@ -1909,7 +1951,8 @@
       "confirmed": true,
       "parties": [
         "전투기용 OLED 디스플레이 제조사"
-      ]
+      ],
+      "importance_raw": 5
     }
   ]
 }
