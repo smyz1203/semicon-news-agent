@@ -47,6 +47,7 @@ function dayLabel(key) {
 
 function ago(iso) {
   const minutes = Math.max(0, Math.round((Date.now() - new Date(iso)) / 60000));
+  if (minutes < 1) return "방금 전";
   if (minutes < 60) return `${minutes}분 전`;
   const hours = Math.floor(minutes / 60);
   if (hours < 48) return `${hours}시간 전`;
@@ -186,9 +187,9 @@ function renderMeta() {
     $("freshness").textContent = `업데이트 ${ago(lastRun)}`;
     $("freshness").title = clock(lastRun);
     const hours = (Date.now() - new Date(lastRun)) / 3600000;
+    $("stale").hidden = hours <= STALE_HOURS;
     if (hours > STALE_HOURS) {
       $("stale").textContent = `자동 업데이트가 ${Math.floor(hours)}시간째 멈춰 있습니다. GitHub Actions 실행 기록을 확인하세요.`;
-      $("stale").hidden = false;
     }
   }
 
@@ -240,12 +241,20 @@ function bindSegmented(id, key, parse) {
   });
 }
 
-async function load() {
-  const v = encodeURIComponent(window.BUILD || Date.now());
+function fetchJson(url) {
+  return fetch(url, { cache: "no-store" }).then((r) => {
+    if (!r.ok) throw new Error(`HTTP ${r.status}`);
+    return r.json();
+  });
+}
+
+// version: 주소 끝에 붙여 예전 파일이 캐시에서 나오지 않게 하는 값
+async function load(version = window.BUILD || Date.now()) {
+  const v = encodeURIComponent(version);
   try {
     const [issueData, metaData] = await Promise.all([
-      fetch(`data/issues.json?v=${v}`).then((r) => r.json()),
-      fetch(`data/meta.json?v=${v}`).then((r) => r.json()),
+      fetchJson(`data/issues.json?v=${v}`),
+      fetchJson(`data/meta.json?v=${v}`),
     ]);
     issues = issueData.issues || [];
     meta = metaData;
@@ -256,6 +265,128 @@ async function load() {
   renderMeta();
   render();
 }
+
+// ── 지금 업데이트 ───────────────────────────────────────────
+// 이 페이지는 정적 파일이라 직접 Agent를 돌릴 수 없으므로, GitHub에 "지금 실행"을 요청한다.
+// 요청에는 저장소 주인이 만든 토큰(Actions 쓰기 권한만)이 필요하며, 토큰은 이 브라우저에만 저장한다.
+
+const TOKEN_KEY = "semicon-news:github-token";
+const POLL_MS = 20000;              // 새 결과가 올라왔는지 20초마다 확인
+const POLL_LIMIT_MS = 12 * 60000;   // 12분이 지나도 안 바뀌면 그만 기다림
+let updating = false;
+
+function readToken() {
+  try { return localStorage.getItem(TOKEN_KEY) || ""; } catch { return ""; }
+}
+function saveToken(value) {
+  try { localStorage.setItem(TOKEN_KEY, value); return true; } catch { return false; }
+}
+function clearToken() {
+  try { localStorage.removeItem(TOKEN_KEY); } catch { /* 저장소를 쓸 수 없는 환경 */ }
+}
+
+function setUpdating(on, text) {
+  updating = on;
+  const button = $("refresh");
+  button.classList.toggle("running", on);
+  button.setAttribute("aria-busy", String(on));
+  button.title = on ? "업데이트 중" : "지금 업데이트";
+  if (text) $("freshness").textContent = text;
+  else if (meta) renderMeta();
+}
+
+async function dispatchUpdate(token) {
+  const res = await fetch(`https://api.github.com/repos/${meta.repo}/actions/workflows/update.yml/dispatches`, {
+    method: "POST",
+    headers: {
+      Accept: "application/vnd.github+json",
+      Authorization: `Bearer ${token}`,
+      "X-GitHub-Api-Version": "2022-11-28",
+      "Content-Type": "application/json",
+    },
+    body: JSON.stringify({ ref: "main" }),
+  });
+  if (res.status === 204) return;
+  if (res.status === 401) throw new Error("토큰이 올바르지 않거나 만료되었습니다. 새 토큰을 등록해 주세요.");
+  if (res.status === 403 || res.status === 404) {
+    throw new Error("이 토큰에는 이 저장소의 Actions 쓰기 권한이 없습니다. 토큰 설정을 확인해 주세요.");
+  }
+  throw new Error(`GitHub 요청이 실패했습니다 (${res.status}). 잠시 후 다시 시도해 주세요.`);
+}
+
+async function startUpdate() {
+  if (updating) return;
+  const token = readToken();
+  if (!token || !meta?.repo) {
+    openUpdateDialog();
+    return;
+  }
+  setUpdating(true, "업데이트 요청 중…");
+  try {
+    await dispatchUpdate(token);
+  } catch (error) {
+    setUpdating(false);
+    openUpdateDialog(error.message);
+    return;
+  }
+  setUpdating(true, "업데이트 실행 중 · 약 3~4분");
+  waitForNewData(meta.last_run_at);
+}
+
+function waitForNewData(previousRunAt) {
+  const started = Date.now();
+  const timer = setInterval(async () => {
+    try {
+      const latest = await fetchJson(`data/meta.json?t=${Date.now()}`);
+      if (latest.last_run_at && latest.last_run_at !== previousRunAt) {
+        clearInterval(timer);
+        await load(Date.now());
+        setUpdating(false);
+        return;
+      }
+    } catch { /* 배포 중에는 잠깐 못 읽을 수 있음. 다음 확인에서 다시 시도 */ }
+    if (Date.now() - started > POLL_LIMIT_MS) {
+      clearInterval(timer);
+      setUpdating(false);
+      $("stale").textContent = "업데이트가 아직 반영되지 않았습니다. GitHub Actions에서 실행 상태를 확인해 주세요.";
+      $("stale").hidden = false;
+    }
+  }, POLL_MS);
+}
+
+function openUpdateDialog(errorMessage) {
+  const repo = meta?.repo || "";
+  $("actions-link").href = repo ? `https://github.com/${repo}/actions/workflows/update.yml` : "https://github.com";
+  $("repo-name").textContent = repo || "이 저장소";
+  $("dialog-error").textContent = errorMessage || "";
+  $("dialog-error").hidden = !errorMessage;
+  $("token-clear").hidden = !readToken();
+  $("token-input").value = "";
+  $("update-dialog").showModal();
+}
+
+$("refresh").addEventListener("click", startUpdate);
+$("token-save").addEventListener("click", () => {
+  const value = $("token-input").value.trim();
+  if (!/^(github_pat_|ghp_)\w+$/.test(value)) {
+    $("dialog-error").textContent = "GitHub 토큰은 github_pat_ 로 시작합니다. 다시 확인해 주세요.";
+    $("dialog-error").hidden = false;
+    return;
+  }
+  if (!saveToken(value)) {
+    $("dialog-error").textContent = "이 브라우저에는 토큰을 저장할 수 없습니다. 방법 1을 이용해 주세요.";
+    $("dialog-error").hidden = false;
+    return;
+  }
+  $("update-dialog").close();
+  startUpdate();
+});
+$("token-clear").addEventListener("click", () => {
+  clearToken();
+  $("token-clear").hidden = true;
+  $("dialog-error").textContent = "저장된 토큰을 삭제했습니다.";
+  $("dialog-error").hidden = false;
+});
 
 bindSegmented("period", "period", Number);
 bindSegmented("region", "region", String);

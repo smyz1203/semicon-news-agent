@@ -29,6 +29,10 @@ def test_build_site(tmp_path):
     assert meta["last_run_at"] == "2026-10-26T03:17:00Z"
     # 화면의 AI 이름은 실제로 요약을 만든 모델들 (최근 것부터)
     assert meta["ai"] == "OpenAI gpt-4o-mini, Claude claude-sonnet-5-5"
+    # '지금 업데이트' 버튼이 실행을 요청할 저장소
+    assert meta["repo"] == "smyz1203/semicon-news-agent"
+    index_html = (out / "index.html").read_text(encoding="utf-8")
+    assert 'id="refresh"' in index_html and 'id="update-dialog"' in index_html
     assert "tokens" not in meta["runs"][0]  # 웹에는 필요한 필드만
     assert len(meta["sources"]) >= 10 and {"name", "ok"} <= set(meta["sources"][0])
     assert (out / ".nojekyll").exists()
