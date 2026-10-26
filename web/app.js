@@ -73,7 +73,7 @@ function periodStart() {
   return new Date(dayStart(Date.now()) - (view.period - 1) * 24 * HOUR);
 }
 
-// ignoreCategory/ignoreCompany: 분야·기업 카드는 자기 필터를 빼고 세서, 하나를 골라도 전체 순위가 그대로 남음
+// ignoreCategory/ignoreCompany: 카드가 자기 필터를 빼고 세서, 하나를 골라도 순위가 그대로 남게 함
 function matches(issue, { ignoreCategory = false, ignoreCompany = false } = {}) {
   if (new Date(issue.updated_at) < periodStart()) return false;
   if (view.region !== "all" && issue.region !== view.region && issue.region !== "both") return false;
@@ -278,9 +278,10 @@ function renderCategories() {
 }
 
 // 많이 나온 기업: 누르면 그 기업 이슈만 봄. 고른 기업은 테두리로 표시하고 순위는 그대로
+// 기업 → 분야 순으로 좁혀 보므로, 분야를 골라도 기업 순위는 바뀌지 않음 (분야 카드는 고른 기업의 분야를 보여줌)
 function renderCompanies() {
   const counts = new Map();
-  for (const issue of issues.filter((i) => matches(i, { ignoreCompany: true }))) {
+  for (const issue of issues.filter((i) => matches(i, { ignoreCompany: true, ignoreCategory: true }))) {
     for (const name of new Set(issue.companies || [])) counts.set(name, (counts.get(name) || 0) + 1);
   }
   if (view.company && !counts.has(view.company)) counts.set(view.company, 0);  // 다른 필터로 0건이 돼도 눌러서 풀 수 있게
