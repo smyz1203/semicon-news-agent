@@ -76,6 +76,12 @@ def test_parse_feed():
     assert future.published_at == NOW  # 미래 시각은 시간대 오류로 보고 현재 시각으로
 
 
+def test_same_outlet_feeds_share_name():
+    # The Elec(thelec.net)은 디일렉(thelec.kr)의 영문판: 이름이 같아야 '매체 N곳 보도'에서 한 곳으로 셈
+    from agent.config import load_config
+    assert {s.name for s in load_config().sources if "thelec." in s.url} == {"디일렉"}
+
+
 def test_parse_feed_google_news_uses_real_publisher():
     gnews = Source(id="gnews-ko-1", name="Google 뉴스", url="u", lang="ko", filter=True, tz="UTC")
     rss = """<?xml version="1.0"?><rss version="2.0"><channel><item>

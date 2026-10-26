@@ -18,7 +18,7 @@ def article(title, url, source="디일렉", lang="ko", text="본문"):
 ARTICLES = [
     article("SK하이닉스, HBM4 세계 최초 양산 돌입", "https://a.kr/1"),
     article("[속보] SK하이닉스 HBM4 세계 최초 양산 돌입", "https://b.kr/1", source="전자신문"),  # 1차에서 묶임
-    article("SK hynix begins HBM4 mass production", "https://c.com/1", source="The Elec", lang="en"),
+    article("SK hynix begins HBM4 mass production", "https://c.com/1", source="Korea Herald", lang="en"),
     article("갤럭시 버즈 국내 출시", "https://a.kr/2"),
 ]
 RESULTS = {"디일렉": {"ok": True, "count": 3}, "전자신문": {"ok": True, "count": 1}}

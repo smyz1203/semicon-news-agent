@@ -29,6 +29,20 @@ def test_new_source_marks_issue_for_resummary():
     assert issue["needs_summary"] is False
 
 
+def test_renamed_source_is_read_with_new_name(tmp_path):
+    # 예전 이름(The Elec)으로 저장된 기사에 새 이름(디일렉) 기사가 붙어도 새 매체가 아님
+    from types import SimpleNamespace as A
+    issue = store.new_issue({}, NOW)
+    issue["articles"] = [{"key": "k1", "title": "t", "url": "u", "source": "The Elec", "lang": "en",
+                          "published_at": store.to_iso(NOW)}]
+    store.save_issues(tmp_path, [issue], NOW)
+    [loaded] = store.load_issues(tmp_path)
+    assert loaded["articles"][0]["source"] == "디일렉"
+    art = A(key="k2", title="t2", url="u2", source="디일렉", lang="en", published_at=NOW)
+    assert store.add_articles(loaded, [art], NOW) is False
+
+
+
 def test_seen_marking_and_pruning():
     state = store.load_state(store.Path("does-not-exist"))
     store.mark_seen(state, ["old"], NOW - timedelta(days=20))

@@ -92,8 +92,16 @@ def prune_seen(state: dict, days: int, now: datetime) -> None:
 # ── issues.json: 웹에 보여줄 이슈 목록 ──────────────────────────
 
 
+# 매체 이름을 바꾼 경우 예전에 저장한 기사도 새 이름으로 읽음 (같은 매체를 두 곳으로 세지 않도록)
+RENAMED_SOURCES = {"The Elec": "디일렉"}  # 디일렉 영문판 (config/sources.yaml의 thelec-en)
+
+
 def load_issues(data_dir: Path) -> list[dict]:
-    return read_json(data_dir / "issues.json", {"issues": []})["issues"]
+    issues = read_json(data_dir / "issues.json", {"issues": []})["issues"]
+    for issue in issues:
+        for art in issue["articles"]:
+            art["source"] = RENAMED_SOURCES.get(art["source"], art["source"])
+    return issues
 
 
 def save_issues(data_dir: Path, issues: list[dict], now: datetime) -> None:

@@ -39,7 +39,7 @@ def test_watch_company_by_alias():
 
 def test_wide_coverage_counts_distinct_sources():
     assert Scorer(SETTINGS).score(issue(sources=["디일렉", "디일렉", "전자신문"]))[0] == 3
-    score, reason = Scorer(SETTINGS).score(issue(sources=["디일렉", "전자신문", "The Elec"]))
+    score, reason = Scorer(SETTINGS).score(issue(sources=["디일렉", "전자신문", "KIPOST"]))
     assert score == 4 and reason == "수주·공급 3점, 매체 3곳 보도 +1 → 4점"
 
 
