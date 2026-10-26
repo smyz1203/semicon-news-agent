@@ -67,7 +67,9 @@ def _alias_pattern(alias: str) -> re.Pattern:
         # 짧은 대문자 약어(TEL, LGD, AMD 등)는 대소문자까지 일치해야 함
         flags = 0 if (alias.isupper() and len(alias) <= 4) else re.IGNORECASE
         return re.compile(r"(?<![A-Za-z0-9])" + re.escape(alias) + r"(?![A-Za-z0-9])", flags)
-    return re.compile(re.escape(alias), re.IGNORECASE)
+    # 한글은 조사가 붙어 단어 경계를 쓸 수 없음. 대신 '인텔리전스', '애플리케이션'처럼
+    # 회사명 뒤에 '리'가 이어지는 흔한 오탐만 막음
+    return re.compile(re.escape(alias) + r"(?!리)", re.IGNORECASE)
 
 
 def _keyword_pattern(term: str) -> re.Pattern:

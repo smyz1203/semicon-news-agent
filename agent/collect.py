@@ -47,11 +47,13 @@ class Article:
 # ── 공개 함수 ───────────────────────────────────────────────
 
 
-def collect(cfg: Config, since: datetime, now: datetime) -> tuple[list[Article], dict]:
-    """모든 매체에서 since 이후 기사를 모은다. (기사 목록, 매체별 결과)를 돌려준다."""
+def collect(cfg: Config, now: datetime) -> tuple[list[Article], dict]:
+    """모든 매체에서 최근 max_age_hours 안의 기사를 모은다. (기사 목록, 매체별 결과)를 돌려준다.
+
+    이미 처리한 기사는 여기서 거르지 않고 dedupe.drop_seen이 거른다.
+    """
     session = make_session()
-    max_age = timedelta(hours=cfg.settings["lookback"]["max_age_hours"])
-    oldest = max(since, now - max_age)
+    oldest = now - timedelta(hours=cfg.settings["lookback"]["max_age_hours"])
 
     articles: list[Article] = []
     results: dict[str, dict] = {}
@@ -63,10 +65,11 @@ def collect(cfg: Config, since: datetime, now: datetime) -> tuple[list[Article],
             log.warning("수집 실패 %s: %s", source.id, e)
             results[source.id] = {"ok": False, "error": str(e)[:200], "count": 0}
             continue
-        fresh = [a for a in items if a.published_at >= oldest]
-        results[source.id] = {"ok": True, "count": len(fresh), "total": len(items)}
-        articles.extend(fresh)
-        log.info("수집 %-18s 전체 %3d건, 새 기사 %3d건", source.id, len(items), len(fresh))
+        recent = [a for a in items if a.published_at >= oldest]
+        results[source.id] = {"ok": True, "count": len(recent), "total": len(items)}
+        articles.extend(recent)
+        log.info("수집 %-18s 전체 %3d건, 최근 %dh %3d건", source.id, len(items),
+                 cfg.settings["lookback"]["max_age_hours"], len(recent))
     return articles, results
 
 
@@ -135,6 +138,9 @@ def parse_datetime(raw: str, default_tz: str) -> datetime | None:
     tz_name = default_tz
     if raw.upper().endswith("KST"):
         raw, tz_name = raw[:-3].strip(), "Asia/Seoul"
+    elif raw.endswith("-0000"):
+        # RFC 822의 -0000은 'UTC'라는 뜻인데 파이썬은 시간대 없음으로 읽으므로 직접 처리
+        raw, tz_name = raw[:-5].strip(), "UTC"
     try:
         dt = datetime.fromisoformat(raw)
     except ValueError:

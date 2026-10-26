@@ -30,9 +30,16 @@ class FakeAnalyzer:
         self.summarized = []
 
     def cluster(self, groups, active):
+        # 국문·영문 HBM4 기사를 한 이슈로 (이미 있으면 그 이슈에), 버즈 기사는 관련 없음, 나머지는 각자 새 이슈
+        hbm = next((i["id"] for i in active if "HBM4" in i["headline"]), "new:hbm4")
         out = {}
         for i, g in enumerate(groups):
-            out[i] = None if "버즈" in g.lead.title else "new:hbm4"  # 국문·영문 HBM4 기사를 한 이슈로
+            if "버즈" in g.lead.title:
+                out[i] = None
+            elif "HBM4" in g.lead.title:
+                out[i] = hbm
+            else:
+                out[i] = f"new:{i}"
         return out
 
     def summarize(self, issue, texts):
@@ -46,9 +53,10 @@ class FakeAnalyzer:
         return 0.01
 
 
-def setup(monkeypatch, analyzer_kwargs=None):
+def setup(monkeypatch, analyzer_kwargs=None, articles=None):
     monkeypatch.setenv("ANTHROPIC_API_KEY", "test")
-    monkeypatch.setattr(main, "collect", lambda cfg, since, now: (list(ARTICLES), RESULTS))
+    feed = ARTICLES if articles is None else articles
+    monkeypatch.setattr(main, "collect", lambda cfg, now: (list(feed), {k: dict(v) for k, v in RESULTS.items()}))
     monkeypatch.setattr(main, "Analyzer", lambda s: FakeAnalyzer(s, **(analyzer_kwargs or {})))
 
 
@@ -86,6 +94,30 @@ def test_ai_stopped_publishes_pending_then_retries(tmp_path, monkeypatch):
     main.run(data_dir=tmp_path)
     [issue] = store.load_issues(tmp_path)
     assert issue["status"] == "summarized"
+
+
+def test_deferred_groups_are_processed_next_run(tmp_path, monkeypatch):
+    # 서로 다른 기사 3건, 실행당 상한 1 → 세 번의 실행에 걸쳐 모두 처리돼야 함 (잃어버리면 안 됨)
+    titles = ["LG디스플레이 8.6세대 OLED 투자 확정", "TSMC 2나노 미국 공장 양산 시작", "마이크론 일본 히로시마 HBM 증설"]
+    feed = [article(t, f"https://d.kr/{i}") for i, t in enumerate(titles)]
+    setup(monkeypatch, articles=feed)
+    records = [main.run(data_dir=tmp_path, limit=1) for _ in range(3)]
+    assert [r["deferred"] for r in records] == [2, 1, 0]
+    assert len(store.load_issues(tmp_path)) == 3
+
+
+def test_failed_resummary_is_retried(tmp_path, monkeypatch):
+    setup(monkeypatch, articles=ARTICLES[:1])
+    main.run(data_dir=tmp_path)
+    # 다른 매체 기사가 붙었는데 그 실행에서 AI가 멈춤 → 다음 실행에서 다시 요약해야 함
+    setup(monkeypatch, {"stop_on_summary": True}, articles=ARTICLES[:3])
+    main.run(data_dir=tmp_path)
+    [issue] = store.load_issues(tmp_path)
+    assert issue["needs_summary"] is True and issue["status"] == "summarized"
+    setup(monkeypatch, articles=ARTICLES[:3])
+    main.run(data_dir=tmp_path)
+    [issue] = store.load_issues(tmp_path)
+    assert issue["needs_summary"] is False
 
 
 def test_without_api_key_everything_is_pending(tmp_path, monkeypatch):

@@ -63,13 +63,6 @@ def save_state(data_dir: Path, state: dict) -> None:
     write_json(data_dir / "state.json", state)
 
 
-def collect_since(state: dict, lookback: dict, now: datetime) -> datetime:
-    """이번에 어느 시점 이후 기사를 모을지. 마지막 성공 시각보다 조금 앞부터."""
-    if state.get("last_success_at"):
-        return from_iso(state["last_success_at"]) - timedelta(minutes=lookback["overlap_minutes"])
-    return now - timedelta(hours=lookback["first_run_hours"])
-
-
 def update_source_health(state: dict, results: dict, now: datetime) -> None:
     for source_id, r in results.items():
         h = state["sources"].setdefault(source_id, {"fail_streak": 0})
@@ -126,6 +119,8 @@ def new_issue(state: dict, now: datetime) -> dict:
         "importance": 0,
         "importance_reason": "",
         "status": "pending",   # 요약 전. 요약이 끝나면 summarized
+        "needs_summary": True,  # 새 이슈이거나 새 매체 기사가 붙어 (다시) 요약해야 함
+        "attempts": 0,          # 요약 연속 실패 횟수
         "region": "",
         "first_seen": to_iso(now),
         "updated_at": to_iso(now),
@@ -157,6 +152,8 @@ def add_articles(issue: dict, articles, now: datetime) -> bool:
         if art.source not in sources:
             sources.add(art.source)
             new_source = True
+    if new_source:
+        issue["needs_summary"] = True
     if added:
         issue["articles"].sort(key=lambda a: a["published_at"])
         langs = {a["lang"] for a in issue["articles"]}

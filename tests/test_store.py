@@ -4,7 +4,6 @@ from datetime import datetime, timedelta, timezone
 from agent import store
 
 NOW = datetime(2026, 10, 26, 3, 17, tzinfo=timezone.utc)
-LOOKBACK = {"first_run_hours": 24, "overlap_minutes": 30}
 
 
 def test_write_json_keeps_korean_readable(tmp_path):
@@ -16,10 +15,18 @@ def test_write_json_keeps_korean_readable(tmp_path):
     assert list(tmp_path.iterdir()) == [path]  # 임시 파일이 남지 않음
 
 
-def test_collect_since():
-    assert store.collect_since({"last_success_at": None}, LOOKBACK, NOW) == NOW - timedelta(hours=24)
-    state = {"last_success_at": "2026-10-26T00:17:00Z"}
-    assert store.collect_since(state, LOOKBACK, NOW) == datetime(2026, 10, 25, 23, 47, tzinfo=timezone.utc)
+def test_new_source_marks_issue_for_resummary():
+    from types import SimpleNamespace as A
+    state = store.load_state(store.Path("does-not-exist"))
+    issue = store.new_issue(state, NOW)
+    issue["needs_summary"] = False
+    art = A(key="k1", title="t", url="u", source="디일렉", lang="ko", published_at=NOW)
+    assert store.add_articles(issue, [art], NOW) is True
+    assert issue["needs_summary"] is True
+    issue["needs_summary"] = False
+    same_source = A(key="k2", title="t2", url="u2", source="디일렉", lang="ko", published_at=NOW)
+    assert store.add_articles(issue, [same_source], NOW) is False  # 같은 매체 기사는 다시 요약 안 함
+    assert issue["needs_summary"] is False
 
 
 def test_seen_marking_and_pruning():

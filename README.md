@@ -94,6 +94,7 @@ notepad .env
 
 ## 운영 메모
 
+- **처음 한 번**: 저장소 Settings → Pages → Build and deployment → Source를 **GitHub Actions**로 바꾼 뒤, Actions 탭에서 "뉴스 업데이트"를 수동 실행(Run workflow)합니다.
 - **비밀값**: `ANTHROPIC_API_KEY`는 저장소 Settings → Secrets and variables → Actions에 저장합니다. 코드나 `.env`는 GitHub에 올라가지 않습니다.
 - **비용**: 웹페이지 아래 "최근 실행"에 회차별 추정 비용이 나옵니다. Anthropic 콘솔에서 월 사용 한도를 걸어 두세요.
 - **알림**: 매체 과반 수집 실패, AI 중단(크레딧 부족 등), 24시간 새 기사 없음이면 Actions 실행이 실패로 표시되고 GitHub이 메일을 보냅니다.

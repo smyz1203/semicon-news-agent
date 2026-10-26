@@ -14,8 +14,12 @@ from pathlib import Path
 from agent import store
 from agent.config import DATA_DIR, SITE_DIR, WEB_DIR, load_config
 
-RUN_FIELDS = ("at", "collected", "relevant", "groups", "new_issues", "summarized", "pending",
+RUN_FIELDS = ("at", "collected", "relevant", "groups", "deferred", "new_issues", "summarized", "pending",
               "sources_ok", "sources_total", "cost_usd", "alerts")
+# 웹에 게시하는 필드만 골라 담음 (내부 관리용 필드나 실수로 들어간 값이 공개되지 않도록)
+ISSUE_FIELDS = ("id", "headline", "summary", "category", "tags", "companies", "importance", "importance_reason",
+                "status", "region", "first_seen", "updated_at")
+ARTICLE_FIELDS = ("title", "url", "source", "lang", "published_at")
 
 
 def build(data_dir: Path = DATA_DIR, out_dir: Path = SITE_DIR) -> Path:
@@ -34,9 +38,14 @@ def build(data_dir: Path = DATA_DIR, out_dir: Path = SITE_DIR) -> Path:
         "runs": [{k: r.get(k) for k in RUN_FIELDS} for r in runs[-24:]],
     }
 
+    published = {
+        "updated_at": issues.get("updated_at"),
+        "issues": [_public_issue(i) for i in issues["issues"]],
+    }
+
     shutil.rmtree(out_dir, ignore_errors=True)
     shutil.copytree(WEB_DIR, out_dir)
-    store.write_json(out_dir / "data" / "issues.json", issues)
+    store.write_json(out_dir / "data" / "issues.json", published)
     store.write_json(out_dir / "data" / "meta.json", meta)
 
     # 브라우저가 예전 파일을 캐시해서 보여주지 않도록 빌드 시각을 주소에 붙임
@@ -45,6 +54,12 @@ def build(data_dir: Path = DATA_DIR, out_dir: Path = SITE_DIR) -> Path:
                      encoding="utf-8", newline="\n")
     (out_dir / ".nojekyll").touch()
     return out_dir
+
+
+def _public_issue(issue: dict) -> dict:
+    out = {k: issue.get(k) for k in ISSUE_FIELDS}
+    out["articles"] = [{k: a.get(k) for k in ARTICLE_FIELDS} for a in issue.get("articles", [])]
+    return out
 
 
 def _source_status(source, health: dict) -> dict:

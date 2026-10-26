@@ -10,6 +10,8 @@
 import argparse
 import logging
 import os
+import time
+from collections import Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
@@ -37,14 +39,16 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
     issues = store.load_issues(data_dir)
 
     # ── F1 수집 ──────────────────────────────────────────────
-    since = store.collect_since(state, s["lookback"], now)
-    log.info("수집 기준 시각: %s 이후", store.to_iso(since))
-    articles, results = collect(cfg, since, now)
+    articles, results = collect(cfg, now)
 
     # ── F2 1차 거르기 ────────────────────────────────────────
     companies = CompanyMatcher(s["companies"])
     watch_aliases = [a for name in s["importance"]["watch_companies"] for a in s["companies"].get(name, [name])]
     fresh = drop_seen(articles, state["seen"])
+    unseen = Counter(a.source_id for a in fresh)
+    for source_id, r in results.items():
+        if r["ok"]:
+            r["count"] = unseen[source_id]  # 매체 상태의 '마지막 새 기사'는 처음 보는 기사 기준
     relevant = drop_irrelevant(fresh, KeywordMatcher(s["keywords"], watch_aliases))
     threshold = s["dedupe"]["title_similarity"]
     groups = group_articles(relevant, companies, threshold, s["dedupe"]["max_hours_apart"])
@@ -59,16 +63,18 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
         _print_groups(groups)
         return None
 
-    # 비용 폭주 방지: AI에 넘길 묶음 수 제한 (넘친 것은 다음 실행으로 미룸)
+    # 비용 폭주 방지: AI에 넘길 묶음 수 제한
+    # 넘친 묶음은 seen에 기록하지 않으므로, 48시간 안이라면 다음 실행에서 다시 수집·처리됨
     to_ai = sorted((g for g in groups if g.issue_id is None), key=lambda g: g.lead.published_at, reverse=True)
     deferred = to_ai[limits["max_articles_per_run"]:]
     to_ai = to_ai[:limits["max_articles_per_run"]]
     if deferred:
-        log.warning("상한(%d)을 넘어 %d개 묶음은 이번에 처리하지 않음", limits["max_articles_per_run"], len(deferred))
+        log.warning("상한(%d)을 넘은 %d개 묶음은 다음 실행으로 미룸", limits["max_articles_per_run"], len(deferred))
     deferred_ids = {id(g) for g in deferred}
     processed = [g for g in groups if id(g) not in deferred_ids]
 
     analyzer, ai_stopped = None, None
+    ai_deadline = time.monotonic() + limits["ai_time_budget_minutes"] * 60
     if os.environ.get("ANTHROPIC_API_KEY"):
         analyzer = Analyzer({**s, "limits": limits})
     else:
@@ -87,7 +93,6 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
 
     by_id = {i["id"]: i for i in issues}
     new_keys: dict[str, str] = {}
-    needs_summary: set[str] = set()
     new_count = irrelevant = 0
     for g in processed:
         if g.issue_id:
@@ -104,27 +109,31 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
                 issues.append(issue)
                 by_id[issue["id"]] = issue
                 new_keys[target] = issue["id"]
-                needs_summary.add(issue["id"])
                 new_count += 1
             target = new_keys[target]
-        if store.add_articles(by_id[target], g.articles, now):
-            needs_summary.add(target)
+        store.add_articles(by_id[target], g.articles, now)  # 새 매체 기사면 needs_summary가 켜짐
 
     # ── F4 AI 요약·중요도 ────────────────────────────────────
+    # needs_summary는 저장되므로, 이번에 못 한 요약(실패·AI 중단·상한 초과)은 다음 실행에서 이어서 함
     texts = {a.key: a.text for g in processed for a in g.articles}
-    queue = [i for i in issues if i["id"] in needs_summary or i["status"] == "pending"]
+    queue = [i for i in issues
+             if i.get("needs_summary") and i.get("attempts", 0) < limits["summary_max_attempts"]]
     queue.sort(key=lambda i: (len(i["articles"]), i["updated_at"]), reverse=True)
     summarized = 0
     for issue in queue[:limits["max_summaries_per_run"]]:
         if not analyzer or ai_stopped:
             break
+        if time.monotonic() > ai_deadline:
+            log.warning("AI 시간 예산(%d분) 초과, 남은 요약은 다음 실행으로", limits["ai_time_budget_minutes"])
+            break
         try:
             issue.update(analyzer.summarize(issue, texts))
-            issue["status"] = "summarized"
+            issue.update(status="summarized", needs_summary=False, attempts=0)
             summarized += 1
             log.info("요약 [%d] %s", issue["importance"], issue["headline"])
         except AIError as e:
-            log.warning("요약 실패 %s: %s", issue["id"], e)
+            issue["attempts"] = issue.get("attempts", 0) + 1
+            log.warning("요약 실패 %s (%d회째): %s", issue["id"], issue["attempts"], e)
         except AIStopped as e:
             ai_stopped = str(e)
     if ai_stopped:
@@ -135,7 +144,7 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
     store.prune_seen(state, s["retention"]["seen_url_days"], now)
     store.update_source_health(state, results, now)
     issues = store.archive_old(data_dir, issues, s["retention"]["issues_days"], now)
-    if sources_ok * 2 >= len(results):  # 매체 과반이 실패하면 다음에 같은 구간을 다시 수집
+    if sources_ok * 2 >= len(results):
         state["last_success_at"] = store.to_iso(now)
 
     record = {
@@ -148,7 +157,7 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
         "irrelevant_by_ai": irrelevant,
         "new_issues": new_count,
         "summarized": summarized,
-        "pending": sum(1 for i in issues if i["status"] == "pending"),
+        "pending": sum(1 for i in issues if i.get("needs_summary")),
         "sources_ok": sources_ok,
         "sources_total": len(results),
         "ai_calls": analyzer.usage["calls"] if analyzer else 0,
