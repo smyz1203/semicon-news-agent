@@ -94,3 +94,99 @@ def mark_seen(state: dict, keys, now: datetime) -> None:
 def prune_seen(state: dict, days: int, now: datetime) -> None:
     cutoff = now - timedelta(days=days)
     state["seen"] = {k: t for k, t in state["seen"].items() if from_iso(t) >= cutoff}
+
+
+# ── issues.json: 웹에 보여줄 이슈 목록 ──────────────────────────
+
+
+def load_issues(data_dir: Path) -> list[dict]:
+    return read_json(data_dir / "issues.json", {"issues": []})["issues"]
+
+
+def save_issues(data_dir: Path, issues: list[dict], now: datetime) -> None:
+    ordered = sorted(issues, key=lambda i: i["updated_at"], reverse=True)
+    write_json(data_dir / "issues.json", {"version": SCHEMA_VERSION, "updated_at": to_iso(now), "issues": ordered})
+
+
+def active_issues(issues: list[dict], hours: int, now: datetime) -> list[dict]:
+    """새 기사를 붙일 수 있는 최근 이슈."""
+    cutoff = now - timedelta(hours=hours)
+    return [i for i in issues if from_iso(i["updated_at"]) >= cutoff]
+
+
+def new_issue(state: dict, now: datetime) -> dict:
+    state["issue_seq"] = state.get("issue_seq", 0) + 1
+    return {
+        "id": f"c{now:%Y%m%d}-{state['issue_seq']:04d}",
+        "headline": "",
+        "summary": [],
+        "category": "",
+        "tags": [],
+        "companies": [],
+        "importance": 0,
+        "importance_reason": "",
+        "status": "pending",   # 요약 전. 요약이 끝나면 summarized
+        "region": "",
+        "first_seen": to_iso(now),
+        "updated_at": to_iso(now),
+        "articles": [],
+    }
+
+
+def add_articles(issue: dict, articles, now: datetime) -> bool:
+    """이슈에 기사를 붙인다. 새 매체의 기사가 붙었으면 True (요약을 다시 할 가치가 있음).
+
+    공개 저장소에 올라가므로 기사 본문·요약문은 저장하지 않고 제목·링크·매체·시각만 남긴다.
+    """
+    keys = {a["key"] for a in issue["articles"]}
+    sources = {a["source"] for a in issue["articles"]}
+    added = new_source = False
+    for art in articles:
+        if art.key in keys:
+            continue
+        keys.add(art.key)
+        issue["articles"].append({
+            "key": art.key,
+            "title": art.title,
+            "url": art.url,
+            "source": art.source,
+            "lang": art.lang,
+            "published_at": to_iso(art.published_at),
+        })
+        added = True
+        if art.source not in sources:
+            sources.add(art.source)
+            new_source = True
+    if added:
+        issue["articles"].sort(key=lambda a: a["published_at"])
+        langs = {a["lang"] for a in issue["articles"]}
+        issue["region"] = "both" if len(langs) > 1 else next(iter(langs))
+        issue["updated_at"] = to_iso(now)
+    return new_source
+
+
+def archive_old(data_dir: Path, issues: list[dict], days: int, now: datetime) -> list[dict]:
+    """오래된 이슈를 data/archive/YYYY-MM.json으로 옮기고, 남길 이슈만 돌려준다."""
+    cutoff = now - timedelta(days=days)
+    keep, by_month = [], {}
+    for issue in issues:
+        if from_iso(issue["updated_at"]) >= cutoff:
+            keep.append(issue)
+        else:
+            by_month.setdefault(issue["first_seen"][:7], []).append(issue)
+    for month, old in by_month.items():
+        path = data_dir / "archive" / f"{month}.json"
+        archived = read_json(path, {"issues": []})["issues"]
+        known = {i["id"] for i in archived}
+        archived.extend(i for i in old if i["id"] not in known)
+        write_json(path, {"version": SCHEMA_VERSION, "issues": archived})
+    return keep
+
+
+# ── runs.json: 실행 기록 ─────────────────────────────────────
+
+
+def append_run(data_dir: Path, record: dict, keep: int) -> None:
+    runs = read_json(data_dir / "runs.json", [])
+    runs.append(record)
+    write_json(data_dir / "runs.json", runs[-keep:])

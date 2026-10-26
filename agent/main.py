@@ -1,14 +1,22 @@
-"""Agent 전체 흐름 실행.
+"""Agent 전체 흐름 실행: 수집 → 1차 거르기 → AI 묶기 → AI 요약·중요도 → 저장.
 
 사용법:
-    python -m agent.main --dry-run   # AI 없이 수집·1차 거르기 결과만 출력 (비용 0원)
+    python -m agent.main --dry-run            # AI 없이 수집·1차 거르기 결과만 출력 (비용 0원)
+    python -m agent.main --limit 5            # 소량만 실제로 처리 (테스트용)
+    python -m agent.main                      # 전체 실행 (GitHub Actions가 3시간마다 실행)
+    python -m agent.main --data-dir local-data  # 결과를 다른 폴더에 저장
 """
 
 import argparse
 import logging
-from datetime import datetime, timezone
+import os
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
+
+from dotenv import load_dotenv
 
 from agent import store
+from agent.analyze import AIError, AIStopped, Analyzer
 from agent.collect import collect
 from agent.config import DATA_DIR, load_config
 from agent.dedupe import (CompanyMatcher, KeywordMatcher, attach_to_issues, drop_irrelevant,
@@ -17,33 +25,158 @@ from agent.dedupe import (CompanyMatcher, KeywordMatcher, attach_to_issues, drop
 log = logging.getLogger("agent")
 
 
-def run(dry_run: bool = False) -> None:
+def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = None) -> dict | None:
     cfg = load_config()
     s = cfg.settings
+    limits = dict(s["limits"])
+    if limit:
+        limits["max_articles_per_run"] = limit
+        limits["max_summaries_per_run"] = limit
     now = datetime.now(timezone.utc)
-    state = store.load_state(DATA_DIR)
+    state = store.load_state(data_dir)
+    issues = store.load_issues(data_dir)
 
-    # F1 수집
+    # ── F1 수집 ──────────────────────────────────────────────
     since = store.collect_since(state, s["lookback"], now)
     log.info("수집 기준 시각: %s 이후", store.to_iso(since))
     articles, results = collect(cfg, since, now)
 
-    # F2 1차 거르기
+    # ── F2 1차 거르기 ────────────────────────────────────────
     companies = CompanyMatcher(s["companies"])
     watch_aliases = [a for name in s["importance"]["watch_companies"] for a in s["companies"].get(name, [name])]
-    keywords = KeywordMatcher(s["keywords"], watch_aliases)
     fresh = drop_seen(articles, state["seen"])
-    relevant = drop_irrelevant(fresh, keywords)
-    groups = group_articles(relevant, companies, s["dedupe"]["title_similarity"], s["dedupe"]["max_hours_apart"])
-    attach_to_issues(groups, [], companies, s["dedupe"]["title_similarity"])
+    relevant = drop_irrelevant(fresh, KeywordMatcher(s["keywords"], watch_aliases))
+    threshold = s["dedupe"]["title_similarity"]
+    groups = group_articles(relevant, companies, threshold, s["dedupe"]["max_hours_apart"])
+    active = store.active_issues(issues, s["retention"]["active_issue_hours"], now)
+    attach_to_issues(groups, active, companies, threshold)
 
-    failed = [sid for sid, r in results.items() if not r["ok"]]
-    log.info("수집 %d건 → 새 기사 %d건 → 관련 기사 %d건 → 묶음 %d개 (실패한 매체 %d곳: %s)",
-             len(articles), len(fresh), len(relevant), len(groups), len(failed), ", ".join(failed) or "없음")
+    sources_ok = sum(1 for r in results.values() if r["ok"])
+    log.info("수집 %d건 → 새 기사 %d건 → 관련 기사 %d건 → 묶음 %d개 (매체 %d/%d곳 성공)",
+             len(articles), len(fresh), len(relevant), len(groups), sources_ok, len(results))
 
     if dry_run:
         _print_groups(groups)
-        return
+        return None
+
+    # 비용 폭주 방지: AI에 넘길 묶음 수 제한 (넘친 것은 다음 실행으로 미룸)
+    to_ai = sorted((g for g in groups if g.issue_id is None), key=lambda g: g.lead.published_at, reverse=True)
+    deferred = to_ai[limits["max_articles_per_run"]:]
+    to_ai = to_ai[:limits["max_articles_per_run"]]
+    if deferred:
+        log.warning("상한(%d)을 넘어 %d개 묶음은 이번에 처리하지 않음", limits["max_articles_per_run"], len(deferred))
+    deferred_ids = {id(g) for g in deferred}
+    processed = [g for g in groups if id(g) not in deferred_ids]
+
+    analyzer, ai_stopped = None, None
+    if os.environ.get("ANTHROPIC_API_KEY"):
+        analyzer = Analyzer({**s, "limits": limits})
+    else:
+        ai_stopped = "ANTHROPIC_API_KEY가 설정되지 않음"
+
+    # ── F3 AI 이슈 묶기·분류 ─────────────────────────────────
+    targets: dict[int, str | None] = {}
+    if analyzer and to_ai:
+        try:
+            targets = analyzer.cluster(to_ai, active)
+        except AIError as e:
+            log.warning("이슈 묶기 실패, 묶음마다 새 이슈로 처리: %s", e)
+        except AIStopped as e:
+            ai_stopped = str(e)
+    index_of = {id(g): i for i, g in enumerate(to_ai)}
+
+    by_id = {i["id"]: i for i in issues}
+    new_keys: dict[str, str] = {}
+    needs_summary: set[str] = set()
+    new_count = irrelevant = 0
+    for g in processed:
+        if g.issue_id:
+            target = g.issue_id
+        else:
+            i = index_of[id(g)]
+            target = targets.get(i, f"new:a{i}")
+        if target is None:
+            irrelevant += 1
+            continue
+        if target.startswith("new:"):
+            if target not in new_keys:
+                issue = store.new_issue(state, now)
+                issues.append(issue)
+                by_id[issue["id"]] = issue
+                new_keys[target] = issue["id"]
+                needs_summary.add(issue["id"])
+                new_count += 1
+            target = new_keys[target]
+        if store.add_articles(by_id[target], g.articles, now):
+            needs_summary.add(target)
+
+    # ── F4 AI 요약·중요도 ────────────────────────────────────
+    texts = {a.key: a.text for g in processed for a in g.articles}
+    queue = [i for i in issues if i["id"] in needs_summary or i["status"] == "pending"]
+    queue.sort(key=lambda i: (len(i["articles"]), i["updated_at"]), reverse=True)
+    summarized = 0
+    for issue in queue[:limits["max_summaries_per_run"]]:
+        if not analyzer or ai_stopped:
+            break
+        try:
+            issue.update(analyzer.summarize(issue, texts))
+            issue["status"] = "summarized"
+            summarized += 1
+            log.info("요약 [%d] %s", issue["importance"], issue["headline"])
+        except AIError as e:
+            log.warning("요약 실패 %s: %s", issue["id"], e)
+        except AIStopped as e:
+            ai_stopped = str(e)
+    if ai_stopped:
+        log.error("AI 중단: %s → 요약하지 못한 이슈는 '요약 대기'로 게시", ai_stopped)
+
+    # ── F5 저장 ──────────────────────────────────────────────
+    store.mark_seen(state, (a.key for g in processed for a in g.articles), now)
+    store.prune_seen(state, s["retention"]["seen_url_days"], now)
+    store.update_source_health(state, results, now)
+    issues = store.archive_old(data_dir, issues, s["retention"]["issues_days"], now)
+    if sources_ok * 2 >= len(results):  # 매체 과반이 실패하면 다음에 같은 구간을 다시 수집
+        state["last_success_at"] = store.to_iso(now)
+
+    record = {
+        "at": store.to_iso(now),
+        "collected": len(articles),
+        "new": len(fresh),
+        "relevant": len(relevant),
+        "groups": len(groups),
+        "deferred": len(deferred),
+        "irrelevant_by_ai": irrelevant,
+        "new_issues": new_count,
+        "summarized": summarized,
+        "pending": sum(1 for i in issues if i["status"] == "pending"),
+        "sources_ok": sources_ok,
+        "sources_total": len(results),
+        "ai_calls": analyzer.usage["calls"] if analyzer else 0,
+        "tokens": analyzer.usage if analyzer else None,
+        "cost_usd": analyzer.cost_usd() if analyzer else 0.0,
+        "ai_stopped": ai_stopped,
+    }
+    record["alerts"] = _alerts(record, state, now)
+    store.save_issues(data_dir, issues, now)
+    store.save_state(data_dir, state)
+    store.append_run(data_dir, record, s["retention"]["runs_keep"])
+    log.info("완료: 새 이슈 %d개, 요약 %d건, 요약 대기 %d건, AI 호출 %d회, 추정 비용 $%.4f",
+             new_count, summarized, record["pending"], record["ai_calls"], record["cost_usd"])
+    for alert in record["alerts"]:
+        log.error("경고: %s", alert)
+    return record
+
+
+def _alerts(record: dict, state: dict, now: datetime) -> list[str]:
+    alerts = []
+    if record["sources_ok"] * 2 < record["sources_total"]:
+        alerts.append(f"매체 과반 수집 실패 ({record['sources_ok']}/{record['sources_total']})")
+    if record["ai_stopped"]:
+        alerts.append(f"AI 중단: {record['ai_stopped']}")
+    last_new = [store.from_iso(h["last_new_at"]) for h in state["sources"].values() if h.get("last_new_at")]
+    if not last_new or max(last_new) < now - timedelta(hours=24):
+        alerts.append("24시간 동안 새 기사가 없음")
+    return alerts
 
 
 def _print_groups(groups) -> None:
@@ -59,9 +192,14 @@ def _print_groups(groups) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description="반도체·디스플레이 뉴스 AI Agent")
     parser.add_argument("--dry-run", action="store_true", help="AI 없이 수집·1차 거르기만 실행")
+    parser.add_argument("--limit", type=int, help="AI로 처리할 묶음·요약 수 제한 (테스트용)")
+    parser.add_argument("--data-dir", type=Path, default=DATA_DIR, help="결과를 저장할 폴더")
     args = parser.parse_args()
+    load_dotenv()  # 로컬 실행용 .env 파일에서 ANTHROPIC_API_KEY 읽기
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s", datefmt="%H:%M:%S")
-    run(dry_run=args.dry_run)
+    for noisy in ("httpx", "httpx2", "anthropic"):
+        logging.getLogger(noisy).setLevel(logging.WARNING)
+    run(data_dir=args.data_dir, dry_run=args.dry_run, limit=args.limit)
 
 
 if __name__ == "__main__":
