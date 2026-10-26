@@ -46,13 +46,15 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
 
     # ── F2 1차 거르기 ────────────────────────────────────────
     companies = CompanyMatcher(s["companies"])
-    watch_aliases = [a for name in s["importance"]["watch_companies"] for a in s["companies"].get(name, [name])]
+    # 관련성 판단용 기업 (중요도 가산점을 주는 관심 기업과는 따로 설정)
+    relevance_names = s["keywords"].get("companies", s["importance"]["watch_companies"])
+    relevance_aliases = [a for name in relevance_names for a in s["companies"].get(name, [name])]
     fresh = drop_seen(articles, state["seen"])
     unseen = Counter(a.source_id for a in fresh)
     for source_id, r in results.items():
         if r["ok"]:
             r["count"] = unseen[source_id]  # 매체 상태의 '마지막 새 기사'는 처음 보는 기사 기준
-    relevant = drop_irrelevant(fresh, KeywordMatcher(s["keywords"], watch_aliases))
+    relevant = drop_irrelevant(fresh, KeywordMatcher(s["keywords"], relevance_aliases))
     threshold = s["dedupe"]["title_similarity"]
     groups = group_articles(relevant, companies, threshold, s["dedupe"]["max_hours_apart"])
     active = store.active_issues(issues, s["retention"]["active_issue_hours"], now)

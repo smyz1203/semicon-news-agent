@@ -101,3 +101,25 @@ def test_settings_rubric_is_valid():
     assert set(imp["adjust"]) == {"watch_company", "wide_coverage", "unconfirmed"}
     assert all(isinstance(v, int) for v in imp["adjust"].values())
     assert isinstance(imp["wide_coverage_sources"], int) and imp["wide_coverage_sources"] >= 2
+
+
+def test_watch_companies_setting():
+    s = load_config().settings
+    watch = s["importance"]["watch_companies"]
+    assert watch == ["LG디스플레이", "삼성디스플레이", "삼성전자", "SK하이닉스", "엔비디아"]
+    # 다른 표기(SK hynix, NVIDIA 등)로도 알아보려면 기업 이름 사전에 있어야 함
+    assert all(name in s["companies"] for name in watch), "관심 기업은 기업 이름 사전에 있어야 함"
+    # 관련성 판단용 기업은 따로 관리: 관심 기업을 줄여도 TSMC 등 기사는 계속 수집
+    relevance = s["keywords"]["companies"]
+    assert set(watch) <= set(relevance) and "TSMC" in relevance
+    assert all(name in s["companies"] for name in relevance)
+
+
+def test_new_watch_company_scores_and_old_one_does_not():
+    scorer = Scorer(load_config().settings)
+    nvidia = {"event_type": "수주·공급", "parties": ["NVIDIA"], "confirmed": True, "articles": [{"source": "A"}]}
+    assert scorer.score(nvidia) == (4, "수주·공급 3점, 관심 기업(엔비디아) +1 → 4점")
+    tsmc = {**nvidia, "parties": ["TSMC"]}
+    assert scorer.score(tsmc) == (3, "수주·공급 3점")  # TSMC는 더 이상 관심 기업이 아님
+    both = {**nvidia, "parties": ["엔비디아", "LG디스플레이"]}
+    assert scorer.score(both)[1] == "수주·공급 3점, 관심 기업(LG디스플레이, 엔비디아) +1 → 4점"  # 설정 순서대로 표시
