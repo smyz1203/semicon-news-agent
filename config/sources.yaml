@@ -4,15 +4,16 @@
 #   filter: false → 모든 기사를 남김 (반도체·디스플레이 전문 섹션용)
 #   tz: 날짜에 시간대 표시가 없을 때 적용할 시간대
 #   name: 언론사 이름. 같은 언론사의 RSS는 이름을 같게 씀 (중요도의 '매체 N곳 보도'를 셀 때 한 곳으로 침)
-#         예: The Elec(thelec.net)은 디일렉(thelec.kr)의 영문판이라 name이 디일렉
+#         예: thelec.net(The Elec)은 국내 언론사 디일렉(thelec.kr)이 내는 영문판이라 name이 디일렉, section이 영문판
 #   section: 같은 매체의 RSS가 여러 개일 때 웹에서 구분하는 이름
 # 2026-10-26 기준으로 모두 동작을 확인한 주소입니다.
 
 sources:
-  # ── 국내 ────────────────────────────────────────────
+  # ── 국내 (디일렉 영문판은 영어 기사지만 국내 언론사 디일렉이 내므로 여기에) ──
   - {id: thelec-semi,    name: 디일렉,        section: 반도체,   url: "https://www.thelec.kr/rss/S1N2.xml",        lang: ko, filter: false, tz: Asia/Seoul}
   - {id: thelec-display, name: 디일렉,        section: 디스플레이, url: "https://www.thelec.kr/rss/S1N4.xml",      lang: ko, filter: false, tz: Asia/Seoul}
   - {id: thelec-equip,   name: 디일렉,        section: 소재장비, url: "https://www.thelec.kr/rss/S1N3.xml",        lang: ko, filter: false, tz: Asia/Seoul}
+  - {id: thelec-en,      name: 디일렉,        section: 영문판,   url: "https://www.thelec.net/rss/allArticle.xml", lang: en, filter: true,  tz: Asia/Seoul}
   - {id: etnews,         name: 전자신문,      section: 전자,     url: "https://rss.etnews.com/06.xml",             lang: ko, filter: true,  tz: Asia/Seoul}
   - {id: kipost,         name: KIPOST,                           url: "https://www.kipost.net/rss/allArticle.xml", lang: ko, filter: true,  tz: Asia/Seoul}
   - {id: dt-ict,         name: 디지털타임스,  section: IT,       url: "https://www.dt.co.kr/rss/google/ict",       lang: ko, filter: true,  tz: Asia/Seoul}
@@ -26,7 +27,6 @@ sources:
   - {id: oled-info,          name: OLED-info,                                   url: "https://www.oled-info.com/rss.xml",                     lang: en, filter: false, tz: UTC}
   - {id: trendforce-semi,    name: TrendForce,       section: Semiconductors,   url: "https://www.trendforce.com/feed/Semiconductors.html",   lang: en, filter: false, tz: Asia/Taipei}
   - {id: trendforce-display, name: TrendForce,       section: Display,          url: "https://www.trendforce.com/feed/Display.html",          lang: en, filter: false, tz: Asia/Taipei}
-  - {id: thelec-en,          name: 디일렉,           section: The Elec,         url: "https://www.thelec.net/rss/allArticle.xml",             lang: en, filter: true,  tz: Asia/Seoul}
   - {id: eetimes,            name: EE Times,                                    url: "https://www.eetimes.com/feed/",                         lang: en, filter: true,  tz: UTC}
   - {id: digitimes,          name: DigiTimes Asia,                              url: "https://www.digitimes.com/rss/daily.xml",               lang: en, filter: true,  tz: Asia/Taipei}
   - {id: koreaherald,        name: Korea Herald,     section: Business,         url: "https://www.koreaherald.com/rss/kh_Business",           lang: en, filter: true,  tz: Asia/Seoul}
