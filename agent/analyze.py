@@ -1,4 +1,6 @@
-"""F3·F4 AI 분석: AI로 기사를 이슈별로 묶고, 이슈를 요약하고 중요도를 판단한다.
+"""F3·F4 AI 분석: AI로 기사를 이슈별로 묶고, 이슈를 요약하고 사건 유형을 분류한다.
+
+중요도 점수는 AI가 매기지 않는다. AI가 고른 사건 유형·직접 당사자·확정 여부로 agent/score.py가 계산한다.
 
 AI 제공사는 config/settings.yaml의 provider로 고른다 (openai 또는 claude).
 제공사별 차이(호출 방법, 오류 종류, 사용량 표기)는 OpenAIBackend / ClaudeBackend 안에 가두고,
@@ -10,7 +12,7 @@ import re
 
 from agent import prompts
 from agent.dedupe import Group
-from agent.models import ClusterResult, IssueSummary
+from agent.models import ClusterResult, IssueFacts, IssueSummary, with_event_types
 from agent.store import to_iso
 
 log = logging.getLogger(__name__)
@@ -19,7 +21,7 @@ MAX_FAIL_STREAK = 3
 COPY_WINDOW = 40  # 요약이 기사 본문을 공백 빼고 이 글자 수 이상 그대로 옮기면 거부
 
 # 공개 저장소에 올라가는 필드라, 프롬프트 지시와 별개로 코드에서 길이를 강제함
-MAX_LEN = {"headline": 60, "summary": 120, "reason": 150, "tag": 30, "company": 30}
+MAX_LEN = {"headline": 60, "summary": 120, "tag": 30, "company": 30}
 
 # 제공사별로 API 키를 읽는 환경변수 이름
 KEY_ENV = {"openai": "OPENAI_API_KEY", "claude": "ANTHROPIC_API_KEY"}
@@ -212,6 +214,10 @@ class Analyzer:
         self.backend = BACKENDS[self.provider](settings, client)
         self.usage = {"calls": 0, "input": 0, "output": 0, "cache_write": 0, "cache_read": 0}
         self._fail_streak = 0
+        # 사건 유형은 설정의 기준표에 있는 이름으로만 답하게 응답 형식에서 강제
+        self.event_types = [t["name"] for t in settings["importance"]["event_types"]]
+        self.summary_format = with_event_types(IssueSummary, self.event_types)
+        self.facts_format = with_event_types(IssueFacts, self.event_types)
 
     @property
     def model(self) -> str:
@@ -248,10 +254,10 @@ class Analyzer:
         resolved = resolve_assignments(result, ids, {i["id"] for i in issues})
         return {int(aid[1:]): target for aid, target in resolved.items()}
 
-    # ── F4 요약·중요도 ────────────────────────────────────────
+    # ── F4 요약·사건 분류 ─────────────────────────────────────
 
     def summarize(self, issue: dict, texts: dict[str, str]) -> dict:
-        """이슈 하나를 요약한다. texts는 이번 실행에서 수집한 기사 본문 (기사 key → 텍스트)."""
+        """이슈 하나를 요약하고 분류한다. texts는 이번 실행에서 수집한 기사 본문 (기사 key → 텍스트)."""
         limits = self.s["limits"]
         # 본문이 있는 최신 기사부터 고름 (이전 실행의 기사는 본문을 저장하지 않으므로 제목만 있음)
         arts = sorted(issue["articles"], key=lambda a: (a["key"] in texts, a["published_at"]), reverse=True)
@@ -266,15 +272,26 @@ class Analyzer:
         result = self._parse(
             system=prompts.summarize_system(self.s),
             user=prompts.summarize_user(articles),
-            output_format=IssueSummary,
+            output_format=self.summary_format,
             max_tokens=limits["summarize_max_tokens"],
             effort=self.s["effort"]["summarize"],
         )
-        cleaned = clean_summary(result, self.s["categories"])
-        if copies_source(cleaned["summary"] + [cleaned["importance_reason"]], [a["text"] for a in articles]):
+        cleaned = clean_summary(result, self.s["categories"], self.event_types)
+        if copies_source(cleaned["summary"], [a["text"] for a in articles]):
             # API 문제가 아니므로 연속 실패 횟수에는 넣지 않음. 이 이슈만 다음 실행에서 다시 시도
             raise AIError("요약이 기사 문장을 그대로 옮김")
         return cleaned
+
+    def classify(self, issue: dict) -> dict:
+        """요약이 끝난 이슈를 헤드라인·요약·기사 제목만 보고 다시 분류한다 (요약은 그대로 둠)."""
+        result = self._parse(
+            system=prompts.classify_system(self.s),
+            user=prompts.classify_user(issue),
+            output_format=self.facts_format,
+            max_tokens=self.s["limits"]["summarize_max_tokens"],
+            effort=self.s["effort"]["summarize"],
+        )
+        return clean_facts(result, self.event_types)
 
     # ── 비용 ─────────────────────────────────────────────────
 
@@ -337,7 +354,7 @@ def resolve_assignments(result: ClusterResult, article_ids: list[str],
     return out
 
 
-def clean_summary(s: IssueSummary, categories: list[str]) -> dict:
+def clean_summary(s: IssueSummary, categories: list[str], event_types: list[str]) -> dict:
     lines = [_cut(line, MAX_LEN["summary"]) for line in s.summary if line.strip()][:3]
     headline = _cut(s.headline, MAX_LEN["headline"])
     if not headline or not lines:
@@ -348,8 +365,18 @@ def clean_summary(s: IssueSummary, categories: list[str]) -> dict:
         "category": s.category if s.category in categories else "기타",
         "tags": [_cut(t, MAX_LEN["tag"]) for t in _unique(s.tags)[:6]],
         "companies": [_cut(c, MAX_LEN["company"]) for c in _unique(s.companies)[:8]],
-        "importance": min(5, max(1, s.importance)),
-        "importance_reason": _cut(s.importance_reason, MAX_LEN["reason"]),
+        **clean_facts(s, event_types),
+    }
+
+
+def clean_facts(f: IssueFacts | IssueSummary, event_types: list[str]) -> dict:
+    # 응답 형식에서 이미 막지만, 기준표에 없는 유형이면 점수를 계산할 수 없으므로 한 번 더 확인
+    if f.event_type not in event_types:
+        raise AIError(f"기준표에 없는 사건 유형: {f.event_type[:30]}")
+    return {
+        "event_type": f.event_type,
+        "confirmed": f.confirmed,
+        "parties": [_cut(p, MAX_LEN["company"]) for p in _unique(f.parties)[:8]],
     }
 
 

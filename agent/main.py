@@ -1,4 +1,4 @@
-"""Agent 전체 흐름 실행: 수집 → 1차 거르기 → AI 묶기 → AI 요약·중요도 → 저장.
+"""Agent 전체 흐름 실행: 수집 → 1차 거르기 → AI 묶기 → AI 요약·분류 → 중요도 계산 → 저장.
 
 사용법:
     python -m agent.main --dry-run            # AI 없이 수집·1차 거르기 결과만 출력 (비용 0원)
@@ -23,6 +23,7 @@ from agent.collect import collect
 from agent.config import DATA_DIR, load_config
 from agent.dedupe import (CompanyMatcher, KeywordMatcher, attach_to_issues, drop_irrelevant,
                           drop_seen, group_articles, guard_ai_merges)
+from agent.score import Scorer
 
 log = logging.getLogger("agent")
 
@@ -128,7 +129,7 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
             target = new_keys[target]
         store.add_articles(by_id[target], g.articles, now)  # 새 매체 기사면 needs_summary가 켜짐
 
-    # ── F4 AI 요약·중요도 ────────────────────────────────────
+    # ── F4 AI 요약·사건 분류 ─────────────────────────────────
     # needs_summary는 저장되므로, 이번에 못 한 요약(실패·AI 중단·상한 초과)은 다음 실행에서 이어서 함
     texts = {a.key: a.text for g in processed for a in g.articles}
     queue = [i for i in issues
@@ -145,14 +146,39 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
             issue.update(analyzer.summarize(issue, texts))
             issue.update(status="summarized", needs_summary=False, attempts=0)
             summarized += 1
-            log.info("요약 [%d] %s", issue["importance"], issue["headline"])
+            log.info("요약 [%s] %s", issue["event_type"], issue["headline"])
         except AIError as e:
             issue["attempts"] = issue.get("attempts", 0) + 1
             log.warning("요약 실패 %s (%d회째): %s", issue["id"], issue["attempts"], e)
         except AIStopped as e:
             ai_stopped = str(e)
+
+    # 예전 방식(AI가 점수를 매김)으로 요약한 이슈나, 기준표의 사건 유형이 바뀐 이슈는 분류만 다시 함 (요약은 그대로)
+    scorer = Scorer(s)
+    reclassify = [i for i in issues
+                  if scorer.needs_classification(i) and i.get("attempts", 0) < limits["summary_max_attempts"]]
+    reclassify.sort(key=lambda i: i["updated_at"], reverse=True)
+    classified = 0
+    for issue in reclassify[:limits["max_summaries_per_run"]]:
+        if not analyzer or ai_stopped:
+            break
+        if time.monotonic() > ai_deadline:
+            log.warning("AI 시간 예산(%d분) 초과, 남은 분류는 다음 실행으로", limits["ai_time_budget_minutes"])
+            break
+        try:
+            issue.update(analyzer.classify(issue))
+            issue["attempts"] = 0
+            classified += 1
+        except AIError as e:
+            issue["attempts"] = issue.get("attempts", 0) + 1
+            log.warning("분류 실패 %s (%d회째): %s", issue["id"], issue["attempts"], e)
+        except AIStopped as e:
+            ai_stopped = str(e)
     if ai_stopped:
         log.error("AI 중단: %s → 요약하지 못한 이슈는 '요약 대기'로 게시", ai_stopped)
+
+    # 중요도: AI가 고른 사실과 보도 매체 수로 모든 이슈를 기준표대로 다시 계산 (AI 호출 없음)
+    scorer.apply(issues)
 
     # ── F5 저장 ──────────────────────────────────────────────
     store.mark_seen(state, (a.key for g in processed for a in g.articles), now)
@@ -176,6 +202,7 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
         "irrelevant_by_ai": irrelevant,
         "new_issues": new_count,
         "summarized": summarized,
+        "classified": classified,
         "pending": sum(1 for i in issues if i.get("needs_summary")),
         "sources_ok": sources_ok,
         "sources_total": len(results),
@@ -189,8 +216,8 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
     store.save_issues(data_dir, issues, now)
     store.save_state(data_dir, state)
     store.append_run(data_dir, record, s["retention"]["runs_keep"])
-    log.info("완료: 새 이슈 %d개, 요약 %d건, 요약 대기 %d건, AI 호출 %d회, 추정 비용 $%.4f",
-             new_count, summarized, record["pending"], record["ai_calls"], record["cost_usd"])
+    log.info("완료: 새 이슈 %d개, 요약 %d건, 재분류 %d건, 요약 대기 %d건, AI 호출 %d회, 추정 비용 $%.4f",
+             new_count, summarized, classified, record["pending"], record["ai_calls"], record["cost_usd"])
     for alert in record["alerts"]:
         log.error("경고: %s", alert)
     return record

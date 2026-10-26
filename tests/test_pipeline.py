@@ -31,6 +31,7 @@ class FakeAnalyzer:
         self.usage = {"calls": 0, "input": 0, "output": 0, "cache_write": 0, "cache_read": 0}
         self.stop_on_summary = stop_on_summary
         self.summarized = []
+        self.classified = []
 
     def cluster(self, groups, active):
         # 국문·영문 HBM4 기사를 한 이슈로 (이미 있으면 그 이슈에), 버즈 기사는 관련 없음, 나머지는 각자 새 이슈
@@ -50,7 +51,12 @@ class FakeAnalyzer:
             raise AIStopped("크레딧 부족")
         self.summarized.append(issue["id"])
         return {"headline": "SK하이닉스 HBM4 양산", "summary": ["a", "b", "c"], "category": "메모리",
-                "tags": ["HBM4"], "companies": ["SK하이닉스"], "importance": 5, "importance_reason": "양산"}
+                "tags": ["HBM4"], "companies": ["SK하이닉스"],
+                "event_type": TYPES[0], "confirmed": True, "parties": ["SK하이닉스"]}
+
+    def classify(self, issue):
+        self.classified.append(issue["id"])
+        return {"event_type": TYPES[0], "confirmed": False, "parties": ["삼성전자"]}
 
     def cost_usd(self):
         return 0.01
@@ -61,6 +67,7 @@ from agent.config import load_config  # noqa: E402
 
 # 설정의 provider에 맞는 키 이름 (provider를 claude로 바꿔도 테스트가 그대로 동작하도록)
 KEY_ENV = KEYS[load_config().settings["provider"]]
+TYPES = [t["name"] for t in load_config().settings["importance"]["event_types"]]
 
 
 def setup(monkeypatch, analyzer_kwargs=None, articles=None):
@@ -77,7 +84,9 @@ def test_full_run(tmp_path, monkeypatch):
     issues = store.load_issues(tmp_path)
     assert len(issues) == 1
     issue = issues[0]
-    assert issue["status"] == "summarized" and issue["importance"] == 5
+    assert issue["status"] == "summarized" and issue["event_type"] == TYPES[0]
+    # 점수는 AI가 아니라 기준표로 계산: 판단 근거가 사건 유형부터 시작하는 계산식
+    assert issue["importance"] == 5 and issue["importance_reason"].startswith(TYPES[0])
     assert issue["region"] == "both"
     assert len(issue["articles"]) == 3
     assert "text" not in issue["articles"][0]  # 본문은 저장하지 않음
@@ -174,6 +183,36 @@ def test_invalid_provider_stops_with_clear_message(tmp_path, monkeypatch):
     monkeypatch.setattr(main, "load_config", lambda: real)
     with pytest.raises(SystemExit, match="provider"):
         main.run(data_dir=tmp_path)
+
+
+def test_legacy_issue_is_reclassified_then_scored_by_rubric(tmp_path, monkeypatch):
+    # AI가 직접 점수를 매기던 예전 이슈: 사건 유형이 없음
+    legacy = store.new_issue({}, NOW)
+    legacy.update(headline="삼성전자 HBM 가격 인상 검토", summary=["가.", "나.", "다."], status="summarized",
+                  needs_summary=False, importance=4, importance_reason="대형 수주·공급 계약에 해당")
+    legacy["articles"] = [{"key": "k1", "title": "삼성 HBM 가격 인상", "url": "https://a.kr/9", "source": "디일렉",
+                           "lang": "ko", "published_at": store.to_iso(NOW)}]
+    store.save_issues(tmp_path, [legacy], NOW)
+
+    # AI를 쓸 수 없으면 분류하지 못하므로 예전 점수를 그대로 둠
+    setup(monkeypatch, articles=[])
+    monkeypatch.delenv(KEY_ENV)
+    main.run(data_dir=tmp_path)
+    [issue] = store.load_issues(tmp_path)
+    assert issue["importance"] == 4 and issue["importance_reason"] == "대형 수주·공급 계약에 해당"
+
+    # AI가 있으면 요약은 그대로 두고 분류만 다시 해서 기준표로 점수를 계산
+    setup(monkeypatch, articles=[])
+    record = main.run(data_dir=tmp_path)
+    [issue] = store.load_issues(tmp_path)
+    assert record["classified"] == 1 and record["summarized"] == 0
+    assert issue["summary"] == ["가.", "나.", "다."]
+    assert issue["event_type"] == TYPES[0] and issue["confirmed"] is False
+    assert issue["importance_reason"].startswith(TYPES[0]) and "미확정" in issue["importance_reason"]
+
+    # 한 번 분류한 이슈는 다시 묻지 않음
+    record = main.run(data_dir=tmp_path)
+    assert record["classified"] == 0
 
 
 def test_cluster_failure_defers_instead_of_creating_unmerged_issues(tmp_path, monkeypatch):

@@ -5,13 +5,15 @@ import httpx2
 import openai
 import pytest
 
-from agent.analyze import AIError, AIStopped, Analyzer, clean_summary, copies_source, resolve_assignments
+from agent.analyze import (AIError, AIStopped, Analyzer, clean_facts, clean_summary, copies_source,
+                           resolve_assignments)
 from agent.config import load_config
-from agent.models import Assignment, ClusterResult, IssueSummary
+from agent.models import Assignment, ClusterResult, IssueFacts, IssueSummary
 
 SETTINGS = load_config().settings
 OPENAI = {**SETTINGS, "provider": "openai"}
 CLAUDE = {**SETTINGS, "provider": "claude"}
+TYPES = [t["name"] for t in SETTINGS["importance"]["event_types"]]
 
 
 class FakeCalls:
@@ -74,11 +76,13 @@ def status_error(module, cls, status, message, body=None):
 
 
 SUMMARY = IssueSummary(headline="SK하이닉스 HBM4 양산", summary=["첫째.", "둘째.", "셋째.", "넷째."],
-                       category="메모리", tags=["HBM4", "hbm4", " AI "], companies=["SK하이닉스"],
-                       importance=9, importance_reason="차세대 기술 양산")
+                       category="메모리", tags=["HBM4", "hbm4", " AI "], companies=["SK하이닉스", "엔비디아"],
+                       event_type=TYPES[0], confirmed=True, parties=["SK하이닉스", " sk하이닉스 "])
+FACTS = IssueFacts(event_type=TYPES[-1], confirmed=False, parties=["삼성전자"])
 ISSUE = {"id": "c1", "headline": "", "companies": [], "articles": [
     {"key": "k1", "title": "제목1", "source": "디일렉", "lang": "ko", "published_at": "2026-10-26T00:00:00Z"},
 ]}
+SUMMARIZED = {**ISSUE, "headline": "삼성전자 HBM4 양산 검토", "summary": ["가.", "나.", "다."], "status": "summarized"}
 
 
 # ── 응답 검증 (제공사와 무관) ────────────────────────────────
@@ -100,24 +104,33 @@ def test_resolve_assignments_validates_ai_output():
 
 
 def test_clean_summary():
-    out = clean_summary(SUMMARY, SETTINGS["categories"])
+    out = clean_summary(SUMMARY, SETTINGS["categories"], TYPES)
     assert out["summary"] == ["첫째.", "둘째.", "셋째."]
-    assert out["importance"] == 5
     assert out["tags"] == ["HBM4", "AI"]
+    assert out["event_type"] == TYPES[0] and out["confirmed"] is True
+    assert out["parties"] == ["SK하이닉스"]
+    assert "importance" not in out  # 점수는 AI가 아니라 agent/score.py가 계산
     bad = SUMMARY.model_copy(update={"category": "스포츠"})
-    assert clean_summary(bad, SETTINGS["categories"])["category"] == "기타"
+    assert clean_summary(bad, SETTINGS["categories"], TYPES)["category"] == "기타"
     with pytest.raises(AIError):
-        clean_summary(SUMMARY.model_copy(update={"summary": [" "]}), SETTINGS["categories"])
+        clean_summary(SUMMARY.model_copy(update={"summary": [" "]}), SETTINGS["categories"], TYPES)
+
+
+def test_event_type_outside_rubric_is_rejected():
+    with pytest.raises(AIError):
+        clean_summary(SUMMARY.model_copy(update={"event_type": "기타"}), SETTINGS["categories"], TYPES)
+    with pytest.raises(AIError):
+        clean_facts(FACTS.model_copy(update={"event_type": "기타"}), TYPES)
 
 
 def test_clean_summary_enforces_length_limits():
     long = SUMMARY.model_copy(update={"headline": "가" * 200, "summary": ["나" * 500], "tags": ["다" * 99],
-                                      "importance_reason": "라" * 999})
-    out = clean_summary(long, SETTINGS["categories"])
+                                      "parties": ["라" * 99]})
+    out = clean_summary(long, SETTINGS["categories"], TYPES)
     assert len(out["headline"]) <= 60 and out["headline"].endswith("…")
     assert len(out["summary"][0]) <= 120
     assert len(out["tags"][0]) <= 30
-    assert len(out["importance_reason"]) <= 150
+    assert len(out["parties"][0]) <= 30
 
 
 def test_copies_source():
@@ -144,9 +157,14 @@ def test_openai_request_shape_and_usage():
     assert out["headline"] == "SK하이닉스 HBM4 양산"
     call = calls.calls[0]
     assert call["model"] == SETTINGS["openai"]["model"]
-    assert call["text_format"] is IssueSummary
+    # 사건 유형은 기준표의 이름 중 하나로만 답하도록 응답 형식(enum)에서 강제
+    assert issubclass(call["text_format"], IssueSummary)
+    assert call["text_format"].model_json_schema()["properties"]["event_type"]["enum"] == TYPES
     assert call["store"] is False
-    assert "중요도 기준" in call["instructions"]
+    # 지시문에는 사건 유형과 설명만 있고, AI가 점수를 매기라는 내용은 없음
+    first = SETTINGS["importance"]["event_types"][0]
+    assert f"{first['name']}: {first['desc']}" in call["instructions"]
+    assert "importance" not in call["instructions"]
     if SETTINGS["openai"]["reasoning"]:
         assert call["reasoning"] == {"effort": SETTINGS["effort"]["summarize"]}
     assert "temperature" not in call
@@ -222,6 +240,17 @@ def test_summary_that_copies_article_is_rejected():
         Analyzer(OPENAI, client=client).summarize(ISSUE, {"k1": body})
 
 
+def test_classify_sends_existing_summary_and_returns_facts():
+    client, calls = openai_client(openai_ok(FACTS))
+    out = Analyzer(OPENAI, client=client).classify(SUMMARIZED)
+    assert out == {"event_type": TYPES[-1], "confirmed": False, "parties": ["삼성전자"]}
+    call = calls.calls[0]
+    assert issubclass(call["text_format"], IssueFacts)
+    assert call["text_format"].model_json_schema()["properties"]["event_type"]["enum"] == TYPES
+    # 기사 본문은 저장돼 있지 않으므로 헤드라인·요약·기사 제목으로 분류
+    assert "삼성전자 HBM4 양산 검토" in call["input"] and "제목1" in call["input"]
+
+
 # ── Claude (설정에서 provider: claude로 되돌렸을 때) ─────────────
 
 
@@ -232,7 +261,7 @@ def test_claude_request_shape_and_usage():
     assert out["headline"] == "SK하이닉스 HBM4 양산"
     call = calls.calls[0]
     assert call["model"] == SETTINGS["claude"]["model"]
-    assert call["output_format"] is IssueSummary
+    assert issubclass(call["output_format"], IssueSummary)
     assert call["output_config"] == {"effort": SETTINGS["effort"]["summarize"]}
     assert call["system"][0]["cache_control"] == {"type": "ephemeral"}
     assert call["fallbacks"] == "default"
