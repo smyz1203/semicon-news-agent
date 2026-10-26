@@ -143,6 +143,8 @@ def test_deferred_groups_are_processed_next_run(tmp_path, monkeypatch):
     assert [r["deferred"] for r in records] == [2, 1, 0]
     # 미룬 관련 기사는 다음 실행에서 다시 새 기사로 잡히고, 관련 없는 기사는 첫 실행에만 셈
     assert [r["new"] for r in records] == [4, 2, 1]
+    # '관련 기사'는 처리한 기사만 셈: 미룬 기사를 실행마다 다시 세면 수집 현황 합계가 부풀려짐
+    assert [r["relevant"] for r in records] == [1, 1, 1]
     assert len(store.load_issues(tmp_path)) == 3
 
 
@@ -155,9 +157,26 @@ def test_failed_resummary_is_retried(tmp_path, monkeypatch):
     [issue] = store.load_issues(tmp_path)
     assert issue["needs_summary"] is True and issue["status"] == "summarized"
     setup(monkeypatch, articles=ARTICLES[:3])
-    main.run(data_dir=tmp_path)
+    record = main.run(data_dir=tmp_path)
     [issue] = store.load_issues(tmp_path)
     assert issue["needs_summary"] is False
+    # 새 이슈는 없지만 요약은 1건: 이미 요약한 이슈를 다시 요약한 것
+    assert record["new_issues"] == 0 and record["summarized"] == 1 and record["resummarized"] == 1
+
+
+def test_given_up_issue_is_not_counted_as_waiting(tmp_path, monkeypatch):
+    from agent.analyze import AIError
+
+    class Broken(FakeAnalyzer):
+        def summarize(self, issue, texts):
+            raise AIError("요약이 기사 문장을 그대로 옮김")
+
+    setup(monkeypatch, articles=ARTICLES[:1])
+    monkeypatch.setattr(main, "Analyzer", lambda s: Broken(s))
+    records = [main.run(data_dir=tmp_path) for _ in range(3)]
+    # 3번 실패하면 더 시도하지 않으므로 '대기'가 아니라 '요약 실패'로 셈
+    assert [(r["pending"], r["failed"]) for r in records] == [(1, 0), (1, 0), (0, 1)]
+    assert records[0]["new_issues"] == 1 and records[0]["summarized"] == 0
 
 
 def test_without_api_key_articles_wait_for_next_run(tmp_path, monkeypatch):

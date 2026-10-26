@@ -137,7 +137,7 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
     queue = [i for i in issues
              if i.get("needs_summary") and i.get("attempts", 0) < limits["summary_max_attempts"]]
     queue.sort(key=lambda i: (len(i["articles"]), i["updated_at"]), reverse=True)
-    summarized = 0
+    summarized = resummarized = 0
     for issue in queue[:limits["max_summaries_per_run"]]:
         if not analyzer or ai_stopped:
             break
@@ -145,9 +145,11 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
             log.warning("AI 시간 예산(%d분) 초과, 남은 요약은 다음 실행으로", limits["ai_time_budget_minutes"])
             break
         try:
+            again = issue.get("status") == "summarized"  # 다른 매체 기사가 붙어 다시 요약하는 이슈
             issue.update(analyzer.summarize(issue, texts))
             issue.update(status="summarized", needs_summary=False, attempts=0)
             summarized += 1
+            resummarized += again
             log.info("요약 [%s] %s", issue["event_type"], issue["headline"])
         except AIError as e:
             issue["attempts"] = issue.get("attempts", 0) + 1
@@ -194,18 +196,23 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
     if sources_ok * 2 >= len(results):
         state["last_success_at"] = store.to_iso(now)
 
+    waiting = [i for i in issues if i.get("needs_summary")]
     record = {
         "at": store.to_iso(now),
         "collected": len(articles),
         "new": len(fresh),
-        "relevant": len(relevant),
+        # 이번에 처리한 관련 기사. 미룬 묶음의 기사는 다음 실행에서 다시 들어오므로 여기서 세지 않음 (두 번 세지 않도록)
+        "relevant": len(relevant) - sum(len(g.articles) for g in deferred),
         "groups": len(groups),
         "deferred": len(deferred),
         "irrelevant_by_ai": irrelevant,
         "new_issues": new_count,
-        "summarized": summarized,
+        "summarized": summarized,          # 요약한 횟수 = 처음 요약 + 다시 요약
+        "resummarized": resummarized,
         "classified": classified,
-        "pending": sum(1 for i in issues if i.get("needs_summary")),
+        # 요약 대기: 다음 실행에서 다시 시도할 이슈. 실패 횟수를 다 쓴 이슈는 failed로 따로 셈
+        "pending": sum(1 for i in waiting if i.get("attempts", 0) < limits["summary_max_attempts"]),
+        "failed": sum(1 for i in waiting if i.get("attempts", 0) >= limits["summary_max_attempts"]),
         "sources_ok": sources_ok,
         "sources_total": len(results),
         "ai_model": f"{s['provider']}/{s[s['provider']]['model']}",
@@ -218,8 +225,8 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
     store.save_issues(data_dir, issues, now)
     store.save_state(data_dir, state)
     store.append_run(data_dir, record, s["retention"]["runs_keep"])
-    log.info("완료: 새 이슈 %d개, 요약 %d건, 재분류 %d건, 요약 대기 %d건, AI 호출 %d회, 추정 비용 $%.4f",
-             new_count, summarized, classified, record["pending"], record["ai_calls"], record["cost_usd"])
+    log.info("완료: 새 이슈 %d개, 요약 %d건(다시 요약 %d), 재분류 %d건, 요약 대기 %d건, AI 호출 %d회, 추정 비용 $%.4f",
+             new_count, summarized, resummarized, classified, record["pending"], record["ai_calls"], record["cost_usd"])
     for alert in record["alerts"]:
         log.error("경고: %s", alert)
     return record
