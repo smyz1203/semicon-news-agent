@@ -492,7 +492,7 @@ function showView() {
     if (tab.dataset.view === name) tab.setAttribute("aria-current", "page");
     else tab.removeAttribute("aria-current");
   }
-  document.title = name === "ops" ? "수집 현황 · 칩앤패널 브리핑" : "반도체·디스플레이 뉴스 브리핑";
+  document.title = name === "ops" ? "수집 현황 · 뉴스 브리핑" : "반도체·디스플레이 뉴스 브리핑";
 }
 
 // ── 입력 연결 ───────────────────────────────────────────────
