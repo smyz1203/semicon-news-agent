@@ -42,7 +42,7 @@ def build(data_dir: Path = DATA_DIR, out_dir: Path = SITE_DIR, local: bool = Fal
         "repo": os.environ.get("GITHUB_REPOSITORY") or cfg.settings.get("github_repo"),
         "mode": "local" if local else "github",
         "sources": [_source_status(s, state["sources"].get(s.id, {})) for s in cfg.sources],
-        "runs": [{k: r.get(k) for k in RUN_FIELDS} for r in runs[-24:]],
+        "runs": [{k: r.get(k) for k in RUN_FIELDS} for r in runs],  # 보관된 실행 전부 (settings.yaml의 runs_keep개): '수집 현황' 7일 그래프용
     }
 
     published = {

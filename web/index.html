@@ -13,7 +13,7 @@
 <body>
   <header class="topbar">
     <div class="topbar-inner">
-      <a class="brand" href="./">
+      <a class="brand" href="#">
         <svg class="mark" viewBox="0 0 32 32" aria-hidden="true">
           <rect width="32" height="32" rx="4" class="mark-ground"/>
           <rect x="9" y="9" width="14" height="14" class="mark-die"/>
@@ -21,6 +21,10 @@
         </svg>
         <span>칩앤패널 브리핑</span>
       </a>
+      <nav class="tabs" aria-label="화면">
+        <a href="#" data-view="brief">브리핑</a>
+        <a href="#ops" data-view="ops">수집 현황</a>
+      </nav>
       <div class="update-box">
         <span id="freshness" class="freshness" aria-live="polite"></span>
         <button id="refresh" class="refresh" type="button" title="지금 업데이트" aria-label="지금 업데이트">
@@ -54,7 +58,7 @@
         <input id="token-input" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_…">
       </label>
       <p class="hint">토큰은 이 브라우저에만 저장되고 어디에도 올라가지 않습니다. 공용 컴퓨터에서는 저장하지 마세요.</p>
-      <p id="dialog-error" class="dialog-error" hidden></p>
+      <p id="dialog-error" class="dialog-error" role="alert" hidden></p>
 
       <div class="dialog-actions">
         <button id="token-clear" type="button" class="ghost" hidden>저장된 토큰 삭제</button>
@@ -65,65 +69,131 @@
     </form>
   </dialog>
 
-  <div id="stale" class="stale" hidden></div>
+  <main class="canvas">
+    <div id="stale" class="notice" role="status" hidden></div>
 
-  <main class="page">
-    <section class="intro">
-      <h1>반도체·디스플레이 뉴스</h1>
-      <p id="pipeline" class="lede"></p>
-    </section>
+    <!-- 화면 1. 브리핑: 지난 업데이트 이후 무엇이 중요했나 -->
+    <section id="view-brief" class="view" aria-labelledby="brief-title">
+      <div class="title-row">
+        <h1 id="brief-title">반도체·디스플레이 브리핑</h1>
+        <p id="finding" class="subline"></p>
+      </div>
 
-    <section class="controls" aria-label="필터">
-      <div class="control-row">
-        <div class="segmented" id="period" role="group" aria-label="기간">
-          <button data-value="1">오늘</button>
-          <button data-value="3" class="on">3일</button>
-          <button data-value="7">7일</button>
-          <button data-value="30">30일</button>
+      <div class="toolbar" role="group" aria-label="필터">
+        <div class="toolbar-scroll">
+          <div class="segmented" id="period" role="group" aria-label="기간">
+            <button type="button" data-value="1">오늘</button>
+            <button type="button" data-value="3" class="on">3일</button>
+            <button type="button" data-value="7">7일</button>
+            <button type="button" data-value="30">30일</button>
+          </div>
+          <div class="segmented" id="region" role="group" aria-label="지역">
+            <button type="button" data-value="all" class="on">전체</button>
+            <button type="button" data-value="ko">국내</button>
+            <button type="button" data-value="en">해외</button>
+          </div>
+          <label class="select">
+            <span class="sr-only">중요도</span>
+            <select id="importance">
+              <option value="0">모든 중요도</option>
+              <option value="3">3점 이상</option>
+              <option value="4">4점 이상</option>
+            </select>
+          </label>
+          <label class="select">
+            <span class="sr-only">분야</span>
+            <select id="category"></select>
+          </label>
         </div>
-        <div class="segmented" id="region" role="group" aria-label="지역">
-          <button data-value="all" class="on">전체</button>
-          <button data-value="ko">국내</button>
-          <button data-value="en">해외</button>
-        </div>
-        <label class="select">
-          <span class="sr-only">중요도</span>
-          <select id="importance">
-            <option value="0">모든 중요도</option>
-            <option value="3">3점 이상</option>
-            <option value="4">4점 이상</option>
-          </select>
-        </label>
         <label class="search">
           <span class="sr-only">검색</span>
+          <svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="7" cy="7" r="4.5"/><path d="M10.5 10.5 14 14"/></svg>
           <input id="query" type="search" placeholder="기업, 기술, 키워드 검색" autocomplete="off">
         </label>
       </div>
-      <div class="chips" id="categories" role="group" aria-label="카테고리"></div>
-    </section>
 
-    <section id="top" class="top-issues" aria-labelledby="top-title">
-      <h2 id="top-title">주요 이슈</h2>
-      <div id="top-list" class="top-grid"></div>
-    </section>
-
-    <section aria-labelledby="all-title">
-      <h2 id="all-title">전체 이슈 <span id="count" class="count"></span></h2>
-      <div id="timeline"></div>
-      <p id="empty" class="empty" hidden>조건에 맞는 이슈가 없습니다. 기간을 늘리거나 필터를 풀어 보세요.</p>
-    </section>
-
-    <section class="ops" aria-label="운영 상태">
-      <div class="ops-block">
-        <h2>수집 매체</h2>
-        <ul id="sources" class="source-list"></ul>
+      <!-- 개요: 4칸 x 288px + 간격 3 x 16px = 1200px (본문 폭) -->
+      <div class="overview">
+        <section class="panel" aria-labelledby="mix-title">
+          <header class="panel-head"><h2 id="mix-title">이슈</h2><span class="panel-note" id="mix-note"></span></header>
+          <p class="figure"><span id="issue-total" class="num">0</span><span class="unit">건</span></p>
+          <div id="mix-bar"></div>
+          <ul id="mix-legend" class="mix-legend"></ul>
+        </section>
+        <section class="panel" aria-labelledby="trend-title">
+          <header class="panel-head"><h2 id="trend-title">새로 잡힌 이슈</h2><span class="panel-note" id="trend-note"></span></header>
+          <div id="trend-chart" class="chart"></div>
+        </section>
+        <section class="panel" aria-labelledby="cat-title">
+          <header class="panel-head"><h2 id="cat-title">분야별 이슈</h2><span class="panel-note" id="cat-note"></span></header>
+          <div id="category-chart"></div>
+        </section>
+        <section class="panel" aria-labelledby="company-title">
+          <header class="panel-head"><h2 id="company-title">많이 나온 기업</h2><span class="panel-note">이슈 수</span></header>
+          <div id="company-chart"></div>
+        </section>
       </div>
-      <div class="ops-block">
-        <h2>최근 실행</h2>
-        <table class="runs">
-          <thead><tr><th>시각</th><th>관련 기사</th><th>새 이슈</th><th>요약</th><th>비용</th></tr></thead>
-          <tbody id="runs"></tbody>
-        </table>
+
+      <section id="top" class="block" aria-labelledby="top-title">
+        <header class="block-head"><h2 id="top-title">주요 이슈</h2><span class="block-note" id="top-note">중요도 4~5점</span></header>
+        <div id="top-list" class="top-grid"></div>
+      </section>
+
+      <section class="block" aria-labelledby="all-title">
+        <header class="block-head"><h2 id="all-title"><span id="all-label">그 밖의 이슈</span> <span id="count" class="count num"></span></h2></header>
+        <div class="issue-table">
+          <div class="issue-cols" aria-hidden="true">
+            <span>중요도</span><span>이슈</span><span>분야</span><span>매체</span><span class="num">시각</span>
+          </div>
+          <div id="timeline"></div>
+          <p id="empty" class="empty" hidden>조건에 맞는 이슈가 없습니다. 기간을 늘리거나 필터를 풀어 보세요.</p>
+        </div>
+      </section>
+    </section>
+
+    <!-- 화면 2. 수집 현황: Agent가 제대로 돌고 있나 -->
+    <section id="view-ops" class="view" aria-labelledby="ops-title" hidden>
+      <div class="title-row">
+        <h1 id="ops-title">수집 현황</h1>
+        <p id="ops-finding" class="subline"></p>
+      </div>
+
+      <section class="panel" aria-labelledby="pipe-title">
+        <header class="panel-head"><h2 id="pipe-title">기사가 이슈가 되기까지</h2><span class="panel-note">최근 24시간</span></header>
+        <ol id="pipeline" class="pipeline"></ol>
+      </section>
+
+      <section class="panel" aria-labelledby="runs-chart-title">
+        <header class="panel-head">
+          <h2 id="runs-chart-title">실행 기록</h2>
+          <ul class="legend" id="tracker-legend"></ul>
+          <span class="panel-note">최근 7일 · 3시간 단위</span>
+        </header>
+        <div id="tracker" class="chart"></div>
+        <h3 class="chart-title">관련 기사 수</h3>
+        <div id="runs-chart" class="chart"></div>
+      </section>
+
+      <section class="panel" aria-labelledby="sources-title">
+        <header class="panel-head"><h2 id="sources-title">수집 매체</h2><span class="panel-note" id="sources-note"></span></header>
+        <ul id="sources" class="source-list"></ul>
+      </section>
+
+      <!-- 최근 실행 2칸 + 매체별 기사 1칸 = 792 + 16 + 392 = 1200px -->
+      <div class="ops-grid">
+        <section class="panel" aria-labelledby="recent-title">
+          <header class="panel-head"><h2 id="recent-title">최근 실행</h2></header>
+          <div class="table-wrap">
+            <table class="runs">
+              <thead><tr><th>시각</th><th class="num">관련 기사</th><th class="num">새 이슈</th><th class="num">요약</th><th class="num">매체</th><th class="num">비용</th></tr></thead>
+              <tbody id="runs"></tbody>
+            </table>
+          </div>
+        </section>
+        <section class="panel" aria-labelledby="outlets-title">
+          <header class="panel-head"><h2 id="outlets-title">기사를 많이 낸 매체</h2><span class="panel-note">최근 7일</span></header>
+          <div id="outlet-chart"></div>
+        </section>
       </div>
     </section>
   </main>
@@ -134,6 +204,7 @@
   </footer>
 
   <script>window.BUILD = "__BUILD__";</script>
+  <script src="charts.js?v=__BUILD__"></script>
   <script src="app.js?v=__BUILD__"></script>
 </body>
 </html>
