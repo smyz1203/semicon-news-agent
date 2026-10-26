@@ -183,13 +183,21 @@ function renderCategories() {
 function renderMeta() {
   if (meta.ai) $("ai-name").textContent = meta.ai;
   const lastRun = meta.last_run_at;
+  if (!lastRun) {
+    $("freshness").textContent = "실행 전";
+    if (meta.mode === "local") {
+      showNotice("아직 실행 기록이 없습니다. 오른쪽 위 새로고침 버튼을 누르면 내 PC에서 뉴스 수집을 시작합니다.");
+    }
+  }
   if (lastRun) {
     $("freshness").textContent = `업데이트 ${ago(lastRun)}`;
     $("freshness").title = clock(lastRun);
     const hours = (Date.now() - new Date(lastRun)) / 3600000;
     $("stale").hidden = hours <= STALE_HOURS;
     if (hours > STALE_HOURS) {
-      $("stale").textContent = `자동 업데이트가 ${Math.floor(hours)}시간째 멈춰 있습니다. GitHub Actions 실행 기록을 확인하세요.`;
+      $("stale").textContent = meta.mode === "local"
+        ? `마지막 업데이트가 ${Math.floor(hours)}시간 전입니다. 오른쪽 위 새로고침 버튼으로 업데이트하세요.`
+        : `자동 업데이트가 ${Math.floor(hours)}시간째 멈춰 있습니다. GitHub Actions 실행 기록을 확인하세요.`;
     }
   }
 
@@ -264,6 +272,7 @@ async function load(version = window.BUILD || Date.now()) {
   }
   renderMeta();
   render();
+  resumeLocalJob();
 }
 
 // ── 지금 업데이트 ───────────────────────────────────────────
@@ -316,6 +325,7 @@ async function dispatchUpdate(token) {
 
 async function startUpdate() {
   if (updating) return;
+  if (meta?.mode === "local") return startLocalUpdate();
   const token = readToken();
   if (!token || !meta?.repo) {
     openUpdateDialog();
@@ -354,6 +364,87 @@ function waitForNewData(previousRunAt) {
   }, POLL_MS);
 }
 
+// ── 내 PC 모드 (python -m agent.serve) ──────────────────────
+// 새로고침 버튼이 GitHub 대신 이 컴퓨터의 로컬 서버에 실행을 요청한다. 토큰이 필요 없다.
+
+const LOCAL_POLL_MS = 3000;
+const LOCAL_MAX_FAILURES = 10;          // 상태 확인이 연속 10번(약 30초) 실패하면 서버가 꺼진 것으로 봄
+const LOCAL_LIMIT_MS = 25 * 60000;      // 25분이 지나도 안 끝나면 그만 기다림
+let localTimer = null;
+
+function showNotice(text) {
+  $("stale").textContent = text;
+  $("stale").hidden = false;
+}
+
+async function startLocalUpdate() {
+  setUpdating(true, "내 PC에서 업데이트 시작…");
+  let res;
+  try {
+    res = await fetch("api/update", {
+      method: "POST",
+      headers: { "X-Agent-Request": "1", "Content-Type": "application/json" },
+      body: "{}",
+    });
+  } catch {
+    setUpdating(false);
+    showNotice("로컬 서버에 연결하지 못했습니다. python -m agent.serve 가 켜져 있는지 확인하세요.");
+    return;
+  }
+  if (res.status !== 202 && res.status !== 409) {  // 409 = 이미 실행 중 → 그 실행을 기다림
+    setUpdating(false);
+    showNotice(`업데이트를 시작하지 못했습니다 (${res.status}).`);
+    return;
+  }
+  const body = await res.json().catch(() => ({}));
+  watchLocalJob(body.started_at);
+}
+
+// startedAt: 기다리는 실행의 시작 시각. 서버가 다시 켜져 다른 실행이 되면 '중단'으로 알림
+function watchLocalJob(startedAt) {
+  if (localTimer) return;  // 이미 기다리는 중이면 또 만들지 않음
+  setUpdating(true, "업데이트 실행 중 (내 PC) · 1~3분");
+  let failures = 0;
+  const deadline = Date.now() + LOCAL_LIMIT_MS;
+  const finish = (notice) => {
+    clearInterval(localTimer);
+    localTimer = null;
+    setUpdating(false);
+    if (notice) showNotice(notice);
+  };
+  localTimer = setInterval(async () => {
+    let status;
+    try {
+      status = await fetchJson(`api/status?t=${Date.now()}`);
+      failures = 0;
+    } catch {
+      if (++failures >= LOCAL_MAX_FAILURES) finish("로컬 서버가 응답하지 않습니다. 서버 창이 켜져 있는지 확인하세요.");
+      return;
+    }
+    if (status.running) {
+      if (Date.now() > deadline) finish("업데이트가 너무 오래 걸립니다. 서버 창의 로그를 확인하세요.");
+      return;
+    }
+    if (startedAt && status.started_at !== startedAt) {
+      finish("업데이트가 중단되었습니다 (로컬 서버가 다시 시작됨). 새로고침 버튼으로 다시 실행하세요.");
+      return;
+    }
+    await load(Date.now());
+    if (status.ok === false) finish(`업데이트 실패: ${status.message}`);
+    else if (status.alerts?.length) finish(`업데이트 완료 · 경고: ${status.alerts.join(" / ")}`);
+    else finish(null);
+  }, LOCAL_POLL_MS);
+}
+
+// 페이지를 열었을 때 이미 실행 중이면(예약 실행 등) 진행 상황을 이어서 보여줌
+async function resumeLocalJob() {
+  if (meta?.mode !== "local" || updating || localTimer) return;
+  try {
+    const status = await fetchJson(`api/status?t=${Date.now()}`);
+    if (status.running && !updating && !localTimer) watchLocalJob(status.started_at);
+  } catch { /* 로컬 서버 없이 파일만 연 경우 */ }
+}
+
 function openUpdateDialog(errorMessage) {
   const repo = meta?.repo || "";
   $("actions-link").href = repo ? `https://github.com/${repo}/actions/workflows/update.yml` : "https://github.com";
@@ -365,7 +456,13 @@ function openUpdateDialog(errorMessage) {
   $("update-dialog").showModal();
 }
 
-$("refresh").addEventListener("click", startUpdate);
+// 다른 사이트가 이 페이지를 iframe에 몰래 넣어 버튼을 누르게 하는 것(클릭재킹)을 막기 위해,
+// 다른 페이지 안에 들어가 있으면 새로고침 버튼을 숨김 (GitHub Pages는 막는 헤더를 보낼 수 없어서 화면에서 처리)
+if (window.top !== window.self) {
+  $("refresh").hidden = true;
+} else {
+  $("refresh").addEventListener("click", startUpdate);
+}
 $("token-save").addEventListener("click", () => {
   const value = $("token-input").value.trim();
   if (!/^(github_pat_|ghp_)\w+$/.test(value)) {

@@ -9,8 +9,13 @@ __pycache__/
 
 # 빌드 결과 (Actions·Vercel이 매번 새로 만듦)
 _site/
+_site.tmp/
 .vercel-venv/
 .vercel/
+
+# 내 PC 서버(python -m agent.serve)용 페이지
+local-site/
+local-site.tmp/
 
 # 로컬 테스트용 데이터 (python -m agent.main --data-dir local-data)
 local-data/
