@@ -526,7 +526,8 @@ details[open] > .toggle::after { content: " ▴"; }
 
 /* ── 참고자료: 중요도 기준표 ── */
 .rubric-formula { margin: 0 0 12px; color: var(--muted); }
-.rubric-grid { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: var(--gap); align-items: start; }
+.rubric-grid { display: grid; grid-template-columns: minmax(0, 3fr) minmax(0, 2fr); gap: var(--gap); }
+.rubric-grid > .panel { margin: 0; }  /* 간격은 격자가 맡음 (같은 줄의 두 칸은 높이가 같아짐) */
 .panel-head h3 { font-size: 14px; font-weight: 600; }
 .rubric-table { width: 100%; border-collapse: collapse; }
 .rubric-table th { text-align: left; font-weight: 400; color: var(--faint); font-size: 12px; padding: 0 12px 8px 0; border-bottom: 1px solid var(--border); white-space: nowrap; }
