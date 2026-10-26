@@ -4,6 +4,7 @@
 - 관련성 키워드가 없는 기사 제거 (일반 매체만)
 - 거의 같은 제목 + 같은 회사인 기사끼리 한 묶음(Group)으로
 - 묶음이 진행 중인 기존 이슈와 거의 같으면 바로 그 이슈에 배정
+- AI가 같은 사건인지 확인할 후보 짝 고르기 (same_event_candidates)
 """
 
 import re
@@ -139,6 +140,34 @@ def group_articles(articles: list[Article], companies: CompanyMatcher,
         else:
             groups.append(Group(articles=[a], norm=norm, companies=comps))
     return groups
+
+
+def same_event_candidates(new: list[tuple[str, str, frozenset[str]]], existing: list[tuple[str, str, frozenset[str]]],
+                          min_similarity: float = 0.1, per_item: int = 5) -> list[tuple[str, str, float]]:
+    """같은 사건일 수 있는 짝을 규칙으로 고른다 (AI가 같은 사건인지 확인할 후보).
+
+    new: 새 기사 묶음 (키, 핵심 사건 문장, 언급된 회사), existing: 기존 이슈 (id, 헤드라인, 회사).
+    새 기사끼리, 새 기사와 기존 이슈만 비교한다 (기존 이슈끼리는 이미 판단이 끝남).
+    - 언급된 회사가 양쪽 모두 있는데 하나도 안 겹치면 다른 사건이므로 뺀다 (guard_ai_merges와 같은 규칙)
+    - 같은 회사가 나오거나 사건 문장의 글자 유사도가 min_similarity 이상이면 후보
+    - 새 기사 하나당 가장 비슷한 per_item개까지만 (큰 회사 기사가 많아도 짝이 너무 늘지 않게)
+    """
+    items = new + existing
+    new_keys = {key for key, _, _ in new}
+    norm = {key: normalize_title(text) for key, text, _ in items}
+    chosen: dict[tuple[str, str], float] = {}
+    for a, _, mine in new:
+        scored = []
+        for b, _, theirs in items:
+            if b == a or (mine and theirs and not (mine & theirs)):
+                continue
+            score = similarity(norm[a], norm[b])
+            if mine & theirs or score >= min_similarity:
+                scored.append((score + (0.2 if mine & theirs else 0), score, b))
+        for _, score, b in sorted(scored, reverse=True)[:per_item]:
+            pair = tuple(sorted((a, b))) if b in new_keys else (a, b)  # 새 기사끼리는 한 번만, 기존 이슈는 뒤에
+            chosen[pair] = score
+    return [(a, b, score) for (a, b), score in chosen.items()]
 
 
 def guard_ai_merges(groups: list[Group], targets: dict[int, str | None], active_issues: list[dict],

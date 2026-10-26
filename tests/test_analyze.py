@@ -7,11 +7,11 @@ import openai
 import pytest
 
 from agent.analyze import (AIError, AIStopped, Analyzer, clean_facts, clean_summary, copies_source,
-                           resolve_assignments)
+                           resolve_clusters)
 from agent.collect import Article
 from agent.config import load_config
 from agent.dedupe import Group
-from agent.models import Assignment, ClusterResult, IssueFacts, IssueSummary
+from agent.models import ArticleFacts, IssueFacts, IssueSummary, SameEvent, SameEventResult, TriageResult
 
 SETTINGS = load_config().settings
 OPENAI = {**SETTINGS, "provider": "openai"}
@@ -91,19 +91,15 @@ SUMMARIZED = {**ISSUE, "headline": "삼성전자 HBM4 양산 검토", "summary":
 # ── 응답 검증 (제공사와 무관) ────────────────────────────────
 
 
-def test_resolve_assignments_validates_ai_output():
-    result = ClusterResult(assignments=[
-        Assignment(article_id="a0", relevant=True, event="", issue_id="c-old"),   # 기존 이슈
-        Assignment(article_id="a1", relevant=True, event="", issue_id="new-1"),
-        Assignment(article_id="a2", relevant=True, event="", issue_id="new-1"),   # 같은 새 이슈
-        Assignment(article_id="a3", relevant=False, event="", issue_id=""),       # 관련 없음
-        Assignment(article_id="a3", relevant=True, event="", issue_id="new-9"),   # 중복 배정 → 무시
-        Assignment(article_id="zz", relevant=True, event="", issue_id="new-2"),   # 모르는 기사 → 무시
-        Assignment(article_id="a4", relevant=True, event="", issue_id="c-unknown"),  # 모르는 이슈 → 새 이슈
-    ])
-    out = resolve_assignments(result, ["a0", "a1", "a2", "a3", "a4", "a5"], {"c-old"})
-    assert out == {"a0": "c-old", "a1": "new:new-1", "a2": "new:new-1", "a3": None,
-                   "a4": "new:c-unknown", "a5": "new:a5"}  # a5는 AI가 빠뜨림 → 혼자 새 이슈
+def test_resolve_clusters_merges_only_confirmed_pairs():
+    same = [("a0", "a2", 0.5),                       # 새 기사끼리 같은 사건 → 같은 새 이슈
+            ("a1", "c-old", 0.3),                    # 기존 이슈와 같은 사건 → 그 이슈로
+            ("a3", "c-x", 0.2), ("a3", "c-y", 0.6)]  # 기존 이슈 둘과 같다고 나오면 더 비슷한 쪽 하나에만
+    out = resolve_clusters(6, {0, 1, 2, 3, 5}, same)
+    assert out[0] == out[2] and out[0].startswith("new:")
+    assert out[1] == "c-old" and out[3] == "c-y"
+    assert out[4] is None                            # 관련 없음
+    assert out[5] == "new:a5"                        # 같은 사건으로 확인된 짝이 없으면 혼자 새 이슈
 
 
 def test_clean_summary():
@@ -179,35 +175,62 @@ def test_openai_request_shape_and_usage():
     assert analyzer.cost_usd() > 0
 
 
-def test_cluster_compares_events_not_companies():
-    # 2026-10-26 실제 오판: 'GSAT 실시' 이슈에 '이재용 취임 4년' 기사, 'HBM 매출' 이슈에 '엑시노스 2700' 기사가 붙음.
-    # 둘 다 같은 회사(삼성)의 다른 사건이라 회사 규칙(guard_ai_merges)으로는 못 막으므로, AI가 사건을 비교하게 한다.
-    issues = [
-        {"id": "c-gsat", "headline": "삼성, 2026년 하반기 GSAT 실시",
-         "companies": ["삼성전자", "삼성디스플레이", "삼성SDI", "삼성물산"],
-         "articles": [{"title": "삼성, 2026년 하반기 삼성직무적성검사(GSAT) 실시"}]},
-        {"id": "c-hbm", "headline": "삼성전자, HBM 매출 SK하이닉스 앞서나", "companies": ["삼성전자", "SK하이닉스"],
-         "articles": [{"title": "Samsung may have overtaken SK hynix in HBM revenue, analysis suggests"}]},
-    ]
-    groups = [Group(articles=[Article(key=f"k{i}", url=f"https://e.com/{i}", title=title, source="전자신문",
-                                      source_id="etnews", lang="ko", published_at=datetime(2026, 10, 26, tzinfo=timezone.utc),
-                                      text="", filter=True)], norm="", companies=frozenset())
-              for i, title in enumerate(["이재용 취임 4년, 반도체 부활 넘어 M&A 승부수…미래사업 확장 가속",
-                                         "삼성 엑시노스 2700, 스냅드래곤 최신 칩 앞섰다…CPU 성능 20% 우위"])]
-    reply = ClusterResult(assignments=[
-        Assignment(article_id="a0", relevant=True, event="이재용 회장 취임 4년 M&A 전략", issue_id="new-1"),
-        Assignment(article_id="a1", relevant=True, event="엑시노스 2700 성능 시험 결과", issue_id="new-2"),
+def group(title, source="전자신문"):
+    art = Article(key=title, url=f"https://e.com/{title}", title=title, source=source, source_id=source, lang="ko",
+                  published_at=datetime(2026, 10, 26, tzinfo=timezone.utc), text="", filter=True)
+    return Group(articles=[art], norm="", companies=frozenset())
+
+
+def test_cluster_merges_only_pairs_ai_confirms():
+    # 2026-10-26 실제 사례: 같은 뉴스(DB하이텍 품질 인증)가 두 이슈로 나뉘고, 다른 사건(솔리다임 IPO ← 글래스 기판)이 묶였음
+    issues = [{"id": "c-ipo", "headline": "SK하이닉스, 솔리다임 IPO 절차 중단", "summary": ["SK하이닉스가 상장을 멈췄다."],
+               "articles": [{"title": "SK hynix Halts Solidigm IPO Plans"}]}]
+    groups = [group(t) for t in ["DB하이텍, 자동차 품질 인증 갱신…車 반도체 경쟁력 강화",
+                                 "DB하이텍, 파운드리 분야 자동차 품질 표준 인증 갱신",
+                                 "[안테나] 글래스 기판 생산 현장에서 중요도가 높아지는 기술",
+                                 "中企수출 역대 3분기 최고… K-뷰티 쌍끌이"]]
+    triage = TriageResult(articles=[
+        ArticleFacts(article_id="a0", event="DB하이텍, 자동차 반도체 품질 인증 갱신", relevant=True),
+        ArticleFacts(article_id="a1", event="DB하이텍, 파운드리 자동차 품질 표준 인증 갱신", relevant=True),
+        ArticleFacts(article_id="a2", event="글래스 기판 생산 기술의 중요성 커짐", relevant=True),
+        ArticleFacts(article_id="a3", event="중소기업 3분기 수출 역대 최고", relevant=False),
     ])
-    client, calls = openai_client(openai_ok(reply))
-    assert Analyzer(OPENAI, client=client).cluster(groups, issues) == {0: "new:new-1", 1: "new:new-2"}
-    call = calls.calls[0]
-    # 이슈는 회사 목록이 아니라 처음 기사 제목으로 보여줌 (회사만 같으면 붙이는 오판 방지)
-    assert "삼성직무적성검사(GSAT)" in call["input"] and "overtaken SK hynix" in call["input"]
-    assert "삼성물산" not in call["input"]
-    # 사건(event)을 먼저 적고 나서 이슈를 고르도록 응답 형식에서 순서를 정함
-    assert call["text_format"] is ClusterResult
-    assert list(Assignment.model_fields) == ["article_id", "relevant", "event", "issue_id"]
-    assert "같은 회사의 소식이라도 사건이 다르면 다른 이슈다" in call["instructions"]
+    yes, no = (SameEventResult(pairs=[SameEvent(pair_id="p0", reason="비교", same=v)]) for v in (True, False))
+    # 같은 질문을 세 번 묻고 다수결: 셋 중 둘이 같다고 하면 묶음
+    client, calls = openai_client(*[openai_ok(triage)] * 3, openai_ok(yes), openai_ok(no), openai_ok(yes))
+    out = Analyzer(OPENAI, client=client).cluster(groups, issues)
+    assert out[0] == out[1] and out[0].startswith("new:")   # 같은 뉴스는 한 이슈로
+    assert out[2].startswith("new:") and out[2] != out[0]   # 다른 사건은 기존 이슈에 붙지 않음
+    assert out[3] is None
+    # ① 관련성 기준은 중요도 기준표의 사건 유형과 같음
+    assert calls.calls[0]["text_format"] is TriageResult
+    assert all(t in calls.calls[0]["instructions"] for t in TYPES)
+    # ③ 규칙으로 고른 후보 짝만 확인을 부탁함 (글래스 기판 기사는 비슷한 이슈가 없어 묻지 않음)
+    assert len(calls.calls) == 6 and calls.calls[3]["text_format"] is SameEventResult
+    assert "파운드리 분야 자동차 품질" in calls.calls[3]["input"] and "글래스 기판" not in calls.calls[3]["input"]
+    assert list(SameEvent.model_fields) == ["pair_id", "reason", "same"]  # 비교한 뒤에 판단하도록 순서를 정함
+
+
+def test_cluster_does_not_merge_when_ai_is_unsure():
+    groups = [group("DB하이텍, 자동차 품질 인증 갱신"), group("DB하이텍, 파운드리 자동차 품질 인증 갱신")]
+    triage = TriageResult(articles=[ArticleFacts(article_id=f"a{i}", event=g.lead.title, relevant=True)
+                                    for i, g in enumerate(groups)])
+    yes, no = (SameEventResult(pairs=[SameEvent(pair_id="p0", reason="애매함", same=v)]) for v in (True, False))
+    client, _ = openai_client(*[openai_ok(triage)] * 3, openai_ok(yes), openai_ok(no), openai_ok(no))
+    assert Analyzer(OPENAI, client=client).cluster(groups, []) == {0: "new:a0", 1: "new:a1"}  # 셋 중 하나만 같다고 함
+
+
+def test_cluster_triages_in_batches_and_keeps_articles_ai_missed():
+    titles = [f"관련 없는 기사 {i}" for i in range(20)] + ["가나", "다라", "마바", "사아", "자차"]
+    no, yes = (TriageResult(articles=[ArticleFacts(article_id=f"a{i}", event="", relevant=v) for i in range(20)])
+               for v in (False, True))
+    missed = TriageResult(articles=[])  # 뒤의 5건은 AI가 세 번 다 빠뜨림
+    client, calls = openai_client(openai_ok(no), openai_ok(yes), openai_ok(no), *[openai_ok(missed)] * 3)
+    out = Analyzer(OPENAI, client=client).cluster([group(t) for t in titles], [])
+    assert len(calls.calls) == 6  # 20건씩 나눠, 묶음마다 세 번 물어봄
+    # 앞의 20건: 셋 중 둘이 관련 없다고 함 → 관련 없음
+    assert all(out[i] is None for i in range(20))
+    assert [out[i] for i in range(20, 25)] == [f"new:a{i}" for i in range(20, 25)]  # 빠뜨린 기사는 혼자 새 이슈로 남김
 
 
 def test_openai_without_reasoning_omits_effort():

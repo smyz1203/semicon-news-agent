@@ -11,13 +11,16 @@ import logging
 import re
 
 from agent import prompts
-from agent.dedupe import Group
-from agent.models import ClusterResult, IssueFacts, IssueSummary, with_event_types
+from agent.dedupe import CompanyMatcher, Group, same_event_candidates
+from agent.models import IssueFacts, IssueSummary, SameEventResult, TriageResult, with_event_types
 from agent.store import to_iso
 
 log = logging.getLogger(__name__)
 
 MAX_FAIL_STREAK = 3
+TRIAGE_BATCH = 20  # 이슈 묶기 ①: 한 번에 정리할 기사 묶음 수
+PAIR_BATCH = 20    # 이슈 묶기 ③: 한 번에 확인할 짝 수
+VOTES = 3          # 이슈 묶기 ①③은 같은 질문을 세 번 묻고 다수결 (AI 답이 실행마다 흔들려도 결과가 안정되게)
 COPY_WINDOW = 40  # 요약이 기사 본문을 공백 빼고 이 글자 수 이상 그대로 옮기면 거부
 
 # 공개 저장소에 올라가는 필드라, 프롬프트 지시와 별개로 코드에서 길이를 강제함
@@ -218,6 +221,7 @@ class Analyzer:
         self.event_types = [t["name"] for t in settings["importance"]["event_types"]]
         self.summary_format = with_event_types(IssueSummary, self.event_types)
         self.facts_format = with_event_types(IssueFacts, self.event_types)
+        self.companies = CompanyMatcher(settings["companies"])  # 같은 사건 후보를 고를 때 씀
 
     @property
     def model(self) -> str:
@@ -226,35 +230,100 @@ class Analyzer:
     # ── F3 이슈 묶기·분류 ─────────────────────────────────────
 
     def cluster(self, groups: list[Group], active_issues: list[dict]) -> dict[int, str | None]:
-        """묶음마다 배정할 곳을 돌려준다: 기존 이슈 id, 'new:<키>'(새 이슈), None(관련 없음)."""
+        """묶음마다 배정할 곳을 돌려준다: 기존 이슈 id, 'new:<키>'(새 이슈), None(관련 없음).
+
+        같은 사건이 확실한 기사만 묶는다:
+        ① AI가 기사마다 핵심 사건 한 줄과 관련성을 정리 (한 번에 많이 보면 판단이 흔들려서 20건씩)
+        ② 같은 사건일 수 있는 짝을 규칙으로 고름 (같은 회사가 나오거나 사건 문장이 비슷한 짝)
+        ③ 짝마다 같은 사건인지 AI가 확인하고, 같다고 확인된 짝만 한 이슈로 묶음
+        """
         if not groups:
             return {}
-        articles = [{
-            "id": f"a{i}",
-            "source": g.lead.source,
-            "lang": g.lead.lang,
-            "published": to_iso(g.lead.published_at),
-            "title": g.lead.title,
-            "snippet": g.lead.text[:200],
-        } for i, g in enumerate(groups)]
-        # 회사 목록 대신 처음 기사 제목을 보여줌: 회사만 같으면 다른 사건도 붙이는 오판을 줄이고,
-        # 잘못 붙은 기사로 헤드라인이 바뀌어도 원래 사건을 알 수 있게
-        issues = [{
-            "id": issue["id"],
-            "title": issue["headline"] or issue["articles"][0]["title"],
-            "articles": [a["title"] for a in issue["articles"][:3]],
-        } for issue in active_issues]
+        facts = self._triage(groups)
+        relevant = {i for i, (ok, _) in enumerate(facts) if ok}
+        new = [(f"a{i}", facts[i][1] or groups[i].lead.title,
+                self.companies.find(f"{groups[i].lead.title} {facts[i][1]}")) for i in sorted(relevant)]
+        existing = [(issue["id"], issue["headline"] or issue["articles"][0]["title"],
+                     self.companies.find(" ".join([issue["headline"]] + [a["title"] for a in issue["articles"][:3]])))
+                    for issue in active_issues]
+        issues = {issue["id"]: issue for issue in active_issues}
+        candidates = same_event_candidates(new, existing)
+        same = self._check_same(candidates, groups, facts, issues)
+        log.info("관련 기사 묶음 %d/%d개, 같은 사건 후보 %d쌍 중 같은 사건으로 확인 %d쌍",
+                 len(relevant), len(groups), len(candidates), len(same))
+        def label(key: str) -> str:
+            if key in issues:
+                return issues[key]["headline"] or issues[key]["articles"][0]["title"]
+            return groups[int(key[1:])].lead.title
 
-        result = self._parse(
-            system=prompts.CLUSTER_SYSTEM,
-            user=prompts.cluster_user(articles, issues),
-            output_format=ClusterResult,
-            max_tokens=self.s["limits"]["cluster_max_tokens"],
-            effort=self.s["effort"]["cluster"],
-        )
-        ids = [a["id"] for a in articles]
-        resolved = resolve_assignments(result, ids, {i["id"] for i in issues})
-        return {int(aid[1:]): target for aid, target in resolved.items()}
+        for x, y, _ in same:  # 어떤 기사끼리 묶었는지 실행 기록(Actions 로그)에서 확인할 수 있게
+            log.info("같은 사건으로 묶음: %s ↔ %s", label(x)[:60], label(y)[:60])
+        return resolve_clusters(len(groups), relevant, same)
+
+    def _triage(self, groups: list[Group]) -> list[tuple[bool, str]]:
+        """묶음마다 (관련 있음, 핵심 사건 한 줄). 세 번 묻고 관련성은 다수결(동률이면 관련 있음).
+
+        AI가 한 번도 답하지 않은 묶음은 관련 있음으로 둔다 (혼자 새 이슈로라도 남게).
+        """
+        facts = [(True, "")] * len(groups)
+        for start in range(0, len(groups), TRIAGE_BATCH):
+            batch = {f"a{i}": i for i in range(start, min(start + TRIAGE_BATCH, len(groups)))}
+            articles = [{
+                "id": key,
+                "source": groups[i].lead.source,
+                "lang": groups[i].lead.lang,
+                "published": to_iso(groups[i].lead.published_at),
+                "title": groups[i].lead.title,
+                "snippet": groups[i].lead.text[:200],
+            } for key, i in batch.items()]
+            votes: dict[str, list[bool]] = {}
+            events: dict[str, str] = {}
+            for _ in range(VOTES):
+                result = self._parse(
+                    system=prompts.triage_system(self.s),
+                    user=prompts.triage_user(articles),
+                    output_format=TriageResult,
+                    max_tokens=self.s["limits"]["cluster_max_tokens"],
+                    effort=self.s["effort"]["cluster"],
+                )
+                answered = set()
+                for a in result.articles:
+                    if a.article_id in batch and a.article_id not in answered:  # 모르는 id·중복 답은 무시
+                        answered.add(a.article_id)
+                        votes.setdefault(a.article_id, []).append(a.relevant)
+                        events.setdefault(a.article_id, _cut(a.event.strip(), 100))
+            for key, v in votes.items():
+                facts[batch[key]] = (sum(v) * 2 >= len(v), events[key])
+        return facts
+
+    def _check_same(self, candidates: list[tuple[str, str, float]], groups: list[Group],
+                    facts: list[tuple[bool, str]], issues: dict[str, dict]) -> list[tuple[str, str, float]]:
+        """후보 짝 중 AI가 같은 사건이라고 확인한 짝만 돌려준다 (20짝씩, 세 번 묻고 과반이 같다고 한 짝만)."""
+        def side(key: str) -> dict:
+            if key in issues:  # 기존 이슈: 헤드라인과 처음 기사 제목 (잘못 붙은 기사가 있어도 원래 사건을 알 수 있게)
+                issue = issues[key]
+                return {"issue_headline": issue["headline"], "article_titles": [a["title"] for a in issue["articles"][:3]],
+                        "summary": issue.get("summary", [])[:1]}
+            i = int(key[1:])
+            return {"title": groups[i].lead.title, "event": facts[i][1], "snippet": groups[i].lead.text[:200]}
+
+        same = []
+        for start in range(0, len(candidates), PAIR_BATCH):
+            batch = list(enumerate(candidates[start:start + PAIR_BATCH], start))
+            pairs = [{"pair_id": f"p{k}", "a": side(x), "b": side(y)} for k, (x, y, _) in batch]
+            yes: dict[str, int] = {}
+            for _ in range(VOTES):
+                result = self._parse(
+                    system=prompts.SAME_EVENT_SYSTEM,
+                    user=prompts.same_event_user(pairs),
+                    output_format=SameEventResult,
+                    max_tokens=self.s["limits"]["cluster_max_tokens"],
+                    effort=self.s["effort"]["cluster"],
+                )
+                for pair_id in {p.pair_id for p in result.pairs if p.same}:  # 빠뜨린 짝은 '다르다'로 셈
+                    yes[pair_id] = yes.get(pair_id, 0) + 1
+            same += [pair for k, pair in batch if yes.get(f"p{k}", 0) * 2 > VOTES]
+        return same
 
     # ── F4 요약·사건 분류 ─────────────────────────────────────
 
@@ -337,22 +406,40 @@ def _brief(err: Exception) -> str:
 # ── 응답 검증 (AI 응답을 그대로 믿지 않고 코드로 확인) ────────────
 
 
-def resolve_assignments(result: ClusterResult, article_ids: list[str],
-                        issue_ids: set[str]) -> dict[str, str | None]:
-    """AI 배정 결과를 검증한다. 빠진 기사·모르는 id는 새 이슈로, 중복 배정은 첫 번째만 인정."""
-    out: dict[str, str | None] = {}
-    valid = set(article_ids)
-    for a in result.assignments:
-        if a.article_id not in valid or a.article_id in out:
-            continue
-        if not a.relevant:
-            out[a.article_id] = None
-        elif a.issue_id in issue_ids:
-            out[a.article_id] = a.issue_id
+def resolve_clusters(n: int, relevant: set[int], same: list[tuple[str, str, float]]) -> dict[int, str | None]:
+    """같은 사건으로 확인된 짝을 이어서 묶음마다 배정할 곳을 정한다.
+
+    새 기사끼리 같은 사건이면 같은 새 이슈로, 기존 이슈와 같은 사건이면 그 이슈로 간다.
+    한 묶음이 기존 이슈 여러 개와 같다고 나오면 사건 문장이 가장 비슷한 이슈 하나에만 붙인다.
+    """
+    parent = {f"a{i}": f"a{i}" for i in relevant}
+
+    def root(key: str) -> str:
+        while parent[key] != key:
+            parent[key] = parent[parent[key]]
+            key = parent[key]
+        return key
+
+    issue_links = []
+    for x, y, score in same:
+        if x in parent and y in parent:
+            parent[root(x)] = root(y)
+        elif x in parent:
+            issue_links.append((x, y, score))
+        elif y in parent:
+            issue_links.append((y, x, score))
+    best: dict[str, tuple[float, str]] = {}
+    for key, issue_id, score in issue_links:
+        r = root(key)
+        if r not in best or score > best[r][0]:
+            best[r] = (score, issue_id)
+    out: dict[int, str | None] = {}
+    for i in range(n):
+        if i not in relevant:
+            out[i] = None
         else:
-            out[a.article_id] = "new:" + (a.issue_id.strip() or a.article_id)
-    for aid in article_ids:
-        out.setdefault(aid, "new:" + aid)
+            r = root(f"a{i}")
+            out[i] = best[r][1] if r in best else f"new:{r}"
     return out
 
 

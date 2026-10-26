@@ -5,16 +5,26 @@ from typing import Annotated, Literal
 from pydantic import BaseModel, Field, create_model
 
 
-class Assignment(BaseModel):
+class ArticleFacts(BaseModel):
     article_id: str = Field(description="입력 기사의 id (예: a3)")
-    relevant: bool = Field(description="반도체·디스플레이 산업과 직접 관련 있으면 true")
-    # issue_id보다 먼저 쓰게 해서, 회사·분야가 아니라 사건을 비교한 뒤 이슈를 고르게 함
-    event: str = Field(description="기사의 핵심 사건 한 줄 (예: SK하이닉스 HBM4 양산 시작)")
-    issue_id: str = Field(description="기존 이슈 id, 또는 새 이슈 키(new-1, new-2 …). relevant가 false면 빈 문자열")
+    # relevant보다 먼저 쓰게 해서, 사건을 정리한 뒤 관련성을 판단하게 함
+    event: str = Field(description="기사의 핵심 사건 한 줄. 한국어로 '누가 무엇을' (예: SK하이닉스, HBM4 양산 시작)")
+    relevant: bool = Field(description="반도체·디스플레이 산업이나 이 산업 기업의 소식이면 true")
 
 
-class ClusterResult(BaseModel):
-    assignments: list[Assignment]
+class TriageResult(BaseModel):
+    articles: list[ArticleFacts]
+
+
+class SameEvent(BaseModel):
+    pair_id: str = Field(description="입력 짝의 id (예: p3)")
+    # same보다 먼저 쓰게 해서, 두 사건을 비교한 뒤 판단하게 함
+    reason: str = Field(description="두 사건을 비교한 한 줄")
+    same: bool = Field(description="같은 사건이 확실하면 true, 다르거나 애매하면 false")
+
+
+class SameEventResult(BaseModel):
+    pairs: list[SameEvent]
 
 
 # 중요도 계산에 쓰는 사실. 점수는 AI가 아니라 agent/score.py가 이 값으로 계산한다.
