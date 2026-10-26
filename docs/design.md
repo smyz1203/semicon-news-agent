@@ -118,6 +118,7 @@ flowchart TD
 | 이슈 묶기 ② 같은 사건 확인 | 같음 | 후보 짝 20개마다 1회 | 짝의 두 기사 (기존 이슈는 헤드라인·처음 기사 제목 3건·요약 첫 문장) | 짝마다 `reason`, `same` (확실할 때만 true) |
 | 요약·사건 분류 | 같음 | 이슈당 1회, 실행당 최대 30회 | 이슈의 기사 최대 4건 (각 1,500자) | headline, summary[3], tags, companies, event_type, confirmed, parties |
 | 다시 분류 | 같음 | 분류가 필요한 이슈당 1회, 실행당 최대 30회 | 저장된 헤드라인·요약·기사 제목 | event_type, confirmed, parties |
+| 사건 유형 확인 | 같음 | 기본점 4점 이상 유형을 고른 이슈마다 3회 (다수결, 아니면 그 유형을 빼고 다시 분류) | 헤드라인·요약·기사 제목, 유형 이름·설명 | reason, fits |
 
 - **제공사 선택**: `config/settings.yaml`의 `provider`를 `openai`(기본) 또는 `claude`로 바꾼다. 제공사마다 다른 부분(호출 방법, 오류 종류, 사용량 표기)은 `agent/analyze.py`의 `OpenAIBackend` / `ClaudeBackend`에 있고, 프롬프트·응답 형식·검증은 공통이다.
 - **구조화 출력**: 같은 Pydantic 모델(`agent/models.py`)을 OpenAI는 `client.responses.parse(text_format=…)`, Claude는 `client.beta.messages.parse(output_format=…)`로 강제한다.

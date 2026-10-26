@@ -52,11 +52,11 @@ class FakeAnalyzer:
         self.summarized.append(issue["id"])
         return {"headline": "SK하이닉스 HBM4 양산", "summary": ["a", "b", "c"], "category": "메모리",
                 "tags": ["HBM4"], "companies": ["SK하이닉스"],
-                "event_type": TYPES[0], "confirmed": True, "parties": ["SK하이닉스"]}
+                "event_type": TYPES[0], "confirmed": True, "parties": ["SK하이닉스"], "type_checked": True}
 
     def classify(self, issue):
         self.classified.append(issue["id"])
-        return {"event_type": TYPES[0], "confirmed": False, "parties": ["삼성전자"]}
+        return {"event_type": TYPES[0], "confirmed": False, "parties": ["삼성전자"], "type_checked": True}
 
     def cost_usd(self):
         return 0.01

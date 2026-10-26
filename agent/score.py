@@ -18,16 +18,21 @@ class Scorer:
         self.adjust = imp["adjust"]
         self.wide_coverage_sources = imp["wide_coverage_sources"]
         self.watch = imp["watch_companies"]
+        self.strict_min_score = imp.get("strict_min_score", float("inf"))
         # 'SK hynix'처럼 다른 표기로 적어도 관심 기업으로 알아보도록 기업 이름 사전의 별칭을 씀
         self.watch_matcher = CompanyMatcher({name: settings["companies"].get(name, [name]) for name in self.watch})
 
     def needs_classification(self, issue: dict) -> bool:
-        """요약은 끝났는데 사건 유형이 없거나 지금 기준표에 없는 이슈 (예전 방식으로 점수를 매긴 이슈, 유형 목록을 바꾼 경우).
+        """요약은 끝났는데 사건 유형이 없거나 지금 기준표에 없는 이슈 (예전 방식으로 점수를 매긴 이슈, 유형 목록을 바꾼 경우),
+        또는 기본점이 높은 유형(strict_min_score 이상)을 받았지만 아직 '정말 그 유형인지' 확인하지 않은 이슈.
 
         다시 요약할 이슈(needs_summary)는 요약하면서 분류도 하므로 뺀다.
         """
-        return (issue.get("status") == "summarized" and not issue.get("needs_summary")
-                and issue.get("event_type") not in self.base)
+        if issue.get("status") != "summarized" or issue.get("needs_summary"):
+            return False
+        event_type = issue.get("event_type")
+        return event_type not in self.base or (self.base[event_type] >= self.strict_min_score
+                                               and not issue.get("type_checked"))
 
     def score(self, issue: dict) -> tuple[int, str] | None:
         """(중요도, 판단 근거). 사건 유형을 모르면 None."""

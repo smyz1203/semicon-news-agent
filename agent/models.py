@@ -27,6 +27,13 @@ class SameEventResult(BaseModel):
     pairs: list[SameEvent]
 
 
+class TypeCheck(BaseModel):
+    """기본점이 높은 사건 유형을 줘도 되는지 확인 (settings.yaml의 importance.strict_min_score)."""
+    # fits보다 먼저 쓰게 해서, 핵심 사건과 유형 설명을 비교한 뒤 판단하게 함
+    reason: str = Field(description="핵심 사건을 한 줄로 쓰고 유형 설명과 비교")
+    fits: bool = Field(description="이 유형에 확실히 해당하면 true, 애매하거나 해당 없음에 걸리면 false")
+
+
 # 중요도 계산에 쓰는 사실. 점수는 AI가 아니라 agent/score.py가 이 값으로 계산한다.
 EventType = Annotated[str, Field(description="사건 유형 목록 중 정확히 하나")]
 Confirmed = Annotated[bool, Field(description="이미 일어났거나 공식 발표·결정·체결된 사건이면 true, "

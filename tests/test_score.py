@@ -70,6 +70,16 @@ def test_raw_score_keeps_points_cut_by_the_cap():
     assert (floor["importance"], floor["importance_raw"]) == (1, 0)
 
 
+def test_high_score_type_is_rechecked_once():
+    # 기본점이 높은 유형은 '정말 그 유형인지' 확인한 적이 없으면 분류를 다시 함 (확인 기능 전에 분류한 이슈)
+    settings = copy.deepcopy(SETTINGS)
+    settings["importance"]["strict_min_score"] = 4
+    scorer = Scorer(settings)
+    assert scorer.needs_classification(issue("신제품·신기술·양산"))
+    assert not scorer.needs_classification(issue("신제품·신기술·양산", type_checked=True))
+    assert not scorer.needs_classification(issue("수주·공급"))  # 점수가 낮은 유형은 확인하지 않음
+
+
 def test_adjustment_set_to_zero_is_hidden():
     settings = copy.deepcopy(SETTINGS)
     settings["importance"]["adjust"]["watch_company"] = 0

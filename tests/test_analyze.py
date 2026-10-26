@@ -11,12 +11,16 @@ from agent.analyze import (AIError, AIStopped, Analyzer, clean_facts, clean_summ
 from agent.collect import Article
 from agent.config import load_config
 from agent.dedupe import Group
-from agent.models import ArticleFacts, IssueFacts, IssueSummary, SameEvent, SameEventResult, TriageResult
+from agent.models import (ArticleFacts, IssueFacts, IssueSummary, SameEvent, SameEventResult, TriageResult,
+                          TypeCheck)
 
 SETTINGS = load_config().settings
 OPENAI = {**SETTINGS, "provider": "openai"}
 CLAUDE = {**SETTINGS, "provider": "claude"}
 TYPES = [t["name"] for t in SETTINGS["importance"]["event_types"]]
+STRICT = SETTINGS["importance"]["strict_min_score"]
+HIGH = [t["name"] for t in SETTINGS["importance"]["event_types"] if t["score"] >= STRICT]  # 확실할 때만 주는 유형
+LOW = [t["name"] for t in SETTINGS["importance"]["event_types"] if t["score"] < STRICT]
 
 
 class FakeCalls:
@@ -80,7 +84,7 @@ def status_error(module, cls, status, message, body=None):
 
 SUMMARY = IssueSummary(headline="SK하이닉스 HBM4 양산", summary=["첫째.", "둘째.", "셋째.", "넷째."],
                        category="메모리", tags=["HBM4", "hbm4", " AI "], companies=["SK하이닉스", "엔비디아"],
-                       event_type=TYPES[0], confirmed=True, parties=["SK하이닉스", " sk하이닉스 "])
+                       event_type=LOW[0], confirmed=True, parties=["SK하이닉스", " sk하이닉스 "])
 FACTS = IssueFacts(event_type=TYPES[-1], confirmed=False, parties=["삼성전자"])
 ISSUE = {"id": "c1", "headline": "", "companies": [], "articles": [
     {"key": "k1", "title": "제목1", "source": "디일렉", "lang": "ko", "published_at": "2026-10-26T00:00:00Z"},
@@ -106,7 +110,7 @@ def test_clean_summary():
     out = clean_summary(SUMMARY, SETTINGS["categories"], TYPES)
     assert out["summary"] == ["첫째.", "둘째.", "셋째."]
     assert out["tags"] == ["HBM4", "AI"]
-    assert out["event_type"] == TYPES[0] and out["confirmed"] is True
+    assert out["event_type"] == LOW[0] and out["confirmed"] is True
     assert out["parties"] == ["SK하이닉스"]
     assert "importance" not in out  # 점수는 AI가 아니라 agent/score.py가 계산
     bad = SUMMARY.model_copy(update={"category": "스포츠"})
@@ -297,10 +301,48 @@ def test_summary_that_copies_article_is_rejected():
         Analyzer(OPENAI, client=client).summarize(ISSUE, {"k1": body})
 
 
+def test_high_score_type_is_kept_only_when_confirmed():
+    yes, no = TypeCheck(reason="새 제품 출시", fits=True), TypeCheck(reason="애매함", fits=False)
+    client, calls = openai_client(openai_ok(SUMMARY.model_copy(update={"event_type": HIGH[0]})),
+                                  openai_ok(yes), openai_ok(no), openai_ok(yes))  # 셋 중 둘이 맞다고 함
+    out = Analyzer(OPENAI, client=client).summarize(ISSUE, {})
+    assert out["event_type"] == HIGH[0] and out["type_checked"] is True and len(calls.calls) == 4
+    assert calls.calls[1]["text_format"] is TypeCheck and HIGH[0] in calls.calls[1]["input"]
+
+
+def test_unconfirmed_high_score_type_is_reclassified_without_it():
+    # 실제 사례: 'ASM, 한국 반도체 학생에게 장학금 수여'가 신제품·신기술·양산(5점)으로 분류됨
+    no = TypeCheck(reason="장학금 수여는 신제품이 아님", fits=False)
+    award = IssueFacts(event_type=LOW[-1], confirmed=True, parties=["ASM"])
+    client, calls = openai_client(openai_ok(SUMMARY.model_copy(update={"event_type": HIGH[0]})),
+                                  *[openai_ok(no)] * 3, openai_ok(award))
+    out = Analyzer(OPENAI, client=client).summarize(ISSUE, {})
+    assert out["event_type"] == LOW[-1] and out["headline"] == "SK하이닉스 HBM4 양산"  # 요약은 그대로, 유형만 다시
+    retry = calls.calls[4]  # 아니라고 확인된 유형은 고를 수 없게 빼고 다시 물음
+    assert HIGH[0] not in retry["text_format"].model_json_schema()["properties"]["event_type"]["enum"]
+    assert HIGH[0] in retry["input"]
+
+
+def test_reclassified_high_type_is_checked_again():
+    no = TypeCheck(reason="", fits=False)
+    second = IssueFacts(event_type=HIGH[1], confirmed=True, parties=[])
+    final = IssueFacts(event_type=LOW[0], confirmed=True, parties=[])
+    client, calls = openai_client(openai_ok(SUMMARY.model_copy(update={"event_type": HIGH[0]})),
+                                  *[openai_ok(no)] * 3, openai_ok(second), *[openai_ok(no)] * 3, openai_ok(final))
+    out = Analyzer(OPENAI, client=client).summarize(ISSUE, {})
+    assert out["event_type"] == LOW[0] and len(calls.calls) == 9
+
+
+def test_low_score_type_is_not_checked():
+    client, calls = openai_client(openai_ok(SUMMARY))
+    assert Analyzer(OPENAI, client=client).summarize(ISSUE, {})["type_checked"] is True
+    assert len(calls.calls) == 1  # 점수가 낮은 유형은 확인하지 않음
+
+
 def test_classify_sends_existing_summary_and_returns_facts():
     client, calls = openai_client(openai_ok(FACTS))
     out = Analyzer(OPENAI, client=client).classify(SUMMARIZED)
-    assert out == {"event_type": TYPES[-1], "confirmed": False, "parties": ["삼성전자"]}
+    assert out == {"event_type": TYPES[-1], "confirmed": False, "parties": ["삼성전자"], "type_checked": True}
     call = calls.calls[0]
     assert issubclass(call["text_format"], IssueFacts)
     assert call["text_format"].model_json_schema()["properties"]["event_type"]["enum"] == TYPES

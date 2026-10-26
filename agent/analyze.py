@@ -12,7 +12,7 @@ import re
 
 from agent import prompts
 from agent.dedupe import CompanyMatcher, Group, same_event_candidates
-from agent.models import IssueFacts, IssueSummary, SameEventResult, TriageResult, with_event_types
+from agent.models import IssueFacts, IssueSummary, SameEventResult, TriageResult, TypeCheck, with_event_types
 from agent.store import to_iso
 
 log = logging.getLogger(__name__)
@@ -222,6 +222,9 @@ class Analyzer:
         self.summary_format = with_event_types(IssueSummary, self.event_types)
         self.facts_format = with_event_types(IssueFacts, self.event_types)
         self.companies = CompanyMatcher(settings["companies"])  # 같은 사건 후보를 고를 때 씀
+        # 기본점이 이 점수 이상인 유형은 확실할 때만 줌 (_check_type). 설정에 없으면 확인하지 않음
+        self.base_scores = {t["name"]: t["score"] for t in settings["importance"]["event_types"]}
+        self.strict_min_score = settings["importance"].get("strict_min_score", float("inf"))
 
     @property
     def model(self) -> str:
@@ -351,18 +354,50 @@ class Analyzer:
         if copies_source(cleaned["summary"], [a["text"] for a in articles]):
             # API 문제가 아니므로 연속 실패 횟수에는 넣지 않음. 이 이슈만 다음 실행에서 다시 시도
             raise AIError("요약이 기사 문장을 그대로 옮김")
-        return cleaned
+        view = {**issue, "headline": cleaned["headline"], "summary": cleaned["summary"]}
+        facts = {k: cleaned[k] for k in ("event_type", "confirmed", "parties")}
+        return {**cleaned, **self._check_type(view, facts)}
 
     def classify(self, issue: dict) -> dict:
         """요약이 끝난 이슈를 헤드라인·요약·기사 제목만 보고 다시 분류한다 (요약은 그대로 둠)."""
+        return self._check_type(issue, self._classify(issue))
+
+    def _classify(self, issue: dict, exclude: list[str] = ()) -> dict:
+        allowed = [name for name in self.event_types if name not in exclude]
         result = self._parse(
             system=prompts.classify_system(self.s),
-            user=prompts.classify_user(issue),
-            output_format=self.facts_format,
+            user=prompts.classify_user(issue, exclude),
+            output_format=with_event_types(IssueFacts, allowed) if exclude else self.facts_format,
             max_tokens=self.s["limits"]["summarize_max_tokens"],
             effort=self.s["effort"]["summarize"],
         )
-        return clean_facts(result, self.event_types)
+        return clean_facts(result, allowed)
+
+    def _check_type(self, issue: dict, facts: dict) -> dict:
+        """기본점이 높은 유형(settings의 strict_min_score 이상)은 정말 그 유형인지 세 번 물어 다수결로 확인한다.
+
+        아니라고 나오면 그 유형을 빼고 다시 분류한다 (다시 고른 유형도 높으면 또 확인). 높은 점수는 확실할 때만.
+        """
+        excluded: list[str] = []
+        while self.base_scores[facts["event_type"]] >= self.strict_min_score and not self._fits(issue, facts["event_type"]):
+            excluded.append(facts["event_type"])
+            log.info("'%s' 유형이 확실하지 않아 다시 분류: %s", facts["event_type"], issue["headline"][:40])
+            facts = self._classify(issue, excluded)
+        return {**facts, "type_checked": True}
+
+    def _fits(self, issue: dict, name: str) -> bool:
+        event_type = next(t for t in self.s["importance"]["event_types"] if t["name"] == name)
+        yes = 0
+        for _ in range(VOTES):
+            result = self._parse(
+                system=prompts.TYPE_CHECK_SYSTEM,
+                user=prompts.type_check_user(issue, event_type),
+                output_format=TypeCheck,
+                max_tokens=self.s["limits"]["summarize_max_tokens"],
+                effort=self.s["effort"]["summarize"],
+            )
+            yes += result.fits
+        return yes * 2 > VOTES
 
     # ── 비용 ─────────────────────────────────────────────────
 
