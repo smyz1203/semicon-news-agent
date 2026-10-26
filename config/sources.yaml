@@ -3,30 +3,31 @@
 #   filter: true  → 관련성 키워드(settings.yaml의 keywords)가 들어간 기사만 남김 (일반 매체용)
 #   filter: false → 모든 기사를 남김 (반도체·디스플레이 전문 섹션용)
 #   tz: 날짜에 시간대 표시가 없을 때 적용할 시간대
+#   section: 같은 매체의 RSS가 여러 개일 때 웹에서 구분하는 이름
 # 2026-10-26 기준으로 모두 동작을 확인한 주소입니다.
 
 sources:
   # ── 국내 ────────────────────────────────────────────
-  - {id: thelec-semi,    name: 디일렉,        url: "https://www.thelec.kr/rss/S1N2.xml",          lang: ko, filter: false, tz: Asia/Seoul}
-  - {id: thelec-display, name: 디일렉,        url: "https://www.thelec.kr/rss/S1N4.xml",          lang: ko, filter: false, tz: Asia/Seoul}
-  - {id: thelec-equip,   name: 디일렉,        url: "https://www.thelec.kr/rss/S1N3.xml",          lang: ko, filter: false, tz: Asia/Seoul}
-  - {id: etnews,         name: 전자신문,      url: "https://rss.etnews.com/06.xml",               lang: ko, filter: true,  tz: Asia/Seoul}
-  - {id: kipost,         name: KIPOST,        url: "https://www.kipost.net/rss/allArticle.xml",   lang: ko, filter: true,  tz: Asia/Seoul}
-  - {id: dt-ict,         name: 디지털타임스,  url: "https://www.dt.co.kr/rss/google/ict",         lang: ko, filter: true,  tz: Asia/Seoul}
-  - {id: dt-industry,    name: 디지털타임스,  url: "https://www.dt.co.kr/rss/google/industry",    lang: ko, filter: true,  tz: Asia/Seoul}
-  - {id: yna-industry,   name: 연합뉴스,      url: "https://www.yna.co.kr/rss/industry.xml",      lang: ko, filter: true,  tz: Asia/Seoul}
-  - {id: zdnet-kr,       name: ZDNet Korea,   url: "https://feeds.feedburner.com/zdkorea",        lang: ko, filter: true,  tz: Asia/Seoul}
+  - {id: thelec-semi,    name: 디일렉,        section: 반도체,   url: "https://www.thelec.kr/rss/S1N2.xml",        lang: ko, filter: false, tz: Asia/Seoul}
+  - {id: thelec-display, name: 디일렉,        section: 디스플레이, url: "https://www.thelec.kr/rss/S1N4.xml",      lang: ko, filter: false, tz: Asia/Seoul}
+  - {id: thelec-equip,   name: 디일렉,        section: 소재장비, url: "https://www.thelec.kr/rss/S1N3.xml",        lang: ko, filter: false, tz: Asia/Seoul}
+  - {id: etnews,         name: 전자신문,      section: 전자,     url: "https://rss.etnews.com/06.xml",             lang: ko, filter: true,  tz: Asia/Seoul}
+  - {id: kipost,         name: KIPOST,                           url: "https://www.kipost.net/rss/allArticle.xml", lang: ko, filter: true,  tz: Asia/Seoul}
+  - {id: dt-ict,         name: 디지털타임스,  section: IT,       url: "https://www.dt.co.kr/rss/google/ict",       lang: ko, filter: true,  tz: Asia/Seoul}
+  - {id: dt-industry,    name: 디지털타임스,  section: 산업,     url: "https://www.dt.co.kr/rss/google/industry",  lang: ko, filter: true,  tz: Asia/Seoul}
+  - {id: yna-industry,   name: 연합뉴스,      section: 산업,     url: "https://www.yna.co.kr/rss/industry.xml",    lang: ko, filter: true,  tz: Asia/Seoul}
+  - {id: zdnet-kr,       name: ZDNet Korea,                      url: "https://feeds.feedburner.com/zdkorea",      lang: ko, filter: true,  tz: Asia/Seoul}
 
   # ── 해외 (영문) ──────────────────────────────────────
-  - {id: semieng,        name: Semiconductor Engineering, url: "https://semiengineering.com/feed/",                    lang: en, filter: false, tz: UTC}
-  - {id: toms-semi,      name: "Tom's Hardware",          url: "https://www.tomshardware.com/feeds/tag/semiconductors", lang: en, filter: false, tz: UTC}
-  - {id: oled-info,      name: OLED-info,                 url: "https://www.oled-info.com/rss.xml",                    lang: en, filter: false, tz: UTC}
-  - {id: trendforce-semi,    name: TrendForce,            url: "https://www.trendforce.com/feed/Semiconductors.html",  lang: en, filter: false, tz: Asia/Taipei}
-  - {id: trendforce-display, name: TrendForce,            url: "https://www.trendforce.com/feed/Display.html",         lang: en, filter: false, tz: Asia/Taipei}
-  - {id: thelec-en,      name: The Elec,                  url: "https://www.thelec.net/rss/allArticle.xml",            lang: en, filter: true,  tz: Asia/Seoul}
-  - {id: eetimes,        name: EE Times,                  url: "https://www.eetimes.com/feed/",                        lang: en, filter: true,  tz: UTC}
-  - {id: digitimes,      name: DigiTimes Asia,            url: "https://www.digitimes.com/rss/daily.xml",              lang: en, filter: true,  tz: Asia/Taipei}
-  - {id: koreaherald,    name: Korea Herald,              url: "https://www.koreaherald.com/rss/kh_Business",          lang: en, filter: true,  tz: Asia/Seoul}
+  - {id: semieng,            name: Semiconductor Engineering,                   url: "https://semiengineering.com/feed/",                     lang: en, filter: false, tz: UTC}
+  - {id: toms-semi,          name: "Tom's Hardware", section: Semiconductors,   url: "https://www.tomshardware.com/feeds/tag/semiconductors", lang: en, filter: false, tz: UTC}
+  - {id: oled-info,          name: OLED-info,                                   url: "https://www.oled-info.com/rss.xml",                     lang: en, filter: false, tz: UTC}
+  - {id: trendforce-semi,    name: TrendForce,       section: Semiconductors,   url: "https://www.trendforce.com/feed/Semiconductors.html",   lang: en, filter: false, tz: Asia/Taipei}
+  - {id: trendforce-display, name: TrendForce,       section: Display,          url: "https://www.trendforce.com/feed/Display.html",          lang: en, filter: false, tz: Asia/Taipei}
+  - {id: thelec-en,          name: The Elec,                                    url: "https://www.thelec.net/rss/allArticle.xml",             lang: en, filter: true,  tz: Asia/Seoul}
+  - {id: eetimes,            name: EE Times,                                    url: "https://www.eetimes.com/feed/",                         lang: en, filter: true,  tz: UTC}
+  - {id: digitimes,          name: DigiTimes Asia,                              url: "https://www.digitimes.com/rss/daily.xml",               lang: en, filter: true,  tz: Asia/Taipei}
+  - {id: koreaherald,        name: Korea Herald,     section: Business,         url: "https://www.koreaherald.com/rss/kh_Business",           lang: en, filter: true,  tz: Asia/Seoul}
 
 # Google 뉴스 RSS 검색 (기본 꺼짐)
 # 로이터·닛케이 등 더 많은 매체를 잡을 수 있지만, Google의 robots.txt가 자동 수집을 허용하지 않아

@@ -10,6 +10,12 @@ __pycache__/
 # 빌드 결과 (Actions가 매번 새로 만듦)
 _site/
 
+# 로컬 테스트용 데이터 (python -m agent.main --data-dir local-data)
+local-data/
+
+# 로컬 미리보기 설정
+.claude/launch.json
+
 # OS / 에디터
 .DS_Store
 Thumbs.db

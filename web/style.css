@@ -1,0 +1,261 @@
+/* ── 색과 크기 (밝은 화면 기본, 어두운 화면은 아래에서 다시 정의) ── */
+:root {
+  --ground: #f3f4f2;
+  --sheet: #ffffff;
+  --tint: #e9ebe8;
+  --ink: #16191d;
+  --ink-2: #4a5058;
+  --ink-3: #7a818a;
+  --navy: #1c2b3a;
+  --gold: #e8c547;
+  --link: #1d4ed8;
+
+  /* 중요도 색: 의미가 있는 곳에만 색을 씀 */
+  --imp-5: #b42318;
+  --imp-4: #c2410c;
+  --imp-3: #1d4ed8;
+  --imp-2: #6b7280;
+  --imp-1: #9ca3af;
+  --imp-0: #9ca3af;
+
+  --alert-bg: #fde8e7;
+  --alert-ink: #8a1c13;
+  --badge-ink: #ffffff;
+
+  --radius: 4px;
+  --gap: 16px;
+  --column: 1120px;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ground: #111315;
+    --sheet: #1a1d20;
+    --tint: #24282c;
+    --ink: #eceef0;
+    --ink-2: #b4bac1;
+    --ink-3: #868d96;
+    --navy: #0b1622;
+    --link: #8ab4ff;
+    --imp-5: #f97066;
+    --imp-4: #fb923c;
+    --imp-3: #7aa7ff;
+    --imp-2: #9aa1aa;
+    --imp-1: #6b7280;
+    --imp-0: #6b7280;
+    --alert-bg: #3b1513;
+    --alert-ink: #ffb4ab;
+    --badge-ink: #111315;
+    color-scheme: dark;
+  }
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  background: var(--ground);
+  color: var(--ink);
+  font-family: "Pretendard Variable", Pretendard, -apple-system, "Apple SD Gothic Neo", "Malgun Gothic", sans-serif;
+  font-size: 15px;
+  line-height: 1.6;
+  word-break: keep-all;          /* 한국어 단어 중간에서 줄바꿈하지 않음 */
+  overflow-wrap: anywhere;
+  -webkit-font-smoothing: antialiased;
+}
+
+a { color: var(--link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+button, input, select { font: inherit; color: inherit; }
+.sr-only { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); }
+
+/* ── 상단 바 ── */
+.topbar { background: var(--navy); color: #f5f6f7; }
+.topbar-inner {
+  max-width: var(--column);
+  margin: 0 auto;
+  padding: 0 20px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+}
+.brand { display: flex; align-items: center; gap: 10px; color: inherit; font-weight: 650; font-size: 15px; }
+.brand:hover { text-decoration: none; }
+.mark { width: 24px; height: 24px; }
+.mark-ground { fill: #2c3e51; }
+.mark-die { fill: var(--gold); }
+.mark-pins { stroke: var(--gold); stroke-width: 1.6; }
+.freshness { font-size: 13px; color: #c5ccd4; font-variant-numeric: tabular-nums; }
+
+.stale {
+  background: var(--alert-bg);
+  color: var(--alert-ink);
+  font-weight: 600;
+  text-align: center;
+  padding: 10px 20px;
+}
+
+/* ── 본문 열 ── */
+.page { max-width: var(--column); margin: 0 auto; padding: 32px 20px 48px; }
+
+.intro h1 { font-size: 28px; line-height: 1.25; margin: 0 0 6px; letter-spacing: -0.01em; }
+.lede { margin: 0; color: var(--ink-2); font-size: 15px; }
+.lede strong { color: var(--ink); font-variant-numeric: tabular-nums; }
+
+h2 { font-size: 18px; margin: 0 0 12px; letter-spacing: -0.005em; }
+.count { color: var(--ink-3); font-weight: 500; font-size: 15px; font-variant-numeric: tabular-nums; }
+
+/* ── 필터 ── */
+.controls { margin: 24px 0 32px; display: grid; gap: 12px; }
+.control-row { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
+
+.segmented { display: inline-flex; background: var(--tint); border-radius: 999px; padding: 3px; }
+.segmented button {
+  border: 0;
+  background: transparent;
+  height: 30px;
+  padding: 0 14px;
+  border-radius: 999px;
+  cursor: pointer;
+  color: var(--ink-2);
+}
+.segmented button.on { background: var(--sheet); color: var(--ink); font-weight: 600; }
+
+.select select, .search input {
+  height: 36px;
+  border: 0;
+  border-radius: 999px;
+  background: var(--tint);
+  padding: 0 14px;
+}
+.search { flex: 1 1 220px; }
+.search input { width: 100%; }
+.search input:focus, .select select:focus, .segmented button:focus-visible, .chip:focus-visible {
+  outline: 2px solid var(--link);
+  outline-offset: 1px;
+}
+
+.chips { display: flex; gap: 6px; overflow-x: auto; padding-bottom: 2px; scrollbar-width: none; }
+.chip {
+  flex: none;
+  border: 0;
+  height: 32px;
+  padding: 0 12px;
+  border-radius: 999px;
+  background: var(--sheet);
+  color: var(--ink-2);
+  cursor: pointer;
+  white-space: nowrap;
+}
+.chip .n { color: var(--ink-3); margin-left: 4px; font-variant-numeric: tabular-nums; }
+.chip.on { background: var(--ink); color: var(--sheet); }
+.chip.on .n { color: inherit; opacity: 0.7; }
+
+/* ── 이슈 공통 ── */
+.issue { background: var(--sheet); border-radius: var(--radius); padding: 18px 20px; }
+.issue-head { display: flex; gap: 12px; align-items: flex-start; }
+.badge {
+  flex: none;
+  width: 30px;
+  height: 30px;
+  border-radius: var(--radius);
+  display: grid;
+  place-items: center;
+  color: var(--badge-ink);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+}
+.imp-5 .badge { background: var(--imp-5); }
+.imp-4 .badge { background: var(--imp-4); }
+.imp-3 .badge { background: var(--imp-3); }
+.imp-2 .badge { background: var(--imp-2); }
+.imp-1 .badge, .imp-0 .badge { background: var(--imp-1); }
+.imp-5 { box-shadow: inset 4px 0 0 var(--imp-5); }
+.imp-4 { box-shadow: inset 4px 0 0 var(--imp-4); }
+
+.headline { font-size: 17px; font-weight: 650; line-height: 1.4; margin: 2px 0 2px; }
+.meta { font-size: 13px; color: var(--ink-3); display: flex; flex-wrap: wrap; gap: 4px 10px; }
+.meta .cat { color: var(--ink-2); font-weight: 600; }
+.meta .pending { color: var(--imp-4); font-weight: 600; }
+
+.summary { margin: 12px 0 0; padding-left: 42px; color: var(--ink); }
+.summary li { margin: 2px 0; }
+.summary-label { font-size: 12px; color: var(--ink-3); margin: 10px 0 0 42px; }
+
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 12px 0 0 42px; }
+.tag {
+  border: 0;
+  background: var(--tint);
+  color: var(--ink-2);
+  border-radius: 999px;
+  height: 26px;
+  padding: 0 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.tag:hover { color: var(--ink); }
+
+details.more { margin: 12px 0 0 42px; font-size: 14px; }
+details.more summary { cursor: pointer; color: var(--ink-2); list-style: none; }
+details.more summary::-webkit-details-marker { display: none; }
+details.more summary::before { content: "▸ "; color: var(--ink-3); }
+details.more[open] summary::before { content: "▾ "; }
+.reason { margin: 8px 0; color: var(--ink-2); }
+.articles { margin: 6px 0 0; padding: 0; list-style: none; display: grid; gap: 6px; }
+.articles .src { color: var(--ink-3); font-size: 13px; margin-right: 6px; }
+
+/* ── 주요 이슈 ── */
+.top-issues { margin-bottom: 40px; }
+.top-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: var(--gap); }
+.top-grid .issue { padding: 22px 24px; }
+.top-grid .headline { font-size: 19px; }
+
+/* ── 날짜별 목록 ── */
+.day { margin-bottom: 28px; }
+.day h3 { font-size: 14px; color: var(--ink-2); margin: 0 0 10px; font-weight: 600; }
+.day-list { display: grid; gap: 8px; }
+
+.empty { color: var(--ink-3); padding: 24px 0; }
+
+/* ── 운영 상태 ── */
+.ops {
+  margin-top: 48px;
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  gap: 32px;
+  color: var(--ink-2);
+  font-size: 14px;
+}
+.ops h2 { font-size: 15px; color: var(--ink); }
+.source-list { list-style: none; margin: 0; padding: 0; display: grid; gap: 4px; }
+.source-list li { display: flex; justify-content: space-between; gap: 12px; }
+.source-list .state { font-variant-numeric: tabular-nums; color: var(--ink-3); }
+.source-list .bad { color: var(--imp-5); font-weight: 600; }
+.runs { width: 100%; border-collapse: collapse; font-variant-numeric: tabular-nums; }
+.runs th { text-align: left; font-weight: 600; color: var(--ink-3); font-size: 13px; padding: 0 8px 6px 0; }
+.runs td { padding: 3px 8px 3px 0; }
+.runs tr.alert td { color: var(--imp-5); }
+
+.footer {
+  max-width: var(--column);
+  margin: 0 auto;
+  padding: 0 20px 40px;
+  font-size: 13px;
+  color: var(--ink-3);
+}
+.footer p { margin: 2px 0; }
+
+/* ── 좁은 화면 (휴대폰) ── */
+@media (max-width: 760px) {
+  .page { padding: 24px 16px 40px; }
+  .topbar-inner { padding: 0 16px; }
+  .intro h1 { font-size: 23px; }
+  .top-grid, .ops { grid-template-columns: 1fr; }
+  .issue, .top-grid .issue { padding: 16px; }
+  .summary, .tags, details.more, .summary-label { margin-left: 0; padding-left: 0; }
+  .summary { padding-left: 18px; }
+  .search { flex-basis: 100%; }
+}
