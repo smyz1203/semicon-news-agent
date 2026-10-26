@@ -1,0 +1,101 @@
+# 3시간마다 뉴스를 수집·분석하고, 결과를 커밋한 뒤 GitHub Pages에 배포한다.
+name: 뉴스 업데이트
+
+on:
+  schedule:
+    # UTC 기준. 매 정각은 GitHub 서버가 붐벼 지연·누락될 수 있어 17분에 실행
+    # → 한국 시간 09:17, 12:17, 15:17, 18:17, 21:17, 00:17, 03:17, 06:17
+    - cron: "17 */3 * * *"
+  workflow_dispatch: # Actions 탭의 "Run workflow" 버튼으로 수동 실행
+
+# 동시에 두 번 돌면 데이터 커밋이 충돌하므로 한 번에 하나만
+concurrency:
+  group: news-agent
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write # data/ 커밋
+      actions: write  # 예약 실행이 꺼지지 않도록 gh workflow enable
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: 패키지 설치
+        run: pip install -r requirements.txt
+
+      - name: Agent 실행 (수집 → 묶기 → 요약 → 저장)
+        run: python -m agent.main
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+
+      - name: 데이터 커밋
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/
+          if git diff --cached --quiet; then
+            echo "바뀐 데이터 없음"
+            exit 0
+          fi
+          git commit -m "chore(data): 뉴스 데이터 업데이트"
+          for attempt in 1 2 3; do
+            git pull --rebase origin main && git push origin HEAD:main && exit 0
+            echo "push 실패, 다시 시도 ($attempt/3)"
+            sleep 5
+          done
+          echo "::error::데이터를 저장소에 올리지 못함"
+          exit 1
+
+      - name: 웹 페이지 만들기
+        run: python -m agent.build_site
+
+      - uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+      # 공개 저장소는 60일간 활동이 없으면 예약 실행이 자동으로 꺼짐 → 매번 다시 켜둠
+      # (효과가 공식 문서로 확인된 방법은 아님. 45일에 한 번쯤 직접 커밋하는 것이 확실함)
+      - name: 예약 실행 유지
+        run: gh workflow enable update.yml
+        env:
+          GH_TOKEN: ${{ github.token }}
+        continue-on-error: true
+
+  deploy:
+    needs: update
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5
+
+  # 이번 실행에 경고(매체 과반 실패, AI 중단, 24시간 새 기사 없음)가 있으면 실패로 표시 → GitHub이 메일로 알림
+  health:
+    needs: deploy
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+      - name: 실행 결과 점검
+        run: python -m agent.health
