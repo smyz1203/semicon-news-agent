@@ -22,7 +22,7 @@ from agent.analyze import KEY_ENV, AIError, AIStopped, Analyzer
 from agent.collect import collect
 from agent.config import DATA_DIR, load_config
 from agent.dedupe import (CompanyMatcher, KeywordMatcher, attach_to_issues, drop_irrelevant,
-                          drop_seen, group_articles)
+                          drop_seen, group_articles, guard_ai_merges)
 
 log = logging.getLogger("agent")
 
@@ -30,6 +30,8 @@ log = logging.getLogger("agent")
 def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = None) -> dict | None:
     cfg = load_config()
     s = cfg.settings
+    if s.get("provider") not in KEY_ENV:
+        raise SystemExit(f"config/settings.yaml의 provider는 {', '.join(KEY_ENV)} 중 하나여야 합니다 (지금: {s.get('provider')})")
     limits = dict(s["limits"])
     if limit:
         limits["max_articles_per_run"] = limit
@@ -75,7 +77,7 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
 
     analyzer, ai_stopped = None, None
     ai_deadline = time.monotonic() + limits["ai_time_budget_minutes"] * 60
-    key_env = KEY_ENV.get(s["provider"], "API 키")
+    key_env = KEY_ENV[s["provider"]]
     if os.environ.get(key_env):
         analyzer = Analyzer({**s, "limits": limits})
         log.info("AI: %s / %s", s["provider"], analyzer.model)
@@ -91,6 +93,9 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
             if not analyzer:
                 raise AIStopped(ai_stopped)
             targets = analyzer.cluster(to_ai, active)
+            rejected = guard_ai_merges(to_ai, targets, active, companies)
+            if rejected:
+                log.info("회사가 서로 다른 기사를 묶은 AI 판단 %d건을 되돌림", rejected)
         except (AIError, AIStopped) as e:
             if isinstance(e, AIStopped):
                 ai_stopped = str(e)
@@ -215,7 +220,7 @@ def main() -> None:
     parser.add_argument("--limit", type=int, help="AI로 처리할 묶음·요약 수 제한 (테스트용)")
     parser.add_argument("--data-dir", type=Path, default=DATA_DIR, help="결과를 저장할 폴더")
     args = parser.parse_args()
-    load_dotenv()  # 로컬 실행용 .env 파일에서 ANTHROPIC_API_KEY 읽기
+    load_dotenv()  # 로컬 실행용 .env 파일에서 API 키 읽기 (OPENAI_API_KEY 또는 ANTHROPIC_API_KEY)
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s", datefmt="%H:%M:%S")
     for noisy in ("httpx", "httpx2", "anthropic"):
         logging.getLogger(noisy).setLevel(logging.WARNING)

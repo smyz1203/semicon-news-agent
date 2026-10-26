@@ -35,7 +35,7 @@ def build(data_dir: Path = DATA_DIR, out_dir: Path = SITE_DIR) -> Path:
         "last_run_at": runs[-1]["at"] if runs else None,
         "last_success_at": state["last_success_at"],
         "categories": cfg.settings["categories"],
-        "ai": _ai_label(cfg.settings),
+        "ai": _ai_label(cfg.settings, runs),
         "sources": [_source_status(s, state["sources"].get(s.id, {})) for s in cfg.sources],
         "runs": [{k: r.get(k) for k in RUN_FIELDS} for r in runs[-24:]],
     }
@@ -58,9 +58,20 @@ def build(data_dir: Path = DATA_DIR, out_dir: Path = SITE_DIR) -> Path:
     return out_dir
 
 
-def _ai_label(settings: dict) -> str:
-    provider = settings["provider"]
-    return f"{AI_NAMES.get(provider, provider)} {settings[provider]['model']}"
+def _ai_label(settings: dict, runs: list[dict]) -> str:
+    """요약을 실제로 만든 모델 이름. 실행 기록에 남은 모델을 쓰고, 기록이 없으면 현재 설정을 씀."""
+    used = []
+    for r in reversed(runs):  # 최근 실행부터
+        if r.get("ai_model") and r.get("summarized") and r["ai_model"] not in used:
+            used.append(r["ai_model"])
+    if not used:
+        provider = settings.get("provider", "")
+        used = [f"{provider}/{settings.get(provider, {}).get('model', '')}"]
+    labels = []
+    for value in used:
+        provider, _, model = value.partition("/")
+        labels.append(f"{AI_NAMES.get(provider, provider)} {model}".strip())
+    return ", ".join(labels)
 
 
 def _public_issue(issue: dict) -> dict:

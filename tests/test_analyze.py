@@ -29,29 +29,43 @@ class FakeCalls:
         return reply
 
 
+class FakeRaw:
+    """with_raw_response.parse()가 돌려주는 원시 응답 흉내: HTTP 본문(usage 포함) + parse()."""
+
+    def __init__(self, usage: dict, parsed=None, parse_error: Exception | None = None):
+        self.http_response = SimpleNamespace(json=lambda: {"usage": usage})
+        self._parsed, self._error = parsed, parse_error
+
+    def parse(self):
+        if self._error:
+            raise self._error
+        return self._parsed
+
+
 def openai_client(*replies):
     calls = FakeCalls(replies)
-    return SimpleNamespace(responses=calls), calls
+    return SimpleNamespace(responses=SimpleNamespace(with_raw_response=calls)), calls
 
 
 def claude_client(*replies):
     calls = FakeCalls(replies)
-    return SimpleNamespace(beta=SimpleNamespace(messages=calls)), calls
+    return SimpleNamespace(beta=SimpleNamespace(messages=SimpleNamespace(with_raw_response=calls))), calls
 
 
-def openai_ok(parsed, status="completed", refusal=False):
+OPENAI_USAGE = {"input_tokens": 1000, "output_tokens": 200, "input_tokens_details": {"cached_tokens": 400}}
+CLAUDE_USAGE = {"input_tokens": 1000, "output_tokens": 200, "cache_creation_input_tokens": 0,
+                "cache_read_input_tokens": 500}
+
+
+def openai_ok(parsed, status="completed", refusal=False, parse_error=None):
     part = SimpleNamespace(type="refusal" if refusal else "output_text")
-    usage = SimpleNamespace(input_tokens=1000, output_tokens=200,
-                            input_tokens_details=SimpleNamespace(cached_tokens=400))
-    return SimpleNamespace(status=status, incomplete_details=SimpleNamespace(reason="max_output_tokens"),
-                           output=[SimpleNamespace(type="message", content=[part])],
-                           output_parsed=parsed, usage=usage)
+    resp = SimpleNamespace(status=status, incomplete_details=SimpleNamespace(reason="max_output_tokens"),
+                           output=[SimpleNamespace(type="message", content=[part])], output_parsed=parsed)
+    return FakeRaw(OPENAI_USAGE, resp, parse_error)
 
 
-def claude_ok(parsed, stop_reason="end_turn"):
-    usage = SimpleNamespace(input_tokens=1000, output_tokens=200,
-                            cache_creation_input_tokens=0, cache_read_input_tokens=500)
-    return SimpleNamespace(parsed_output=parsed, stop_reason=stop_reason, usage=usage)
+def claude_ok(parsed, stop_reason="end_turn", parse_error=None):
+    return FakeRaw(CLAUDE_USAGE, SimpleNamespace(parsed_output=parsed, stop_reason=stop_reason), parse_error)
 
 
 def status_error(module, cls, status, message, body=None):
@@ -151,12 +165,19 @@ def test_openai_without_reasoning_omits_effort():
     assert "reasoning" not in calls.calls[0]
 
 
-@pytest.mark.parametrize("reply", [openai_ok(None, refusal=True), openai_ok(SUMMARY, status="incomplete"),
-                                   openai_ok(None)])
-def test_openai_bad_responses_are_single_failures(reply):
+@pytest.mark.parametrize("reply", [
+    openai_ok(None, refusal=True),
+    openai_ok(SUMMARY, status="incomplete"),
+    openai_ok(None),
+    openai_ok(None, parse_error=ValueError("잘린 JSON")),  # 출력이 잘리면 SDK가 해석 중 ValidationError
+])
+def test_openai_bad_responses_are_single_failures_but_still_billed(reply):
     client, _ = openai_client(reply)
+    analyzer = Analyzer(OPENAI, client=client)
     with pytest.raises(AIError):
-        Analyzer(OPENAI, client=client).summarize(ISSUE, {})
+        analyzer.summarize(ISSUE, {})
+    # 쓸 수 없는 응답도 요금은 나가므로 토큰이 집계돼야 함
+    assert analyzer.usage["output"] == 200 and analyzer.cost_usd() > 0
 
 
 @pytest.mark.parametrize("body", [{"code": "insufficient_quota", "type": "insufficient_quota"},
@@ -219,10 +240,14 @@ def test_claude_request_shape_and_usage():
     assert analyzer.usage["cache_read"] == 500 and analyzer.cost_usd() > 0
 
 
-def test_claude_refusal_is_a_single_failure():
-    client, _ = claude_client(claude_ok(None, stop_reason="refusal"))
+@pytest.mark.parametrize("reply", [claude_ok(None, stop_reason="refusal"),
+                                   claude_ok(None, parse_error=ValueError("잘린 JSON"))])
+def test_claude_bad_responses_are_single_failures_but_still_billed(reply):
+    client, _ = claude_client(reply)
+    analyzer = Analyzer(CLAUDE, client=client)
     with pytest.raises(AIError):
-        Analyzer(CLAUDE, client=client).summarize(ISSUE, {})
+        analyzer.summarize(ISSUE, {})
+    assert analyzer.usage["output"] == 200
 
 
 def test_claude_credit_error_stops_ai():

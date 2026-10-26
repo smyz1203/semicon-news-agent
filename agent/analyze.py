@@ -38,7 +38,23 @@ class AIError(Exception):
 
 
 class CallFailed(Exception):
-    """제공사 백엔드가 '이 호출만 실패'를 알릴 때 쓰는 내부 예외. Analyzer가 AIError로 바꿈."""
+    """제공사 백엔드가 '이 호출만 실패'를 알릴 때 쓰는 내부 예외. Analyzer가 AIError로 바꿈.
+
+    응답은 받았지만 쓸 수 없는 경우(잘림, 거절, 형식 오류)에도 요금은 나가므로 usage를 함께 넘긴다.
+    """
+
+    def __init__(self, message: str, usage: dict | None = None):
+        super().__init__(message)
+        self.usage = usage
+
+
+def _json_body(raw) -> dict:
+    """원시 HTTP 응답의 JSON 본문 (사용량을 읽기 위해). 읽지 못하면 빈 dict."""
+    try:
+        body = raw.http_response.json()
+        return body if isinstance(body, dict) else {}
+    except Exception:
+        return {}
 
 
 # ── 제공사별 호출 ───────────────────────────────────────────────
@@ -69,8 +85,9 @@ class OpenAIBackend:
         if self.cfg.get("reasoning"):
             kwargs["reasoning"] = {"effort": effort}
 
+        # 원시 응답으로 받아서, JSON 해석이 실패해도 사용량(=요금)은 집계할 수 있게 함
         try:
-            resp = self.client.responses.parse(**kwargs)
+            raw = self.client.responses.with_raw_response.parse(**kwargs)
         except (openai.AuthenticationError, openai.PermissionDeniedError, openai.NotFoundError) as e:
             log.error("API 오류: %s", _brief(e))
             raise AIStopped(f"API 키 또는 모델 설정 문제 ({type(e).__name__})") from e
@@ -79,28 +96,24 @@ class OpenAIBackend:
                 log.error("API 오류: %s", _brief(e))
                 raise AIStopped("크레딧 부족 또는 사용 한도 초과") from e
             raise CallFailed(_brief(e)) from e
-        except (openai.APIError, ValueError) as e:
-            # 잘못된 요청, 연결·서버 오류, 응답 해석 실패.
-            # 출력이 max_output_tokens에서 잘리면 SDK가 JSON 해석 중 pydantic ValidationError(ValueError)를 냄
+        except openai.APIError as e:  # 잘못된 요청, 연결·서버 오류
             raise CallFailed(_brief(e)) from e
+
+        usage = _openai_usage(_json_body(raw).get("usage") or {})
+        try:
+            resp = raw.parse()
+        except ValueError as e:
+            # 출력이 max_output_tokens에서 잘리면 SDK가 JSON 해석 중 pydantic ValidationError(ValueError)를 냄
+            raise CallFailed(_brief(e), usage) from e
 
         if resp.status == "incomplete":
             reason = getattr(resp.incomplete_details, "reason", None)
-            raise CallFailed(f"응답이 끝까지 생성되지 않음 ({reason})")
+            raise CallFailed(f"응답이 끝까지 생성되지 않음 ({reason})", usage)
         if any(getattr(part, "type", "") == "refusal"
                for item in resp.output for part in (getattr(item, "content", None) or [])):
-            raise CallFailed("AI가 요청을 거절함")
+            raise CallFailed("AI가 요청을 거절함", usage)
         if resp.output_parsed is None:
-            raise CallFailed("응답을 JSON으로 해석하지 못함")
-
-        # input_tokens에는 캐시에서 읽은 토큰·캐시에 새로 쓴 토큰이 포함되어 있으므로 나눠서 집계
-        # (output_tokens에는 추론 토큰이 포함되며, 출력 단가로 과금됨)
-        u = resp.usage
-        details = getattr(u, "input_tokens_details", None)
-        cached = getattr(details, "cached_tokens", 0) or 0
-        written = getattr(details, "cache_write_tokens", 0) or 0
-        usage = {"input": max(0, (u.input_tokens or 0) - cached - written), "output": u.output_tokens or 0,
-                 "cache_write": written, "cache_read": cached}
+            raise CallFailed("응답을 JSON으로 해석하지 못함", usage)
         return resp.output_parsed, usage
 
 
@@ -134,8 +147,9 @@ class ClaudeBackend:
             kwargs["betas"] = [self.FALLBACK_BETA]
             kwargs["fallbacks"] = "default"
 
+        # 원시 응답으로 받아서, JSON 해석이 실패해도 사용량(=요금)은 집계할 수 있게 함
         try:
-            resp = self.client.beta.messages.parse(**kwargs)
+            raw = self.client.beta.messages.with_raw_response.parse(**kwargs)
         except (anthropic.AuthenticationError, anthropic.PermissionDeniedError, anthropic.NotFoundError) as e:
             log.error("API 오류: %s", _brief(e))
             raise AIStopped(f"API 키 또는 모델 설정 문제 ({type(e).__name__})") from e
@@ -149,21 +163,38 @@ class ClaudeBackend:
                 log.error("API 오류: %s", _brief(e))
                 raise AIStopped("사용 한도 초과") from e
             raise CallFailed(_brief(e)) from e
-        except (anthropic.APIError, ValueError) as e:  # 연결·서버 오류, 응답 해석 실패
+        except anthropic.APIError as e:  # 연결·서버 오류
             raise CallFailed(_brief(e)) from e
 
-        if resp.stop_reason == "refusal":
-            raise CallFailed("AI가 요청을 거절함")
-        if resp.stop_reason == "max_tokens":
-            raise CallFailed("출력이 max_tokens에서 잘림")
-        if resp.parsed_output is None:
-            raise CallFailed("응답을 JSON으로 해석하지 못함")
+        usage = _claude_usage(_json_body(raw).get("usage") or {})
+        try:
+            resp = raw.parse()
+        except ValueError as e:  # 출력이 잘려 JSON 해석 실패
+            raise CallFailed(_brief(e), usage) from e
 
-        u = resp.usage
-        usage = {"input": u.input_tokens or 0, "output": u.output_tokens or 0,
-                 "cache_write": getattr(u, "cache_creation_input_tokens", 0) or 0,
-                 "cache_read": getattr(u, "cache_read_input_tokens", 0) or 0}
+        if resp.stop_reason == "refusal":
+            raise CallFailed("AI가 요청을 거절함", usage)
+        if resp.stop_reason == "max_tokens":
+            raise CallFailed("출력이 max_tokens에서 잘림", usage)
+        if resp.parsed_output is None:
+            raise CallFailed("응답을 JSON으로 해석하지 못함", usage)
         return resp.parsed_output, usage
+
+
+def _openai_usage(u: dict) -> dict:
+    # input_tokens에는 캐시에서 읽은 토큰·캐시에 새로 쓴 토큰이 포함되어 있으므로 나눠서 집계
+    # (output_tokens에는 추론 토큰이 포함되며, 출력 단가로 과금됨)
+    details = u.get("input_tokens_details") or {}
+    cached = details.get("cached_tokens") or 0
+    written = details.get("cache_write_tokens") or 0
+    return {"input": max(0, (u.get("input_tokens") or 0) - cached - written), "output": u.get("output_tokens") or 0,
+            "cache_write": written, "cache_read": cached}
+
+
+def _claude_usage(u: dict) -> dict:
+    return {"input": u.get("input_tokens") or 0, "output": u.get("output_tokens") or 0,
+            "cache_write": u.get("cache_creation_input_tokens") or 0,
+            "cache_read": u.get("cache_read_input_tokens") or 0}
 
 
 BACKENDS = {"openai": OpenAIBackend, "claude": ClaudeBackend}
@@ -261,13 +292,16 @@ class Analyzer:
         try:
             parsed, usage = self.backend.parse(**kwargs)
         except CallFailed as e:
-            self.usage["calls"] += 1
+            self._count(e.usage)
             raise self._failed(e) from e
-        self.usage["calls"] += 1
-        for k, v in usage.items():
-            self.usage[k] += v
+        self._count(usage)
         self._fail_streak = 0
         return parsed
+
+    def _count(self, usage: dict | None) -> None:
+        self.usage["calls"] += 1
+        for k, v in (usage or {}).items():
+            self.usage[k] += v
 
     def _failed(self, err: Exception) -> Exception:
         self._fail_streak += 1

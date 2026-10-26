@@ -28,8 +28,8 @@ flowchart TD
     A[GitHub Actions<br/>3시간마다 실행] --> B[F1 RSS 수집<br/>마지막 성공 이후 기사]
     B --> C[F2 1차 거르기<br/>URL 중복 · 제목 유사 · 키워드]
     C -->|기사 없음| H
-    C --> D[F3 AI 이슈 묶기·분류<br/>Claude 1회 호출]
-    D --> E[F4 AI 요약·중요도<br/>이슈마다 Claude 호출]
+    C --> D[F3 AI 이슈 묶기·분류<br/>AI 1회 호출]
+    D --> E[F4 AI 요약·중요도<br/>이슈마다 AI 호출]
     E --> F[F5 저장<br/>issues · state · runs]
     D -. AI 오류 .-> G[요약 대기로 게시<br/>다음 회차 재시도]
     G --> F

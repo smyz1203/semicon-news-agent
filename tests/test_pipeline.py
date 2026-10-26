@@ -55,7 +55,11 @@ class FakeAnalyzer:
         return 0.01
 
 
-KEY_ENV = "OPENAI_API_KEY"  # config/settings.yaml의 provider: openai
+from agent.analyze import KEY_ENV as KEYS  # noqa: E402
+from agent.config import load_config  # noqa: E402
+
+# 설정의 provider에 맞는 키 이름 (provider를 claude로 바꿔도 테스트가 그대로 동작하도록)
+KEY_ENV = KEYS[load_config().settings["provider"]]
 
 
 def setup(monkeypatch, analyzer_kwargs=None, articles=None):
@@ -139,6 +143,15 @@ def test_without_api_key_articles_wait_for_next_run(tmp_path, monkeypatch):
     main.run(data_dir=tmp_path)
     [issue] = store.load_issues(tmp_path)
     assert issue["status"] == "summarized" and len(issue["articles"]) == 3
+
+
+def test_invalid_provider_stops_with_clear_message(tmp_path, monkeypatch):
+    import pytest
+    real = load_config()
+    real.settings["provider"] = "gemini"
+    monkeypatch.setattr(main, "load_config", lambda: real)
+    with pytest.raises(SystemExit, match="provider"):
+        main.run(data_dir=tmp_path)
 
 
 def test_cluster_failure_defers_instead_of_creating_unmerged_issues(tmp_path, monkeypatch):
