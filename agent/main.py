@@ -5,6 +5,7 @@
     python -m agent.main --limit 5            # 소량만 실제로 처리 (테스트용)
     python -m agent.main                      # 전체 실행 (GitHub Actions가 1시간마다 실행)
     python -m agent.main --data-dir local-data  # 결과를 다른 폴더에 저장
+    python -m agent.main --rebuild            # 처음부터 다시 만들기 (기준을 바꾼 뒤 기존 이슈도 새 기준으로)
 """
 
 import argparse
@@ -28,7 +29,7 @@ from agent.score import Scorer
 log = logging.getLogger("agent")
 
 
-def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = None) -> dict | None:
+def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = None, rebuild: bool = False) -> dict | None:
     cfg = load_config()
     s = cfg.settings
     if s.get("provider") not in KEY_ENV:
@@ -40,6 +41,11 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
     now = datetime.now(timezone.utc)
     state = store.load_state(data_dir)
     issues = store.load_issues(data_dir)
+    if rebuild:
+        # 처음부터 다시 만들기: 이슈와 '이미 본 기사' 목록을 비우고 최근 48시간 기사를 지금 기준으로 다시 처리.
+        # 매체 상태는 남기고, 실행 기록은 저장할 때 비움. 예전 데이터는 git 기록에 남아 있음
+        log.warning("처음부터 다시 만들기: 이슈 %d개와 이미 본 기사 %d건을 비움", len(issues), len(state["seen"]))
+        issues, state["seen"] = [], {}
 
     # ── F1 수집 ──────────────────────────────────────────────
     articles, results = collect(cfg, now)
@@ -224,6 +230,8 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
     record["alerts"] = _alerts(record, state, now)
     store.save_issues(data_dir, issues, now)
     store.save_state(data_dir, state)
+    if rebuild:
+        store.write_json(data_dir / "runs.json", [])  # 수집 현황 숫자도 다시 만든 시점부터 셈
     store.append_run(data_dir, record, s["retention"]["runs_keep"])
     log.info("완료: 새 이슈 %d개, 요약 %d건(다시 요약 %d), 재분류 %d건, 요약 대기 %d건, AI 호출 %d회, 추정 비용 $%.4f",
              new_count, summarized, resummarized, classified, record["pending"], record["ai_calls"], record["cost_usd"])
@@ -259,12 +267,14 @@ def main() -> None:
     parser.add_argument("--dry-run", action="store_true", help="AI 없이 수집·1차 거르기만 실행")
     parser.add_argument("--limit", type=int, help="AI로 처리할 묶음·요약 수 제한 (테스트용)")
     parser.add_argument("--data-dir", type=Path, default=DATA_DIR, help="결과를 저장할 폴더")
+    parser.add_argument("--rebuild", action="store_true",
+                        help="처음부터 다시 만들기: 이슈·이미 본 기사·실행 기록을 비우고 최근 48시간 기사를 다시 처리")
     args = parser.parse_args()
     load_dotenv()  # 로컬 실행용 .env 파일에서 API 키 읽기 (OPENAI_API_KEY 또는 ANTHROPIC_API_KEY)
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s", datefmt="%H:%M:%S")
     for noisy in ("httpx", "httpx2", "anthropic"):
         logging.getLogger(noisy).setLevel(logging.WARNING)
-    run(data_dir=args.data_dir, dry_run=args.dry_run, limit=args.limit)
+    run(data_dir=args.data_dir, dry_run=args.dry_run, limit=args.limit, rebuild=args.rebuild)
 
 
 if __name__ == "__main__":

@@ -150,6 +150,7 @@ notepad .env
 
 - 면접관 컴퓨터에서 새로고침 아이콘을 누르면 실행 요청 대신 최신 결과를 확인합니다 (실행 중이면 진행 상황 표시).
 - 실행하지 않아도 1시간마다 자동 실행되므로, 페이지에는 항상 1시간 이내의 뉴스가 보입니다.
+- **처음부터 다시 만들기**: 기준표나 묶기 규칙을 바꾼 뒤 기존 이슈도 새 기준으로 다시 판단하려면 Run workflow에서 **rebuild**를 체크하고 실행합니다. 이슈·이미 본 기사·실행 기록을 비우고 최근 48시간 기사를 다시 처리합니다. 한 번에 AI 묶기 80묶음·요약 30건까지만 하므로, 남은 것은 다음 실행(수동 또는 매시 자동)에서 이어서 합니다.
 
 **내 PC에서 아이콘으로 바로 실행하고 싶다면 (선택):** 그 브라우저에만 GitHub 토큰을 저장할 수 있습니다. 페이지 주소 끝에 `#setup`을 붙여 열면 저장 창이 나옵니다. 토큰은 [Fine-grained token](https://github.com/settings/personal-access-tokens/new)으로 만들고, Repository access → **Only select repositories** → `semicon-news-agent`, Permissions → **Actions: Read and write**만 줍니다. 토큰은 그 브라우저에만 저장되며 어디에도 올라가지 않습니다. 공용 컴퓨터에서는 저장하지 마세요.
 

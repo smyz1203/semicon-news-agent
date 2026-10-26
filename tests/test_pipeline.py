@@ -101,6 +101,20 @@ def test_full_run(tmp_path, monkeypatch):
     assert len(store.load_issues(tmp_path)) == 1
 
 
+def test_rebuild_starts_over_with_same_articles(tmp_path, monkeypatch):
+    setup(monkeypatch)
+    main.run(data_dir=tmp_path)
+    assert main.run(data_dir=tmp_path)["new"] == 0  # 같은 기사는 이미 봤으므로 처리할 것 없음
+    # 처음부터 다시 만들기: 이슈·이미 본 기사·실행 기록을 비우고 같은 기사를 지금 기준으로 다시 처리
+    record = main.run(data_dir=tmp_path, rebuild=True)
+    assert record["new"] == 4 and record["new_issues"] == 1
+    assert len(store.load_issues(tmp_path)) == 1
+    assert store.read_json(tmp_path / "runs.json", []) == [record]
+    # --dry-run과 함께 쓰면 아무것도 지우지 않음
+    main.run(data_dir=tmp_path, dry_run=True, rebuild=True)
+    assert len(store.load_issues(tmp_path)) == 1 and len(store.load_state(tmp_path)["seen"]) == 4
+
+
 # 키워드 검사 대상인데 관련 단어가 없어 1차 거르기에서 빠지는 기사
 OFFTOPIC = replace(article("프로야구 개막전 전석 매진", "https://a.kr/99"), filter=True)
 
