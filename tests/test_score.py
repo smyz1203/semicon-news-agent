@@ -1,0 +1,103 @@
+"""중요도 계산(agent/score.py) 테스트. 설정 파일과 무관하게 작은 기준표로 확인한다."""
+
+import copy
+
+from agent.config import load_config
+from agent.score import Scorer
+
+SETTINGS = {
+    "companies": {"SK하이닉스": ["SK하이닉스", "하이닉스", "SK hynix"], "퀄컴": ["퀄컴", "Qualcomm"]},
+    "importance": {
+        "event_types": [
+            {"name": "신제품·신기술·양산", "score": 5, "desc": "…"},
+            {"name": "수주·공급", "score": 3, "desc": "…"},
+            {"name": "칼럼·인터뷰", "score": 1, "desc": "…"},
+        ],
+        "adjust": {"watch_company": 1, "wide_coverage": 1, "unconfirmed": -1},
+        "wide_coverage_sources": 3,
+        "watch_companies": ["SK하이닉스", "삼성전자"],  # 삼성전자는 이름 사전에 없음 → 이름 그대로 찾음
+    },
+}
+
+
+def issue(event_type="수주·공급", parties=(), sources=("디일렉",), confirmed=True, **extra):
+    return {"status": "summarized", "needs_summary": False, "event_type": event_type, "confirmed": confirmed,
+            "parties": list(parties), "articles": [{"source": s} for s in sources], **extra}
+
+
+def test_base_score_only():
+    assert Scorer(SETTINGS).score(issue()) == (3, "수주·공급 3점")
+
+
+def test_watch_company_by_alias():
+    score, reason = Scorer(SETTINGS).score(issue(parties=["SK hynix", "퀄컴"]))
+    assert score == 4 and reason == "수주·공급 3점, 관심 기업(SK하이닉스) +1 → 4점"
+    # 관심 기업이 아닌 당사자는 가산점 없음
+    assert Scorer(SETTINGS).score(issue(parties=["퀄컴"]))[0] == 3
+    assert Scorer(SETTINGS).score(issue(parties=["삼성전자 파운드리"]))[0] == 4
+
+
+def test_wide_coverage_counts_distinct_sources():
+    assert Scorer(SETTINGS).score(issue(sources=["디일렉", "디일렉", "전자신문"]))[0] == 3
+    score, reason = Scorer(SETTINGS).score(issue(sources=["디일렉", "전자신문", "The Elec"]))
+    assert score == 4 and reason == "수주·공급 3점, 매체 3곳 보도 +1 → 4점"
+
+
+def test_unconfirmed_penalty():
+    score, reason = Scorer(SETTINGS).score(issue(confirmed=False))
+    assert score == 2 and reason == "수주·공급 3점, 미확정 -1 → 2점"
+
+
+def test_all_adjustments_in_order():
+    score, reason = Scorer(SETTINGS).score(
+        issue(parties=["SK하이닉스"], sources=["a", "b", "c"], confirmed=False))
+    assert score == 4
+    assert reason == "수주·공급 3점, 관심 기업(SK하이닉스) +1, 매체 3곳 보도 +1, 미확정 -1 → 4점"
+
+
+def test_score_is_kept_within_1_to_5():
+    assert Scorer(SETTINGS).score(issue("신제품·신기술·양산", parties=["SK하이닉스"])) == (
+        5, "신제품·신기술·양산 5점, 관심 기업(SK하이닉스) +1 → 5점(최고점)")
+    assert Scorer(SETTINGS).score(issue("칼럼·인터뷰", confirmed=False)) == (1, "칼럼·인터뷰 1점, 미확정 -1 → 1점(최저점)")
+
+
+def test_adjustment_set_to_zero_is_hidden():
+    settings = copy.deepcopy(SETTINGS)
+    settings["importance"]["adjust"]["watch_company"] = 0
+    assert Scorer(settings).score(issue(parties=["SK하이닉스"])) == (3, "수주·공급 3점")
+
+
+def test_changing_rubric_rescores_without_ai():
+    item = issue()
+    Scorer(SETTINGS).apply([item])
+    assert item["importance"] == 3
+    settings = copy.deepcopy(SETTINGS)
+    settings["importance"]["event_types"][1]["score"] = 4
+    Scorer(settings).apply([item])
+    assert item["importance"] == 4 and item["importance_reason"] == "수주·공급 4점"
+
+
+def test_unknown_event_type_keeps_old_score_until_reclassified():
+    scorer = Scorer(SETTINGS)
+    legacy = issue(event_type=None, importance=4, importance_reason="AI가 매긴 예전 근거")
+    renamed = issue(event_type="경영진", importance=3, importance_reason="이전 기준표")  # 기준표에서 빠진 유형
+    scorer.apply([legacy, renamed])
+    assert legacy["importance"] == 4 and legacy["importance_reason"] == "AI가 매긴 예전 근거"
+    assert scorer.needs_classification(legacy) and scorer.needs_classification(renamed)
+    # 아직 요약 전이거나 다시 요약할 이슈는 요약하면서 분류하므로 따로 분류하지 않음
+    assert not scorer.needs_classification(issue(event_type=None, status="pending"))
+    assert not scorer.needs_classification(issue(event_type=None, needs_summary=True))
+    assert not scorer.needs_classification(issue())
+
+
+def test_settings_rubric_is_valid():
+    # config/settings.yaml을 고치다 실수하면 여기서 잡힘
+    imp = load_config().settings["importance"]
+    names = [t["name"] for t in imp["event_types"]]
+    assert len(names) == len(set(names)), "사건 유형 이름이 중복됨"
+    for t in imp["event_types"]:
+        assert t["name"].strip() and t["desc"].strip()
+        assert isinstance(t["score"], int) and 1 <= t["score"] <= 5, f"{t['name']}의 기본점은 1~5 정수여야 함"
+    assert set(imp["adjust"]) == {"watch_company", "wide_coverage", "unconfirmed"}
+    assert all(isinstance(v, int) for v in imp["adjust"].values())
+    assert isinstance(imp["wide_coverage_sources"], int) and imp["wide_coverage_sources"] >= 2

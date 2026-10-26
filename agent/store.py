@@ -116,7 +116,10 @@ def new_issue(state: dict, now: datetime) -> dict:
         "category": "",
         "tags": [],
         "companies": [],
-        "importance": 0,
+        "event_type": "",       # AI가 고른 사건 유형 (중요도 기준표의 이름)
+        "confirmed": None,      # 확정된 사건인지 (False면 중요도 감점)
+        "parties": [],          # 사건의 직접 당사자 기업
+        "importance": 0,        # 위 세 값과 보도 매체 수로 agent/score.py가 계산
         "importance_reason": "",
         "status": "pending",   # 요약 전. 요약이 끝나면 summarized
         "needs_summary": True,  # 새 이슈이거나 새 매체 기사가 붙어 (다시) 요약해야 함
