@@ -1,502 +1,35 @@
 {
   "version": 1,
-  "updated_at": "2026-10-26T17:16:18Z",
+  "updated_at": "2026-10-26T17:29:50Z",
   "issues": [
     {
-      "id": "c20261026-0003",
-      "headline": "이재용 회장, 반도체 부활로 M&A 가속화",
+      "id": "c20261026-0044",
+      "headline": "한국, 전기차 반도체 불량 기준 새롭게 확립",
       "summary": [
-        "이재용 삼성전자 회장이 취임 4주년을 맞아 반도체 호황을 통한 M&A 확대 방침을 밝혔다.",
-        "삼성전자는 바이오, 전장, HVAC 등 다양한 분야로 사업을 확장하고 있다.",
-        "이와 같은 투자 전략은 삼성의 새로운 성장 동력 확보에 중요한 역할을 할 것으로 기대된다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "인수합병",
-        "삼성전자",
-        "반도체",
-        "미래사업",
-        "바이오"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "importance": 3,
-      "importance_reason": "인수합병 2점, 관심 기업(삼성전자) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:11:29Z",
-      "articles": [
-        {
-          "key": "a67255de827c54ca",
-          "title": "삼성, 2026년 하반기 삼성직무적성검사(GSAT) 실시",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=342677",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-10-25T04:00:00Z"
-        },
-        {
-          "key": "c68339d69ef6fbfa",
-          "title": "삼성, 하반기 GSAT 실시…19개 관계사 참여",
-          "url": "https://www.etnews.com/20261025000054",
-          "source": "전자신문",
-          "lang": "ko",
-          "published_at": "2026-10-25T04:00:00Z"
-        },
-        {
-          "key": "c4f8f5a616fec103",
-          "title": "이재용 취임 4년, 반도체 부활 넘어 M&A 승부수…미래사업 확장 가속",
-          "url": "https://www.etnews.com/20261026000221",
-          "source": "전자신문",
-          "lang": "ko",
-          "published_at": "2026-10-26T07:00:00Z"
-        }
-      ],
-      "event_type": "인수합병",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0005",
-      "headline": "삼성전자, 정기 인사로 부문장 겸직 해소 및 미래 인재 확보",
-      "summary": [
-        "삼성전자가 전영현과 노태문의 겸직 해소를 통해 경영 책임을 강화한다.",
-        "올해의 정기 인사는 2026년 10월 25일 진행되며 사업부별 책임 경영을 강조한다.",
-        "AI 및 반도체 분야에서의 인재 확보에 주력하여 경쟁력을 높일 방침이다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "삼성전자",
-        "정기인사",
-        "인재확보",
-        "부문장",
-        "AI",
-        "반도체"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "importance": 4,
-      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:11:29Z",
-      "articles": [
-        {
-          "key": "c12181a7900e5eae",
-          "title": "[2027정기인사]삼성전자, 수시인사 기조 속 핵심 보직 정비…전영현·노태문 겸직 해소 주목",
-          "url": "https://www.etnews.com/20261023000167",
-          "source": "전자신문",
-          "lang": "ko",
-          "published_at": "2026-10-25T03:00:00Z"
-        },
-        {
-          "key": "854ab694f706953b",
-          "title": "‘4대그룹 유일’ 공채 삼성…AI·반도체 등 미래인재 확보 나선다",
-          "url": "https://www.dt.co.kr/article/12091082",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-25T05:35:16Z"
-        }
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance_raw": 4
-    },
-    {
-      "id": "c20261026-0006",
-      "headline": "메모리 가격 급등으로 3분기 PC 출하량 급감",
-      "summary": [
-        "3분기 PC 출하량이 전년 대비 21% 감소했다.",
-        "출하량은 5700만 대로, 전 분기 대비 13.8% 줄어든 수치다.",
-        "부품 가격 상승으로 PC 가격이 오르며 수요가 위축된 것으로 분석된다."
-      ],
-      "category": "기타",
-      "tags": [
-        "PC 출하량",
-        "메모리 가격",
-        "수요 감소",
-        "카운터포인트",
-        "부품 가격"
-      ],
-      "companies": [],
-      "importance": 3,
-      "importance_reason": "가격 동향 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:11:29Z",
-      "articles": [
-        {
-          "key": "369fe948d1560e35",
-          "title": "메모리 대란에 3분기 PC 출하량 전년比 21% 급감",
-          "url": "https://www.etnews.com/20261025000068",
-          "source": "전자신문",
-          "lang": "ko",
-          "published_at": "2026-10-25T03:22:02Z"
-        },
-        {
-          "key": "675924e8ca49dd55",
-          "title": "메모리값 급등에 PC 시장 위축…3분기 출하량 21% 감소",
-          "url": "https://www.dt.co.kr/article/12091083",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-25T05:35:30Z"
-        }
-      ],
-      "event_type": "가격 동향",
-      "confirmed": true,
-      "parties": [
-        "PC 제조사"
-      ],
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0011",
-      "headline": "SK하이닉스, 솔리다임 IPO 절차 중단",
-      "summary": [
-        "SK하이닉스가 자회사 솔리다임의 IPO 절차를 중단하기로 결정했다.",
-        "이 결정은 최근 시장 상황과 기업 전략을 고려한 결과로 보인다.",
-        "IPO 중단은 반도체 산업에서 자금 조달 방안에 영향을 미칠 수 있다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "SK하이닉스",
-        "솔리다임",
-        "IPO",
-        "투자",
-        "반도체"
-      ],
-      "companies": [
-        "SK하이닉스",
-        "솔리다임"
-      ],
-      "importance": 3,
-      "importance_reason": "인수합병 2점, 관심 기업(SK하이닉스) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:11:29Z",
-      "articles": [
-        {
-          "key": "b46cba00d305b95b",
-          "title": "[안테나] 글래스 기판 생산 현장에서 중요도가 높아지는 기술",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=342675",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-10-25T00:38:33Z"
-        },
-        {
-          "key": "01072f37d13e4731",
-          "title": "SK hynix Halts Solidigm IPO Plans",
-          "url": "https://www.thelec.net/news/articleView.html?idxno=14861",
-          "source": "디일렉",
-          "lang": "en",
-          "published_at": "2026-10-25T22:30:13Z"
-        }
-      ],
-      "event_type": "인수합병",
-      "confirmed": true,
-      "parties": [
-        "SK하이닉스",
-        "솔리다임"
-      ],
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0020",
-      "headline": "삼성디스플레이, 폴더블 OLED 시장서 66% 점유율 유지",
-      "summary": [
-        "삼성디스플레이가 폴더블 OLED 시장에서 66%의 점유율로 1위를 유지할 예정이다.",
-        "폴더블 스마트폰의 보급 증가와 애플의 진입으로 패널 수요가 강화되고 있다.",
-        "이러한 경쟁력은 삼성디스플레이가 글로벌 시장에서 우위를 점할 기반이 된다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "폴더블 OLED",
-        "삼성디스플레이",
-        "애플",
-        "패널 수요",
-        "시장 점유율"
-      ],
-      "companies": [
-        "삼성디스플레이",
-        "애플"
-      ],
-      "importance": 3,
-      "importance_reason": "시장 전망·통계 2점, 관심 기업(삼성디스플레이) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:11:29Z",
-      "articles": [
-        {
-          "key": "4ba0fceda336ea4c",
-          "title": "삼성D, 폴더블 OLED ‘초격차’ 잇는다…점유율 66%로 선두 수성",
-          "url": "https://www.dt.co.kr/article/12090995",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-24T23:49:15Z"
-        },
-        {
-          "key": "c752d1ff615d4a85",
-          "title": "Counterpoint: laptop mini-LED shipments to drop 75% within two years, as OLED takes over the premium laptop market",
-          "url": "https://www.oled-info.com/counterpoint-laptop-mini-led-shipments-drop-75-within-two-years-oled-takes-over",
-          "source": "OLED-info",
-          "lang": "en",
-          "published_at": "2026-10-26T02:00:05Z"
-        }
-      ],
-      "event_type": "시장 전망·통계",
-      "confirmed": true,
-      "parties": [
-        "삼성디스플레이"
-      ],
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0026",
-      "headline": "삼성·SK하이닉스, 3분기 영업익 185조 예상",
-      "summary": [
-        "삼성전자와 SK하이닉스가 2026년 3분기 영업익 185조원을 기록할 것으로 보인다.",
-        "주요 요인은 AI 반도체용 HBM4 공급 확대와 메모리 가격 상승으로 파악된다.",
-        "이 실적 증가로 인해 반도체 산업의 안정성 및 성장 가능성이 더욱 확고해질 전망이다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "HBM4",
-        "영업익",
-        "AI반도체",
-        "메모리 가격",
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "companies": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "importance": 4,
-      "importance_reason": "실적 3점, 관심 기업(삼성전자, SK하이닉스) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:11:29Z",
-      "articles": [
-        {
-          "key": "aceab78ecbf7ed7c",
-          "title": "삼성 엑시노스 2700, 스냅드래곤 최신 칩 앞섰다…CPU 성능 20% 우위",
-          "url": "https://www.dt.co.kr/article/12091003",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-25T00:05:41Z"
-        },
-        {
-          "key": "3bc643f0562ad899",
-          "title": "삼성·SK하닉, 3분기 영업익 185조 전망…HBM4가 실적 키웠다",
-          "url": "https://www.dt.co.kr/article/12091004",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-25T00:23:00Z"
-        },
-        {
-          "key": "7fae14477d622f0b",
-          "title": "Samsung may have overtaken SK hynix in HBM revenue, analysis suggests",
-          "url": "https://www.koreaherald.com/article/10915040",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-10-26T05:58:40Z"
-        }
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "importance_raw": 4
-    },
-    {
-      "id": "c20261026-0043",
-      "headline": "삼성 Exynos 2700, 퀄컴 칩보다 성능 20% 우세",
-      "summary": [
-        "삼성전자가 개발한 Exynos 2700이 퀄컴의 Snapdragon 8 Elite Extreme보다 20% 높은 성능을 기록했다.",
-        "이 성능 평가는 Galaxy S27 시리즈 출시를 앞두고 진행되었으며, Geekbench 6.5 기준이다.",
-        "이 결과는 삼성의 모바일 프로세서 경쟁력을 강화하고 시장 점유율 확대에 기여할 것으로 보인다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "Exynos 2700",
-        "Snapdragon 8",
-        "모바일 프로세서",
-        "Geekbench",
-        "Galaxy S27"
-      ],
-      "companies": [
-        "삼성전자",
-        "퀄컴"
-      ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점, 관심 기업(삼성전자) +1 → 5점(최고점)",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-26T12:11:29Z",
-      "updated_at": "2026-10-26T12:11:29Z",
-      "articles": [
-        {
-          "key": "612efd41ddd8ec96",
-          "title": "Samsung's Exynos 2700 outscores Qualcomm's top chip by nearly 20%",
-          "url": "https://www.koreaherald.com/article/10913791",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-10-25T01:40:13Z"
-        }
-      ],
-      "event_type": "신제품·신기술·양산",
-      "confirmed": true,
-      "parties": [
-        "삼성전자",
-        "퀄컴"
-      ],
-      "importance_raw": 6
-    },
-    {
-      "id": "c20261026-0001",
-      "headline": "한국, 2분기 경상수지 흑자 2위 기록",
-      "summary": [
-        "한국의 2분기 경상수지 흑자는 1,166억 3천만 달러로 집계됐다.",
-        "이는 독일과 일본의 흑자를 합친 것보다도 높은 수치로, 중국에 이어 두 번째로 많다.",
-        "강력한 반도체 수출이 긍정적인 영향을 미쳤으며, 이는 한국 경제의 회복 신호로 해석된다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "경상수지",
-        "반도체 수출",
-        "경제 회복",
-        "IMF",
-        "한국은행"
-      ],
-      "companies": [],
-      "importance": 2,
-      "importance_reason": "시장 전망·통계 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
-      "articles": [
-        {
-          "key": "5e92902a02b29116",
-          "title": "S. Korea's Q2 current account surplus ranks 2nd on robust chip exports",
-          "url": "https://www.koreaherald.com/article/10913796",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-10-25T01:53:35Z"
-        }
-      ],
-      "event_type": "시장 전망·통계",
-      "confirmed": true,
-      "parties": [
-        "한국"
-      ],
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261026-0002",
-      "headline": "한국의 OLED 기술, 전투기 디스플레이로 확장",
-      "summary": [
-        "한국의 LG디스플레이와 한화시스템이 전투기용 AMOLED 디스플레이 개발 프로젝트를 시작했다.",
-        "보잉은 F-15 전투기의 LCD를 OLED로 교체해달라고 요청했으며, 이를 통해 3,000~5,000대의 항공기가 영향을 받을 것으로 보인다.",
-        "중국산 부품 사용 제한으로 한국의 OLED 패널이 군사 시장에서 경쟁력을 갖출 수 있는 기회를 얻었다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "OLED",
-        "전투기",
-        "AMOLED",
-        "한화시스템",
-        "LG디스플레이",
-        "보잉"
-      ],
-      "companies": [
-        "LG디스플레이",
-        "한화시스템",
-        "보잉"
-      ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점, 관심 기업(LG디스플레이) +1 → 5점(최고점)",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
-      "articles": [
-        {
-          "key": "b2fb07c1f6d86af6",
-          "title": "More details emerge on LG Display's and Hanwha Systems' fighter jet OLED project, as Boeing asks to adopt OLEDs in its F-15 jets",
-          "url": "https://www.oled-info.com/more-details-emerge-lg-displays-and-hanwha-systems-fighter-jet-oled-project",
-          "source": "OLED-info",
-          "lang": "en",
-          "published_at": "2026-10-25T03:00:05Z"
-        }
-      ],
-      "event_type": "신제품·신기술·양산",
-      "confirmed": true,
-      "parties": [
-        "LG디스플레이",
-        "한화시스템",
-        "보잉"
-      ],
-      "importance_raw": 6
-    },
-    {
-      "id": "c20261026-0004",
-      "headline": "전기차 반도체 불량 판별 기준, 15년 만에 정립",
-      "summary": [
-        "국내 연구진이 전기차 핵심 소자 탄화규소 전력반도체의 불량 판별 오류를 수정했다.",
-        "기존 기준은 15년간 국제표준으로 사용되어 왔으며, 원자 단위에서 검증됐다.",
-        "새로운 기준은 전기차 반도체 품질 향상 및 안전성에 기여할 전망이다."
+        "국내 연구진이 탄화규소(SiC) 전력반도체의 불량 판별 기준을 개선했다.",
+        "기존 기준은 15년간 사용되었으며, 원자 단위에서 정밀 검증을 통해 새롭게 정의되었다.",
+        "이는 전기차 산업의 품질 향상과 안전성을 높일 것으로 기대된다."
       ],
       "category": "장비/소재/부품",
       "tags": [
         "탄화규소",
+        "전력반도체",
         "전기차",
-        "반도체",
-        "불량 기준",
-        "품질 관리"
+        "불량 판별",
+        "국제 표준"
       ],
       "companies": [],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [],
       "importance": 5,
       "importance_reason": "신제품·신기술·양산 5점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
           "key": "b4cfb1b7da9d4002",
@@ -507,162 +40,250 @@
           "published_at": "2026-10-25T04:30:29Z"
         }
       ],
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261026-0045",
+      "headline": "신경망 기반 3nm 나노시트 회로 시뮬레이션 속도 향상",
+      "summary": [
+        "뮌헨 공대 연구팀이 신경망 기반 트랜지스터 모델을 발표하였다.",
+        "이 모델은 3nm 나노시트의 드레인 전류 및 다양한 전하를 정확하게 예측하여 많은 SPICE 시뮬레이션을 통해 성능을 검증하였다.",
+        "기존 모델에 비해 시뮬레이션 속도와 정확성을 크게 개선하여 반도체 설계 산업에 긍정적인 영향을 줄 것으로 기대된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "신경망",
+        "SPICE 시뮬레이션",
+        "3nm 나노시트",
+        "EDA 도구",
+        "반도체 설계"
+      ],
+      "companies": [],
       "event_type": "신제품·신기술·양산",
       "confirmed": true,
       "parties": [
-        "국내 연구진"
+        "뮌헨 공대"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
+      "articles": [
+        {
+          "key": "da8b9484899d602f",
+          "title": "Neural Networks Speed 3nm Nanosheet SPICE Simulation (TU Munich)",
+          "url": "https://semiengineering.com/neural-networks-speed-3nm-nanosheet-spice-simulation-tu-munich/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-10-25T20:14:26Z"
+        }
       ],
       "importance_raw": 5
     },
     {
-      "id": "c20261026-0007",
-      "headline": "에버디스플레이, 2026년 3분기 매출 20% 감소",
+      "id": "c20261026-0046",
+      "headline": "3D 메모리 구조의 보안성 향상 기술 개발",
       "summary": [
-        "에버디스플레이는 2026년 3분기 매출이 19.8% 감소한 1억 5900만 달러로 발표했다.",
-        "올해 첫 3분기 동안 총 매출은 5억 4500만 달러로, 전년 대비 8.6% 줄어들었다.",
-        "소비자 전자제품 수요 감소와 AMOLED 산업 압박이 주요 원인으로, 향후 실적에 영향을 미칠 것으로 보인다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "AMOLED",
-        "에버디스플레이",
-        "재무실적",
-        "수요감소",
-        "R&D 투자"
-      ],
-      "companies": [
-        "에버디스플레이"
-      ],
-      "importance": 3,
-      "importance_reason": "실적 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
-      "articles": [
-        {
-          "key": "8b13c5c997482746",
-          "title": "Everdisplay's revenues drop 20% in Q3 2026, as demand for its AMOLED products remain weak",
-          "url": "https://www.oled-info.com/everdisplays-revenues-drop-20-q3-2026-company-continues-post-losses",
-          "source": "OLED-info",
-          "lang": "en",
-          "published_at": "2026-10-25T08:00:06Z"
-        }
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "에버디스플레이"
-      ],
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0008",
-      "headline": "부품가 인상으로 글로벌 PC 출하량 21% 감소",
-      "summary": [
-        "메모리 등 부품 가격 상승으로 PC 교체 수요가 위축되고 있다.",
-        "2026년 3분기 글로벌 PC 출하량은 전년 대비 21% 급감했다.",
-        "이는 주요 제조사 대부분이 어려움을 겪으며 시장에 부정적인 영향을 미치고 있음을 의미한다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "부품가 인상",
-        "PC 출하량",
-        "교체 수요",
-        "Apple",
-        "ASUS"
-      ],
-      "companies": [
-        "애플",
-        "에이수스"
-      ],
-      "importance": 3,
-      "importance_reason": "가격 동향 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
-      "articles": [
-        {
-          "key": "a088bb05530b7bcb",
-          "title": "부품값 상승에 PC 교체수요 위축…글로벌 출하량 21% 급감",
-          "url": "https://www.dt.co.kr/article/12091116",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-25T08:54:16Z"
-        }
-      ],
-      "event_type": "가격 동향",
-      "confirmed": true,
-      "parties": [],
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0009",
-      "headline": "파나소닉, Astrova OLED 항공스크린 50만 대 판매",
-      "summary": [
-        "파나소닉 아비오닉스가 Astrova 4K OLED 항공스크린을 50만 대 판매했다.",
-        "이 제품은 2022년 출시 이후 45개 항공사에 선정됐으며, 생산능력을 6배 확대했다.",
-        "이는 항공업계의 OLED 기술 도입 가속화를 의미하며, 고객 수요에 대응하고 있다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "Astrova",
-        "4K OLED",
-        "항공스크린",
-        "생산확대",
-        "파나소닉"
-      ],
-      "companies": [
-        "파나소닉"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
-      "articles": [
-        {
-          "key": "76738e5d4b67ae31",
-          "title": "Panasonic Avionics sold over 500,000 Astrova 4K OLED in-flight entertainment screens, expands its production capacity sixfold",
-          "url": "https://www.oled-info.com/panasonic-avionics-has-sold-500000-astrova-4k-oled-flight-entertainment-screens",
-          "source": "OLED-info",
-          "lang": "en",
-          "published_at": "2026-10-25T15:00:07Z"
-        }
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "파나소닉 아비오닉스"
-      ],
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0010",
-      "headline": "인피니온, NVIDIA에 800V 전력 반도체 공급 결정",
-      "summary": [
-        "인피니온은 NVIDIA와 800V 전력 변환 기술 협력을 강화하고 있다.",
-        "이들은 인공지능 데이터 센터를 위해 GaN 전력 반도체 및 제어 솔루션을 공급한다.",
-        "이 공급은 고전압 DC 전력 변환의 중요성을 보여주며, AI 산업 발전에 기여할 것으로 기대된다."
+        "미국의 두 대학 연구팀이 3D 컴퓨트-인-메모리 아키텍처의 보안 강화를 위한 SEAL 기술을 발표했다.",
+        "이 기술은 전력, 성능, 면적, 결함 취약성을 최적화하여 최대 7.8배 결함 취약성을 줄였다.",
+        "이 혁신은 신경망 모델의 정확성을 유지하면서 보안성을 대폭 향상시킬 수 있는 가능성을 보여준다."
       ],
       "category": "AI반도체",
       "tags": [
-        "GaN",
-        "NVIDIA",
-        "800V 전력",
+        "3D CiM",
+        "SEAL",
+        "신경망",
+        "보안성",
+        "Fault Tolerance"
+      ],
+      "companies": [],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "애리조나주립대",
+        "메릴랜드대"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
+      "articles": [
+        {
+          "key": "03784645a447a76f",
+          "title": "Security-Aware Layer Mapping Reduces Fault Vulnerability In 3D Compute-In-Memory (ASU, U. of Maryland)",
+          "url": "https://semiengineering.com/security-aware-layer-mapping-reduces-fault-vulnerability-in-3d-compute-in-memory-asu-u-of-maryland/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-10-25T20:30:42Z"
+        }
+      ],
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261026-0047",
+      "headline": "실리콘 포토닉 변조기, 200 Gb/s PAM4 속도 도달",
+      "summary": [
+        "일본의 연구팀이 새로운 실리콘 포토닉 변조기를 개발하여 200 Gb/s의 속도를 기록했다.",
+        "이 변조기는 내장된 전기 광학 이퀄라이저를 통해 높은 효율과 작은 크기를 실현하며, 2026년 10월 발표된다.",
+        "AI 데이터 센터의 광통신 수요를 충족할 기술로 기대되며, 에너지 효율적인 전송을 가능하게 한다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "실리콘 포토닉",
+        "200 Gb/s",
+        "AI 데이터 센터",
+        "전기 광학 이퀄라이저",
+        "모듈레이터"
+      ],
+      "companies": [],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
+      "articles": [
+        {
+          "key": "8a234be1db7f79cf",
+          "title": "Silicon Photonic Modulator Reaches 200 Gb/s PAM4 With Reduced DSP (Science Tokyo, Yokohama, AIST, PETRA)",
+          "url": "https://semiengineering.com/silicon-photonic-modulator-reaches-200-gb-s-pam4-with-reduced-dsp-science-tokyo-yokohama-aist-petra/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-10-25T20:49:45Z"
+        }
+      ],
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261026-0048",
+      "headline": "EUV 및 전자빔 노출에서 다른 특성 보이는 새 저항체",
+      "summary": [
+        "KU Leuven 등 연구팀이 새 유형의 건식 저항체를 개발했다.",
+        "이 저항체는 EUV 및 전자빔 노출 시 다른 톤 변화를 보인다.",
+        "이 기술은 차세대 반도체 제조 공정에서 패턴화를 지원할 것으로 기대된다."
+      ],
+      "category": "기타",
+      "tags": [
+        "EUV",
+        "전자빔",
+        "반도체 제조",
+        "건식 저항체",
+        "할로겐화 비정질 ZIF"
+      ],
+      "companies": [
+        "KU Leuven",
+        "국립군산대학교",
+        "브뤼셀 자유대학교",
+        "imec"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "KU Leuven",
+        "국립군산대학교",
+        "브뤼셀 자유대학교",
+        "imec"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
+      "articles": [
+        {
+          "key": "06d9fcf40413ddd3",
+          "title": "Dry-Deposited Resist Shows Different Tone Behavior Under EUV And E-Beam Exposure (KU Leuven, Kunsan, VUB, Imec)",
+          "url": "https://semiengineering.com/dry-deposited-resist-shows-different-tone-behavior-under-euv-and-e-beam-exposure-ku-leuven-kunsan-vub-imec/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-10-25T21:08:26Z"
+        }
+      ],
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261026-0049",
+      "headline": "Pt-W 합금, 고해상도 EUV 마스크 흡수제로 기대",
+      "summary": [
+        "중국 과학원 등의 연구진이 Pt-W 합금을 차세대 EUV 마스크 흡수제로 평가하는 논문을 발표했다.",
+        "이 연구에서는 Pt-W 합금의 필름 특성과 이미징 성능을 분석하여 저투명도 EUV 마스크 흡수제로서의 가능성을 제시했다.",
+        "EUV 마스크 기술 발전에 따라 차세대 반도체 제조 공정에서의 활용이 기대된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "Pt-W 합금",
+        "EUV 마스크",
+        "반도체 제조",
+        "저투명도 흡수제",
+        "차세대 기술"
+      ],
+      "companies": [],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "중국 과학원",
+        "길림대",
+        "중국과학기술대학 국가광학시스템 고급제조 실험실"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
+      "articles": [
+        {
+          "key": "96b235f75651998f",
+          "title": "Pt-W Alloy Shows Potential For Thinner High-NA EUV Mask Absorbers (Chinese Academy of Sciences et al.)",
+          "url": "https://semiengineering.com/pt-w-alloy-shows-potential-for-thinner-high-na-euv-mask-absorbers-chinese-academy-of-sciences-et-al/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-10-25T21:17:41Z"
+        }
+      ],
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261026-0050",
+      "headline": "인피니온, 엔비디아에 GaN 전력 반도체 공급",
+      "summary": [
+        "인피니온은 엔비디아와의 협력을 확대하여 800V 전력 변환 기술을 지원한다.",
+        "이 회사는 800V를 중간 전압으로 변환하는 장치에 GaN 전력 반도체와 제어 솔루션을 공급할 예정이다.",
+        "이번 협력은 AI 데이터 센터의 전력 효율성을 향상시킬 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "GaN 반도체",
+        "800V 전력 변환",
         "AI 데이터 센터"
       ],
       "companies": [
         "인피니온",
-        "NVIDIA"
+        "엔비디아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "인피니온",
+        "엔비디아"
       ],
       "importance": 4,
       "importance_reason": "수주·공급 3점, 관심 기업(엔비디아) +1 → 4점",
@@ -670,8 +291,8 @@
       "needs_summary": false,
       "attempts": 0,
       "region": "en",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
           "key": "8f341737f4dd347f",
@@ -682,75 +303,73 @@
           "published_at": "2026-10-25T22:29:55Z"
         }
       ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "인피니온",
-        "NVIDIA"
-      ],
       "importance_raw": 4
     },
     {
-      "id": "c20261026-0012",
-      "headline": "ASM, 한국 반도체 학생들에게 장학금 수여",
+      "id": "c20261026-0051",
+      "headline": "SK hynix, Solidigm 상장 계획 중단 발표",
       "summary": [
-        "ASM은 10월 21일 서울 강남에서 열린 반도체 장학금 시상식에서 장학금을 수여했다.",
-        "이 행사에서는 한국 반도체 분야의 우수 학생이 선정되었으며, ASM이 후원했다.",
-        "이런 지원은 반도체 인재 양성에 기여하고 산업 발전을 촉진할 것으로 기대된다."
+        "SK hynix는 자회사 Solidigm의 상장 계획을 공식적으로 중단한다고 발표했다.",
+        "이 결정은 상장 가능성에 대한 보도가 나온 지 79일 만에 이뤄졌으며, 이틀 전 금융당국이 이중 상장 조건으로 분류했기 때문이다.",
+        "이는 SK hynix의 경영 전략에 큰 영향을 미치며, 향후 자회사 관리 방식에도 변화를 가져올 것으로 보인다."
       ],
-      "category": "정책/무역",
+      "category": "실적/투자/시장",
       "tags": [
-        "장학금",
-        "반도체 인재",
-        "ASM",
-        "한국",
-        "교육 지원"
+        "상장",
+        "SK hynix",
+        "Solidigm",
+        "금융 규제"
       ],
       "companies": [
-        "ASM"
+        "SK hynix"
       ],
-      "importance": 1,
-      "importance_reason": "홍보·수상 1점",
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "SK hynix"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "en",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
-          "key": "c2c798598c679dc0",
-          "title": "ASM Awards Scholarships to South Korean Semiconductor Students",
-          "url": "https://www.thelec.net/news/articleView.html?idxno=14886",
+          "key": "01072f37d13e4731",
+          "title": "SK hynix Halts Solidigm IPO Plans",
+          "url": "https://www.thelec.net/news/articleView.html?idxno=14861",
           "source": "디일렉",
           "lang": "en",
-          "published_at": "2026-10-25T22:30:18Z"
+          "published_at": "2026-10-25T22:30:13Z"
         }
       ],
-      "event_type": "홍보·수상",
-      "confirmed": true,
-      "parties": [
-        "ASM"
-      ],
-      "importance_raw": 1
+      "importance_raw": 4
     },
     {
-      "id": "c20261026-0013",
-      "headline": "기가비스, 469억 원 검사 장비 수주",
+      "id": "c20261026-0052",
+      "headline": "기가비스, 469억원 검사 장비 공급 계약 체결",
       "summary": [
-        "기가비스가 46.9억 원 규모의 기판 검사 장비 공급 계약을 체결했다.",
-        "이 계약은 2025년 예상 매출 524억 원의 89.51%에 해당하는 대규모 계약이다.",
-        "이러한 수주는 반도체 기판 산업에서 기가비스의 시장 점유율 확대와 안정적인 성장에 기여할 것으로 보인다."
+        "기가비스가 한국 반도체 기판 제조사에 469억원 규모의 검사 장비를 공급한다.",
+        "이번 계약은 2025년 매출의 89.51%에 해당하는 금액으로, 상당한 비중을 차지한다.",
+        "이 계약은 기가비스의 매출 신장에 크게 기여할 것으로 예상된다."
       ],
       "category": "장비/소재/부품",
       "tags": [
         "검사 장비",
-        "반도체 기판",
-        "수주",
-        "기가비스"
+        "기가비스",
+        "반도체 기판"
       ],
       "companies": [
         "기가비스"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "기가비스",
+        "한국 반도체 기판 제조사"
       ],
       "importance": 3,
       "importance_reason": "수주·공급 3점",
@@ -758,8 +377,8 @@
       "needs_summary": false,
       "attempts": 0,
       "region": "en",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
           "key": "d5a9ff7594afbafc",
@@ -770,84 +389,83 @@
           "published_at": "2026-10-25T22:30:20Z"
         }
       ],
-      "event_type": "수주·공급",
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261026-0053",
+      "headline": "인텔, 아리조나 팹 62 설비 설치 착수",
+      "summary": [
+        "인텔이 아리조나의 팹 62에서 설비 설치를 시작했다.",
+        "2026년부터 시작하여 2028년 말까지 운영을 목표로 하고 있다.",
+        "이 공장은 인텔의 여섯 번째 대량 생산 시설로, 제조 능력 확대에 기여할 전망이다."
+      ],
+      "category": "기타",
+      "tags": [
+        "인텔",
+        "아리조나",
+        "팹62",
+        "반도체 제조",
+        "설비 설치"
+      ],
+      "companies": [
+        "인텔"
+      ],
+      "event_type": "설비 투자",
       "confirmed": true,
       "parties": [
-        "기가비스"
+        "인텔"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
+      "articles": [
+        {
+          "key": "baf861f05c6a4451",
+          "title": "Intel Begins Equipment Installation at Arizona Fab 62, Targets Late 2028 Operations",
+          "url": "https://www.thelec.net/news/articleView.html?idxno=14870",
+          "source": "디일렉",
+          "lang": "en",
+          "published_at": "2026-10-25T22:30:58Z"
+        }
       ],
       "importance_raw": 3
     },
     {
-      "id": "c20261026-0014",
-      "headline": "SK 하이퍼, 연말 외부 투자 유치 목표",
+      "id": "c20261026-0054",
+      "headline": "다우인스YS, 자동차 롤러블 OLED 보호 유리 개발",
       "summary": [
-        "SK 하이퍼는 AI 데이터 센터 자회사가 외부 투자를 추구하고 있다.",
-        "최초의 투자 유치 라운드는 2026년 말 또는 2027년 초로 예상된다.",
-        "이 투자 유치는 AI 반도체 산업의 확장을 지원할 것으로 기대된다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "SK 하이퍼",
-        "AI 데이터 센터",
-        "외부 투자",
-        "자금 조달",
-        "Jung Suk-geun"
-      ],
-      "companies": [
-        "SK 텔레콤",
-        "SK 하이퍼"
-      ],
-      "importance": 1,
-      "importance_reason": "재무·주주 2점, 미확정 -1 → 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
-      "articles": [
-        {
-          "key": "b121e2f92e16040d",
-          "title": "SK Hyper CEO Targets First External Funding Round by Year-End",
-          "url": "https://www.thelec.net/news/articleView.html?idxno=14891",
-          "source": "디일렉",
-          "lang": "en",
-          "published_at": "2026-10-25T22:30:32Z"
-        }
-      ],
-      "event_type": "재무·주주",
-      "confirmed": false,
-      "parties": [
-        "SK 하이퍼"
-      ],
-      "importance_raw": 1
-    },
-    {
-      "id": "c20261026-0015",
-      "headline": "다우인시스, 자동차용 롤러블 OLED 보호유리 개발",
-      "summary": [
-        "다우인시스가 자동차용 롤러블 OLED 디스플레이를 위한 보호유리를 개발 중이다.",
-        "주요 한국 자동차 전자업체와 협력하며, 2027년 하반기 상용화를 목표로 하고 있다.",
-        "이 기술은 자동차 디스플레이 산업의 혁신을 가져올 것으로 기대된다."
+        "다우인스YS가 주요 한국 자동차 전자 기업과 협력해 롤러블 OLED 디스플레이용 보호 유리를 개발하고 있다.",
+        "상업화는 2027년 하반기부터 시작될 것으로 보인다.",
+        "이 기술은 자동차 디스플레이 시장의 혁신을 가져올 것으로 기대된다."
       ],
       "category": "디스플레이",
       "tags": [
         "롤러블 OLED",
-        "자동차 디스플레이",
-        "다우인시스",
-        "보호유리"
+        "보호 유리",
+        "자동차 디스플레이"
       ],
       "companies": [
-        "다우인시스"
+        "다우인스YS",
+        "한국 자동차 전자 기업"
       ],
-      "importance": 4,
-      "importance_reason": "신제품·신기술·양산 5점, 미확정 -1 → 4점",
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "다우인스YS"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "en",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
           "key": "a106135e316c949d",
@@ -858,40 +476,42 @@
           "published_at": "2026-10-25T22:31:08Z"
         }
       ],
-      "event_type": "신제품·신기술·양산",
-      "confirmed": false,
-      "parties": [
-        "다우인시스"
-      ],
-      "importance_raw": 4
+      "importance_raw": 5
     },
     {
-      "id": "c20261026-0016",
-      "headline": "글로벌 테크, 현대차에 첫 자동차 칩 공급",
+      "id": "c20261026-0055",
+      "headline": "글로벌테크, 현대차·기아 차량용 반도체 최초 공급",
       "summary": [
-        "글로벌 테크가 현대 모비스와 협력하여 자동차 반도체의 첫 대량 생산을 시작했다.",
-        "이 발표는 2026년 10월 25일 판교에서 열린 Auto Semicon Korea 2026에서 이루어졌다.",
-        "이로 인해 자동차 산업에서의 반도체 수요가 더욱 증가할 것으로 예상된다."
+        "글로벌테크가 현대 모비스와 협력해 차량용 반도체의 대량 생산을 시작했다.",
+        "이 발표는 2026년 10월 25일 판교에서 열린 자동차 반도체 행사에서 이루어졌다.",
+        "이번 공급은 글로벌테크의 시장 진출을 의미하며, 자동차 산업 내 반도체 수요 증가에 대응할 예정이다."
       ],
-      "category": "AI반도체",
+      "category": "장비/소재/부품",
       "tags": [
-        "자동차 반도체",
-        "대량 생산",
+        "차량용 반도체",
         "현대차",
-        "글로벌 테크"
+        "기아",
+        "글로벌테크",
+        "대량 생산"
       ],
       "companies": [
-        "글로벌 테크",
+        "글로벌테크",
         "현대 모비스"
       ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "글로벌테크",
+        "현대 모비스"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "en",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
           "key": "a7caeb8e59472f4b",
@@ -902,129 +522,40 @@
           "published_at": "2026-10-25T22:31:15Z"
         }
       ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "글로벌 테크",
-        "현대 모비스"
-      ],
-      "importance_raw": 3
+      "importance_raw": 5
     },
     {
-      "id": "c20261026-0017",
-      "headline": "한솔아이오네스, 오창에 1260억 원 공장 투자",
+      "id": "c20261026-0056",
+      "headline": "DB하이텍, 자동차 품질 인증으로 경쟁력 강화",
       "summary": [
-        "한솔아이오네스는 오창에 1260억 원 규모의 새로운 공장을 설립할 계획이다.",
-        "이 공장은 2028년 완공을 목표로 하며, 600억 원 규모의 유상증자를 추진한다.",
-        "이번 투자로 반도체 장비 부품 가공 및 청소 사업의 경쟁력을 높일 것으로 기대된다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "한솔아이오네스",
-        "오창 공장",
-        "유상증자",
-        "반도체 장비"
-      ],
-      "companies": [
-        "한솔아이오네스"
-      ],
-      "importance": 3,
-      "importance_reason": "설비 투자 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
-      "articles": [
-        {
-          "key": "5f7582e4bf7cf475",
-          "title": "Hansol IONES to Invest 126 Billion Won in Ochang Plant, Targeting 2028 Completion",
-          "url": "https://www.thelec.net/news/articleView.html?idxno=14897",
-          "source": "디일렉",
-          "lang": "en",
-          "published_at": "2026-10-25T22:31:18Z"
-        }
-      ],
-      "event_type": "설비 투자",
-      "confirmed": true,
-      "parties": [
-        "한솔아이오네스"
-      ],
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0018",
-      "headline": "SK하이닉스, 12조원 규모 특별 배당 검토",
-      "summary": [
-        "SK하이닉스가 기옥시아 지분 매각으로 얻은 수익으로 12조원 규모의 특별 배당을 검토하고 있다.",
-        "3분기 실적 발표와 함께 이 계획을 공개할 가능성이 높다.",
-        "이 배당은 주주 가치를 강화하고, 회사의 재무 건전성을 나타낼 것으로 예상된다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "특별 배당",
-        "SK하이닉스",
-        "기옥시아",
-        "주주 가치",
-        "3분기 실적"
-      ],
-      "companies": [
-        "SK하이닉스",
-        "기옥시아"
-      ],
-      "importance": 2,
-      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
-      "articles": [
-        {
-          "key": "d2ac7e075474824f",
-          "title": "SK hynix weighs $12.1 billion special dividend, newspaper says",
-          "url": "https://www.koreaherald.com/article/10914252",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-10-25T23:59:15Z"
-        }
-      ],
-      "event_type": "재무·주주",
-      "confirmed": false,
-      "parties": [
-        "SK하이닉스"
-      ],
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261026-0019",
-      "headline": "DB하이텍, 자동차 품질 인증 갱신으로 경쟁력 강화",
-      "summary": [
-        "DB하이텍이 자동차 품질경영시스템 인증을 갱신했다.",
-        "부천캠퍼스와 상우캠퍼스에서 진행된 이번 인증은 글로벌 고객사의 품질 요구에 대응한다.",
-        "이번 인증 갱신으로 DB하이텍의 자동차 반도체 시장 경쟁력이 더욱 강화될 것으로 보인다."
+        "DB하이텍이 자동차 품질 경영 시스템의 국제 인증을 갱신했다.",
+        "이번 인증 갱신은 글로벌 자동차 고객사의 품질 요구에 부응하기 위한 것이다.",
+        "인증 체계 강화를 통해 자동차 반도체 시장에서의 경쟁력을 높이려는 전략이 의미가 있다."
       ],
       "category": "장비/소재/부품",
       "tags": [
         "자동차 반도체",
         "품질 인증",
         "DB하이텍",
-        "IAQ",
-        "경쟁력 강화"
+        "IAF",
+        "국제 표준"
       ],
       "companies": [
         "DB하이텍"
       ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "DB하이텍"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
           "key": "0e911e7860009b05",
@@ -1035,30 +566,32 @@
           "published_at": "2026-10-26T00:31:27Z"
         }
       ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "DB하이텍"
-      ],
-      "importance_raw": 2
+      "importance_raw": 5
     },
     {
-      "id": "c20261026-0021",
-      "headline": "코트라 인베스트 코리아, 유엔 투자 진흥상 수상",
+      "id": "c20261026-0057",
+      "headline": "‘유엔 투자 진흥상’ 수상으로 반도체 공급망 강화",
       "summary": [
-        "인베스트 코리아는 10월 25일 카타르 도하에서 유엔 투자 진흥상을 수상했다.",
-        "이 상은 반도체 공급망 강화를 위한 공로를 인정받아 지급된 것으로, 구체적인 성과가 강조되었다.",
-        "이번 수상은 한국의 반도체 산업 경쟁력 향상에 중요한 의미를 지닌다."
+        "인베스트 코리아가 유엔 투자 진흥상을 수상했다. 이 상은 반도체 공급망 강화를 위한 노력으로 수여되었으며, 수상식은 카타르 도하에서 개최되었다.",
+        "이번 수상은 한국의 외국인 투자 유치 활동을 국제적으로 인정받은 것으로, 투자의 중요성을 강조하는 계기가 된다.",
+        "이로 인해 한국의 반도체 산업은 글로벌 경쟁력을 더욱 확보하게 될 것으로 기대된다."
       ],
       "category": "정책/무역",
       "tags": [
-        "반도체 공급망",
-        "투자 진흥상",
-        "유엔",
+        "유엔 투자 진흥상",
+        "반도체",
+        "공급망 강화",
+        "투자유치",
         "인베스트 코리아"
       ],
       "companies": [
-        "코트라"
+        "대한무역투자진흥공사",
+        "인베스트 코리아"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "인베스트 코리아"
       ],
       "importance": 1,
       "importance_reason": "홍보·수상 1점",
@@ -1066,8 +599,8 @@
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
           "key": "fea19a1ece0b2fbc",
@@ -1078,72 +611,74 @@
           "published_at": "2026-10-26T02:01:31Z"
         }
       ],
-      "event_type": "홍보·수상",
-      "confirmed": true,
-      "parties": [
-        "코트라",
-        "인베스트 코리아"
-      ],
       "importance_raw": 1
     },
     {
-      "id": "c20261026-0022",
-      "headline": "K-뷰티와 반도체로 중소기업 수출 사상 최고",
+      "id": "c20261026-0058",
+      "headline": "허밍 테스트 솔루션, 215억 달러 이상 투자 결정",
       "summary": [
-        "2026년 3분기 중소기업의 수출액이 사상 최고치를 기록했다.",
-        "중소벤처기업부 발표에 따르면 수출액은 전년 동기 대비 8% 증가했다.",
-        "이는 K-뷰티와 반도체의 호조에 기인하며, 전체 산업에 긍정적인 신호로 작용한다."
+        "대만의 웨이퍼 테스트 공급업체인 허밍 테스트 솔루션이 투자를 발표했다.",
+        "총 215억 달러 이상을 첨단 반도체 테스트 확장에 사용할 계획이다.",
+        "이번 투자는 반도체 산업의 테스트 능력을 증대시켜 시장 경쟁력을 강화할 것으로 예상된다."
       ],
-      "category": "실적/투자/시장",
+      "category": "장비/소재/부품",
       "tags": [
-        "K-뷰티",
-        "중소기업",
-        "수출",
+        "웨이퍼 테스트",
         "반도체",
-        "3분기리포트"
+        "투자",
+        "확장",
+        "첨단 기술"
       ],
-      "companies": [],
-      "importance": 2,
-      "importance_reason": "시장 전망·통계 2점",
+      "companies": [
+        "허밍 테스트 솔루션"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "허밍 테스트 솔루션"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "region": "en",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
-          "key": "29d66152221ac3e8",
-          "title": "中企수출 역대 3분기 최고… \"K-뷰티, 온·오프 수출 쌍끌이\"",
-          "url": "https://www.dt.co.kr/article/12091224",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-26T03:10:36Z"
+          "key": "3be5faad6a3ba161",
+          "title": "Taiwan wafer-testing supplier Hermes Testing Solutions commits more than US$215 million to advanced chip testing expansion",
+          "url": "https://www.digitimes.com/news/a20261023PD241/taiwan-testing-equipment-budget-investment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-26T02:58:19Z"
         }
       ],
-      "event_type": "시장 전망·통계",
-      "confirmed": true,
-      "parties": [
-        "중소벤처기업부"
-      ],
-      "importance_raw": 2
+      "importance_raw": 3
     },
     {
-      "id": "c20261026-0023",
-      "headline": "삼성전자, AI로 반도체 신물질 개발 기간 단축",
+      "id": "c20261026-0059",
+      "headline": "삼성전자, AI로 반도체 신물질 개발 가속화",
       "summary": [
-        "삼성전자가 AI를 활용해 반도체 신물질 개발 기간을 5년에서 2년으로 줄인다.",
-        "소재 후보 발굴 규모를 5배로 늘리고, 실험 횟수를 80% 이상 줄일 예정이다.",
-        "이러한 변화는 반도체 산업의 혁신을 가속화할 것으로 기대된다."
+        "삼성전자가 AI를 통해 반도체 신물질 개발 기간을 5년에서 2년으로 단축할 계획이다.",
+        "소재 후보 발굴 규모를 5배 이상 늘리고 실험 횟수를 80% 이상 줄일 예정이다.",
+        "이로 인해 반도체 신물질 개발 속도가 빨라져 산업 경쟁력이 강화될 것으로 기대된다."
       ],
-      "category": "AI반도체",
+      "category": "장비/소재/부품",
       "tags": [
         "AI",
         "반도체",
         "신물질",
-        "개발기간단축"
+        "개발기간",
+        "삼성전자"
       ],
       "companies": [
+        "삼성전자"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
         "삼성전자"
       ],
       "importance": 5,
@@ -1152,8 +687,8 @@
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
           "key": "9123c29cc59e1038",
@@ -1164,156 +699,120 @@
           "published_at": "2026-10-26T04:46:39Z"
         }
       ],
-      "event_type": "신제품·신기술·양산",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
       "importance_raw": 6
     },
     {
-      "id": "c20261026-0024",
-      "headline": "AI 시대, 인력 투자로 성장 동력 모색",
+      "id": "c20261026-0060",
+      "headline": "AI스페라, AI 기반 위협 예측 기술 공개",
       "summary": [
-        "AI 기술 발전에 따라 단순 설비 투자만으로는 지속적인 성장에 한계가 있다.",
-        "인력 투자와 교육이 다음 성장 동력으로 주목받고 있으며, 이는 고용과 소득으로 연결될 것이다.",
-        "이런 변화는 반도체 산업을 포함한 여러 산업에서 중요한 전략으로 자리잡을 것으로 예상된다."
+        "AI스페라가 22일 삼성SDS에서 AI 기반 사이버 위협 예측 기술을 제시했다.",
+        "그들은 글로벌 공격표면 데이터를 활용하여 위협 예측의 효율성을 극대화하고자 했다.",
+        "이 기술은 사이버 보안 산업의 스마트화를 가속화할 것으로 기대된다."
       ],
-      "category": "정책/무역",
+      "category": "AI반도체",
       "tags": [
-        "AI",
-        "인력 투자",
-        "반도체",
-        "고용",
-        "소득"
-      ],
-      "companies": [],
-      "importance": 1,
-      "importance_reason": "채용·인력 2점, 미확정 -1 → 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
-      "articles": [
-        {
-          "key": "87eec341a64250ba",
-          "title": "\"AI시대, 설비 투자로는 한계…'사람 투자'가 다음 성장 동력\"",
-          "url": "https://www.yna.co.kr/view/AKR20261026041100530",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-26T05:00:05Z"
-        }
-      ],
-      "event_type": "채용·인력",
-      "confirmed": false,
-      "parties": [],
-      "importance_raw": 1
-    },
-    {
-      "id": "c20261026-0025",
-      "headline": "SK하이닉스, 여의도에서 기업광고 전시회 개최",
-      "summary": [
-        "SK하이닉스는 10월 24일부터 11월 1일까지 여의도 IFC몰에서 전시회를 연다.",
-        "이번 전시회는 기업 광고 캠페인인 '초심'을 주제로 진행된다.",
-        "산업 내 브랜드 이미지를 강화하고 고객과의 소통을 증대시키는 기회가 될 것이다."
-      ],
-      "category": "기타",
-      "tags": [
-        "기업광고",
-        "전시회",
-        "초심",
-        "SK하이닉스"
+        "AI스페라",
+        "위협 예측",
+        "사이버 보안",
+        "AI 기술",
+        "KIISC 워크숍"
       ],
       "companies": [
-        "SK하이닉스"
+        "AI스페라",
+        "삼성SDS"
       ],
-      "importance": 2,
-      "importance_reason": "홍보·수상 1점, 관심 기업(SK하이닉스) +1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
-      "articles": [
-        {
-          "key": "bb8886d90094d1ed",
-          "title": "SK하이닉스, 여의도 IFC몰서 기업광고 '초심' 전시회",
-          "url": "https://www.yna.co.kr/view/AKR20261026113500003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-26T05:55:04Z"
-        }
-      ],
-      "event_type": "홍보·수상",
+      "event_type": "신제품·신기술·양산",
       "confirmed": true,
       "parties": [
-        "SK하이닉스"
+        "AI스페라"
       ],
-      "importance_raw": 2
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
+      "articles": [
+        {
+          "key": "85fdeeaff3dbf540",
+          "title": "AI스페라, KIISC 워크숍서 ‘AI 기반 위협 예측 기술’ 제시",
+          "url": "https://www.dt.co.kr/article/12091266",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-26T05:54:23Z"
+        }
+      ],
+      "importance_raw": 5
     },
     {
-      "id": "c20261026-0027",
-      "headline": "LS 에코 에너지, 베트남에 649억 원 투자",
+      "id": "c20261026-0061",
+      "headline": "삼성전자, SK하이닉스 HBM 매출 역전 가능성",
       "summary": [
-        "LS 에코 에너지가 베트남에 649억 원을 투자하여 초축전지 공장을 건설할 계획이다.",
-        "이 투자로 AI 데이터 센서를 위한 중형 초축전지 셀 생산 시설이 조성된다.",
-        "이 공장은 AI 산업의 발전을 지원하며, 에너지 저장 솔루션에 기여할 것으로 기대된다."
+        "삼성전자가 3분기 HBM 매출에서 SK하이닉스를 추월할 것으로 예상된다.",
+        "삼성의 HBM 매출은 87억 달러로, 전분기 대비 33% 증가한 반면 SK하이닉스는 76억 달러로 11% 증가했다.",
+        "이는 삼성의 AI 메모리 시장에서의 경쟁력을 높이며, SK하이닉스의 오랜 리더십에 도전하는 의미를 지닌다."
       ],
-      "category": "장비/소재/부품",
+      "category": "메모리",
       "tags": [
-        "초축전지",
-        "AI 데이터 센서",
-        "투자",
-        "베트남"
+        "HBM",
+        "AI 메모리",
+        "삼성전자",
+        "SK하이닉스",
+        "Q3 실적"
       ],
       "companies": [
-        "LS 에코 에너지"
+        "삼성전자",
+        "SK하이닉스"
       ],
-      "importance": 3,
-      "importance_reason": "설비 투자 3점",
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자, SK하이닉스) +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "en",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
-          "key": "66067bde633468d3",
-          "title": "LS Eco Energy to Invest 64.9 Billion Won in Vietnam Ultracapacitor Plant",
-          "url": "https://www.thelec.net/news/articleView.html?idxno=14910",
-          "source": "디일렉",
+          "key": "7fae14477d622f0b",
+          "title": "Samsung may have overtaken SK hynix in HBM revenue, analysis suggests",
+          "url": "https://www.koreaherald.com/article/10915040",
+          "source": "Korea Herald",
           "lang": "en",
-          "published_at": "2026-10-26T06:04:17Z"
+          "published_at": "2026-10-26T05:58:40Z"
         }
       ],
-      "event_type": "설비 투자",
-      "confirmed": true,
-      "parties": [
-        "LS 에코 에너지"
-      ],
-      "importance_raw": 3
+      "importance_raw": 4
     },
     {
-      "id": "c20261026-0028",
-      "headline": "헨켈, AI 칩용 반도체 접착제 생산 공장 운영",
+      "id": "c20261026-0062",
+      "headline": "헨켈, AI 칩용 반도체 접착제 생산 공장 개소",
       "summary": [
-        "헨켈은 인천 송도에서 AI 칩에 필요한 반도체 접착제를 생산하고 있다.",
-        "이 공장은 온도와 습도를 철저히 관리하며 세밀한 제조 과정을 거친다.",
-        "헨켈의 접착제는 칩의 연결과 열 분산을 돕는 중요한 역할을 한다."
+        "독일 헨켈이 인천 송도의 공장에서 AI 칩용 반도체 접착제를 생산하고 있다.",
+        "엄격한 온도와 습도 관리 아래 미세 조정 장비를 활용해 제작 중이다.",
+        "이 공장은 반도체 고정, 연결 보호, 열 분산에 기여하여 산업 발전에 중요한 역할을 한다."
       ],
       "category": "장비/소재/부품",
       "tags": [
-        "헨켈",
         "AI 칩",
-        "반도체 접착제",
-        "송도 공장",
-        "세밀한 제조"
+        "접착제",
+        "헨켈",
+        "반도체 소재"
       ],
       "companies": [
+        "헨켈"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
         "헨켈"
       ],
       "importance": 5,
@@ -1322,8 +821,8 @@
       "needs_summary": false,
       "attempts": 0,
       "region": "en",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
           "key": "527dfc0e9111bd7d",
@@ -1334,30 +833,31 @@
           "published_at": "2026-10-26T06:20:34Z"
         }
       ],
-      "event_type": "신제품·신기술·양산",
-      "confirmed": true,
-      "parties": [
-        "헨켈"
-      ],
       "importance_raw": 5
     },
     {
-      "id": "c20261026-0029",
-      "headline": "아스플로, ALD 장비 1위 A사에 배관 공급",
+      "id": "c20261026-0063",
+      "headline": "아스플로, ALD 장비 시장에서 공급 확대",
       "summary": [
-        "아스플로는 ALD 장비 선두업체 A사에 배관 부품을 공급하기로 했다.",
-        "A사로부터 하스텔로이 소재 배관 조립품을 수주했으며, 내년 매출이 올해의 두 배로 증가할 전망이다.",
-        "이로 인해 아스플로의 매출 구조가 변하고, 장비 부품 비중이 확대될 예정이다."
+        "아스플로가 네덜란드 A사에 ALD 장비 내부 배관 부품을 공급한다.",
+        "A사로부터 하스텔로이 소재 배관 조립품을 수주하며 매출 성장이 예상된다.",
+        "업계에서는 아스플로의 내년 매출이 올해의 두 배로 증가할 것으로 전망하고 있다."
       ],
       "category": "장비/소재/부품",
       "tags": [
         "ALD",
+        "배관 부품",
         "하스텔로이",
-        "아스플로",
-        "반도체배관",
-        "장비부품"
+        "반도체 장비",
+        "아스플로"
       ],
       "companies": [
+        "아스플로",
+        "A사"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
         "아스플로",
         "A사"
       ],
@@ -1367,8 +867,8 @@
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
           "key": "a704c1ba1fd11a9b",
@@ -1379,34 +879,32 @@
           "published_at": "2026-10-26T06:35:54Z"
         }
       ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "아스플로",
-        "A사"
-      ],
       "importance_raw": 3
     },
     {
-      "id": "c20261026-0030",
-      "headline": "우프틱스, 삼성 투자로 국내에 웨이퍼 계측장비 공급",
+      "id": "c20261026-0064",
+      "headline": "우프틱스, 삼성 투자로 국내 웨이퍼 계측장비 공급",
       "summary": [
-        "우프틱스가 국내 반도체 업체에 웨이퍼 계측장비를 공급한다.",
-        "2027년부터 평가용 장비 적용을 시작하고 2~3년 내 양산을 목표로 한다.",
-        "삼성이 투자한 기업으로, 한국 시장의 중요성을 강조하고 있다."
+        "스페인 우프틱스가 국내 반도체 업체에 웨이퍼 계측장비를 공급한다.",
+        "내년부터 2~3년 내 양산라인 진입을 목표로 평가용 장비 적용성을 검증할 예정이다.",
+        "삼성벤처투자의 지원으로 한국 시장에서의 입지를 다질 계획이다."
       ],
       "category": "장비/소재/부품",
       "tags": [
-        "웨이퍼 계측장비",
-        "삼성벤처투자",
-        "Phemet",
+        "웨이퍼 계측",
+        "삼성전자",
         "우프틱스",
-        "양산라인"
+        "페멧"
       ],
       "companies": [
-        "삼성전자",
-        "SK하이닉스",
+        "삼성벤처투자",
         "우프틱스"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "우프틱스",
+        "국내 반도체 업체"
       ],
       "importance": 3,
       "importance_reason": "수주·공급 3점",
@@ -1414,8 +912,8 @@
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
           "key": "adea5afc94be6a6f",
@@ -1426,41 +924,42 @@
           "published_at": "2026-10-26T06:56:34Z"
         }
       ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "우프틱스",
-        "삼성"
-      ],
       "importance_raw": 3
     },
     {
-      "id": "c20261026-0031",
-      "headline": "경북, 퓨리오사AI와 AI 반도체 생태계 구축",
+      "id": "c20261026-0065",
+      "headline": "경북도, 퓨리오사AI와 AI 반도체 생태계 구축",
       "summary": [
-        "경북도가 퓨리오사AI와 협력하여 AI 반도체 산업 생태계를 조성한다.",
-        "이번 프로젝트는 2026년부터 본격적으로 시작되며, 기술 지원과 인프라 구축이 포함된다.",
-        "AI 반도체 분야의 발전으로 지역 산업 경쟁력이 강화될 것으로 기대된다."
+        "경북도가 퓨리오사AI와 함께 AI 반도체 산업 생태계 구축에 나선다.",
+        "이 협약은 경북IT융합산업기술원과 경산시가 참여하며, 공식 발표는 10월 26일에 이루어졌다.",
+        "이번 사업은 지역 내 AI 반도체 산업을 활성화하며 관련 인프라를 개선할 것으로 기대된다."
       ],
       "category": "AI반도체",
       "tags": [
-        "AI반도체",
+        "AI 반도체",
         "퓨리오사AI",
         "경북도",
-        "산업 생태계",
-        "기술 지원"
+        "산업 생태계"
       ],
       "companies": [
         "퓨리오사AI"
       ],
-      "importance": 2,
-      "importance_reason": "지역·인프라 2점",
+      "event_type": "정책·규제·법",
+      "confirmed": true,
+      "parties": [
+        "경북도",
+        "퓨리오사AI",
+        "경북IT융합산업기술원",
+        "경산시"
+      ],
+      "importance": 4,
+      "importance_reason": "정책·규제·법 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
           "key": "b69a8c1cc0b245ba",
@@ -1471,82 +970,210 @@
           "published_at": "2026-10-26T06:59:49Z"
         }
       ],
-      "event_type": "지역·인프라",
-      "confirmed": true,
-      "parties": [
-        "경북도",
-        "퓨리오사AI"
-      ],
-      "importance_raw": 2
+      "importance_raw": 4
     },
     {
-      "id": "c20261026-0032",
-      "headline": "용인 반도체 단지 공사 중단 요구, 28일 농성",
+      "id": "c20261026-0066",
+      "headline": "다단계 CFET 설계에서 자기 발열과 패러틱스 문제",
       "summary": [
-        "용인시에서 시민단체가 반도체 단지 공사를 중단할 것을 촉구하고 있다.",
-        "이들은 10월 28일부터 천막 농성을 시작할 예정이며, 이유는 환경 문제로 보인다.",
-        "중단 요구는 반도체 산업의 발전에 일정한 영향을 미칠 것으로 예상된다."
+        "뮌헨 공대와 IIT 칸푸르의 연구팀이 다단계 CFET 설계의 문제를 발표했다.",
+        "이 연구는 네 개의 나노시트를 수직으로 쌓은 CFET와 기존 두 단계 CFET를 비교 분석하였다.",
+        "결과는 반도체 설계의 열 분포와 패러틱스 문제 해결에 중요한 의미를 가진다."
       ],
-      "category": "정책/무역",
+      "category": "AI반도체",
       "tags": [
-        "용인 반도체 단지",
-        "시민단체",
-        "환경 문제",
-        "농성",
-        "공사 중단"
+        "CFET",
+        "자기 발열",
+        "패러틱스",
+        "반도체 설계",
+        "다단계 기기"
       ],
       "companies": [],
-      "importance": 2,
-      "importance_reason": "지역·인프라 2점",
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "Technical University of Munich",
+        "Indian Institute of Technolog…"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "region": "en",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
-          "key": "8c7e6d1f50710961",
-          "title": "시민단체, 용인반도체산단 공사 중단 촉구…28일 천막농성",
-          "url": "https://www.yna.co.kr/view/AKR20261026131300061",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-26T07:01:14Z"
+          "key": "839429758ac3347c",
+          "title": "Self-Heating And Parasitics Challenge Multi-Tier CFET Scaling (TU Munich, IIT Kanpur)",
+          "url": "https://semiengineering.com/self-heating-and-parasitics-challenge-multi-tier-cfet-scaling-tu-munich-iit-kanpur/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-10-26T07:01:24Z"
         }
       ],
-      "event_type": "지역·인프라",
-      "confirmed": true,
-      "parties": [
-        "용인시",
-        "시민단체"
-      ],
-      "importance_raw": 2
+      "importance_raw": 5
     },
     {
-      "id": "c20261026-0033",
-      "headline": "호남 반도체 송전망 조기 구축을 위한 결정",
+      "id": "c20261026-0067",
+      "headline": "광학 패키징 테스트 비용 절감 방안 논의",
       "summary": [
-        "호남 지역의 반도체 송전망 구축을 조속히 진행하기 위한 방안이 마련됐다.",
-        "이를 위해 타지역 변압기를 사용하는 방식으로 조기 구축을 목표로 하고 있다.",
-        "이 결정은 지역 산업 발전과 안정적인 전력 공급에 중요한 영향을 미칠 것으로 보인다."
+        "광학 패키징 테스트 비용이 제조 비용에 근접하고 있어 효율적인 해결책이 필요하다.",
+        "엘리트 전문가들이 참여한 대화에서 문제 발생 원인 식별과 기준 점 검토의 중요성이 강조됐다.",
+        "광학 부품의 테스트 비용 절감은 반도체 산업 전반의 경쟁력을 높이는 데 기여할 것으로 기대된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "광학 테스트",
+        "트레이닝",
+        "비용 절감",
+        "전자 광학",
+        "반도체 테스팅"
+      ],
+      "companies": [
+        "테라다인",
+        "어드밴테스트",
+        "ISE Labs",
+        "키사이트 테크놀로지스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "테라다인",
+        "어드밴테스트",
+        "ISE Labs",
+        "키사이트 테크놀로지스"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
+      "articles": [
+        {
+          "key": "76d42bdd2acdeef4",
+          "title": "Bringing Down Test Costs For Co-Packaged Optics",
+          "url": "https://semiengineering.com/bringing-down-test-costs-for-co-packaged-optics/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-10-26T07:01:57Z"
+        }
+      ],
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261026-0068",
+      "headline": "실리콘 포토닉스 대량 테스트 인프라 필요성 증가",
+      "summary": [
+        "AI와 HPC의 수요 증가로 데이터 전송이 중요해졌다.",
+        "실리콘 포토닉스 기술의 대량 생산을 위해 테스트 인프라의 발전이 요구된다.",
+        "이제 테스트는 품질 확인을 넘어서 제조 전략의 핵심 요소로 자리 잡고 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "실리콘 포토닉스",
+        "HPC",
+        "대량 생산",
+        "테스트 인프라",
+        "AI"
+      ],
+      "companies": [],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
+      "articles": [
+        {
+          "key": "ae69fbc10c6e8354",
+          "title": "Testing Silicon Photonics At Scale",
+          "url": "https://semiengineering.com/testing-silicon-photonics-at-scale/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-10-26T07:01:58Z"
+        }
+      ],
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261026-0069",
+      "headline": "3D DRAM 스택 구조, GPU 열 설계 한계 확장",
+      "summary": [
+        "imec 연구진이 GPU 위에 수직으로 DRAM 다이를 쌓는 3D 메모리 아키텍처를 평가했다.",
+        "이 구조는 기존 2.5D HBM과 비교할 때 냉각 효율을 개선하며 다양한 성능 조정이 가능하다.",
+        "이러한 개발은 메모리 용량과 열 관리 효율을 높여 반도체 산업에 긍정적 영향을 줄 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "3D DRAM",
+        "HBM",
+        "GPU 통합",
+        "열 관리",
+        "imec"
+      ],
+      "companies": [],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "imec"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
+      "articles": [
+        {
+          "key": "a0ae31b989bcf7a3",
+          "title": "Vertical DRAM Stacking Expands Thermal Design Space Beyond HBM-on-GPU (imec)",
+          "url": "https://semiengineering.com/vertical-dram-stacking-expands-thermal-design-space-beyond-hbm-imec/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-10-26T07:02:36Z"
+        }
+      ],
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261026-0070",
+      "headline": "호남 반도체 송전망 구축, 1년 앞당긴다",
+      "summary": [
+        "정부가 호남 반도체 산업단지의 송전망 구축 일정을 1년 앞당기기로 했다.",
+        "이를 위해 타지역에 설치된 변압기를 활용해 송전망을 연결할 계획이다.",
+        "이번 결정은 호남 지역 반도체 산업의 성장 지원을 위한 중요한 조치로 평가된다."
       ],
       "category": "정책/무역",
       "tags": [
-        "반도체 송전망",
+        "송전망",
         "호남",
-        "변압기",
-        "전력 공급",
-        "산업 발전"
+        "반도체",
+        "전력 공급"
       ],
       "companies": [],
-      "importance": 2,
-      "importance_reason": "지역·인프라 2점",
+      "event_type": "정책·규제·법",
+      "confirmed": true,
+      "parties": [],
+      "importance": 4,
+      "importance_reason": "정책·규제·법 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
           "key": "ac3e2fbfc5de5ce6",
@@ -1557,32 +1184,33 @@
           "published_at": "2026-10-26T07:05:01Z"
         }
       ],
-      "event_type": "지역·인프라",
-      "confirmed": true,
-      "parties": [
-        "호남 지역",
-        "정부"
-      ],
-      "importance_raw": 2
+      "importance_raw": 4
     },
     {
-      "id": "c20261026-0034",
-      "headline": "ACM리서치, 평택 공장 증설로 생산 확대",
+      "id": "c20261026-0071",
+      "headline": "ACM리서치, 한국 평택 공장 증설로 생산능력 확대",
       "summary": [
-        "ACM리서치가 미국의 제재에도 불구하고 한국에서의 생산을 늘리고 있다.",
-        "평택에 위치한 진위 공장을 증설하며, 이를 통해 생산능력을 높일 계획이다.",
-        "이러한 움직임은 국내 반도체 산업 경쟁력 강화를 의미한다."
+        "ACM리서치가 미국 제재에 대응하기 위해 한국 생산을 확대한다.",
+        "지난 6월 평택시 진위면 공장을 증설 완료하고 내년 초부터 가동한다.",
+        "생산능력이 기존의 2~3배로 증가하며 미국과 동남아에도 공급할 예정이다."
       ],
       "category": "장비/소재/부품",
       "tags": [
         "ACM리서치",
-        "제재",
-        "생산증설",
-        "평택",
-        "반도체"
+        "한국ACM",
+        "평택 공장",
+        "장비 생산",
+        "제재 대응"
       ],
       "companies": [
-        "ACM리서치"
+        "ACM리서치",
+        "한국ACM"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "ACM리서치",
+        "한국ACM"
       ],
       "importance": 3,
       "importance_reason": "설비 투자 3점",
@@ -1590,8 +1218,8 @@
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
           "key": "f3a4290a7bcfcf49",
@@ -1602,81 +1230,40 @@
           "published_at": "2026-10-26T07:10:26Z"
         }
       ],
-      "event_type": "설비 투자",
-      "confirmed": true,
-      "parties": [
-        "ACM리서치"
-      ],
       "importance_raw": 3
     },
     {
-      "id": "c20261026-0035",
-      "headline": "하이닉스, 주주환원 기대감 속 약보합 전환",
+      "id": "c20261026-0072",
+      "headline": "AI 산업 전환을 위한 국회 연구단체 출범",
       "summary": [
-        "하이닉스의 주가가 추가 주주환원 기대에도 약보합세로 돌아섰다.",
-        "삼성전자는 소폭 하락하는 1%대를 기록했다.",
-        "전반적인 주주환원 정책이 산업에 미치는 영향에 대해 주목할 필요가 있다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "주주환원",
-        "하이닉스",
-        "삼성전자"
-      ],
-      "companies": [
-        "SK하이닉스",
-        "삼성전자"
-      ],
-      "importance": 2,
-      "importance_reason": "주가 등락 1점, 관심 기업(삼성전자, SK하이닉스) +1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
-      "articles": [
-        {
-          "key": "cf7e2eb471d46391",
-          "title": "하이닉스, 추가 주주환원 기대에도 약보합 전환…삼전, 1%대↓(종합)",
-          "url": "https://www.yna.co.kr/view/AKR20261026037151008",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-26T07:12:35Z"
-        }
-      ],
-      "event_type": "주가 등락",
-      "confirmed": true,
-      "parties": [
-        "하이닉스",
-        "삼성전자"
-      ],
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261026-0036",
-      "headline": "국회 AI 미래전환 그룹 출범, 격차 해소 입법 추진",
-      "summary": [
-        "임문영 의원을 포함한 여야 35명이 '국회 AI 미래전환' 그룹을 출범했다.",
-        "이들은 산업 혁신과 사회 격차 해소를 위한 입법 활동을 추진할 예정이다.",
-        "AI 기술 발전이 사회 전반에 긍정적 영향을 줄 것으로 기대된다."
+        "임문영 의원이 여야 35명과 함께 '국회 AI 미래전환' 연구단체를 출범시켰다.",
+        "이들은 AI 산업 육성과 사회적 격차 해소를 위한 정책을 발굴하고 법제 개선을 추진할 계획이다.",
+        "AI 전환을 통한 생산성 향상에도 불구하고 격차 확대 우려를 해소하는 방안을 모색할 예정이다."
       ],
       "category": "정책/무역",
       "tags": [
-        "AI 미래전환",
-        "임문영",
-        "사회격차 해소",
-        "입법 추진"
+        "AI 전환",
+        "산업 정책",
+        "사회 격차",
+        "입법 활동",
+        "한국형 AI 전략"
       ],
       "companies": [],
+      "event_type": "정책·규제·법",
+      "confirmed": true,
+      "parties": [
+        "더불어민주당",
+        "조국혁신당",
+        "국가인공지능전략위원회"
+      ],
       "importance": 4,
       "importance_reason": "정책·규제·법 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
           "key": "a70c58a91d19701a",
@@ -1687,38 +1274,38 @@
           "published_at": "2026-10-26T07:51:45Z"
         }
       ],
-      "event_type": "정책·규제·법",
-      "confirmed": true,
-      "parties": [
-        "임문영 의원",
-        "국회"
-      ],
       "importance_raw": 4
     },
     {
-      "id": "c20261026-0037",
-      "headline": "광주 반도체 마이스터고 설립 추진",
+      "id": "c20261026-0073",
+      "headline": "전남광주, 반도체 마이스터고 설립 추진",
       "summary": [
-        "전남광주교육청이 광주권 반도체 마이스터고 설립을 추진하고 있다.",
-        "설립 일정과 구체적인 내용은 아직 미정이지만, 반도체 인재 양성을 목표로 한다.",
-        "이는 지역 내 반도체 산업 생태계 강화에 기여할 것으로 기대된다."
+        "전남광주교육청이 호남권 반도체 인재 양성을 위한 마이스터고 설립을 추진하고 있다.",
+        "이번 프로젝트는 광주권 반도체 메가 프로젝트 지원을 목적으로 하고 있으며, 세부 계획은 발표될 예정이다.",
+        "반도체 인재 양성을 통해 지역 산업 경쟁력을 높이는 데 기여할 것으로 기대된다."
       ],
       "category": "정책/무역",
       "tags": [
-        "반도체",
         "마이스터고",
+        "반도체",
         "인재양성",
-        "광주"
+        "교육",
+        "호남권"
       ],
       "companies": [],
-      "importance": 1,
-      "importance_reason": "채용·인력 2점, 미확정 -1 → 1점",
+      "event_type": "정책·규제·법",
+      "confirmed": true,
+      "parties": [
+        "전남광주교육청"
+      ],
+      "importance": 4,
+      "importance_reason": "정책·규제·법 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
           "key": "b04216ec1a58a0e7",
@@ -1729,38 +1316,26 @@
           "published_at": "2026-10-26T08:33:45Z"
         }
       ],
-      "event_type": "채용·인력",
-      "confirmed": false,
-      "parties": [],
-      "importance_raw": 1
+      "importance_raw": 4
     },
     {
-      "id": "c20261026-0038",
-      "headline": "삼성전자 HBM 가격, 경쟁사보다 25% 높아",
-      "summary": [
-        "삼성전자의 HBM 가격이 경쟁사 제품보다 최대 25% 비싼 것으로 나타났다.",
-        "이러한 가격 차이는 삼성전자가 고급 기술을 적용했기 때문으로 분석된다.",
-        "가격 전략이 향후 HBM 시장에서 삼성전자의 경쟁력에 영향을 미칠 것으로 보인다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "HBM",
-        "가격",
-        "경쟁사",
-        "삼성전자",
-        "반도체"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "importance": 4,
-      "importance_reason": "가격 동향 3점, 관심 기업(삼성전자) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
+      "id": "c20261026-0074",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
           "key": "26a420a21f97a1e2",
@@ -1770,42 +1345,26 @@
           "lang": "ko",
           "published_at": "2026-10-26T09:31:44Z"
         }
-      ],
-      "event_type": "가격 동향",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance_raw": 4
+      ]
     },
     {
-      "id": "c20261026-0039",
-      "headline": "LB세미콘, 퀄컴과의 계약으로 생산능력 확대",
-      "summary": [
-        "LB세미콘이 퀄컴과 10년 계약을 체결하며 생산능력을 확대한다.",
-        "이번 계약을 통해 LB세미콘은 월 1만장의 생산능력을 증설할 예정이다.",
-        "이 확장은 반도체 시장에서의 경쟁력 강화를 의미하며, 고객사의 안정적인 공급망을 변화시킬 수 있다."
-      ],
-      "category": "파운드리/시스템반도체",
-      "tags": [
-        "LB세미콘",
-        "퀄컴",
-        "생산능력",
-        "반도체",
-        "계약"
-      ],
-      "companies": [
-        "LB세미콘",
-        "퀄컴"
-      ],
-      "importance": 3,
-      "importance_reason": "설비 투자 3점",
-      "status": "summarized",
-      "needs_summary": false,
+      "id": "c20261026-0075",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
           "key": "79a4f2083e1e5e09",
@@ -1815,43 +1374,26 @@
           "lang": "ko",
           "published_at": "2026-10-26T09:44:09Z"
         }
-      ],
-      "event_type": "설비 투자",
-      "confirmed": true,
-      "parties": [
-        "LB세미콘",
-        "퀄컴"
-      ],
-      "importance_raw": 3
+      ]
     },
     {
-      "id": "c20261026-0040",
-      "headline": "큐알티, 원자력연구원과 반도체 신뢰성 검증",
-      "summary": [
-        "큐알티가 원자력연구원과 협력하여 반도체 내방사선 신뢰성 검증을 시작했다.",
-        "이 프로젝트는 원자력 애플리케이션에 적합한 반도체 기술 개발을 목표로 한다.",
-        "반도체의 신뢰성을 높이는 중요한 계기가 될 것으로 예상된다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "반도체",
-        "내방사선",
-        "신뢰성검증",
-        "큐알티",
-        "원자력연구원"
-      ],
-      "companies": [
-        "큐알티",
-        "원자력연구원"
-      ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점",
-      "status": "summarized",
-      "needs_summary": false,
+      "id": "c20261026-0076",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
           "key": "b0f6e14b3a02736a",
@@ -1861,40 +1403,26 @@
           "lang": "ko",
           "published_at": "2026-10-26T10:09:28Z"
         }
-      ],
-      "event_type": "신제품·신기술·양산",
-      "confirmed": true,
-      "parties": [
-        "큐알티",
-        "원자력연구원"
-      ],
-      "importance_raw": 5
+      ]
     },
     {
-      "id": "c20261026-0041",
-      "headline": "DB하이텍, 자동차 품질 인증 갱신으로 파운드리 역량 강화",
-      "summary": [
-        "DB하이텍이 파운드리 분야에서 자동차 품질 표준 인증을 갱신했다.",
-        "이번 인증 갱신은 2026년 10월 26일 발표되었으며, 품질 관리를 강화하는 데 기여한다.",
-        "이는 자동차 산업에서의 경쟁력 향상과 고객 신뢰도를 높이는 데 중요한 의미를 갖는다."
-      ],
-      "category": "파운드리/시스템반도체",
-      "tags": [
-        "파운드리",
-        "자동차",
-        "품질 인증"
-      ],
-      "companies": [
-        "DB하이텍"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
+      "id": "c20261026-0077",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
           "key": "014b2d1bb7b7079d",
@@ -1904,39 +1432,26 @@
           "lang": "ko",
           "published_at": "2026-10-26T10:13:03Z"
         }
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "DB하이텍"
-      ],
-      "importance_raw": 2
+      ]
     },
     {
-      "id": "c20261026-0042",
-      "headline": "전투기용 OLED, 스마트폰 기술 극복",
-      "summary": [
-        "전투기용 OLED 디스플레이가 스마트폰보다 발광층을 더 쌓아서 제조된다.",
-        "이 기술은 전투기에서 요구하는 고온과 고압 환경을 견딜 수 있도록 설계되어 있다.",
-        "따라서 항공기와 관련된 디스플레이 시장에서의 성장 가능성을 높인다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "OLED",
-        "전투기디스플레이",
-        "항공기기술",
-        "발광층",
-        "고온고압환경"
-      ],
+      "id": "c20261026-0078",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
       "companies": [],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점",
-      "status": "summarized",
-      "needs_summary": false,
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-10-26T12:01:53Z",
-      "updated_at": "2026-10-26T12:01:53Z",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
       "articles": [
         {
           "key": "124180b2105b71a8",
@@ -1946,13 +1461,94 @@
           "lang": "ko",
           "published_at": "2026-10-26T10:19:34Z"
         }
-      ],
-      "event_type": "신제품·신기술·양산",
-      "confirmed": true,
-      "parties": [
-        "전투기용 OLED 디스플레이 제조사"
-      ],
-      "importance_raw": 5
+      ]
+    },
+    {
+      "id": "c20261026-0079",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
+      "articles": [
+        {
+          "key": "90a25889b984f573",
+          "title": "The AI Packaging Challenge: 5 Reasons Panels Are Gaining Momentum",
+          "url": "https://www.eetimes.com/the-ai-packaging-challenge-5-reasons-panels-are-gaining-momentum/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-10-26T13:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "c20261026-0080",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
+      "articles": [
+        {
+          "key": "96843f801021c4e8",
+          "title": "Cadence reveals Maestro, fine-tuned AI models built to run specialized chip design agents, with early access coming for 'select customers' in Q4 2026",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/cadence-reveals-maestro-fine-tuned-ai-models-built-to-run-specialized-chip-design-agents-with-early-access-coming-for-select-customers-in-q4-2026-claims-up-to-30-percent-higher-quality-results-and-up-to-5x-token-efficiency-over-a-general-purpose-ai-model",
+          "source": "Tom's Hardware",
+          "lang": "en",
+          "published_at": "2026-10-26T13:20:00Z"
+        }
+      ]
+    },
+    {
+      "id": "c20261026-0081",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-26T17:29:50Z",
+      "updated_at": "2026-10-26T17:29:50Z",
+      "articles": [
+        {
+          "key": "466c2e5153a26d15",
+          "title": "HD Hyundai Electric Wins More SK hynix Power Equipment Orders",
+          "url": "https://www.thelec.net/news/articleView.html?idxno=14930",
+          "source": "디일렉",
+          "lang": "en",
+          "published_at": "2026-10-26T13:30:09Z"
+        }
+      ]
     }
   ]
 }
