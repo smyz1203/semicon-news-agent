@@ -1,0 +1,113 @@
+# 뉴스 Agent 설정 파일
+# 이 파일만 고쳐도 Agent의 동작(모델, 비용 한도, 분류 기준, 중요도 기준)을 바꿀 수 있습니다.
+
+# ── AI 모델 ─────────────────────────────────────────────
+model: claude-sonnet-5-5
+# effort: AI가 얼마나 깊게 생각할지 (low / medium / high). 높을수록 비싸고 느림.
+effort:
+  cluster: low      # 같은 이슈끼리 묶기·분류
+  summarize: low    # 요약·중요도 판단
+# 거절(refusal) 시 서버가 다른 모델로 자동 재시도
+server_fallback: true
+
+# ── 한도 (비용 폭주 방지) ─────────────────────────────────
+limits:
+  max_articles_per_run: 80     # 1차 거르기 후 AI에 넘길 최대 기사 묶음 수
+  max_summaries_per_run: 30    # 한 번 실행에서 요약할 최대 이슈 수
+  cluster_max_tokens: 8000     # 묶기 호출 1회의 최대 출력 토큰
+  summarize_max_tokens: 4000   # 요약 호출 1회의 최대 출력 토큰
+  summary_input_chars: 1500    # 요약에 넘길 기사 1건당 최대 글자 수
+  summary_articles_per_issue: 4
+
+# ── 수집 기간 ─────────────────────────────────────────────
+lookback:
+  first_run_hours: 24     # 첫 실행 때 가져올 기간
+  overlap_minutes: 30     # 지난 성공 시각보다 조금 앞에서부터 가져옴 (늦게 올라온 기사 대비)
+  max_age_hours: 48       # 이보다 오래된 기사는 버림
+
+# ── 보관 기간 ─────────────────────────────────────────────
+retention:
+  issues_days: 30          # 웹에 보여줄 기간. 지나면 data/archive로 이동
+  active_issue_hours: 72   # 새 기사를 붙일 수 있는 "진행 중" 이슈 기간
+  seen_url_days: 14        # 이미 본 URL 기억 기간
+  runs_keep: 100           # 실행 기록 보관 개수
+
+# ── 1차 중복 거르기 ───────────────────────────────────────
+dedupe:
+  title_similarity: 0.6    # 제목 글자 유사도(0~1). 이 이상이고 회사가 같으면 같은 기사로 봄
+  max_hours_apart: 48
+
+# ── 추정 비용 계산용 단가 (USD / 100만 토큰, Sonnet 5.5 기준) ─────
+pricing_per_mtok:
+  input: 2.0
+  output: 10.0
+  cache_write: 2.5
+  cache_read: 0.2
+
+# ── 분류 ──────────────────────────────────────────────────
+categories:
+  - 메모리
+  - 파운드리/시스템반도체
+  - AI반도체
+  - 장비/소재/부품
+  - 디스플레이
+  - 정책/무역
+  - 실적/투자/시장
+
+# ── 중요도 기준 (AI가 이 기준으로 1~5점을 매김) ──────────────
+importance:
+  criteria: |
+    5 (매우 중요): 조 단위 투자·공장 신설/철수, 주요 기업 인수합병, 수출 규제·관세·보조금 등 정책 변화,
+                  주요 기업 분기 실적 발표, 차세대 기술 양산(HBM 신세대, 2nm 공정, 8.6세대 OLED 등)
+    4 (중요): 대형 수주·공급 계약, 메모리/패널 가격 동향, 주요 경영진 교체, 대형 소송·특허 분쟁
+    3 (참고): 신제품·신기술 발표, 시장조사기관 전망(TrendForce, Omdia, Counterpoint 등)
+    2 (일반): 일반 업계 동향, 전시회·행사 소식
+    1 (낮음): 단순 홍보성 기사, 단순 주가 등락, 칼럼·인터뷰
+  # 이 기업이 직접 관련되면 한 단계 더 중요하게 봄 (최대 5점)
+  watch_companies:
+    - 삼성전자
+    - SK하이닉스
+    - 삼성디스플레이
+    - LG디스플레이
+    - TSMC
+    - 마이크론
+    - 인텔
+    - ASML
+    - BOE
+    - 엔비디아
+
+# ── 기업 이름 사전 (한글·영문 이름 연결, 중복 판단에 사용) ─────────
+companies:
+  삼성전자: [삼성전자, Samsung Electronics]
+  SK하이닉스: [SK하이닉스, 하이닉스, SK hynix, Hynix]
+  삼성디스플레이: [삼성디스플레이, Samsung Display]
+  LG디스플레이: [LG디스플레이, LG Display, LGD]
+  삼성전기: [삼성전기, Samsung Electro-Mechanics]
+  TSMC: [TSMC]
+  마이크론: [마이크론, Micron]
+  인텔: [인텔, Intel]
+  ASML: [ASML]
+  BOE: [BOE, 징둥팡]
+  엔비디아: [엔비디아, NVIDIA, Nvidia]
+  AMD: [AMD]
+  퀄컴: [퀄컴, Qualcomm]
+  애플: [애플, Apple]
+  브로드컴: [브로드컴, Broadcom]
+  키옥시아: [키옥시아, Kioxia]
+  웨스턴디지털: [웨스턴디지털, Western Digital]
+  SMIC: [SMIC]
+  화웨이: [화웨이, Huawei]
+  램리서치: [램리서치, Lam Research]
+  어플라이드머티어리얼즈: [어플라이드머티어리얼즈, 어플라이드, Applied Materials]
+  도쿄일렉트론: [도쿄일렉트론, Tokyo Electron, TEL]
+  한미반도체: [한미반도체, Hanmi Semiconductor]
+  DB하이텍: [DB하이텍, DB HiTek]
+  CXMT: [CXMT, 창신메모리]
+  YMTC: [YMTC, 창장메모리]
+
+# ── 관련성 키워드 (일반 매체 RSS에서 이 단어가 하나도 없으면 버림) ─────
+keywords:
+  ko: [반도체, 메모리, D램, 디램, 낸드, 파운드리, 웨이퍼, 시스템반도체, 비메모리, AI칩, AI 칩, 패키징, 후공정,
+       노광, 식각, 증착, 소부장, 디스플레이, 올레드, 패널, 마이크로LED, 마이크로 LED, 퀀텀닷, 폴더블, 칩스법]
+  en: [semiconductor, chip, foundry, wafer, DRAM, NAND, HBM, lithography, EUV, packaging, display, OLED, LCD,
+       microLED, panel]
