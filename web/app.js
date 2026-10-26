@@ -265,20 +265,13 @@ function renderCategories() {
 
   const ranked = names.map((c) => ({ label: c, value: counts.get(c) || 0, selected: view.category === c }))
     .sort((a, b) => b.value - a.value);
-  let rows = ranked.slice(0, LIST_ROWS);
-  const picked = ranked.find((r) => r.selected);
-  if (picked && !rows.includes(picked)) rows = [...rows.slice(0, LIST_ROWS - 1), picked];
-  const others = ranked.filter((r) => !rows.includes(r));
+  const rows = topRows(ranked);
+  const select = (r) => { view.category = view.category === r.label ? null : r.label; render(); };
 
   $("cat-note").textContent = `${names.length}개 분야`;
-  Charts.barList($("category-chart"), rows, {
-    caption: "분야별 이슈 수",
-    onSelect: (r) => { view.category = view.category === r.label ? null : r.label; render(); },
-  });
-  if (others.length) {
-    $("category-chart").append(h("p", { class: "barlist-more" },
-      `그 밖의 ${others.length}개 분야 ${num(others.reduce((s, r) => s + r.value, 0))}건`));
-  }
+  Charts.barList($("category-chart"), rows, { caption: "분야별 이슈 수", onSelect: select });
+  rankings.category = { title: "분야별 이슈 전체 순위", note: "분야를 누르면 그 분야 이슈만 봅니다.", rows: ranked, onSelect: select };
+  if (ranked.length > rows.length) $("category-chart").append(moreButton("category", `전체 순위 보기 (${names.length}개 분야)`));
   if (!rows.length) $("category-chart").replaceChildren(h("p", { class: "barlist-more" }, "이 조건에 맞는 이슈가 없습니다."));
 }
 
@@ -286,18 +279,43 @@ function renderCategories() {
 function renderCompanies(shown) {
   const counts = new Map();
   for (const issue of shown) for (const name of new Set(issue.companies || [])) counts.set(name, (counts.get(name) || 0) + 1);
-  const rows = [...counts].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "ko"))
-    .slice(0, LIST_ROWS)
+  const ranked = [...counts].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "ko"))
     .map(([label, value]) => ({ label, value, selected: view.company === label }));
+  const rows = topRows(ranked);
   if (!rows.length) {
     $("company-chart").replaceChildren(h("p", { class: "barlist-more" }, "이 조건의 이슈에는 기업 이름이 없습니다."));
     return;
   }
-  Charts.barList($("company-chart"), rows, {
-    thin: true,
-    caption: "많이 나온 기업과 이슈 수",
-    onSelect: (r) => { view.company = r.selected ? null : r.label; render(); },
+  const select = (r) => { view.company = r.selected ? null : r.label; render(); };
+  Charts.barList($("company-chart"), rows, { thin: true, caption: "많이 나온 기업과 이슈 수", onSelect: select });
+  rankings.company = { title: "많이 나온 기업 전체 순위", note: "기업을 누르면 그 기업 이슈만 봅니다.", rows: ranked, onSelect: select };
+  if (ranked.length > rows.length) $("company-chart").append(moreButton("company", `전체 순위 보기 (${ranked.length}개 기업)`));
+}
+
+// 카드에는 상위 5개만. 고른 항목이 5위 밖이면 마지막 줄에 대신 보여 줌
+function topRows(ranked) {
+  const rows = ranked.slice(0, LIST_ROWS);
+  const picked = ranked.find((r) => r.selected);
+  return picked && !rows.includes(picked) ? [...rows.slice(0, LIST_ROWS - 1), picked] : rows;
+}
+
+// 전체 순위 창: 카드와 같은 기간·필터의 순위 전부. 항목을 누르면 카드에서 누른 것과 같고 창은 닫힘
+const rankings = {};
+
+function moreButton(kind, text) {
+  return h("button", { type: "button", class: "barlist-more more-button", onclick: () => openRanking(kind) }, text);
+}
+
+function openRanking(kind) {
+  const { title, note, rows, onSelect } = rankings[kind];
+  $("rank-title").textContent = title;
+  $("rank-note").textContent = `${PERIOD_TEXT[view.period]} 이슈 기준 · ${note}`;
+  Charts.barList($("rank-list"), rows, {
+    rank: true,
+    caption: title,
+    onSelect: (r) => { $("rank-dialog").close(); onSelect(r); },
   });
+  $("rank-dialog").showModal();
 }
 
 // ── 참고자료: 중요도 기준표 ─────────────────────────────────
