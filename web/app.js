@@ -43,19 +43,6 @@ const num = (n) => Number(n || 0).toLocaleString("ko-KR");
 const usd = (n) => `$${Number(n || 0).toFixed(4)}`;
 const sourceCount = (issue) => new Set(issue.articles.map((a) => a.source)).size;
 
-function kstDateKey(iso) {
-  return new Intl.DateTimeFormat("en-CA", { timeZone: KST }).format(new Date(iso)); // 2026-10-26
-}
-
-function dayLabel(key) {
-  const today = kstDateKey(new Date().toISOString());
-  const yesterday = kstDateKey(new Date(Date.now() - 86400000).toISOString());
-  if (key === today) return "오늘";
-  if (key === yesterday) return "어제";
-  const d = new Date(key + "T12:00:00+09:00");
-  return new Intl.DateTimeFormat("ko-KR", { timeZone: KST, month: "long", day: "numeric", weekday: "short" }).format(d);
-}
-
 function ago(iso) {
   const minutes = Math.max(0, Math.round((Date.now() - new Date(iso)) / 60000));
   if (minutes < 1) return "방금 전";
@@ -186,20 +173,10 @@ function render() {
   $("top-list").replaceChildren(...top.map(topCard));
   $("top-note").textContent = high.length > top.length ? `중요도 4~5점 ${num(high.length)}건 중 상위 ${top.length}건` : "중요도 4~5점";
 
-  // 그 밖의 이슈: 주요 이슈에 나온 것은 빼고, 날짜(한국 시간)별로
+  // 그 밖의 이슈: 주요 이슈에 나온 것은 빼고 중요도 순 (시각은 오른쪽 칸에)
   const topIds = new Set(top.map((i) => i.id));
   const rest = shown.filter((i) => !topIds.has(i.id));
-  const days = new Map();
-  for (const issue of rest) {
-    const key = kstDateKey(issue.updated_at);
-    if (!days.has(key)) days.set(key, []);
-    days.get(key).push(issue);
-  }
-  const rows = [...days.keys()].sort().reverse().flatMap((key) => [
-    h("h3", { class: "day-head" }, dayLabel(key), h("span", { class: "num" }, `${num(days.get(key).length)}건`)),
-    ...days.get(key).map(issueRow),
-  ]);
-  $("timeline").replaceChildren(...rows);
+  $("timeline").replaceChildren(...rest.map(issueRow));
   $("all-label").textContent = top.length ? "그 밖의 이슈" : "이슈";
   $("count").textContent = `${num(rest.length)}건`;
   $("empty").hidden = rest.length > 0;
