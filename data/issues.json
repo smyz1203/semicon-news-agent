@@ -1,7 +1,910 @@
 {
   "version": 1,
-  "updated_at": "2026-10-26T19:02:04Z",
+  "updated_at": "2026-10-26T19:07:39Z",
   "issues": [
+    {
+      "id": "c20261026-0090",
+      "headline": "메모리 가격 상승으로 PC 출하량 21% 감소",
+      "summary": [
+        "올해 3분기 글로벌 PC 출하량이 5700만대로 21% 감소했다.",
+        "메모리 반도체 가격 상승이 주요 원인으로 작용했으며, 애플과 에이수스는 점유율을 높였다.",
+        "이러한 상황은 PC 시장 회복에 부정적인 영향을 미칠 것으로 예상된다."
+      ],
+      "category": "기타",
+      "tags": [
+        "PC 출하량",
+        "메모리 가격",
+        "시장 점유율",
+        "애플",
+        "에이수스"
+      ],
+      "companies": [
+        "애플",
+        "에이수스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "애플",
+        "에이수스"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T18:29:43Z",
+      "updated_at": "2026-10-26T19:07:39Z",
+      "articles": [
+        {
+          "key": "cf369673312a220e",
+          "title": "메모리값 급등에 PC 출하 21% 감소…애플·에이수스는 점유율 확대",
+          "url": "https://www.inews24.com/view/2018665",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-25T06:48:37Z"
+        },
+        {
+          "key": "a088bb05530b7bcb",
+          "title": "부품값 상승에 PC 교체수요 위축…글로벌 출하량 21% 급감",
+          "url": "https://www.dt.co.kr/article/12091116",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-25T08:54:16Z"
+        }
+      ],
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261026-0103",
+      "headline": "DB하이텍, 차량용 반도체 품질 인증 갱신",
+      "summary": [
+        "DB하이텍이 IATF 16949 인증을 갱신하며 차량용 반도체 품질을 강화했다.",
+        "부천캠퍼스와 상우캠퍼스에서 모두 심사를 통과해 인증을 유지하게 되었다.",
+        "이번 인증 갱신은 반도체 웨이퍼 파운드리 제조 전 분야에 걸쳐 이루어졌다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "DB하이텍",
+        "IATF 16949",
+        "차량용 반도체",
+        "품질 인증"
+      ],
+      "companies": [
+        "DB하이텍"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "DB하이텍"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점, 매체 4곳 보도 +1 → 5점(최고점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T18:29:43Z",
+      "updated_at": "2026-10-26T19:07:39Z",
+      "articles": [
+        {
+          "key": "2b3eaf7d4c703524",
+          "title": "DB하이텍, 자동차 품질 인증 갱신…차량용 반도체 경쟁력 강화",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408726",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-26T00:11:54Z"
+        },
+        {
+          "key": "0e911e7860009b05",
+          "title": "DB하이텍, 자동차 품질 인증 갱신…車 반도체 경쟁력 강화",
+          "url": "https://www.dt.co.kr/article/12091169",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-26T00:31:27Z"
+        },
+        {
+          "key": "e27b66824c7fdf6a",
+          "title": "DB하이텍, 차량용 반도체 품질 인증 갱신…23년간 유지",
+          "url": "https://www.inews24.com/view/2018781",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-26T02:07:30Z"
+        },
+        {
+          "key": "014b2d1bb7b7079d",
+          "title": "DB하이텍, 파운드리 분야 자동차 품질 표준 인증 갱신",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64279",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-26T10:13:03Z"
+        }
+      ],
+      "importance_raw": 6
+    },
+    {
+      "id": "c20261026-0111",
+      "headline": "삼성전자, 3분기 HBM 매출 SK하이닉스 초과 전망",
+      "summary": [
+        "삼성전자가 3분기 HBM 매출에서 SK하이닉스를 초과할 것으로 예상된다.",
+        "미국 투자은행 번스타인의 분석에 따르면 삼성전자의 HBM 매출은 87억 달러로 추정됐다.",
+        "이는 두 기업의 메모리 호황을 반영하며, 양사의 영업이익 합산은 180조원을 넘길 것으로 보인다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "HBM",
+        "삼성전자",
+        "SK하이닉스",
+        "3분기 실적",
+        "메모리 호황"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자, SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-10-26T18:29:43Z",
+      "updated_at": "2026-10-26T19:07:39Z",
+      "articles": [
+        {
+          "key": "8a01117d1d9166b5",
+          "title": "삼성전자·SK하이닉스, 3분기 영업익 180조 넘나…메모리 호황에 실적 질주",
+          "url": "https://www.inews24.com/view/2018676",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-25T07:22:51Z"
+        },
+        {
+          "key": "64ee6ad1763ac123",
+          "title": "삼성전자, 3분기 HBM 매출서 SK하이닉스 추월 전망…번스타인 분석",
+          "url": "https://www.inews24.com/view/2018911",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-26T04:55:51Z"
+        },
+        {
+          "key": "7fae14477d622f0b",
+          "title": "Samsung may have overtaken SK hynix in HBM revenue, analysis suggests",
+          "url": "https://www.koreaherald.com/article/10915040",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-26T05:58:40Z"
+        }
+      ],
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261026-0127",
+      "headline": "HD 현대일렉트릭, SK hynix 전력 장비 추가 수주",
+      "summary": [
+        "HD 현대일렉트릭이 SK hynix와 추가 전력 장비 계약을 체결했다.",
+        "구체적인 수주 규모와 내용은 공개되지 않았으나, 이는 양사의 협력을 강화하는 중요한 성과로 평가된다.",
+        "이로 인해 HD 현대일렉트릭의 사업 확대와 SK hynix의 생산 안정성 향상에 기여할 것으로 보인다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "전력 장비",
+        "수주",
+        "SK hynix",
+        "HD 현대일렉트릭"
+      ],
+      "companies": [
+        "HD 현대일렉트릭",
+        "SK hynix"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "HD 현대일렉트릭",
+        "SK hynix"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 관심 기업(SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-10-26T18:29:43Z",
+      "updated_at": "2026-10-26T19:07:39Z",
+      "articles": [
+        {
+          "key": "f0704afde62586c3",
+          "title": "HD현대, SK하이닉스 전력기기 수주 릴레이",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64263",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-26T07:53:38Z"
+        },
+        {
+          "key": "466c2e5153a26d15",
+          "title": "HD Hyundai Electric Wins More SK hynix Power Equipment Orders",
+          "url": "https://www.thelec.net/news/articleView.html?idxno=14930",
+          "source": "디일렉",
+          "lang": "en",
+          "published_at": "2026-10-26T13:30:09Z"
+        }
+      ],
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261026-0139",
+      "headline": "LG디스플레이, 카메라 빛 투과율 개선 OLED 특허 획득",
+      "summary": [
+        "LG디스플레이가 화면 아래 카메라와 센서를 배치하는 OLED 기술 특허를 등록했다.",
+        "이 기술은 화면 영역의 배선을 투명하게 만들어 빛 투과율을 높이는 방향으로 설계됐다.",
+        "이는 차세대 디스플레이 기술에 큰 영향을 미칠 것으로 기대된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "특허",
+        "카메라",
+        "아래 장착",
+        "빛 투과율"
+      ],
+      "companies": [
+        "LG디스플레이"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점, 관심 기업(LG디스플레이) +1 → 5점(최고점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T19:07:39Z",
+      "updated_at": "2026-10-26T19:07:39Z",
+      "articles": [
+        {
+          "key": "b8b3f90cad65f2e4",
+          "title": "화면 구멍 없애고 카메라 빛 투과율 높인다…LGD, UDC 특허 등록",
+          "url": "https://www.inews24.com/view/2018540",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-24T22:00:01Z"
+        }
+      ],
+      "importance_raw": 6
+    },
+    {
+      "id": "c20261026-0140",
+      "headline": "전기차 반도체 불량 판별 기준 15년 만에 개정",
+      "summary": [
+        "국내 연구팀이 SiC 전력반도체의 불량 판단 기준을 새롭게 정립했다.",
+        "15년 만에 마련된 새로운 기준은 검사 정확도를 획기적으로 향상시켰다.",
+        "이번 변화는 전기차 산업의 품질 개선에 큰 기여가 될 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "SiC",
+        "전력반도체",
+        "전기차",
+        "불량 판별 기준"
+      ],
+      "companies": [],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "국내 연구팀"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T19:07:39Z",
+      "updated_at": "2026-10-26T19:07:39Z",
+      "articles": [
+        {
+          "key": "872e39115c28d9da",
+          "title": "국제 결함 판별 기준, 15년 만에 우리 연구팀이 바꿔 버렸다",
+          "url": "https://www.inews24.com/view/2018599",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-25T03:00:01Z"
+        }
+      ],
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261026-0141",
+      "headline": "삼성전자·SK하이닉스, 역대급 배당 계획 주목",
+      "summary": [
+        "삼성전자와 SK하이닉스는 3분기 실적 발표를 앞두고 있다.",
+        "삼성전자는 30조 원, SK하이닉스는 40조 원의 추가 주주환원을 계획하고 있다.",
+        "이는 반도체 호황에 따른 것으로, 주주들에게 긍정적인 신호를 보낸다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "주주환원",
+        "삼성전자",
+        "SK하이닉스",
+        "반도체 호황",
+        "3분기 실적"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자, SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T19:07:39Z",
+      "updated_at": "2026-10-26T19:07:39Z",
+      "articles": [
+        {
+          "key": "2d42f1be6e5ed2cf",
+          "title": "삼성전자 30조 배당·SK하이닉스 40조 자사주…추가 주주환원 주목",
+          "url": "https://www.inews24.com/view/2018681",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-25T07:23:34Z"
+        }
+      ],
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261026-0142",
+      "headline": "삼성·SK, 미국 반도체 생산거점 구축 가속화",
+      "summary": [
+        "삼성전자와 SK하이닉스가 미국에서 반도체 생산거점 구축을 가속화하고 있다.",
+        "인텔과 TSMC도 현재 공장 증설을 추진 중이며, 일본과 한국 소부장 업체들도 참여할 예정이다.",
+        "이로 인해 미국 내 반도체 산업의 자립도가 높아지는 동시에 관련 협력 업체들에게 기회가 증가할 전망이다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "미국 반도체",
+        "삼성전자",
+        "SK하이닉스",
+        "TSMC",
+        "반도체 공급망"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "인텔",
+        "TSMC"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "설비 투자 3점, 관심 기업(삼성전자, SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T19:07:39Z",
+      "updated_at": "2026-10-26T19:07:39Z",
+      "articles": [
+        {
+          "key": "736ca667940d10e6",
+          "title": "삼성은 테일러·SK는 인디애나…美 반도체 공급망 구축 속도",
+          "url": "https://www.inews24.com/view/2018510",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-25T22:00:02Z"
+        }
+      ],
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261026-0143",
+      "headline": "삼성·SK하이닉스, 중국 낸드 적층 고도화 추진",
+      "summary": [
+        "삼성전자와 SK하이닉스가 중국 3D 낸드플래시의 적층 단수를 높이고 있다.",
+        "삼성은 시안 공장에서 200단에서 286단으로, SK는 다롄 공장에서 최대 240단의 생산 승인을 받고 있다.",
+        "이 조치는 AI 수요 증가에 대응하고 중국 YMTC와의 경쟁력을 강화하기 위한 전략이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "3D 낸드",
+        "AI 수요",
+        "중국 YMTC",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점, 관심 기업(삼성전자, SK하이닉스) +1 → 5점(최고점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T19:07:39Z",
+      "updated_at": "2026-10-26T19:07:39Z",
+      "articles": [
+        {
+          "key": "5ae1cb36205a61a3",
+          "title": "삼성·SK하이닉스, 中 낸드 고층화 추진…YMTC 추격 견제",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408732",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-26T02:00:00Z"
+        }
+      ],
+      "importance_raw": 6
+    },
+    {
+      "id": "c20261026-0144",
+      "headline": "삼성전자, HBM5 전시로 차세대 기술 공개",
+      "summary": [
+        "삼성전자가 26일부터 30일까지 '2026 삼성기술전'에서 HBM5를 포함한 차세대 기술을 전시한다.",
+        "이 행사에서는 8세대 고대역폭메모리 기술과 다양한 반도체 혁신이 공개될 예정이다.",
+        "삼성의 기술 전시가 반도체 산업의 기술 경쟁력을 강화하는 데 의미가 크다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "HBM5",
+        "삼성기술전",
+        "차세대 반도체",
+        "고대역폭메모리"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점, 관심 기업(삼성전자) +1 → 5점(최고점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T19:07:39Z",
+      "updated_at": "2026-10-26T19:07:39Z",
+      "articles": [
+        {
+          "key": "e6cbbf878499442f",
+          "title": "삼성전자, '삼성기술전'서 HBM5 전시…전영현 등 DS 경영진 참석",
+          "url": "https://www.inews24.com/view/2018816",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-26T02:09:31Z"
+        }
+      ],
+      "importance_raw": 6
+    },
+    {
+      "id": "c20261026-0145",
+      "headline": "AI 패권 전쟁 주제로 SK하이닉스 발표",
+      "summary": [
+        "'아이포럼 2026'이 22일 서울에서 열렸다.",
+        "SK하이닉스의 명석주 팀장이 AI 인프라 및 HBM 마케팅에 대해 발표했다.",
+        "이번 발표는 대한민국의 AI 패권을 위한 새로운 질서와 전략을 강조했다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 패권 전쟁",
+        "HBM 마케팅",
+        "AI 인프라"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T19:07:39Z",
+      "updated_at": "2026-10-26T19:07:39Z",
+      "articles": [
+        {
+          "key": "6cda2730a4f95222",
+          "title": "[아이TV] '아이포럼 2026' 명석주 SK하이닉스 AI Infra / HBM Marketing 팀장 발표",
+          "url": "https://www.inews24.com/view/2018940",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-26T04:55:30Z"
+        }
+      ],
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261026-0146",
+      "headline": "슈퍼마이크로, 256개 엔비디아 베라 CPU 탑재 랙 공개",
+      "summary": [
+        "슈퍼마이크로가 엔비디아 베라 CPU를 256개 탑재한 랙을 공개했다.",
+        "이 랙은 수냉식 설계로 AI 및 강화학습 워크로드에 최적화되어 있으며, 최대 2만2500개의 샌드박스를 지원한다.",
+        "슈퍼마이크로의 엔비디아 베라 루빈 NVL72와 함께 운영할 수 있어 효율적인 데이터 처리가 가능하다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엔비디아 베라 CPU",
+        "수냉식 시스템",
+        "AI 컴퓨팅",
+        "고밀도 CPU",
+        "슈퍼마이크로"
+      ],
+      "companies": [
+        "슈퍼마이크로",
+        "엔비디아"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "슈퍼마이크로",
+        "엔비디아"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점, 관심 기업(엔비디아) +1 → 5점(최고점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T19:07:39Z",
+      "updated_at": "2026-10-26T19:07:39Z",
+      "articles": [
+        {
+          "key": "4e671c867289e3ae",
+          "title": "슈퍼마이크로, 엔비디아 베라 CPU 256개 탑재 100% 수냉식 랙 공개",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408760",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-26T05:30:00Z"
+        }
+      ],
+      "importance_raw": 6
+    },
+    {
+      "id": "c20261026-0147",
+      "headline": "SK하이닉스, 40조원 자사주 5일 소각 예정",
+      "summary": [
+        "SK하이닉스는 40조원 규모의 자사주 매입을 완료하고, 다음 달 5일 전량을 소각할 계획이다.",
+        "정정 공시에 따르면 소각되는 주식은 총 2,369만 3,272주로, 이는 회사의 주가 안정성을 높이기 위한 조치이다.",
+        "이번 자사주 소각은 주주가치를 환원하고 시장 신뢰를 강화하는 데 중요한 의미를 갖는다."
+      ],
+      "category": "기타",
+      "tags": [
+        "자사주 매입",
+        "주가 안정",
+        "주주 환원",
+        "SK하이닉스",
+        "소각"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T19:07:39Z",
+      "updated_at": "2026-10-26T19:07:39Z",
+      "articles": [
+        {
+          "key": "e40f027f5751229b",
+          "title": "SK하이닉스, 자사주 40조원어치 내달 5일 전량 소각",
+          "url": "https://www.inews24.com/view/2019102",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-26T08:12:26Z"
+        }
+      ],
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261026-0148",
+      "headline": "광학 안정성, 반도체 공정관리의 새로운 이슈로 부상",
+      "summary": [
+        "SEMI에 따르면 2026년 300mm 팹 장비 지출이 1330억 달러로 18% 증가할 예정이다.",
+        "OPTOMAN의 테스트에서 193nm 이온빔 스퍼터링 거울이 50억 번의 레이저 펄스를 견디며 반사율이 0.5% 미만으로 감소했다.",
+        "정확한 공정 관리를 위해, 장비 제작자들은 초기의 반사타겟 외에도 다양한 실험적 조건들을 요구해야 한다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "광학 안정성",
+        "레이저 펄스",
+        "공정 관리",
+        "반사율",
+        "장비 제작"
+      ],
+      "companies": [
+        "OPTOMAN"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "OPTOMAN"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-26T19:07:39Z",
+      "updated_at": "2026-10-26T19:07:39Z",
+      "articles": [
+        {
+          "key": "7997dbba8115d519",
+          "title": "Optical Stability Is Becoming a Process-Control Issue",
+          "url": "https://www.semiconductor-digest.com/optical-stability-is-becoming-a-process-control-issue/?utm_source=rss&utm_medium=rss&utm_campaign=optical-stability-is-becoming-a-process-control-issue",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-10-26T12:55:37Z"
+        }
+      ],
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261026-0149",
+      "headline": "에드워즈, 차세대 터보펌프 공개",
+      "summary": [
+        "에드워즈가 차세대 터보펌프를 공개하며 펌프 속도를 5,000리터 이상으로 늘렸다고 밝혔다.",
+        "이 새로운 펌프는 SEMICON West에서 공식 출시되며, 7,000리터 펌프도 개발 중이다.",
+        "향상된 펌핑 속도로 FinFET 및 메모리 구조의 균일성과 수율을 개선할 수 있을 것으로 기대된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "터보펌프",
+        "펌핑속도",
+        "SEMICON West",
+        "AI모델링",
+        "우주항공기술"
+      ],
+      "companies": [
+        "에드워즈"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "에드워즈"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-26T19:07:39Z",
+      "updated_at": "2026-10-26T19:07:39Z",
+      "articles": [
+        {
+          "key": "8bbb0d6d578eaf8d",
+          "title": "More Pumping Speed, Same Footprint: Edwards Previews Its Next-Gen Turbopumps",
+          "url": "https://www.semiconductor-digest.com/more-pumping-speed-same-footprint-edwards-previews-its-next-gen-turbopumps/?utm_source=rss&utm_medium=rss&utm_campaign=more-pumping-speed-same-footprint-edwards-previews-its-next-gen-turbopumps",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-10-26T12:58:47Z"
+        }
+      ],
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261026-0150",
+      "headline": "에드워즈, 미국 제네시에서 드라이 펌프 생산 개시",
+      "summary": [
+        "에드워즈의 제네시 공장이 저속량 생산을 시작하여 한국 의존도를 줄인다.",
+        "2027년 중반부터 Ganymede 드라이 펌프의 생산이 시작되며, 연간 10,000대에서 20,000대로 확대 가능하다.",
+        "이 공장은 280개의 일자리를 창출하며, 친환경 에너지를 사용해 효율성을 강화한다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "드라이 펌프",
+        "Ganymede",
+        "제네시 공장",
+        "미국 생산",
+        "280개 일자리"
+      ],
+      "companies": [
+        "에드워즈",
+        "마이크론",
+        "인텔"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "에드워즈"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-26T19:07:39Z",
+      "updated_at": "2026-10-26T19:07:39Z",
+      "articles": [
+        {
+          "key": "fedab48f6efbeaf4",
+          "title": "Edwards’ Genesee Facility Enters Production, Bringing Dry Pump Manufacturing to the U.S.",
+          "url": "https://www.semiconductor-digest.com/edwards-genesee-facility-enters-production-bringing-dry-pump-manufacturing-to-the-u-s/?utm_source=rss&utm_medium=rss&utm_campaign=edwards-genesee-facility-enters-production-bringing-dry-pump-manufacturing-to-the-u-s",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-10-26T13:01:07Z"
+        }
+      ],
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261026-0151",
+      "headline": "SEMI, 첨단 패키징 글로벌 허브 구축",
+      "summary": [
+        "SEMI가 첨단 패키징 전문가 네트워크 APHI를 통해 글로벌 거점을 만들고 있다.",
+        "APHI는 기술 개발, 표준화 및 민관 연구개발을 지원하며, 2028년까지 유리 코어 기판의 중요성이 커질 것으로 예상된다.",
+        "이러한 노력이 데이터 센터에서 비트당 에너지를 줄이는 데 도움을 줄 것으로 보인다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "첨단 패키징",
+        "SEMI",
+        "APHI",
+        "유리 코어 기판",
+        "데이터 센터"
+      ],
+      "companies": [
+        "SEMI"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "SEMI",
+        "APHI"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-26T19:07:39Z",
+      "updated_at": "2026-10-26T19:07:39Z",
+      "articles": [
+        {
+          "key": "6fdd382868f7053b",
+          "title": "SEMI Builds a Global Home for Advanced Packaging",
+          "url": "https://www.semiconductor-digest.com/semi-builds-a-global-home-for-advanced-packaging-2/?utm_source=rss&utm_medium=rss&utm_campaign=semi-builds-a-global-home-for-advanced-packaging-2",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-10-26T13:12:26Z"
+        }
+      ],
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261026-0152",
+      "headline": "스팟파이어, AI로 반도체 수율 분석 혁신",
+      "summary": [
+        "스팟파이어는 반도체 수율 엔지니어를 위한 AI 기반 분석 솔루션을 공개했다.",
+        "최신 업데이트에서는 자연어 지원과 AI 거버넌스 제어 기능이 추가되어 있다.",
+        "이 기술은 더욱 빠른 의사결정을 가능하게 하여 제조업체의 수익성을 높일 것으로 기대된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 분석",
+        "반도체 수율",
+        "데이터 센터",
+        "스팟파이어",
+        "자연어 처리"
+      ],
+      "companies": [
+        "스팟파이어"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "스팟파이어"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-26T19:07:39Z",
+      "updated_at": "2026-10-26T19:07:39Z",
+      "articles": [
+        {
+          "key": "70c4961048fe4463",
+          "title": "Spotfire Puts AI Inside the Analysis for Yield Engineers",
+          "url": "https://www.semiconductor-digest.com/spotfire-puts-ai-inside-the-analysis-for-yield-engineers/?utm_source=rss&utm_medium=rss&utm_campaign=spotfire-puts-ai-inside-the-analysis-for-yield-engineers",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-10-26T13:15:12Z"
+        }
+      ],
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261026-0153",
+      "headline": "Cadence, 반도체 설계를 위한 Maestro AI 모델 출시",
+      "summary": [
+        "Cadence가 반도체 및 시스템 설계를 위한 Maestro AI 모델 포트폴리오를 발표했다.",
+        "이 모델은 강화 학습을 통합하여 효율성을 증가시키고 설계 시간을 단축시키는 데 초점을 맞춘다.",
+        "Maestro 기술은 고객에게 혁신을 지원하는 안전한 플랫폼을 제공하고, 복잡한 엔지니어링 작업에서 전문적인 지능을 제공한다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "Maestro AI",
+        "반도체 설계",
+        "강화 학습",
+        "전자 설계 자동화",
+        "시스템 설계 자동화"
+      ],
+      "companies": [
+        "Cadence"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "Cadence"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-26T19:07:39Z",
+      "updated_at": "2026-10-26T19:07:39Z",
+      "articles": [
+        {
+          "key": "87ca36d055eb2fad",
+          "title": "Cadence Unveils Domain-Specialized Maestro AI Models for Chip Design",
+          "url": "https://www.semiconductor-digest.com/cadence-unveils-domain-specialized-maestro-ai-models-for-chip-design/?utm_source=rss&utm_medium=rss&utm_campaign=cadence-unveils-domain-specialized-maestro-ai-models-for-chip-design",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-10-26T18:30:33Z"
+        }
+      ],
+      "importance_raw": 5
+    },
     {
       "id": "c20261026-0098",
       "headline": "다우인시스, 롤러블 자동차 OLED용 초박막 유리 개발",
@@ -663,52 +1566,6 @@
       "importance_raw": 3
     },
     {
-      "id": "c20261026-0090",
-      "headline": "PC 부품값 상승으로 출하량 21% 급감",
-      "summary": [
-        "메모리 등 부품 가격 상승으로 PC 교체 수요가 둔화됐다.",
-        "2023년 3분기 글로벌 PC 출하량은 전년 대비 21% 감소했다.",
-        "대부분 제조사가 출하량 감소를 겪었고, 애플과 에이수스가 상대적으로 선방했다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "PC출하량",
-        "부품가격상승",
-        "메모리",
-        "애플",
-        "에이수스"
-      ],
-      "companies": [
-        "애플",
-        "에이수스"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "애플",
-        "에이수스"
-      ],
-      "importance": 3,
-      "importance_reason": "실적 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T18:29:43Z",
-      "updated_at": "2026-10-26T18:29:43Z",
-      "articles": [
-        {
-          "key": "a088bb05530b7bcb",
-          "title": "부품값 상승에 PC 교체수요 위축…글로벌 출하량 21% 급감",
-          "url": "https://www.dt.co.kr/article/12091116",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-25T08:54:16Z"
-        }
-      ],
-      "importance_raw": 3
-    },
-    {
       "id": "c20261026-0091",
       "headline": "파나소닉, 50만 대 4K OLED 기내 스크린 판매",
       "summary": [
@@ -1151,56 +2008,6 @@
       "importance_raw": 3
     },
     {
-      "id": "c20261026-0103",
-      "headline": "DB하이텍, 자동차 반도체 품질 인증 갱신",
-      "summary": [
-        "DB하이텍이 IATF 16949 인증을 갱신하였다고 발표했다.",
-        "부천캠퍼스와 상우캠퍼스에서 심사를 통과하여 인증을 확보하였다.",
-        "이번 갱신으로 자동차 반도체 품질 관리 체계가 더욱 강화되며, 글로벌 고객사 요구에 부응할 수 있게 되었다."
-      ],
-      "category": "파운드리/시스템반도체",
-      "tags": [
-        "IATF 16949",
-        "자동차 반도체",
-        "품질 인증"
-      ],
-      "companies": [
-        "DB하이텍"
-      ],
-      "event_type": "정책·규제·법",
-      "confirmed": true,
-      "parties": [
-        "DB하이텍"
-      ],
-      "importance": 4,
-      "importance_reason": "정책·규제·법 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T18:29:43Z",
-      "updated_at": "2026-10-26T18:29:43Z",
-      "articles": [
-        {
-          "key": "0e911e7860009b05",
-          "title": "DB하이텍, 자동차 품질 인증 갱신…車 반도체 경쟁력 강화",
-          "url": "https://www.dt.co.kr/article/12091169",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-26T00:31:27Z"
-        },
-        {
-          "key": "014b2d1bb7b7079d",
-          "title": "DB하이텍, 파운드리 분야 자동차 품질 표준 인증 갱신",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=64279",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-10-26T10:13:03Z"
-        }
-      ],
-      "importance_raw": 4
-    },
-    {
       "id": "c20261026-0104",
       "headline": "OLED, 프리미엄 노트북 시장 장악 예고",
       "summary": [
@@ -1506,52 +2313,6 @@
         }
       ],
       "importance_raw": 2
-    },
-    {
-      "id": "c20261026-0111",
-      "headline": "삼성전자, HBM 매출로 SK하이닉스 추월 가능성",
-      "summary": [
-        "삼성전자가 3분기 HBM 매출에서 SK하이닉스를 추월한 것으로 보인다.",
-        "차세대 고대역폭 메모리(HBM)에서 삼성은 87억 달러로 33% 증가, SK하이닉스는 76억 달러로 11% 증가했다.",
-        "이는 AI 메모리 시장에서 삼성의 경쟁력이 강화되고 있음을 의미한다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "HBM",
-        "AI 메모리",
-        "삼성전자",
-        "SK하이닉스",
-        "매출 증가"
-      ],
-      "companies": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "importance": 4,
-      "importance_reason": "실적 3점, 관심 기업(삼성전자, SK하이닉스) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-26T18:29:43Z",
-      "updated_at": "2026-10-26T18:29:43Z",
-      "articles": [
-        {
-          "key": "7fae14477d622f0b",
-          "title": "Samsung may have overtaken SK hynix in HBM revenue, analysis suggests",
-          "url": "https://www.koreaherald.com/article/10915040",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-10-26T05:58:40Z"
-        }
-      ],
-      "importance_raw": 4
     },
     {
       "id": "c20261026-0112",
@@ -2197,51 +2958,6 @@
           "source": "EE Times",
           "lang": "en",
           "published_at": "2026-10-26T13:00:00Z"
-        }
-      ],
-      "importance_raw": 4
-    },
-    {
-      "id": "c20261026-0127",
-      "headline": "HD 현대일렉트릭, SK hynix 전력 장비 추가 수주",
-      "summary": [
-        "HD 현대일렉트릭이 SK hynix와 추가 전력 장비 계약을 체결했다.",
-        "구체적인 수주 규모와 내용은 공개되지 않았으나, 이는 양사의 협력을 강화하는 중요한 성과로 평가된다.",
-        "이로 인해 HD 현대일렉트릭의 사업 확대와 SK hynix의 생산 안정성 향상에 기여할 것으로 보인다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "전력 장비",
-        "수주",
-        "SK hynix",
-        "HD 현대일렉트릭"
-      ],
-      "companies": [
-        "HD 현대일렉트릭",
-        "SK hynix"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "HD 현대일렉트릭",
-        "SK hynix"
-      ],
-      "importance": 4,
-      "importance_reason": "수주·공급 3점, 관심 기업(SK하이닉스) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-26T18:29:43Z",
-      "updated_at": "2026-10-26T18:29:43Z",
-      "articles": [
-        {
-          "key": "466c2e5153a26d15",
-          "title": "HD Hyundai Electric Wins More SK hynix Power Equipment Orders",
-          "url": "https://www.thelec.net/news/articleView.html?idxno=14930",
-          "source": "디일렉",
-          "lang": "en",
-          "published_at": "2026-10-26T13:30:09Z"
         }
       ],
       "importance_raw": 4
