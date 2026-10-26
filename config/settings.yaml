@@ -102,17 +102,12 @@ importance:
     wide_coverage: 1     # 서로 다른 매체 wide_coverage_sources곳 이상이 보도하면
     unconfirmed: -1      # 검토·추진·협상 중이거나 전망·루머처럼 공식 확인이 없는 사건이면
   wide_coverage_sources: 3
-  # 관심 기업 (아래 '기업 이름 사전'의 대표 이름. 1차 거르기의 관련성 판단에도 씀)
+  # 관심 기업: 사건의 직접 당사자이면 +1점 (아래 '기업 이름 사전'의 대표 이름, 판단 근거에도 이 순서로 표시)
   watch_companies:
+    - LG디스플레이
+    - 삼성디스플레이
     - 삼성전자
     - SK하이닉스
-    - 삼성디스플레이
-    - LG디스플레이
-    - TSMC
-    - 마이크론
-    - 인텔
-    - ASML
-    - BOE
     - 엔비디아
 
 # ── 기업 이름 사전 (한글·영문 이름 연결, 중복 판단에 사용) ─────────
@@ -150,3 +145,6 @@ keywords:
        노광, 식각, 증착, 소부장, 디스플레이, 올레드, 패널, 마이크로LED, 마이크로 LED, 퀀텀닷, 폴더블, 칩스법]
   en: [semiconductor, chip, foundry, wafer, DRAM, NAND, HBM, lithography, EUV, packaging, display, OLED, LCD,
        microLED, panel]
+  # 제목에 이 기업 이름이 있으면 키워드가 없어도 관련 기사로 봄 (아래 '기업 이름 사전'의 대표 이름, 별칭도 인식)
+  # 중요도 가산점을 주는 관심 기업(importance.watch_companies)과는 따로 관리한다
+  companies: [삼성전자, SK하이닉스, 삼성디스플레이, LG디스플레이, TSMC, 마이크론, 인텔, ASML, BOE, 엔비디아]
