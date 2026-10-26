@@ -3,7 +3,7 @@
 사용법:
     python -m agent.main --dry-run            # AI 없이 수집·1차 거르기 결과만 출력 (비용 0원)
     python -m agent.main --limit 5            # 소량만 실제로 처리 (테스트용)
-    python -m agent.main                      # 전체 실행 (GitHub Actions가 3시간마다 실행)
+    python -m agent.main                      # 전체 실행 (GitHub Actions가 1시간마다 실행)
     python -m agent.main --data-dir local-data  # 결과를 다른 폴더에 저장
 """
 

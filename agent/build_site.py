@@ -40,6 +40,7 @@ def build(data_dir: Path = DATA_DIR, out_dir: Path = SITE_DIR, local: bool = Fal
         "ai": _ai_label(cfg.settings, runs),
         # '지금 업데이트' 버튼이 실행을 요청할 저장소. Actions에서는 GitHub이 알려주는 값을 우선 사용
         "repo": os.environ.get("GITHUB_REPOSITORY") or cfg.settings.get("github_repo"),
+        # 새로고침 버튼 동작: local = 내 PC 서버, github = GitHub Actions 실행 요청
         "mode": "local" if local else "github",
         "sources": [_source_status(s, state["sources"].get(s.id, {})) for s in cfg.sources],
         "runs": [{k: r.get(k) for k in RUN_FIELDS} for r in runs[-24:]],

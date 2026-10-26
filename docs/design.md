@@ -4,7 +4,7 @@
 
 | 기존 방식의 문제 | Agent가 해결하는 방법 |
 | --- | --- |
-| 여러 매체를 돌아다니며 기사를 검색·확인하는 데 시간이 많이 듦 | 국내·해외 18개 RSS를 3시간마다 자동 수집 |
+| 여러 매체를 돌아다니며 기사를 검색·확인하는 데 시간이 많이 듦 | 국내·해외 18개 RSS를 1시간마다 자동 수집 |
 | 같은 이슈를 다룬 중복 기사가 많음 | 규칙 기반 1차 거르기 + AI가 같은 이슈끼리 묶어 카드 하나로 |
 | 필요한 정보를 고르기 어려움 | 키워드 필터 + AI 관련성 판단, 카테고리·키워드 분류 |
 | 무엇이 중요한지 매번 판단해야 함 | 사용자가 정한 중요도 기준으로 AI가 1~5점과 이유를 매기고, 중요한 이슈를 맨 위에 |
@@ -19,13 +19,13 @@
 | F4 | 요약·중요도 판단 (AI) | 이슈별 기사, 중요도 기준 | 헤드라인, 3줄 요약, 태그, 기업, 중요도 1~5, 이유 | `agent/analyze.py` |
 | F5 | 저장·보관 | F3·F4 결과 | `data/issues.json`, `state.json`, `runs.json`, `archive/` | `agent/store.py` |
 | F6 | 웹 인터페이스 | `data/*.json` | 필터·검색·주요 이슈가 있는 대시보드 | `web/`, `agent/build_site.py` |
-| F7 | 주기 실행·배포 | 3시간 주기 | 데이터 커밋 + GitHub Pages 배포 | `.github/workflows/update.yml` |
+| F7 | 주기 실행·배포 | 1시간 주기 (또는 수동 실행) | 데이터 커밋 + GitHub Pages 배포 | `.github/workflows/update.yml` |
 
 ## 3. 작업 흐름
 
 ```mermaid
 flowchart TD
-    A[GitHub Actions<br/>3시간마다 실행] --> B[F1 RSS 수집<br/>마지막 성공 이후 기사]
+    A[GitHub Actions<br/>1시간마다 실행] --> B[F1 RSS 수집<br/>최근 48시간 기사]
     B --> C[F2 1차 거르기<br/>URL 중복 · 제목 유사 · 키워드]
     C -->|기사 없음| H
     C --> D[F3 AI 이슈 묶기·분류<br/>AI 1회 호출]
