@@ -1,0 +1,10 @@
+anthropic==2.3.0
+courlan==1.4.0
+feedparser==6.0.14
+pydantic==2.14.1
+python-dotenv==1.2.4
+PyYAML==6.0.3
+RapidFuzz==3.14.6
+requests==2.34.2
+tzdata==2026.5
+pytest==9.1.1

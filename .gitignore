@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# 비밀값 (절대 커밋 금지)
+.env
+
+# 빌드 결과 (Actions가 매번 새로 만듦)
+_site/
+
+# OS / 에디터
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
