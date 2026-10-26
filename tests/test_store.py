@@ -42,6 +42,14 @@ def test_renamed_source_is_read_with_new_name(tmp_path):
     assert store.add_articles(loaded, [art], NOW) is False
 
 
+def test_new_source_gives_failed_issue_another_try():
+    from types import SimpleNamespace as A
+    issue = store.new_issue({}, NOW)
+    issue["attempts"] = 3  # 요약 실패 횟수를 다 씀
+    art = A(key="k1", title="t", url="u", source="전자신문", lang="ko", published_at=NOW)
+    assert store.add_articles(issue, [art], NOW) is True
+    assert issue["needs_summary"] is True and issue["attempts"] == 0
+
 
 def test_seen_marking_and_pruning():
     state = store.load_state(store.Path("does-not-exist"))

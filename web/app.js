@@ -391,15 +391,22 @@ function renderOps() {
     ` · 최근 24시간 AI 비용 ${usd(sum(day, "cost_usd"))}`));
 
   // 기사가 이슈가 되기까지 (최근 24시간)
+  // AI 요약은 '요약한 횟수'라 새 이슈 수와 다를 수 있음: 한 번에 30개까지만 요약하고 나머지는 다음 실행에서 하며,
+  // 이미 요약한 이슈도 다른 매체 기사가 붙으면 다시 요약함
   const relevant = sum(day, "relevant");
   const made = sum(day, "new_issues");
   const summarized = sum(day, "summarized");
-  const waiting = day.length ? day[day.length - 1].pending || 0 : 0;
+  const latest = runs[runs.length - 1] || {};   // 대기는 합계가 아니라 지금 상태 (24시간 동안 실행이 없어도 그대로)
+  const waiting = [`대기 ${num(latest.pending)}건`, latest.failed ? `요약 실패 ${num(latest.failed)}건` : null].filter(Boolean).join(" · ");
+  const split = day.every((r) => r.resummarized != null)  // 예전 실행 기록에는 '다시 요약' 수가 없음
+    ? `처음 요약 ${num(summarized - sum(day, "resummarized"))} · 다시 요약 ${num(sum(day, "resummarized"))} · ${waiting}`
+    : `새 이슈와 기사가 늘어난 이슈 · ${waiting}`;
+  const reclassified = sum(day, "classified");
   const cells = [
     { label: "관련 기사", value: num(relevant), sub: `매체 ${meta.sources.length}곳에서 새로 수집` },
-    { label: "새 이슈", value: num(made), sub: made ? `관련 기사 ${(relevant / made).toFixed(1)}건당 1개` : "같은 사건끼리 묶음", arrow: true },
-    { label: "요약", value: num(summarized), sub: `새 이슈와 기사가 늘어난 이슈 · 대기 ${num(waiting)}건`, arrow: true },
-    { label: "AI 비용", value: usd(sum(day, "cost_usd")), sub: `실행 ${num(day.length)}회` },
+    { label: "새 이슈", value: num(made), sub: "같은 사건 기사는 한 이슈로", arrow: true },
+    { label: "AI 요약", value: num(summarized), sub: split },
+    { label: "AI 비용", value: usd(sum(day, "cost_usd")), sub: `실행 ${num(day.length)}회${reclassified ? ` · 재분류 ${num(reclassified)}건` : ""}` },
   ];
   $("pipeline").replaceChildren(...cells.map((c) => h("li", {},
     c.arrow ? h("span", { class: "arrow", "aria-hidden": "true" }, "→") : null,
@@ -467,12 +474,22 @@ function renderOps() {
   // 최근 실행 8회
   const cell = (value, text = num(value)) =>
     value === null || value === undefined ? h("td", { class: "num zero" }, "–") : h("td", { class: value ? "num" : "num zero" }, text);
+  // 요약 칸: 마우스를 올리면 처음/다시 요약, 재분류 수
+  const runCell = (r) => {
+    const td = cell(r.summarized);
+    const parts = [
+      r.resummarized != null && r.summarized ? `처음 요약 ${num(r.summarized - r.resummarized)} · 다시 요약 ${num(r.resummarized)}` : null,
+      r.classified ? `재분류 ${num(r.classified)}건` : null,
+    ].filter(Boolean);
+    if (parts.length) td.title = parts.join("\n");
+    return td;
+  };
   $("runs").replaceChildren(...[...runs].reverse().slice(0, 8).map((r) =>
     h("tr", { class: r.alerts && r.alerts.length ? "alert" : null, title: (r.alerts || []).join("\n") || null },
       h("td", {}, clock(r.at)),
       cell(r.relevant),
       cell(r.new_issues),
-      cell(r.summarized),
+      runCell(r),
       h("td", { class: r.sources_ok < r.sources_total ? "num" : "num zero" }, `${r.sources_ok ?? "–"}/${r.sources_total ?? "–"}`),
       cell(r.cost_usd, usd(r.cost_usd)))));
 }

@@ -165,6 +165,7 @@ def add_articles(issue: dict, articles, now: datetime) -> bool:
             new_source = True
     if new_source:
         issue["needs_summary"] = True
+        issue["attempts"] = 0  # 새 내용이 생겼으니 요약에 실패했던 이슈도 다시 시도
     if added:
         issue["articles"].sort(key=lambda a: a["published_at"])
         langs = {a["lang"] for a in issue["articles"]}

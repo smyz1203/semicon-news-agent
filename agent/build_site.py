@@ -15,8 +15,8 @@ from pathlib import Path
 from agent import store
 from agent.config import DATA_DIR, SITE_DIR, WEB_DIR, load_config
 
-RUN_FIELDS = ("at", "collected", "relevant", "groups", "deferred", "new_issues", "summarized", "pending",
-              "sources_ok", "sources_total", "ai_model", "cost_usd", "alerts")
+RUN_FIELDS = ("at", "collected", "relevant", "groups", "deferred", "new_issues", "summarized", "resummarized",
+              "classified", "pending", "failed", "sources_ok", "sources_total", "ai_model", "cost_usd", "alerts")
 AI_NAMES = {"openai": "OpenAI", "claude": "Claude"}
 # 웹에 게시하는 필드만 골라 담음 (내부 관리용 필드나 실수로 들어간 값이 공개되지 않도록)
 ISSUE_FIELDS = ("id", "headline", "summary", "category", "tags", "companies", "importance", "importance_reason",
