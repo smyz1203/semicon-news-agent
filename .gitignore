@@ -7,8 +7,10 @@ __pycache__/
 # 비밀값 (절대 커밋 금지)
 .env
 
-# 빌드 결과 (Actions가 매번 새로 만듦)
+# 빌드 결과 (Actions·Vercel이 매번 새로 만듦)
 _site/
+.vercel-venv/
+.vercel/
 
 # 로컬 테스트용 데이터 (python -m agent.main --data-dir local-data)
 local-data/

@@ -2,7 +2,7 @@
 
 반도체·디스플레이 업계 뉴스를 **3시간마다 자동으로 모으고**, 같은 이슈를 다룬 **중복 기사를 하나로 묶고**, **한국어로 요약**하고, 내가 정한 기준으로 **중요도를 판단**해 웹페이지로 보여주는 AI Agent입니다.
 
-- 웹페이지: `https://smyz1203.github.io/semicon-news-agent/` (GitHub Pages)
+- 웹페이지: Vercel 배포 주소 (GitHub Pages 주소 `https://smyz1203.github.io/semicon-news-agent/`도 함께 동작)
 - 수집 매체: 국내 9개 · 해외 9개 RSS (디일렉, 전자신문, KIPOST, 연합뉴스, Semiconductor Engineering, TrendForce, OLED-info 등)
 - AI: OpenAI API (기본) 또는 Claude API — `config/settings.yaml`의 `provider` 한 줄로 전환
 
@@ -92,6 +92,16 @@ notepad .env
 | 비용 한도 (실행당 기사·요약 수) | `settings.yaml` → `limits` |
 | 수집 매체 추가·끄기 | `sources.yaml` |
 | 실행 주기 | `.github/workflows/update.yml` → `cron` |
+
+## Vercel 배포
+
+`vercel.json`에 설정이 들어 있어, Vercel에서 이 저장소를 가져오기(Import)만 하면 됩니다.
+
+1. [vercel.com](https://vercel.com)에 GitHub 계정으로 가입·로그인
+2. **Add New → Project** → `semicon-news-agent` 저장소 **Import** (목록에 없으면 "Adjust GitHub App Permissions"에서 이 저장소 접근 허용)
+3. 설정은 그대로 두고 **Deploy**
+
+이후에는 `main`에 커밋이 올라올 때마다(3시간마다 데이터 커밋 포함) Vercel이 `scripts/vercel-build.sh`로 페이지를 다시 만들어 배포합니다.
 
 ## 지금 바로 업데이트하기
 
