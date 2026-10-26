@@ -1,6 +1,7 @@
 anthropic==2.3.0
 courlan==1.4.0
 feedparser==6.0.14
+openai==3.37.0
 pydantic==2.14.1
 python-dotenv==1.2.4
 PyYAML==6.0.3

@@ -4,7 +4,7 @@
 
 - 웹페이지: `https://smyz1203.github.io/semicon-news-agent/` (GitHub Pages)
 - 수집 매체: 국내 9개 · 해외 9개 RSS (디일렉, 전자신문, KIPOST, 연합뉴스, Semiconductor Engineering, TrendForce, OLED-info 등)
-- AI: Claude API (`claude-sonnet-5-5`)
+- AI: OpenAI API (기본) 또는 Claude API — `config/settings.yaml`의 `provider` 한 줄로 전환
 
 ## 왜 만들었나
 
@@ -24,8 +24,8 @@
 ```mermaid
 flowchart LR
     A[RSS 18개] --> B[1차 거르기<br/>URL·제목 중복, 키워드]
-    B --> C[AI 이슈 묶기<br/>Claude 1회]
-    C --> D[AI 요약·중요도<br/>이슈마다 Claude]
+    B --> C[AI 이슈 묶기<br/>1회 호출]
+    C --> D[AI 요약·중요도<br/>이슈마다 호출]
     D --> E[(data/*.json)]
     E --> F[웹페이지<br/>GitHub Pages]
     G[GitHub Actions<br/>3시간마다] -.-> A
@@ -40,7 +40,7 @@ agent/          Python Agent
   main.py         전체 흐름 실행
   collect.py      RSS 수집
   dedupe.py       1차 중복·관련성 거르기
-  analyze.py      Claude: 이슈 묶기, 요약·중요도
+  analyze.py      AI(OpenAI/Claude): 이슈 묶기, 요약·중요도
   prompts.py      AI 지시문
   store.py        JSON 저장
   build_site.py   웹페이지 만들기
@@ -61,7 +61,7 @@ Windows PowerShell 기준입니다.
 py -3.12 -m venv .venv
 .\.venv\Scripts\python.exe -m pip install -r requirements.txt
 
-# 2. API 키 넣기: .env.example을 복사해 .env를 만들고 ANTHROPIC_API_KEY를 붙여넣기
+# 2. API 키 넣기: .env.example을 복사해 .env를 만들고 OPENAI_API_KEY(또는 Claude면 ANTHROPIC_API_KEY)를 붙여넣기
 Copy-Item .env.example .env
 notepad .env
 
@@ -87,7 +87,8 @@ notepad .env
 | --- | --- |
 | 중요도 기준, 관심 기업 | `settings.yaml` → `importance` |
 | 카테고리 | `settings.yaml` → `categories` |
-| AI 모델, 생각 깊이(effort) | `settings.yaml` → `model`, `effort` |
+| AI 제공사 (OpenAI ↔ Claude) | `settings.yaml` → `provider` (`openai` 또는 `claude`) |
+| AI 모델, 생각 깊이(effort) | `settings.yaml` → `openai.model` / `claude.model`, `effort` |
 | 비용 한도 (실행당 기사·요약 수) | `settings.yaml` → `limits` |
 | 수집 매체 추가·끄기 | `sources.yaml` |
 | 실행 주기 | `.github/workflows/update.yml` → `cron` |
@@ -95,7 +96,7 @@ notepad .env
 ## 운영 메모
 
 - **처음 한 번**: 저장소 Settings → Pages → Build and deployment → Source를 **GitHub Actions**로 바꾼 뒤, Actions 탭에서 "뉴스 업데이트"를 수동 실행(Run workflow)합니다.
-- **비밀값**: `ANTHROPIC_API_KEY`는 저장소 Settings → Secrets and variables → Actions에 저장합니다. 코드나 `.env`는 GitHub에 올라가지 않습니다.
+- **비밀값**: 쓰는 제공사의 키(`OPENAI_API_KEY` 또는 `ANTHROPIC_API_KEY`)를 저장소 Settings → Secrets and variables → Actions에 저장합니다. 제공사를 바꾸면 그 제공사의 키도 등록해야 합니다. `.env`는 GitHub에 올라가지 않습니다.
 - **비용**: 웹페이지 아래 "최근 실행"에 회차별 추정 비용이 나옵니다. Anthropic 콘솔에서 월 사용 한도를 걸어 두세요.
 - **알림**: 매체 과반 수집 실패, AI 중단(크레딧 부족 등), 24시간 새 기사 없음이면 Actions 실행이 실패로 표시되고 GitHub이 메일을 보냅니다.
 - **AI가 멈췄을 때**: 기사는 "요약 대기"로 먼저 게시되고, 다음 실행에서 다시 요약합니다.
@@ -109,4 +110,4 @@ notepad .env
 
 ## 기술
 
-Python 3.12 · Anthropic Python SDK (구조화 출력, 프롬프트 캐싱) · feedparser · RapidFuzz · GitHub Actions · GitHub Pages · HTML/CSS/JavaScript
+Python 3.12 · OpenAI Python SDK / Anthropic Python SDK (구조화 출력) · feedparser · RapidFuzz · GitHub Actions · GitHub Pages · HTML/CSS/JavaScript

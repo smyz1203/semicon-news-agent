@@ -1,14 +1,31 @@
 # 뉴스 Agent 설정 파일
 # 이 파일만 고쳐도 Agent의 동작(모델, 비용 한도, 분류 기준, 중요도 기준)을 바꿀 수 있습니다.
 
-# ── AI 모델 ─────────────────────────────────────────────
-model: claude-sonnet-5-5
+# ── AI 제공사와 모델 ──────────────────────────────────────
+# provider를 openai 또는 claude로 바꾸면 그 제공사를 씀.
+# API 키는 제공사마다 다른 이름으로 넣음: openai → OPENAI_API_KEY, claude → ANTHROPIC_API_KEY
+provider: openai
+
+openai:
+  # 주의: OpenAI 공지상 gpt-4o-mini는 2027-01-14 종료 예정 (대체 모델: gpt-6-luna).
+  # 종료되면 실행 시 'API 키 또는 모델 설정 문제' 경고가 오므로, 아래 세 줄을 다른 모델 값으로 바꾸면 됨.
+  model: gpt-4o-mini
+  reasoning: false         # 추론(reasoning) 모델이면 true → 아래 effort를 사용. gpt-4o-mini 같은 일반 모델은 false
+  # 추정 비용 계산용 단가 (USD / 100만 토큰). 모델을 바꾸면 이 값도 바꿔야 비용이 맞게 나옴
+  #   gpt-4o-mini: {input: 0.15, cache_read: 0.075, output: 0.60}               (reasoning: false)
+  #   gpt-6-luna:  {input: 0.10, cache_read: 0.01, cache_write: 0.125, output: 0.50}   (reasoning: true)
+  #   gpt-6.1-sol: {input: 2.0, cache_read: 0.10, cache_write: 2.5, output: 10.0}      (reasoning: true)
+  pricing_per_mtok: {input: 0.15, cache_read: 0.075, output: 0.60}
+
+claude:
+  model: claude-sonnet-5-5
+  server_fallback: true    # 요청이 거절되면 서버가 다른 모델로 자동 재시도
+  pricing_per_mtok: {input: 2.0, output: 10.0, cache_write: 2.5, cache_read: 0.2}
+
 # effort: AI가 얼마나 깊게 생각할지 (low / medium / high). 높을수록 비싸고 느림.
 effort:
   cluster: low      # 같은 이슈끼리 묶기·분류
   summarize: low    # 요약·중요도 판단
-# 거절(refusal) 시 서버가 다른 모델로 자동 재시도
-server_fallback: true
 
 # ── 한도 (비용 폭주 방지) ─────────────────────────────────
 limits:
@@ -39,13 +56,6 @@ retention:
 dedupe:
   title_similarity: 0.6    # 제목 글자 유사도(0~1). 이 이상이고 회사가 같으면 같은 기사로 봄
   max_hours_apart: 48
-
-# ── 추정 비용 계산용 단가 (USD / 100만 토큰, Sonnet 5.5 기준) ─────
-pricing_per_mtok:
-  input: 2.0
-  output: 10.0
-  cache_write: 2.5
-  cache_read: 0.2
 
 # ── 분류 ──────────────────────────────────────────────────
 categories:

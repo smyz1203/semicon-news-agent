@@ -180,6 +180,7 @@ function renderCategories() {
 }
 
 function renderMeta() {
+  if (meta.ai) $("ai-name").textContent = meta.ai;
   const lastRun = meta.last_run_at;
   if (lastRun) {
     $("freshness").textContent = `업데이트 ${ago(lastRun)}`;

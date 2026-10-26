@@ -1,9 +1,12 @@
-"""F3·F4 AI 분석: Claude로 기사를 이슈별로 묶고, 이슈를 요약하고 중요도를 판단한다."""
+"""F3·F4 AI 분석: AI로 기사를 이슈별로 묶고, 이슈를 요약하고 중요도를 판단한다.
+
+AI 제공사는 config/settings.yaml의 provider로 고른다 (openai 또는 claude).
+제공사별 차이(호출 방법, 오류 종류, 사용량 표기)는 OpenAIBackend / ClaudeBackend 안에 가두고,
+나머지(무엇을 묻고, 응답을 어떻게 검증하는지)는 Analyzer가 공통으로 처리한다.
+"""
 
 import logging
 import re
-
-import anthropic
 
 from agent import prompts
 from agent.dedupe import Group
@@ -12,12 +15,18 @@ from agent.store import to_iso
 
 log = logging.getLogger(__name__)
 
-FALLBACK_BETA = "server-side-fallback-2026-07-01"
 MAX_FAIL_STREAK = 3
 COPY_WINDOW = 40  # 요약이 기사 본문을 공백 빼고 이 글자 수 이상 그대로 옮기면 거부
 
 # 공개 저장소에 올라가는 필드라, 프롬프트 지시와 별개로 코드에서 길이를 강제함
 MAX_LEN = {"headline": 60, "summary": 120, "reason": 150, "tag": 30, "company": 30}
+
+# 제공사별로 API 키를 읽는 환경변수 이름
+KEY_ENV = {"openai": "OPENAI_API_KEY", "claude": "ANTHROPIC_API_KEY"}
+
+# OpenAI가 크레딧 소진·사용 한도 초과를 알리는 오류 코드 (기다려도 풀리지 않으므로 AI를 멈춤)
+OPENAI_QUOTA_CODES = {"insufficient_quota", "credit_balance_exhausted", "organization_spend_limit_exceeded",
+                      "project_spend_limit_exceeded", "organization_usage_limit_exceeded"}
 
 
 class AIStopped(Exception):
@@ -28,14 +37,154 @@ class AIError(Exception):
     """이 호출 하나만 실패함 (거절, 응답 형식 오류, 일시적 서버 오류)."""
 
 
-class Analyzer:
-    def __init__(self, settings: dict, client: anthropic.Anthropic | None = None):
-        self.s = settings
+class CallFailed(Exception):
+    """제공사 백엔드가 '이 호출만 실패'를 알릴 때 쓰는 내부 예외. Analyzer가 AIError로 바꿈."""
+
+
+# ── 제공사별 호출 ───────────────────────────────────────────────
+
+
+class OpenAIBackend:
+    """OpenAI Responses API + 구조화 출력(Pydantic)."""
+
+    def __init__(self, settings: dict, client=None):
+        import openai  # 쓰는 제공사의 패키지만 불러옴
+        self.openai = openai
+        self.cfg = settings["openai"]
+        self.model = self.cfg["model"]
+        self.client = client if client is not None else openai.OpenAI(
+            timeout=float(settings["limits"]["ai_request_timeout_seconds"]), max_retries=2)
+
+    def parse(self, *, system: str, user: str, output_format, max_tokens: int, effort: str):
+        openai = self.openai
+        kwargs = {
+            "model": self.model,
+            "instructions": system,
+            "input": user,
+            "text_format": output_format,
+            "max_output_tokens": max_tokens,
+            "store": False,                     # OpenAI 서버에 응답을 저장하지 않음
+            "prompt_cache_key": "semicon-news",  # 같은 지시문을 반복할 때 캐시가 잘 맞도록
+        }
+        if self.cfg.get("reasoning"):
+            kwargs["reasoning"] = {"effort": effort}
+
+        try:
+            resp = self.client.responses.parse(**kwargs)
+        except (openai.AuthenticationError, openai.PermissionDeniedError, openai.NotFoundError) as e:
+            log.error("API 오류: %s", _brief(e))
+            raise AIStopped(f"API 키 또는 모델 설정 문제 ({type(e).__name__})") from e
+        except openai.RateLimitError as e:
+            if e.code in OPENAI_QUOTA_CODES or e.type == "insufficient_quota":
+                log.error("API 오류: %s", _brief(e))
+                raise AIStopped("크레딧 부족 또는 사용 한도 초과") from e
+            raise CallFailed(_brief(e)) from e
+        except (openai.APIError, ValueError) as e:
+            # 잘못된 요청, 연결·서버 오류, 응답 해석 실패.
+            # 출력이 max_output_tokens에서 잘리면 SDK가 JSON 해석 중 pydantic ValidationError(ValueError)를 냄
+            raise CallFailed(_brief(e)) from e
+
+        if resp.status == "incomplete":
+            reason = getattr(resp.incomplete_details, "reason", None)
+            raise CallFailed(f"응답이 끝까지 생성되지 않음 ({reason})")
+        if any(getattr(part, "type", "") == "refusal"
+               for item in resp.output for part in (getattr(item, "content", None) or [])):
+            raise CallFailed("AI가 요청을 거절함")
+        if resp.output_parsed is None:
+            raise CallFailed("응답을 JSON으로 해석하지 못함")
+
+        # input_tokens에는 캐시에서 읽은 토큰·캐시에 새로 쓴 토큰이 포함되어 있으므로 나눠서 집계
+        # (output_tokens에는 추론 토큰이 포함되며, 출력 단가로 과금됨)
+        u = resp.usage
+        details = getattr(u, "input_tokens_details", None)
+        cached = getattr(details, "cached_tokens", 0) or 0
+        written = getattr(details, "cache_write_tokens", 0) or 0
+        usage = {"input": max(0, (u.input_tokens or 0) - cached - written), "output": u.output_tokens or 0,
+                 "cache_write": written, "cache_read": cached}
+        return resp.output_parsed, usage
+
+
+class ClaudeBackend:
+    """Anthropic Messages API + 구조화 출력(Pydantic)."""
+
+    FALLBACK_BETA = "server-side-fallback-2026-07-01"
+
+    def __init__(self, settings: dict, client=None):
+        import anthropic  # 쓰는 제공사의 패키지만 불러옴
+        self.anthropic = anthropic
+        self.cfg = settings["claude"]
+        self.model = self.cfg["model"]
         # 응답이 멈춘 요청 하나가 실행 시간을 다 잡아먹지 않도록 요청마다 시간 제한
         self.client = client if client is not None else anthropic.Anthropic(
             timeout=float(settings["limits"]["ai_request_timeout_seconds"]), max_retries=2)
+
+    def parse(self, *, system: str, user: str, output_format, max_tokens: int, effort: str):
+        anthropic = self.anthropic
+        kwargs = {
+            "model": self.model,
+            "max_tokens": max_tokens,
+            # 같은 실행 안에서 반복되는 지시문은 캐시해서 비용을 줄임
+            "system": [{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}],
+            "messages": [{"role": "user", "content": user}],
+            "output_format": output_format,
+            "output_config": {"effort": effort},
+        }
+        if self.cfg.get("server_fallback"):
+            # 요청이 거절되면 서버가 다른 모델로 자동 재시도
+            kwargs["betas"] = [self.FALLBACK_BETA]
+            kwargs["fallbacks"] = "default"
+
+        try:
+            resp = self.client.beta.messages.parse(**kwargs)
+        except (anthropic.AuthenticationError, anthropic.PermissionDeniedError, anthropic.NotFoundError) as e:
+            log.error("API 오류: %s", _brief(e))
+            raise AIStopped(f"API 키 또는 모델 설정 문제 ({type(e).__name__})") from e
+        except anthropic.BadRequestError as e:
+            if any(word in str(e).lower() for word in ("credit", "billing", "spend")):
+                log.error("API 오류: %s", _brief(e))
+                raise AIStopped("크레딧 부족 또는 사용 한도 초과") from e
+            raise CallFailed(_brief(e)) from e
+        except anthropic.RateLimitError as e:
+            if "spend" in str(e).lower():
+                log.error("API 오류: %s", _brief(e))
+                raise AIStopped("사용 한도 초과") from e
+            raise CallFailed(_brief(e)) from e
+        except (anthropic.APIError, ValueError) as e:  # 연결·서버 오류, 응답 해석 실패
+            raise CallFailed(_brief(e)) from e
+
+        if resp.stop_reason == "refusal":
+            raise CallFailed("AI가 요청을 거절함")
+        if resp.stop_reason == "max_tokens":
+            raise CallFailed("출력이 max_tokens에서 잘림")
+        if resp.parsed_output is None:
+            raise CallFailed("응답을 JSON으로 해석하지 못함")
+
+        u = resp.usage
+        usage = {"input": u.input_tokens or 0, "output": u.output_tokens or 0,
+                 "cache_write": getattr(u, "cache_creation_input_tokens", 0) or 0,
+                 "cache_read": getattr(u, "cache_read_input_tokens", 0) or 0}
+        return resp.parsed_output, usage
+
+
+BACKENDS = {"openai": OpenAIBackend, "claude": ClaudeBackend}
+
+
+# ── 공통 분석 로직 ──────────────────────────────────────────────
+
+
+class Analyzer:
+    def __init__(self, settings: dict, client=None):
+        self.s = settings
+        self.provider = settings["provider"]
+        if self.provider not in BACKENDS:
+            raise ValueError(f"settings.yaml의 provider는 {list(BACKENDS)} 중 하나여야 함: {self.provider}")
+        self.backend = BACKENDS[self.provider](settings, client)
         self.usage = {"calls": 0, "input": 0, "output": 0, "cache_write": 0, "cache_read": 0}
         self._fail_streak = 0
+
+    @property
+    def model(self) -> str:
+        return self.backend.model
 
     # ── F3 이슈 묶기·분류 ─────────────────────────────────────
 
@@ -99,70 +248,33 @@ class Analyzer:
     # ── 비용 ─────────────────────────────────────────────────
 
     def cost_usd(self) -> float:
-        p = self.s["pricing_per_mtok"]
+        p = self.s[self.provider]["pricing_per_mtok"]
         u = self.usage
         total = (u["input"] * p["input"] + u["output"] * p["output"]
-                 + u["cache_write"] * p["cache_write"] + u["cache_read"] * p["cache_read"])
+                 + u["cache_write"] * p.get("cache_write", p["input"]) + u["cache_read"] * p["cache_read"])
         return round(total / 1_000_000, 4)
 
-    # ── API 호출 ─────────────────────────────────────────────
+    # ── 호출 + 실패 집계 ─────────────────────────────────────
 
-    def _parse(self, *, system: str, user: str, output_format, max_tokens: int, effort: str):
-        kwargs = {
-            "model": self.s["model"],
-            "max_tokens": max_tokens,
-            # 같은 실행 안에서 반복되는 지시문은 캐시해서 비용을 줄임
-            "system": [{"type": "text", "text": system, "cache_control": {"type": "ephemeral"}}],
-            "messages": [{"role": "user", "content": user}],
-            "output_format": output_format,
-            "output_config": {"effort": effort},
-        }
-        if self.s.get("server_fallback"):
-            # 요청이 거절되면 서버가 다른 모델로 자동 재시도
-            kwargs["betas"] = [FALLBACK_BETA]
-            kwargs["fallbacks"] = "default"
-
+    def _parse(self, **kwargs):
         # 예외 메시지는 공개 저장소(runs.json)에 남으므로 오류 종류만 기록하고, 자세한 내용은 로그로만
         try:
-            resp = self.client.beta.messages.parse(**kwargs)
-        except (anthropic.AuthenticationError, anthropic.PermissionDeniedError, anthropic.NotFoundError) as e:
-            log.error("API 오류: %s", _brief(e))
-            raise AIStopped(f"API 키 또는 모델 설정 문제 ({type(e).__name__})") from e
-        except anthropic.BadRequestError as e:
-            if any(word in str(e).lower() for word in ("credit", "billing", "spend")):
-                log.error("API 오류: %s", _brief(e))
-                raise AIStopped("크레딧 부족 또는 사용 한도 초과") from e
+            parsed, usage = self.backend.parse(**kwargs)
+        except CallFailed as e:
+            self.usage["calls"] += 1
             raise self._failed(e) from e
-        except anthropic.RateLimitError as e:
-            if "spend" in str(e).lower():
-                log.error("API 오류: %s", _brief(e))
-                raise AIStopped("사용 한도 초과") from e
-            raise self._failed(e) from e
-        except (anthropic.APIError, ValueError) as e:  # 연결·서버 오류, 응답 해석 실패
-            raise self._failed(e) from e
-
         self.usage["calls"] += 1
-        u = resp.usage
-        self.usage["input"] += u.input_tokens or 0
-        self.usage["output"] += u.output_tokens or 0
-        self.usage["cache_write"] += getattr(u, "cache_creation_input_tokens", 0) or 0
-        self.usage["cache_read"] += getattr(u, "cache_read_input_tokens", 0) or 0
-
-        if resp.stop_reason == "refusal":
-            raise self._failed(AIError("AI가 요청을 거절함"))
-        if resp.stop_reason == "max_tokens":
-            raise self._failed(AIError("출력이 max_tokens에서 잘림"))
-        if resp.parsed_output is None:
-            raise self._failed(AIError("응답을 JSON으로 해석하지 못함"))
+        for k, v in usage.items():
+            self.usage[k] += v
         self._fail_streak = 0
-        return resp.parsed_output
+        return parsed
 
     def _failed(self, err: Exception) -> Exception:
         self._fail_streak += 1
-        log.warning("AI 호출 실패 (%d회 연속): %s", self._fail_streak, _brief(err))
+        log.warning("AI 호출 실패 (%d회 연속): %s", self._fail_streak, err)
         if self._fail_streak >= MAX_FAIL_STREAK:
-            return AIStopped(f"AI 호출이 {MAX_FAIL_STREAK}회 연속 실패 ({type(err).__name__})")
-        return AIError(_brief(err))
+            return AIStopped(f"AI 호출이 {MAX_FAIL_STREAK}회 연속 실패")
+        return AIError(str(err))
 
 
 def _brief(err: Exception) -> str:

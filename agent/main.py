@@ -18,7 +18,7 @@ from pathlib import Path
 from dotenv import load_dotenv
 
 from agent import store
-from agent.analyze import AIError, AIStopped, Analyzer
+from agent.analyze import KEY_ENV, AIError, AIStopped, Analyzer
 from agent.collect import collect
 from agent.config import DATA_DIR, load_config
 from agent.dedupe import (CompanyMatcher, KeywordMatcher, attach_to_issues, drop_irrelevant,
@@ -75,10 +75,12 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
 
     analyzer, ai_stopped = None, None
     ai_deadline = time.monotonic() + limits["ai_time_budget_minutes"] * 60
-    if os.environ.get("ANTHROPIC_API_KEY"):
+    key_env = KEY_ENV.get(s["provider"], "API 키")
+    if os.environ.get(key_env):
         analyzer = Analyzer({**s, "limits": limits})
+        log.info("AI: %s / %s", s["provider"], analyzer.model)
     else:
-        ai_stopped = "ANTHROPIC_API_KEY가 설정되지 않음"
+        ai_stopped = f"{key_env}가 설정되지 않음"
 
     # ── F3 AI 이슈 묶기·분류 ─────────────────────────────────
     # 묶기를 못 하면(키 없음, AI 중단, 실패) 새 이슈를 만들지 않고 다음 실행으로 미룸.
@@ -168,6 +170,7 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
         "pending": sum(1 for i in issues if i.get("needs_summary")),
         "sources_ok": sources_ok,
         "sources_total": len(results),
+        "ai_model": f"{s['provider']}/{s[s['provider']]['model']}",
         "ai_calls": analyzer.usage["calls"] if analyzer else 0,
         "tokens": analyzer.usage if analyzer else None,
         "cost_usd": analyzer.cost_usd() if analyzer else 0.0,
