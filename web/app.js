@@ -204,7 +204,7 @@ function renderFinding(shown, high) {
   $("finding").replaceChildren(h("span", {},
     `${PERIOD_TEXT[view.period]} 이슈 `, h("strong", {}, `${num(shown.length)}건`),
     high.length ? [", 중요도 4~5점 ", h("strong", {}, `${num(high.length)}건`), "."] : ".",
-    lead ? ` 가장 높은 이슈는 ‘${titleOf(lead)}’(${lead.importance}점)입니다.` : null));
+    lead ? ` 중요도가 가장 높은 이슈는 ‘${titleOf(lead)}’(${lead.importance}점)입니다.` : null));
 }
 
 // 이슈 수와 중요도 분포
