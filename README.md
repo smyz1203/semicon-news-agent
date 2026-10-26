@@ -3,7 +3,7 @@
 반도체·디스플레이 업계 뉴스를 **1시간마다 자동으로 모으고**, 같은 이슈를 다룬 **중복 기사를 하나로 묶고**, **한국어로 요약**하고, 내가 정한 기준으로 **중요도를 판단**해 웹페이지로 보여주는 AI Agent입니다.
 
 - 웹페이지: `https://smyz1203.github.io/semicon-news-agent/` (GitHub Pages)
-- 수집 매체: 국내 언론사 RSS 10개(디일렉 영문판 포함) · 해외 언론사 RSS 8개 (디일렉, 전자신문, KIPOST, 연합뉴스, Semiconductor Engineering, TrendForce, OLED-info 등)
+- 수집 매체: 국내 9개 · 해외 9개 RSS (디일렉, 전자신문, KIPOST, 연합뉴스, 아이뉴스24, 테크월드뉴스, Semiconductor Engineering, Semiconductor Digest, TrendForce, OLED-info 등)
 - AI: OpenAI API (기본) 또는 Claude API — `config/settings.yaml`의 `provider` 한 줄로 전환
 
 ## 왜 만들었나
