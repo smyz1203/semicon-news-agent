@@ -4,7 +4,7 @@ import anthropic
 import httpx2
 import pytest
 
-from agent.analyze import AIError, AIStopped, Analyzer, clean_summary, resolve_assignments
+from agent.analyze import AIError, AIStopped, Analyzer, clean_summary, copies_source, resolve_assignments
 from agent.config import load_config
 from agent.models import Assignment, ClusterResult, IssueSummary
 
@@ -74,6 +74,33 @@ def test_clean_summary():
     assert clean_summary(bad, SETTINGS["categories"])["category"] == "기타"
     with pytest.raises(AIError):
         clean_summary(SUMMARY.model_copy(update={"summary": [" "]}), SETTINGS["categories"])
+
+
+def test_clean_summary_enforces_length_limits():
+    long = SUMMARY.model_copy(update={"headline": "가" * 200, "summary": ["나" * 500], "tags": ["다" * 99],
+                                      "importance_reason": "라" * 999})
+    out = clean_summary(long, SETTINGS["categories"])
+    assert len(out["headline"]) <= 60 and out["headline"].endswith("…")
+    assert len(out["summary"][0]) <= 120
+    assert len(out["tags"][0]) <= 30
+    assert len(out["importance_reason"]) <= 150
+
+
+def test_copies_source():
+    body = "SK하이닉스는 26일 경기 이천 본사에서 HBM4 12단 제품의 양산 출하를 시작했다고 밝혔다. 회사는 내년 생산량을 두 배로 늘린다."
+    copied = "SK하이닉스는 26일 경기 이천 본사에서 HBM4 12단 제품의 양산 출하를 시작했다고 밝혔다."
+    rewritten = "SK하이닉스가 HBM4 12단 양산 출하에 들어갔다."
+    assert copies_source([copied], [body])
+    assert not copies_source([rewritten], [body])
+    assert not copies_source([copied], [""])
+
+
+def test_summary_that_copies_article_is_rejected():
+    body = "가나다라마바사아자차카타파하" * 5
+    copied = SUMMARY.model_copy(update={"summary": [body[:60], "둘째.", "셋째."]})
+    client, _ = fake_client(ok(copied))
+    with pytest.raises(AIError):
+        Analyzer(SETTINGS, client=client).summarize(ISSUE, {"k1": body})
 
 
 def test_summarize_request_shape_and_usage():

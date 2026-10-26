@@ -19,6 +19,7 @@ def test_parse_datetime_formats():
     assert parse_datetime("2026-10-26T16:02:00+09:00", "UTC") == expected
     assert parse_datetime("2026-10-26T07:02:00Z", "Asia/Seoul") == expected
     assert parse_datetime("Mon, 26 Oct 2026 16:02:00 KST", "UTC") == expected
+    assert parse_datetime("Mon, 26 Oct 2026 07:02:00 -0000", "Asia/Seoul") == expected  # -0000 = UTC
 
 
 def test_parse_datetime_invalid():

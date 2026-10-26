@@ -9,6 +9,7 @@ COMPANIES = CompanyMatcher({
     "삼성전자": ["삼성전자", "Samsung Electronics"],
     "SK하이닉스": ["SK하이닉스", "하이닉스", "SK hynix"],
     "인텔": ["인텔", "Intel"],
+    "애플": ["애플", "Apple"],
     "도쿄일렉트론": ["도쿄일렉트론", "TEL"],
 })
 
@@ -38,6 +39,9 @@ def test_company_matcher_word_boundaries():
     assert COMPANIES.find("TEL ships etch tools") == {"도쿄일렉트론"}
     assert COMPANIES.find("Startup moves to Tel Aviv") == frozenset()
     assert COMPANIES.find("SK hynix and 삼성전자") == {"SK하이닉스", "삼성전자"}
+    # 한글: 조사가 붙어도 찾고, '인텔리전스'·'애플리케이션'은 회사로 보지 않음
+    assert COMPANIES.find("인텔은 애플의 새 칩을") == {"인텔", "애플"}
+    assert COMPANIES.find("비즈니스 인텔리전스 애플리케이션") == frozenset()
 
 
 def test_group_merges_near_duplicate_titles():

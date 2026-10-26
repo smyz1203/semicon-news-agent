@@ -15,11 +15,13 @@ concurrency:
 
 jobs:
   update:
+    # 다른 브랜치에서 수동 실행하면 AI 비용만 들고 데이터가 꼬이므로 main에서만
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    # AI 호출은 settings.yaml의 ai_time_budget_minutes(15분) 안에서 끝나므로 여유 있게
+    timeout-minutes: 40
     permissions:
       contents: write # data/ 커밋
-      actions: write  # 예약 실행이 꺼지지 않도록 gh workflow enable
     steps:
       - uses: actions/checkout@v7
 
@@ -61,13 +63,9 @@ jobs:
         with:
           path: _site
 
-      # 공개 저장소는 60일간 활동이 없으면 예약 실행이 자동으로 꺼짐 → 매번 다시 켜둠
-      # (효과가 공식 문서로 확인된 방법은 아님. 45일에 한 번쯤 직접 커밋하는 것이 확실함)
-      - name: 예약 실행 유지
-        run: gh workflow enable update.yml
-        env:
-          GH_TOKEN: ${{ github.token }}
-        continue-on-error: true
+      # 참고: 공개 저장소는 60일간 활동이 없으면 예약 실행이 자동으로 꺼진다.
+      # 매 실행의 데이터 커밋이 '활동'으로 인정되는지는 공식 문서에 없으므로,
+      # 45일에 한 번쯤 설정을 다듬는 커밋을 직접 하고, 웹페이지의 '업데이트 멈춤' 경고를 확인한다.
 
   deploy:
     needs: update
