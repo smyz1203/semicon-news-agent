@@ -2,7 +2,7 @@ from datetime import datetime, timedelta, timezone
 
 from agent.collect import Article, url_key
 from agent.dedupe import (CompanyMatcher, KeywordMatcher, attach_to_issues, drop_irrelevant, drop_seen,
-                          group_articles, normalize_title, similarity)
+                          group_articles, normalize_title, same_event_candidates, similarity)
 
 T0 = datetime(2026, 10, 26, 0, 0, tzinfo=timezone.utc)
 COMPANIES = CompanyMatcher({
@@ -117,3 +117,24 @@ def test_attach_to_existing_issue():
               {"id": "c2", "articles": [{"title": "삼성전자 파운드리 2나노 수주"}]}]
     attach_to_issues(groups, issues, COMPANIES, 0.6)
     assert groups[0].issue_id == "c1"
+
+
+def test_same_event_candidates():
+    # 같은 회사가 나오거나 사건 문장이 비슷한 짝만 AI 확인 후보. 회사가 서로 전혀 다르면 후보가 아님
+    new = [("a0", "DB하이텍, 자동차 반도체 품질 인증 갱신", frozenset({"DB하이텍"})),
+           ("a1", "DB하이텍, 파운드리 자동차 품질 표준 인증 갱신", frozenset({"DB하이텍"})),
+           ("a2", "SK하이닉스, 3분기 영업이익 발표", frozenset({"SK하이닉스"})),
+           ("a3", "전투기용 OLED, 스마트폰보다 발광층 더 쌓아", frozenset())]
+    existing = [("c1", "삼성전자, 3분기 영업이익 발표", frozenset({"삼성전자"})),
+                ("c2", "LG디스플레이·한화시스템, 전투기용 OLED 개발", frozenset({"LG디스플레이"}))]
+    pairs = {(a, b) for a, b, _ in same_event_candidates(new, existing)}
+    assert ("a0", "a1") in pairs and ("a1", "a0") not in pairs  # 새 기사끼리는 한 번만
+    assert ("a2", "c1") not in pairs                             # 회사가 서로 다름
+    assert ("a3", "c2") in pairs                                 # 한쪽에 회사가 없으면 사건 문장으로 판단
+    assert not any("a2" in p for p in pairs)                     # 비슷한 짝이 없는 기사
+
+
+def test_same_event_candidates_are_capped_per_article():
+    new = [("a0", "삼성전자 소식", frozenset({"삼성전자"}))]
+    existing = [(f"c{i}", f"삼성전자 다른 소식 {i}", frozenset({"삼성전자"})) for i in range(8)]
+    assert len(same_event_candidates(new, existing, per_item=5)) == 5
