@@ -167,43 +167,40 @@
       <section id="rubric" class="block rubric" aria-labelledby="rubric-title" hidden>
         <header class="block-head"><h2 id="rubric-title">참고자료</h2><span class="block-note">중요도와 정렬은 이 표를 참고합니다</span></header>
         <p class="rubric-formula">중요도 = 사건 유형 기본점 + 가감점 → 1~5점으로 맞춤 (5를 넘으면 5, 1보다 작으면 1)</p>
+        <!-- 2×2 격자: 같은 줄의 두 칸은 높이가 같음 (기본점 | 가감점 / 정렬 기준 | 관심 기업) -->
         <div class="rubric-grid">
-          <div>
-            <section class="panel" aria-labelledby="rubric-base-title">
-              <header class="panel-head"><h3 id="rubric-base-title">사건 유형별 기본점</h3><span class="panel-note">유형에 마우스를 올리면 설명</span></header>
-              <table class="rubric-table">
-                <thead><tr><th>기본점</th><th>사건 유형</th></tr></thead>
-                <tbody id="rubric-base"></tbody>
-              </table>
-            </section>
-            <!-- 정렬 기준: web/app.js의 byImportance와 같은 내용 -->
-            <section class="panel" aria-labelledby="rubric-sort-title">
-              <header class="panel-head"><h3 id="rubric-sort-title">정렬 기준</h3><span class="panel-note">1위가 맨 위 헤드라인</span></header>
-              <table class="rubric-table">
-                <thead><tr><th>순서</th><th>기준</th></tr></thead>
-                <tbody>
-                  <tr><td class="num">1</td><td>조정 전 점수가 높은 순<span class="rubric-sub">기본점 + 가감점을 1~5점으로 맞추기 전 점수. 예: 같은 5점이어도 조정 전 6점이 5점보다 위</span></td></tr>
-                  <tr><td class="num">2</td><td>조정 전 점수가 같으면 기사 발행 시각이 최신인 순<span class="rubric-sub">같은 이슈로 묶인 기사가 여러 건이면 가장 오래된 기사의 발행 시각</span></td></tr>
-                </tbody>
-              </table>
-            </section>
-          </div>
-          <div class="rubric-side">
-            <section class="panel" aria-labelledby="rubric-adjust-title">
-              <header class="panel-head"><h3 id="rubric-adjust-title">가감점</h3></header>
-              <table class="rubric-table">
-                <thead><tr><th>가감점</th><th>조건</th></tr></thead>
-                <tbody id="rubric-adjust"></tbody>
-              </table>
-            </section>
-            <section class="panel" aria-labelledby="rubric-watch-title">
-              <header class="panel-head"><h3 id="rubric-watch-title">관심 기업</h3><span class="panel-note">직접 당사자이면 가산점</span></header>
-              <table class="rubric-table">
-                <thead><tr><th>순서</th><th>관심 기업</th></tr></thead>
-                <tbody id="rubric-watch"></tbody>
-              </table>
-            </section>
-          </div>
+          <section class="panel" aria-labelledby="rubric-base-title">
+            <header class="panel-head"><h3 id="rubric-base-title">사건 유형별 기본점</h3><span class="panel-note">유형에 마우스를 올리면 설명</span></header>
+            <table class="rubric-table">
+              <thead><tr><th>기본점</th><th>사건 유형</th></tr></thead>
+              <tbody id="rubric-base"></tbody>
+            </table>
+          </section>
+          <section class="panel" aria-labelledby="rubric-adjust-title">
+            <header class="panel-head"><h3 id="rubric-adjust-title">가감점</h3></header>
+            <table class="rubric-table">
+              <thead><tr><th>가감점</th><th>조건</th></tr></thead>
+              <tbody id="rubric-adjust"></tbody>
+            </table>
+          </section>
+          <!-- 정렬 기준: web/app.js의 byImportance와 같은 내용 -->
+          <section class="panel" aria-labelledby="rubric-sort-title">
+            <header class="panel-head"><h3 id="rubric-sort-title">정렬 기준</h3><span class="panel-note">1위가 맨 위 헤드라인</span></header>
+            <table class="rubric-table">
+              <thead><tr><th>순서</th><th>기준</th></tr></thead>
+              <tbody>
+                <tr><td class="num">1</td><td>조정 전 점수가 높은 순<span class="rubric-sub">기본점 + 가감점을 1~5점으로 맞추기 전 점수. 예: 같은 5점이어도 조정 전 6점이 5점보다 위</span></td></tr>
+                <tr><td class="num">2</td><td>조정 전 점수가 같으면 기사 발행 시각이 최신인 순<span class="rubric-sub">같은 이슈로 묶인 기사가 여러 건이면 가장 오래된 기사의 발행 시각</span></td></tr>
+              </tbody>
+            </table>
+          </section>
+          <section class="panel" aria-labelledby="rubric-watch-title">
+            <header class="panel-head"><h3 id="rubric-watch-title">관심 기업</h3><span class="panel-note">직접 당사자이면 가산점</span></header>
+            <table class="rubric-table">
+              <thead><tr><th>순서</th><th>관심 기업</th></tr></thead>
+              <tbody id="rubric-watch"></tbody>
+            </table>
+          </section>
         </div>
       </section>
     </section>
