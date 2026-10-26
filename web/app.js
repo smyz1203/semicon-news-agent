@@ -295,7 +295,7 @@ function renderCompanies() {
     $("company-chart").replaceChildren(h("p", { class: "barlist-more" }, "이 조건의 이슈에는 기업 이름이 없습니다."));
     return;
   }
-  Charts.barList($("company-chart"), rows, { thin: true, caption: "많이 나온 기업과 이슈 수", onSelect: select });
+  Charts.barList($("company-chart"), rows, { caption: "많이 나온 기업과 이슈 수", onSelect: select });
   if (ranked.length > rows.length) $("company-chart").append(moreButton("company", `전체 순위 보기 (${ranked.length}개 기업)`));
 }
 

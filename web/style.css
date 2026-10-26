@@ -355,13 +355,6 @@ button.barlist-row:hover { border-color: var(--control); }
 .more-button:hover { text-decoration: underline; }
 .rank-list { max-height: min(60vh, 560px); overflow-y: auto; margin-top: 14px; }
 
-/* 얇은 막대 목록: 이름 아래 2px 막대, 1위만 진하게 */
-.barlist.is-thin { gap: 2px; }
-.barlist.is-thin .barlist-row { display: grid; grid-template-columns: minmax(0, 1fr) auto; row-gap: 3px; min-height: 0; padding: 4px 8px 5px; }
-.barlist.is-thin .barlist-label { grid-area: 1 / 1; }
-.barlist.is-thin .barlist-value { grid-area: 1 / 2; }
-.barlist.is-thin .barlist-fill { position: static; grid-area: 2 / 1 / 3 / 3; height: 2px; background: var(--chart-muted); border-radius: 1px; z-index: auto; }
-.barlist.is-thin .barlist-fill.is-lead { background: var(--text); }
 
 /* ── 주요 이슈 / 이슈 목록 ── */
 .block { margin-bottom: 32px; }
@@ -582,7 +575,7 @@ details[open] > .toggle::after { content: " ▴"; }
   .search { flex: 1 1 100%; max-width: none; min-width: 0; margin: 0; }
   .search input { height: 44px; font-size: 16px; }   /* 16px 미만이면 아이폰이 확대함 */
   .toggle { display: flex; align-items: center; min-height: 44px; }
-  .barlist-row, .barlist.is-thin .barlist-row, .more-button { min-height: 44px; }
+  .barlist-row, .more-button { min-height: 44px; }
   .runs th:first-child, .runs td:first-child { position: sticky; left: 0; z-index: 1; background: var(--surface); }
 
   .overview, .top-grid, .ops-grid { grid-template-columns: 1fr; }
