@@ -41,7 +41,6 @@ const safeUrl = (url) => (/^https?:\/\//i.test(url || "") ? url : null);
 const categoryOf = (issue) => issue.category || "미분류";
 const num = (n) => Number(n || 0).toLocaleString("ko-KR");
 const usd = (n) => `$${Number(n || 0).toFixed(4)}`;
-const sourceCount = (issue) => new Set(issue.articles.map((a) => a.source)).size;
 
 function ago(iso) {
   const minutes = Math.max(0, Math.round((Date.now() - new Date(iso)) / 60000));
@@ -90,9 +89,11 @@ function matches(issue, { ignoreCategory = false, ignoreCompany = false } = {}) 
   return true;
 }
 
-// 중요도 → 여러 매체가 다룬 것 → 최신 순
-const byImportance = (a, b) =>
-  (b.importance || 0) - (a.importance || 0) || sourceCount(b) - sourceCount(a) || b.updated_at.localeCompare(a.updated_at);
+// 정렬 (참고자료의 '정렬 기준' 표와 같음): ① 조정 전 점수(기본점 + 가감점, 1~5점으로 맞추기 전)가 높은 순
+// ② 같으면 보도 시각이 최신인 순. 보도 시각 = 이슈에 묶인 기사 중 가장 오래된 기사의 발행 시각
+const rawScore = (issue) => issue.importance_raw ?? issue.importance ?? 0;
+const reportedAt = (issue) => issue.articles.reduce((t, a) => (a.published_at < t ? a.published_at : t), issue.articles[0].published_at);
+const byImportance = (a, b) => rawScore(b) - rawScore(a) || reportedAt(b).localeCompare(reportedAt(a));
 
 // ── 이슈 ───────────────────────────────────────────────────
 
@@ -142,7 +143,7 @@ function topCard(issue) {
     h("div", { class: "card-meta" },
       importancePill(issue),
       h("span", { class: "where" }, `${categoryOf(issue)} · ${sourceLabel(issue)}`),
-      h("span", { class: "when", title: clock(issue.updated_at) }, ago(issue.updated_at))),
+      h("span", { class: "when", title: clock(reportedAt(issue)) }, ago(reportedAt(issue)))),
     h("h3", {}, titleOf(issue)),
     h("p", { class: "lead-line" }, lead),
     h("details", {},
@@ -158,7 +159,7 @@ function issueRow(issue) {
       h("span", { class: "row-title", title: titleOf(issue) }, titleOf(issue)),
       h("span", { class: "row-cat" }, h("span", {}, categoryOf(issue)), h("span", { class: "row-cat-src" }, ` · ${sourceLabel(issue)}`)),
       h("span", { class: "row-src" }, sourceLabel(issue)),
-      h("span", { class: "row-time", title: clock(issue.updated_at) }, ago(issue.updated_at))),
+      h("span", { class: "row-time", title: clock(reportedAt(issue)) }, ago(reportedAt(issue)))),
     issueDetail(issue));
 }
 

@@ -24,6 +24,7 @@ def test_build_site(tmp_path):
     assert issue["headline"] == "반도체"
     # 게시 허용 목록에 없는 필드는 웹에 나가지 않음
     assert not {"attempts", "needs_summary", "secret"} & set(issue)
+    assert "importance_raw" in issue  # 웹이 같은 중요도끼리 정렬할 때 씀
     assert set(issue["articles"][0]) == {"title", "url", "source", "lang", "published_at"}
     meta = json.loads((out / "data" / "meta.json").read_text(encoding="utf-8"))
     assert meta["last_run_at"] == "2026-10-26T03:17:00Z"
