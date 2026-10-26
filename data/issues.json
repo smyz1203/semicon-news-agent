@@ -1,7 +1,58 @@
 {
   "version": 1,
-  "updated_at": "2026-10-26T18:54:50Z",
+  "updated_at": "2026-10-26T19:02:04Z",
   "issues": [
+    {
+      "id": "c20261026-0098",
+      "headline": "다우인시스, 롤러블 자동차 OLED용 초박막 유리 개발",
+      "summary": [
+        "다우인시스는 롤러블 자동차 OLED 디스플레이용 초박막 유리(UTG)를 개발 중이다.",
+        "2027년 하반기부터 상용화를 목표로 하며, 주요 자동차 전자 기업과 협력하고 있다.",
+        "기존 플라스틱 필름 대비 유리의 내구성과 시각적 품질을 개선할 수 있어 기대된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "롤러블 OLED",
+        "초박막 유리",
+        "상용화",
+        "자동차 디스플레이"
+      ],
+      "companies": [
+        "다우인시스"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "다우인시스"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-26T18:29:43Z",
+      "updated_at": "2026-10-26T19:02:04Z",
+      "articles": [
+        {
+          "key": "a106135e316c949d",
+          "title": "Dowoo Insys Develops UTG for Automotive Rollable OLED Displays",
+          "url": "https://www.thelec.net/news/articleView.html?idxno=14876",
+          "source": "디일렉",
+          "lang": "en",
+          "published_at": "2026-10-25T22:31:08Z"
+        },
+        {
+          "key": "464718ed38b52af0",
+          "title": "Dowoo Insys develops ultra-thin glass for rollable automotive OLED displays, aims for commercialization in 2027-2028",
+          "url": "https://www.oled-info.com/dowoo-insys-develops-ultra-thin-glass-rollable-automotive-oled-displays-aims",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-10-26T19:00:07Z"
+        }
+      ],
+      "importance_raw": 5
+    },
     {
       "id": "c20261026-0093",
       "headline": "SK하이닉스, 솔리다임 IPO 절차 중단",
@@ -921,49 +972,6 @@
         }
       ],
       "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0098",
-      "headline": "다우인포텍, 자동차용 롤러블 OLED 보호 유리 개발",
-      "summary": [
-        "다우인포텍이 자동차용 롤러블 OLED 디스플레이를 위한 보호 유리를 개발하고 있다.",
-        "대형 한국 자동차 전자업체와 협력 중이며, 2027년 하반기 상용화를 목표로 하고 있다.",
-        "이 기술이 상용화되면 자동차 디스플레이 시장에서 혁신적인 변화가 예상된다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "롤러블 OLED",
-        "보호 유리",
-        "자동차 디스플레이",
-        "다우인포텍"
-      ],
-      "companies": [
-        "다우인포텍"
-      ],
-      "event_type": "신제품·신기술·양산",
-      "confirmed": true,
-      "parties": [
-        "다우인포텍"
-      ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-26T18:29:43Z",
-      "updated_at": "2026-10-26T18:29:43Z",
-      "articles": [
-        {
-          "key": "a106135e316c949d",
-          "title": "Dowoo Insys Develops UTG for Automotive Rollable OLED Displays",
-          "url": "https://www.thelec.net/news/articleView.html?idxno=14876",
-          "source": "디일렉",
-          "lang": "en",
-          "published_at": "2026-10-25T22:31:08Z"
-        }
-      ],
-      "importance_raw": 5
     },
     {
       "id": "c20261026-0099",
