@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-26T14:35:13Z",
+  "updated_at": "2026-10-26T14:37:25Z",
   "issues": [
     {
       "id": "c20261026-0003",
@@ -1378,8 +1378,8 @@
         "SK하이닉스",
         "우프틱스"
       ],
-      "importance": 4,
-      "importance_reason": "대형 공급 계약으로 반도체 장비 시장에 영향을 미친다.",
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -1395,6 +1395,12 @@
           "lang": "ko",
           "published_at": "2026-10-26T06:56:34Z"
         }
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "우프틱스",
+        "삼성"
       ]
     },
     {
@@ -1416,8 +1422,8 @@
       "companies": [
         "퓨리오사AI"
       ],
-      "importance": 3,
-      "importance_reason": "신제품·신기술 발표에 해당하며, AI 반도체 생태계 구축이 중요한 이슈이기 때문.",
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -1433,6 +1439,12 @@
           "lang": "ko",
           "published_at": "2026-10-26T06:59:49Z"
         }
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "경북도",
+        "퓨리오사AI"
       ]
     },
     {
@@ -1452,8 +1464,8 @@
         "공사 중단"
       ],
       "companies": [],
-      "importance": 3,
-      "importance_reason": "신규 산업 단지 개발에 대한 시민의 반대 목소리가 커지고 있는 상황.",
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -1469,6 +1481,12 @@
           "lang": "ko",
           "published_at": "2026-10-26T07:01:14Z"
         }
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "용인시",
+        "시민단체"
       ]
     },
     {
@@ -1488,8 +1506,8 @@
         "산업 발전"
       ],
       "companies": [],
-      "importance": 3,
-      "importance_reason": "신규 인프라 구축 관련 정책 변화에 해당한다.",
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -1505,6 +1523,12 @@
           "lang": "ko",
           "published_at": "2026-10-26T07:05:01Z"
         }
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "호남 지역",
+        "정부"
       ]
     },
     {
@@ -1527,7 +1551,7 @@
         "ACM리서치"
       ],
       "importance": 3,
-      "importance_reason": "신기술 발표 및 생산 능력 증대와 관련된 이슈이기 때문.",
+      "importance_reason": "설비 투자 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -1543,6 +1567,11 @@
           "lang": "ko",
           "published_at": "2026-10-26T07:10:26Z"
         }
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "ACM리서치"
       ]
     },
     {
@@ -1564,7 +1593,7 @@
         "삼성전자"
       ],
       "importance": 2,
-      "importance_reason": "일반 업계 동향 및 시장 반응이 표출된 사례.",
+      "importance_reason": "주가 등락 1점, 관심 기업(삼성전자, SK하이닉스) +1 → 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -1580,6 +1609,12 @@
           "lang": "ko",
           "published_at": "2026-10-26T07:12:35Z"
         }
+      ],
+      "event_type": "주가 등락",
+      "confirmed": true,
+      "parties": [
+        "하이닉스",
+        "삼성전자"
       ]
     },
     {
@@ -1598,8 +1633,8 @@
         "입법 추진"
       ],
       "companies": [],
-      "importance": 3,
-      "importance_reason": "신제품·신기술 발표와 관련된 정책 입법에 해당.",
+      "importance": 4,
+      "importance_reason": "정책·규제·법 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -1615,6 +1650,12 @@
           "lang": "ko",
           "published_at": "2026-10-26T07:51:45Z"
         }
+      ],
+      "event_type": "정책·규제·법",
+      "confirmed": true,
+      "parties": [
+        "임문영 의원",
+        "국회"
       ]
     },
     {
@@ -1633,8 +1674,8 @@
         "광주"
       ],
       "companies": [],
-      "importance": 3,
-      "importance_reason": "신기술 인재 양성과 관련된 정책 변화.",
+      "importance": 1,
+      "importance_reason": "채용·인력 2점, 미확정 -1 → 1점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -1650,7 +1691,10 @@
           "lang": "ko",
           "published_at": "2026-10-26T08:33:45Z"
         }
-      ]
+      ],
+      "event_type": "채용·인력",
+      "confirmed": false,
+      "parties": []
     },
     {
       "id": "c20261026-0038",
@@ -1671,8 +1715,8 @@
       "companies": [
         "삼성전자"
       ],
-      "importance": 3,
-      "importance_reason": "신제품·신기술 발표 및 가격 동향에 관한 중요한 정보.",
+      "importance": 4,
+      "importance_reason": "가격 동향 3점, 관심 기업(삼성전자) +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -1688,6 +1732,11 @@
           "lang": "ko",
           "published_at": "2026-10-26T09:31:44Z"
         }
+      ],
+      "event_type": "가격 동향",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
       ]
     },
     {
@@ -1710,8 +1759,8 @@
         "LB세미콘",
         "퀄컴"
       ],
-      "importance": 4,
-      "importance_reason": "대형 수주·공급 계약으로 시장 내 위치 강화.",
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -1727,6 +1776,12 @@
           "lang": "ko",
           "published_at": "2026-10-26T09:44:09Z"
         }
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "LB세미콘",
+        "퀄컴"
       ]
     },
     {
@@ -1749,8 +1804,8 @@
         "큐알티",
         "원자력연구원"
       ],
-      "importance": 3,
-      "importance_reason": "신제품·신기술 발표에 해당하는 이슈이다.",
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -1766,6 +1821,12 @@
           "lang": "ko",
           "published_at": "2026-10-26T10:09:28Z"
         }
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "큐알티",
+        "원자력연구원"
       ]
     },
     {
@@ -1785,8 +1846,8 @@
       "companies": [
         "DB하이텍"
       ],
-      "importance": 3,
-      "importance_reason": "신제품·신기술 발표에 해당하며, 자동차 품질 관련 인증 갱신이다.",
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -1802,6 +1863,11 @@
           "lang": "ko",
           "published_at": "2026-10-26T10:13:03Z"
         }
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "DB하이텍"
       ]
     },
     {
@@ -1821,8 +1887,8 @@
         "고온고압환경"
       ],
       "companies": [],
-      "importance": 3,
-      "importance_reason": "신제품 및 신기술 발표와 관련된 이슈이기 때문이다.",
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -1838,6 +1904,11 @@
           "lang": "ko",
           "published_at": "2026-10-26T10:19:34Z"
         }
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "전투기용 OLED 디스플레이 제조사"
       ]
     }
   ]
