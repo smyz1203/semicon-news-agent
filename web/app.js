@@ -189,6 +189,7 @@ function render() {
   renderTrend(shown);
   renderCategories();
   renderCompanies(shown);
+  if ($("rank-dialog").open) drawRanking();
 }
 
 // 제목 아래 한 줄: 이 기간에 무슨 일이 있었나
@@ -270,7 +271,7 @@ function renderCategories() {
 
   $("cat-note").textContent = `${names.length}개 분야`;
   Charts.barList($("category-chart"), rows, { caption: "분야별 이슈 수", onSelect: select });
-  rankings.category = { title: "분야별 이슈 전체 순위", note: "분야를 누르면 그 분야 이슈만 봅니다.", rows: ranked, onSelect: select };
+  rankings.category = { title: "분야별 이슈 전체 순위", note: "분야를 누르면 그 분야 이슈만 봅니다.", rows: ranked, onSelect: select, box: "category-chart" };
   if (ranked.length > rows.length) $("category-chart").append(moreButton("category", `전체 순위 보기 (${names.length}개 분야)`));
   if (!rows.length) $("category-chart").replaceChildren(h("p", { class: "barlist-more" }, "이 조건에 맞는 이슈가 없습니다."));
 }
@@ -282,13 +283,13 @@ function renderCompanies(shown) {
   const ranked = [...counts].sort((a, b) => b[1] - a[1] || a[0].localeCompare(b[0], "ko"))
     .map(([label, value]) => ({ label, value, selected: view.company === label }));
   const rows = topRows(ranked);
+  const select = (r) => { view.company = r.selected ? null : r.label; render(); };
+  rankings.company = { title: "많이 나온 기업 전체 순위", note: "기업을 누르면 그 기업 이슈만 봅니다.", rows: ranked, onSelect: select, box: "company-chart" };
   if (!rows.length) {
     $("company-chart").replaceChildren(h("p", { class: "barlist-more" }, "이 조건의 이슈에는 기업 이름이 없습니다."));
     return;
   }
-  const select = (r) => { view.company = r.selected ? null : r.label; render(); };
   Charts.barList($("company-chart"), rows, { thin: true, caption: "많이 나온 기업과 이슈 수", onSelect: select });
-  rankings.company = { title: "많이 나온 기업 전체 순위", note: "기업을 누르면 그 기업 이슈만 봅니다.", rows: ranked, onSelect: select };
   if (ranked.length > rows.length) $("company-chart").append(moreButton("company", `전체 순위 보기 (${ranked.length}개 기업)`));
 }
 
@@ -301,21 +302,33 @@ function topRows(ranked) {
 
 // 전체 순위 창: 카드와 같은 기간·필터의 순위 전부. 항목을 누르면 카드에서 누른 것과 같고 창은 닫힘
 const rankings = {};
+let rankingKind = null;
 
 function moreButton(kind, text) {
   return h("button", { type: "button", class: "barlist-more more-button", onclick: () => openRanking(kind) }, text);
 }
 
 function openRanking(kind) {
-  const { title, note, rows, onSelect } = rankings[kind];
+  rankingKind = kind;
+  drawRanking();
+  $("rank-dialog").showModal();
+}
+
+// 창이 열린 채로 자동 새로고침되면 render()가 다시 불러 새 숫자로 그림
+function drawRanking() {
+  const { title, note, rows, onSelect, box } = rankings[rankingKind];
   $("rank-title").textContent = title;
   $("rank-note").textContent = `${PERIOD_TEXT[view.period]} 이슈 기준 · ${note}`;
   Charts.barList($("rank-list"), rows, {
     rank: true,
     caption: title,
-    onSelect: (r) => { $("rank-dialog").close(); onSelect(r); },
+    onSelect: (r) => {
+      $("rank-dialog").close();
+      onSelect(r);
+      // 창을 연 버튼은 다시 그려져 사라졌으므로, 키보드 포커스를 카드의 고른 항목으로
+      $(box).querySelector(".is-selected, .barlist-row")?.focus();
+    },
   });
-  $("rank-dialog").showModal();
 }
 
 // ── 참고자료: 중요도 기준표 ─────────────────────────────────
