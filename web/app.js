@@ -473,7 +473,9 @@ function renderOps() {
       ? h("span", { class: "state state-bad" }, `실패 ${s.fail_streak}회 연속`)
       : h("span", { class: "state state-quiet" }, s.ok ? "정상" : "확인 전");
     return h("li", {},
-      h("span", { class: "name", title: s.name }, s.name, s.lang === "en" ? h("span", { class: "lang" }, "영문") : null),
+      // 영어 기사 매체에는 '영문' 꼬리표 (이름에 이미 '영문판'이 들어 있으면 겹치지 않게 뺌)
+      h("span", { class: "name", title: s.name }, s.name,
+        s.lang === "en" && !s.name.includes("영문") ? h("span", { class: "lang" }, "영문") : null),
       h("span", { class: "when" }, s.last_new_at ? `새 기사 ${ago(s.last_new_at)}` : "새 기사 없음"),
       state);
   }));
