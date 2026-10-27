@@ -1,7 +1,374 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T01:54:08Z",
+  "updated_at": "2026-10-27T02:47:57Z",
   "issues": [
+    {
+      "id": "c20261027-0162",
+      "headline": "홍콩증권거래소, AI 및 반도체 지수 발표",
+      "summary": [
+        "홍콩증권거래소(HKEX)가 인공지능 및 반도체 지수를 출시했다.",
+        "이 지수들은 두 가지 주요 기술 테마에 대한 기준을 제공하며, 새로운 ETF 발행을 위해 자산운용사와 라이선스 계약을 체결했다.",
+        "이로 인해 HKEX는 신흥 기술 트렌드에 대한 커버리지를 확대하고 지수 포트폴리오를 강화하게 된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI 지수",
+        "반도체 지수",
+        "ETF",
+        "HKEX",
+        "기술 트렌드"
+      ],
+      "companies": [
+        "홍콩증권거래소",
+        "Southern Asset Management"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "홍콩증권거래소",
+        "Southern Asset Management"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T02:47:57Z",
+      "updated_at": "2026-10-27T02:47:57Z",
+      "articles": [
+        {
+          "key": "cb21419699aa2327",
+          "title": "HKEX Launches Artificial Intelligence and Semiconductor Indices",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=342687",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-10-26T05:49:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0163",
+      "headline": "Rapidus와 HCLTech, 차세대 반도체 개발 협력",
+      "summary": [
+        "Rapidus와 HCLTech가 차세대 반도체 기술 개발을 위한 파트너십을 체결했다.",
+        "양사는 일본과 인도에 두 개의 개발 센터를 설립하여 협력하기로 했다.",
+        "이번 협력은 첨단 로직 반도체 시장에서의 경쟁력을 강화할 것으로 기대된다."
+      ],
+      "category": "기타",
+      "tags": [
+        "차세대 반도체",
+        "HCLTech",
+        "Rapidus",
+        "개발 센터",
+        "로직 반도체"
+      ],
+      "companies": [
+        "HCLTech",
+        "Rapidus"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "Rapidus",
+        "HCLTech"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T02:47:57Z",
+      "updated_at": "2026-10-27T02:47:57Z",
+      "articles": [
+        {
+          "key": "142a53bae19bf0db",
+          "title": "Rapidus and HCLTech announce partnership for next-generation semiconductor technologies",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=342692",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-10-26T09:56:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0164",
+      "headline": "하이퍼엑셀, 김준연 CFO 영입해 글로벌 투자 속도",
+      "summary": [
+        "하이퍼엑셀은 삼성증권 출신 김준연을 CFO로 영입했다고 발표했다.",
+        "김 CFO는 IPO 및 유상증자 등 자본시장 경험을 바탕으로 하이퍼엑셀의 재무 전략을 강화할 예정이다.",
+        "AI 반도체 시장이 성장하는 가운데, 기업가치 정립과 글로벌 비즈니스 감각이 중요해지고 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 반도체",
+        "LPU",
+        "글로벌 투자",
+        "CFO 영입"
+      ],
+      "companies": [
+        "하이퍼엑셀",
+        "삼성증권"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "하이퍼엑셀"
+      ],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T02:47:57Z",
+      "updated_at": "2026-10-27T02:47:57Z",
+      "articles": [
+        {
+          "key": "8a94e643c5cbb19b",
+          "title": "하이퍼엑셀, 김준연 신임 CFO 영입…글로벌 투자 유치 속도",
+          "url": "https://zdnet.co.kr/view/?no=20261027094331",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-27T01:15:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0165",
+      "headline": "암콕, 고객 선지급금으로 글로벌 포장 투자 강화",
+      "summary": [
+        "암콕이 글로벌 포장 투자를 가속화하며 고객 선지급금 방식을 도입했다.",
+        "이는 디스플레이 및 반도체 패키징 부문에서의 경쟁력 확보를 위해 이루어진 결정이다.",
+        "포장 산업의 변화에 대응하기 위한 전략으로, 고객의 투자 참여를 유도하고 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "포장 투자",
+        "선지급금",
+        "반도체 패키징",
+        "아시아 시장"
+      ],
+      "companies": [
+        "암콕"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "암콕"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T02:47:57Z",
+      "updated_at": "2026-10-27T02:47:57Z",
+      "articles": [
+        {
+          "key": "14f3ff8ddab5ef81",
+          "title": "Amkor turns to customer prepayments as global packaging investment accelerates",
+          "url": "https://www.digitimes.com/news/a20261027VL205/amkor-packaging-investment-expansion-manufacturing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-27T01:20:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261027-0166",
+      "headline": "로옴, GaN 기반 고효율 PFC 컨트롤러 IC 출시",
+      "summary": [
+        "로옴은 GaN HEMT에 최적화된 TP-PFC 컨트롤러 IC 'BM85060FV'를 개발했다.",
+        "이 제품은 300W~500W AC-DC 전원에서 99% 효율을 달성하며, 전력 손실을 크게 줄인다.",
+        "로옴은 이를 통해 시장의 소형화 및 에너지 절감 요구에 부응하고, 향후 고성능 파워 솔루션을 지속적으로 개발할 계획이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "GaN",
+        "PFC 컨트롤러",
+        "BM85060FV",
+        "전원 효율",
+        "소형화",
+        "에너지 절감"
+      ],
+      "companies": [
+        "로옴"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T02:47:57Z",
+      "updated_at": "2026-10-27T02:47:57Z",
+      "articles": [
+        {
+          "key": "43b56ed19caf1c5d",
+          "title": "로옴, GaN 고주파 스위칭 대응 TP-PFC 컨트롤러 IC 'BM85060FV' 개발",
+          "url": "https://zdnet.co.kr/view/?no=20261027103353",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-27T01:38:54Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261027-0167",
+      "headline": "한미일, 반도체 공정으로 촉매 제조 혁신",
+      "summary": [
+        "한미일 연구팀이 반도체 공정을 활용해 촉매 제조 기술을 개발했다.",
+        "메탄을 에틸렌으로 전환하는 실험에서 에틸렌 수율이 29배 개선되었고, 활성점 활용률도 82%로 증가했다.",
+        "이 기술은 다양한 화학 반응 및 맞춤형 촉매 설계에 활용될 것으로 기대된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "촉매",
+        "CVD",
+        "에틸렌",
+        "반도체 공정",
+        "화학 반응"
+      ],
+      "companies": [
+        "한국에너지기술연구원",
+        "서울대학교",
+        "브룩헤이븐국립연구소",
+        "일본 국립재료과학연구소"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "한미일 연구팀"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T02:47:57Z",
+      "updated_at": "2026-10-27T02:47:57Z",
+      "articles": [
+        {
+          "key": "beaf867c0be31cf0",
+          "title": "한미일, 반도체 공정으로 촉매 제조 성공…에틸렌 수율 29배 개선",
+          "url": "https://zdnet.co.kr/view/?no=20261027105206",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-27T01:52:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0168",
+      "headline": "OPTOELEC, AI 데이터 센터 주문 확보 나서",
+      "summary": [
+        "OPTOELEC가 Daegu에서 열린 FIX 2026에서 웨이퍼 수준의 광학 샘플을 전시했다.",
+        "Himax는 CPO 광학 기술을 발전시키고 있으며, 이에 따라 AI 데이터 센터 주문을 모색하고 있다.",
+        "이는 AI 반도체 시장의 성장과 관련하여 OPTOELEC의 사업 확장을 의미한다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 데이터 센터",
+        "CPO 광학",
+        "웨이퍼 수준 광학",
+        "OPTOELEC",
+        "Himax"
+      ],
+      "companies": [
+        "OPTOELEC",
+        "Himax"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "OPTOELEC",
+        "Himax"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T02:47:57Z",
+      "updated_at": "2026-10-27T02:47:57Z",
+      "articles": [
+        {
+          "key": "1f5a456a33c72026",
+          "title": "OPTOELEC seeks AI data center orders as Himax advances CPO optics",
+          "url": "https://www.digitimes.com/news/a20261024VL202/optics-cpo-data-center-himax-production.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-27T01:52:39Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261027-0169",
+      "headline": "칼테라, UWB 기술로 차량용 반도체 시장 확대",
+      "summary": [
+        "칼테라가 초광대역(UWB) 기술을 활용한 통합 플랫폼을 발표했다.",
+        "이 플랫폼은 디지털 키, 탑승자 감지, 물체 인식, 주차 보조 등 다양한 기능을 포함한다.",
+        "UWB 기술의 발전은 한국 시장에서 새로운 기회를 창출하고 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "UWB",
+        "차량용 반도체",
+        "디지털 키",
+        "주차 보조 시스템",
+        "센싱"
+      ],
+      "companies": [
+        "칼테라"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "칼테라"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T02:47:57Z",
+      "updated_at": "2026-10-27T02:47:57Z",
+      "articles": [
+        {
+          "key": "bfaed4215d9dca46",
+          "title": "칼테라 “UWB, 거리 측정 넘어 센싱으로”…차량용 반도체 확장",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408792",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T02:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
     {
       "id": "c20261027-0161",
       "headline": "케이던스, AI로 칩 설계 효율 1000배 향상 전망",
