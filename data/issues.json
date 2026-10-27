@@ -1,7 +1,152 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T11:49:44Z",
+  "updated_at": "2026-10-27T13:01:58Z",
   "issues": [
+    {
+      "id": "c20261027-0164",
+      "headline": "하이퍼엑셀, 삼성증권 출신 CFO 영입",
+      "summary": [
+        "하이퍼엑셀이 김준연을 신임 CFO로 영입했다고 27일 발표했다.",
+        "김준연은 삼성증권에서 AI 반도체 기업의 상장 자문과 투자 업무를 맡아왔다.",
+        "이번 영입은 하이퍼엑셀의 글로벌 투자 유치 및 성장 전략에 기여할 것으로 기대된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 반도체",
+        "CFO 영입",
+        "투자 유치",
+        "하이퍼엑셀",
+        "언어처리장치"
+      ],
+      "companies": [
+        "하이퍼엑셀",
+        "삼성증권"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "하이퍼엑셀",
+        "삼성증권"
+      ],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T02:47:57Z",
+      "updated_at": "2026-10-27T13:01:58Z",
+      "articles": [
+        {
+          "key": "8a94e643c5cbb19b",
+          "title": "하이퍼엑셀, 김준연 신임 CFO 영입…글로벌 투자 유치 속도",
+          "url": "https://zdnet.co.kr/view/?no=20261027094331",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-27T01:15:06Z"
+        },
+        {
+          "key": "836476c9ec1598d5",
+          "title": "하이퍼엑셀, 삼성증권 출신 인사 CFO로 영입",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64372",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-27T12:15:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0202",
+      "headline": "LG디스플레이, 대형 OLED 패널 생산 계획 발표",
+      "summary": [
+        "LG디스플레이가 97인치와 111인치 OLED 패널 생산을 계획하고 있다.",
+        "광저우 개발 구역의 국유 기업과 15억 달러 규모의 투자를 진행해 새로운 생산 라인을 구축한다.",
+        "이로 인해 OLED 시장에서 대형 패널 공급이 원활해질 것으로 기대된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "97인치 OLED",
+        "111인치 OLED",
+        "대형 패널",
+        "LG디스플레이",
+        "광저우"
+      ],
+      "companies": [
+        "LG디스플레이"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이"
+      ],
+      "importance": 4,
+      "importance_reason": "설비 투자 3점, 관심 기업(LG디스플레이) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T13:01:58Z",
+      "updated_at": "2026-10-27T13:01:58Z",
+      "articles": [
+        {
+          "key": "0a21b92540c5d80f",
+          "title": "Is LG planning to start producing 97\" and 111\" OLED panels?",
+          "url": "https://www.oled-info.com/lg-planning-start-producing-97-and-111-oled-panels",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-10-27T11:56:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261027-0203",
+      "headline": "ISC, 북미 주요 스마트폰 고객사 점유율 확대",
+      "summary": [
+        "반도체 테스트 소켓 업체 ISC가 북미 최대 스마트폰 고객사에서 점유율을 20%에서 40%로 늘렸다.",
+        "주요 공급사의 납기 실패로 고객사가 물량을 분산하며 ISC가 기회를 얻었다.",
+        "ISC는 내년 상반기 공급 물량을 확보하며 포고 소켓을 지속 공급할 예정이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "테스트 소켓",
+        "포고 소켓",
+        "모바일 AP",
+        "북미 시장",
+        "ISC"
+      ],
+      "companies": [
+        "ISC"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "ISC"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T13:01:58Z",
+      "updated_at": "2026-10-27T13:01:58Z",
+      "articles": [
+        {
+          "key": "db8303dc22cdcc55",
+          "title": "ISC, 북미 최대 스마트폰 고객사 소켓 점유율 두 배로",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64326",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-27T12:43:53Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261027-0182",
       "headline": "동원파츠, 애프터마켓 제품 매출 비중 확대 전망",
@@ -1775,51 +1920,6 @@
           "source": "KIPOST",
           "lang": "ko",
           "published_at": "2026-10-26T09:56:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261027-0164",
-      "headline": "하이퍼엑셀, 김준연 CFO 영입해 글로벌 투자 속도",
-      "summary": [
-        "하이퍼엑셀은 삼성증권 출신 김준연을 CFO로 영입했다고 발표했다.",
-        "김 CFO는 IPO 및 유상증자 등 자본시장 경험을 바탕으로 하이퍼엑셀의 재무 전략을 강화할 예정이다.",
-        "AI 반도체 시장이 성장하는 가운데, 기업가치 정립과 글로벌 비즈니스 감각이 중요해지고 있다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "AI 반도체",
-        "LPU",
-        "글로벌 투자",
-        "CFO 영입"
-      ],
-      "companies": [
-        "하이퍼엑셀",
-        "삼성증권"
-      ],
-      "event_type": "채용·인력",
-      "confirmed": true,
-      "parties": [
-        "하이퍼엑셀"
-      ],
-      "importance": 2,
-      "importance_reason": "채용·인력 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-27T02:47:57Z",
-      "updated_at": "2026-10-27T02:47:57Z",
-      "articles": [
-        {
-          "key": "8a94e643c5cbb19b",
-          "title": "하이퍼엑셀, 김준연 신임 CFO 영입…글로벌 투자 유치 속도",
-          "url": "https://zdnet.co.kr/view/?no=20261027094331",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-10-27T01:15:06Z"
         }
       ],
       "type_checked": true,
