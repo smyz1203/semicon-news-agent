@@ -1,7 +1,99 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T08:55:29Z",
+  "updated_at": "2026-10-27T09:53:33Z",
   "issues": [
+    {
+      "id": "c20261027-0197",
+      "headline": "Nvidia의 DSX POD, AI 데이터 센터 구축 혁신",
+      "summary": [
+        "Nvidia가 발표한 DSX POD는 전통적인 AI 데이터 센터 구축에 도전장을 던졌다.",
+        "이 새로운 플랫폼은 효율적인 데이터 처리와 유연성을 제공하여 AI 발전을 가속화할 것으로 기대된다.",
+        "기술 진화가 AI 데이터 센터의 설계 및 운영 방식을 혁신할 것으로 산업에 큰 의미를 갖는다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "Nvidia",
+        "AI 데이터 센터",
+        "혁신",
+        "DSX POD",
+        "효율성"
+      ],
+      "companies": [
+        "Nvidia"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "Nvidia"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점, 관심 기업(엔비디아) +1 → 5점(최고점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T09:53:33Z",
+      "updated_at": "2026-10-27T09:53:33Z",
+      "articles": [
+        {
+          "key": "73bb6be9459630c4",
+          "title": "Nvidia DSX POD challenges traditional AI data center construction",
+          "url": "https://www.digitimes.com/news/a20261027PD235/nvidia-gtc-berlin-data-center-investment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-27T08:59:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 6
+    },
+    {
+      "id": "c20261027-0198",
+      "headline": "중국 D램업체, 애플·대만 요청 거절",
+      "summary": [
+        "중국 D램업체 창신메모리(CXMT)가 애플과 대만 서버 제조사의 메모리 공급 요청을 거절했다.",
+        "AI 확산으로 메모리 수요가 급증함에 따라 자국 고객사 우선 공급 방침을 세운 것으로 보인다.",
+        "이로 인해 글로벌 메모리 공급망에 대한 우려가 커지고 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "CXMT",
+        "D램",
+        "AI 확산",
+        "메모리 공급",
+        "수요 급증"
+      ],
+      "companies": [
+        "창신메모리",
+        "애플"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "창신메모리",
+        "애플"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T09:53:33Z",
+      "updated_at": "2026-10-27T09:53:33Z",
+      "articles": [
+        {
+          "key": "b2627d59dda6a26f",
+          "title": "애플도, 대만도 \"못 줘\"… 콧대 높아진 中 메모리",
+          "url": "https://www.dt.co.kr/article/12091652",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-27T09:48:59Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261027-0194",
       "headline": "광주공고 AI반도체과 경쟁률 4.16대1로 상승",
