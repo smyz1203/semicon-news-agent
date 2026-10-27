@@ -1,7 +1,338 @@
 {
   "version": 1,
-  "updated_at": "2026-10-26T23:44:15Z",
+  "updated_at": "2026-10-27T01:02:58Z",
   "issues": [
+    {
+      "id": "c20261026-0128",
+      "headline": "삼성전자·애플, OLED 패널 주문 축소로 삼성디스플레이 수익 감소 우려",
+      "summary": [
+        "삼성전자와 애플이 메모리 가격 상승에 따라 OLED 패널 주문을 줄이고 있다.",
+        "삼성의 모바일 부서는 Q4 부품 납품을 20-30% 축소 요청했으며, 애플은 iPhone 18 Pro 주문을 15-20% 줄였다.",
+        "여기서 삼성디스플레이는 두 고객에게서 연간 수익의 62.8%를 차지해 수익성에 부정적인 영향을 받을 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED 패널",
+        "주문 축소",
+        "수익 감소",
+        "삼성디스플레이",
+        "애플",
+        "삼성전자"
+      ],
+      "companies": [
+        "삼성전자",
+        "삼성디스플레이",
+        "애플"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "삼성디스플레이",
+        "애플"
+      ],
+      "importance": 5,
+      "importance_reason": "실적 3점, 관심 기업(삼성디스플레이, 삼성전자) +1, 매체 3곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-10-26T18:35:59Z",
+      "updated_at": "2026-10-27T01:02:58Z",
+      "articles": [
+        {
+          "key": "4ba0fceda336ea4c",
+          "title": "삼성D, 폴더블 OLED ‘초격차’ 잇는다…점유율 66%로 선두 수성",
+          "url": "https://www.dt.co.kr/article/12090995",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-24T23:49:15Z"
+        },
+        {
+          "key": "4f97da7afbee3dfa",
+          "title": "Samsung Display faces profit squeeze as Apple, Samsung cut orders",
+          "url": "https://www.koreaherald.com/article/10914960",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-26T05:31:06Z"
+        },
+        {
+          "key": "19f8dc1494978c71",
+          "title": "Samsung Electronics and Apple reduce their OLED panel orders, and Samsung Display may see weaker Q4 profit",
+          "url": "https://www.oled-info.com/samsung-display-faces-q4-profit-squeeze-apple-and-samsung-electronics-cut-their",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-10-27T01:00:07Z"
+        }
+      ],
+      "importance_raw": 5,
+      "type_checked": true
+    },
+    {
+      "id": "c20261027-0154",
+      "headline": "대구·경북, 720억 투입해 AI·반도체 인재 양성",
+      "summary": [
+        "대구시와 경북도가 AI와 반도체 인재 3천명을 양성할 계획을 세웠다.",
+        "이 프로젝트에는 총 720억 원의 예산이 투입되며, 피지컬 AI 분야에 집중한다.",
+        "이 initiative는 지역 산업 경쟁력을 강화하고 인재의 시장 진입을 돕는 중요한 기반이 될 것이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI",
+        "반도체",
+        "인재양성",
+        "대구경북"
+      ],
+      "companies": [],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "대구시",
+        "경북도"
+      ],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T01:02:58Z",
+      "updated_at": "2026-10-27T01:02:58Z",
+      "articles": [
+        {
+          "key": "2c8041f0c5a6e921",
+          "title": "대구·경북, 720억 투입해 AI·반도체 인재 3천명 키운다",
+          "url": "https://www.yna.co.kr/view/AKR20261027034500053",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-26T23:59:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0155",
+      "headline": "SK하이닉스, 3분기 영업익 76조 예상",
+      "summary": [
+        "SK하이닉스는 3분기 영업이익이 76조원을 넘을 것으로 예상된다.",
+        "실적 발표는 28일로 예정되어 있으며, 여기에 대한 시장의 관심이 집중되고 있다.",
+        "추가 주주환원책과 장기공급계약을 통한 수요 확보가 중요한 이슈로 부각되고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "SK하이닉스",
+        "3분기 실적",
+        "영업이익",
+        "주주환원",
+        "장기공급계약"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T01:02:58Z",
+      "updated_at": "2026-10-27T01:02:58Z",
+      "articles": [
+        {
+          "key": "218ced54d8caab70",
+          "title": "SK하이닉스, 3분기 영업익 76조 전망…실적 넘어 주주환원 시험대",
+          "url": "https://www.dt.co.kr/article/12091433",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-27T00:10:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261027-0156",
+      "headline": "호서대, 초저전력 AI 반도체 연구개발 참여",
+      "summary": [
+        "호서대학교 벤처대학원 연구팀이 초저전력 온칩러닝 AI 반도체 개발에 나선다.",
+        "이들은 산업통상부의 국가 연구개발사업에 참여해 기술 개발을 진행할 계획이다.",
+        "이번 연구는 AI 반도체 기술의 발전에 기여할 것으로 기대된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "초저전력",
+        "AI 반도체",
+        "온칩러닝",
+        "연구개발",
+        "산업통상부"
+      ],
+      "companies": [
+        "호서대학교"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "호서대학교",
+        "산업통상부"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T01:02:58Z",
+      "updated_at": "2026-10-27T01:02:58Z",
+      "articles": [
+        {
+          "key": "240a7dbc48869142",
+          "title": "호서대, '초저전력 온칩러닝 AI 반도체' 국가연구개발사업 참여",
+          "url": "https://www.yna.co.kr/view/AKR20261027042000063",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T00:16:30Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261027-0157",
+      "headline": "삼성전자·SK하이닉스, 미국발 훈풍에 급등",
+      "summary": [
+        "삼성전자와 SK하이닉스 등 국내 반도체주가 미국의 긍정적인 분위기에 영향을 받아 급등하고 있다.",
+        "27일 장 초반, 주가는 각각 5%에서 7%대 상승세를 보이며 투자자들의 기대감을 키우고 있다.",
+        "이러한 상승세는 반도체 산업 전반에 긍정적인 신호로 작용할 것으로 예상된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "삼성전자",
+        "SK하이닉스",
+        "반도체",
+        "미국 시장",
+        "주가 상승"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자, SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T01:02:58Z",
+      "updated_at": "2026-10-27T01:02:58Z",
+      "articles": [
+        {
+          "key": "298df8659d33f50e",
+          "title": "[특징주] 반도체주, 美 훈풍에 장초반 급등…삼전·닉스 5∼7%대↑",
+          "url": "https://www.yna.co.kr/view/AKR20261027045000008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T00:23:36Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261027-0158",
+      "headline": "경량 PC 기둥으로 반도체 공장 시공 가속화",
+      "summary": [
+        "한국건설기술연구원이 중공 프리캐스트 기둥을 개발했다.",
+        "이 기둥은 반도체 공장과 데이터센터에 적용될 수 있으며, 시공 속도를 높인다.",
+        "이 기술은 산업시설의 효율성을 개선하고 공사 기간 단축에 기여할 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "PC 기둥",
+        "중공 프리캐스트",
+        "반도체 공장",
+        "시공 속도",
+        "데이터센터"
+      ],
+      "companies": [
+        "한국건설기술연구원"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T01:02:58Z",
+      "updated_at": "2026-10-27T01:02:58Z",
+      "articles": [
+        {
+          "key": "38392b13f3ea6aa6",
+          "title": "무게 줄인 PC 기둥으로 반도체 공장 시공 속도 높인다",
+          "url": "https://www.yna.co.kr/view/AKR20261027052700003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T00:46:34Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0159",
+      "headline": "3분기 한국 경제, 반도체 수출로 1.0% 성장",
+      "summary": [
+        "올해 3분기 한국 경제가 반도체 수출과 설비투자로 인해 1.0% 성장했다.",
+        "이번 성장률은 예상치를 웃도는 결과로, 연간 성장률은 3.6%에 달할 것으로 보인다.",
+        "이는 반도체 산업의 회복세가 경제 전반에 긍정적인 영향을 미친 것을 의미한다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "반도체 수출",
+        "설비 investment",
+        "한국 경제",
+        "3분기 성장",
+        "연간 성장률"
+      ],
+      "companies": [],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T01:02:58Z",
+      "updated_at": "2026-10-27T01:02:58Z",
+      "articles": [
+        {
+          "key": "807ce89800ef3892",
+          "title": "3분기 한국 경제 1.0% '깜짝 성장'…\"4분기 0%여도 연간 3.6%\"(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261027018151002",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T00:52:11Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261026-0130",
       "headline": "SK하이닉스, 3분기 실적 발표 임박",
@@ -1070,49 +1401,6 @@
           "source": "디일렉",
           "lang": "en",
           "published_at": "2026-10-25T22:30:13Z"
-        }
-      ],
-      "importance_raw": 4
-    },
-    {
-      "id": "c20261026-0128",
-      "headline": "삼성디스플레이, 폴더블 OLED 점유율 66% 유지",
-      "summary": [
-        "삼성디스플레이가 글로벌 폴더블 OLED 패널 시장에서 66%의 점유율로 선두를 유지하고 있다.",
-        "폴더블 스마트폰 사용 증가와 애플의 시장 진입으로 수요가 더욱 확대되고 있다.",
-        "이런 경쟁력은 삼성의 주요 고객사에 대한 안정적인 공급 덕분이다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "폴더블 OLED",
-        "삼성디스플레이",
-        "시장 점유율",
-        "스마트폰"
-      ],
-      "companies": [
-        "삼성디스플레이"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "삼성디스플레이"
-      ],
-      "importance": 4,
-      "importance_reason": "경영진 교체 3점, 관심 기업(삼성디스플레이) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T18:35:59Z",
-      "updated_at": "2026-10-26T18:35:59Z",
-      "articles": [
-        {
-          "key": "4ba0fceda336ea4c",
-          "title": "삼성D, 폴더블 OLED ‘초격차’ 잇는다…점유율 66%로 선두 수성",
-          "url": "https://www.dt.co.kr/article/12090995",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-24T23:49:15Z"
         }
       ],
       "importance_raw": 4
