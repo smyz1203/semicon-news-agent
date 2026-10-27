@@ -1,7 +1,68 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T15:00:54Z",
+  "updated_at": "2026-10-27T15:57:51Z",
   "issues": [
+    {
+      "id": "c20261027-0188",
+      "headline": "애플, M6 반도체 탑재 신제품 발표",
+      "summary": [
+        "애플이 10월 27일 M6 반도체가 탑재된 14인치 맥북 프로와 아이맥을 공개했다.",
+        "맥북 프로는 329만원, 아이맥은 249만원부터 시작하며 28일부터 사전주문을 받는다.",
+        "새 반도체는 AI 및 그래픽 작업의 속도를 크게 향상시켜 사용자 경험을 개선할 예정이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "M6",
+        "AI 작업",
+        "맥북 프로",
+        "아이맥",
+        "사전주문"
+      ],
+      "companies": [
+        "애플"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "애플"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-10-27T07:01:11Z",
+      "updated_at": "2026-10-27T15:57:51Z",
+      "articles": [
+        {
+          "key": "d01426080db8f255",
+          "title": "Apple launches its 2026 iPad Mini tablet, with a 8.5\" AMOLED display",
+          "url": "https://www.oled-info.com/apple-launches-its-2026-ipad-mini-tablet-85-amoled-display",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-10-27T06:47:25Z"
+        },
+        {
+          "key": "ac8389b0f8c07ed3",
+          "title": "애플, M6 탑재 아이맥 공개…\"사진 편집·AI 작업 더 빠르게\"",
+          "url": "https://www.inews24.com/view/2019653",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-27T15:09:49Z"
+        },
+        {
+          "key": "b78e9ef950cb1d93",
+          "title": "애플, M6 탑재 맥북 프로 공개…\"AI·그래픽 작업 더 빠르게\"",
+          "url": "https://www.inews24.com/view/2019652",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-27T15:10:24Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
     {
       "id": "c20261027-0207",
       "headline": "고급 패키징의 리소그래피 도전 과제 극복",
@@ -1653,54 +1714,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261027-0188",
-      "headline": "애플, 8.5인치 AMOLED 디스플레이 탑재 아이패드 미니 출시",
-      "summary": [
-        "애플이 2026년 모델 아이패드 미니를 출시했다. 이 제품은 8.5인치 AMOLED 디스플레이와 1512x2316 해상도, 1200니트 밝기를 지원한다.",
-        "아이패드 미니는 A20 Pro 칩셋을 탑재하고, 저장 용량은 128GB에서 512GB까지 선택 가능하며, 가격은 699달러다.",
-        "상대적으로 얇고 가벼워진 이 제품은 삼성 디스플레이의 OLED 패널을 사용해 디스플레이 성능이 크게 개선되었다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "아이패드 미니",
-        "AMOLED",
-        "삼성 디스플레이",
-        "A20 Pro",
-        "OLED",
-        "2026년 모델"
-      ],
-      "companies": [
-        "애플",
-        "삼성디스플레이"
-      ],
-      "event_type": "신제품·신기술·양산",
-      "confirmed": true,
-      "parties": [
-        "애플",
-        "삼성디스플레이"
-      ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점, 관심 기업(삼성디스플레이) +1 → 5점(최고점)",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-27T07:01:11Z",
-      "updated_at": "2026-10-27T07:01:11Z",
-      "articles": [
-        {
-          "key": "d01426080db8f255",
-          "title": "Apple launches its 2026 iPad Mini tablet, with a 8.5\" AMOLED display",
-          "url": "https://www.oled-info.com/apple-launches-its-2026-ipad-mini-tablet-85-amoled-display",
-          "source": "OLED-info",
-          "lang": "en",
-          "published_at": "2026-10-27T06:47:25Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 6
     },
     {
       "id": "c20261027-0175",
