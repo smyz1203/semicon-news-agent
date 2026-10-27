@@ -1,7 +1,203 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T09:53:33Z",
+  "updated_at": "2026-10-27T10:51:52Z",
   "issues": [
+    {
+      "id": "c20261027-0182",
+      "headline": "동원파츠, 애프터마켓 제품 매출 비중 확대 전망",
+      "summary": [
+        "동원파츠는 애프터마켓 부품 매출 비중을 확대할 계획을 밝혔다.",
+        "올해 상반기 애프터마켓 매출 비중은 39.7%였으나, 2025년에는 45.1%로 증가할 전망이다.",
+        "고부가가치 품목이 증가하며 수익성이 개선되고 있어, 향후 매출 성장에 긍정적인 영향을 미칠 것으로 보인다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "애프터마켓",
+        "반도체부품",
+        "고부가가치",
+        "세메스",
+        "AMAT",
+        "3D프린팅"
+      ],
+      "companies": [
+        "동원파츠",
+        "램리서치",
+        "어플라이드머티어리얼즈"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "동원파츠"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T05:47:32Z",
+      "updated_at": "2026-10-27T10:51:52Z",
+      "articles": [
+        {
+          "key": "4e38ca5608d7724f",
+          "title": "[IPO챗] 동원파츠 \"글로벌 장비사 매출 비중 70%대로 확대 계획\"",
+          "url": "https://www.yna.co.kr/view/AKR20261027119800008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T05:32:55Z"
+        },
+        {
+          "key": "83d8b526b1cbfb02",
+          "title": "동원파츠 \"고객과 분쟁 않는다...애프터마켓 확대\"",
+          "url": "https://zdnet.co.kr/view/?no=20261027145124",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-27T08:30:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261027-0199",
+      "headline": "자동차 메모리 공급에 대한 통제 강화",
+      "summary": [
+        "AI 수요 증가로 자동차 메모리의 공급이 압박받고 있다.",
+        "자동차 제조사들은 칩 공급을 통제하기 위한 조치를 취하고 있다.",
+        "이로 인해 반도체 공급망의 구조 변화가 예고되고 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "AI",
+        "자동차",
+        "메모리",
+        "반도체",
+        "공급망"
+      ],
+      "companies": [],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "자동차 제조사"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T10:51:52Z",
+      "updated_at": "2026-10-27T10:51:52Z",
+      "articles": [
+        {
+          "key": "08faa5e391d45ddb",
+          "title": "AI demand squeezes automotive memory, pushing automakers to take control of chip supply",
+          "url": "https://www.digitimes.com/news/a20261027PD220/automakers-automotive-demand-investment-data.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-27T04:20:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261027-0200",
+      "headline": "중국, 유리기판 수율 0PPM 달성으로 시장 경쟁력 강화",
+      "summary": [
+        "중국이 유리기판 제조 공정에서 홀 불량률 0PPM을 달성하며 기술력을 입증했다.",
+        "렌즈테크놀로지는 자사 TGV 라인을 통해 고종횡비 가공을 구현, 인텔과 협력도 체결하였다.",
+        "유리기판은 전력 효율성 향상과 내열 특성을 제공하여 차세대 패키징 소재로 주목받고 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "유리기판",
+        "TGV",
+        "패키징",
+        "AI 반도체",
+        "중국 산업"
+      ],
+      "companies": [
+        "렌즈테크놀로지",
+        "인텔",
+        "나우라",
+        "ACM리서치",
+        "커얼만테크놀로지"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "렌즈테크놀로지",
+        "인텔"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T10:51:52Z",
+      "updated_at": "2026-10-27T10:51:52Z",
+      "articles": [
+        {
+          "key": "32833cb5f097a65e",
+          "title": "\"홀 불량률 백만분의 1도 안돼\"…中, 유리기판 수율 안정화 박차",
+          "url": "https://zdnet.co.kr/view/?no=20261027155855",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-27T08:10:21Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0201",
+      "headline": "중국 디스플레이 기술 발전, 한국의 대응 필요성 강조",
+      "summary": [
+        "중국 디스플레이 기술의 급속한 발전이 우려되고 있다.",
+        "2029년부터 중국의 OLED 시장 점유율이 한국을 초과할 것으로 예상된다.",
+        "한국 기업들은 기술 유출 방지를 위해 블랙박스화를 강화하고 협력 방안을 모색해야 한다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "디스플레이 기술",
+        "OLED",
+        "8.6세대",
+        "중국 시장",
+        "기술 유출",
+        "한국 디스플레이 협회"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "BOE",
+        "CSOT",
+        "비전옥스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T10:51:52Z",
+      "updated_at": "2026-10-27T10:51:52Z",
+      "articles": [
+        {
+          "key": "a2d487ee3cc74abb",
+          "title": "\"中 디스플레이 발전 빨라…기술 유출 안 되게 블랙박스화 필요\"",
+          "url": "https://zdnet.co.kr/view/?no=20261027171727",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-27T08:23:50Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261027-0197",
       "headline": "Nvidia의 DSX POD, AI 데이터 센터 구축 혁신",
@@ -1083,51 +1279,6 @@
           "source": "디일렉",
           "lang": "ko",
           "published_at": "2026-10-27T05:27:49Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261027-0182",
-      "headline": "동원파츠, 글로벌 장비사와 거래 확대 계획",
-      "summary": [
-        "동원파츠가 글로벌 장비사와의 거래를 확대할 계획이라고 밝혔다.",
-        "이들은 매출 비중을 70%대로 늘리고, 공장 증설도 추진 중이다.",
-        "이러한 전략은 반도체 정밀부품 시장에서의 경쟁력을 강화할 것으로 기대된다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "동원파츠",
-        "IPO",
-        "반도체 부품",
-        "글로벌 거래",
-        "공장 증설"
-      ],
-      "companies": [
-        "동원파츠"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "동원파츠"
-      ],
-      "importance": 3,
-      "importance_reason": "실적 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-27T05:47:32Z",
-      "updated_at": "2026-10-27T05:47:32Z",
-      "articles": [
-        {
-          "key": "4e38ca5608d7724f",
-          "title": "[IPO챗] 동원파츠 \"글로벌 장비사 매출 비중 70%대로 확대 계획\"",
-          "url": "https://www.yna.co.kr/view/AKR20261027119800008",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-27T05:32:55Z"
         }
       ],
       "type_checked": true,
