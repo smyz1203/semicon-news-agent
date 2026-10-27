@@ -1,7 +1,151 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T13:01:58Z",
+  "updated_at": "2026-10-27T14:02:31Z",
   "issues": [
+    {
+      "id": "c20261027-0204",
+      "headline": "AI 데이터센터 전력난 해결 위한 K-컴포저블 클러스터 구축",
+      "summary": [
+        "국내 AI 반도체 기업들이 K-컴포저블 클러스터를 구축할 예정이다.",
+        "이 프로젝트는 2025년 4월부터 2030년 12월까지 진행되며, 정부 지원금 348억원을 포함해 총 458억원이 투입된다.",
+        "AI 데이터센터의 전력 소모 문제를 해결하고, 컴퓨팅 자원 활용 효율을 높이는 데 기여할 것으로 예상된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "K-컴포저블 클러스터",
+        "AI 데이터센터",
+        "NPU",
+        "LPDDR5X",
+        "전력 효율"
+      ],
+      "companies": [
+        "하이퍼엑셀",
+        "리벨리온",
+        "파네시아",
+        "망고부스트",
+        "래블업",
+        "카이스트",
+        "네이버클라우드"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "AI 반도체 기업",
+        "정부"
+      ],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T14:02:31Z",
+      "updated_at": "2026-10-27T14:02:31Z",
+      "articles": [
+        {
+          "key": "d7884b34af4f8054",
+          "title": "\"초기 구축비 10배 줄인다\"… AI 데이터센터 전력난 구원투수 나선 토종 반도체",
+          "url": "https://zdnet.co.kr/view/?no=20261027163746",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-27T12:36:20Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0205",
+      "headline": "SiC 및 GaN 고유의 인증 기준 필요성 제기",
+      "summary": [
+        "SiC와 GaN 전력 소자가 전기차 인버터와 데이터 센터 전원 공급 장치에 빠르게 도입되고 있다.",
+        "현재 사용되는 인증 기준은 실리콘 기반으로 설계되어 있으며, 이로 인해 고온과 높은 전압에서의 성능 저하를 제대로 반영하지 못하고 있다.",
+        "향후 전력 전자 기술의 발전을 위해 SiC와 GaN의 특성에 맞는 새로운 인증 기준의 마련이 필요하다."
+      ],
+      "category": "기타",
+      "tags": [
+        "SiC",
+        "GaN",
+        "전력 소자",
+        "인증 기준",
+        "전기차",
+        "현재 기준의 한계"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "인피니타랩",
+        "JEDEC",
+        "AEC"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T14:02:31Z",
+      "updated_at": "2026-10-27T14:02:31Z",
+      "articles": [
+        {
+          "key": "d26ed699cdb85f23",
+          "title": "Why SiC and GaN Need Their Own Qualification Standards",
+          "url": "https://www.semiconductor-digest.com/why-sic-and-gan-need-their-own-qualification-standards/?utm_source=rss&utm_medium=rss&utm_campaign=why-sic-and-gan-need-their-own-qualification-standards",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-10-27T13:53:11Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0206",
+      "headline": "반도체 산업의 계측·검사 수요 급증",
+      "summary": [
+        "2026년 반도체 장비 시장은 약 1620억 달러로 증가하며, 이 중 계측·검사가 14%를 차지한다.",
+        "Yole Group은 2031년까지 계측·검사 시장 규모를 247억 달러에서 314억 달러로 상향 조정했다.",
+        "AI에 의해 메모리 수요가 증가하고 있지만, 계측 기술의 발전은 이를 따라가지 못하고 있어 산업 전반에 걸쳐 공급 격차가 발생하고 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "계측",
+        "검사",
+        "반도체장비",
+        "AI",
+        "시장전망"
+      ],
+      "companies": [
+        "Yole Group"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "반도체 장비 제조사",
+        "칩 제조업체"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T14:02:31Z",
+      "updated_at": "2026-10-27T14:02:31Z",
+      "articles": [
+        {
+          "key": "579ab7876de343d2",
+          "title": "The Measurement Gap: Why Metrology and Inspection Is Outgrowing the Industry’s Ability to Supply It",
+          "url": "https://www.semiconductor-digest.com/the-measurement-gap-why-metrology-and-inspection-is-outgrowing-the-industrys-ability-to-supply-it/?utm_source=rss&utm_medium=rss&utm_campaign=the-measurement-gap-why-metrology-and-inspection-is-outgrowing-the-industrys-ability-to-supply-it",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-10-27T13:55:33Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261027-0164",
       "headline": "하이퍼엑셀, 삼성증권 출신 CFO 영입",
