@@ -1,7 +1,327 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T02:47:57Z",
+  "updated_at": "2026-10-27T03:49:25Z",
   "issues": [
+    {
+      "id": "c20261027-0170",
+      "headline": "HCLTech와 Rapidus, 인도 반도체 센터 개소",
+      "summary": [
+        "HCLTech와 Rapidus가 인도에 반도체 엔지니어링 지원 센터를 개소했다.",
+        "이 센터는 반도체 산업의 기술력 강화를 목표로 2026년 10월 27일에 개소되었다.",
+        "이는 인도의 반도체 생태계 발전에 도움이 될 것으로 기대된다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "반도체 센터",
+        "HCLTech",
+        "Rapidus",
+        "인도",
+        "엔지니어링 지원"
+      ],
+      "companies": [
+        "HCLTech",
+        "Rapidus"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "HCLTech",
+        "Rapidus"
+      ],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T03:49:25Z",
+      "updated_at": "2026-10-27T03:49:25Z",
+      "articles": [
+        {
+          "key": "3ceac6ac4d8e6150",
+          "title": "HCLTech and Rapidus open India centers to support semiconductor engineering",
+          "url": "https://www.digitimes.com/news/a20261027PR200/india-rapidus-semiconductors-design-development-manufacturing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-27T02:18:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0171",
+      "headline": "AI 데이터 센터 증가, 전력 반도체 공급 위험 초래",
+      "summary": [
+        "AI 데이터 센터의 급증이 전력 반도체 공급에 압박을 가하고 있다.",
+        "특히 자동차와 전자 기기 산업에서 수급 불균형이 우려된다.",
+        "이로 인해 전력 반도체 가격 상승 및 공급망 안정성에 부정적인 영향을 미칠 가능성이 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "AI 데이터 센터",
+        "전력 반도체",
+        "공급 위기",
+        "자동차",
+        "전자 기기"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T03:49:25Z",
+      "updated_at": "2026-10-27T03:49:25Z",
+      "articles": [
+        {
+          "key": "016f1dc51aa571c8",
+          "title": "AI data center boom risks squeezing power chip supplies for auto, electronics",
+          "url": "https://www.digitimes.com/news/a20261027PD215/data-data-center-expansion-electronics-chips.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-27T02:29:51Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0172",
+      "headline": "DRAM 공급 축소에도 가격 상승 미비",
+      "summary": [
+        "2026년 10월 27일자 보고서에 따르면, DRAM 공급이 최대 50% 감소하고 있다.",
+        "그럼에도 불구하고 DRAM 가격 상승폭은 기대에 미치지 못하고 있다.",
+        "이는 공급 감소에도 불구하고 시장의 수요가 약세를 보이고 있음을 의미한다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "DRAM",
+        "가격 상승",
+        "공급 감소",
+        "반도체 시장",
+        "2026년"
+      ],
+      "companies": [],
+      "event_type": "가격 동향",
+      "confirmed": true,
+      "parties": [],
+      "importance": 3,
+      "importance_reason": "가격 동향 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T03:49:25Z",
+      "updated_at": "2026-10-27T03:49:25Z",
+      "articles": [
+        {
+          "key": "6336601c7b8c234f",
+          "title": "DRAM price gains fall short as supply shrinks up to 50%",
+          "url": "https://www.digitimes.com/news/a20261027PD211/dram-price-growth-demand-2026.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-27T02:30:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261027-0173",
+      "headline": "SK 하이닉스, AI 사업 전환 계획 발표",
+      "summary": [
+        "SK텔레콤이 SK 하이닉스의 반도체 공장을 AI 사업으로 전환하는 계획을 세웠다.",
+        "2026년 10월 27일에 발표된 이 계획은 AI 기술을 반도체 제조에 적용하는 내용을 담고 있다.",
+        "이로 인해 SK 하이닉스는 AI 분야에서 경쟁력을 높이며 새로운 성장 기회를 모색할 것으로 보인다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 사업전환",
+        "SK 하이닉스",
+        "반도체",
+        "SK텔레콤",
+        "공장 전환"
+      ],
+      "companies": [
+        "SK 하이닉스",
+        "SK텔레콤"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "SK 하이닉스",
+        "SK텔레콤"
+      ],
+      "importance": 3,
+      "importance_reason": "지역·인프라 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T03:49:25Z",
+      "updated_at": "2026-10-27T03:49:25Z",
+      "articles": [
+        {
+          "key": "6561214ebfac1ee1",
+          "title": "Inside SKT’s push to turn SK Hynix’s fabs into an AI business",
+          "url": "https://www.digitimes.com/news/a20261027PD204/sk-telecom-sk-hynix-business-b2b-data.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-27T02:51:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261027-0174",
+      "headline": "삼성전자, GOS 관련 200억 과징금에 법적 대응",
+      "summary": [
+        "삼성전자가 갤럭시 스마트폰의 게임옵티마이징서비스(GOS) 광고로 인해 과징금 201억원을 부과받았다.",
+        "2022년부터 시작된 논란이 4년 만에 공정거래위원회의 제재로 이어졌다.",
+        "이번 사건은 소비자 신뢰에 부정적 영향을 미치며, 향후 광고 전략에도 변화가 예상된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "GOS",
+        "공정거래위원회",
+        "과징금",
+        "스마트폰 광고"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "소송·특허 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T03:49:25Z",
+      "updated_at": "2026-10-27T03:49:25Z",
+      "articles": [
+        {
+          "key": "5905350b0cccc16a",
+          "title": "S21·S22·탭S8 게임하기 좋다더니 버벅…삼성전자 과징금 200억",
+          "url": "https://www.yna.co.kr/view/AKR20261027087700002",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T03:00:03Z"
+        },
+        {
+          "key": "0cf6154ae49f20cb",
+          "title": "삼성전자, 갤럭시 게임 성능제한 숨겨…과징금 201억원",
+          "url": "https://www.dt.co.kr/article/12091500",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-27T03:04:44Z"
+        },
+        {
+          "key": "b70c390018434e84",
+          "title": "삼성전자, GOS 200억 과징금 불복…\"소송 등 법적 대응\"",
+          "url": "https://www.yna.co.kr/view/AKR20261027093500017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T03:15:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261027-0175",
+      "headline": "한국 최초 4메가 D램 설계도면 복원",
+      "summary": [
+        "행정안전부 국가기록원이 국내 최초의 '4메가 D램' 설계도면을 복원했다.",
+        "이번 설계도면은 10월 29일 반도체의 날을 맞아 공개될 예정이다.",
+        "이 복원은 한국 반도체 산업의 역사적 가치를 재조명하고 기술 유산을 보존하는 의미를 지닌다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "4메가 D램",
+        "설계도면",
+        "반도체의 날",
+        "기술 유산",
+        "한국 기술"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "행정안전부 국가기록원"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T03:49:25Z",
+      "updated_at": "2026-10-27T03:49:25Z",
+      "articles": [
+        {
+          "key": "9b58cd6342705397",
+          "title": "韓 반도체 신화 쓴 국내 첫 '4메가 D램 설계도면' 복원 성공",
+          "url": "https://www.yna.co.kr/view/AKR20261027024900530",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T03:00:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0176",
+      "headline": "국민소득 4만달러 달성 예상, 3% 중반 성장 전망",
+      "summary": [
+        "정부는 올해 1인당 국민소득이 4만달러에 진입할 것이라고 밝혔다.",
+        "반도체 수출과 설비 투자가 호조를 보이며 연간 경제성장률은 3%대 중반에 이를 것으로 예상된다.",
+        "그러나 민간 소비 감소와 물가 부담이 성장에 부정적인 영향을 줄 가능성이 있다."
+      ],
+      "category": "기타",
+      "tags": [
+        "국민소득",
+        "경제성장률",
+        "반도체 수출",
+        "설비 투자",
+        "물가"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T03:49:25Z",
+      "updated_at": "2026-10-27T03:49:25Z",
+      "articles": [
+        {
+          "key": "62e44f044853e32a",
+          "title": "국민소득 4만달러 눈앞…정부 “3% 중반 성장 가능”",
+          "url": "https://www.dt.co.kr/article/12091502",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-27T03:18:15Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261027-0162",
       "headline": "홍콩증권거래소, AI 및 반도체 지수 발표",
