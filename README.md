@@ -10,8 +10,8 @@
 | 항목 | 내용 |
 | --- | --- |
 | 업데이트 | 1시간마다 자동 실행 (GitHub Actions) → GitHub Pages에 배포 |
-| 국문 매체 (RSS 9개) | 디일렉, 전자신문, KIPOST, 디지털타임스, 연합뉴스, ZDNet Korea, 아이뉴스24, 테크월드뉴스 |
-| 영문 매체 (RSS 9개) | Semiconductor Engineering, Semiconductor Digest, TrendForce, OLED-info, EE Times, DigiTimes Asia, Tom's Hardware, Korea Herald |
+| 국문 매체 | 디일렉, 전자신문, KIPOST, 디지털타임스, 연합뉴스, ZDNet Korea, 아이뉴스24, 테크월드뉴스 (RSS 9개) |
+| 영문 매체 | Semiconductor Engineering, Semiconductor Digest, TrendForce, OLED-info, EE Times, DigiTimes Asia, Tom's Hardware, Korea Herald (RSS 9개) |
 | AI | OpenAI API `gpt-4o-mini` (기본) · `config/settings.yaml`의 `provider` 한 줄로 Claude API로 전환 |
 | 기술 | Python 3.12 · feedparser · RapidFuzz · HTML/CSS/JavaScript · GitHub Actions · GitHub Pages |
 
@@ -31,15 +31,16 @@
 ## 작동 방식
 
 ```mermaid
-flowchart LR
-    G[GitHub Actions<br/>1시간마다] -.-> A
-    A[RSS 18개<br/>최근 48시간] --> B[코드 거르기<br/>처리한 기사·키워드·같은 제목]
-    B --> C[AI 사건 정리·관련성<br/>3번 다수결]
-    C --> D[AI 같은 사건 확인<br/>후보 짝마다 3번 다수결]
-    D --> E[AI 요약·사건 유형<br/>4점 이상 유형은 3번 확인]
-    E --> S[중요도 계산<br/>기준표, 코드]
-    S --> F[(data/*.json)]
-    F --> P[웹페이지<br/>GitHub Pages]
+flowchart TB
+    subgraph S1 ["① 모으고 거르기"]
+        direction LR
+        G[GitHub Actions<br/>1시간마다] -.-> A[RSS 18개<br/>최근 48시간] --> B[코드 거르기<br/>처리한 기사·키워드·같은 제목] --> C[AI 관련성 판단<br/>3번 다수결]
+    end
+    subgraph S2 ["② 묶고 요약하고 점수 매기기"]
+        direction LR
+        D[AI 같은 사건 확인<br/>후보 짝마다 3번 다수결] --> E[AI 요약·사건 유형<br/>4점 이상 유형은 3번 확인] --> F[중요도 계산<br/>기준표, 코드] --> P[웹페이지<br/>GitHub Pages]
+    end
+    S1 --> S2
 ```
 
 <details>
