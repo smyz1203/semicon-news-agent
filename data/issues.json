@@ -1,7 +1,51 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T01:30:51Z",
+  "updated_at": "2026-10-27T01:54:08Z",
   "issues": [
+    {
+      "id": "c20261027-0161",
+      "headline": "케이던스, AI로 칩 설계 효율 1000배 향상 전망",
+      "summary": [
+        "케이던스가 AI 기술을 활용해 칩 설계 생산성을 1000배 높일 수 있다고 발표했다.",
+        "CEO는 과거 500명이 5년 걸리던 CPU 설계가 이제 50명이 6개월이면 가능하다고 밝혔다.",
+        "이러한 변화는 반도체 산업의 생산성 향상과 비용 절감을 가져올 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI",
+        "칩 설계",
+        "생산성",
+        "케이던스"
+      ],
+      "companies": [
+        "케이던스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "케이던스"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T01:54:08Z",
+      "updated_at": "2026-10-27T01:54:08Z",
+      "articles": [
+        {
+          "key": "821dce986fc43943",
+          "title": "케이던스 \"칩 설계 1000배 쉬워진다\"...연간 실적 전망 또 올렸다",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64296",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-27T01:38:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261027-0160",
       "headline": "수원시, 성균관대와 반도체 연구협약 체결",
