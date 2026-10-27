@@ -4,5 +4,5 @@
 *.bat text eol=crlf
 *.png binary
 *.jpg binary
-# README는 ZIP으로 받아 윈도 프로그램(메모장 등)에서 열어도 줄바꿈이 깨지지 않게 CRLF로 내보냄
-README.md text eol=crlf
+# 마크다운 문서(README, docs)는 ZIP으로 받아 윈도 프로그램(메모장 등)에서 열어도 줄바꿈이 깨지지 않게 CRLF로 내보냄
+*.md text eol=crlf
