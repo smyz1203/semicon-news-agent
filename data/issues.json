@@ -1,7 +1,285 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T07:01:11Z",
+  "updated_at": "2026-10-27T07:57:52Z",
   "issues": [
+    {
+      "id": "c20261026-0146",
+      "headline": "슈퍼마이크로, 256개 엔비디아 베라 CPU 수냉식 랙 공개",
+      "summary": [
+        "슈퍼마이크로는 256개의 엔비디아 베라 CPU를 탑재한 100% 수냉식 랙을 출시했다.",
+        "이 시스템은 최대 2만 2,500개의 샌드박스를 지원하며 에이전틱 AI 환경에 최적화됐다.",
+        "고밀도 CPU 컴퓨팅을 통해 AI 팩토리의 연산 수요를 충족할 수 있는 기술적 진전을 보여준다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엔비디아 베라 CPU",
+        "수냉식 랙",
+        "에이전틱 AI",
+        "고밀도 컴퓨팅",
+        "강화학습"
+      ],
+      "companies": [
+        "슈퍼마이크로",
+        "엔비디아"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "슈퍼마이크로",
+        "엔비디아"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점, 관심 기업(엔비디아) +1, 매체 3곳 보도 +1 → 5점(최고점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T19:07:39Z",
+      "updated_at": "2026-10-27T07:57:52Z",
+      "articles": [
+        {
+          "key": "4e671c867289e3ae",
+          "title": "슈퍼마이크로, 엔비디아 베라 CPU 256개 탑재 100% 수냉식 랙 공개",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408760",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-26T05:30:00Z"
+        },
+        {
+          "key": "cc8fae63ec00d4a5",
+          "title": "슈퍼마이크로, 엔비디아 베라 CPU 256개 탑재한 100% 수냉식 랙 공개…대규모 에이전틱 AI 지원",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=342712",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-10-27T03:09:00Z"
+        },
+        {
+          "key": "cd52868fb3b556ca",
+          "title": "슈퍼마이크로, 엔비디아 베라 CPU 256개 탑재한 100% 수냉식 랙 공개…대규모 에이전틱 AI 지원",
+          "url": "https://zdnet.co.kr/view/?no=20261027151012",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-27T06:10:12Z"
+        }
+      ],
+      "importance_raw": 7,
+      "type_checked": true
+    },
+    {
+      "id": "c20261027-0189",
+      "headline": "제주반도체, PSMC 용량 부족으로 성장에 제약",
+      "summary": [
+        "PSMC의 생산 능력 부족이 제주반도체의 성장을 저해하고 있다.",
+        "제주반도체는 PSMC의 지원을 받지만, 용량 확대에 어려움을 겪고 있어 향후 성장이 불투명하다.",
+        "이 문제는 제주반도체의 매출 및 시장 점유율에 부정적인 영향을 미칠 것으로 예상된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "PSMC",
+        "제주반도체",
+        "성장",
+        "용량 부족"
+      ],
+      "companies": [
+        "제주반도체",
+        "PSMC"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "제주반도체",
+        "PSMC"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T07:57:52Z",
+      "updated_at": "2026-10-27T07:57:52Z",
+      "articles": [
+        {
+          "key": "9c2003ba030cf412",
+          "title": "PSMC capacity crunch holds back Jeju Semiconductor's growth",
+          "url": "https://www.digitimes.com/news/a20261027VL221/capacity-psmc-growth-manufacturing-wafer.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-27T06:00:12Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261027-0190",
+      "headline": "반도체 기술 논문 업데이트, 10월 27일",
+      "summary": [
+        "최근 반도체 공학 라이브러리에 여러 기술 논문이 추가됐다.",
+        "핵심 주제는 DRAM 통합, 저전압 실리콘 모듈레이터, EUV 리소그래피 마스크 등이다.",
+        "이 연구들은 반도체 설계 및 제조 과정의 혁신을 이끌 것으로 기대된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "HBM",
+        "3D DRAM",
+        "EUV 리소그래피",
+        "실리콘 모듈레이터",
+        "트랜지스터 모델링"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T07:57:52Z",
+      "updated_at": "2026-10-27T07:57:52Z",
+      "articles": [
+        {
+          "key": "3d949ae25d40c2f2",
+          "title": "Chip Industry Technical Paper Roundup: Oct. 27",
+          "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-oct-27/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-10-27T07:01:16Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0191",
+      "headline": "AI 반도체 자금조달 리스크 우려 커져",
+      "summary": [
+        "AI 반도체 산업이 국내 경제 성장에 기여하고 있으나 자금조달 리스크가 발생할 수 있다.",
+        "AI 기업들이 외부자금 의존도가 높아지면서 부실화 및 수익화 지연이 우려된다.",
+        "한국은행은 AI 산업 자금조달 특성과 리스크를 평가한 보고서를 발표했다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 반도체",
+        "자금조달",
+        "리스크",
+        "한국은행",
+        "투자"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "한국은행"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T07:57:52Z",
+      "updated_at": "2026-10-27T07:57:52Z",
+      "articles": [
+        {
+          "key": "bc0e96b2fdc2cdba",
+          "title": "AI 자금조달 리스크 현실화될까…한국은행, 수익성보다 빠른 투자 우려",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408829",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T07:15:37Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0192",
+      "headline": "평택시, 반도체 환경설비 오픈랩 개소",
+      "summary": [
+        "경기 평택시가 반도체 가스 저감기술을 시험하고 검증하기 위해 오픈랩을 개소한다.",
+        "이 오픈랩은 11월 2일에 문을 열며, 환경 관련 기술 개발을 지원할 예정이다.",
+        "이번 시설 개소는 반도체 산업의 환경 문제 해결에 기여할 것으로 기대된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체",
+        "환경설비",
+        "가스 저감기술"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T07:57:52Z",
+      "updated_at": "2026-10-27T07:57:52Z",
+      "articles": [
+        {
+          "key": "cb74627695254867",
+          "title": "평택서 반도체 가스 저감기술 시험·검증한다",
+          "url": "https://www.yna.co.kr/view/AKR20261027156000061",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T07:39:34Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0193",
+      "headline": "케이사인, 삼성전자 DB 암호화 사업 확대",
+      "summary": [
+        "케이사인이 삼성전자의 데이터베이스(DB) 암호화 사업을 추가로 수주했다.",
+        "이번 사업은 개인정보 암호화 항목을 확대하고, 적용 시스템을 늘리는 내용을 포함한다.",
+        "이로 인해 기업의 내부 보안 시스템이 강화될 것으로 기대된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "DB 암호화",
+        "삼성전자",
+        "케이사인",
+        "개인정보 보호"
+      ],
+      "companies": [
+        "케이사인",
+        "삼성전자"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "케이사인",
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T07:57:52Z",
+      "updated_at": "2026-10-27T07:57:52Z",
+      "articles": [
+        {
+          "key": "e8622bfa539cf81d",
+          "title": "케이사인, 삼성 DB 암호화 추가 수주...적용 시스템 확대",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64318",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-27T07:39:48Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
     {
       "id": "c20261027-0174",
       "headline": "삼성전자, GOS 제재 불복하며 소송 예고",
@@ -540,61 +818,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261026-0146",
-      "headline": "슈퍼마이크로, 256개 엔비디아 베라 CPU 탑재한 수냉식 랙 공개",
-      "summary": [
-        "슈퍼마이크로는 엔비디아 베라 CPU 256개를 탑재한 100% 수냉식 랙을 발표했다.",
-        "이 제품은 2026년 10월 27일에 공개되었으며, 대규모 AI 팩토리 구축을 지원한다.",
-        "이러한 기술은 AI 및 데이터센터 분야에 큰 도움이 될 것으로 예상된다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "엔비디아 베라",
-        "수냉식 랙",
-        "DCBBS",
-        "대규모 AI",
-        "통합 인프라"
-      ],
-      "companies": [
-        "슈퍼마이크로",
-        "엔비디아"
-      ],
-      "event_type": "신제품·신기술·양산",
-      "confirmed": true,
-      "parties": [
-        "슈퍼마이크로",
-        "엔비디아"
-      ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점, 관심 기업(엔비디아) +1 → 5점(최고점)",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T19:07:39Z",
-      "updated_at": "2026-10-27T05:47:32Z",
-      "articles": [
-        {
-          "key": "4e671c867289e3ae",
-          "title": "슈퍼마이크로, 엔비디아 베라 CPU 256개 탑재 100% 수냉식 랙 공개",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408760",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-26T05:30:00Z"
-        },
-        {
-          "key": "cc8fae63ec00d4a5",
-          "title": "슈퍼마이크로, 엔비디아 베라 CPU 256개 탑재한 100% 수냉식 랙 공개…대규모 에이전틱 AI 지원",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=342712",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-10-27T03:09:00Z"
-        }
-      ],
-      "importance_raw": 6,
-      "type_checked": true
     },
     {
       "id": "c20261027-0181",
