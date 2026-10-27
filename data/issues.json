@@ -1,7 +1,174 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T20:49:40Z",
+  "updated_at": "2026-10-27T21:48:46Z",
   "issues": [
+    {
+      "id": "c20261026-0111",
+      "headline": "삼성전자, 3분기 메모리 영업익 110조 추정",
+      "summary": [
+        "삼성전자는 10월 29일 2026년 3분기 실적을 발표할 예정이다.",
+        "메모리 부문에서만 영업이익이 110조 원에 달할 것으로 추정된다.",
+        "이 실적 호황은 메모리 시장의 지속적인 성장과 관련이 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "3분기실적",
+        "메모리",
+        "영업익",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 5,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자, SK하이닉스) +1, 매체 3곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-10-26T18:29:43Z",
+      "updated_at": "2026-10-27T21:48:46Z",
+      "articles": [
+        {
+          "key": "8a01117d1d9166b5",
+          "title": "삼성전자·SK하이닉스, 3분기 영업익 180조 넘나…메모리 호황에 실적 질주",
+          "url": "https://www.inews24.com/view/2018676",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-25T07:22:51Z"
+        },
+        {
+          "key": "64ee6ad1763ac123",
+          "title": "삼성전자, 3분기 HBM 매출서 SK하이닉스 추월 전망…번스타인 분석",
+          "url": "https://www.inews24.com/view/2018911",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-26T04:55:51Z"
+        },
+        {
+          "key": "7fae14477d622f0b",
+          "title": "Samsung may have overtaken SK hynix in HBM revenue, analysis suggests",
+          "url": "https://www.koreaherald.com/article/10915040",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-26T05:58:40Z"
+        },
+        {
+          "key": "7e05762386f37eef",
+          "title": "내일 삼성전자 3분기 세부실적…메모리만 110조 영업익 추정",
+          "url": "https://www.yna.co.kr/view/AKR20261026160500003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T21:01:00Z"
+        }
+      ],
+      "importance_raw": 5,
+      "type_checked": true
+    },
+    {
+      "id": "c20261027-0212",
+      "headline": "반도체 실적 상승에도 기업 경기 전망 부정적",
+      "summary": [
+        "한국 기업의 경기 전망이 2개월 연속 부정적이다.",
+        "반도체 실적이 좋아지는데도 불구하고 AI 투자에 대한 불확실성이 작용하고 있다.",
+        "11월 기업경기실사지수(BSI)는 98.6으로, 경제 회복에 어려움을 시사한다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "반도체 실적",
+        "기업 경기전망",
+        "AI 투자",
+        "BSI",
+        "부정적 전망"
+      ],
+      "companies": [
+        "한국경제인협회"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T21:48:46Z",
+      "updated_at": "2026-10-27T21:48:46Z",
+      "articles": [
+        {
+          "key": "fb995b0cd13fbb39",
+          "title": "기업 경기전망 2개월 연속 ‘부정’…11월 BSI 98.6",
+          "url": "https://www.dt.co.kr/article/12091637",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-27T21:00:05Z"
+        },
+        {
+          "key": "3e6e93db11928eaa",
+          "title": "반도체 실적 호조에도…기업 경기 전망 2개월 연속 '부정적'",
+          "url": "https://www.yna.co.kr/view/AKR20261027167600003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T21:00:08Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0213",
+      "headline": "소부장 뿌리기술대전 개최 및 은탑훈장 수여",
+      "summary": [
+        "2026 소재·부품·장비(소부장) 뿌리기술대전이 28일부터 30일까지 고양시에서 열린다.",
+        "이번 행사에서 김병석 한미반도체 상무가 은탑훈장을 수여받는다.",
+        "소부장 산업의 발전과 기술 혁신을 촉진하는 중요한 계기가 될 것으로 보인다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "소부장",
+        "뿌리기술대전",
+        "은탑훈장",
+        "한미반도체",
+        "산업통상부"
+      ],
+      "companies": [
+        "한미반도체"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "한미반도체"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T21:48:46Z",
+      "updated_at": "2026-10-27T21:48:46Z",
+      "articles": [
+        {
+          "key": "4a26426958542681",
+          "title": "소부장 뿌리기술대전 개막…김병석 한미반도체 상무 은탑훈장",
+          "url": "https://www.yna.co.kr/view/AKR20261027172900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T21:00:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261027-0188",
       "headline": "애플, M6 반도체 탑재 신제품 발표",
@@ -3051,68 +3218,6 @@
       ],
       "importance_raw": 3,
       "type_checked": true
-    },
-    {
-      "id": "c20261026-0111",
-      "headline": "삼성전자, 3분기 HBM 매출 SK하이닉스 초과 전망",
-      "summary": [
-        "삼성전자가 3분기 HBM 매출에서 SK하이닉스를 초과할 것으로 예상된다.",
-        "미국 투자은행 번스타인의 분석에 따르면 삼성전자의 HBM 매출은 87억 달러로 추정됐다.",
-        "이는 두 기업의 메모리 호황을 반영하며, 양사의 영업이익 합산은 180조원을 넘길 것으로 보인다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "HBM",
-        "삼성전자",
-        "SK하이닉스",
-        "3분기 실적",
-        "메모리 호황"
-      ],
-      "companies": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "importance": 4,
-      "importance_reason": "실적 3점, 관심 기업(삼성전자, SK하이닉스) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-10-26T18:29:43Z",
-      "updated_at": "2026-10-26T19:07:39Z",
-      "articles": [
-        {
-          "key": "8a01117d1d9166b5",
-          "title": "삼성전자·SK하이닉스, 3분기 영업익 180조 넘나…메모리 호황에 실적 질주",
-          "url": "https://www.inews24.com/view/2018676",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-25T07:22:51Z"
-        },
-        {
-          "key": "64ee6ad1763ac123",
-          "title": "삼성전자, 3분기 HBM 매출서 SK하이닉스 추월 전망…번스타인 분석",
-          "url": "https://www.inews24.com/view/2018911",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-26T04:55:51Z"
-        },
-        {
-          "key": "7fae14477d622f0b",
-          "title": "Samsung may have overtaken SK hynix in HBM revenue, analysis suggests",
-          "url": "https://www.koreaherald.com/article/10915040",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-10-26T05:58:40Z"
-        }
-      ],
-      "importance_raw": 4
     },
     {
       "id": "c20261026-0127",
