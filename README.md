@@ -1,7 +1,4 @@
-# 반도체·디스플레이 뉴스 AI Agent
-
-[![뉴스 업데이트](https://github.com/smyz1203/semicon-news-agent/actions/workflows/update.yml/badge.svg)](https://github.com/smyz1203/semicon-news-agent/actions/workflows/update.yml)
-[![테스트](https://github.com/smyz1203/semicon-news-agent/actions/workflows/test.yml/badge.svg)](https://github.com/smyz1203/semicon-news-agent/actions/workflows/test.yml)
+# 반도체 & 디스플레이 뉴스 AI Agent
 
 반도체·디스플레이 업계 뉴스를 **1시간마다 자동으로 모으고**, 같은 사건을 다룬 **중복 기사를 하나로 묶고**, **한국어로 요약**하고, 정해 둔 기준으로 **중요도를 판단**해 웹페이지로 보여주는 AI Agent입니다.
 
