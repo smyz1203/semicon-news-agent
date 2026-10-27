@@ -1,7 +1,276 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T04:48:17Z",
+  "updated_at": "2026-10-27T05:47:32Z",
   "issues": [
+    {
+      "id": "c20261027-0174",
+      "headline": "삼성전자, GOS 관련 200억 과징금에 법적 대응",
+      "summary": [
+        "삼성전자가 갤럭시 스마트폰의 게임옵티마이징서비스(GOS) 광고로 인해 과징금 201억원을 부과받았다.",
+        "2022년부터 시작된 논란이 4년 만에 공정거래위원회의 제재로 이어졌다.",
+        "이번 사건은 소비자 신뢰에 부정적 영향을 미치며, 향후 광고 전략에도 변화가 예상된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "GOS",
+        "공정거래위원회",
+        "과징금",
+        "스마트폰 광고"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "소송·특허 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T03:49:25Z",
+      "updated_at": "2026-10-27T05:47:32Z",
+      "articles": [
+        {
+          "key": "5905350b0cccc16a",
+          "title": "S21·S22·탭S8 게임하기 좋다더니 버벅…삼성전자 과징금 200억",
+          "url": "https://www.yna.co.kr/view/AKR20261027087700002",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T03:00:03Z"
+        },
+        {
+          "key": "0cf6154ae49f20cb",
+          "title": "삼성전자, 갤럭시 게임 성능제한 숨겨…과징금 201억원",
+          "url": "https://www.dt.co.kr/article/12091500",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-27T03:04:44Z"
+        },
+        {
+          "key": "b70c390018434e84",
+          "title": "삼성전자, GOS 200억 과징금 불복…\"소송 등 법적 대응\"",
+          "url": "https://www.yna.co.kr/view/AKR20261027093500017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T03:15:00Z"
+        },
+        {
+          "key": "cf2d4c018a8b5e80",
+          "title": "S21·S22·탭S8 게임하기 좋다더니 버벅…삼성전자 과징금 200억(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261027087701002",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T05:04:09Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261027-0175",
+      "headline": "한국 최초 4메가 D램 설계도면 복원 성공",
+      "summary": [
+        "행정안전부가 10월 29일 반도체의 날을 맞아 4메가 D램 설계도면을 복원했다.",
+        "복원된 설계도면은 1986년에서 1987년 사이 제작된 15건 67매를 포함한다.",
+        "이번 복원은 한국 반도체 산업의 역사적 가치와 기술 발전의 상징으로 평가된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "4메가 D램",
+        "설계도면",
+        "반도체의 날",
+        "기술 복원"
+      ],
+      "companies": [
+        "행정안전부",
+        "한국전자통신연구원"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "행정안전부",
+        "한국전자통신연구원"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T03:49:25Z",
+      "updated_at": "2026-10-27T05:47:32Z",
+      "articles": [
+        {
+          "key": "9b58cd6342705397",
+          "title": "韓 반도체 신화 쓴 국내 첫 '4메가 D램 설계도면' 복원 성공",
+          "url": "https://www.yna.co.kr/view/AKR20261027024900530",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T03:00:04Z"
+        },
+        {
+          "key": "213a246a29b4fd10",
+          "title": "韓 반도체 신화 쓴 국내 첫 ‘4메가 D램 설계도면’ 복원 성공",
+          "url": "https://www.dt.co.kr/article/12091538",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-27T05:19:45Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261026-0146",
+      "headline": "슈퍼마이크로, 256개 엔비디아 베라 CPU 탑재한 수냉식 랙 공개",
+      "summary": [
+        "슈퍼마이크로는 엔비디아 베라 CPU 256개를 탑재한 100% 수냉식 랙을 발표했다.",
+        "이 제품은 2026년 10월 27일에 공개되었으며, 대규모 AI 팩토리 구축을 지원한다.",
+        "이러한 기술은 AI 및 데이터센터 분야에 큰 도움이 될 것으로 예상된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엔비디아 베라",
+        "수냉식 랙",
+        "DCBBS",
+        "대규모 AI",
+        "통합 인프라"
+      ],
+      "companies": [
+        "슈퍼마이크로",
+        "엔비디아"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "슈퍼마이크로",
+        "엔비디아"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점, 관심 기업(엔비디아) +1 → 5점(최고점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T19:07:39Z",
+      "updated_at": "2026-10-27T05:47:32Z",
+      "articles": [
+        {
+          "key": "4e671c867289e3ae",
+          "title": "슈퍼마이크로, 엔비디아 베라 CPU 256개 탑재 100% 수냉식 랙 공개",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408760",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-26T05:30:00Z"
+        },
+        {
+          "key": "cc8fae63ec00d4a5",
+          "title": "슈퍼마이크로, 엔비디아 베라 CPU 256개 탑재한 100% 수냉식 랙 공개…대규모 에이전틱 AI 지원",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=342712",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-10-27T03:09:00Z"
+        }
+      ],
+      "importance_raw": 6,
+      "type_checked": true
+    },
+    {
+      "id": "c20261027-0181",
+      "headline": "삼성디스플레이, 비FMM OLED 기술 개발 가속",
+      "summary": [
+        "삼성디스플레이 이청 사장이 어플라이드머티리얼즈 관계자와 회동했다.",
+        "양측은 비FMM OLED 기술과 관련된 장비 논의가 예상된다.",
+        "이번 회동은 삼성디스플레이의 MPO 기술 개발과 관련이 깊어 주목받고 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "파인메탈마스크",
+        "비FMM",
+        "MPO",
+        "삼성디스플레이"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "어플라이드머티리얼즈"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "삼성디스플레이",
+        "어플라이드머티리얼즈"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(삼성디스플레이) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T05:47:32Z",
+      "updated_at": "2026-10-27T05:47:32Z",
+      "articles": [
+        {
+          "key": "8ffb48468786691b",
+          "title": "이청 삼성D 사장, 어플라이드 최고위 관계자 회동",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64306",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-27T05:27:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261027-0182",
+      "headline": "동원파츠, 글로벌 장비사와 거래 확대 계획",
+      "summary": [
+        "동원파츠가 글로벌 장비사와의 거래를 확대할 계획이라고 밝혔다.",
+        "이들은 매출 비중을 70%대로 늘리고, 공장 증설도 추진 중이다.",
+        "이러한 전략은 반도체 정밀부품 시장에서의 경쟁력을 강화할 것으로 기대된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "동원파츠",
+        "IPO",
+        "반도체 부품",
+        "글로벌 거래",
+        "공장 증설"
+      ],
+      "companies": [
+        "동원파츠"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "동원파츠"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T05:47:32Z",
+      "updated_at": "2026-10-27T05:47:32Z",
+      "articles": [
+        {
+          "key": "4e38ca5608d7724f",
+          "title": "[IPO챗] 동원파츠 \"글로벌 장비사 매출 비중 70%대로 확대 계획\"",
+          "url": "https://www.yna.co.kr/view/AKR20261027119800008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T05:32:55Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261027-0177",
       "headline": "삼성전자·SK하이닉스, 2027년 2분기 HBM4 출하 계획",
@@ -362,109 +631,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261027-0174",
-      "headline": "삼성전자, GOS 관련 200억 과징금에 법적 대응",
-      "summary": [
-        "삼성전자가 갤럭시 스마트폰의 게임옵티마이징서비스(GOS) 광고로 인해 과징금 201억원을 부과받았다.",
-        "2022년부터 시작된 논란이 4년 만에 공정거래위원회의 제재로 이어졌다.",
-        "이번 사건은 소비자 신뢰에 부정적 영향을 미치며, 향후 광고 전략에도 변화가 예상된다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "GOS",
-        "공정거래위원회",
-        "과징금",
-        "스마트폰 광고"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "소송·특허",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 4,
-      "importance_reason": "소송·특허 3점, 관심 기업(삼성전자) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-27T03:49:25Z",
-      "updated_at": "2026-10-27T03:49:25Z",
-      "articles": [
-        {
-          "key": "5905350b0cccc16a",
-          "title": "S21·S22·탭S8 게임하기 좋다더니 버벅…삼성전자 과징금 200억",
-          "url": "https://www.yna.co.kr/view/AKR20261027087700002",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-27T03:00:03Z"
-        },
-        {
-          "key": "0cf6154ae49f20cb",
-          "title": "삼성전자, 갤럭시 게임 성능제한 숨겨…과징금 201억원",
-          "url": "https://www.dt.co.kr/article/12091500",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-27T03:04:44Z"
-        },
-        {
-          "key": "b70c390018434e84",
-          "title": "삼성전자, GOS 200억 과징금 불복…\"소송 등 법적 대응\"",
-          "url": "https://www.yna.co.kr/view/AKR20261027093500017",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-27T03:15:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
-    },
-    {
-      "id": "c20261027-0175",
-      "headline": "한국 최초 4메가 D램 설계도면 복원",
-      "summary": [
-        "행정안전부 국가기록원이 국내 최초의 '4메가 D램' 설계도면을 복원했다.",
-        "이번 설계도면은 10월 29일 반도체의 날을 맞아 공개될 예정이다.",
-        "이 복원은 한국 반도체 산업의 역사적 가치를 재조명하고 기술 유산을 보존하는 의미를 지닌다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "4메가 D램",
-        "설계도면",
-        "반도체의 날",
-        "기술 유산",
-        "한국 기술"
-      ],
-      "companies": [],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "행정안전부 국가기록원"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-27T03:49:25Z",
-      "updated_at": "2026-10-27T03:49:25Z",
-      "articles": [
-        {
-          "key": "9b58cd6342705397",
-          "title": "韓 반도체 신화 쓴 국내 첫 '4메가 D램 설계도면' 복원 성공",
-          "url": "https://www.yna.co.kr/view/AKR20261027024900530",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-27T03:00:04Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261027-0176",
@@ -1902,53 +2068,6 @@
         }
       ],
       "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0146",
-      "headline": "슈퍼마이크로, 256개 엔비디아 베라 CPU 탑재 랙 공개",
-      "summary": [
-        "슈퍼마이크로가 엔비디아 베라 CPU를 256개 탑재한 랙을 공개했다.",
-        "이 랙은 수냉식 설계로 AI 및 강화학습 워크로드에 최적화되어 있으며, 최대 2만2500개의 샌드박스를 지원한다.",
-        "슈퍼마이크로의 엔비디아 베라 루빈 NVL72와 함께 운영할 수 있어 효율적인 데이터 처리가 가능하다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "엔비디아 베라 CPU",
-        "수냉식 시스템",
-        "AI 컴퓨팅",
-        "고밀도 CPU",
-        "슈퍼마이크로"
-      ],
-      "companies": [
-        "슈퍼마이크로",
-        "엔비디아"
-      ],
-      "event_type": "신제품·신기술·양산",
-      "confirmed": true,
-      "parties": [
-        "슈퍼마이크로",
-        "엔비디아"
-      ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점, 관심 기업(엔비디아) +1 → 5점(최고점)",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T19:07:39Z",
-      "updated_at": "2026-10-26T19:07:39Z",
-      "articles": [
-        {
-          "key": "4e671c867289e3ae",
-          "title": "슈퍼마이크로, 엔비디아 베라 CPU 256개 탑재 100% 수냉식 랙 공개",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408760",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-26T05:30:00Z"
-        }
-      ],
-      "importance_raw": 6,
-      "type_checked": true
     },
     {
       "id": "c20261026-0147",
