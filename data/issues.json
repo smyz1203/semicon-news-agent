@@ -1,7 +1,237 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T14:02:31Z",
+  "updated_at": "2026-10-27T15:00:54Z",
   "issues": [
+    {
+      "id": "c20261027-0207",
+      "headline": "고급 패키징의 리소그래피 도전 과제 극복",
+      "summary": [
+        "AI 기반 맞춤형 실리콘이 고밀도 RDL, TSV 및 팬 아웃 인터커넥트를 위한 패키징을 추진하고 있다.",
+        "300mm 웨이퍼에서 600x600mm 패널로 확대되면서 오버레이 정확성 및 열 안정성이 중요해진다.",
+        "고속 스캔 및 열 안정성 유지 기술이 생산 효율성을 높이는 데 핵심적인 역할을 한다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "리소그래피",
+        "고급 패키징",
+        "AI 실리콘",
+        "열 안정성",
+        "오버레이 정확성"
+      ],
+      "companies": [
+        "ETEL",
+        "HEIDENHAIN"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T15:00:54Z",
+      "updated_at": "2026-10-27T15:00:54Z",
+      "articles": [
+        {
+          "key": "c307c47715d3af4a",
+          "title": "From Wafers to Panels: Overcoming Lithography Challenges in Advanced Packaging",
+          "url": "https://www.semiconductor-digest.com/from-wafers-to-panels-overcoming-lithography-challenges-in-advanced-packaging/?utm_source=rss&utm_medium=rss&utm_campaign=from-wafers-to-panels-overcoming-lithography-challenges-in-advanced-packaging",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-10-27T14:04:55Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0208",
+      "headline": "후공정 장비 시장, 전략적 패키징 생태계로 변화",
+      "summary": [
+        "2026년 후공정 장비 시장은 81억 달러에서 95억 달러로 성장할 전망이다.",
+        "AI 인프라, HBM, 칩렛 등이 후공정 장비의 전략적 생태계로 전환시키고 있다.",
+        "2031년까지 공정 통합 및 지역 유연성이 시장 주도에 중요한 요소가 될 것이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "HBM",
+        "후공정",
+        "AI 인프라",
+        "전략적 패키징",
+        "지역화",
+        "장비 시장"
+      ],
+      "companies": [
+        "디스코",
+        "ASMPT",
+        "Besi"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T15:00:54Z",
+      "updated_at": "2026-10-27T15:00:54Z",
+      "articles": [
+        {
+          "key": "a15fecf651365c96",
+          "title": "Back-End Equipment: From Volume Assembly to a Strategic Advanced Packaging Ecosystem",
+          "url": "https://www.semiconductor-digest.com/back-end-equipment-from-volume-assembly-to-a-strategic-advanced-packaging-ecosystem/?utm_source=rss&utm_medium=rss&utm_campaign=back-end-equipment-from-volume-assembly-to-a-strategic-advanced-packaging-ecosystem",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-10-27T14:26:50Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0209",
+      "headline": "웨이퍼 제조 장비 시장, 2031년 2200억 달러 돌파 예측",
+      "summary": [
+        "웨이퍼 제조 장비 시장은 2025년 1,290억 달러에서 2031년 2,200억 달러로 성장할 것으로 보인다.",
+        "이 시장은 다양한 지역별 수익 구조를 가지며, 북미 기업이 약 40%의 매출을 차지한다.",
+        "장비 기술의 집중화가 계속되며, 특히 DRAM, NAND 등에서의 고급 장비 수요가 주도하고 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "웨이퍼 제조 장비",
+        "시장 성장",
+        "고급 포장",
+        "DRAM",
+        "NAND"
+      ],
+      "companies": [
+        "ASML",
+        "어플라이드 머티어리얼즈",
+        "람 리서치",
+        "도쿄 일렉트론",
+        "KLA"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T15:00:54Z",
+      "updated_at": "2026-10-27T15:00:54Z",
+      "articles": [
+        {
+          "key": "ddf93fb02f4f425e",
+          "title": "Wafer Fab Equipment: A Booming Market Built on a Fragmenting Supply Chain",
+          "url": "https://www.semiconductor-digest.com/wafer-fab-equipment-a-booming-market-built-on-a-fragmenting-supply-chain/?utm_source=rss&utm_medium=rss&utm_campaign=wafer-fab-equipment-a-booming-market-built-on-a-fragmenting-supply-chain",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-10-27T14:29:24Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0210",
+      "headline": "TSMC, Nvidia 칩 압박으로 CoWoS 가격 인상 검토",
+      "summary": [
+        "TSMC가 Nvidia의 Blackwell 및 Rubin 칩으로 인한 패키징 용량 압박으로 CoWoS 가격을 20% 인상할 가능성을 검토하고 있다.",
+        "이 가격 인상은 2026년 10월 27일 발표될 예정이다. 패키징 수요 증가에 따른 결정으로, 전체 반도체 시장에 영향을 미칠 수 있다.",
+        "Nvidia 칩의 수요 증가가 TSMC의 가격 결정에 직접적인 영향을 주어, 패키징 비용 증가가 반도체 생태계에 파급효과를 가져올 전망이다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "CoWoS",
+        "Nvidia",
+        "TSMC",
+        "Blackwell",
+        "Rubin",
+        "칩 가격 인상"
+      ],
+      "companies": [
+        "TSMC",
+        "Nvidia"
+      ],
+      "event_type": "가격 동향",
+      "confirmed": false,
+      "parties": [
+        "TSMC",
+        "Nvidia"
+      ],
+      "importance": 3,
+      "importance_reason": "가격 동향 3점, 관심 기업(엔비디아) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T15:00:54Z",
+      "updated_at": "2026-10-27T15:00:54Z",
+      "articles": [
+        {
+          "key": "01921616eea494d0",
+          "title": "TSMC reportedly weighs 20% CoWoS price increase as Nvidia Blackwell and Rubin chips put pressure on packaging capacity",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-reportedly-weighs-20-percent-cowos-price-increase-as-nvidia-blackwell-and-rubin-chips-put-pressure-on-packaging-capacity-equipment-lead-times-stretch-to-eight-months",
+          "source": "Tom's Hardware",
+          "lang": "en",
+          "published_at": "2026-10-27T14:30:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261027-0211",
+      "headline": "머스크, 2나노 반도체 공장 발언 논란",
+      "summary": [
+        "일론 머스크가 2나노 반도체 공장에서 치즈버거를 먹고 시가를 피울 수 있다며 논란을 일으켰다.",
+        "그의 발언은 반도체 업계로부터 조롱받았지만, 현재 테라팹과 공급 계약 논의가 진행 중이다.",
+        "머스크는 이 공장이 세계 GDP 20위 안에 드는 생산량을 기록할 것이라고 주장했다."
+      ],
+      "category": "기타",
+      "tags": [
+        "2나노",
+        "테라팹",
+        "일론 머스크"
+      ],
+      "companies": [
+        "테슬라",
+        "테라팹"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "테슬라",
+        "테라팹"
+      ],
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T15:00:54Z",
+      "updated_at": "2026-10-27T15:00:54Z",
+      "articles": [
+        {
+          "key": "45db8bf13ee4b26c",
+          "title": "[기자수첩] 머스크가 또",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64380",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-27T14:32:19Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261027-0204",
       "headline": "AI 데이터센터 전력난 해결 위한 K-컴포저블 클러스터 구축",
