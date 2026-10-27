@@ -1,21 +1,22 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T05:47:32Z",
+  "updated_at": "2026-10-27T07:01:11Z",
   "issues": [
     {
       "id": "c20261027-0174",
-      "headline": "삼성전자, GOS 관련 200억 과징금에 법적 대응",
+      "headline": "삼성전자, GOS 제재 불복하며 소송 예고",
       "summary": [
-        "삼성전자가 갤럭시 스마트폰의 게임옵티마이징서비스(GOS) 광고로 인해 과징금 201억원을 부과받았다.",
-        "2022년부터 시작된 논란이 4년 만에 공정거래위원회의 제재로 이어졌다.",
-        "이번 사건은 소비자 신뢰에 부정적 영향을 미치며, 향후 광고 전략에도 변화가 예상된다."
+        "삼성전자가 게임 최적화 서비스 광고에 대해 공정위의 제재에 반발하고 있다.",
+        "공정거래위원회는 갤럭시 S21과 S22 등 모델에 대해 200억 원 과징금을 부과했다.",
+        "삼성전자는 광고가 법에 위반되지 않는다는 점을 소송을 통해 주장할 계획이다."
       ],
       "category": "정책/무역",
       "tags": [
         "GOS",
+        "삼성전자",
         "공정거래위원회",
         "과징금",
-        "스마트폰 광고"
+        "소송"
       ],
       "companies": [
         "삼성전자"
@@ -23,16 +24,17 @@
       "event_type": "소송·특허",
       "confirmed": true,
       "parties": [
-        "삼성전자"
+        "삼성전자",
+        "공정거래위원회"
       ],
-      "importance": 4,
-      "importance_reason": "소송·특허 3점, 관심 기업(삼성전자) +1 → 4점",
+      "importance": 5,
+      "importance_reason": "소송·특허 3점, 관심 기업(삼성전자) +1, 매체 3곳 보도 +1 → 5점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
       "first_seen": "2026-10-27T03:49:25Z",
-      "updated_at": "2026-10-27T05:47:32Z",
+      "updated_at": "2026-10-27T07:01:11Z",
       "articles": [
         {
           "key": "5905350b0cccc16a",
@@ -65,10 +67,425 @@
           "source": "연합뉴스",
           "lang": "ko",
           "published_at": "2026-10-27T05:04:09Z"
+        },
+        {
+          "key": "f1e8136c59ca437a",
+          "title": "삼성전자, 공정위 GOS 제재에 반발…“기만광고 아니다” 소송 예고",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408830",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T06:52:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261027-0157",
+      "headline": "앤트로픽 IPO 소식에 반도체주 급등",
+      "summary": [
+        "국내 증시가 앤트로픽의 IPO 추진 소식으로 급등했다.",
+        "27일 코스피 지수는 3% 이상 상승하며, 삼성전자와 SK하이닉스 주가는 각각 4%와 5% 올랐다.",
+        "이러한 반도체주 상승은 AI 산업 전망을 밝게 만들며 투자 심리를 긍정적으로 이끌고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "앤트로픽",
+        "AI기업",
+        "삼성전자",
+        "SK하이닉스",
+        "코스피",
+        "IPO"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스",
+        "앤트로픽"
+      ],
+      "importance": 3,
+      "importance_reason": "시장 전망·통계 2점, 관심 기업(삼성전자, SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T01:02:58Z",
+      "updated_at": "2026-10-27T07:01:11Z",
+      "articles": [
+        {
+          "key": "298df8659d33f50e",
+          "title": "[특징주] 반도체주, 美 훈풍에 장초반 급등…삼전·닉스 5∼7%대↑",
+          "url": "https://www.yna.co.kr/view/AKR20261027045000008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T00:23:36Z"
+        },
+        {
+          "key": "a496c8f652b73935",
+          "title": "[특징주] 반도체주, 앤트로픽 훈풍에 급등…삼전·닉스 4∼5%대↑(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261027045051008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T06:52:20Z"
+        },
+        {
+          "key": "6dd10c087f2e298c",
+          "title": "“땡큐 앤트로픽”… 삼전 4%·SK하닉 5% 폭등에 코스피 ‘활짝’",
+          "url": "https://www.dt.co.kr/article/12091569",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-27T06:54:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261027-0159",
+      "headline": "반도체 수출로 3분기 한국 경제 1% 성장",
+      "summary": [
+        "한국 경제가 예상보다 3배 빠르게 성장했다. 3분기 국내총생산은 0.97% 증가, 한국은행의 0.3% 예상을 크게 웃돌았다. 반도체 수출과 투자가 주요 요인으로, 연간 성장률 전망을 상향 조정할 가능성이 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "반도체",
+        "GDP",
+        "1% 성장",
+        "3분기",
+        "수출"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-10-27T01:02:58Z",
+      "updated_at": "2026-10-27T07:01:11Z",
+      "articles": [
+        {
+          "key": "807ce89800ef3892",
+          "title": "3분기 한국 경제 1.0% '깜짝 성장'…\"4분기 0%여도 연간 3.6%\"(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261027018151002",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T00:52:11Z"
+        },
+        {
+          "key": "ed0ca9147fb6c06d",
+          "title": "Chip boom drives Korea's surprise 1% GDP growth in Q3",
+          "url": "https://www.koreaherald.com/article/10916408",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-27T06:12:26Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0183",
+      "headline": "브로드컴, 앤트로픽 AI칩 구매 위해 63억 달러 지원",
+      "summary": [
+        "브로드컴이 AI 스타트업 앤트로픽의 반도체 구매를 위해 630억 달러를 지원하기로 했다.",
+        "이 지원은 금융조달 구조를 통해 이루어지며, 자사가 공급하는 AI 반도체와 연계된다.",
+        "이로써 반도체 공급망 강화와 AI 기술의 발전에 기여할 것으로 예상된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "브로드컴",
+        "앤트로픽",
+        "AI칩",
+        "금융조달",
+        "반도체",
+        "투자"
+      ],
+      "companies": [
+        "브로드컴",
+        "앤트로픽"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "브로드컴",
+        "앤트로픽"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-10-27T07:01:11Z",
+      "updated_at": "2026-10-27T07:01:11Z",
+      "articles": [
+        {
+          "key": "a48d3f55d1521d78",
+          "title": "Broadcom, financial firms agree on US$63 billion funding for Anthropic chip purchases",
+          "url": "https://www.digitimes.com/news/a20261027VL222/broadcom-anthropic-funding-financing-finance.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-27T05:56:04Z"
+        },
+        {
+          "key": "f29fd3e5bd9f4e7f",
+          "title": "브로드컴, 앤트로픽 AI칩 구매에 630억달러 조달 지원",
+          "url": "https://www.inews24.com/view/2019527",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-27T06:58:21Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261027-0184",
+      "headline": "인텔, 양자 연산 소프트웨어 기업 클래식 인수",
+      "summary": [
+        "인텔이 26일 양자컴퓨팅 소프트웨어 기업 클래식 인수를 발표했다.",
+        "클래식은 하드웨어에 종속되지 않는 통합 소프트웨어 플랫폼을 개발하여 양자 회로를 자동 설계한다.",
+        "이번 인수로 인텔은 풀스택 양자컴퓨팅 플랫폼을 강화하고 경쟁력을 높일 계획이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "양자컴퓨팅",
+        "클래식",
+        "인수",
+        "소프트웨어",
+        "스핀 큐비트"
+      ],
+      "companies": [
+        "인텔"
+      ],
+      "event_type": "인수합병",
+      "confirmed": true,
+      "parties": [
+        "인텔",
+        "클래식"
+      ],
+      "importance": 2,
+      "importance_reason": "인수합병 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T07:01:11Z",
+      "updated_at": "2026-10-27T07:01:11Z",
+      "articles": [
+        {
+          "key": "ecfff24e475c38c0",
+          "title": "인텔, 양자 연산 소프트웨어 기업 '클래식' 인수",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64310",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-27T06:13:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0185",
+      "headline": "이재용, 반도체 위기 극복해 AI 성장 주도",
+      "summary": [
+        "이재용 삼성전자 회장이 취임 4주년을 맞아 최대 분기 실적을 예고했다.",
+        "메모리 사업이 회복세를 보이며 로봇, 자동차 전자, AI 제조 등으로의 성장을 추진하고 있다.",
+        "삼성전자는 기술 리더십 강화에 집중하며 새로운 성장 동력을 마련하고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI",
+        "메모리",
+        "반도체",
+        "로봇",
+        "자동차 전자"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T07:01:11Z",
+      "updated_at": "2026-10-27T07:01:11Z",
+      "articles": [
+        {
+          "key": "6d7698702fd2ef3e",
+          "title": "Four years on, Lee Jae-yong steers Samsung from chip slump to AI boom",
+          "url": "https://www.koreaherald.com/article/10916413",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-27T06:18:12Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 4
+    },
+    {
+      "id": "c20261027-0186",
+      "headline": "메모리 가격 상승, 디스플레이 수익성 위협",
+      "summary": [
+        "메모리 반도체 가격이 급등하면서 삼성디스플레이와 LG디스플레이의 수익성이 크게 위협받고 있다.",
+        "스마트폰과 노트북 제조사들의 원가 부담이 증가함에 따라, 디스플레이 패널 가격 인하 압력이 높아지고 있다.",
+        "이로 인해 두 기업의 시장 경쟁력 및 이익률 확보에 어려움이 예상된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "메모리 가격",
+        "디스플레이 수익성",
+        "삼성디스플레이",
+        "LG디스플레이"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "LG디스플레이"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "삼성디스플레이",
+        "LG디스플레이"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 관심 기업(LG디스플레이, 삼성디스플레이) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T07:01:11Z",
+      "updated_at": "2026-10-27T07:01:11Z",
+      "articles": [
+        {
+          "key": "70c1eb8daeaf189e",
+          "title": "메모리값 뛰자 패널값 압박…삼성·LG디스플레이 수익성 '비상'",
+          "url": "https://www.inews24.com/view/2019369",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-27T06:34:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261027-0187",
+      "headline": "LG이노텍, 3분기 매출 6조 돌파하나 영업익 반토막",
+      "summary": [
+        "LG이노텍이 2026년 3분기 매출이 6조원을 처음으로 넘겼다.",
+        "매출은 6조 3671억원으로 전년 대비 18.6% 증가하지만, 영업익은 948억원으로 53.4% 감소했다.",
+        "원·달러 환율 급락이 영업이익 감소에 영향을 미친 것으로 분석된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "LG이노텍",
+        "3분기 실적",
+        "매출 6조원",
+        "영업이익 감소",
+        "반도체기판",
+        "카메라 모듈"
+      ],
+      "companies": [
+        "LG이노텍"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "LG이노텍"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T07:01:11Z",
+      "updated_at": "2026-10-27T07:01:11Z",
+      "articles": [
+        {
+          "key": "cba0dbc4d31703ad",
+          "title": "LG이노텍, 3분기 매출 첫 6조원 돌파…영업이익은 반토막",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408828",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T06:45:02Z"
+        },
+        {
+          "key": "53504401bafaa4cf",
+          "title": "LG이노텍, 3분기 매출 첫 6조 돌파…영업익은 53% 감소",
+          "url": "https://www.inews24.com/view/2019533",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-27T06:55:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261027-0188",
+      "headline": "애플, 8.5인치 AMOLED 디스플레이 탑재 아이패드 미니 출시",
+      "summary": [
+        "애플이 2026년 모델 아이패드 미니를 출시했다. 이 제품은 8.5인치 AMOLED 디스플레이와 1512x2316 해상도, 1200니트 밝기를 지원한다.",
+        "아이패드 미니는 A20 Pro 칩셋을 탑재하고, 저장 용량은 128GB에서 512GB까지 선택 가능하며, 가격은 699달러다.",
+        "상대적으로 얇고 가벼워진 이 제품은 삼성 디스플레이의 OLED 패널을 사용해 디스플레이 성능이 크게 개선되었다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "아이패드 미니",
+        "AMOLED",
+        "삼성 디스플레이",
+        "A20 Pro",
+        "OLED",
+        "2026년 모델"
+      ],
+      "companies": [
+        "애플",
+        "삼성디스플레이"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "애플",
+        "삼성디스플레이"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점, 관심 기업(삼성디스플레이) +1 → 5점(최고점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T07:01:11Z",
+      "updated_at": "2026-10-27T07:01:11Z",
+      "articles": [
+        {
+          "key": "d01426080db8f255",
+          "title": "Apple launches its 2026 iPad Mini tablet, with a 8.5\" AMOLED display",
+          "url": "https://www.oled-info.com/apple-launches-its-2026-ipad-mini-tablet-85-amoled-display",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-10-27T06:47:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 6
     },
     {
       "id": "c20261027-0175",
@@ -1332,53 +1749,6 @@
       "importance_raw": 1
     },
     {
-      "id": "c20261027-0157",
-      "headline": "삼성전자·SK하이닉스, 미국발 훈풍에 급등",
-      "summary": [
-        "삼성전자와 SK하이닉스 등 국내 반도체주가 미국의 긍정적인 분위기에 영향을 받아 급등하고 있다.",
-        "27일 장 초반, 주가는 각각 5%에서 7%대 상승세를 보이며 투자자들의 기대감을 키우고 있다.",
-        "이러한 상승세는 반도체 산업 전반에 긍정적인 신호로 작용할 것으로 예상된다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "삼성전자",
-        "SK하이닉스",
-        "반도체",
-        "미국 시장",
-        "주가 상승"
-      ],
-      "companies": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "importance": 4,
-      "importance_reason": "실적 3점, 관심 기업(삼성전자, SK하이닉스) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-27T01:02:58Z",
-      "updated_at": "2026-10-27T01:02:58Z",
-      "articles": [
-        {
-          "key": "298df8659d33f50e",
-          "title": "[특징주] 반도체주, 美 훈풍에 장초반 급등…삼전·닉스 5∼7%대↑",
-          "url": "https://www.yna.co.kr/view/AKR20261027045000008",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-27T00:23:36Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
-    },
-    {
       "id": "c20261027-0158",
       "headline": "경량 PC 기둥으로 반도체 공장 시공 가속화",
       "summary": [
@@ -1420,47 +1790,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261027-0159",
-      "headline": "3분기 한국 경제, 반도체 수출로 1.0% 성장",
-      "summary": [
-        "올해 3분기 한국 경제가 반도체 수출과 설비투자로 인해 1.0% 성장했다.",
-        "이번 성장률은 예상치를 웃도는 결과로, 연간 성장률은 3.6%에 달할 것으로 보인다.",
-        "이는 반도체 산업의 회복세가 경제 전반에 긍정적인 영향을 미친 것을 의미한다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "반도체 수출",
-        "설비 investment",
-        "한국 경제",
-        "3분기 성장",
-        "연간 성장률"
-      ],
-      "companies": [],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [],
-      "importance": 3,
-      "importance_reason": "실적 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-27T01:02:58Z",
-      "updated_at": "2026-10-27T01:02:58Z",
-      "articles": [
-        {
-          "key": "807ce89800ef3892",
-          "title": "3분기 한국 경제 1.0% '깜짝 성장'…\"4분기 0%여도 연간 3.6%\"(종합)",
-          "url": "https://www.yna.co.kr/view/AKR20261027018151002",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-27T00:52:11Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261026-0130",
