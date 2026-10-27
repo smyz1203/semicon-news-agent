@@ -5,9 +5,10 @@
 
 - **웹페이지**: [smyz1203.github.io/semicon-news-agent](https://smyz1203.github.io/semicon-news-agent/)
 - **업데이트**: 1시간마다 자동 실행 (GitHub Actions) → GitHub Pages에 배포
-- **수집 매체**: RSS 18개
-  - 국문 (RSS 9개): 디일렉, 전자신문, KIPOST, 디지털타임스, 연합뉴스, ZDNet Korea, 아이뉴스24, 테크월드뉴스
-  - 영문 (RSS 9개): Semiconductor Engineering, Semiconductor Digest, TrendForce, OLED-info, EE Times, DigiTimes Asia, Tom's Hardware, Korea Herald
+- **수집 매체**: 16곳 (RSS 18개)
+  - 국문 8곳: 디일렉, 전자신문, KIPOST, 디지털타임스, 연합뉴스, ZDNet Korea, 아이뉴스24, 테크월드뉴스
+  - 영문 8곳: Semiconductor Engineering, Semiconductor Digest, TrendForce, OLED-info, EE Times, DigiTimes Asia, Tom's Hardware, Korea Herald
+  - 디지털타임스(IT·산업)와 TrendForce(반도체·디스플레이)는 분야별 RSS 2개를 함께 받고, 화면에서는 매체 하나로 보여줌
 - **AI**: OpenAI API `gpt-4o-mini` (기본). `config/settings.yaml`의 `provider` 한 줄로 Claude API로 전환
 - **기술**: Python 3.12 · feedparser · RapidFuzz · HTML/CSS/JavaScript · GitHub Actions · GitHub Pages
 
@@ -17,7 +18,7 @@
 
 | 기능 | 하는 일 |
 | --- | --- |
-| 수집 | RSS 18개에서 최근 48시간 기사를 확인하고, 이미 처리한 기사는 건너뜀 |
+| 수집 | 16개 매체(RSS 18개)에서 최근 48시간 기사를 확인하고, 이미 처리한 기사는 건너뜀 |
 | 선별 | 키워드 필터 + AI 관련성 판단으로 반도체·디스플레이와 무관한 기사 제외 |
 | 중복 제거 | 확실한 중복은 코드가 먼저 묶고, 표현·언어가 다른 같은 사건은 AI가 짝마다 확인해 한 이슈로 묶음 |
 | 요약·분류 | 이슈마다 한국어 3문장 요약, 카테고리, 키워드 태그, 사건 유형 |
@@ -123,7 +124,9 @@ AI가 점수를 직접 매기면 같은 종류의 기사도 점수가 들쭉날�
 
 - **기사가 이슈가 되기까지 (최근 24시간)**: 관련 기사(키워드 통과 기준) → 새 이슈 → AI 요약(처음·다시·대기) → AI 비용(재분류 수)
 - **실행 기록 (최근 3일, 1시간 단위)**: 정상 / 일부 매체 실패 / 경고 / 실행 없음
-- **수집 매체**: RSS 18개의 상태, 최근 실행 8회, 기사를 많이 낸 매체
+- **수집 매체**: 매체 16곳의 상태 (분야별 RSS를 함께 받는 매체도 한 줄. 받는 분야는 매체 이름에 마우스를 올리면 보임)
+- **최근 실행 8회**: 실행마다 관련 기사, 새 이슈, 요약 수, 성공한 RSS 수(예: 18/18), 비용
+- **기사를 많이 낸 매체**: 최근 3일 동안 업데이트된 이슈의 기사를 매체별로 센 상위 8곳
 
 ## 로컬 환경에서 실행하기
 
@@ -190,7 +193,7 @@ notepad .env
 | AI 모델, 생각 깊이(effort) | `settings.yaml` → `openai.model` / `claude.model`, `effort` |
 | 비용 한도 (실행당 묶음·요약 수) | `settings.yaml` → `limits` |
 | 수집 범위, 보관 기간 | `settings.yaml` → `lookback`, `retention` |
-| 수집 매체 추가·끄기 | `sources.yaml` (같은 언론사의 RSS는 `name`을 같게 쓰면 한 매체로 셈) |
+| 수집 매체 추가·끄기 | `sources.yaml` (같은 언론사의 RSS는 `name`을 같게 쓰면 한 매체로 세고, 수집 현황에도 한 줄로 나옴) |
 | 실행 주기 | `.github/workflows/update.yml` → `cron` |
 
 ## 운영 메모
@@ -198,7 +201,7 @@ notepad .env
 - **처음 한 번**: 저장소 Settings → Pages → Build and deployment → Source를 **GitHub Actions**로 바꾼 뒤, Actions 탭에서 "뉴스 업데이트"를 수동 실행(Run workflow)합니다.
 - **API 키 보관**: 로컬 실행용 `.env`는 저장소에 올리지 않습니다. GitHub Actions는 저장소 Settings → Secrets and variables → Actions(또는 `gh secret set OPENAI_API_KEY`)에 암호화해 저장한 키를 씁니다. 제공사를 바꾸면 그 제공사의 키도 등록해야 합니다.
 - **비용**: 수집 현황의 "최근 실행"에 회차별 추정 비용이 나옵니다. 쓰는 제공사의 콘솔(OpenAI: platform.openai.com의 Limits, Anthropic: console.anthropic.com)에서 월 사용 한도를 걸어 두세요.
-- **일부 매체 실패**: 매체 한 곳의 접속이 잠시 실패해도 나머지는 계속 수집하고, 놓친 기사는 다음 실행이 48시간 안 기사를 다시 보며 받아 갑니다. 같은 매체가 계속 실패하면 수집 매체 목록에 "실패 N회 연속"으로 나옵니다.
+- **일부 매체 실패**: 매체 한 곳의 접속이 잠시 실패해도 나머지는 계속 수집하고, 놓친 기사는 다음 실행이 48시간 안 기사를 다시 보며 받아 갑니다. 같은 매체가 계속 실패하면 수집 매체 목록에 "실패 N회 연속"으로 나오고, 분야별 RSS 중 하나만 실패하면 "RSS 2개 중 1개 실패"로 나옵니다.
 - **알림**: 매체 과반 수집 실패, AI 중단(크레딧 부족 등), 24시간 새 기사 없음이면 Actions 실행이 실패로 표시되고 GitHub이 메일을 보냅니다.
 - **AI가 멈췄을 때**: 이슈 묶기를 못 한 기사는 다음 실행으로 미루고, 요약을 못 한 이슈는 "요약 대기"로 먼저 게시한 뒤 다음 실행에서 다시 요약합니다.
 - **60일 규칙**: 공개 저장소는 60일 동안 활동이 없으면 예약 실행이 꺼질 수 있습니다. 45일에 한 번쯤 설정을 다듬는 커밋을 하면 안전합니다. 웹페이지 상단에는 업데이트가 3시간 넘게 멈추면 경고가 뜹니다.

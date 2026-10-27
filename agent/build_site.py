@@ -43,7 +43,7 @@ def build(data_dir: Path = DATA_DIR, out_dir: Path = SITE_DIR, local: bool = Fal
         "repo": os.environ.get("GITHUB_REPOSITORY") or cfg.settings.get("github_repo"),
         # 새로고침 버튼 동작: local = 내 PC 서버, github = GitHub Actions 실행 요청
         "mode": "local" if local else "github",
-        "sources": [_source_status(s, state["sources"].get(s.id, {})) for s in cfg.sources],
+        "sources": _outlet_status(cfg.sources, state["sources"]),
         "runs": [{k: r.get(k) for k in RUN_FIELDS} for r in runs],  # 보관된 실행 전부 (settings.yaml의 runs_keep개): '수집 현황' 3일 그래프용
     }
 
@@ -112,15 +112,29 @@ def _public_issue(issue: dict) -> dict:
     return out
 
 
-def _source_status(source, health: dict) -> dict:
-    return {
-        "name": f"{source.name} {source.section}".strip(),
-        "lang": source.lang,
-        "ok": health.get("fail_streak", 0) == 0 if health else None,
-        "fail_streak": health.get("fail_streak", 0),
-        "last_ok_at": health.get("last_ok_at"),
-        "last_new_at": health.get("last_new_at"),
-    }
+def _outlet_status(sources, health: dict) -> list[dict]:
+    """'수집 현황'의 매체 목록. 같은 언론사의 분야별 RSS(예: 디지털타임스 IT·산업)는 한 줄로 합친다.
+    수집은 RSS마다 그대로 하고, 화면에서만 매체 하나로 보여준다."""
+    outlets: dict[str, list] = {}
+    for source in sources:
+        outlets.setdefault(source.name, []).append(source)
+    rows = []
+    for name, feeds in outlets.items():
+        known = [health[f.id] for f in feeds if health.get(f.id)]
+        failed = [h for h in known if h.get("fail_streak", 0)]
+        langs = {f.lang for f in feeds}
+        rows.append({
+            "name": name,
+            "lang": langs.pop() if len(langs) == 1 else "both",
+            "sections": [f.section for f in feeds if f.section],  # 받는 분야. 화면에서 마우스를 올리면 보임
+            "rss": len(feeds),
+            "failed_rss": len(failed),
+            "ok": not failed if known else None,  # 아직 한 번도 수집하지 않았으면 None
+            "fail_streak": max((h["fail_streak"] for h in failed), default=0),
+            "last_ok_at": max((h["last_ok_at"] for h in known if h.get("last_ok_at")), default=None),
+            "last_new_at": max((h["last_new_at"] for h in known if h.get("last_new_at")), default=None),
+        })
+    return rows
 
 
 def main() -> None:

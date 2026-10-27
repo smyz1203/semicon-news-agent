@@ -2,6 +2,7 @@ import json
 from datetime import datetime, timezone
 
 from agent import build_site, store
+from agent.config import Source
 
 
 def test_build_site(tmp_path):
@@ -42,7 +43,28 @@ def test_build_site(tmp_path):
     assert 'id="rubric"' in index_html and "가 판단했으며" in index_html
     assert "tokens" not in meta["runs"][0]  # 웹에는 필요한 필드만
     assert len(meta["sources"]) >= 10 and {"name", "ok"} <= set(meta["sources"][0])
+    names = [s["name"] for s in meta["sources"]]
+    assert len(names) == len(set(names))  # 같은 언론사의 분야별 RSS는 수집 현황에서 한 줄
     assert (out / ".nojekyll").exists()
+
+
+def test_outlet_status_merges_section_feeds():
+    # 수집은 RSS마다 하지만 화면에는 매체 하나로. 이름만 비슷한 다른 매체는 합치지 않음
+    feeds = [Source("dt-ict", "디지털타임스", "u1", "ko", True, section="IT"),
+             Source("dt-industry", "디지털타임스", "u2", "ko", True, section="산업"),
+             Source("semieng", "Semiconductor Engineering", "u3", "en", False),
+             Source("semidigest", "Semiconductor Digest", "u4", "en", False)]
+    health = {"dt-ict": {"fail_streak": 0, "last_new_at": "2026-10-26T01:00:00Z"},
+              "dt-industry": {"fail_streak": 2, "last_new_at": "2026-10-26T03:00:00Z"},
+              "semieng": {"fail_streak": 0}}
+    rows = {r["name"]: r for r in build_site._outlet_status(feeds, health)}
+    assert list(rows) == ["디지털타임스", "Semiconductor Engineering", "Semiconductor Digest"]
+    dt = rows["디지털타임스"]
+    assert dt["sections"] == ["IT", "산업"] and (dt["rss"], dt["failed_rss"]) == (2, 1)
+    assert dt["ok"] is False and dt["fail_streak"] == 2  # 분야 RSS 하나라도 실패하면 실패로 표시
+    assert dt["last_new_at"] == "2026-10-26T03:00:00Z"  # 두 RSS 중 가장 최근 새 기사
+    assert rows["Semiconductor Engineering"]["ok"] is True
+    assert rows["Semiconductor Digest"]["ok"] is None  # 아직 수집 전
 
 
 def test_no_token_is_ever_published(tmp_path, monkeypatch):
