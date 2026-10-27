@@ -1,7 +1,70 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T21:48:46Z",
+  "updated_at": "2026-10-27T22:48:26Z",
   "issues": [
+    {
+      "id": "c20261026-0093",
+      "headline": "SK하이닉스, 솔리다임 낸드공장 60조 투자 추진",
+      "summary": [
+        "SK하이닉스의 자회사 솔리다임이 미국에 60조원을 투자해 낸드플래시 공장을 건설할 계획이다.",
+        "기업공개(IPO) 검토를 중단했으며, 중국 다롄공장의 반도체 장비 반입 허가 문제가 관련된 것으로 보인다.",
+        "이 투자는 글로벌 반도체 시장에서의 경쟁력을 강화하는 데 중요한 의미를 갖는다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "낸드플래시",
+        "SK하이닉스",
+        "솔리다임",
+        "투자",
+        "미국"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "솔리다임"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스",
+        "솔리다임"
+      ],
+      "importance": 5,
+      "importance_reason": "설비 투자 3점, 관심 기업(SK하이닉스) +1, 매체 3곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-10-26T18:29:43Z",
+      "updated_at": "2026-10-27T22:48:26Z",
+      "articles": [
+        {
+          "key": "b46cba00d305b95b",
+          "title": "[안테나] 글래스 기판 생산 현장에서 중요도가 높아지는 기술",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=342675",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-10-25T00:38:33Z"
+        },
+        {
+          "key": "01072f37d13e4731",
+          "title": "SK hynix Halts Solidigm IPO Plans",
+          "url": "https://www.thelec.net/news/articleView.html?idxno=14861",
+          "source": "디일렉",
+          "lang": "en",
+          "published_at": "2026-10-25T22:30:13Z"
+        },
+        {
+          "key": "9e21504721860135",
+          "title": "블룸버그 \"SK하이닉스 솔리다임, 美에 60조원 낸드공장 추진\"",
+          "url": "https://www.inews24.com/view/2019663",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-27T22:37:19Z"
+        }
+      ],
+      "importance_raw": 5,
+      "type_checked": true
+    },
     {
       "id": "c20261026-0111",
       "headline": "삼성전자, 3분기 메모리 영업익 110조 추정",
@@ -3950,59 +4013,6 @@
       ],
       "importance_raw": 5,
       "type_checked": true
-    },
-    {
-      "id": "c20261026-0093",
-      "headline": "SK하이닉스, 솔리다임 IPO 절차 중단",
-      "summary": [
-        "SK하이닉스가 자회사 솔리다임의 IPO 절차를 중단하기로 결정했다.",
-        "이 결정은 최근 시장 상황 및 기업 전략을 고려한 결과로 보인다.",
-        "솔리다임의 IPO 중단은 SK하이닉스 전반의 자금 조달 및 성장 계획에 영향을 미칠 수 있다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "SK하이닉스",
-        "솔리다임",
-        "IPO중단",
-        "시장상황"
-      ],
-      "companies": [
-        "SK하이닉스",
-        "솔리다임"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "SK하이닉스",
-        "솔리다임"
-      ],
-      "importance": 4,
-      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-10-26T18:29:43Z",
-      "updated_at": "2026-10-26T18:35:59Z",
-      "articles": [
-        {
-          "key": "b46cba00d305b95b",
-          "title": "[안테나] 글래스 기판 생산 현장에서 중요도가 높아지는 기술",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=342675",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-10-25T00:38:33Z"
-        },
-        {
-          "key": "01072f37d13e4731",
-          "title": "SK hynix Halts Solidigm IPO Plans",
-          "url": "https://www.thelec.net/news/articleView.html?idxno=14861",
-          "source": "디일렉",
-          "lang": "en",
-          "published_at": "2026-10-25T22:30:13Z"
-        }
-      ],
-      "importance_raw": 4
     },
     {
       "id": "c20261026-0129",
