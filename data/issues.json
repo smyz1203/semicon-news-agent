@@ -1,7 +1,192 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T03:49:25Z",
+  "updated_at": "2026-10-27T04:48:17Z",
   "issues": [
+    {
+      "id": "c20261027-0177",
+      "headline": "삼성전자·SK하이닉스, 2027년 2분기 HBM4 출하 계획",
+      "summary": [
+        "삼성전자와 SK하이닉스가 2027년 2분기에 8층 HBM4 칩을 엔비디아에 출하할 계획이다.",
+        "이들 기업은 차세대 메모리 기술인 HBM4의 시장 진입을 통해 경쟁력을 강화할 예정이다.",
+        "HBM4 출하는 고성능 컴퓨팅 시장에서의 수익성에 긍정적인 영향을 미칠 것으로 보인다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM4",
+        "8층",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "엔비디아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스",
+        "엔비디아"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자, SK하이닉스, 엔비디아) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T04:48:17Z",
+      "updated_at": "2026-10-27T04:48:17Z",
+      "articles": [
+        {
+          "key": "27f7411c6161b1dd",
+          "title": "Samsung, SK Hynix eye 2Q27 shipments of 8-layer HBM4 to Nvidia",
+          "url": "https://www.digitimes.com/news/a20261027VL215/samsung-sk-hynix-hbm4-shipments-nvidia.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-27T03:06:24Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261027-0178",
+      "headline": "어플라이드 머티리얼즈, 베시 지분 20%로 확대",
+      "summary": [
+        "어플라이드 머티리얼즈는 베시의 지분을 20%로 늘릴 계획이다.",
+        "이는 하이브리드 본딩 수주가 급증함에 따른 결정이다.",
+        "이로 인해 반도체 패키징 기술 강화가 기대된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "하이브리드 본딩",
+        "통합 다이-웨이퍼 시스템",
+        "어플라이드 머티리얼즈",
+        "베시"
+      ],
+      "companies": [
+        "어플라이드 머티리얼즈",
+        "베시"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "어플라이드 머티리얼즈",
+        "베시"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T04:48:17Z",
+      "updated_at": "2026-10-27T04:48:17Z",
+      "articles": [
+        {
+          "key": "c83e72d7239ccb7a",
+          "title": "Applied Materials to raise Besi stake to 20% as hybrid-bonding orders surge",
+          "url": "https://www.digitimes.com/news/a20261027VL216/applied-materials-equipment-demand-dutch-2025.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-27T03:27:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261027-0179",
+      "headline": "중국 디스플레이, 새로운 시장 확대 전략 추진",
+      "summary": [
+        "중국 디스플레이 업계가 자체 생태계를 통해 시장 영역을 확장하고 있다.",
+        "C-터치 & 디스플레이 전시회에서 AI와 자율주행차 관련 기술을 집중 조명하고 기판 제조를 실증할 예정이다.",
+        "중국은 글로벌 공급망 생태계를 구축하며 디지털 경제의 핵심으로 자리 잡고 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "CPO",
+        "AI 데이터센터",
+        "스마트글래스",
+        "TGV 기판",
+        "증강현실",
+        "디지털 경제"
+      ],
+      "companies": [
+        "중국영상산업협회",
+        "AI 광통신 기업",
+        "AR/VR 제조업체"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "중국 디스플레이 업계"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T04:48:17Z",
+      "updated_at": "2026-10-27T04:48:17Z",
+      "articles": [
+        {
+          "key": "86f2b8e3b16e9709",
+          "title": "中디스플레이, 자체 생태계로 유리기판·CPO 등 신시장 정조준",
+          "url": "https://zdnet.co.kr/view/?no=20261027114901",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-27T03:34:55Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0180",
+      "headline": "후지필름, 한국에서 AI 칩 수요 맞춤 생산능력 확대",
+      "summary": [
+        "후지필름이 한국에서 AI 칩의 수요 증가에 대응하기 위해 생산능력을 확대하기로 했다.",
+        "이번 결정은 2026년 10월 27일 발표되었으며, 구체적인 생산 시설 규모는 공개되지 않았다.",
+        "이 확장은 반도체 산업의 AI 칩 시장에서 한국의 경쟁력을 강화할 것으로 예상된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "AI 칩",
+        "후지필름",
+        "생산능력 확대"
+      ],
+      "companies": [
+        "후지필름"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "후지필름"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T04:48:17Z",
+      "updated_at": "2026-10-27T04:48:17Z",
+      "articles": [
+        {
+          "key": "2ecc3a579aadb436",
+          "title": "Fujifilm expands South Korean capacity to meet AI chip demand",
+          "url": "https://www.digitimes.com/news/a20261027PD205/fujifilm-capacity-demand-materials-production.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-27T03:56:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261027-0170",
       "headline": "HCLTech와 Rapidus, 인도 반도체 센터 개소",
