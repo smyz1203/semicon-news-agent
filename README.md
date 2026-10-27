@@ -5,15 +5,13 @@
 
 반도체·디스플레이 업계 뉴스를 **1시간마다 자동으로 모으고**, 같은 사건을 다룬 **중복 기사를 하나로 묶고**, **한국어로 요약**하고, 정해 둔 기준으로 **중요도를 판단**해 웹페이지로 보여주는 AI Agent입니다.
 
-**웹페이지:** [smyz1203.github.io/semicon-news-agent](https://smyz1203.github.io/semicon-news-agent/)
-
-| 항목 | 내용 |
-| --- | --- |
-| 업데이트 | 1시간마다 자동 실행 (GitHub Actions) → GitHub Pages에 배포 |
-| 국문 매체 | 디일렉, 전자신문, KIPOST, 디지털타임스, 연합뉴스, ZDNet Korea, 아이뉴스24, 테크월드뉴스 (RSS 9개) |
-| 영문 매체 | Semiconductor Engineering, Semiconductor Digest, TrendForce, OLED-info, EE Times, DigiTimes Asia, Tom's Hardware, Korea Herald (RSS 9개) |
-| AI | OpenAI API `gpt-4o-mini` (기본) · `config/settings.yaml`의 `provider` 한 줄로 Claude API로 전환 |
-| 기술 | Python 3.12 · feedparser · RapidFuzz · HTML/CSS/JavaScript · GitHub Actions · GitHub Pages |
+- **웹페이지**: [smyz1203.github.io/semicon-news-agent](https://smyz1203.github.io/semicon-news-agent/)
+- **업데이트**: 1시간마다 자동 실행 (GitHub Actions) → GitHub Pages에 배포
+- **수집 매체**: RSS 18개
+  - 국문 (RSS 9개): 디일렉, 전자신문, KIPOST, 디지털타임스, 연합뉴스, ZDNet Korea, 아이뉴스24, 테크월드뉴스
+  - 영문 (RSS 9개): Semiconductor Engineering, Semiconductor Digest, TrendForce, OLED-info, EE Times, DigiTimes Asia, Tom's Hardware, Korea Herald
+- **AI**: OpenAI API `gpt-4o-mini` (기본). `config/settings.yaml`의 `provider` 한 줄로 Claude API로 전환
+- **기술**: Python 3.12 · feedparser · RapidFuzz · HTML/CSS/JavaScript · GitHub Actions · GitHub Pages
 
 ## 만든 이유
 
@@ -153,7 +151,7 @@ Agent와 웹페이지를 로컬 환경(내 컴퓨터)에서 함께 실행할 수
 
 다른 컴퓨터에서는 저장소를 내려받은 뒤 같은 방법으로 실행합니다.
 
-```powershell
+```
 git clone https://github.com/smyz1203/semicon-news-agent.git
 ```
 
