@@ -449,7 +449,7 @@ function renderOps() {
     const list = inSlot[i];
     const worst = list.reduce((m, r) => Math.min(m, r.sources_ok ?? 0), Infinity);
     const total = list.length ? list[0].sources_total : 0;
-    const detail = list.length ? ` · 실행 ${list.length}회 · 매체 ${worst}/${total}` : "";
+    const detail = list.length ? ` · 실행 ${list.length}회 · RSS ${worst}/${total}` : "";  // 실행 기록은 RSS 단위로 셈
     return { state: states[i], lines: [`${STATE_TEXT[states[i]]}${detail}`, slotText(t, RUN_SLOT)] };
   }), `${opsSpan} 1시간 단위 실행 상태`);
   $("tracker-legend").replaceChildren(...["ok", "partial", "alert", "none"].filter((s) => states.includes(s)).map((s) =>
@@ -469,12 +469,14 @@ function renderOps() {
   $("sources-note").textContent = failing ? `${meta.sources.length}곳 중 ${failing}곳 실패` : `${meta.sources.length}곳 정상`;
   $("sources").style.setProperty("--rows", Math.ceil(meta.sources.length / 2));  // 두 줄로 나눠 세로로 채움
   $("sources").replaceChildren(...meta.sources.map((s) => {
+    // 분야별 RSS를 함께 받는 매체(예: 디지털타임스 IT·산업)도 한 줄. 그중 일부만 실패하면 몇 개가 실패했는지 보여줌
     const state = s.ok === false
-      ? h("span", { class: "state state-bad" }, `실패 ${s.fail_streak}회 연속`)
+      ? h("span", { class: "state state-bad" }, s.failed_rss < s.rss ? `RSS ${s.rss}개 중 ${s.failed_rss}개 실패` : `실패 ${s.fail_streak}회 연속`)
       : h("span", { class: "state state-quiet" }, s.ok ? "정상" : "확인 전");
+    const sections = s.sections || [];
     return h("li", {},
-      // 영어 기사 매체에는 '영문' 꼬리표 (이름에 이미 '영문판'이 들어 있으면 겹치지 않게 뺌)
-      h("span", { class: "name", title: s.name }, s.name,
+      // 받는 분야는 마우스를 올리면 보임. 영어 기사 매체에는 '영문' 꼬리표 (이름에 이미 '영문판'이 들어 있으면 겹치지 않게 뺌)
+      h("span", { class: "name", title: sections.length ? `${s.name} · 수집 분야: ${sections.join(", ")}` : s.name }, s.name,
         s.lang === "en" && !s.name.includes("영문") ? h("span", { class: "lang" }, "영문") : null),
       h("span", { class: "when" }, s.last_new_at ? `새 기사 ${ago(s.last_new_at)}` : "새 기사 없음"),
       state);

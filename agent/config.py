@@ -20,7 +20,7 @@ class Source:
     lang: str
     filter: bool
     tz: str = "UTC"
-    section: str = ""   # 같은 매체의 여러 RSS를 웹에서 구분하기 위한 이름 (예: 반도체)
+    section: str = ""   # 매체 안의 분야 이름 (예: IT). 같은 매체의 RSS는 화면에서 한 줄로 합쳐짐
     enabled: bool = True
 
 
