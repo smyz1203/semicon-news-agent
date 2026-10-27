@@ -1,7 +1,137 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T07:57:52Z",
+  "updated_at": "2026-10-27T08:55:29Z",
   "issues": [
+    {
+      "id": "c20261027-0194",
+      "headline": "광주공고 AI반도체과 경쟁률 4.16대1로 상승",
+      "summary": [
+        "광주공고 AI반도체과의 입학 경쟁률이 4.16대1로, 작년보다 3배 증가했다.",
+        "이는 호남권의 반도체 클러스터 조성 추진과 관련된 교육 과정의 인기에 기인한다.",
+        "AI반도체 인재 양성이 활발해지며 반도체 산업의 미래 발전 가능성을 드러내고 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI반도체",
+        "반도체 교육",
+        "입학 경쟁률",
+        "호남 반도체 클러스터"
+      ],
+      "companies": [],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "광주공고"
+      ],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T08:55:29Z",
+      "updated_at": "2026-10-27T08:55:29Z",
+      "articles": [
+        {
+          "key": "7d20dcbf5943e386",
+          "title": "광주공고 AI반도체과 경쟁률 4.16대1…작년보다 3배 뛰어(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261027132851054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T08:25:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0195",
+      "headline": "HD현대, 청주 배전캠퍼스에 1980억원 투자",
+      "summary": [
+        "HD현대일렉트릭이 청주에 1980억원을 추가 투자한다고 발표했다.",
+        "투자는 11월 1일부터 2029년 6월 30일까지 진행되며, AI 데이터센터와 관련된 시설을 증설한다.",
+        "이번 투자로 전력 인프라 프로젝트에 대응하고 배전기기 생산능력을 확대할 계획이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "HD현대일렉트릭",
+        "AI 데이터센터",
+        "배전기기",
+        "생산능력",
+        "투자"
+      ],
+      "companies": [
+        "HD현대일렉트릭"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "HD현대일렉트릭"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T08:55:29Z",
+      "updated_at": "2026-10-27T08:55:29Z",
+      "articles": [
+        {
+          "key": "ce2e14c72f3223bf",
+          "title": "HD현대, 청주 배전캠퍼스에 1980억원 추가 투자",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64343",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-27T08:30:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261027-0196",
+      "headline": "칩스앤미디어, 3분기 라이선스 매출 증가",
+      "summary": [
+        "칩스앤미디어는 AI 칩 및 로보틱스 분야의 신규 라이선스로 3분기 실적을 발표했다.",
+        "연결 기준 매출 71억6200만원, 영업이익 16억5700만원으로 각각 8.2%, 8.7% 증가했다.",
+        "라이선스 매출은 33% 증가한 44억3100만원을 기록하며 성장세를 견인했다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 반도체",
+        "라이선스",
+        "실적 증가"
+      ],
+      "companies": [
+        "칩스앤미디어"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "칩스앤미디어"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T08:55:29Z",
+      "updated_at": "2026-10-27T08:55:29Z",
+      "articles": [
+        {
+          "key": "4e5ef2610cc9674c",
+          "title": "칩스앤미디어, 3분기 실적 고른 성장...라이선스가 견인",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64333",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-27T08:42:37Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261026-0146",
       "headline": "슈퍼마이크로, 256개 엔비디아 베라 CPU 수냉식 랙 공개",
