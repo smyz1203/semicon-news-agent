@@ -1,23 +1,22 @@
 {
   "version": 1,
-  "updated_at": "2026-10-27T23:43:58Z",
+  "updated_at": "2026-10-28T01:14:34Z",
   "issues": [
     {
       "id": "c20261027-0155",
-      "headline": "SK하이닉스, 3분기 영업이익 83조원 기록",
+      "headline": "SK하이닉스, 3분기 최대 실적 달성",
       "summary": [
-        "SK하이닉스가 2026년 3분기 영업이익으로 83조3천억원을 달성했다.",
-        "매출은 104조6천억원으로 지난해 같은 기간 대비 328% 증가했으며, 영업이익은 632% 증가했다.",
-        "이번 실적은 역대 최대치로, 반도체 산업의 성장세를 보여준다."
+        "SK하이닉스는 3분기 영업이익 83조원을 기록하며 역대 최대 실적을 달성했다.",
+        "매출도 100조원을 처음으로 돌파했고, AI 수요가 견조하다는 전망이 나오고 있다.",
+        "빅테크 투자 감소 우려에도 다른 산업에서의 수요 증가가 효과를 보고 있다."
       ],
       "category": "실적/투자/시장",
       "tags": [
         "SK하이닉스",
-        "3분기실적",
+        "3분기 실적",
+        "AI 수요",
         "영업이익",
-        "매출",
-        "반도체",
-        "2026년"
+        "매출 100조"
       ],
       "companies": [
         "SK하이닉스"
@@ -28,13 +27,13 @@
         "SK하이닉스"
       ],
       "importance": 5,
-      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1, 매체 3곳 보도 +1 → 5점",
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1, 매체 7곳 보도 +1 → 5점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
-      "region": "ko",
+      "region": "both",
       "first_seen": "2026-10-27T01:02:58Z",
-      "updated_at": "2026-10-27T23:43:58Z",
+      "updated_at": "2026-10-28T01:14:34Z",
       "articles": [
         {
           "key": "218ced54d8caab70",
@@ -51,6 +50,14 @@
           "source": "연합뉴스",
           "lang": "ko",
           "published_at": "2026-10-27T23:29:38Z"
+        },
+        {
+          "key": "cd73584744d79268",
+          "title": "[속보] SK하이닉스, 3분기 매출 104조·영업익 83조",
+          "url": "https://zdnet.co.kr/view/?no=20261028080340",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:30:13Z"
         },
         {
           "key": "08d8b8591733e77a",
@@ -75,10 +82,1066 @@
           "source": "연합뉴스",
           "lang": "ko",
           "published_at": "2026-10-27T23:37:25Z"
+        },
+        {
+          "key": "6adb6f8e5761ba52",
+          "title": "SK hynix posts record Q3 profit, plans W100tr in shareholder returns this year",
+          "url": "https://www.koreaherald.com/article/10917003",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-27T23:48:24Z"
+        },
+        {
+          "key": "c3fd9f6e26384373",
+          "title": "SK하이닉스, 분기 매출 첫 100조 돌파…영업익 83조원 '사상 최대'",
+          "url": "https://www.inews24.com/view/2019690",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:52:11Z"
+        },
+        {
+          "key": "6dd09c1c424f2633",
+          "title": "SK하이닉스, 3분기 영업익 83조…“올해 100조 주주환원”",
+          "url": "https://www.dt.co.kr/article/12091711",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:53:01Z"
+        },
+        {
+          "key": "a49f70125a8b2638",
+          "title": "SK하이닉스, 분기 매출 100조 첫 돌파…영업익 83조 '어닝 서프라이즈'",
+          "url": "https://zdnet.co.kr/view/?no=20261028085225",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:04:48Z"
+        },
+        {
+          "key": "a7db388707c03c77",
+          "title": "SK하이닉스, 분기 매출 100조 시대 열었다…HBM4로 성장 가속",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408847",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:06:32Z"
+        },
+        {
+          "key": "8b00cfeef160c4db",
+          "title": "SK하이닉스, 분기 매출 첫 100조원 돌파…영업이익만 83조원",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64393",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:27:52Z"
+        },
+        {
+          "key": "489ff68f40b82493",
+          "title": "SK하이닉스 3분기 영업익 역대 최대 83조…매출 100조 첫 돌파(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261028028052527",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:33:09Z"
+        },
+        {
+          "key": "34f3829afc35fa68",
+          "title": "SK하닉 ‘어닝 서프라이즈’에… 코스피, 2%대 급등 5760선 출발",
+          "url": "https://www.dt.co.kr/article/12091718",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:34:28Z"
+        },
+        {
+          "key": "ee2d1e22e82d2157",
+          "title": "SK하이닉스 \"빅테크 투자 줄어도 다른 수요가 보완…AI 수요 견조\"",
+          "url": "https://www.inews24.com/view/2019733",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:38:08Z"
+        },
+        {
+          "key": "92684dced7390951",
+          "title": "SK하이닉스, 향후 2년 생산능력 절반 계약완료…AI고점론에 맞불",
+          "url": "https://www.yna.co.kr/view/AKR20261027191800003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:05:08Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 5
+    },
+    {
+      "id": "c20261027-0214",
+      "headline": "SK하이닉스, 60조원 규모 주주환원 발표",
+      "summary": [
+        "SK하이닉스는 60조원의 추가 주주환원을 결정했다.",
+        "이번 주주환원은 배당과 자사주 매입을 포함한다.",
+        "이 결정은 주주 가치를 높이고 시장 신뢰를 강화하는 의미를 갖는다."
+      ],
+      "category": "기타",
+      "tags": [
+        "주주환원",
+        "배당",
+        "자사주매입"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T23:43:58Z",
+      "updated_at": "2026-10-28T01:14:34Z",
+      "articles": [
+        {
+          "key": "02cd38179e8f2d5b",
+          "title": "[속보] SK하이닉스, 60조원 추가 주주환원…배당·자사주 매입",
+          "url": "https://www.yna.co.kr/view/AKR20261028029600003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:30:57Z"
+        },
+        {
+          "key": "7e68fd2a0cc9f689",
+          "title": "[속보] SK하이닉스, 60조 추가 주주환원",
+          "url": "https://www.dt.co.kr/article/12091707",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:35:16Z"
+        },
+        {
+          "key": "8634b35f24177990",
+          "title": "[속보] SK하이닉스, 자사주 20조 매입…10조 소각·10조 임직원보상",
+          "url": "https://www.yna.co.kr/view/AKR20261028033600003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:42:55Z"
+        },
+        {
+          "key": "68b824854fe0b7ec",
+          "title": "SK하닉, 2만원 배당·20조 자사주 매입 등 60조 추가 주주환원",
+          "url": "https://www.yna.co.kr/view/AKR20261028036200003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:03:16Z"
+        },
+        {
+          "key": "c3ae3f9b4ac9b581",
+          "title": "[특징주] 하이닉스 60조 추가 주주환원…반도체주 강세",
+          "url": "https://www.yna.co.kr/view/AKR20261028050900008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:33:47Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261027-0202",
+      "headline": "LG디스플레이, 대형 OLED 패널 누적 판매 5천만대 달성",
+      "summary": [
+        "LG디스플레이는 대형 OLED 패널 누적 판매량이 5천만대를 초과했다고 발표했다.",
+        "2013년 첫 양산 이후로 13년 만에 이룬 성과로, 판매량은 매년 증가하고 있다.",
+        "이번 달성은 OLED TV와 모니터 시장에서 LG디스플레이의 경쟁력을 강화할 것으로 기대된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "대형 OLED",
+        "WOLED",
+        "판매량",
+        "LG디스플레이",
+        "TV패널"
+      ],
+      "companies": [
+        "LG디스플레이"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이"
+      ],
+      "importance": 5,
+      "importance_reason": "실적 3점, 관심 기업(LG디스플레이) +1, 매체 4곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-10-27T13:01:58Z",
+      "updated_at": "2026-10-28T01:14:34Z",
+      "articles": [
+        {
+          "key": "0a21b92540c5d80f",
+          "title": "Is LG planning to start producing 97\" and 111\" OLED panels?",
+          "url": "https://www.oled-info.com/lg-planning-start-producing-97-and-111-oled-panels",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-10-27T11:56:38Z"
+        },
+        {
+          "key": "1775d3855000c4ba",
+          "title": "LG디스플레이, WOLED 누적 판매 5000만대 돌파",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64391",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:00:00Z"
+        },
+        {
+          "key": "39a755abe189f362",
+          "title": "LG디스플레이, WOLED 누적 판매 5000만대 돌파",
+          "url": "https://www.inews24.com/view/2019671",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:00:00Z"
+        },
+        {
+          "key": "a5c2b10386f4fb58",
+          "title": "LG디스플레이, 대형 OLED 패널 누적 판매 5천만대 돌파",
+          "url": "https://www.yna.co.kr/view/AKR20261028024600003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:00:08Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261027-0198",
+      "headline": "중국 CXMT, 애플 DRAM 요청 거절",
+      "summary": [
+        "중국 메모리 제조사 CXMT가 애플의 DRAM 수요에 응하지 않기로 결정했다.",
+        "CXMT는 중국 내 수요를 우선시하기 위한 조치를 취하고 있다고 보도되었다.",
+        "이는 중국 메모리 산업의 독립성을 강조하며, 글로벌 기업들의 전략적 판매에 영향을 줄 것으로 예상된다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "CXMT",
+        "DRAM",
+        "애플",
+        "중국 메모리",
+        "공급 전략"
+      ],
+      "companies": [
+        "CXMT",
+        "애플"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "CXMT",
+        "애플"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-10-27T09:53:33Z",
+      "updated_at": "2026-10-28T01:14:34Z",
+      "articles": [
+        {
+          "key": "b2627d59dda6a26f",
+          "title": "애플도, 대만도 \"못 줘\"… 콧대 높아진 中 메모리",
+          "url": "https://www.dt.co.kr/article/12091652",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-27T09:48:59Z"
+        },
+        {
+          "key": "a840ba3498c3dedb",
+          "title": "CXMT reportedly prioritizes China demand, rejecting Apple's DRAM inquiry",
+          "url": "https://www.digitimes.com/news/a20261027PD238/cxmt-apple-dram-demand-capacity.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-28T00:37:22Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261026-0102",
+      "headline": "SK하이닉스, 솔리다임 상장 중단 및 특별배당 결정",
+      "summary": [
+        "SK하이닉스가 솔리다임의 상장 검토를 중단하고 키옥시아 투자 수익으로 특별배당을 시행한다.",
+        "곽노정 대표이사는 주주와 성과를 공유하겠다는 방침을 밝혔다.",
+        "이는 미래 성장을 도모하기 위한 투자 지속의 일환으로 해석된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "특별배당",
+        "투자",
+        "키옥시아",
+        "솔리다임",
+        "SK하이닉스"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "솔리다임",
+        "키옥시아"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-10-26T18:29:43Z",
+      "updated_at": "2026-10-28T01:14:34Z",
+      "articles": [
+        {
+          "key": "d2ac7e075474824f",
+          "title": "SK hynix weighs $12.1 billion special dividend, newspaper says",
+          "url": "https://www.koreaherald.com/article/10914252",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-25T23:59:15Z"
+        },
+        {
+          "key": "c124e706f5e7f417",
+          "title": "SK하이닉스 곽노정 \"솔리다임 상장 중단…투자 결실은 특별배당\"",
+          "url": "https://www.inews24.com/view/2019706",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:16:13Z"
+        }
+      ],
+      "importance_raw": 3,
+      "type_checked": true
+    },
+    {
+      "id": "c20261028-0215",
+      "headline": "삼성전자 협력사 온라인 채용박람회 개최",
+      "summary": [
+        "삼성전자가 사람인과 함께 협력사 구인난 해소를 위한 온라인 채용박람회를 개최한다.",
+        "이 행사에는 40여 개 협력사가 참여하며, 10월 28일부터 11월 15일까지 진행된다.",
+        "AI 분석을 통해 구직자 맞춤형 공고를 제공, 기업과 구직자 간의 매칭 효율을 높인다."
+      ],
+      "category": "기타",
+      "tags": [
+        "온라인 채용박람회",
+        "삼성전자",
+        "사람인",
+        "AI 채용",
+        "청년 일자리"
+      ],
+      "companies": [
+        "삼성전자",
+        "사람인",
+        "드림텍",
+        "신성이엔지",
+        "에어프로덕츠코리아",
+        "에이치비테크놀러지",
+        "와이솔",
+        "이랜텍"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "사람인"
+      ],
+      "importance": 3,
+      "importance_reason": "채용·인력 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T01:14:34Z",
+      "updated_at": "2026-10-28T01:14:34Z",
+      "articles": [
+        {
+          "key": "13acfe2ce425c0fe",
+          "title": "사람인-삼성전자, 협력사 구인난 해소 맞손…온라인 채용박람회 열어",
+          "url": "https://zdnet.co.kr/view/?no=20261028083543",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:43:37Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261028-0216",
+      "headline": "SK하이닉스, 3분기 현금배당 14조원 결정",
+      "summary": [
+        "SK하이닉스는 3분기 분기배당으로 주당 2만원을 지급하기로 결정했다.",
+        "이번 배당금 총액은 14조1035억원으로 직전 분기 대비 약 53배 증가했다.",
+        "주주가치 제고의 의지를 보이며 시가배당률은 1.56%로 설정됐다."
+      ],
+      "category": "기타",
+      "tags": [
+        "배당금",
+        "현금배당",
+        "SK하이닉스",
+        "3분기",
+        "주주가치"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T01:14:34Z",
+      "updated_at": "2026-10-28T01:14:34Z",
+      "articles": [
+        {
+          "key": "d483c67b74e3ead0",
+          "title": "SK하이닉스, 주당 2만원 현금배당 결정…총 14조1035억원",
+          "url": "https://www.inews24.com/view/2019684",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:47:29Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261028-0217",
+      "headline": "SK하이닉스, 2029년까지 D램·HBM 완판 예고",
+      "summary": [
+        "SK하이닉스는 2029년까지 D램과 HBM 물량이 사실상 모두 판매됐다고 밝혔다.",
+        "장기공급계약(LTA)과 고객사의 구매 계획을 고려한 결과이다.",
+        "이는 메모리 시장의 수요가 지속적으로 강할 것임을 시사한다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "D램",
+        "HBM",
+        "장기공급계약",
+        "시장수요"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 5,
+      "importance_reason": "수주·공급 3점, 관심 기업(SK하이닉스) +1, 매체 3곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T01:14:34Z",
+      "updated_at": "2026-10-28T01:14:34Z",
+      "articles": [
+        {
+          "key": "cf16af613076b866",
+          "title": "[속보] SK하이닉스, 2027~2028년 생산능력 50% 이상 장기공급계약 확보",
+          "url": "https://www.dt.co.kr/article/12091710",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:48:58Z"
+        },
+        {
+          "key": "33d62baf426b5936",
+          "title": "SK하이닉스 \"14곳과 장기공급계약…5년 넘는 계약도 요청\"",
+          "url": "https://www.inews24.com/view/2019720",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:31:49Z"
+        },
+        {
+          "key": "46c4523aa5203eba",
+          "title": "[속보] SK하이닉스 \"2029년까지 3년간 D램·HBM 사실상 모두 완판\"",
+          "url": "https://www.yna.co.kr/view/AKR20261028057300003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:45:27Z"
+        },
+        {
+          "key": "30a35c6e41712b57",
+          "title": "SK하이닉스 \"2029년까지 D램·HBM 물량 사실상 완판\"",
+          "url": "https://www.inews24.com/view/2019751",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:49:02Z"
+        },
+        {
+          "key": "7ea7f95e20420760",
+          "title": "SK하이닉스 \"2029년까지 3년간 D램·HBM 사실상 완판\"",
+          "url": "https://www.yna.co.kr/view/AKR20261028057351003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:07:48Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261028-0218",
+      "headline": "솔리다임, 미국에 60조원 낸드공장 투자 협의",
+      "summary": [
+        "솔리다임이 미국 상무부와 60조원 규모의 낸드플래시 공장 투자를 협의 중이다.",
+        "중국 다롄 공장의 장비 반입 허가 조건이 있으며, 미국 공장 투자액은 장기적으로 133조원에 이를 것으로 예상된다.",
+        "이번 협의는 SK하이닉스의 솔리다임 상장 계획 철회 직후 이뤄졌고, 내년 착공 가능성도 제기되고 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "낸드플래시",
+        "솔리다임",
+        "SK하이닉스",
+        "미국 투자",
+        "대중국 반도체 규제"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "솔리다임"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "솔리다임",
+        "미국 상무부"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T01:14:34Z",
+      "updated_at": "2026-10-28T01:14:34Z",
+      "articles": [
+        {
+          "key": "906bde7b1cf3fdf0",
+          "title": "블룸버그 \"솔리다임, 美에 60조원 낸드 공장 투자 추진\"",
+          "url": "https://zdnet.co.kr/view/?no=20261028083419",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:57:54Z"
+        },
+        {
+          "key": "359f74f04099bca6",
+          "title": "블룸버그 “솔리다임, 美 정부와 60조원 낸드공장 투자 협의”",
+          "url": "https://www.dt.co.kr/article/12091716",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:08:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261028-0219",
+      "headline": "K-클라우드 기술 공유로 AI반도체 활용 극대화",
+      "summary": [
+        "AI반도체 기반 클라우드 기술 강화를 위한 세미나가 열렸다.",
+        "10월 27일 코엑스에서 오케스트로와 한국클라우드컴퓨팅연구조합이 공동 주최했다.",
+        "이 기술은 클라우드 운영 효율성을 크게 향상시킬 것으로 기대된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI반도체",
+        "클라우드",
+        "K-클라우드",
+        "세미나"
+      ],
+      "companies": [
+        "오케스트로",
+        "한국클라우드컴퓨팅연구조합"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "오케스트로",
+        "한국클라우드컴퓨팅연구조합"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T01:14:34Z",
+      "updated_at": "2026-10-28T01:14:34Z",
+      "articles": [
+        {
+          "key": "ac124ac36e687e3b",
+          "title": "K-클라우드 핵심 SW 기술 성과 공유… AI반도체 기반 클라우드 운영 효율 높인다",
+          "url": "https://www.dt.co.kr/article/12091657",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:30:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261028-0220",
+      "headline": "AI 반도체 실적 호조에 KOSPI 급등",
+      "summary": [
+        "한국 증시는 인공지능 기반 반도체 실적 덕분에 큰 폭 상승했다.",
+        "2026년 10월 28일, KOSPI는 183.73포인트(3.26%) 오른 5,822.07로 시작했다.",
+        "이는 전날의 3% 이상 상승을 이어가며 투자자 심리에 긍정적인 영향을 주었다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 반도체",
+        "KOSPI",
+        "실적 호조",
+        "투자 심리"
+      ],
+      "companies": [
+        "SK hynix"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "SK hynix"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-28T01:14:34Z",
+      "updated_at": "2026-10-28T01:14:34Z",
+      "articles": [
+        {
+          "key": "c3bd1cf926bfca35",
+          "title": "Seoul stocks open sharply higher on revived AI optimism, SK hynix earnings",
+          "url": "https://www.koreaherald.com/article/10917155",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-28T00:37:43Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261028-0221",
+      "headline": "미코 세라믹스, 1,500억 원에 LGD 공장 인수",
+      "summary": [
+        "미코 세라믹스가 1,500억 원에 LG디스플레이의 유휴 공장을 인수했다.",
+        "이 시설은 반도체 부품 생산 능력을 증대시키기 위한 것으로, 해당 공장은 2026년 내 가동될 예정이다.",
+        "이번 인수로 미코 세라믹스는 반도체 소재 시장에서 경쟁력을 강화할 것으로 기대된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "미코 세라믹스",
+        "LGD",
+        "반도체 부품",
+        "공장 인수"
+      ],
+      "companies": [
+        "미코 세라믹스",
+        "LG디스플레이"
+      ],
+      "event_type": "인수합병",
+      "confirmed": true,
+      "parties": [
+        "미코 세라믹스",
+        "LG디스플레이"
+      ],
+      "importance": 3,
+      "importance_reason": "인수합병 2점, 관심 기업(LG디스플레이) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-28T01:14:34Z",
+      "updated_at": "2026-10-28T01:14:34Z",
+      "articles": [
+        {
+          "key": "104dbbdda262a6dc",
+          "title": "MiCo Ceramics acquires idle LGD plant for KRW150 billion to boost semiconductor component capacity",
+          "url": "https://www.digitimes.com/news/a20261027PD233/component-lg-display-equipment-capacity-acquisition.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-28T00:38:20Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261028-0222",
+      "headline": "SK하이닉스, 키옥시아 투자 수익 특별배당 결정",
+      "summary": [
+        "SK하이닉스는 키옥시아로부터 얻은 수익의 대부분을 특별배당으로 지급하기로 했다.",
+        "3분기 중 일부 배당금을 지급하고, 나머지는 2026회계연도 결산배당에 포함될 예정이다.",
+        "이번 결정은 주주 가치를 강화하고 투자 수익을 효과적으로 환원하는 의미가 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "SK하이닉스",
+        "키옥시아",
+        "특별배당",
+        "3분기 실적"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "키옥시아"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T01:14:34Z",
+      "updated_at": "2026-10-28T01:14:34Z",
+      "articles": [
+        {
+          "key": "451c4b4953fe09e5",
+          "title": "SK하이닉스 \"키옥시아 투자수익 대부분 특별배당…나머지는 결산 때 지급\"",
+          "url": "https://www.inews24.com/view/2019744",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:44:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261028-0223",
+      "headline": "SK하이닉스, AI 수요로 메모리 사업 전환",
+      "summary": [
+        "SK하이닉스가 기록적인 분기 실적을 발표했다.",
+        "AI 수요 증가로 메모리 시장이 계약 기반으로 제한된 공급 구조로 변화하고 있다.",
+        "이 변화는 메모리 산업의 미래 비즈니스 모델에 중대한 영향을 줄 것으로 보인다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 수요",
+        "메모리",
+        "공급 제한",
+        "SK하이닉스",
+        "전략 전환"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-28T01:14:34Z",
+      "updated_at": "2026-10-28T01:14:34Z",
+      "articles": [
+        {
+          "key": "0e7016e4c397207b",
+          "title": "SK Hynix's record quarter shows AI demand turning memory into a contracted, supply-limited business",
+          "url": "https://www.digitimes.com/news/a20261028VL202/sk-hynix-demand-business-hbm4-investment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-28T00:44:43Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261028-0224",
+      "headline": "SK하이닉스, HBM 가격·물량 협의 완료",
+      "summary": [
+        "SK하이닉스가 주요 고객사와 내년 HBM 공급 물량 및 가격 협의를 완료했다.",
+        "HBM4의 가치를 거래 조건에 반영하며 수익성 격차가 줄어들 전망이다.",
+        "이 협의는 HBM 시장의 가격 안정성과 경쟁력 강화에 기여할 것으로 보인다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM4",
+        "가격협의",
+        "공급물량",
+        "SK하이닉스"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 관심 기업(SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T01:14:34Z",
+      "updated_at": "2026-10-28T01:14:34Z",
+      "articles": [
+        {
+          "key": "75da2f2aa16d783a",
+          "title": "SK하이닉스 \"내년 HBM 가격·물량 협의 완료…HBM4 가치 반영\"",
+          "url": "https://www.inews24.com/view/2019745",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:45:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261028-0225",
+      "headline": "SK하이닉스, 메모리 수요 따라 투자 조정 계획",
+      "summary": [
+        "SK하이닉스는 메모리 수요 감소 시 생산계획을 조정할 것이라고 밝혔다.",
+        "신규 공장 건설은 빨리 진행하면서도 실제 생산능력은 수요에 맞춰 결정할 예정이다.",
+        "이는 반도체 산업의 변동성에 맞춘 신속한 대응 전략으로 평가된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "메모리",
+        "투자",
+        "생산계획",
+        "SK하이닉스"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "설비 투자 3점, 관심 기업(SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T01:14:34Z",
+      "updated_at": "2026-10-28T01:14:34Z",
+      "articles": [
+        {
+          "key": "a70fa1a9ecdf1739",
+          "title": "SK하이닉스 \"수요 예상 못 미치면 투자·생산계획 탄력 조정\"",
+          "url": "https://www.inews24.com/view/2019761",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:59:48Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261028-0226",
+      "headline": "SK하이닉스, 맞춤형 HBM 개발로 경쟁력 강화",
+      "summary": [
+        "SK하이닉스는 고객의 요구에 맞춘 맞춤형 고대역폭메모리(HBM) 개발을 진행하고 있다.",
+        "주요 고객들과 협력하여 안정적인 표준 제품 공급과 맞춤형 제품 제공을 목표로 하고 있다.",
+        "이 전략은 SK하이닉스의 시장 경쟁력 강화에 기여할 것으로 기대된다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "커스텀 HBM",
+        "고대역폭 메모리",
+        "고객 맞춤형"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T01:14:34Z",
+      "updated_at": "2026-10-28T01:14:34Z",
+      "articles": [
+        {
+          "key": "2609372364ddc2ff",
+          "title": "SK하이닉스 \"커스텀 HBM 중요해져…주요 고객과 프로젝트 진행\"",
+          "url": "https://www.inews24.com/view/2019764",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261028-0227",
+      "headline": "SK에코플랜트, 후루카와전공과 AI 소재 사업 협력",
+      "summary": [
+        "SK에코플랜트 머티리얼즈가 후루카와전공과 AI 데이터센터용 소재 사업에 협력하기로 했다.",
+        "업무제휴 양해각서(MOU)를 체결하여 반도체 패키징 및 방열 소재를 함께 개발할 예정이다.",
+        "AI 반도체 기술 고도화와 시장 확대에 따라 소재 신뢰성이 더욱 중요해지고 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "AI반도체",
+        "소재",
+        "후루카와전공",
+        "반도체 패키징"
+      ],
+      "companies": [
+        "SK에코플랜트",
+        "후루카와전공"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "SK에코플랜트",
+        "후루카와전공"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T01:14:34Z",
+      "updated_at": "2026-10-28T01:14:34Z",
+      "articles": [
+        {
+          "key": "359b234585743cde",
+          "title": "SK에코플랜트, 후루카와전공과 AI 데이터센터 소재 시장 공략",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408862",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:00:20Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261028-0228",
+      "headline": "SK하이닉스, HBM 단수 조정 이유는 공급 부족",
+      "summary": [
+        "SK하이닉스는 HBM의 적층 단수를 12단에서 8단으로 낮추기로 했다.",
+        "이는 고객의 주문이 두 배로 증가하며 공급이 부족해졌기 때문이다.",
+        "이런 변화는 HBM 공급망의 긴장감을 나타내며 향후 시장 영향이 클 것으로 예상된다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM",
+        "고대역폭메모리",
+        "수요증가",
+        "공급부족"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T01:14:34Z",
+      "updated_at": "2026-10-28T01:14:34Z",
+      "articles": [
+        {
+          "key": "0612dc47c8e5a273",
+          "title": "SK하이닉스 \"HBM 12단→8단 하향은 공급 부족 때문…고객 주문 2배\"",
+          "url": "https://www.inews24.com/view/2019777",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:11:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261028-0229",
+      "headline": "SK하이닉스, D램 4F² 기술 상용화에 신중",
+      "summary": [
+        "SK하이닉스는 CXMT의 D램 신규 셀 구조에 대한 기술 경쟁을 언급했다.",
+        "양산 단계에서 수율, 신뢰성, 원가 검증이 필요하다고 강조했다.",
+        "현재 기술을 개선하면서 차세대 기술 개발도 병행할 계획이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "D램",
+        "4F² 기술",
+        "상용화",
+        "기술 경쟁"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "CXMT"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "SK하이닉스",
+        "CXMT"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T01:14:34Z",
+      "updated_at": "2026-10-28T01:14:34Z",
+      "articles": [
+        {
+          "key": "ded5bc60944ec137",
+          "title": "SK하이닉스 \"D램 4F² 기술, 구현과 상용화 달라\"",
+          "url": "https://www.inews24.com/view/2019779",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:13:20Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261026-0130",
@@ -151,57 +1214,6 @@
       ],
       "importance_raw": 4,
       "type_checked": true
-    },
-    {
-      "id": "c20261027-0214",
-      "headline": "SK하이닉스, 60조원 규모 주주환원 발표",
-      "summary": [
-        "SK하이닉스는 60조원의 추가 주주환원을 결정했다.",
-        "이번 주주환원은 배당과 자사주 매입을 포함한다.",
-        "이 결정은 주주 가치를 높이고 시장 신뢰를 강화하는 의미를 갖는다."
-      ],
-      "category": "기타",
-      "tags": [
-        "주주환원",
-        "배당",
-        "자사주매입"
-      ],
-      "companies": [
-        "SK하이닉스"
-      ],
-      "event_type": "재무·주주",
-      "confirmed": true,
-      "parties": [
-        "SK하이닉스"
-      ],
-      "importance": 3,
-      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-27T23:43:58Z",
-      "updated_at": "2026-10-27T23:43:58Z",
-      "articles": [
-        {
-          "key": "02cd38179e8f2d5b",
-          "title": "[속보] SK하이닉스, 60조원 추가 주주환원…배당·자사주 매입",
-          "url": "https://www.yna.co.kr/view/AKR20261028029600003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-27T23:30:57Z"
-        },
-        {
-          "key": "7e68fd2a0cc9f689",
-          "title": "[속보] SK하이닉스, 60조 추가 주주환원",
-          "url": "https://www.dt.co.kr/article/12091707",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-27T23:35:16Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261026-0093",
@@ -924,51 +1936,6 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261027-0202",
-      "headline": "LG디스플레이, 대형 OLED 패널 생산 계획 발표",
-      "summary": [
-        "LG디스플레이가 97인치와 111인치 OLED 패널 생산을 계획하고 있다.",
-        "광저우 개발 구역의 국유 기업과 15억 달러 규모의 투자를 진행해 새로운 생산 라인을 구축한다.",
-        "이로 인해 OLED 시장에서 대형 패널 공급이 원활해질 것으로 기대된다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "97인치 OLED",
-        "111인치 OLED",
-        "대형 패널",
-        "LG디스플레이",
-        "광저우"
-      ],
-      "companies": [
-        "LG디스플레이"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": true,
-      "parties": [
-        "LG디스플레이"
-      ],
-      "importance": 4,
-      "importance_reason": "설비 투자 3점, 관심 기업(LG디스플레이) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-27T13:01:58Z",
-      "updated_at": "2026-10-27T13:01:58Z",
-      "articles": [
-        {
-          "key": "0a21b92540c5d80f",
-          "title": "Is LG planning to start producing 97\" and 111\" OLED panels?",
-          "url": "https://www.oled-info.com/lg-planning-start-producing-97-and-111-oled-panels",
-          "source": "OLED-info",
-          "lang": "en",
-          "published_at": "2026-10-27T11:56:38Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
-    },
-    {
       "id": "c20261027-0203",
       "headline": "ISC, 북미 주요 스마트폰 고객사 점유율 확대",
       "summary": [
@@ -1253,53 +2220,6 @@
       ],
       "type_checked": true,
       "importance_raw": 6
-    },
-    {
-      "id": "c20261027-0198",
-      "headline": "중국 D램업체, 애플·대만 요청 거절",
-      "summary": [
-        "중국 D램업체 창신메모리(CXMT)가 애플과 대만 서버 제조사의 메모리 공급 요청을 거절했다.",
-        "AI 확산으로 메모리 수요가 급증함에 따라 자국 고객사 우선 공급 방침을 세운 것으로 보인다.",
-        "이로 인해 글로벌 메모리 공급망에 대한 우려가 커지고 있다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "CXMT",
-        "D램",
-        "AI 확산",
-        "메모리 공급",
-        "수요 급증"
-      ],
-      "companies": [
-        "창신메모리",
-        "애플"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "창신메모리",
-        "애플"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-27T09:53:33Z",
-      "updated_at": "2026-10-27T09:53:33Z",
-      "articles": [
-        {
-          "key": "b2627d59dda6a26f",
-          "title": "애플도, 대만도 \"못 줘\"… 콧대 높아진 中 메모리",
-          "url": "https://www.dt.co.kr/article/12091652",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-27T09:48:59Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261027-0194",
@@ -4978,51 +5898,6 @@
           "source": "디일렉",
           "lang": "en",
           "published_at": "2026-10-25T22:31:21Z"
-        }
-      ],
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0102",
-      "headline": "SK하이닉스, 12조 원 규모의 특별 배당 검토",
-      "summary": [
-        "SK하이닉스가 키옥시아 주식 매각 이익으로 약 12조 원 규모의 특별 배당을 검토하고 있다.",
-        "이 계획은 10월 25일 발표 예정인 3분기 실적과 함께 공개될 가능성이 있다.",
-        "이 배당은 주주 가치를 높이는 방안으로, 시장의 긍정적인 반응을 이끌어낼 것으로 보인다."
-      ],
-      "category": "기타",
-      "tags": [
-        "특별 배당",
-        "3분기 실적",
-        "주주 가치",
-        "키옥시아",
-        "SK하이닉스"
-      ],
-      "companies": [
-        "SK하이닉스",
-        "키옥시아"
-      ],
-      "event_type": "재무·주주",
-      "confirmed": true,
-      "parties": [
-        "SK하이닉스"
-      ],
-      "importance": 3,
-      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-26T18:29:43Z",
-      "updated_at": "2026-10-26T18:29:43Z",
-      "articles": [
-        {
-          "key": "d2ac7e075474824f",
-          "title": "SK hynix weighs $12.1 billion special dividend, newspaper says",
-          "url": "https://www.koreaherald.com/article/10914252",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-10-25T23:59:15Z"
         }
       ],
       "importance_raw": 3
