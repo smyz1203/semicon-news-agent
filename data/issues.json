@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28T05:55:18Z",
+  "updated_at": "2026-10-28T07:12:56Z",
   "issues": [
     {
       "id": "c20261027-0214",
@@ -33,7 +33,7 @@
       "attempts": 0,
       "region": "ko",
       "first_seen": "2026-10-27T23:43:58Z",
-      "updated_at": "2026-10-28T05:55:18Z",
+      "updated_at": "2026-10-28T07:12:56Z",
       "articles": [
         {
           "key": "02cd38179e8f2d5b",
@@ -98,10 +98,500 @@
           "source": "디일렉",
           "lang": "ko",
           "published_at": "2026-10-28T05:25:07Z"
+        },
+        {
+          "key": "e3928a1b242ca550",
+          "title": "추가 주주환원에 반도체주 '환호'…삼전·닉스 9∼10%↑(종합2보)",
+          "url": "https://www.yna.co.kr/view/AKR20261028050952008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T07:08:41Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 5
+    },
+    {
+      "id": "c20261027-0198",
+      "headline": "CXMT, 애플 메모리 공급 협상 결렬",
+      "summary": [
+        "중국 CXMT가 애플과의 메모리 공급 협상이 최종 결렬됐다. CXMT는 애플의 가격 요구를 수용할 수 없으며, 중국 내 수요 우선으로 결정했다. 이는 애플의 메모리 공급망 다변화에 어려움을 가져오고, 중국산 메모리…"
+      ],
+      "category": "메모리",
+      "tags": [
+        "CXMT",
+        "애플",
+        "DRAM",
+        "중국 메모리",
+        "공급 협상"
+      ],
+      "companies": [
+        "CXMT",
+        "애플",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "CXMT",
+        "애플"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 매체 3곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-10-27T09:53:33Z",
+      "updated_at": "2026-10-28T07:12:56Z",
+      "articles": [
+        {
+          "key": "b2627d59dda6a26f",
+          "title": "애플도, 대만도 \"못 줘\"… 콧대 높아진 中 메모리",
+          "url": "https://www.dt.co.kr/article/12091652",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-27T09:48:59Z"
+        },
+        {
+          "key": "a840ba3498c3dedb",
+          "title": "CXMT reportedly prioritizes China demand, rejecting Apple's DRAM inquiry",
+          "url": "https://www.digitimes.com/news/a20261027PD238/cxmt-apple-dram-demand-capacity.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-28T00:37:22Z"
+        },
+        {
+          "key": "6c02d2be047bba3d",
+          "title": "中 CXMT, 애플 메모리 공급 협상 최종 결렬⋯“저가 공급 거부”",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408855",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T07:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261026-0130",
+      "headline": "SK하이닉스, 3분기 실적 발표 임박",
+      "summary": [
+        "SK하이닉스는 10월 28일 3분기 실적을 발표할 예정이다.",
+        "삼성과 SK하이닉스의 3분기 영업이익은 약 185조 원으로 예상된다.",
+        "HBM4가 실적 성장을 이끌며 주주환원 계획도 주목받고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "3분기 실적",
+        "SK하이닉스",
+        "삼성전자",
+        "HBM4",
+        "영업이익",
+        "주주환원"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자, SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T18:35:59Z",
+      "updated_at": "2026-10-28T07:12:56Z",
+      "articles": [
+        {
+          "key": "3bc643f0562ad899",
+          "title": "삼성·SK하닉, 3분기 영업익 185조 전망…HBM4가 실적 키웠다",
+          "url": "https://www.dt.co.kr/article/12091004",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-25T00:23:00Z"
+        },
+        {
+          "key": "64fa0ae16819b749",
+          "title": "SK하이닉스 내일 3분기 실적공개…주주환원 카드 나오나",
+          "url": "https://www.yna.co.kr/view/AKR20261026155100003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-26T21:01:00Z"
+        },
+        {
+          "key": "f6a5dddbd24a15ec",
+          "title": "[속보] SK하이닉스, 보통주 2만원 분기배당…총 14조원 규모",
+          "url": "https://www.yna.co.kr/view/AKR20261028032500003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:40:14Z"
+        },
+        {
+          "key": "0c487098f174c450",
+          "title": "[속보] SK하닉, 보통주 2만원 분기배당…총 14조",
+          "url": "https://www.dt.co.kr/article/12091708",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:43:21Z"
+        },
+        {
+          "key": "5c910e40e9d3f013",
+          "title": "삼전·SK하닉 ‘불기둥’에 코스피 6% 폭등…단숨에 6000선 탈환",
+          "url": "https://www.dt.co.kr/article/12091836",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-28T06:53:50Z"
+        }
+      ],
+      "importance_raw": 4,
+      "type_checked": true
+    },
+    {
+      "id": "c20261026-0117",
+      "headline": "용인 반도체산단 공사 중단 요구 시민단체 농성 예고",
+      "summary": [
+        "용인에서 반도체 국가산업단지 조성 사업이 논란이 되고 있다.",
+        "시민사회단체들은 공사 중단과 재검토를 요구하며 28일 천막농성에 돌입할 예정이다.",
+        "이러한 움직임은 반도체 산업의 지역 경제와 환경에 대한 우려를 반영하고 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "용인 반도체",
+        "시민단체",
+        "천막농성",
+        "산업단지",
+        "공사 중단"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T18:29:43Z",
+      "updated_at": "2026-10-28T07:12:56Z",
+      "articles": [
+        {
+          "key": "8c7e6d1f50710961",
+          "title": "시민단체, 용인반도체산단 공사 중단 촉구…28일 천막농성",
+          "url": "https://www.yna.co.kr/view/AKR20261026131300061",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-26T07:01:14Z"
+        },
+        {
+          "key": "e61d7c5ae1429f9c",
+          "title": "시민단체, 용인 반도체 국가산단 공사 중단 촉구…농성 돌입",
+          "url": "https://www.yna.co.kr/view/AKR20261028151000061",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T07:06:46Z"
+        }
+      ],
+      "importance_raw": 1,
+      "type_checked": true
+    },
+    {
+      "id": "c20261026-0118",
+      "headline": "호남 반도체 송전망 구축 일정 1년 단축",
+      "summary": [
+        "정부가 호남 반도체 산업단지 송전망 구축 일정을 1년 앞당기기로 했다.",
+        "이 프로젝트는 다른 지역에 설치된 변압기를 활용하여 전기 공급을 원활하게 할 계획이다.",
+        "이 조치는 호남 반도체 산업 발전을 가속화하고 전력 인프라를 개선할 것으로 기대된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "송전망",
+        "호남 반도체",
+        "전력 공급",
+        "변압기"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "정부"
+      ],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T18:29:43Z",
+      "updated_at": "2026-10-28T07:12:56Z",
+      "articles": [
+        {
+          "key": "ac3e2fbfc5de5ce6",
+          "title": "호남 반도체 송전망 조기 구축 위해 타지역 변압기 쓰기로",
+          "url": "https://www.yna.co.kr/view/AKR20261026133400530",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-26T07:05:01Z"
+        },
+        {
+          "key": "188b0608488cf7ec",
+          "title": "국힘 부산시당 \"호남 반도체 위한 변압기 전용 철회하라\"",
+          "url": "https://www.yna.co.kr/view/AKR20261028140100051",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T06:33:16Z"
+        }
+      ],
+      "importance_raw": 2,
+      "type_checked": true
+    },
+    {
+      "id": "c20261028-0250",
+      "headline": "삼성전기, AI 부품 공급난 극복 위해 생산 확대",
+      "summary": [
+        "삼성전기는 AI 데이터센터용 MLCC와 반도체 패키지 기판 생산을 확대한다고 밝혔다.",
+        "생산 확대는 공급 부족 문제를 해결하기 위한 조치로, 제품 라인업 강화에 집중할 예정이다.",
+        "AI 부품 수요 증가에 따라 경쟁력을 유지하기 위한 전략으로 해석된다."
+      ],
+      "category": "기타",
+      "tags": [
+        "AI 데이터센터",
+        "MLCC",
+        "반도체 패키지 기판",
+        "공급 부족",
+        "생산 확대"
+      ],
+      "companies": [
+        "삼성전기"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전기"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T07:12:56Z",
+      "updated_at": "2026-10-28T07:12:56Z",
+      "articles": [
+        {
+          "key": "30d0528ee3183e79",
+          "title": "삼성전기 \"AI 부품 공급 부족 지속\"…MLCC·기판 생산 확대(종합2보)",
+          "url": "https://www.yna.co.kr/view/AKR20261028099652527",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T05:52:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261028-0251",
+      "headline": "파인텍, 삼성디스플레이에 100억 OLED 장비 공급",
+      "summary": [
+        "파인텍이 삼성디스플레이 베트남에 100억원 규모의 OLED 본딩 장비를 공급한다.",
+        "이번 계약은 7월의 195억원 계약에 이은 것으로, 올해 누적 수주는 약 370억원이다.",
+        "OLED 패널 제조에 필요한 장비 수요가 증가함에 따라, 하반기부터 매출에 반영될 예정이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "OLED",
+        "본딩장비",
+        "수주계약"
+      ],
+      "companies": [
+        "파인텍",
+        "삼성디스플레이"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "파인텍",
+        "삼성디스플레이"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성디스플레이) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T07:12:56Z",
+      "updated_at": "2026-10-28T07:12:56Z",
+      "articles": [
+        {
+          "key": "4dc643e0785ef860",
+          "title": "파인텍, 삼성D에 OLED 본딩 장비 100억원 공급",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64441",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-28T06:02:51Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261028-0252",
+      "headline": "OCI, 반도체 소재로 3분기 사상 최대 영업익 기록",
+      "summary": [
+        "OCI는 2023년 스핀오프 이후 3분기 영업이익이 303억원을 기록했다.",
+        "매출은 5991억원으로 반도체 소재와 카본블랙 가격 상승 덕분에 전분기 대비 12% 증가했다.",
+        "이는 반도체 소재 사업의 성장세를 보이며 긍정적인 실적을 나타내고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "반도체 소재",
+        "스핀오프",
+        "영업익 증가",
+        "카본블랙",
+        "OCI"
+      ],
+      "companies": [
+        "OCI"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "OCI"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 매체 3곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-10-28T07:12:56Z",
+      "updated_at": "2026-10-28T07:12:56Z",
+      "articles": [
+        {
+          "key": "7f84ab84a2c8c2c8",
+          "title": "OCI, 3분기 영업익 303억원…반도체 소재 사업 성장세(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261028126851527",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T06:09:41Z"
+        },
+        {
+          "key": "3b9f703aafb9a8fb",
+          "title": "OCI, 3분기 영업익 303억원…반도체 소재 사업 성장세",
+          "url": "https://www.dt.co.kr/article/12091822",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-28T06:19:10Z"
+        },
+        {
+          "key": "b6ddda79aa3cdbea",
+          "title": "OCI posts record nine-month operating profit since 2023 spin-off",
+          "url": "https://www.koreaherald.com/article/10917914",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-28T07:07:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261028-0253",
+      "headline": "AMD 스파르탄 FPGA, 경쟁사 대비 성능 우위",
+      "summary": [
+        "AMD가 보급형 FPGA '스파르탄 울트라스케일 플러스'를 출시했다.",
+        "이 제품은 경쟁사 대비 회로를 40% 절감하고 속도를 1.8배 향상시킨다.",
+        "이번 출시는 고객의 개발 비용 절감과 운영 효율성 향상을 의미한다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "FPGA",
+        "스파르탄",
+        "전략",
+        "성능",
+        "비용절감"
+      ],
+      "companies": [
+        "AMD"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "AMD"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T07:12:56Z",
+      "updated_at": "2026-10-28T07:12:56Z",
+      "articles": [
+        {
+          "key": "020faaf8c8cad016",
+          "title": "AMD \"스파르탄, 경쟁사 FPGA 대비 회로 40% 절감...속도는 1.8배\"",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64429",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-28T06:14:37Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261028-0254",
+      "headline": "삼성전기, MLCC 매출 절반 이상 LTA로 전환",
+      "summary": [
+        "삼성전기는 내년 AI 서버용 MLCC와 FC-BGA의 LTA 확대를 발표했다.",
+        "내년 MLCC 매출의 절반 이상이 장기공급계약에서 발생할 것으로 예상된다.",
+        "이는 삼성전기의 중장기 성장 기반을 강화하는 전략으로 풀이된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "MLCC",
+        "장기공급계약",
+        "AI 서버",
+        "삼성전기"
+      ],
+      "companies": [
+        "삼성전기"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "삼성전기"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T07:12:56Z",
+      "updated_at": "2026-10-28T07:12:56Z",
+      "articles": [
+        {
+          "key": "d41893022d824c93",
+          "title": "삼성전기 \"내년 MLCC 매출 절반 이상 LTA로\" [컨콜종합]",
+          "url": "https://www.inews24.com/view/2019998",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T06:51:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261028-0229",
@@ -1646,61 +2136,6 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261027-0198",
-      "headline": "중국 CXMT, 애플 DRAM 요청 거절",
-      "summary": [
-        "중국 메모리 제조사 CXMT가 애플의 DRAM 수요에 응하지 않기로 결정했다.",
-        "CXMT는 중국 내 수요를 우선시하기 위한 조치를 취하고 있다고 보도되었다.",
-        "이는 중국 메모리 산업의 독립성을 강조하며, 글로벌 기업들의 전략적 판매에 영향을 줄 것으로 예상된다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "CXMT",
-        "DRAM",
-        "애플",
-        "중국 메모리",
-        "공급 전략"
-      ],
-      "companies": [
-        "CXMT",
-        "애플"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "CXMT",
-        "애플"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-10-27T09:53:33Z",
-      "updated_at": "2026-10-28T01:14:34Z",
-      "articles": [
-        {
-          "key": "b2627d59dda6a26f",
-          "title": "애플도, 대만도 \"못 줘\"… 콧대 높아진 中 메모리",
-          "url": "https://www.dt.co.kr/article/12091652",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-27T09:48:59Z"
-        },
-        {
-          "key": "a840ba3498c3dedb",
-          "title": "CXMT reportedly prioritizes China demand, rejecting Apple's DRAM inquiry",
-          "url": "https://www.digitimes.com/news/a20261027PD238/cxmt-apple-dram-demand-capacity.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-10-28T00:37:22Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
       "id": "c20261028-0215",
       "headline": "삼성전자 협력사 온라인 채용박람회 개최",
       "summary": [
@@ -2254,78 +2689,6 @@
       ],
       "type_checked": true,
       "importance_raw": 4
-    },
-    {
-      "id": "c20261026-0130",
-      "headline": "SK하이닉스, 3분기 실적 발표 임박",
-      "summary": [
-        "SK하이닉스는 10월 28일 3분기 실적을 발표할 예정이다.",
-        "삼성과 SK하이닉스의 3분기 영업이익은 약 185조 원으로 예상된다.",
-        "HBM4가 실적 성장을 이끌며 주주환원 계획도 주목받고 있다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "3분기 실적",
-        "SK하이닉스",
-        "삼성전자",
-        "HBM4",
-        "영업이익",
-        "주주환원"
-      ],
-      "companies": [
-        "SK하이닉스",
-        "삼성전자"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "SK하이닉스",
-        "삼성전자"
-      ],
-      "importance": 4,
-      "importance_reason": "실적 3점, 관심 기업(삼성전자, SK하이닉스) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T18:35:59Z",
-      "updated_at": "2026-10-27T23:43:58Z",
-      "articles": [
-        {
-          "key": "3bc643f0562ad899",
-          "title": "삼성·SK하닉, 3분기 영업익 185조 전망…HBM4가 실적 키웠다",
-          "url": "https://www.dt.co.kr/article/12091004",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-25T00:23:00Z"
-        },
-        {
-          "key": "64fa0ae16819b749",
-          "title": "SK하이닉스 내일 3분기 실적공개…주주환원 카드 나오나",
-          "url": "https://www.yna.co.kr/view/AKR20261026155100003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-26T21:01:00Z"
-        },
-        {
-          "key": "f6a5dddbd24a15ec",
-          "title": "[속보] SK하이닉스, 보통주 2만원 분기배당…총 14조원 규모",
-          "url": "https://www.yna.co.kr/view/AKR20261028032500003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-27T23:40:14Z"
-        },
-        {
-          "key": "0c487098f174c450",
-          "title": "[속보] SK하닉, 보통주 2만원 분기배당…총 14조",
-          "url": "https://www.dt.co.kr/article/12091708",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-27T23:43:21Z"
-        }
-      ],
-      "importance_raw": 4,
-      "type_checked": true
     },
     {
       "id": "c20261026-0093",
@@ -7503,89 +7866,6 @@
         }
       ],
       "importance_raw": 4
-    },
-    {
-      "id": "c20261026-0117",
-      "headline": "용인 반도체산단 공사 중단 요구 시민단체 농성 예고",
-      "summary": [
-        "용인에서 반도체 국가산업단지 조성 사업이 논란이 되고 있다.",
-        "시민사회단체들은 공사 중단과 재검토를 요구하며 28일 천막농성에 돌입할 예정이다.",
-        "이러한 움직임은 반도체 산업의 지역 경제와 환경에 대한 우려를 반영하고 있다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "용인 반도체",
-        "시민단체",
-        "천막농성",
-        "산업단지",
-        "공사 중단"
-      ],
-      "companies": [],
-      "event_type": "지역·인프라",
-      "confirmed": false,
-      "parties": [],
-      "importance": 1,
-      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T18:29:43Z",
-      "updated_at": "2026-10-26T18:29:43Z",
-      "articles": [
-        {
-          "key": "8c7e6d1f50710961",
-          "title": "시민단체, 용인반도체산단 공사 중단 촉구…28일 천막농성",
-          "url": "https://www.yna.co.kr/view/AKR20261026131300061",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-26T07:01:14Z"
-        }
-      ],
-      "importance_raw": 1,
-      "type_checked": true
-    },
-    {
-      "id": "c20261026-0118",
-      "headline": "호남 반도체 송전망 구축 일정 1년 단축",
-      "summary": [
-        "정부가 호남 반도체 산업단지 송전망 구축 일정을 1년 앞당기기로 했다.",
-        "이 프로젝트는 다른 지역에 설치된 변압기를 활용하여 전기 공급을 원활하게 할 계획이다.",
-        "이 조치는 호남 반도체 산업 발전을 가속화하고 전력 인프라를 개선할 것으로 기대된다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "송전망",
-        "호남 반도체",
-        "전력 공급",
-        "변압기"
-      ],
-      "companies": [],
-      "event_type": "지역·인프라",
-      "confirmed": true,
-      "parties": [
-        "정부"
-      ],
-      "importance": 2,
-      "importance_reason": "지역·인프라 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T18:29:43Z",
-      "updated_at": "2026-10-26T18:29:43Z",
-      "articles": [
-        {
-          "key": "ac3e2fbfc5de5ce6",
-          "title": "호남 반도체 송전망 조기 구축 위해 타지역 변압기 쓰기로",
-          "url": "https://www.yna.co.kr/view/AKR20261026133400530",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-26T07:05:01Z"
-        }
-      ],
-      "importance_raw": 2,
-      "type_checked": true
     },
     {
       "id": "c20261026-0119",
