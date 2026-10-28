@@ -1,7 +1,454 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28T09:02:34Z",
+  "updated_at": "2026-10-28T10:00:09Z",
   "issues": [
+    {
+      "id": "c20261028-0235",
+      "headline": "SK머티리얼즈, 일본 후루카와전공과 협력 MOU 체결",
+      "summary": [
+        "SK머티리얼즈가 일본 후루카와전공과 반도체 소재 관련 MOU를 체결했다.",
+        "양사는 AI 데이터센터용 고기능 소재 개발을 위한 협력을 약속했으며, 후루카와전공은 신제품을 개발할 예정이다.",
+        "이 협력은 반도체 산업에서 기술력 결합을 통해 경쟁력을 강화할 것으로 기대된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "AI 데이터센터",
+        "반도체 소재",
+        "SK머티리얼즈",
+        "후루카와전공"
+      ],
+      "companies": [
+        "SK머티리얼즈",
+        "후루카와전공"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "SK머티리얼즈",
+        "후루카와전공"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 매체 3곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T02:07:22Z",
+      "updated_at": "2026-10-28T10:00:09Z",
+      "articles": [
+        {
+          "key": "9122cd0217ca0d05",
+          "title": "SK머티리얼즈, 일본 후루카와전기와 AI 반도체 재료사업 협력",
+          "url": "https://www.yna.co.kr/view/AKR20261028069400003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:35:48Z"
+        },
+        {
+          "key": "864335007a87fd5b",
+          "title": "SK머티리얼즈, 일본 후루카와전기와 AI 반도체 재료사업 협력",
+          "url": "https://www.dt.co.kr/article/12091884",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-28T08:09:01Z"
+        },
+        {
+          "key": "ca49c7cd3a2373e3",
+          "title": "SK머티리얼즈, 日 후루카와전공과 반도체 소재 MOU 체결",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64471",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-28T09:01:53Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261027-0155",
+      "headline": "SK하이닉스, 3분기 매출 100조 원 돌파하며 역대 최대 실적",
+      "summary": [
+        "SK하이닉스는 2026년 3분기 매출 104조 6,155억 원, 영업이익 83조 3,338억 원을 기록했다.",
+        "이는 지난해 2분기 이후 6분기 연속 역대 최대 실적이며, 전분기 대비 매출 32% 증가했다.",
+        "AI 메모리 수요 증가로 고부가 제품 경쟁력이 부각되며 향후 성장 가능성을 더욱 높였다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 메모리",
+        "HBM4",
+        "분기 매출 100조",
+        "영업이익 80%",
+        "고부가 제품"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 5,
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1, 매체 8곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-10-27T01:02:58Z",
+      "updated_at": "2026-10-28T10:00:09Z",
+      "articles": [
+        {
+          "key": "218ced54d8caab70",
+          "title": "SK하이닉스, 3분기 영업익 76조 전망…실적 넘어 주주환원 시험대",
+          "url": "https://www.dt.co.kr/article/12091433",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-27T00:10:27Z"
+        },
+        {
+          "key": "87b4d2128368d94c",
+          "title": "[1보] SK하이닉스 3분기 영업이익 83조3천338억원…작년 대비 632%↑",
+          "url": "https://www.yna.co.kr/view/AKR20261028028000527",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:29:38Z"
+        },
+        {
+          "key": "cd73584744d79268",
+          "title": "[속보] SK하이닉스, 3분기 매출 104조·영업익 83조",
+          "url": "https://zdnet.co.kr/view/?no=20261028080340",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:30:13Z"
+        },
+        {
+          "key": "08d8b8591733e77a",
+          "title": "[속보] SK하이닉스, 3분기 영업이익 83조원…역대 최대",
+          "url": "https://www.dt.co.kr/article/12091706",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:33:03Z"
+        },
+        {
+          "key": "834848c4f87a7770",
+          "title": "[속보] SK하이닉스 3분기 영업이익 83조3338억원...전년比 632% 증가",
+          "url": "https://www.inews24.com/view/2019662",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:33:46Z"
+        },
+        {
+          "key": "0e1ef772fec9f997",
+          "title": "[2보] SK하이닉스 3분기 영업익 83조3천억…매출 104조6천억",
+          "url": "https://www.yna.co.kr/view/AKR20261028028051527",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:37:25Z"
+        },
+        {
+          "key": "6adb6f8e5761ba52",
+          "title": "SK hynix posts record Q3 profit, plans W100tr in shareholder returns this year",
+          "url": "https://www.koreaherald.com/article/10917003",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-27T23:48:24Z"
+        },
+        {
+          "key": "c3fd9f6e26384373",
+          "title": "SK하이닉스, 분기 매출 첫 100조 돌파…영업익 83조원 '사상 최대'",
+          "url": "https://www.inews24.com/view/2019690",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:52:11Z"
+        },
+        {
+          "key": "6dd09c1c424f2633",
+          "title": "SK하이닉스, 3분기 영업익 83조…“올해 100조 주주환원”",
+          "url": "https://www.dt.co.kr/article/12091711",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:53:01Z"
+        },
+        {
+          "key": "a49f70125a8b2638",
+          "title": "SK하이닉스, 분기 매출 100조 첫 돌파…영업익 83조 '어닝 서프라이즈'",
+          "url": "https://zdnet.co.kr/view/?no=20261028085225",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:04:48Z"
+        },
+        {
+          "key": "a7db388707c03c77",
+          "title": "SK하이닉스, 분기 매출 100조 시대 열었다…HBM4로 성장 가속",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408847",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:06:32Z"
+        },
+        {
+          "key": "8b00cfeef160c4db",
+          "title": "SK하이닉스, 분기 매출 첫 100조원 돌파…영업이익만 83조원",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64393",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:27:52Z"
+        },
+        {
+          "key": "489ff68f40b82493",
+          "title": "SK하이닉스 3분기 영업익 역대 최대 83조…매출 100조 첫 돌파(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261028028052527",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:33:09Z"
+        },
+        {
+          "key": "34f3829afc35fa68",
+          "title": "SK하닉 ‘어닝 서프라이즈’에… 코스피, 2%대 급등 5760선 출발",
+          "url": "https://www.dt.co.kr/article/12091718",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:34:28Z"
+        },
+        {
+          "key": "ee2d1e22e82d2157",
+          "title": "SK하이닉스 \"빅테크 투자 줄어도 다른 수요가 보완…AI 수요 견조\"",
+          "url": "https://www.inews24.com/view/2019733",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:38:08Z"
+        },
+        {
+          "key": "92684dced7390951",
+          "title": "SK하이닉스, 향후 2년 생산능력 절반 계약완료…AI고점론에 맞불",
+          "url": "https://www.yna.co.kr/view/AKR20261027191800003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:05:08Z"
+        },
+        {
+          "key": "f703655ca38ef15a",
+          "title": "SK하닉 3분기 영업익 83조 역대 최대…분기매출 100조 첫 돌파(종합2보)",
+          "url": "https://www.yna.co.kr/view/AKR20261028028053527",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T02:10:36Z"
+        },
+        {
+          "key": "9e4d05c55df7f94f",
+          "title": "SK하이닉스, 80% 이익률에 절반 이상 장기계약…AI고점론에 맞불(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261027191851003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T02:19:16Z"
+        },
+        {
+          "key": "70743c90d3c41567",
+          "title": "SK하이닉스, 3분기 매출 104조 6,155억 원, 영업이익 83조 3,338억 원…분기 매출 사상 첫 100조 원 돌파",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=342755",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-10-28T02:50:20Z"
+        },
+        {
+          "key": "bdab83753a56e1f3",
+          "title": "SK하이닉스 2026년 3분기 실적발표 컨퍼런스콜 전문",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64413",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-28T04:11:14Z"
+        },
+        {
+          "key": "83ca397dec369147",
+          "title": "[기획] 3분기에만 영업익 83조 쓸어 담아… 투자 실탄 115조 ‘장전’",
+          "url": "https://www.dt.co.kr/article/12091921",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-28T09:57:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261028-0267",
+      "headline": "LG전자, 내년 1분기 LCD 패널 가격 상승 예고",
+      "summary": [
+        "LG전자가 내년 1분기부터 LCD 패널 가격 상승 압력이 커질 것으로 전망했다.",
+        "패널 제조업체들의 감산과 대형 TV 수요 증가가 주요 요인으로 작용하고 있다.",
+        "이러한 가격 상승은 TV와 모니터에 부정적인 영향을 미칠 가능성이 크다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "LCD 패널",
+        "가격 상승",
+        "대형 TV",
+        "감산",
+        "수요 증가"
+      ],
+      "companies": [
+        "LG전자"
+      ],
+      "event_type": "가격 동향",
+      "confirmed": true,
+      "parties": [
+        "LG전자"
+      ],
+      "importance": 3,
+      "importance_reason": "가격 동향 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T10:00:09Z",
+      "updated_at": "2026-10-28T10:00:09Z",
+      "articles": [
+        {
+          "key": "5251263c921ffe3a",
+          "title": "LG전자 \"LCD 패널 가격, 내년 1분기부터 상승 압력 커진다\"",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64465",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-28T09:08:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261028-0268",
+      "headline": "LG전자, 3분기 흑자 전환하였으나 패널값 상승 부담",
+      "summary": [
+        "LG전자는 3분기 TV 사업에서 매출 5조 215억원, 영업이익 1467억원을 기록하며 흑자전환했다.",
+        "패널 가격 상승이 수익성에 부정적 영향을 미칠 것으로 예상되며, 중저가 제품군에서 타격이 클 것으로 보인다.",
+        "LG전자는 부품 공급선을 최적화하고 프리미엄 제품 판매를 늘려 대응할 계획이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "LG전자",
+        "OLED TV",
+        "LCD 패널",
+        "수익성",
+        "패널 가격 상승"
+      ],
+      "companies": [
+        "LG전자"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "LG전자"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T10:00:09Z",
+      "updated_at": "2026-10-28T10:00:09Z",
+      "articles": [
+        {
+          "key": "7461d7b55e8f9eb1",
+          "title": "LG전자 TV, 3분기 흑자지만…패널값 상승에 다시 '빨간불'",
+          "url": "https://zdnet.co.kr/view/?no=20261028175635",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-28T09:16:43Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261028-0269",
+      "headline": "큐알티, 해외 의존도 70% 절감 평가장비 개발로 장관표창",
+      "summary": [
+        "큐알티가 국내의 해외 의존도를 70% 줄인 평가장비를 개발해 표창을 받았다.",
+        "이 장비는 AI 반도체 방사선 평가 및 통신용 RF 수명평가 시스템으로 상용화되었다.",
+        "이로 인해 국내 반도체 산업의 신뢰성 검증이 강화되고 경쟁력이 높아졌다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "신뢰성 평가장비",
+        "AI 반도체",
+        "RF 수명평가",
+        "해외 의존도 절감"
+      ],
+      "companies": [
+        "큐알티"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "큐알티"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T10:00:09Z",
+      "updated_at": "2026-10-28T10:00:09Z",
+      "articles": [
+        {
+          "key": "b9443f9cf2644814",
+          "title": "'해외 의존도 70% 절감' 큐알티, 평가장비 개발 공로 인정",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64475",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-28T09:17:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261028-0270",
+      "headline": "SK하이닉스, 100조원 주주환원 계획 발표",
+      "summary": [
+        "SK하이닉스가 연간 100조원의 주주환원 계획을 발표했다.",
+        "이 발표로 주가는 10% 이상 상승하며 긍정적인 반응을 얻었다.",
+        "삼성전자의 추가 주주환원책과 함께 시장의 관심이 집중되고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "SK하이닉스",
+        "주주환원",
+        "삼성전자",
+        "주가상승"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자, SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T10:00:09Z",
+      "updated_at": "2026-10-28T10:00:09Z",
+      "articles": [
+        {
+          "key": "3b4c424bb210a542",
+          "title": "SK하닉은 ‘100조’ 환원… 기대만발 삼전 주주들",
+          "url": "https://www.dt.co.kr/article/12091922",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-28T09:58:48Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
     {
       "id": "c20261028-0220",
       "headline": "AI 반도체 실적 호조에 KOSPI 급등",
@@ -576,60 +1023,6 @@
       ],
       "type_checked": true,
       "importance_raw": 4
-    },
-    {
-      "id": "c20261028-0235",
-      "headline": "SK머티리얼즈, 일본 후루카와전기와 MOU 체결",
-      "summary": [
-        "SK머티리얼즈와 후루카와전기가 반도체 및 AI 데이터센터 소재 사업 협력 양해각서를 체결했다.",
-        "이번 협약은 두 회사가 반도체 및 AI 데이터센터 시장에 중점을 두고 진행된다.",
-        "이 협력은 AI 반도체 기술 발전에 기여할 것으로 기대된다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "AI 반도체",
-        "협력",
-        "MOU",
-        "후루카와전기"
-      ],
-      "companies": [
-        "SK머티리얼즈",
-        "후루카와전기"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "SK머티리얼즈",
-        "후루카와전기"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-28T02:07:22Z",
-      "updated_at": "2026-10-28T08:11:05Z",
-      "articles": [
-        {
-          "key": "9122cd0217ca0d05",
-          "title": "SK머티리얼즈, 일본 후루카와전기와 AI 반도체 재료사업 협력",
-          "url": "https://www.yna.co.kr/view/AKR20261028069400003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-28T01:35:48Z"
-        },
-        {
-          "key": "864335007a87fd5b",
-          "title": "SK머티리얼즈, 일본 후루카와전기와 AI 반도체 재료사업 협력",
-          "url": "https://www.dt.co.kr/article/12091884",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-28T08:09:01Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261028-0255",
@@ -1530,203 +1923,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261027-0155",
-      "headline": "SK하이닉스, 3분기 매출 100조 원 돌파하며 역대 최대 실적",
-      "summary": [
-        "SK하이닉스는 2026년 3분기 매출 104조 6,155억 원, 영업이익 83조 3,338억 원을 기록했다.",
-        "이는 지난해 2분기 이후 6분기 연속 역대 최대 실적이며, 전분기 대비 매출 32% 증가했다.",
-        "AI 메모리 수요 증가로 고부가 제품 경쟁력이 부각되며 향후 성장 가능성을 더욱 높였다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "AI 메모리",
-        "HBM4",
-        "분기 매출 100조",
-        "영업이익 80%",
-        "고부가 제품"
-      ],
-      "companies": [
-        "SK하이닉스"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "SK하이닉스"
-      ],
-      "importance": 5,
-      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1, 매체 8곳 보도 +1 → 5점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-10-27T01:02:58Z",
-      "updated_at": "2026-10-28T04:57:49Z",
-      "articles": [
-        {
-          "key": "218ced54d8caab70",
-          "title": "SK하이닉스, 3분기 영업익 76조 전망…실적 넘어 주주환원 시험대",
-          "url": "https://www.dt.co.kr/article/12091433",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-27T00:10:27Z"
-        },
-        {
-          "key": "87b4d2128368d94c",
-          "title": "[1보] SK하이닉스 3분기 영업이익 83조3천338억원…작년 대비 632%↑",
-          "url": "https://www.yna.co.kr/view/AKR20261028028000527",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-27T23:29:38Z"
-        },
-        {
-          "key": "cd73584744d79268",
-          "title": "[속보] SK하이닉스, 3분기 매출 104조·영업익 83조",
-          "url": "https://zdnet.co.kr/view/?no=20261028080340",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-10-27T23:30:13Z"
-        },
-        {
-          "key": "08d8b8591733e77a",
-          "title": "[속보] SK하이닉스, 3분기 영업이익 83조원…역대 최대",
-          "url": "https://www.dt.co.kr/article/12091706",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-27T23:33:03Z"
-        },
-        {
-          "key": "834848c4f87a7770",
-          "title": "[속보] SK하이닉스 3분기 영업이익 83조3338억원...전년比 632% 증가",
-          "url": "https://www.inews24.com/view/2019662",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-27T23:33:46Z"
-        },
-        {
-          "key": "0e1ef772fec9f997",
-          "title": "[2보] SK하이닉스 3분기 영업익 83조3천억…매출 104조6천억",
-          "url": "https://www.yna.co.kr/view/AKR20261028028051527",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-27T23:37:25Z"
-        },
-        {
-          "key": "6adb6f8e5761ba52",
-          "title": "SK hynix posts record Q3 profit, plans W100tr in shareholder returns this year",
-          "url": "https://www.koreaherald.com/article/10917003",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-10-27T23:48:24Z"
-        },
-        {
-          "key": "c3fd9f6e26384373",
-          "title": "SK하이닉스, 분기 매출 첫 100조 돌파…영업익 83조원 '사상 최대'",
-          "url": "https://www.inews24.com/view/2019690",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-27T23:52:11Z"
-        },
-        {
-          "key": "6dd09c1c424f2633",
-          "title": "SK하이닉스, 3분기 영업익 83조…“올해 100조 주주환원”",
-          "url": "https://www.dt.co.kr/article/12091711",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-27T23:53:01Z"
-        },
-        {
-          "key": "a49f70125a8b2638",
-          "title": "SK하이닉스, 분기 매출 100조 첫 돌파…영업익 83조 '어닝 서프라이즈'",
-          "url": "https://zdnet.co.kr/view/?no=20261028085225",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-10-28T00:04:48Z"
-        },
-        {
-          "key": "a7db388707c03c77",
-          "title": "SK하이닉스, 분기 매출 100조 시대 열었다…HBM4로 성장 가속",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408847",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-28T00:06:32Z"
-        },
-        {
-          "key": "8b00cfeef160c4db",
-          "title": "SK하이닉스, 분기 매출 첫 100조원 돌파…영업이익만 83조원",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=64393",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-10-28T00:27:52Z"
-        },
-        {
-          "key": "489ff68f40b82493",
-          "title": "SK하이닉스 3분기 영업익 역대 최대 83조…매출 100조 첫 돌파(종합)",
-          "url": "https://www.yna.co.kr/view/AKR20261028028052527",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-28T00:33:09Z"
-        },
-        {
-          "key": "34f3829afc35fa68",
-          "title": "SK하닉 ‘어닝 서프라이즈’에… 코스피, 2%대 급등 5760선 출발",
-          "url": "https://www.dt.co.kr/article/12091718",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-28T00:34:28Z"
-        },
-        {
-          "key": "ee2d1e22e82d2157",
-          "title": "SK하이닉스 \"빅테크 투자 줄어도 다른 수요가 보완…AI 수요 견조\"",
-          "url": "https://www.inews24.com/view/2019733",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-28T00:38:08Z"
-        },
-        {
-          "key": "92684dced7390951",
-          "title": "SK하이닉스, 향후 2년 생산능력 절반 계약완료…AI고점론에 맞불",
-          "url": "https://www.yna.co.kr/view/AKR20261027191800003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-28T01:05:08Z"
-        },
-        {
-          "key": "f703655ca38ef15a",
-          "title": "SK하닉 3분기 영업익 83조 역대 최대…분기매출 100조 첫 돌파(종합2보)",
-          "url": "https://www.yna.co.kr/view/AKR20261028028053527",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-28T02:10:36Z"
-        },
-        {
-          "key": "9e4d05c55df7f94f",
-          "title": "SK하이닉스, 80% 이익률에 절반 이상 장기계약…AI고점론에 맞불(종합)",
-          "url": "https://www.yna.co.kr/view/AKR20261027191851003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-28T02:19:16Z"
-        },
-        {
-          "key": "70743c90d3c41567",
-          "title": "SK하이닉스, 3분기 매출 104조 6,155억 원, 영업이익 83조 3,338억 원…분기 매출 사상 첫 100조 원 돌파",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=342755",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-10-28T02:50:20Z"
-        },
-        {
-          "key": "bdab83753a56e1f3",
-          "title": "SK하이닉스 2026년 3분기 실적발표 컨퍼런스콜 전문",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=64413",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-10-28T04:11:14Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 5
     },
     {
       "id": "c20261028-0245",
