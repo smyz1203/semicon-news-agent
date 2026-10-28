@@ -1419,5 +1419,34 @@
     "cost_usd": 0.0071,
     "ai_stopped": null,
     "alerts": []
+  },
+  {
+    "at": "2026-10-28T04:57:49Z",
+    "collected": 738,
+    "new": 64,
+    "relevant": 7,
+    "groups": 7,
+    "deferred": 0,
+    "irrelevant_by_ai": 3,
+    "new_issues": 2,
+    "summarized": 3,
+    "resummarized": 1,
+    "classified": 0,
+    "pending": 0,
+    "failed": 0,
+    "sources_ok": 17,
+    "sources_total": 18,
+    "ai_model": "openai/gpt-4o-mini",
+    "ai_calls": 9,
+    "tokens": {
+      "calls": 9,
+      "input": 12557,
+      "output": 3382,
+      "cache_write": 0,
+      "cache_read": 20736
+    },
+    "cost_usd": 0.0055,
+    "ai_stopped": null,
+    "alerts": []
   }
 ]
