@@ -1,7 +1,147 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28T10:58:23Z",
+  "updated_at": "2026-10-28T11:55:36Z",
   "issues": [
+    {
+      "id": "c20261028-0274",
+      "headline": "서울바이오시스, 희토류 없는 백색 마이크로 LED 양산 개시",
+      "summary": [
+        "서울바이오시스가 희토류 없이 백색 마이크로 LED 칩의 양산을 시작했다.",
+        "양산된 LED는 25×10μm 크기로 0.015루멘을 구현하며, 밝기효율은 100lm/W에 육박한다.",
+        "이 기술은 AI 데이터 전송에 확장되어 통신 속도를 10배 향상시킬 계획이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "마이크로 LED",
+        "백색광",
+        "희토류 미사용",
+        "LED 칩",
+        "AI 데이터 전송"
+      ],
+      "companies": [
+        "서울바이오시스"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "서울바이오시스"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T11:55:36Z",
+      "updated_at": "2026-10-28T11:55:36Z",
+      "articles": [
+        {
+          "key": "57c0c7421423935f",
+          "title": "서울바이오시스, '희토류 없는' 백색 마이크로 LED 양산",
+          "url": "https://zdnet.co.kr/view/?no=20261028183723",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-28T09:52:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261028-0275",
+      "headline": "AP시스템, 에스디옵틱스 지분 투자로 협력 강화",
+      "summary": [
+        "AP시스템이 광학 검사업체 에스디옵틱스의 지분을 확보했다.",
+        "전환우선주로 지분을 취득하며, 차세대 검사 시장을 공동 공략할 예정이다.",
+        "이번 투자로 AP시스템은 에스디옵틱스의 광학 기술을 자사 장비에 적용할 계획이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "광학 검사",
+        "에스디옵틱스",
+        "차세대 반도체",
+        "전환우선주",
+        "AP시스템",
+        "전략적 파트너십"
+      ],
+      "companies": [
+        "AP시스템",
+        "에스디옵틱스"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "AP시스템",
+        "에스디옵틱스"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T11:55:36Z",
+      "updated_at": "2026-10-28T11:55:36Z",
+      "articles": [
+        {
+          "key": "e8b02acde3ea46fd",
+          "title": "AP시스템, 광학 검사 솔루션 업체 에스디옵틱스 지분 확보",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64478",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-28T11:18:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261028-0276",
+      "headline": "와이엠씨, 중국 몰리브덴 기업과 협력 체결",
+      "summary": [
+        "와이엠씨는 중국 JDC와 전략적 협력 기본합의서를 체결했다.",
+        "28일 중국 시안에서 협약식이 열렸으며, 양사 주요 관계자가 참석했다.",
+        "이번 파트너십은 반도체 소재 공급망 강화에 기여할 것으로 기대된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "몰리브덴",
+        "전략적 협력",
+        "반도체 소재",
+        "중국 JDC",
+        "YMC"
+      ],
+      "companies": [
+        "와이엠씨",
+        "진두이청몰리브덴유한공사"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "와이엠씨",
+        "진두이청몰리브덴유한공사"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T11:55:36Z",
+      "updated_at": "2026-10-28T11:55:36Z",
+      "articles": [
+        {
+          "key": "e7da5c4daab338b3",
+          "title": "와이엠씨, 中 최대 몰리브덴 기업과 파트너십 체결",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64487",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-28T11:32:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261028-0217",
       "headline": "SK하이닉스, 2029년까지 D램·HBM 완판 전망",
