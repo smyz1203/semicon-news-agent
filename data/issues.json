@@ -1,7 +1,53 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28T17:57:29Z",
+  "updated_at": "2026-10-28T19:03:12Z",
   "issues": [
+    {
+      "id": "c20261028-0277",
+      "headline": "람 리서치, 아이맥과 차세대 3D 통합 기술 협력",
+      "summary": [
+        "람 리서치와 아이맥이 차세대 3D 통합 기술 개발을 위해 협력 관계를 확대했다.",
+        "이들은 고급 패키징 및 메모리 архитект처를 포함한 두 가지 공동 연구 개발에 집중할 예정이다.",
+        "이는 반도체 산업에서 AI 성능 향상을 위한 필수 기술로 자리 잡고 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "3D 통합",
+        "고급 패키징",
+        "AI 반도체",
+        "차세대 메모리"
+      ],
+      "companies": [
+        "람 리서치",
+        "아이맥"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "람 리서치",
+        "아이맥"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-28T19:03:12Z",
+      "updated_at": "2026-10-28T19:03:12Z",
+      "articles": [
+        {
+          "key": "c82c4e6b87c2b022",
+          "title": "Lam and imec Expand Collaboration to Advance Manufacturability of Next-Gen 3D Integration Technologies",
+          "url": "https://www.semiconductor-digest.com/lam-and-imec-expand-collaboration-to-advance-manufacturability-of-next-gen-3d-integration-technologies/?utm_source=rss&utm_medium=rss&utm_campaign=lam-and-imec-expand-collaboration-to-advance-manufacturability-of-next-gen-3d-integration-technologies",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-10-28T18:40:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261027-0155",
       "headline": "SK 하이닉스, 3분기 실적 100조 원 돌파",
