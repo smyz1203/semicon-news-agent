@@ -1,7 +1,60 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28T22:52:01Z",
+  "updated_at": "2026-10-28T23:49:05Z",
   "issues": [
+    {
+      "id": "c20261027-0213",
+      "headline": "소부장 뿌리기술대전 개최 및 은탑훈장 수여",
+      "summary": [
+        "2026 소재·부품·장비(소부장) 뿌리기술대전이 28일부터 30일까지 고양시에서 열린다.",
+        "이번 행사에서 김병석 한미반도체 상무가 은탑훈장을 수여받는다.",
+        "소부장 산업의 발전과 기술 혁신을 촉진하는 중요한 계기가 될 것으로 보인다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "소부장",
+        "뿌리기술대전",
+        "은탑훈장",
+        "한미반도체",
+        "산업통상부"
+      ],
+      "companies": [
+        "한미반도체"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "한미반도체"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T21:48:46Z",
+      "updated_at": "2026-10-28T23:49:05Z",
+      "articles": [
+        {
+          "key": "4a26426958542681",
+          "title": "소부장 뿌리기술대전 개막…김병석 한미반도체 상무 은탑훈장",
+          "url": "https://www.yna.co.kr/view/AKR20261027172900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T21:00:06Z"
+        },
+        {
+          "key": "d9682cec4d1c922f",
+          "title": "한미반도체 김병석 상무, 은탑산업훈장…HBM TC본더 개발 공로",
+          "url": "https://www.yna.co.kr/view/AKR20261029032500003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T23:28:56Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261028-0277",
       "headline": "람 리서치, 아이맥과 차세대 3D 통합 기술 협력",
@@ -4017,51 +4070,6 @@
           "source": "연합뉴스",
           "lang": "ko",
           "published_at": "2026-10-27T21:00:08Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261027-0213",
-      "headline": "소부장 뿌리기술대전 개최 및 은탑훈장 수여",
-      "summary": [
-        "2026 소재·부품·장비(소부장) 뿌리기술대전이 28일부터 30일까지 고양시에서 열린다.",
-        "이번 행사에서 김병석 한미반도체 상무가 은탑훈장을 수여받는다.",
-        "소부장 산업의 발전과 기술 혁신을 촉진하는 중요한 계기가 될 것으로 보인다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "소부장",
-        "뿌리기술대전",
-        "은탑훈장",
-        "한미반도체",
-        "산업통상부"
-      ],
-      "companies": [
-        "한미반도체"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "한미반도체"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-27T21:48:46Z",
-      "updated_at": "2026-10-27T21:48:46Z",
-      "articles": [
-        {
-          "key": "4a26426958542681",
-          "title": "소부장 뿌리기술대전 개막…김병석 한미반도체 상무 은탑훈장",
-          "url": "https://www.yna.co.kr/view/AKR20261027172900003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-27T21:00:06Z"
         }
       ],
       "type_checked": true,
