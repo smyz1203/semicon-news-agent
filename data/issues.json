@@ -1,7 +1,709 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28T01:14:34Z",
+  "updated_at": "2026-10-28T02:07:22Z",
   "issues": [
+    {
+      "id": "c20261027-0214",
+      "headline": "SK하이닉스, 60조원 규모 주주환원 발표",
+      "summary": [
+        "SK하이닉스는 60조원의 추가 주주환원을 결정했다.",
+        "이번 주주환원은 배당과 자사주 매입을 포함한다.",
+        "이 결정은 주주 가치를 높이고 시장 신뢰를 강화하는 의미를 갖는다."
+      ],
+      "category": "기타",
+      "tags": [
+        "주주환원",
+        "배당",
+        "자사주매입"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T23:43:58Z",
+      "updated_at": "2026-10-28T02:07:22Z",
+      "articles": [
+        {
+          "key": "02cd38179e8f2d5b",
+          "title": "[속보] SK하이닉스, 60조원 추가 주주환원…배당·자사주 매입",
+          "url": "https://www.yna.co.kr/view/AKR20261028029600003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:30:57Z"
+        },
+        {
+          "key": "7e68fd2a0cc9f689",
+          "title": "[속보] SK하이닉스, 60조 추가 주주환원",
+          "url": "https://www.dt.co.kr/article/12091707",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:35:16Z"
+        },
+        {
+          "key": "8634b35f24177990",
+          "title": "[속보] SK하이닉스, 자사주 20조 매입…10조 소각·10조 임직원보상",
+          "url": "https://www.yna.co.kr/view/AKR20261028033600003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:42:55Z"
+        },
+        {
+          "key": "68b824854fe0b7ec",
+          "title": "SK하닉, 2만원 배당·20조 자사주 매입 등 60조 추가 주주환원",
+          "url": "https://www.yna.co.kr/view/AKR20261028036200003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:03:16Z"
+        },
+        {
+          "key": "c3ae3f9b4ac9b581",
+          "title": "[특징주] 하이닉스 60조 추가 주주환원…반도체주 강세",
+          "url": "https://www.yna.co.kr/view/AKR20261028050900008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:33:47Z"
+        },
+        {
+          "key": "68f52c70be71a90e",
+          "title": "추가 주주환원에 반도체 관련주 급등…삼전·닉스 7∼8%↑(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261028050951008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:39:42Z"
+        },
+        {
+          "key": "f6652efe2a542ad2",
+          "title": "앤트로픽이 끌고 SK하이닉스가 밀고…반도체 투심 되살아나나",
+          "url": "https://www.yna.co.kr/view/AKR20261028078700008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:51:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261027-0202",
+      "headline": "LG디스플레이, 대형 OLED 판매 5000만대 돌파",
+      "summary": [
+        "LG디스플레이가 2013년 이후 대형 OLED 패널 누적 판매량 5000만대를 달성했다.",
+        "이 성과는 13년 동안 TV와 모니터 등 다양한 제품군에서 이루어진 판매 결과로, 55인치부터 97인치 OLED 패널까지 포함된다.",
+        "이 사건은 LG디스플레이의 차별화된 기술력과 응용처 확대 전략의 성과로, 미래 디스플레이 시장에서의 경쟁력을 더욱 강화할 것으로 기대된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "WOLED",
+        "대형 OLED",
+        "판매 5000만대",
+        "게이밍 모니터",
+        "플립 기술"
+      ],
+      "companies": [
+        "LG디스플레이"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이"
+      ],
+      "importance": 5,
+      "importance_reason": "실적 3점, 관심 기업(LG디스플레이) +1, 매체 6곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-10-27T13:01:58Z",
+      "updated_at": "2026-10-28T02:07:22Z",
+      "articles": [
+        {
+          "key": "0a21b92540c5d80f",
+          "title": "Is LG planning to start producing 97\" and 111\" OLED panels?",
+          "url": "https://www.oled-info.com/lg-planning-start-producing-97-and-111-oled-panels",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-10-27T11:56:38Z"
+        },
+        {
+          "key": "1775d3855000c4ba",
+          "title": "LG디스플레이, WOLED 누적 판매 5000만대 돌파",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64391",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:00:00Z"
+        },
+        {
+          "key": "39a755abe189f362",
+          "title": "LG디스플레이, WOLED 누적 판매 5000만대 돌파",
+          "url": "https://www.inews24.com/view/2019671",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:00:00Z"
+        },
+        {
+          "key": "caa88272726d6bf9",
+          "title": "LG디스플레이, WOLED 누적 5000만대 판매...13년만",
+          "url": "https://zdnet.co.kr/view/?no=20261028080404",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:00:02Z"
+        },
+        {
+          "key": "a5c2b10386f4fb58",
+          "title": "LG디스플레이, 대형 OLED 패널 누적 판매 5천만대 돌파",
+          "url": "https://www.yna.co.kr/view/AKR20261028024600003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:00:08Z"
+        },
+        {
+          "key": "e938f8b03c2716ab",
+          "title": "LG디스플레이, 대형 OLED 누적 판매 5000만대 돌파",
+          "url": "https://www.dt.co.kr/article/12091743",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:40:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261026-0102",
+      "headline": "SK하이닉스, 솔리다임 IPO 중단 결정",
+      "summary": [
+        "SK하이닉스가 솔리다임의 IPO를 중단한다고 발표했다.",
+        "이는 시장 변동성과 반도체 주가 조정이 주요 이유로, 기대 효과 달성에 어려움이 있어 결정되었다.",
+        "앞으로 솔리다임은 AI 데이터센터 스토리지 시장에서의 경쟁력 강화를 목표로 삼고, 특별 배당으로 투자 결실을 마련할 예정이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "IPO",
+        "솔리다임",
+        "특별배당",
+        "AI 스토리지"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "솔리다임"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스",
+        "솔리다임"
+      ],
+      "importance": 5,
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1, 매체 3곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-10-26T18:29:43Z",
+      "updated_at": "2026-10-28T02:07:22Z",
+      "articles": [
+        {
+          "key": "d2ac7e075474824f",
+          "title": "SK hynix weighs $12.1 billion special dividend, newspaper says",
+          "url": "https://www.koreaherald.com/article/10914252",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-25T23:59:15Z"
+        },
+        {
+          "key": "c124e706f5e7f417",
+          "title": "SK하이닉스 곽노정 \"솔리다임 상장 중단…투자 결실은 특별배당\"",
+          "url": "https://www.inews24.com/view/2019706",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:16:13Z"
+        },
+        {
+          "key": "680aefc48e8a3dee",
+          "title": "곽노정 SK하이닉스 사장 \"솔리다임 IPO 기대 효과 달성 어려워 중단\"",
+          "url": "https://zdnet.co.kr/view/?no=20261028091956",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:31:54Z"
+        }
+      ],
+      "importance_raw": 5,
+      "type_checked": true
+    },
+    {
+      "id": "c20261027-0163",
+      "headline": "Rapidus와 HCLTech, 차세대 반도체 개발 협력",
+      "summary": [
+        "Rapidus와 HCLTech가 차세대 반도체 기술 개발을 위한 파트너십을 체결했다.",
+        "양사는 일본과 인도에 두 개의 개발 센터를 설립하여 협력하기로 했다.",
+        "이번 협력은 첨단 로직 반도체 시장에서의 경쟁력을 강화할 것으로 기대된다."
+      ],
+      "category": "기타",
+      "tags": [
+        "차세대 반도체",
+        "HCLTech",
+        "Rapidus",
+        "개발 센터",
+        "로직 반도체"
+      ],
+      "companies": [
+        "HCLTech",
+        "Rapidus"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "Rapidus",
+        "HCLTech"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T02:47:57Z",
+      "updated_at": "2026-10-28T02:07:22Z",
+      "articles": [
+        {
+          "key": "142a53bae19bf0db",
+          "title": "Rapidus and HCLTech announce partnership for next-generation semiconductor technologies",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=342692",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-10-26T09:56:00Z"
+        },
+        {
+          "key": "e9397dd92a946d40",
+          "title": "라피더스와 HCL테크, 차세대 반도체 기술을 위한 파트너십 발표",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=342728",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-10-27T06:49:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261028-0230",
+      "headline": "SK하이닉스, AI 투자 성과와 메모리 수급 전망 발표",
+      "summary": [
+        "SK하이닉스는 AI 인프라 투자 모멘텀이 지속될 것이라고 전망했다.",
+        "회사는 메모리 시장의 수급 불균형이 당분간 지속될 것이라고 경고했다.",
+        "이 같은 전망은 반도체 산업 전반에 부담을 줄 수 있는 요소로 작용할 것으로 예상된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI투자",
+        "메모리",
+        "수급 불균형",
+        "반도체",
+        "SK하이닉스"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "시장 전망·통계 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T02:07:22Z",
+      "updated_at": "2026-10-28T02:07:22Z",
+      "articles": [
+        {
+          "key": "c9b878299c294617",
+          "title": "SK하닉 \"AI투자 실제 성과로…메모리 수급 불균형 당분간 지속\"",
+          "url": "https://www.yna.co.kr/view/AKR20261028066900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:16:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261028-0231",
+      "headline": "SK하이닉스, 고객 재무 점검으로 투자 리스크 관리",
+      "summary": [
+        "SK하이닉스는 고객의 재무 건전성을 점검하고 있다고 밝혔다.",
+        "이를 통해 수요를 판단하며 주요 공급망의 준비 상황도 고려하고 있다.",
+        "투자 리스크를 면밀히 관리하기 위한 전략으로 해석된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "투자 리스크",
+        "고객 재무",
+        "SK하이닉스"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 관심 기업(SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T02:07:22Z",
+      "updated_at": "2026-10-28T02:07:22Z",
+      "articles": [
+        {
+          "key": "f1d65c89299dfe69",
+          "title": "SK하이닉스 \"고객 재무건전성도 점검…투자 리스크 면밀 관리\"",
+          "url": "https://www.yna.co.kr/view/AKR20261028067300003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:19:10Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261028-0232",
+      "headline": "오라클, AI 반도체와 모델 통합 클라우드 제공",
+      "summary": [
+        "오라클이 엔비디아와 구글의 AI 반도체 및 오픈AI의 도구들을 자사 클라우드에 통합한다.",
+        "기업들이 필요에 맞는 기술을 선택해 AI 업무를 맡길 수 있도록 지원한다.",
+        "이는 오라클의 클라우드 서비스 경쟁력을 높이고 AI 생태계에 영향을 줄 것으로 보인다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "오라클",
+        "엔비디아",
+        "구글",
+        "AI 반도체",
+        "클라우드 서비스"
+      ],
+      "companies": [
+        "오라클",
+        "엔비디아",
+        "구글",
+        "오픈AI",
+        "메타"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "오라클",
+        "엔비디아",
+        "구글",
+        "오픈AI"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(엔비디아) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T02:07:22Z",
+      "updated_at": "2026-10-28T02:07:22Z",
+      "articles": [
+        {
+          "key": "4381b2977ff0fd37",
+          "title": "엔비디아·구글 칩부터 오픈AI·메타 모델까지 오라클 클라우드 한곳에",
+          "url": "https://www.dt.co.kr/article/12091739",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:23:11Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261028-0233",
+      "headline": "SK하이닉스, CXMT의 D램 기술 활용 방안 논의",
+      "summary": [
+        "SK하이닉스가 CXMT의 차세대 D램 기술 '4F²'에 대해 접근 방안을 모색하고 있다.",
+        "회사는 기존 기술을 최대한 활용하는 방향으로 기술 전환을 우선시한다고 발표했다.",
+        "이러한 전략은 반도체 경쟁력 향상과 글로벌 시장에서의 입지를 강화하는 데 중요한 의미를 갖는다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "CXMT",
+        "4F²",
+        "D램",
+        "반도체 기술",
+        "SK하이닉스"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "CXMT"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "SK하이닉스",
+        "CXMT"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T02:07:22Z",
+      "updated_at": "2026-10-28T02:07:22Z",
+      "articles": [
+        {
+          "key": "6e95c02a188d849d",
+          "title": "SK하이닉스, CXMT 기술전환에 \"기존 기술 최대한 활용이 우선\"",
+          "url": "https://www.yna.co.kr/view/AKR20261028072400003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:27:14Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261028-0234",
+      "headline": "SK하이닉스, KV 캐시 급증으로 새로운 수요 창출",
+      "summary": [
+        "SK하이닉스는 3분기 실적발표에서 KV 캐시 규모의 급증을 언급했다.",
+        "에이전틱 AI와 긴 콘텍스트 확산으로 이를 저장할 HBM과 D램의 용량이 부족해지고 있다.",
+        "이로 인해 새로운 수요 기회가 나타나고, 메모리 시장에 긍정적인 영향을 줄 것으로 기대된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "KV 캐시",
+        "고대역폭메모리",
+        "D램",
+        "인공지능",
+        "수요 기회"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T02:07:22Z",
+      "updated_at": "2026-10-28T02:07:22Z",
+      "articles": [
+        {
+          "key": "e45e8f054ab743be",
+          "title": "SK하이닉스 \"KV 캐시 급증…낸드에 새로운 수요 기회\"",
+          "url": "https://www.inews24.com/view/2019795",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:32:15Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261028-0235",
+      "headline": "SK머티리얼즈, 후루카와전기와 AI 반도체 협력",
+      "summary": [
+        "SK머티리얼즈가 일본 후루카와전기와 AI 반도체 재료 사업 협력을 발표했다.",
+        "양사는 반도체 및 AI 기술 개발을 위한 맞춤형 재료를 공동 연구할 예정이다.",
+        "이번 협력은 반도체 산업의 기술 경쟁력을 높이는 데 기여할 것으로 보인다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI반도체",
+        "협력",
+        "재료",
+        "SK머티리얼즈",
+        "후루카와전기"
+      ],
+      "companies": [
+        "SK머티리얼즈",
+        "후루카와전기"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "SK머티리얼즈",
+        "후루카와전기"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T02:07:22Z",
+      "updated_at": "2026-10-28T02:07:22Z",
+      "articles": [
+        {
+          "key": "9122cd0217ca0d05",
+          "title": "SK머티리얼즈, 일본 후루카와전기와 AI 반도체 재료사업 협력",
+          "url": "https://www.yna.co.kr/view/AKR20261028069400003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:35:48Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261028-0236",
+      "headline": "인피니언, 유럽에 GaN 전력반도체 양산 시설 구축",
+      "summary": [
+        "인피니언이 유럽에 300mm 웨이퍼 기반 GaN 전력반도체 양산 시설을 건설한다.",
+        "2034년까지 약 11억 유로를 투자해 오스트리아에 기존 클린룸을 업그레이드하며, 2027년 말부터 생산을 시작할 예정이다.",
+        "이번 투자는 증가하는 고성능 전력 솔루션 수요에 대응하기 위한 전략으로, AI와 e-모빌리티 등 다양한 산업에 활용될 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "GaN",
+        "전력반도체",
+        "300mm 웨이퍼",
+        "AI 데이터센터",
+        "e-모빌리티"
+      ],
+      "companies": [
+        "인피니언"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "인피니언"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T02:07:22Z",
+      "updated_at": "2026-10-28T02:07:22Z",
+      "articles": [
+        {
+          "key": "e5bbf378eb4cddea",
+          "title": "인피니언, 유럽에 300mm 웨이퍼 기반 GaN 전력반도체 양산 시설 구축",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408870",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:40:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261028-0237",
+      "headline": "SK하이닉스, 최대 실적보다 사업 구조 변화 강조",
+      "summary": [
+        "SK하이닉스의 곽노정 대표는 최대 실적보다 사업 구조 변화가 중요하다고 언급했다.",
+        "그는 장기계약으로 이어지는 고객 신뢰를 강조하며, 중장기 수요 예측이 필요하다고 주장했다.",
+        "이러한 변화는 안정적인 수익성을 확보하는 데 필수적이라는 의미를 갖는다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "SK하이닉스",
+        "메모리",
+        "사업 구조",
+        "장기계약",
+        "고객 신뢰"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T02:07:22Z",
+      "updated_at": "2026-10-28T02:07:22Z",
+      "articles": [
+        {
+          "key": "0508007bed30a7e9",
+          "title": "SK하이닉스 곽노정 \"최대 실적보다 중요한 건 사업 구조 변화\"[종합]",
+          "url": "https://www.inews24.com/view/2019819",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:49:23Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261028-0238",
+      "headline": "광주, 반도체 클러스터 대비 교통망 확충 추진",
+      "summary": [
+        "전남광주통합특별시는 호남 반도체 클러스터 조성을 준비하고 있다.",
+        "주요 산업거점을 연결하는 광역교통망을 확충할 계획이다.",
+        "이로 인해 지역 산업 활성화와 반도체 산업 발전이 기대된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체 클러스터",
+        "광역교통망",
+        "산업거점",
+        "호남"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T02:07:22Z",
+      "updated_at": "2026-10-28T02:07:22Z",
+      "articles": [
+        {
+          "key": "3c6fabe972d17bce",
+          "title": "반도체 클러스터 조성 대비…광주권 광역교통망 확충 추진",
+          "url": "https://www.yna.co.kr/view/AKR20261028076100054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:50:24Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261027-0155",
       "headline": "SK하이닉스, 3분기 최대 실적 달성",
@@ -168,150 +870,6 @@
       "importance_raw": 5
     },
     {
-      "id": "c20261027-0214",
-      "headline": "SK하이닉스, 60조원 규모 주주환원 발표",
-      "summary": [
-        "SK하이닉스는 60조원의 추가 주주환원을 결정했다.",
-        "이번 주주환원은 배당과 자사주 매입을 포함한다.",
-        "이 결정은 주주 가치를 높이고 시장 신뢰를 강화하는 의미를 갖는다."
-      ],
-      "category": "기타",
-      "tags": [
-        "주주환원",
-        "배당",
-        "자사주매입"
-      ],
-      "companies": [
-        "SK하이닉스"
-      ],
-      "event_type": "재무·주주",
-      "confirmed": true,
-      "parties": [
-        "SK하이닉스"
-      ],
-      "importance": 3,
-      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-27T23:43:58Z",
-      "updated_at": "2026-10-28T01:14:34Z",
-      "articles": [
-        {
-          "key": "02cd38179e8f2d5b",
-          "title": "[속보] SK하이닉스, 60조원 추가 주주환원…배당·자사주 매입",
-          "url": "https://www.yna.co.kr/view/AKR20261028029600003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-27T23:30:57Z"
-        },
-        {
-          "key": "7e68fd2a0cc9f689",
-          "title": "[속보] SK하이닉스, 60조 추가 주주환원",
-          "url": "https://www.dt.co.kr/article/12091707",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-27T23:35:16Z"
-        },
-        {
-          "key": "8634b35f24177990",
-          "title": "[속보] SK하이닉스, 자사주 20조 매입…10조 소각·10조 임직원보상",
-          "url": "https://www.yna.co.kr/view/AKR20261028033600003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-27T23:42:55Z"
-        },
-        {
-          "key": "68b824854fe0b7ec",
-          "title": "SK하닉, 2만원 배당·20조 자사주 매입 등 60조 추가 주주환원",
-          "url": "https://www.yna.co.kr/view/AKR20261028036200003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-28T00:03:16Z"
-        },
-        {
-          "key": "c3ae3f9b4ac9b581",
-          "title": "[특징주] 하이닉스 60조 추가 주주환원…반도체주 강세",
-          "url": "https://www.yna.co.kr/view/AKR20261028050900008",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-28T00:33:47Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261027-0202",
-      "headline": "LG디스플레이, 대형 OLED 패널 누적 판매 5천만대 달성",
-      "summary": [
-        "LG디스플레이는 대형 OLED 패널 누적 판매량이 5천만대를 초과했다고 발표했다.",
-        "2013년 첫 양산 이후로 13년 만에 이룬 성과로, 판매량은 매년 증가하고 있다.",
-        "이번 달성은 OLED TV와 모니터 시장에서 LG디스플레이의 경쟁력을 강화할 것으로 기대된다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "대형 OLED",
-        "WOLED",
-        "판매량",
-        "LG디스플레이",
-        "TV패널"
-      ],
-      "companies": [
-        "LG디스플레이"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "LG디스플레이"
-      ],
-      "importance": 5,
-      "importance_reason": "실적 3점, 관심 기업(LG디스플레이) +1, 매체 4곳 보도 +1 → 5점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-10-27T13:01:58Z",
-      "updated_at": "2026-10-28T01:14:34Z",
-      "articles": [
-        {
-          "key": "0a21b92540c5d80f",
-          "title": "Is LG planning to start producing 97\" and 111\" OLED panels?",
-          "url": "https://www.oled-info.com/lg-planning-start-producing-97-and-111-oled-panels",
-          "source": "OLED-info",
-          "lang": "en",
-          "published_at": "2026-10-27T11:56:38Z"
-        },
-        {
-          "key": "1775d3855000c4ba",
-          "title": "LG디스플레이, WOLED 누적 판매 5000만대 돌파",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=64391",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-10-28T01:00:00Z"
-        },
-        {
-          "key": "39a755abe189f362",
-          "title": "LG디스플레이, WOLED 누적 판매 5000만대 돌파",
-          "url": "https://www.inews24.com/view/2019671",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-28T01:00:00Z"
-        },
-        {
-          "key": "a5c2b10386f4fb58",
-          "title": "LG디스플레이, 대형 OLED 패널 누적 판매 5천만대 돌파",
-          "url": "https://www.yna.co.kr/view/AKR20261028024600003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-28T01:00:08Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 5
-    },
-    {
       "id": "c20261027-0198",
       "headline": "중국 CXMT, 애플 DRAM 요청 거절",
       "summary": [
@@ -365,61 +923,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0102",
-      "headline": "SK하이닉스, 솔리다임 상장 중단 및 특별배당 결정",
-      "summary": [
-        "SK하이닉스가 솔리다임의 상장 검토를 중단하고 키옥시아 투자 수익으로 특별배당을 시행한다.",
-        "곽노정 대표이사는 주주와 성과를 공유하겠다는 방침을 밝혔다.",
-        "이는 미래 성장을 도모하기 위한 투자 지속의 일환으로 해석된다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "특별배당",
-        "투자",
-        "키옥시아",
-        "솔리다임",
-        "SK하이닉스"
-      ],
-      "companies": [
-        "SK하이닉스",
-        "솔리다임",
-        "키옥시아"
-      ],
-      "event_type": "재무·주주",
-      "confirmed": true,
-      "parties": [
-        "SK하이닉스"
-      ],
-      "importance": 3,
-      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-10-26T18:29:43Z",
-      "updated_at": "2026-10-28T01:14:34Z",
-      "articles": [
-        {
-          "key": "d2ac7e075474824f",
-          "title": "SK hynix weighs $12.1 billion special dividend, newspaper says",
-          "url": "https://www.koreaherald.com/article/10914252",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-10-25T23:59:15Z"
-        },
-        {
-          "key": "c124e706f5e7f417",
-          "title": "SK하이닉스 곽노정 \"솔리다임 상장 중단…투자 결실은 특별배당\"",
-          "url": "https://www.inews24.com/view/2019706",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-28T00:16:13Z"
-        }
-      ],
-      "importance_raw": 3,
-      "type_checked": true
     },
     {
       "id": "c20261028-0215",
@@ -3611,53 +4114,6 @@
           "source": "KIPOST",
           "lang": "ko",
           "published_at": "2026-10-26T05:49:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261027-0163",
-      "headline": "Rapidus와 HCLTech, 차세대 반도체 개발 협력",
-      "summary": [
-        "Rapidus와 HCLTech가 차세대 반도체 기술 개발을 위한 파트너십을 체결했다.",
-        "양사는 일본과 인도에 두 개의 개발 센터를 설립하여 협력하기로 했다.",
-        "이번 협력은 첨단 로직 반도체 시장에서의 경쟁력을 강화할 것으로 기대된다."
-      ],
-      "category": "기타",
-      "tags": [
-        "차세대 반도체",
-        "HCLTech",
-        "Rapidus",
-        "개발 센터",
-        "로직 반도체"
-      ],
-      "companies": [
-        "HCLTech",
-        "Rapidus"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "Rapidus",
-        "HCLTech"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-27T02:47:57Z",
-      "updated_at": "2026-10-27T02:47:57Z",
-      "articles": [
-        {
-          "key": "142a53bae19bf0db",
-          "title": "Rapidus and HCLTech announce partnership for next-generation semiconductor technologies",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=342692",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-10-26T09:56:00Z"
         }
       ],
       "type_checked": true,
