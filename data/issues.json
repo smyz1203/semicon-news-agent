@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28T07:12:56Z",
+  "updated_at": "2026-10-28T08:11:05Z",
   "issues": [
     {
       "id": "c20261027-0214",
@@ -33,7 +33,7 @@
       "attempts": 0,
       "region": "ko",
       "first_seen": "2026-10-27T23:43:58Z",
-      "updated_at": "2026-10-28T07:12:56Z",
+      "updated_at": "2026-10-28T08:11:05Z",
       "articles": [
         {
           "key": "02cd38179e8f2d5b",
@@ -106,10 +106,695 @@
           "source": "연합뉴스",
           "lang": "ko",
           "published_at": "2026-10-28T07:08:41Z"
+        },
+        {
+          "key": "9f00803a9181d224",
+          "title": "앤트로픽이 끌고 SK하이닉스가 밀고…반도체 투심 되살아나나(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261028078751008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T07:39:28Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 5
+    },
+    {
+      "id": "c20261026-0130",
+      "headline": "SK하이닉스, 3분기 실적 발표 임박",
+      "summary": [
+        "SK하이닉스는 10월 28일 3분기 실적을 발표할 예정이다.",
+        "삼성과 SK하이닉스의 3분기 영업이익은 약 185조 원으로 예상된다.",
+        "HBM4가 실적 성장을 이끌며 주주환원 계획도 주목받고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "3분기 실적",
+        "SK하이닉스",
+        "삼성전자",
+        "HBM4",
+        "영업이익",
+        "주주환원"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자, SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T18:35:59Z",
+      "updated_at": "2026-10-28T08:11:05Z",
+      "articles": [
+        {
+          "key": "3bc643f0562ad899",
+          "title": "삼성·SK하닉, 3분기 영업익 185조 전망…HBM4가 실적 키웠다",
+          "url": "https://www.dt.co.kr/article/12091004",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-25T00:23:00Z"
+        },
+        {
+          "key": "64fa0ae16819b749",
+          "title": "SK하이닉스 내일 3분기 실적공개…주주환원 카드 나오나",
+          "url": "https://www.yna.co.kr/view/AKR20261026155100003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-26T21:01:00Z"
+        },
+        {
+          "key": "f6a5dddbd24a15ec",
+          "title": "[속보] SK하이닉스, 보통주 2만원 분기배당…총 14조원 규모",
+          "url": "https://www.yna.co.kr/view/AKR20261028032500003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:40:14Z"
+        },
+        {
+          "key": "0c487098f174c450",
+          "title": "[속보] SK하닉, 보통주 2만원 분기배당…총 14조",
+          "url": "https://www.dt.co.kr/article/12091708",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:43:21Z"
+        },
+        {
+          "key": "5c910e40e9d3f013",
+          "title": "삼전·SK하닉 ‘불기둥’에 코스피 6% 폭등…단숨에 6000선 탈환",
+          "url": "https://www.dt.co.kr/article/12091836",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-28T06:53:50Z"
+        },
+        {
+          "key": "418693ae3104657d",
+          "title": "삼전·SK하닉 나란히 불기둥…반도체株 바닥 찍고 반등 궤도 올랐다",
+          "url": "https://www.dt.co.kr/article/12091867",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-28T07:44:18Z"
+        }
+      ],
+      "importance_raw": 4,
+      "type_checked": true
+    },
+    {
+      "id": "c20261028-0251",
+      "headline": "파인텍, 삼성디스플레이에 100억 OLED 장비 공급",
+      "summary": [
+        "파인텍은 삼성디스플레이 베트남 법인과 100억원 규모의 OLED 장비 공급계약을 체결했다.",
+        "올해 누적 수주액은 약 370억원으로, 이는 지난해 매출의 80%에 해당한다.",
+        "IT 기기용 OLED 시장 성장에 따른 수익 확대가 기대되며, 파인텍은 로봇 개발 등 신성장 동력도 확보할 계획이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "수주",
+        "파인텍",
+        "삼성디스플레이",
+        "장비공급"
+      ],
+      "companies": [
+        "파인텍",
+        "삼성디스플레이"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "파인텍",
+        "삼성디스플레이"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성디스플레이) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T07:12:56Z",
+      "updated_at": "2026-10-28T08:11:05Z",
+      "articles": [
+        {
+          "key": "4dc643e0785ef860",
+          "title": "파인텍, 삼성D에 OLED 본딩 장비 100억원 공급",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64441",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-28T06:02:51Z"
+        },
+        {
+          "key": "1182e86cff089b04",
+          "title": "파인텍, 100억 규모 OLED 장비 수주...\"대형 수주·로봇개발 신성장 확보\"",
+          "url": "https://zdnet.co.kr/view/?no=20261028151557",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-28T06:35:55Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261028-0252",
+      "headline": "OCI, 반도체 소재 사업 강화로 흑자 전환",
+      "summary": [
+        "OCI는 3분기 영업이익 303억원을 기록하며 흑자 전환에 성공했다.",
+        "올해 3분기 누적 매출은 5991억원으로 전년 대비 25.8% 증가했다.",
+        "회사는 반도체 소재와 고부가가치 제품에 역량을 집중할 계획이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "반도체 소재",
+        "영업이익",
+        "매출 증가",
+        "3분기 실적",
+        "사업 재편"
+      ],
+      "companies": [
+        "OCI"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "OCI"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 매체 4곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-10-28T07:12:56Z",
+      "updated_at": "2026-10-28T08:11:05Z",
+      "articles": [
+        {
+          "key": "7f84ab84a2c8c2c8",
+          "title": "OCI, 3분기 영업익 303억원…반도체 소재 사업 성장세(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261028126851527",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T06:09:41Z"
+        },
+        {
+          "key": "3b9f703aafb9a8fb",
+          "title": "OCI, 3분기 영업익 303억원…반도체 소재 사업 성장세",
+          "url": "https://www.dt.co.kr/article/12091822",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-28T06:19:10Z"
+        },
+        {
+          "key": "5e2c89ece2ad7484",
+          "title": "OCI, 적자 사업 접고 반도체 키운다…3분기 영업익 흑자전환",
+          "url": "https://zdnet.co.kr/view/?no=20261028154639",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-28T06:46:39Z"
+        },
+        {
+          "key": "b6ddda79aa3cdbea",
+          "title": "OCI posts record nine-month operating profit since 2023 spin-off",
+          "url": "https://www.koreaherald.com/article/10917914",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-28T07:07:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261028-0235",
+      "headline": "SK머티리얼즈, 일본 후루카와전기와 MOU 체결",
+      "summary": [
+        "SK머티리얼즈와 후루카와전기가 반도체 및 AI 데이터센터 소재 사업 협력 양해각서를 체결했다.",
+        "이번 협약은 두 회사가 반도체 및 AI 데이터센터 시장에 중점을 두고 진행된다.",
+        "이 협력은 AI 반도체 기술 발전에 기여할 것으로 기대된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 반도체",
+        "협력",
+        "MOU",
+        "후루카와전기"
+      ],
+      "companies": [
+        "SK머티리얼즈",
+        "후루카와전기"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "SK머티리얼즈",
+        "후루카와전기"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T02:07:22Z",
+      "updated_at": "2026-10-28T08:11:05Z",
+      "articles": [
+        {
+          "key": "9122cd0217ca0d05",
+          "title": "SK머티리얼즈, 일본 후루카와전기와 AI 반도체 재료사업 협력",
+          "url": "https://www.yna.co.kr/view/AKR20261028069400003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:35:48Z"
+        },
+        {
+          "key": "864335007a87fd5b",
+          "title": "SK머티리얼즈, 일본 후루카와전기와 AI 반도체 재료사업 협력",
+          "url": "https://www.dt.co.kr/article/12091884",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-28T08:09:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261028-0220",
+      "headline": "AI 반도체 실적 호조에 KOSPI 급등",
+      "summary": [
+        "한국 증시는 인공지능 기반 반도체 실적 덕분에 큰 폭 상승했다.",
+        "2026년 10월 28일, KOSPI는 183.73포인트(3.26%) 오른 5,822.07로 시작했다.",
+        "이는 전날의 3% 이상 상승을 이어가며 투자자 심리에 긍정적인 영향을 주었다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 반도체",
+        "KOSPI",
+        "실적 호조",
+        "투자 심리"
+      ],
+      "companies": [
+        "SK hynix"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "SK hynix"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-28T01:14:34Z",
+      "updated_at": "2026-10-28T08:11:05Z",
+      "articles": [
+        {
+          "key": "c3bd1cf926bfca35",
+          "title": "Seoul stocks open sharply higher on revived AI optimism, SK hynix earnings",
+          "url": "https://www.koreaherald.com/article/10917155",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-28T00:37:43Z"
+        },
+        {
+          "key": "bc0d48f7e86ec54a",
+          "title": "Seoul shares soar over 6% on revived AI optimism, SK hynix earnings",
+          "url": "https://www.koreaherald.com/article/10918058",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-28T08:08:44Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261028-0255",
+      "headline": "네이버, AI팩토리 사업 구조 공개 및 투자 계약 체결",
+      "summary": [
+        "네이버는 브룩필드와 90억 달러 규모의 계약을 체결하고 AI 팩토리 사업 구조를 공개했다.",
+        "AI 인프라 투자에 있어 브룩필드와 엔비디아의 협력을 통해 안정성을 확보한 구조다.",
+        "이 모델은 네이버가 사업 운영의 주도권을 유지하며 초기 자금 부담을 관리할 수 있도록 설계됐다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 팩토리",
+        "네이버클라우드",
+        "GPU 인프라",
+        "브룩필드",
+        "엔비디아",
+        "투자 구조"
+      ],
+      "companies": [
+        "네이버",
+        "브룩필드",
+        "엔비디아"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "네이버",
+        "브룩필드",
+        "엔비디아"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(엔비디아) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T08:11:05Z",
+      "updated_at": "2026-10-28T08:11:05Z",
+      "articles": [
+        {
+          "key": "71a0e24b23165439",
+          "title": "\"재무 안정성 합격점에 기술 경쟁력 확보까지…\"네이버 AI팩토리 사업 구조 공개",
+          "url": "https://zdnet.co.kr/view/?no=20261028154636",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-28T06:46:36Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261028-0256",
+      "headline": "AI 반도체 및 시스템 최적화의 중요성 부각",
+      "summary": [
+        "전문가 패널이 AI 반도체 및 시스템 최적화에 대해 논의했다.",
+        "칩렛 기반 설계와 멀티물리 분석 필요성이 강조되었으며, 새로운 엔지니어링 방식이 요구된다.",
+        "AI 기술의 발전으로 설계 검증의 중요성이 커지고 있으며, 새로운 시장 요구도 부각되고 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 반도체",
+        "칩렛",
+        "멀티물리 분석",
+        "시스템 최적화",
+        "RTL 생성"
+      ],
+      "companies": [
+        "시스코",
+        "시놉시스",
+        "카덴스",
+        "Arm",
+        "키사이트"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "세미",
+        "eBeam 이니셔티브"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-28T08:11:05Z",
+      "updated_at": "2026-10-28T08:11:05Z",
+      "articles": [
+        {
+          "key": "b222dedb0fb47df0",
+          "title": "Blog Review: Oct. 28",
+          "url": "https://semiengineering.com/blog-review-oct-28-3/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-10-28T07:01:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261028-0257",
+      "headline": "반도체 모델의 비밀 공유 문제 심화",
+      "summary": [
+        "고급 패키징 기술이 반도체 공정 간 상호작용을 강화하고 있다. 공급업체의 비밀을 보호하면서도 다른 회사의 예측에 영향을 미쳐 모델이 유효성을 잃는 경우가 발생한다. 따라서 공정 정보 공유의 필요성이 커지면서 데이터…"
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "고급 패키징",
+        "모델 공유",
+        "공정 비밀",
+        "재료 공급업체",
+        "반도체 성능"
+      ],
+      "companies": [
+        "엑센시오"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "엑센시오"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-28T08:11:05Z",
+      "updated_at": "2026-10-28T08:11:05Z",
+      "articles": [
+        {
+          "key": "0f21dd89e688c7cb",
+          "title": "How Much Can Semiconductor Models Hide?",
+          "url": "https://semiengineering.com/how-much-can-semiconductor-models-hide/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-10-28T07:01:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261028-0258",
+      "headline": "RF EDA에서 AI 도입으로 설계 혁신 촉진",
+      "summary": [
+        "인공지능이 전자 설계 자동화를 혁신하여 RF 및 마이크로파 엔지니어링팀의 생산성을 높이고 있다.",
+        "AI 도입을 위한 전략적 프레임워크는 지식 재사용, 자동화 및 디자인 탐색을 중심으로 구성된다.",
+        "이는 기존 설계 프로세스를 방해하지 않으면서도 혁신의 속도를 가속화하는 데 기여할 것이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI",
+        "전자설계 자동화",
+        "RF 엔지니어링",
+        "혁신",
+        "디자인 프로세스"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-28T08:11:05Z",
+      "updated_at": "2026-10-28T08:11:05Z",
+      "articles": [
+        {
+          "key": "fa1d4dae6efbcaea",
+          "title": "Planning Your AI Design Journey In RF EDA",
+          "url": "https://semiengineering.com/planning-your-ai-design-journey-in-rf-eda/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-10-28T07:01:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261028-0259",
+      "headline": "AI 시대의 SoC 프로젝트 비용 절감 전략",
+      "summary": [
+        "AI 시대의 SoC 프로젝트는 여러 공급자로부터 IP를 조달할 때 숨겨진 비용이 발생해 크나큰 위험을 안고 있다.",
+        "이 통합된 Foundation IP 플랫폼은 느린 속도를 줄이고 TCO(총소유비용)를 낮추어, 재수정 및 일정 지연을 방지하며 수백만 달러를 절감할 수 있다.",
+        "HPC와 Edge AI 설계에서 성능 및 전력 효율 향상을 통한 PPA 개선이 구체적인 비용 절감으로 이어질 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "SoC",
+        "AI",
+        "HPC",
+        "Edge AI",
+        "TCO",
+        "Foundation IP"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-28T08:11:05Z",
+      "updated_at": "2026-10-28T08:11:05Z",
+      "articles": [
+        {
+          "key": "c8edde9bccf892c3",
+          "title": "Foundation IP For The AI Era: Why Execution Saves You Millions On HPC And Edge AI SoCs",
+          "url": "https://semiengineering.com/foundation-ip-for-the-ai-era-why-execution-saves-you-millions-on-hpc-and-edge-ai-socs/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-10-28T07:01:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261028-0260",
+      "headline": "AI를 활용한 아날로그 설계 혁신",
+      "summary": [
+        "아날로그 및 혼합 신호 설계에서 인공지능(AI)의 역할이 증가하고 있다.",
+        "Cadence의 AI 성숙도 로드맵을 기반으로 AI가 현재 아날로그 설계 도구로 자리잡고 있음을 강조한다.",
+        "AI는 엔지니어의 비차별적 작업을 감소시키고, 시뮬레이션 및 마이그레이션 작업을 가속화할 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI",
+        "아날로그 설계",
+        "혼합 신호 설계",
+        "Cadence",
+        "AI 도구",
+        "모델 기반 설계"
+      ],
+      "companies": [
+        "Cadence"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-28T08:11:05Z",
+      "updated_at": "2026-10-28T08:11:05Z",
+      "articles": [
+        {
+          "key": "04f88c841816befb",
+          "title": "Using AI for Analog Design",
+          "url": "https://semiengineering.com/using-ai-for-analog-design/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-10-28T07:02:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261028-0261",
+      "headline": "AI 시대의 전력 관리 기준 정립",
+      "summary": [
+        "AI 데이터 센터에서 50mV 전압 마진이 기가와트당 약 270개의 계산 랙에 해당한다.",
+        "하나는 0.80V, 다른 하나는 0.75V에서 동일한 시스템을 운영하며 전력을 비교했더니 후자가 8% 적은 전력을 소모했다.",
+        "AI 워크로드의 변화로 인해 전력 관리가 더욱 복잡해지며, 적절한 전력 설계를 통한 시스템 견고성이 필수적이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "전력 관리",
+        "AI 데이터센터",
+        "전압 마진",
+        "고성능 컴퓨팅",
+        "전력 공급 네트워크"
+      ],
+      "companies": [
+        "Movellus"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-28T08:11:05Z",
+      "updated_at": "2026-10-28T08:11:05Z",
+      "articles": [
+        {
+          "key": "637a13b8cbcdca13",
+          "title": "Foundations of Power Management in the Age of AI",
+          "url": "https://semiengineering.com/foundations-of-power-management-in-the-age-of-ai/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-10-28T07:03:10Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261028-0262",
+      "headline": "AI 반도체 설계를 위한 Build-A-Chip-Bench 발표",
+      "summary": [
+        "기존의 반도체 설계 벤치마크가 포화 상태에 이르자, ChipAgents가 새로운 벤치마크를 개발하고 있다.",
+        "Nvidia와 협력하여 AI 에이전트의 설계 성능을 평가하며, 기능적 정합성 및 DRC를 확인하는 절차가 포함된다.",
+        "이 벤치마크는 반도체 디자인 워크플로우에서 AI의 발전을 의미하며, 산업 표준화에 기여할 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 설계",
+        "벤치마크",
+        "ChipAgents",
+        "Nvidia",
+        "오픈 소스 도구"
+      ],
+      "companies": [
+        "Nvidia"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "ChipAgents",
+        "Nvidia"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(엔비디아) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-28T08:11:05Z",
+      "updated_at": "2026-10-28T08:11:05Z",
+      "articles": [
+        {
+          "key": "59bab0e7aa4fe332",
+          "title": "Introducing Build-A-Chip-Bench: From Workload Specification to GDS",
+          "url": "https://semiengineering.com/introducing-build-a-chip-bench-from-workload-specification-to-gds/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-10-28T07:03:44Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261027-0198",
@@ -173,86 +858,6 @@
       ],
       "type_checked": true,
       "importance_raw": 4
-    },
-    {
-      "id": "c20261026-0130",
-      "headline": "SK하이닉스, 3분기 실적 발표 임박",
-      "summary": [
-        "SK하이닉스는 10월 28일 3분기 실적을 발표할 예정이다.",
-        "삼성과 SK하이닉스의 3분기 영업이익은 약 185조 원으로 예상된다.",
-        "HBM4가 실적 성장을 이끌며 주주환원 계획도 주목받고 있다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "3분기 실적",
-        "SK하이닉스",
-        "삼성전자",
-        "HBM4",
-        "영업이익",
-        "주주환원"
-      ],
-      "companies": [
-        "SK하이닉스",
-        "삼성전자"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "SK하이닉스",
-        "삼성전자"
-      ],
-      "importance": 4,
-      "importance_reason": "실적 3점, 관심 기업(삼성전자, SK하이닉스) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T18:35:59Z",
-      "updated_at": "2026-10-28T07:12:56Z",
-      "articles": [
-        {
-          "key": "3bc643f0562ad899",
-          "title": "삼성·SK하닉, 3분기 영업익 185조 전망…HBM4가 실적 키웠다",
-          "url": "https://www.dt.co.kr/article/12091004",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-25T00:23:00Z"
-        },
-        {
-          "key": "64fa0ae16819b749",
-          "title": "SK하이닉스 내일 3분기 실적공개…주주환원 카드 나오나",
-          "url": "https://www.yna.co.kr/view/AKR20261026155100003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-26T21:01:00Z"
-        },
-        {
-          "key": "f6a5dddbd24a15ec",
-          "title": "[속보] SK하이닉스, 보통주 2만원 분기배당…총 14조원 규모",
-          "url": "https://www.yna.co.kr/view/AKR20261028032500003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-27T23:40:14Z"
-        },
-        {
-          "key": "0c487098f174c450",
-          "title": "[속보] SK하닉, 보통주 2만원 분기배당…총 14조",
-          "url": "https://www.dt.co.kr/article/12091708",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-27T23:43:21Z"
-        },
-        {
-          "key": "5c910e40e9d3f013",
-          "title": "삼전·SK하닉 ‘불기둥’에 코스피 6% 폭등…단숨에 6000선 탈환",
-          "url": "https://www.dt.co.kr/article/12091836",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-28T06:53:50Z"
-        }
-      ],
-      "importance_raw": 4,
-      "type_checked": true
     },
     {
       "id": "c20261026-0117",
@@ -397,112 +1002,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261028-0251",
-      "headline": "파인텍, 삼성디스플레이에 100억 OLED 장비 공급",
-      "summary": [
-        "파인텍이 삼성디스플레이 베트남에 100억원 규모의 OLED 본딩 장비를 공급한다.",
-        "이번 계약은 7월의 195억원 계약에 이은 것으로, 올해 누적 수주는 약 370억원이다.",
-        "OLED 패널 제조에 필요한 장비 수요가 증가함에 따라, 하반기부터 매출에 반영될 예정이다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "OLED",
-        "본딩장비",
-        "수주계약"
-      ],
-      "companies": [
-        "파인텍",
-        "삼성디스플레이"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "파인텍",
-        "삼성디스플레이"
-      ],
-      "importance": 4,
-      "importance_reason": "수주·공급 3점, 관심 기업(삼성디스플레이) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-28T07:12:56Z",
-      "updated_at": "2026-10-28T07:12:56Z",
-      "articles": [
-        {
-          "key": "4dc643e0785ef860",
-          "title": "파인텍, 삼성D에 OLED 본딩 장비 100억원 공급",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=64441",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-10-28T06:02:51Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
-    },
-    {
-      "id": "c20261028-0252",
-      "headline": "OCI, 반도체 소재로 3분기 사상 최대 영업익 기록",
-      "summary": [
-        "OCI는 2023년 스핀오프 이후 3분기 영업이익이 303억원을 기록했다.",
-        "매출은 5991억원으로 반도체 소재와 카본블랙 가격 상승 덕분에 전분기 대비 12% 증가했다.",
-        "이는 반도체 소재 사업의 성장세를 보이며 긍정적인 실적을 나타내고 있다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "반도체 소재",
-        "스핀오프",
-        "영업익 증가",
-        "카본블랙",
-        "OCI"
-      ],
-      "companies": [
-        "OCI"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "OCI"
-      ],
-      "importance": 4,
-      "importance_reason": "실적 3점, 매체 3곳 보도 +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-10-28T07:12:56Z",
-      "updated_at": "2026-10-28T07:12:56Z",
-      "articles": [
-        {
-          "key": "7f84ab84a2c8c2c8",
-          "title": "OCI, 3분기 영업익 303억원…반도체 소재 사업 성장세(종합)",
-          "url": "https://www.yna.co.kr/view/AKR20261028126851527",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-28T06:09:41Z"
-        },
-        {
-          "key": "3b9f703aafb9a8fb",
-          "title": "OCI, 3분기 영업익 303억원…반도체 소재 사업 성장세",
-          "url": "https://www.dt.co.kr/article/12091822",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-28T06:19:10Z"
-        },
-        {
-          "key": "b6ddda79aa3cdbea",
-          "title": "OCI posts record nine-month operating profit since 2023 spin-off",
-          "url": "https://www.koreaherald.com/article/10917914",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-10-28T07:07:57Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
     },
     {
       "id": "c20261028-0253",
@@ -2004,53 +2503,6 @@
       "importance_raw": 4
     },
     {
-      "id": "c20261028-0235",
-      "headline": "SK머티리얼즈, 후루카와전기와 AI 반도체 협력",
-      "summary": [
-        "SK머티리얼즈가 일본 후루카와전기와 AI 반도체 재료 사업 협력을 발표했다.",
-        "양사는 반도체 및 AI 기술 개발을 위한 맞춤형 재료를 공동 연구할 예정이다.",
-        "이번 협력은 반도체 산업의 기술 경쟁력을 높이는 데 기여할 것으로 보인다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "AI반도체",
-        "협력",
-        "재료",
-        "SK머티리얼즈",
-        "후루카와전기"
-      ],
-      "companies": [
-        "SK머티리얼즈",
-        "후루카와전기"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "SK머티리얼즈",
-        "후루카와전기"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-28T02:07:22Z",
-      "updated_at": "2026-10-28T02:07:22Z",
-      "articles": [
-        {
-          "key": "9122cd0217ca0d05",
-          "title": "SK머티리얼즈, 일본 후루카와전기와 AI 반도체 재료사업 협력",
-          "url": "https://www.yna.co.kr/view/AKR20261028069400003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-28T01:35:48Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
       "id": "c20261028-0237",
       "headline": "SK하이닉스, 최대 실적보다 사업 구조 변화 강조",
       "summary": [
@@ -2333,50 +2785,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261028-0220",
-      "headline": "AI 반도체 실적 호조에 KOSPI 급등",
-      "summary": [
-        "한국 증시는 인공지능 기반 반도체 실적 덕분에 큰 폭 상승했다.",
-        "2026년 10월 28일, KOSPI는 183.73포인트(3.26%) 오른 5,822.07로 시작했다.",
-        "이는 전날의 3% 이상 상승을 이어가며 투자자 심리에 긍정적인 영향을 주었다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "AI 반도체",
-        "KOSPI",
-        "실적 호조",
-        "투자 심리"
-      ],
-      "companies": [
-        "SK hynix"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "SK hynix"
-      ],
-      "importance": 4,
-      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-28T01:14:34Z",
-      "updated_at": "2026-10-28T01:14:34Z",
-      "articles": [
-        {
-          "key": "c3bd1cf926bfca35",
-          "title": "Seoul stocks open sharply higher on revived AI optimism, SK hynix earnings",
-          "url": "https://www.koreaherald.com/article/10917155",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-10-28T00:37:43Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
     },
     {
       "id": "c20261028-0221",
