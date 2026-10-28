@@ -1,7 +1,109 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28T11:55:36Z",
+  "updated_at": "2026-10-28T13:11:18Z",
   "issues": [
+    {
+      "id": "c20261027-0202",
+      "headline": "LG디스플레이, 대형 OLED 패널 판매 5천만대 돌파",
+      "summary": [
+        "LG디스플레이가 2013년 이래 대형 OLED TV 패널 누적 판매 5천만대를 달성했다.",
+        "55인치 OLED TV 패널부터 97인치 OLED TV 패널까지 다양한 크기에서 성과를 내며 시장을 주도했다.",
+        "이는 OLED 기술 발전과 LG디스플레이의 차별화된 제품 전략을 통한 성과로, 향후 시장에서의 경쟁력을 더욱 높일 것으로 기대된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "LG디스플레이",
+        "대형 TV",
+        "판매 5000만대",
+        "패널 기술",
+        "시장 선도"
+      ],
+      "companies": [
+        "LG디스플레이"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이"
+      ],
+      "importance": 5,
+      "importance_reason": "실적 3점, 관심 기업(LG디스플레이) +1, 매체 7곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-10-27T13:01:58Z",
+      "updated_at": "2026-10-28T13:11:18Z",
+      "articles": [
+        {
+          "key": "0a21b92540c5d80f",
+          "title": "Is LG planning to start producing 97\" and 111\" OLED panels?",
+          "url": "https://www.oled-info.com/lg-planning-start-producing-97-and-111-oled-panels",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-10-27T11:56:38Z"
+        },
+        {
+          "key": "1775d3855000c4ba",
+          "title": "LG디스플레이, WOLED 누적 판매 5000만대 돌파",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64391",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:00:00Z"
+        },
+        {
+          "key": "39a755abe189f362",
+          "title": "LG디스플레이, WOLED 누적 판매 5000만대 돌파",
+          "url": "https://www.inews24.com/view/2019671",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:00:00Z"
+        },
+        {
+          "key": "3a76bfd8adfa35f9",
+          "title": "LG디스플레이, WOLED 누적 판매 5천만대 돌파",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=342751",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:00:00Z"
+        },
+        {
+          "key": "caa88272726d6bf9",
+          "title": "LG디스플레이, WOLED 누적 5000만대 판매...13년만",
+          "url": "https://zdnet.co.kr/view/?no=20261028080404",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:00:02Z"
+        },
+        {
+          "key": "a5c2b10386f4fb58",
+          "title": "LG디스플레이, 대형 OLED 패널 누적 판매 5천만대 돌파",
+          "url": "https://www.yna.co.kr/view/AKR20261028024600003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:00:08Z"
+        },
+        {
+          "key": "e938f8b03c2716ab",
+          "title": "LG디스플레이, 대형 OLED 누적 판매 5000만대 돌파",
+          "url": "https://www.dt.co.kr/article/12091743",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:40:28Z"
+        },
+        {
+          "key": "5159311d9b997d84",
+          "title": "LG Display passes 50 million large OLED panel sales, as OLED TVs help LG Electronics' TV business return to profit",
+          "url": "https://www.oled-info.com/lg-display-passes-50-million-large-oled-panel-sales-oled-tvs-help-lg",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-10-28T11:05:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
     {
       "id": "c20261028-0274",
       "headline": "서울바이오시스, 희토류 없는 백색 마이크로 LED 양산 개시",
@@ -2540,100 +2642,6 @@
       ],
       "type_checked": true,
       "importance_raw": 6
-    },
-    {
-      "id": "c20261027-0202",
-      "headline": "LG디스플레이, 대형 OLED 패널 판매 5천만대 돌파",
-      "summary": [
-        "LG디스플레이가 2013년 이래 대형 OLED TV 패널 누적 판매 5천만대를 달성했다.",
-        "55인치 OLED TV 패널부터 97인치 OLED TV 패널까지 다양한 크기에서 성과를 내며 시장을 주도했다.",
-        "이는 OLED 기술 발전과 LG디스플레이의 차별화된 제품 전략을 통한 성과로, 향후 시장에서의 경쟁력을 더욱 높일 것으로 기대된다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "OLED",
-        "LG디스플레이",
-        "대형 TV",
-        "판매 5000만대",
-        "패널 기술",
-        "시장 선도"
-      ],
-      "companies": [
-        "LG디스플레이"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "LG디스플레이"
-      ],
-      "importance": 5,
-      "importance_reason": "실적 3점, 관심 기업(LG디스플레이) +1, 매체 7곳 보도 +1 → 5점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-10-27T13:01:58Z",
-      "updated_at": "2026-10-28T02:57:54Z",
-      "articles": [
-        {
-          "key": "0a21b92540c5d80f",
-          "title": "Is LG planning to start producing 97\" and 111\" OLED panels?",
-          "url": "https://www.oled-info.com/lg-planning-start-producing-97-and-111-oled-panels",
-          "source": "OLED-info",
-          "lang": "en",
-          "published_at": "2026-10-27T11:56:38Z"
-        },
-        {
-          "key": "1775d3855000c4ba",
-          "title": "LG디스플레이, WOLED 누적 판매 5000만대 돌파",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=64391",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-10-28T01:00:00Z"
-        },
-        {
-          "key": "39a755abe189f362",
-          "title": "LG디스플레이, WOLED 누적 판매 5000만대 돌파",
-          "url": "https://www.inews24.com/view/2019671",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-28T01:00:00Z"
-        },
-        {
-          "key": "3a76bfd8adfa35f9",
-          "title": "LG디스플레이, WOLED 누적 판매 5천만대 돌파",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=342751",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-10-28T01:00:00Z"
-        },
-        {
-          "key": "caa88272726d6bf9",
-          "title": "LG디스플레이, WOLED 누적 5000만대 판매...13년만",
-          "url": "https://zdnet.co.kr/view/?no=20261028080404",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-10-28T01:00:02Z"
-        },
-        {
-          "key": "a5c2b10386f4fb58",
-          "title": "LG디스플레이, 대형 OLED 패널 누적 판매 5천만대 돌파",
-          "url": "https://www.yna.co.kr/view/AKR20261028024600003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-28T01:00:08Z"
-        },
-        {
-          "key": "e938f8b03c2716ab",
-          "title": "LG디스플레이, 대형 OLED 누적 판매 5000만대 돌파",
-          "url": "https://www.dt.co.kr/article/12091743",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-28T01:40:28Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 5
     },
     {
       "id": "c20261028-0223",
