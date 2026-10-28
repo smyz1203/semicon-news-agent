@@ -1,7 +1,242 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28T10:00:09Z",
+  "updated_at": "2026-10-28T10:58:23Z",
   "issues": [
+    {
+      "id": "c20261028-0217",
+      "headline": "SK하이닉스, 2029년까지 D램·HBM 완판 전망",
+      "summary": [
+        "SK하이닉스는 2029년까지 D램과 HBM 물량이 모두 완판된다고 발표했다.",
+        "고객의 요청량이 공급능력을 2배 초과하며, 장기공급계약도 확대 중이다.",
+        "AI 수요에 힘입어 안정적인 공급을 유지하며, 시장 주도권을 강화할 계획이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM",
+        "D램",
+        "AI 수요",
+        "장기공급계약",
+        "완판",
+        "주주환원"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 5,
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1, 매체 4곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T01:14:34Z",
+      "updated_at": "2026-10-28T10:58:23Z",
+      "articles": [
+        {
+          "key": "cf16af613076b866",
+          "title": "[속보] SK하이닉스, 2027~2028년 생산능력 50% 이상 장기공급계약 확보",
+          "url": "https://www.dt.co.kr/article/12091710",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:48:58Z"
+        },
+        {
+          "key": "33d62baf426b5936",
+          "title": "SK하이닉스 \"14곳과 장기공급계약…5년 넘는 계약도 요청\"",
+          "url": "https://www.inews24.com/view/2019720",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:31:49Z"
+        },
+        {
+          "key": "46c4523aa5203eba",
+          "title": "[속보] SK하이닉스 \"2029년까지 3년간 D램·HBM 사실상 모두 완판\"",
+          "url": "https://www.yna.co.kr/view/AKR20261028057300003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:45:27Z"
+        },
+        {
+          "key": "30a35c6e41712b57",
+          "title": "SK하이닉스 \"2029년까지 D램·HBM 물량 사실상 완판\"",
+          "url": "https://www.inews24.com/view/2019751",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:49:02Z"
+        },
+        {
+          "key": "7ea7f95e20420760",
+          "title": "SK하이닉스 \"2029년까지 3년간 D램·HBM 사실상 완판\"",
+          "url": "https://www.yna.co.kr/view/AKR20261028057351003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:07:48Z"
+        },
+        {
+          "key": "37cea58058296042",
+          "title": "SK하이닉스 \"2029년까지 HBM·D램 다 팔렸다\"",
+          "url": "https://zdnet.co.kr/view/?no=20261028110236",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-28T02:22:30Z"
+        },
+        {
+          "key": "7de74c1031e44178",
+          "title": "SK하이닉스 \"2029년까지 D램·HBM 완판…5년 넘는 계약도 요청\"[컨콜종합]",
+          "url": "https://www.inews24.com/view/2019831",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T02:28:19Z"
+        },
+        {
+          "key": "e6729da492798696",
+          "title": "[기획] 3년치 완판… ‘AI칩 고점론’ 한방에 깬 SK하닉",
+          "url": "https://www.dt.co.kr/article/12091934",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-28T10:19:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261028-0271",
+      "headline": "차세대 플라즈마 다이싱 기술 혁신",
+      "summary": [
+        "EV 그룹은 초음파 분사 코팅과 디지털 리소그래피를 활용하여 플라즈마 다이싱 기술을 혁신했다.",
+        "실험 결과, 200mm 및 300mm 웨이퍼에서 고른 두께와 고해상도 패턴을 확인하였다.",
+        "이 기술은 복잡한 구조의 웨이퍼에 적합하며, 경량화와 미세화 작업을 지원한다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "플라즈마 다이싱",
+        "초음파 분사 코팅",
+        "디지털 리소그래피",
+        "웨이퍼 기술",
+        "HBM"
+      ],
+      "companies": [
+        "EV 그룹"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "EV 그룹"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-28T10:58:23Z",
+      "updated_at": "2026-10-28T10:58:23Z",
+      "articles": [
+        {
+          "key": "3b4a66e6c8cd008f",
+          "title": "Enabling Next-Generation Plasma Dicing with Ultrasonic Spray Coating and Digital Lithography",
+          "url": "https://www.semiconductor-digest.com/enabling-next-generation-plasma-dicing-with-ultrasonic-spray-coating-and-digital-lithography/?utm_source=rss&utm_medium=rss&utm_campaign=enabling-next-generation-plasma-dicing-with-ultrasonic-spray-coating-and-digital-lithography",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-10-28T10:37:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261028-0272",
+      "headline": "웨이퍼 모양을 통한 고급 패키징 공정 제어",
+      "summary": [
+        "웨이퍼 본딩에서의 변형이 수율 손실로 이어질 수 있다.",
+        "WFPI는 전체 웨이퍼 형태를 신속하고 비파괴적으로 측정할 수 있다.",
+        "이 기술은 생산 공정을 실시간으로 조정하여 더욱 정밀한 작업이 가능하게 한다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "HFPI",
+        "웨이퍼 본딩",
+        "공정 제어",
+        "패키징 기술",
+        "비파괴 측정"
+      ],
+      "companies": [
+        "우프틱스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "WFPI"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-28T10:58:23Z",
+      "updated_at": "2026-10-28T10:58:23Z",
+      "articles": [
+        {
+          "key": "92e8fdeac5c41960",
+          "title": "Advanced Packaging Process Control Through Full-Field Wafer Shape Using WFPI",
+          "url": "https://www.semiconductor-digest.com/advanced-packaging-process-control-through-full-field-wafer-shape-using-wfpi/?utm_source=rss&utm_medium=rss&utm_campaign=advanced-packaging-process-control-through-full-field-wafer-shape-using-wfpi",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-10-28T10:37:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261028-0273",
+      "headline": "HiPIMS, 반도체 제조업계에서의 부상",
+      "summary": [
+        "고전적 스퍼터링보다 밀도가 높고 접착성이 우수한 HiPIMS 기술이 주목받고 있다.",
+        "200mm 이상의 기판 및 자동화 생산을 위해 공정 재현성을 위한 엔지니어링 투자가 필요하다.",
+        "이 기술은 첨단 패키징의 TGV 메탈화에 활용되며, 시스템 공학적 접근으로 생산 확대가 가능하다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "HiPIMS",
+        "스퍼터링",
+        "반도체 제조",
+        "TGV 메탈화",
+        "공정 재현성"
+      ],
+      "companies": [
+        "VON ARDENNE"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-28T10:58:23Z",
+      "updated_at": "2026-10-28T10:58:23Z",
+      "articles": [
+        {
+          "key": "c2cb8503ce855773",
+          "title": "From Lab to Fab: The Rise of HiPIMS in Semiconductor Manufacturing",
+          "url": "https://www.semiconductor-digest.com/from-lab-to-fab-the-rise-of-hipims-in-semiconductor-manufacturing/?utm_source=rss&utm_medium=rss&utm_campaign=from-lab-to-fab-the-rise-of-hipims-in-semiconductor-manufacturing",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-10-28T10:42:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261028-0235",
       "headline": "SK머티리얼즈, 일본 후루카와전공과 협력 MOU 체결",
@@ -2022,100 +2257,6 @@
       ],
       "type_checked": true,
       "importance_raw": 4
-    },
-    {
-      "id": "c20261028-0217",
-      "headline": "SK하이닉스, 2029년까지 D램·HBM 완판 전망",
-      "summary": [
-        "SK하이닉스는 2029년까지 D램과 HBM 물량이 모두 완판된다고 발표했다.",
-        "고객의 요청량이 공급능력을 2배 초과하며, 장기공급계약도 확대 중이다.",
-        "AI 수요에 힘입어 안정적인 공급을 유지하며, 시장 주도권을 강화할 계획이다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "HBM",
-        "D램",
-        "AI 수요",
-        "장기공급계약",
-        "완판",
-        "주주환원"
-      ],
-      "companies": [
-        "SK하이닉스"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "SK하이닉스"
-      ],
-      "importance": 5,
-      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1, 매체 4곳 보도 +1 → 5점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-28T01:14:34Z",
-      "updated_at": "2026-10-28T03:57:08Z",
-      "articles": [
-        {
-          "key": "cf16af613076b866",
-          "title": "[속보] SK하이닉스, 2027~2028년 생산능력 50% 이상 장기공급계약 확보",
-          "url": "https://www.dt.co.kr/article/12091710",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-27T23:48:58Z"
-        },
-        {
-          "key": "33d62baf426b5936",
-          "title": "SK하이닉스 \"14곳과 장기공급계약…5년 넘는 계약도 요청\"",
-          "url": "https://www.inews24.com/view/2019720",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-28T00:31:49Z"
-        },
-        {
-          "key": "46c4523aa5203eba",
-          "title": "[속보] SK하이닉스 \"2029년까지 3년간 D램·HBM 사실상 모두 완판\"",
-          "url": "https://www.yna.co.kr/view/AKR20261028057300003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-28T00:45:27Z"
-        },
-        {
-          "key": "30a35c6e41712b57",
-          "title": "SK하이닉스 \"2029년까지 D램·HBM 물량 사실상 완판\"",
-          "url": "https://www.inews24.com/view/2019751",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-28T00:49:02Z"
-        },
-        {
-          "key": "7ea7f95e20420760",
-          "title": "SK하이닉스 \"2029년까지 3년간 D램·HBM 사실상 완판\"",
-          "url": "https://www.yna.co.kr/view/AKR20261028057351003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-28T01:07:48Z"
-        },
-        {
-          "key": "37cea58058296042",
-          "title": "SK하이닉스 \"2029년까지 HBM·D램 다 팔렸다\"",
-          "url": "https://zdnet.co.kr/view/?no=20261028110236",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-10-28T02:22:30Z"
-        },
-        {
-          "key": "7de74c1031e44178",
-          "title": "SK하이닉스 \"2029년까지 D램·HBM 완판…5년 넘는 계약도 요청\"[컨콜종합]",
-          "url": "https://www.inews24.com/view/2019831",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-28T02:28:19Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 5
     },
     {
       "id": "c20261028-0236",
