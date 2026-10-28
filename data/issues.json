@@ -1,7 +1,58 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28T15:05:44Z",
+  "updated_at": "2026-10-28T16:03:45Z",
   "issues": [
+    {
+      "id": "c20261028-0228",
+      "headline": "SK하이닉스, 고객 주문량 2배 증가로 공급 부족 우려",
+      "summary": [
+        "SK하이닉스는 고객들이 원하는 HBM 주문량이 자사의 공급 능력을 두 배 초과한다고 밝혔다.",
+        "이에 따라 HBM 12단에서 8단으로 조정하는 이유는 공급 부족 때문으로 설명했다.",
+        "이 상황은 HBM 시장의 수요 증가를 반영하며, SK하이닉스의 경쟁력에 영향이 있을 것으로 보인다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM",
+        "공급 부족",
+        "주문 증가"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 관심 기업(SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-10-28T01:14:34Z",
+      "updated_at": "2026-10-28T16:03:45Z",
+      "articles": [
+        {
+          "key": "0612dc47c8e5a273",
+          "title": "SK하이닉스 \"HBM 12단→8단 하향은 공급 부족 때문…고객 주문 2배\"",
+          "url": "https://www.inews24.com/view/2019777",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:11:52Z"
+        },
+        {
+          "key": "3e9fc34892d3ddb8",
+          "title": "SK Hynix says customers want more than twice the HBM it can supply",
+          "url": "https://www.digitimes.com/news/a20261028VL222/sk-hynix-hbm-dram-hbm4-manufacturing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-28T15:18:23Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
     {
       "id": "c20261027-0202",
       "headline": "LG디스플레이, 대형 OLED 패널 판매 5천만대 돌파",
@@ -3732,50 +3783,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261028-0228",
-      "headline": "SK하이닉스, HBM 단수 조정 이유는 공급 부족",
-      "summary": [
-        "SK하이닉스는 HBM의 적층 단수를 12단에서 8단으로 낮추기로 했다.",
-        "이는 고객의 주문이 두 배로 증가하며 공급이 부족해졌기 때문이다.",
-        "이런 변화는 HBM 공급망의 긴장감을 나타내며 향후 시장 영향이 클 것으로 예상된다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "HBM",
-        "고대역폭메모리",
-        "수요증가",
-        "공급부족"
-      ],
-      "companies": [
-        "SK하이닉스"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "SK하이닉스"
-      ],
-      "importance": 4,
-      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-28T01:14:34Z",
-      "updated_at": "2026-10-28T01:14:34Z",
-      "articles": [
-        {
-          "key": "0612dc47c8e5a273",
-          "title": "SK하이닉스 \"HBM 12단→8단 하향은 공급 부족 때문…고객 주문 2배\"",
-          "url": "https://www.inews24.com/view/2019777",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-28T01:11:52Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
     },
     {
       "id": "c20261026-0093",
