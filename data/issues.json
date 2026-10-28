@@ -1,7 +1,290 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28T02:57:54Z",
+  "updated_at": "2026-10-28T03:57:08Z",
   "issues": [
+    {
+      "id": "c20261028-0217",
+      "headline": "SK하이닉스, 2029년까지 D램·HBM 완판 전망",
+      "summary": [
+        "SK하이닉스는 2029년까지 D램과 HBM 물량이 모두 완판된다고 발표했다.",
+        "고객의 요청량이 공급능력을 2배 초과하며, 장기공급계약도 확대 중이다.",
+        "AI 수요에 힘입어 안정적인 공급을 유지하며, 시장 주도권을 강화할 계획이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM",
+        "D램",
+        "AI 수요",
+        "장기공급계약",
+        "완판",
+        "주주환원"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 5,
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1, 매체 4곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T01:14:34Z",
+      "updated_at": "2026-10-28T03:57:08Z",
+      "articles": [
+        {
+          "key": "cf16af613076b866",
+          "title": "[속보] SK하이닉스, 2027~2028년 생산능력 50% 이상 장기공급계약 확보",
+          "url": "https://www.dt.co.kr/article/12091710",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-27T23:48:58Z"
+        },
+        {
+          "key": "33d62baf426b5936",
+          "title": "SK하이닉스 \"14곳과 장기공급계약…5년 넘는 계약도 요청\"",
+          "url": "https://www.inews24.com/view/2019720",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:31:49Z"
+        },
+        {
+          "key": "46c4523aa5203eba",
+          "title": "[속보] SK하이닉스 \"2029년까지 3년간 D램·HBM 사실상 모두 완판\"",
+          "url": "https://www.yna.co.kr/view/AKR20261028057300003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:45:27Z"
+        },
+        {
+          "key": "30a35c6e41712b57",
+          "title": "SK하이닉스 \"2029년까지 D램·HBM 물량 사실상 완판\"",
+          "url": "https://www.inews24.com/view/2019751",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T00:49:02Z"
+        },
+        {
+          "key": "7ea7f95e20420760",
+          "title": "SK하이닉스 \"2029년까지 3년간 D램·HBM 사실상 완판\"",
+          "url": "https://www.yna.co.kr/view/AKR20261028057351003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:07:48Z"
+        },
+        {
+          "key": "37cea58058296042",
+          "title": "SK하이닉스 \"2029년까지 HBM·D램 다 팔렸다\"",
+          "url": "https://zdnet.co.kr/view/?no=20261028110236",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-28T02:22:30Z"
+        },
+        {
+          "key": "7de74c1031e44178",
+          "title": "SK하이닉스 \"2029년까지 D램·HBM 완판…5년 넘는 계약도 요청\"[컨콜종합]",
+          "url": "https://www.inews24.com/view/2019831",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T02:28:19Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261028-0236",
+      "headline": "인피니언, 300㎜ GaN 전력반도체 양산시설 구축",
+      "summary": [
+        "인피니언이 오스트리아에 세계 최초의 300㎜ GaN 전력반도체 양산시설을 설립한다.",
+        "이 시설은 2034년까지 약 11억 유로를 투자하여 구축될 예정이다.",
+        "이는 고효율 전력반도체 시장에서 경쟁력을 높이는 중요한 이정표가 될 것이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "GaN",
+        "300mm 웨이퍼",
+        "전력반도체",
+        "인피니언"
+      ],
+      "companies": [
+        "인피니언"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "인피니언"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T02:07:22Z",
+      "updated_at": "2026-10-28T03:57:08Z",
+      "articles": [
+        {
+          "key": "e5bbf378eb4cddea",
+          "title": "인피니언, 유럽에 300mm 웨이퍼 기반 GaN 전력반도체 양산 시설 구축",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408870",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T01:40:00Z"
+        },
+        {
+          "key": "5220b15ea5981b61",
+          "title": "인피니언, 세계 첫 300㎜ GaN 전력반도체 양산시설 구축",
+          "url": "https://www.inews24.com/view/2019837",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T03:53:34Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261028-0242",
+      "headline": "퀄컴, 미국에서 군용 노트북 생산 계획 발표",
+      "summary": [
+        "퀄컴은 미국 방산기업 앤듀릴과 협력해 군용 노트북을 생산한다고 밝혔다.",
+        "첫 제품은 스냅드래곤 X 시리즈 기반으로 내년부터 주문을 받을 예정이다.",
+        "이 계획은 해외 공급망 의존도를 줄이고 미국 내 생산 기반을 강화하는 의미를 갖는다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "스냅드래곤 X",
+        "군용 노트북",
+        "미국 생산",
+        "앤듀릴",
+        "부품 조달"
+      ],
+      "companies": [
+        "퀄컴",
+        "앤듀릴",
+        "TSMC"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "퀄컴",
+        "앤듀릴"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T03:57:08Z",
+      "updated_at": "2026-10-28T03:57:08Z",
+      "articles": [
+        {
+          "key": "3eca7b19c1beea19",
+          "title": "퀄컴 \"스냅드래곤 X 기반 군용 노트북 미국에서 생산\"",
+          "url": "https://zdnet.co.kr/view/?no=20261028111611",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-28T02:16:22Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261028-0243",
+      "headline": "SK hynix, AI 메모리 병목 현상 대응 고대역폭 플래시 투자",
+      "summary": [
+        "SK 하이닉스가 AI 메모리 병목 현상을 해결하기 위해 고대역폭 플래시에 투자하고 있다.",
+        "이 회사는 새로운 플래시 메모리 기술을 통해 성능을 극대화할 계획이며, 2026년 10월 28일에 발표했다.",
+        "이는 AI 반도체 시장에서의 경쟁력을 높이고, 더 나은 데이터 처리 속도를 제공할 것으로 기대된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "고대역폭 플래시",
+        "AI 메모리",
+        "메모리 기술"
+      ],
+      "companies": [
+        "SK 하이닉스"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "SK 하이닉스"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점, 관심 기업(SK하이닉스) +1 → 5점(최고점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-28T03:57:08Z",
+      "updated_at": "2026-10-28T03:57:08Z",
+      "articles": [
+        {
+          "key": "aaa767aa67dee8ed",
+          "title": "SK Hynix bets on high-bandwidth flash to tackle AI memory bottlenecks",
+          "url": "https://www.digitimes.com/news/a20261028VL212/sk-hynix-flash-data-hbm-nand.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-28T02:38:42Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 6
+    },
+    {
+      "id": "c20261028-0244",
+      "headline": "삼성전기, 3분기 역대 최대 실적 발표",
+      "summary": [
+        "삼성전기가 2026년 3분기에 역대 최대 실적을 기록했다.",
+        "매출은 3조7633억원, 영업이익은 6910억원으로 나타났다.",
+        "인공지능 서버용 부품 수요 증가가 실적 개선에 기여했다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "삼성전기",
+        "영업이익",
+        "매출",
+        "AI부품",
+        "MLCC",
+        "FC-BGA"
+      ],
+      "companies": [
+        "삼성전기"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전기"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T03:57:08Z",
+      "updated_at": "2026-10-28T03:57:08Z",
+      "articles": [
+        {
+          "key": "af0264feee934b3b",
+          "title": "삼성전기, 3분기 영업이익 6910억원⋯매출·이익 '역대 최대'",
+          "url": "https://www.inews24.com/view/2019865",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-28T03:53:21Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261027-0202",
       "headline": "LG디스플레이, 대형 OLED 패널 판매 5천만대 돌파",
@@ -280,90 +563,6 @@
           "source": "KIPOST",
           "lang": "ko",
           "published_at": "2026-10-28T02:50:20Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 5
-    },
-    {
-      "id": "c20261028-0217",
-      "headline": "SK하이닉스, 2029년까지 D램·HBM 완판 예고",
-      "summary": [
-        "SK하이닉스는 2029년까지 D램과 HBM 물량이 사실상 모두 판매됐다고 밝혔다.",
-        "장기공급계약(LTA)과 고객사의 구매 계획을 고려한 결과이다.",
-        "이는 메모리 시장의 수요가 지속적으로 강할 것임을 시사한다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "D램",
-        "HBM",
-        "장기공급계약",
-        "시장수요"
-      ],
-      "companies": [
-        "SK하이닉스"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "SK하이닉스"
-      ],
-      "importance": 5,
-      "importance_reason": "수주·공급 3점, 관심 기업(SK하이닉스) +1, 매체 3곳 보도 +1 → 5점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-28T01:14:34Z",
-      "updated_at": "2026-10-28T02:57:54Z",
-      "articles": [
-        {
-          "key": "cf16af613076b866",
-          "title": "[속보] SK하이닉스, 2027~2028년 생산능력 50% 이상 장기공급계약 확보",
-          "url": "https://www.dt.co.kr/article/12091710",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-27T23:48:58Z"
-        },
-        {
-          "key": "33d62baf426b5936",
-          "title": "SK하이닉스 \"14곳과 장기공급계약…5년 넘는 계약도 요청\"",
-          "url": "https://www.inews24.com/view/2019720",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-28T00:31:49Z"
-        },
-        {
-          "key": "46c4523aa5203eba",
-          "title": "[속보] SK하이닉스 \"2029년까지 3년간 D램·HBM 사실상 모두 완판\"",
-          "url": "https://www.yna.co.kr/view/AKR20261028057300003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-28T00:45:27Z"
-        },
-        {
-          "key": "30a35c6e41712b57",
-          "title": "SK하이닉스 \"2029년까지 D램·HBM 물량 사실상 완판\"",
-          "url": "https://www.inews24.com/view/2019751",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-28T00:49:02Z"
-        },
-        {
-          "key": "7ea7f95e20420760",
-          "title": "SK하이닉스 \"2029년까지 3년간 D램·HBM 사실상 완판\"",
-          "url": "https://www.yna.co.kr/view/AKR20261028057351003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-28T01:07:48Z"
-        },
-        {
-          "key": "7de74c1031e44178",
-          "title": "SK하이닉스 \"2029년까지 D램·HBM 완판…5년 넘는 계약도 요청\"[컨콜종합]",
-          "url": "https://www.inews24.com/view/2019831",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-28T02:28:19Z"
         }
       ],
       "type_checked": true,
@@ -1044,51 +1243,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261028-0236",
-      "headline": "인피니언, 유럽에 GaN 전력반도체 양산 시설 구축",
-      "summary": [
-        "인피니언이 유럽에 300mm 웨이퍼 기반 GaN 전력반도체 양산 시설을 건설한다.",
-        "2034년까지 약 11억 유로를 투자해 오스트리아에 기존 클린룸을 업그레이드하며, 2027년 말부터 생산을 시작할 예정이다.",
-        "이번 투자는 증가하는 고성능 전력 솔루션 수요에 대응하기 위한 전략으로, AI와 e-모빌리티 등 다양한 산업에 활용될 전망이다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "GaN",
-        "전력반도체",
-        "300mm 웨이퍼",
-        "AI 데이터센터",
-        "e-모빌리티"
-      ],
-      "companies": [
-        "인피니언"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": true,
-      "parties": [
-        "인피니언"
-      ],
-      "importance": 3,
-      "importance_reason": "설비 투자 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-28T02:07:22Z",
-      "updated_at": "2026-10-28T02:07:22Z",
-      "articles": [
-        {
-          "key": "e5bbf378eb4cddea",
-          "title": "인피니언, 유럽에 300mm 웨이퍼 기반 GaN 전력반도체 양산 시설 구축",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408870",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-28T01:40:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261028-0237",
