@@ -1,7 +1,253 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28T08:11:05Z",
+  "updated_at": "2026-10-28T09:02:34Z",
   "issues": [
+    {
+      "id": "c20261028-0220",
+      "headline": "AI 반도체 실적 호조에 KOSPI 급등",
+      "summary": [
+        "한국 증시는 인공지능 기반 반도체 실적 덕분에 큰 폭 상승했다.",
+        "2026년 10월 28일, KOSPI는 183.73포인트(3.26%) 오른 5,822.07로 시작했다.",
+        "이는 전날의 3% 이상 상승을 이어가며 투자자 심리에 긍정적인 영향을 주었다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 반도체",
+        "KOSPI",
+        "실적 호조",
+        "투자 심리"
+      ],
+      "companies": [
+        "SK hynix"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "SK hynix"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-28T01:14:34Z",
+      "updated_at": "2026-10-28T09:02:34Z",
+      "articles": [
+        {
+          "key": "c3bd1cf926bfca35",
+          "title": "Seoul stocks open sharply higher on revived AI optimism, SK hynix earnings",
+          "url": "https://www.koreaherald.com/article/10917155",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-28T00:37:43Z"
+        },
+        {
+          "key": "bc0d48f7e86ec54a",
+          "title": "Seoul shares soar over 6% on revived AI optimism, SK hynix earnings",
+          "url": "https://www.koreaherald.com/article/10918058",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-28T08:08:44Z"
+        },
+        {
+          "key": "8e0638e2462592f7",
+          "title": "Seoul shares soar over 6% on revived AI optimism, SK hynix earnings",
+          "url": "https://www.koreaherald.com/article/10918082",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-28T08:27:19Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261028-0263",
+      "headline": "오라클, AI 칩 다각화를 위해 거래 확대",
+      "summary": [
+        "오라클이 Cerebras, Google, SambaNova와 AI 칩 관련 거래를 체결했다.",
+        "이번 협력을 통해 AI 칩의 다양성을 높이고, 기술 경쟁력을 강화할 예정이다.",
+        "업계에서는 오라클의 이러한 행보가 AI 반도체 시장에 큰 영향을 미칠 것으로 분석하고 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 칩",
+        "Cerebras",
+        "Google",
+        "SambaNova",
+        "다각화"
+      ],
+      "companies": [
+        "오라클",
+        "Cerebras",
+        "구글",
+        "SambaNova"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "오라클",
+        "Cerebras",
+        "Google",
+        "SambaNova"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-28T09:02:34Z",
+      "updated_at": "2026-10-28T09:02:34Z",
+      "articles": [
+        {
+          "key": "b5aa409547ded016",
+          "title": "Oracle accelerates AI chip diversification with Cerebras, Google, and SambaNova deals",
+          "url": "https://www.digitimes.com/news/a20261028VL226/oracle-cerebras-chips-nvidia-infrastructure.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-28T08:36:39Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261028-0264",
+      "headline": "SK하이닉스와 SK스퀘어 신용등급 전망 긍정적 상향",
+      "summary": [
+        "한국신용평가가 SK하이닉스와 SK스퀘어의 신용등급 전망을 긍정적으로 상향 조정했다.",
+        "이번 상향은 두 회사의 재무 건전성이 개선되고 있는 것을 반영한 결과로 풀이된다.",
+        "신용등급 전망의 긍정적 변화는 기업의 미래 투자 환경을 더욱 안정적으로 만들 것으로 기대된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "신용등급",
+        "SK하이닉스",
+        "SK스퀘어"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "SK스퀘어"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스",
+        "SK스퀘어"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T09:02:34Z",
+      "updated_at": "2026-10-28T09:02:34Z",
+      "articles": [
+        {
+          "key": "26081c0200bd5351",
+          "title": "한신평, SK하이닉스·SK스퀘어 신용등급 전망 '긍정적' 상향",
+          "url": "https://www.yna.co.kr/view/AKR20261028175700008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T08:52:56Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261028-0265",
+      "headline": "니콘, OLED 생산 최적화된 서브마이크론 리소그래피 시스템 발표",
+      "summary": [
+        "니콘이 0.85µm 해상도를 지원하는 FX-6ASLH FPD 리소그래피 시스템의 주문을 시작했다.",
+        "이 시스템은 6세대(1,500×1,850 mm) 기판에 최적화되어 있으며, 고해상도 OLED 생산에 적합하다.",
+        "첫 시스템은 2027년 12월부터 배송될 예정으로, OLED 산업에 중요한 기술 발전을 의미한다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "FPD 리소그래피",
+        "OLED",
+        "서브마이크론",
+        "니콘",
+        "6세대 기판"
+      ],
+      "companies": [
+        "니콘"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "니콘"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-28T09:02:34Z",
+      "updated_at": "2026-10-28T09:02:34Z",
+      "articles": [
+        {
+          "key": "33b118b6309eb65b",
+          "title": "Nikon launches a new sub-micron FPD lithography system optimized for OLED production",
+          "url": "https://www.oled-info.com/nikon-launches-new-sub-micron-fpd-lithography-system-optimized-oled-production",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-10-28T09:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261028-0266",
+      "headline": "SKC, 15분기 연속 적자 기록",
+      "summary": [
+        "SKC가 3분기 영업손실을 줄였으나 15분기 연속 적자 상태이다.",
+        "올해 3분기 매출은 6389억원, 영업손실은 496억원으로, 매출은 26% 증가했다.",
+        "배터리 소재 사업의 부진이 계속되고 있으며, 반면 반도체 소재는 AI 데이터센터 호황으로 성장세를 보이고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "SKC",
+        "영업적자",
+        "반도체 소재",
+        "AI 데이터센터",
+        "배터리 소재"
+      ],
+      "companies": [
+        "SKC"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "SKC"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-28T09:02:34Z",
+      "updated_at": "2026-10-28T09:02:34Z",
+      "articles": [
+        {
+          "key": "44f88400ef05106d",
+          "title": "SKC, 15분기 연속 적자...3분기 적자폭은 줄었다",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64469",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-28T09:01:14Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261027-0214",
       "headline": "SK하이닉스, 주주 신뢰 회복 위한 방안 발표",
@@ -384,58 +630,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261028-0220",
-      "headline": "AI 반도체 실적 호조에 KOSPI 급등",
-      "summary": [
-        "한국 증시는 인공지능 기반 반도체 실적 덕분에 큰 폭 상승했다.",
-        "2026년 10월 28일, KOSPI는 183.73포인트(3.26%) 오른 5,822.07로 시작했다.",
-        "이는 전날의 3% 이상 상승을 이어가며 투자자 심리에 긍정적인 영향을 주었다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "AI 반도체",
-        "KOSPI",
-        "실적 호조",
-        "투자 심리"
-      ],
-      "companies": [
-        "SK hynix"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "SK hynix"
-      ],
-      "importance": 4,
-      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-28T01:14:34Z",
-      "updated_at": "2026-10-28T08:11:05Z",
-      "articles": [
-        {
-          "key": "c3bd1cf926bfca35",
-          "title": "Seoul stocks open sharply higher on revived AI optimism, SK hynix earnings",
-          "url": "https://www.koreaherald.com/article/10917155",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-10-28T00:37:43Z"
-        },
-        {
-          "key": "bc0d48f7e86ec54a",
-          "title": "Seoul shares soar over 6% on revived AI optimism, SK hynix earnings",
-          "url": "https://www.koreaherald.com/article/10918058",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-10-28T08:08:44Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
     },
     {
       "id": "c20261028-0255",
