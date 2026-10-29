@@ -1,7 +1,188 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29T04:59:40Z",
+  "updated_at": "2026-10-29T05:56:19Z",
   "issues": [
+    {
+      "id": "c20261029-0295",
+      "headline": "삼성전자, 내년 HBM 완판 예고 및 장기계약 체결",
+      "summary": [
+        "삼성전자가 고대역폭메모리(HBM) 내년 물량을 목표가에 완판할 계획이라고 밝혔다.",
+        "대형 고객사와의 메모리 장기 공급계약이 10곳으로 늘었으며 추가 협상도 진행 중이다.",
+        "AI 반도체 수요 확대에 따른 매출 증가로 반도체 사업의 영업이익 역시 호조를 보이고 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM",
+        "삼성전자",
+        "AI 반도체",
+        "장기계약",
+        "비메모리 가동률"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 5,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1, 매체 4곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T02:06:52Z",
+      "updated_at": "2026-10-29T05:56:19Z",
+      "articles": [
+        {
+          "key": "bb89b5b4ee37e399",
+          "title": "삼성전자 \"메모리 장기공급계약 10곳 완료…추가 10곳 협상 중\"",
+          "url": "https://www.inews24.com/view/2020322",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-29T02:01:05Z"
+        },
+        {
+          "key": "c87aaaafc668348b",
+          "title": "삼성전자 \"내년 HBM 물량 완판...고객사 추가 공급 요청 지속\"",
+          "url": "https://www.inews24.com/view/2020339",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-29T02:14:51Z"
+        },
+        {
+          "key": "4ac5baed0c82d378",
+          "title": "삼성전자 \"내년 HBM 완판…10개사와 메모리 장기계약 협상중\"",
+          "url": "https://www.yna.co.kr/view/AKR20261029089900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T02:19:30Z"
+        },
+        {
+          "key": "268d602ad362d2a4",
+          "title": "삼성전자 “10개사와 장기계약 추가 협상 중…내년 HBM 완판”",
+          "url": "https://www.dt.co.kr/article/12092046",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-29T02:49:40Z"
+        },
+        {
+          "key": "a57be256902ee5a3",
+          "title": "삼성전자, 대형 고객 10곳과 메모리 장기계약…내년 HBM '완판'(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261029089951003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T02:57:37Z"
+        },
+        {
+          "key": "43ec139c74f0e178",
+          "title": "삼성전자 \"내년 HBM 완판…메모리 장기계약 10곳 추가 협상\" [DS 컨콜종합]",
+          "url": "https://www.inews24.com/view/2020377",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-29T05:05:08Z"
+        },
+        {
+          "key": "57fd22c27bce233a",
+          "title": "삼성전자 “내년 HBM 완판…비메모리 가동률 100% 넘을 것”",
+          "url": "https://www.etnews.com/20261029000325",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-10-29T05:28:09Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261029-0305",
+      "headline": "삼성전자, 실적 발표일마다 주가 하락 징크스",
+      "summary": [
+        "삼성전자가 반도체 슈퍼 사이클에 힘입어 매 분기 신기록을 경신하고 있다.",
+        "하지만 실적 발표일에는 주가가 지속적으로 하락하는 경향을 보이고 있다.",
+        "이러한 하락 현상은 투자자들에게 불안감을 주며 시장에 부정적인 영향을 미칠 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "실적발표",
+        "주가하락",
+        "삼성전자",
+        "반도체슈퍼사이클"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T05:56:19Z",
+      "updated_at": "2026-10-29T05:56:19Z",
+      "articles": [
+        {
+          "key": "c99f5664c90f5de7",
+          "title": "\"실적 당일에 하락이 공식?\"…삼전, 역대급 발표마다 '하락 징크스'",
+          "url": "https://www.yna.co.kr/view/AKR20261029106100008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T05:08:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261029-0306",
+      "headline": "삼성전자, HBM4 매출 급증으로 AI 반도체 시장 주도",
+      "summary": [
+        "삼성전자가 3분기 고대역폭 메모리 HBM4 매출이 3배 증가했다.",
+        "2027년 HBM 공급이 이미 매진되었으며, HBM4는 전체 HBM 매출의 60%를 차지했다.",
+        "기록적인 84.4조 원의 자본 지출을 발표하며 시장 점유율 목표를 조기 달성했다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "HBM4",
+        "고대역폭 메모리",
+        "AI 반도체",
+        "매출 증가"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-29T05:56:19Z",
+      "updated_at": "2026-10-29T05:56:19Z",
+      "articles": [
+        {
+          "key": "15f20a8b501d0ad9",
+          "title": "Samsung fires back in AI chip race with record W107tr profit",
+          "url": "https://www.koreaherald.com/article/10919169",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-29T05:18:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
     {
       "id": "c20261029-0288",
       "headline": "삼성전자, 3분기 영업이익 107.4조원 달성",
@@ -612,83 +793,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261029-0295",
-      "headline": "삼성전자, 내년 HBM 완판 및 추가 계약 협상 진행",
-      "summary": [
-        "삼성전자가 10개사와 메모리 반도체 장기공급계약을 체결하고, 또 다른 10개사와 협상 중이다.",
-        "고대역폭메모리(HBM) 물량은 내년 전량이 판매 확정되었으며, 올해 3분기 HBM4 매출도 크게 증가했다.",
-        "이러한 공급 계약은 삼성전자의 메모리 사업 확장과 안정적인 수익 구조에 기여할 것으로 보인다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "HBM4",
-        "장기공급계약",
-        "메모리반도체",
-        "고대역폭메모리",
-        "삼성전자"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 5,
-      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1, 매체 3곳 보도 +1 → 5점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-29T02:06:52Z",
-      "updated_at": "2026-10-29T03:59:42Z",
-      "articles": [
-        {
-          "key": "bb89b5b4ee37e399",
-          "title": "삼성전자 \"메모리 장기공급계약 10곳 완료…추가 10곳 협상 중\"",
-          "url": "https://www.inews24.com/view/2020322",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-29T02:01:05Z"
-        },
-        {
-          "key": "c87aaaafc668348b",
-          "title": "삼성전자 \"내년 HBM 물량 완판...고객사 추가 공급 요청 지속\"",
-          "url": "https://www.inews24.com/view/2020339",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-29T02:14:51Z"
-        },
-        {
-          "key": "4ac5baed0c82d378",
-          "title": "삼성전자 \"내년 HBM 완판…10개사와 메모리 장기계약 협상중\"",
-          "url": "https://www.yna.co.kr/view/AKR20261029089900003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-29T02:19:30Z"
-        },
-        {
-          "key": "268d602ad362d2a4",
-          "title": "삼성전자 “10개사와 장기계약 추가 협상 중…내년 HBM 완판”",
-          "url": "https://www.dt.co.kr/article/12092046",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-29T02:49:40Z"
-        },
-        {
-          "key": "a57be256902ee5a3",
-          "title": "삼성전자, 대형 고객 10곳과 메모리 장기계약…내년 HBM '완판'(종합)",
-          "url": "https://www.yna.co.kr/view/AKR20261029089951003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-29T02:57:37Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 5
     },
     {
       "id": "c20261029-0298",
