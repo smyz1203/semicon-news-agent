@@ -1,41 +1,39 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29T02:59:10Z",
+  "updated_at": "2026-10-29T03:59:42Z",
   "issues": [
     {
       "id": "c20261029-0288",
-      "headline": "삼성전자, 3분기 반도체 실적 106조 기록",
+      "headline": "삼성전자, 3분기 영업이익 107.4조원 달성",
       "summary": [
-        "삼성전자가 2026년 3분기 영업이익 107조4000억원을 기록하며 분기 영업이익 100조원을 돌파했다.",
-        "반도체 부문은 106조5000억원의 영업이익을 올렸지만, 완제품 사업에서는 8000억원의 적자를 기록했다.",
-        "이는 4분기 연속 최대 실적을 달성했으며, 향후 성장세가 기대된다."
+        "삼성전자는 2026년 3분기 매출 195.3조원, 영업이익 107.4조원을 기록했다.",
+        "전년 대비 매출은 14%, 영업이익은 20% 증가하며, 글로벌 기업 중 최초로 분기 영업이익 100조원을 넘겼다.",
+        "AI 반도체 수요 증가로 메모리 부문이 실적을 견인했으며, 내년에도 AI 투자가 예정되어 있다."
       ],
       "category": "실적/투자/시장",
       "tags": [
         "삼성전자",
         "영업이익",
-        "반도체",
-        "완제품",
-        "주주환원"
+        "AI반도체",
+        "메모리",
+        "3분기 실적"
       ],
       "companies": [
-        "삼성전자",
-        "SK하이닉스"
+        "삼성전자"
       ],
       "event_type": "실적",
       "confirmed": true,
       "parties": [
-        "삼성전자",
-        "SK하이닉스"
+        "삼성전자"
       ],
       "importance": 5,
-      "importance_reason": "실적 3점, 관심 기업(삼성전자, SK하이닉스) +1, 매체 8곳 보도 +1 → 5점",
+      "importance_reason": "실적 3점, 관심 기업(삼성전자) +1, 매체 9곳 보도 +1 → 5점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "both",
       "first_seen": "2026-10-29T01:12:47Z",
-      "updated_at": "2026-10-29T02:59:10Z",
+      "updated_at": "2026-10-29T03:59:42Z",
       "articles": [
         {
           "key": "2dc6228cf001b730",
@@ -166,6 +164,14 @@
           "published_at": "2026-10-29T01:29:56Z"
         },
         {
+          "key": "48d9a3d471f0c856",
+          "title": "삼성전자, 2026년 3분기 매출 195.3조원, 영업이익 107.4조원 기",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=342801",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-10-29T01:30:00Z"
+        },
+        {
           "key": "fed9ec08b4925a51",
           "title": "삼성전자 \"올해 최대 75조원 추가 주주환원…자사주 매입·소각\"",
           "url": "https://www.yna.co.kr/view/AKR20261029080700003",
@@ -256,7 +262,7 @@
       "attempts": 0,
       "region": "ko",
       "first_seen": "2026-10-29T02:06:52Z",
-      "updated_at": "2026-10-29T02:59:10Z",
+      "updated_at": "2026-10-29T03:59:42Z",
       "articles": [
         {
           "key": "bb89b5b4ee37e399",
@@ -289,10 +295,61 @@
           "source": "디지털타임스",
           "lang": "ko",
           "published_at": "2026-10-29T02:49:40Z"
+        },
+        {
+          "key": "a57be256902ee5a3",
+          "title": "삼성전자, 대형 고객 10곳과 메모리 장기계약…내년 HBM '완판'(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261029089951003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T02:57:37Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 5
+    },
+    {
+      "id": "c20261029-0298",
+      "headline": "삼성전자, 올해 최대 110조원 주주환원 계획",
+      "summary": [
+        "삼성전자는 올해 3분기에 30조원의 현금배당을 실시했다.",
+        "전체 주주환원 규모는 최대 110조원에 이를 것으로 예상되며, 남은 금액은 최대 75조원이다.",
+        "주주환원 재원은 대부분 자사주 매입 및 소각에 사용될 예정이다."
+      ],
+      "category": "기타",
+      "tags": [
+        "주주환원",
+        "현금배당",
+        "삼성전자"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "재무·주주 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T03:59:42Z",
+      "updated_at": "2026-10-29T03:59:42Z",
+      "articles": [
+        {
+          "key": "3b3209b73135c1a8",
+          "title": "삼성전자, 올해 35조원 현금배당…남은 주주환원 최대 75조원",
+          "url": "https://www.dt.co.kr/article/12092051",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-29T03:10:36Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261029-0296",
