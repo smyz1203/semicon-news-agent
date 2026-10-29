@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29T10:02:09Z",
+  "updated_at": "2026-10-29T10:58:52Z",
   "issues": [
     {
       "id": "c20261029-0288",
@@ -33,7 +33,7 @@
       "attempts": 0,
       "region": "both",
       "first_seen": "2026-10-29T01:12:47Z",
-      "updated_at": "2026-10-29T10:02:09Z",
+      "updated_at": "2026-10-29T10:58:52Z",
       "articles": [
         {
           "key": "2dc6228cf001b730",
@@ -274,10 +274,125 @@
           "source": "디지털타임스",
           "lang": "ko",
           "published_at": "2026-10-29T09:52:26Z"
+        },
+        {
+          "key": "729eb7f5c6a29afb",
+          "title": "삼성전자 3분기 반도체 영업익 106조… 내년 AI 역대급 투자",
+          "url": "https://www.dt.co.kr/article/12092216",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-29T10:11:56Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 5
+    },
+    {
+      "id": "c20261029-0309",
+      "headline": "고려아연, 글로벌 반도체 기업과 협력 논의",
+      "summary": [
+        "고려아연이 마이크론, 인텔과 '반도체 황산' 공급 방안을 논의했다.",
+        "논의는 10월 13일부터 15일까지 미국에서 열린 '세미콘 웨스트 2026'에서 진행됐다.",
+        "이번 협력은 고려아연의 미국 반도체 황산 시장 진출을 의미한다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "반도체 황산",
+        "고려아연",
+        "마이크론",
+        "인텔",
+        "세미콘 웨스트"
+      ],
+      "companies": [
+        "고려아연",
+        "마이크론",
+        "인텔"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "고려아연",
+        "마이크론",
+        "인텔"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T07:13:05Z",
+      "updated_at": "2026-10-29T10:58:52Z",
+      "articles": [
+        {
+          "key": "e24b691f74685a2e",
+          "title": "고려아연, 미국 반도체 황산 시장 공략…마이크론·인텔 면담",
+          "url": "https://www.yna.co.kr/view/AKR20261029150600003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T06:31:11Z"
+        },
+        {
+          "key": "45f19fd7d3461ace",
+          "title": "고려아연, 마이크론·인텔 등과 ‘반도체황산’ 협력 논의",
+          "url": "https://www.dt.co.kr/article/12092218",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-29T10:49:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261029-0322",
+      "headline": "삼성D, 내년 폴더블폰 비중 확대 및 OLED 생산 강화",
+      "summary": [
+        "삼성디스플레이는 내년에 폴더블폰 등의 프리미엄 제품 패널 비중을 확대할 계획이다.",
+        "IT 8.6세대 OLED 신규 라인을 램프업하겠다고 밝혔으며, 2027년에도 불확실한 수요 속에서 매출 성장을 추진할 예정이다.",
+        "이는 삼성전자와 애플의 중저가폰 수요 약세를 반영하며, 프리미엄 제품 중심으로 시장 대응을 강화하는 의미가 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "폴더블폰",
+        "OLED",
+        "프리미엄 제품",
+        "삼성디스플레이",
+        "애플",
+        "스마트폰"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "삼성전자",
+        "애플"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성디스플레이",
+        "삼성전자",
+        "애플"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성디스플레이, 삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T10:58:52Z",
+      "updated_at": "2026-10-29T10:58:52Z",
+      "articles": [
+        {
+          "key": "51a82b8a02b7e745",
+          "title": "삼성D \"내년 폴더블 등 플래그십 비중 확대...IT 8세대 램프업\"",
+          "url": "https://zdnet.co.kr/view/?no=20261029133947",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-29T07:45:43Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
     },
     {
       "id": "c20261029-0317",
@@ -1003,55 +1118,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261029-0309",
-      "headline": "고려아연, 미국 반도체 황산 공급 가능성 논의",
-      "summary": [
-        "고려아연이 마이크론과 인텔과 만나 반도체 황산 공급을 논의했다.",
-        "미국에서 현지 반도체 기업들과의 협력 가능성을 모색하는 단계이다.",
-        "이 전략은 글로벌 반도체 시장에서의 입지를 강화하는 데 기여할 전망이다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "반도체 황산",
-        "고려아연",
-        "마이크론",
-        "인텔",
-        "공급 협력"
-      ],
-      "companies": [
-        "고려아연",
-        "마이크론",
-        "인텔"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "고려아연",
-        "마이크론",
-        "인텔"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-29T07:13:05Z",
-      "updated_at": "2026-10-29T07:13:05Z",
-      "articles": [
-        {
-          "key": "e24b691f74685a2e",
-          "title": "고려아연, 미국 반도체 황산 시장 공략…마이크론·인텔 면담",
-          "url": "https://www.yna.co.kr/view/AKR20261029150600003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-29T06:31:11Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261029-0310",
