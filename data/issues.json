@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29T07:13:05Z",
+  "updated_at": "2026-10-29T08:13:48Z",
   "issues": [
     {
       "id": "c20261029-0288",
@@ -33,7 +33,7 @@
       "attempts": 0,
       "region": "both",
       "first_seen": "2026-10-29T01:12:47Z",
-      "updated_at": "2026-10-29T07:13:05Z",
+      "updated_at": "2026-10-29T08:13:48Z",
       "articles": [
         {
           "key": "2dc6228cf001b730",
@@ -250,10 +250,243 @@
           "source": "연합뉴스",
           "lang": "ko",
           "published_at": "2026-10-29T06:55:20Z"
+        },
+        {
+          "key": "08cd04c6f94e10f4",
+          "title": "Seoul shares down 1.24% as Samsung disappoints on shareholder returns",
+          "url": "https://www.koreaherald.com/article/10919586",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-29T07:52:12Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 5
+    },
+    {
+      "id": "c20261029-0305",
+      "headline": "삼성전자, 실적 발표일마다 주가 하락 징크스",
+      "summary": [
+        "삼성전자가 반도체 슈퍼 사이클에 힘입어 매 분기 신기록을 경신하고 있다.",
+        "하지만 실적 발표일에는 주가가 지속적으로 하락하는 경향을 보이고 있다.",
+        "이러한 하락 현상은 투자자들에게 불안감을 주며 시장에 부정적인 영향을 미칠 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "실적발표",
+        "주가하락",
+        "삼성전자",
+        "반도체슈퍼사이클"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T05:56:19Z",
+      "updated_at": "2026-10-29T08:13:48Z",
+      "articles": [
+        {
+          "key": "c99f5664c90f5de7",
+          "title": "\"실적 당일에 하락이 공식?\"…삼전, 역대급 발표마다 '하락 징크스'",
+          "url": "https://www.yna.co.kr/view/AKR20261029106100008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T05:08:32Z"
+        },
+        {
+          "key": "307e7167752f5013",
+          "title": "\"실적 당일 하락이 공식?\"…삼전 역대급 발표마다 '하락 징크스'(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261029106151008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T07:08:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261029-0311",
+      "headline": "EU 사이버 회복력 법안, 반도체 공급업체도 포함",
+      "summary": [
+        "유럽연합은 전자제품의 사이버 보안을 위한 기준을 정립했다.",
+        "2024년 10월 채택된 사이버 회복력 법안은 2026년부터 시행된다.",
+        "이 규정은 반도체와 IP 공급업체에도 적용되어 보안 기준 준수를 요구한다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "EU",
+        "사이버 보안",
+        "회복력 법안",
+        "반도체",
+        "IP 공급업체"
+      ],
+      "companies": [],
+      "event_type": "정책·규제·법",
+      "confirmed": true,
+      "parties": [
+        "유럽연합",
+        "반도체 공급업체"
+      ],
+      "importance": 4,
+      "importance_reason": "정책·규제·법 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-29T08:13:48Z",
+      "updated_at": "2026-10-29T08:13:48Z",
+      "articles": [
+        {
+          "key": "57f4c60319c2d766",
+          "title": "The EU Cyber Resilience Act Reaches Chip And IP Suppliers",
+          "url": "https://semiengineering.com/the-eu-cyber-resilience-act-reaches-chip-and-ip-suppliers/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-10-29T07:06:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261029-0312",
+      "headline": "열 관리가 반도체 설계의 핵심 요소로 부각",
+      "summary": [
+        "AI와 고성능 컴퓨팅의 발전으로 반도체의 전력 밀도가 증가하고 있다.",
+        "이제 열 행동은 장치 성능, 패키지 아키텍처 등 다양한 설계 결정에 영향을 미친다.",
+        "설계 과정 초기에 열 분석을 통합하여 전체 시스템 성능을 고려해야 한다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "열관리",
+        "고성능 컴퓨팅",
+        "반도체 패키징",
+        "시스템 성능",
+        "멀티피직스"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-29T08:13:48Z",
+      "updated_at": "2026-10-29T08:13:48Z",
+      "articles": [
+        {
+          "key": "c29bfaafe23b8b53",
+          "title": "Is It Getting Hot In Here? Why Thermal Is No Longer A Signoff Problem",
+          "url": "https://semiengineering.com/is-it-getting-hot-in-here-why-thermal-is-no-longer-a-signoff-problem/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-10-29T07:08:48Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261029-0313",
+      "headline": "삼성전자, 삼성바이오 유상증자에 6천662억원 출자",
+      "summary": [
+        "삼성전자가 삼성바이오로직스의 유상증자에 참여하기로 결정했다.",
+        "이번 출자는 6천662억원 규모로, 이사회의 결의를 통해 확정됐다.",
+        "이 결정은 삼성바이오의 성장과 삼성전자의 사업 확대에 긍정적인 영향을 줄 것으로 예상된다."
+      ],
+      "category": "기타",
+      "tags": [
+        "삼성전자",
+        "삼성바이오로직스",
+        "유상증자"
+      ],
+      "companies": [
+        "삼성전자",
+        "삼성바이오로직스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "삼성바이오로직스"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T08:13:48Z",
+      "updated_at": "2026-10-29T08:13:48Z",
+      "articles": [
+        {
+          "key": "931927ef3adf7bf5",
+          "title": "삼성전자, 삼성바이오 유상증자 참여…6천662억원 출자",
+          "url": "https://www.yna.co.kr/view/AKR20261029176300003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T07:51:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261029-0314",
+      "headline": "상업용 디스플레이, AI 서비스와 결합 확대",
+      "summary": [
+        "상업용 디스플레이가 콘텐츠 제공을 넘어 AI 서비스와 결합되고 있다.",
+        "호텔, 회의실, 매장에서 다양한 역할을 수행하며 시장을 넓혀가고 있다.",
+        "스마트글라스와 투명 LED 등 혁신 제품 등장으로 경쟁 범위가 확대되고 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "상업용 디스플레이",
+        "AI 서비스",
+        "스마트글라스",
+        "투명 LED"
+      ],
+      "companies": [
+        "BOE",
+        "스카이워스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T08:13:48Z",
+      "updated_at": "2026-10-29T08:13:48Z",
+      "articles": [
+        {
+          "key": "4fe5a454fbf7dcbc",
+          "title": "[C-TOUCH 현장③] 상업용 디스플레이, AI 서비스 단말로…호텔·회의실·매장까지 확장",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408965",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T08:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261029-0287",
@@ -625,50 +858,6 @@
       ],
       "type_checked": true,
       "importance_raw": 5
-    },
-    {
-      "id": "c20261029-0305",
-      "headline": "삼성전자, 실적 발표일마다 주가 하락 징크스",
-      "summary": [
-        "삼성전자가 반도체 슈퍼 사이클에 힘입어 매 분기 신기록을 경신하고 있다.",
-        "하지만 실적 발표일에는 주가가 지속적으로 하락하는 경향을 보이고 있다.",
-        "이러한 하락 현상은 투자자들에게 불안감을 주며 시장에 부정적인 영향을 미칠 수 있다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "실적발표",
-        "주가하락",
-        "삼성전자",
-        "반도체슈퍼사이클"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 4,
-      "importance_reason": "실적 3점, 관심 기업(삼성전자) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-29T05:56:19Z",
-      "updated_at": "2026-10-29T05:56:19Z",
-      "articles": [
-        {
-          "key": "c99f5664c90f5de7",
-          "title": "\"실적 당일에 하락이 공식?\"…삼전, 역대급 발표마다 '하락 징크스'",
-          "url": "https://www.yna.co.kr/view/AKR20261029106100008",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-29T05:08:32Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
     },
     {
       "id": "c20261029-0306",
