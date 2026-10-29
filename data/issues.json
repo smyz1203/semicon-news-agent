@@ -1,22 +1,22 @@
 {
   "version": 1,
-  "updated_at": "2026-10-28T23:49:05Z",
+  "updated_at": "2026-10-29T01:12:47Z",
   "issues": [
     {
       "id": "c20261027-0213",
-      "headline": "소부장 뿌리기술대전 개최 및 은탑훈장 수여",
+      "headline": "한미반도체 김병석 상무, 은탑산업훈장 수훈",
       "summary": [
-        "2026 소재·부품·장비(소부장) 뿌리기술대전이 28일부터 30일까지 고양시에서 열린다.",
-        "이번 행사에서 김병석 한미반도체 상무가 은탑훈장을 수여받는다.",
-        "소부장 산업의 발전과 기술 혁신을 촉진하는 중요한 계기가 될 것으로 보인다."
+        "한미반도체 김병석 상무가 HBM TC 본더 기술 개발로 은탑산업훈장을 받았다.",
+        "수상식은 2026 소부장-뿌리기술대전에서 열렸으며, 김 상무는 기술 개발에 기여했다.",
+        "이로 인해 한미반도체는 HBM TC 본더 세계 1위를 달성하며 시장 경쟁력이 강화되었다."
       ],
       "category": "장비/소재/부품",
       "tags": [
-        "소부장",
-        "뿌리기술대전",
-        "은탑훈장",
-        "한미반도체",
-        "산업통상부"
+        "HBM",
+        "TC 본더",
+        "은탑산업훈장",
+        "기술 개발",
+        "소부장"
       ],
       "companies": [
         "한미반도체"
@@ -24,16 +24,17 @@
       "event_type": "업계 일반",
       "confirmed": true,
       "parties": [
+        "김병석",
         "한미반도체"
       ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 매체 3곳 보도 +1 → 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
       "first_seen": "2026-10-27T21:48:46Z",
-      "updated_at": "2026-10-28T23:49:05Z",
+      "updated_at": "2026-10-29T01:12:47Z",
       "articles": [
         {
           "key": "4a26426958542681",
@@ -50,10 +51,732 @@
           "source": "연합뉴스",
           "lang": "ko",
           "published_at": "2026-10-28T23:28:56Z"
+        },
+        {
+          "key": "6be075e07b7565e3",
+          "title": "김병석 한미반도체 상무, 은탑산업훈장 수훈",
+          "url": "https://zdnet.co.kr/view/?no=20261029082258",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-28T23:33:46Z"
+        },
+        {
+          "key": "d6b7d0813725c597",
+          "title": "한미반도체 김병석 상무, 은탑산업훈장 수훈…HBM용 TC 본더 기술 개발 공로",
+          "url": "https://www.dt.co.kr/article/12091978",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-29T00:14:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261026-0115",
+      "headline": "퓨리오사AI, 시리즈 D 투자 유치로 기업가치 3.8조 달성",
+      "summary": [
+        "퓨리오사AI가 8200억원 규모의 시리즈 D 투자를 마무리했다.",
+        "이번 투자를 통해 기업가치는 약 3조8000억원으로 증가했다.",
+        "자금은 2세대 AI 반도체 RNGD의 글로벌 상용화 및 생태계 확장에 집중된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 반도체",
+        "퓨리오사AI",
+        "시리즈 D",
+        "투자유치",
+        "RNGD"
+      ],
+      "companies": [
+        "퓨리오사AI",
+        "삼성SDS",
+        "LG AI연구원"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "퓨리오사AI",
+        "국민성장펀드",
+        "인피니텀"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 매체 3곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T18:29:43Z",
+      "updated_at": "2026-10-29T01:12:47Z",
+      "articles": [
+        {
+          "key": "b69a8c1cc0b245ba",
+          "title": "경북도, 퓨리오사AI와 AI 반도체 산업 생태계 만든다",
+          "url": "https://www.yna.co.kr/view/AKR20261026131400053",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-26T06:59:49Z"
+        },
+        {
+          "key": "ad3636f0b77669cc",
+          "title": "퓨리오사AI, 8200억 시리즈D 투자 유치…\"기업가치 3.8조\"",
+          "url": "https://www.yna.co.kr/view/AKR20261029044100017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T00:06:23Z"
+        },
+        {
+          "key": "3ce60f56e27c6a88",
+          "title": "퓨리오사AI, 8200억 시리즈D 투자유치…기업가치 3.8조",
+          "url": "https://zdnet.co.kr/view/?no=20261029090026",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-29T00:21:58Z"
+        },
+        {
+          "key": "5fda7c930df285ca",
+          "title": "퓨리오사AI, 시리즈 D 8200억 투자유치...기업가치 3.8조 달성",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64502",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-29T00:43:50Z"
+        }
+      ],
+      "importance_raw": 4,
+      "type_checked": true
+    },
+    {
+      "id": "c20261029-0278",
+      "headline": "몬드리안에이아이, 구미서 반도체 제조 AI 성과 발표",
+      "summary": [
+        "몬드리안에이아이의 AX 사례와 AI 플랫폼 몬플랜드가 구미에서 소개됐다.",
+        "행사는 산업통상부 주최로 정부와 AI, 제조기업 250명이 참석해 진행됐다.",
+        "AI 도입을 통한 반도체 제조 경쟁력 강화 방안을 논의하는 자리였다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "AI 플랫폼",
+        "몬플랜드",
+        "반도체 제조",
+        "AX 전환",
+        "구미 M.AX 컨퍼런스"
+      ],
+      "companies": [
+        "몬드리안에이아이"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "몬드리안에이아이"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T01:12:47Z",
+      "updated_at": "2026-10-29T01:12:47Z",
+      "articles": [
+        {
+          "key": "aad17325f13fc32a",
+          "title": "몬드리안에이아이, 구미 M.AX 컨퍼런스서 반도체 제조 AX 성과 선봬",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408918",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-28T23:50:00Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 2
+    },
+    {
+      "id": "c20261029-0279",
+      "headline": "Kinsus, AI 고급 패키징을 위한 AlN 세라믹 개발",
+      "summary": [
+        "Kinsus가 AI 고급 패키징을 위해 AlN 세라믹 소재 개발을 탐색하고 있다.",
+        "이 기술은 유리 이외의 소재로 구성될 예정이며, 지속적인 연구가 필요하다.",
+        "이로 인해 반도체 패키징의 성능 향상과 새로운 시장 기회가 열릴 것으로 기대된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AlN 세라믹",
+        "AI 패키징",
+        "고급 패키징"
+      ],
+      "companies": [
+        "Kinsus"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "Kinsus"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-29T01:12:47Z",
+      "updated_at": "2026-10-29T01:12:47Z",
+      "articles": [
+        {
+          "key": "f79a18863268041d",
+          "title": "Kinsus explores AlN ceramics beyond glass for AI advanced packaging",
+          "url": "https://www.digitimes.com/news/a20261028PD217/packaging-kinsus-substrate-aluminum-materials.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-28T23:50:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261029-0280",
+      "headline": "AI 칩 패키지 크기 확대의 세 가지 도전 과제",
+      "summary": [
+        "Kinsus Tech가 대형 AI 칩 패키지의 세 가지 도전 과제를 발표했다.",
+        "이들은 패키지 디자인, 제조 공정, 그리고 열 관리로 구체적으로 명시되었다.",
+        "이 과제들은 AI 반도체 산업의 발전과 효율성에 중요한 영향을 미칠 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 칩",
+        "패키지 디자인",
+        "열 관리"
+      ],
+      "companies": [
+        "Kinsus Tech"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "Kinsus Tech"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-29T01:12:47Z",
+      "updated_at": "2026-10-29T01:12:47Z",
+      "articles": [
+        {
+          "key": "de2b2534f8c146ab",
+          "title": "Research Insight: Kinsus Tech identifies three challenges for larger AI chip packages",
+          "url": "https://www.digitimes.com/news/a20261028PD232/demand-data-packaging-substrate-2026.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-28T23:51:56Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261029-0281",
+      "headline": "로키드, 마이크로LED 디스플레이 AI 안경 출시",
+      "summary": [
+        "로키드가 마이크로LED 디스플레이를 탑재한 AI 안경을 출시했다.",
+        "이번 제품은 전체 색상을 지원하며, 출시 날짜는 2026년 10월 28일이다.",
+        "AI 안경의 출시는 디스플레이 기술의 발전과 함께 새로운 시장 기회를 열어줄 것으로 기대된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "AI 안경",
+        "마이크로LED",
+        "디스플레이 기술",
+        "로키드"
+      ],
+      "companies": [
+        "로키드"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "로키드"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-29T01:12:47Z",
+      "updated_at": "2026-10-29T01:12:47Z",
+      "articles": [
+        {
+          "key": "2b217513a396193b",
+          "title": "Rokid launches full-color AI glasses with microLED display",
+          "url": "https://www.digitimes.com/news/a20261028PD239/microled-display-market-wearable.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-28T23:52:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261029-0282",
+      "headline": "NIA, SK하이닉스와 디지털 ESG 협력 강화",
+      "summary": [
+        "한국지능정보사회진흥원(NIA)이 SK하이닉스와 NC문화재단과 함께 디지털 ESG 협의체를 확대하고 AI 격차 해소 방안을 논의했다.",
+        "28일 간담회에서 각 기업 전문성을 활용한 공동과제를 발굴할 계획을 밝혔다.",
+        "디지털 기술을 통한 사회적 가치 실현을 목표로 하는 이번 협력은 ESG 중요성이 높아지는 가운데 긍정적인 영향을 미칠 것으로 예상된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "디지털 ESG",
+        "AI 격차",
+        "민관 협력",
+        "NIA",
+        "SK하이닉스"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "NIA",
+        "NC문화재단"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "NIA",
+        "SK하이닉스",
+        "NC문화재단"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T01:12:47Z",
+      "updated_at": "2026-10-29T01:12:47Z",
+      "articles": [
+        {
+          "key": "2bd3bed3dfe22311",
+          "title": "[ZD SW 투데이] NIA, SK하이닉스·NC문화재단과 디지털 ESG 협력 확대 外",
+          "url": "https://zdnet.co.kr/view/?no=20261028155512",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-28T23:53:09Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261029-0283",
+      "headline": "파운드리 기업, AI 수요에 맞춰 진화한다",
+      "summary": [
+        "파운드리 기업 파워텍이 AI 수요 증가에 따라 고급 패키징으로 사업을 전환한다.",
+        "회사는 새로운 전략으로 성장세를 보이며 고객 요구에 맞춘 기술 개발에 집중할 예정이다.",
+        "이는 AI 산업의 확산에 따른 수요 증가로, 반도체 시장에 긍정적인 영향을 미칠 전망이다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "고급 패키징",
+        "AI 수요",
+        "파워텍"
+      ],
+      "companies": [
+        "파워텍"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "파워텍"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-29T01:12:47Z",
+      "updated_at": "2026-10-29T01:12:47Z",
+      "articles": [
+        {
+          "key": "0ab9322830f0607f",
+          "title": "Powertech shifts to advanced packaging as AI demand drives growth",
+          "url": "https://www.digitimes.com/news/a20261028PD225/powertech-demand-packaging-growth-revenue.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-28T23:53:14Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261029-0284",
+      "headline": "온세미, 10억 달러로 AI 칩 스타트업 인수 추진",
+      "summary": [
+        "온세미가 AI 전력 칩 스타트업 페릭 인수를 위해 협상하고 있다.",
+        "인수 규모는 약 10억 달러로 추정되며, 관련 논의가 진행 중이다.",
+        "이 인수는 AI 반도체 시장에서의 경쟁력 강화를 목표로 하고 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 칩",
+        "온세미",
+        "페릭",
+        "인수합병",
+        "전력 반도체"
+      ],
+      "companies": [
+        "온세미",
+        "페릭"
+      ],
+      "event_type": "인수합병",
+      "confirmed": true,
+      "parties": [
+        "온세미",
+        "페릭"
+      ],
+      "importance": 2,
+      "importance_reason": "인수합병 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-29T01:12:47Z",
+      "updated_at": "2026-10-29T01:12:47Z",
+      "articles": [
+        {
+          "key": "2d6c878b9924dbeb",
+          "title": "Onsemi reportedly in talks to buy AI power-chip startup Ferric for close to US$1 billion",
+          "url": "https://www.digitimes.com/news/a20261028VL219/onsemi-startup-acquisition-chips-performance.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-28T23:53:42Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261029-0285",
+      "headline": "용인시장, ASML과 반도체 협력 논의",
+      "summary": [
+        "이상일 용인시장은 네덜란드 ASML을 방문하여 반도체 협력 방안을 논의했다.",
+        "이번 방문은 2026년 10월 28일에 이루어졌으며, 글로벌 반도체 장비 제조업체인 ASML과의 협력이 목표된다.",
+        "이 만남은 용인시의 반도체 산업 발전에 긍정적인 영향을 미칠 것으로 기대된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "ASML",
+        "반도체",
+        "협력",
+        "용인시"
+      ],
+      "companies": [
+        "용인시",
+        "ASML"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "용인시",
+        "ASML"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T01:12:47Z",
+      "updated_at": "2026-10-29T01:12:47Z",
+      "articles": [
+        {
+          "key": "143e42c57b44af43",
+          "title": "이상일 용인시장, 네덜란드 ASML 방문…반도체 협력방안 논의",
+          "url": "https://www.yna.co.kr/view/AKR20261029040700061",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T00:17:39Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261029-0286",
+      "headline": "화성시, 오스틴시와 반도체 교류 협력 추진",
+      "summary": [
+        "경기 화성시는 미국 오스틴시와 산·학·관 교류를 추진한다고 밝혔다.",
+        "양 지역의 반도체 산업 관련 시설과 협력을 통해 상호 발전을 도모할 계획이다.",
+        "이번 협역은 반도체 산업 강화와 글로벌 네트워크 구축에 중요한 의미를 가진다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "교류협력",
+        "반도체",
+        "화성시",
+        "오스틴시",
+        "산학관"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "화성시",
+        "오스틴시"
+      ],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T01:12:47Z",
+      "updated_at": "2026-10-29T01:12:47Z",
+      "articles": [
+        {
+          "key": "23ed93724625f530",
+          "title": "화성시, 美오스틴시와 교류 추진…삼성반도체 생산시설 공통점",
+          "url": "https://www.yna.co.kr/view/AKR20261029054600061",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T00:43:15Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261029-0287",
+      "headline": "삼양사, 차세대 반도체 초순수 이온교환수지 출시",
+      "summary": [
+        "삼양사는 '트리라이트 데이 2026' 행사에서 차세대 이온교환수지 '맥스퓨리티 UPRM500U'를 공개했다.",
+        "이 제품은 초순수의 최종 정제 단계에 사용되며, 나트륨 함량을 기존 모델 대비 94% 낮췄다.",
+        "업계에선 이 혁신적인 수지가 반도체 제조 공정의 품질 향상에 기여할 것으로 기대하고 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "이온교환수지",
+        "초순수",
+        "반도체 제조",
+        "삼양사"
+      ],
+      "companies": [
+        "삼양사"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "삼양사"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T01:12:47Z",
+      "updated_at": "2026-10-29T01:12:47Z",
+      "articles": [
+        {
+          "key": "1835ccf0cb5810c8",
+          "title": "삼양사, 차세대 반도체용 초순수 이온교환수지 공개",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64494",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-29T00:52:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261029-0288",
+      "headline": "삼성전자, 3분기 영업익 107.4조 원 달성",
+      "summary": [
+        "삼성전자가 2026년 3분기 영업이익 107.4조 원을 기록하며 역대 최대치를 경신했다.",
+        "매출은 195.3조 원으로 전년 대비 127% 증가했으며 영업이익률은 55%에 달했다.",
+        "AI 메모리 칩 수요 증가가 삼성전자의 성장을 이끌며, 주주에게 30조 원 배당도 승인했다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "삼성전자",
+        "AI 메모리",
+        "3분기 실적",
+        "영업이익",
+        "주주환원"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 5,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자) +1, 매체 5곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-10-29T01:12:47Z",
+      "updated_at": "2026-10-29T01:12:47Z",
+      "articles": [
+        {
+          "key": "2dc6228cf001b730",
+          "title": "[1보] 삼성전자 3분기 영업익 107.4조…작년 대비 783%↑",
+          "url": "https://www.yna.co.kr/view/AKR20261029064800527",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T00:52:26Z"
+        },
+        {
+          "key": "3a78c01d2b78954e",
+          "title": "[속보] 삼성전자, 3분기 영업익 107조4405억원…사상 첫 분기 100조원 돌파",
+          "url": "https://www.inews24.com/view/2020189",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-29T00:53:09Z"
+        },
+        {
+          "key": "22886bbc99bcb3a7",
+          "title": "[속보]삼성전자, 3분기 매출 195조·영업익 107조원",
+          "url": "https://www.dt.co.kr/article/12091990",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-29T00:53:41Z"
+        },
+        {
+          "key": "b226887c519d6334",
+          "title": "[속보] 삼성전자 3분기 반도체 부문 영업익 106.5조",
+          "url": "https://www.yna.co.kr/view/AKR20261029065800003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T00:53:53Z"
+        },
+        {
+          "key": "6d71515d7c4a0748",
+          "title": "[속보]삼성전자, 3분기 주당 4601원 배당…총 30조원",
+          "url": "https://www.dt.co.kr/article/12091991",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-29T00:55:43Z"
+        },
+        {
+          "key": "6fccf4ffd042d30a",
+          "title": "[속보] 삼성전자, 3분기 현금배당 30조원…주당 4601원",
+          "url": "https://www.inews24.com/view/2020202",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-29T00:55:44Z"
+        },
+        {
+          "key": "b1d183ba6f27c729",
+          "title": "[속보] 삼성전자, 주당 4천601원 현금배당…3분기 30조원",
+          "url": "https://www.yna.co.kr/view/AKR20261029067300003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T00:58:01Z"
+        },
+        {
+          "key": "a1c51947090df96f",
+          "title": "삼성전자, 3분기 주당 4천601원 현금배당…총 30조원 규모",
+          "url": "https://www.yna.co.kr/view/AKR20261029068900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T00:59:54Z"
+        },
+        {
+          "key": "38237397ebbb6694",
+          "title": "삼성전자 분기 영업익 107조 시대…'75조' 주주환원 향방은",
+          "url": "https://www.etnews.com/20261029000105",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-10-29T01:01:39Z"
+        },
+        {
+          "key": "ed534bcee754b303",
+          "title": "[2보] 삼성전자 3분기 반도체 영업익 106.5조…완제품은 8천억 적자",
+          "url": "https://www.yna.co.kr/view/AKR20261029064851527",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T01:01:42Z"
+        },
+        {
+          "key": "418379c4397826c5",
+          "title": "[속보]삼성전자, 반도체 영업이익 106.5조원…영업이익률 72.4%",
+          "url": "https://www.dt.co.kr/article/12091992",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-29T01:04:06Z"
+        },
+        {
+          "key": "0a4a65a927993a6a",
+          "title": "Samsung Electronics approves W30tr dividend on record Q3 profit",
+          "url": "https://www.koreaherald.com/article/10918617",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-29T01:07:13Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261029-0289",
+      "headline": "삼성전자, 올해 반도체에 91% 투자 집중",
+      "summary": [
+        "삼성전자는 2026년도 시설투자에 84.4조원을 투자할 계획이다.",
+        "전체 투자액 중 91%인 76.8조원이 반도체 사업에 사용될 예정이다.",
+        "이는 AI 시장 확대를 위한 전략으로, 반도체 산업에 긍정적인 영향을 줄 전망이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "시설투자",
+        "반도체",
+        "AI시장",
+        "삼성전자"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "설비 투자 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T01:12:47Z",
+      "updated_at": "2026-10-29T01:12:47Z",
+      "articles": [
+        {
+          "key": "81071a121ca3f093",
+          "title": "[속보] 삼성전자 올해 시설투자, 반도체 76.8조 포함 84.4조",
+          "url": "https://www.yna.co.kr/view/AKR20261029071200003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T01:05:34Z"
+        },
+        {
+          "key": "96ee947abdc28b5c",
+          "title": "삼성전자, 올해 시설투자 84.4조원…91% 반도체 투입",
+          "url": "https://www.inews24.com/view/2020272",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-29T01:11:30Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
     },
     {
       "id": "c20261028-0277",
@@ -8928,55 +9651,6 @@
         }
       ],
       "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0115",
-      "headline": "경북, 퓨리오사AI와 AI 반도체 생태계 조성",
-      "summary": [
-        "경북도는 26일 퓨리오사AI와 협력해 AI 반도체 산업 생태계를 조성하겠다고 발표했다.",
-        "이번 협약에는 경산시와 경북IT융합산업기술원도 참여하여 공동의 노력을 다할 예정이다.",
-        "AI 반도체 산업은 지역 경제 활성화와 기술 경쟁력 향상에 기여할 것으로 기대된다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "AI 반도체",
-        "경북도",
-        "퓨리오사AI",
-        "산업 생태계",
-        "혁신"
-      ],
-      "companies": [
-        "퓨리오사AI",
-        "경북IT융합산업기술원"
-      ],
-      "event_type": "지역·인프라",
-      "confirmed": true,
-      "parties": [
-        "경북도",
-        "퓨리오사AI",
-        "경산시",
-        "경북IT융합산업기술원"
-      ],
-      "importance": 2,
-      "importance_reason": "지역·인프라 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T18:29:43Z",
-      "updated_at": "2026-10-26T18:29:43Z",
-      "articles": [
-        {
-          "key": "b69a8c1cc0b245ba",
-          "title": "경북도, 퓨리오사AI와 AI 반도체 산업 생태계 만든다",
-          "url": "https://www.yna.co.kr/view/AKR20261026131400053",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-26T06:59:49Z"
-        }
-      ],
-      "importance_raw": 2,
-      "type_checked": true
     },
     {
       "id": "c20261026-0116",
