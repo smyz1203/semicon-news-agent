@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29T02:06:52Z",
+  "updated_at": "2026-10-29T02:59:10Z",
   "issues": [
     {
       "id": "c20261029-0288",
@@ -35,7 +35,7 @@
       "attempts": 0,
       "region": "both",
       "first_seen": "2026-10-29T01:12:47Z",
-      "updated_at": "2026-10-29T02:06:52Z",
+      "updated_at": "2026-10-29T02:59:10Z",
       "articles": [
         {
           "key": "2dc6228cf001b730",
@@ -204,10 +204,187 @@
           "source": "디일렉",
           "lang": "ko",
           "published_at": "2026-10-29T02:00:50Z"
+        },
+        {
+          "key": "8598f4be644d938e",
+          "title": "Samsung Electronics posts record profit in Q3 on AI chip supercycle",
+          "url": "https://www.koreaherald.com/article/10918815",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-29T02:08:10Z"
+        },
+        {
+          "key": "deba57831124c80c",
+          "title": "삼성전자 3분기 반도체 영업익 106조…\"내년도 기록적 AI투자\"(종합2보)",
+          "url": "https://www.yna.co.kr/view/AKR20261029064853527",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T02:39:08Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 5
+    },
+    {
+      "id": "c20261029-0295",
+      "headline": "삼성전자, 내년 HBM 완판 및 추가 계약 협상 진행",
+      "summary": [
+        "삼성전자가 10개사와 메모리 반도체 장기공급계약을 체결하고, 또 다른 10개사와 협상 중이다.",
+        "고대역폭메모리(HBM) 물량은 내년 전량이 판매 확정되었으며, 올해 3분기 HBM4 매출도 크게 증가했다.",
+        "이러한 공급 계약은 삼성전자의 메모리 사업 확장과 안정적인 수익 구조에 기여할 것으로 보인다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM4",
+        "장기공급계약",
+        "메모리반도체",
+        "고대역폭메모리",
+        "삼성전자"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 5,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1, 매체 3곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T02:06:52Z",
+      "updated_at": "2026-10-29T02:59:10Z",
+      "articles": [
+        {
+          "key": "bb89b5b4ee37e399",
+          "title": "삼성전자 \"메모리 장기공급계약 10곳 완료…추가 10곳 협상 중\"",
+          "url": "https://www.inews24.com/view/2020322",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-29T02:01:05Z"
+        },
+        {
+          "key": "c87aaaafc668348b",
+          "title": "삼성전자 \"내년 HBM 물량 완판...고객사 추가 공급 요청 지속\"",
+          "url": "https://www.inews24.com/view/2020339",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-29T02:14:51Z"
+        },
+        {
+          "key": "4ac5baed0c82d378",
+          "title": "삼성전자 \"내년 HBM 완판…10개사와 메모리 장기계약 협상중\"",
+          "url": "https://www.yna.co.kr/view/AKR20261029089900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T02:19:30Z"
+        },
+        {
+          "key": "268d602ad362d2a4",
+          "title": "삼성전자 “10개사와 장기계약 추가 협상 중…내년 HBM 완판”",
+          "url": "https://www.dt.co.kr/article/12092046",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-29T02:49:40Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261029-0296",
+      "headline": "삼성전자, AI 반도체 수요에 맞춰 85조 투자",
+      "summary": [
+        "삼성전자가 3분기 영업익 106조원으로 역대 최대 실적을 달성했다.",
+        "내년 AI 메모리 수요 증가에 대비해 85조원을 시설 투자할 계획이다.",
+        "AI 서버 인프라 투자가 가속화될 것으로 예상되며, 공급부족이 더욱 심화될 전망이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 반도체",
+        "영업익",
+        "메모리 사업",
+        "시설 투자",
+        "HBM4",
+        "2나노"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "설비 투자 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T02:59:10Z",
+      "updated_at": "2026-10-29T02:59:10Z",
+      "articles": [
+        {
+          "key": "dff2e9692c170181",
+          "title": "영업익 100조 시대 연 삼성 반도체, 내년 공급부족 대비 85조 설비투자",
+          "url": "https://zdnet.co.kr/view/?no=20261029102311",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-29T01:35:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261029-0297",
+      "headline": "화성시, KAIST와 시스템반도체 설계 교육 생 모집",
+      "summary": [
+        "경기 화성시는 KAIST와 함께 시스템반도체 설계 교육생을 모집한다.",
+        "교육은 내달 2일부터 시작되며, 다양한 반도체 설계 기술을 배울 수 있다.",
+        "이 프로그램은 지역 인재 양성 및 반도체 산업 발전에 기여할 것으로 기대된다."
+      ],
+      "category": "기타",
+      "tags": [
+        "시스템반도체",
+        "KAIST",
+        "화성시",
+        "반도체설계",
+        "교육프로그램"
+      ],
+      "companies": [
+        "KAIST"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "화성시",
+        "KAIST"
+      ],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T02:59:10Z",
+      "updated_at": "2026-10-29T02:59:10Z",
+      "articles": [
+        {
+          "key": "b04d1e8f5e5d3fa5",
+          "title": "화성시-KAIST, '시스템반도체 설계' 교육생 모집",
+          "url": "https://www.yna.co.kr/view/AKR20261029099000061",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T02:33:21Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261028-0247",
@@ -484,51 +661,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261029-0295",
-      "headline": "삼성전자, 메모리 장기공급계약 체결 및 협상 진행",
-      "summary": [
-        "삼성전자가 메모리 장기공급계약을 대형 고객사 10곳과 체결했다.",
-        "추가로 다른 10곳과 협상 중으로, 안정적인 사업 운영을 목적의 기준이다.",
-        "이러한 계약 체결은 메모리 시장에서 삼성전자의 입지를 더욱 강화할 것으로 보인다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "장기공급계약",
-        "삼성전자",
-        "메모리",
-        "고객사",
-        "3분기 실적"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 4,
-      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-29T02:06:52Z",
-      "updated_at": "2026-10-29T02:06:52Z",
-      "articles": [
-        {
-          "key": "bb89b5b4ee37e399",
-          "title": "삼성전자 \"메모리 장기공급계약 10곳 완료…추가 10곳 협상 중\"",
-          "url": "https://www.inews24.com/view/2020322",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-29T02:01:05Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
     },
     {
       "id": "c20261027-0213",
