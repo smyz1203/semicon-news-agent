@@ -1,7 +1,36 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29T13:13:12Z",
+  "updated_at": "2026-10-29T14:15:55Z",
   "issues": [
+    {
+      "id": "c20261029-0323",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-29T14:15:55Z",
+      "updated_at": "2026-10-29T14:15:55Z",
+      "articles": [
+        {
+          "key": "399dfaf532522166",
+          "title": "Tianma to expand its TM18 6-Gen flexible AMOLED line in Xiamen by 50%, to 48,000 monthly substrates",
+          "url": "https://www.oled-info.com/tianma-expand-its-tm18-6-gen-flexible-amoled-line-xiamen-50-48000-monthly",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-10-29T13:29:19Z"
+        }
+      ]
+    },
     {
       "id": "c20261029-0288",
       "headline": "삼성전자, 3분기 영업이익 107.4조원 달성",

@@ -2376,5 +2376,36 @@
     "cost_usd": 0.0005,
     "ai_stopped": null,
     "alerts": []
+  },
+  {
+    "at": "2026-10-29T14:15:55Z",
+    "collected": 832,
+    "new": 12,
+    "relevant": 2,
+    "groups": 2,
+    "deferred": 0,
+    "irrelevant_by_ai": 1,
+    "new_issues": 1,
+    "summarized": 0,
+    "resummarized": 0,
+    "classified": 0,
+    "pending": 1,
+    "failed": 0,
+    "sources_ok": 18,
+    "sources_total": 18,
+    "ai_model": "openai/gpt-4o-mini",
+    "ai_calls": 6,
+    "tokens": {
+      "calls": 6,
+      "input": 4556,
+      "output": 465,
+      "cache_write": 0,
+      "cache_read": 2560
+    },
+    "cost_usd": 0.0012,
+    "ai_stopped": "크레딧 부족 또는 사용 한도 초과",
+    "alerts": [
+      "AI 중단: 크레딧 부족 또는 사용 한도 초과"
+    ]
   }
 ]
