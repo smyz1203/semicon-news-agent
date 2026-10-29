@@ -1,188 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29T05:56:19Z",
+  "updated_at": "2026-10-29T07:13:05Z",
   "issues": [
-    {
-      "id": "c20261029-0295",
-      "headline": "삼성전자, 내년 HBM 완판 예고 및 장기계약 체결",
-      "summary": [
-        "삼성전자가 고대역폭메모리(HBM) 내년 물량을 목표가에 완판할 계획이라고 밝혔다.",
-        "대형 고객사와의 메모리 장기 공급계약이 10곳으로 늘었으며 추가 협상도 진행 중이다.",
-        "AI 반도체 수요 확대에 따른 매출 증가로 반도체 사업의 영업이익 역시 호조를 보이고 있다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "HBM",
-        "삼성전자",
-        "AI 반도체",
-        "장기계약",
-        "비메모리 가동률"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 5,
-      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1, 매체 4곳 보도 +1 → 5점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-29T02:06:52Z",
-      "updated_at": "2026-10-29T05:56:19Z",
-      "articles": [
-        {
-          "key": "bb89b5b4ee37e399",
-          "title": "삼성전자 \"메모리 장기공급계약 10곳 완료…추가 10곳 협상 중\"",
-          "url": "https://www.inews24.com/view/2020322",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-29T02:01:05Z"
-        },
-        {
-          "key": "c87aaaafc668348b",
-          "title": "삼성전자 \"내년 HBM 물량 완판...고객사 추가 공급 요청 지속\"",
-          "url": "https://www.inews24.com/view/2020339",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-29T02:14:51Z"
-        },
-        {
-          "key": "4ac5baed0c82d378",
-          "title": "삼성전자 \"내년 HBM 완판…10개사와 메모리 장기계약 협상중\"",
-          "url": "https://www.yna.co.kr/view/AKR20261029089900003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-29T02:19:30Z"
-        },
-        {
-          "key": "268d602ad362d2a4",
-          "title": "삼성전자 “10개사와 장기계약 추가 협상 중…내년 HBM 완판”",
-          "url": "https://www.dt.co.kr/article/12092046",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-29T02:49:40Z"
-        },
-        {
-          "key": "a57be256902ee5a3",
-          "title": "삼성전자, 대형 고객 10곳과 메모리 장기계약…내년 HBM '완판'(종합)",
-          "url": "https://www.yna.co.kr/view/AKR20261029089951003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-29T02:57:37Z"
-        },
-        {
-          "key": "43ec139c74f0e178",
-          "title": "삼성전자 \"내년 HBM 완판…메모리 장기계약 10곳 추가 협상\" [DS 컨콜종합]",
-          "url": "https://www.inews24.com/view/2020377",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-29T05:05:08Z"
-        },
-        {
-          "key": "57fd22c27bce233a",
-          "title": "삼성전자 “내년 HBM 완판…비메모리 가동률 100% 넘을 것”",
-          "url": "https://www.etnews.com/20261029000325",
-          "source": "전자신문",
-          "lang": "ko",
-          "published_at": "2026-10-29T05:28:09Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 5
-    },
-    {
-      "id": "c20261029-0305",
-      "headline": "삼성전자, 실적 발표일마다 주가 하락 징크스",
-      "summary": [
-        "삼성전자가 반도체 슈퍼 사이클에 힘입어 매 분기 신기록을 경신하고 있다.",
-        "하지만 실적 발표일에는 주가가 지속적으로 하락하는 경향을 보이고 있다.",
-        "이러한 하락 현상은 투자자들에게 불안감을 주며 시장에 부정적인 영향을 미칠 수 있다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "실적발표",
-        "주가하락",
-        "삼성전자",
-        "반도체슈퍼사이클"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 4,
-      "importance_reason": "실적 3점, 관심 기업(삼성전자) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-29T05:56:19Z",
-      "updated_at": "2026-10-29T05:56:19Z",
-      "articles": [
-        {
-          "key": "c99f5664c90f5de7",
-          "title": "\"실적 당일에 하락이 공식?\"…삼전, 역대급 발표마다 '하락 징크스'",
-          "url": "https://www.yna.co.kr/view/AKR20261029106100008",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-29T05:08:32Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
-    },
-    {
-      "id": "c20261029-0306",
-      "headline": "삼성전자, HBM4 매출 급증으로 AI 반도체 시장 주도",
-      "summary": [
-        "삼성전자가 3분기 고대역폭 메모리 HBM4 매출이 3배 증가했다.",
-        "2027년 HBM 공급이 이미 매진되었으며, HBM4는 전체 HBM 매출의 60%를 차지했다.",
-        "기록적인 84.4조 원의 자본 지출을 발표하며 시장 점유율 목표를 조기 달성했다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "HBM4",
-        "고대역폭 메모리",
-        "AI 반도체",
-        "매출 증가"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 4,
-      "importance_reason": "실적 3점, 관심 기업(삼성전자) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-29T05:56:19Z",
-      "updated_at": "2026-10-29T05:56:19Z",
-      "articles": [
-        {
-          "key": "15f20a8b501d0ad9",
-          "title": "Samsung fires back in AI chip race with record W107tr profit",
-          "url": "https://www.koreaherald.com/article/10919169",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-10-29T05:18:18Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
-    },
     {
       "id": "c20261029-0288",
       "headline": "삼성전자, 3분기 영업이익 107.4조원 달성",
@@ -214,7 +33,7 @@
       "attempts": 0,
       "region": "both",
       "first_seen": "2026-10-29T01:12:47Z",
-      "updated_at": "2026-10-29T04:59:40Z",
+      "updated_at": "2026-10-29T07:13:05Z",
       "articles": [
         {
           "key": "2dc6228cf001b730",
@@ -415,10 +234,485 @@
           "source": "디일렉",
           "lang": "ko",
           "published_at": "2026-10-29T04:27:45Z"
+        },
+        {
+          "key": "862b4a97c566e355",
+          "title": "삼전 주주환원 실망감에 발목 잡힌 코스피…5930선 ‘후퇴’",
+          "url": "https://www.dt.co.kr/article/12092124",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-29T06:52:47Z"
+        },
+        {
+          "key": "37def85600297384",
+          "title": "역대급 실적·주주환원에도 기대 못미쳤나…삼전 4%대↓(종합2보)",
+          "url": "https://www.yna.co.kr/view/AKR20261029046852008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T06:55:20Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 5
+    },
+    {
+      "id": "c20261029-0287",
+      "headline": "삼양사, 초고순도 이온교환수지 공개",
+      "summary": [
+        "삼양사가 10월 29일 차세대 초순수 이온교환수지를 공개했다.",
+        "이 행사에는 수처리 관련 고객사 임직원 70여명이 초청되었으며, 서울 본사에서 개최됐다.",
+        "이번 제품은 반도체 제조 공정에서의 수처리 품질을 향상시킬 것으로 기대된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "초순수 이온교환수지",
+        "반도체",
+        "삼양사",
+        "수처리",
+        "신제품"
+      ],
+      "companies": [
+        "삼양사"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "삼양사"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T01:12:47Z",
+      "updated_at": "2026-10-29T07:13:05Z",
+      "articles": [
+        {
+          "key": "1835ccf0cb5810c8",
+          "title": "삼양사, 차세대 반도체용 초순수 이온교환수지 공개",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64494",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-29T00:52:01Z"
+        },
+        {
+          "key": "cf2411329ca3f9a1",
+          "title": "삼양사, 차세대 반도체용 초고순도 이온교환수지 공개",
+          "url": "https://www.dt.co.kr/article/12092108",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-29T06:18:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261027-0181",
+      "headline": "삼성디스플레이, 어플라이드와 OLED 기술 협력",
+      "summary": [
+        "삼성디스플레이의 이청 사장이 어플라이드 머티리얼즈 관계자와 만났다.",
+        "이 회동은 FMM(금속 마스크) 없는 OLED 기술 발전을 위한 협력 논의가 포함됐다.",
+        "이 협력은 OLED 시장의 혁신 가능성을 높이는 것으로 해석된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "FMM 기술",
+        "삼성디스플레이",
+        "어플라이드 머티리얼즈"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "어플라이드 머티리얼즈"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "삼성디스플레이",
+        "어플라이드 머티리얼즈"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(삼성디스플레이) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-10-27T05:47:32Z",
+      "updated_at": "2026-10-29T07:13:05Z",
+      "articles": [
+        {
+          "key": "8ffb48468786691b",
+          "title": "이청 삼성D 사장, 어플라이드 최고위 관계자 회동",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64306",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-27T05:27:49Z"
+        },
+        {
+          "key": "36dd8c5e4304b0f8",
+          "title": "SDC chief meets Applied Materials executives amid FMM-free OLED push",
+          "url": "https://www.digitimes.com/news/a20261029PD206/sdc-applied-materials-equipment-technology-development.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-29T06:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261029-0307",
+      "headline": "공학 석학들이 본 한국의 10년 뒤 전망",
+      "summary": [
+        "공학 석학들이 향후 10년간 한국의 생존 전략에 대해 10개의 질문을 제시했다.",
+        "주요 이슈로 저전력 AI 반도체와 경쟁 주도권 확보 등이 포함되어 있다.",
+        "이 연구는 한국 산업의 미래 방향성을 제시하여 정책 및 전략 수립에 기여할 것으로 보인다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 반도체",
+        "저전력",
+        "미래 전망",
+        "경쟁 주도권",
+        "산업 전략"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T07:13:05Z",
+      "updated_at": "2026-10-29T07:13:05Z",
+      "articles": [
+        {
+          "key": "711237d6d1546a1c",
+          "title": "10년 뒤 한국은 무엇으로 먹고살까…공학 석학들의 10대 질문",
+          "url": "https://www.yna.co.kr/view/AKR20261029122400017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T06:00:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261029-0308",
+      "headline": "미국 연준의 한국 반도체 산업 주목",
+      "summary": [
+        "미국 연방준비제도 의장 케빈 워시가 한국 경제를 주목하고 있다.",
+        "그는 한국과 일본, 싱가포르가 글로벌 기술 공급망의 핵심 공급원이라고 언급했다.",
+        "이는 한국 반도체 산업의 중요성이 국제적으로 증가하고 있음을 시사한다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체",
+        "한국 경제",
+        "미국 연준",
+        "기술 공급망"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-29T07:13:05Z",
+      "updated_at": "2026-10-29T07:13:05Z",
+      "articles": [
+        {
+          "key": "592bf76beed6bccf",
+          "title": "Korea's chip boom catches US Fed chair's eye",
+          "url": "https://www.koreaherald.com/article/10919364",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-29T06:18:34Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261029-0309",
+      "headline": "고려아연, 미국 반도체 황산 공급 가능성 논의",
+      "summary": [
+        "고려아연이 마이크론과 인텔과 만나 반도체 황산 공급을 논의했다.",
+        "미국에서 현지 반도체 기업들과의 협력 가능성을 모색하는 단계이다.",
+        "이 전략은 글로벌 반도체 시장에서의 입지를 강화하는 데 기여할 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "반도체 황산",
+        "고려아연",
+        "마이크론",
+        "인텔",
+        "공급 협력"
+      ],
+      "companies": [
+        "고려아연",
+        "마이크론",
+        "인텔"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "고려아연",
+        "마이크론",
+        "인텔"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T07:13:05Z",
+      "updated_at": "2026-10-29T07:13:05Z",
+      "articles": [
+        {
+          "key": "e24b691f74685a2e",
+          "title": "고려아연, 미국 반도체 황산 시장 공략…마이크론·인텔 면담",
+          "url": "https://www.yna.co.kr/view/AKR20261029150600003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T06:31:11Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261029-0310",
+      "headline": "대구시당, 호남 반도체 전력 인프라 조정 반대",
+      "summary": [
+        "국민의힘 대구시당이 호남 반도체 산업단지 전력 공급을 위한 조정에 반대한다고 밝혔다.",
+        "이들은 보도자료를 통해 대구의 전력 인프라에 대한 영향 우려를 나타냈다.",
+        "이 사건은 호남 지역의 반도체 산업 성장에 부정적인 요소로 작용할 가능성이 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "전력 인프라",
+        "부품 공급",
+        "호남 반도체"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "국민의힘 대구시당"
+      ],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T07:13:05Z",
+      "updated_at": "2026-10-29T07:13:05Z",
+      "articles": [
+        {
+          "key": "85825e6bc8846e35",
+          "title": "국힘 대구시당 \"호남 반도체 위한 대구 전력 인프라 조정 반대\"",
+          "url": "https://www.yna.co.kr/view/AKR20261029160800053",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T07:01:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261029-0295",
+      "headline": "삼성전자, 내년 HBM 완판 예고 및 장기계약 체결",
+      "summary": [
+        "삼성전자가 고대역폭메모리(HBM) 내년 물량을 목표가에 완판할 계획이라고 밝혔다.",
+        "대형 고객사와의 메모리 장기 공급계약이 10곳으로 늘었으며 추가 협상도 진행 중이다.",
+        "AI 반도체 수요 확대에 따른 매출 증가로 반도체 사업의 영업이익 역시 호조를 보이고 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM",
+        "삼성전자",
+        "AI 반도체",
+        "장기계약",
+        "비메모리 가동률"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 5,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1, 매체 4곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T02:06:52Z",
+      "updated_at": "2026-10-29T05:56:19Z",
+      "articles": [
+        {
+          "key": "bb89b5b4ee37e399",
+          "title": "삼성전자 \"메모리 장기공급계약 10곳 완료…추가 10곳 협상 중\"",
+          "url": "https://www.inews24.com/view/2020322",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-29T02:01:05Z"
+        },
+        {
+          "key": "c87aaaafc668348b",
+          "title": "삼성전자 \"내년 HBM 물량 완판...고객사 추가 공급 요청 지속\"",
+          "url": "https://www.inews24.com/view/2020339",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-29T02:14:51Z"
+        },
+        {
+          "key": "4ac5baed0c82d378",
+          "title": "삼성전자 \"내년 HBM 완판…10개사와 메모리 장기계약 협상중\"",
+          "url": "https://www.yna.co.kr/view/AKR20261029089900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T02:19:30Z"
+        },
+        {
+          "key": "268d602ad362d2a4",
+          "title": "삼성전자 “10개사와 장기계약 추가 협상 중…내년 HBM 완판”",
+          "url": "https://www.dt.co.kr/article/12092046",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-29T02:49:40Z"
+        },
+        {
+          "key": "a57be256902ee5a3",
+          "title": "삼성전자, 대형 고객 10곳과 메모리 장기계약…내년 HBM '완판'(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261029089951003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T02:57:37Z"
+        },
+        {
+          "key": "43ec139c74f0e178",
+          "title": "삼성전자 \"내년 HBM 완판…메모리 장기계약 10곳 추가 협상\" [DS 컨콜종합]",
+          "url": "https://www.inews24.com/view/2020377",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-29T05:05:08Z"
+        },
+        {
+          "key": "57fd22c27bce233a",
+          "title": "삼성전자 “내년 HBM 완판…비메모리 가동률 100% 넘을 것”",
+          "url": "https://www.etnews.com/20261029000325",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-10-29T05:28:09Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261029-0305",
+      "headline": "삼성전자, 실적 발표일마다 주가 하락 징크스",
+      "summary": [
+        "삼성전자가 반도체 슈퍼 사이클에 힘입어 매 분기 신기록을 경신하고 있다.",
+        "하지만 실적 발표일에는 주가가 지속적으로 하락하는 경향을 보이고 있다.",
+        "이러한 하락 현상은 투자자들에게 불안감을 주며 시장에 부정적인 영향을 미칠 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "실적발표",
+        "주가하락",
+        "삼성전자",
+        "반도체슈퍼사이클"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T05:56:19Z",
+      "updated_at": "2026-10-29T05:56:19Z",
+      "articles": [
+        {
+          "key": "c99f5664c90f5de7",
+          "title": "\"실적 당일에 하락이 공식?\"…삼전, 역대급 발표마다 '하락 징크스'",
+          "url": "https://www.yna.co.kr/view/AKR20261029106100008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T05:08:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261029-0306",
+      "headline": "삼성전자, HBM4 매출 급증으로 AI 반도체 시장 주도",
+      "summary": [
+        "삼성전자가 3분기 고대역폭 메모리 HBM4 매출이 3배 증가했다.",
+        "2027년 HBM 공급이 이미 매진되었으며, HBM4는 전체 HBM 매출의 60%를 차지했다.",
+        "기록적인 84.4조 원의 자본 지출을 발표하며 시장 점유율 목표를 조기 달성했다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "HBM4",
+        "고대역폭 메모리",
+        "AI 반도체",
+        "매출 증가"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-29T05:56:19Z",
+      "updated_at": "2026-10-29T05:56:19Z",
+      "articles": [
+        {
+          "key": "15f20a8b501d0ad9",
+          "title": "Samsung fires back in AI chip race with record W107tr profit",
+          "url": "https://www.koreaherald.com/article/10919169",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-29T05:18:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
     },
     {
       "id": "c20261029-0293",
@@ -1706,50 +2000,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261029-0287",
-      "headline": "삼양사, 차세대 반도체 초순수 이온교환수지 출시",
-      "summary": [
-        "삼양사는 '트리라이트 데이 2026' 행사에서 차세대 이온교환수지 '맥스퓨리티 UPRM500U'를 공개했다.",
-        "이 제품은 초순수의 최종 정제 단계에 사용되며, 나트륨 함량을 기존 모델 대비 94% 낮췄다.",
-        "업계에선 이 혁신적인 수지가 반도체 제조 공정의 품질 향상에 기여할 것으로 기대하고 있다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "이온교환수지",
-        "초순수",
-        "반도체 제조",
-        "삼양사"
-      ],
-      "companies": [
-        "삼양사"
-      ],
-      "event_type": "신제품·신기술·양산",
-      "confirmed": true,
-      "parties": [
-        "삼양사"
-      ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-29T01:12:47Z",
-      "updated_at": "2026-10-29T01:12:47Z",
-      "articles": [
-        {
-          "key": "1835ccf0cb5810c8",
-          "title": "삼양사, 차세대 반도체용 초순수 이온교환수지 공개",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=64494",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-10-29T00:52:01Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 5
     },
     {
       "id": "c20261029-0289",
@@ -7403,53 +7653,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261027-0181",
-      "headline": "삼성디스플레이, 비FMM OLED 기술 개발 가속",
-      "summary": [
-        "삼성디스플레이 이청 사장이 어플라이드머티리얼즈 관계자와 회동했다.",
-        "양측은 비FMM OLED 기술과 관련된 장비 논의가 예상된다.",
-        "이번 회동은 삼성디스플레이의 MPO 기술 개발과 관련이 깊어 주목받고 있다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "OLED",
-        "파인메탈마스크",
-        "비FMM",
-        "MPO",
-        "삼성디스플레이"
-      ],
-      "companies": [
-        "삼성디스플레이",
-        "어플라이드머티리얼즈"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "삼성디스플레이",
-        "어플라이드머티리얼즈"
-      ],
-      "importance": 3,
-      "importance_reason": "업계 일반 2점, 관심 기업(삼성디스플레이) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-27T05:47:32Z",
-      "updated_at": "2026-10-27T05:47:32Z",
-      "articles": [
-        {
-          "key": "8ffb48468786691b",
-          "title": "이청 삼성D 사장, 어플라이드 최고위 관계자 회동",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=64306",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-10-27T05:27:49Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261027-0177",
