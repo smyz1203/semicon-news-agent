@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29T03:59:42Z",
+  "updated_at": "2026-10-29T04:59:40Z",
   "issues": [
     {
       "id": "c20261029-0288",
@@ -33,7 +33,7 @@
       "attempts": 0,
       "region": "both",
       "first_seen": "2026-10-29T01:12:47Z",
-      "updated_at": "2026-10-29T03:59:42Z",
+      "updated_at": "2026-10-29T04:59:40Z",
       "articles": [
         {
           "key": "2dc6228cf001b730",
@@ -226,10 +226,392 @@
           "source": "연합뉴스",
           "lang": "ko",
           "published_at": "2026-10-29T02:39:08Z"
+        },
+        {
+          "key": "0f8b303870f242e0",
+          "title": "삼성전자 2026년 3분기 실적발표 컨퍼런스콜 전문",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64531",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-29T04:27:45Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 5
+    },
+    {
+      "id": "c20261029-0293",
+      "headline": "삼성전자, HBM 공급 완판 및 수급 전망 발표",
+      "summary": [
+        "삼성전자는 내년 HBM 고대역폭 메모리가 완판되었고, 2028년까지 수급이 빠듯할 것이라 밝혔다.",
+        "AI 수요 급증으로 HBM 공급량 증대의 어려움이 지속될 것으로 보이며, 장기공급계약(LTA) 체결이 증가하고 있다.",
+        "파운드리 사업 부문에서도 성장 기대가 크며, 2나노미터 공정 수주가 전년 대비 2배 이상 증가할 전망이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM",
+        "수급부족",
+        "AI수요",
+        "장기공급계약",
+        "2나노미터"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T02:06:52Z",
+      "updated_at": "2026-10-29T04:59:40Z",
+      "articles": [
+        {
+          "key": "959c0db8d6b28603",
+          "title": "[속보] 삼성전자 \"내년 HBM 공급협상 완료…완판속 추가 요청\"",
+          "url": "https://www.yna.co.kr/view/AKR20261029088900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T01:55:39Z"
+        },
+        {
+          "key": "056770f3d91828f4",
+          "title": "삼성전자 \"메모리, 2028년까지 수급 빠듯...내년 HBM 완판\"",
+          "url": "https://zdnet.co.kr/view/?no=20261029114926",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-29T03:21:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261028-0245",
+      "headline": "LG디스플레이, 광저우에 2000억원 투자",
+      "summary": [
+        "LG디스플레이가 중국 광저우에 2000억원을 투자해 세계 최초의 111인치 OLED 생산라인을 구축한다.",
+        "이 라인은 2027년 가동을 목표로 하며 글로벌 OLED 시장에서 경쟁력을 높이는 계기가 될 전망이다.",
+        "특히, 대형 OLED 제품에 대한 수요 증가로 인해 LG디스플레이의 시장 점유율 확대에 기여할 것으로 기대된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "LG디스플레이",
+        "OLED",
+        "광저우",
+        "대형 패널",
+        "투자"
+      ],
+      "companies": [
+        "LG디스플레이"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이"
+      ],
+      "importance": 4,
+      "importance_reason": "설비 투자 3점, 관심 기업(LG디스플레이) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-10-28T04:57:49Z",
+      "updated_at": "2026-10-29T04:59:40Z",
+      "articles": [
+        {
+          "key": "ae4315adf94a66f9",
+          "title": "LG디스플레이, 中 광저우에 2000억원 투자",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64415",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-28T03:57:18Z"
+        },
+        {
+          "key": "120e0a8d2b798a2c",
+          "title": "LGD invests in Guangzhou for world's first 111-inch OLED line",
+          "url": "https://www.digitimes.com/news/a20261029PD203/lg-display-investment-plant-production-large-size.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-29T03:20:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261029-0299",
+      "headline": "엔비디아, Rubin 플랫폼 HBM4 밴드위드 축소",
+      "summary": [
+        "엔비디아는 Rubin 플랫폼에 대한 HBM4의 밴드위드를 축소한 것으로 알려졌다.",
+        "해당 결정은 기술적인 요구와 공급 측면을 고려한 것으로 추측된다.",
+        "이러한 변화는 반도체 산업에서 고속 메모리 수요에 영향을 미칠 수 있다."
+      ],
+      "category": "기타",
+      "tags": [
+        "HBM4",
+        "엔비디아",
+        "Rubin 플랫폼"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(엔비디아) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-29T04:59:40Z",
+      "updated_at": "2026-10-29T04:59:40Z",
+      "articles": [
+        {
+          "key": "a2fc66a059af59e8",
+          "title": "Nvidia trims HBM4 bandwidth for Rubin platform, sources say",
+          "url": "https://www.digitimes.com/news/a20261029PD202/nvidia-hbm4-bandwidth-rubin-hbm.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-29T03:09:45Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261029-0300",
+      "headline": "삼성전자·SK하이닉스, 메모리 공급 투자 연기",
+      "summary": [
+        "삼성전자와 SK하이닉스가 메모리 공급 확대를 위해 110조 원을 투자할 예정이다.",
+        "그러나 해당 공급 증대 일정이 2028년으로 미뤄졌다.",
+        "이러한 결정은 반도체 시장의 공급망 안정성과 경쟁력에 큰 영향을 미칠 것으로 예상된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "메모리",
+        "투자",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자, SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-29T04:59:40Z",
+      "updated_at": "2026-10-29T04:59:40Z",
+      "articles": [
+        {
+          "key": "0ed09b30cc7c706b",
+          "title": "Samsung, SK Hynix invest KRW110 trillion as memory supply boost slips to 2028",
+          "url": "https://www.digitimes.com/news/a20261029PD208/samsung-sk-hynix-2028-equipment-2026.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-29T03:47:21Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261029-0301",
+      "headline": "CXMT, HBM3E 양산 시작하지만 수율 낮아",
+      "summary": [
+        "CXMT가 국내 시장의 수급이 긴축된 가운데 HBM3E 생산을 시작했다.",
+        "하지만 초기 수율이 낮아 생산에 어려움을 겪고 있는 상황이다.",
+        "이번 결정은 HBM 시장의 경쟁력 강화를 위한 전략으로 보인다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM3E",
+        "CXMT",
+        "수율",
+        "반도체 생산"
+      ],
+      "companies": [
+        "CXMT"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "CXMT"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-29T04:59:40Z",
+      "updated_at": "2026-10-29T04:59:40Z",
+      "articles": [
+        {
+          "key": "fe78e850c1c6ae7b",
+          "title": "CXMT to start HBM3E production despite low yields amid tight domestic market",
+          "url": "https://www.digitimes.com/news/a20261029VL216/cxmt-production-hbm3e-market-dram.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-29T04:15:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261029-0302",
+      "headline": "삼성디스플레이, 3분기 영업익 1.1조원 기록",
+      "summary": [
+        "삼성디스플레이는 3분기에 8조원의 매출과 1.1조원의 영업이익을 발표했다.",
+        "고객사의 신제품 출시로 중소형 OLED 패널 공급이 증가했으며, 대형 OLED 사업도 개선됐다.",
+        "2분기 대비 매출은 6.7%, 영업이익은 57.1% 증가하며 실적이 회복세를 보이고 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "삼성디스플레이",
+        "중소형 OLED",
+        "대형 OLED",
+        "실적",
+        "3분기",
+        "영업이익"
+      ],
+      "companies": [
+        "삼성디스플레이"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성디스플레이"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성디스플레이) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T04:59:40Z",
+      "updated_at": "2026-10-29T04:59:40Z",
+      "articles": [
+        {
+          "key": "d99f7796c80af128",
+          "title": "삼성D, 3분기 영업익 1.1조…내년 폴더블·IT OLED 확대",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64529",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-29T04:30:59Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261029-0303",
+      "headline": "삼성전자 엑시노스 2700 시장 점유율 증가 기대",
+      "summary": [
+        "삼성전자가 엑시노스 2700의 시장 점유율 확대를 전망했다.",
+        "신승철 부사장은 AI와 게이밍 성능 향상 덕분에 차질 없이 양산하고 있다고 밝혔다.",
+        "이러한 경쟁력 강화로 스마트폰 AP 시장에서 점유율 증가가 기대된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엑시노스 2700",
+        "AI 성능",
+        "게이밍 성능",
+        "스마트폰 AP"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "시장 전망·통계 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T04:59:40Z",
+      "updated_at": "2026-10-29T04:59:40Z",
+      "articles": [
+        {
+          "key": "eb00d39749739692",
+          "title": "삼성전자, \"엑시노스 2700 시장점유율 확대 전망\"",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64526",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-29T04:33:50Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261029-0304",
+      "headline": "유니버설 디스플레이, 2026년 3분기 실적 발표",
+      "summary": [
+        "유니버설 디스플레이가 2026년 3분기 실적을 발표했다. 매출은 1억 6040만 달러로 지난해 동기 대비 14% 증가했으며, 순이익은 7890만 달러로 늘어났다.",
+        "소재 판매는 감소했지만 로열티와 라이센스 수익이 40% 이상 증가했다. 2026년 매출 예상은 6억 3000만~6억 7000만 달러 하단으로 조정됐다.",
+        "주식 96만3333주를 7880만 달러에 재매입했다고 발표했다. 이는 안정적인 재무 건강성을 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "유니버설디스플레이",
+        "실적",
+        "OLED",
+        "매출증가",
+        "재매입"
+      ],
+      "companies": [
+        "유니버설 디스플레이"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "유니버설 디스플레이"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-29T04:59:40Z",
+      "updated_at": "2026-10-29T04:59:40Z",
+      "articles": [
+        {
+          "key": "f526af08149a1405",
+          "title": "Universal Display reports its financial results for Q3 2026, with a 14% increase in revenues from Q3 2025",
+          "url": "https://www.oled-info.com/universal-display-reports-its-financial-results-q3-2026-14-increase-revenues-q3",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-10-29T04:50:19Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261029-0295",
@@ -624,51 +1006,6 @@
           "source": "아이뉴스24",
           "lang": "ko",
           "published_at": "2026-10-29T01:40:17Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
-    },
-    {
-      "id": "c20261029-0293",
-      "headline": "삼성전자, 내년 HBM 공급 협상 완료 소식",
-      "summary": [
-        "삼성전자는 내년 HBM 공급 협상이 완료되었음을 발표했다.",
-        "이는 완판에 따른 추가 요청을 포함하며, 고객 수요가 높음을 보여준다.",
-        "HBM 시장에서 삼성전자의 경쟁력이 더욱 강화될 것으로 예상된다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "HBM",
-        "삼성전자",
-        "공급 협상",
-        "완판",
-        "고객 수요"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 4,
-      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-29T02:06:52Z",
-      "updated_at": "2026-10-29T02:06:52Z",
-      "articles": [
-        {
-          "key": "959c0db8d6b28603",
-          "title": "[속보] 삼성전자 \"내년 HBM 공급협상 완료…완판속 추가 요청\"",
-          "url": "https://www.yna.co.kr/view/AKR20261029088900003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-29T01:55:39Z"
         }
       ],
       "type_checked": true,
@@ -3817,53 +4154,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261028-0245",
-      "headline": "LG디스플레이, 광저우에 2000억원 투자 결정",
-      "summary": [
-        "LG디스플레이가 광저우 공장에 2000억원을 투자해 OLED 모듈 생산라인을 확대한다.",
-        "국유기업과 협력하여 기존 생산시설을 111인치까지 확장하며, 10억위안을 추가 출자한다.",
-        "이번 투자는 LG디스플레이의 글로벌 시장 경쟁력 강화에 기여할 것으로 예상된다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "OLED",
-        "광저우",
-        "LG디스플레이",
-        "생산라인",
-        "투자"
-      ],
-      "companies": [
-        "LG디스플레이",
-        "광저우개발구홀딩스그룹"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": true,
-      "parties": [
-        "LG디스플레이",
-        "광저우개발구홀딩스그룹"
-      ],
-      "importance": 4,
-      "importance_reason": "설비 투자 3점, 관심 기업(LG디스플레이) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-28T04:57:49Z",
-      "updated_at": "2026-10-28T04:57:49Z",
-      "articles": [
-        {
-          "key": "ae4315adf94a66f9",
-          "title": "LG디스플레이, 中 광저우에 2000억원 투자",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=64415",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-10-28T03:57:18Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
     },
     {
       "id": "c20261028-0246",
