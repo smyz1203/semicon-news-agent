@@ -1,93 +1,7 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29T09:06:49Z",
+  "updated_at": "2026-10-29T10:02:09Z",
   "issues": [
-    {
-      "id": "c20261029-0315",
-      "headline": "경남도, 호남 반도체 전력망 구축 반대",
-      "summary": [
-        "경남도는 호남지역 반도체 전력망 구축에 반대 의견을 밝혔다.",
-        "현재 경남에서 진행 중인 변전소 2곳 건설이 문제로 지적되었다.",
-        "이 문제는 반도체 산업의 전력 공급 안정성에 영향을 미칠 것으로 보인다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "반도체 전력망",
-        "변전소",
-        "경남도",
-        "호남지역"
-      ],
-      "companies": [],
-      "event_type": "지역·인프라",
-      "confirmed": true,
-      "parties": [
-        "경남도"
-      ],
-      "importance": 2,
-      "importance_reason": "지역·인프라 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-29T09:06:49Z",
-      "updated_at": "2026-10-29T09:06:49Z",
-      "articles": [
-        {
-          "key": "ee67cb5a110e05b6",
-          "title": "경남도, 호남 반도체 전력망 구축에 지역 변압기 전용 반대",
-          "url": "https://www.yna.co.kr/view/AKR20261029180400052",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-29T08:11:07Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261029-0316",
-      "headline": "삼성전자, 가격 인상으로 역대 분기 실적 달성",
-      "summary": [
-        "삼성전자가 지난 분기에 가격 상승으로 역대 최고 실적을 기록했다.",
-        "2028년 이전까지 수요자들에게 부담이 계속될 것으로 예상된다.",
-        "이는 반도체 시장의 가격 변동성이 기업 실적에 큰 영향을 미친다는 것을 보여준다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "삼성전자",
-        "반도체",
-        "실적",
-        "가격 인상"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 4,
-      "importance_reason": "실적 3점, 관심 기업(삼성전자) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-29T09:06:49Z",
-      "updated_at": "2026-10-29T09:06:49Z",
-      "articles": [
-        {
-          "key": "075f34778b2fb9b6",
-          "title": "Analysis: Samsung's record quarter came from higher prices, not more chips; expects buyers to get no relief before 2028",
-          "url": "https://www.digitimes.com/news/a20261029VL217/samsung-hbm-chips-profit-2028.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-10-29T08:30:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
-    },
     {
       "id": "c20261029-0288",
       "headline": "삼성전자, 3분기 영업이익 107.4조원 달성",
@@ -119,7 +33,7 @@
       "attempts": 0,
       "region": "both",
       "first_seen": "2026-10-29T01:12:47Z",
-      "updated_at": "2026-10-29T08:13:48Z",
+      "updated_at": "2026-10-29T10:02:09Z",
       "articles": [
         {
           "key": "2dc6228cf001b730",
@@ -344,10 +258,338 @@
           "source": "Korea Herald",
           "lang": "en",
           "published_at": "2026-10-29T07:52:12Z"
+        },
+        {
+          "key": "5c29de8b4632666e",
+          "title": "삼전, 메모리로 영업익 100조… 폰·가전은 ‘여전히 적자’",
+          "url": "https://www.dt.co.kr/article/12092208",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-29T09:51:33Z"
+        },
+        {
+          "key": "caa21fb44e223e7a",
+          "title": "[기획] ‘추가 주주환원’ 없었다… 엇갈린 삼전닉스 주가",
+          "url": "https://www.dt.co.kr/article/12092209",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-29T09:52:26Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 5
+    },
+    {
+      "id": "c20261029-0317",
+      "headline": "AUO, 타이중 공장을 TSMC에 3,880억 대만달러에 판매",
+      "summary": [
+        "AUO가 타이중 공장을 TSMC에 3,880억 대만달러에 매각했다.",
+        "이 거래는 2026년 10월 29일 발표되었으며, Quanta와의 파트너십은 취소되었다.",
+        "이번 매각은 TSMC의 생산능력 확대 전략의 일환으로 분석된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "TSMC",
+        "AUO",
+        "타이중 공장",
+        "공장 매각"
+      ],
+      "companies": [
+        "TSMC",
+        "AUO"
+      ],
+      "event_type": "인수합병",
+      "confirmed": true,
+      "parties": [
+        "AUO",
+        "TSMC"
+      ],
+      "importance": 2,
+      "importance_reason": "인수합병 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-29T10:02:09Z",
+      "updated_at": "2026-10-29T10:02:09Z",
+      "articles": [
+        {
+          "key": "a353d9ef16a41641",
+          "title": "AUO sells Taichung plant to TSMC for NT$38.8B, scraps Quanta deal",
+          "url": "https://www.digitimes.com/news/a20261029PD237/auo-tsmc-plant-infrastructure-development.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-29T09:06:35Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261029-0318",
+      "headline": "한화세미텍, 반도체 장비 매출 115% 증가",
+      "summary": [
+        "한화세미텍은 2026년 3분기 반도체 장비 매출이 848억원으로 115.2% 급증했다고 발표했다.",
+        "이에 따라 전체 매출은 1698억원으로, 지난해 같은 기간 대비 56% 상승했다.",
+        "이번 성장은 SMT와 공작기계 부문의 성장에 기인하며, 영업흑자를 지속적으로 기록 중이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "반도체 장비",
+        "SMT",
+        "매출 증가",
+        "공작기계",
+        "영업흑자"
+      ],
+      "companies": [
+        "한화세미텍"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "한화세미텍"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T10:02:09Z",
+      "updated_at": "2026-10-29T10:02:09Z",
+      "articles": [
+        {
+          "key": "2d0e4ef207b60f22",
+          "title": "한화세미텍, 반도체 장비 매출 115% 폭풍 성장",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64563",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-29T09:14:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261029-0319",
+      "headline": "이비덴, 1조2800억원 투자해 CPU 기판 확대",
+      "summary": [
+        "이비덴은 AI 서버용 CPU 패키지 기판 생산능력을 늘리기 위해 1조2800억원을 투자한다.",
+        "일본 기후현 가마 공장에서 생산능력을 확대하며, 2029회계연도부터 가동을 시작할 예정이다.",
+        "AI 수요 증가에 따라 CPU 기판의 시장이 커질 것으로 예상된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "CPU 기판",
+        "AI 서버",
+        "반도체 패키지",
+        "투자",
+        "생산능력",
+        "이비덴"
+      ],
+      "companies": [
+        "이비덴"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "이비덴"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T10:02:09Z",
+      "updated_at": "2026-10-29T10:02:09Z",
+      "articles": [
+        {
+          "key": "b112d8b19396946b",
+          "title": "이비덴, 1조3000억원 투입해 CPU 기판 생산능력 확충",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64567",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-29T09:30:16Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261029-0320",
+      "headline": "아테코, 메모리 후공정 장비로 코스닥 상장 도전",
+      "summary": [
+        "메모리 반도체 후공정 장비 업체 아테코가 코스닥 상장예비심사를 신청했다.",
+        "미래에셋증권과 IBK투자증권이 주관사를 맡아 상장 자금을 통해 제품군을 강화할 예정이다.",
+        "기술특례상장 제도를 활용하여 기술력을 인정받아 상장할 계획이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "메모리 반도체",
+        "기술특례상장",
+        "테스트 핸들러",
+        "코스닥상장"
+      ],
+      "companies": [
+        "아테코",
+        "미래에셋증권",
+        "IBK투자증권"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "아테코",
+        "미래에셋증권",
+        "IBK투자증권"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T10:02:09Z",
+      "updated_at": "2026-10-29T10:02:09Z",
+      "articles": [
+        {
+          "key": "c6ef1de5f9545e80",
+          "title": "'메모리 후공정 장비사' 아테코, 코스닥 기술상장 도전",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64543",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-29T09:41:47Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261029-0321",
+      "headline": "국민성장펀드, 1조원 규모 반도체 투자 추진",
+      "summary": [
+        "금융당국이 국민성장펀드를 통해 1조원 규모의 투자를 발표했다.",
+        "주요 투자 분야는 태양광 발전 인프라와 반도체 전공정 설비 확대다.",
+        "이 사업은 국내 반도체 밸류체인 강화에 기여할 것으로 기대된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "국민성장펀드",
+        "반도체",
+        "태양광 발전",
+        "전공정",
+        "투자"
+      ],
+      "companies": [],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T10:02:09Z",
+      "updated_at": "2026-10-29T10:02:09Z",
+      "articles": [
+        {
+          "key": "d581e50da0196839",
+          "title": "국민성장펀드, 국내 최대 태양광 발전소·반도체 밸류체인 투자",
+          "url": "https://www.yna.co.kr/view/AKR20261029196900002",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T09:48:30Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261029-0315",
+      "headline": "경남도, 호남 반도체 전력망 구축 반대",
+      "summary": [
+        "경남도는 호남지역 반도체 전력망 구축에 반대 의견을 밝혔다.",
+        "현재 경남에서 진행 중인 변전소 2곳 건설이 문제로 지적되었다.",
+        "이 문제는 반도체 산업의 전력 공급 안정성에 영향을 미칠 것으로 보인다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체 전력망",
+        "변전소",
+        "경남도",
+        "호남지역"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "경남도"
+      ],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T09:06:49Z",
+      "updated_at": "2026-10-29T09:06:49Z",
+      "articles": [
+        {
+          "key": "ee67cb5a110e05b6",
+          "title": "경남도, 호남 반도체 전력망 구축에 지역 변압기 전용 반대",
+          "url": "https://www.yna.co.kr/view/AKR20261029180400052",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T08:11:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261029-0316",
+      "headline": "삼성전자, 가격 인상으로 역대 분기 실적 달성",
+      "summary": [
+        "삼성전자가 지난 분기에 가격 상승으로 역대 최고 실적을 기록했다.",
+        "2028년 이전까지 수요자들에게 부담이 계속될 것으로 예상된다.",
+        "이는 반도체 시장의 가격 변동성이 기업 실적에 큰 영향을 미친다는 것을 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "삼성전자",
+        "반도체",
+        "실적",
+        "가격 인상"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-29T09:06:49Z",
+      "updated_at": "2026-10-29T09:06:49Z",
+      "articles": [
+        {
+          "key": "075f34778b2fb9b6",
+          "title": "Analysis: Samsung's record quarter came from higher prices, not more chips; expects buyers to get no relief before 2028",
+          "url": "https://www.digitimes.com/news/a20261029VL217/samsung-hbm-chips-profit-2028.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-29T08:30:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
     },
     {
       "id": "c20261029-0305",
