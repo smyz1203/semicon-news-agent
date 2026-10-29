@@ -1,7 +1,93 @@
 {
   "version": 1,
-  "updated_at": "2026-10-29T08:13:48Z",
+  "updated_at": "2026-10-29T09:06:49Z",
   "issues": [
+    {
+      "id": "c20261029-0315",
+      "headline": "경남도, 호남 반도체 전력망 구축 반대",
+      "summary": [
+        "경남도는 호남지역 반도체 전력망 구축에 반대 의견을 밝혔다.",
+        "현재 경남에서 진행 중인 변전소 2곳 건설이 문제로 지적되었다.",
+        "이 문제는 반도체 산업의 전력 공급 안정성에 영향을 미칠 것으로 보인다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체 전력망",
+        "변전소",
+        "경남도",
+        "호남지역"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "경남도"
+      ],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-29T09:06:49Z",
+      "updated_at": "2026-10-29T09:06:49Z",
+      "articles": [
+        {
+          "key": "ee67cb5a110e05b6",
+          "title": "경남도, 호남 반도체 전력망 구축에 지역 변압기 전용 반대",
+          "url": "https://www.yna.co.kr/view/AKR20261029180400052",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-29T08:11:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261029-0316",
+      "headline": "삼성전자, 가격 인상으로 역대 분기 실적 달성",
+      "summary": [
+        "삼성전자가 지난 분기에 가격 상승으로 역대 최고 실적을 기록했다.",
+        "2028년 이전까지 수요자들에게 부담이 계속될 것으로 예상된다.",
+        "이는 반도체 시장의 가격 변동성이 기업 실적에 큰 영향을 미친다는 것을 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "삼성전자",
+        "반도체",
+        "실적",
+        "가격 인상"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-29T09:06:49Z",
+      "updated_at": "2026-10-29T09:06:49Z",
+      "articles": [
+        {
+          "key": "075f34778b2fb9b6",
+          "title": "Analysis: Samsung's record quarter came from higher prices, not more chips; expects buyers to get no relief before 2028",
+          "url": "https://www.digitimes.com/news/a20261029VL217/samsung-hbm-chips-profit-2028.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-29T08:30:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
     {
       "id": "c20261029-0288",
       "headline": "삼성전자, 3분기 영업이익 107.4조원 달성",
