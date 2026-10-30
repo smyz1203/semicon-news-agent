@@ -2779,5 +2779,36 @@
     "alerts": [
       "AI 중단: 크레딧 부족 또는 사용 한도 초과"
     ]
+  },
+  {
+    "at": "2026-10-30T02:59:50Z",
+    "collected": 740,
+    "new": 85,
+    "relevant": 0,
+    "groups": 52,
+    "deferred": 52,
+    "irrelevant_by_ai": 0,
+    "new_issues": 0,
+    "summarized": 0,
+    "resummarized": 0,
+    "classified": 0,
+    "pending": 1,
+    "failed": 0,
+    "sources_ok": 18,
+    "sources_total": 18,
+    "ai_model": "openai/gpt-4o-mini",
+    "ai_calls": 0,
+    "tokens": {
+      "calls": 0,
+      "input": 0,
+      "output": 0,
+      "cache_write": 0,
+      "cache_read": 0
+    },
+    "cost_usd": 0.0,
+    "ai_stopped": "크레딧 부족 또는 사용 한도 초과",
+    "alerts": [
+      "AI 중단: 크레딧 부족 또는 사용 한도 초과"
+    ]
   }
 ]
