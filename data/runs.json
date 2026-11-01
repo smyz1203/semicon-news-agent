@@ -1,34 +1,5 @@
 [
   {
-    "at": "2026-10-28T03:57:08Z",
-    "collected": 750,
-    "new": 61,
-    "relevant": 9,
-    "groups": 9,
-    "deferred": 0,
-    "irrelevant_by_ai": 4,
-    "new_issues": 3,
-    "summarized": 5,
-    "resummarized": 2,
-    "classified": 0,
-    "pending": 0,
-    "failed": 0,
-    "sources_ok": 17,
-    "sources_total": 18,
-    "ai_model": "openai/gpt-4o-mini",
-    "ai_calls": 17,
-    "tokens": {
-      "calls": 17,
-      "input": 17820,
-      "output": 4505,
-      "cache_write": 0,
-      "cache_read": 22400
-    },
-    "cost_usd": 0.0071,
-    "ai_stopped": null,
-    "alerts": []
-  },
-  {
     "at": "2026-10-28T04:57:49Z",
     "collected": 738,
     "new": 64,
@@ -3007,6 +2978,37 @@
     "relevant": 0,
     "groups": 78,
     "deferred": 78,
+    "irrelevant_by_ai": 0,
+    "new_issues": 0,
+    "summarized": 0,
+    "resummarized": 0,
+    "classified": 0,
+    "pending": 1,
+    "failed": 0,
+    "sources_ok": 18,
+    "sources_total": 18,
+    "ai_model": "openai/gpt-4o-mini",
+    "ai_calls": 0,
+    "tokens": {
+      "calls": 0,
+      "input": 0,
+      "output": 0,
+      "cache_write": 0,
+      "cache_read": 0
+    },
+    "cost_usd": 0.0,
+    "ai_stopped": "API 키 또는 모델 설정 문제 (AuthenticationError)",
+    "alerts": [
+      "AI 중단: API 키 또는 모델 설정 문제 (AuthenticationError)"
+    ]
+  },
+  {
+    "at": "2026-11-01T08:58:13Z",
+    "collected": 349,
+    "new": 86,
+    "relevant": 0,
+    "groups": 74,
+    "deferred": 74,
     "irrelevant_by_ai": 0,
     "new_issues": 0,
     "summarized": 0,
