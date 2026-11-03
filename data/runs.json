@@ -1,36 +1,5 @@
 [
   {
-    "at": "2026-10-30T02:59:50Z",
-    "collected": 740,
-    "new": 85,
-    "relevant": 0,
-    "groups": 52,
-    "deferred": 52,
-    "irrelevant_by_ai": 0,
-    "new_issues": 0,
-    "summarized": 0,
-    "resummarized": 0,
-    "classified": 0,
-    "pending": 1,
-    "failed": 0,
-    "sources_ok": 18,
-    "sources_total": 18,
-    "ai_model": "openai/gpt-4o-mini",
-    "ai_calls": 0,
-    "tokens": {
-      "calls": 0,
-      "input": 0,
-      "output": 0,
-      "cache_write": 0,
-      "cache_read": 0
-    },
-    "cost_usd": 0.0,
-    "ai_stopped": "크레딧 부족 또는 사용 한도 초과",
-    "alerts": [
-      "AI 중단: 크레딧 부족 또는 사용 한도 초과"
-    ]
-  },
-  {
     "at": "2026-10-30T03:59:33Z",
     "collected": 744,
     "new": 132,
@@ -3094,6 +3063,35 @@
       "cache_read": 155101
     },
     "cost_usd": 0.0381,
+    "ai_stopped": null,
+    "alerts": []
+  },
+  {
+    "at": "2026-11-03T15:27:39Z",
+    "collected": 955,
+    "new": 89,
+    "relevant": 89,
+    "groups": 86,
+    "deferred": 0,
+    "irrelevant_by_ai": 35,
+    "new_issues": 40,
+    "summarized": 59,
+    "resummarized": 1,
+    "classified": 0,
+    "pending": 0,
+    "failed": 0,
+    "sources_ok": 18,
+    "sources_total": 18,
+    "ai_model": "claude/claude-haiku-5-5",
+    "ai_calls": 155,
+    "tokens": {
+      "calls": 155,
+      "input": 258827,
+      "output": 63002,
+      "cache_write": 13421,
+      "cache_read": 343818
+    },
+    "cost_usd": 0.0625,
     "ai_stopped": null,
     "alerts": []
   }
