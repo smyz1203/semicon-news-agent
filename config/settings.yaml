@@ -36,8 +36,9 @@ effort:
 
 # ── 한도 (비용 폭주 방지) ─────────────────────────────────
 limits:
-  max_articles_per_run: 80     # 1차 거르기 후 AI에 넘길 최대 기사 묶음 수
-  max_summaries_per_run: 30    # 한 번 실행에서 요약할 최대 이슈 수
+  # 실행이 멈췄다 다시 켜지면 밀린 기사가 한꺼번에 오므로, 한두 번 실행에 다 처리할 만큼 잡음 (Haiku 5.5 기준 저렴)
+  max_articles_per_run: 120    # 1차 거르기 후 AI에 넘길 최대 기사 묶음 수
+  max_summaries_per_run: 60    # 한 번 실행에서 요약할 최대 이슈 수
   cluster_max_tokens: 8000     # 묶기 호출 1회의 최대 출력 토큰
   summarize_max_tokens: 4000   # 요약 호출 1회의 최대 출력 토큰
   summary_input_chars: 1500    # 요약에 넘길 기사 1건당 최대 글자 수

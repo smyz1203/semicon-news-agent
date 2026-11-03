@@ -3,6 +3,8 @@
 from dataclasses import replace
 from datetime import datetime, timedelta, timezone
 
+import pytest
+
 from agent import main, store
 from agent.analyze import AIStopped
 from agent.collect import Article, url_key
@@ -162,6 +164,29 @@ def test_deferred_groups_are_processed_next_run(tmp_path, monkeypatch):
     assert len(store.load_issues(tmp_path)) == 3
 
 
+def test_late_articles_are_dated_by_publish_time(tmp_path, monkeypatch):
+    # 실행이 멈췄다가 다시 켜져 사흘 전 기사를 처리해도, 추이 그래프·기간 필터에서는 사흘 전 이슈로 보여야 함
+    old = NOW - timedelta(hours=72)
+    setup(monkeypatch, articles=[replace(a, published_at=old) for a in ARTICLES[:2]])
+    main.run(data_dir=tmp_path)
+    [issue] = store.load_issues(tmp_path)
+    assert issue["first_seen"] == issue["updated_at"] == store.to_iso(old)
+
+
+def test_lookback_hours_widens_collection_for_one_run(tmp_path, monkeypatch):
+    setup(monkeypatch)
+    used = []
+    real_collect = main.collect
+    monkeypatch.setattr(main, "collect", lambda cfg, now: (used.append(cfg.settings["lookback"]["max_age_hours"]),
+                                                           real_collect(cfg, now))[1])
+    main.run(data_dir=tmp_path, lookback_hours=130)
+    main.run(data_dir=tmp_path)
+    assert used == [130, load_config().settings["lookback"]["max_age_hours"]]  # 다음 실행은 원래대로
+    # 이미 처리한 기사를 기억하는 기간(14일)보다 길면 같은 기사를 또 처리할 수 있어 막음
+    with pytest.raises(SystemExit, match="lookback-hours"):
+        main.run(data_dir=tmp_path, lookback_hours=24 * 15)
+
+
 def test_failed_resummary_is_retried(tmp_path, monkeypatch):
     setup(monkeypatch, articles=ARTICLES[:1])
     main.run(data_dir=tmp_path)
@@ -210,7 +235,6 @@ def test_without_api_key_articles_wait_for_next_run(tmp_path, monkeypatch):
 
 
 def test_invalid_provider_stops_with_clear_message(tmp_path, monkeypatch):
-    import pytest
     real = load_config()
     real.settings["provider"] = "gemini"
     monkeypatch.setattr(main, "load_config", lambda: real)

@@ -29,6 +29,23 @@ def test_new_source_marks_issue_for_resummary():
     assert issue["needs_summary"] is False
 
 
+def test_issue_times_follow_article_publish_times():
+    # 실행이 멈췄다가 밀린 기사를 늦게 처리해도 이슈는 기사가 나온 날짜에 보여야 함
+    from types import SimpleNamespace as A
+    issue = store.new_issue({}, NOW)
+    first = A(key="k1", title="t", url="u", source="디일렉", lang="ko", published_at=NOW - timedelta(hours=30))
+    second = A(key="k2", title="t2", url="u2", source="전자신문", lang="ko", published_at=NOW - timedelta(hours=20))
+    store.add_articles(issue, [first, second], NOW)
+    assert issue["first_seen"] == store.to_iso(NOW - timedelta(hours=30))   # 첫 기사 시각
+    assert issue["updated_at"] == store.to_iso(NOW - timedelta(hours=20))   # 마지막 기사 시각
+    store.align_times(issue)  # 여러 번 맞춰도 그대로
+    assert issue["updated_at"] == store.to_iso(NOW - timedelta(hours=20))
+    # 처리한 시각보다 늦은 기사 시각(매체 시계가 앞선 경우)으로는 늦추지 않음
+    ahead = A(key="k3", title="t3", url="u3", source="KIPOST", lang="ko", published_at=NOW + timedelta(minutes=10))
+    store.add_articles(issue, [ahead], NOW)
+    assert issue["updated_at"] == store.to_iso(NOW)
+
+
 def test_renamed_source_is_read_with_new_name(tmp_path):
     # 예전 이름(The Elec)으로 저장된 기사에 새 이름(디일렉) 기사가 붙어도 새 매체가 아님
     from types import SimpleNamespace as A
