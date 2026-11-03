@@ -1,7 +1,189 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03T19:08:34Z",
+  "updated_at": "2026-11-03T20:02:39Z",
   "issues": [
+    {
+      "id": "c20261103-0417",
+      "headline": "보쉬, 2028년 반도체 전담 사업부 신설 추진",
+      "summary": [
+        "보쉬는 반도체 사업을 별도 사업부 Semiconductors로 분리하는 조직 개편을 발표했다.",
+        "2028년 1월 1일부터 반도체 사업을 신설 사업부로 이관하며 모빌리티 부문 소속은 유지한다.",
+        "2030년 반도체 매출 50억 유로 목표로, 로봇·AI 데이터센터 수요 확대에 대응하는 행보다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "반도체 사업부",
+        "조직 개편",
+        "로봇",
+        "AI 데이터센터",
+        "車반도체"
+      ],
+      "companies": [
+        "보쉬"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "보쉬"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T19:53:38Z",
+      "updated_at": "2026-11-03T19:53:38Z",
+      "articles": [
+        {
+          "key": "bfffa75d2255873e",
+          "title": "Bosch Establishes Dedicated Semiconductor Division to Strengthen Chip Business",
+          "url": "https://www.semiconductor-digest.com/bosch-establishes-dedicated-semiconductor-division-to-strengthen-chip-business/?utm_source=rss&utm_medium=rss&utm_campaign=bosch-establishes-dedicated-semiconductor-division-to-strengthen-chip-business",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-03T19:53:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261103-0416",
+      "headline": "엔테그리스, AI 패키징용 SiC·다이아몬드 열관리 소재 시장 진출",
+      "summary": [
+        "엔테그리스가 AI 어드밴스드 패키징용 탄화규소(SiC)·다이아몬드 열관리 소재 시장에 진출한다고 밝혔다.",
+        "다이아몬드 연마재 전문 업체 Advanced Abrasives 인수를 완료했고, 대만에 SiC 솔루션 생산라인 투자를 계획하고 있다.",
+        "AI 연산 확대로 데이터센터의 전력·발열 관리 수요가 커지면서 소재 기업들의 신규 진입이 늘어날 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "SiC CMP",
+        "다이아몬드 연마재",
+        "열관리 소재",
+        "AI 어드밴스드 패키징",
+        "열계면 소재"
+      ],
+      "companies": [
+        "엔테그리스"
+      ],
+      "event_type": "인수합병",
+      "confirmed": true,
+      "parties": [
+        "엔테그리스",
+        "Advanced Abrasives"
+      ],
+      "importance": 2,
+      "importance_reason": "인수합병 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T19:35:55Z",
+      "updated_at": "2026-11-03T19:35:55Z",
+      "articles": [
+        {
+          "key": "c1858eb127dd7722",
+          "title": "Entegris Enters Silicon Carbide and Diamond-Enabled Thermal Management Materials Market for AI Advanced Packaging",
+          "url": "https://www.semiconductor-digest.com/entegris-enters-silicon-carbide-and-diamond-enabled-thermal-management-materials-market-for-ai-advanced-packaging/?utm_source=rss&utm_medium=rss&utm_campaign=entegris-enters-silicon-carbide-and-diamond-enabled-thermal-management-materials-market-for-ai-advanced-packaging",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-03T19:35:55Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261103-0415",
+      "headline": "ACM리서치, 310×310mm 패널급 수평 전해도금 장비 첫 출하",
+      "summary": [
+        "ACM리서치가 310×310mm 패널급 수평 전해도금 양산 장비를 아시아(중국 본토 제외) 고객사에 출하했다.",
+        "이전에 515×510mm 연구개발용 장비를 출하한 데 이어 패널 공정 장비 라인업을 넓힌 사례다.",
+        "패널급 패키징 확산에 맞춰 도금 장비 수요 확대 흐름에 부합하는 성과로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "패널급 패키징",
+        "전해도금",
+        "수평 도금 장비",
+        "어드밴스드 패키징"
+      ],
+      "companies": [
+        "ACM리서치"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "ACM리서치"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T19:32:48Z",
+      "updated_at": "2026-11-03T19:32:48Z",
+      "articles": [
+        {
+          "key": "e1f3775ebc577921",
+          "title": "ACM Research Announces Shipment of Its First 310 × 310 mm Ultra ECP ap-p Panel-Level Horizontal Electroplating Production Tool",
+          "url": "https://www.semiconductor-digest.com/acm-research-announces-shipment-of-its-first-310-x-310-mm-ultra-ecp-ap-p-panel-level-horizontal-electroplating-production-tool/?utm_source=rss&utm_medium=rss&utm_campaign=acm-research-announces-shipment-of-its-first-310-x-310-mm-ultra-ecp-ap-p-panel-level-horizontal-electroplating-production-tool",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-03T19:32:48Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261103-0414",
+      "headline": "타워반도체·Innolight, AI용 니어패키지옵틱스 공동 개발",
+      "summary": [
+        "타워반도체와 Innolight가 니어패키지옵틱스(NPO) 응용 분야에서 협력을 이어간다고 발표했다.",
+        "Innolight의 첫 NPO 소자가 타워 미국 캘리포니아 공장의 PH18M 실리콘포토닉스 공정으로 초기 양산에 들어갔다.",
+        "AI 인프라의 광 연결 대역폭 수요 확대로 플러그형 광모듈을 넘어서는 새 수요가 생길 것으로 기대된다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "니어패키지옵틱스",
+        "실리콘포토닉스",
+        "AI인프라",
+        "광인터커넥트",
+        "300mm"
+      ],
+      "companies": [
+        "타워반도체",
+        "Innolight"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "타워반도체",
+        "Innolight"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T19:25:52Z",
+      "updated_at": "2026-11-03T19:25:52Z",
+      "articles": [
+        {
+          "key": "acfd6c457e8ba0e5",
+          "title": "Tower Semiconductor and Innolight Advance High-Performance Near-Package Optics for AI Infrastructure",
+          "url": "https://www.semiconductor-digest.com/tower-semiconductor-and-innolight-advance-high-performance-near-package-optics-for-ai-infrastructure/?utm_source=rss&utm_medium=rss&utm_campaign=tower-semiconductor-and-innolight-advance-high-performance-near-package-optics-for-ai-infrastructure",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-03T19:25:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
     {
       "id": "c20261103-0413",
       "headline": "삼성디스플레이, 2027년 OLED 패널 가격 인상 루머",
