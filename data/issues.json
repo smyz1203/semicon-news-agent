@@ -1,7 +1,48 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03T20:59:19Z",
+  "updated_at": "2026-11-03T21:57:43Z",
   "issues": [
+    {
+      "id": "c20261103-0418",
+      "headline": "반도체 전문지 11·12월호 주요 기사 목차 소개",
+      "summary": [
+        "Semiconductor Digest가 2026년 11·12월호 목차를 공개했다. 고NA EUV 도입, 2나노 생태계, AI 공급 병목 등 주요 주제가 실렸다.",
+        "기사는 리소그래피, 계측, 오염 관리, CMP, 레이저 공정, 팹 인프라 등 공정 전반을 다룬다. 구체적 수치나 일정은 목차에 나타나지 않는다.",
+        "이번 호는 공정 기술과 소재 병목을 중심으로 업계 방향을 짚는 구성으로, 독자에게 기술 동향 참고 자료가 된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "고NA EUV",
+        "2나노",
+        "AI 공급 병목",
+        "어드밴스드 패키징",
+        "CMP"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T21:19:09Z",
+      "updated_at": "2026-11-03T21:19:09Z",
+      "articles": [
+        {
+          "key": "5c38fad586e2c7e5",
+          "title": "What’s in the November/December 2026 Issue?",
+          "url": "https://www.semiconductor-digest.com/whats-in-the-november-december-2026-issue/?utm_source=rss&utm_medium=rss&utm_campaign=whats-in-the-november-december-2026-issue",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-03T21:19:09Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261103-0417",
       "headline": "보쉬, 2028년 반도체 전담 사업부 신설 추진",
