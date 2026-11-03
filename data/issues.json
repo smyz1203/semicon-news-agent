@@ -1,7 +1,1947 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03T15:02:28Z",
+  "updated_at": "2026-11-03T15:07:05Z",
   "issues": [
+    {
+      "id": "c20261103-0324",
+      "headline": "LG디스플레이·LG엔솔, 늦은 공시로 불성실공시법인 지정",
+      "summary": [
+        "LG디스플레이와 LG에너지솔루션이 전직 임원 배임 혐의를 8개월 늦게 공시해 불성실공시법인으로 지정됐다.",
+        "한국거래소는 두 회사에 각 800만원, 총 1600만원의 제재금을 부과했고 지정일은 3일이다.",
+        "벌점이 0점이라 상장적격성 실질심사 대상은 아니어서 실질적 영향은 제한적이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "불성실공시",
+        "공시위반",
+        "배임 고소",
+        "제재금",
+        "상장적격성"
+      ],
+      "companies": [
+        "LG디스플레이",
+        "LG에너지솔루션"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이",
+        "LG에너지솔루션"
+      ],
+      "importance": 4,
+      "importance_reason": "소송·특허 3점, 관심 기업(LG디스플레이) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "8784f717adc5e7b8",
+          "title": "LGD·LG엔솔, 불성실공시법인 지정",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64728",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-02T21:00:55Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261103-0325",
+      "headline": "AI 이미지 보정으로 플립칩 접합 결함 탐지 향상",
+      "summary": [
+        "MCL·PVA TePla·ASE 연구진이 AI 기반 영상 보정 워크플로를 담은 논문을 발표했다.",
+        "극저유전율 층의 균열(화이트 범프) 탐지를 위해 주사 음향 현미경(SAM) 영상을 개선하는 방식이다.",
+        "첨단 패키징의 실패 분석 정확도를 높일 수 있는 연구 성과로 평가된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "플립칩",
+        "첨단 패키징",
+        "AI 이미지 보정",
+        "주사 음향 현미경",
+        "화이트 범프",
+        "실패 분석"
+      ],
+      "companies": [
+        "ASE",
+        "PVA TePla"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "MCL",
+        "PVA TePla",
+        "ASE"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "e4de900a7c17603e",
+          "title": "AI Image Enhancement Improves Detection Of Flip-Chip Interconnect Defects (MCL, PVA TePla, ASE)",
+          "url": "https://semiengineering.com/ai-image-enhancement-improves-detection-of-flip-chip-interconnect-defects-mcl-pva-tepla-ase/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-02T21:08:45Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261103-0326",
+      "headline": "애플, 차세대 OLED용 HMO 증착 방식 검토 중",
+      "summary": [
+        "애플이 차세대 OLED 패널용 고이동도 산화물(HMO) 기술을 개발하며 스퍼터링 증착을 우선 검토하고 있다.",
+        "최종 양산 공정은 아직 정하지 않았으며 삼성디스플레이와 LG디스플레이는 스퍼터링과 ALD를 모두 개발 중이다.",
+        "ALD는 정밀도에서 유리하지만 장비·소재 비용이 높아 비용 부담이 적은 스퍼터링이 주목받고 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "HMO",
+        "OLED",
+        "스퍼터링",
+        "ALD",
+        "차세대 디스플레이"
+      ],
+      "companies": [
+        "애플",
+        "삼성디스플레이",
+        "LG디스플레이"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "애플",
+        "삼성디스플레이",
+        "LG디스플레이"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점, 관심 기업(LG디스플레이, 삼성디스플레이) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "399dc4207a3e347d",
+          "title": "애플, 차세대 OLED HMO 증착 방식 저울질",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64685",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-02T21:43:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261103-0327",
+      "headline": "TechInsights, 2027년 메모리 중심 반도체 시장 전망 발표",
+      "summary": [
+        "TechInsights가 2027년 전망 보고서에서 반도체 시장의 5대 흐름을 제시했다.",
+        "메모리 매출이 1.6조 달러를 넘고 전체 반도체 시장은 2.6조 달러를 넘을 것으로 예측했다.",
+        "메모리가 산업 최대 제약 요인으로 떠올라 칩 설계와 생산 투자 방향까지 좌우할 전망이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "메모리 공급 부족",
+        "HBM",
+        "AI 반도체",
+        "첨단 패키징",
+        "반도체 시장 전망"
+      ],
+      "companies": [
+        "TechInsights"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "TechInsights"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "39a6b50bd0a9f4ba",
+          "title": "TechInsights Identifies Five Trends Reshaping the Semiconductor Market",
+          "url": "https://www.semiconductor-digest.com/techinsights-identifies-five-trends-reshaping-the-semiconductor-market/?utm_source=rss&utm_medium=rss&utm_campaign=techinsights-identifies-five-trends-reshaping-the-semiconductor-market",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-02T22:12:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261103-0328",
+      "headline": "다이아몬드 기판 레이저 절단 기술 연구, 방법별 반응 차이 규명",
+      "summary": [
+        "치바대 연구팀이 실험실에서 만든 다이아몬드를 초단펄스 레이저로 가공하는 반응을 분석했다.",
+        "연구 결과는 2026년 11월 1일 학술지 Diamond and Related Materials 169권에 실렸다.",
+        "고열전도·넓은 밴드갭 특성을 가진 다이아몬드 기판의 레이저 절단 공정 설계에 기초 자료가 될 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "다이아몬드 기판",
+        "레이저 슬라이싱",
+        "고열전도 소재",
+        "초단펄스 레이저",
+        "와이드밴드갭"
+      ],
+      "companies": [
+        "치바대학교"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "f53ef078266267f7",
+          "title": "Laser Slicing of Large-Area Diamond Substrates",
+          "url": "https://www.semiconductor-digest.com/laser-slicing-of-large-area-diamond-substrates/?utm_source=rss&utm_medium=rss&utm_campaign=laser-slicing-of-large-area-diamond-substrates",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-02T22:42:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261103-0329",
+      "headline": "FM인더스트리, SEMI 재단 인재 양성 공로상 수상",
+      "summary": [
+        "SEMI 재단은 SEMICON West 2026에서 FM인더스트리에 2026 Excellence in Achievement 상을 수여했다.",
+        "수상 사유는 등록 도제제도 확대, 직원 개발 투자, 산업 파트너와의 협력을 통한 캘리포니아·애리조나 인력 교육 강화이다.",
+        "미국 반도체 투자가 확대되는 가운데 기업이 숙련 인력 양성에 나설 수 있는 사례로 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "반도체 인력 양성",
+        "도제제도",
+        "SEMI 재단",
+        "정밀 제조",
+        "SEMICON West"
+      ],
+      "companies": [
+        "FM인더스트리",
+        "SEMI"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "FM인더스트리",
+        "SEMI 재단"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "0f6d43e231771314",
+          "title": "SEMI Foundation Recognizes FM Industries for Advancing Semiconductor Workforce Development",
+          "url": "https://www.semiconductor-digest.com/semi-foundation-recognizes-fm-industries-for-advancing-semiconductor-workforce-development/?utm_source=rss&utm_medium=rss&utm_campaign=semi-foundation-recognizes-fm-industries-for-advancing-semiconductor-workforce-development",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-02T22:53:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261103-0330",
+      "headline": "인텔, 저마진 산업용 칩 철수…엣지 AI 시장 경쟁 변화",
+      "summary": [
+        "인텔이 저마진 산업용 칩 사업에서 물러나는 흐름이 보도되었다.",
+        "기사 본문이 사실상 비어 있어 철수 규모와 일정 등 구체 수치는 확인되지 않는다.",
+        "이로 인해 AMD와 Arm 계열 경쟁사가 엣지 AI 시장에서 입지를 넓힐 수 있다는 분석이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엣지 AI",
+        "산업용 칩",
+        "저마진 사업 철수",
+        "Arm",
+        "AMD"
+      ],
+      "companies": [
+        "인텔",
+        "AMD",
+        "Arm"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "인텔"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "25b0ba1c98072ea3",
+          "title": "DIGITIMES Insight: Intel's retreat from low-margin industrial chips opens edge AI market to AMD and Arm rivals",
+          "url": "https://www.digitimes.com/news/a20261102PD230/intel-industrial-chips-amd-arm.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-02T23:29:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261103-0331",
+      "headline": "SK하이닉스 SOCAMM2 램프업, 소재 부족에 PCB 가격 상승",
+      "summary": [
+        "SK하이닉스가 엔비디아 Vera Rubin 플랫폼용 SOCAMM2 메모리 모듈의 생산을 늘리고 있다고 전해졌다.",
+        "기사에는 소재 부족으로 PCB 가격이 오르고 있다는 내용이 함께 언급됐으나 구체적 수치는 제시되지 않았다.",
+        "AI 서버용 메모리 공급 확대가 기판 등 부품 수급과 원가 부담으로 이어질 수 있음을 보여준다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "SOCAMM2",
+        "Vera Rubin",
+        "PCB",
+        "소재 부족",
+        "AI 서버 메모리"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "엔비디아"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "3ed602648de836b2",
+          "title": "SK Hynix ramps up SOCAMM2 as material shortages push up PCB prices",
+          "url": "https://www.digitimes.com/news/a20261102VL215/sk-hynix-pcb-production-materials-nvidia.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-02T23:31:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261103-0332",
+      "headline": "삼성전자, 넷리스트와 합의로 미국 특허 조사 종료",
+      "summary": [
+        "미국 국제무역위원회(USITC)가 삼성전자 관련 DRAM 특허 침해 조사를 공식 종결했다.",
+        "삼성전자와 미국 반도체 기업 넷리스트의 합의에 따라 조사가 끝났으며, 관련 연방 공고가 월요일 게재됐다.",
+        "진행 중이던 메모리 특허 분쟁이 마무리되면서 관련 법적 불확실성이 해소되는 의미가 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "DRAM",
+        "특허 침해",
+        "ITC 조사",
+        "합의 종결"
+      ],
+      "companies": [
+        "삼성전자",
+        "넷리스트"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "넷리스트"
+      ],
+      "importance": 4,
+      "importance_reason": "소송·특허 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "99a9a4611f656ad5",
+          "title": "US trade commission terminates Samsung chip patent probe following settlement with Netlist",
+          "url": "https://www.koreaherald.com/article/10923530",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-03T00:07:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261103-0333",
+      "headline": "LG디스플레이, 국립생태원과 파주 생태계 보전 협약",
+      "summary": [
+        "LG디스플레이가 국립생태원과 파주 사업장 인근 생태계 보전·복원 및 자연자본 공시 대응을 위한 업무협약을 체결했다.",
+        "두루미와 재두루미 등 멸종위기종 서식지를 조성·관리하고, 생태정보 공유와 교육·자문을 함께 진행한다.",
+        "환경경영과 지속가능경영 공시 역량을 강화하는 사례로, 디스플레이 기업의 ESG 대응 흐름을 보여준다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "자연자본 공시",
+        "TNFD",
+        "생태계 보전",
+        "멸종위기종",
+        "ESG"
+      ],
+      "companies": [
+        "LG디스플레이",
+        "국립생태원"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이",
+        "국립생태원"
+      ],
+      "importance": 4,
+      "importance_reason": "지역·인프라 2점, 관심 기업(LG디스플레이) +1, 매체 4곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "db8583b31466b789",
+          "title": "LGD, 국립생태원과 생태계 보전 협력",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64760",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-03T01:00:00Z"
+        },
+        {
+          "key": "78ce21ae4e12092d",
+          "title": "LG디스플레이, 국립생태원과 생물다양성 보전을 위한 업무협약 체결",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=342938",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-03T01:00:00Z"
+        },
+        {
+          "key": "265fd15163569baa",
+          "title": "LG디스플레이, 국립생태원과 맞손…파주 사업장 생태계 보전 나선다",
+          "url": "https://www.dt.co.kr/article/12092771",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-03T01:10:00Z"
+        },
+        {
+          "key": "387aad3ff7cb4196",
+          "title": "LG디스플레이, 국립생태원과 손잡고 DMZ 멸종위기종 보호 나선다",
+          "url": "https://www.inews24.com/view/2021877",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-03T01:22:54Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261103-0334",
+      "headline": "한투증권, 삼성전자 목표가 하향… 메모리 둔화 반영",
+      "summary": [
+        "한국투자증권이 3일 삼성전자의 목표주가를 57만원에서 44만원으로 낮춰 제시했다.",
+        "AI 반도체 수요 확대로 사상 최대 실적 경신은 이어가겠지만, 내년 메모리 가격 상승세는 둔화될 수 있다고 봤다.",
+        "메모리 가격 상승 둔화가 삼성전자 실적 전망의 하방 요인으로 작용할 수 있음을 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "목표주가",
+        "메모리 가격",
+        "AI 반도체",
+        "실적 전망"
+      ],
+      "companies": [
+        "삼성전자",
+        "한국투자증권"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "한국투자증권"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "1750ec78ebfc6dc3",
+          "title": "한투증권, 삼성전자 목표가 57→44만원 하향 “메모리 둔화 반영”",
+          "url": "https://www.dt.co.kr/article/12092800",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-03T01:25:40Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261103-0335",
+      "headline": "삼성 전경훈 사장, 반도체 호황 속 겸손과 고객 신뢰 강조",
+      "summary": [
+        "삼성전자 반도체 부문 수장이 실적 호황 속에서 겸손한 자세와 고객 신뢰의 중요성을 강조했다.",
+        "기사 본문이 사실상 비어 있어 구체적 발언 내용과 수치는 확인되지 않는다.",
+        "업계 호황 국면에서 공급사의 고객 신뢰 관리 메시지로 해석될 여지가 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "반도체 호황",
+        "고객 신뢰",
+        "삼성전자 경영진"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "882c450ec88b86f8",
+          "title": "Samsung's Young Hyun Jun urges humility, customer trust amid semiconductor profit boom",
+          "url": "https://www.digitimes.com/news/a20261102PD237/samsung-demand-profit-market-competitiveness.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-03T01:36:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261103-0336",
+      "headline": "메모리 부족에 PC 출하 급감, 인텔 감소 전망",
+      "summary": [
+        "AI 데이터센터 투자로 메모리 공급이 부족해지고 부품 가격이 오르면서 PC 수요가 위축되고 있다.",
+        "인텔은 올해 전 세계 PC 출하량이 약 12% 줄고 2027년에도 약 10% 추가 감소할 것으로 전망했다.",
+        "PC 시장 조정 속도가 최근 2개월 사이 빨라져 메모리 가격 부담이 완제품 시장 전반에 번지고 있음을 보여준다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "메모리 부족",
+        "AI 데이터센터",
+        "PC 출하량",
+        "부품 가격 상승"
+      ],
+      "companies": [
+        "인텔"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "인텔"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "78877d78b6bb8be1",
+          "title": "AI 데이터센터가 PC 시장까지 흔든다…메모리 부족에 출하량 급감",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409160",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-03T02:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261103-0337",
+      "headline": "엔비디아, AI 데이 서울 행사로 한국 협력 강화",
+      "summary": [
+        "엔비디아가 서울에서 AI 데이 행사를 열어 한국과의 협력 관계를 강화했다는 소식이다.",
+        "기사 본문이 사실상 비어 있어 구체적 협력 내용, 계약 규모, 일정은 확인되지 않는다.",
+        "다만 엔비디아의 국내 협력 확대 신호로, 국내 AI반도체 생태계 연계 여부는 추가 보도를 살펴봐야 한다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI반도체",
+        "엔비디아",
+        "AI 데이",
+        "한국 협력"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "홍보·수상 1점, 관심 기업(엔비디아) +1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "93a7a9479b02774f",
+          "title": "Nvidia strengthens South Korea ties at AI Day Seoul",
+          "url": "https://www.digitimes.com/news/a20261103PD203/nvidia-development-robotics-samsung-cloud.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-03T02:10:08Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261103-0338",
+      "headline": "마이크론, 4F² DRAM 도입에 회의적…CXMT는 추진",
+      "summary": [
+        "마이크론은 4F² 구조 D램에 대해 부정적 입장을 보였고, CXMT는 관련 개발을 계속 추진하고 있다.",
+        "기사 본문이 제목과 저작권 표기뿐이라 구체적 일정이나 수치는 확인되지 않는다.",
+        "삼성전자와 SK하이닉스의 입장이 엇갈린다는 점에서 차세대 D램 셀 구조 선택을 둘러싼 업계 논쟁이 이어지고 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "4F² DRAM",
+        "D램 셀 구조",
+        "CXMT",
+        "차세대 D램"
+      ],
+      "companies": [
+        "마이크론",
+        "CXMT",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "c062c65fdf4a2b50",
+          "title": "Micron dismisses 4F-squared DRAM as CXMT presses ahead — why Samsung, SK Hynix remain divided",
+          "url": "https://www.digitimes.com/news/a20261103PD214/3d-dram-cxmt-micron-samsung-sk-hynix.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-03T02:15:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261103-0339",
+      "headline": "AI 데이터센터發 낸드 수요 급증, 샌디스크 실적 주목",
+      "summary": [
+        "AI 데이터센터 투자로 기업용 SSD 수요가 늘며 낸드플래시 시장 성장 동력이 되고 있다.",
+        "샌디스크의 데이터센터 매출은 1년 사이 약 18배로 늘어난 것으로 전해졌다.",
+        "기업용 SSD 중심의 수요 확대는 낸드 업계 전반과 관련 컨트롤러 기업에도 긍정적 신호다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "낸드플래시",
+        "SSD",
+        "AI 데이터센터",
+        "샌디스크"
+      ],
+      "companies": [
+        "샌디스크",
+        "파두"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "샌디스크"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "0df4dc780da05e79",
+          "title": "AI 데이터센터가 끌어올린 낸드…샌디스크 호실적에 파두도 기대",
+          "url": "https://www.inews24.com/view/2021808",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-03T02:16:59Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261103-0340",
+      "headline": "중국 메모리 업체 3분기 호황 지속, 증설과 정책 리스크 부각",
+      "summary": [
+        "중국 메모리 반도체 업체들이 3분기에도 호황을 이어간 것으로 보도됐다.",
+        "기사 본문은 'Credit: AFP'뿐이라 구체적 수치와 일정은 확인되지 않는다.",
+        "생산능력 확대와 정책 위험이 동시에 커지고 있어 업계는 공급 과잉 가능성을 주시할 필요가 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "중국 메모리",
+        "생산능력",
+        "정책 리스크",
+        "3분기 호황"
+      ],
+      "companies": [
+        "CXMT",
+        "YMTC"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "83fe6e7f3f957c8a",
+          "title": "China's memory chipmakers extend their boom into the third quarter as capacity, policy risks build",
+          "url": "https://www.digitimes.com/news/a20261103VL204/capacity-policy-chipmakers-dram-cxmt.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-03T02:54:39Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261103-0341",
+      "headline": "삼성, 8인치 파운드리 2030년까지 철수 보도",
+      "summary": [
+        "삼성전자가 2030년까지 8인치 파운드리 사업에서 철수할 것이라는 보도가 나왔다. 기사 본문은 사진 설명만 있어 구체적 경위는 확인되지 않는다. 공식 발표 여부가 불명확해 사업 구조 변화 가능성으로 지켜볼 필요가…",
+        "category",
+        "tags"
+      ],
+      "category": "기타",
+      "tags": [],
+      "companies": [],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "7176e7bb9007a56b",
+          "title": "Samsung to exit 8-inch foundry business by 2030, report says",
+          "url": "https://www.digitimes.com/news/a20261103VL210/samsung-2030-capacity-business-production.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-03T03:10:39Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261103-0342",
+      "headline": "애플, 2나노 전환으로 첨단 칩 제약 완화",
+      "summary": [
+        "애플은 2나노 공정 전환으로 첨단 노드 칩 공급 제약이 완화되고 있다고 밝혔다.",
+        "기사 본문이 제공되지 않아 구체적인 수치와 일정은 확인되지 않는다.",
+        "첨단 공정 칩의 수급 여건과 관련된 사안으로, 본문 확인 후 세부 영향을 판단할 필요가 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "2나노",
+        "첨단 공정",
+        "칩 공급"
+      ],
+      "companies": [
+        "애플"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "애플"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "797d7bb32a771054",
+          "title": "Apple says 2nm transition is easing its advanced-node chip constraints",
+          "url": "https://www.digitimes.com/news/a20261103VL213/apple-2nm-revenue-iphone-ipad.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-03T03:12:44Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261103-0343",
+      "headline": "한국, 반도체 공장 가동 2년 앞당기기 추진",
+      "summary": [
+        "한국 정부가 반도체 팹(공장) 가동 시점을 약 2년 앞당기는 방안을 추진하는 것으로 전해졌다.",
+        "기사에서 제시된 구체적 세부 내용은 확인되지 않았으며, 기사 본문은 용인 반도체클러스터 건설 사진 설명이 전부다.",
+        "용인 클러스터 같은 대형 생산기지의 조기 가동은 국내 메모리 공급 능력 확대에 의미가 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체 팹",
+        "용인 반도체클러스터",
+        "공장 조기 가동",
+        "인프라"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "6e7510502c3b65d9",
+          "title": "South Korea aims to speed up chip fab openings by two years",
+          "url": "https://www.digitimes.com/news/a20261103VL212/fab-investment-development-government-infrastructure.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-03T03:22:10Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261103-0344",
+      "headline": "중국 패키징 기업, AI 수요와 가격 인상 속 투자 부담 확대",
+      "summary": [
+        "중국 칩 패키징 업체들이 AI 수요와 가격 인상으로 매출 기회를 얻고 있다는 보도다.",
+        "다만 투자 이익과 설비투자(capex) 부담이 수익성 전망을 흐리고 있다고 전해졌다.",
+        "기사 본문이 없어 구체적 수치는 확인되지 않으며, 업계 수익성 관점의 이슈로 볼 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "패키징",
+        "AI수요",
+        "가격인상",
+        "설비투자",
+        "중국반도체"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "63b201b8d32edeff",
+          "title": "China's chip packagers ride AI demand, price hikes, but investment gains, capex cloud the profit picture",
+          "url": "https://www.digitimes.com/news/a20261103VL207/profit-packaging-demand-price-investment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-03T03:47:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261103-0345",
+      "headline": "TSMC 차기 미국 공장, 셔먼 부지 유력 거론",
+      "summary": [
+        "TSMC가 미국 내 차기 칩 공장을 텍사스 셔먼에 세울 수 있다는 보도가 나왔다.",
+        "기사는 아리조나 공장 사진 설명이 전부이며 투자 규모와 착공 일정은 확인되지 않았다.",
+        "미국 내 생산 거점 확대 흐름을 보여주지만 공식 발표 전까지는 추정 단계다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "TSMC",
+        "미국 공장",
+        "셔먼",
+        "파운드리"
+      ],
+      "companies": [
+        "TSMC"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "TSMC"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "f31486c1569e2459",
+          "title": "TSMC's next US chip plant could land in Sherman",
+          "url": "https://www.digitimes.com/news/a20261103VL216/tsmc-plant-texas-investment-manufacturing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-03T04:29:40Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261103-0346",
+      "headline": "유리기판 TGV 열응력 줄이는 고분자층 설계 제시",
+      "summary": [
+        "성균관대 이은호 교수 연구팀이 비아코어 컨소시엄과 유리기판 TGV 주변 열응력 저감 설계안을 제시했다.",
+        "구리 배선과 유리 사이에 고분자층을 넣고 그 두께만큼 비아 구멍을 키워 저항 증가를 막는 방식이다.",
+        "유리기판 패키징에서 열응력 신뢰성 문제를 줄일 수 있는 설계 방향으로 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "유리기판",
+        "TGV",
+        "열응력",
+        "고분자층",
+        "패키징"
+      ],
+      "companies": [
+        "성균관대",
+        "비아코어",
+        "다이치코리아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "성균관대",
+        "비아코어",
+        "다이치코리아"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "f562dc3da52d4ed6",
+          "title": "비아코어-성균관대, 유리기판 고분자층 한 겹에 최대 59%↓, 저항은 그대로",
+          "url": "https://www.etnews.com/20261103000233",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-03T04:41:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261103-0347",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "32806083b630cc54",
+          "title": "비에이치, 3분기 영업익 305억…전년비 11%↓",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64785",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-03T05:21:12Z"
+        }
+      ]
+    },
+    {
+      "id": "c20261103-0348",
+      "headline": "딥엑스·AMD, 피지컬 AI 분야 협력 논의",
+      "summary": [
+        "AMD 글로벌 AI 마켓 총괄 키스 스트라이어 수석부사장이 딥엑스 김녹원 대표와 만나 협력을 논의했다.",
+        "딥엑스는 자사 NPU를 AMD 컴퓨팅 플랫폼에 결합하는 이기종 컴퓨팅 협력 방안을 검토하고 있다.",
+        "국내 AI 반도체 기업이 글로벌 기업과 피지컬 AI 영역에서 협력 폭을 넓히는 흐름으로 볼 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "피지컬 AI",
+        "NPU",
+        "이기종 컴퓨팅",
+        "AMD 플랫폼"
+      ],
+      "companies": [
+        "딥엑스",
+        "AMD"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "딥엑스",
+        "AMD"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "fe6075e39fdde33e",
+          "title": "딥엑스, AMD 만났다…피지컬 AI·이기종 컴퓨팅 협력",
+          "url": "https://www.yna.co.kr/view/AKR20261103118400017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-03T05:31:18Z"
+        },
+        {
+          "key": "af427e59688eda56",
+          "title": "AMD 글로벌 AI 수석부사장, 딥엑스 김녹원 대표 만나…협력 논의",
+          "url": "https://www.inews24.com/view/2022118",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-03T07:17:08Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261103-0349",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "109b27f60a5ddab3",
+          "title": "애플·삼성, 3분기 스마트폰 AP 점유율 확대…메모리發 한파 속 나홀로 선방",
+          "url": "https://www.dt.co.kr/article/12092875",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-03T05:56:11Z"
+        }
+      ]
+    },
+    {
+      "id": "c20261103-0350",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "668ce2b1503e8a32",
+          "title": "Bright Side with Brannan | HOMO and LUMO — What Are They and Why Do They Matter?",
+          "url": "https://www.oled-info.com/bright-side-brannan-homo-and-lumo-what-are-they-and-why-do-they-matter",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-03T06:00:05Z"
+        }
+      ]
+    },
+    {
+      "id": "c20261103-0351",
+      "headline": "최태원 회장, 한일 AI·반도체 협력 강조",
+      "summary": [
+        "최태원 SK그룹 회장이 한일 경제 포럼에서 AI·반도체 분야 협력을 제안했다.",
+        "기사 요약본만 확인되어 구체적 합의 내용이나 수치는 확인되지 않았다.",
+        "한일 협력이 성사되면 양국 반도체·AI 산업의 시너지 확대가 기대된다는 취지다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "한일 경제협력",
+        "AI",
+        "반도체",
+        "한일경제연대"
+      ],
+      "companies": [
+        "SK그룹",
+        "대한상공회의소"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "71a213a74e4e0a3a",
+          "title": "[미래경제포럼] 최태원 \"AI·반도체 협력…한일경제연대로 1조달러 시너지\"",
+          "url": "https://www.yna.co.kr/view/AKR20261103126600003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-03T06:12:54Z"
+        },
+        {
+          "key": "eb761269392f5b36",
+          "title": "[미래경제포럼] 최태원 \"AI·반도체 협력…한일경제연대로 1조달러 시너지\"(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261103126651003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-03T07:14:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261103-0352",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "bcf0431096d5f5b6",
+          "title": "원익그룹 신입 공채에 1만2348명 지원",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64802",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-03T06:21:51Z"
+        }
+      ]
+    },
+    {
+      "id": "c20261103-0353",
+      "headline": "LX세미콘, 나준호 부사장 신임 대표 내정",
+      "summary": [
+        "LX세미콘이 나준호 전략마케팅부문장 부사장을 신임 대표이사로 내정했다.",
+        "나 내정자는 2001년 합류 후 드라이버IC 개발과 TV·IT사업부장 등을 거쳤다.",
+        "내년 주주총회와 이사회 절차를 거쳐 정식 선임되며 디스플레이 반도체 사업 전략에 영향을 줄 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "LX세미콘",
+        "디스플레이 시스템반도체",
+        "경영진 교체",
+        "드라이버IC",
+        "MCU"
+      ],
+      "companies": [
+        "LX세미콘"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "LX세미콘"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "d49211567df3e0fe",
+          "title": "LX세미콘 새 대표에 나준호…디스플레이 반도체 전문가 전면 배치",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409209",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-03T06:43:33Z"
+        },
+        {
+          "key": "d04b58716dfff5a0",
+          "title": "LX세미콘, 신임 대표로 나준호 부사장 내정",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64817",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-03T08:09:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261103-0354",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "8fd1ff9dad664273",
+          "title": "삼성전자, '핵심 제조 기지' 베트남 부품사 생산성 54% 개선…공급망 경쟁력 강화",
+          "url": "https://www.etnews.com/20261103000231",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-03T07:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "c20261103-0355",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "4f4d4b6423534c09",
+          "title": "\"차창 너머 정보를 실시간으로\"…한국광기술원, 시선 추적 기반 차창 콘텐츠 플랫폼 개발",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409205",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-03T07:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "c20261103-0356",
+      "headline": "안산 반도체 부품 공장 질산 누출…6명 경상",
+      "summary": [
+        "경기 안산시 단원구 반도체 부품 생산 공장에서 화학물질 질산이 누출되는 사고가 발생했다.",
+        "누출량은 500ℓ로 보도됐고, 근로자 6명이 경상을 입었으며 소방당국이 안전조치를 진행 중이다.",
+        "반도체 부품 생산 현장의 화학물질 안전관리 문제가 다시 부각된 사건이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "질산 누출",
+        "화학물질 안전",
+        "반도체 부품",
+        "안전사고"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "81b3a975876d78d9",
+          "title": "안산 반도체 부품 공장서 질산 누출…소방당국 안전조치 중",
+          "url": "https://www.yna.co.kr/view/AKR20261103144500061",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-03T07:17:11Z"
+        },
+        {
+          "key": "99480504c218e831",
+          "title": "안산 반도체 부품 공장서 질산 500ℓ 누출…6명 경상(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261103144551061",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-03T10:18:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261103-0357",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "6cda7633b51281fe",
+          "title": "테크윙, 반도체 장비 생산능력 확대…526억 투자",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64808",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-03T07:30:52Z"
+        }
+      ]
+    },
+    {
+      "id": "c20261103-0358",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "fd3f9ded03c45e59",
+          "title": "동진쎄미켐, 中 디스플레이 소재 사업 '엑시트'",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64807",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-03T07:36:47Z"
+        }
+      ]
+    },
+    {
+      "id": "c20261103-0359",
+      "headline": "KDIA·KOSA, 디스플레이 제조 AI 전환 협약 체결",
+      "summary": [
+        "한국디스플레이산업협회와 한국인공지능소프트웨어산업협회가 디스플레이 제조 AX 확산 업무협약을 체결했다.",
+        "협력 분야는 기술 매칭, 전문인력 양성, 융합기술 고도화 등 5개이며 공동 세미나도 추진한다.",
+        "중소·중견 소재·부품·장비 기업의 AI 도입 장벽을 낮춰 디스플레이 제조 혁신을 앞당길 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "제조 AX",
+        "디스플레이 AI",
+        "기술 매칭",
+        "전문인력 양성",
+        "업무협약"
+      ],
+      "companies": [
+        "한국디스플레이산업협회",
+        "한국인공지능소프트웨어산업협회"
+      ],
+      "event_type": "인수합병",
+      "confirmed": true,
+      "parties": [
+        "한국디스플레이산업협회",
+        "한국인공지능소프트웨어산업협회"
+      ],
+      "importance": 3,
+      "importance_reason": "인수합병 2점, 매체 4곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "7202d6d67daeb952",
+          "title": "디스플레이협회, KOSA와 제조 AI 확산 협력",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64811",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-03T07:46:46Z"
+        },
+        {
+          "key": "1c866e1de67eea2d",
+          "title": "디스플레이 소부장에 AI 도입 지원…KDIA·KOSA 협약",
+          "url": "https://www.inews24.com/view/2022218",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-03T08:34:30Z"
+        },
+        {
+          "key": "c7d9ca13e203c965",
+          "title": "디스플레이협회, 인공지능소프트웨어협회와 제조 AX 확산 맞손",
+          "url": "https://www.yna.co.kr/view/AKR20261103150700003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-03T08:36:31Z"
+        },
+        {
+          "key": "b36a9900b599deaf",
+          "title": "KOSA, 제조 AX 지원 강화…기술 매칭·전문인력 양성",
+          "url": "https://zdnet.co.kr/view/?no=20261103184331",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-03T09:43:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261103-0360",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "e096526197307f1d",
+          "title": "[POWER COMPANY] 머크, 韓서 AI 반도체 소재·장비 통합 승부수",
+          "url": "https://www.dt.co.kr/article/12092942",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-03T07:49:40Z"
+        }
+      ]
+    },
+    {
+      "id": "c20261103-0361",
+      "headline": "한미반도체·한화세미텍 TC본더 특허분쟁 조정 돌입",
+      "summary": [
+        "한미반도체와 한화세미텍이 HBM 생산용 TC본더 특허 소송을 분쟁조정 절차로 옮기기로 합의했다.",
+        "특허심판원의 권유에 따라 양사가 조정에 동의했고, 이에 따라 예정됐던 재판이 연기됐다.",
+        "조정 일정 등 세부 사항은 공개되지 않았으며, 실제 합의 도출 여부가 향후 HBM 장비 시장 경쟁 구도의 관건이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "TC본더",
+        "HBM",
+        "특허분쟁",
+        "분쟁조정"
+      ],
+      "companies": [
+        "한미반도체",
+        "한화세미텍"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "한미반도체",
+        "한화세미텍"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "1d1d33d44b7613ac",
+          "title": "'한미 vs 한화' TC 본더 특허전, 분쟁조정위 간다",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64806",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-03T07:59:23Z"
+        },
+        {
+          "key": "d32e773da709dd54",
+          "title": "한미반도체 VS 한화세미텍, TC본더 특허분쟁 조정 돌입…재판 연기",
+          "url": "https://www.inews24.com/view/2022232",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-03T09:46:47Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261103-0362",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "13efa6ac3b5f701d",
+          "title": "안승욱 티로보틱스 대표 “OLED 이송 기술로 TGV 유리기판 시장 공략”",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409142",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-03T08:00:00Z"
+        }
+      ]
+    },
+    {
+      "id": "c20261103-0363",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "dbf5e36bc707e9d8",
+          "title": "Chip Industry Technical Paper Roundup: Nov. 3",
+          "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-nov-3/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-03T08:01:14Z"
+        }
+      ]
+    },
+    {
+      "id": "c20261103-0364",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "9d99ed1e5f37b71c",
+          "title": "심텍, 영업익 4년 만에 1000억원 돌파",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64813",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-03T08:03:07Z"
+        }
+      ]
+    },
+    {
+      "id": "c20261103-0365",
+      "headline": "마벨, 루멘텀 1150억 달러 인수 추진…AI 광통신 재편",
+      "summary": [
+        "마벨이 광통신 기업 루멘텀을 1150억 달러(약 154조원)에 인수하기로 이사회가 승인했다.",
+        "양사 이사회는 11월 2일 거래를 승인했으며 주주와 여러 국가의 규제 당국 승인이 남아 있다.",
+        "AI 데이터센터용 레이저 생산 역량을 확보해 브로드컴과의 경쟁 구도가 바뀔 수 있다는 평가다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "광통신",
+        "AI 데이터센터",
+        "레이저",
+        "M&A",
+        "브로드컴"
+      ],
+      "companies": [
+        "마벨",
+        "루멘텀",
+        "엔비디아",
+        "브로드컴"
+      ],
+      "event_type": "인수합병",
+      "confirmed": true,
+      "parties": [
+        "마벨",
+        "루멘텀"
+      ],
+      "importance": 3,
+      "importance_reason": "인수합병 2점, 매체 3곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "fbffe88f0ec5316f",
+          "title": "Marvell Snaps Photonics Chipmaker Lumentum to Bolster AI Connectivity",
+          "url": "https://www.eetimes.com/marvell-snaps-photonics-chipmaker-lumentum-to-bolster-ai-connectivity/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-03T08:50:21Z"
+        },
+        {
+          "key": "34a7baf023fa6cc7",
+          "title": "마벨, '엔비디아 픽' 루멘텀 154조원에 인수…AI 레이저 공급망 재편",
+          "url": "https://www.inews24.com/view/2022253",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-03T09:40:17Z"
+        },
+        {
+          "key": "c436884fe28927de",
+          "title": "Marvell’s Acquisition of Lumentum to Unite Optical and Electronic Capabilities, Potentially Challenging Broadcom’s Market Leadership, Says TrendForce",
+          "url": "https://www.trendforce.com/presscenter/news/20261103-13294.html",
+          "source": "TrendForce",
+          "lang": "en",
+          "published_at": "2026-11-03T10:15:20Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261103-0366",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "fa46c2f88c44a549",
+          "title": "LX세미콘, 3분기 영업손실 156억…전년比 적자 전환",
+          "url": "https://www.dt.co.kr/article/12092973",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-03T09:02:33Z"
+        }
+      ]
+    },
+    {
+      "id": "c20261103-0367",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "c039298f90b5fd7a",
+          "title": "Ceva takes NeuPro NPU into AI data centers, targeting efficiency gaps rather than Nvidia's dominance",
+          "url": "https://www.digitimes.com/news/a20261103PD217/data-npu-ip-efficiency-nvidia.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-03T09:11:55Z"
+        }
+      ]
+    },
+    {
+      "id": "c20261103-0368",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "cea326870024fd3b",
+          "title": "South Korea urged to link chip fab support to local suppliers",
+          "url": "https://www.digitimes.com/news/a20261103VL221/fab-government-packaging-investment-demand.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-03T09:27:10Z"
+        }
+      ]
+    },
+    {
+      "id": "c20261103-0369",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "cdbd3a39432c3c4a",
+          "title": "AI chip smugglers exploit trade control loophole to bring banned HBM from South Korea into China — expensive memory chips packaged with cheap, unsanctioned processors to become legal exports",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/ai-chip-smugglers-exploit-trade-control-loophole-to-bring-banned-hbm-from-south-korea-into-china-expensive-memory-chips-packaged-with-cheap-unsanctioned-processors-to-become-legal-exports",
+          "source": "Tom's Hardware",
+          "lang": "en",
+          "published_at": "2026-11-03T12:04:32Z"
+        }
+      ]
+    },
+    {
+      "id": "c20261103-0370",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T15:07:05Z",
+      "updated_at": "2026-11-03T15:07:05Z",
+      "articles": [
+        {
+          "key": "854d27944771715d",
+          "title": "Five Things You Didn’t Know About Co-Packaged Optics",
+          "url": "https://www.eetimes.com/five-things-you-didnt-know-about-co-packaged-optics/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-03T14:00:00Z"
+        }
+      ]
+    },
     {
       "id": "c20261029-0323",
       "headline": "",
