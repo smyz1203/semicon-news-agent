@@ -1,7 +1,48 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03T15:27:39Z",
+  "updated_at": "2026-11-03T16:03:48Z",
   "issues": [
+    {
+      "id": "c20261103-0411",
+      "headline": "LED 광원 투영 노광기 UX-4 시리즈 수주 개시",
+      "summary": [
+        "LED 광원 기반 전면 투영 노광기 UX-4 시리즈의 주문 접수가 시작됐다고 알려졌다.",
+        "UX-4는 전력반도체와 MEMS 중심으로 생산 효율을 높이는 노광 장비로 소개되었다.",
+        "기사 본문이 짧아 구체적 가격·수량·공급사는 확인되지 않으며, 장비 수요 측면에서 참고할 만하다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "투영 노광기",
+        "UX-4",
+        "LED 광원",
+        "전력반도체",
+        "MEMS"
+      ],
+      "companies": [],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T15:54:08Z",
+      "updated_at": "2026-11-03T15:54:08Z",
+      "articles": [
+        {
+          "key": "df3fe8f9986ccf21",
+          "title": "Accepting Orders for the LED Light-Sourced Projection Aligners",
+          "url": "https://www.eetimes.com/accepting-orders-for-the-led-light-sourced-projection-aligners/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-03T15:54:08Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261103-0410",
       "headline": "인텔 14A, PDK 0.9 공개로 양산 준비 가속",
