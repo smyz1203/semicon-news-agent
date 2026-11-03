@@ -125,9 +125,9 @@ F7  데이터 커밋 + GitHub Pages 배포
 | 다시 분류 | 같음 | 분류가 필요한 이슈당 1회, 실행당 최대 30회 | 저장된 헤드라인·요약·기사 제목 | event_type, confirmed, parties |
 | 사건 유형 확인 | 같음 | 기본점 4점 이상 유형을 고른 이슈마다 3회 (다수결, 아니면 그 유형을 빼고 다시 분류) | 헤드라인·요약·기사 제목, 유형 이름·설명 | reason, fits |
 
-- **제공사 선택**: `config/settings.yaml`의 `provider`를 `openai`(기본) 또는 `claude`로 바꾼다. 제공사마다 다른 부분(호출 방법, 오류 종류, 사용량 표기)은 `agent/analyze.py`의 `OpenAIBackend` / `ClaudeBackend`에 있고, 프롬프트·응답 형식·검증은 공통이다.
+- **제공사 선택**: `config/settings.yaml`의 `provider`를 `claude`(기본, `claude-haiku-5-5`) 또는 `openai`(`gpt-4o-mini`)로 바꾼다. 제공사마다 다른 부분(호출 방법, 오류 종류, 사용량 표기)은 `agent/analyze.py`의 `OpenAIBackend` / `ClaudeBackend`에 있고, 프롬프트·응답 형식·검증은 공통이다.
 - **구조화 출력**: 같은 Pydantic 모델(`agent/models.py`)을 OpenAI는 `client.responses.parse(text_format=…)`, Claude는 `client.beta.messages.parse(output_format=…)`로 강제한다.
-- **비용 절감**: 같은 지시문을 반복해서 보내므로 프롬프트 캐싱을 쓴다 (OpenAI는 자동 + `prompt_cache_key`, Claude는 `cache_control`). Claude는 요청이 거절되면 서버가 다른 모델로 다시 시도하는 fallback도 켠다.
+- **비용 절감**: 같은 지시문을 반복해서 보내므로 프롬프트 캐싱을 쓴다 (OpenAI는 자동 + `prompt_cache_key`, Claude는 `cache_control`). Claude Sonnet·Opus는 요청이 거절되면 서버가 다른 모델로 다시 시도하는 fallback도 켤 수 있다(`server_fallback`). Haiku 5.5는 이 기능이 없어 끈다.
 - **오류 구분**: 키·모델 문제와 크레딧 부족(OpenAI `insufficient_quota`, Claude 크레딧·한도 오류)은 그 실행의 AI를 멈추고, 거절·형식 오류·일시 오류는 그 호출만 실패로 처리한다.
 - 기사 내용은 신뢰할 수 없는 입력이므로 AI에게 도구를 주지 않고, 지정한 JSON 형식으로만 답하게 한다.
 

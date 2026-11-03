@@ -363,9 +363,21 @@ def test_claude_request_shape_and_usage():
     assert issubclass(call["output_format"], IssueSummary)
     assert call["output_config"] == {"effort": SETTINGS["effort"]["summarize"]}
     assert call["system"][0]["cache_control"] == {"type": "ephemeral"}
-    assert call["fallbacks"] == "default"
+    assert ("fallbacks" in call) == bool(SETTINGS["claude"].get("server_fallback"))
     assert "temperature" not in call
     assert analyzer.usage["cache_read"] == 500 and analyzer.cost_usd() > 0
+
+
+@pytest.mark.parametrize("on", [True, False])
+def test_claude_server_fallback_follows_setting(on):
+    # Sonnet·Opus는 거절되면 서버가 다른 모델로 다시 시도하게 켜고, 이 기능이 없는 Haiku 5.5는 끔
+    settings = {**CLAUDE, "claude": {**CLAUDE["claude"], "server_fallback": on}}
+    client, calls = claude_client(claude_ok(SUMMARY))
+    Analyzer(settings, client=client).summarize(ISSUE, {"k1": "본문"})
+    call = calls.calls[0]
+    assert ("fallbacks" in call) is on and ("betas" in call) is on
+    if on:
+        assert call["fallbacks"] == "default"
 
 
 @pytest.mark.parametrize("reply", [claude_ok(None, stop_reason="refusal"),

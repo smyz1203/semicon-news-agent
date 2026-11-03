@@ -9,7 +9,7 @@
   - 국문 8곳: 디일렉, 전자신문, KIPOST, 디지털타임스, 연합뉴스, ZDNet Korea, 아이뉴스24, 테크월드뉴스
   - 영문 8곳: Semiconductor Engineering, Semiconductor Digest, TrendForce, OLED-info, EE Times, DigiTimes Asia, Tom's Hardware, Korea Herald
   - 디지털타임스(IT·산업)와 TrendForce(반도체·디스플레이)는 분야별 RSS 2개를 함께 받고, 화면에서는 매체 하나로 보여줌
-- **AI**: OpenAI API `gpt-4o-mini` (기본). `config/settings.yaml`의 `provider` 한 줄로 Claude API로 전환
+- **AI**: Claude API `claude-haiku-5-5` (기본). `config/settings.yaml`의 `provider` 한 줄로 OpenAI API(`gpt-4o-mini`)로 전환
 - **기술**: Python 3.12 · feedparser · RapidFuzz · HTML/CSS/JavaScript · GitHub Actions · GitHub Pages
 
 ## 만든 이유
@@ -132,7 +132,7 @@ AI가 점수를 직접 매기면 같은 종류의 기사도 점수가 들쭉날�
 
 Agent와 웹페이지를 로컬 환경(내 컴퓨터)에서 함께 실행할 수 있습니다. 웹페이지는 브라우저에서 `http://localhost:8000`으로 열리고, 상단 새로고침 버튼을 누르면 이 컴퓨터에서 Agent가 바로 실행됩니다. 토큰은 필요 없습니다.
 
-**필요한 것:** Python 3.12, AI API 키 (`OPENAI_API_KEY`, Claude를 쓰면 `ANTHROPIC_API_KEY`)
+**필요한 것:** Python 3.12, AI API 키 (`ANTHROPIC_API_KEY`, OpenAI로 바꿔 쓰면 `OPENAI_API_KEY`)
 
 다른 컴퓨터에서는 저장소를 내려받은 뒤 같은 방법으로 실행합니다.
 
@@ -199,8 +199,8 @@ notepad .env
 ## 운영 메모
 
 - **처음 한 번**: 저장소 Settings → Pages → Build and deployment → Source를 **GitHub Actions**로 바꾼 뒤, Actions 탭에서 "뉴스 업데이트"를 수동 실행(Run workflow)합니다.
-- **API 키 보관**: 로컬 실행용 `.env`는 저장소에 올리지 않습니다. GitHub Actions는 저장소 Settings → Secrets and variables → Actions(또는 `gh secret set OPENAI_API_KEY`)에 암호화해 저장한 키를 씁니다. 제공사를 바꾸면 그 제공사의 키도 등록해야 합니다.
-- **비용**: 수집 현황의 "최근 실행"에 회차별 추정 비용이 나옵니다. 쓰는 제공사의 콘솔(OpenAI: platform.openai.com의 Limits, Anthropic: console.anthropic.com)에서 월 사용 한도를 걸어 두세요.
+- **API 키 보관**: 로컬 실행용 `.env`는 저장소에 올리지 않습니다. GitHub Actions는 저장소 Settings → Secrets and variables → Actions(또는 `gh secret set ANTHROPIC_API_KEY`)에 암호화해 저장한 키를 씁니다. 제공사를 바꾸면 그 제공사의 키도 등록해야 합니다.
+- **비용**: 수집 현황의 "최근 실행"에 회차별 추정 비용이 나옵니다. 쓰는 제공사의 콘솔(Anthropic: platform.claude.com, OpenAI: platform.openai.com의 Limits)에서 월 사용 한도를 걸어 두세요.
 - **일부 매체 실패**: 매체 한 곳의 접속이 잠시 실패해도 나머지는 계속 수집하고, 놓친 기사는 다음 실행이 48시간 안 기사를 다시 보며 받아 갑니다. 같은 매체가 계속 실패하면 수집 매체 목록에 "실패 N회 연속"으로 나오고, 분야별 RSS 중 하나만 실패하면 "RSS 2개 중 1개 실패"로 나옵니다.
 - **알림**: 매체 과반 수집 실패, AI 중단(크레딧 부족 등), 24시간 새 기사 없음이면 Actions 실행이 실패로 표시되고 GitHub이 메일을 보냅니다.
 - **AI가 멈췄을 때**: 이슈 묶기를 못 한 기사는 다음 실행으로 미루고, 요약을 못 한 이슈는 "요약 대기"로 먼저 게시한 뒤 다음 실행에서 다시 요약합니다.
