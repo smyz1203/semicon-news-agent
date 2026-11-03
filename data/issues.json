@@ -1,7 +1,52 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03T17:10:02Z",
+  "updated_at": "2026-11-03T17:59:22Z",
   "issues": [
+    {
+      "id": "c20261103-0412",
+      "headline": "서울대, 0.6V 구동 강유전체 DRAM급 커패시터 연구 발표",
+      "summary": [
+        "서울대 연구팀이 Hf0.5Zr0.5O2 강유전체 커패시터의 속도와 내구성 한계를 해결한 연구를 논문으로 발표했다.",
+        "0.6V에서 42.1ns, 1.0V에서 8.1ns의 분극 반전을 구현했고 0.6V에서 수천억 회 이상 스위칭 내구성을 보였다.",
+        "저전압 고속 동작과 장수명을 동시에 확보해 DRAM급 메모리의 리프레시 부담을 줄일 가능성을 제시했다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "강유전체",
+        "HZO",
+        "DRAM",
+        "저전압 구동",
+        "CP-FeRAM"
+      ],
+      "companies": [
+        "서울대학교"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "서울대"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T17:10:21Z",
+      "updated_at": "2026-11-03T17:10:21Z",
+      "articles": [
+        {
+          "key": "d3e680d010c10a9e",
+          "title": "Fast, Sub-Volt HZO Ferroelectric Capacitors For DRAM-Like Memory (SNU)",
+          "url": "https://semiengineering.com/fast-sub-volt-hzo-ferroelectric-capacitors-for-dram-like-memory-snu/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-03T17:10:21Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261103-0326",
       "headline": "애플, 차세대 OLED 백플레인 증착 방식으로 스퍼터링 검토",
