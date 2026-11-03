@@ -6,6 +6,7 @@
     python -m agent.main                      # 전체 실행 (GitHub Actions가 1시간마다 실행)
     python -m agent.main --data-dir local-data  # 결과를 다른 폴더에 저장
     python -m agent.main --rebuild            # 처음부터 다시 만들기 (기준을 바꾼 뒤 기존 이슈도 새 기준으로)
+    python -m agent.main --lookback-hours 130  # 이번만 수집 기간을 늘림 (실행이 멈췄던 공백 메우기)
 """
 
 import argparse
@@ -29,11 +30,19 @@ from agent.score import Scorer
 log = logging.getLogger("agent")
 
 
-def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = None, rebuild: bool = False) -> dict | None:
+def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = None, rebuild: bool = False,
+        lookback_hours: int | None = None) -> dict | None:
     cfg = load_config()
     s = cfg.settings
     if s.get("provider") not in KEY_ENV:
         raise SystemExit(f"config/settings.yaml의 provider는 {', '.join(KEY_ENV)} 중 하나여야 합니다 (지금: {s.get('provider')})")
+    if lookback_hours:
+        # 이미 처리한 기사는 seen으로 건너뛰므로, 그 기억 기간보다 길게 잡으면 같은 기사를 또 처리할 수 있어 막음
+        longest = s["retention"]["seen_url_days"] * 24
+        if not 1 <= lookback_hours <= longest:
+            raise SystemExit(f"--lookback-hours는 1~{longest} 사이여야 합니다 (지금: {lookback_hours})")
+        s["lookback"]["max_age_hours"] = lookback_hours
+        log.warning("이번 실행만 수집 기간을 %d시간으로 늘림 (멈췄던 기간의 공백 메우기)", lookback_hours)
     limits = dict(s["limits"])
     if limit:
         limits["max_articles_per_run"] = limit
@@ -41,6 +50,8 @@ def run(data_dir: Path = DATA_DIR, dry_run: bool = False, limit: int | None = No
     now = datetime.now(timezone.utc)
     state = store.load_state(data_dir)
     issues = store.load_issues(data_dir)
+    for issue in issues:  # 예전에 처리한 시각으로 저장된 이슈도 기사 발행 시각으로 맞춤
+        store.align_times(issue)
     if rebuild:
         # 처음부터 다시 만들기: 이슈와 '이미 본 기사' 목록을 비우고 최근 48시간 기사를 지금 기준으로 다시 처리.
         # 매체 상태는 남기고, 실행 기록은 저장할 때 비움. 예전 데이터는 git 기록에 남아 있음
@@ -270,12 +281,15 @@ def main() -> None:
     parser.add_argument("--data-dir", type=Path, default=DATA_DIR, help="결과를 저장할 폴더")
     parser.add_argument("--rebuild", action="store_true",
                         help="처음부터 다시 만들기: 이슈·이미 본 기사·실행 기록을 비우고 최근 48시간 기사를 다시 처리")
+    parser.add_argument("--lookback-hours", type=int,
+                        help="이번 실행만 수집 기간(시간)을 바꿈. 실행이 멈췄던 공백을 메울 때 (예: 130, 최대 336)")
     args = parser.parse_args()
     load_dotenv()  # 로컬 실행용 .env 파일에서 API 키 읽기 (OPENAI_API_KEY 또는 ANTHROPIC_API_KEY)
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s", datefmt="%H:%M:%S")
     for noisy in ("httpx", "httpx2", "anthropic"):
         logging.getLogger(noisy).setLevel(logging.WARNING)
-    run(data_dir=args.data_dir, dry_run=args.dry_run, limit=args.limit, rebuild=args.rebuild)
+    run(data_dir=args.data_dir, dry_run=args.dry_run, limit=args.limit, rebuild=args.rebuild,
+        lookback_hours=args.lookback_hours)
 
 
 if __name__ == "__main__":

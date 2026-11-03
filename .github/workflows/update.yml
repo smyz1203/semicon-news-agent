@@ -12,6 +12,10 @@ on:
         description: "처음부터 다시 만들기 (이슈·이미 본 기사·실행 기록을 비우고 최근 48시간 기사를 지금 기준으로 다시 처리)"
         type: boolean
         default: false
+      lookback_hours:
+        description: "이번 실행만 수집 기간(시간)을 늘림. 0이면 설정값(48시간). 실행이 멈췄던 공백을 메울 때 (예: 130, 최대 336)"
+        type: number
+        default: 0
 
 # 동시에 두 번 돌면 데이터 커밋이 충돌하므로 한 번에 하나만
 concurrency:
@@ -39,9 +43,11 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: Agent 실행 (수집 → 묶기 → 요약 → 저장)
-        # 예약 실행에는 inputs가 없으므로 rebuild는 수동 실행에서 체크했을 때만 붙음
-        run: python -m agent.main ${{ inputs.rebuild && '--rebuild' || '' }}
+        # 예약 실행에는 inputs가 없으므로 rebuild·수집 기간은 수동 실행에서 정했을 때만 붙음
+        # 수집 기간은 명령에 바로 넣지 않고 환경변수로 넘김 (숫자인지는 agent.main이 다시 확인)
+        run: python -m agent.main ${{ inputs.rebuild && '--rebuild' || '' }} ${LOOKBACK_HOURS:+--lookback-hours "$LOOKBACK_HOURS"}
         env:
+          LOOKBACK_HOURS: ${{ inputs.lookback_hours > 0 && inputs.lookback_hours || '' }}
           # config/settings.yaml의 provider에 맞는 키만 쓰임 (openai → OPENAI_API_KEY, claude → ANTHROPIC_API_KEY)
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}

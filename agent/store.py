@@ -171,7 +171,21 @@ def add_articles(issue: dict, articles, now: datetime) -> bool:
         langs = {a["lang"] for a in issue["articles"]}
         issue["region"] = "both" if len(langs) > 1 else next(iter(langs))
         issue["updated_at"] = to_iso(now)
+        align_times(issue)
     return new_source
+
+
+def align_times(issue: dict) -> None:
+    """이슈 시각을 기사 발행 시각에 맞춘다: first_seen은 첫 기사, updated_at은 마지막 기사 시각.
+
+    실행이 멈췄다가 밀린 기사를 늦게 처리해도 보도된 날짜에 보이게 하려고(추이 그래프·기간 필터),
+    처리한 시각보다 기사 시각이 이르면 기사 시각으로 당긴다. 늦추지는 않으므로 여러 번 불러도 같다.
+    """
+    if not issue["articles"]:
+        return
+    times = [from_iso(a["published_at"]) for a in issue["articles"]]
+    issue["first_seen"] = to_iso(min(from_iso(issue["first_seen"]), min(times)))
+    issue["updated_at"] = to_iso(min(from_iso(issue["updated_at"]), max(times)))
 
 
 def archive_old(data_dir: Path, issues: list[dict], days: int, now: datetime) -> list[dict]:
