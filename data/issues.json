@@ -1,7 +1,53 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03T17:59:22Z",
+  "updated_at": "2026-11-03T19:08:34Z",
   "issues": [
+    {
+      "id": "c20261103-0413",
+      "headline": "삼성디스플레이, 2027년 OLED 패널 가격 인상 루머",
+      "summary": [
+        "중국발 루머에 따르면 삼성디스플레이가 2027년 OLED 패널 공급가를 장당 10~20달러 올리겠다고 거래처에 통보했다.",
+        "원가 상승이 아니라 혼탁해진 저가 시장 질서를 바로잡으려는 의도로 전해졌으며, 회사는 이를 확인하지 않았다.",
+        "스마트폰 패널에 적용되면 15~30% 인상 폭이 될 수 있어 모바일 시장 가격 구조에 큰 파장이 예상된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "패널 가격",
+        "2027년",
+        "스마트폰 패널",
+        "가격 인상 루머"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "애플"
+      ],
+      "event_type": "가격 동향",
+      "confirmed": false,
+      "parties": [
+        "삼성디스플레이"
+      ],
+      "importance": 3,
+      "importance_reason": "가격 동향 3점, 관심 기업(삼성디스플레이) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T18:00:41Z",
+      "updated_at": "2026-11-03T18:00:41Z",
+      "articles": [
+        {
+          "key": "74c3bda78fa9ca0d",
+          "title": "Rumor: Samsung Display to raise its OLED panel prices by $10-20 in 2027",
+          "url": "https://www.oled-info.com/rumor-samsung-display-raise-its-oled-panel-prices-10-20-2027",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-03T18:00:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261103-0412",
       "headline": "서울대, 0.6V 구동 강유전체 DRAM급 커패시터 연구 발표",
