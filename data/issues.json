@@ -1,7 +1,64 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03T16:03:48Z",
+  "updated_at": "2026-11-03T17:10:02Z",
   "issues": [
+    {
+      "id": "c20261103-0326",
+      "headline": "애플, 차세대 OLED 백플레인 증착 방식으로 스퍼터링 검토",
+      "summary": [
+        "애플이 차세대 OLED 패널용 HMO 백플레인의 증착 방식으로 스퍼터링을 우선 검토하는 것으로 전해졌다.",
+        "최종 양산 공정은 아직 정해지지 않았으며, 삼성디스플레이와 LG디스플레이도 스퍼터링과 ALD를 병행 연구 중이다.",
+        "ALD는 박막 특성 제어에 강점이 있으나 장비·재료 비용이 높아, 기존 OLED 라인에서 쓰는 스퍼터링의 활용 가능성이 주목된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "HMO",
+        "백플레인",
+        "스퍼터링",
+        "ALD",
+        "차세대 OLED"
+      ],
+      "companies": [
+        "애플",
+        "삼성디스플레이",
+        "LG디스플레이"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "애플",
+        "삼성디스플레이",
+        "LG디스플레이"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점, 관심 기업(LG디스플레이, 삼성디스플레이) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-02T21:43:07Z",
+      "updated_at": "2026-11-03T17:00:00Z",
+      "articles": [
+        {
+          "key": "399dc4207a3e347d",
+          "title": "애플, 차세대 OLED HMO 증착 방식 저울질",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64685",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-02T21:43:07Z"
+        },
+        {
+          "key": "e1f7f2f8f87caf74",
+          "title": "Apple is reportedly leaning towards sputtering for its next-generation HMO OLED backplanes",
+          "url": "https://www.oled-info.com/apple-reportedly-leaning-towards-sputtering-its-next-generation-hmo-oled",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-03T17:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261103-0411",
       "headline": "LED 광원 투영 노광기 UX-4 시리즈 수주 개시",
@@ -2131,55 +2188,6 @@
           "source": "Semiconductor Digest",
           "lang": "en",
           "published_at": "2026-11-02T22:12:58Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261103-0326",
-      "headline": "애플, 차세대 OLED용 HMO 증착 방식 검토 중",
-      "summary": [
-        "애플이 차세대 OLED 패널용 고이동도 산화물(HMO) 기술을 개발하며 스퍼터링 증착을 우선 검토하고 있다.",
-        "최종 양산 공정은 아직 정하지 않았으며 삼성디스플레이와 LG디스플레이는 스퍼터링과 ALD를 모두 개발 중이다.",
-        "ALD는 정밀도에서 유리하지만 장비·소재 비용이 높아 비용 부담이 적은 스퍼터링이 주목받고 있다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "HMO",
-        "OLED",
-        "스퍼터링",
-        "ALD",
-        "차세대 디스플레이"
-      ],
-      "companies": [
-        "애플",
-        "삼성디스플레이",
-        "LG디스플레이"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": false,
-      "parties": [
-        "애플",
-        "삼성디스플레이",
-        "LG디스플레이"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점, 관심 기업(LG디스플레이, 삼성디스플레이) +1, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-02T21:43:07Z",
-      "updated_at": "2026-11-02T21:43:07Z",
-      "articles": [
-        {
-          "key": "399dc4207a3e347d",
-          "title": "애플, 차세대 OLED HMO 증착 방식 저울질",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=64685",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-02T21:43:07Z"
         }
       ],
       "type_checked": true,
