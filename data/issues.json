@@ -1,7 +1,333 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03T22:57:54Z",
+  "updated_at": "2026-11-03T23:50:35Z",
   "issues": [
+    {
+      "id": "c20261103-0421",
+      "headline": "AMD, 3분기 사상 최대 실적과 강한 4분기 전망 제시",
+      "summary": [
+        "AMD가 3일 발표한 올해 3분기 매출은 133억달러대로 분기 최대를 기록했다.",
+        "매출은 전년 대비 45% 늘었고 GAAP 영업이익은 28억달러대로 123% 성장했다.",
+        "AI 인프라 투자 붐에 따른 데이터센터 수요가 AMD 성장을 이끌며 반도체 업계의 AI 수요 강세를 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AMD",
+        "데이터센터",
+        "AI 인프라",
+        "분기 최대 실적",
+        "4분기 전망"
+      ],
+      "companies": [
+        "AMD",
+        "인텔"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "AMD"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T23:17:41Z",
+      "updated_at": "2026-11-03T23:46:05Z",
+      "articles": [
+        {
+          "key": "d8c5660d12f30cdd",
+          "title": "AMD 3분기 매출 ‘사상최고’ 18조원…DC용 반도체 매출 2배 상승",
+          "url": "https://www.dt.co.kr/article/12093021",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-03T23:17:41Z"
+        },
+        {
+          "key": "d299783919f5c8f8",
+          "title": "AMD의 질주…3분기 최대 실적, 4분기는 더 좋다",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64831",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-03T23:46:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261103-0422",
+      "headline": "인도 반도체 패키징 붐 속 소규모 OSAT의 기회",
+      "summary": [
+        "인도의 외주 반도체 조립·테스트(OSAT) 산업이 확장되면서 소규모 전문 패키징 시설에 대한 관심이 커지고 있다.",
+        "기사 본문이 짧게 잘려 있어 구체적인 투자 규모나 일정, 기업별 계획은 확인되지 않는다.",
+        "대형 자본집약적 공장과 함께 소규모 특화 시설이 설 자리가 있을지를 묻는 분석으로, 인도 패키징 생태계 변화를 가늠하게 한다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "OSAT",
+        "반도체 패키징",
+        "인도",
+        "후공정"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T23:30:00Z",
+      "updated_at": "2026-11-03T23:30:00Z",
+      "articles": [
+        {
+          "key": "12c6375eed64ff5f",
+          "title": "Is There Room for Small-Scale OSATs in India’s Chip Packaging Boom?",
+          "url": "https://www.eetimes.com/is-there-room-for-small-scale-osats-in-india-chip-packaging-boom/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-03T23:30:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261103-0359",
+      "headline": "KOSA·KDIA, 디스플레이 제조 AX 확산 업무협약",
+      "summary": [
+        "한국인공지능·소프트웨어산업협회(KOSA)와 한국디스플레이산업협회(KDIA)가 디스플레이 제조 AX 확산 업무협약을 체결했다.",
+        "양측은 AI·SW 기업과 디스플레이 기업 간 기술 협력을 넓히고 제조 현장 전문인력을 함께 양성할 계획이다.",
+        "디스플레이 공정에 맞는 AI·SW 기술을 발굴해 실제 공정에 적용하는 기반을 마련하는 데 의미가 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "AX",
+        "제조 AI",
+        "업무협약",
+        "전문인력 양성",
+        "디스플레이 공정"
+      ],
+      "companies": [
+        "KOSA",
+        "KDIA"
+      ],
+      "event_type": "인수합병",
+      "confirmed": true,
+      "parties": [
+        "KOSA",
+        "KDIA"
+      ],
+      "importance": 3,
+      "importance_reason": "인수합병 2점, 매체 5곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T07:46:46Z",
+      "updated_at": "2026-11-03T23:20:00Z",
+      "articles": [
+        {
+          "key": "7202d6d67daeb952",
+          "title": "디스플레이협회, KOSA와 제조 AI 확산 협력",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64811",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-03T07:46:46Z"
+        },
+        {
+          "key": "1c866e1de67eea2d",
+          "title": "디스플레이 소부장에 AI 도입 지원…KDIA·KOSA 협약",
+          "url": "https://www.inews24.com/view/2022218",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-03T08:34:30Z"
+        },
+        {
+          "key": "c7d9ca13e203c965",
+          "title": "디스플레이협회, 인공지능소프트웨어협회와 제조 AX 확산 맞손",
+          "url": "https://www.yna.co.kr/view/AKR20261103150700003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-03T08:36:31Z"
+        },
+        {
+          "key": "b36a9900b599deaf",
+          "title": "KOSA, 제조 AX 지원 강화…기술 매칭·전문인력 양성",
+          "url": "https://zdnet.co.kr/view/?no=20261103184331",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-03T09:43:31Z"
+        },
+        {
+          "key": "251afab246554f0a",
+          "title": "KOSA-KDIA, 디스플레이 제조 AX 확산 ‘맞손’",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409221",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-03T23:20:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261103-0348",
+      "headline": "딥엑스, AMD와 피지컬 AI 협력 방안 논의",
+      "summary": [
+        "딥엑스가 AMD 글로벌 AI 마켓 총괄 수석부사장 및 AMD코리아 대표와 판교 본사에서 만나 협력을 논의했다.",
+        "딥엑스는 AMD 시스템온모듈 플랫폼 크리아에 자사 저전력 NPU를 결합하는 방안을 제안했다.",
+        "로봇 실시간 제어와 AI 추론을 한 모듈에서 처리하는 구상으로, 엣지 AI 협업 가능성을 넓힌다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엣지 AI",
+        "NPU",
+        "피지컬 AI",
+        "이기종 컴퓨팅",
+        "크리아"
+      ],
+      "companies": [
+        "딥엑스",
+        "AMD",
+        "AMD코리아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "딥엑스",
+        "AMD"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 매체 3곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T05:31:18Z",
+      "updated_at": "2026-11-03T23:16:16Z",
+      "articles": [
+        {
+          "key": "fe6075e39fdde33e",
+          "title": "딥엑스, AMD 만났다…피지컬 AI·이기종 컴퓨팅 협력",
+          "url": "https://www.yna.co.kr/view/AKR20261103118400017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-03T05:31:18Z"
+        },
+        {
+          "key": "af427e59688eda56",
+          "title": "AMD 글로벌 AI 수석부사장, 딥엑스 김녹원 대표 만나…협력 논의",
+          "url": "https://www.inews24.com/view/2022118",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-03T07:17:08Z"
+        },
+        {
+          "key": "a1b6b01f7cc8c8a8",
+          "title": "딥엑스, AMD 수석부사장 만났다...기술 협력 논의",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64828",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-03T23:16:16Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261103-0420",
+      "headline": "윈본드, 16나노 DRAM 포트폴리오에 DDR4·LPDDR4 추가",
+      "summary": [
+        "윈본드가 신규 8Gb LPDDR4, 16Gb LPDDR4, 16Gb DDR4 제품을 추가하며 16나노 DRAM 라인업을 넓혔다고 발표했다.",
+        "고객사가 다양한 시스템 요구에 대응할 수 있도록 메모리 밀도 지원 범위를 강화하는 것이 핵심이다.",
+        "데이터 처리량 증가에 맞춰 중저가 메모리 수요를 겨냥한 제품군 확대로 볼 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "DDR4",
+        "LPDDR4",
+        "16나노 DRAM",
+        "메모리 밀도"
+      ],
+      "companies": [
+        "윈본드"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "윈본드"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T23:10:00Z",
+      "updated_at": "2026-11-03T23:10:00Z",
+      "articles": [
+        {
+          "key": "ee58ad216c7ecf2c",
+          "title": "윈본드, 신규 DDR4·LPDDR4 제품 출시…16㎚ DRAM 포트폴리오 확대",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409226",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-03T23:10:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261103-0419",
+      "headline": "GST, 데이터센터 액침·DLC 냉각 장비 4종 공개 예정",
+      "summary": [
+        "GST가 AI·HPC 데이터센터용 액침냉각 및 DLC 장비 4종을 실물로 선보인다.",
+        "전시는 2026년 11월 4일부터 열리는 '데이터센터코리아 2026'에서 진행될 예정이다.",
+        "AI 연산 수요 확대에 따라 데이터센터 냉각 장비 시장에서 존재감을 키우려는 행보로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "액침냉각",
+        "DLC",
+        "데이터센터",
+        "HPC",
+        "칠러"
+      ],
+      "companies": [
+        "GST"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "GST"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T23:00:00Z",
+      "updated_at": "2026-11-03T23:00:00Z",
+      "articles": [
+        {
+          "key": "a4b4560d47592196",
+          "title": "GST, ‘데이터센터코리아 2026’에 AI·HPC 액침냉각 및 DLC 장비 4종 선봬",
+          "url": "https://www.dt.co.kr/article/12092157",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-03T23:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261103-0418",
       "headline": "반도체 전문지 11·12월호 주요 기사 목차 소개",
@@ -710,77 +1036,6 @@
       "importance_raw": 3
     },
     {
-      "id": "c20261103-0359",
-      "headline": "KDIA·KOSA, 디스플레이 제조 AI 전환 협약 체결",
-      "summary": [
-        "한국디스플레이산업협회와 한국인공지능소프트웨어산업협회가 디스플레이 제조 AX 확산 업무협약을 체결했다.",
-        "협력 분야는 기술 매칭, 전문인력 양성, 융합기술 고도화 등 5개이며 공동 세미나도 추진한다.",
-        "중소·중견 소재·부품·장비 기업의 AI 도입 장벽을 낮춰 디스플레이 제조 혁신을 앞당길 전망이다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "제조 AX",
-        "디스플레이 AI",
-        "기술 매칭",
-        "전문인력 양성",
-        "업무협약"
-      ],
-      "companies": [
-        "한국디스플레이산업협회",
-        "한국인공지능소프트웨어산업협회"
-      ],
-      "event_type": "인수합병",
-      "confirmed": true,
-      "parties": [
-        "한국디스플레이산업협회",
-        "한국인공지능소프트웨어산업협회"
-      ],
-      "importance": 3,
-      "importance_reason": "인수합병 2점, 매체 4곳 보도 +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-03T07:46:46Z",
-      "updated_at": "2026-11-03T09:43:31Z",
-      "articles": [
-        {
-          "key": "7202d6d67daeb952",
-          "title": "디스플레이협회, KOSA와 제조 AI 확산 협력",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=64811",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-03T07:46:46Z"
-        },
-        {
-          "key": "1c866e1de67eea2d",
-          "title": "디스플레이 소부장에 AI 도입 지원…KDIA·KOSA 협약",
-          "url": "https://www.inews24.com/view/2022218",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-03T08:34:30Z"
-        },
-        {
-          "key": "c7d9ca13e203c965",
-          "title": "디스플레이협회, 인공지능소프트웨어협회와 제조 AX 확산 맞손",
-          "url": "https://www.yna.co.kr/view/AKR20261103150700003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-03T08:36:31Z"
-        },
-        {
-          "key": "b36a9900b599deaf",
-          "title": "KOSA, 제조 AX 지원 강화…기술 매칭·전문인력 양성",
-          "url": "https://zdnet.co.kr/view/?no=20261103184331",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-03T09:43:31Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
       "id": "c20261103-0368",
       "headline": "반도체 팹 지원, 현지 공급망 연계 필요성 제기",
       "summary": [
@@ -1222,60 +1477,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261103-0348",
-      "headline": "딥엑스·AMD, 피지컬 AI 분야 협력 논의",
-      "summary": [
-        "AMD 글로벌 AI 마켓 총괄 키스 스트라이어 수석부사장이 딥엑스 김녹원 대표와 만나 협력을 논의했다.",
-        "딥엑스는 자사 NPU를 AMD 컴퓨팅 플랫폼에 결합하는 이기종 컴퓨팅 협력 방안을 검토하고 있다.",
-        "국내 AI 반도체 기업이 글로벌 기업과 피지컬 AI 영역에서 협력 폭을 넓히는 흐름으로 볼 수 있다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "피지컬 AI",
-        "NPU",
-        "이기종 컴퓨팅",
-        "AMD 플랫폼"
-      ],
-      "companies": [
-        "딥엑스",
-        "AMD"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": false,
-      "parties": [
-        "딥엑스",
-        "AMD"
-      ],
-      "importance": 1,
-      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-03T05:31:18Z",
-      "updated_at": "2026-11-03T07:17:08Z",
-      "articles": [
-        {
-          "key": "fe6075e39fdde33e",
-          "title": "딥엑스, AMD 만났다…피지컬 AI·이기종 컴퓨팅 협력",
-          "url": "https://www.yna.co.kr/view/AKR20261103118400017",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-03T05:31:18Z"
-        },
-        {
-          "key": "af427e59688eda56",
-          "title": "AMD 글로벌 AI 수석부사장, 딥엑스 김녹원 대표 만나…협력 논의",
-          "url": "https://www.inews24.com/view/2022118",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-03T07:17:08Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
     },
     {
       "id": "c20261103-0351",
