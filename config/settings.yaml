@@ -7,7 +7,7 @@ github_repo: smyz1203/semicon-news-agent
 # ── AI 제공사와 모델 ──────────────────────────────────────
 # provider를 openai 또는 claude로 바꾸면 그 제공사를 씀.
 # API 키는 제공사마다 다른 이름으로 넣음: openai → OPENAI_API_KEY, claude → ANTHROPIC_API_KEY
-provider: openai
+provider: claude
 
 openai:
   # 주의: OpenAI 공지상 gpt-4o-mini는 2027-01-14 종료 예정 (대체 모델: gpt-6-luna).
@@ -21,9 +21,13 @@ openai:
   pricing_per_mtok: {input: 0.15, cache_read: 0.075, output: 0.60}
 
 claude:
-  model: claude-sonnet-5-5
-  server_fallback: true    # 요청이 거절되면 서버가 다른 모델로 자동 재시도
-  pricing_per_mtok: {input: 2.0, output: 10.0, cache_write: 2.5, cache_read: 0.2}
+  model: claude-haiku-5-5
+  # 요청이 거절되면 서버가 다른 모델로 자동 재시도. Haiku 5.5는 이 기능이 없어 끔 (Sonnet 5.5로 바꾸면 true)
+  server_fallback: false
+  # 추정 비용 계산용 단가 (USD / 100만 토큰, 프롬프트 10만 토큰 이하 기준). 모델을 바꾸면 이 값도 바꿈
+  #   claude-haiku-5-5:  {input: 0.10, output: 0.50, cache_write: 0.125, cache_read: 0.01}
+  #   claude-sonnet-5-5: {input: 2.0, output: 10.0, cache_write: 2.5, cache_read: 0.2}
+  pricing_per_mtok: {input: 0.10, output: 0.50, cache_write: 0.125, cache_read: 0.01}
 
 # effort: AI가 얼마나 깊게 생각할지 (low / medium / high). 높을수록 비싸고 느림.
 effort:
