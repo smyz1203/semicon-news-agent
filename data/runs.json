@@ -1,36 +1,5 @@
 [
   {
-    "at": "2026-10-29T21:55:03Z",
-    "collected": 774,
-    "new": 24,
-    "relevant": 0,
-    "groups": 7,
-    "deferred": 7,
-    "irrelevant_by_ai": 0,
-    "new_issues": 0,
-    "summarized": 0,
-    "resummarized": 0,
-    "classified": 0,
-    "pending": 1,
-    "failed": 0,
-    "sources_ok": 18,
-    "sources_total": 18,
-    "ai_model": "openai/gpt-4o-mini",
-    "ai_calls": 0,
-    "tokens": {
-      "calls": 0,
-      "input": 0,
-      "output": 0,
-      "cache_write": 0,
-      "cache_read": 0
-    },
-    "cost_usd": 0.0,
-    "ai_stopped": "크레딧 부족 또는 사용 한도 초과",
-    "alerts": [
-      "AI 중단: 크레딧 부족 또는 사용 한도 초과"
-    ]
-  },
-  {
     "at": "2026-10-29T22:54:28Z",
     "collected": 773,
     "new": 12,
@@ -3083,6 +3052,37 @@
     "pending": 1,
     "failed": 0,
     "sources_ok": 18,
+    "sources_total": 18,
+    "ai_model": "openai/gpt-4o-mini",
+    "ai_calls": 0,
+    "tokens": {
+      "calls": 0,
+      "input": 0,
+      "output": 0,
+      "cache_write": 0,
+      "cache_read": 0
+    },
+    "cost_usd": 0.0,
+    "ai_stopped": "API 키 또는 모델 설정 문제 (AuthenticationError)",
+    "alerts": [
+      "AI 중단: API 키 또는 모델 설정 문제 (AuthenticationError)"
+    ]
+  },
+  {
+    "at": "2026-11-03T11:06:56Z",
+    "collected": 738,
+    "new": 133,
+    "relevant": 0,
+    "groups": 125,
+    "deferred": 125,
+    "irrelevant_by_ai": 0,
+    "new_issues": 0,
+    "summarized": 0,
+    "resummarized": 0,
+    "classified": 0,
+    "pending": 1,
+    "failed": 0,
+    "sources_ok": 17,
     "sources_total": 18,
     "ai_model": "openai/gpt-4o-mini",
     "ai_calls": 0,
