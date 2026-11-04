@@ -1,7 +1,53 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04T21:04:12Z",
+  "updated_at": "2026-11-04T21:58:45Z",
   "issues": [
+    {
+      "id": "c20261104-0480",
+      "headline": "스페이스X, 퀄컴과 손잡고 미국 5G망 구축 추진",
+      "summary": [
+        "스페이스X가 퀄컴과 협력해 미국 전역에 지상 5G 통신망을 구축하는 방향으로 나섰다.",
+        "기사 본문이 잘려 있어 구체적인 투자 규모와 일정은 확인되지 않는다.",
+        "위성 인터넷 스타링크 기반 이동통신 사업 확대로, 통신 시장에서 기존 사업자와의 경쟁 구도가 주목된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "5G",
+        "스타링크",
+        "이동통신",
+        "위성통신"
+      ],
+      "companies": [
+        "스페이스X",
+        "퀄컴"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [
+        "스페이스X",
+        "퀄컴"
+      ],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T21:35:52Z",
+      "updated_at": "2026-11-04T21:35:52Z",
+      "articles": [
+        {
+          "key": "953c0fab70ba4117",
+          "title": "스페이스X, 퀄컴과 미국 전역에 5G망 구축…스타링크 이동통신사업 본격화",
+          "url": "https://www.dt.co.kr/article/12093287",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-04T21:35:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261104-0479",
       "headline": "메타, AI 모델 변화 속도 맞춘 칩렛 개발 방식 발표",
