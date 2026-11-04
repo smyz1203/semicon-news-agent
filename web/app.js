@@ -363,7 +363,6 @@ function renderRubric() {
 // ── 화면 2. 수집 현황 ────────────────────────────────────────
 
 function renderMeta() {
-  if (meta.ai) $("ai-name").textContent = meta.ai;
   const lastRun = meta.last_run_at;
   if (!lastRun) {
     $("freshness").textContent = "실행 전";
