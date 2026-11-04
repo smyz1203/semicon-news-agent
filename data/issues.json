@@ -1,7 +1,184 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04T06:11:50Z",
+  "updated_at": "2026-11-04T07:31:34Z",
   "issues": [
+    {
+      "id": "c20261104-0450",
+      "headline": "주성엔지니어링 3분기 영업이익 177억원, 전년比 급증",
+      "summary": [
+        "주성엔지니어링이 3분기 연결 기준 매출 781억원, 영업이익 177억원을 공시했다.",
+        "영업이익은 지난해 같은 기간보다 5배 이상 늘어난 것으로 전년 대비 426% 증가했다.",
+        "반도체 장비 업체의 실적 회복 흐름을 보여주는 지표로 해석할 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "3분기 실적",
+        "영업이익",
+        "반도체 장비",
+        "연결 기준"
+      ],
+      "companies": [
+        "주성엔지니어링"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "주성엔지니어링"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T07:00:32Z",
+      "updated_at": "2026-11-04T07:00:32Z",
+      "articles": [
+        {
+          "key": "7c93384f667ff1e8",
+          "title": "주성엔지니어링, 3분기 영업익 177억원…전년比 426% 증가",
+          "url": "https://www.inews24.com/view/2022619",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-04T07:00:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261104-0449",
+      "headline": "나노종합기술원, 실리콘 브릿지 패키징 기술 국내 공공팹 구현",
+      "summary": [
+        "나노종합기술원이 AI 반도체에 쓰이는 실리콘 브릿지 제작 기술을 국내 공공 나노팹에서 구현했다.",
+        "기사 본문이 일부만 제공되어 구체적인 수치나 일정은 확인되지 않는다.",
+        "국내 연구기관이 첨단 패키징 기술 자립 기반을 넓힌 사례로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "실리콘 브릿지",
+        "첨단패키징",
+        "AI반도체",
+        "공공나노팹"
+      ],
+      "companies": [
+        "나노종합기술원"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "나노종합기술원"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T07:00:01Z",
+      "updated_at": "2026-11-04T07:00:01Z",
+      "articles": [
+        {
+          "key": "39c5144b2cfd9edf",
+          "title": "반도체 첨단패키징 '실리콘 브릿지', 국내 공공나노팹서도 구현",
+          "url": "https://www.yna.co.kr/view/AKR20261104084700063",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-04T07:00:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261104-0448",
+      "headline": "삼성전자, 텍사스 2공장서 AMD·엔비디아 HBM 베이스다이 생산 추진",
+      "summary": [
+        "삼성전자가 텍사스 두 번째 공장에서 AMD와 엔비디아용 HBM 베이스다이를 만들 것이라는 보도가 나왔다.",
+        "기사에는 생산 시점이나 물량 등 구체적 수치가 제시되지 않았으며, 본문도 사진 출처 표기만 있다.",
+        "공식 확인이 없는 보도여서 확정 사안으로 보긴 어렵지만, 고객사 다변화와 미국 생산 거점 확대 측면에서 주목할 만하다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM",
+        "베이스다이",
+        "텍사스 공장",
+        "파운드리",
+        "고객사 확보"
+      ],
+      "companies": [
+        "삼성전자",
+        "AMD",
+        "엔비디아"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "AMD",
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점, 관심 기업(삼성전자, 엔비디아) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-04T06:57:15Z",
+      "updated_at": "2026-11-04T06:57:15Z",
+      "articles": [
+        {
+          "key": "badee3a23c143d36",
+          "title": "Samsung to reportedly make AMD, Nvidia HBM base dies at second Texas fab",
+          "url": "https://www.digitimes.com/news/a20261104VL220/samsung-hbm-amd-texas-fab.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-04T06:57:15Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261104-0447",
+      "headline": "HBF, AI 메모리 비용 절감 기대와 NAND 공급 압박",
+      "summary": [
+        "HBF가 AI 메모리 비용을 낮출 수 있다는 관측이 나왔으나 기사 본문은 확인되지 않았다.",
+        "구체적인 수치나 일정, 기업 발표 내용은 기사에 나타나지 않는다.",
+        "다만 NAND 공급이 줄어들 수 있다는 우려가 제기되어 메모리 시장에 영향을 줄 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBF",
+        "AI 메모리",
+        "NAND",
+        "공급 압박"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-04T06:32:16Z",
+      "updated_at": "2026-11-04T06:32:16Z",
+      "articles": [
+        {
+          "key": "fceb81033e4c2738",
+          "title": "HBF could cut AI memory costs but squeeze NAND supply",
+          "url": "https://www.digitimes.com/news/a20261104VL218/nand-flash-manufacturing-capacity-wafer-sandisk.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-04T06:32:16Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261103-0326",
       "headline": "애플, 차세대 OLED 백플레인에 스퍼터링 공정 검토",
