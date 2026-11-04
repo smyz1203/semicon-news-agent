@@ -1,7 +1,278 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04T22:58:50Z",
+  "updated_at": "2026-11-04T23:54:04Z",
   "issues": [
+    {
+      "id": "c20261104-0486",
+      "headline": "Empyrean의 EDA 인수, 한국 설계사에 값싼 툴 가능성",
+      "summary": [
+        "Empyrean이 EDA 기업 인수를 추진한 것으로 보도됐다.",
+        "기사 본문은 사진 크레딧만 있어 구체적 인수 대상과 금액은 확인되지 않는다.",
+        "한국 팰리스 설계업체에는 저렴한 설계 툴 기회가, 중국 경쟁사에는 기술 강화 위협이 될 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "EDA",
+        "설계 툴",
+        "중국 반도체",
+        "인수합병"
+      ],
+      "companies": [
+        "Empyrean",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "인수합병",
+      "confirmed": false,
+      "parties": [
+        "Empyrean"
+      ],
+      "importance": 1,
+      "importance_reason": "인수합병 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-04T23:40:28Z",
+      "updated_at": "2026-11-04T23:40:28Z",
+      "articles": [
+        {
+          "key": "7086da967e711ff2",
+          "title": "Empyrean's EDA acquisitions could give Korean chip designers cheaper tools—and stronger Chinese rivals",
+          "url": "https://www.digitimes.com/news/a20261104VL217/design-empyrean-technology-eda-software-revenue.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-04T23:40:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261104-0485",
+      "headline": "TSMC·ASML 2031년 포토마스크 목표, High NA EUV 공급망 압박",
+      "summary": [
+        "DigiTimes는 TSMC와 ASML이 2031년을 겨냥한 포토마스크 목표를 세운 것을 분석했다.",
+        "기사 본문은 사진 크레딧만 있어 구체적인 수치와 일정은 확인되지 않았다.",
+        "High NA EUV 장비 관련 공급업체들이 이 목표에 맞춰 대응해야 하는 부담이 커질 것으로 보인다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "High NA EUV",
+        "포토마스크",
+        "2031년 목표",
+        "TSMC",
+        "ASML"
+      ],
+      "companies": [
+        "TSMC",
+        "ASML"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [
+        "TSMC",
+        "ASML"
+      ],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-04T23:38:51Z",
+      "updated_at": "2026-11-04T23:38:51Z",
+      "articles": [
+        {
+          "key": "a25241bad3c8cfc3",
+          "title": "DIGITIMES Insight: TSMC, ASML's 2031 photomask target puts High NA EUV suppliers on the clock",
+          "url": "https://www.digitimes.com/news/a20261104PD234/asml-tsmc-euv-photomask-digitimes.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-04T23:38:51Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261104-0484",
+      "headline": "AI 수요에 부품 생산능력 부족·리드타임 장기화",
+      "summary": [
+        "Zyxel이 AI 수요 확대로 칩 부품 생산능력이 빠듯해져 리드타임이 길어지고 메모리 비용도 오르고 있다고 알렸다.",
+        "기사 본문이 사실상 비어 있어 구체적인 기간, 가격 인상 폭 등 수치는 확인할 수 없다.",
+        "네트워크 장비 업체까지 부품 수급 압박이 번지고 있어 산업 전반의 공급 병목 우려가 커지는 신호로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "부품 수급",
+        "리드타임",
+        "메모리 가격",
+        "AI 수요"
+      ],
+      "companies": [
+        "Zyxel"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-04T23:34:36Z",
+      "updated_at": "2026-11-04T23:34:36Z",
+      "articles": [
+        {
+          "key": "d7ba67763365d72a",
+          "title": "AI squeezes chip component capacity as Zyxel flags longer lead times, higher memory costs",
+          "url": "https://www.digitimes.com/news/a20261104PD216/zyxel-telecom-capex-component-revenue.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-04T23:34:36Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261104-0483",
+      "headline": "삼성D, 중국 PC방 60곳에 QD-OLED 인증점 조성",
+      "summary": [
+        "삼성디스플레이가 중국 PC방을 활용해 프리미엄 게이밍 모니터 시장 공략에 나선다.",
+        "글로벌 모니터 브랜드와 협력해 QD-OLED 제품을 체험하는 공간을 확대하는 계획이다.",
+        "게이머 대상 체험 마케팅으로 QD-OLED 기술 경쟁력을 알리려는 전략으로 해석된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "QD-OLED",
+        "게이밍 모니터",
+        "인증점",
+        "중국 시장",
+        "프리미엄 모니터"
+      ],
+      "companies": [
+        "삼성디스플레이"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": false,
+      "parties": [
+        "삼성디스플레이"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점, 관심 기업(삼성디스플레이) +1, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T23:34:31Z",
+      "updated_at": "2026-11-04T23:34:31Z",
+      "articles": [
+        {
+          "key": "baff9fcd5551ca8d",
+          "title": "게이밍 시장 공략하는 삼성D, 中 PC방 60곳에 QD-OLED 인증점 조성",
+          "url": "https://www.dt.co.kr/article/12093302",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-04T23:34:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261104-0482",
+      "headline": "시높시스, AI 시대 설계 엔지니어는 시스템 검증자 돼야",
+      "summary": [
+        "시높시스가 반도체 설계 엔지니어의 역할로 AI 결과물을 검증하는 시스템 검증자를 제시했다.",
+        "AI 도입으로 자율화가 진행될수록 엔지니어링 기본 원리 이해가 중요해진다는 입장을 밝혔다.",
+        "HBM과 패키징 역량을 갖춘 한국에서는 시스템 검증 능력이 핵심 경쟁력이 될 것으로 전망됐다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "시스템 검증",
+        "AI 설계",
+        "EDA",
+        "HBM",
+        "패키징"
+      ],
+      "companies": [
+        "시높시스",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "시높시스"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T23:03:57Z",
+      "updated_at": "2026-11-04T23:03:57Z",
+      "articles": [
+        {
+          "key": "2a24d49f11659370",
+          "title": "시높시스 \"AI 시대, 반도체 설계 엔지니어 '시스템 검증자' 돼야\"",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64797",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-04T23:03:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261104-0481",
+      "headline": "김정호 교수 연구실, AI 기반 반도체 설계 자동화 추진",
+      "summary": [
+        "KAIST 김정호 교수 연구실이 AI를 활용한 차세대 반도체 설계 자동화 연구에 나섰다.",
+        "연구 대상은 HBM에 이어 고대역폭플래시(HBF) 등 차세대 AI 반도체 기술로 알려졌다.",
+        "설계 자동화가 current 개발 기간과 비용을 줄일 수 있어 AI 반도체 경쟁력 확보에 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "HBM",
+        "HBF",
+        "AI 반도체 설계 자동화",
+        "차세대 AI 반도체"
+      ],
+      "companies": [
+        "KAIST"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": false,
+      "parties": [
+        "KAIST"
+      ],
+      "importance": 1,
+      "importance_reason": "채용·인력 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T23:00:00Z",
+      "updated_at": "2026-11-04T23:00:00Z",
+      "articles": [
+        {
+          "key": "cc6f1884a76049e0",
+          "title": "‘HBM 아버지’ 김정호 교수 연구실, AI로 반도체 설계 자동화 시대 연다",
+          "url": "https://www.dt.co.kr/article/12093278",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-04T23:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261104-0480",
       "headline": "스페이스X, 퀄컴과 손잡고 미국 5G망 구축 추진",
