@@ -1,7 +1,382 @@
 {
   "version": 1,
-  "updated_at": "2026-11-03T23:50:35Z",
+  "updated_at": "2026-11-04T01:20:07Z",
   "issues": [
+    {
+      "id": "c20261104-0430",
+      "headline": "AMD, 메모리 장기계약 체결…삼성전자 공급 추정",
+      "summary": [
+        "AMD가 일부 메모리 공급사와 장기공급계약(LTA)을 맺고 있다고 3분기 컨퍼런스콜에서 밝혔다.",
+        "계약 상대는 공개되지 않았으나 올봄 양사 경영진 회동을 근거로 삼성전자가 최대 공급사로 추정된다.",
+        "메모리 공급이 장기계약으로 묶이면서 AI 서버 수요에 대응한 AMD의 안정적 조달 기반이 강화된 것으로 보인다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "장기공급계약",
+        "LTA",
+        "메모리 공급",
+        "AMD",
+        "AI 서버"
+      ],
+      "companies": [
+        "AMD",
+        "삼성전자"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "AMD",
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T01:00:51Z",
+      "updated_at": "2026-11-04T01:00:51Z",
+      "articles": [
+        {
+          "key": "955a476c7a5aebb3",
+          "title": "AMD \"메모리 공급사와 장기계약\"…삼성전자로 추정",
+          "url": "https://www.inews24.com/view/2022394",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-04T01:00:51Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261103-0417",
+      "headline": "보쉬, 반도체 전담 사업부 신설로 외부 칩 제조 확대",
+      "summary": [
+        "보쉬가 반도체 전담 사업부를 새로 만들었다고 알려졌다.",
+        "기사 본문이 거의 없어 세부 조직 구조와 투자 규모는 확인되지 않는다.",
+        "로보틱스 분야 자체 칩 역량 강화와 외부 파운드리 사업 확대 의도로 해석된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "보쉬",
+        "반도체 사업부",
+        "로보틱스",
+        "외부 칩 제조"
+      ],
+      "companies": [
+        "보쉬"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "보쉬"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T19:53:38Z",
+      "updated_at": "2026-11-04T00:48:04Z",
+      "articles": [
+        {
+          "key": "bfffa75d2255873e",
+          "title": "Bosch Establishes Dedicated Semiconductor Division to Strengthen Chip Business",
+          "url": "https://www.semiconductor-digest.com/bosch-establishes-dedicated-semiconductor-division-to-strengthen-chip-business/?utm_source=rss&utm_medium=rss&utm_campaign=bosch-establishes-dedicated-semiconductor-division-to-strengthen-chip-business",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-03T19:53:38Z"
+        },
+        {
+          "key": "75ab426858325d42",
+          "title": "Bosch creates semiconductor division to expand in robotics, external chipmaking",
+          "url": "https://www.digitimes.com/news/a20261104VL204/bosch-robotics-business-manufacturing-market.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-04T00:48:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261104-0429",
+      "headline": "정부, AMD와 AI반도체 협력 구체화 논의",
+      "summary": [
+        "정부가 미국 AMD와 AI반도체 분야 협력을 본격화하는 방향으로 논의를 진행하고 있다.",
+        "AMD GPU와 국산 NPU를 연계하는 방안이 거론되며, 구체적 일정과 규모는 기사에 나타나지 않았다.",
+        "국산 AI반도체 생태계와 외산 GPU가 결합될 경우 국내 AI반도체 경쟁력 강화에 영향을 줄 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI반도체",
+        "AMD GPU",
+        "국산 NPU",
+        "정부 협력"
+      ],
+      "companies": [
+        "AMD"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "AMD",
+        "정부"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T00:28:24Z",
+      "updated_at": "2026-11-04T00:28:24Z",
+      "articles": [
+        {
+          "key": "662b6dd398d74403",
+          "title": "[AI픽] AMD GPU·국산 NPU 연계 논의…정부, AI반도체 협력 구체화",
+          "url": "https://www.yna.co.kr/view/AKR20261104029800017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-04T00:28:24Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261104-0426",
+      "headline": "한미반도체 곽동신 회장, 사재 100억원 자사주 추가 매수",
+      "summary": [
+        "곽동신 한미반도체 회장이 사재 100억원을 들여 회사 주식을 장내에서 추가 매수한다고 4일 공시했다.",
+        "이번 매수는 올해 들어 다섯 번째이며, 매수 후 곽 회장의 지분율은 33.69%로 높아진다.",
+        "최대주주의 책임경영 강화 의지를 보여주는 조치로, 주가 안정 신호로 읽힐 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "자사주 매입",
+        "최대주주",
+        "책임경영",
+        "지분율"
+      ],
+      "companies": [
+        "한미반도체"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "한미반도체"
+      ],
+      "importance": 2,
+      "importance_reason": "재무·주주 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T00:04:16Z",
+      "updated_at": "2026-11-04T00:27:46Z",
+      "articles": [
+        {
+          "key": "1e554a74e4419d75",
+          "title": "한미반도체 곽동신 회장, 자사주 100억원 추가 매수",
+          "url": "https://www.yna.co.kr/view/AKR20261104034300003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-04T00:04:16Z"
+        },
+        {
+          "key": "6198d44fddbae21c",
+          "title": "곽동신 한미반도체 회장, 자사주 100억원 추가 매수…지분율 33.69%로",
+          "url": "https://www.inews24.com/view/2022333",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-04T00:27:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261104-0428",
+      "headline": "모빌린트 NPU, 글로벌 AI 플랫폼 Ray 공식 코드 반영",
+      "summary": [
+        "모빌린트가 ETRI와 공동 개발한 기술을 글로벌 AI 소프트웨어 Ray의 공식 코드에 반영했다.",
+        "개발자가 복잡한 설정 없이 모빌린트 NPU를 활용할 수 있도록 지원하는 것이 핵심이다.",
+        "국산 AI반도체의 글로벌 소프트웨어 생태계 편입 사례로, 호환성 확대 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "NPU",
+        "Ray",
+        "AI 소프트웨어 생태계",
+        "ETRI"
+      ],
+      "companies": [
+        "모빌린트",
+        "ETRI"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "모빌린트",
+        "ETRI"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T00:25:53Z",
+      "updated_at": "2026-11-04T00:25:53Z",
+      "articles": [
+        {
+          "key": "69a214f01d6d7168",
+          "title": "모빌린트 NPU, 글로벌 AI 플랫폼 'Ray' 공식 코드에 반영",
+          "url": "https://www.inews24.com/view/2022339",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-04T00:25:53Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261104-0427",
+      "headline": "도쿄일렉트론코리아 노태우 대표, 동탑산업훈장 수훈",
+      "summary": [
+        "노태우 도쿄일렉트론코리아 대표이사가 동탑산업훈장을 받았다.",
+        "국내 투자 확대와 R&D 기반 확충으로 반도체 산업 경쟁력 강화에 기여한 공로가 인정됐다.",
+        "30여년간 국내 반도체 생산·기술 지원 인프라를 넓혀 온 공로가 업계에서 주목받는다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "동탑산업훈장",
+        "도쿄일렉트론코리아",
+        "R&D 기반 확충",
+        "국내 투자"
+      ],
+      "companies": [
+        "도쿄일렉트론코리아"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "도쿄일렉트론코리아"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T00:20:40Z",
+      "updated_at": "2026-11-04T00:20:40Z",
+      "articles": [
+        {
+          "key": "dbe27a70a9c5b29a",
+          "title": "노태우 도쿄일렉트론코리아 대표, 동탑산업훈장 수훈",
+          "url": "https://www.dt.co.kr/article/12093042",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-04T00:20:40Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261104-0425",
+      "headline": "미 상무부, SK하이닉스 중국 공장 장비 반입 승인 보류",
+      "summary": [
+        "SK하이닉스가 중국 공장 증설용 미국산 제조 장비의 수출 허가를 요청했으나 아직 승인되지 않았다고 전해졌다.",
+        "로이터는 복수의 정통 소식통을 인용해 미 상무부가 승인을 미루고 있다고 보도했으며, 공식 발표는 확인되지 않았다.",
+        "이 사안이 확정되면 중국 생산능력 확대와 뉴욕 공장 투자 일정에 차질이 생길 수 있어 업계 주목도가 높다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출규제",
+        "미국 상무부",
+        "중국 공장 증설",
+        "반도체 장비",
+        "뉴욕 공장"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T23:56:12Z",
+      "updated_at": "2026-11-03T23:56:12Z",
+      "articles": [
+        {
+          "key": "9156528be68301fb",
+          "title": "“美 상무부, SK하닉 中공장 장비반입 제동…뉴욕공장 투자 차질”",
+          "url": "https://www.dt.co.kr/article/12093032",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-03T23:56:12Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261104-0424",
+      "headline": "삼성전기, 장기 공급 계약 5조원 돌파",
+      "summary": [
+        "삼성전기가 장기 공급 계약 규모가 5조원을 넘었다는 소식이 전해졌다.",
+        "기사 본문은 MLCC 기술 전시 이미지 설명만 담고 있어 계약 상대와 세부 내용은 확인되지 않는다.",
+        "적층세라믹캐패시터 중심의 장기 수주 확대가 산업 내 수요 안정성을 보여준다는 의미가 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "MLCC",
+        "장기공급계약",
+        "적층세라믹캐패시터",
+        "수주"
+      ],
+      "companies": [
+        "삼성전기"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "삼성전기"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T23:55:18Z",
+      "updated_at": "2026-11-03T23:55:18Z",
+      "articles": [
+        {
+          "key": "7424943081e216b3",
+          "title": "Samsung Electro-Mechanics' long-term deals top KRW5 trillion",
+          "url": "https://www.digitimes.com/news/a20261103VL222/semco-mlcc-ai-server-revenue-demand.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-03T23:55:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261103-0421",
       "headline": "AMD, 3분기 사상 최대 실적과 강한 4분기 전망 제시",
@@ -284,6 +659,52 @@
       "importance_raw": 5
     },
     {
+      "id": "c20261104-0423",
+      "headline": "미디어텍, 엔비디아 35억 달러 투자로 AI 입지 강화",
+      "summary": [
+        "엔비디아가 미디어텍에 35억 달러를 투자하는 사실이 보도되었다.",
+        "기사 본문이 제목과 출처 표기뿐이라 투자 조건과 세부 일정은 확인되지 않는다.",
+        "AI 칩 분야에서 미디어텍의 입지가 커질 수 있다는 점에서 업계의 주목을 받을 만하다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "엔비디아 투자",
+        "미디어텍",
+        "AI 리더십",
+        "팹리스"
+      ],
+      "companies": [
+        "미디어텍",
+        "엔비디아"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": false,
+      "parties": [
+        "미디어텍",
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "재무·주주 2점, 관심 기업(엔비디아) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-03T23:06:06Z",
+      "updated_at": "2026-11-03T23:06:06Z",
+      "articles": [
+        {
+          "key": "707dabc4b84d67f8",
+          "title": "MediaTek targets global AI leadership as Nvidia invests US$3.5 billion",
+          "url": "https://www.digitimes.com/news/a20261103PD238/mediatek-nvidia-taiwan-ceo-rick-tsai.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-03T23:06:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
       "id": "c20261103-0419",
       "headline": "GST, 데이터센터 액침·DLC 냉각 장비 4종 공개 예정",
       "summary": [
@@ -368,51 +789,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261103-0417",
-      "headline": "보쉬, 2028년 반도체 전담 사업부 신설 추진",
-      "summary": [
-        "보쉬는 반도체 사업을 별도 사업부 Semiconductors로 분리하는 조직 개편을 발표했다.",
-        "2028년 1월 1일부터 반도체 사업을 신설 사업부로 이관하며 모빌리티 부문 소속은 유지한다.",
-        "2030년 반도체 매출 50억 유로 목표로, 로봇·AI 데이터센터 수요 확대에 대응하는 행보다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "반도체 사업부",
-        "조직 개편",
-        "로봇",
-        "AI 데이터센터",
-        "車반도체"
-      ],
-      "companies": [
-        "보쉬"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "보쉬"
-      ],
-      "importance": 3,
-      "importance_reason": "경영진 교체 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-03T19:53:38Z",
-      "updated_at": "2026-11-03T19:53:38Z",
-      "articles": [
-        {
-          "key": "bfffa75d2255873e",
-          "title": "Bosch Establishes Dedicated Semiconductor Division to Strengthen Chip Business",
-          "url": "https://www.semiconductor-digest.com/bosch-establishes-dedicated-semiconductor-division-to-strengthen-chip-business/?utm_source=rss&utm_medium=rss&utm_campaign=bosch-establishes-dedicated-semiconductor-division-to-strengthen-chip-business",
-          "source": "Semiconductor Digest",
-          "lang": "en",
-          "published_at": "2026-11-03T19:53:38Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261103-0416",
