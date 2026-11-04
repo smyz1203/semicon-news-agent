@@ -1,7 +1,100 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04T13:21:50Z",
+  "updated_at": "2026-11-04T15:03:13Z",
   "issues": [
+    {
+      "id": "c20261104-0472",
+      "headline": "중국 YMTC, 상하이 증시 상장 계획 보류",
+      "summary": [
+        "중국 최대 낸드플래시 업체 YMTC의 상하이 증시 상장이 미뤄졌다는 보도가 나왔다.",
+        "중국 증시 급락 속에 규제당국이 신규 주식 발행을 억제하면서 IPO 일정이 보류된 것으로 전해졌다.",
+        "기업공개로 조달하려던 자금 규모가 커서, 중국 메모리 업계의 자금 조달 환경에 영향을 줄 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "YMTC",
+        "낸드플래시",
+        "상장(IPO)",
+        "중국 증시",
+        "신규 주식 발행 억제"
+      ],
+      "companies": [
+        "YMTC"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": false,
+      "parties": [
+        "YMTC"
+      ],
+      "importance": 1,
+      "importance_reason": "재무·주주 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T14:33:31Z",
+      "updated_at": "2026-11-04T14:33:31Z",
+      "articles": [
+        {
+          "key": "530c54a6d8fc8631",
+          "title": "\"中 최대 낸드 업체 YMTC, 6.8조원 상장 계획 보류\"",
+          "url": "https://www.inews24.com/view/2022786",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-04T14:33:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261104-0471",
+      "headline": "LG화학-SFC 청색 OLED 특허소송 쌍방 항소",
+      "summary": [
+        "LG화학과 SFC가 청색 OLED 특허 침해 1심 판결에 대해 특허법원에 쌍방 항소했다.",
+        "1심은 SFC가 LG화학에 손해배상 80억원을 지급하라고 판결했고, LG화학 청구액은 339억원이었다.",
+        "배상액이 늘어날 가능성이 있어 SFC의 상장 준비와 OLED 특허 분쟁의 향방이 주목된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "청색 OLED",
+        "특허소송",
+        "중수소화 화합물",
+        "손해배상",
+        "SFC 상장"
+      ],
+      "companies": [
+        "LG화학",
+        "SFC",
+        "삼성디스플레이"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "LG화학",
+        "SFC"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T13:54:43Z",
+      "updated_at": "2026-11-04T13:54:43Z",
+      "articles": [
+        {
+          "key": "baffeaff5cf9ef8a",
+          "title": "'청색 OLED 특허분쟁' LG화학-SFC, 쌍방 항소",
+          "url": "https://zdnet.co.kr/view/?no=20261104223833",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-04T13:54:43Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261104-0470",
       "headline": "최태원, SK하이닉스 미국 AI투자법인 이사회 의장 맡아",
