@@ -1,7 +1,159 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04T04:08:25Z",
+  "updated_at": "2026-11-04T05:11:16Z",
   "issues": [
+    {
+      "id": "c20261104-0445",
+      "headline": "캠시스, 삼성 AI 냉장고용 카메라 모듈 첫 양산",
+      "summary": [
+        "캠시스가 삼성전자 비스포크 AI 패밀리허브 전 모델에 AI 카메라 모듈 공급을 이달부터 시작했다고 밝혔다.",
+        "이는 캠시스의 첫 가전용 카메라 양산으로, 스마트폰 카메라 사업을 가전으로 넓힌 첫 매출이다.",
+        "가전용 카메라는 같은 사양을 장기간 공급하는 경우가 많아 카메라 사업의 수요처 다변화에 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "AI 카메라 모듈",
+        "가전용 카메라",
+        "패밀리허브",
+        "초광각 카메라"
+      ],
+      "companies": [
+        "캠시스",
+        "삼성전자"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "캠시스",
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T05:05:31Z",
+      "updated_at": "2026-11-04T05:05:31Z",
+      "articles": [
+        {
+          "key": "8c86539ed16f7377",
+          "title": "캠시스, 삼성 AI 냉장고 카메라 양산",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64858",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-04T05:05:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261104-0427",
+      "headline": "도쿄일렉트론코리아 노태우 대표, 동탑산업훈장 수상",
+      "summary": [
+        "도쿄일렉트론코리아 노태우 대표가 2026 외국기업의 날 행사에서 동탑산업훈장을 받았다.",
+        "행사는 산업통상부 주최, 한국외국기업협회 주관으로 11월 3일 서울에서 열렸다.",
+        "외국인직접투자 유치와 국내 산업 발전에 기여한 공로를 인정받은 포상이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "외국기업의 날",
+        "동탑산업훈장",
+        "외국인직접투자",
+        "도쿄일렉트론코리아"
+      ],
+      "companies": [
+        "도쿄일렉트론코리아"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "도쿄일렉트론코리아"
+      ],
+      "importance": 2,
+      "importance_reason": "홍보·수상 1점, 매체 3곳 보도 +1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T00:20:40Z",
+      "updated_at": "2026-11-04T04:59:18Z",
+      "articles": [
+        {
+          "key": "dbe27a70a9c5b29a",
+          "title": "노태우 도쿄일렉트론코리아 대표, 동탑산업훈장 수훈",
+          "url": "https://www.dt.co.kr/article/12093042",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-04T00:20:40Z"
+        },
+        {
+          "key": "57ca4415dd12c1c0",
+          "title": "도쿄일렉트론코리아 노태우 대표, '외국기업의 날' 동탑산업훈장 수상",
+          "url": "https://www.inews24.com/view/2022428",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-04T02:36:27Z"
+        },
+        {
+          "key": "1b6c480c6bee1aeb",
+          "title": "노태우 도쿄일렉트론코리아 대표, ‘외국기업의 날’ 동탑산업훈장 수상",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409270",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-04T04:59:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261104-0444",
+      "headline": "온세미, 페릭 6억 달러 인수로 AI 전력 공급 공략",
+      "summary": [
+        "온세미가 통합 전압 레귤레이터 기술 기업 페릭을 현금 6억 달러에 인수하는 계약을 체결했다고 밝혔다.",
+        "페릭 인수에는 특정 매출 목표 달성 시 최대 1억 7500만 달러의 조건부 대가가 추가로 붙는다.",
+        "AI 프로세서 전력 공급 시장에서 온세미의 입지를 넓히는 계기가 되며, 관련 경쟁이 격화될 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "IVR",
+        "AI 프로세서 전력",
+        "전압 레귤레이터",
+        "인수합병"
+      ],
+      "companies": [
+        "온세미",
+        "페릭"
+      ],
+      "event_type": "인수합병",
+      "confirmed": true,
+      "parties": [
+        "온세미",
+        "페릭"
+      ],
+      "importance": 2,
+      "importance_reason": "인수합병 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T04:56:10Z",
+      "updated_at": "2026-11-04T04:56:10Z",
+      "articles": [
+        {
+          "key": "783aecd436a81af4",
+          "title": "온세미, 페릭 6억 달러에 인수…AI 반도체 전력 경쟁 격화",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409269",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-04T04:56:10Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261104-0443",
       "headline": "잉크젯 OLED 인쇄 재부상, TCL 양산과 삼성 복귀 신호",
@@ -49,6 +201,62 @@
           "source": "OLED-info",
           "lang": "en",
           "published_at": "2026-11-04T04:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261104-0425",
+      "headline": "미국, SK하이닉스 중국 다롄 공장 장비 반입 승인 보류",
+      "summary": [
+        "미국 정부가 SK하이닉스 다롄 공장 증설용 미국산 장비 수출을 아직 승인하지 않은 것으로 알려졌다.",
+        "솔리다임은 지난 8월 말부터 미 상무부와 10차례 가까이 협의했고, 내년분 사이트 라이선스를 두고 협상 중이다.",
+        "다롄 증설 승인 여부가 뉴욕 낸드 공장(약 450억 달러) 투자 계획을 좌우할 핵심 변수로 꼽힌다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출규제",
+        "사이트 라이선스",
+        "VEU",
+        "낸드플래시",
+        "다롄 공장"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "솔리다임",
+        "삼성전자"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "SK하이닉스",
+        "솔리다임"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T23:56:12Z",
+      "updated_at": "2026-11-04T03:56:34Z",
+      "articles": [
+        {
+          "key": "9156528be68301fb",
+          "title": "“美 상무부, SK하닉 中공장 장비반입 제동…뉴욕공장 투자 차질”",
+          "url": "https://www.dt.co.kr/article/12093032",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-03T23:56:12Z"
+        },
+        {
+          "key": "8feacba86db19b43",
+          "title": "美, SK하이닉스 中공장에 장비 수출 보류...\"일정 차질 없이 진행\"",
+          "url": "https://zdnet.co.kr/view/?no=20261104115221",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-04T03:56:34Z"
         }
       ],
       "type_checked": true,
@@ -334,58 +542,6 @@
       ],
       "type_checked": true,
       "importance_raw": 4
-    },
-    {
-      "id": "c20261104-0427",
-      "headline": "도쿄일렉트론코리아 노태우 대표 동탑산업훈장 수상",
-      "summary": [
-        "도쿄일렉트론코리아 노태우 대표이사가 동탑산업훈장을 수상했다.",
-        "수상 사유는 국내 투자 확대와 연구개발 기반 확충을 통한 반도체 산업 기여이며, 시상식은 3일 서울에서 열렸다.",
-        "외국계 반도체 장비 기업 경영진의 산업 공헌이 공식 인정된 사례로, 국내 투자 기여를 평가받은 것이다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "동탑산업훈장",
-        "외국기업의 날",
-        "국내 투자",
-        "연구개발"
-      ],
-      "companies": [
-        "도쿄일렉트론코리아"
-      ],
-      "event_type": "홍보·수상",
-      "confirmed": true,
-      "parties": [
-        "도쿄일렉트론코리아"
-      ],
-      "importance": 1,
-      "importance_reason": "홍보·수상 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-04T00:20:40Z",
-      "updated_at": "2026-11-04T02:36:27Z",
-      "articles": [
-        {
-          "key": "dbe27a70a9c5b29a",
-          "title": "노태우 도쿄일렉트론코리아 대표, 동탑산업훈장 수훈",
-          "url": "https://www.dt.co.kr/article/12093042",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-04T00:20:40Z"
-        },
-        {
-          "key": "57ca4415dd12c1c0",
-          "title": "도쿄일렉트론코리아 노태우 대표, '외국기업의 날' 동탑산업훈장 수상",
-          "url": "https://www.inews24.com/view/2022428",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-04T02:36:27Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
     },
     {
       "id": "c20261104-0435",
@@ -897,51 +1053,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261104-0425",
-      "headline": "미 상무부, SK하이닉스 중국 공장 장비 반입 승인 보류",
-      "summary": [
-        "SK하이닉스가 중국 공장 증설용 미국산 제조 장비의 수출 허가를 요청했으나 아직 승인되지 않았다고 전해졌다.",
-        "로이터는 복수의 정통 소식통을 인용해 미 상무부가 승인을 미루고 있다고 보도했으며, 공식 발표는 확인되지 않았다.",
-        "이 사안이 확정되면 중국 생산능력 확대와 뉴욕 공장 투자 일정에 차질이 생길 수 있어 업계 주목도가 높다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "수출규제",
-        "미국 상무부",
-        "중국 공장 증설",
-        "반도체 장비",
-        "뉴욕 공장"
-      ],
-      "companies": [
-        "SK하이닉스"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": false,
-      "parties": [
-        "SK하이닉스"
-      ],
-      "importance": 3,
-      "importance_reason": "설비 투자 3점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-03T23:56:12Z",
-      "updated_at": "2026-11-03T23:56:12Z",
-      "articles": [
-        {
-          "key": "9156528be68301fb",
-          "title": "“美 상무부, SK하닉 中공장 장비반입 제동…뉴욕공장 투자 차질”",
-          "url": "https://www.dt.co.kr/article/12093032",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-03T23:56:12Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261104-0424",
