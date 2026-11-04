@@ -1,7 +1,145 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04T20:09:24Z",
+  "updated_at": "2026-11-04T21:04:12Z",
   "issues": [
+    {
+      "id": "c20261104-0479",
+      "headline": "메타, AI 모델 변화 속도 맞춘 칩렛 개발 방식 발표",
+      "summary": [
+        "메타의 올리비아 우 엔지니어가 칩렛 기반 AI SoC 개발 속도를 높이는 방안을 소개하는 행사 세션이 열렸다.",
+        "기사 본문이 짧게 잘려 있어 구체적인 기술 사양이나 일정, 수치는 확인되지 않는다.",
+        "AI 모델 구조가 칩 개발 주기보다 빠르게 바뀌는 상황에서 칩렛 방식이 대응 수단으로 주목받는 흐름을 보여준다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "칩렛",
+        "AI SoC",
+        "맞춤형 AI 칩",
+        "반도체 개발 주기"
+      ],
+      "companies": [
+        "메타"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-04T20:30:12Z",
+      "updated_at": "2026-11-04T20:30:12Z",
+      "articles": [
+        {
+          "key": "a8399de97dc07338",
+          "title": "Chiplets: Meta-Scale Chiplet Velocity Accelerating AI SoC Development to Match the Rapid Evolution of AI Model",
+          "url": "https://www.eetimes.com/chiplets-meta-scale-chiplet-velocity-accelerating-ai-soc-development-to-match-the-rapid-evolution-of-ai-model/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-04T20:30:12Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261104-0478",
+      "headline": "현대차, 엔비디아 GPU 5만개 확보 계획 구체화",
+      "summary": [
+        "현대자동차그룹이 지난해 10월 엔비디아와 발표한 GPU 5만개 확보 계획을 구체화하고 있다.",
+        "엔비디아 차세대 AI 반도체 블랙웰 기반으로 연산 인프라를 확대하는 방향이다.",
+        "자율주행 경쟁에서 테슬라를 뒤쫓기 위한 핵심 투자로 해석된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "GPU",
+        "블랙웰",
+        "자율주행",
+        "AI 인프라"
+      ],
+      "companies": [
+        "현대차",
+        "엔비디아",
+        "테슬라"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "현대차",
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(엔비디아) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T20:30:00Z",
+      "updated_at": "2026-11-04T20:30:00Z",
+      "articles": [
+        {
+          "key": "927d3b458cfc6b63",
+          "title": "[단독] 현대차, 엔비디아 ‘GPU 5만’ 계획 구체화…자율주행 승부수",
+          "url": "https://www.dt.co.kr/article/12093279",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-04T20:30:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261104-0462",
+      "headline": "2026년 3분기 글로벌 반도체 매출 5177억 달러, 분기 사상 최대",
+      "summary": [
+        "ESIA는 2026년 3분기 글로벌 반도체 매출이 5177억 달러로 전년 대비 146.8% 늘었다고 발표했다.",
+        "메모리는 405.7%, 로직은 61.9% 증가했으며 미주 지역 성장률이 191.7%로 가장 높았다.",
+        "AI 데이터센터 투자가 성장을 주도하고 있어 반도체 시장의 가속 흐름이 이어지고 있음을 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "글로벌 반도체 매출",
+        "메모리",
+        "AI 데이터센터",
+        "WSTS",
+        "분기 성장률"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-04T08:15:00Z",
+      "updated_at": "2026-11-04T20:10:45Z",
+      "articles": [
+        {
+          "key": "44a94e98a6b49491",
+          "title": "Global chip sales top US$500 billion in a single quarter for first time",
+          "url": "https://www.digitimes.com/news/a20261104VL222/revenue-sales-2026-growth-data.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-04T08:15:00Z"
+        },
+        {
+          "key": "de3f2dd792995540",
+          "title": "Semiconductor Market Continues to Accelerate in Q3 2026",
+          "url": "https://www.semiconductor-digest.com/semiconductor-market-continues-to-accelerate-in-q3-2026/?utm_source=rss&utm_medium=rss&utm_campaign=semiconductor-market-continues-to-accelerate-in-q3-2026",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-04T20:10:45Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261104-0477",
       "headline": "밸런스, 저전력 USB3 연장 칩셋 VS6310 출시",
@@ -928,45 +1066,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261104-0462",
-      "headline": "글로벌 반도체 분기 매출 첫 5000억 달러 돌파",
-      "summary": [
-        "DigiTimes Asia는 글로벌 칩 매출이 단일 분기 기준 처음으로 5000억 달러를 넘어섰다고 보도했다.",
-        "다만 기사 본문이 제목과 출처 표기뿐이어서 세부 수치와 집계 기준은 확인되지 않는다.",
-        "업계 전반의 수요 회복과 가격 상승이 반영된 것으로 보이나 원인은 기사만으로 단정하기 어렵다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "글로벌 반도체 매출",
-        "분기 매출",
-        "시장 통계"
-      ],
-      "companies": [],
-      "event_type": "시장 전망·통계",
-      "confirmed": true,
-      "parties": [],
-      "importance": 2,
-      "importance_reason": "시장 전망·통계 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-04T08:15:00Z",
-      "updated_at": "2026-11-04T08:15:00Z",
-      "articles": [
-        {
-          "key": "44a94e98a6b49491",
-          "title": "Global chip sales top US$500 billion in a single quarter for first time",
-          "url": "https://www.digitimes.com/news/a20261104VL222/revenue-sales-2026-growth-data.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-04T08:15:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261104-0461",
