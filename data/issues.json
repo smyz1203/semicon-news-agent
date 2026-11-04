@@ -1,7 +1,381 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04T09:10:36Z",
+  "updated_at": "2026-11-04T10:19:36Z",
   "issues": [
+    {
+      "id": "c20261104-0468",
+      "headline": "큐알티, 신뢰성 평가 사업을 우주부품·유리기판으로 확대",
+      "summary": [
+        "큐알티가 반도체 신뢰성 평가와 종합분석 사업을 우주용 부품과 유리기판 분야로 넓힌다고 4일 밝혔다.",
+        "우주 분야에서는 저궤도 위성 제조사들이 쓰는 상용부품의 우주 환경 내구성을 미리 가려내는 업스크리닝 시험을 겨냥한다.",
+        "유리기판이 양산 검증 단계에 들어서며 고장분석과 공정 분석 수요가 늘어, 신규 시장 공략 여지가 커졌다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "신뢰성 평가",
+        "업스크리닝",
+        "COTS",
+        "유리기판",
+        "저궤도 위성"
+      ],
+      "companies": [
+        "큐알티"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "큐알티"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T09:55:51Z",
+      "updated_at": "2026-11-04T09:55:51Z",
+      "articles": [
+        {
+          "key": "1f30bb0443c155cb",
+          "title": "큐알티, 반도체 신뢰성 평가 사업 우주·유리기판으로 확대",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64873",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-04T09:55:51Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261104-0428",
+      "headline": "모빌린트 NPU, 오픈소스 AI 프레임워크 레이 공식 지원",
+      "summary": [
+        "팹리스 기업 모빌린트는 개방형 AI 프레임워크 레이에서 자사 NPU가 자동 인식되도록 개선했다고 밝혔다.",
+        "ETRI와 협력해 NPU 자동 인식과 연산 자원 할당을 지원하는 기능을 개발했으며, 기존의 수동 장치 등록 절차를 줄였다.",
+        "AI 반도체가 대규모 서버 연산에 쉽게 연결되면서 국산 NPU의 소프트웨어 생태계 진입 가능성이 넓어진다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "NPU",
+        "레이(Ray)",
+        "AI 소프트웨어",
+        "소프트웨어 생태계",
+        "ETRI"
+      ],
+      "companies": [
+        "모빌린트",
+        "ETRI"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "모빌린트",
+        "ETRI"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 매체 3곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T00:25:53Z",
+      "updated_at": "2026-11-04T09:52:44Z",
+      "articles": [
+        {
+          "key": "69a214f01d6d7168",
+          "title": "모빌린트 NPU, 글로벌 AI 플랫폼 'Ray' 공식 코드에 반영",
+          "url": "https://www.inews24.com/view/2022339",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-04T00:25:53Z"
+        },
+        {
+          "key": "ec145d8147114479",
+          "title": "모빌린트, NPU 소프트웨어 경쟁력 강화…글로벌 Ray 생태계 진입",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409271",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-04T05:15:00Z"
+        },
+        {
+          "key": "ca3926be0daf723b",
+          "title": "모빌린트 NPU, AI 소프트웨어 '레이' 지원 개선",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64902",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-04T09:52:44Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261104-0427",
+      "headline": "도쿄일렉트론코리아 노태우 대표 동탑산업훈장 수상",
+      "summary": [
+        "도쿄일렉트론코리아 노태우 대표가 '2026 외국기업의 날'에서 동탑산업훈장을 받았다.",
+        "노 대표는 한국 내 투자 확대, R&D 지원 기반 확충, 전문 인력 고용·육성을 이끈 공로를 인정받았다.",
+        "회사 임직원의 동탑산업훈장 수훈은 이번이 네 번째로, 한국 반도체 산업 기여를 보여준다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "동탑산업훈장",
+        "외국기업의 날",
+        "장비",
+        "인력 육성"
+      ],
+      "companies": [
+        "도쿄일렉트론코리아",
+        "도쿄일렉트론"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "도쿄일렉트론코리아"
+      ],
+      "importance": 2,
+      "importance_reason": "홍보·수상 1점, 매체 4곳 보도 +1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T00:20:40Z",
+      "updated_at": "2026-11-04T09:51:54Z",
+      "articles": [
+        {
+          "key": "dbe27a70a9c5b29a",
+          "title": "노태우 도쿄일렉트론코리아 대표, 동탑산업훈장 수훈",
+          "url": "https://www.dt.co.kr/article/12093042",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-04T00:20:40Z"
+        },
+        {
+          "key": "57ca4415dd12c1c0",
+          "title": "도쿄일렉트론코리아 노태우 대표, '외국기업의 날' 동탑산업훈장 수상",
+          "url": "https://www.inews24.com/view/2022428",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-04T02:36:27Z"
+        },
+        {
+          "key": "1b6c480c6bee1aeb",
+          "title": "노태우 도쿄일렉트론코리아 대표, ‘외국기업의 날’ 동탑산업훈장 수상",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409270",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-04T04:59:18Z"
+        },
+        {
+          "key": "8dbd2403f3994bc3",
+          "title": "도쿄일렉트론코리아 노태우 대표, '외국기업의 날' 동탑산업훈장 수상",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64876",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-04T09:51:54Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261104-0467",
+      "headline": "케이씨텍 3분기 영업이익 202억원, 전년비 35.8% 증가",
+      "summary": [
+        "케이씨텍이 올해 3분기 매출 약 1142억원, 영업이익 약 202억원을 공시했다.",
+        "전년 동기 대비 매출은 19%, 영업이익은 35.8% 늘었으며 CMP 장비 매출이 실적을 끌어올렸다.",
+        "주요 고객사의 반도체 생산능력 확대가 장비 수요를 키워 반도체 장비 업계에 긍정적 신호다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "3분기 실적",
+        "CMP 장비",
+        "반도체 장비",
+        "생산능력 확대"
+      ],
+      "companies": [
+        "케이씨텍",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "케이씨텍"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T09:50:56Z",
+      "updated_at": "2026-11-04T09:50:56Z",
+      "articles": [
+        {
+          "key": "d057c1ba13629f91",
+          "title": "케이씨텍, 3분기 영업익 202억원...전년비 35.8% 증가",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64886",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-04T09:50:56Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261104-0466",
+      "headline": "선익시스템, 2027년 디스플레이 장비 매출 세계 1위 전망",
+      "summary": [
+        "시장조사업체 카운터포인트리서치는 선익시스템이 2027년 디스플레이 장비 매출 세계 1위에 오를 것으로 예상했다.",
+        "국내 장비업체가 세계 디스플레이 장비 매출 1위를 차지하는 것은 이번이 처음이라고 전했다.",
+        "그동안 캐논 계열과 AMAT 등 일본·미국 업체가 주도하던 시장에서 국내 업체의 부상이 주목된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "디스플레이 장비",
+        "OLED 증착장비",
+        "매출 1위 전망",
+        "카운터포인트리서치"
+      ],
+      "companies": [
+        "선익시스템",
+        "캐논토키",
+        "어플라이드머티어리얼즈"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "선익시스템"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T09:50:40Z",
+      "updated_at": "2026-11-04T09:50:40Z",
+      "articles": [
+        {
+          "key": "1e59de83e15b4b10",
+          "title": "선익시스템, 내년 세계 디스플레이 장비 매출 1위 전망",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64899",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-04T09:50:40Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261104-0465",
+      "headline": "삼성, 기흥 8인치 장비 300대 DB에 일괄 매각",
+      "summary": [
+        "삼성전자가 가동을 멈춘 기흥 8인치 파운드리 S7 공장의 장비 약 300대를 ㈜DB에 넘기는 매매계약을 맺었다.",
+        "입찰 없이 특정 회사에 폐쇄 공장 장비를 대량 매각하는 것은 처음이며, 장비 반출 작업이 이미 시작됐다.",
+        "거래액은 공개되지 않았으나 수백억원대로 알려져 8인치 설비 처분 흐름을 보여준다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "8인치 파운드리",
+        "S7 공장",
+        "장비 매각",
+        "유휴 설비"
+      ],
+      "companies": [
+        "삼성전자",
+        "DB그룹",
+        "DB하이텍",
+        "㈜DB"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "㈜DB"
+      ],
+      "importance": 4,
+      "importance_reason": "설비 투자 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T09:47:09Z",
+      "updated_at": "2026-11-04T09:47:09Z",
+      "articles": [
+        {
+          "key": "1c5a03fd0634dbba",
+          "title": "삼성, 폐쇄한 기흥 8인치 S7 장비 300대 DB에 통째 매각",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64905",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-04T09:47:09Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261104-0451",
+      "headline": "파테오, 엔비디아 Thor 기반 차량 AI Box 고도화",
+      "summary": [
+        "파테오가 엔비디아 DRIVE AGX Thor 기반 AI Box에 Nemotron과 바이트댄스 Doubao 모델을 탑재했다.",
+        "로컬 추론으로 클라우드 연결 없이 다국어 음성 상호작용을 지원하며, 2027년 2분기 양산 예정이다.",
+        "차량 내 AI 기능을 통신이 제한된 환경에서도 유지하며 신에너지차 업계의 AI 경쟁을 가속할 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "NVIDIA DRIVE AGX Thor",
+        "Nemotron",
+        "Doubao",
+        "차량용 AI",
+        "로컬 추론"
+      ],
+      "companies": [
+        "파테오",
+        "엔비디아",
+        "바이트댄스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "파테오",
+        "엔비디아",
+        "바이트댄스"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(엔비디아) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T04:56:00Z",
+      "updated_at": "2026-11-04T09:10:03Z",
+      "articles": [
+        {
+          "key": "f5d00ef1bda392ce",
+          "title": "파테오, NVIDIA DRIVE AGX Thor 기반 AI Box에 NVIDIA Nemotron 및 ByteDance Doubao 탑재로 차량 내 AI 고도화",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=342994",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-04T04:56:00Z"
+        },
+        {
+          "key": "88bf06dbe84762e9",
+          "title": "파테오, NVIDIA DRIVE AGX Thor 기반 AI Box에 NVIDIA Nemotron 및 ByteDance Doubao 탑재로 차량 내 AI 고도화",
+          "url": "https://zdnet.co.kr/view/?no=20261104181003",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-04T09:10:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261103-0406",
       "headline": "브로드컴, 삼성 칩 공급 불공정 거래로 과징금 확정",
@@ -974,121 +1348,6 @@
       "importance_raw": 1
     },
     {
-      "id": "c20261104-0428",
-      "headline": "모빌린트 NPU, 글로벌 AI 프레임워크 Ray 공식 코드 반영",
-      "summary": [
-        "모빌린트가 ETRI와 공동 개발한 NPU의 자동 인식·자원 관리 기능이 Ray 공식 코드에 반영됐다고 4일 발표했다.",
-        "이번 성과는 ETRI의 이종 AI반도체용 분산추론 및 모델 최적화 기술 개발 과제의 일환으로 추진됐다.",
-        "NPU 소프트웨어 생태계 진입으로 국산 AI반도체의 글로벌 분산 AI 환경 활용 가능성이 넓어졌다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "NPU",
-        "Ray",
-        "분산추론",
-        "ETRI",
-        "AI반도체 소프트웨어"
-      ],
-      "companies": [
-        "모빌린트",
-        "ETRI"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "모빌린트",
-        "ETRI"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-04T00:25:53Z",
-      "updated_at": "2026-11-04T05:15:00Z",
-      "articles": [
-        {
-          "key": "69a214f01d6d7168",
-          "title": "모빌린트 NPU, 글로벌 AI 플랫폼 'Ray' 공식 코드에 반영",
-          "url": "https://www.inews24.com/view/2022339",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-04T00:25:53Z"
-        },
-        {
-          "key": "ec145d8147114479",
-          "title": "모빌린트, NPU 소프트웨어 경쟁력 강화…글로벌 Ray 생태계 진입",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409271",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-04T05:15:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261104-0427",
-      "headline": "도쿄일렉트론코리아 노태우 대표, 동탑산업훈장 수상",
-      "summary": [
-        "도쿄일렉트론코리아 노태우 대표가 2026 외국기업의 날 행사에서 동탑산업훈장을 받았다.",
-        "행사는 산업통상부 주최, 한국외국기업협회 주관으로 11월 3일 서울에서 열렸다.",
-        "외국인직접투자 유치와 국내 산업 발전에 기여한 공로를 인정받은 포상이다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "외국기업의 날",
-        "동탑산업훈장",
-        "외국인직접투자",
-        "도쿄일렉트론코리아"
-      ],
-      "companies": [
-        "도쿄일렉트론코리아"
-      ],
-      "event_type": "홍보·수상",
-      "confirmed": true,
-      "parties": [
-        "도쿄일렉트론코리아"
-      ],
-      "importance": 2,
-      "importance_reason": "홍보·수상 1점, 매체 3곳 보도 +1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-04T00:20:40Z",
-      "updated_at": "2026-11-04T04:59:18Z",
-      "articles": [
-        {
-          "key": "dbe27a70a9c5b29a",
-          "title": "노태우 도쿄일렉트론코리아 대표, 동탑산업훈장 수훈",
-          "url": "https://www.dt.co.kr/article/12093042",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-04T00:20:40Z"
-        },
-        {
-          "key": "57ca4415dd12c1c0",
-          "title": "도쿄일렉트론코리아 노태우 대표, '외국기업의 날' 동탑산업훈장 수상",
-          "url": "https://www.inews24.com/view/2022428",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-04T02:36:27Z"
-        },
-        {
-          "key": "1b6c480c6bee1aeb",
-          "title": "노태우 도쿄일렉트론코리아 대표, ‘외국기업의 날’ 동탑산업훈장 수상",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409270",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-04T04:59:18Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
       "id": "c20261104-0444",
       "headline": "온세미, 페릭 6억 달러 인수로 AI 전력 공급 공략",
       "summary": [
@@ -1133,55 +1392,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261104-0451",
-      "headline": "파테오, 엔비디아 Thor 기반 차량용 AI 박스 고도화",
-      "summary": [
-        "파테오가 엔비디아 DRIVE AGX Thor 기반 AI 박스에 Nemotron과 바이트댄스 Doubao 모델을 탑재했다.",
-        "로컬 AI 추론과 AI 에이전트 플랫폼을 결합해 다국어 대화와 차량 내 상황 인식, 기능 연계 제어를 지원한다.",
-        "차량 내 생성형 AI 적용이 확산되는 흐름에서 자동차 AI 솔루션 경쟁을 보여주는 사례다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "DRIVE AGX Thor",
-        "Nemotron",
-        "차량용 AI",
-        "AI 에이전트",
-        "온디바이스 추론"
-      ],
-      "companies": [
-        "파테오",
-        "엔비디아",
-        "바이트댄스"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "파테오",
-        "엔비디아",
-        "바이트댄스"
-      ],
-      "importance": 3,
-      "importance_reason": "업계 일반 2점, 관심 기업(엔비디아) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-04T04:56:00Z",
-      "updated_at": "2026-11-04T04:56:00Z",
-      "articles": [
-        {
-          "key": "f5d00ef1bda392ce",
-          "title": "파테오, NVIDIA DRIVE AGX Thor 기반 AI Box에 NVIDIA Nemotron 및 ByteDance Doubao 탑재로 차량 내 AI 고도화",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=342994",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-11-04T04:56:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261104-0443",
