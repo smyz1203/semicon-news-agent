@@ -1,7 +1,143 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04T19:13:19Z",
+  "updated_at": "2026-11-04T20:09:24Z",
   "issues": [
+    {
+      "id": "c20261104-0477",
+      "headline": "밸런스, 저전력 USB3 연장 칩셋 VS6310 출시",
+      "summary": [
+        "밸런스 세미컨덕터가 저전력 USB3 익스텐션 칩셋 VS6310을 발표했다.",
+        "카메라·터치 컨트롤러 등에 직접 내장해 외부 연장 박스를 줄일 수 있으며 소비전력은 1W 미만이다.",
+        "화상회의 장비 등 전문 AV 시장에서 설계 단순화와 새로운 응용처 확대에 기여할 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "USB3",
+        "VS6310",
+        "HDBaseT-USB3",
+        "저전력 칩셋",
+        "화상회의"
+      ],
+      "companies": [
+        "밸런스 세미컨덕터"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "밸런스 세미컨덕터"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-04T20:08:34Z",
+      "updated_at": "2026-11-04T20:08:34Z",
+      "articles": [
+        {
+          "key": "de3928c12e267839",
+          "title": "Valens Semiconductor Introduces the VS6310 Chipset",
+          "url": "https://www.semiconductor-digest.com/valens-semiconductor-introduces-the-vs6310-chipset/?utm_source=rss&utm_medium=rss&utm_campaign=valens-semiconductor-introduces-the-vs6310-chipset",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-04T20:08:34Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261104-0476",
+      "headline": "3분기 실리콘 웨이퍼 출하 전년比 13.4% 증가",
+      "summary": [
+        "SEMI 실리콘제조사그룹이 2026년 3분기 전 세계 실리콘 웨이퍼 출하량을 발표했다.",
+        "출하량은 3,756MSI로 전년 동기 3,313MSI 대비 13.4% 늘었고 전분기보다 5.1% 증가했다.",
+        "AI 수요가 전력소자·포토닉스로 확산되고 산업용 수요도 회복되어 반도체 업계에 긍정적 신호다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "실리콘 웨이퍼",
+        "출하량",
+        "AI 반도체 수요",
+        "300mm 웨이퍼",
+        "SEMI"
+      ],
+      "companies": [
+        "SUMCO",
+        "SEMI"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "SEMI"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-04T20:06:27Z",
+      "updated_at": "2026-11-04T20:06:27Z",
+      "articles": [
+        {
+          "key": "e0058067fc531a7e",
+          "title": "Worldwide Silicon Wafer Shipments Increase 13.4% Year-on-Year in Q3 2026, SEMI Reports",
+          "url": "https://www.semiconductor-digest.com/worldwide-silicon-wafer-shipments-increase-13-4-year-on-year-in-q3-2026-semi-reports/?utm_source=rss&utm_medium=rss&utm_campaign=worldwide-silicon-wafer-shipments-increase-13-4-year-on-year-in-q3-2026-semi-reports",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-04T20:06:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261104-0475",
+      "headline": "xMEMS, CES 2027서 엣지AI용 고체 냉각·오디오 기술 공개",
+      "summary": [
+        "xMEMS Labs가 CES 2027에서 압전 MEMS 기반 고체 냉각 팬과 오디오 기술 시연을 예고했다.",
+        "스마트폰, AI 글라스, 이어폰, 웨어러블 등에 적용해 발열·크기·무게 문제를 부품 단계에서 해결한다고 밝혔다.",
+        "엣지AI 기기의 설계 자유도를 높여 소형 AI 소비자 가전 시장 확대에 기여할 것으로 보인다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "μCooling",
+        "MEMS 스피커",
+        "엣지AI",
+        "고체 냉각",
+        "CES 2027"
+      ],
+      "companies": [
+        "xMEMS Labs"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "xMEMS Labs"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-04T19:54:25Z",
+      "updated_at": "2026-11-04T19:54:25Z",
+      "articles": [
+        {
+          "key": "4980a48b73f31f08",
+          "title": "xMEMS Labs Advances Edge AI with Solid-State Cooling and Audio",
+          "url": "https://www.semiconductor-digest.com/xmems-labs-advances-edge-ai-with-solid-state-cooling-and-audio/?utm_source=rss&utm_medium=rss&utm_campaign=xmems-labs-advances-edge-ai-with-solid-state-cooling-and-audio",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-04T19:54:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261104-0474",
       "headline": "삼성, UMC에 DDI 추가 주문 요청했으나 거절 보도",
