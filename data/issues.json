@@ -1,7 +1,154 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04T03:02:23Z",
+  "updated_at": "2026-11-04T04:08:25Z",
   "issues": [
+    {
+      "id": "c20261104-0443",
+      "headline": "잉크젯 OLED 인쇄 재부상, TCL 양산과 삼성 복귀 신호",
+      "summary": [
+        "TCL CSOT가 잉크젯 인쇄 OLED 공정의 안정적 양산 단계 진입을 밝혔고 27인치 4K 패널이 제품에 탑재된다.",
+        "광저우 8.6세대 인쇄 공장 T8은 대규모 투자로 예정보다 빨리 골조 공사를 마쳤다고 전해졌다.",
+        "삼성디스플레이의 잉크젯 인쇄 OLED 파일럿 라인 구축 협의 보도가 나와 업계 관심이 커졌다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "잉크젯 인쇄 OLED",
+        "8.6세대 OLED",
+        "FMM",
+        "파일럿 라인",
+        "OLED 원가"
+      ],
+      "companies": [
+        "TCL CSOT",
+        "삼성디스플레이",
+        "JOLED",
+        "LG디스플레이",
+        "BOE",
+        "MSI",
+        "레노버"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "TCL CSOT",
+        "삼성디스플레이"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점, 관심 기업(삼성디스플레이) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-04T04:00:00Z",
+      "updated_at": "2026-11-04T04:00:00Z",
+      "articles": [
+        {
+          "key": "c94f9ff755b6fd63",
+          "title": "Is OLED inkjet printing coming back? TCL's projects, Samsung's return, and the signals that will tell us whether printing finally wins",
+          "url": "https://www.oled-info.com/inkjet-printing-coming-back-printed-oleds-perovskites-and-signals-will-tell-us",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-04T04:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261104-0442",
+      "headline": "UTI, 아이폰 듀오용 UTG 삼성디스플레이 출하 시작",
+      "summary": [
+        "UTI가 아이폰 듀오 제품용 초박형 유리(UTG)의 삼성디스플레이 출하를 시작했다는 소식이다.",
+        "기사 본문은 사진 출처 표기만 남아 있어 물량이나 일정 등 구체적 수치는 확인되지 않는다.",
+        "폴더블 등 차세대 디스플레이 부품 공급망에서 UTG 공급 본격화를 보여주는 신호로 볼 수 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "UTG",
+        "초박형 유리",
+        "아이폰 듀오",
+        "폴더블",
+        "공급망"
+      ],
+      "companies": [
+        "UTI",
+        "삼성디스플레이",
+        "애플"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "UTI",
+        "삼성디스플레이"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성디스플레이) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-04T03:47:13Z",
+      "updated_at": "2026-11-04T03:47:13Z",
+      "articles": [
+        {
+          "key": "d8a3ea405a1d14a4",
+          "title": "UTI begins iPhone Duo UTG shipments to Samsung Display",
+          "url": "https://www.digitimes.com/news/a20261104PD206/utg-iphone-duo-production-sdc-shipments.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-04T03:47:13Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261104-0441",
+      "headline": "솔리다임 IPO 철회, SK하이닉스 키옥시아 지분 주목",
+      "summary": [
+        "SK하이닉스 계열 솔리다임의 기업공개(IPO) 계획이 철회된 것으로 전해졌다.",
+        "기사 본문이 제한되어 구체적 일정이나 수치는 확인되지 않는다.",
+        "이번 일로 SK하이닉스가 보유한 키옥시아 지분의 향후 활용 방향이 관심을 받고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "솔리다임",
+        "IPO 철회",
+        "키옥시아 지분",
+        "낸드플래시"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "솔리다임",
+        "키옥시아"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": false,
+      "parties": [
+        "SK하이닉스",
+        "솔리다임"
+      ],
+      "importance": 2,
+      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-04T03:04:25Z",
+      "updated_at": "2026-11-04T03:04:25Z",
+      "articles": [
+        {
+          "key": "0cd6f1b82a012545",
+          "title": "Solidigm IPO cancellation puts SK Hynix's Kioxia stake in focus",
+          "url": "https://www.digitimes.com/news/a20261104PD204/sk-hynix-kioxia-solidigm-ipo-investment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-04T03:04:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261104-0438",
       "headline": "기가디바이스, 니치 D램 공급 타이트하나 가격 상승 둔화 전망",
@@ -328,6 +475,52 @@
       ],
       "type_checked": true,
       "importance_raw": 3
+    },
+    {
+      "id": "c20261104-0440",
+      "headline": "베트남 비에텔, 자국 암호 알고리즘 내장 보안칩 공개",
+      "summary": [
+        "베트남 정부 암호위원회와 비에텔 그룹이 자국 개발 암호 알고리즘을 실리콘에 직접 넣은 보안칩 VGC v1.0을 공개했다.",
+        "함께 자국 설계 보안 반도체 플랫폼도 처음 선보였으며, 기사에 구체적 수치나 양산 일정은 나타나지 않았다.",
+        "자국 암호 기술 기반 반도체 설계 역량을 보여주는 사례로, 국가 보안 반도체 자립 움직임으로 볼 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "보안칩",
+        "VGC v1.0",
+        "자국 암호 알고리즘",
+        "시스템반도체"
+      ],
+      "companies": [
+        "비에텔",
+        "베트남 정부 암호위원회"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "비에텔",
+        "베트남 정부 암호위원회"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T01:40:00Z",
+      "updated_at": "2026-11-04T01:40:00Z",
+      "articles": [
+        {
+          "key": "8a0d6d7e62ddb352",
+          "title": "Viettel Group and Vietnam's Government Cipher Committee Unveil Security Chip Embedding Vietnamese Cryptography in Silicon",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=342981",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-04T01:40:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261104-0433",
@@ -890,39 +1083,47 @@
     },
     {
       "id": "c20261103-0359",
-      "headline": "KOSA·KDIA, 디스플레이 제조 AX 확산 업무협약",
+      "headline": "디스플레이협회·AI소프트웨어협회, 제조 AX 확산 협약",
       "summary": [
-        "한국인공지능·소프트웨어산업협회(KOSA)와 한국디스플레이산업협회(KDIA)가 디스플레이 제조 AX 확산 업무협약을 체결했다.",
-        "양측은 AI·SW 기업과 디스플레이 기업 간 기술 협력을 넓히고 제조 현장 전문인력을 함께 양성할 계획이다.",
-        "디스플레이 공정에 맞는 AI·SW 기술을 발굴해 실제 공정에 적용하는 기반을 마련하는 데 의미가 있다."
+        "KDIA와 KOSA가 디스플레이 제조 AX 확산을 위한 업무협약(MOU)을 11월 3일 체결했다.",
+        "지난 10월 공동으로 'AX 커넥트데이: Display & Manufacturing'을 열었고, 이번 협약으로 협력 체계를 지속한다.",
+        "중소·중견 소부장 기업의 AI 도입 장벽을 낮추고 현장 과제와 솔루션을 매칭하는 데 의미가 있다."
       ],
       "category": "디스플레이",
       "tags": [
-        "AX",
-        "제조 AI",
+        "제조 AX",
+        "AI 도입",
         "업무협약",
-        "전문인력 양성",
-        "디스플레이 공정"
+        "소부장",
+        "디스플레이 제조"
       ],
       "companies": [
-        "KOSA",
-        "KDIA"
+        "한국디스플레이산업협회",
+        "한국인공지능소프트웨어산업협회"
       ],
-      "event_type": "인수합병",
+      "event_type": "업계 일반",
       "confirmed": true,
       "parties": [
-        "KOSA",
-        "KDIA"
+        "한국디스플레이산업협회",
+        "한국인공지능소프트웨어산업협회"
       ],
       "importance": 3,
-      "importance_reason": "인수합병 2점, 매체 5곳 보도 +1 → 3점",
+      "importance_reason": "업계 일반 2점, 매체 6곳 보도 +1 → 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-11-03T07:46:46Z",
+      "first_seen": "2026-11-03T07:45:00Z",
       "updated_at": "2026-11-03T23:20:00Z",
       "articles": [
+        {
+          "key": "a12ad5464bcb872d",
+          "title": "KDIA-KOSA, 디스플레이 제조AX 확산 위해 업무협약(MOU) 체결",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=342983",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-03T07:45:00Z"
+        },
         {
           "key": "7202d6d67daeb952",
           "title": "디스플레이협회, KOSA와 제조 AI 확산 협력",
@@ -2408,6 +2609,51 @@
       ],
       "type_checked": true,
       "importance_raw": 2
+    },
+    {
+      "id": "c20261104-0439",
+      "headline": "FPT, 박닌성 반도체 테스트·패키징 공장 시험 가동 개시",
+      "summary": [
+        "FPT가 베트남 박닌성에 반도체 칩 테스트·패키징 공장의 시험 가동을 시작했다고 발표했다.",
+        "공장에는 생산라인 6개가 있고 최대 설계 생산능력은 3억 개 규모로 알려졌다.",
+        "베트남의 후공정 생산 거점이 확대되는 흐름으로, 해외 패키징 분업 구조에 영향을 줄 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "후공정",
+        "패키징",
+        "테스트",
+        "베트남",
+        "반도체 공장"
+      ],
+      "companies": [
+        "FPT"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "FPT"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-03T06:08:00Z",
+      "updated_at": "2026-11-03T06:08:00Z",
+      "articles": [
+        {
+          "key": "4914952e9f5b1403",
+          "title": "FPT semiconductor chip Testing and Packaging plant officially begins trial operations in Bac Ninh",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=342963",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-03T06:08:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261103-0350",
