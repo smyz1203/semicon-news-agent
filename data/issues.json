@@ -1,21 +1,82 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04T05:11:16Z",
+  "updated_at": "2026-11-04T06:11:50Z",
   "issues": [
     {
-      "id": "c20261104-0445",
-      "headline": "캠시스, 삼성 AI 냉장고용 카메라 모듈 첫 양산",
+      "id": "c20261103-0326",
+      "headline": "애플, 차세대 OLED 백플레인에 스퍼터링 공정 검토",
       "summary": [
-        "캠시스가 삼성전자 비스포크 AI 패밀리허브 전 모델에 AI 카메라 모듈 공급을 이달부터 시작했다고 밝혔다.",
-        "이는 캠시스의 첫 가전용 카메라 양산으로, 스마트폰 카메라 사업을 가전으로 넓힌 첫 매출이다.",
-        "가전용 카메라는 같은 사양을 장기간 공급하는 경우가 많아 카메라 사업의 수요처 다변화에 의미가 있다."
+        "애플이 차세대 HMO OLED 백플레인 제조에 스퍼터링 방식을 채택하는 쪽으로 기울고 있다는 보도가 나왔다.",
+        "기사에는 구체적인 일정이나 수치가 없으며, 보도는 공정 방향을 검토하는 단계에 머물러 있다.",
+        "확정된 공정이 아니므로 관련 장비·소재 업체에는 향후 발주 방향을 지켜볼 필요가 있는 사안이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "HMO OLED",
+        "스퍼터링",
+        "백플레인",
+        "차세대 OLED"
+      ],
+      "companies": [
+        "애플"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "애플"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점, 매체 3곳 보도 +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-02T21:43:07Z",
+      "updated_at": "2026-11-04T05:49:16Z",
+      "articles": [
+        {
+          "key": "399dc4207a3e347d",
+          "title": "애플, 차세대 OLED HMO 증착 방식 저울질",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64685",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-02T21:43:07Z"
+        },
+        {
+          "key": "e1f7f2f8f87caf74",
+          "title": "Apple is reportedly leaning towards sputtering for its next-generation HMO OLED backplanes",
+          "url": "https://www.oled-info.com/apple-reportedly-leaning-towards-sputtering-its-next-generation-hmo-oled",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-03T17:00:00Z"
+        },
+        {
+          "key": "7f0254f8f474a6e5",
+          "title": "Apple eyes sputtered HMO process for next-gen OLED",
+          "url": "https://www.digitimes.com/news/a20261104PD207/apple-technology-lg-display-sdc-performance.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-04T05:49:16Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261104-0445",
+      "headline": "캠시스, 삼성 AI 냉장고용 카메라 모듈 양산 공급 시작",
+      "summary": [
+        "캠시스가 삼성전자 비스포크 AI 패밀리허브 전 모델에 들어가는 카메라 모듈 공급을 시작했다고 발표했다.",
+        "가전용 카메라 모듈에서 첫 양산 매출이 발생했으며 삼성전자 가전 사업부와 협력을 넓힐 계획이다.",
+        "스마트폰 카메라 모듈 공급 경험을 바탕으로 가전과 로봇 등 비모바일 분야 확대가 예상된다."
       ],
       "category": "장비/소재/부품",
       "tags": [
-        "AI 카메라 모듈",
-        "가전용 카메라",
-        "패밀리허브",
-        "초광각 카메라"
+        "카메라 모듈",
+        "AI 냉장고",
+        "비스포크 AI 패밀리허브",
+        "가전 부품",
+        "비모바일"
       ],
       "companies": [
         "캠시스",
@@ -34,7 +95,7 @@
       "attempts": 0,
       "region": "ko",
       "first_seen": "2026-11-04T05:05:31Z",
-      "updated_at": "2026-11-04T05:05:31Z",
+      "updated_at": "2026-11-04T05:45:37Z",
       "articles": [
         {
           "key": "8c86539ed16f7377",
@@ -43,10 +104,113 @@
           "source": "디일렉",
           "lang": "ko",
           "published_at": "2026-11-04T05:05:31Z"
+        },
+        {
+          "key": "c4d898624048b49f",
+          "title": "캠시스 “삼성 AI 냉장고용 카메라 양산”",
+          "url": "https://www.etnews.com/20261104000358",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-04T05:45:37Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 4
+    },
+    {
+      "id": "c20261104-0446",
+      "headline": "전남광주 반도체산단·AI센터 추진 속도전 우려",
+      "summary": [
+        "전남광주통합특별시가 반도체 국가산업단지와 국가 AI컴퓨팅센터 사업을 추진 중이며 행정사무감사에서 관련 우려가 제기됐다.",
+        "기사 본문이 짧게 잘려 있어 구체적인 일정·예산·수치는 확인되지 않는다.",
+        "지역 반도체 클러스터 조성이 빠르게 진행되는 만큼 사업 검증 필요성이 부각된 것으로 보인다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체 국가산업단지",
+        "AI컴퓨팅센터",
+        "지역 클러스터",
+        "행정사무감사"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T05:23:42Z",
+      "updated_at": "2026-11-04T05:23:42Z",
+      "articles": [
+        {
+          "key": "cf25f499fe489d4e",
+          "title": "전남광주시 반도체·AI컴퓨팅센터 행정사무감사…속도전에 우려",
+          "url": "https://www.yna.co.kr/view/AKR20261104111500054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-04T05:23:42Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261104-0428",
+      "headline": "모빌린트 NPU, 글로벌 AI 프레임워크 Ray 공식 코드 반영",
+      "summary": [
+        "모빌린트가 ETRI와 공동 개발한 NPU의 자동 인식·자원 관리 기능이 Ray 공식 코드에 반영됐다고 4일 발표했다.",
+        "이번 성과는 ETRI의 이종 AI반도체용 분산추론 및 모델 최적화 기술 개발 과제의 일환으로 추진됐다.",
+        "NPU 소프트웨어 생태계 진입으로 국산 AI반도체의 글로벌 분산 AI 환경 활용 가능성이 넓어졌다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "NPU",
+        "Ray",
+        "분산추론",
+        "ETRI",
+        "AI반도체 소프트웨어"
+      ],
+      "companies": [
+        "모빌린트",
+        "ETRI"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "모빌린트",
+        "ETRI"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T00:25:53Z",
+      "updated_at": "2026-11-04T05:15:00Z",
+      "articles": [
+        {
+          "key": "69a214f01d6d7168",
+          "title": "모빌린트 NPU, 글로벌 AI 플랫폼 'Ray' 공식 코드에 반영",
+          "url": "https://www.inews24.com/view/2022339",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-04T00:25:53Z"
+        },
+        {
+          "key": "ec145d8147114479",
+          "title": "모빌린트, NPU 소프트웨어 경쟁력 강화…글로벌 Ray 생태계 진입",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409271",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-04T05:15:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261104-0427",
@@ -1009,52 +1173,6 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261104-0428",
-      "headline": "모빌린트 NPU, 글로벌 AI 플랫폼 Ray 공식 코드 반영",
-      "summary": [
-        "모빌린트가 ETRI와 공동 개발한 기술을 글로벌 AI 소프트웨어 Ray의 공식 코드에 반영했다.",
-        "개발자가 복잡한 설정 없이 모빌린트 NPU를 활용할 수 있도록 지원하는 것이 핵심이다.",
-        "국산 AI반도체의 글로벌 소프트웨어 생태계 편입 사례로, 호환성 확대 의미가 있다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "NPU",
-        "Ray",
-        "AI 소프트웨어 생태계",
-        "ETRI"
-      ],
-      "companies": [
-        "모빌린트",
-        "ETRI"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "모빌린트",
-        "ETRI"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-04T00:25:53Z",
-      "updated_at": "2026-11-04T00:25:53Z",
-      "articles": [
-        {
-          "key": "69a214f01d6d7168",
-          "title": "모빌린트 NPU, 글로벌 AI 플랫폼 'Ray' 공식 코드에 반영",
-          "url": "https://www.inews24.com/view/2022339",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-04T00:25:53Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
       "id": "c20261104-0424",
       "headline": "삼성전기, 장기 공급 계약 5조원 돌파",
       "summary": [
@@ -1742,63 +1860,6 @@
           "source": "Semiconductor Engineering",
           "lang": "en",
           "published_at": "2026-11-03T17:10:21Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261103-0326",
-      "headline": "애플, 차세대 OLED 백플레인 증착 방식으로 스퍼터링 검토",
-      "summary": [
-        "애플이 차세대 OLED 패널용 HMO 백플레인의 증착 방식으로 스퍼터링을 우선 검토하는 것으로 전해졌다.",
-        "최종 양산 공정은 아직 정해지지 않았으며, 삼성디스플레이와 LG디스플레이도 스퍼터링과 ALD를 병행 연구 중이다.",
-        "ALD는 박막 특성 제어에 강점이 있으나 장비·재료 비용이 높아, 기존 OLED 라인에서 쓰는 스퍼터링의 활용 가능성이 주목된다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "HMO",
-        "백플레인",
-        "스퍼터링",
-        "ALD",
-        "차세대 OLED"
-      ],
-      "companies": [
-        "애플",
-        "삼성디스플레이",
-        "LG디스플레이"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": false,
-      "parties": [
-        "애플",
-        "삼성디스플레이",
-        "LG디스플레이"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점, 관심 기업(LG디스플레이, 삼성디스플레이) +1, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-02T21:43:07Z",
-      "updated_at": "2026-11-03T17:00:00Z",
-      "articles": [
-        {
-          "key": "399dc4207a3e347d",
-          "title": "애플, 차세대 OLED HMO 증착 방식 저울질",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=64685",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-02T21:43:07Z"
-        },
-        {
-          "key": "e1f7f2f8f87caf74",
-          "title": "Apple is reportedly leaning towards sputtering for its next-generation HMO OLED backplanes",
-          "url": "https://www.oled-info.com/apple-reportedly-leaning-towards-sputtering-its-next-generation-hmo-oled",
-          "source": "OLED-info",
-          "lang": "en",
-          "published_at": "2026-11-03T17:00:00Z"
         }
       ],
       "type_checked": true,
