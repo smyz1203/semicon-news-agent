@@ -1,7 +1,49 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04T16:06:24Z",
+  "updated_at": "2026-11-04T17:08:42Z",
   "issues": [
+    {
+      "id": "c20261104-0473",
+      "headline": "ABLIC, 아날로그 반도체 고부가 전략 소개",
+      "summary": [
+        "ABLIC은 배터리 보호, 차량용, 의료·고압 등 다섯 개 분야에 집중하는 아날로그 반도체 기업으로 소개됐다.",
+        "기사는 작고 스마트하며 단순한 전략을 강조하지만, 구체적 수치나 일정은 본문에 나와 있지 않다.",
+        "아날로그 반도체 시장에서 고부가 제품 중심의 사업 방향을 보여주는 사례로 볼 수 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "아날로그 반도체",
+        "배터리 보호 IC",
+        "차량용 반도체",
+        "고부가 전략"
+      ],
+      "companies": [
+        "ABLIC"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-04T17:00:00Z",
+      "updated_at": "2026-11-04T17:00:00Z",
+      "articles": [
+        {
+          "key": "b9e97e84d0d6b4f6",
+          "title": "ABLIC’s Small, Smart, and Simple Strategy for High-Value Analog Semicondutors",
+          "url": "https://www.eetimes.com/ablics-small-smart-and-simple-strategy-for-high-value-analog-semicondutors/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-04T17:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
     {
       "id": "c20261104-0472",
       "headline": "중국 YMTC, 상하이 증시 상장 계획 보류",
