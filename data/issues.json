@@ -1,7 +1,501 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04T07:31:34Z",
+  "updated_at": "2026-11-04T09:10:36Z",
   "issues": [
+    {
+      "id": "c20261103-0406",
+      "headline": "브로드컴, 삼성 칩 공급 불공정 거래로 과징금 확정",
+      "summary": [
+        "대법원이 브로드컴의 삼성전자 대상 불공정 거래 과징금 186억 원 판결을 유지했다.",
+        "브로드컴이 삼성에 불리한 공급 계약을 강요한 혐의가 최종 인정돼 상고가 기각됐다.",
+        "반도체 공급 계약에서 대형 고객사에 대한 부당 압박이 제재 대상임을 재확인한 사례다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "불공정거래",
+        "과징금",
+        "공급계약",
+        "대법원 판결"
+      ],
+      "companies": [
+        "브로드컴",
+        "삼성전자"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "브로드컴",
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "소송·특허 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-02T11:02:41Z",
+      "updated_at": "2026-11-04T08:53:59Z",
+      "articles": [
+        {
+          "key": "10ddaec3278c1eae",
+          "title": "Korea's top court upholds W18.6b fine on Broadcom for pressuring Samsung into unfair deal",
+          "url": "https://www.koreaherald.com/article/10923234",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-02T11:02:41Z"
+        },
+        {
+          "key": "9e3bef15e4dcbebf",
+          "title": "Broadcom loses final appeal over Samsung chip supply deal",
+          "url": "https://www.digitimes.com/news/a20261104VL221/samsung-broadcom-supreme-smartphone-2023.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-04T08:53:59Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261104-0464",
+      "headline": "그린트위드, 오창 투자 이행 공로로 외국기업 장관표창",
+      "summary": [
+        "미국 반도체 소재 기업 그린트위드의 CEO가 외국기업의 날 기념식에서 산업통상자원부 장관표창을 받았다.",
+        "오창 외국인투자지역 투자를 약속대로 이행한 공로이며, 2028년까지 436억원을 투자해 오링을 연간 최대 60만개 생산한다.",
+        "반도체 장비 밀봉 부품의 국내 공급 기반을 넓혀 삼성전자·SK하이닉스 등 국내 반도체 생태계에 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "오링",
+        "반도체 소재",
+        "외국인투자",
+        "오창 외국인투자지역",
+        "밀봉 부품"
+      ],
+      "companies": [
+        "그린트위드",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "그린트위드"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T08:24:43Z",
+      "updated_at": "2026-11-04T08:24:43Z",
+      "articles": [
+        {
+          "key": "2bc49780acd407b4",
+          "title": "美 반도체 소재 기업 그린트위드, '외국기업의 날' 장관표창 수상",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64888",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-04T08:24:43Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261104-0463",
+      "headline": "칩렛 설계 검증, 시뮬레이션·에뮬레이션·FPGA 병행 필요성",
+      "summary": [
+        "칩렛 기반 다중 다이 설계의 검증은 시뮬레이션만으로는 부족해지고 있다고 전해졌다.",
+        "에뮬레이션과 FPGA 프로토타이핑을 함께 써야 하며, 공유 메모리와 다양한 I/O 버전 관리가 과제로 꼽혔다.",
+        "설계 검증 방식이 복잡해지면서 시스템 전체 동작을 확인하는 부담이 커지는 흐름을 보여준다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "칩렛",
+        "다중 다이 설계",
+        "FPGA 프로토타이핑",
+        "에뮬레이션",
+        "설계 검증"
+      ],
+      "companies": [
+        "SignatureIP"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-04T08:15:25Z",
+      "updated_at": "2026-11-04T08:15:25Z",
+      "articles": [
+        {
+          "key": "ec8250ea5de5bc1a",
+          "title": "Accelerating Plug-And-Play Prototyping In Chiplet-Based Designs",
+          "url": "https://semiengineering.com/accelerating-plug-and-play-prototyping-in-chiplet-based-designs/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-04T08:15:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261104-0462",
+      "headline": "글로벌 반도체 분기 매출 첫 5000억 달러 돌파",
+      "summary": [
+        "DigiTimes Asia는 글로벌 칩 매출이 단일 분기 기준 처음으로 5000억 달러를 넘어섰다고 보도했다.",
+        "다만 기사 본문이 제목과 출처 표기뿐이어서 세부 수치와 집계 기준은 확인되지 않는다.",
+        "업계 전반의 수요 회복과 가격 상승이 반영된 것으로 보이나 원인은 기사만으로 단정하기 어렵다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "글로벌 반도체 매출",
+        "분기 매출",
+        "시장 통계"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-04T08:15:00Z",
+      "updated_at": "2026-11-04T08:15:00Z",
+      "articles": [
+        {
+          "key": "44a94e98a6b49491",
+          "title": "Global chip sales top US$500 billion in a single quarter for first time",
+          "url": "https://www.digitimes.com/news/a20261104VL222/revenue-sales-2026-growth-data.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-04T08:15:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261104-0461",
+      "headline": "차량용 양자내성암호 PQC, 지금 준비해야 하는 이유",
+      "summary": [
+        "Synopsys가 차량용 SoC를 위한 양자내성암호(PQC) 가속기 백서를 공개했다.",
+        "백서는 하이브리드 암호 방식과 차량 등급 PQC의 차별점, PQC 가속기 선택 기준을 다룬다.",
+        "수십 년 가는 차량 특성상 양자 컴퓨팅 발전에 앞서 전환을 준비해야 한다는 의미다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "양자내성암호",
+        "PQC",
+        "차량용 반도체",
+        "하이브리드 암호",
+        "PQC 가속기"
+      ],
+      "companies": [
+        "Synopsys"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "Synopsys"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-04T08:04:17Z",
+      "updated_at": "2026-11-04T08:04:17Z",
+      "articles": [
+        {
+          "key": "6844c583cb575fd8",
+          "title": "Built to Last: Why Automotive-Grade PQC Can’t Wait",
+          "url": "https://semiengineering.com/built-to-last-why-automotive-grade-pqc-cant-wait/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-04T08:04:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261104-0460",
+      "headline": "3D-IC 신호 무결성, 시스템 단위 검증으로 확장",
+      "summary": [
+        "지멘스가 3D-IC 설계를 위한 통합 시스템 레벨 환경 Innovator3D IC를 소개했다.",
+        "이 환경은 아키텍처 탐색, 전자기 추출, 채널 시뮬레이션, 프로토콜 검증, 최종 사인오프를 하나의 워크플로로 잇는다.",
+        "AI·HPC용 칩렛 설계가 늘면서 부품 단위 검증을 넘어 시스템 전체 신호 분석의 중요성이 커지고 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "3D-IC",
+        "신호 무결성",
+        "칩렛",
+        "시스템 사인오프",
+        "HPC"
+      ],
+      "companies": [
+        "지멘스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "지멘스"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-04T08:02:20Z",
+      "updated_at": "2026-11-04T08:02:20Z",
+      "articles": [
+        {
+          "key": "5c33ba244594e9f7",
+          "title": "3D-IC Signal Integrity: From Silicon Interposers To System Signoff",
+          "url": "https://semiengineering.com/3d-ic-signal-integrity-from-silicon-interposers-to-system-signoff/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-04T08:02:20Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261104-0459",
+      "headline": "AI 확산이 반도체 설계·제조 방식을 바꾸는 흐름",
+      "summary": [
+        "인텔 파운드리는 AI 시대 반도체 과제로 전력 공급, 연결성, 첨단 패키징, 공급망 안정성을 꼽았다.",
+        "회사는 첨단 공정·패키징 기술 개발과 함께 AI·머신러닝으로 품질 향상과 수율 학습을 가속하고 있다.",
+        "트랜지스터 미세화 중심이던 업계 초점이 전력·연결 등 시스템 차원으로 옮겨가는 흐름이 뚜렷해졌다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "AI반도체",
+        "첨단 패키징",
+        "전력 공급",
+        "수율 학습",
+        "에이전틱 AI"
+      ],
+      "companies": [
+        "인텔"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-04T08:01:58Z",
+      "updated_at": "2026-11-04T08:01:58Z",
+      "articles": [
+        {
+          "key": "294eb91b6bec83c0",
+          "title": "Beyond The Chip: How AI Is Reshaping Semiconductor Design And Manufacturing",
+          "url": "https://semiengineering.com/beyond-the-chip-how-ai-is-reshaping-semiconductor-design-and-manufacturing/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-04T08:01:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261104-0458",
+      "headline": "이녹스첨단소재, 자체 개발 OCA 플래그십 스마트폰 첫 양산 출하",
+      "summary": [
+        "이녹스첨단소재가 스마트폰 OLED용 광학접착필름(OCA)의 초도 양산을 마치고 출하를 시작했다.",
+        "글로벌 스마트폰 제조사의 플래그십 모델용으로 공급되며, 기존 해외 공급사와 물량을 나누는 이원화 구조다.",
+        "해외 의존도를 낮추는 국산 소재 공급 확대로, 디스플레이 소재 내재화에 의미가 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OCA",
+        "광학접착필름",
+        "OLED",
+        "플래그십 스마트폰",
+        "이원화 공급"
+      ],
+      "companies": [
+        "이녹스첨단소재"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "이녹스첨단소재"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T08:01:21Z",
+      "updated_at": "2026-11-04T08:01:21Z",
+      "articles": [
+        {
+          "key": "663c9a2a6ef2f26f",
+          "title": "이녹스첨단소재, 자체 개발 OCA로 플래그십 스마트폰 뚫었다",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64869",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-04T08:01:21Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261104-0457",
+      "headline": "전력 트랜지스터 선택, 기술보다 응용 적합성이 중요",
+      "summary": [
+        "실리콘 MOSFET, IGBT, SiC MOSFET, GaN HEMT는 각각 장점이 있으나 응용처별로 가치가 다르다고 분석했다.",
+        "기사는 버스 전압, 전류 특성, 스위칭 주파수, 열 상승 허용치 등 설계 조건을 핵심 선택 기준으로 제시한다.",
+        "하드 스위칭과 소프트 스위칭 방식에 따라 우선 고려할 손실 요인이 달라져 설계자의 판단이 중요해진다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "전력 트랜지스터",
+        "SiC MOSFET",
+        "GaN HEMT",
+        "IGBT",
+        "스위칭 손실"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-04T08:01:04Z",
+      "updated_at": "2026-11-04T08:01:04Z",
+      "articles": [
+        {
+          "key": "efbe7e1fb154d3e5",
+          "title": "Choosing The Right Power Transistor: Why Application Fit Matters More Than Technology",
+          "url": "https://semiengineering.com/choosing-the-right-power-transistor-why-application-fit-matters-more-than-technology/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-04T08:01:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261104-0456",
+      "headline": "반도체 설계·AI 인프라 기술 동향 블로그 종합 리뷰",
+      "summary": [
+        "업계 블로그들이 칩렛 아키텍처, 랙 단위 전력·냉각, 검증 복잡도 등 설계 이슈를 다뤘다.",
+        "Arm은 SME2 명령어가 소형 행렬 연산에 적합하다고 설명했고, Keysight는 AI 데이터센터 전력 밀도와 액냉 기술을 분석했다.",
+        "SEMI는 웨이퍼 출하량 증가 전망과 공정 소재 매출 확대, 신규 라인 증가를 언급했다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "칩렛",
+        "SME2",
+        "AI데이터센터",
+        "액침냉각",
+        "웨이퍼출하량"
+      ],
+      "companies": [
+        "Cadence",
+        "Synopsys",
+        "Siemens",
+        "Arm",
+        "Keysight",
+        "SEMI"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-04T08:01:02Z",
+      "updated_at": "2026-11-04T08:01:02Z",
+      "articles": [
+        {
+          "key": "7ca9b6de68825f32",
+          "title": "Blog Review: Nov. 4",
+          "url": "https://semiengineering.com/blog-review-nov-4-3/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-04T08:01:02Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261104-0455",
+      "headline": "한국공학대, 베트남 방문단에 반도체 인재양성 역량 전수",
+      "summary": [
+        "한국공학대가 베트남 정부 방문단을 맞아 반도체 전문교육 역량을 전수했다.",
+        "방문단은 베트남 과학기술부 고위 관계자와 반도체 관련 기관·기업 관계자로 구성됐다.",
+        "베트남의 반도체 인력 양성 수요와 국내 대학의 산학협력 경험이 주목받는 계기가 됐다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "반도체 인재양성",
+        "산학협력",
+        "베트남",
+        "반도체 교육"
+      ],
+      "companies": [
+        "한국공학대학교"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "한국공학대학교"
+      ],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T07:57:09Z",
+      "updated_at": "2026-11-04T07:57:09Z",
+      "articles": [
+        {
+          "key": "8c9c04b39f8758d1",
+          "title": "한국공학대, 베트남 정부 반도체산업 및 인재양성 벤치마킹 방문단 내방",
+          "url": "https://www.dt.co.kr/article/12093196",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-04T07:57:09Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261104-0450",
       "headline": "주성엔지니어링 3분기 영업이익 177억원, 전년比 급증",
@@ -32,7 +526,7 @@
       "attempts": 0,
       "region": "ko",
       "first_seen": "2026-11-04T07:00:32Z",
-      "updated_at": "2026-11-04T07:00:32Z",
+      "updated_at": "2026-11-04T07:44:30Z",
       "articles": [
         {
           "key": "7c93384f667ff1e8",
@@ -41,10 +535,155 @@
           "source": "아이뉴스24",
           "lang": "ko",
           "published_at": "2026-11-04T07:00:32Z"
+        },
+        {
+          "key": "ffaa5c1df33311fa",
+          "title": "주성엔지니어링, 3분기 영업익 5배로…차세대 장비 성장 주목",
+          "url": "https://www.inews24.com/view/2022644",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-04T07:44:30Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 3
+    },
+    {
+      "id": "c20261104-0454",
+      "headline": "삼성·애플, 2028년 폴더블 UTG 중앙 식각 기술 검토",
+      "summary": [
+        "삼성전자와 애플이 2028년 폴더블폰 적용을 목표로 UTG 중앙 부위를 얇게 식각하는 기술 사양을 협력사와 논의 중이다.",
+        "검토 중인 중앙 두께는 40μm 내외, 접히지 않는 주변부는 100μm 이상으로 알려졌으며 올해 출시 제품과 비슷한 수준이다.",
+        "표면경도를 높이면서 접힘 성능을 유지하는 기술로, 적용 여부는 2027년 4분기쯤 결정될 전망이라 폴더블 경쟁이 가속될 것으로 보인다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "UTG",
+        "폴더블폰",
+        "중앙 식각",
+        "아이폰 듀오",
+        "OLED"
+      ],
+      "companies": [
+        "삼성전자",
+        "애플"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "애플"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점, 관심 기업(삼성전자) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T07:26:50Z",
+      "updated_at": "2026-11-04T07:26:50Z",
+      "articles": [
+        {
+          "key": "25396a3faced68a1",
+          "title": "삼성·애플, 폴더블폰 '접는 기술' 경쟁 붙었다",
+          "url": "https://zdnet.co.kr/view/?no=20261104152151",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-04T07:26:50Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261104-0453",
+      "headline": "인텔, 차세대 Raptor Lake에 DDR4 지원 추진 보도",
+      "summary": [
+        "인텔이 차세대 Raptor Lake Next 플랫폼에서 DDR4 메모리 업그레이드를 겨냥한다는 보도가 나왔다.",
+        "기사 본문이 사실상 비어 있어 구체적인 출시 시점이나 사양 수치는 확인되지 않는다.",
+        "공식 발표 전 단계의 소식으로, DDR4 지원이 확정되면 기존 DDR4 장비 사용자에게 영향을 줄 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "DDR4",
+        "Raptor Lake Next",
+        "인텔",
+        "메모리 업그레이드"
+      ],
+      "companies": [
+        "인텔"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "인텔"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-04T07:22:47Z",
+      "updated_at": "2026-11-04T07:22:47Z",
+      "articles": [
+        {
+          "key": "10e886340abbb3ef",
+          "title": "Intel reportedly targets DDR4 upgrades with Raptor Lake Next",
+          "url": "https://www.digitimes.com/news/a20261104PD210/intel-ddr4-raptor-lake-pc.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-04T07:22:47Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261104-0452",
+      "headline": "비상교육·아하, 유아용 AI 전자칠판 출시",
+      "summary": [
+        "비상교육이 아하와 협력해 유아 교육기관 전용 AI 전자칠판을 출시한다고 밝혔다.",
+        "아하의 신형 AI 전자칠판에 비상교육 로고와 유아 눈높이 높이 조절 기능을 적용했다.",
+        "전자칠판 분야 디스플레이 기업의 제품 공급과 전국 A/S망을 활용해 교육기관 관리 부담을 줄일 계획이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "AI 전자칠판",
+        "유아 교육",
+        "온리원키즈포스쿨",
+        "전국 A/S망"
+      ],
+      "companies": [
+        "비상교육",
+        "아하"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "비상교육",
+        "아하"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T07:03:53Z",
+      "updated_at": "2026-11-04T07:03:53Z",
+      "articles": [
+        {
+          "key": "ce66fed5fed1f328",
+          "title": "비상교육, 아하와 손잡고 유아 교육기관용 AI 전자칠판 출시",
+          "url": "https://zdnet.co.kr/view/?no=20261104160353",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-04T07:03:53Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261104-0449",
@@ -494,6 +1133,55 @@
       ],
       "type_checked": true,
       "importance_raw": 2
+    },
+    {
+      "id": "c20261104-0451",
+      "headline": "파테오, 엔비디아 Thor 기반 차량용 AI 박스 고도화",
+      "summary": [
+        "파테오가 엔비디아 DRIVE AGX Thor 기반 AI 박스에 Nemotron과 바이트댄스 Doubao 모델을 탑재했다.",
+        "로컬 AI 추론과 AI 에이전트 플랫폼을 결합해 다국어 대화와 차량 내 상황 인식, 기능 연계 제어를 지원한다.",
+        "차량 내 생성형 AI 적용이 확산되는 흐름에서 자동차 AI 솔루션 경쟁을 보여주는 사례다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "DRIVE AGX Thor",
+        "Nemotron",
+        "차량용 AI",
+        "AI 에이전트",
+        "온디바이스 추론"
+      ],
+      "companies": [
+        "파테오",
+        "엔비디아",
+        "바이트댄스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "파테오",
+        "엔비디아",
+        "바이트댄스"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(엔비디아) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T04:56:00Z",
+      "updated_at": "2026-11-04T04:56:00Z",
+      "articles": [
+        {
+          "key": "f5d00ef1bda392ce",
+          "title": "파테오, NVIDIA DRIVE AGX Thor 기반 AI Box에 NVIDIA Nemotron 및 ByteDance Doubao 탑재로 차량 내 AI 고도화",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=342994",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-04T04:56:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261104-0443",
@@ -4283,53 +4971,6 @@
           "source": "OLED-info",
           "lang": "en",
           "published_at": "2026-11-02T11:10:26Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
-    },
-    {
-      "id": "c20261103-0406",
-      "headline": "대법원, 브로드컴 공정위 과징금 186억원 확정",
-      "summary": [
-        "대법원이 브로드컴의 상고를 기각해 과징금 186억원 부과 판결이 확정됐다.",
-        "브로드컴은 협상력을 남용해 삼성전자에 불리한 장기 부품 공급계약을 강요한 혐의를 받았다.",
-        "대기업 간 불공정 거래에 대한 공정위 제재가 최종 확정돼 업계 계약 관행에 경각심을 줄 전망이다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "공정거래",
-        "과징금",
-        "장기공급계약",
-        "협상력 남용",
-        "부품 공급"
-      ],
-      "companies": [
-        "브로드컴",
-        "삼성전자"
-      ],
-      "event_type": "소송·특허",
-      "confirmed": true,
-      "parties": [
-        "브로드컴",
-        "삼성전자"
-      ],
-      "importance": 4,
-      "importance_reason": "소송·특허 3점, 관심 기업(삼성전자) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-02T11:02:41Z",
-      "updated_at": "2026-11-02T11:02:41Z",
-      "articles": [
-        {
-          "key": "10ddaec3278c1eae",
-          "title": "Korea's top court upholds W18.6b fine on Broadcom for pressuring Samsung into unfair deal",
-          "url": "https://www.koreaherald.com/article/10923234",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-11-02T11:02:41Z"
         }
       ],
       "type_checked": true,
