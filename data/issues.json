@@ -1,7 +1,54 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04T17:08:42Z",
+  "updated_at": "2026-11-04T18:02:01Z",
   "issues": [
+    {
+      "id": "c20261104-0474",
+      "headline": "삼성, UMC에 DDI 추가 주문 요청했으나 거절 보도",
+      "summary": [
+        "삼성전자가 UMC에 OLED 구동칩(DDI) 1만여 장 추가 생산을 요청했으나 UMC가 거절했다는 대만 보도가 나왔다.",
+        "삼성은 앞서 메모리 부족과 물가 상승을 우려해 이 물량 생산 계획을 취소했다가, 폴더블 판매 호조로 재요청했다.",
+        "양측 모두 확인하지 않은 상태로, 과거 팬데믹 때와 같은 DDI 공급 부족이 재현될지 주목된다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "OLED 구동칩",
+        "DDI",
+        "폴더블",
+        "공급 부족",
+        "메모리 가격"
+      ],
+      "companies": [
+        "삼성전자",
+        "UMC"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "UMC"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-04T18:00:06Z",
+      "updated_at": "2026-11-04T18:00:06Z",
+      "articles": [
+        {
+          "key": "6e1cddb16b45dbd0",
+          "title": "UMC reportedly turns down Samsung's rush order for OLED driver ICs: will the COVID-era shortage return?",
+          "url": "https://www.oled-info.com/umc-reportedly-turns-down-samsungs-rush-order-over-10000-oled-driver-ic-wafers",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-04T18:00:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261104-0473",
       "headline": "ABLIC, 아날로그 반도체 고부가 전략 소개",
