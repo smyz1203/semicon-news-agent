@@ -1,7 +1,80 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T10:23:19Z",
+  "updated_at": "2026-11-05T12:07:00Z",
   "issues": [
+    {
+      "id": "c20261103-0365",
+      "headline": "마벨, 루멘텀 1150억 달러 전량 주식 인수 추진",
+      "summary": [
+        "마벨이 광통신 부품사 루멘텀을 약 1150억 달러 규모의 전량 주식 거래로 인수하기로 알려졌다.",
+        "TrendForce는 이번 인수가 광학과 전자 역량을 결합해 브로드컴의 시장 선도 지위에 도전할 수 있다고 분석했다.",
+        "AI 데이터센터 연결망의 레이저·광모듈 공급망이 재편될 수 있어 업계의 관심이 크다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "광통신",
+        "AI 레이저",
+        "M&A",
+        "브로드컴 경쟁",
+        "AI 연결망"
+      ],
+      "companies": [
+        "마벨",
+        "루멘텀",
+        "브로드컴",
+        "엔비디아"
+      ],
+      "event_type": "인수합병",
+      "confirmed": false,
+      "parties": [
+        "마벨",
+        "루멘텀"
+      ],
+      "importance": 2,
+      "importance_reason": "인수합병 2점, 매체 4곳 보도 +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-03T08:50:21Z",
+      "updated_at": "2026-11-05T12:00:00Z",
+      "articles": [
+        {
+          "key": "fbffe88f0ec5316f",
+          "title": "Marvell Snaps Photonics Chipmaker Lumentum to Bolster AI Connectivity",
+          "url": "https://www.eetimes.com/marvell-snaps-photonics-chipmaker-lumentum-to-bolster-ai-connectivity/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-03T08:50:21Z"
+        },
+        {
+          "key": "34a7baf023fa6cc7",
+          "title": "마벨, '엔비디아 픽' 루멘텀 154조원에 인수…AI 레이저 공급망 재편",
+          "url": "https://www.inews24.com/view/2022253",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-03T09:40:17Z"
+        },
+        {
+          "key": "c436884fe28927de",
+          "title": "Marvell’s Acquisition of Lumentum to Unite Optical and Electronic Capabilities, Potentially Challenging Broadcom’s Market Leadership, Says TrendForce",
+          "url": "https://www.trendforce.com/presscenter/news/20261103-13294.html",
+          "source": "TrendForce",
+          "lang": "en",
+          "published_at": "2026-11-03T10:15:20Z"
+        },
+        {
+          "key": "ac64e4442ebb4099",
+          "title": "Marvell to buy Lumentum in $115 billion all-stock deal",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/marvell-to-buy-lumentum-in-usd115-billion-all-stock-deal-combined-company-to-supply-scale-up-and-scale-in-optics-for-ai-data-centers",
+          "source": "Tom's Hardware",
+          "lang": "en",
+          "published_at": "2026-11-05T12:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261105-0512",
       "headline": "ICT 석·박사 인재 양성 거점 5곳 신규 선정",
@@ -354,6 +427,55 @@
       ],
       "type_checked": true,
       "importance_raw": 3
+    },
+    {
+      "id": "c20261105-0531",
+      "headline": "3분기 D램 매출 369% 급증, 삼성 점유율 1위 유지",
+      "summary": [
+        "카운터포인트에 따르면 3분기 글로벌 D램 매출은 전년비 369% 늘어난 2000억 달러로 사상 최고를 기록했다.",
+        "삼성전자는 점유율 38%로 1위를 지켰고, 비트 출하는 4%만 늘어 단가 상승이 실적을 주도했다.",
+        "공급 확보 경쟁이 이어져 메모리 가격 강세와 공급 부족이 내년에도 지속될 전망이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "D램",
+        "HBM4",
+        "AI 가속기",
+        "슈퍼사이클",
+        "장기공급계약"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "마이크론",
+        "CXMT",
+        "엔비디아"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "카운터포인트"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T09:09:56Z",
+      "updated_at": "2026-11-05T09:09:56Z",
+      "articles": [
+        {
+          "key": "d98a049ad04b3fbc",
+          "title": "3분기 D램 매출 369% 폭등…삼성, 점유율 38%로 1위 수성",
+          "url": "https://zdnet.co.kr/view/?no=20261105170914",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-05T09:09:56Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261105-0523",
@@ -6181,71 +6303,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261103-0365",
-      "headline": "마벨, 루멘텀 1150억 달러 인수 추진…AI 광통신 재편",
-      "summary": [
-        "마벨이 광통신 기업 루멘텀을 1150억 달러(약 154조원)에 인수하기로 이사회가 승인했다.",
-        "양사 이사회는 11월 2일 거래를 승인했으며 주주와 여러 국가의 규제 당국 승인이 남아 있다.",
-        "AI 데이터센터용 레이저 생산 역량을 확보해 브로드컴과의 경쟁 구도가 바뀔 수 있다는 평가다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "광통신",
-        "AI 데이터센터",
-        "레이저",
-        "M&A",
-        "브로드컴"
-      ],
-      "companies": [
-        "마벨",
-        "루멘텀",
-        "엔비디아",
-        "브로드컴"
-      ],
-      "event_type": "인수합병",
-      "confirmed": true,
-      "parties": [
-        "마벨",
-        "루멘텀"
-      ],
-      "importance": 3,
-      "importance_reason": "인수합병 2점, 매체 3곳 보도 +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-03T08:50:21Z",
-      "updated_at": "2026-11-03T10:15:20Z",
-      "articles": [
-        {
-          "key": "fbffe88f0ec5316f",
-          "title": "Marvell Snaps Photonics Chipmaker Lumentum to Bolster AI Connectivity",
-          "url": "https://www.eetimes.com/marvell-snaps-photonics-chipmaker-lumentum-to-bolster-ai-connectivity/",
-          "source": "EE Times",
-          "lang": "en",
-          "published_at": "2026-11-03T08:50:21Z"
-        },
-        {
-          "key": "34a7baf023fa6cc7",
-          "title": "마벨, '엔비디아 픽' 루멘텀 154조원에 인수…AI 레이저 공급망 재편",
-          "url": "https://www.inews24.com/view/2022253",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-03T09:40:17Z"
-        },
-        {
-          "key": "c436884fe28927de",
-          "title": "Marvell’s Acquisition of Lumentum to Unite Optical and Electronic Capabilities, Potentially Challenging Broadcom’s Market Leadership, Says TrendForce",
-          "url": "https://www.trendforce.com/presscenter/news/20261103-13294.html",
-          "source": "TrendForce",
-          "lang": "en",
-          "published_at": "2026-11-03T10:15:20Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261103-0361",
