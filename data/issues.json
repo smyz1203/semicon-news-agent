@@ -1,7 +1,322 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T04:08:12Z",
+  "updated_at": "2026-11-05T05:13:03Z",
   "issues": [
+    {
+      "id": "c20261105-0512",
+      "headline": "정부, AI반도체 등 ICT 인재 양성 거점 5곳 선정",
+      "summary": [
+        "정부가 AI반도체, 양자AI, 스마트 제조 등 첨단 ICT 분야 고급 인재 양성 거점 5곳을 선정했다.",
+        "선정된 거점은 석·박사급 고급 인력을 길러내는 역할을 맡게 되며, 기사 본문이 일부만 제공되어 세부 지원 규모는 확인되지 않는다.",
+        "반도체 분야 고급 인력 확보 기반을 넓히는 조치로, 산업 인력난 해소에 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI반도체",
+        "ICT 인재 양성",
+        "양자AI",
+        "스마트 제조"
+      ],
+      "companies": [],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T05:00:11Z",
+      "updated_at": "2026-11-05T05:00:11Z",
+      "articles": [
+        {
+          "key": "4660a163aff7c830",
+          "title": "AI반도체부터 스마트 제조까지…ICT 인재 양성 거점 5곳 선정",
+          "url": "https://www.yna.co.kr/view/AKR20261105041200017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T05:00:11Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261105-0509",
+      "headline": "삼성전자, 미래기술 우수 연구자 10명 선정",
+      "summary": [
+        "삼성전자가 기초과학과 소재·ICT 분야 우수 연구자 10명을 선정했다.",
+        "선정 대상은 독창적 연구로 새 분야를 개척하고 학계와 산업계에 기여한 인물들이다.",
+        "국내 과학기술 인재를 발굴해 경쟁력을 높이려는 취지의 연구자 지원 성격이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "미래기술",
+        "연구자 지원",
+        "기초과학",
+        "소재",
+        "ICT"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "채용·인력 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T05:00:00Z",
+      "updated_at": "2026-11-05T05:00:00Z",
+      "articles": [
+        {
+          "key": "35c4a436fd39c84c",
+          "title": "삼성전자, 오성진·김봉수 교수 등 미래기술 우수 연구자 10명 선정",
+          "url": "https://www.dt.co.kr/article/12093304",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-05T05:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261105-0510",
+      "headline": "테슬라 옵티머스 AI칩 D램 용량 축소, 메모리 확보 대응",
+      "summary": [
+        "테슬라가 옵티머스 로봇용 차세대 AI6 칩의 D램 용량을 216GB에서 144GB로 줄였다.",
+        "로봇 한 대당 메모리 사용량을 낮춰 양산에 필요한 부품 수량을 확보하고 비용 부담을 덜려는 목적이다.",
+        "메모리 공급이 빠듯한 상황에서 휴머노이드 양산 일정과 메모리 조달 전략에 영향을 줄 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI6",
+        "옵티머스",
+        "D램",
+        "저전력 D램",
+        "휴머노이드"
+      ],
+      "companies": [
+        "테슬라"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "테슬라"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T05:00:00Z",
+      "updated_at": "2026-11-05T05:00:00Z",
+      "articles": [
+        {
+          "key": "23fb2143d270d2ce",
+          "title": "메모리 확보에 옵티머스 '다이어트'…AI6 D램 216→144GB",
+          "url": "https://www.inews24.com/view/2022655",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-05T05:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261105-0511",
+      "headline": "반도체 장비 선점 경쟁, 2029년 납기까지 확보 나서",
+      "summary": [
+        "칩 제조사들이 2029년까지의 장비 인도를 확보하려고 나서고 있다.",
+        "일부 장비의 리드타임이 2년을 넘어서면서 선제적 발주가 이어지는 상황이다.",
+        "장비 공급 병목이 장기화되어 설비 투자 일정과 생산 계획에 영향을 줄 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "장비 리드타임",
+        "장비 선점",
+        "설비 투자",
+        "반도체 장비"
+      ],
+      "companies": [
+        "ASML"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-05T05:00:00Z",
+      "updated_at": "2026-11-05T05:00:00Z",
+      "articles": [
+        {
+          "key": "5ca6e723475651e9",
+          "title": "Chipmakers rush to secure equipment for 2029 as lead times top two years",
+          "url": "https://www.digitimes.com/news/a20261105VL219/semiconductors-equipment-production-asml-earnings-2028.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-05T05:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261105-0489",
+      "headline": "삼성전자 제6노조 출범 추진, 성과급 갈등 확산",
+      "summary": [
+        "삼성전자 DX부문 중심의 동행노조에서 갈라진 제6노조 설립이 추진되고 있다.",
+        "동행·초기업노조 출신이 주도하며, 반도체 성과급을 둘러싼 내부 갈등이 심화된 상태다.",
+        "노조 분열이 이어지면서 회사의 노사 관리와 보상 체계에 부담이 커질 전망이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "성과급",
+        "노조",
+        "제6노조",
+        "DX부문"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T00:54:46Z",
+      "updated_at": "2026-11-05T04:46:49Z",
+      "articles": [
+        {
+          "key": "36ff112742e71b29",
+          "title": "삼성전자 제6노조 설립 추진…동행·초기업노조 출신 주도",
+          "url": "https://www.yna.co.kr/view/AKR20261105049300003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T00:54:46Z"
+        },
+        {
+          "key": "b66a569656a540d1",
+          "title": "모바일·TV 노조도 갈라졌다…거세지는 삼성전자 성과급 후폭풍",
+          "url": "https://www.dt.co.kr/article/12093366",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-05T02:30:23Z"
+        },
+        {
+          "key": "bdf4d1db0a6eee8d",
+          "title": "삼성전자 제6노조 설립 추진…동행노조 내부 갈등설 공방(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261105049351003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T04:46:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261105-0508",
+      "headline": "EU, 5.25억 유로 투입해 칩 설계 격차 해소 나서",
+      "summary": [
+        "EU가 칩 설계 역량 격차를 줄이기 위해 5억 2500만 유로 규모의 추진에 나섰다.",
+        "기사 본문이 제공되지 않아 구체적 프로그램 내용과 일정은 확인할 수 없다.",
+        "유럽 반도체 설계 자립도 제고 흐름을 보여주는 정책 이슈로 해석된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "칩 설계",
+        "EU 반도체 정책",
+        "유럽 반도체",
+        "투자 지원"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-05T04:45:00Z",
+      "updated_at": "2026-11-05T04:45:00Z",
+      "articles": [
+        {
+          "key": "d1afafa09372d48e",
+          "title": "EU launches EUR525 million push to close chip design gap",
+          "url": "https://www.digitimes.com/news/a20261105VL221/design-europe-eu-manufacturing-demand.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-05T04:45:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261105-0507",
+      "headline": "중국 Big Fund III, 12인치 팹과 장비 인수에 투자 집중",
+      "summary": [
+        "중국 국가반도체산업투자基金 3기(Big Fund III)가 12인치 팹 투자와 장비 인수 쪽으로 방향을 틀었다는 보도다.",
+        "기사 본문은 출처 표기뿐이라 투자 규모와 구체 대상 기업, 일정은 확인되지 않는다.",
+        "공급망 공백을 메우려는 자국화 움직임으로, 국내 장비·소재 업계도 경쟁 구도 변화를 살펴볼 필요가 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "Big Fund III",
+        "12인치 팹",
+        "반도체 장비 인수",
+        "공급망 자립",
+        "중국 반도체 투자"
+      ],
+      "companies": [
+        "중국 Big Fund III"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-05T04:13:23Z",
+      "updated_at": "2026-11-05T04:13:23Z",
+      "articles": [
+        {
+          "key": "7b89b526d5da68b1",
+          "title": "China's Big Fund III pivots to 12-inch chip fabs, equipment acquisitions to close semiconductor supply chain gaps",
+          "url": "https://www.digitimes.com/news/a20261105VL220/12-inch-equipment-big-fund-investment-manufacturing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-05T04:13:23Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261103-0407",
       "headline": "삼성디스플레이 차량용 OLED 부족에 리오토 신형 Mega LCD 탑재",
@@ -282,58 +597,6 @@
           "source": "DigiTimes Asia",
           "lang": "en",
           "published_at": "2026-11-05T02:45:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261105-0489",
-      "headline": "삼성전자 제6노조 출범 추진, 성과급 갈등 확산",
-      "summary": [
-        "삼성전자 DX부문 중심의 동행노조에서 갈라진 제6노조 설립이 추진되고 있다.",
-        "동행·초기업노조 출신이 주도하며, 반도체 성과급을 둘러싼 내부 갈등이 심화된 상태다.",
-        "노조 분열이 이어지면서 회사의 노사 관리와 보상 체계에 부담이 커질 전망이다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "성과급",
-        "노조",
-        "제6노조",
-        "DX부문"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": false,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 3,
-      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-05T00:54:46Z",
-      "updated_at": "2026-11-05T02:30:23Z",
-      "articles": [
-        {
-          "key": "36ff112742e71b29",
-          "title": "삼성전자 제6노조 설립 추진…동행·초기업노조 출신 주도",
-          "url": "https://www.yna.co.kr/view/AKR20261105049300003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-05T00:54:46Z"
-        },
-        {
-          "key": "b66a569656a540d1",
-          "title": "모바일·TV 노조도 갈라졌다…거세지는 삼성전자 성과급 후폭풍",
-          "url": "https://www.dt.co.kr/article/12093366",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-05T02:30:23Z"
         }
       ],
       "type_checked": true,
