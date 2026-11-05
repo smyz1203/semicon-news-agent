@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T21:00:59Z",
+  "updated_at": "2026-11-05T21:53:21Z",
   "issues": [
     {
       "id": "c20261105-0540",
@@ -242,7 +242,7 @@
         "SK하이닉스"
       ],
       "importance": 2,
-      "importance_reason": "시장 전망·통계 2점, 관심 기업(삼성전자, SK하이닉스) +1, 미확정 -1 → 2점",
+      "importance_reason": "시장 전망·통계 2점, 관심 기업(SK하이닉스, 삼성전자) +1, 미확정 -1 → 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -1331,7 +1331,7 @@
         "마이크론"
       ],
       "importance": 3,
-      "importance_reason": "시장 전망·통계 2점, 관심 기업(삼성전자, SK하이닉스) +1 → 3점",
+      "importance_reason": "시장 전망·통계 2점, 관심 기업(SK하이닉스, 삼성전자) +1 → 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -3291,8 +3291,8 @@
         "현대차",
         "엔비디아"
       ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점, 관심 기업(엔비디아) +1, 미확정 -1 → 3점",
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -3310,7 +3310,7 @@
         }
       ],
       "type_checked": true,
-      "importance_raw": 3
+      "importance_raw": 2
     },
     {
       "id": "c20261104-0462",
@@ -4023,8 +4023,8 @@
         "엔비디아",
         "바이트댄스"
       ],
-      "importance": 3,
-      "importance_reason": "업계 일반 2점, 관심 기업(엔비디아) +1 → 3점",
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -4050,7 +4050,7 @@
         }
       ],
       "type_checked": true,
-      "importance_raw": 3
+      "importance_raw": 2
     },
     {
       "id": "c20261103-0406",
@@ -4769,7 +4769,7 @@
         "엔비디아"
       ],
       "importance": 3,
-      "importance_reason": "설비 투자 3점, 관심 기업(삼성전자, 엔비디아) +1, 미확정 -1 → 3점",
+      "importance_reason": "설비 투자 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -5399,7 +5399,7 @@
         "SK하이닉스"
       ],
       "importance": 4,
-      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자, SK하이닉스) +1 → 4점",
+      "importance_reason": "수주·공급 3점, 관심 기업(SK하이닉스, 삼성전자) +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -6242,8 +6242,8 @@
         "미디어텍",
         "엔비디아"
       ],
-      "importance": 2,
-      "importance_reason": "재무·주주 2점, 관심 기업(엔비디아) +1, 미확정 -1 → 2점",
+      "importance": 1,
+      "importance_reason": "재무·주주 2점, 미확정 -1 → 1점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -6261,7 +6261,7 @@
         }
       ],
       "type_checked": true,
-      "importance_raw": 2
+      "importance_raw": 1
     },
     {
       "id": "c20261103-0419",
@@ -7974,7 +7974,7 @@
         "LG전자"
       ],
       "importance": 2,
-      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자, SK하이닉스, 엔비디아) +1 → 2점",
+      "importance_reason": "홍보·수상 1점, 관심 기업(SK하이닉스, 삼성전자, LG전자) +1 → 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -9052,7 +9052,7 @@
         "오픈AI"
       ],
       "importance": 5,
-      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자, SK하이닉스) +1, 매체 3곳 보도 +1 → 5점",
+      "importance_reason": "경영진 교체 3점, 관심 기업(SK하이닉스, 삼성전자) +1, 매체 3곳 보도 +1 → 5점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -9226,7 +9226,7 @@
         "삼성전자"
       ],
       "importance": 3,
-      "importance_reason": "수주·공급 3점, 관심 기업(삼성디스플레이, 삼성전자) +1, 미확정 -1 → 3점",
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자, 삼성디스플레이) +1, 미확정 -1 → 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -9661,7 +9661,7 @@
         "SK하이닉스"
       ],
       "importance": 3,
-      "importance_reason": "재무·주주 2점, 관심 기업(삼성전자, SK하이닉스) +1 → 3점",
+      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스, 삼성전자) +1 → 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -9933,7 +9933,7 @@
         "TCL CSOT"
       ],
       "importance": 3,
-      "importance_reason": "인수합병 2점, 관심 기업(삼성디스플레이, 삼성전자) +1 → 3점",
+      "importance_reason": "인수합병 2점, 관심 기업(삼성전자, 삼성디스플레이) +1 → 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -11149,7 +11149,7 @@
         "애플"
       ],
       "importance": 4,
-      "importance_reason": "실적 3점, 관심 기업(삼성디스플레이, 삼성전자) +1 → 4점",
+      "importance_reason": "실적 3점, 관심 기업(삼성전자, 삼성디스플레이) +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -11877,7 +11877,7 @@
         "SK하이닉스"
       ],
       "importance": 4,
-      "importance_reason": "실적 3점, 관심 기업(삼성전자, SK하이닉스) +1 → 4점",
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스, 삼성전자) +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -12068,8 +12068,8 @@
       "parties": [
         "엔비디아"
       ],
-      "importance": 3,
-      "importance_reason": "업계 일반 2점, 관심 기업(엔비디아) +1 → 3점",
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -12087,7 +12087,7 @@
         }
       ],
       "type_checked": true,
-      "importance_raw": 3
+      "importance_raw": 2
     },
     {
       "id": "c20261029-0297",
@@ -13778,7 +13778,7 @@
         "삼성전자"
       ],
       "importance": 4,
-      "importance_reason": "실적 3점, 관심 기업(삼성전자, SK하이닉스) +1 → 4점",
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스, 삼성전자) +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -13911,8 +13911,8 @@
       "parties": [
         "LG전자"
       ],
-      "importance": 3,
-      "importance_reason": "실적 3점",
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(LG전자) +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -13930,7 +13930,7 @@
         }
       ],
       "type_checked": true,
-      "importance_raw": 3
+      "importance_raw": 4
     },
     {
       "id": "c20261028-0267",
@@ -13956,8 +13956,8 @@
       "parties": [
         "LG전자"
       ],
-      "importance": 3,
-      "importance_reason": "가격 동향 3점",
+      "importance": 4,
+      "importance_reason": "가격 동향 3점, 관심 기업(LG전자) +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -13975,7 +13975,7 @@
         }
       ],
       "type_checked": true,
-      "importance_raw": 3
+      "importance_raw": 4
     },
     {
       "id": "c20261028-0235",
@@ -14313,7 +14313,7 @@
         "삼성전자"
       ],
       "importance": 4,
-      "importance_reason": "실적 3점, 관심 기업(삼성전자, SK하이닉스) +1 → 4점",
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스, 삼성전자) +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -14633,8 +14633,8 @@
         "ChipAgents",
         "Nvidia"
       ],
-      "importance": 3,
-      "importance_reason": "업계 일반 2점, 관심 기업(엔비디아) +1 → 3점",
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -14652,7 +14652,7 @@
         }
       ],
       "type_checked": true,
-      "importance_raw": 3
+      "importance_raw": 2
     },
     {
       "id": "c20261028-0261",
@@ -15053,8 +15053,8 @@
         "브룩필드",
         "엔비디아"
       ],
-      "importance": 4,
-      "importance_reason": "실적 3점, 관심 기업(엔비디아) +1 → 4점",
+      "importance": 3,
+      "importance_reason": "실적 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -15072,7 +15072,7 @@
         }
       ],
       "type_checked": true,
-      "importance_raw": 4
+      "importance_raw": 3
     },
     {
       "id": "c20261028-0251",
@@ -15296,7 +15296,7 @@
         "SK하이닉스"
       ],
       "importance": 5,
-      "importance_reason": "정책·규제·법 4점, 관심 기업(삼성전자, SK하이닉스) +1 → 5점",
+      "importance_reason": "정책·규제·법 4점, 관심 기업(SK하이닉스, 삼성전자) +1 → 5점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -15391,8 +15391,8 @@
         "실리콘웨어정밀공업",
         "유니마이크론"
       ],
-      "importance": 4,
-      "importance_reason": "수주·공급 3점, 관심 기업(엔비디아) +1 → 4점",
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -15410,7 +15410,7 @@
         }
       ],
       "type_checked": true,
-      "importance_raw": 4
+      "importance_raw": 3
     },
     {
       "id": "c20261028-0229",
@@ -16059,8 +16059,8 @@
         "구글",
         "오픈AI"
       ],
-      "importance": 3,
-      "importance_reason": "업계 일반 2점, 관심 기업(엔비디아) +1 → 3점",
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -16078,7 +16078,7 @@
         }
       ],
       "type_checked": true,
-      "importance_raw": 3
+      "importance_raw": 2
     },
     {
       "id": "c20261028-0231",
@@ -16787,7 +16787,7 @@
         "SK하이닉스"
       ],
       "importance": 5,
-      "importance_reason": "실적 3점, 관심 기업(삼성전자, SK하이닉스) +1, 매체 3곳 보도 +1 → 5점",
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스, 삼성전자) +1, 매체 3곳 보도 +1 → 5점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -17015,8 +17015,8 @@
         "TSMC",
         "Nvidia"
       ],
-      "importance": 3,
-      "importance_reason": "가격 동향 3점, 관심 기업(엔비디아) +1, 미확정 -1 → 3점",
+      "importance": 2,
+      "importance_reason": "가격 동향 3점, 미확정 -1 → 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -17034,7 +17034,7 @@
         }
       ],
       "type_checked": true,
-      "importance_raw": 3
+      "importance_raw": 2
     },
     {
       "id": "c20261027-0209",
@@ -17442,7 +17442,7 @@
         "Nvidia"
       ],
       "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점, 관심 기업(엔비디아) +1 → 5점(최고점)",
+      "importance_reason": "신제품·신기술·양산 5점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -17460,7 +17460,7 @@
         }
       ],
       "type_checked": true,
-      "importance_raw": 6
+      "importance_raw": 5
     },
     {
       "id": "c20261027-0196",
@@ -18053,7 +18053,7 @@
         "앤트로픽"
       ],
       "importance": 3,
-      "importance_reason": "시장 전망·통계 2점, 관심 기업(삼성전자, SK하이닉스) +1 → 3점",
+      "importance_reason": "시장 전망·통계 2점, 관심 기업(SK하이닉스, 삼성전자) +1 → 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -18433,7 +18433,7 @@
         "엔비디아"
       ],
       "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점, 관심 기업(엔비디아) +1, 매체 3곳 보도 +1 → 5점(최고점)",
+      "importance_reason": "신제품·신기술·양산 5점, 매체 3곳 보도 +1 → 5점(최고점)",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -18466,7 +18466,7 @@
           "published_at": "2026-10-27T06:10:12Z"
         }
       ],
-      "importance_raw": 7,
+      "importance_raw": 6,
       "type_checked": true
     },
     {
@@ -18818,7 +18818,7 @@
         "엔비디아"
       ],
       "importance": 4,
-      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자, SK하이닉스, 엔비디아) +1 → 4점",
+      "importance_reason": "수주·공급 3점, 관심 기업(SK하이닉스, 삼성전자) +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -19363,7 +19363,7 @@
         "애플"
       ],
       "importance": 5,
-      "importance_reason": "실적 3점, 관심 기업(삼성디스플레이, 삼성전자) +1, 매체 3곳 보도 +1 → 5점",
+      "importance_reason": "실적 3점, 관심 기업(삼성전자, 삼성디스플레이) +1, 매체 3곳 보도 +1 → 5점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -21005,7 +21005,7 @@
         "SK하이닉스"
       ],
       "importance": 4,
-      "importance_reason": "설비 투자 3점, 관심 기업(삼성전자, SK하이닉스) +1 → 4점",
+      "importance_reason": "설비 투자 3점, 관심 기업(SK하이닉스, 삼성전자) +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -21359,8 +21359,8 @@
         "인피니언",
         "엔비디아"
       ],
-      "importance": 4,
-      "importance_reason": "수주·공급 3점, 관심 기업(엔비디아) +1 → 4점",
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -21377,7 +21377,7 @@
           "published_at": "2026-10-25T22:29:55Z"
         }
       ],
-      "importance_raw": 4
+      "importance_raw": 3
     },
     {
       "id": "c20261026-0142",
@@ -21408,7 +21408,7 @@
         "SK하이닉스"
       ],
       "importance": 4,
-      "importance_reason": "설비 투자 3점, 관심 기업(삼성전자, SK하이닉스) +1 → 4점",
+      "importance_reason": "설비 투자 3점, 관심 기업(SK하이닉스, 삼성전자) +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -21597,7 +21597,7 @@
         "SK하이닉스"
       ],
       "importance": 4,
-      "importance_reason": "실적 3점, 관심 기업(삼성전자, SK하이닉스) +1 → 4점",
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스, 삼성전자) +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
