@@ -85,7 +85,7 @@ F7  데이터 커밋 + GitHub Pages 배포
       "confirmed": true,
       "parties": ["삼성전자", "엔비디아"],
       "importance": 5,
-      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자, 엔비디아) +1, 매체 4곳 보도 +1 → 5점",
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1, 매체 4곳 보도 +1 → 5점",
       "status": "summarized",
       "region": "both",
       "first_seen": "2026-10-26T00:17:00Z",
