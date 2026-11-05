@@ -1,7 +1,235 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T06:15:20Z",
+  "updated_at": "2026-11-05T07:40:17Z",
   "issues": [
+    {
+      "id": "c20261105-0499",
+      "headline": "미 중간선거 후 AI 데이터센터 규제 강화 전망",
+      "summary": [
+        "미국 중간선거에서 민주당이 압승하며 AI 데이터센터 규제 강화 움직임이 확산할 전망이다.",
+        "데이터센터의 전력 소비와 환경 부담이 주요 과제로 떠오르며 전력 효율 기술이 주목받고 있다.",
+        "규제가 현실화하면 전력반도체 역할이 커지고 메모리 호황을 누리는 삼성전자·SK하이닉스에도 변수가 될 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "데이터센터 규제",
+        "전력반도체",
+        "AI 데이터센터",
+        "전력 효율",
+        "미국 중간선거"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T02:24:23Z",
+      "updated_at": "2026-11-05T07:31:53Z",
+      "articles": [
+        {
+          "key": "233eae525ee0bfa9",
+          "title": "[美중간선거] AI 규제 강화되나…메모리 초호황 삼전닉스에 변수 부상",
+          "url": "https://www.yna.co.kr/view/AKR20261105078800003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T02:24:23Z"
+        },
+        {
+          "key": "2606204406056571",
+          "title": "美 데이터센터 규제 강화 움직임…전력반도체 역할 커진다",
+          "url": "https://www.dt.co.kr/article/12093456",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-05T07:31:53Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261105-0517",
+      "headline": "부산서 AI 반도체 제조기술 논의, 삼성·SK하이닉스 참여",
+      "summary": [
+        "삼성전자, SK하이닉스, 도쿄일렉트론 등 글로벌 기업 전문가들이 부산에 모인다.",
+        "반디학회 주최로 오는 9~13일 부산에서 반도체 제조기술 학술 행사가 열릴 예정이다.",
+        "AI 시대에 맞춘 반도체 제조기술 발전 방향을 업계가 함께 점검하는 자리라는 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "AI반도체",
+        "반도체 제조기술",
+        "반디학회",
+        "학술행사"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "도쿄일렉트론"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T07:31:34Z",
+      "updated_at": "2026-11-05T07:31:34Z",
+      "articles": [
+        {
+          "key": "7554aba21e015d33",
+          "title": "삼성·SK하이닉스, 부산서 AI 반도체 제조기술 논의",
+          "url": "https://www.inews24.com/view/2023091",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-05T07:31:34Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261105-0516",
+      "headline": "삼성 D램 3분기 점유율 38%로 1위 유지",
+      "summary": [
+        "올해 3분기 글로벌 D램 시장에서 삼성전자가 1위를 유지했고 SK하이닉스는 점유율 29%로 반등했다.",
+        "시장조사업체 카운터포인트리서치에 따르면 삼성전자는 매출 기준 D램 점유율 38%를 기록했다.",
+        "SK하이닉스가 마이크론과의 격차를 벌렸다는 점에서 메모리 업계 경쟁 구도 변화가 주목된다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "D램",
+        "점유율",
+        "메모리 시장",
+        "카운터포인트리서치"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "마이크론"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스",
+        "마이크론"
+      ],
+      "importance": 3,
+      "importance_reason": "시장 전망·통계 2점, 관심 기업(삼성전자, SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T07:05:05Z",
+      "updated_at": "2026-11-05T07:20:17Z",
+      "articles": [
+        {
+          "key": "9fcc5d2e2e9e1e55",
+          "title": "삼성, D램 3분기 점유율 38% 1위…SK하이닉스 29%로 반등",
+          "url": "https://www.yna.co.kr/view/AKR20261105135700003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T07:05:05Z"
+        },
+        {
+          "key": "40cc74a47827303f",
+          "title": "삼성, D램 3분기 점유율 38% 1위…SK하이닉스 29%로 반등",
+          "url": "https://www.dt.co.kr/article/12093452",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-05T07:20:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261105-0489",
+      "headline": "삼성전자 제6노조 설립 추진, 노조 내부 갈등 확산",
+      "summary": [
+        "삼성전자에서 제6노조 설립 신고가 노동부에 접수됐다는 소식이 전해졌다.",
+        "기존 노조 내부 갈등 속에서 전현직 노조 간부들이 추진하는 것으로 알려졌다.",
+        "성과급 논란 이후 노조 분열이 이어지며 노사 관계에 부담이 커질 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "삼성전자",
+        "노조",
+        "성과급",
+        "노사갈등"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "재무·주주 2점, 관심 기업(삼성전자) +1, 매체 4곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-05T00:54:46Z",
+      "updated_at": "2026-11-05T06:50:23Z",
+      "articles": [
+        {
+          "key": "36ff112742e71b29",
+          "title": "삼성전자 제6노조 설립 추진…동행·초기업노조 출신 주도",
+          "url": "https://www.yna.co.kr/view/AKR20261105049300003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T00:54:46Z"
+        },
+        {
+          "key": "b66a569656a540d1",
+          "title": "모바일·TV 노조도 갈라졌다…거세지는 삼성전자 성과급 후폭풍",
+          "url": "https://www.dt.co.kr/article/12093366",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-05T02:30:23Z"
+        },
+        {
+          "key": "bdf4d1db0a6eee8d",
+          "title": "삼성전자 제6노조 설립 추진…동행노조 내부 갈등설 공방(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261105049351003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T04:46:49Z"
+        },
+        {
+          "key": "8999aa46d66619b8",
+          "title": "또 쪼개진 삼성전자 노조…제6노조 설립 추진",
+          "url": "https://www.etnews.com/20261105000375",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-05T05:50:30Z"
+        },
+        {
+          "key": "82d234c8b751afce",
+          "title": "Samsung Electronics faces push for sixth labor union amid alleged internal rifts",
+          "url": "https://www.koreaherald.com/article/10927399",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-05T06:50:23Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
     {
       "id": "c20261105-0515",
       "headline": "인피니언, AI 데이터센터 전력 공급망 공략 확대",
@@ -91,74 +319,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261105-0489",
-      "headline": "삼성전자 제6노조 설립 추진, 노조 분열 가속",
-      "summary": [
-        "삼성전자에서 여섯 번째 노동조합 '삼성전자 유니온샵 노동조합' 설립신고서가 구미지청에 접수됐다.",
-        "동행노조 전·현직 인사와 초기업노조 출신이 설립을 주도한 것으로 알려졌고 내부 갈등이 배경으로 거론된다.",
-        "성과급 논란 속 노조가 잇따라 갈라지며 노사 구도와 내부 결속에 부담이 커지는 흐름이다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "삼성전자",
-        "노동조합",
-        "성과급",
-        "노조 분열"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 5,
-      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1, 매체 3곳 보도 +1 → 5점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-05T00:54:46Z",
-      "updated_at": "2026-11-05T05:50:30Z",
-      "articles": [
-        {
-          "key": "36ff112742e71b29",
-          "title": "삼성전자 제6노조 설립 추진…동행·초기업노조 출신 주도",
-          "url": "https://www.yna.co.kr/view/AKR20261105049300003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-05T00:54:46Z"
-        },
-        {
-          "key": "b66a569656a540d1",
-          "title": "모바일·TV 노조도 갈라졌다…거세지는 삼성전자 성과급 후폭풍",
-          "url": "https://www.dt.co.kr/article/12093366",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-05T02:30:23Z"
-        },
-        {
-          "key": "bdf4d1db0a6eee8d",
-          "title": "삼성전자 제6노조 설립 추진…동행노조 내부 갈등설 공방(종합)",
-          "url": "https://www.yna.co.kr/view/AKR20261105049351003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-05T04:46:49Z"
-        },
-        {
-          "key": "8999aa46d66619b8",
-          "title": "또 쪼개진 삼성전자 노조…제6노조 설립 추진",
-          "url": "https://www.etnews.com/20261105000375",
-          "source": "전자신문",
-          "lang": "ko",
-          "published_at": "2026-11-05T05:50:30Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 5
     },
     {
       "id": "c20261105-0513",
@@ -909,52 +1069,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261105-0499",
-      "headline": "미 중간선거 후 AI 규제 강화 우려, 삼성·SK하이닉스 변수",
-      "summary": [
-        "미국 중간선거에서 민주당이 승리하면서 AI 데이터센터 규제 강화 가능성이 커졌다.",
-        "기사 본문이 짧아 구체적인 법안이나 시행 일정, 수치는 확인되지 않는다.",
-        "AI 수요에 기대는 메모리 호황에 규제 변수가 더해져 삼성전자와 SK하이닉스에 영향이 주목된다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "AI 규제",
-        "데이터센터",
-        "메모리 호황",
-        "미국 중간선거"
-      ],
-      "companies": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "event_type": "시장 전망·통계",
-      "confirmed": false,
-      "parties": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "importance": 2,
-      "importance_reason": "시장 전망·통계 2점, 관심 기업(삼성전자, SK하이닉스) +1, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-05T02:24:23Z",
-      "updated_at": "2026-11-05T02:24:23Z",
-      "articles": [
-        {
-          "key": "233eae525ee0bfa9",
-          "title": "[美중간선거] AI 규제 강화되나…메모리 초호황 삼전닉스에 변수 부상",
-          "url": "https://www.yna.co.kr/view/AKR20261105078800003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-05T02:24:23Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261105-0498",
