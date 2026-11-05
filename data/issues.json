@@ -1,7 +1,238 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T21:58:07Z",
+  "updated_at": "2026-11-05T22:59:01Z",
   "issues": [
+    {
+      "id": "c20261105-0546",
+      "headline": "마크로닉스 sNOVA, IEEE 마일스톤 상 수상",
+      "summary": [
+        "대만 마크로닉스의 독자 개발 산업 생산 최적화 플랫폼 sNOVA가 IEEE 마일스톤 상을 받았다.",
+        "11월 2일 시상식에서 Jill Gostin IEEE 차기 회장이 Miin Wu 회장에게 상패를 전달했다.",
+        "대만 기업으로는 처음 받는 영예로, 산업 발전과 사회 기여를 인정받은 사례다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "sNOVA",
+        "IEEE 마일스톤",
+        "비휘발성 메모리",
+        "산업 생산 최적화"
+      ],
+      "companies": [
+        "마크로닉스",
+        "IEEE"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "마크로닉스"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-05T22:42:44Z",
+      "updated_at": "2026-11-05T22:42:44Z",
+      "articles": [
+        {
+          "key": "795d682d8e37901c",
+          "title": "Macronix’s sNOVA Technology Recognized with IEEE Milestone Award",
+          "url": "https://www.semiconductor-digest.com/macronixs-snova-technology-recognized-with-ieee-milestone-award/?utm_source=rss&utm_medium=rss&utm_campaign=macronixs-snova-technology-recognized-with-ieee-milestone-award",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-05T22:42:44Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261105-0545",
+      "headline": "마벨, 루멘텀 인수 합의…AI 광통신 통합 가속",
+      "summary": [
+        "마벨테크놀로지가 루멘텀을 전량 주식 교환 방식으로 인수하는 최종 계약을 체결했다.",
+        "루멘텀 주주는 보유 주식 1주당 마벨 주식 4.5주를 받으며, 기업가치는 약 1,150억 달러로 제시됐다.",
+        "AI 인프라의 구리 배선 한계 대비 광학 기술 통합이 빨라지며, 두 회사의 결합이 이 흐름을 겨냥한다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "광통신",
+        "AI인프라",
+        "기업인수",
+        "공동설계",
+        "스케일업"
+      ],
+      "companies": [
+        "마벨테크놀로지",
+        "루멘텀"
+      ],
+      "event_type": "인수합병",
+      "confirmed": true,
+      "parties": [
+        "마벨테크놀로지",
+        "루멘텀"
+      ],
+      "importance": 2,
+      "importance_reason": "인수합병 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-05T22:35:54Z",
+      "updated_at": "2026-11-05T22:35:54Z",
+      "articles": [
+        {
+          "key": "7d718d078ab0db07",
+          "title": "Marvell and Lumentum Announce Combination",
+          "url": "https://www.semiconductor-digest.com/marvell-and-lumentum-announce-combination/?utm_source=rss&utm_medium=rss&utm_campaign=marvell-and-lumentum-announce-combination",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-05T22:35:54Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261105-0544",
+      "headline": "SEMICON Europa 2026 앞두고 반도체 제조 동향 조명",
+      "summary": [
+        "EE Times 11월호는 뮌헨에서 열리는 SEMICON Europa와 electronica 2026을 앞두고 특집을 구성했다.",
+        "기사 본문이 짧게 잘려 있어 구체적인 기술이나 기업의 발표 내용은 확인되지 않는다.",
+        "행사 전 반도체 제조 기술 발전을 다루는 흐름은 업계의 관심 분야를 보여주는 참고 자료다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "SEMICON Europa",
+        "반도체 제조",
+        "EE Times",
+        "전시회"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-05T22:30:00Z",
+      "updated_at": "2026-11-05T22:30:00Z",
+      "articles": [
+        {
+          "key": "09fee0b452e3ae3a",
+          "title": "EE Times Magazine – November 2026",
+          "url": "https://www.eetimes.com/ee-times-magazine-november-2026/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-05T22:30:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261105-0543",
+      "headline": "GSA, 2026 어워드 후보 발표…12월 10일 시상",
+      "summary": [
+        "GSA가 2026년 어워드 후보자 명단을 공개하고 12월 10일 시상식 일정을 밝혔다.",
+        "마이크론 메흐로트라 회장이 모리스 창 탁월한 리더십상 수상자로 선정됐고, 여성 영향력상·스타트업상 등 부문별 후보가 발표됐다.",
+        "업계 인재와 기업의 성과를 조명하는 행사로, 산업 내 평판과 혁신 기업을 가늠하는 신호로 볼 수 있다."
+      ],
+      "category": "기타",
+      "tags": [
+        "GSA 어워드",
+        "시상식",
+        "반도체 리더십",
+        "업계 평판"
+      ],
+      "companies": [
+        "마이크론",
+        "STMicroelectronics",
+        "AMD",
+        "Meta",
+        "Altera",
+        "Ambarella",
+        "Lattice Semiconductor",
+        "Nordic Semiconductor"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "Global Semiconductor Alliance",
+        "마이크론"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-05T22:28:23Z",
+      "updated_at": "2026-11-05T22:28:23Z",
+      "articles": [
+        {
+          "key": "72e795a502f2a8cb",
+          "title": "Global Semiconductor Alliance Announces 2026 Award Nominees",
+          "url": "https://www.semiconductor-digest.com/global-semiconductor-alliance-announces-2026-award-nominees/?utm_source=rss&utm_medium=rss&utm_campaign=global-semiconductor-alliance-announces-2026-award-nominees",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-05T22:28:23Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261105-0542",
+      "headline": "엔테그리스·키옥시아, 차세대 메모리 소재 협력 확대",
+      "summary": [
+        "엔테그리스가 키옥시아와 BiCS FLASH 3D 낸드 및 차세대 컴퓨팅 소재 혁신을 위한 전략적 협력을 확대했다고 발표했다.",
+        "양사는 AI·디지털 트윈 기술로 소재 설계 공간을 넓히고 후보를 찾아 실험 평가로 검증하는 체계를 구축한다.",
+        "AI 확산으로 메모리 중요성이 커지는 가운데, 소재 개발 효율을 높여 미래 메모리 기술 상용화를 앞당길 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "BiCS FLASH",
+        "3D 낸드",
+        "소재 혁신",
+        "디지털 트윈",
+        "AI 메모리"
+      ],
+      "companies": [
+        "엔테그리스",
+        "키옥시아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "엔테그리스",
+        "키옥시아"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-05T22:21:41Z",
+      "updated_at": "2026-11-05T22:21:41Z",
+      "articles": [
+        {
+          "key": "3dbf8e9708784a89",
+          "title": "Entegris Expands Partnership with Kioxia",
+          "url": "https://www.semiconductor-digest.com/entegris-expands-partnership-with-kioxia/?utm_source=rss&utm_medium=rss&utm_campaign=entegris-expands-partnership-with-kioxia",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-05T22:21:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261105-0540",
       "headline": "대만 패널업체, 차량용 디스플레이 1차 벤더 진입",
