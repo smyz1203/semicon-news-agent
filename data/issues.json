@@ -1,7 +1,291 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T07:40:17Z",
+  "updated_at": "2026-11-05T09:15:38Z",
   "issues": [
+    {
+      "id": "c20261105-0523",
+      "headline": "CXMT, 3분기 D램 점유율 9%로 1년 새 두 배 성장",
+      "summary": [
+        "중국 CXMT가 올해 3분기 글로벌 D램 시장에서 매출 기준 점유율 9%를 기록했다.",
+        "지난해 같은 기간 5%였던 점유율이 두 배 가까이 높아진 수치다.",
+        "삼성전자·SK하이닉스·마이크론이 주도하는 시장에서 중국 업체의 존재감이 커지고 있음을 보여준다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "D램",
+        "점유율",
+        "CXMT",
+        "중국 메모리"
+      ],
+      "companies": [
+        "CXMT",
+        "삼성전자",
+        "SK하이닉스",
+        "마이크론"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "CXMT"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T09:01:46Z",
+      "updated_at": "2026-11-05T09:01:46Z",
+      "articles": [
+        {
+          "key": "a4151c4dc8880f95",
+          "title": "中 CXMT, 3분기 D램 점유율 9%…1년 만에 두 배 가까이 성장",
+          "url": "https://www.inews24.com/view/2023205",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-05T09:01:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261105-0522",
+      "headline": "프라운호퍼 IPMS, MIPI DSI-2 내장 2K OLED 마이크로디스플레이 패키지 개발",
+      "summary": [
+        "프라운호퍼 IPMS 연구진이 자사 2K OLED 마이크로디스플레이용 소형 패키지를 개발했다.",
+        "20x20mm 시스템온모듈에 D-PHY 기반 MIPI DSI-2 인터페이스를 구현하고 레인당 최대 2.5Gbit/s로 4개 데이터 레인을 지원한다.",
+        "디스플레이 전압을 모듈 자체에서 생성해 외부 5V 전원 하나로 동작하며 별도 인터페이스 변환이 필요 없다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED 마이크로디스플레이",
+        "MIPI DSI-2",
+        "D-PHY",
+        "시스템온모듈",
+        "2K OLED"
+      ],
+      "companies": [
+        "프라운호퍼 IPMS"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "프라운호퍼 IPMS"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-05T08:35:27Z",
+      "updated_at": "2026-11-05T08:35:27Z",
+      "articles": [
+        {
+          "key": "7a2ed118a67276d9",
+          "title": "The Fraunhofer IPMS developed a compact 2K OLED microdisplay package with MIPI DSI-2",
+          "url": "https://www.oled-info.com/fraunhofer-ipms-developed-compact-2k-oled-microdisplay-package-mipi-dsi-2",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-05T08:35:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261104-0466",
+      "headline": "선익시스템, 2027년 디스플레이 장비 시장 1위 전망",
+      "summary": [
+        "카운터포인트리서치는 2027년 글로벌 디스플레이 장비 투자가 전년 대비 49% 감소한 55억 달러가 될 것으로 전망했다.",
+        "선익시스템이 16% 점유율로 어플라이드머티리얼즈 등을 제치고 처음으로 한국 장비사가 1위에 오를 것으로 예상됐다.",
+        "2026년 투자 급증은 BOE·비전옥스·TCL CSOT의 8.6세대 OLED 라인이 주도했으며, 2027년에는 대형 신규 프로젝트가 보이지 않는다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "8.6세대 OLED",
+        "디스플레이 장비",
+        "시장 점유율",
+        "설비 투자"
+      ],
+      "companies": [
+        "선익시스템",
+        "어플라이드머티리얼즈",
+        "BOE",
+        "비전옥스",
+        "TCL CSOT",
+        "텐마"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "카운터포인트리서치"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-04T09:50:40Z",
+      "updated_at": "2026-11-05T08:05:35Z",
+      "articles": [
+        {
+          "key": "1e59de83e15b4b10",
+          "title": "선익시스템, 내년 세계 디스플레이 장비 매출 1위 전망",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64899",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-04T09:50:40Z"
+        },
+        {
+          "key": "97fce993577cb178",
+          "title": "Counterpoint: display equipment capex to fall 49% in 2027, Sunic System becomes the market's top supplier",
+          "url": "https://www.oled-info.com/counterpoint-display-equipment-capex-fall-49-2027-sunic-system-becomes-markets",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-05T08:05:35Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261105-0521",
+      "headline": "3D-IC 신호 무결성, 시스템 수준 검증이 필요",
+      "summary": [
+        "3D-IC와 칩렛 구조에서 신호 무결성이 핵심 설계 과제로 떠올랐다는 분석이 나왔다.",
+        "기존처럼 다이, 패키지, 인터커넥트를 따로 검증하는 방식으로는 한계가 있다고 지적했다.",
+        "AI·HPC용 고성능 패키징이 확산되면서 전체 통신 채널을 묶어 검증하는 접근이 요구된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "3D-IC",
+        "신호 무결성",
+        "칩렛",
+        "CoWoS",
+        "HBM",
+        "고급 패키징"
+      ],
+      "companies": [
+        "TSMC",
+        "삼성전자",
+        "인텔"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-05T08:04:55Z",
+      "updated_at": "2026-11-05T08:04:55Z",
+      "articles": [
+        {
+          "key": "3c3465a1179380c9",
+          "title": "A System-Level Approach To Protecting 3D-IC Signal Integrity",
+          "url": "https://semiengineering.com/a-system-level-approach-to-protecting-3d-ic-signal-integrity/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-05T08:04:55Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261105-0520",
+      "headline": "인피니언, 우주용 GaN 게이트 드라이버 출시",
+      "summary": [
+        "인피니언 HiRel이 내방사선 단일 채널 GaN용 게이트 드라이버를 새로 선보였다.",
+        "이 제품은 정밀한 게이트 구동 전압을 위해 LDO를 내장해 회로 구성을 단순화하고 BOM을 줄인다.",
+        "우주·극한 환경용 전력 시스템에서 GaN 스위칭 효율과 안정성을 높이는 데 기여할 것으로 보인다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "GaN",
+        "게이트 드라이버",
+        "우주용 반도체",
+        "내방사선",
+        "LDO"
+      ],
+      "companies": [
+        "인피니언"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "인피니언"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-05T08:01:35Z",
+      "updated_at": "2026-11-05T08:01:35Z",
+      "articles": [
+        {
+          "key": "4f7ea5bef11bf1b1",
+          "title": "Why Integrated Gate Drive Regulation Matters For High Reliability Space GaN Designs",
+          "url": "https://semiengineering.com/why-integrated-gate-drive-regulation-matters-for-high-reliability-space-gan-designs/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-05T08:01:35Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261105-0519",
+      "headline": "카이스트 테라랩, HBM 설계용 AI 에이전트 공개 예정",
+      "summary": [
+        "카이스트 테라랩이 반도체 설계와 논문 작성에 쓰는 AI 에이전트를 공개한다고 알려졌다.",
+        "기사는 공개 시점 등 세부 내용을 짧게 전하며 구체적 수치는 제시하지 않았다.",
+        "HBM 설계 작업에 AI를 도입하는 연구 동향으로, 설계 자동화 흐름을 보여준다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 에이전트",
+        "HBM 설계",
+        "반도체 설계",
+        "카이스트"
+      ],
+      "companies": [
+        "카이스트"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "카이스트 테라랩"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T07:44:07Z",
+      "updated_at": "2026-11-05T07:44:07Z",
+      "articles": [
+        {
+          "key": "521f27a418774d30",
+          "title": "\"HBM 설계에 AI 활용\"…카이스트 테라랩, AI 에이전트 공개",
+          "url": "https://www.inews24.com/view/2023105",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-05T07:44:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261105-0499",
       "headline": "미 중간선거 후 AI 데이터센터 규제 강화 전망",
@@ -149,6 +433,148 @@
           "source": "디지털타임스",
           "lang": "ko",
           "published_at": "2026-11-05T07:20:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261105-0518",
+      "headline": "4분기 최종 수요 동결로 낸드 가격 하락 압박 전망",
+      "summary": [
+        "DigiTimes는 2026년 4분기 낸드플래시 가격이 압박을 받을 것으로 전망했다. 기사 본문은 사실상 비어 있어 세부 수치는 확인되지 않는다. 최종 수요가 멈추면 낸드 업계의 가격 방어가 어려워질 수 있다는 점…"
+      ],
+      "category": "메모리",
+      "tags": [
+        "낸드플래시",
+        "가격 동향",
+        "4분기 수요",
+        "메모리 시장"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-05T07:19:39Z",
+      "updated_at": "2026-11-05T07:19:39Z",
+      "articles": [
+        {
+          "key": "9b9fda9c252a6391",
+          "title": "NAND prices face pressure as end demand freezes in 4Q26",
+          "url": "https://www.digitimes.com/news/a20261105PD215/nand-demand-2026-nand-flash-2027.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-05T07:19:39Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261104-0483",
+      "headline": "삼성D, 중국 PC방 QD-OLED 인증점 60곳 추진",
+      "summary": [
+        "삼성디스플레이는 중국 PC방을 'QD-OLED 인증점'으로 지정하는 프로모션을 시작했다.",
+        "첫 10곳을 10월 말까지 베이징·상하이 등에 구축했고, 2026년 말까지 60곳으로 늘릴 계획이다.",
+        "게이밍 수요를 겨냥한 디스플레이 업계 최초의 PC방 협업 모델이라는 점에서 의미가 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "QD-OLED",
+        "게이밍 모니터",
+        "PC방 마케팅",
+        "중국 시장"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "AOC",
+        "ASUS",
+        "HKC",
+        "MSI",
+        "TitanArmy",
+        "ViewSonic"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "삼성디스플레이",
+        "AOC",
+        "ASUS",
+        "HKC",
+        "MSI",
+        "TitanArmy",
+        "ViewSonic"
+      ],
+      "importance": 3,
+      "importance_reason": "홍보·수상 1점, 관심 기업(삼성디스플레이) +1, 매체 7곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-04T22:45:00Z",
+      "updated_at": "2026-11-05T07:16:39Z",
+      "articles": [
+        {
+          "key": "f0fcddbbcb0700e7",
+          "title": "삼성디스플레이, 中 게이머 접점 공략… i-café(인터넷 카페) 'QD-OLED 인증점' 연다",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343015",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-04T22:45:00Z"
+        },
+        {
+          "key": "baff9fcd5551ca8d",
+          "title": "게이밍 시장 공략하는 삼성D, 中 PC방 60곳에 QD-OLED 인증점 조성",
+          "url": "https://www.dt.co.kr/article/12093302",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-04T23:34:31Z"
+        },
+        {
+          "key": "709c731a9bdb3a35",
+          "title": "삼성D, 중국 인터넷카페 60곳 'QD-OLED 인증점' 지정 프로모션",
+          "url": "https://www.yna.co.kr/view/AKR20261105032800003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T00:04:14Z"
+        },
+        {
+          "key": "02144994efbb0e9f",
+          "title": "삼성디스플레이, 中 PC방에 'QD-OLED 인증점'…게이밍 시장 공략",
+          "url": "https://www.inews24.com/view/2022813",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-05T00:13:14Z"
+        },
+        {
+          "key": "2926dc2adbf958a1",
+          "title": "삼성D, 중국 게이머 공략 강화… i-café 60곳에 QD-OLED 인증점 구축",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409295",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T00:20:00Z"
+        },
+        {
+          "key": "a8e8c6113996a042",
+          "title": "삼성D, 중국에 QD-OLED 인증점 60곳 조성",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64913",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-05T02:19:00Z"
+        },
+        {
+          "key": "2a716f047d1ee561",
+          "title": "Samsung Display targets gamers in China with QD-OLED certified internet cafes, plans 60 stores by the end of 2026",
+          "url": "https://www.oled-info.com/samsung-display-targets-gamers-china-qd-oled-certified-internet-cafes-plans-60",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-05T07:16:39Z"
         }
       ],
       "type_checked": true,
@@ -1112,101 +1538,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261104-0483",
-      "headline": "삼성D, 중국 인터넷 카페 60곳에 QD-OLED 인증점 구축",
-      "summary": [
-        "삼성디스플레이가 AOC, 에이수스, HKC 등 6개 브랜드와 중국 인터넷 카페를 QD-OLED 인증점으로 지정하는 프로모션을 진행한다.",
-        "연말까지 베이징·상하이 등 주요 도시 60곳을 인증점으로 운영하며, 모니터 30대 이상 설치 매장이 대상이다.",
-        "중국 게이머 접점을 넓혀 QD-OLED 게이밍 모니터 수요를 끌어올리려는 현지 마케팅 전략으로 해석된다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "QD-OLED",
-        "게이밍 모니터",
-        "인증점",
-        "중국 시장",
-        "마케팅"
-      ],
-      "companies": [
-        "삼성디스플레이",
-        "AOC",
-        "에이수스",
-        "HKC",
-        "MSI",
-        "뷰소닉"
-      ],
-      "event_type": "홍보·수상",
-      "confirmed": true,
-      "parties": [
-        "삼성디스플레이",
-        "AOC",
-        "에이수스",
-        "HKC",
-        "MSI",
-        "뷰소닉"
-      ],
-      "importance": 3,
-      "importance_reason": "홍보·수상 1점, 관심 기업(삼성디스플레이) +1, 매체 6곳 보도 +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-04T22:45:00Z",
-      "updated_at": "2026-11-05T02:19:00Z",
-      "articles": [
-        {
-          "key": "f0fcddbbcb0700e7",
-          "title": "삼성디스플레이, 中 게이머 접점 공략… i-café(인터넷 카페) 'QD-OLED 인증점' 연다",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=343015",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-11-04T22:45:00Z"
-        },
-        {
-          "key": "baff9fcd5551ca8d",
-          "title": "게이밍 시장 공략하는 삼성D, 中 PC방 60곳에 QD-OLED 인증점 조성",
-          "url": "https://www.dt.co.kr/article/12093302",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-04T23:34:31Z"
-        },
-        {
-          "key": "709c731a9bdb3a35",
-          "title": "삼성D, 중국 인터넷카페 60곳 'QD-OLED 인증점' 지정 프로모션",
-          "url": "https://www.yna.co.kr/view/AKR20261105032800003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-05T00:04:14Z"
-        },
-        {
-          "key": "02144994efbb0e9f",
-          "title": "삼성디스플레이, 中 PC방에 'QD-OLED 인증점'…게이밍 시장 공략",
-          "url": "https://www.inews24.com/view/2022813",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-05T00:13:14Z"
-        },
-        {
-          "key": "2926dc2adbf958a1",
-          "title": "삼성D, 중국 게이머 공략 강화… i-café 60곳에 QD-OLED 인증점 구축",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409295",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-05T00:20:00Z"
-        },
-        {
-          "key": "a8e8c6113996a042",
-          "title": "삼성D, 중국에 QD-OLED 인증점 60곳 조성",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=64913",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-05T02:19:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261105-0497",
@@ -2734,52 +3065,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261104-0466",
-      "headline": "선익시스템, 2027년 디스플레이 장비 매출 세계 1위 전망",
-      "summary": [
-        "시장조사업체 카운터포인트리서치는 선익시스템이 2027년 디스플레이 장비 매출 세계 1위에 오를 것으로 예상했다.",
-        "국내 장비업체가 세계 디스플레이 장비 매출 1위를 차지하는 것은 이번이 처음이라고 전했다.",
-        "그동안 캐논 계열과 AMAT 등 일본·미국 업체가 주도하던 시장에서 국내 업체의 부상이 주목된다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "디스플레이 장비",
-        "OLED 증착장비",
-        "매출 1위 전망",
-        "카운터포인트리서치"
-      ],
-      "companies": [
-        "선익시스템",
-        "캐논토키",
-        "어플라이드머티어리얼즈"
-      ],
-      "event_type": "시장 전망·통계",
-      "confirmed": true,
-      "parties": [
-        "선익시스템"
-      ],
-      "importance": 2,
-      "importance_reason": "시장 전망·통계 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-04T09:50:40Z",
-      "updated_at": "2026-11-04T09:50:40Z",
-      "articles": [
-        {
-          "key": "1e59de83e15b4b10",
-          "title": "선익시스템, 내년 세계 디스플레이 장비 매출 1위 전망",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=64899",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-04T09:50:40Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261104-0465",
