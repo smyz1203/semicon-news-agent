@@ -1,7 +1,317 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T05:13:03Z",
+  "updated_at": "2026-11-05T06:15:20Z",
   "issues": [
+    {
+      "id": "c20261105-0515",
+      "headline": "인피니언, AI 데이터센터 전력 공급망 공략 확대",
+      "summary": [
+        "인피니언이 서울 강남 사옥에서 AI 시대 전력 혁신을 주제로 기자간담회를 열었다.",
+        "전력망부터 서버 랙, AI 프로세서까지 전력 공급망 전반의 반도체 솔루션을 소개했다.",
+        "AI 데이터센터 전력 수요 급증에 맞춘 전략으로, 전력 반도체 시장 확대 의미가 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI 데이터센터",
+        "전력 반도체",
+        "그리드 투 코어",
+        "서버 랙"
+      ],
+      "companies": [
+        "인피니언"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "인피니언"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T06:00:00Z",
+      "updated_at": "2026-11-05T06:00:00Z",
+      "articles": [
+        {
+          "key": "dc3c1501d026f613",
+          "title": "인피니언, AI 데이터센터 전력 시장 확대…‘그리드부터 코어까지’ 공략",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409334",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T06:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261105-0514",
+      "headline": "애플 OLED 맥북 효과에 노트북용 OLED 출하 급증 전망",
+      "summary": [
+        "시장조사기관 카운터포인트리서치가 노트북용 OLED 패널 출하 전망을 내놓았다.",
+        "올해 노트북용 OLED 출하량이 지난해보다 50% 늘고 내년에도 성장세가 이어질 것으로 예상됐다.",
+        "애플의 첫 OLED 맥북 출시가 노트북·태블릿 OLED 시장 확대의 계기가 될 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "노트북 OLED",
+        "OLED 맥북",
+        "출하량 전망",
+        "차세대 OLED"
+      ],
+      "companies": [
+        "애플",
+        "삼성디스플레이",
+        "LG디스플레이"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "카운터포인트리서치"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T05:50:43Z",
+      "updated_at": "2026-11-05T05:50:43Z",
+      "articles": [
+        {
+          "key": "e9cd7f0cca65e3df",
+          "title": "맥북 첫 OLED 출시로 주목받는 차세대 OLED 시장, 관련 업게 발빠른 대응",
+          "url": "https://www.dt.co.kr/article/12093410",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-05T05:50:43Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261105-0489",
+      "headline": "삼성전자 제6노조 설립 추진, 노조 분열 가속",
+      "summary": [
+        "삼성전자에서 여섯 번째 노동조합 '삼성전자 유니온샵 노동조합' 설립신고서가 구미지청에 접수됐다.",
+        "동행노조 전·현직 인사와 초기업노조 출신이 설립을 주도한 것으로 알려졌고 내부 갈등이 배경으로 거론된다.",
+        "성과급 논란 속 노조가 잇따라 갈라지며 노사 구도와 내부 결속에 부담이 커지는 흐름이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "삼성전자",
+        "노동조합",
+        "성과급",
+        "노조 분열"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 5,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1, 매체 3곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T00:54:46Z",
+      "updated_at": "2026-11-05T05:50:30Z",
+      "articles": [
+        {
+          "key": "36ff112742e71b29",
+          "title": "삼성전자 제6노조 설립 추진…동행·초기업노조 출신 주도",
+          "url": "https://www.yna.co.kr/view/AKR20261105049300003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T00:54:46Z"
+        },
+        {
+          "key": "b66a569656a540d1",
+          "title": "모바일·TV 노조도 갈라졌다…거세지는 삼성전자 성과급 후폭풍",
+          "url": "https://www.dt.co.kr/article/12093366",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-05T02:30:23Z"
+        },
+        {
+          "key": "bdf4d1db0a6eee8d",
+          "title": "삼성전자 제6노조 설립 추진…동행노조 내부 갈등설 공방(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261105049351003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T04:46:49Z"
+        },
+        {
+          "key": "8999aa46d66619b8",
+          "title": "또 쪼개진 삼성전자 노조…제6노조 설립 추진",
+          "url": "https://www.etnews.com/20261105000375",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-05T05:50:30Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261105-0513",
+      "headline": "덕산네오룩스 3분기 영업이익 240억, 분기 최대 실적",
+      "summary": [
+        "덕산네오룩스가 올해 3분기 매출 1068억원, 영업이익 240억원을 잠정 공시했다.",
+        "지난해 같은 기간 대비 매출은 8.6%, 영업이익은 36.9% 늘었고 누적 영업이익은 596억원이다.",
+        "OLED 신제품 양산과 고부가 소재 판매 확대가 실적을 끌어올려 분기 최대 실적을 냈다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "OLED",
+        "고부가 소재",
+        "분기 최대 실적",
+        "잠정 실적"
+      ],
+      "companies": [
+        "덕산네오룩스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "덕산네오룩스"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T05:45:30Z",
+      "updated_at": "2026-11-05T05:45:30Z",
+      "articles": [
+        {
+          "key": "56029790250c5f7d",
+          "title": "덕산네오룩스, 3분기 영업익 240억…분기 최대 실적",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64960",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-05T05:45:30Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261105-0509",
+      "headline": "삼성전자, 미래기술 우수 연구자 10명 첫 시상",
+      "summary": [
+        "삼성전자가 장기 연구지원 프로그램에서 우수 연구자 10명을 선정해 처음으로 시상했다.",
+        "2013년 1조2000억원 규모 이니셔티브 출범 이후 처음 열린 시상으로, 연구 포럼에는 약 450명이 참석했다.",
+        "기초과학과 차세대 배터리 등 미래기술 연구 기반을 다지려는 행보로 해석된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "미래기술 연구지원",
+        "기초과학",
+        "차세대 배터리",
+        "연구 인재"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "채용·인력 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-05T05:00:00Z",
+      "updated_at": "2026-11-05T05:42:10Z",
+      "articles": [
+        {
+          "key": "35c4a436fd39c84c",
+          "title": "삼성전자, 오성진·김봉수 교수 등 미래기술 우수 연구자 10명 선정",
+          "url": "https://www.dt.co.kr/article/12093304",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-05T05:00:00Z"
+        },
+        {
+          "key": "48a1e813cae71880",
+          "title": "Samsung honors top researchers in W1.2tr science funding program",
+          "url": "https://www.koreaherald.com/article/10927226",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-05T05:42:10Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261104-0470",
+      "headline": "SK하이닉스, 미국 AI투자법인 하이아이코 출범과 최태원 의장 선임",
+      "summary": [
+        "SK하이닉스가 미국 AI 투자법인 하이아이코를 이름과 경영진 구성을 포함해 SEC 공시로 확정했다.",
+        "최태원 SK그룹 회장이 이사회 의장을 맡고, 송현종 SK하이닉스 사장이 대표이사를 맡는다.",
+        "미국 AI 산업에 최대 100억 달러를 투자하는 창구가 되어 국내 기업의 미국 AI 투자 확대를 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI투자",
+        "하이아이코",
+        "미국AI",
+        "SEC공시",
+        "지배구조"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "SK그룹",
+        "하이아이코"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스",
+        "SK그룹"
+      ],
+      "importance": 3,
+      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-04T11:45:38Z",
+      "updated_at": "2026-11-05T05:15:38Z",
+      "articles": [
+        {
+          "key": "e6ccb2ec1e3c55bf",
+          "title": "최태원, SK하이닉스 미국 AI투자법인 이사회 의장 맡아",
+          "url": "https://www.yna.co.kr/view/AKR20261104178700003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-04T11:45:38Z"
+        },
+        {
+          "key": "5126ec1ae58c35b7",
+          "title": "SK hynix puts Chey Tae-won at helm of $10b US AI investment arm",
+          "url": "https://www.koreaherald.com/article/10927161",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-05T05:15:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261105-0512",
       "headline": "정부, AI반도체 등 ICT 인재 양성 거점 5곳 선정",
@@ -41,51 +351,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261105-0509",
-      "headline": "삼성전자, 미래기술 우수 연구자 10명 선정",
-      "summary": [
-        "삼성전자가 기초과학과 소재·ICT 분야 우수 연구자 10명을 선정했다.",
-        "선정 대상은 독창적 연구로 새 분야를 개척하고 학계와 산업계에 기여한 인물들이다.",
-        "국내 과학기술 인재를 발굴해 경쟁력을 높이려는 취지의 연구자 지원 성격이다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "미래기술",
-        "연구자 지원",
-        "기초과학",
-        "소재",
-        "ICT"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "채용·인력",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 3,
-      "importance_reason": "채용·인력 2점, 관심 기업(삼성전자) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-05T05:00:00Z",
-      "updated_at": "2026-11-05T05:00:00Z",
-      "articles": [
-        {
-          "key": "35c4a436fd39c84c",
-          "title": "삼성전자, 오성진·김봉수 교수 등 미래기술 우수 연구자 10명 선정",
-          "url": "https://www.dt.co.kr/article/12093304",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-05T05:00:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261105-0510",
@@ -175,66 +440,6 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261105-0489",
-      "headline": "삼성전자 제6노조 출범 추진, 성과급 갈등 확산",
-      "summary": [
-        "삼성전자 DX부문 중심의 동행노조에서 갈라진 제6노조 설립이 추진되고 있다.",
-        "동행·초기업노조 출신이 주도하며, 반도체 성과급을 둘러싼 내부 갈등이 심화된 상태다.",
-        "노조 분열이 이어지면서 회사의 노사 관리와 보상 체계에 부담이 커질 전망이다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "성과급",
-        "노조",
-        "제6노조",
-        "DX부문"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": false,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 3,
-      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-05T00:54:46Z",
-      "updated_at": "2026-11-05T04:46:49Z",
-      "articles": [
-        {
-          "key": "36ff112742e71b29",
-          "title": "삼성전자 제6노조 설립 추진…동행·초기업노조 출신 주도",
-          "url": "https://www.yna.co.kr/view/AKR20261105049300003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-05T00:54:46Z"
-        },
-        {
-          "key": "b66a569656a540d1",
-          "title": "모바일·TV 노조도 갈라졌다…거세지는 삼성전자 성과급 후폭풍",
-          "url": "https://www.dt.co.kr/article/12093366",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-05T02:30:23Z"
-        },
-        {
-          "key": "bdf4d1db0a6eee8d",
-          "title": "삼성전자 제6노조 설립 추진…동행노조 내부 갈등설 공방(종합)",
-          "url": "https://www.yna.co.kr/view/AKR20261105049351003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-05T04:46:49Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
       "id": "c20261105-0508",
       "headline": "EU, 5.25억 유로 투입해 칩 설계 격차 해소 나서",
       "summary": [
@@ -273,6 +478,64 @@
       ],
       "type_checked": true,
       "importance_raw": 1
+    },
+    {
+      "id": "c20261105-0492",
+      "headline": "미국 압박에 오라클-텐센트 9조원대 AI칩 임대계약 취소",
+      "summary": [
+        "오라클이 미국 정부 우려 전달 후 텐센트와 70억 달러 규모 AI 반도체 임대계약을 취소한 것으로 알려졌다.",
+        "계약은 동남아 데이터센터 AI 반도체 최대 10만 개를 5년간 임대하는 내용으로, 텐센트가 30%를 선지급하기로 했었다.",
+        "해외 클라우드를 통한 중국의 AI 컴퓨팅 확보가 제약받아 글로벌 데이터센터 사업자에게도 불확실성이 커질 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI반도체",
+        "수출통제",
+        "임대계약",
+        "해외 데이터센터",
+        "GPU"
+      ],
+      "companies": [
+        "오라클",
+        "텐센트",
+        "엔비디아",
+        "알리바바",
+        "바이트댄스"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "오라클",
+        "텐센트"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T01:28:49Z",
+      "updated_at": "2026-11-05T04:39:50Z",
+      "articles": [
+        {
+          "key": "7bac537280a58016",
+          "title": "오라클, 텐센트와 9조원대 AI 반도체 임대계약 취소",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64928",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-05T01:28:49Z"
+        },
+        {
+          "key": "09bbfced2434302c",
+          "title": "[AI 고속도로] 美·中 양쪽 압박에…오라클-텐센트 9조원대 AI 계약 무산",
+          "url": "https://zdnet.co.kr/view/?no=20261105132149",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-05T04:39:50Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261105-0507",
@@ -1224,52 +1487,6 @@
       "importance_raw": 3
     },
     {
-      "id": "c20261105-0492",
-      "headline": "오라클, 텐센트 AI 반도체 임대계약 취소",
-      "summary": [
-        "미국 오라클이 중국 텐센트와 체결한 70억달러 규모 AI 반도체 임대계약을 취소했다.",
-        "계약은 동남아 데이터센터의 AI 반도체 최대 10만개를 텐센트에 5년간 임대하는 내용이었다.",
-        "미국 정부의 중국 거래 우려가 영향을 준 것으로 보여 해외 AI 인프라 협력에 불확실성을 더한다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "AI반도체",
-        "임대계약",
-        "해외 AI 인프라",
-        "미중 갈등"
-      ],
-      "companies": [
-        "오라클",
-        "텐센트"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "오라클",
-        "텐센트"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-05T01:28:49Z",
-      "updated_at": "2026-11-05T01:28:49Z",
-      "articles": [
-        {
-          "key": "7bac537280a58016",
-          "title": "오라클, 텐센트와 9조원대 AI 반도체 임대계약 취소",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=64928",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-05T01:28:49Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
       "id": "c20261105-0490",
       "headline": "고성능 FPGA 시대, 전력 설계 정밀 제어가 핵심",
       "summary": [
@@ -2131,52 +2348,6 @@
           "source": "ZDNet Korea",
           "lang": "ko",
           "published_at": "2026-11-04T13:54:43Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261104-0470",
-      "headline": "최태원, SK하이닉스 미국 AI투자법인 이사회 의장 맡아",
-      "summary": [
-        "SK하이닉스가 미국 AI 전문 투자법인의 이름을 'HYAICO 코퍼레이션'으로 정했다.",
-        "최태원 SK그룹 회장이 해당 법인의 이사회 의장을 맡는 것으로 전해졌다.",
-        "AI 분야 투자 거점을 마련해 SK하이닉스의 AI 생태계 투자 행보가 본격화될 전망이다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "AI투자",
-        "미국 투자법인",
-        "HYAICO",
-        "이사회 의장",
-        "AI 생태계"
-      ],
-      "companies": [
-        "SK하이닉스",
-        "SK그룹"
-      ],
-      "event_type": "재무·주주",
-      "confirmed": true,
-      "parties": [
-        "SK하이닉스"
-      ],
-      "importance": 3,
-      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-04T11:45:38Z",
-      "updated_at": "2026-11-04T11:45:38Z",
-      "articles": [
-        {
-          "key": "e6ccb2ec1e3c55bf",
-          "title": "최태원, SK하이닉스 미국 AI투자법인 이사회 의장 맡아",
-          "url": "https://www.yna.co.kr/view/AKR20261104178700003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-04T11:45:38Z"
         }
       ],
       "type_checked": true,
