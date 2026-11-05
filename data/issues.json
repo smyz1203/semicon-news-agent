@@ -1,7 +1,269 @@
 {
   "version": 1,
-  "updated_at": "2026-11-04T23:54:04Z",
+  "updated_at": "2026-11-05T01:22:54Z",
   "issues": [
+    {
+      "id": "c20261105-0490",
+      "headline": "고성능 FPGA 시대, 전력 설계 정밀 제어가 핵심",
+      "summary": [
+        "FPGA 활용이 데이터센터, 통신, 산업, 자동차, 의료기기로 확산되며 전력 설계의 중요성이 커지고 있다.",
+        "기사는 FPGA가 동작 주파수와 처리량을 조정할 수 있어 유연하지만 전력 설계 복잡성이 높아진다고 지적한다.",
+        "정밀 제어와 고집적화가 전력 효율 확보의 핵심 과제로 제시되어 관련 설계 기술 수요가 커질 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "FPGA",
+        "전력 설계",
+        "전력 효율",
+        "고집적화",
+        "엣지 컴퓨팅"
+      ],
+      "companies": [
+        "MPS"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T01:00:00Z",
+      "updated_at": "2026-11-05T01:00:00Z",
+      "articles": [
+        {
+          "key": "82264e92d5bc4d74",
+          "title": "[테크 리포트] 고성능 FPGA 시대, 전력 설계의 핵심은 정밀 제어와 고집적화",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409227",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T01:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261105-0489",
+      "headline": "삼성전자 제6노조 설립 추진, 동행·초기업노조 출신 주도",
+      "summary": [
+        "삼성전자에서 여섯 번째 노동조합 설립이 추진되고 있다는 소식이다.",
+        "기사에 따르면 동행·초기업노조 출신 인사들이 설립을 주도하는 것으로 전해졌다.",
+        "노조 설립 움직임은 삼성전자의 노사 관계 변화에 영향을 줄 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "삼성전자",
+        "노동조합",
+        "노사관계",
+        "초기업노조"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T00:54:46Z",
+      "updated_at": "2026-11-05T00:54:46Z",
+      "articles": [
+        {
+          "key": "36ff112742e71b29",
+          "title": "삼성전자 제6노조 설립 추진…동행·초기업노조 출신 주도",
+          "url": "https://www.yna.co.kr/view/AKR20261105049300003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T00:54:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261105-0487",
+      "headline": "현대차·기아 차량용 반도체 개발 프로세스 국제 인증 획득",
+      "summary": [
+        "현대자동차·기아가 자체 구축한 차량용 반도체 개발 프로세스에 대해 국제표준 인증을 받았다.",
+        "기사에서는 인증의 세부 기준과 적용 범위에 대한 구체적 수치나 일정은 확인되지 않는다.",
+        "SDV 전환으로 차량용 반도체가 중요해지는 가운데 자체 반도체 개발 역량과 안전성 확보 기반이 될 것으로 보인다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "차량용 반도체",
+        "SDV",
+        "국제표준 인증",
+        "개발 프로세스"
+      ],
+      "companies": [
+        "현대자동차",
+        "기아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "현대자동차",
+        "기아"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T23:54:45Z",
+      "updated_at": "2026-11-05T00:34:26Z",
+      "articles": [
+        {
+          "key": "1ff6d825f2e7508f",
+          "title": "현대차·기아, 차량용 반도체 개발 체계 국제표준 인증",
+          "url": "https://www.yna.co.kr/view/AKR20261105033000003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-04T23:54:45Z"
+        },
+        {
+          "key": "ffce6fa76a156422",
+          "title": "현대차·기아, 차량용 반도체 개발 프로세스 국제 인증 획득",
+          "url": "https://www.dt.co.kr/article/12093318",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-05T00:34:26Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261105-0488",
+      "headline": "실리콘 웨이퍼 가격 상승 전환, 재고조정 종료",
+      "summary": [
+        "실리콘 웨이퍼 업계가 2년 넘은 재고조정을 마치고 가격 상승 국면에 들어섰다.",
+        "6인치는 올초 약 10% 올랐고 12인치는 AI·HPC용 고급 제품을 중심으로 인상이 시작됐다.",
+        "2025년 출하면적은 5.8% 늘며 2년 연속 감소세를 마감해 반도체 업황 회복 신호로 읽힌다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "실리콘 웨이퍼",
+        "재고조정",
+        "가격 상승",
+        "AI반도체",
+        "HPC",
+        "출하면적"
+      ],
+      "companies": [],
+      "event_type": "가격 동향",
+      "confirmed": true,
+      "parties": [],
+      "importance": 3,
+      "importance_reason": "가격 동향 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T00:34:04Z",
+      "updated_at": "2026-11-05T00:34:04Z",
+      "articles": [
+        {
+          "key": "1d163170543a2d39",
+          "title": "[차이나 브리프] 실리콘 웨이퍼 가격 본격 상승세",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=63735",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-05T00:34:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261104-0483",
+      "headline": "삼성D, 중국 i-café 60곳에 QD-OLED 인증점 구축",
+      "summary": [
+        "삼성디스플레이가 AOC·ASUS 등 6개 브랜드와 중국 인터넷 카페 대상 QD-OLED 공동 프로모션을 진행한다.",
+        "QD-OLED 모니터 30대 이상 설치 매장을 공식 인증점으로 지정하고 전용 로고를 부여하는 방식이다.",
+        "게이밍 체험 채널을 확보해 중국 프리미엄 모니터 수요를 넓히려는 전략이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "QD-OLED",
+        "게이밍 모니터",
+        "인증점",
+        "중국 시장",
+        "i-café"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "AOC",
+        "ASUS",
+        "HKC",
+        "MSI",
+        "ViewSonic"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "삼성디스플레이",
+        "AOC",
+        "ASUS",
+        "HKC",
+        "MSI",
+        "ViewSonic"
+      ],
+      "importance": 3,
+      "importance_reason": "홍보·수상 1점, 관심 기업(삼성디스플레이) +1, 매체 4곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T23:34:31Z",
+      "updated_at": "2026-11-05T00:20:00Z",
+      "articles": [
+        {
+          "key": "baff9fcd5551ca8d",
+          "title": "게이밍 시장 공략하는 삼성D, 中 PC방 60곳에 QD-OLED 인증점 조성",
+          "url": "https://www.dt.co.kr/article/12093302",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-04T23:34:31Z"
+        },
+        {
+          "key": "709c731a9bdb3a35",
+          "title": "삼성D, 중국 인터넷카페 60곳 'QD-OLED 인증점' 지정 프로모션",
+          "url": "https://www.yna.co.kr/view/AKR20261105032800003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T00:04:14Z"
+        },
+        {
+          "key": "02144994efbb0e9f",
+          "title": "삼성디스플레이, 中 PC방에 'QD-OLED 인증점'…게이밍 시장 공략",
+          "url": "https://www.inews24.com/view/2022813",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-05T00:13:14Z"
+        },
+        {
+          "key": "2926dc2adbf958a1",
+          "title": "삼성D, 중국 게이머 공략 강화… i-café 60곳에 QD-OLED 인증점 구축",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409295",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T00:20:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261104-0486",
       "headline": "Empyrean의 EDA 인수, 한국 설계사에 값싼 툴 가능성",
@@ -136,51 +398,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261104-0483",
-      "headline": "삼성D, 중국 PC방 60곳에 QD-OLED 인증점 조성",
-      "summary": [
-        "삼성디스플레이가 중국 PC방을 활용해 프리미엄 게이밍 모니터 시장 공략에 나선다.",
-        "글로벌 모니터 브랜드와 협력해 QD-OLED 제품을 체험하는 공간을 확대하는 계획이다.",
-        "게이머 대상 체험 마케팅으로 QD-OLED 기술 경쟁력을 알리려는 전략으로 해석된다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "QD-OLED",
-        "게이밍 모니터",
-        "인증점",
-        "중국 시장",
-        "프리미엄 모니터"
-      ],
-      "companies": [
-        "삼성디스플레이"
-      ],
-      "event_type": "홍보·수상",
-      "confirmed": false,
-      "parties": [
-        "삼성디스플레이"
-      ],
-      "importance": 1,
-      "importance_reason": "홍보·수상 1점, 관심 기업(삼성디스플레이) +1, 미확정 -1 → 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-04T23:34:31Z",
-      "updated_at": "2026-11-04T23:34:31Z",
-      "articles": [
-        {
-          "key": "baff9fcd5551ca8d",
-          "title": "게이밍 시장 공략하는 삼성D, 中 PC방 60곳에 QD-OLED 인증점 조성",
-          "url": "https://www.dt.co.kr/article/12093302",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-04T23:34:31Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
     },
     {
       "id": "c20261104-0482",
