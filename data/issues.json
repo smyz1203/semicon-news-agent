@@ -1,7 +1,135 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T17:58:46Z",
+  "updated_at": "2026-11-05T19:11:08Z",
   "issues": [
+    {
+      "id": "c20261105-0539",
+      "headline": "SuperAlloy, 3Q26 반도체 파일럿 생산 진입 예정",
+      "summary": [
+        "SuperAlloy가 2026년 3분기에 반도체 파일럿 생산에 들어간다는 소식이 전해졌다.",
+        "기사 본문이 사실상 비어 있어 생산 품목, 규모, 공급처 등 구체적 내용은 확인할 수 없다.",
+        "제공된 정보만으로는 산업적 영향을 판단하기 어려워 후속 보도 확인이 필요하다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "파일럿 생산",
+        "3Q26",
+        "SuperAlloy"
+      ],
+      "companies": [
+        "SuperAlloy"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "SuperAlloy"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-05T18:40:00Z",
+      "updated_at": "2026-11-05T18:40:00Z",
+      "articles": [
+        {
+          "key": "44a7896b08898d09",
+          "title": "SuperAlloy enters semiconductor pilot production in 3Q26",
+          "url": "https://www.digitimes.com/news/a20261105PD226/superalloy-production-revenue-2026-profit.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-05T18:40:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261105-0538",
+      "headline": "애플 OLED 전환, 래디언트에 도전 과제 부상",
+      "summary": [
+        "애플의 OLED 전환 움직임이 래디언트 옵토일렉트로닉스에 도전 과제가 되고 있다고 디지타임스가 보도했다.",
+        "기사 본문은 짧아 구체적 수치나 일정은 확인되지 않는다.",
+        "다만 폴더블 아이폰이 래디언트의 새로운 성장 경로가 될 수 있다는 관측이 제시됐다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "폴더블 아이폰",
+        "애플",
+        "래디언트"
+      ],
+      "companies": [
+        "애플",
+        "래디언트 옵토일렉트로닉스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [
+        "래디언트 옵토일렉트로닉스"
+      ],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-05T18:35:00Z",
+      "updated_at": "2026-11-05T18:35:00Z",
+      "articles": [
+        {
+          "key": "b69641fba527a3ad",
+          "title": "Apple's OLED shift challenges Radiant, but foldable iPhone offers a way forward",
+          "url": "https://www.digitimes.com/news/a20261105PD232/radiant-oled-panel-nanoimprint-apple-foldable-iphone-adoption.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-05T18:35:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261105-0537",
+      "headline": "인도, 2년 내 자체 GPU 개발 목표 제시",
+      "summary": [
+        "인도 정부가 2년 안에 자체 GPU를 개발하겠다는 목표를 밝혔다.",
+        "SHAKTI와 VEGA 프로세서를 상용화할 계획이라고 한다.",
+        "다만 기사 본문은 작가 소개 내용뿐이어서 구체적 일정과 수치는 확인되지 않는다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "인도 GPU",
+        "자체 반도체",
+        "SHAKTI",
+        "VEGA"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-05T18:00:00Z",
+      "updated_at": "2026-11-05T18:00:00Z",
+      "articles": [
+        {
+          "key": "70e826f408dcaa35",
+          "title": "India targets creating homegrown GPUs within 2 years and plans to commercialize indigenous SHAKTI and VEGA processors",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/india-targets-creating-homegrown-gpus-within-2-years-and-plans-to-commercialize-indigenous-shakti-and-vega-risc-v-processors-sees-ai-boom-as-a-potential-repeat-of-the-y2k-opportunity-for-its-it-industry",
+          "source": "Tom's Hardware",
+          "lang": "en",
+          "published_at": "2026-11-05T18:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261105-0535",
       "headline": "TI, 휴머노이드 로봇 확산 속 차세대 반도체 호황 겨냥",
@@ -131,6 +259,53 @@
           "source": "Tom's Hardware",
           "lang": "en",
           "published_at": "2026-11-05T14:28:30Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261105-0536",
+      "headline": "프리미엄 안드로이드폰 칩셋 시장 재편, 자체 설계 칩 확대",
+      "summary": [
+        "메모리 가격 급등으로 프리미엄 스마트폰의 SoC와 메모리 원가 부담이 커지고 있다.",
+        "2026년 2분기 800달러 이상 프리미엄폰에서 SoC와 메모리는 각각 BOM의 29%를 차지했다.",
+        "자체 설계 칩 비중이 출하량 기준 21.8%로 늘어 칩 공급처 다변화가 가속되고 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "SoC",
+        "2나노 공정",
+        "메모리 가격",
+        "자체 설계 칩",
+        "듀얼 플래그십"
+      ],
+      "companies": [
+        "삼성전자",
+        "퀄컴",
+        "미디어텍",
+        "애플",
+        "구글"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T14:04:57Z",
+      "updated_at": "2026-11-05T14:04:57Z",
+      "articles": [
+        {
+          "key": "3ccd8496a51876ea",
+          "title": "[기고] 프리미엄 안드로이드폰 칩셋 시장이 재편된다",
+          "url": "https://zdnet.co.kr/view/?no=20261105223454",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-05T14:04:57Z"
         }
       ],
       "type_checked": true,
