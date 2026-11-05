@@ -1,7 +1,51 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T12:07:00Z",
+  "updated_at": "2026-11-05T13:27:40Z",
   "issues": [
+    {
+      "id": "c20261105-0532",
+      "headline": "마이크론 대만 클린룸 노사 분쟁으로 가동 중단",
+      "summary": [
+        "마이크론이 10월부터 대만 내 한 클린룸의 가동을 중단한 것으로 전해졌다.",
+        "기사 본문이 없어 중단 규모와 정확한 기간, 노사 분쟁의 세부 내용은 확인되지 않는다.",
+        "메모리 생산 차질 가능성이 있어 공급 측면에서 주목할 사안이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "마이크론",
+        "대만 클린룸",
+        "노사 분쟁",
+        "가동 중단"
+      ],
+      "companies": [
+        "마이크론"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "마이크론"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-05T12:35:55Z",
+      "updated_at": "2026-11-05T12:35:55Z",
+      "articles": [
+        {
+          "key": "39dee7079c3db296",
+          "title": "Micron has paused a Taiwan cleanroom since October amid labor dispute",
+          "url": "https://www.digitimes.com/news/a20261105VL234/micron-taiwan-euv-cleanroom-labor.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-05T12:35:55Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261103-0365",
       "headline": "마벨, 루멘텀 1150억 달러 전량 주식 인수 추진",
