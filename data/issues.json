@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T20:04:17Z",
+  "updated_at": "2026-11-05T21:00:59Z",
   "issues": [
     {
       "id": "c20261105-0540",
@@ -261,6 +261,57 @@
       ],
       "type_checked": true,
       "importance_raw": 2
+    },
+    {
+      "id": "c20261105-0541",
+      "headline": "SK하이닉스, 모노리식3D 특허 재심사 청구 10건으로 확대",
+      "summary": [
+        "SK하이닉스가 NPE 모노리식3D의 미국 특허 2건에 결정계 재심사를 추가로 청구해 누적 8건에서 10건으로 늘렸다.",
+        "모노리식3D는 SK하이닉스를 상대로 ITC 특허침해조사 2건과 텍사스동부법원 소송 3건을 제기했으며, 첫 ITC 1차 결론은 2027년 4월 하순 발표 예정이다.",
+        "재심사는 보통 1년 이상 걸려 ITC 최종결론 전에 끝나지 않을 수 있으나, 항소심 단계에서 활용할 여지가 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "결정계 재심사",
+        "NPE 특허분쟁",
+        "ITC 특허침해조사",
+        "메모리 특허",
+        "수입금지명령"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "모노리식3D",
+        "키오시아",
+        "엔비디아",
+        "웨스턴디지털",
+        "샌디스크"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스",
+        "모노리식3D"
+      ],
+      "importance": 4,
+      "importance_reason": "소송·특허 3점, 관심 기업(SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T14:53:34Z",
+      "updated_at": "2026-11-05T14:53:34Z",
+      "articles": [
+        {
+          "key": "341223fcec6ef4ec",
+          "title": "SK하이닉스, 'NPE' 모노리식3D 특허 2건 재심사 추가 청구",
+          "url": "https://zdnet.co.kr/view/?no=20261105171655",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-05T14:53:34Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
     },
     {
       "id": "c20261105-0533",
