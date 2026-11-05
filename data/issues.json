@@ -1,7 +1,759 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T01:22:54Z",
+  "updated_at": "2026-11-05T03:02:41Z",
   "issues": [
+    {
+      "id": "c20261105-0502",
+      "headline": "삼성, HBM 베이스다이 생산 위해 2나노 팹 검토",
+      "summary": [
+        "삼성전자가 HBM 베이스다이 생산량을 늘리기 위해 2나노 팹 계획을 검토하는 것으로 보도됐다.",
+        "기사 본문은 사진 설명뿐이라 투자 규모나 일정 등 구체적 수치는 확인되지 않는다.",
+        "확정되지 않은 계획이지만 HBM 공급 확대와 파운드리 역량 강화에 연결될 수 있는 움직임이다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "2나노",
+        "HBM 베이스다이",
+        "팹 투자",
+        "HBM"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-05T02:55:00Z",
+      "updated_at": "2026-11-05T02:55:00Z",
+      "articles": [
+        {
+          "key": "d9d6c390e8a39089",
+          "title": "Samsung reportedly plans 2nm fab to boost HBM base-die output",
+          "url": "https://www.digitimes.com/news/a20261105VL216/samsung-fab-hbm-2nm-production.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-05T02:55:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261105-0501",
+      "headline": "SK하이닉스 HBM4 수율 60%로 선두, DRAM 공급 확대",
+      "summary": [
+        "SK하이닉스가 HBM4 수율 60%를 기록해 업계 선두에 있다는 보도가 나왔다.",
+        "기사 본문은 'Credit: DIGITIMES'뿐이라 세부 조건과 공급 확대 규모는 확인되지 않는다.",
+        "HBM4 수율 우위는 차세대 HBM 공급 경쟁에서 SK하이닉스의 입지를 강화할 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM4",
+        "수율",
+        "DRAM",
+        "HBM"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "실적",
+      "confirmed": false,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-05T02:45:00Z",
+      "updated_at": "2026-11-05T02:45:00Z",
+      "articles": [
+        {
+          "key": "a8ef0078b5629637",
+          "title": "SK Hynix leads HBM4 yield at 60%, expands DRAM supply",
+          "url": "https://www.digitimes.com/news/a20261105PD211/sk-hynix-hbm4-dram-hbm-capacity.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-05T02:45:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261105-0489",
+      "headline": "삼성전자 제6노조 출범 추진, 성과급 갈등 확산",
+      "summary": [
+        "삼성전자 DX부문 중심의 동행노조에서 갈라진 제6노조 설립이 추진되고 있다.",
+        "동행·초기업노조 출신이 주도하며, 반도체 성과급을 둘러싼 내부 갈등이 심화된 상태다.",
+        "노조 분열이 이어지면서 회사의 노사 관리와 보상 체계에 부담이 커질 전망이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "성과급",
+        "노조",
+        "제6노조",
+        "DX부문"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T00:54:46Z",
+      "updated_at": "2026-11-05T02:30:23Z",
+      "articles": [
+        {
+          "key": "36ff112742e71b29",
+          "title": "삼성전자 제6노조 설립 추진…동행·초기업노조 출신 주도",
+          "url": "https://www.yna.co.kr/view/AKR20261105049300003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T00:54:46Z"
+        },
+        {
+          "key": "b66a569656a540d1",
+          "title": "모바일·TV 노조도 갈라졌다…거세지는 삼성전자 성과급 후폭풍",
+          "url": "https://www.dt.co.kr/article/12093366",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-05T02:30:23Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261105-0500",
+      "headline": "퀀텀다이아몬즈, HBM 결함 검사용 인라인 장비 개발 추진",
+      "summary": [
+        "퀀텀다이아몬즈가 양자 다이아몬드 현미경 기술을 활용한 인라인 검사 장비 QDm.1을 개발 중이라고 알려졌다.",
+        "이 장비는 반도체 칩과 패키지의 전기적 결함 위치를 찾아내는 기능을 목표로 하며, HBM 결함 검사를 겨냥한다.",
+        "HBM 같은 고적층 패키지의 불량 검출 수요가 커지는 가운데 후공정 검사 장비 시장에 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "HBM",
+        "인라인 검사",
+        "양자 다이아몬드 현미경",
+        "결함 검사",
+        "QDm.1"
+      ],
+      "companies": [
+        "퀀텀다이아몬즈"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "퀀텀다이아몬즈"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-05T02:25:23Z",
+      "updated_at": "2026-11-05T02:25:23Z",
+      "articles": [
+        {
+          "key": "08a09098dd1f96a0",
+          "title": "QuantumDiamonds targets HBM defects as it develops inline inspection tool",
+          "url": "https://www.digitimes.com/news/a20261104VL226/hbm-startup-technology-wafer-inspection.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-05T02:25:23Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261105-0499",
+      "headline": "미 중간선거 후 AI 규제 강화 우려, 삼성·SK하이닉스 변수",
+      "summary": [
+        "미국 중간선거에서 민주당이 승리하면서 AI 데이터센터 규제 강화 가능성이 커졌다.",
+        "기사 본문이 짧아 구체적인 법안이나 시행 일정, 수치는 확인되지 않는다.",
+        "AI 수요에 기대는 메모리 호황에 규제 변수가 더해져 삼성전자와 SK하이닉스에 영향이 주목된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI 규제",
+        "데이터센터",
+        "메모리 호황",
+        "미국 중간선거"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점, 관심 기업(삼성전자, SK하이닉스) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T02:24:23Z",
+      "updated_at": "2026-11-05T02:24:23Z",
+      "articles": [
+        {
+          "key": "233eae525ee0bfa9",
+          "title": "[美중간선거] AI 규제 강화되나…메모리 초호황 삼전닉스에 변수 부상",
+          "url": "https://www.yna.co.kr/view/AKR20261105078800003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T02:24:23Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261105-0498",
+      "headline": "CXMT 선결제 16배 급증, DRAM 부족에 점유율 상승",
+      "summary": [
+        "CXMT의 선결제 규모가 16배 급증했다는 보도가 나왔다.",
+        "기사 본문이 제공되지 않아 구체적 거래 조건과 기간은 확인되지 않는다.",
+        "DRAM 공급 부족이 CXMT의 시장 점유율 확대로 이어지고 있다는 점이 업계에 시사된다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "DRAM",
+        "CXMT",
+        "선결제",
+        "DRAM 부족",
+        "시장 점유율"
+      ],
+      "companies": [
+        "CXMT"
+      ],
+      "event_type": "가격 동향",
+      "confirmed": false,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "가격 동향 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-05T02:24:06Z",
+      "updated_at": "2026-11-05T02:24:06Z",
+      "articles": [
+        {
+          "key": "585b7c0d4581875a",
+          "title": "CXMT prepayments surge 16x with DRAM shortage lifting market share",
+          "url": "https://www.digitimes.com/news/a20261105PD212/dram-cxmt-market-share-capacity-production.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-05T02:24:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261104-0483",
+      "headline": "삼성D, 중국 인터넷 카페 60곳에 QD-OLED 인증점 구축",
+      "summary": [
+        "삼성디스플레이가 AOC, 에이수스, HKC 등 6개 브랜드와 중국 인터넷 카페를 QD-OLED 인증점으로 지정하는 프로모션을 진행한다.",
+        "연말까지 베이징·상하이 등 주요 도시 60곳을 인증점으로 운영하며, 모니터 30대 이상 설치 매장이 대상이다.",
+        "중국 게이머 접점을 넓혀 QD-OLED 게이밍 모니터 수요를 끌어올리려는 현지 마케팅 전략으로 해석된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "QD-OLED",
+        "게이밍 모니터",
+        "인증점",
+        "중국 시장",
+        "마케팅"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "AOC",
+        "에이수스",
+        "HKC",
+        "MSI",
+        "뷰소닉"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "삼성디스플레이",
+        "AOC",
+        "에이수스",
+        "HKC",
+        "MSI",
+        "뷰소닉"
+      ],
+      "importance": 3,
+      "importance_reason": "홍보·수상 1점, 관심 기업(삼성디스플레이) +1, 매체 6곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-04T22:45:00Z",
+      "updated_at": "2026-11-05T02:19:00Z",
+      "articles": [
+        {
+          "key": "f0fcddbbcb0700e7",
+          "title": "삼성디스플레이, 中 게이머 접점 공략… i-café(인터넷 카페) 'QD-OLED 인증점' 연다",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343015",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-04T22:45:00Z"
+        },
+        {
+          "key": "baff9fcd5551ca8d",
+          "title": "게이밍 시장 공략하는 삼성D, 中 PC방 60곳에 QD-OLED 인증점 조성",
+          "url": "https://www.dt.co.kr/article/12093302",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-04T23:34:31Z"
+        },
+        {
+          "key": "709c731a9bdb3a35",
+          "title": "삼성D, 중국 인터넷카페 60곳 'QD-OLED 인증점' 지정 프로모션",
+          "url": "https://www.yna.co.kr/view/AKR20261105032800003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T00:04:14Z"
+        },
+        {
+          "key": "02144994efbb0e9f",
+          "title": "삼성디스플레이, 中 PC방에 'QD-OLED 인증점'…게이밍 시장 공략",
+          "url": "https://www.inews24.com/view/2022813",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-05T00:13:14Z"
+        },
+        {
+          "key": "2926dc2adbf958a1",
+          "title": "삼성D, 중국 게이머 공략 강화… i-café 60곳에 QD-OLED 인증점 구축",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409295",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T00:20:00Z"
+        },
+        {
+          "key": "a8e8c6113996a042",
+          "title": "삼성D, 중국에 QD-OLED 인증점 60곳 조성",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64913",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-05T02:19:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261105-0497",
+      "headline": "LG디스플레이, 4세대 탠덤 WOLED로 중국 게이밍 모니터 공략",
+      "summary": [
+        "LG디스플레이가 4세대 탠덤 WOLED를 중국 프리미엄 게이밍 모니터 시장에 공급하며 공략에 나섰다.",
+        "앤트게이머는 이 패널을 적용한 27인치 모니터 ANT272TUE를 지난 9월 공개했고, AOC·뷰소닉·에이수스 등과도 협업 중이다.",
+        "고주사율과 빠른 응답속도를 앞세운 고급 게이밍 시장에서 LG디스플레이의 OLED 입지를 넓히는 계기가 될 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "4세대 탠덤 WOLED",
+        "게이밍 모니터",
+        "OLED",
+        "중국 시장",
+        "고주사율"
+      ],
+      "companies": [
+        "LG디스플레이",
+        "앤트게이머",
+        "AOC",
+        "뷰소닉",
+        "에이수스"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이",
+        "앤트게이머",
+        "AOC",
+        "뷰소닉",
+        "에이수스"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 관심 기업(LG디스플레이) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T02:18:31Z",
+      "updated_at": "2026-11-05T02:18:31Z",
+      "articles": [
+        {
+          "key": "70347808f79bf0a7",
+          "title": "LG디스플레이, 4세대 탠덤 WOLED로 中 게이머 공략",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64935",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-05T02:18:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261105-0496",
+      "headline": "노르딕, 대기전력 20분의 1 줄인 무선 SoC nRF71 공개",
+      "summary": [
+        "노르딕 세미컨덕터가 차세대 무선 SoC nRF71 시리즈를 공개했다.",
+        "신제품은 기존 nRF70 대비 대기 전력을 최대 20배 줄였고 와이파이·블루투스 LE·스레드·엣지 AI를 단일 칩에 통합했다.",
+        "배터리 구동 기기에서 저전력 엣지 AI 구현을 앞당길 제품으로 IoT 시장에 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "무선 SoC",
+        "nRF71",
+        "엣지 AI",
+        "초저전력",
+        "블루투스 LE",
+        "스레드"
+      ],
+      "companies": [
+        "노르딕 세미컨덕터"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "노르딕 세미컨덕터"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T02:18:00Z",
+      "updated_at": "2026-11-05T02:18:00Z",
+      "articles": [
+        {
+          "key": "fb266103a24b1152",
+          "title": "노르딕, 대기전력 20분의 1로 줄인 무선 SoC 공개",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409319",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T02:18:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261105-0491",
+      "headline": "미쓰이화학, JSR 인수 추진… 일본 소재 재편 신호",
+      "summary": [
+        "일본 관민펀드 JIC가 반도체 소재 기업 JSR을 미쓰이화학에 매각하는 방안을 검토 중이다.",
+        "매각 규모는 1조3000억엔(약 11조원) 이상으로 알려졌으며, 이르면 이달 중 결정될 전망이다.",
+        "거래가 성사되면 일본 화학업계 최대 규모 인수합병 중 하나가 되어 포토레지스트 공급 구조에 영향을 줄 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "JSR",
+        "포토레지스트",
+        "인수합병",
+        "EUV",
+        "ArF"
+      ],
+      "companies": [
+        "미쓰이화학",
+        "JSR",
+        "산업혁신투자기구"
+      ],
+      "event_type": "인수합병",
+      "confirmed": false,
+      "parties": [
+        "미쓰이화학",
+        "산업혁신투자기구",
+        "JSR"
+      ],
+      "importance": 1,
+      "importance_reason": "인수합병 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-05T01:26:00Z",
+      "updated_at": "2026-11-05T02:13:02Z",
+      "articles": [
+        {
+          "key": "030b2cb64af8c1b7",
+          "title": "日JIC, 미쓰이화학에 JSR 매각 추진",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64924",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-05T01:26:00Z"
+        },
+        {
+          "key": "17af040a8e4ce958",
+          "title": "Mitsui Chemicals reportedly plans US$8.2B acquisition of JSR in Japan chip materials push",
+          "url": "https://www.digitimes.com/news/a20261105VL213/mitsui-chemicals-jsr-materials-acquisition.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-05T02:13:02Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261105-0495",
+      "headline": "글로벌파운드리, 맞춤형 칩 설계 수주 약 10억 달러 확보",
+      "summary": [
+        "글로벌파운드리가 맞춤형 칩 설계 수주로 약 10억 달러 규모의 성과를 확보했다고 전해졌다.",
+        "기사 본문은 사진 크레딧만 포함돼 세부 고객사와 계약 조건은 확인되지 않는다.",
+        "피지컬 AI 사업으로 영역을 넓히는 움직임이라 파운드리 수주 경쟁에 참고할 만하다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "맞춤형 칩 설계",
+        "피지컬 AI",
+        "파운드리",
+        "수주"
+      ],
+      "companies": [
+        "글로벌파운드리"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "글로벌파운드리"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-05T02:07:42Z",
+      "updated_at": "2026-11-05T02:07:42Z",
+      "articles": [
+        {
+          "key": "18c778879a7e6376",
+          "title": "GlobalFoundries secures nearly US$1 billion in custom chip design wins as it expands into physical AI",
+          "url": "https://www.digitimes.com/news/a20261105VL212/globalfoundries-ip-processor-design-physical-ai.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-05T02:07:42Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261105-0494",
+      "headline": "Z세대 취업 선호, IT에서 제조 현장으로 이동",
+      "summary": [
+        "Z세대의 취업 선호가 판교·IT 기업에서 반도체 등 대기업 제조 직군으로 옮겨가는 흐름이 나타났다.",
+        "기사 본문이 일부만 제공되어 구체적인 조사 수치와 기업별 세부 내용은 확인하기 어렵다.",
+        "반도체 업계의 인력 확보 경쟁과 채용 전략에 영향을 줄 수 있는 변화로 볼 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "Z세대 취업",
+        "반도체 인력",
+        "채용 트렌드",
+        "생산직 선호"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T01:52:27Z",
+      "updated_at": "2026-11-05T01:52:27Z",
+      "articles": [
+        {
+          "key": "5f3b5a2945cb62ca",
+          "title": "Z세대 취업 로망은 공장으로?…생산·품질, 마케팅·IT 제쳤다",
+          "url": "https://www.yna.co.kr/view/AKR20261105073500017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T01:52:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261105-0493",
+      "headline": "나주·광주에 호남 반도체 클러스터 지원시설 구축 추진",
+      "summary": [
+        "광주와 나주에 호남 반도체 클러스터와 연계한 지원시설 구축이 추진되고 있다.",
+        "시설은 전력설비·차량용 반도체를 검증하고 제품화를 지원하는 역할을 맡을 예정이다.",
+        "지역 반도체 생태계 확충에 기여할 것으로 기대되나 구체적 일정과 규모는 기사에 나오지 않았다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "호남 반도체 클러스터",
+        "차량용 반도체",
+        "전력설비 반도체",
+        "제품화 지원",
+        "지역 생태계"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T01:40:24Z",
+      "updated_at": "2026-11-05T01:40:24Z",
+      "articles": [
+        {
+          "key": "cbdd540f7b570718",
+          "title": "나주·광주에 호남 반도체 클러스터 지원시설 구축 추진",
+          "url": "https://www.yna.co.kr/view/AKR20261105066800054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T01:40:24Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261104-0439",
+      "headline": "FPT, 북부 베트남에 반도체 테스트·패키징 공장 시험 가동",
+      "summary": [
+        "FPT가 베트남 북부 박닌성에 반도체 칩 테스트·패키징 공장의 시험 가동을 시작했다.",
+        "기사에 따르면 FPT는 이후 패키징 설비를 확장할 계획이며, 구체적인 규모와 일정은 확인되지 않았다.",
+        "베트남이 반도체 후공정 거점으로 부상하고 있음을 보여주는 사례로, 아시아 OSAT 경쟁 구도에 영향을 줄 수 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "후공정",
+        "테스트",
+        "패키징",
+        "베트남",
+        "반도체 공장"
+      ],
+      "companies": [
+        "FPT"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "FPT"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-03T06:08:00Z",
+      "updated_at": "2026-11-05T01:30:22Z",
+      "articles": [
+        {
+          "key": "4914952e9f5b1403",
+          "title": "FPT semiconductor chip Testing and Packaging plant officially begins trial operations in Bac Ninh",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=342963",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-03T06:08:00Z"
+        },
+        {
+          "key": "7c8db4b1129ce031",
+          "title": "FPT starts chip-testing plant trials in northern Vietnam, plans packaging expansion",
+          "url": "https://www.digitimes.com/news/a20261105VL206/plant-packaging-testing-expansion-equipment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-05T01:30:22Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261105-0492",
+      "headline": "오라클, 텐센트 AI 반도체 임대계약 취소",
+      "summary": [
+        "미국 오라클이 중국 텐센트와 체결한 70억달러 규모 AI 반도체 임대계약을 취소했다.",
+        "계약은 동남아 데이터센터의 AI 반도체 최대 10만개를 텐센트에 5년간 임대하는 내용이었다.",
+        "미국 정부의 중국 거래 우려가 영향을 준 것으로 보여 해외 AI 인프라 협력에 불확실성을 더한다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI반도체",
+        "임대계약",
+        "해외 AI 인프라",
+        "미중 갈등"
+      ],
+      "companies": [
+        "오라클",
+        "텐센트"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "오라클",
+        "텐센트"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T01:28:49Z",
+      "updated_at": "2026-11-05T01:28:49Z",
+      "articles": [
+        {
+          "key": "7bac537280a58016",
+          "title": "오라클, 텐센트와 9조원대 AI 반도체 임대계약 취소",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64928",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-05T01:28:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261105-0490",
       "headline": "고성능 FPGA 시대, 전력 설계 정밀 제어가 핵심",
@@ -44,50 +796,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261105-0489",
-      "headline": "삼성전자 제6노조 설립 추진, 동행·초기업노조 출신 주도",
-      "summary": [
-        "삼성전자에서 여섯 번째 노동조합 설립이 추진되고 있다는 소식이다.",
-        "기사에 따르면 동행·초기업노조 출신 인사들이 설립을 주도하는 것으로 전해졌다.",
-        "노조 설립 움직임은 삼성전자의 노사 관계 변화에 영향을 줄 수 있다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "삼성전자",
-        "노동조합",
-        "노사관계",
-        "초기업노조"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": false,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 3,
-      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-05T00:54:46Z",
-      "updated_at": "2026-11-05T00:54:46Z",
-      "articles": [
-        {
-          "key": "36ff112742e71b29",
-          "title": "삼성전자 제6노조 설립 추진…동행·초기업노조 출신 주도",
-          "url": "https://www.yna.co.kr/view/AKR20261105049300003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-05T00:54:46Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261105-0487",
@@ -180,85 +888,6 @@
           "source": "디일렉",
           "lang": "ko",
           "published_at": "2026-11-05T00:34:04Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261104-0483",
-      "headline": "삼성D, 중국 i-café 60곳에 QD-OLED 인증점 구축",
-      "summary": [
-        "삼성디스플레이가 AOC·ASUS 등 6개 브랜드와 중국 인터넷 카페 대상 QD-OLED 공동 프로모션을 진행한다.",
-        "QD-OLED 모니터 30대 이상 설치 매장을 공식 인증점으로 지정하고 전용 로고를 부여하는 방식이다.",
-        "게이밍 체험 채널을 확보해 중국 프리미엄 모니터 수요를 넓히려는 전략이다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "QD-OLED",
-        "게이밍 모니터",
-        "인증점",
-        "중국 시장",
-        "i-café"
-      ],
-      "companies": [
-        "삼성디스플레이",
-        "AOC",
-        "ASUS",
-        "HKC",
-        "MSI",
-        "ViewSonic"
-      ],
-      "event_type": "홍보·수상",
-      "confirmed": true,
-      "parties": [
-        "삼성디스플레이",
-        "AOC",
-        "ASUS",
-        "HKC",
-        "MSI",
-        "ViewSonic"
-      ],
-      "importance": 3,
-      "importance_reason": "홍보·수상 1점, 관심 기업(삼성디스플레이) +1, 매체 4곳 보도 +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-04T23:34:31Z",
-      "updated_at": "2026-11-05T00:20:00Z",
-      "articles": [
-        {
-          "key": "baff9fcd5551ca8d",
-          "title": "게이밍 시장 공략하는 삼성D, 中 PC방 60곳에 QD-OLED 인증점 조성",
-          "url": "https://www.dt.co.kr/article/12093302",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-04T23:34:31Z"
-        },
-        {
-          "key": "709c731a9bdb3a35",
-          "title": "삼성D, 중국 인터넷카페 60곳 'QD-OLED 인증점' 지정 프로모션",
-          "url": "https://www.yna.co.kr/view/AKR20261105032800003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-05T00:04:14Z"
-        },
-        {
-          "key": "02144994efbb0e9f",
-          "title": "삼성디스플레이, 中 PC방에 'QD-OLED 인증점'…게이밍 시장 공략",
-          "url": "https://www.inews24.com/view/2022813",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-05T00:13:14Z"
-        },
-        {
-          "key": "2926dc2adbf958a1",
-          "title": "삼성D, 중국 게이머 공략 강화… i-café 60곳에 QD-OLED 인증점 구축",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409295",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-05T00:20:00Z"
         }
       ],
       "type_checked": true,
@@ -4898,51 +5527,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261104-0439",
-      "headline": "FPT, 박닌성 반도체 테스트·패키징 공장 시험 가동 개시",
-      "summary": [
-        "FPT가 베트남 박닌성에 반도체 칩 테스트·패키징 공장의 시험 가동을 시작했다고 발표했다.",
-        "공장에는 생산라인 6개가 있고 최대 설계 생산능력은 3억 개 규모로 알려졌다.",
-        "베트남의 후공정 생산 거점이 확대되는 흐름으로, 해외 패키징 분업 구조에 영향을 줄 수 있다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "후공정",
-        "패키징",
-        "테스트",
-        "베트남",
-        "반도체 공장"
-      ],
-      "companies": [
-        "FPT"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": true,
-      "parties": [
-        "FPT"
-      ],
-      "importance": 3,
-      "importance_reason": "설비 투자 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-03T06:08:00Z",
-      "updated_at": "2026-11-03T06:08:00Z",
-      "articles": [
-        {
-          "key": "4914952e9f5b1403",
-          "title": "FPT semiconductor chip Testing and Packaging plant officially begins trial operations in Bac Ninh",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=342963",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-11-03T06:08:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261103-0350",
