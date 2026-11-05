@@ -1,7 +1,51 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T13:27:40Z",
+  "updated_at": "2026-11-05T15:11:30Z",
   "issues": [
+    {
+      "id": "c20261105-0533",
+      "headline": "마이크론 타오위안 공장 공사 노사분규로 중단",
+      "summary": [
+        "마이크론의 45억 달러 규모 타오위안 공장 건설이 노동 분쟁으로 중단된 것으로 알려졌다.",
+        "기사 본문에는 중단 경위나 재개 일정 등 구체적 내용이 담겨 있지 않아 세부 사항 확인이 어렵다.",
+        "공사 중단이 사실이라면 마이크론의 대만 메모리 생산능력 확대 일정에 차질이 생길 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "마이크론",
+        "타오위안 공장",
+        "노동 분쟁",
+        "메모리 생산능력"
+      ],
+      "companies": [
+        "마이크론"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "마이크론"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-05T14:28:30Z",
+      "updated_at": "2026-11-05T14:28:30Z",
+      "articles": [
+        {
+          "key": "ba3600702a66249e",
+          "title": "Micron's $4.5 billion Taoyuan plant construction halted amidst labor dispute",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/microns-usd4-5-billion-taoyuan-plant-construction-halted-amidst-labor-dispute-company-and-union-still-havent-reached-agreement-as-latter-asks-for-clearer-profit-sharing-terms",
+          "source": "Tom's Hardware",
+          "lang": "en",
+          "published_at": "2026-11-05T14:28:30Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261105-0532",
       "headline": "마이크론 대만 클린룸 노사 분쟁으로 가동 중단",
