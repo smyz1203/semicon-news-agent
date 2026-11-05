@@ -1,7 +1,360 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T09:15:38Z",
+  "updated_at": "2026-11-05T10:23:19Z",
   "issues": [
+    {
+      "id": "c20261105-0512",
+      "headline": "ICT 석·박사 인재 양성 거점 5곳 신규 선정",
+      "summary": [
+        "정부가 AI반도체·양자AI·스마트 제조 분야 석·박사급 연구인력 양성에 나섰다.",
+        "관련 역량을 갖춘 대학 연구센터 5곳을 새로 선정하고 장기 지원 체계를 마련했다.",
+        "반도체 분야 고급 인력 기반을 넓히는 조치로, 산업계 인재 공급에 도움이 될 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI반도체",
+        "양자AI",
+        "스마트 제조",
+        "인재 양성",
+        "연구센터"
+      ],
+      "companies": [],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T05:00:11Z",
+      "updated_at": "2026-11-05T09:59:47Z",
+      "articles": [
+        {
+          "key": "4660a163aff7c830",
+          "title": "AI반도체부터 스마트 제조까지…ICT 인재 양성 거점 5곳 선정",
+          "url": "https://www.yna.co.kr/view/AKR20261105041200017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T05:00:11Z"
+        },
+        {
+          "key": "aff7d9e3236721cd",
+          "title": "AI반도체부터 스마트 제조까지… ICT 인재 양성 거점 5곳 선정",
+          "url": "https://www.dt.co.kr/article/12093524",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-05T09:59:47Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261105-0530",
+      "headline": "아이씨티케이, 부경대와 양자내성암호 하드웨어 엔진 개발",
+      "summary": [
+        "아이씨티케이가 국립부경대학교와 프로그래머블 양자내성암호 하드웨어 엔진 개발에 나선다고 5일 밝혔다.",
+        "엔진은 NIST 표준 ML-KEM·ML-DSA와 한국 표준 KpqC를 지원하며 개발 목표 시점은 2028년 8월이다.",
+        "양자컴퓨터 위협에 대비한 보안 반도체 수요에 맞춘 행보로 팹리스 기업의 기술 경쟁력 강화가 기대된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "양자내성암호",
+        "PQC",
+        "프로그래머블 엔진",
+        "KpqC",
+        "ML-KEM"
+      ],
+      "companies": [
+        "아이씨티케이",
+        "부경대학교"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "아이씨티케이",
+        "부경대학교"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T09:58:54Z",
+      "updated_at": "2026-11-05T09:58:54Z",
+      "articles": [
+        {
+          "key": "49a9bc5766974b88",
+          "title": "아이씨티케이-부경대, 프로그래머블 양자암호 엔진 만든다",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64967",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-05T09:58:54Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261105-0529",
+      "headline": "정부, 디스플레이 R&D에 3689억 투입해 OLED 초격차 추진",
+      "summary": [
+        "정부가 중국의 추격에 대응해 국내 디스플레이 기술 경쟁력 강화에 3689억원을 투입하기로 했다.",
+        "OLED 성능 향상과 함께 로봇 피부, 확장현실(XR) 기기에 쓰일 차세대 디스플레이 기술 개발을 지원한다.",
+        "중국과의 기술 격차 경쟁이 심화되는 가운데 국내 디스플레이 업계의 초격차 확보 기반이 될 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "차세대 디스플레이",
+        "R&D 지원",
+        "로봇 피부",
+        "XR"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T09:57:20Z",
+      "updated_at": "2026-11-05T09:57:20Z",
+      "articles": [
+        {
+          "key": "1b35b551a1f99a37",
+          "title": "정부, 디스플레이 R&D에 3689억원…中 추격에 OLED 초격차 확보",
+          "url": "https://www.inews24.com/view/2023217",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-05T09:57:20Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261105-0528",
+      "headline": "용인반도체고 첫 신입생 경쟁률 4.8대 1 기록",
+      "summary": [
+        "내년 3월 개교하는 용인반도체고등학교의 첫 신입생 경쟁률이 4.8대 1로 집계됐다.",
+        "경쟁률은 5대 1에 육박하는 수준으로 반도체 인재 양성 교육기관에 대한 관심을 보여준다.",
+        "반도체 클러스터 인력 공급의 출발점이 될 수 있어 지역 인재 육성 측면에서 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "용인반도체고",
+        "반도체 인재 양성",
+        "신입생 경쟁률",
+        "반도체 교육"
+      ],
+      "companies": [],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T09:48:58Z",
+      "updated_at": "2026-11-05T09:48:58Z",
+      "articles": [
+        {
+          "key": "1d435150c7339e08",
+          "title": "내년 3월 개교 '용인반도체고' 첫 신입생 경쟁률 4.8대 1",
+          "url": "https://www.yna.co.kr/view/AKR20261105168000061",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T09:48:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261105-0527",
+      "headline": "미 중간선거 후 AI 데이터센터 규제 우려, 반도체 투자 위축 촉각",
+      "summary": [
+        "미국 중간선거에서 민주당이 약진하며 AI 데이터센터 규제 강화 우려가 반도체 업계에 번졌다.",
+        "데이터센터 건설 규제와 세제 혜택 재검토 가능성이 거론되며 빅테크 설비투자 지연·축소 우려가 제기됐다.",
+        "다만 기사 분석으로는 칩 장기계약 덕분에 단기 영향은 제한적이며 AI 투자는 취소가 아닌 속도 조절이라는 평가다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI 데이터센터",
+        "설비투자(CAPEX)",
+        "세제 혜택",
+        "장기계약",
+        "미국 중간선거"
+      ],
+      "companies": [
+        "빅테크"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T09:48:56Z",
+      "updated_at": "2026-11-05T09:48:56Z",
+      "articles": [
+        {
+          "key": "214d558ad2ad0aec",
+          "title": "[기획] “AI 투자 취소 아닌 속도 조절… 칩 장기계약, 단기 영향 제한적”",
+          "url": "https://www.dt.co.kr/article/12093520",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-05T09:48:56Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261105-0526",
+      "headline": "삼성전자 DX노조, 성과급 격차 놓고 수원서 집회",
+      "summary": [
+        "삼성전자 DX 부문 노조가 수원사업장 앞에서 집회를 열고 공정한 보상체계를 요구했다.",
+        "반도체(DS)와 완제품(DX) 부문 간 성과급 격차를 둘러싼 갈등이 아직 해소되지 않은 상태다.",
+        "성과급 체계 논란이 장기화되면 사내 사기와 인력 유출 우려가 커질 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "성과급",
+        "DX부문",
+        "노사갈등",
+        "보상체계"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "재무·주주 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T09:38:25Z",
+      "updated_at": "2026-11-05T09:38:25Z",
+      "articles": [
+        {
+          "key": "a7a95370f4fef466",
+          "title": "삼성전자 DX노조, 수원사업장 앞 집회…'공정한 보상체계' 요구",
+          "url": "https://www.yna.co.kr/view/AKR20261105168100061",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-05T09:38:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261105-0525",
+      "headline": "티엘비, SOCAMM2 공급 확대에 3분기 영업익 92% 급증",
+      "summary": [
+        "티엘비가 3분기 연결 매출 939억6500만원, 영업이익 165억9500만원을 공시하며 사상 최대 분기 매출을 기록했다.",
+        "전년 동기 대비 매출은 36.4%, 영업이익은 91.8% 증가했고 영업이익률은 17.7%로 올랐다.",
+        "AI 서버용 SOCAMM2 기판의 고부가 제품 비중 확대가 수익성 개선을 이끌었다는 점에서 의미가 크다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "SOCAMM2",
+        "메모리 기판",
+        "AI 서버",
+        "영업이익률",
+        "분기 실적"
+      ],
+      "companies": [
+        "티엘비"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "티엘비"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T09:31:44Z",
+      "updated_at": "2026-11-05T09:31:44Z",
+      "articles": [
+        {
+          "key": "e1e0067e91d0f2b3",
+          "title": "티엘비, SOCAMM2 효과 본격화...3분기 영업익 92% 증가",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64986",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-05T09:31:44Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261105-0524",
+      "headline": "덕산하이메탈 3분기 역대 최대 실적, 누계 매출 작년 연간 넘어서",
+      "summary": [
+        "덕산하이메탈이 올해 3분기 매출 995억원, 영업이익 102억원을 공시했다.",
+        "전년 동기 대비 매출은 61.9%, 영업이익은 552.9% 증가하며 역대 최대치를 경신했다.",
+        "3분기 누계 매출 2590억원이 지난해 연간 매출을 넘어서 반도체 솔더볼 수요 호조를 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "솔더볼",
+        "역대 최대 실적",
+        "반도체 업황",
+        "분기 실적"
+      ],
+      "companies": [
+        "덕산하이메탈"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "덕산하이메탈"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T09:20:38Z",
+      "updated_at": "2026-11-05T09:20:38Z",
+      "articles": [
+        {
+          "key": "082dd0183561fa6c",
+          "title": "솔더볼 매출 확대... 덕산하이메탈 9개월 만에 작년 연간 매출 상회",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64966",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-05T09:20:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261105-0523",
       "headline": "CXMT, 3분기 D램 점유율 9%로 1년 새 두 배 성장",
@@ -897,46 +1250,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261105-0512",
-      "headline": "정부, AI반도체 등 ICT 인재 양성 거점 5곳 선정",
-      "summary": [
-        "정부가 AI반도체, 양자AI, 스마트 제조 등 첨단 ICT 분야 고급 인재 양성 거점 5곳을 선정했다.",
-        "선정된 거점은 석·박사급 고급 인력을 길러내는 역할을 맡게 되며, 기사 본문이 일부만 제공되어 세부 지원 규모는 확인되지 않는다.",
-        "반도체 분야 고급 인력 확보 기반을 넓히는 조치로, 산업 인력난 해소에 의미가 있다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "AI반도체",
-        "ICT 인재 양성",
-        "양자AI",
-        "스마트 제조"
-      ],
-      "companies": [],
-      "event_type": "채용·인력",
-      "confirmed": true,
-      "parties": [],
-      "importance": 2,
-      "importance_reason": "채용·인력 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-05T05:00:11Z",
-      "updated_at": "2026-11-05T05:00:11Z",
-      "articles": [
-        {
-          "key": "4660a163aff7c830",
-          "title": "AI반도체부터 스마트 제조까지…ICT 인재 양성 거점 5곳 선정",
-          "url": "https://www.yna.co.kr/view/AKR20261105041200017",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-05T05:00:11Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261105-0510",
