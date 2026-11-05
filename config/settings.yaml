@@ -112,11 +112,11 @@ importance:
   strict_min_score: 4
   # 관심 기업: 사건의 직접 당사자이면 +1점 (아래 '기업 이름 사전'의 대표 이름, 판단 근거에도 이 순서로 표시)
   watch_companies:
+    - SK하이닉스
+    - 삼성전자
     - LG디스플레이
     - 삼성디스플레이
-    - 삼성전자
-    - SK하이닉스
-    - 엔비디아
+    - LG전자
 
 # ── 기업 이름 사전 (한글·영문 이름 연결, 중복 판단에 사용) ─────────
 companies:
@@ -124,6 +124,7 @@ companies:
   SK하이닉스: [SK하이닉스, 하이닉스, SK hynix, Hynix]
   삼성디스플레이: [삼성디스플레이, Samsung Display]
   LG디스플레이: [LG디스플레이, LG Display, LGD]
+  LG전자: [LG전자, LG Electronics]
   삼성전기: [삼성전기, Samsung Electro-Mechanics]
   TSMC: [TSMC]
   마이크론: [마이크론, Micron]
@@ -155,4 +156,5 @@ keywords:
        microLED, panel]
   # 제목에 이 기업 이름이 있으면 키워드가 없어도 관련 기사로 봄 (아래 '기업 이름 사전'의 대표 이름, 별칭도 인식)
   # 중요도 가산점을 주는 관심 기업(importance.watch_companies)과는 따로 관리한다
+  # LG전자는 관심 기업이지만 가전 기사까지 들어오지 않도록 여기에는 넣지 않음
   companies: [삼성전자, SK하이닉스, 삼성디스플레이, LG디스플레이, TSMC, 마이크론, 인텔, ASML, BOE, 엔비디아]
