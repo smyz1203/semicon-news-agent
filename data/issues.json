@@ -1,7 +1,325 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T06:12:31Z",
+  "updated_at": "2026-11-06T07:31:03Z",
   "issues": [
+    {
+      "id": "c20261106-0579",
+      "headline": "전남광주, 호남권 반도체 국가산단 기반시설 확보 추진",
+      "summary": [
+        "전남광주통합특별시가 호남권 반도체 국가산단 조성을 위해 핵심 기반시설 확보에 나섰다.",
+        "부지, 전력, 용수 등 기반시설 확보와 투자 여건 개선을 주요 과제로 추진하는 것으로 전해졌다.",
+        "지역 반도체 산업 생태계 조성의 출발점이 될 수 있으나 구체적 일정과 규모는 기사에 나오지 않았다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체 국가산단",
+        "호남권",
+        "기반시설",
+        "전력·용수",
+        "지역 클러스터"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T07:14:06Z",
+      "updated_at": "2026-11-06T07:14:06Z",
+      "articles": [
+        {
+          "key": "4c1bfbcdd86324e4",
+          "title": "전남광주시, 호남권 반도체 국가산단 기반시설 확보 '주력'",
+          "url": "https://www.yna.co.kr/view/AKR20261106134500054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-06T07:14:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261106-0578",
+      "headline": "SK하이닉스 노하우 담은 트리니티팹, 내년 10월 가동",
+      "summary": [
+        "트리니티팹이 내년 5월 클린룸을 개방하고 10월부터 테스트베드 실증 서비스를 시작한다.",
+        "300mm 웨이퍼 기반 실증 환경으로 SK하이닉스 전공정 양산라인과 유사한 조건을 제공한다.",
+        "국내 소부장 기업의 기술 개발과 상용화를 지원하며, 장비 37대 중 70%를 10월 전 도입할 계획이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "트리니티팹",
+        "소부장",
+        "300mm 웨이퍼",
+        "테스트베드",
+        "장비 반입"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T07:03:25Z",
+      "updated_at": "2026-11-06T07:03:25Z",
+      "articles": [
+        {
+          "key": "a9d359a80844d48d",
+          "title": "SK하이닉스 양산 노하우 담은 트리니티팹…내년 10월 문 연다",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65037",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-06T07:03:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261106-0577",
+      "headline": "엔비디아, 네이버에 1조3천억원 투자 납입 완료",
+      "summary": [
+        "엔비디아가 네이버에 10억달러(약 1조3천412억원) 규모의 투자금 납입을 마쳤다.",
+        "이번 투자로 엔비디아는 네이버 지분 4.13%를 확보하게 됐다.",
+        "AI 인프라 협력이 본격화되면서 국내 AI 반도체 생태계에 영향을 줄 전망이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "엔비디아 투자",
+        "지분 확보",
+        "AI 협력",
+        "네이버"
+      ],
+      "companies": [
+        "엔비디아",
+        "네이버"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "엔비디아",
+        "네이버"
+      ],
+      "importance": 2,
+      "importance_reason": "재무·주주 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T06:57:30Z",
+      "updated_at": "2026-11-06T06:57:30Z",
+      "articles": [
+        {
+          "key": "8293aae0f384c053",
+          "title": "엔비디아, 네이버에 1조3천412억원 납입 완료…지분 4.13% 확보",
+          "url": "https://www.yna.co.kr/view/AKR20261106136800017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-06T06:57:30Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261106-0548",
+      "headline": "3688억 디스플레이 국가연구플랫폼 예타 통과",
+      "summary": [
+        "정부의 첨단 디스플레이 국가연구플랫폼 구축사업이 예비타당성조사를 통과했다.",
+        "2027년부터 2033년까지 총 3688억7000만원이 투입되며 국비는 2789억원이다.",
+        "패널 설계부터 공정·모듈까지 검증하는 연구 인프라로 업계 경쟁력 강화에 기여할 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "국가연구플랫폼",
+        "예비타당성조사",
+        "디스플레이 연구개발",
+        "1만ppi",
+        "아산"
+      ],
+      "companies": [
+        "한국디스플레이산업협회"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T00:10:18Z",
+      "updated_at": "2026-11-06T06:43:23Z",
+      "articles": [
+        {
+          "key": "34aaf4d8906be550",
+          "title": "아산시, 디스플레이 연구플랫폼에 '제2 실리콘밸리 도약' 기대",
+          "url": "https://www.yna.co.kr/view/AKR20261106038400063",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-06T00:10:18Z"
+        },
+        {
+          "key": "0b2f16097ae2d7c2",
+          "title": "3천688억원 디스플레이 연구거점 아산에…기업 지원체계도 강화(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261106038451063",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-06T05:53:36Z"
+        },
+        {
+          "key": "12ae3da22781f204",
+          "title": "디스플레이협회 \"3689억 국가연구플랫폼 예타 통과 환영\"",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65034",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-06T06:43:23Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261106-0576",
+      "headline": "재경부, 반도체 전문가 간담회…수요 안정성 점검",
+      "summary": [
+        "재정경제부가 반도체 전문가들과 간담회를 열고 업황을 점검했다.",
+        "기사 요약 본문이 짧아 구체적 수치와 일정은 확인되지 않는다.",
+        "AI 데이터센터 규제 우려 속 반도체 수요 안정성에 대한 정부 판단으로 볼 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체 수요",
+        "AI데이터센터",
+        "정책 간담회",
+        "증시 변동"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "재정경제부"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T06:33:38Z",
+      "updated_at": "2026-11-06T06:33:38Z",
+      "articles": [
+        {
+          "key": "5957b6802d380c21",
+          "title": "재경부, 반도체 전문가 간담회…\"당분간 수요 기반 안정적 유지\"",
+          "url": "https://www.yna.co.kr/view/AKR20261106126900002",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-06T06:33:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261106-0575",
+      "headline": "미 데이터센터 논란 속 국산 AI칩 저전력 부각",
+      "summary": [
+        "미국 중간선거에서 AI 데이터센터 건립이 지역사회 쟁점으로 떠올랐다는 보도가 나왔다.",
+        "기사 본문이 일부만 제공되어 구체적 수치와 일정은 확인되지 않는다.",
+        "전력·냉각 부담이 커지면서 저전력 국산 AI칩에 대한 관심이 높아졌다는 점이 산업적 의미다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 데이터센터",
+        "국산 AI칩",
+        "전력 소비",
+        "냉각"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T06:20:27Z",
+      "updated_at": "2026-11-06T06:20:27Z",
+      "articles": [
+        {
+          "key": "334f6e4da205c592",
+          "title": "미 중간선거 쟁점된 데이터센터…버터도 안녹는 국산 AI칩 주목",
+          "url": "https://www.yna.co.kr/view/AKR20261106124300017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-06T06:20:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261106-0574",
+      "headline": "엔비디아 RTX 스파크, 로컬 AI 에이전트 PC 공략",
+      "summary": [
+        "엔비디아가 윈도 PC용 Arm 플랫폼 RTX 스파크를 10월 중순 정식 출시했다고 설명했다.",
+        "그레이스 CPU와 블랙웰 GPU를 결합한 N1X SoC로, 최대 128GB 통합 메모리를 공유한다.",
+        "클라우드 없이 32GB 이상 AI 모델을 로컬에서 실행할 수 있어 AI PC 시장 경쟁에 영향을 줄 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "RTX 스파크",
+        "N1X",
+        "로컬 AI 에이전트",
+        "Arm 윈도",
+        "블랙웰 GPU"
+      ],
+      "companies": [
+        "엔비디아",
+        "미디어텍",
+        "마이크로소프트"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T06:12:51Z",
+      "updated_at": "2026-11-06T06:12:51Z",
+      "articles": [
+        {
+          "key": "9f0af858987c6fe4",
+          "title": "엔비디아 \"RTX 스파크, '로컬 AI 에이전트 시대' 겨냥\"",
+          "url": "https://zdnet.co.kr/view/?no=20261106144312",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-06T06:12:51Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
     {
       "id": "c20261106-0572",
       "headline": "아산 첨단디스플레이연구원 구축, 예타 통과로 추진",
@@ -46,52 +364,49 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261106-0548",
-      "headline": "아산 디스플레이 국가연구플랫폼 구축, 지역 산업 거점 기대",
+      "id": "c20261106-0573",
+      "headline": "퀄리타스반도체, 中 ICCAD서 고속 인터페이스 IP 시연",
       "summary": [
-        "충남 아산시가 탕정테크노일반산업단지에 첨단 디스플레이 국가연구플랫폼을 구축하는 사업을 추진하고 있다.",
-        "기사 본문이 일부만 제공되어 구체적인 예산과 일정은 확인되지 않는다.",
-        "지자체가 디스플레이 연구 거점을 키워 제2의 실리콘밸리 도약을 노리는 흐름으로 볼 수 있다."
+        "퀄리타스반도체가 중국 ICCAD 2026에 참가해 PCIe 6.0, UCIe, MIPI 기반 IP 라이브 데모를 선보인다고 밝혔다.",
+        "PCIe 6.0 PHY IP는 64Gbps 전송 성능을 실리콘 측정 결과로 공개하며 등화·CDR 안정성을 검증한다.",
+        "칩렛 구조 확산과 AI 연산 증가로 고속 인터커넥트 IP 수요가 커지며, 신규 고객사 확보가 기대된다."
       ],
-      "category": "디스플레이",
+      "category": "AI반도체",
       "tags": [
-        "디스플레이",
-        "국가연구플랫폼",
-        "탕정테크노산업단지",
-        "아산시"
+        "PCIe 6.0",
+        "UCIe",
+        "MIPI",
+        "칩렛",
+        "인터커넥트 IP"
       ],
-      "companies": [],
-      "event_type": "지역·인프라",
-      "confirmed": false,
-      "parties": [],
-      "importance": 1,
-      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "companies": [
+        "퀄리타스반도체"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "퀄리타스반도체"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-11-06T00:10:18Z",
-      "updated_at": "2026-11-06T05:53:36Z",
+      "first_seen": "2026-11-06T06:06:17Z",
+      "updated_at": "2026-11-06T06:06:17Z",
       "articles": [
         {
-          "key": "34aaf4d8906be550",
-          "title": "아산시, 디스플레이 연구플랫폼에 '제2 실리콘밸리 도약' 기대",
-          "url": "https://www.yna.co.kr/view/AKR20261106038400063",
-          "source": "연합뉴스",
+          "key": "7c18837e9d9e419f",
+          "title": "퀄리타스반도체, 中 'ICCAD 2026'서 초고속 인터페이스 IP 솔루션 공개",
+          "url": "https://zdnet.co.kr/view/?no=20261106141715",
+          "source": "ZDNet Korea",
           "lang": "ko",
-          "published_at": "2026-11-06T00:10:18Z"
-        },
-        {
-          "key": "0b2f16097ae2d7c2",
-          "title": "3천688억원 디스플레이 연구거점 아산에…기업 지원체계도 강화(종합)",
-          "url": "https://www.yna.co.kr/view/AKR20261106038451063",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-06T05:53:36Z"
+          "published_at": "2026-11-06T06:06:17Z"
         }
       ],
       "type_checked": true,
-      "importance_raw": 1
+      "importance_raw": 2
     },
     {
       "id": "c20261106-0571",
