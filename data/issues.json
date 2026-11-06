@@ -1,7 +1,294 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T15:59:59Z",
+  "updated_at": "2026-11-06T17:04:31Z",
   "issues": [
+    {
+      "id": "c20261106-0601",
+      "headline": "영국 반도체 역설: 혁신은 세계적이나 가치 포획은 부진",
+      "summary": [
+        "영국 반도체 산업의 혁신 역량과 가치 포획 문제를 짚은 DigiTimes 분석 기사가 나왔다.",
+        "기사 본문은 이미지 크레딧 문구만 확인되어 구체적 수치나 일정은 파악되지 않는다.",
+        "업계 관점에서 기술 우위가 생산·수익으로 이어지지 않는 구조적 과제를 생각해볼 만하다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "영국 반도체",
+        "기술 혁신",
+        "가치 사슬",
+        "산업 분석"
+      ],
+      "companies": [],
+      "event_type": "칼럼·인터뷰",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "칼럼·인터뷰 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T17:00:00Z",
+      "updated_at": "2026-11-06T17:00:00Z",
+      "articles": [
+        {
+          "key": "fc564d59a24feb97",
+          "title": "Analysis: Britain's semiconductor paradox—world-class innovation, but who captures the value?",
+          "url": "https://www.digitimes.com/news/a20261106VL200/uk-manufacturing-design-materials-commercial.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-06T17:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
+    {
+      "id": "c20261106-0600",
+      "headline": "마이크론 이사 린니 헤인스워스 은퇴, 이사회 8명 체제로",
+      "summary": [
+        "마이크론의 린니 헤인스워스 이사가 2027년 1월 14일 예정 주주총회를 끝으로 이사회에서 물러난다고 발표했다.",
+        "그녀는 2021년 2월 합류해 보안위원회를 2024~2026년 위원장으로 이끌었고, 현재 감사위원회와 보상위원회에 속해 있다.",
+        "이번 퇴임으로 마이크론 이사회는 8명이 되며, 사이버보안 거버넌스 공백 우려는 제한적인 이사회 사안이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "이사회",
+        "지배구조",
+        "사이버보안",
+        "주주총회"
+      ],
+      "companies": [
+        "마이크론"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "마이크론"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T16:15:18Z",
+      "updated_at": "2026-11-06T16:15:18Z",
+      "articles": [
+        {
+          "key": "e4cdf178f39c9b4b",
+          "title": "Micron Announces Board of Directors Retirement",
+          "url": "https://www.semiconductor-digest.com/micron-announces-board-of-directors-retirement/?utm_source=rss&utm_medium=rss&utm_campaign=micron-announces-board-of-directors-retirement",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-06T16:15:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261106-0599",
+      "headline": "에울리타, AI 데이터센터용 광원 노광장비 수주 급증",
+      "summary": [
+        "에울리타가 AI 데이터센터용 InP DFB 레이저 생산 파운드리에 자동화 노광 장비를 다수 납품했다고 발표했다.",
+        "수주 잔고가 2028년 중반까지 생산 능력을 가득 채울 만큼 쌓였으며, 2025년 이후 물량이 크게 늘었다고 밝혔다.",
+        "AI 칩 간 고속 데이터 전송용 광통신 수요가 커지면서 DFB 레이저 격자 패터닝 장비 시장에도 수요가 몰리는 흐름이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "DFB 레이저",
+        "DUV 노광",
+        "InP",
+        "CPO",
+        "광통신",
+        "DTL 기술"
+      ],
+      "companies": [
+        "에울리타"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "에울리타"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T16:12:32Z",
+      "updated_at": "2026-11-06T16:12:32Z",
+      "articles": [
+        {
+          "key": "489606f8be3bdabb",
+          "title": "Eulitha Ramps Up Deliveries of Advanced Lithography Systems",
+          "url": "https://www.semiconductor-digest.com/eulitha-ramps-up-deliveries-of-advanced-lithography-systems/?utm_source=rss&utm_medium=rss&utm_campaign=eulitha-ramps-up-deliveries-of-advanced-lithography-systems",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-06T16:12:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261106-0598",
+      "headline": "한양대, 2차원 반도체 결정 생성 위치 제어 기술 개발",
+      "summary": [
+        "한양대 연구팀이 2차원 반도체 결정이 처음 형성되는 위치를 정밀하게 제어하는 방법을 개발했다.",
+        "연구팀은 산화물 장벽에서 나오는 산소로 결정 생성 지점을 조절해 400개 지점에서 99% 이상 단결정 성장을 구현했다.",
+        "대면적 단결정과 정렬된 구조를 만드는 데 기여해 차세대 전자소자 제조 기술로서 의미가 크다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "2차원 반도체",
+        "MoS2",
+        "핵생성 제어",
+        "단결정 성장",
+        "나노 공정"
+      ],
+      "companies": [
+        "한양대학교"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "한양대"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T16:05:05Z",
+      "updated_at": "2026-11-06T16:05:05Z",
+      "articles": [
+        {
+          "key": "8551bd82e87fa830",
+          "title": "Hanyang University Researchers Gain Control Over Where Semiconductor Crystals First Form",
+          "url": "https://www.semiconductor-digest.com/hanyang-university-researchers-gain-control-over-where-semiconductor-crystals-first-form/?utm_source=rss&utm_medium=rss&utm_campaign=hanyang-university-researchers-gain-control-over-where-semiconductor-crystals-first-form",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-06T16:05:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261106-0597",
+      "headline": "다이아몬드 파운드리, 200mm 단결정 다이아몬드 웨이퍼 구현",
+      "summary": [
+        "다이아몬드 파운드리가 지름 200mm의 단결정 다이아몬드 제작에 성공했다고 발표했다.",
+        "기존 다이아몬드 기술의 한계였던 크기 문제를 해결했으며, 조각을 이은 것이 아닌 단일 결정이라고 밝혔다.",
+        "반도체 규모에서 다이아몬드를 소재로 활용할 가능성을 넓혔다는 점에서 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "단결정 다이아몬드",
+        "D200mm",
+        "반도체 소재",
+        "열전도율",
+        "결정 성장"
+      ],
+      "companies": [
+        "다이아몬드 파운드리"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "다이아몬드 파운드리"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T16:03:48Z",
+      "updated_at": "2026-11-06T16:03:48Z",
+      "articles": [
+        {
+          "key": "a2899d7e48e17f1b",
+          "title": "Diamond Foundry Announces First-Ever D200mm Single-Crystal Diamond",
+          "url": "https://www.semiconductor-digest.com/diamond-foundry-announces-first-ever-d200mm-single-crystal-diamond/?utm_source=rss&utm_medium=rss&utm_campaign=diamond-foundry-announces-first-ever-d200mm-single-crystal-diamond",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-06T16:03:48Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261106-0548",
+      "headline": "정부, 3689억 규모 차세대 디스플레이 연구플랫폼 예타 통과",
+      "summary": [
+        "정부가 2027년부터 7년간 총 약 3689억원 규모의 차세대 디스플레이 국가연구플랫폼을 추진한다.",
+        "국비 약 2800억원 규모이며, 올레드 고도화·융합·포스트 올레드 기술과 설계부터 패널 검증까지 시험 인프라를 구축한다.",
+        "예비타당성조사를 통과한 것으로 확인되어 차세대 디스플레이 기술 확보와 산업 경쟁력 강화에 기여할 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "포스트 올레드",
+        "디스플레이 연구플랫폼",
+        "예비타당성조사",
+        "올레드",
+        "국가연구개발"
+      ],
+      "companies": [
+        "디스플레이협회"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 3,
+      "importance_reason": "지역·인프라 2점, 매체 3곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-06T00:10:18Z",
+      "updated_at": "2026-11-06T15:00:04Z",
+      "articles": [
+        {
+          "key": "34aaf4d8906be550",
+          "title": "아산시, 디스플레이 연구플랫폼에 '제2 실리콘밸리 도약' 기대",
+          "url": "https://www.yna.co.kr/view/AKR20261106038400063",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-06T00:10:18Z"
+        },
+        {
+          "key": "0b2f16097ae2d7c2",
+          "title": "3천688억원 디스플레이 연구거점 아산에…기업 지원체계도 강화(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261106038451063",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-06T05:53:36Z"
+        },
+        {
+          "key": "12ae3da22781f204",
+          "title": "디스플레이협회 \"3689억 국가연구플랫폼 예타 통과 환영\"",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65034",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-06T06:43:23Z"
+        },
+        {
+          "key": "c6c7bcf770a2bafb",
+          "title": "Korea to fund $274 million into a new display research platform, focused on OLED and post-OLED technologies",
+          "url": "https://www.oled-info.com/korea-approves-274-million-national-display-research-platform-focused-oled-and",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-06T15:00:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261106-0596",
       "headline": "GlobalFoundries, EUV 없이 7나노급 FDX Fusion 기술 공개",
@@ -1095,65 +1382,6 @@
           "source": "연합뉴스",
           "lang": "ko",
           "published_at": "2026-11-06T06:57:30Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261106-0548",
-      "headline": "3688억 디스플레이 국가연구플랫폼 예타 통과",
-      "summary": [
-        "정부의 첨단 디스플레이 국가연구플랫폼 구축사업이 예비타당성조사를 통과했다.",
-        "2027년부터 2033년까지 총 3688억7000만원이 투입되며 국비는 2789억원이다.",
-        "패널 설계부터 공정·모듈까지 검증하는 연구 인프라로 업계 경쟁력 강화에 기여할 전망이다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "국가연구플랫폼",
-        "예비타당성조사",
-        "디스플레이 연구개발",
-        "1만ppi",
-        "아산"
-      ],
-      "companies": [
-        "한국디스플레이산업협회"
-      ],
-      "event_type": "지역·인프라",
-      "confirmed": true,
-      "parties": [],
-      "importance": 2,
-      "importance_reason": "지역·인프라 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-06T00:10:18Z",
-      "updated_at": "2026-11-06T06:43:23Z",
-      "articles": [
-        {
-          "key": "34aaf4d8906be550",
-          "title": "아산시, 디스플레이 연구플랫폼에 '제2 실리콘밸리 도약' 기대",
-          "url": "https://www.yna.co.kr/view/AKR20261106038400063",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-06T00:10:18Z"
-        },
-        {
-          "key": "0b2f16097ae2d7c2",
-          "title": "3천688억원 디스플레이 연구거점 아산에…기업 지원체계도 강화(종합)",
-          "url": "https://www.yna.co.kr/view/AKR20261106038451063",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-06T05:53:36Z"
-        },
-        {
-          "key": "12ae3da22781f204",
-          "title": "디스플레이협회 \"3689억 국가연구플랫폼 예타 통과 환영\"",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65034",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-06T06:43:23Z"
         }
       ],
       "type_checked": true,
