@@ -1,7 +1,275 @@
 {
   "version": 1,
-  "updated_at": "2026-11-05T23:54:08Z",
+  "updated_at": "2026-11-06T01:25:17Z",
   "issues": [
+    {
+      "id": "c20261106-0553",
+      "headline": "SK하이닉스, 산업보건 선진화 위원회 10년 성과 공유",
+      "summary": [
+        "SK하이닉스는 지난 5일 서울 워커힐 호텔에서 산업보건 선진화 지속위원회 성과공유회를 열었다.",
+        "행사에서는 위원회가 10년간 추진해 온 산업보건 활동을 점검했다.",
+        "산업 현장의 근로자 건강 관리 체계를 되돌아보는 자리로, 구체적 수치는 기사에 나오지 않았다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "산업보건",
+        "안전관리",
+        "근로자 건강",
+        "ESG"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 2,
+      "importance_reason": "홍보·수상 1점, 관심 기업(SK하이닉스) +1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T01:15:12Z",
+      "updated_at": "2026-11-06T01:15:12Z",
+      "articles": [
+        {
+          "key": "279ef7b5304785c5",
+          "title": "SK하이닉스, 산업보건 선진화 성과공유회…10년간 활동 점검",
+          "url": "https://www.yna.co.kr/view/AKR20261106063600003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-06T01:15:12Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261106-0552",
+      "headline": "제이앤티씨, 엔비디아 TGV 유리기판 공급사 등록",
+      "summary": [
+        "제이앤티씨가 엔비디아의 TGV 유리기판 공급사로 등록됐고 지난달 구매 명단에 올랐다.",
+        "2mm 두께 글래스코어 포함 TGV 유리기판을 유상 샘플로 공급 중이며 브로드컴에 이은 두 번째 미국 대형 고객이다.",
+        "엔비디아와 제품 사양 협의가 이뤄져 차세대 패키지 기판 시장에서 유리기판 공급 기회가 커질 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "TGV",
+        "유리기판",
+        "글래스코어",
+        "패키지기판",
+        "엔비디아"
+      ],
+      "companies": [
+        "제이앤티씨",
+        "엔비디아",
+        "브로드컴"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "제이앤티씨",
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T01:12:39Z",
+      "updated_at": "2026-11-06T01:12:39Z",
+      "articles": [
+        {
+          "key": "8f3a5641c607622b",
+          "title": "제이앤티씨, 엔비디아 유리기판 공급사 등록",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64955",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-06T01:12:39Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261106-0551",
+      "headline": "나인테크, TCL CSOT 8.6세대 OLED 라인에 이송장비 공급",
+      "summary": [
+        "나인테크가 중국 TCL CSOT의 8.6세대 잉크젯 OLED 양산라인에 기판 물류 이송장비를 공급한다고 밝혔다.",
+        "LG전자와 지난 6월 체결한 254억원 규모 장비 공급계약에 따른 것으로, 장비는 LG전자를 거쳐 TCL CSOT 라인에 설치된다.",
+        "중국 패널업체 양산라인에 국내 장비가 들어가는 사례로, 나인테크의 디스플레이 장비 입지를 보여준다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "8.6세대 OLED",
+        "잉크젯 OLED",
+        "기판 이송장비",
+        "진공 물류 시스템"
+      ],
+      "companies": [
+        "나인테크",
+        "TCL CSOT",
+        "LG전자"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "나인테크",
+        "LG전자",
+        "TCL CSOT"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 관심 기업(LG전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T00:45:01Z",
+      "updated_at": "2026-11-06T00:45:01Z",
+      "articles": [
+        {
+          "key": "1d90aff61fb477b7",
+          "title": "나인테크, 中 TCL CSOT에 OLED 이송장비 공급",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65005",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-06T00:45:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261106-0550",
+      "headline": "램리서치 한국법인 신임 대표에 김태원 선임",
+      "summary": [
+        "글로벌 반도체 장비업체 램리서치가 한국법인 총괄 대표이사에 김태원 신임 대표를 선임했다.",
+        "기사에는 선임 시기 외 구체적 일정이나 세부 권한에 대한 내용이 나오지 않았다.",
+        "국내 장비 업계에서 경영진 교체에 따른 사업 방향 변화 여부가 주목된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "램리서치",
+        "한국법인",
+        "대표이사 선임",
+        "경영진 교체"
+      ],
+      "companies": [
+        "램리서치"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "램리서치"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T00:38:20Z",
+      "updated_at": "2026-11-06T00:38:20Z",
+      "articles": [
+        {
+          "key": "190a275b5e313f3d",
+          "title": "램리서치, 한국법인 총괄 대표이사에 김태원 선임",
+          "url": "https://www.yna.co.kr/view/AKR20261106046100003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-06T00:38:20Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261106-0549",
+      "headline": "AI 데이터센터 우려에 삼성·SK하이닉스 급락, 코스피 5000 붕괴",
+      "summary": [
+        "미국발 기술주 급락 여파로 반도체 대형주가 장중 약 10% 급락했고 코스피는 5000선 아래로 밀렸다.",
+        "코스피는 2.2% 하락 출발했고 개장 3분 만에 매매 거래가 20분간 정지되는 서킷브레이커가 발동됐다.",
+        "AI 데이터센터 투자 불안이 메모리 업종 전반의 투자심리를 흔들고 있어 단기 변동성이 커질 전망이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 데이터센터",
+        "서킷브레이커",
+        "코스피",
+        "반도체 주가",
+        "투자심리"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": true,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T00:28:13Z",
+      "updated_at": "2026-11-06T00:28:13Z",
+      "articles": [
+        {
+          "key": "361ea2f9e2782bec",
+          "title": "Samsung, SK hynix slide 10% as AI data center fears spread",
+          "url": "https://www.koreaherald.com/article/10927984",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-06T00:28:13Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261106-0548",
+      "headline": "아산 디스플레이 국가연구플랫폼 구축, 지역 산업 거점 기대",
+      "summary": [
+        "충남 아산시가 탕정테크노일반산업단지에 첨단 디스플레이 국가연구플랫폼을 구축하는 사업을 추진하고 있다.",
+        "기사 본문이 일부만 제공되어 구체적인 예산과 일정은 확인되지 않는다.",
+        "지자체가 디스플레이 연구 거점을 키워 제2의 실리콘밸리 도약을 노리는 흐름으로 볼 수 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "디스플레이",
+        "국가연구플랫폼",
+        "탕정테크노산업단지",
+        "아산시"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T00:10:18Z",
+      "updated_at": "2026-11-06T00:10:18Z",
+      "articles": [
+        {
+          "key": "34aaf4d8906be550",
+          "title": "아산시, 디스플레이 연구플랫폼에 '제2 실리콘밸리 도약' 기대",
+          "url": "https://www.yna.co.kr/view/AKR20261106038400063",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-06T00:10:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261105-0547",
       "headline": "무라타-맥스센드 RF칩 특허 분쟁, 삼성 구형 갤럭시에 파장",
