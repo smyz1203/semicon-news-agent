@@ -1,7 +1,63 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T11:17:05Z",
+  "updated_at": "2026-11-06T12:06:54Z",
   "issues": [
+    {
+      "id": "c20261106-0595",
+      "headline": "LG디스플레이, 중국 PC방 겨냥 WOLED 게이밍 패널 공급 확대",
+      "summary": [
+        "LG디스플레이가 중국 PC방·게이밍 호텔 시장을 겨냥해 WOLED 게이밍 모니터 패널 공급을 늘리고 있다.",
+        "ANTGAMER 등과 협력하며 24.5인치 540Hz WOLED 패널을 공급하고, 4세대 프라이머리 RGB 탠덤 기술을 선보였다.",
+        "프리미엄 게이밍 모니터 시장에서 탠덤 WOLED와 DFR 기술로 수요를 넓히려는 전략으로 읽힌다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "WOLED",
+        "게이밍 모니터",
+        "탠덤 WOLED",
+        "DFR",
+        "540Hz"
+      ],
+      "companies": [
+        "LG디스플레이",
+        "HKC",
+        "ANTGAMER",
+        "AOC",
+        "ViewSonic",
+        "ASUS",
+        "삼성디스플레이"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이",
+        "HKC",
+        "ANTGAMER",
+        "AOC",
+        "ViewSonic",
+        "ASUS"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 관심 기업(LG디스플레이) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T12:00:03Z",
+      "updated_at": "2026-11-06T12:00:03Z",
+      "articles": [
+        {
+          "key": "2be8b797f0984c91",
+          "title": "LG Display targets China's internet cafes with WOLED gaming panels, days after Samsung's QD-OLED cafe program",
+          "url": "https://www.oled-info.com/lg-display-targets-chinas-internet-cafes-woled-gaming-panels-days-after",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-06T12:00:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
     {
       "id": "c20261105-0532",
       "headline": "마이크론 대만 신공장 건설 중단, 노사 보상 갈등 여파",
@@ -98,6 +154,57 @@
       ],
       "type_checked": true,
       "importance_raw": 1
+    },
+    {
+      "id": "c20261106-0594",
+      "headline": "AI 데이터센터發 반도체 가격 폭등에 자동차 업계 비상",
+      "summary": [
+        "아우모비오는 AI 데이터센터 수요로 내년 반도체 가격이 폭발적으로 오를 것이라고 밝혔다.",
+        "내년 반도체·메모리·PCB 등 원재료 가격 상승으로 최소 10억 유로 비용 부담이 예상된다.",
+        "자동차 업계는 공급 확보와 원가 부담 가중으로 수익성 압박을 받을 것으로 보인다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "AI 데이터센터",
+        "반도체 가격 상승",
+        "메모리 공급 부족",
+        "HBM",
+        "자동차 반도체"
+      ],
+      "companies": [
+        "아우모비오",
+        "삼성전자",
+        "SK하이닉스",
+        "BMW",
+        "폭스바겐",
+        "포드",
+        "BYD"
+      ],
+      "event_type": "가격 동향",
+      "confirmed": true,
+      "parties": [
+        "아우모비오"
+      ],
+      "importance": 3,
+      "importance_reason": "가격 동향 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T10:42:04Z",
+      "updated_at": "2026-11-06T10:42:04Z",
+      "articles": [
+        {
+          "key": "8779c301548cb886",
+          "title": "AI가 반도체 쓸어가자 자동차업계 '비상'…내년 가격 폭등 경고",
+          "url": "https://zdnet.co.kr/view/?no=20261106194204",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-06T10:42:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261106-0592",
