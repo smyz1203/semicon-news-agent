@@ -1,7 +1,53 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T21:53:38Z",
+  "updated_at": "2026-11-06T22:54:07Z",
   "issues": [
+    {
+      "id": "c20261106-0604",
+      "headline": "중국 YMTC, 자체 브랜드로 한국 SSD 소비자 시장 공략 확대",
+      "summary": [
+        "중국 낸드 업체 YMTC가 자체 브랜드 지타이로 한국 소비자용 SSD 판매를 넓히고 있다.",
+        "올해 6월 국내에 재진출했고 이후 보급형 제품을 추가하며 사후서비스 체계를 갖췄다.",
+        "국내 소비자 저장장치 시장에서 중국 업체와의 경쟁이 커질 수 있다는 의미가 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "YMTC",
+        "지타이",
+        "소비자 SSD",
+        "낸드플래시",
+        "보급형 SSD"
+      ],
+      "companies": [
+        "YMTC",
+        "삼성전자"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "YMTC"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T22:00:00Z",
+      "updated_at": "2026-11-06T22:00:00Z",
+      "articles": [
+        {
+          "key": "d4b8a2c92ebc3ff7",
+          "title": "삼성 안방 다시 노리는 中 YMTC…한국서 소비자 SSD 판매 확대",
+          "url": "https://www.inews24.com/view/2023679",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-06T22:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261106-0603",
       "headline": "미 중간선거 후 AI 데이터센터 규제 우려 부상",
