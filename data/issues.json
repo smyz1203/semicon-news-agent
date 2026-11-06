@@ -1,7 +1,495 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T07:31:03Z",
+  "updated_at": "2026-11-06T09:09:56Z",
   "issues": [
+    {
+      "id": "c20261106-0588",
+      "headline": "애플 아이폰 듀오 화면 결함 인정, 무상 교체 지연 논란",
+      "summary": [
+        "애플이 첫 폴더블 스마트폰 아이폰 듀오의 디스플레이 결함을 인정하고 무상 교체를 진행 중이다.",
+        "일부 소비자가 교체 지연과 보증 적용 과정에서 불편을 겪고 있는 것으로 전해졌다.",
+        "폴더블 제품의 초기 디스플레이 품질 문제가 애플의 신제품 신뢰도에 부담이 될 수 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "폴더블",
+        "아이폰 듀오",
+        "디스플레이 결함",
+        "무상 교체"
+      ],
+      "companies": [
+        "애플"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "애플"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T09:02:52Z",
+      "updated_at": "2026-11-06T09:02:52Z",
+      "articles": [
+        {
+          "key": "ec1197d2634ad5ac",
+          "title": "애플, '아이폰 듀오' 화면 결함 인정…일부 교체 지연",
+          "url": "https://www.inews24.com/view/2023604",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-06T09:02:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261106-0550",
+      "headline": "램리서치, 한국법인 신임 대표에 김태원 선임",
+      "summary": [
+        "미국 장비업체 램리서치가 한국법인 총괄 대표이사에 김태원 신임 대표를 선임했다고 밝혔다.",
+        "김 대표는 약 25년간 회사에 몸담은 박준홍 전 대표의 뒤를 이어 한국 사업을 총괄하게 된다.",
+        "이번 인사는 국내 반도체 장비 시장에서 현지 사업 운영 체제가 바뀌는 신호로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "램리서치",
+        "한국법인",
+        "경영진 교체",
+        "반도체 장비"
+      ],
+      "companies": [
+        "램리서치"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "램리서치"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 매체 4곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T00:30:00Z",
+      "updated_at": "2026-11-06T09:00:16Z",
+      "articles": [
+        {
+          "key": "59f3502749dd90bd",
+          "title": "램리서치, 김태원 신임 한국법인 총괄 대표이사 선임",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343057",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-06T00:30:00Z"
+        },
+        {
+          "key": "190a275b5e313f3d",
+          "title": "램리서치, 한국법인 총괄 대표이사에 김태원 선임",
+          "url": "https://www.yna.co.kr/view/AKR20261106046100003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-06T00:38:20Z"
+        },
+        {
+          "key": "49327c8d8384fd13",
+          "title": "램리서치코리아, 신임 총괄대표에 '20년 기술통' 김태원 선임",
+          "url": "https://zdnet.co.kr/view/?no=20261106095433",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-06T01:04:56Z"
+        },
+        {
+          "key": "4fd43541a1cfb3e9",
+          "title": "램리서치, 한국법인 총괄 대표에 김태원 선임",
+          "url": "https://www.inews24.com/view/2023634",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-06T09:00:16Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261106-0587",
+      "headline": "신성이엔지 3분기 누적 흑자 전환, ENG 수주 역대 최대",
+      "summary": [
+        "반도체 클린룸 설비업체 신성이엔지가 올해 3분기 누적 영업이익 흑자 전환에 성공했다.",
+        "삼성전자와 SK하이닉스 등 주요 반도체사의 설비투자 재개가 실적 회복을 이끌었다.",
+        "클린환경 사업부문 누적 수주액이 역대 최대를 기록해 반도체 설비 투자 회복 신호로 읽힌다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "클린룸",
+        "ENG 사업",
+        "설비투자",
+        "영업이익 흑자전환",
+        "수주"
+      ],
+      "companies": [
+        "신성이엔지",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "신성이엔지"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T08:59:58Z",
+      "updated_at": "2026-11-06T08:59:58Z",
+      "articles": [
+        {
+          "key": "7245ce2c7f64ec02",
+          "title": "신성이엔지, 3분기 누적 영업익 흑자 전환…ENG 수주 역대 최대",
+          "url": "https://www.inews24.com/view/2023643",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-06T08:59:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261106-0586",
+      "headline": "문샤인AI, 유럽 네오클라우드 통해 엔비디아 GPU 확보 추진",
+      "summary": [
+        "중국 AI 기업 문샤인AI가 유럽 네오클라우드를 통해 엔비디아 GPU 접근을 추진하는 것으로 전해졌다.",
+        "기사 본문은 사진 크레딧만 있어 구체적인 물량, 계약 규모, 일정은 확인되지 않는다.",
+        "수출 규제를 우회하려는 시도로 해석될 수 있어 GPU 공급망과 규제 논란에 영향을 줄 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엔비디아 GPU",
+        "네오클라우드",
+        "수출규제",
+        "AI 인프라"
+      ],
+      "companies": [
+        "문샤인AI",
+        "엔비디아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "문샤인AI"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T08:59:43Z",
+      "updated_at": "2026-11-06T08:59:43Z",
+      "articles": [
+        {
+          "key": "bd3c1af5bbabd311",
+          "title": "Moonshot AI reportedly seeking access to Nvidia GPUs through European neoclouds",
+          "url": "https://www.digitimes.com/news/a20261106VL219/moonshot-nvidia-chips-blackwell-data.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-06T08:59:43Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261106-0585",
+      "headline": "YMTC, 신규 NAND 팹에 중국산 장비 최대 70% 도입 추진",
+      "summary": [
+        "YMTC가 신규 NAND 팹에 중국산 장비를 최대 70%까지 채택하는 방향을 추진하는 것으로 전해졌다.",
+        "기사 본문이 제공되지 않아 구체적인 투자 규모와 일정은 확인할 수 없다.",
+        "장비 국산화 목표가 현실화되면 중국 메모리 업체의 공급망 자립도가 높아질 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "NAND",
+        "중국산 장비",
+        "장비 국산화",
+        "YMTC"
+      ],
+      "companies": [
+        "YMTC"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "YMTC"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T08:55:28Z",
+      "updated_at": "2026-11-06T08:55:28Z",
+      "articles": [
+        {
+          "key": "92af17d86b6e9159",
+          "title": "YMTC targets up to 70% Chinese tools for new NAND fab",
+          "url": "https://www.digitimes.com/news/a20261106VL217/ymtc-nand-equipment-manufacturing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-06T08:55:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261106-0584",
+      "headline": "아바코 3분기 적자 지속, 4분기 흑자전환 기대",
+      "summary": [
+        "아바코가 올해 1~3분기 연속 영업적자를 기록했다고 6일 밝혔다.",
+        "3분기 매출은 473억원, 영업손실은 46억원으로 지난해 같은 기간보다 매출이 6% 줄었다.",
+        "OLED 장비 출하가 10월 말부터 시작돼 4분기 흑자전환 전망이 나온다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "OLED 장비",
+        "실적 부진",
+        "흑자전환",
+        "장비 출하"
+      ],
+      "companies": [
+        "아바코"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "아바코"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T08:39:16Z",
+      "updated_at": "2026-11-06T08:39:16Z",
+      "articles": [
+        {
+          "key": "98ac214579c9faa9",
+          "title": "아바코, 3개 분기 연속 적자…4분기 흑자전환 전망",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65046",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-06T08:39:16Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261106-0583",
+      "headline": "삼성전자 노태문 대표, 자사주 3천주 매입",
+      "summary": [
+        "삼성전자 노태문 대표이사 겸 DX부문장이 자사주 3천주를 매입했다고 알려졌다.",
+        "매입 규모는 약 6억3천만원이며, 최근 주가 급락 상황에서 이뤄졌다.",
+        "경영진의 자사주 매입은 주가 방어 및 회사 가치에 대한 자신감 신호로 해석될 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "자사주 매입",
+        "주가 급락",
+        "경영진 지분",
+        "삼성전자"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "재무·주주 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T08:16:38Z",
+      "updated_at": "2026-11-06T08:16:38Z",
+      "articles": [
+        {
+          "key": "5056e1c0d7f6c02f",
+          "title": "삼성전자 노태문, 자사주 3천주 매입…6억3천만원 규모",
+          "url": "https://www.yna.co.kr/view/AKR20261106157500003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-06T08:16:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261106-0552",
+      "headline": "엔비디아, 제이앤티씨 유리기판 샘플 구매 보도",
+      "summary": [
+        "엔비디아가 한국 제이앤티씨의 유리기판 샘플을 구매한 것으로 보도됐다.",
+        "기사에는 구매 규모나 납품 일정에 대한 구체적 수치는 나타나지 않았다.",
+        "AI 반도체 패키징 소재로 유리기판이 쓰이는 흐름에서 국내 공급망 참여 가능성을 보여준다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "유리기판",
+        "AI반도체",
+        "패키징",
+        "샘플 공급"
+      ],
+      "companies": [
+        "제이앤티씨",
+        "엔비디아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "제이앤티씨",
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-06T01:12:39Z",
+      "updated_at": "2026-11-06T08:04:38Z",
+      "articles": [
+        {
+          "key": "8f3a5641c607622b",
+          "title": "제이앤티씨, 엔비디아 유리기판 공급사 등록",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64955",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-06T01:12:39Z"
+        },
+        {
+          "key": "674fefb2e5b1c680",
+          "title": "Nvidia reportedly buys glass substrate samples from Korea's JNTC",
+          "url": "https://www.digitimes.com/news/a20261106VL216/jntc-nvidia-glass-substrate-supplier-manufacturing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-06T08:04:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261106-0582",
+      "headline": "삼성·SK하이닉스 HBM 중국 우회 유입 의혹과 삼성 파운드리 증설 보도",
+      "summary": [
+        "HBM이 저성능 서버 칩과 묶여 중국으로 밀반입된 뒤 메모리만 빼돌려 재판매된다는 보도가 나왔다.",
+        "엔비디아 H200 약 60만 개가 홍콩에서 중국 반출 승인을 기다리는 중이며, 마이크론은 대만 공장 공사를 중단했다고 전해졌다.",
+        "삼성전자는 기흥 신규 팹과 테일러 2나노 HBM 베이스다이 생산을 추진 중이나 공식 확인은 없어 투자 신호로 주목된다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM",
+        "수출규제",
+        "HBM 베이스다이",
+        "2나노",
+        "HBM 밀수"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "엔비디아",
+        "AMD",
+        "마이크론",
+        "화웨이"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "AMD",
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T08:01:01Z",
+      "updated_at": "2026-11-06T08:01:01Z",
+      "articles": [
+        {
+          "key": "0ffacf6e8c249ee3",
+          "title": "Chip Industry Week In Review",
+          "url": "https://semiengineering.com/chip-industry-week-in-review-163/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-06T08:01:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261106-0581",
+      "headline": "내년 OLED 아이패드 패널 물량, 삼성디스플레이 중심 재편",
+      "summary": [
+        "애플은 내년 상반기 OLED 아이패드 에어를 출시하며 OLED 아이패드 라인업을 5종으로 늘릴 예정이다.",
+        "모델별 출하 전망은 프로 300만~400만대, 미니 400만~500만대, 에어 400만~500만대이며 삼성디스플레이가 전체 물량을 주도한다.",
+        "OLED 아이패드 프로의 판매 부진이 이어지면서 패널 업체 간 물량 조정이 예상되고, LG디스플레이는 프로 물량 점유율이 높아질 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED 아이패드",
+        "아이패드 에어",
+        "패널 물량",
+        "LTPO",
+        "탠덤 OLED"
+      ],
+      "companies": [
+        "애플",
+        "삼성디스플레이",
+        "LG디스플레이",
+        "BOE"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T07:47:26Z",
+      "updated_at": "2026-11-06T07:47:26Z",
+      "articles": [
+        {
+          "key": "a6b0d0ef4a643eb9",
+          "title": "내년 아이패드 OLED 물량은...미니용은 삼성D가 공급",
+          "url": "https://zdnet.co.kr/view/?no=20261105152253",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-06T07:47:26Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261106-0579",
       "headline": "전남광주, 호남권 반도체 국가산단 기반시설 확보 추진",
@@ -1286,115 +1774,6 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261106-0552",
-      "headline": "제이앤티씨, 엔비디아 TGV 유리기판 공급사 등록",
-      "summary": [
-        "제이앤티씨가 엔비디아의 TGV 유리기판 공급사로 등록됐고 지난달 구매 명단에 올랐다.",
-        "2mm 두께 글래스코어 포함 TGV 유리기판을 유상 샘플로 공급 중이며 브로드컴에 이은 두 번째 미국 대형 고객이다.",
-        "엔비디아와 제품 사양 협의가 이뤄져 차세대 패키지 기판 시장에서 유리기판 공급 기회가 커질 전망이다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "TGV",
-        "유리기판",
-        "글래스코어",
-        "패키지기판",
-        "엔비디아"
-      ],
-      "companies": [
-        "제이앤티씨",
-        "엔비디아",
-        "브로드컴"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "제이앤티씨",
-        "엔비디아"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-06T01:12:39Z",
-      "updated_at": "2026-11-06T01:12:39Z",
-      "articles": [
-        {
-          "key": "8f3a5641c607622b",
-          "title": "제이앤티씨, 엔비디아 유리기판 공급사 등록",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=64955",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-06T01:12:39Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261106-0550",
-      "headline": "램리서치 한국법인 신임 대표에 김태원 선임",
-      "summary": [
-        "램리서치가 식각·CVD 분야 기술통인 김태원 전 식각 제품 그룹 임원을 한국법인 총괄 대표이사로 선임했다.",
-        "김 신임 대표는 2008년 램리서치 합류 후 생산성 솔루션과 공정 개발 등을 거쳤으며, 박준홍 전 대표의 뒤를 잇는다.",
-        "고객 밀착 전략으로 한국 사업을 키워온 인사 교체로, 국내 고객사 협력 강화가 관건이 될 전망이다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "경영진 교체",
-        "식각",
-        "CVD",
-        "고객 밀착"
-      ],
-      "companies": [
-        "램리서치",
-        "램리서치코리아"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "램리서치"
-      ],
-      "importance": 4,
-      "importance_reason": "경영진 교체 3점, 매체 3곳 보도 +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-06T00:30:00Z",
-      "updated_at": "2026-11-06T01:04:56Z",
-      "articles": [
-        {
-          "key": "59f3502749dd90bd",
-          "title": "램리서치, 김태원 신임 한국법인 총괄 대표이사 선임",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=343057",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-11-06T00:30:00Z"
-        },
-        {
-          "key": "190a275b5e313f3d",
-          "title": "램리서치, 한국법인 총괄 대표이사에 김태원 선임",
-          "url": "https://www.yna.co.kr/view/AKR20261106046100003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-06T00:38:20Z"
-        },
-        {
-          "key": "49327c8d8384fd13",
-          "title": "램리서치코리아, 신임 총괄대표에 '20년 기술통' 김태원 선임",
-          "url": "https://zdnet.co.kr/view/?no=20261106095433",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-06T01:04:56Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
-    },
-    {
       "id": "c20261106-0551",
       "headline": "나인테크, TCL CSOT 8.6세대 OLED 라인에 이송장비 공급",
       "summary": [
@@ -2167,6 +2546,50 @@
       ],
       "type_checked": true,
       "importance_raw": 2
+    },
+    {
+      "id": "c20261106-0580",
+      "headline": "레이디움, 3분기 OLED 구동칩 매출 감소 속 2027년 전환 기대",
+      "summary": [
+        "대만 IC 설계사 레이디움이 2026년 3분기 실적을 발표했고 매출은 2억 달러로 전분기 대비 3.8% 줄었다.",
+        "중소형 AMOLED 구동칩 매출은 약 9200만 달러로 전분기보다 10% 가량 감소했고, 차량·산업용 칩은 23%로 사상 최고를 기록했다.",
+        "스마트폰 재고 확보가 끝나 수요가 둔화됐지만, 메모리 가격 상승이 2027년 OLED 폰 전환을 앞당길 것으로 내다봤다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "AMOLED 구동칩",
+        "OLED 스마트폰",
+        "메모리 가격",
+        "차량용 반도체"
+      ],
+      "companies": [
+        "레이디움"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "레이디움"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-05T13:47:43Z",
+      "updated_at": "2026-11-05T13:47:43Z",
+      "articles": [
+        {
+          "key": "d4c8bae4ec48566a",
+          "title": "Raydium's OLED driver sales dip in Q3, but it expects memory prices to speed the shift to OLED phones in 2027",
+          "url": "https://www.oled-info.com/raydiums-oled-driver-sales-dip-q3-it-expects-memory-prices-speed-shift-oled",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-05T13:47:43Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261105-0532",
