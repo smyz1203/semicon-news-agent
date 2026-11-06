@@ -1,7 +1,92 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T09:09:56Z",
+  "updated_at": "2026-11-06T10:16:39Z",
   "issues": [
+    {
+      "id": "c20261106-0590",
+      "headline": "유럽 반도체 산업, 위기인가 기회인가",
+      "summary": [
+        "기사는 유럽 반도체 산업의 현 상황을 다룬 칼럼 성격의 글로 보인다.",
+        "본문은 1991년 허리케인 그레이스 관련 기상 묘사로 시작해 구체적 사건 내용이 확인되지 않는다.",
+        "기사에 나온 수치나 기업 발표가 없어 산업적 의미를 특정하기 어렵다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "유럽 반도체",
+        "반도체 산업",
+        "칼럼"
+      ],
+      "companies": [],
+      "event_type": "칼럼·인터뷰",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "칼럼·인터뷰 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T09:53:05Z",
+      "updated_at": "2026-11-06T09:53:05Z",
+      "articles": [
+        {
+          "key": "215e35f0d4a4ba5f",
+          "title": "Europe’s Chip Industry: Perfect Storm or Perfect Timing?",
+          "url": "https://www.eetimes.com/europe-chip-industry-perfect-storm-or-perfect-timing/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-06T09:53:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
+    {
+      "id": "c20261106-0589",
+      "headline": "딥엑스 저발열 AI 칩, 현대차 로봇에 탑재 예정",
+      "summary": [
+        "팹리스 딥엑스가 CNBC 방송에서 저발열 AI 반도체 기술을 선보였다.",
+        "이 기술을 적용한 반도체는 현대자동차그룹의 로봇에도 탑재될 예정이다.",
+        "저전력·저발열 AI 칩이 로봇과 데이터센터 등 응용처를 넓힐 수 있음을 보여준다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "저발열 AI칩",
+        "온디바이스 AI",
+        "로봇 반도체",
+        "팹리스"
+      ],
+      "companies": [
+        "딥엑스",
+        "현대자동차그룹"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "딥엑스",
+        "현대자동차그룹"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T09:35:33Z",
+      "updated_at": "2026-11-06T09:35:33Z",
+      "articles": [
+        {
+          "key": "9ac6d1d8e0a327a0",
+          "title": "딥엑스 \"버터도 안 녹는 AI 칩\"…현대차 로봇에 탑재",
+          "url": "https://www.inews24.com/view/2023650",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-06T09:35:33Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261106-0588",
       "headline": "애플 아이폰 듀오 화면 결함 인정, 무상 교체 지연 논란",

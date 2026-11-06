@@ -1,36 +1,5 @@
 [
   {
-    "at": "2026-11-01T13:55:41Z",
-    "collected": 332,
-    "new": 66,
-    "relevant": 0,
-    "groups": 66,
-    "deferred": 66,
-    "irrelevant_by_ai": 0,
-    "new_issues": 0,
-    "summarized": 0,
-    "resummarized": 0,
-    "classified": 0,
-    "pending": 1,
-    "failed": 0,
-    "sources_ok": 18,
-    "sources_total": 18,
-    "ai_model": "openai/gpt-4o-mini",
-    "ai_calls": 0,
-    "tokens": {
-      "calls": 0,
-      "input": 0,
-      "output": 0,
-      "cache_write": 0,
-      "cache_read": 0
-    },
-    "cost_usd": 0.0,
-    "ai_stopped": "API 키 또는 모델 설정 문제 (AuthenticationError)",
-    "alerts": [
-      "AI 중단: API 키 또는 모델 설정 문제 (AuthenticationError)"
-    ]
-  },
-  {
     "at": "2026-11-01T14:50:02Z",
     "collected": 330,
     "new": 66,
@@ -2978,6 +2947,35 @@
       "cache_read": 49795
     },
     "cost_usd": 0.0159,
+    "ai_stopped": null,
+    "alerts": []
+  },
+  {
+    "at": "2026-11-06T10:16:39Z",
+    "collected": 687,
+    "new": 19,
+    "relevant": 2,
+    "groups": 2,
+    "deferred": 0,
+    "irrelevant_by_ai": 0,
+    "new_issues": 2,
+    "summarized": 2,
+    "resummarized": 0,
+    "classified": 0,
+    "pending": 0,
+    "failed": 0,
+    "sources_ok": 18,
+    "sources_total": 18,
+    "ai_model": "claude/claude-haiku-5-5",
+    "ai_calls": 9,
+    "tokens": {
+      "calls": 9,
+      "input": 3831,
+      "output": 1415,
+      "cache_write": 9390,
+      "cache_read": 9481
+    },
+    "cost_usd": 0.0024,
     "ai_stopped": null,
     "alerts": []
   }
