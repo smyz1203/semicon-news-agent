@@ -1,7 +1,48 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T20:57:34Z",
+  "updated_at": "2026-11-06T21:53:38Z",
   "issues": [
+    {
+      "id": "c20261106-0603",
+      "headline": "미 중간선거 후 AI 데이터센터 규제 우려 부상",
+      "summary": [
+        "미국 중간선거에서 민주당이 약진하며 AI 데이터센터 규제 강화 가능성이 제기됐다.",
+        "데이터센터가 막대한 전력과 용수를 쓰면서 지역사회 반발이 함께 거론되고 있다.",
+        "정치 지형 변화에도 AI 반도체 투자 기조는 유지될 것이라는 시각이 많아 업계 영향은 지켜봐야 한다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI 데이터센터",
+        "미국 중간선거",
+        "규제 강화",
+        "전력·용수",
+        "AI 반도체 투자"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T21:00:00Z",
+      "updated_at": "2026-11-06T21:00:00Z",
+      "articles": [
+        {
+          "key": "4f2eb4a896fe4b03",
+          "title": "[이상현의 전자수첩] 美 정치 지형 바뀌어도 AI는 간다…반도체 투자 대세론 굳건",
+          "url": "https://www.dt.co.kr/article/12093529",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-06T21:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261106-0602",
       "headline": "코스믹, SEMICON Europa 2026 참가해 테스트 솔루션 소개",
