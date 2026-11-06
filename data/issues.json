@@ -1,7 +1,47 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T04:06:55Z",
+  "updated_at": "2026-11-06T05:11:45Z",
   "issues": [
+    {
+      "id": "c20261106-0569",
+      "headline": "TV 패널 가격 11월 보합, 공급 조절이 관건",
+      "summary": [
+        "TV 패널 업체들이 수요 둔화에도 11월 패널 가격을 현 수준으로 유지하고 있다.",
+        "기사 본문이 제한적이라 구체적 가격 수치와 감산 규모는 확인되지 않는다.",
+        "공급 조절이 가격 방어의 핵심 변수로 꼽히며, 디스플레이 업황 회복 속도에 영향을 줄 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "TV 패널",
+        "패널 가격",
+        "공급 조절",
+        "수요 둔화"
+      ],
+      "companies": [],
+      "event_type": "가격 동향",
+      "confirmed": true,
+      "parties": [],
+      "importance": 3,
+      "importance_reason": "가격 동향 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T04:01:07Z",
+      "updated_at": "2026-11-06T04:01:07Z",
+      "articles": [
+        {
+          "key": "210a35669ae81a4f",
+          "title": "TV panel makers hold prices firm in November despite fading demand, with supply cuts proving crucial",
+          "url": "https://www.digitimes.com/news/a20261106PD232/tv-panel-demand-market-production-tv.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-06T04:01:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261106-0568",
       "headline": "중국 NSIG, 실리콘 웨이퍼 가격 반등에도 수익성 회복은 난항",
