@@ -1,7 +1,197 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T10:16:39Z",
+  "updated_at": "2026-11-06T11:17:05Z",
   "issues": [
+    {
+      "id": "c20261105-0532",
+      "headline": "마이크론 대만 신공장 건설 중단, 노사 보상 갈등 여파",
+      "summary": [
+        "마이크론이 노사 보상 갈등으로 대만 신공장 건설을 사실상 중단한 것으로 알려졌다.",
+        "기사에 따르면 클린룸 공사는 10월부터 멈춰 있는 상태로 보도됐다.",
+        "AI 반도체 수요 대응용 신규 생산시설 투자가 차질을 빚어 HBM 공급 확대에 부담이 될 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "마이크론",
+        "대만 신공장",
+        "노사 갈등",
+        "HBM",
+        "AI 반도체 투자"
+      ],
+      "companies": [
+        "마이크론"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "마이크론"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-05T12:35:55Z",
+      "updated_at": "2026-11-06T11:05:37Z",
+      "articles": [
+        {
+          "key": "39dee7079c3db296",
+          "title": "Micron has paused a Taiwan cleanroom since October amid labor dispute",
+          "url": "https://www.digitimes.com/news/a20261105VL234/micron-taiwan-euv-cleanroom-labor.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-05T12:35:55Z"
+        },
+        {
+          "key": "03bbcab954344c98",
+          "title": "마이크론, 대만 신공장 건설 사실상 중단⋯노사 보상 갈등",
+          "url": "https://www.inews24.com/view/2023661",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-06T11:05:37Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261106-0593",
+      "headline": "나가레 랩스 Z2RAM, DRAM 집적도에 SRAM 속도 주장",
+      "summary": [
+        "겔싱어 전 인텔 CEO가 지원하는 나가레 랩스가 Z2RAM이라는 메모리 기술을 소개했다고 보도됐다.",
+        "이 기술은 DRAM 수준의 집적도에서 SRAM 수준의 속도를 낼 수 있다고 약속했다.",
+        "기사 본문에는 구체적 수치와 일정이 없어 산업에 미칠 영향은 추가 확인이 필요하다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "Z2RAM",
+        "SRAM",
+        "DRAM",
+        "차세대 메모리"
+      ],
+      "companies": [
+        "나가레 랩스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "나가레 랩스"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T11:00:00Z",
+      "updated_at": "2026-11-06T11:00:00Z",
+      "articles": [
+        {
+          "key": "27ecf0d7c67f8894",
+          "title": "Gelsinger-backed Nagare Labs’ Z2RAM promises SRAM speed at DRAM density",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/gelsinger-backed-nagare-labs-capacitorless-z2ram-promises-sram-speed-with-dram-density-latest-published-cell-retains-data-for-over-300-seconds-at-85-c-but-further-figures-are-projected",
+          "source": "Tom's Hardware",
+          "lang": "en",
+          "published_at": "2026-11-06T11:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261106-0592",
+      "headline": "코셈, 한빛레이저와 반도체 인라인 검사장비 공동개발",
+      "summary": [
+        "코셈이 한빛레이저와 반도체 인라인 검사장비 공동개발 계약을 체결했다고 6일 밝혔다.",
+        "대기압 SEM 기술을 활용해 진공 없이 미세 구조를 관찰하는 자동화 검사장비를 개발할 계획이다.",
+        "반도체 제조 공정의 결함 검사 영역에 진입하려는 시도로, 검사장비 시장 경쟁에 영향을 줄 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "대기압 SEM",
+        "인라인 검사장비",
+        "반도체 결함 검사",
+        "공동개발"
+      ],
+      "companies": [
+        "코셈",
+        "한빛레이저"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "코셈",
+        "한빛레이저"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T10:26:59Z",
+      "updated_at": "2026-11-06T10:26:59Z",
+      "articles": [
+        {
+          "key": "18f6a4181782f5e9",
+          "title": "SEM 전문 코셈, 반도체 공정용 검사장비 진입 추진",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65063",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-06T10:26:59Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261106-0591",
+      "headline": "미 의원들, 엔비디아 황젠슨 면담 요청…메가스피드 임원 거래 논란",
+      "summary": [
+        "미국 의원들이 엔비디아 젠슨 황 CEO에게 메가스피드 임원과의 거래 관련 브리핑을 요청했다.",
+        "기사 본문이 제공되지 않아 요청의 구체적 내용과 일정, 거래 규모는 확인되지 않는다.",
+        "AI 반도체 공급망과 수출 통제를 둘러싼 미국 내 감독 강화 움직임으로 해석될 여지가 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "엔비디아",
+        "메가스피드",
+        "의회 브리핑",
+        "수출통제",
+        "AI반도체"
+      ],
+      "companies": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T10:04:49Z",
+      "updated_at": "2026-11-06T10:04:49Z",
+      "articles": [
+        {
+          "key": "5153bc0a9072bbf6",
+          "title": "US lawmakers request briefing with Nvidia's Jensen Huang on dealings with Megaspeed executive",
+          "url": "https://www.digitimes.com/news/a20261106VL220/nvidia-jensen-huang-ceo-chips-government.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-06T10:04:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261106-0590",
       "headline": "유럽 반도체 산업, 위기인가 기회인가",
@@ -2675,50 +2865,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261105-0532",
-      "headline": "마이크론 대만 클린룸 노사 분쟁으로 가동 중단",
-      "summary": [
-        "마이크론이 10월부터 대만 내 한 클린룸의 가동을 중단한 것으로 전해졌다.",
-        "기사 본문이 없어 중단 규모와 정확한 기간, 노사 분쟁의 세부 내용은 확인되지 않는다.",
-        "메모리 생산 차질 가능성이 있어 공급 측면에서 주목할 사안이다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "마이크론",
-        "대만 클린룸",
-        "노사 분쟁",
-        "가동 중단"
-      ],
-      "companies": [
-        "마이크론"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": false,
-      "parties": [
-        "마이크론"
-      ],
-      "importance": 1,
-      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-05T12:35:55Z",
-      "updated_at": "2026-11-05T12:35:55Z",
-      "articles": [
-        {
-          "key": "39dee7079c3db296",
-          "title": "Micron has paused a Taiwan cleanroom since October amid labor dispute",
-          "url": "https://www.digitimes.com/news/a20261105VL234/micron-taiwan-euv-cleanroom-labor.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-05T12:35:55Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
     },
     {
       "id": "c20261103-0365",
