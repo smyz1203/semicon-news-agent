@@ -1,7 +1,324 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T03:02:01Z",
+  "updated_at": "2026-11-06T04:06:55Z",
   "issues": [
+    {
+      "id": "c20261106-0568",
+      "headline": "중국 NSIG, 실리콘 웨이퍼 가격 반등에도 수익성 회복은 난항",
+      "summary": [
+        "중국 NSIG가 실리콘 웨이퍼 가격이 반등했다는 점을 짚었으나 수익성은 여전히 개선되지 않은 것으로 전해졌다.",
+        "기사 본문이 사실상 없어 구체적 가격 수치나 반등 폭, 손익 규모는 확인되지 않는다.",
+        "웨이퍼 가격 회복이 실적 개선으로 이어질지는 불확실하며, 업계 수익성 회복 시점은 추가 확인이 필요하다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "실리콘 웨이퍼",
+        "웨이퍼 가격",
+        "수익성",
+        "NSIG"
+      ],
+      "companies": [
+        "NSIG"
+      ],
+      "event_type": "가격 동향",
+      "confirmed": false,
+      "parties": [
+        "NSIG"
+      ],
+      "importance": 2,
+      "importance_reason": "가격 동향 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T03:59:06Z",
+      "updated_at": "2026-11-06T03:59:06Z",
+      "articles": [
+        {
+          "key": "b5605b1395e1894c",
+          "title": "China's NSIG sees silicon wafer prices rebound, but profitability remains elusive",
+          "url": "https://www.digitimes.com/news/a20261106VL208/nsig-silicon-wafer-300mm-expansion.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-06T03:59:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261106-0567",
+      "headline": "중국 장비업체, AI 수주 호황에 2027년까지 성장 전망",
+      "summary": [
+        "중국 반도체 장비 업체들이 AI 관련 기록적 수주를 이어가며 2027년까지 호황이 예상된다는 보도가 나왔다.",
+        "기사 본문은 출처 표기(Caixin)만 있어 구체적 수주 규모나 기업별 수치는 확인되지 않는다.",
+        "다만 기사는 새로운 도전 과제도 함께 제기해, 중국 장비 산업의 성장 지속성에 대한 시각이 엇갈림을 시사한다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "반도체 장비",
+        "AI 수주",
+        "중국 반도체",
+        "국산화"
+      ],
+      "companies": [
+        "중국 반도체 장비업체"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T03:46:28Z",
+      "updated_at": "2026-11-06T03:46:28Z",
+      "articles": [
+        {
+          "key": "8003fdcb8a1af550",
+          "title": "China's chip equipment makers ride record AI orders into 2027, but new challenges lie ahead",
+          "url": "https://www.digitimes.com/news/a20261106VL211/china-ic-manufacturing-equipment-expansion-investment-2027.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-06T03:46:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261106-0566",
+      "headline": "삼성전자, P5 2공장 공사 가속…메모리 공급 부족 2028년까지 지속 전망",
+      "summary": [
+        "삼성전자가 평택 P5 2공장 건설 속도를 높이고 있다는 보도가 나왔다.",
+        "기사 본문은 사진 크레딧만 있어 구체적인 공사 일정과 투자 규모는 확인되지 않는다.",
+        "메모리 칩 부족이 2028년까지 이어질 것으로 보여 증설 투자가 공급 확대의 핵심 변수가 될 전망이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "P5",
+        "메모리 공급 부족",
+        "팹 증설",
+        "2028"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T03:35:03Z",
+      "updated_at": "2026-11-06T03:35:03Z",
+      "articles": [
+        {
+          "key": "861f9991b4c90984",
+          "title": "Samsung speeds P5 Fab 2 construction as memory chip shortage looks to last through 2028",
+          "url": "https://www.digitimes.com/news/a20261105VL231/samsung-2028-2027-equipment-production.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-06T03:35:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261106-0565",
+      "headline": "대만·영국 기술 협력, 유럽 반도체 자율성 지원 가능성",
+      "summary": [
+        "대만과 영국의 기술 협력이 유럽의 반도체 자립 추진을 뒷받침할 수 있다는 보도가 나왔다.",
+        "기사 본문은 사진 크레딧만 있어 구체적인 협력 내용과 수치는 확인되지 않는다.",
+        "다만 유럽이 공급망 자립을 추진하는 흐름에서 대만과의 연계가 주목받을 수 있다는 점을 보여준다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "유럽 반도체 자율성",
+        "대만",
+        "영국",
+        "기술 협력"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T03:35:00Z",
+      "updated_at": "2026-11-06T03:35:00Z",
+      "articles": [
+        {
+          "key": "fae09ffdc212abd6",
+          "title": "Taiwan-UK tech ties could support Europe's chip autonomy drive",
+          "url": "https://www.digitimes.com/news/a20261106PD220/technology-uk-taiwan-industrial-development.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-06T03:35:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261104-0472",
+      "headline": "YMTC, 기록적 낸드 이익 속 상장 계획 보류",
+      "summary": [
+        "중국 최대 낸드 업체 YMTC가 약 6.8조원 규모의 상장 계획을 보류한 것으로 전해졌다.",
+        "기사 본문이 제한적이어서 보류 사유와 구체적 일정은 확인되지 않는다.",
+        "기록적 낸드 수익에도 상장이 미뤄져 중국 메모리 업계의 자금 조달 전략에 주목이 필요하다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "YMTC",
+        "낸드플래시",
+        "IPO",
+        "중국 반도체"
+      ],
+      "companies": [
+        "YMTC"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": false,
+      "parties": [
+        "YMTC"
+      ],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-04T14:33:31Z",
+      "updated_at": "2026-11-06T03:20:30Z",
+      "articles": [
+        {
+          "key": "530c54a6d8fc8631",
+          "title": "\"中 최대 낸드 업체 YMTC, 6.8조원 상장 계획 보류\"",
+          "url": "https://www.inews24.com/view/2022786",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-04T14:33:31Z"
+        },
+        {
+          "key": "5aafcf25fe6e7875",
+          "title": "Commentary: YMTC's record NAND profits mask bigger risks behind its reported IPO delay",
+          "url": "https://www.digitimes.com/news/a20261106PD227/ymtc-ipo-nand-equipment-manufacturing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-06T03:20:30Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
+    {
+      "id": "c20261106-0564",
+      "headline": "중국, 엔비디아 H200 수입 제한하며 국산 칩 육성 가속",
+      "summary": [
+        "중국 당국이 엔비디아 H200 칩의 수입을 제한하는 것으로 전해졌고 홍콩에 재고가 쌓인 상태다.",
+        "기사 본문이 제목과 출처 표기만 있어 구체적인 수량·시점·조치 내용은 확인되지 않는다.",
+        "이는 중국의 자국산 반도체 육성 흐름이 빨라지고 있음을 보여주며 엔비디아의 중국 시장 입지에 부담이 될 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "H200",
+        "수입 제한",
+        "국산 반도체",
+        "수출규제",
+        "AI반도체"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "엔비디아",
+        "중국"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T03:08:42Z",
+      "updated_at": "2026-11-06T03:08:42Z",
+      "articles": [
+        {
+          "key": "a0eb874fc0fd5b1f",
+          "title": "Stockpiled in Hong Kong: Beijing limits Nvidia H200 imports as domestic silicon push accelerates",
+          "url": "https://www.digitimes.com/news/a20261106VL209/beijing-nvidia-silicon-market-shipments.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-06T03:08:42Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261106-0563",
+      "headline": "SK하이닉스 AI 계열사, 펭귄솔루션즈 지분 3770억 원 인수",
+      "summary": [
+        "SK하이닉스의 AI 관련 계열사가 SK텔레콤으로부터 펭귄솔루션즈 지분을 3억7700만 달러에 사들였다.",
+        "기사 본문에는 지분 비율과 거래 세부 조건이 제시되지 않아 구체적인 내용은 확인하기 어렵다.",
+        "이번 거래는 SK그룹 내 AI 사업 역량 재편과 연결된 움직임으로 해석될 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "지분 인수",
+        "AI 인프라",
+        "펭귄솔루션즈",
+        "SK그룹"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "SK텔레콤",
+        "펭귄솔루션즈",
+        "엔비디아"
+      ],
+      "event_type": "인수합병",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스",
+        "SK텔레콤",
+        "펭귄솔루션즈"
+      ],
+      "importance": 3,
+      "importance_reason": "인수합병 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T03:01:13Z",
+      "updated_at": "2026-11-06T03:01:13Z",
+      "articles": [
+        {
+          "key": "531744fd6b2361f6",
+          "title": "SK Hynix AI arm buys US$377 million stake in Penguin Solutions from SK Telecom",
+          "url": "https://www.digitimes.com/news/a20261106VL207/sk-hynix-solidigm-ai-investment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-06T03:01:13Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261106-0562",
       "headline": "국내 SSD 수출 584% 급증, AI 추론 수요 부상",
@@ -4540,51 +4857,6 @@
       ],
       "type_checked": true,
       "importance_raw": 0
-    },
-    {
-      "id": "c20261104-0472",
-      "headline": "중국 YMTC, 상하이 증시 상장 계획 보류",
-      "summary": [
-        "중국 최대 낸드플래시 업체 YMTC의 상하이 증시 상장이 미뤄졌다는 보도가 나왔다.",
-        "중국 증시 급락 속에 규제당국이 신규 주식 발행을 억제하면서 IPO 일정이 보류된 것으로 전해졌다.",
-        "기업공개로 조달하려던 자금 규모가 커서, 중국 메모리 업계의 자금 조달 환경에 영향을 줄 수 있다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "YMTC",
-        "낸드플래시",
-        "상장(IPO)",
-        "중국 증시",
-        "신규 주식 발행 억제"
-      ],
-      "companies": [
-        "YMTC"
-      ],
-      "event_type": "재무·주주",
-      "confirmed": false,
-      "parties": [
-        "YMTC"
-      ],
-      "importance": 1,
-      "importance_reason": "재무·주주 2점, 미확정 -1 → 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-04T14:33:31Z",
-      "updated_at": "2026-11-04T14:33:31Z",
-      "articles": [
-        {
-          "key": "530c54a6d8fc8631",
-          "title": "\"中 최대 낸드 업체 YMTC, 6.8조원 상장 계획 보류\"",
-          "url": "https://www.inews24.com/view/2022786",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-04T14:33:31Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
     },
     {
       "id": "c20261104-0471",
