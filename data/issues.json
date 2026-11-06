@@ -1,7 +1,51 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T17:57:21Z",
+  "updated_at": "2026-11-06T19:06:59Z",
   "issues": [
+    {
+      "id": "c20261106-0602",
+      "headline": "코스믹, SEMICON Europa 2026 참가해 테스트 솔루션 소개",
+      "summary": [
+        "코스믹 그룹이 2026년 11월 10일부터 13일까지 뮌헨에서 열리는 SEMICON Europa 2026에 참가한다고 밝혔다.",
+        "electronica와 동시 개최되며 코스믹은 C1255 부스에 자리를 잡는다.",
+        "고복잡도 반도체 테스트 솔루션을 선보이는 자리로, 유럽 시장 내 장비 경쟁력을 알릴 기회다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "SEMICON Europa 2026",
+        "반도체 테스트",
+        "전시회",
+        "고복잡도 테스트"
+      ],
+      "companies": [
+        "코스믹"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "코스믹"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T18:48:20Z",
+      "updated_at": "2026-11-06T18:48:20Z",
+      "articles": [
+        {
+          "key": "6754b11ac93c90f2",
+          "title": "Cosmic at SEMICON Europa 2026: Advancing High-Complexity Semiconductor Test Solutions",
+          "url": "https://www.eetimes.com/cosmic-at-semicon-europa-2026-advancing-high-complexity-semiconductor-test-solutions/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-06T18:48:20Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261106-0601",
       "headline": "영국 반도체 역설: 혁신은 세계적이나 가치 포획은 부진",
