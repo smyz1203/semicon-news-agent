@@ -1,7 +1,397 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T01:25:17Z",
+  "updated_at": "2026-11-06T03:02:01Z",
   "issues": [
+    {
+      "id": "c20261106-0562",
+      "headline": "국내 SSD 수출 584% 급증, AI 추론 수요 부상",
+      "summary": [
+        "삼성전자와 SK하이닉스가 AI 추론 시장 확대에 맞춰 주목받고 있으며, 국내 SSD 수출이 크게 늘었다는 보도가 나왔다.",
+        "기사 본문이 제목과 출처 표시뿐이라 정확한 수출 규모와 기간, 세부 원인은 확인되지 않는다.",
+        "AI 추론 확산이 eSSD 등 저장장치 수요를 키울 수 있다는 점에서 메모리 업계에 긍정적 신호로 해석된다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "SSD",
+        "AI 추론",
+        "eSSD",
+        "수출 증가"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T02:30:52Z",
+      "updated_at": "2026-11-06T02:30:52Z",
+      "articles": [
+        {
+          "key": "75af12949c3ccf5e",
+          "title": "Samsung, SK Hynix eye AI inference boom as South Korea's SSD exports soar 584%",
+          "url": "https://www.digitimes.com/news/a20261106PD219/sk-hynix-samsung-ssd-exports-demand.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-06T02:30:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261106-0561",
+      "headline": "DDR·LPDDR 매출, HBM 추월해 D램 시장 2천억 달러 근접",
+      "summary": [
+        "DDR과 LPDDR 매출 성장률이 HBM을 앞서며 D램 시장 판도가 바뀌는 흐름이 보도됐다.",
+        "기사 본문은 사진 크레딧만 있어 구체적 수치와 일정은 확인할 수 없다.",
+        "범용 D램 수요 회복이 메모리 업계 수익 구조에 영향을 줄 수 있다는 점에서 의미가 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "DDR",
+        "LPDDR",
+        "HBM",
+        "D램 시장"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T02:30:00Z",
+      "updated_at": "2026-11-06T02:30:00Z",
+      "articles": [
+        {
+          "key": "3574dfc3871ce64d",
+          "title": "DDR, LPDDR revenue growth outpaces HBM as DRAM market nears US$200 billion",
+          "url": "https://www.digitimes.com/news/a20261106VL206/revenue-dram-ddr-hbm-market.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-06T02:30:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261106-0560",
+      "headline": "삼성디스플레이, 2027년 패널 수요 약세에 폴더블 수익성 주목",
+      "summary": [
+        "삼성디스플레이가 2027년 패널 수요를 약하게 보고 폴더블 제품에서 수익성을 확보하려는 방향을 검토하고 있다는 보도다.",
+        "기사 본문이 사실상 비어 있어 구체적 수치나 일정은 확인되지 않는다.",
+        "다만 대형 패널 수요 둔화 속에서 고부가 폴더블이 수익 돌파구로 부각된다는 점은 업계에 의미가 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "폴더블",
+        "OLED",
+        "패널 수요",
+        "수익성"
+      ],
+      "companies": [
+        "삼성디스플레이"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T02:20:20Z",
+      "updated_at": "2026-11-06T02:20:20Z",
+      "articles": [
+        {
+          "key": "202fa44d10ad98ab",
+          "title": "SDC sees weak 2027 panel demand, eyes foldables for profit",
+          "url": "https://www.digitimes.com/news/a20261106PD208/sdc-panel-2027-demand-profit.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-06T02:20:20Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261106-0559",
+      "headline": "미국, 반도체 생산기반 확대 위해 인허가 개혁 촉구",
+      "summary": [
+        "미국반도체산업협회(SIA)가 반도체 생산시설 건설을 앞당길 인허가 제도 개혁을 촉구했다.",
+        "일본과의 전략적 협력을 통한 글로벌파운드리스의 대규모 반도체 공장 투자 프로젝트도 지지를 표명했다.",
+        "규제 완화와 대규모 투자로 미국의 반도체 공급망 주도권을 강화하려는 움직임으로 풀이된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "인허가 개혁",
+        "미국 반도체 생산",
+        "글로벌파운드리스",
+        "일본 협력",
+        "공급망"
+      ],
+      "companies": [
+        "글로벌파운드리스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "미국반도체산업협회",
+        "글로벌파운드리스"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T02:00:00Z",
+      "updated_at": "2026-11-06T02:00:00Z",
+      "articles": [
+        {
+          "key": "e8b5e395db51b88b",
+          "title": "반도체 시장 성장 주도권 잡는 美…SIA, 생산기반 확대 총력",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409368",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-06T02:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261106-0558",
+      "headline": "광주·전남 반도체 클러스터 정주환경 개선 TF 가동",
+      "summary": [
+        "전남광주통합특별시가 반도체도시 정주여건 혁신 TF의 내부 전략회의를 열었다.",
+        "기사 본문이 일부만 제공되어 구체적인 과제와 일정, 수치는 확인되지 않는다.",
+        "반도체 클러스터 인근 주거·생활 인프라 개선이 지역 산업 기반 강화와 연계될 것으로 보인다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체 클러스터",
+        "정주환경",
+        "지역 인프라",
+        "전략회의"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T01:59:43Z",
+      "updated_at": "2026-11-06T01:59:43Z",
+      "articles": [
+        {
+          "key": "c269cba0fadd421a",
+          "title": "전남광주시, '반도체 클러스터' 정주환경 개선 본격 추진",
+          "url": "https://www.yna.co.kr/view/AKR20261106076600054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-06T01:59:43Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261106-0557",
+      "headline": "화홍그레이스, AI 수요 속 실리콘 포토닉스 확장 검토",
+      "summary": [
+        "화홍그레이스가 AI 칩 부족으로 높아진 가격 협상력을 바탕으로 실리콘 포토닉스 사업 확대를 검토하는 것으로 전해졌다.",
+        "기사 본문은 사진 크레딧만 담겨 있어 구체적인 투자 규모나 일정은 확인되지 않는다.",
+        "AI 칩 공급 부족이 파운드리 가격 협상력을 키우고 있어 광통신 등 신사업 투자 흐름에 영향을 줄 수 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "실리콘 포토닉스",
+        "AI 칩 부족",
+        "파운드리 가격",
+        "화홍그레이스"
+      ],
+      "companies": [
+        "화홍그레이스"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "화홍그레이스"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T01:57:16Z",
+      "updated_at": "2026-11-06T01:57:16Z",
+      "articles": [
+        {
+          "key": "75089e10cd46ce94",
+          "title": "Hua Hong Grace eyes silicon photonics expansion as AI chip shortages lift pricing power",
+          "url": "https://www.digitimes.com/news/a20261106VL204/photonics-silicon-expansion-revenue-demand.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-06T01:57:16Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261106-0556",
+      "headline": "Innolight, 타워와 미국 NPO 시범 생산 착수",
+      "summary": [
+        "중국 Innolight가 타워세미컨덕터와 함께 미국에서 AI 광인터커넥트용 NPO 시범 생산을 시작했다.",
+        "기사 본문은 사진 출처 표기만 있어 생산 규모와 일정 등 구체 수치는 확인되지 않는다.",
+        "AI 데이터센터의 광통신 부품을 미국 현지에서 생산하려는 움직임으로, 공급망 다변화 흐름과 맞닿아 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "NPO",
+        "광인터커넥트",
+        "AI데이터센터",
+        "미국생산",
+        "실리콘포토닉스"
+      ],
+      "companies": [
+        "Innolight",
+        "타워세미컨덕터"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "Innolight",
+        "타워세미컨덕터"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T01:55:23Z",
+      "updated_at": "2026-11-06T01:55:23Z",
+      "articles": [
+        {
+          "key": "9608c34983cd6c08",
+          "title": "Innolight starts US NPO pilot production with Tower for AI optical interconnects",
+          "url": "https://www.digitimes.com/news/a20261106PD202/production-communications-data-packaging-development.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-06T01:55:23Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261106-0555",
+      "headline": "중국 LCD 감산·가격 인상, 삼성 TV 수익 위협",
+      "summary": [
+        "중국 LCD 패널 업체들이 생산을 줄이고 가격을 올리는 움직임이 보도됐다.",
+        "기사 본문이 사실상 비어 있어 구체적인 감산 규모와 가격 인상 폭은 확인되지 않는다.",
+        "패널 가격 상승은 완제품 TV를 만드는 삼성전자의 수익성을 압박할 수 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "LCD",
+        "패널 가격",
+        "감산",
+        "TV"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "가격 동향",
+      "confirmed": false,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "가격 동향 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T01:41:45Z",
+      "updated_at": "2026-11-06T01:41:45Z",
+      "articles": [
+        {
+          "key": "247015a8e858a99f",
+          "title": "China's LCD cuts and price hikes threaten Samsung TV profits",
+          "url": "https://www.digitimes.com/news/a20261106PD209/samsung-tv-lcd-market-panel.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-06T01:41:45Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261106-0554",
+      "headline": "스미토모 베이클라이트, AI 패키징 수요로 실적 전망 상향",
+      "summary": [
+        "스미토모 베이클라이트가 2026년 영업이익 전망치를 상향 조정했다고 보도됐다.",
+        "기사 본문에는 구체적인 수치나 일정이 제시되지 않았다.",
+        "AI 패키징 수요 확대가 반도체 소재 업체의 실적 개선으로 이어지고 있음을 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 패키징",
+        "실적 전망",
+        "반도체 소재",
+        "스미토모 베이클라이트"
+      ],
+      "companies": [
+        "스미토모 베이클라이트"
+      ],
+      "event_type": "실적",
+      "confirmed": false,
+      "parties": [
+        "스미토모 베이클라이트"
+      ],
+      "importance": 2,
+      "importance_reason": "실적 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T01:35:26Z",
+      "updated_at": "2026-11-06T01:35:26Z",
+      "articles": [
+        {
+          "key": "038f9c7bc26f2259",
+          "title": "Sumitomo Bakelite raises 2026 profit forecast on AI packaging boom",
+          "url": "https://www.digitimes.com/news/a20261106PD201/sumitomo-bakelite-profit-packaging-forecast-2026.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-06T01:35:26Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261106-0553",
       "headline": "SK하이닉스, 산업보건 선진화 위원회 10년 성과 공유",
@@ -95,6 +485,67 @@
       "importance_raw": 3
     },
     {
+      "id": "c20261106-0550",
+      "headline": "램리서치 한국법인 신임 대표에 김태원 선임",
+      "summary": [
+        "램리서치가 식각·CVD 분야 기술통인 김태원 전 식각 제품 그룹 임원을 한국법인 총괄 대표이사로 선임했다.",
+        "김 신임 대표는 2008년 램리서치 합류 후 생산성 솔루션과 공정 개발 등을 거쳤으며, 박준홍 전 대표의 뒤를 잇는다.",
+        "고객 밀착 전략으로 한국 사업을 키워온 인사 교체로, 국내 고객사 협력 강화가 관건이 될 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "경영진 교체",
+        "식각",
+        "CVD",
+        "고객 밀착"
+      ],
+      "companies": [
+        "램리서치",
+        "램리서치코리아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "램리서치"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 매체 3곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T00:30:00Z",
+      "updated_at": "2026-11-06T01:04:56Z",
+      "articles": [
+        {
+          "key": "59f3502749dd90bd",
+          "title": "램리서치, 김태원 신임 한국법인 총괄 대표이사 선임",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343057",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-06T00:30:00Z"
+        },
+        {
+          "key": "190a275b5e313f3d",
+          "title": "램리서치, 한국법인 총괄 대표이사에 김태원 선임",
+          "url": "https://www.yna.co.kr/view/AKR20261106046100003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-06T00:38:20Z"
+        },
+        {
+          "key": "49327c8d8384fd13",
+          "title": "램리서치코리아, 신임 총괄대표에 '20년 기술통' 김태원 선임",
+          "url": "https://zdnet.co.kr/view/?no=20261106095433",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-06T01:04:56Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
       "id": "c20261106-0551",
       "headline": "나인테크, TCL CSOT 8.6세대 OLED 라인에 이송장비 공급",
       "summary": [
@@ -141,50 +592,6 @@
       ],
       "type_checked": true,
       "importance_raw": 4
-    },
-    {
-      "id": "c20261106-0550",
-      "headline": "램리서치 한국법인 신임 대표에 김태원 선임",
-      "summary": [
-        "글로벌 반도체 장비업체 램리서치가 한국법인 총괄 대표이사에 김태원 신임 대표를 선임했다.",
-        "기사에는 선임 시기 외 구체적 일정이나 세부 권한에 대한 내용이 나오지 않았다.",
-        "국내 장비 업계에서 경영진 교체에 따른 사업 방향 변화 여부가 주목된다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "램리서치",
-        "한국법인",
-        "대표이사 선임",
-        "경영진 교체"
-      ],
-      "companies": [
-        "램리서치"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "램리서치"
-      ],
-      "importance": 3,
-      "importance_reason": "경영진 교체 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-06T00:38:20Z",
-      "updated_at": "2026-11-06T00:38:20Z",
-      "articles": [
-        {
-          "key": "190a275b5e313f3d",
-          "title": "램리서치, 한국법인 총괄 대표이사에 김태원 선임",
-          "url": "https://www.yna.co.kr/view/AKR20261106046100003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-06T00:38:20Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261106-0549",
