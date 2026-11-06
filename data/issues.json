@@ -1,7 +1,184 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T05:11:45Z",
+  "updated_at": "2026-11-06T06:12:31Z",
   "issues": [
+    {
+      "id": "c20261106-0572",
+      "headline": "아산 첨단디스플레이연구원 구축, 예타 통과로 추진",
+      "summary": [
+        "산업통상부는 첨단 디스플레이 국가연구플랫폼 구축사업이 예비타당성조사를 통과했다고 발표했다.",
+        "사업 기간은 2027년부터 2033년까지이며 총사업비 3688억7000만원 중 국비는 2789억원이다.",
+        "OLED 기술 우위 확보와 차세대 디스플레이 실증 기반 마련을 목표로 디스플레이 산업에 의미가 크다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "첨단디스플레이연구원",
+        "OLED",
+        "예비타당성조사",
+        "차세대 디스플레이",
+        "국가연구플랫폼"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "산업통상부"
+      ],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T06:11:25Z",
+      "updated_at": "2026-11-06T06:11:25Z",
+      "articles": [
+        {
+          "key": "8b57ee5c81967d3c",
+          "title": "[Weekly 신기술 및 정책소식] 질소 냉매 쓰는 반도체 공정용 극저온 칠러 개발",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343063",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-06T06:11:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261106-0548",
+      "headline": "아산 디스플레이 국가연구플랫폼 구축, 지역 산업 거점 기대",
+      "summary": [
+        "충남 아산시가 탕정테크노일반산업단지에 첨단 디스플레이 국가연구플랫폼을 구축하는 사업을 추진하고 있다.",
+        "기사 본문이 일부만 제공되어 구체적인 예산과 일정은 확인되지 않는다.",
+        "지자체가 디스플레이 연구 거점을 키워 제2의 실리콘밸리 도약을 노리는 흐름으로 볼 수 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "디스플레이",
+        "국가연구플랫폼",
+        "탕정테크노산업단지",
+        "아산시"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T00:10:18Z",
+      "updated_at": "2026-11-06T05:53:36Z",
+      "articles": [
+        {
+          "key": "34aaf4d8906be550",
+          "title": "아산시, 디스플레이 연구플랫폼에 '제2 실리콘밸리 도약' 기대",
+          "url": "https://www.yna.co.kr/view/AKR20261106038400063",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-06T00:10:18Z"
+        },
+        {
+          "key": "0b2f16097ae2d7c2",
+          "title": "3천688억원 디스플레이 연구거점 아산에…기업 지원체계도 강화(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261106038451063",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-06T05:53:36Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261106-0571",
+      "headline": "고가 D램에 리볼디드 메모리 채택 확산, 2027년 점유율 전망",
+      "summary": [
+        "TrendForce는 모바일 D램 계약가격 지속 상승으로 저가형 스마트폰에서 리볼디드 메모리 채택이 늘고 있다고 분석했다.",
+        "리볼디드 메모리의 스마트폰 시장 침투율은 2026년 약 3~4%에서 2027년 7~9%로 높아질 것으로 추정됐다.",
+        "저가 메모리 수요 확대는 모바일 D램 시장의 가격 부담과 부품 수급 구조 변화를 보여준다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "리볼디드 메모리",
+        "모바일 D램",
+        "D램 가격",
+        "스마트폰",
+        "저가 모델"
+      ],
+      "companies": [
+        "TrendForce"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "TrendForce"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T05:45:07Z",
+      "updated_at": "2026-11-06T05:45:07Z",
+      "articles": [
+        {
+          "key": "f67f5c5665798e72",
+          "title": "Persistently High DRAM Prices Drive Adoption of Reballed Memory, with Smartphone Penetration Expected to Reach 7–9% in 2027, Says TrendForce",
+          "url": "https://www.trendforce.com/presscenter/news/20261106-13297.html",
+          "source": "TrendForce",
+          "lang": "en",
+          "published_at": "2026-11-06T05:45:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261106-0570",
+      "headline": "방산 확대에 따른 반도체 유통 역할 변화",
+      "summary": [
+        "방위산업과 항공우주 분야에서 반도체 중요성이 커지고 있다는 기고 글이 실렸다.",
+        "드론, 레이더, 정밀유도무기 등 무기체계에서 반도체가 담당하는 역할이 확대되고 있다고 짚었다.",
+        "방산용 반도체는 장기 운용과 부품 단종 대응이 필요해 상업용과 다른 공급망 체계가 요구된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "방산반도체",
+        "공급망",
+        "부품단종",
+        "반도체유통",
+        "항공우주"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T05:40:15Z",
+      "updated_at": "2026-11-06T05:40:15Z",
+      "articles": [
+        {
+          "key": "d20f50a956ef4f00",
+          "title": "[기고] 방산으로 넓어지는 반도체 유통의 역할",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65029",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-06T05:40:15Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261106-0569",
       "headline": "TV 패널 가격 11월 보합, 공급 조절이 관건",
@@ -989,46 +1166,6 @@
           "source": "Korea Herald",
           "lang": "en",
           "published_at": "2026-11-06T00:28:13Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
-    },
-    {
-      "id": "c20261106-0548",
-      "headline": "아산 디스플레이 국가연구플랫폼 구축, 지역 산업 거점 기대",
-      "summary": [
-        "충남 아산시가 탕정테크노일반산업단지에 첨단 디스플레이 국가연구플랫폼을 구축하는 사업을 추진하고 있다.",
-        "기사 본문이 일부만 제공되어 구체적인 예산과 일정은 확인되지 않는다.",
-        "지자체가 디스플레이 연구 거점을 키워 제2의 실리콘밸리 도약을 노리는 흐름으로 볼 수 있다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "디스플레이",
-        "국가연구플랫폼",
-        "탕정테크노산업단지",
-        "아산시"
-      ],
-      "companies": [],
-      "event_type": "지역·인프라",
-      "confirmed": false,
-      "parties": [],
-      "importance": 1,
-      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-06T00:10:18Z",
-      "updated_at": "2026-11-06T00:10:18Z",
-      "articles": [
-        {
-          "key": "34aaf4d8906be550",
-          "title": "아산시, 디스플레이 연구플랫폼에 '제2 실리콘밸리 도약' 기대",
-          "url": "https://www.yna.co.kr/view/AKR20261106038400063",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-06T00:10:18Z"
         }
       ],
       "type_checked": true,
