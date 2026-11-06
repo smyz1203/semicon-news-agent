@@ -1,7 +1,60 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T12:06:54Z",
+  "updated_at": "2026-11-06T13:22:10Z",
   "issues": [
+    {
+      "id": "c20261105-0527",
+      "headline": "미 중간선거 후 데이터센터 규제 우려에 메모리주 출렁",
+      "summary": [
+        "미국 중간선거에서 민주당이 승리한 뒤 데이터센터 규제 우려로 메모리주가 한때 흔들렸다.",
+        "업계 관계자들은 당장 메모리 수요가 크게 줄어들 가능성은 작다고 보고 있으며, 중국과의 경쟁 구도도 함께 거론됐다.",
+        "AI 투자는 취소보다 속도 조절에 가깝고 칩 장기계약의 단기 영향은 제한적이라는 시각이 많다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "데이터센터 규제",
+        "미국 중간선거",
+        "메모리",
+        "AI 투자",
+        "반도체 수요"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "마이크론"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-05T09:48:56Z",
+      "updated_at": "2026-11-06T12:28:28Z",
+      "articles": [
+        {
+          "key": "214d558ad2ad0aec",
+          "title": "[기획] “AI 투자 취소 아닌 속도 조절… 칩 장기계약, 단기 영향 제한적”",
+          "url": "https://www.dt.co.kr/article/12093520",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-05T09:48:56Z"
+        },
+        {
+          "key": "1870fb6ea5b26616",
+          "title": "메모리 덮친 규제 공포…업계는 \"양당 모두 中에 지려 하지 않을 것\"",
+          "url": "https://www.inews24.com/view/2023674",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-06T12:28:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
     {
       "id": "c20261106-0595",
       "headline": "LG디스플레이, 중국 PC방 겨냥 WOLED 게이밍 패널 공급 확대",
@@ -3222,49 +3275,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261105-0527",
-      "headline": "미 중간선거 후 AI 데이터센터 규제 우려, 반도체 투자 위축 촉각",
-      "summary": [
-        "미국 중간선거에서 민주당이 약진하며 AI 데이터센터 규제 강화 우려가 반도체 업계에 번졌다.",
-        "데이터센터 건설 규제와 세제 혜택 재검토 가능성이 거론되며 빅테크 설비투자 지연·축소 우려가 제기됐다.",
-        "다만 기사 분석으로는 칩 장기계약 덕분에 단기 영향은 제한적이며 AI 투자는 취소가 아닌 속도 조절이라는 평가다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "AI 데이터센터",
-        "설비투자(CAPEX)",
-        "세제 혜택",
-        "장기계약",
-        "미국 중간선거"
-      ],
-      "companies": [
-        "빅테크"
-      ],
-      "event_type": "시장 전망·통계",
-      "confirmed": false,
-      "parties": [],
-      "importance": 1,
-      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-05T09:48:56Z",
-      "updated_at": "2026-11-05T09:48:56Z",
-      "articles": [
-        {
-          "key": "214d558ad2ad0aec",
-          "title": "[기획] “AI 투자 취소 아닌 속도 조절… 칩 장기계약, 단기 영향 제한적”",
-          "url": "https://www.dt.co.kr/article/12093520",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-05T09:48:56Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
     },
     {
       "id": "c20261105-0526",
