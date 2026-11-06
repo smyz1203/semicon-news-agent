@@ -1,7 +1,52 @@
 {
   "version": 1,
-  "updated_at": "2026-11-06T13:22:10Z",
+  "updated_at": "2026-11-06T14:59:18Z",
   "issues": [
+    {
+      "id": "c20261106-0596",
+      "headline": "GlobalFoundries, EUV 없이 7나노급 FDX Fusion 기술 공개",
+      "summary": [
+        "GlobalFoundries 부사장이 FDX Fusion 기술의 세부 내용을 공개했다.",
+        "기사 본문은 필자 소개만 담고 있어 구체적 수치와 일정은 확인되지 않는다.",
+        "EUV 장비 없이 7나노급 성능을 노리는 기술이라 장비 의존도 측면에서 관심을 끈다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "FDX Fusion",
+        "7나노급",
+        "EUV 미사용",
+        "플래너 트랜지스터",
+        "2030 양산 목표"
+      ],
+      "companies": [
+        "GlobalFoundries"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "GlobalFoundries"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T14:00:00Z",
+      "updated_at": "2026-11-06T14:00:00Z",
+      "articles": [
+        {
+          "key": "95a78fc622ca7ea5",
+          "title": "GlobalFoundries VP details FDX Fusion technology, sporting 7nm-class performance without the need for EUV tools — company targets 2030 for high-volume manufacturing, with planar transistors in tow",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/globalfoundries-vp-details-fdx-fusion-technology-sporting-7nm-class-performance-without-the-need-for-euv-tools-company-targets-2030-for-high-volume-manufacturing-with-planar-transistors-in-tow",
+          "source": "Tom's Hardware",
+          "lang": "en",
+          "published_at": "2026-11-06T14:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261105-0527",
       "headline": "미 중간선거 후 데이터센터 규제 우려에 메모리주 출렁",
