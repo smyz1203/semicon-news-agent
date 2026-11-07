@@ -1,7 +1,98 @@
 {
   "version": 1,
-  "updated_at": "2026-11-07T11:51:06Z",
+  "updated_at": "2026-11-07T13:06:28Z",
   "issues": [
+    {
+      "id": "c20261107-0612",
+      "headline": "솔리다임, 미국 NAND 공장 검토…자금 조달은 불투명",
+      "summary": [
+        "솔리다임이 미국 내 NAND 플래시 생산 공장 설립을 검토하고 있다는 보도가 나왔다.",
+        "기사 본문이 사실상 비어 있어 투자 규모, 일정, 부지 등 구체적 내용은 확인되지 않는다.",
+        "자금 조달 문제가 남아 있어 실제 추진 여부는 불확실하며, 미국 내 낸드 생산 기반 확충 논의의 일환으로 볼 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "NAND",
+        "미국 공장",
+        "솔리다임",
+        "낸드플래시"
+      ],
+      "companies": [
+        "솔리다임"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "솔리다임"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-07T12:41:41Z",
+      "updated_at": "2026-11-07T12:41:41Z",
+      "articles": [
+        {
+          "key": "0a869a2726183f81",
+          "title": "Solidigm eyes US NAND fab as funding questions linger",
+          "url": "https://www.digitimes.com/news/a20261106PD229/solidigm-fab-nand-flash-nand-funding.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-07T12:41:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261107-0611",
+      "headline": "삼성전자, 반도체 장비 300여 대 DB그룹에 매각 보도",
+      "summary": [
+        "삼성전자가 반도체 제조 장비 약 300대를 DB그룹에 판매한 것으로 보도됐다.",
+        "기사 본문이 사실상 비어 있어 정확한 거래 금액, 장비 종류, 계약 일정은 확인되지 않는다.",
+        "보도가 사실이라면 레거시 공정 장비의 중고 거래로 파운드리 설비 재배치 흐름을 보여준다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "반도체 장비",
+        "장비 매각",
+        "DB하이텍",
+        "레거시 공정"
+      ],
+      "companies": [
+        "삼성전자",
+        "DB그룹",
+        "DB하이텍"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "DB그룹"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-07T12:40:59Z",
+      "updated_at": "2026-11-07T12:40:59Z",
+      "articles": [
+        {
+          "key": "359987d0aadfc41b",
+          "title": "Samsung reportedly sells 300 chipmaking tools to DB Group",
+          "url": "https://www.digitimes.com/news/a20261106VL218/samsung-equipment-manufacturing-production-capacity-production.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-07T12:40:59Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261107-0610",
       "headline": "큐럭스, 시리즈D 537억원 유치…LG디스플레이와 공동개발",
