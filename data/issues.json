@@ -1,7 +1,49 @@
 {
   "version": 1,
-  "updated_at": "2026-11-07T05:02:00Z",
+  "updated_at": "2026-11-07T05:58:14Z",
   "issues": [
+    {
+      "id": "c20261107-0608",
+      "headline": "미국, 젠슨 황 엔비디아 CEO 중국 스파이 의혹 연루 조사",
+      "summary": [
+        "미국 정부가 젠슨 황 엔비디아 CEO가 중국 스파이 의혹을 받는 여성 기업인과 연인 관계였다고 판단하고 있다는 보도가 나왔다.",
+        "보도는 영국 파이낸셜타임스(FT)를 인용했으며, 미국 정보당국이 해당 사안을 살펴온 것으로 전해졌다.",
+        "엔비디아 최고경영진의 신변 리스크가 거론되면서 미중 기술 경쟁 속 기업 거버넌스 이슈로 주목된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "젠슨 황",
+        "엔비디아",
+        "중국 스파이",
+        "미중 갈등"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-07T05:20:32Z",
+      "updated_at": "2026-11-07T05:20:32Z",
+      "articles": [
+        {
+          "key": "b9d4b578e19a2655",
+          "title": "[속보]“美당국, 젠슨 황과 ‘中스파이 의혹’ 여성 연인관계로 판단”",
+          "url": "https://www.dt.co.kr/article/12093649",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-07T05:20:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261107-0607",
       "headline": "듀크산네오룩스, 3분기 OLED 소재 매출 36% 급증",
