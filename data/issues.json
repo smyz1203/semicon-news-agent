@@ -1,7 +1,59 @@
 {
   "version": 1,
-  "updated_at": "2026-11-07T09:06:33Z",
+  "updated_at": "2026-11-07T09:58:11Z",
   "issues": [
+    {
+      "id": "c20261107-0610",
+      "headline": "큐럭스, 시리즈D 537억원 유치…LG디스플레이와 공동개발",
+      "summary": [
+        "일본 OLED 발광재료 업체 큐럭스가 85억 엔(약 537억 원) 규모 시리즈D 투자를 유치했다.",
+        "투자에는 LG디스플레이와 삼성벤처투자가 전략 투자자로 참여했으며, LG디스플레이와는 차세대 발광재료 공동개발 계약(JDA)을 체결했다.",
+        "양대 패널 업체의 지원으로 차세대 OLED 소재의 상용화가 빨라질 것으로 보인다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "TADF",
+        "하이퍼플루오레선스",
+        "OLED 발광재료",
+        "시리즈D 투자",
+        "공동개발계약"
+      ],
+      "companies": [
+        "큐럭스",
+        "LG디스플레이",
+        "삼성디스플레이",
+        "삼성전자",
+        "SMBC",
+        "H&Q"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "큐럭스",
+        "LG디스플레이",
+        "삼성벤처투자"
+      ],
+      "importance": 3,
+      "importance_reason": "재무·주주 2점, 관심 기업(LG디스플레이) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-07T09:01:51Z",
+      "updated_at": "2026-11-07T09:01:51Z",
+      "articles": [
+        {
+          "key": "cfa78b21aa6fbf5d",
+          "title": "Kyulux raises $53.7 million in a Series D round backed by LG Display and Samsung, signs a joint development agreement with LGD",
+          "url": "https://www.oled-info.com/kyulux-raises-537-million-series-d-round-backed-lg-display-and-samsung-signs",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-07T09:01:51Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261107-0608",
       "headline": "미국, 젠슨 황 엔비디아 CEO 중국 스파이 의혹 연루 조사",
