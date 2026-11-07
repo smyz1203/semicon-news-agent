@@ -1,7 +1,58 @@
 {
   "version": 1,
-  "updated_at": "2026-11-07T13:06:28Z",
+  "updated_at": "2026-11-07T13:58:58Z",
   "issues": [
+    {
+      "id": "c20261107-0613",
+      "headline": "중국 지린OLED, LG화학 OLED 특허 무효심판 청구",
+      "summary": [
+        "중국 OLED 재료업체 지린OLED 자회사가 LG화학 '356 특허에 대해 한국 특허심판원에 무효심판을 청구했다.",
+        "특허심판원은 지난 10월 하순 구술심리기일지정통지서를 발송했으며, 해당 특허는 2013년 출원 후 2015년 등록됐다.",
+        "중국 재료업체의 OLED 재료 국산화 확대 속에서 특허 분쟁이 가시화돼 국내 재료 시장 경쟁이 주목된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "OLED 재료",
+        "특허 무효심판",
+        "전자수송층",
+        "정공주입층",
+        "중국 OLED"
+      ],
+      "companies": [
+        "지린OLED",
+        "LG화학",
+        "CSOT",
+        "BOE",
+        "LG디스플레이",
+        "삼성디스플레이"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "지린OLED",
+        "LG화학"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-07T13:22:49Z",
+      "updated_at": "2026-11-07T13:22:49Z",
+      "articles": [
+        {
+          "key": "221b10f40ede7896",
+          "title": "中지린OLED, LG화학 특허 무효심판 청구",
+          "url": "https://zdnet.co.kr/view/?no=20261107220705",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-07T13:22:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261107-0612",
       "headline": "솔리다임, 미국 NAND 공장 검토…자금 조달은 불투명",
