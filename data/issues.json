@@ -1,7 +1,137 @@
 {
   "version": 1,
-  "updated_at": "2026-11-07T20:51:37Z",
+  "updated_at": "2026-11-07T21:48:58Z",
   "issues": [
+    {
+      "id": "c20261107-0618",
+      "headline": "낸드업계 상장 잇단 제동, 엇갈린 업황 속 투자 셈법 복잡",
+      "summary": [
+        "AI발 투자 확산으로 메모리 공급 부족이 이어지는 가운데 주요 낸드플래시 업체들의 증시 상장 추진이 잇따라 제동에 걸렸다.",
+        "기사 본문이 짧게 잘려 있어 구체적인 상장 계획의 규모·일정과 중단 사유의 세부 내용은 확인되지 않는다.",
+        "업황은 엇갈리는 반면 투자 판단은 복잡해져, 낸드 업계의 자금 조달 전략에 불확실성이 커진 상황이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "낸드플래시",
+        "메모리 공급 부족",
+        "기업공개(IPO)",
+        "AI 투자",
+        "업황"
+      ],
+      "companies": [],
+      "event_type": "재무·주주",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "재무·주주 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-07T21:45:01Z",
+      "updated_at": "2026-11-07T21:45:01Z",
+      "articles": [
+        {
+          "key": "941002140d6cd12e",
+          "title": "엇갈린 업황·복잡해진 투자 셈법…낸드업계 상장 잇단 제동",
+          "url": "https://www.yna.co.kr/view/AKR20261106167400003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-07T21:45:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261107-0617",
+      "headline": "삼성전자 현금 200조 돌파, 주주환원·투자 확대 여력",
+      "summary": [
+        "삼성전자의 현금 보유액이 국내 기업 최초로 200조원을 넘어선 것으로 나타났다.",
+        "기사에는 올해 주주환원과 미래투자에 각각 100조원 이상을 쓸 수 있다는 내용이 담겼다.",
+        "역대 최대 호황 속에서 대규모 현금이 쌓여 향후 배당·자사주와 투자 여력이 커졌다는 의미가 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "현금보유",
+        "주주환원",
+        "미래투자",
+        "역대 최대 호황"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "재무·주주 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-07T21:01:01Z",
+      "updated_at": "2026-11-07T21:01:01Z",
+      "articles": [
+        {
+          "key": "fb56828c54a27e51",
+          "title": "삼전 현금 200조 돌파…올해 주주환원도 미래투자도 100조+α",
+          "url": "https://www.yna.co.kr/view/AKR20261106156200003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-07T21:01:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261107-0616",
+      "headline": "삼성전자·현대차그룹 첫 그룹 간 교류 행사 열려",
+      "summary": [
+        "삼성전자가 현대차그룹 주요 경영진을 부부 동반으로 초청하는 감사 행사를 처음 마련했다.",
+        "이재용 회장과 정의선 회장 등 약 177명이 참석하는 것으로 보도됐다.",
+        "대기업 간 교류가 넓어지며 산업계 협력 분위기에 긍정적 신호로 해석된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "그룹 간 교류",
+        "감사 행사",
+        "협력"
+      ],
+      "companies": [
+        "삼성전자",
+        "현대차그룹"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "현대차그룹"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-07T20:55:01Z",
+      "updated_at": "2026-11-07T20:55:01Z",
+      "articles": [
+        {
+          "key": "e30ffd8990f0d4cb",
+          "title": "삼전·현대차 첫 그룹간 교류…이재용·정의선 등 177명 총출동",
+          "url": "https://www.yna.co.kr/view/AKR20261107031000003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-07T20:55:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261107-0615",
       "headline": "미 중간선거 후 반도체 공장 보조금 변동 우려 확산",
