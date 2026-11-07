@@ -1,7 +1,54 @@
 {
   "version": 1,
-  "updated_at": "2026-11-07T22:50:13Z",
+  "updated_at": "2026-11-07T23:47:32Z",
   "issues": [
+    {
+      "id": "c20261107-0619",
+      "headline": "광주 반도체 배후도시 조성에 LH 대신 광주도시공사 참여",
+      "summary": [
+        "호남권 반도체 클러스터 배후도시인 광주 상무지구 도심융합특구 사업에 광주도시공사가 참여하게 됐다.",
+        "기사 원문이 일부만 제공돼 참여 방식과 투자 규모, 일정 등 구체적 수치는 확인되지 않는다.",
+        "지역 반도체 클러스터의 주거·도시 기반 조성이 본격화될 수 있어 지역 산업 생태계 측면에서 의미가 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "반도체 클러스터",
+        "배후도시",
+        "도심융합특구",
+        "호남권",
+        "광주 상무지구"
+      ],
+      "companies": [
+        "광주도시공사",
+        "한국토지주택공사"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [
+        "광주도시공사",
+        "한국토지주택공사"
+      ],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-07T23:10:00Z",
+      "updated_at": "2026-11-07T23:10:00Z",
+      "articles": [
+        {
+          "key": "1e72bcf8344663db",
+          "title": "'LH 불참 비상' 반도체 배후도시 조성에 광주도시공사 참여",
+          "url": "https://www.yna.co.kr/view/AKR20261106054700054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-07T23:10:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261107-0618",
       "headline": "낸드업계 상장 잇단 제동, 엇갈린 업황 속 투자 셈법 복잡",
