@@ -1,7 +1,50 @@
 {
   "version": 1,
-  "updated_at": "2026-11-07T19:52:41Z",
+  "updated_at": "2026-11-07T20:51:37Z",
   "issues": [
+    {
+      "id": "c20261107-0615",
+      "headline": "미 중간선거 후 반도체 공장 보조금 변동 우려 확산",
+      "summary": [
+        "미국 중간선거 이후 국내 반도체 기업의 현지 생산거점이 있는 주요 지역의 정치 지형이 변화할 가능성이 제기됐다.",
+        "기사는 텍사스 등 지역이 블루웨이브 영향권에 들었다고 전하며 공장 관련 보조금 변동에 업계가 주목하고 있다고 보도했다.",
+        "현지 공장 보조금 조건이 바뀌면 국내 기업의 미국 투자 계획과 수익성에 영향을 줄 수 있어 주목된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "미국 중간선거",
+        "반도체 보조금",
+        "블루웨이브",
+        "미국 생산거점"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-07T20:31:10Z",
+      "updated_at": "2026-11-07T20:31:10Z",
+      "articles": [
+        {
+          "key": "381bc36fb4c6e271",
+          "title": "[美선거 산업여파] ① 텍사스도 블루웨이브…반도체 공장 보조금 변동 촉각",
+          "url": "https://www.yna.co.kr/view/AKR20261106146900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-07T20:31:10Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261107-0614",
       "headline": "단일 발광 분자로 구현한 고효율 백색 OLED 연구",
