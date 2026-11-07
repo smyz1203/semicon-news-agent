@@ -1,7 +1,97 @@
 {
   "version": 1,
-  "updated_at": "2026-11-07T03:00:21Z",
+  "updated_at": "2026-11-07T04:02:22Z",
   "issues": [
+    {
+      "id": "c20261107-0607",
+      "headline": "듀크산네오룩스, 3분기 OLED 소재 매출 36% 급증",
+      "summary": [
+        "듀크산네오룩스가 2026년 3분기 잠정 실적을 발표했으며 영업이익은 사상 최고 분기 기록을 세웠다.",
+        "OLED 소재 사업 매출은 5,180만 달러로 전년 대비 36% 늘었고 영업이익률은 23.4%를 기록했다.",
+        "폴더블과 아이폰 신모델 수요가 반영되어 OLED 소재 수요 회복이 실적을 견인했다는 점이 주목된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "OLED 소재",
+        "폴더블",
+        "아이폰",
+        "영업이익률",
+        "잠정 실적"
+      ],
+      "companies": [
+        "듀크산네오룩스",
+        "HHI터보머신리"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "듀크산네오룩스"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-07T04:00:06Z",
+      "updated_at": "2026-11-07T04:00:06Z",
+      "articles": [
+        {
+          "key": "937eed6efe01d775",
+          "title": "DS Neolux's OLED materials revenue jumps 36% in Q3 2026, driven by new foldable and iPhone models",
+          "url": "https://www.oled-info.com/ds-neoluxs-oled-materials-revenue-jumps-36-q3-2026-driven-new-foldable-and",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-07T04:00:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261107-0606",
+      "headline": "엔비디아, 지포스 8800 GTX 출시 20주년 기념 무료 데모 공개",
+      "summary": [
+        "엔비디아가 지포스 8800 GTX 출시 20주년을 기념해 스팀에서 무료 인터랙티브 데모를 공개했다.",
+        "데모는 2006년 PC 게이밍 환경을 재현하며, 지포스 8800 GTX는 2006년 11월 8일 출시된 그래픽카드다.",
+        "이번 행사는 제품 홍보 성격으로, 반도체 산업에서 GPU 역사와 브랜드 가치를 알리는 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "지포스 8800 GTX",
+        "GPU",
+        "출시 20주년",
+        "스팀 데모"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-07T03:23:13Z",
+      "updated_at": "2026-11-07T03:23:13Z",
+      "articles": [
+        {
+          "key": "7339a1997c8f26ff",
+          "title": "\"20년 전 게임 시절로\"…엔비디아, 지포스 8800 GTX 출시 기념 무료 스팀 데모 공개",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409417",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-07T03:23:13Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261107-0605",
       "headline": "반도체 지자체 법인지방소득세 대폭 증가 전망",
