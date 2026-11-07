@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-07T05:58:14Z",
+  "updated_at": "2026-11-07T07:15:29Z",
   "issues": [
     {
       "id": "c20261107-0608",
@@ -39,6 +39,53 @@
           "source": "디지털타임스",
           "lang": "ko",
           "published_at": "2026-11-07T05:20:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261107-0609",
+      "headline": "TSMC, 엔비디아 요청으로 3D D램 사업화 검토",
+      "summary": [
+        "TSMC가 차세대 메모리인 3D D램 사업화 구상에 착수했다는 보도가 나왔다.",
+        "엔비디아의 강력한 요청이 배경이며, 신규 메모리 전용 공장 건설 또는 기존 공장 개조를 검토 중이다.",
+        "AI 수요로 촉발된 메모리 공급난 속에 파운드리 업체의 메모리 진출 가능성이 커졌다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "3D D램",
+        "TSMC 메모리 진출",
+        "HBM",
+        "메모리 공급난",
+        "AI 반도체"
+      ],
+      "companies": [
+        "TSMC",
+        "엔비디아"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "TSMC",
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-07T05:15:36Z",
+      "updated_at": "2026-11-07T05:15:36Z",
+      "articles": [
+        {
+          "key": "e320b105e6ff95ae",
+          "title": "\"TSMC, 메모리 진출 검토…엔비디아 요청\" 디인포메이션",
+          "url": "https://zdnet.co.kr/view/?no=20261107132711",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-07T05:15:36Z"
         }
       ],
       "type_checked": true,
