@@ -1,7 +1,54 @@
 {
   "version": 1,
-  "updated_at": "2026-11-07T15:51:09Z",
+  "updated_at": "2026-11-07T16:52:08Z",
   "issues": [
+    {
+      "id": "c20261107-0614",
+      "headline": "단일 발광 분자로 구현한 고효율 백색 OLED 연구",
+      "summary": [
+        "중국 지린대와 지화연구소 연구진이 단일 MR-TADF 발광 분자 Th-DBN으로 백색 OLED를 구현했다고 발표했다.",
+        "이 소자는 외부양자효율(EQE) 27.1%를 기록해 순수 유기 단일 도펀트 백색 OLED의 최고 기록으로 보고됐다.",
+        "다수 발광체 대신 단일 분자를 써 공정 단계와 비용을 줄이고 밝기 변화에 따른 색 틀어짐을 줄일 가능성을 보여준다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "백색 OLED",
+        "MR-TADF",
+        "단일 도펀트",
+        "외부양자효율",
+        "Th-DBN"
+      ],
+      "companies": [
+        "지린대학교",
+        "지화연구소"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "지린대",
+        "지화연구소"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-07T14:00:07Z",
+      "updated_at": "2026-11-07T14:00:07Z",
+      "articles": [
+        {
+          "key": "2c419cc0aa8c10fe",
+          "title": "Researchers develop a record-efficiency white OLED that uses a single MR-TADF emitter molecule",
+          "url": "https://www.oled-info.com/researchers-develop-record-efficiency-white-oled-uses-single-mr-tadf-emitter",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-07T14:00:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261107-0613",
       "headline": "중국 지린OLED, LG화학 OLED 특허 무효심판 청구",
