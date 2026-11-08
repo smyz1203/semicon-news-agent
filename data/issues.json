@@ -1,7 +1,60 @@
 {
   "version": 1,
-  "updated_at": "2026-11-08T15:49:56Z",
+  "updated_at": "2026-11-08T16:51:43Z",
   "issues": [
+    {
+      "id": "c20261106-0584",
+      "headline": "아바코, 3분기 연속 적자에도 OLED 장비 출하로 4분기 반등 기대",
+      "summary": [
+        "아바코가 2026년 3분기 실적을 발표했으며, 매출은 473억 원으로 전년 대비 6% 감소했다.",
+        "회사는 10월 말부터 주요 OLED 장비를 고객사에 출하하기 시작했으며, 4분기에 큰 이익 전환을 예상했다.",
+        "장비 제조·출하 일정 지연으로 올해 수주 물량이 1~3분기 실적에서 빠졌고, 이는 매출 인식 시점의 영향을 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "OLED 장비",
+        "매출 인식",
+        "분기 실적",
+        "4분기 흑자전환",
+        "출하 지연"
+      ],
+      "companies": [
+        "아바코"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "아바코"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-06T08:39:16Z",
+      "updated_at": "2026-11-08T15:46:52Z",
+      "articles": [
+        {
+          "key": "98ac214579c9faa9",
+          "title": "아바코, 3개 분기 연속 적자…4분기 흑자전환 전망",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65046",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-06T08:39:16Z"
+        },
+        {
+          "key": "0985168824de999e",
+          "title": "Avaco posts its third straight quarterly loss, but expects a strong Q4 as OLED equipment shipments begin",
+          "url": "https://www.oled-info.com/avaco-posts-its-third-straight-quarterly-loss-expects-strong-q4-oled-equipment",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-08T15:46:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261106-0597",
       "headline": "다이아몬드 파운드리, 200mm 단결정 다이아몬드 웨이퍼 세계 첫 공개",
@@ -2323,50 +2376,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261106-0584",
-      "headline": "아바코 3분기 적자 지속, 4분기 흑자전환 기대",
-      "summary": [
-        "아바코가 올해 1~3분기 연속 영업적자를 기록했다고 6일 밝혔다.",
-        "3분기 매출은 473억원, 영업손실은 46억원으로 지난해 같은 기간보다 매출이 6% 줄었다.",
-        "OLED 장비 출하가 10월 말부터 시작돼 4분기 흑자전환 전망이 나온다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "OLED 장비",
-        "실적 부진",
-        "흑자전환",
-        "장비 출하"
-      ],
-      "companies": [
-        "아바코"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "아바코"
-      ],
-      "importance": 3,
-      "importance_reason": "실적 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-06T08:39:16Z",
-      "updated_at": "2026-11-06T08:39:16Z",
-      "articles": [
-        {
-          "key": "98ac214579c9faa9",
-          "title": "아바코, 3개 분기 연속 적자…4분기 흑자전환 전망",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65046",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-06T08:39:16Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261106-0583",
