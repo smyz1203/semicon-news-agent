@@ -1,7 +1,60 @@
 {
   "version": 1,
-  "updated_at": "2026-11-08T09:00:15Z",
+  "updated_at": "2026-11-08T09:58:15Z",
   "issues": [
+    {
+      "id": "c20261107-0617",
+      "headline": "삼성전자 현금 200조 돌파, 주주환원·투자 확대 주목",
+      "summary": [
+        "삼성전자가 국내 기업 최초로 현금 200조원 이상을 확보했다고 알려졌다.",
+        "회사는 올해 주주환원으로 최대 110조원을 검토하는 것으로 전해졌다.",
+        "대규모 현금은 설비투자와 R&D 강화, 빅딜 가능성과 맞물려 업계의 관심을 끌고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "현금 보유",
+        "주주환원",
+        "설비투자",
+        "R&D",
+        "반도체 호황"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": false,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 2,
+      "importance_reason": "재무·주주 2점, 관심 기업(삼성전자) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-07T21:01:01Z",
+      "updated_at": "2026-11-08T09:37:57Z",
+      "articles": [
+        {
+          "key": "fb56828c54a27e51",
+          "title": "삼전 현금 200조 돌파…올해 주주환원도 미래투자도 100조+α",
+          "url": "https://www.yna.co.kr/view/AKR20261106156200003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-07T21:01:01Z"
+        },
+        {
+          "key": "e1260d646819dd85",
+          "title": "‘200조 현금왕’ 삼성전자… 빅딜·주주환원 주목",
+          "url": "https://www.dt.co.kr/article/12093823",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-08T09:37:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261108-0628",
       "headline": "삼전닉스 급락에 개인투자자 손실 확대",
@@ -520,50 +573,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261107-0617",
-      "headline": "삼성전자 현금 200조 돌파, 주주환원·투자 확대 여력",
-      "summary": [
-        "삼성전자의 현금 보유액이 국내 기업 최초로 200조원을 넘어선 것으로 나타났다.",
-        "기사에는 올해 주주환원과 미래투자에 각각 100조원 이상을 쓸 수 있다는 내용이 담겼다.",
-        "역대 최대 호황 속에서 대규모 현금이 쌓여 향후 배당·자사주와 투자 여력이 커졌다는 의미가 있다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "현금보유",
-        "주주환원",
-        "미래투자",
-        "역대 최대 호황"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "재무·주주",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 3,
-      "importance_reason": "재무·주주 2점, 관심 기업(삼성전자) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-07T21:01:01Z",
-      "updated_at": "2026-11-07T21:01:01Z",
-      "articles": [
-        {
-          "key": "fb56828c54a27e51",
-          "title": "삼전 현금 200조 돌파…올해 주주환원도 미래투자도 100조+α",
-          "url": "https://www.yna.co.kr/view/AKR20261106156200003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-07T21:01:01Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261107-0615",
