@@ -1,7 +1,49 @@
 {
   "version": 1,
-  "updated_at": "2026-11-08T22:50:16Z",
+  "updated_at": "2026-11-08T23:48:04Z",
   "issues": [
+    {
+      "id": "c20261108-0634",
+      "headline": "부산서 반도체 제조기술 국제학술대회 개최 예정",
+      "summary": [
+        "한국반도체디스플레이기술학회가 9일부터 13일까지 부산 해운대구에서 반도체 제조기술 국제학술대회를 연다.",
+        "행사에서는 AI 혁신과 산업 간 협력이 주요 의제로 논의될 예정이며 기사에 제시된 세부 프로그램은 확인되지 않는다.",
+        "이번 학술대회는 반도체 제조 분야의 기술 교류와 산학 협력을 넓히는 계기가 될 것으로 보인다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "반도체 제조기술",
+        "국제학술대회",
+        "AI 혁신",
+        "산학협력"
+      ],
+      "companies": [
+        "한국반도체디스플레이기술학회"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-08T23:12:11Z",
+      "updated_at": "2026-11-08T23:12:11Z",
+      "articles": [
+        {
+          "key": "02ffdf247a4e57f2",
+          "title": "부산서 반도체 제조기술 국제학술대회…AI 혁신·협력 논의",
+          "url": "https://www.yna.co.kr/view/AKR20261109015200051",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-08T23:12:11Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261108-0633",
       "headline": "엔비디아 황 CEO 개인 의혹에 이사회 자체 조사 착수",
