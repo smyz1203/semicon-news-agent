@@ -1,7 +1,102 @@
 {
   "version": 1,
-  "updated_at": "2026-11-08T19:54:52Z",
+  "updated_at": "2026-11-08T20:50:32Z",
   "issues": [
+    {
+      "id": "c20261108-0631",
+      "headline": "외인 매도에 삼성전자·SK하이닉스 급락, 증권가 분할 매수 권고",
+      "summary": [
+        "미국 중간선거 결과 여파로 국내 반도체 대형주 삼성전자와 SK하이닉스가 급락했다.",
+        "증권가는 주가가 역사적 저평가 구간에 들어섰다며 분할 매수 대응을 권하고 있다.",
+        "AI 데이터센터 규제 우려가 번졌으나 메모리 업황은 여전히 견조하다는 평가가 나온다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "주가 급락",
+        "외국인 매도",
+        "분할 매수",
+        "AI 데이터센터 규제",
+        "메모리"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-08T20:30:00Z",
+      "updated_at": "2026-11-08T20:30:00Z",
+      "articles": [
+        {
+          "key": "fce4bef5508de0c0",
+          "title": "외인 투매에 털린 ‘삼전닉스’…증권가 “역사적 저점, 분할 매수 적기”",
+          "url": "https://www.dt.co.kr/article/12093842",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-08T20:30:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
+    {
+      "id": "c20261108-0630",
+      "headline": "삼성디스플레이, 네오레이어 특허 6건 재심사 청구·4건 명령",
+      "summary": [
+        "삼성디스플레이가 네오레이어의 미국 특허 6건 전부에 대해 미국 특허청 결정계 재심사를 청구했다.",
+        "6건 중 4건은 재심사 명령이 나왔고 나머지 2건은 재심사 개시 여부를 기다리는 중이다.",
+        "특허성을 다투는 이 절차 결과는 에이수스·BOE의 네오레이어 소송에도 영향을 줄 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "결정계 재심사",
+        "특허 소송",
+        "OLED",
+        "LCD",
+        "특허침해"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "네오레이어",
+        "삼성전자",
+        "에이수스",
+        "BOE",
+        "AUO"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "삼성디스플레이",
+        "네오레이어"
+      ],
+      "importance": 4,
+      "importance_reason": "소송·특허 3점, 관심 기업(삼성디스플레이) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-08T15:53:52Z",
+      "updated_at": "2026-11-08T15:53:52Z",
+      "articles": [
+        {
+          "key": "42c07d265ca5da61",
+          "title": "삼성D, 'NPE' 네오레이어 특허 6건 재심사 청구...4건 재심사 명령",
+          "url": "https://zdnet.co.kr/view/?no=20261109003401",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-08T15:53:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
     {
       "id": "c20261106-0584",
       "headline": "아바코, 3분기 연속 적자에도 OLED 장비 출하로 4분기 반등 기대",
