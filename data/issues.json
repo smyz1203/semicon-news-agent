@@ -1,7 +1,59 @@
 {
   "version": 1,
-  "updated_at": "2026-11-08T14:52:31Z",
+  "updated_at": "2026-11-08T15:49:56Z",
   "issues": [
+    {
+      "id": "c20261106-0597",
+      "headline": "다이아몬드 파운드리, 200mm 단결정 다이아몬드 웨이퍼 세계 첫 공개",
+      "summary": [
+        "다이아몬드 파운드리가 200mm 단결정 다이아몬드 웨이퍼를 세계 최초로 선보였다고 발표했다.",
+        "기사 본문에는 구체적 수치나 일정이 제시되지 않아 세부 내용은 확인되지 않는다.",
+        "웨이퍼 대구경화는 차세대 반도체 기판 소재 경쟁에 영향을 줄 수 있는 사안이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "단결정 다이아몬드",
+        "200mm 웨이퍼",
+        "차세대 기판 소재",
+        "반도체 소재"
+      ],
+      "companies": [
+        "다이아몬드 파운드리"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "다이아몬드 파운드리"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-06T16:03:48Z",
+      "updated_at": "2026-11-08T15:25:00Z",
+      "articles": [
+        {
+          "key": "a2899d7e48e17f1b",
+          "title": "Diamond Foundry Announces First-Ever D200mm Single-Crystal Diamond",
+          "url": "https://www.semiconductor-digest.com/diamond-foundry-announces-first-ever-d200mm-single-crystal-diamond/?utm_source=rss&utm_medium=rss&utm_campaign=diamond-foundry-announces-first-ever-d200mm-single-crystal-diamond",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-06T16:03:48Z"
+        },
+        {
+          "key": "3d7353949e3a09ce",
+          "title": "Diamond Foundry creates world's first 200mm single-crystal diamond wafer",
+          "url": "https://www.tomshardware.com/pc-components/cooling/diamond-foundry-creates-worlds-first-200mm-single-crystal-diamond-wafer-massive-gem-aims-to-solve-ai-chip-cooling-crisis-envisioned-as-a-cooling-material-for-semiconductors",
+          "source": "Tom's Hardware",
+          "lang": "en",
+          "published_at": "2026-11-08T15:25:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
     {
       "id": "c20261108-0629",
       "headline": "대만, 메모리 반도체 시장 진출 노린다",
@@ -1472,51 +1524,6 @@
           "source": "Semiconductor Digest",
           "lang": "en",
           "published_at": "2026-11-06T16:05:05Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261106-0597",
-      "headline": "다이아몬드 파운드리, 200mm 단결정 다이아몬드 웨이퍼 구현",
-      "summary": [
-        "다이아몬드 파운드리가 지름 200mm의 단결정 다이아몬드 제작에 성공했다고 발표했다.",
-        "기존 다이아몬드 기술의 한계였던 크기 문제를 해결했으며, 조각을 이은 것이 아닌 단일 결정이라고 밝혔다.",
-        "반도체 규모에서 다이아몬드를 소재로 활용할 가능성을 넓혔다는 점에서 의미가 있다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "단결정 다이아몬드",
-        "D200mm",
-        "반도체 소재",
-        "열전도율",
-        "결정 성장"
-      ],
-      "companies": [
-        "다이아몬드 파운드리"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "다이아몬드 파운드리"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-06T16:03:48Z",
-      "updated_at": "2026-11-06T16:03:48Z",
-      "articles": [
-        {
-          "key": "a2899d7e48e17f1b",
-          "title": "Diamond Foundry Announces First-Ever D200mm Single-Crystal Diamond",
-          "url": "https://www.semiconductor-digest.com/diamond-foundry-announces-first-ever-d200mm-single-crystal-diamond/?utm_source=rss&utm_medium=rss&utm_campaign=diamond-foundry-announces-first-ever-d200mm-single-crystal-diamond",
-          "source": "Semiconductor Digest",
-          "lang": "en",
-          "published_at": "2026-11-06T16:03:48Z"
         }
       ],
       "type_checked": true,
