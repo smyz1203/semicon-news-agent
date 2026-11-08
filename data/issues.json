@@ -1,7 +1,187 @@
 {
   "version": 1,
-  "updated_at": "2026-11-07T23:47:32Z",
+  "updated_at": "2026-11-08T01:22:17Z",
   "issues": [
+    {
+      "id": "c20261108-0622",
+      "headline": "엔비디아 매디슨 황 방한 돌연 취소, 일정 무산",
+      "summary": [
+        "엔비디아 매디슨 황 수석이사가 9~10일 서울 행사 참석을 포함한 한국 방문 계획을 취소했다.",
+        "기사에 따르면 가족 사유가 전해졌으며 배경훈 면담과 기업 협력 일정도 함께 무산됐다.",
+        "행사와 협력 일정이 멈춰 한국 AI 생태계 협업 논의에 단기 차질이 생긴 셈이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엔비디아",
+        "AI 데이 서울 2026",
+        "방한 취소",
+        "AI 협력"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-08T00:38:30Z",
+      "updated_at": "2026-11-08T00:51:36Z",
+      "articles": [
+        {
+          "key": "36a4a061448d4195",
+          "title": "‘스파이 논란’ 한창 젠슨 황 장녀, 방한 돌연 취소…“가족 사유”",
+          "url": "https://www.dt.co.kr/article/12093701",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-08T00:38:30Z"
+        },
+        {
+          "key": "be40074f864b9a6b",
+          "title": "매디슨 황 방한 취소…배경훈 면담·기업 협력 일정 무산",
+          "url": "https://www.yna.co.kr/view/AKR20261108015800017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-08T00:51:36Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261108-0623",
+      "headline": "TSMC, AI용 메모리 반도체 직접 생산 추진 검토",
+      "summary": [
+        "TSMC가 AI 가속기에 쓰이는 메모리 반도체의 자체 생산을 추진한다는 소식이 전해졌다.",
+        "기사에는 구체적인 생산 일정, 투자 규모, 수치가 나와 있지 않아 세부 내용은 확인되지 않는다.",
+        "파운드리 강자가 메모리 영역까지 넘보면 AI 반도체 공급망과 기존 메모리 업체의 경쟁 구도에 영향을 줄 수 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "TSMC",
+        "AI반도체",
+        "AI용 메모리",
+        "자체 생산"
+      ],
+      "companies": [
+        "TSMC"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "TSMC"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-08T00:41:10Z",
+      "updated_at": "2026-11-08T00:41:10Z",
+      "articles": [
+        {
+          "key": "a8821168ff0fc495",
+          "title": "[안테나] \"TSMC, AI용 메모리 반도체 생산 추진\"",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343099",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-08T00:41:10Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261108-0621",
+      "headline": "광주송정역 일대 반도체 관문도시 조성 추진",
+      "summary": [
+        "전남광주통합특별시가 광주송정역과 금호타이어 광주공장 이전부지 일대를 반도체 관문도시로 조성하려 한다.",
+        "연결 대상에는 군공항 이전부지 등이 포함되며 대상 면적은 약 394만㎡ 규모로 알려졌다.",
+        "반도체 산업 거점을 교통 요충지와 묶어 지역 산업 생태계를 키우는 의미가 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체 관문도시",
+        "광주송정역",
+        "금호타이어 이전부지",
+        "군공항 이전부지",
+        "지역 산업단지"
+      ],
+      "companies": [
+        "금호타이어"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-08T00:02:01Z",
+      "updated_at": "2026-11-08T00:02:01Z",
+      "articles": [
+        {
+          "key": "6e40fd59237fa8dd",
+          "title": "광주송정역·금호타이어공장 일대 '반도체 관문도시' 조성",
+          "url": "https://www.yna.co.kr/view/AKR20261106086200054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-08T00:02:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261108-0620",
+      "headline": "외국인 반도체 대형주 매도…삼성전자 지분율 17년 최저",
+      "summary": [
+        "지난 한 주 외국인이 삼성전자와 SK하이닉스에서 7조6000억원 넘게 순매도했다.",
+        "삼성전자 외국인 지분율은 약 17년, SK하이닉스는 약 5년 만의 최저 수준으로 떨어졌다.",
+        "대형 반도체주의 외국인 이탈이 국내 증시 수급에 부담을 주는 흐름으로 읽힌다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "외국인 순매도",
+        "외국인 지분율",
+        "블루 쓰나미",
+        "코스피 수급"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": true,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-07T23:48:49Z",
+      "updated_at": "2026-11-07T23:48:49Z",
+      "articles": [
+        {
+          "key": "4c58e7592b10300d",
+          "title": "삼성전자 외인 보유율 17년만 최저…‘블루 쓰나미’에 금융위기 급",
+          "url": "https://www.dt.co.kr/article/12093687",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-07T23:48:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261107-0619",
       "headline": "광주 반도체 배후도시 조성에 LH 대신 광주도시공사 참여",
