@@ -1,7 +1,148 @@
 {
   "version": 1,
-  "updated_at": "2026-11-08T20:50:32Z",
+  "updated_at": "2026-11-08T21:49:20Z",
   "issues": [
+    {
+      "id": "c20261108-0633",
+      "headline": "엔비디아 황 CEO 개인 의혹에 이사회 자체 조사 착수",
+      "summary": [
+        "젠슨 황 엔비디아 CEO가 자신의 불륜 사실을 인정하고 임직원에게 사과 메일을 보냈다.",
+        "엔비디아 이사회는 8일 성명을 내고 최근 보도와 관련해 독립적인 검토에 나선다고 밝혔다.",
+        "경영진 개인 리스크가 기업 지배구조와 투자자 신뢰에 미칠 영향이 주목된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "이사회 조사",
+        "지배구조",
+        "경영 리스크"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-08T21:29:49Z",
+      "updated_at": "2026-11-08T21:29:49Z",
+      "articles": [
+        {
+          "key": "321fc19f499f99c3",
+          "title": "젠슨 황, 불륜 인정하고 임직원에 사과 메일",
+          "url": "https://www.dt.co.kr/article/12093855",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-08T21:29:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261108-0632",
+      "headline": "SK하이닉스·삼성 인사, 맞춤형 HBM 시대 기술통 전진 배치",
+      "summary": [
+        "SK하이닉스가 미국 반도체 사업을 이끄는 자리에 메모리 개발 전문가를 발탁했고 삼성전자도 유사한 흐름을 보였다.",
+        "기사 본문이 일부만 제공되어 구체적인 인선 대상자와 직책, 시기 등 세부 내용은 확인되지 않는다.",
+        "맞춤형 HBM 확대 흐름 속에서 기술 이해도가 높은 인물을 해외 사업에 배치하는 경향을 보여준다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "맞춤형 HBM",
+        "경영진 인사",
+        "미주사업",
+        "메모리 개발"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 관심 기업(SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-08T21:09:00Z",
+      "updated_at": "2026-11-08T21:09:00Z",
+      "articles": [
+        {
+          "key": "4c695b48b441cb8d",
+          "title": "맞춤형 HBM이 바꾼 SK·삼성 인사…기술통이 미주사업 이끈다",
+          "url": "https://www.yna.co.kr/view/AKR20261108042900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-08T21:09:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261106-0549",
+      "headline": "AI 피크아웃 우려에 메모리 주가 급락",
+      "summary": [
+        "미국 중간선거 이후 데이터센터 건립이 지연될 것이라는 전망이 나오며 메모리 업종이 흔들렸다.",
+        "삼성전자와 SK하이닉스 등 메모리 강자들의 주가가 이틀 새 두 자릿수 가까이 하락했다는 보도가 나왔다.",
+        "AI 수요 둔화 우려가 메모리 업황 전망에 부담으로 작용할 수 있어 투자자 경계가 커졌다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 피크아웃",
+        "데이터센터",
+        "메모리",
+        "중간선거",
+        "주가 하락"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-06T00:28:13Z",
+      "updated_at": "2026-11-08T21:00:00Z",
+      "articles": [
+        {
+          "key": "361ea2f9e2782bec",
+          "title": "Samsung, SK hynix slide 10% as AI data center fears spread",
+          "url": "https://www.koreaherald.com/article/10927984",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-06T00:28:13Z"
+        },
+        {
+          "key": "6128a878f37dbbd1",
+          "title": "2거래일 만 ‘두자릿수’ 뚝…메모리 덮친 美 중간선거 후폭풍 언제까지 가나",
+          "url": "https://www.dt.co.kr/article/12093837",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-08T21:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
     {
       "id": "c20261108-0631",
       "headline": "외인 매도에 삼성전자·SK하이닉스 급락, 증권가 분할 매수 권고",
@@ -3939,50 +4080,6 @@
       ],
       "type_checked": true,
       "importance_raw": 4
-    },
-    {
-      "id": "c20261106-0549",
-      "headline": "AI 데이터센터 우려에 삼성·SK하이닉스 급락, 코스피 5000 붕괴",
-      "summary": [
-        "미국발 기술주 급락 여파로 반도체 대형주가 장중 약 10% 급락했고 코스피는 5000선 아래로 밀렸다.",
-        "코스피는 2.2% 하락 출발했고 개장 3분 만에 매매 거래가 20분간 정지되는 서킷브레이커가 발동됐다.",
-        "AI 데이터센터 투자 불안이 메모리 업종 전반의 투자심리를 흔들고 있어 단기 변동성이 커질 전망이다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "AI 데이터센터",
-        "서킷브레이커",
-        "코스피",
-        "반도체 주가",
-        "투자심리"
-      ],
-      "companies": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "event_type": "주가 등락",
-      "confirmed": true,
-      "parties": [],
-      "importance": 1,
-      "importance_reason": "주가 등락 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-06T00:28:13Z",
-      "updated_at": "2026-11-06T00:28:13Z",
-      "articles": [
-        {
-          "key": "361ea2f9e2782bec",
-          "title": "Samsung, SK hynix slide 10% as AI data center fears spread",
-          "url": "https://www.koreaherald.com/article/10927984",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-11-06T00:28:13Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
     },
     {
       "id": "c20261105-0547",
