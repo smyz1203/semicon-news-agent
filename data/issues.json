@@ -1,7 +1,110 @@
 {
   "version": 1,
-  "updated_at": "2026-11-08T04:05:39Z",
+  "updated_at": "2026-11-08T05:04:11Z",
   "issues": [
+    {
+      "id": "c20261108-0625",
+      "headline": "삼성 테일러 공장, 12월 시험 가동 가능성",
+      "summary": [
+        "삼성전자가 미국 텍사스 테일러 파운드리 공장의 시험 가동을 12월 중 시작할 것으로 업계 소식통이 전했다.",
+        "장비 설치, 생산라인 구축, 성능 점검이 진행 중이며 본격 양산은 내년으로 계획돼 있다.",
+        "회사가 가동 일정을 확정하지 않아 미국 내 파운드리 생산 확대 속도를 가늠할 변수가 남아 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "테일러 팹",
+        "파운드리",
+        "시험 가동",
+        "양산 일정",
+        "미국 반도체 공장"
+      ],
+      "companies": [
+        "삼성전자",
+        "삼성오스틴반도체"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-08T04:55:28Z",
+      "updated_at": "2026-11-08T04:55:28Z",
+      "articles": [
+        {
+          "key": "ff639fc935fcd2ee",
+          "title": "Samsung's Texas chip plant could begin trial runs in December",
+          "url": "https://www.koreaherald.com/article/10929626",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-08T04:55:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261107-0616",
+      "headline": "삼성전자·현대차그룹, 첫 경영진 교류 감사의 날 개최",
+      "summary": [
+        "삼성전자가 9일 용인 연수원에서 현대차·기아 주요 경영진과 임원을 초청해 감사의 날 행사를 연다.",
+        "부부 동반으로 열리며 전영현 부회장과 장재훈 현대차 부회장 등이 참석하고, 연합뉴스는 177명이 참석한다고 전했다.",
+        "반도체·배터리·전장 등 미래차 협력이 넓어지는 가운데 그룹 간 교류를 통해 파트너십 강화가 기대된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "미래차",
+        "반도체",
+        "전장부품",
+        "파트너십",
+        "경영진 교류"
+      ],
+      "companies": [
+        "삼성전자",
+        "현대자동차",
+        "기아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "현대자동차",
+        "기아"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-07T20:55:01Z",
+      "updated_at": "2026-11-08T03:26:02Z",
+      "articles": [
+        {
+          "key": "e30ffd8990f0d4cb",
+          "title": "삼전·현대차 첫 그룹간 교류…이재용·정의선 등 177명 총출동",
+          "url": "https://www.yna.co.kr/view/AKR20261107031000003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-07T20:55:01Z"
+        },
+        {
+          "key": "b7e12fa6185c2517",
+          "title": "삼성전자,현대차그룹 초청 첫 '감사 데이' 9일 개최…주요 경영진 참석",
+          "url": "https://www.etnews.com/20261108000055",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-08T03:26:02Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261108-0622",
       "headline": "엔비디아 매디슨 황 방한 돌연 취소, 일정 무산",
@@ -368,51 +471,6 @@
           "source": "연합뉴스",
           "lang": "ko",
           "published_at": "2026-11-07T21:01:01Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261107-0616",
-      "headline": "삼성전자·현대차그룹 첫 그룹 간 교류 행사 열려",
-      "summary": [
-        "삼성전자가 현대차그룹 주요 경영진을 부부 동반으로 초청하는 감사 행사를 처음 마련했다.",
-        "이재용 회장과 정의선 회장 등 약 177명이 참석하는 것으로 보도됐다.",
-        "대기업 간 교류가 넓어지며 산업계 협력 분위기에 긍정적 신호로 해석된다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "그룹 간 교류",
-        "감사 행사",
-        "협력"
-      ],
-      "companies": [
-        "삼성전자",
-        "현대차그룹"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "삼성전자",
-        "현대차그룹"
-      ],
-      "importance": 3,
-      "importance_reason": "업계 일반 2점, 관심 기업(삼성전자) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-07T20:55:01Z",
-      "updated_at": "2026-11-07T20:55:01Z",
-      "articles": [
-        {
-          "key": "e30ffd8990f0d4cb",
-          "title": "삼전·현대차 첫 그룹간 교류…이재용·정의선 등 177명 총출동",
-          "url": "https://www.yna.co.kr/view/AKR20261107031000003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-07T20:55:01Z"
         }
       ],
       "type_checked": true,
