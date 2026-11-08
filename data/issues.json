@@ -1,7 +1,52 @@
 {
   "version": 1,
-  "updated_at": "2026-11-08T09:58:15Z",
+  "updated_at": "2026-11-08T10:55:37Z",
   "issues": [
+    {
+      "id": "c20261108-0629",
+      "headline": "대만, 메모리 반도체 시장 진출 노린다",
+      "summary": [
+        "대만이 TSMC를 앞세워 한국의 강점인 메모리반도체 시장까지 넘보려는 움직임이 보도됐다.",
+        "기사 본문은 일부만 제공돼 구체적 추진 계획과 수치는 확인되지 않는다.",
+        "삼성전자와 SK하이닉스 등 국내 메모리 업체에는 경쟁 심화 우려가 제기될 수 있는 상황이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "메모리반도체",
+        "대만",
+        "파운드리",
+        "AI반도체",
+        "경쟁 심화"
+      ],
+      "companies": [
+        "TSMC",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-08T10:01:04Z",
+      "updated_at": "2026-11-08T10:01:04Z",
+      "articles": [
+        {
+          "key": "89f33a2cc207fac2",
+          "title": "[기획] 메모리 노리는 대만… 삼전닉스 ‘겹악재’",
+          "url": "https://www.dt.co.kr/article/12093828",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-08T10:01:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261107-0617",
       "headline": "삼성전자 현금 200조 돌파, 주주환원·투자 확대 주목",
