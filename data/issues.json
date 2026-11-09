@@ -1,7 +1,49 @@
 {
   "version": 1,
-  "updated_at": "2026-11-09T11:10:39Z",
+  "updated_at": "2026-11-09T12:08:53Z",
   "issues": [
+    {
+      "id": "c20261109-0700",
+      "headline": "엔비디아, 자율주행·이동로봇 초기 상용화 진입 평가",
+      "summary": [
+        "엔비디아 부사장이 자율주행차와 자율이동로봇(AMR)이 초기 상용화 단계에 들어섰다고 인터뷰에서 밝혔다.",
+        "실제 산업 현장에 투입 가능한 기술 수준에 도달했다는 판단이며, 휴머노이드는 아직 해당하지 않는다고 선을 그었다.",
+        "반도체 업계 입장에서는 로봇·자율주행용 AI 칩 수요가 실제 응용처로 확장되는 신호로 볼 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "자율주행",
+        "AMR",
+        "휴머노이드",
+        "엔비디아 AI 플랫폼"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T11:15:08Z",
+      "updated_at": "2026-11-09T11:15:08Z",
+      "articles": [
+        {
+          "key": "107616d32c016087",
+          "title": "엔비디아 부사장 \"자율주행·이동로봇, 초기 상용화 진입…휴머노이드는 아직\"[인터뷰]",
+          "url": "https://www.inews24.com/view/2024258",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-09T11:15:08Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261109-0699",
       "headline": "젠슨 황 논란, 대중 반도체 제재 강화 변수로",
