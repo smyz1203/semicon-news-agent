@@ -1,43 +1,85 @@
 {
   "version": 1,
-  "updated_at": "2026-11-09T05:20:34Z",
+  "updated_at": "2026-11-09T07:41:32Z",
   "issues": [
     {
-      "id": "c20261109-0658",
-      "headline": "엔비디아·SKT·리벨리온, 국산 NPU 연계 AI 칩 동맹",
+      "id": "c20261109-0671",
+      "headline": "광주 반도체 용수시설 723억 사업, 지방비 부담 논란",
       "summary": [
-        "엔비디아, SK텔레콤, 리벨리온이 국산 NPU를 엔비디아 데이터센터 시스템에 연결하는 양해각서를 체결했다.",
-        "리벨리온 차세대 NPU R200을 NVLink Fusion으로 연결하고 MGX 랙 기반 추론 시스템을 개발하는 것이 핵심이다.",
-        "국산 AI 칩이 글로벌 엔비디아 생태계에 편입되는 사례로, 소버린 AI 인프라 확산에 의미가 있다."
+        "광주시가 호남 반도체 산업단지 용수 공급과 연계해 723억원 규모의 정수시설·관로 사업을 추진하고 있다.",
+        "시의회에서는 해당 사업의 지방비 부담 문제가 쟁점으로 제기되며 논란이 일고 있다.",
+        "산업단지 용수 인프라 확보는 반도체 투자 유치의 기반이지만 재원 분담 방식이 향후 추진 속도를 좌우할 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "용수시설",
+        "호남 반도체 산업단지",
+        "지방비 부담",
+        "정수시설",
+        "관로 사업"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T07:15:05Z",
+      "updated_at": "2026-11-09T07:15:05Z",
+      "articles": [
+        {
+          "key": "8e557ee50528df52",
+          "title": "광주 반도체 용수시설 723억…시의회서 지방비 부담 논란 제기",
+          "url": "https://www.yna.co.kr/view/AKR20261109122400054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-09T07:15:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261109-0658",
+      "headline": "SKT·리벨리온·엔비디아, 국산 NPU 결합 소버린 AI 협력",
+      "summary": [
+        "SK텔레콤, 리벨리온, 엔비디아가 NV링크 퓨전 기반 업무협약을 체결하고 GPU와 NPU를 함께 쓰는 AI데이터센터 구축에 나선다.",
+        "리벨리온의 차세대 R200 NPU를 엔비디아 플랫폼에 연결하고 SKT 데이터센터에서 이기종 컴퓨팅 환경을 구현할 계획이다.",
+        "국산 NPU의 해외 시장 진출 기반이 될 수 있으나 구체적 일정과 투자 규모는 기사에 나오지 않았다."
       ],
       "category": "AI반도체",
       "tags": [
-        "NVLink Fusion",
-        "NPU",
         "소버린 AI",
-        "MGX 랙",
+        "NV링크 퓨전",
+        "NPU",
+        "이기종 컴퓨팅",
+        "AI데이터센터",
         "R200"
       ],
       "companies": [
-        "엔비디아",
         "SK텔레콤",
-        "리벨리온"
+        "리벨리온",
+        "엔비디아"
       ],
       "event_type": "수주·공급",
       "confirmed": true,
       "parties": [
-        "엔비디아",
         "SK텔레콤",
-        "리벨리온"
+        "리벨리온",
+        "엔비디아"
       ],
       "importance": 4,
-      "importance_reason": "수주·공급 3점, 매체 4곳 보도 +1 → 4점",
+      "importance_reason": "수주·공급 3점, 매체 6곳 보도 +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "both",
       "first_seen": "2026-11-09T05:00:00Z",
-      "updated_at": "2026-11-09T05:18:42Z",
+      "updated_at": "2026-11-09T07:14:04Z",
       "articles": [
         {
           "key": "81fe877546359a09",
@@ -70,30 +112,116 @@
           "source": "Korea Herald",
           "lang": "en",
           "published_at": "2026-11-09T05:18:42Z"
+        },
+        {
+          "key": "834b332935c72e6a",
+          "title": "엔비디아 GPU에 국산 NPU 결합…SKT 데이터센터서 실증",
+          "url": "https://www.dt.co.kr/article/12093974",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-09T05:36:51Z"
+        },
+        {
+          "key": "6220051e65bc51d8",
+          "title": "리벨리온, 엔비디아·SKT와 한국형 소버린 AI 기반 넓힌다",
+          "url": "https://www.yna.co.kr/view/AKR20261109100900017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-09T05:41:17Z"
+        },
+        {
+          "key": "334cdaf8b2509983",
+          "title": "엔비디아 올라탄 토종NPU...소버린AI로 글로벌 토큰시장 진출",
+          "url": "https://zdnet.co.kr/view/?no=20261109152937",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-09T06:29:37Z"
+        },
+        {
+          "key": "4619f4774902c9e7",
+          "title": "SKT, 엔비디아 GPU·리벨리온 NPU 결합⋯\"소버린 AI 토큰 공급\"(종합)",
+          "url": "https://www.inews24.com/view/2024185",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-09T07:14:04Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 4
     },
     {
-      "id": "c20261109-0660",
-      "headline": "한화세미텍, 30대 김진우 사업총괄 신임 대표 내정",
+      "id": "c20261109-0670",
+      "headline": "글로벌테크놀로지, 중국서 디스플레이 기술 심포지엄 개최",
       "summary": [
-        "한화세미텍이 김진우 사업총괄을 신임 대표이사로 내정했다고 9일 밝혔다.",
-        "김 내정자는 1989년생으로 KPMG, AT커니 등을 거쳐 지난해 한화그룹에 합류했다.",
-        "후공정 장비 사업 확대를 이끌 인사로, 회사의 사업 확장 전략에 영향을 줄 전망이다."
+        "글로벌테크놀로지가 중국 선전에서 'GT 테크 심포지엄 2026'을 열었다고 9일 밝혔다.",
+        "TCL CSOT, 이노룩스, ZTE, WG 테크, 네이션스타 등 업체가 참석해 TSO 기술 솔루션을 논의했다.",
+        "현지 디스플레이 업체와의 제품 적용 및 생산·판매 협력이 논의돼 중국 시장 공략의 의미가 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "TSO",
+        "시분할 구동",
+        "디스플레이 IC",
+        "기술 심포지엄"
+      ],
+      "companies": [
+        "글로벌테크놀로지",
+        "TCL CSOT",
+        "이노룩스",
+        "ZTE",
+        "WG 테크",
+        "네이션스타"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "글로벌테크놀로지",
+        "TCL CSOT",
+        "이노룩스",
+        "ZTE",
+        "WG 테크",
+        "네이션스타"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T07:08:04Z",
+      "updated_at": "2026-11-09T07:08:04Z",
+      "articles": [
+        {
+          "key": "baea3d13de388fd3",
+          "title": "글로벌테크놀로지, 중국서 디스플레이 기술 심포지엄 개최",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65115",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-09T07:08:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0660",
+      "headline": "한화세미텍, 김진우 사업총괄 신임 대표 내정",
+      "summary": [
+        "한화세미텍이 김진우 사업총괄을 신임 대표로 내정했다고 9일 밝혔다.",
+        "김 내정자는 HBM 후공정 장비인 TC본더, 하이브리드본더, PLP 시장에 집중할 예정이다.",
+        "기술 전문가 대신 경영 전문가를 앞세워 후공정 장비 사업 경쟁력을 강화하려는 움직임이다."
       ],
       "category": "장비/소재/부품",
       "tags": [
-        "후공정 장비",
-        "대표이사 내정",
+        "한화세미텍",
+        "HBM",
+        "TC본더",
+        "하이브리드본더",
+        "PLP",
         "경영진 교체"
       ],
       "companies": [
-        "한화세미텍",
-        "한화그룹",
-        "KPMG",
-        "AT커니"
+        "한화세미텍"
       ],
       "event_type": "경영진 교체",
       "confirmed": true,
@@ -107,7 +235,7 @@
       "attempts": 0,
       "region": "ko",
       "first_seen": "2026-11-09T05:05:23Z",
-      "updated_at": "2026-11-09T05:05:23Z",
+      "updated_at": "2026-11-09T07:06:13Z",
       "articles": [
         {
           "key": "a8d5a136a2d1809a",
@@ -116,10 +244,490 @@
           "source": "테크월드뉴스",
           "lang": "ko",
           "published_at": "2026-11-09T05:05:23Z"
+        },
+        {
+          "key": "def938879ccabd33",
+          "title": "한화세미텍, 컨설팅 전문가 김진우 사업총괄 신임 대표로 내정",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65121",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-09T07:06:13Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 3
+    },
+    {
+      "id": "c20261109-0666",
+      "headline": "젠슨 황 스캔들, 삼성·SK하이닉스 수출 리스크 부각",
+      "summary": [
+        "엔비디아 젠슨 황 CEO가 외국 정보기관 공작 의혹과 사생활 스캔들에 연루됐다는 보도가 나왔다.",
+        "기사에는 구체적 수치나 일정이 나오지 않아 실제 제재나 조치 여부는 확인되지 않았다.",
+        "미국의 대중국 AI칩 수출 통제가 강화되면 삼성전자와 SK하이닉스의 수출 준수 부담이 커질 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "젠슨 황",
+        "엔비디아",
+        "수출규제",
+        "AI칩",
+        "중국 우회 수출"
+      ],
+      "companies": [
+        "엔비디아",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-09T06:24:17Z",
+      "updated_at": "2026-11-09T07:02:07Z",
+      "articles": [
+        {
+          "key": "2cf1d3e505ad3597",
+          "title": "Nvidia scandal raises export risks for Korean chipmakers",
+          "url": "https://www.koreaherald.com/article/10930899",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-09T06:24:17Z"
+        },
+        {
+          "key": "94a3986a09b6c420",
+          "title": "젠슨황 스캔들에 '깐부' 삼전닉스도 영향권 드나 촉각",
+          "url": "https://www.yna.co.kr/view/AKR20261109120300003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-09T07:02:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0669",
+      "headline": "파라스 세미컨덕터, 인도 첨단 패키징 공장 추진",
+      "summary": [
+        "인도 파라스 세미컨덕터가 미국 BroadPak과 손잡고 인도에 첨단 패키징 공장을 세우기로 했다는 소식이다.",
+        "기사 본문이 없어 투자 규모, 생산 능력, 일정 등 구체적 수치는 확인되지 않는다.",
+        "인도가 반도체 제조·패키징 기반을 넓히려는 흐름 속에서 현지 패키징 생태계 확장 신호로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "첨단 패키징",
+        "인도 반도체",
+        "협력",
+        "반도체 공장"
+      ],
+      "companies": [
+        "파라스 세미컨덕터",
+        "BroadPak"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "파라스 세미컨덕터",
+        "BroadPak"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T06:53:51Z",
+      "updated_at": "2026-11-09T06:53:51Z",
+      "articles": [
+        {
+          "key": "f9382eaed4c2de67",
+          "title": "Paras Semiconductors teams with US-based BroadPak on advanced packaging plant in India",
+          "url": "https://www.digitimes.com/news/a20261109VL209/packaging-plant-subsidiary-technology-incentives.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-09T06:53:51Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0668",
+      "headline": "삼성·SK하이닉스·마이크론, 무인 반도체 팹 위한 협력 추진",
+      "summary": [
+        "삼성전자, SK하이닉스, 마이크론이 무인 반도체 팹 구현을 위한 이례적인 협력에 나섰다고 보도됐다.",
+        "기사 본문이 사실상 비어 있어 참여 범위, 일정, 구체적 협력 내용은 확인되지 않는다.",
+        "자동화된 무인 팹이 현실화되면 메모리 업계의 생산 효율과 운영 방식에 변화를 가져올 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "무인 팹",
+        "스마트 팹",
+        "메모리 공정 자동화",
+        "반도체 협력"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "마이크론"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스",
+        "마이크론"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점, 관심 기업(SK하이닉스, 삼성전자) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T06:51:32Z",
+      "updated_at": "2026-11-09T06:51:32Z",
+      "articles": [
+        {
+          "key": "79bac4664cbf74b2",
+          "title": "Samsung, SK Hynix, Micron forge rare alliance to pave way for unmanned chip fabs",
+          "url": "https://www.digitimes.com/news/a20261109PD252/sk-hynix-samsung-micron-ic-manufacturing-robot.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-09T06:51:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0667",
+      "headline": "딥엑스, 삼성 PIM 활용한 2세대 엣지 AI칩 테이프아웃",
+      "summary": [
+        "국내 엣지 AI 칩 스타트업 딥엑스가 2세대 AI 가속기의 테이프아웃을 마쳤다고 알려졌다.",
+        "삼성의 맞춤형 프로세서인메모리(PIM) 기술을 활용해 설계된 DX-M2는 LPDDR5x-PIM 기반이다.",
+        "기사에 따르면 성능이 6.7배 향상될 것으로 예상되며, 엣지 생성형 AI 수요 대응에 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엣지 AI",
+        "PIM",
+        "LPDDR5x-PIM",
+        "DX-M2",
+        "테이프아웃"
+      ],
+      "companies": [
+        "딥엑스",
+        "삼성전자"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "딥엑스",
+        "삼성"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T06:47:26Z",
+      "updated_at": "2026-11-09T06:47:26Z",
+      "articles": [
+        {
+          "key": "913ed88b2f745364",
+          "title": "DeepX Tapes Out Second-Gen Chip, Projects 6.7× Performance Gain With LPDDR5x-PIM",
+          "url": "https://www.eetimes.com/deepx-tapes-out-second-gen-chip-projects-6-7x-performance-gain-with-lpddr5x-pim/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-09T06:47:26Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0654",
+      "headline": "서남권 반도체 클러스터 심의위 전문성 논란, 전문가 보강 예정",
+      "summary": [
+        "정부의 서남권 반도체 클러스터 사업 재정 심의위원회에 반도체 전문가가 부족하다는 지적이 국회에서 나왔다.",
+        "김정관 산업통상부 장관은 위원회에 관련 분야 전문가를 추가하겠다고 밝혔다.",
+        "정부는 2030년까지 6조원을 지원할 계획이어서 심의 체계의 전문성 확보가 중요해졌다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "서남권 반도체 클러스터",
+        "재정 심의",
+        "전문가 보강",
+        "국회 지적"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T04:17:41Z",
+      "updated_at": "2026-11-09T06:29:48Z",
+      "articles": [
+        {
+          "key": "93decec96551c3d1",
+          "title": "호남 반도체 민간위 '비전문가' 지적에…산업장관 \"보강 예정\"",
+          "url": "https://www.yna.co.kr/view/AKR20261109082400003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-09T04:17:41Z"
+        },
+        {
+          "key": "a3e393435cc3b9e8",
+          "title": "반도체 클러스터 6조원 심의위원 전문성 논란⋯김정관 \"전문가 보강\"",
+          "url": "https://www.inews24.com/view/2024151",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-09T06:29:48Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0665",
+      "headline": "머스크 테라팹, 삼성 D램 수준 메모리 생산 목표 보도",
+      "summary": [
+        "일론 머스크의 테라팹이 메모리 생산량을 삼성전자 D램 규모에 맞추려는 것으로 보도됐다.",
+        "기사 본문이 제목과 사진 크레딧만 있어 구체적 수치와 일정은 확인되지 않는다.",
+        "확인되지 않은 계획이라 메모리 시장에 미칠 영향은 향후 공식 발표를 지켜봐야 한다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "테라팹",
+        "D램",
+        "메모리 생산",
+        "머스크"
+      ],
+      "companies": [
+        "테라팹",
+        "삼성전자"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "테라팹"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T06:10:26Z",
+      "updated_at": "2026-11-09T06:10:26Z",
+      "articles": [
+        {
+          "key": "6e062603280cdf4d",
+          "title": "Musk's Terafab reportedly targets memory output on par with Samsung's DRAM capacity",
+          "url": "https://www.digitimes.com/news/a20261109VL222/terafab-dram-capacity-elon-musk.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-09T06:10:26Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0664",
+      "headline": "전남광주시, 정부 지원위 반도체 심사 역할 선 긋기",
+      "summary": [
+        "전남광주통합특별시는 국무총리 산하 지원위원회가 반도체 전문 심사기구가 아니라고 밝혔다.",
+        "기사 본문이 짧게 잘려 구체적인 심사 절차나 일정, 수치는 확인되지 않는다.",
+        "호남권 반도체 사업 추진 과정에서 지역과 중앙 간 역할 구분이 쟁점이 될 수 있음을 보여준다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "전남광주통합특별시",
+        "지원위원회",
+        "호남 반도체",
+        "지역 반도체 정책"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "전남광주통합특별시",
+        "국무총리 산하 지원위원회"
+      ],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T06:02:32Z",
+      "updated_at": "2026-11-09T06:02:32Z",
+      "articles": [
+        {
+          "key": "edbc0cbec6b3898b",
+          "title": "전남광주시 \"정부 지원위, 호남 반도체 심사 전문기구 아냐\"",
+          "url": "https://www.yna.co.kr/view/AKR20261109105000054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-09T06:02:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0663",
+      "headline": "나무가, 알테라와 로봇용 센서 시스템 공동 개발",
+      "summary": [
+        "나무가가 미국 FPGA 업체 알테라와 로봇용 센서 시스템 공동 개발을 위한 업무협약을 체결했다.",
+        "나무가의 3D 센싱 기술과 알테라의 FPGA를 결합해 로봇용 멀티센서 장치를 개발할 계획이다.",
+        "스마트폰 의존도가 높은 매출 구조를 바꾸려는 나무가의 사업 영역 확대 움직임으로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "로봇 센서",
+        "FPGA",
+        "3D 센싱",
+        "피지컬 AI",
+        "업무협약"
+      ],
+      "companies": [
+        "나무가",
+        "알테라",
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "나무가",
+        "알테라"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T05:57:18Z",
+      "updated_at": "2026-11-09T05:57:18Z",
+      "articles": [
+        {
+          "key": "d6263ad6bdf3a2aa",
+          "title": "스마트폰 의존 줄이는 나무가…美 알테라와 로봇 센서 개발",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65021",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-09T05:57:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0662",
+      "headline": "램리서치코리아, 삼성 식각 공정 레시피 유출 논란",
+      "summary": [
+        "삼성전자의 반도체 식각 공정 레시피가 램리서치코리아 측으로 유출된 사실이 확인됐다.",
+        "램리서치코리아는 장비 유지보수 명목으로 받은 데이터 중 반출이 허용되지 않은 공정 레시피를 별도 파일로 넘겨받았다.",
+        "공정 기술 보안과 장비 공급사의 데이터 접근 관리 문제가 업계의 주요 쟁점이 될 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "식각 공정",
+        "공정 레시피",
+        "기술 유출",
+        "데이터 보안"
+      ],
+      "companies": [
+        "삼성전자",
+        "램리서치",
+        "램리서치코리아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "램리서치코리아"
+      ],
+      "importance": 4,
+      "importance_reason": "소송·특허 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T05:43:20Z",
+      "updated_at": "2026-11-09T05:43:20Z",
+      "articles": [
+        {
+          "key": "b9f45e152d637816",
+          "title": "램리서치코리아, 삼성 반도체 식각 공정 레시피 빼갔다",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65114",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-09T05:43:20Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261109-0661",
+      "headline": "헨켈, 서울에 HBM·AI반도체 방열 소재 R&D 거점 마련",
+      "summary": [
+        "글로벌 접착·전자소재 기업 헨켈이 서울에 반도체 패키징 소재 연구 거점을 마련하는 계획이 전해졌다.",
+        "거점은 AI반도체와 HBM의 발열을 줄이고 칩 결합 안정성을 높이는 소재 연구를 맡는다.",
+        "HBM 등 고성능 패키징 수요에 대응하는 소재 공급망 강화로 이어질 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "HBM",
+        "방열소재",
+        "반도체 패키징",
+        "AI반도체",
+        "R&D"
+      ],
+      "companies": [
+        "헨켈"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "헨켈"
+      ],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T05:38:03Z",
+      "updated_at": "2026-11-09T05:38:03Z",
+      "articles": [
+        {
+          "key": "15a63f68189d6581",
+          "title": "HBM 방열·접합 기술 선도 ‘獨 헨켈’, 서울에 반도체 R&D 심장 짓는다",
+          "url": "https://www.dt.co.kr/article/12093975",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-09T05:38:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261109-0659",
@@ -361,46 +969,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261109-0654",
-      "headline": "호남 반도체 민간위 비전문가 논란, 장관 보강 약속",
-      "summary": [
-        "김정관 산업통상부 장관이 호남 반도체 클러스터 예산을 심의하는 정부 산하 위원회에 비전문가가 포함됐다는 지적에 답했다.",
-        "장관은 위원회 구성을 보강하겠다고 밝혔으며, 구체적인 인선 일정은 기사에 나오지 않았다.",
-        "반도체 지역 사업의 예산 심의 전문성이 쟁점으로 떠올라 향후 위원회 구성 변화가 주목된다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "호남 반도체 클러스터",
-        "민간위원회",
-        "예산 심의",
-        "산업통상부"
-      ],
-      "companies": [],
-      "event_type": "지역·인프라",
-      "confirmed": true,
-      "parties": [],
-      "importance": 2,
-      "importance_reason": "지역·인프라 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-09T04:17:41Z",
-      "updated_at": "2026-11-09T04:17:41Z",
-      "articles": [
-        {
-          "key": "93decec96551c3d1",
-          "title": "호남 반도체 민간위 '비전문가' 지적에…산업장관 \"보강 예정\"",
-          "url": "https://www.yna.co.kr/view/AKR20261109082400003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-09T04:17:41Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261107-0608",
