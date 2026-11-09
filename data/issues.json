@@ -1,7 +1,161 @@
 {
   "version": 1,
-  "updated_at": "2026-11-08T23:48:04Z",
+  "updated_at": "2026-11-09T01:25:10Z",
   "issues": [
+    {
+      "id": "c20261108-0633",
+      "headline": "젠슨 황 불륜 인정, 엔비디아 이사회 조사 착수",
+      "summary": [
+        "젠슨 황 엔비디아 CEO가 중국 정보기관 의심을 받는 여성 기업인과의 불륜을 시인했다.",
+        "엔비디아 사외이사 위원회가 외부 독립 법률 고문의 도움을 받아 조사를 감독하기로 했다.",
+        "이번 사안은 경영진 리스크와 대중국 수출통제 우회 의혹이 겹치며 지배구조 이슈로 번지고 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "엔비디아",
+        "젠슨 황",
+        "이사회 조사",
+        "수출통제",
+        "메가스피드"
+      ],
+      "companies": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-08T21:29:49Z",
+      "updated_at": "2026-11-08T23:58:17Z",
+      "articles": [
+        {
+          "key": "321fc19f499f99c3",
+          "title": "젠슨 황, 불륜 인정하고 임직원에 사과 메일",
+          "url": "https://www.dt.co.kr/article/12093855",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-08T21:29:49Z"
+        },
+        {
+          "key": "5544897c82c08381",
+          "title": "젠슨 황, 불륜 인정…엔비디아 이사회 자체 조사 착수",
+          "url": "https://zdnet.co.kr/view/?no=20261109083723",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-08T23:58:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261109-0635",
+      "headline": "렌즈테크놀로지, 연내 유리기판 파일럿 양산라인 가동 계획",
+      "summary": [
+        "렌즈테크놀로지가 올해 말 첫 TGV 유리기판 파일럿 양산라인을 가동할 계획이라고 밝혔다.",
+        "라인은 515×510㎜ 기준 월 약 300장 규모이며 내년에는 월 3000장 수준으로 확대할 예정이다.",
+        "유리기판 생산능력 확보와 함께 한국 반도체·메모리 고객사 협력이 AI 반도체 패키징 시장에서 중요해질 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "유리기판",
+        "TGV",
+        "AI반도체 패키징",
+        "UTG",
+        "인텔 협력"
+      ],
+      "companies": [
+        "렌즈테크놀로지",
+        "인텔",
+        "애플"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "렌즈테크놀로지"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-08T23:56:03Z",
+      "updated_at": "2026-11-08T23:56:03Z",
+      "articles": [
+        {
+          "key": "bd955c3281a00d1f",
+          "title": "中 렌즈테크놀로지, 연내 유리기판 양산라인 가동…\"韓기업과 협력 기대\"",
+          "url": "https://zdnet.co.kr/view/?no=20261109081004",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-08T23:56:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261106-0573",
+      "headline": "퀄리타스반도체, ICCAD 2026서 인터페이스 IP 시연",
+      "summary": [
+        "퀄리타스반도체가 중국 ICCAD 2026 행사에 4년 연속 참가한다고 9일 발표했다.",
+        "행사는 11월 19~20일 베이징에서 열리며, 부스에서 PCIe·UCIe·MIPI 기반 테스트 칩을 실시간 시연한다.",
+        "AI 연산 인프라와 칩렛, 피지컬 AI 등에 쓰이는 인터페이스 IP 역량을 알리는 자리다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "인터페이스 IP",
+        "PCIe",
+        "UCIe",
+        "MIPI",
+        "칩렛"
+      ],
+      "companies": [
+        "퀄리타스반도체"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "퀄리타스반도체"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-06T06:06:17Z",
+      "updated_at": "2026-11-08T23:29:55Z",
+      "articles": [
+        {
+          "key": "7c18837e9d9e419f",
+          "title": "퀄리타스반도체, 中 'ICCAD 2026'서 초고속 인터페이스 IP 솔루션 공개",
+          "url": "https://zdnet.co.kr/view/?no=20261106141715",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-06T06:06:17Z"
+        },
+        {
+          "key": "a63910ff14902eb7",
+          "title": "퀄리타스반도체, 중국 ICCAD 2026서 인터페이스 IP 실시간 시연",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65076",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-08T23:29:55Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261108-0634",
       "headline": "부산서 반도체 제조기술 국제학술대회 개최 예정",
@@ -43,50 +197,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261108-0633",
-      "headline": "엔비디아 황 CEO 개인 의혹에 이사회 자체 조사 착수",
-      "summary": [
-        "젠슨 황 엔비디아 CEO가 자신의 불륜 사실을 인정하고 임직원에게 사과 메일을 보냈다.",
-        "엔비디아 이사회는 8일 성명을 내고 최근 보도와 관련해 독립적인 검토에 나선다고 밝혔다.",
-        "경영진 개인 리스크가 기업 지배구조와 투자자 신뢰에 미칠 영향이 주목된다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "젠슨 황",
-        "이사회 조사",
-        "지배구조",
-        "경영 리스크"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 3,
-      "importance_reason": "경영진 교체 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-08T21:29:49Z",
-      "updated_at": "2026-11-08T21:29:49Z",
-      "articles": [
-        {
-          "key": "321fc19f499f99c3",
-          "title": "젠슨 황, 불륜 인정하고 임직원에 사과 메일",
-          "url": "https://www.dt.co.kr/article/12093855",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-08T21:29:49Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261108-0632",
@@ -3148,51 +3258,6 @@
           "source": "KIPOST",
           "lang": "ko",
           "published_at": "2026-11-06T06:11:25Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261106-0573",
-      "headline": "퀄리타스반도체, 中 ICCAD서 고속 인터페이스 IP 시연",
-      "summary": [
-        "퀄리타스반도체가 중국 ICCAD 2026에 참가해 PCIe 6.0, UCIe, MIPI 기반 IP 라이브 데모를 선보인다고 밝혔다.",
-        "PCIe 6.0 PHY IP는 64Gbps 전송 성능을 실리콘 측정 결과로 공개하며 등화·CDR 안정성을 검증한다.",
-        "칩렛 구조 확산과 AI 연산 증가로 고속 인터커넥트 IP 수요가 커지며, 신규 고객사 확보가 기대된다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "PCIe 6.0",
-        "UCIe",
-        "MIPI",
-        "칩렛",
-        "인터커넥트 IP"
-      ],
-      "companies": [
-        "퀄리타스반도체"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "퀄리타스반도체"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-06T06:06:17Z",
-      "updated_at": "2026-11-06T06:06:17Z",
-      "articles": [
-        {
-          "key": "7c18837e9d9e419f",
-          "title": "퀄리타스반도체, 中 'ICCAD 2026'서 초고속 인터페이스 IP 솔루션 공개",
-          "url": "https://zdnet.co.kr/view/?no=20261106141715",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-06T06:06:17Z"
         }
       ],
       "type_checked": true,
