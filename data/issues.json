@@ -1,7 +1,481 @@
 {
   "version": 1,
-  "updated_at": "2026-11-09T09:25:43Z",
+  "updated_at": "2026-11-09T11:10:39Z",
   "issues": [
+    {
+      "id": "c20261109-0699",
+      "headline": "젠슨 황 논란, 대중 반도체 제재 강화 변수로",
+      "summary": [
+        "젠슨 황 엔비디아 CEO의 사생활 논란이 제기되며 대중 반도체 제재 강화 가능성이 거론됐다.",
+        "기사에 따르면 국내 메모리 업체에 대한 당장의 영향은 제한적으로 전망되며 구체적 수치는 제시되지 않았다.",
+        "수출 통제가 강화되면 중국 업체 기술 개발이 늦어져 삼성·SK에 기회가 될 수 있다는 분석이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출통제",
+        "대중제재",
+        "메모리",
+        "엔비디아"
+      ],
+      "companies": [
+        "엔비디아",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "엔비디아",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점, 관심 기업(SK하이닉스, 삼성전자) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T10:42:58Z",
+      "updated_at": "2026-11-09T10:42:58Z",
+      "articles": [
+        {
+          "key": "089f0ed08b263b6a",
+          "title": "젠슨 황 논란에 中 반도체 제재 강화되나…반도체업계 \"삼성·SK엔 기회 될 수도\"",
+          "url": "https://www.inews24.com/view/2024271",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-09T10:42:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0675",
+      "headline": "머스크 테라팹, 일본 반도체 장비 대량 발주 추진",
+      "summary": [
+        "일론 머스크의 테라팹이 일본 제조 장비 업체에 대량 발주 계획을 제시했다고 닛케이가 보도했다.",
+        "아이뉴스24는 월 100만 장 생산을 목표로 장비 조달을 본격화한다고 전했다.",
+        "발주가 실제로 이뤄지면 일본 장비 업계의 수주 확대로 이어질 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "테라팹",
+        "반도체 장비",
+        "일본 장비",
+        "월 100만장",
+        "파운드리"
+      ],
+      "companies": [
+        "테슬라",
+        "일본 제조 장비 업체"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "테라팹",
+        "일본 제조 장비 업체"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T07:42:34Z",
+      "updated_at": "2026-11-09T10:36:54Z",
+      "articles": [
+        {
+          "key": "f91d01a722c04f4e",
+          "title": "머스크 '테라팹', 日 반도체 장비 조달 본격화⋯월 100만장 생산 목표",
+          "url": "https://www.inews24.com/view/2024201",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-09T07:42:34Z"
+        },
+        {
+          "key": "99c2c8a0a32cc73d",
+          "title": "\"머스크의 ‘테라팹’, 日에 반도체 장비 대량발주 타진\"",
+          "url": "https://www.dt.co.kr/article/12094106",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-09T10:36:54Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0698",
+      "headline": "엔비디아 젠슨 황 CEO 스캔들에 시간외 주가 급락",
+      "summary": [
+        "젠슨 황 엔비디아 CEO의 불륜 스캔들이 보도되며 주가가 흔들렸다.",
+        "9일 현지 월요 개장 전 시간외거래에서 엔비디아 주가가 5% 가까이 떨어졌다고 전해졌다.",
+        "다만 기사 내용이 짧아 실제 사실관계와 주가 영향의 지속성은 추가 확인이 필요하다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "시간외거래",
+        "주가 급락",
+        "경영 리스크"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T10:15:50Z",
+      "updated_at": "2026-11-09T10:15:50Z",
+      "articles": [
+        {
+          "key": "d199b9e5bce59418",
+          "title": "엔비디아, 젠슨 황 ‘불륜’ 폭탄…시간외거래 4%대 급락",
+          "url": "https://www.dt.co.kr/article/12094105",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-09T10:15:50Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
+    {
+      "id": "c20261109-0697",
+      "headline": "엔비디아 대만 협력사 주가 상승, 젠슨 황 조사 영향 제한",
+      "summary": [
+        "엔비디아의 대만 협력사들이 젠슨 황 관련 조사 보도에도 주가가 올랐다는 소식이다.",
+        "기사 본문은 사진 출처 표기만 있어 구체적 조사 내용과 수치는 확인되지 않는다.",
+        "다만 대만 공급망 주가가 악재에도 견조하다는 점은 AI 반도체 수요 기대가 여전함을 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "엔비디아",
+        "젠슨 황",
+        "대만 공급망",
+        "AI반도체"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T09:57:50Z",
+      "updated_at": "2026-11-09T09:57:50Z",
+      "articles": [
+        {
+          "key": "3820810af2432b55",
+          "title": "Nvidia's Taiwan partners rally despite Jensen probe",
+          "url": "https://www.digitimes.com/news/a20261109VL229.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-09T09:57:50Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
+    {
+      "id": "c20261109-0693",
+      "headline": "엔비디아 AI 데이 서울 개최, 젠슨 황 논란 속 행사 강행",
+      "summary": [
+        "엔비디아가 젠슨 황 CEO의 사생활 및 스파이 연루 의혹에도 서울에서 'AI 데이' 행사를 열었다.",
+        "장녀 매디슨 황 수석이사가 갑작스레 방한을 취소했으나 회사 측은 관련 질문에 답하지 않았다.",
+        "행사장에는 많은 참가자가 몰렸지만 리더십 논란이 국내 협력 기업의 신뢰에 미칠 영향은 주목된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엔비디아 AI 데이",
+        "젠슨 황",
+        "리더십 논란",
+        "AI 생태계"
+      ],
+      "companies": [
+        "엔비디아",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T09:30:42Z",
+      "updated_at": "2026-11-09T09:55:38Z",
+      "articles": [
+        {
+          "key": "8f230a10e3f7880e",
+          "title": "[현장] 젠슨 황 논란에도 엔비디아 AI 데이 '북적'…방한 취소 질문엔 '노코멘트'",
+          "url": "https://www.inews24.com/view/2024263",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-09T09:30:42Z"
+        },
+        {
+          "key": "b88232c614c00ad8",
+          "title": "논란 속 엔비디아 데이… 장녀 불참엔 '묵묵부답'",
+          "url": "https://www.dt.co.kr/article/12094099",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-09T09:55:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0696",
+      "headline": "중국, 노광장비 공개·차세대 D램 양산 추진으로 자립 가속",
+      "summary": [
+        "중국 장비업체가 차세대 건식 노광장비 플랫폼을 공개했고 CXMT는 차세대 D램 공정 개발과 양산을 추진 중이다.",
+        "기사에는 구체적 일정과 수치가 제시되지 않아 양산 시점과 성능 지표는 확인되지 않는다.",
+        "EUV 노광장비 의존을 낮추려는 중국의 기술 자립 움직임이 메모리 공급망 경쟁에 영향을 줄 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "건식 노광장비",
+        "EUV",
+        "차세대 D램",
+        "CXMT",
+        "기술 자립"
+      ],
+      "companies": [
+        "CXMT",
+        "중국 반도체 장비업체"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "CXMT"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T09:47:57Z",
+      "updated_at": "2026-11-09T09:47:57Z",
+      "articles": [
+        {
+          "key": "9d6a71345edf2810",
+          "title": "中, 또 반도체 노광기술 공개… 첨단기술 자립 속도",
+          "url": "https://www.dt.co.kr/article/12094096",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-09T09:47:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0695",
+      "headline": "리벨리온·엔비디아·SKT, 한국형 소버린 AI 인프라 협력",
+      "summary": [
+        "리벨리온이 엔비디아, SK텔레콤과 손잡고 차세대 NPU 기반 소버린 AI 연산 인프라를 구축하기로 했다.",
+        "리벨리온 NPU와 엔비디아 플랫폼을 NV링크 퓨전으로 연결해 SKT AI 데이터센터에 공급·실증하며, 차세대 NPU R200으로 랙 단위 추론 시스템을 개발한다.",
+        "국내 AI 반도체가 대형 클라우드 인프라에 채택될 기반을 마련한 사례로, 3사는 업무협약을 체결했다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "NPU",
+        "소버린 AI",
+        "NV링크 퓨전",
+        "R200",
+        "AI 추론 시스템"
+      ],
+      "companies": [
+        "리벨리온",
+        "엔비디아",
+        "SK텔레콤"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "리벨리온",
+        "엔비디아",
+        "SK텔레콤"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T09:43:40Z",
+      "updated_at": "2026-11-09T09:43:40Z",
+      "articles": [
+        {
+          "key": "307ee73e37914061",
+          "title": "리벨리온, 엔비디아와 한국 소버린 AI 인프라 만든다",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65134",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-09T09:43:40Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261109-0694",
+      "headline": "대만 총통, 반도체 강점 활용한 우주산업 자립 추진",
+      "summary": [
+        "대만 총통이 반도체 역량을 활용해 우주산업의 자립을 추진하겠다는 방향을 제시했다.",
+        "기사 본문이 사실상 비어 있어 구체적인 정책 내용, 예산, 일정은 확인되지 않는다.",
+        "반도체 기술을 우주 분야로 넓히려는 움직임으로, 세부 내용 확인이 필요하다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "우주산업",
+        "반도체",
+        "자립",
+        "대만 정부"
+      ],
+      "companies": [
+        "TASTI"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T09:33:53Z",
+      "updated_at": "2026-11-09T09:33:53Z",
+      "articles": [
+        {
+          "key": "4f5b0d909aaef988",
+          "title": "Taiwan President taps chip strengths for self-reliant space push",
+          "url": "https://www.digitimes.com/news/a20261109PD266/2026-taiwan-technology-taiwan-space-agency.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-09T09:33:53Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261109-0692",
+      "headline": "리벨리온 엔비디아 NV링크 퓨전 합류, 국내 AI반도체 노선 갈림",
+      "summary": [
+        "리벨리온이 엔비디아 AI 데이에서 NV링크 퓨전 체제 합류를 위한 업무협약을 발표했다.",
+        "NPU 리벨 200을 엔비디아 MGX 랙 아키텍처에 얹는 방식으로, SK텔레콤 AI데이터센터에서 구동될 예정이다.",
+        "엔비디아 중심 생태계와 AMD 중심 개방형 연합으로 국내 팹리스의 전략이 나뉘는 흐름이 뚜렷해졌다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "NV링크 퓨전",
+        "리벨 200",
+        "MGX",
+        "AI데이터센터",
+        "오픈 ROCm",
+        "소버린 AI"
+      ],
+      "companies": [
+        "리벨리온",
+        "엔비디아",
+        "SK텔레콤",
+        "AMD",
+        "퓨리오사AI",
+        "망고부스트"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "리벨리온",
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T09:27:35Z",
+      "updated_at": "2026-11-09T09:27:35Z",
+      "articles": [
+        {
+          "key": "fa8cbcbc3fafe9b2",
+          "title": "\"엔비디아냐 AMD냐\"...기로에 선 K-반도체",
+          "url": "https://zdnet.co.kr/view/?no=20261109180536",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-09T09:27:35Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261109-0691",
+      "headline": "KYEC, AI 수요가 반도체 공급망 리스크 키운다고 경고",
+      "summary": [
+        "대만 테스트 업체 KYEC가 AI 수요 확대가 반도체 공급망 리스크를 증폭시키고 있다고 경고했다.",
+        "기사 본문은 사실상 비어 있어 구체적 수치나 일정은 확인되지 않는다.",
+        "AI 반도체 수요 급증이 공급망 병목과 불확실성을 키울 수 있다는 점에서 업계 관심이 필요하다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "공급망 리스크",
+        "AI 수요",
+        "반도체 테스트",
+        "KYEC"
+      ],
+      "companies": [
+        "KYEC"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "KYEC"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T09:09:11Z",
+      "updated_at": "2026-11-09T09:09:11Z",
+      "articles": [
+        {
+          "key": "8d81014b10583235",
+          "title": "KYEC warns AI demand is amplifying semiconductor supply-chain risks",
+          "url": "https://www.digitimes.com/news/a20261109PD257/king-yuan-demand-president-testing-supply-chain.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-09T09:09:11Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261109-0689",
       "headline": "中 HKC 6세대 OLED 투자 지연, 취소 가능성 거론",
@@ -841,51 +1315,6 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261109-0675",
-      "headline": "머스크 테라팹, 일본 장비 조달 협의 착수",
-      "summary": [
-        "테슬라 머스크 CEO가 추진하는 초대형 반도체 프로젝트 테라팹이 일본 장비업체들과 조달 협의에 나섰다.",
-        "장기 목표는 월 100만 장 생산으로, 라피더스 목표 생산능력의 40배를 웃도는 규모다.",
-        "기사 본문이 중간에 끊겨 세부 일정과 계약 여부는 확인되지 않아 향후 공급망 변화 추이를 지켜볼 필요가 있다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "테라팹",
-        "일본 반도체 장비",
-        "라피더스",
-        "월 100만장 생산"
-      ],
-      "companies": [
-        "테슬라",
-        "라피더스"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": false,
-      "parties": [
-        "테슬라"
-      ],
-      "importance": 2,
-      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-09T07:42:34Z",
-      "updated_at": "2026-11-09T07:42:34Z",
-      "articles": [
-        {
-          "key": "f91d01a722c04f4e",
-          "title": "머스크 '테라팹', 日 반도체 장비 조달 본격화⋯월 100만장 생산 목표",
-          "url": "https://www.inews24.com/view/2024201",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-09T07:42:34Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
       "id": "c20261109-0674",
       "headline": "미 승인 엔비디아 H200 중국 유통업체 실체 논란",
       "summary": [
@@ -1505,6 +1934,51 @@
       ],
       "type_checked": true,
       "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0690",
+      "headline": "온세미, 체코 SiC 증설 20억달러 투자 철회",
+      "summary": [
+        "온세미가 체코 SiC(실리콘카바이드) 공장 증설 계획, 약 20억 달러 규모를 철회했다.",
+        "중국산 저가 웨이퍼의 가격 압박이 이번 결정의 배경으로 보도됐다.",
+        "SiC 시장의 가격 경쟁이 심해지면서 대규모 증설 투자의 부담이 커졌다는 신호로 볼 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "SiC",
+        "체코 공장",
+        "중국산 웨이퍼",
+        "설비 투자 철회",
+        "가격 경쟁"
+      ],
+      "companies": [
+        "온세미"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "온세미"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T06:04:58Z",
+      "updated_at": "2026-11-09T06:04:58Z",
+      "articles": [
+        {
+          "key": "a9671045e7ba5bbf",
+          "title": "Onsemi drops US$2 billion Czech SiC expansion amid pressure from cheaper Chinese wafers",
+          "url": "https://www.digitimes.com/news/a20261109VL203/onsemi-czech-republic-sic-expansion-production.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-09T06:04:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261109-0664",
