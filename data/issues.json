@@ -1,7 +1,108 @@
 {
   "version": 1,
-  "updated_at": "2026-11-09T16:17:00Z",
+  "updated_at": "2026-11-09T17:24:56Z",
   "issues": [
+    {
+      "id": "c20261108-0633",
+      "headline": "젠슨 황 불륜 인정…엔비디아 경영 리스크 부각",
+      "summary": [
+        "엔비디아 젠슨 황 CEO가 중국 정보기관과 연계된 것으로 알려진 인물과의 불륜을 인정했다는 보도가 나왔다.",
+        "국내 매체들은 그의 리더십이 흔들리고 있으며 중국 스파이 연루 의혹이 제기됐다고 전했다.",
+        "최고경영자 개인의 리스크가 엔비디아 AI 사업 전반에 대한 우려로 번지고 있다는 평가가 나온다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "젠슨 황",
+        "엔비디아",
+        "경영 리스크",
+        "중국 스파이 의혹",
+        "리더십"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 매체 6곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-08T21:29:49Z",
+      "updated_at": "2026-11-09T17:14:27Z",
+      "articles": [
+        {
+          "key": "321fc19f499f99c3",
+          "title": "젠슨 황, 불륜 인정하고 임직원에 사과 메일",
+          "url": "https://www.dt.co.kr/article/12093855",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-08T21:29:49Z"
+        },
+        {
+          "key": "5544897c82c08381",
+          "title": "젠슨 황, 불륜 인정…엔비디아 이사회 자체 조사 착수",
+          "url": "https://zdnet.co.kr/view/?no=20261109083723",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-08T23:58:17Z"
+        },
+        {
+          "key": "f295ebfa51f81a70",
+          "title": "Nvidia board opens independent probe after CEO Jensen Huang admits to affair",
+          "url": "https://www.digitimes.com/news/a20261109VL200/nvidia-ceo-jensen-huang-probe-investigation.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-09T01:18:50Z"
+        },
+        {
+          "key": "1dcb4cf1e0be95dc",
+          "title": "\"변명 여지 없다\" 젠슨 황 불륜 시인…이사회 조사 착수",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65083",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-09T01:37:34Z"
+        },
+        {
+          "key": "e79b6259d73017a1",
+          "title": "엔비디아 ‘자체’라는 젠슨 황…‘불륜 스캔들’ 위기 버틸까",
+          "url": "https://www.dt.co.kr/article/12093931",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-09T02:39:04Z"
+        },
+        {
+          "key": "817cbb8ac23a688e",
+          "title": "불륜 인정한 젠슨 황, 中 스파이 연루 의혹에 리더십 '흔들'",
+          "url": "https://zdnet.co.kr/view/?no=20261109112712",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-09T02:40:44Z"
+        },
+        {
+          "key": "62716600efc4fa7f",
+          "title": "'엔비디아의 얼굴' 젠슨 황 흔들…AI 제국에 드리운 경영 리스크",
+          "url": "https://www.inews24.com/view/2024016",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-09T02:49:04Z"
+        },
+        {
+          "key": "8ecc498ec1429bee",
+          "title": "Can Jensen Keep His Job?",
+          "url": "https://www.eetimes.com/can-jensen-keep-his-job/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-09T17:14:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261109-0702",
       "headline": "삼성D·BOE, 저사양 HD급 스마트폰 OLED 개발 검토",
@@ -3025,99 +3126,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261108-0633",
-      "headline": "젠슨 황 CEO 불륜 인정, 엔비디아 이사회 독립조사 착수",
-      "summary": [
-        "젠슨 황 엔비디아 CEO가 직원 이메일에서 불륜 사실을 인정하고 책임을 고백했다.",
-        "엔비디아 이사회는 황 CEO가 중국 정보기관의 표적이 됐다는 의혹에 대해 독립조사에 착수했다.",
-        "이번 사태로 경영 권한이 황 CEO에게 집중된 지배구조의 리스크와 회사 안정성에 대한 우려가 커지고 있다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "젠슨 황",
-        "경영 리스크",
-        "독립조사",
-        "국가안보",
-        "지배구조"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 4,
-      "importance_reason": "경영진 교체 3점, 매체 5곳 보도 +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-08T21:29:49Z",
-      "updated_at": "2026-11-09T02:49:04Z",
-      "articles": [
-        {
-          "key": "321fc19f499f99c3",
-          "title": "젠슨 황, 불륜 인정하고 임직원에 사과 메일",
-          "url": "https://www.dt.co.kr/article/12093855",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-08T21:29:49Z"
-        },
-        {
-          "key": "5544897c82c08381",
-          "title": "젠슨 황, 불륜 인정…엔비디아 이사회 자체 조사 착수",
-          "url": "https://zdnet.co.kr/view/?no=20261109083723",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-08T23:58:17Z"
-        },
-        {
-          "key": "f295ebfa51f81a70",
-          "title": "Nvidia board opens independent probe after CEO Jensen Huang admits to affair",
-          "url": "https://www.digitimes.com/news/a20261109VL200/nvidia-ceo-jensen-huang-probe-investigation.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-09T01:18:50Z"
-        },
-        {
-          "key": "1dcb4cf1e0be95dc",
-          "title": "\"변명 여지 없다\" 젠슨 황 불륜 시인…이사회 조사 착수",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65083",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-09T01:37:34Z"
-        },
-        {
-          "key": "e79b6259d73017a1",
-          "title": "엔비디아 ‘자체’라는 젠슨 황…‘불륜 스캔들’ 위기 버틸까",
-          "url": "https://www.dt.co.kr/article/12093931",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-09T02:39:04Z"
-        },
-        {
-          "key": "817cbb8ac23a688e",
-          "title": "불륜 인정한 젠슨 황, 中 스파이 연루 의혹에 리더십 '흔들'",
-          "url": "https://zdnet.co.kr/view/?no=20261109112712",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-09T02:40:44Z"
-        },
-        {
-          "key": "62716600efc4fa7f",
-          "title": "'엔비디아의 얼굴' 젠슨 황 흔들…AI 제국에 드리운 경영 리스크",
-          "url": "https://www.inews24.com/view/2024016",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-09T02:49:04Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
     },
     {
       "id": "c20261106-0585",
