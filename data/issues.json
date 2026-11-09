@@ -1,7 +1,65 @@
 {
   "version": 1,
-  "updated_at": "2026-11-09T19:09:43Z",
+  "updated_at": "2026-11-09T20:05:25Z",
   "issues": [
+    {
+      "id": "c20261107-0608",
+      "headline": "젠슨 황 CEO 중국 정보기관 연계 의혹 확산",
+      "summary": [
+        "대만 언론은 젠슨 황 엔비디아 CEO와 중국 정보기관 연계가 의심되는 여성 기업인이 함께 있는 과거 정황을 보도했다.",
+        "지난해부터 관련 의혹이 제기됐던 정황이 드러났고, 미국 당국이 두 사람을 연인 관계로 판단했다는 보도도 나왔다.",
+        "기사 내용만으로는 의혹의 사실 여부가 확인되지 않아, 엔비디아 경영 리스크로 번질지 주시가 필요하다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "젠슨 황",
+        "중국 정보기관",
+        "스파이 의혹",
+        "엔비디아 리스크"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-07T05:20:32Z",
+      "updated_at": "2026-11-09T20:03:29Z",
+      "articles": [
+        {
+          "key": "b9d4b578e19a2655",
+          "title": "[속보]“美당국, 젠슨 황과 ‘中스파이 의혹’ 여성 연인관계로 판단”",
+          "url": "https://www.dt.co.kr/article/12093649",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-07T05:20:32Z"
+        },
+        {
+          "key": "4d0ee7511dc92d67",
+          "title": "'젠슨 황 스캔들' 1년 전부터 경고음…美 정부는 알고 있었다?",
+          "url": "https://www.inews24.com/view/2024022",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-09T04:17:33Z"
+        },
+        {
+          "key": "5e4b67767a77e87e",
+          "title": "“젠슨황은 좋은 사람” 편든 트럼프도 정치적 부담…스파이와 불륜 묵인 해명요구 받을 수도",
+          "url": "https://www.dt.co.kr/article/12094128",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-09T20:03:29Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261108-0633",
       "headline": "젠슨 황 불륜 인정…엔비디아 경영 리스크 부각",
@@ -2644,56 +2702,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261107-0608",
-      "headline": "젠슨 황 CEO 중국 정보기관 연계 의혹 확산",
-      "summary": [
-        "대만 언론은 젠슨 황 엔비디아 CEO와 중국 정보기관 연계가 의심되는 여성 기업인이 함께 있는 과거 정황을 보도했다.",
-        "지난해부터 관련 의혹이 제기됐던 정황이 드러났고, 미국 당국이 두 사람을 연인 관계로 판단했다는 보도도 나왔다.",
-        "기사 내용만으로는 의혹의 사실 여부가 확인되지 않아, 엔비디아 경영 리스크로 번질지 주시가 필요하다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "젠슨 황",
-        "중국 정보기관",
-        "스파이 의혹",
-        "엔비디아 리스크"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "소송·특허",
-      "confirmed": false,
-      "parties": [],
-      "importance": 2,
-      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-07T05:20:32Z",
-      "updated_at": "2026-11-09T04:17:33Z",
-      "articles": [
-        {
-          "key": "b9d4b578e19a2655",
-          "title": "[속보]“美당국, 젠슨 황과 ‘中스파이 의혹’ 여성 연인관계로 판단”",
-          "url": "https://www.dt.co.kr/article/12093649",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-07T05:20:32Z"
-        },
-        {
-          "key": "4d0ee7511dc92d67",
-          "title": "'젠슨 황 스캔들' 1년 전부터 경고음…美 정부는 알고 있었다?",
-          "url": "https://www.inews24.com/view/2024022",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-09T04:17:33Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261109-0652",
