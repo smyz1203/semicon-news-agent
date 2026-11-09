@@ -1,7 +1,52 @@
 {
   "version": 1,
-  "updated_at": "2026-11-09T22:57:34Z",
+  "updated_at": "2026-11-09T23:54:43Z",
   "issues": [
+    {
+      "id": "c20261109-0708",
+      "headline": "삼성디스플레이, 아산 지역 아동 지원 기금 2억원 기부",
+      "summary": [
+        "삼성디스플레이가 아산시·세이브더칠드런과 협력해 지역 아동 성장 지원에 2억원을 기부했다.",
+        "기부금은 아산 지역 아동의 건강한 성장을 돕는 데 쓰일 예정이며 기부 사실은 아산시가 발표했다.",
+        "기업의 지역 사회공헌 활동으로, 산업 측면에서 직접적인 사업 변화를 시사하는 내용은 아니다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "사회공헌",
+        "지역상생",
+        "아동지원",
+        "기부"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "세이브더칠드런"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "삼성디스플레이"
+      ],
+      "importance": 2,
+      "importance_reason": "홍보·수상 1점, 관심 기업(삼성디스플레이) +1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T23:49:52Z",
+      "updated_at": "2026-11-09T23:49:52Z",
+      "articles": [
+        {
+          "key": "a800653acccaf589",
+          "title": "[아산소식] 삼성디스플레이, 아산 지역 아동 위해 2억원 기부",
+          "url": "https://www.yna.co.kr/view/AKR20261110031100063",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-09T23:49:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261109-0707",
       "headline": "반도체 기업 AI 투자 확대, 성과 측정은 과제",
