@@ -1,7 +1,51 @@
 {
   "version": 1,
-  "updated_at": "2026-11-09T12:08:53Z",
+  "updated_at": "2026-11-09T13:28:38Z",
   "issues": [
+    {
+      "id": "c20261109-0701",
+      "headline": "구글 신형 AI 칩 TPU 8i Max 공개, 연산 성능 2배",
+      "summary": [
+        "구글이 AI 에이전트의 대규모 동시 데이터 처리를 겨냥한 신형 AI 칩 TPU 8i Max를 공개했다.",
+        "기사 요약에서는 연산 성능과 메모리 대역폭을 강화했다고 소개됐으며 연산 성능은 2배로 알려졌다.",
+        "AI 추론용 맞춤형 칩 경쟁이 심화되는 가운데 엔비디아 중심 시장에 대한 구글의 대응 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "TPU 8i Max",
+        "AI 에이전트",
+        "맞춤형 AI칩",
+        "메모리 대역폭"
+      ],
+      "companies": [
+        "구글"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "구글"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T13:00:00Z",
+      "updated_at": "2026-11-09T13:00:00Z",
+      "articles": [
+        {
+          "key": "a826bf5218c7dc86",
+          "title": "구글, 신형 AI 칩 'TPU 8i Max' 공개…연산 성능 2배",
+          "url": "https://www.yna.co.kr/view/AKR20261109122200017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-09T13:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
     {
       "id": "c20261109-0700",
       "headline": "엔비디아, 자율주행·이동로봇 초기 상용화 진입 평가",
