@@ -1,7 +1,232 @@
 {
   "version": 1,
-  "updated_at": "2026-11-09T21:03:58Z",
+  "updated_at": "2026-11-09T21:58:13Z",
   "issues": [
+    {
+      "id": "c20261109-0707",
+      "headline": "반도체 기업 AI 투자 확대, 성과 측정은 과제",
+      "summary": [
+        "HTEC의 반도체 분야 AI 조사에서 응답 기업의 48%가 AI를 확장 중이거나 AI 네이티브 단계라고 답했다.",
+        "AI 투자 증가율은 전체 시장과 비슷한 78%였으나, 투자 성과를 측정하는 방식은 프로젝트 진행 중 일관성이 떨어졌다.",
+        "업계는 설계·검증·제조 개선이 비용 절감과 납기 단축으로 이어지는지 입증해야 하는 과제에 직면했다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 투자",
+        "ROI 측정",
+        "AI 도입",
+        "설계·검증",
+        "시장 조사"
+      ],
+      "companies": [
+        "HTEC"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "HTEC"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T21:31:27Z",
+      "updated_at": "2026-11-09T21:31:27Z",
+      "articles": [
+        {
+          "key": "db468c6483f57f43",
+          "title": "Semiconductor Companies Get Tough on AI Investment, but Measuring Returns Remains a Challenge",
+          "url": "https://www.semiconductor-digest.com/semiconductor-companies-get-tough-on-ai-investment-but-measuring-returns-remains-a-challenge/?utm_source=rss&utm_medium=rss&utm_campaign=semiconductor-companies-get-tough-on-ai-investment-but-measuring-returns-remains-a-challenge",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-09T21:31:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0706",
+      "headline": "Mixx, 근접 패키지 광연결 개방형 표준 참여",
+      "summary": [
+        "Mixx Technologies가 EBO MSA 회원이자 Open CPX MSA 기여 회원으로서 고밀도 광 스케일업 전략을 밝혔다.",
+        "SxC 커넥터는 광섬유 간 손실이 typical 0.2dB, 최대 0.5dB 미만이며 랙 1U에 최대 24,576개 광섬유를 담는다.",
+        "근접 패키지 광학의 신뢰성은 커넥터에 달려 있어 AI 인프라 광연결 확산에 중요한 의미를 가진다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "근접 패키지 광학",
+        "익스팬디드 빔",
+        "SxC 커넥터",
+        "고밀도 광연결",
+        "AI 인프라"
+      ],
+      "companies": [
+        "Mixx Technologies"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "Mixx Technologies"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T21:26:47Z",
+      "updated_at": "2026-11-09T21:26:47Z",
+      "articles": [
+        {
+          "key": "dfe0c68c99e16ded",
+          "title": "Mixx Technologies Backs Open Standards for Near-Package Optical Connectivity",
+          "url": "https://www.semiconductor-digest.com/mixx-technologies-backs-open-standards-for-near-package-optical-connectivity/?utm_source=rss&utm_medium=rss&utm_campaign=mixx-technologies-backs-open-standards-for-near-package-optical-connectivity",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-09T21:26:47Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0705",
+      "headline": "EV그룹, 양자칩 확장 위한 첨단 패키징 공정 지원",
+      "summary": [
+        "EV그룹이 양자컴퓨팅 시스템 확장에 필요한 칩 제조 공정 지원에 나섰다고 밝혔다.",
+        "첨단 패키징, 이기종 집적, 포토닉스 제조 역량을 활용해 복잡한 양자 아키텍처 설계와 공정 개발을 돕는다.",
+        "이 회사는 11월 10~13일 뮌헨 SEMICON Europa에서 관련 공정 솔루션을 선보일 예정이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "양자컴퓨팅",
+        "첨단 패키징",
+        "이기종 집적",
+        "포토닉스",
+        "큐빗 확장"
+      ],
+      "companies": [
+        "EV그룹"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "EV그룹"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T21:24:25Z",
+      "updated_at": "2026-11-09T21:24:25Z",
+      "articles": [
+        {
+          "key": "cb74273188e3c42b",
+          "title": "EV Group Advances Qubit Scaling Through Semiconductor Packaging Technology",
+          "url": "https://www.semiconductor-digest.com/ev-group-advances-qubit-scaling-through-semiconductor-packaging-technology/?utm_source=rss&utm_medium=rss&utm_campaign=ev-group-advances-qubit-scaling-through-semiconductor-packaging-technology",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-09T21:24:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0704",
+      "headline": "미국 유리기판 기업, 남아시아 첨단패키징 공장에 SCHMID 장비 공급",
+      "summary": [
+        "SCHMID가 미국 유리기판 기업의 남아시아 신규 공장에 핵심 습식 공정 장비를 공급하는 수주를 받았다고 발표했다.",
+        "공장은 연간 약 7만 장의 유리패널 생산을 목표로 하며, 유리 인터포저와 3D 이종집적 모듈도 함께 만든다.",
+        "AI 프로세서·고성능 컴퓨팅용 유리기판의 본격 양산을 위한 대규모 초기 단계로 평가된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "유리기판",
+        "첨단패키징",
+        "TGV",
+        "3D 이종집적",
+        "습식 공정 장비"
+      ],
+      "companies": [
+        "SCHMID",
+        "유리기판 개발 기업"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "SCHMID"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T21:17:35Z",
+      "updated_at": "2026-11-09T21:17:35Z",
+      "articles": [
+        {
+          "key": "d78ac587e5b29f96",
+          "title": "SCHMID to Supply Equipment for Advanced Packaging Facility in South Asia",
+          "url": "https://www.semiconductor-digest.com/schmid-to-supply-equipment-for-advanced-packaging-facility-in-south-asia/?utm_source=rss&utm_medium=rss&utm_campaign=schmid-to-supply-equipment-for-advanced-packaging-facility-in-south-asia",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-09T21:17:35Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261109-0703",
+      "headline": "국내 상장사 소액주주 18개월 새 24% 증가",
+      "summary": [
+        "국내 상장사의 소액주주 수가 최근 18개월 사이 24% 늘어난 것으로 나타났다.",
+        "삼성전자가 소액주주 797만명으로 가장 많았고, SK하이닉스와 LS일렉트릭 등 대형주도 증가세를 이끌었다.",
+        "주식 투자 저변이 넓어진 신호로, 반도체 대형주에 개인 자금이 몰리는 흐름을 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "소액주주",
+        "주식투자",
+        "상장사",
+        "개인투자자"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "LS일렉트릭"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T21:00:04Z",
+      "updated_at": "2026-11-09T21:00:04Z",
+      "articles": [
+        {
+          "key": "961f6aa3e8d3acd1",
+          "title": "국내 상장사 소액주주 18개월 새 24%↑…삼성전자 797만명 1위",
+          "url": "https://www.yna.co.kr/view/AKR20261109118900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-09T21:00:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261107-0608",
       "headline": "젠슨 황 CEO 중국 정보기관 연계 의혹 확산",
