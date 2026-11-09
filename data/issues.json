@@ -1,7 +1,61 @@
 {
   "version": 1,
-  "updated_at": "2026-11-09T13:28:38Z",
+  "updated_at": "2026-11-09T15:08:54Z",
   "issues": [
+    {
+      "id": "c20261109-0702",
+      "headline": "삼성D·BOE, 저사양 HD급 스마트폰 OLED 개발 검토",
+      "summary": [
+        "삼성디스플레이와 BOE 등 패널 업체가 저가 스마트폰용 HD 해상도 OLED 개발을 검토 중이다.",
+        "오포·비보와 납품을 논의 중이며, 저가 HD LCD 물량 약 1억대를 OLED로 대체하는 것이 목표다.",
+        "스마트폰 시장 위축으로 떨어진 OLED 라인 가동률을 높일 수 있으나, 신형 재료 적용 시 적자 우려가 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "HD OLED",
+        "저사양 스마트폰",
+        "LCD 대체",
+        "라인 가동률",
+        "스마트폰 출하량 감소"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "BOE",
+        "티엔마",
+        "오포",
+        "비보",
+        "삼성전자"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "삼성디스플레이",
+        "BOE",
+        "티엔마",
+        "오포",
+        "비보"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성디스플레이) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T14:01:57Z",
+      "updated_at": "2026-11-09T14:01:57Z",
+      "articles": [
+        {
+          "key": "4a44328dafee7fa1",
+          "title": "삼성D·BOE, '저사양' HD급 스마트폰 OLED 개발 검토...LCD 대체 겨냥",
+          "url": "https://zdnet.co.kr/view/?no=20261109170809",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-09T14:01:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261109-0701",
       "headline": "구글 신형 AI 칩 TPU 8i Max 공개, 연산 성능 2배",
