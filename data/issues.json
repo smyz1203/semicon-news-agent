@@ -1,42 +1,257 @@
 {
   "version": 1,
-  "updated_at": "2026-11-09T04:11:10Z",
+  "updated_at": "2026-11-09T05:20:34Z",
   "issues": [
     {
-      "id": "c20261109-0653",
-      "headline": "나인테크, 중국 TCL CSOT 8.6세대 잉크젯 OLED 라인에 기판 이송장비 공급",
+      "id": "c20261109-0658",
+      "headline": "엔비디아·SKT·리벨리온, 국산 NPU 연계 AI 칩 동맹",
       "summary": [
-        "한국 장비업체 나인테크가 중국 TCL CSOT의 8.6세대 잉크젯 프린팅 OLED 양산라인에 기판 이송장비를 공급한다고 밝혔다.",
-        "장비는 LG전자를 통해 공급되며, LG전자는 2026년 6월 나인테크와 1,870만 달러 규모의 장비 공급 계약을 체결했다.",
-        "진공이나 질소 환경을 유지하며 유리기판을 공정 장비 사이로 옮기는 장비로, 잉크젯 프린팅과 박막봉지 등에 쓰인다."
+        "엔비디아, SK텔레콤, 리벨리온이 국산 NPU를 엔비디아 데이터센터 시스템에 연결하는 양해각서를 체결했다.",
+        "리벨리온 차세대 NPU R200을 NVLink Fusion으로 연결하고 MGX 랙 기반 추론 시스템을 개발하는 것이 핵심이다.",
+        "국산 AI 칩이 글로벌 엔비디아 생태계에 편입되는 사례로, 소버린 AI 인프라 확산에 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "NVLink Fusion",
+        "NPU",
+        "소버린 AI",
+        "MGX 랙",
+        "R200"
+      ],
+      "companies": [
+        "엔비디아",
+        "SK텔레콤",
+        "리벨리온"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "엔비디아",
+        "SK텔레콤",
+        "리벨리온"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 매체 4곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-09T05:00:00Z",
+      "updated_at": "2026-11-09T05:18:42Z",
+      "articles": [
+        {
+          "key": "81fe877546359a09",
+          "title": "SKT AIDC에 '엔비디아 GPU·리벨리온 NPU' 도입 추진⋯\"이기종 시스템 구현\"",
+          "url": "https://www.inews24.com/view/2024051",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-09T05:00:00Z"
+        },
+        {
+          "key": "69b059aada1a8a5c",
+          "title": "[AI픽] 국산 NPU, 엔비디아와 손잡고 글로벌 AI 시장 공략",
+          "url": "https://www.yna.co.kr/view/AKR20261109045800017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-09T05:00:02Z"
+        },
+        {
+          "key": "b43a6cb5c05cae33",
+          "title": "리벨리온, 엔비디아·SKT와 국산 NPU로 소버린 AI 인프라 구축",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409466",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-09T05:10:39Z"
+        },
+        {
+          "key": "cb02defa4ccb47f2",
+          "title": "Nvidia, SK Telecom, Rebellions forge AI chip alliance",
+          "url": "https://www.koreaherald.com/article/10930773",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-09T05:18:42Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261109-0660",
+      "headline": "한화세미텍, 30대 김진우 사업총괄 신임 대표 내정",
+      "summary": [
+        "한화세미텍이 김진우 사업총괄을 신임 대표이사로 내정했다고 9일 밝혔다.",
+        "김 내정자는 1989년생으로 KPMG, AT커니 등을 거쳐 지난해 한화그룹에 합류했다.",
+        "후공정 장비 사업 확대를 이끌 인사로, 회사의 사업 확장 전략에 영향을 줄 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "후공정 장비",
+        "대표이사 내정",
+        "경영진 교체"
+      ],
+      "companies": [
+        "한화세미텍",
+        "한화그룹",
+        "KPMG",
+        "AT커니"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "한화세미텍"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T05:05:23Z",
+      "updated_at": "2026-11-09T05:05:23Z",
+      "articles": [
+        {
+          "key": "a8d5a136a2d1809a",
+          "title": "한화세미텍, 30대 신임 대표 카드…김진우 사업총괄 내정",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409465",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-09T05:05:23Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261109-0659",
+      "headline": "엔비디아 피지컬 AI 협력, 국내 기업 참여 확대",
+      "summary": [
+        "엔비디아가 한국의 피지컬 AI 핵심 역할을 강조하며 현대차그룹, SK하이닉스, SK텔레콤과 협력을 이어가고 있다.",
+        "자동차 공장과 반도체 생산시설을 가상공간에 구현해 로봇과 AI 에이전트가 작업을 학습하고 설비 이상을 점검하는 방식이 소개됐다.",
+        "공장 운영을 가상에서 검증하는 디지털 트윈 접근이 국내 제조·반도체 산업의 AI 전환에 의미를 더한다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "피지컬 AI",
+        "AI 팩토리",
+        "디지털 트윈",
+        "엔비디아"
+      ],
+      "companies": [
+        "엔비디아",
+        "현대자동차",
+        "SK하이닉스",
+        "SK텔레콤",
+        "두산",
+        "LG"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "엔비디아",
+        "현대자동차",
+        "SK하이닉스",
+        "SK텔레콤"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T05:01:43Z",
+      "updated_at": "2026-11-09T05:01:43Z",
+      "articles": [
+        {
+          "key": "b204e99c6e57d5d9",
+          "title": "엔비디아 \"韓, 피지컬 AI 핵심 역할\"…SK·현대차·두산·LG와 AI 팩토리 협력",
+          "url": "https://www.inews24.com/view/2024050",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-09T05:01:43Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261109-0657",
+      "headline": "중국 SMEE, 노광장비 국산화율 90% 주장",
+      "summary": [
+        "중국 상하이마이크로전자장비(SMEE)가 반도체 장비의 국산화율이 90%에 이르렀다고 주장했다.",
+        "기사 본문은 사진 캡션만 확인되어 구체적인 제품 사양과 일정은 확인되지 않는다.",
+        "중국 노광장비 자립 움직임이 가속되고 있다는 점에서 글로벌 장비 공급망에 영향을 줄 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "노광장비",
+        "국산화",
+        "SMEE",
+        "중국 반도체 장비"
+      ],
+      "companies": [
+        "SMEE",
+        "상하이마이크로전자장비"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "SMEE"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T04:33:05Z",
+      "updated_at": "2026-11-09T04:33:05Z",
+      "articles": [
+        {
+          "key": "5c03c6d63c26d585",
+          "title": "China's lithography ambitions gain ground as SMEE claims 90% local sourcing in chipmaking tools",
+          "url": "https://www.digitimes.com/news/a20261109PD235/smee-lithography-packaging-equipment-2026.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-09T04:33:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261109-0653",
+      "headline": "나인테크, TCL CSOT 8.6세대 잉크젯 OLED 라인에 장비 공급",
+      "summary": [
+        "나인테크가 TCL CSOT의 8.6세대 잉크젯 프린팅 OLED 라인에 기판 이송 장비를 공급하는 것으로 알려졌다.",
+        "기사에는 LG를 통한 공급 구조가 언급되었으나 계약 규모와 납품 일정은 확인되지 않았다.",
+        "대형 잉크젯 OLED 라인 투자가 이어지면서 국내 장비업체의 디스플레이 장비 수주 기회가 커질 전망이다."
       ],
       "category": "장비/소재/부품",
       "tags": [
         "8.6세대 OLED",
         "잉크젯 프린팅 OLED",
-        "기판 이송장비",
-        "박막봉지(TFE)"
+        "기판 이송 장비",
+        "TCL CSOT"
       ],
       "companies": [
         "나인테크",
         "TCL CSOT",
-        "LG전자"
+        "LG"
       ],
       "event_type": "수주·공급",
-      "confirmed": true,
+      "confirmed": false,
       "parties": [
         "나인테크",
-        "LG전자",
         "TCL CSOT"
       ],
-      "importance": 4,
-      "importance_reason": "수주·공급 3점, 관심 기업(LG전자) +1 → 4점",
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "en",
       "first_seen": "2026-11-09T04:00:08Z",
-      "updated_at": "2026-11-09T04:00:08Z",
+      "updated_at": "2026-11-09T04:30:47Z",
       "articles": [
         {
           "key": "fe1907fd8c4c4665",
@@ -45,10 +260,197 @@
           "source": "OLED-info",
           "lang": "en",
           "published_at": "2026-11-09T04:00:08Z"
+        },
+        {
+          "key": "5892653beb72143a",
+          "title": "South Korean equipment maker Naintech supplies TCL CSOT via LG for 8.6-generation inkjet OLED line",
+          "url": "https://www.digitimes.com/news/a20261109PD212/equipment-tcl-lg-csot-production.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-09T04:30:47Z"
         }
       ],
       "type_checked": true,
-      "importance_raw": 4
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0656",
+      "headline": "마이크로LED 웨어러블, OLED 대비 아직 격차 큰 로드맵 백서",
+      "summary": [
+        "MicroLED산업협회가 마이크로LED 웨어러블 디스플레이의 현황과 2030년까지의 로드맵을 담은 백서를 발간했다.",
+        "가민 Fenix 8 Pro 마이크로LED 모델은 스마트워치 모드 배터리가 AMOLED 버전 27일에서 10일로 줄고 두께는 약 3mm 두꺼운 것으로 나타났다.",
+        "웨어러블은 두 기술이 실제 제품에서 직접 경쟁하는 첫 시장이라, OLED 업계도 마이크로LED 추이를 주시할 필요가 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "마이크로LED",
+        "OLED",
+        "웨어러블",
+        "배터리 수명",
+        "로드맵"
+      ],
+      "companies": [
+        "가민"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T04:30:32Z",
+      "updated_at": "2026-11-09T04:30:32Z",
+      "articles": [
+        {
+          "key": "bcf8a382c41fb996",
+          "title": "What OLED developers should know about microLED wearables: a new white paper details the status and roadmap",
+          "url": "https://www.oled-info.com/what-oled-developers-should-know-about-microled-wearables-new-white-paper",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-09T04:30:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0655",
+      "headline": "알파벳, 퀄컴 지분 확보로 AI 데이터센터 협력 강화",
+      "summary": [
+        "알파벳이 퀄컴의 지분을 확보한 것으로 전해졌다.",
+        "기사 본문은 확인되지 않아 구체적인 지분율과 거래 규모는 알 수 없다.",
+        "퀄컴이 AI 데이터센터 시장을 노리면서 양사 협력이 깊어지는 신호로 볼 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI데이터센터",
+        "퀄컴",
+        "알파벳",
+        "지분투자"
+      ],
+      "companies": [
+        "알파벳",
+        "퀄컴"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": false,
+      "parties": [
+        "알파벳",
+        "퀄컴"
+      ],
+      "importance": 1,
+      "importance_reason": "재무·주주 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T04:29:24Z",
+      "updated_at": "2026-11-09T04:29:24Z",
+      "articles": [
+        {
+          "key": "da35b306c9e4ecb0",
+          "title": "Alphabet's Qualcomm stake signals deeper partnership as chipmaker targets AI data centers",
+          "url": "https://www.digitimes.com/news/a20261109VL216/alphabet-qualcomm-partnership-data-center-investment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-09T04:29:24Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261109-0654",
+      "headline": "호남 반도체 민간위 비전문가 논란, 장관 보강 약속",
+      "summary": [
+        "김정관 산업통상부 장관이 호남 반도체 클러스터 예산을 심의하는 정부 산하 위원회에 비전문가가 포함됐다는 지적에 답했다.",
+        "장관은 위원회 구성을 보강하겠다고 밝혔으며, 구체적인 인선 일정은 기사에 나오지 않았다.",
+        "반도체 지역 사업의 예산 심의 전문성이 쟁점으로 떠올라 향후 위원회 구성 변화가 주목된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "호남 반도체 클러스터",
+        "민간위원회",
+        "예산 심의",
+        "산업통상부"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T04:17:41Z",
+      "updated_at": "2026-11-09T04:17:41Z",
+      "articles": [
+        {
+          "key": "93decec96551c3d1",
+          "title": "호남 반도체 민간위 '비전문가' 지적에…산업장관 \"보강 예정\"",
+          "url": "https://www.yna.co.kr/view/AKR20261109082400003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-09T04:17:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261107-0608",
+      "headline": "젠슨 황 CEO 중국 정보기관 연계 의혹 확산",
+      "summary": [
+        "대만 언론은 젠슨 황 엔비디아 CEO와 중국 정보기관 연계가 의심되는 여성 기업인이 함께 있는 과거 정황을 보도했다.",
+        "지난해부터 관련 의혹이 제기됐던 정황이 드러났고, 미국 당국이 두 사람을 연인 관계로 판단했다는 보도도 나왔다.",
+        "기사 내용만으로는 의혹의 사실 여부가 확인되지 않아, 엔비디아 경영 리스크로 번질지 주시가 필요하다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "젠슨 황",
+        "중국 정보기관",
+        "스파이 의혹",
+        "엔비디아 리스크"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-07T05:20:32Z",
+      "updated_at": "2026-11-09T04:17:33Z",
+      "articles": [
+        {
+          "key": "b9d4b578e19a2655",
+          "title": "[속보]“美당국, 젠슨 황과 ‘中스파이 의혹’ 여성 연인관계로 판단”",
+          "url": "https://www.dt.co.kr/article/12093649",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-07T05:20:32Z"
+        },
+        {
+          "key": "4d0ee7511dc92d67",
+          "title": "'젠슨 황 스캔들' 1년 전부터 경고음…美 정부는 알고 있었다?",
+          "url": "https://www.inews24.com/view/2024022",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-09T04:17:33Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261109-0652",
@@ -2411,48 +2813,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261107-0608",
-      "headline": "미국, 젠슨 황 엔비디아 CEO 중국 스파이 의혹 연루 조사",
-      "summary": [
-        "미국 정부가 젠슨 황 엔비디아 CEO가 중국 스파이 의혹을 받는 여성 기업인과 연인 관계였다고 판단하고 있다는 보도가 나왔다.",
-        "보도는 영국 파이낸셜타임스(FT)를 인용했으며, 미국 정보당국이 해당 사안을 살펴온 것으로 전해졌다.",
-        "엔비디아 최고경영진의 신변 리스크가 거론되면서 미중 기술 경쟁 속 기업 거버넌스 이슈로 주목된다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "젠슨 황",
-        "엔비디아",
-        "중국 스파이",
-        "미중 갈등"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "소송·특허",
-      "confirmed": false,
-      "parties": [],
-      "importance": 2,
-      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-07T05:20:32Z",
-      "updated_at": "2026-11-07T05:20:32Z",
-      "articles": [
-        {
-          "key": "b9d4b578e19a2655",
-          "title": "[속보]“美당국, 젠슨 황과 ‘中스파이 의혹’ 여성 연인관계로 판단”",
-          "url": "https://www.dt.co.kr/article/12093649",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-07T05:20:32Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261107-0609",
