@@ -1,7 +1,1021 @@
 {
   "version": 1,
-  "updated_at": "2026-11-09T07:41:32Z",
+  "updated_at": "2026-11-09T09:25:43Z",
   "issues": [
+    {
+      "id": "c20261109-0689",
+      "headline": "中 HKC 6세대 OLED 투자 지연, 취소 가능성 거론",
+      "summary": [
+        "HKC의 몐양 6세대 OLED 라인(H7) 장비 발주가 당초 계획보다 지연되고 있다.",
+        "당초 2027년 3월 증착장비 반입과 2028년 6월 양산을 목표했으나 주요 장비 발주가 아직 이뤄지지 않았다.",
+        "OLED 시장 침체와 기술 확보 문제가 겹쳐 중국 OLED 투자 속도에 영향을 줄 수 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "6세대 OLED",
+        "HKC",
+        "H7 라인",
+        "장비 발주",
+        "투자 지연"
+      ],
+      "companies": [
+        "HKC",
+        "국내 장비업체"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "HKC"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T09:08:04Z",
+      "updated_at": "2026-11-09T09:08:04Z",
+      "articles": [
+        {
+          "key": "0f0b6119effd673f",
+          "title": "中 HKC, 6세대 OLED 투자 지연",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65079",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-09T09:08:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0688",
+      "headline": "중국 지린OLED, LG화학 OLED 소재 특허 무효화 심판 청구",
+      "summary": [
+        "중국 지린OLED 소재기업이 LG화학의 OLED 소재 특허 무효화를 한국 특허심판원에 청구했다.",
+        "2025년 11월 청구됐고 2026년 10월 말 심리기일이 통지됐으며, 중국 기업의 첫 무효화 심판 사례다.",
+        "LG화학 특허의 OLED 전자 수송·주입 소재 권리 범위를 두고 중국 업체와의 법적 다툼이 본격화될 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "OLED 소재",
+        "특허 무효화 심판",
+        "전자 수송층",
+        "LG화학 특허",
+        "특허심판원"
+      ],
+      "companies": [
+        "LG화학",
+        "지린OLED"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "지린OLED",
+        "LG화학"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T09:00:07Z",
+      "updated_at": "2026-11-09T09:00:07Z",
+      "articles": [
+        {
+          "key": "6edbcd8b4d72e4ee",
+          "title": "Jilin OLED files to invalidate an LG Chem OLED material patent in Korea, the first such challenge by a Chinese company",
+          "url": "https://www.oled-info.com/jilin-oled-files-invalidate-lg-chem-oled-material-patent-korea-first-such",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-09T09:00:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261109-0687",
+      "headline": "SK하이닉스, 엔비디아 AI로 공정 시뮬레이션 30배 가속",
+      "summary": [
+        "SK하이닉스가 엔비디아의 AI 기술을 활용해 반도체 공정 시뮬레이션 속도를 30배 이상 끌어올렸다.",
+        "반도체를 실제로 만들기 전에 공정 결과를 예측하고 최적의 생산 조건을 찾는 데 AI를 적용한 것이다.",
+        "공정 개발 기간과 시행착오 비용을 줄여 제조 효율을 높이는 방향으로 산업에 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "공정 시뮬레이션",
+        "AI 활용",
+        "엔비디아",
+        "반도체 공정"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스",
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T08:52:49Z",
+      "updated_at": "2026-11-09T08:52:49Z",
+      "articles": [
+        {
+          "key": "211e7b117edce893",
+          "title": "SK하이닉스, 반도체 공정 분석 30배 가속한 비결은 엔비디아 AI",
+          "url": "https://www.inews24.com/view/2024254",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-09T08:52:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261109-0686",
+      "headline": "삼성전자, 엔비디아 AI로 반도체 시뮬레이션 4000배 가속",
+      "summary": [
+        "삼성전자가 엔비디아 AI 기술을 활용해 반도체 개발 시뮬레이션 속도를 최대 4000배 높였다.",
+        "기존 하루가량 걸리던 계산을 약 1분으로 단축했다고 기사에 전해졌다.",
+        "제조 전 불량 가능성을 미리 검증할 수 있어 개발 기간과 비용 절감에 기여할 것으로 보인다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 시뮬레이션",
+        "엔비디아",
+        "반도체 개발",
+        "공정 검증"
+      ],
+      "companies": [
+        "삼성전자",
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T08:52:38Z",
+      "updated_at": "2026-11-09T08:52:38Z",
+      "articles": [
+        {
+          "key": "8f5b51dec85a9127",
+          "title": "삼성전자 \"엔비디아 AI로 반도체 시뮬레이션 4000배 가속\"",
+          "url": "https://www.inews24.com/view/2024251",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-09T08:52:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261109-0685",
+      "headline": "중국 Homways, 추저우 12인치 OLED 마이크로디스플레이 2공장 가동",
+      "summary": [
+        "Homways가 안후이성 추저우의 두 번째 12인치 OLED 마이크로디스플레이 라인 생산을 시작했다.",
+        "자회사 안후이 홍시 마이크로디스플레이가 운영하며 2026년 11월 6일 생산 개시 행사를 열었고 투자액은 20억 위안이다.",
+        "구동 IC 설계부터 웨이퍼 처리, OLED 증착, 모듈 패키징까지 전 공정을 갖춘 점이 중국 OLEDoS 생태계 확장을 보여준다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLEDoS",
+        "12인치 웨이퍼",
+        "마이크로디스플레이",
+        "생산 개시",
+        "추저우"
+      ],
+      "companies": [
+        "Homways",
+        "안후이 홍시 마이크로디스플레이"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "Homways",
+        "안후이 홍시 마이크로디스플레이"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T08:49:12Z",
+      "updated_at": "2026-11-09T08:49:12Z",
+      "articles": [
+        {
+          "key": "11d22717a499e234",
+          "title": "Homways (formerly Metaways) starts production at its second 12-inch OLED microdisplay fab, in Chuzhou",
+          "url": "https://www.oled-info.com/homways-formerly-metaways-starts-production-its-second-12-inch-oled",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-09T08:49:12Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261109-0660",
+      "headline": "한화세미텍, 김진우 사업총괄 신임 대표 내정",
+      "summary": [
+        "한화세미텍이 김진우 사업총괄을 신임 대표이사로 내정했다.",
+        "김 내정자는 반도체 장비 사업 확대와 산업용 장비 사업구조 개편을 이끌어온 전략 전문가로 알려졌다.",
+        "회사는 젊은 리더를 전면에 배치해 성장동력 확보에 나설 계획이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "한화세미텍",
+        "반도체 장비",
+        "대표이사 교체",
+        "사업구조 개편"
+      ],
+      "companies": [
+        "한화세미텍"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "한화세미텍"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 매체 3곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T05:05:23Z",
+      "updated_at": "2026-11-09T08:23:55Z",
+      "articles": [
+        {
+          "key": "a8d5a136a2d1809a",
+          "title": "한화세미텍, 30대 신임 대표 카드…김진우 사업총괄 내정",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409465",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-09T05:05:23Z"
+        },
+        {
+          "key": "def938879ccabd33",
+          "title": "한화세미텍, 컨설팅 전문가 김진우 사업총괄 신임 대표로 내정",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65121",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-09T07:06:13Z"
+        },
+        {
+          "key": "0c9c6aa44ece80bf",
+          "title": "한화세미텍, 새 대표에 김진우 사업총괄 내정…37세 젊은 리더 발탁",
+          "url": "https://www.dt.co.kr/article/12094058",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-09T08:23:55Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261109-0684",
+      "headline": "AI칩 테스트 수요에 대만 HTSI 10월 매출 62% 급증",
+      "summary": [
+        "대만 웨이퍼 테스트 전문업체 HTSI가 10월 매출이 전년 대비 62% 늘었다고 알려졌다.",
+        "기사에는 매출 증가 배경으로 AI칩 테스트 수요가 언급되었으며, 본문은 사진 설명만 담겨 있다.",
+        "AI칩 검사 물량 확대가 후공정 테스트 업체의 실적에 긍정적임을 보여주는 신호다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "웨이퍼 테스트",
+        "AI칩 테스트",
+        "HTSI",
+        "월간 매출"
+      ],
+      "companies": [
+        "HTSI",
+        "Hermes Testing Solutions"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "HTSI"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T08:21:54Z",
+      "updated_at": "2026-11-09T08:21:54Z",
+      "articles": [
+        {
+          "key": "69d9eb1b51d687e3",
+          "title": "AI chip testing demands lift Taiwan's wafer testing specialist HTSI as October revenue surges 62%",
+          "url": "https://www.digitimes.com/news/a20261109PD261/wafer-testing-testing-revenue-equipment-probe.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-09T08:21:54Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261109-0683",
+      "headline": "송전망 확충 시급하나 주민 전자파 우려 커",
+      "summary": [
+        "국민 42%가 거주지 인근 전력망 건설 시 전자파가 건강에 미칠 영향을 가장 걱정하는 것으로 조사됐다.",
+        "AI와 반도체 산업의 전력 수요 증가로 송전망 확충이 시급해졌지만 주민 불안 해소가 과제로 남아 있다.",
+        "반도체 산업 전력 인프라 확충이 지역 주민 수용성 확보 없이는 지연될 수 있음을 보여준다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "송전망",
+        "전자파",
+        "전력 수요",
+        "AI 반도체",
+        "주민 수용성"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T08:18:18Z",
+      "updated_at": "2026-11-09T08:18:18Z",
+      "articles": [
+        {
+          "key": "84dd03cb98d0f644",
+          "title": "국민 42% “전력망 전자파 걱정”…주민 소통 해법 논의",
+          "url": "https://www.dt.co.kr/article/12094053",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-09T08:18:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0682",
+      "headline": "피지컬 AI 시대, 메모리가 배터리 효율의 열쇠",
+      "summary": [
+        "휴머노이드 로봇, 자율주행차, 드론은 배터리 수명에 따라 작동 시간이 제한된다.",
+        "Cadence의 Frank Ferro는 데이터 계층 구조와 메모리 읽기·쓰기 속도 개선 방법을 짚었다.",
+        "처리 효율, 고밀도·고속 메모리, 프로세서와 메모리 간 데이터 이동 최적화가 핵심 과제로 꼽힌다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "피지컬 AI",
+        "메모리 계층",
+        "데이터 이동 최적화",
+        "휴머노이드 로봇",
+        "저전력"
+      ],
+      "companies": [
+        "Cadence"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T08:15:21Z",
+      "updated_at": "2026-11-09T08:15:21Z",
+      "articles": [
+        {
+          "key": "f768bf0436072a25",
+          "title": "Memory In Physical AI",
+          "url": "https://semiengineering.com/memory-in-physical-ai/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-09T08:15:21Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261109-0681",
+      "headline": "GIST, 호남 반도체 산단 연계 개방형 팹 구축 제안",
+      "summary": [
+        "GIST가 호남 반도체 산단과 연계한 대규모 개방형 팹 '자이언츠' 구축을 제안했다.",
+        "기사 요약문에는 2030년 양산을 목표로 조성 중인 산단과 연계한다는 내용만 확인된다.",
+        "지역 반도체 생태계 확장 논의에 학계가 참여하는 사례로 볼 수 있으나 세부 계획은 불확실하다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "개방형 팹",
+        "호남 반도체 산단",
+        "자이언츠",
+        "GIST"
+      ],
+      "companies": [
+        "GIST"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [
+        "GIST"
+      ],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T08:15:04Z",
+      "updated_at": "2026-11-09T08:15:04Z",
+      "articles": [
+        {
+          "key": "1611d42de90cc70c",
+          "title": "GIST, 호남 반도체 산단 연계 개방형 팹 '자이언츠' 구축 제안",
+          "url": "https://www.yna.co.kr/view/AKR20261109126600054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-09T08:15:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261109-0680",
+      "headline": "메가스피드 칩 밀수 조사, 엔비디아 NCP 인증 도마 위",
+      "summary": [
+        "싱가포르 기업 메가스피드의 AI 칩 밀수 의혹 조사가 진행 중이며, 엔비디아 NCP 인증이 검토 대상이 되었다.",
+        "기사 본문이 제공되지 않아 조사 범위, 규모, 구체적 수치와 일정은 확인할 수 없다.",
+        "AI 반도체 수출 통제 준수 체계와 클라우드 파트너 인증 신뢰성에 대한 업계 우려가 커질 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "칩 밀수",
+        "수출규제",
+        "NCP 인증",
+        "AI반도체"
+      ],
+      "companies": [
+        "메가스피드",
+        "엔비디아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "메가스피드",
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T08:05:08Z",
+      "updated_at": "2026-11-09T08:05:08Z",
+      "articles": [
+        {
+          "key": "30937366f7282745",
+          "title": "Megaspeed chip smuggling probe puts Nvidia NCP certification under scrutiny",
+          "url": "https://www.digitimes.com/news/a20261109PD248/nvidia-certification-jensen-huang-ceo-government.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-09T08:05:08Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0679",
+      "headline": "AI 스케일업 광인터커넥트 표준, OCI-MSA 컨소시엄 출범",
+      "summary": [
+        "AMD, 브로드컴, 메타, 마이크로소프트, 엔비디아, OpenAI가 참여한 OCI-MSA 컨소시엄이 AI 스케일업용 개방형 광인터커넥트 규격을 추진한다.",
+        "업계는 구리 배선에서 광 연결로 옮겨가며, 파장 다중화와 NPO·CPO 방식으로 전력과 비용을 줄이는 방향에 합의하고 있다.",
+        "이는 랙 간 연결을 넘어 랙 내부까지 광 연결이 확산될 전조로, 광 부품·패키징 생태계에 중요한 변화가 될 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "OCI-MSA",
+        "CPO",
+        "NPO",
+        "광인터커넥트",
+        "AI 스케일업"
+      ],
+      "companies": [
+        "AMD",
+        "브로드컴",
+        "메타",
+        "마이크로소프트",
+        "엔비디아",
+        "OpenAI"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "AMD",
+        "브로드컴",
+        "메타",
+        "마이크로소프트",
+        "엔비디아",
+        "OpenAI"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T08:01:28Z",
+      "updated_at": "2026-11-09T08:01:28Z",
+      "articles": [
+        {
+          "key": "7f6c3e403b75caf0",
+          "title": "The Optical Super Highway For AI",
+          "url": "https://semiengineering.com/the-optical-super-highway-for-ai/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-09T08:01:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261107-0616",
+      "headline": "삼성·현대차, 원팀으로 모빌리티·AI 협력 강화",
+      "summary": [
+        "삼성전자와 현대자동차그룹이 서천연수원에서 HMG Appreciation Day를 열고 협력 강화를 다짐했다.",
+        "전영현 삼성전자 부회장과 장재훈 현대차그룹 부회장 등 양사 경영진이 참석해 전시를 함께 둘러봤다.",
+        "모빌리티와 로보틱스 등 미래 첨단 산업에서 양사 협력이 한층 깊어질 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "모빌리티",
+        "로보틱스",
+        "AI",
+        "전략적 파트너십"
+      ],
+      "companies": [
+        "삼성전자",
+        "현대자동차그룹"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "현대자동차그룹"
+      ],
+      "importance": 4,
+      "importance_reason": "업계 일반 2점, 관심 기업(삼성전자) +1, 매체 6곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-07T20:55:01Z",
+      "updated_at": "2026-11-09T08:00:52Z",
+      "articles": [
+        {
+          "key": "e30ffd8990f0d4cb",
+          "title": "삼전·현대차 첫 그룹간 교류…이재용·정의선 등 177명 총출동",
+          "url": "https://www.yna.co.kr/view/AKR20261107031000003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-07T20:55:01Z"
+        },
+        {
+          "key": "b7e12fa6185c2517",
+          "title": "삼성전자,현대차그룹 초청 첫 '감사 데이' 9일 개최…주요 경영진 참석",
+          "url": "https://www.etnews.com/20261108000055",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-08T03:26:02Z"
+        },
+        {
+          "key": "af8199f764fe354c",
+          "title": "삼성-현대차, 미래 모빌리티 '원팀' 선언",
+          "url": "https://www.etnews.com/20261109000305",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-09T08:00:00Z"
+        },
+        {
+          "key": "580218f0fa2daf6e",
+          "title": "삼성-현대차그룹, '원팀'으로 미래 첨단 산업 선점...삼성전자 서천연수원서 'HMG Appreciation Day' 개최",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343115",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-09T08:00:00Z"
+        },
+        {
+          "key": "c5d2cb8d750c01b4",
+          "title": "삼성·현대차, 배터리 동맹 넘어 미래 모빌리티 '전략적 파트너'로",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409463",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-09T08:00:00Z"
+        },
+        {
+          "key": "94a86067f9561792",
+          "title": "'우리는 원팀' 삼성·현대차그룹, 미래 모빌리티·피지컬 AI 동행",
+          "url": "https://zdnet.co.kr/view/?no=20261109141852",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-09T08:00:01Z"
+        },
+        {
+          "key": "764e0b31150da386",
+          "title": "“원팀으로 미래 개척”…삼성·현대차, 모빌리티·AI 협력 강화",
+          "url": "https://www.dt.co.kr/article/12093991",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-09T08:00:02Z"
+        },
+        {
+          "key": "a56b1fe96b290149",
+          "title": "[포토] 삼성-현대차그룹, '원팀'으로 미래 첨단 산업 선점",
+          "url": "https://www.etnews.com/20261109000400",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-09T08:00:25Z"
+        },
+        {
+          "key": "30a048f6fae27b32",
+          "title": "[포토] 삼성-현대차그룹, '원팀'으로 미래 첨단 산업 선점",
+          "url": "https://www.etnews.com/20261109000402",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-09T08:00:34Z"
+        },
+        {
+          "key": "b6707853531f00eb",
+          "title": "[포토] 삼성-현대차그룹, '원팀'으로 미래 첨단 산업 선점",
+          "url": "https://www.etnews.com/20261109000404",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-09T08:00:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261109-0678",
+      "headline": "삼성전자, 현대차그룹과 전략적 파트너십 강화 행사 개최",
+      "summary": [
+        "삼성전자가 서천연수원에서 현대자동차그룹 주요 경영진을 초청해 감사의 날 행사를 열었다.",
+        "전영현 삼성전자 부회장과 장재훈 현대차그룹 부회장이 함께 전시를 관람하며 협력 관계를 다졌다.",
+        "양사는 미래 모빌리티 등 첨단 산업을 선도하기 위해 협력을 전략적 파트너십으로 발전시키는 방향이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "전략적 파트너십",
+        "미래 모빌리티",
+        "협력 행사"
+      ],
+      "companies": [
+        "삼성전자",
+        "현대자동차그룹"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "현대자동차그룹"
+      ],
+      "importance": 2,
+      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자) +1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T08:00:11Z",
+      "updated_at": "2026-11-09T08:00:41Z",
+      "articles": [
+        {
+          "key": "69758b9e7d85c88c",
+          "title": "[포토] 전시 보는 전영현-장재훈",
+          "url": "https://www.etnews.com/20261109000398",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-09T08:00:11Z"
+        },
+        {
+          "key": "997124996753dd53",
+          "title": "[포토] 전시 보는 전영현-장재훈",
+          "url": "https://www.etnews.com/20261109000399",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-09T08:00:17Z"
+        },
+        {
+          "key": "4b574a30844363a5",
+          "title": "[포토] 전시 보는 전영현-장재훈",
+          "url": "https://www.etnews.com/20261109000403",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-09T08:00:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0677",
+      "headline": "삼성·SK하이닉스, EUV 장비 확보 경쟁 가열",
+      "summary": [
+        "삼성전자와 SK하이닉스가 EUV 장비 확보 경쟁에 나섰다는 보도가 나왔다.",
+        "기사 본문은 사진 출처 표기뿐이라 구체적 물량과 일정은 확인되지 않는다.",
+        "ASML의 장비 공급 부족 경고가 메모리 증설 일정에 부담이 될 수 있다는 점이 업계 의미다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "EUV",
+        "ASML",
+        "장비 확보",
+        "메모리 증설"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "ASML"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스",
+        "ASML"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(SK하이닉스, 삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T07:50:29Z",
+      "updated_at": "2026-11-09T07:50:29Z",
+      "articles": [
+        {
+          "key": "15cf049b3b845450",
+          "title": "Samsung, SK Hynix race to secure EUV tools as ASML warns of shortages",
+          "url": "https://www.digitimes.com/news/a20261109VL226/samsung-sk-hynix-asml-euv-equipment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-09T07:50:29Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261109-0676",
+      "headline": "미래가디언, 특허 기반 마이크로 LED 전광판 사업 본격화",
+      "summary": [
+        "미래가디언이 특허 기술로 개발한 차세대 적층형 마이크로 LED 전광판으로 사업에 나섰다.",
+        "공공 조달과 기업용 디스플레이 시장을 겨냥하며 핵심 부품은 자체 연구개발로 확보하고 있다.",
+        "기존 B2B 유통망을 활용해 판로를 넓히는 전략으로, 마이크로 LED 전광판 시장 경쟁에 변수가 될 수 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "마이크로 LED",
+        "전광판",
+        "적층형",
+        "B2B 유통",
+        "특허 기술"
+      ],
+      "companies": [
+        "미래가디언"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "미래가디언"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T07:43:54Z",
+      "updated_at": "2026-11-09T07:43:54Z",
+      "articles": [
+        {
+          "key": "a393c78a7cc45670",
+          "title": "미래가디언, 특허 기술 기반 차세대 마이크로 LED 전광판 사업 본격화",
+          "url": "https://www.dt.co.kr/article/12094029",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-09T07:43:54Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0675",
+      "headline": "머스크 테라팹, 일본 장비 조달 협의 착수",
+      "summary": [
+        "테슬라 머스크 CEO가 추진하는 초대형 반도체 프로젝트 테라팹이 일본 장비업체들과 조달 협의에 나섰다.",
+        "장기 목표는 월 100만 장 생산으로, 라피더스 목표 생산능력의 40배를 웃도는 규모다.",
+        "기사 본문이 중간에 끊겨 세부 일정과 계약 여부는 확인되지 않아 향후 공급망 변화 추이를 지켜볼 필요가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "테라팹",
+        "일본 반도체 장비",
+        "라피더스",
+        "월 100만장 생산"
+      ],
+      "companies": [
+        "테슬라",
+        "라피더스"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "테슬라"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T07:42:34Z",
+      "updated_at": "2026-11-09T07:42:34Z",
+      "articles": [
+        {
+          "key": "f91d01a722c04f4e",
+          "title": "머스크 '테라팹', 日 반도체 장비 조달 본격화⋯월 100만장 생산 목표",
+          "url": "https://www.inews24.com/view/2024201",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-09T07:42:34Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0674",
+      "headline": "미 승인 엔비디아 H200 중국 유통업체 실체 논란",
+      "summary": [
+        "미국 승인을 받은 중국 내 엔비디아 H200 취급 업체 일부가 사무실이 비어 있거나 블랙리스트 연관이 있는 것으로 보도됐다.",
+        "기사 본문이 제목 외에 제공되지 않아 구체적 업체 수나 조사 세부 내용은 확인되지 않는다.",
+        "중국 내 고성능 AI칩 유통 경로의 통제 실효성에 대한 논란이 커질 수 있어 수출 통제 정책에 영향을 줄 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "H200",
+        "수출규제",
+        "AI반도체",
+        "블랙리스트"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T07:34:27Z",
+      "updated_at": "2026-11-09T07:34:27Z",
+      "articles": [
+        {
+          "key": "8a91170a638f0dcb",
+          "title": "US-approved Nvidia H200 handlers in China include firms with empty offices and blacklist ties",
+          "url": "https://www.digitimes.com/news/a20261109VL218/nvidia-china-chips-investigation-blacklist.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-09T07:34:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0673",
+      "headline": "카카오모빌리티, 엔비디아와 자율주행 레벨4 협약 체결",
+      "summary": [
+        "카카오모빌리티가 엔비디아와 레벨4 자율주행 관련 협약을 체결했다고 보도됐다.",
+        "기사 본문은 사진 크레딧만 있어 구체적 계약 규모나 일정은 확인되지 않는다.",
+        "엔비디아의 한국 내 사업이 젠슨 황 관련 조사에도 진행 중이라는 점에서 국내 AI 기업과의 협력 흐름을 보여준다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "자율주행",
+        "레벨4",
+        "엔비디아",
+        "AI반도체"
+      ],
+      "companies": [
+        "카카오모빌리티",
+        "엔비디아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "카카오모빌리티",
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T07:27:47Z",
+      "updated_at": "2026-11-09T07:27:47Z",
+      "articles": [
+        {
+          "key": "951a18ca6d38cd69",
+          "title": "Nvidia's Korea deals proceed despite Jensen probe as Kakao Mobility signs Level 4 autonomous driving pact",
+          "url": "https://www.digitimes.com/news/a20261109VL221/nvidia-kakao-autonomous-driving-doosan-sk-hynix.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-09T07:27:47Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261109-0672",
+      "headline": "산화갈륨, 6인치 양산과 8인치 개발로 전력반도체 공략",
+      "summary": [
+        "산화갈륨 전력반도체가 6인치 양산과 8인치 기술 돌파를 앞두고 시장 진입을 준비하는 것으로 보도됐다.",
+        "기사 본문은 제목과 사진 크레딧만 확인되어 구체적인 기업명, 일정, 수치는 확인되지 않는다.",
+        "차세대 와이드밴드갭 소재가 실용화 단계로 넘어갈 수 있어 전력반도체 시장 경쟁 구도에 영향을 줄 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "산화갈륨",
+        "전력반도체",
+        "6인치 양산",
+        "8인치",
+        "와이드밴드갭"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-09T07:23:20Z",
+      "updated_at": "2026-11-09T07:23:20Z",
+      "articles": [
+        {
+          "key": "ac0f59d6c6181ad1",
+          "title": "Exclusive: Gallium oxide prepares to tackle power semiconductor market with 6-inch mass production and 8-inch breakthroughs",
+          "url": "https://www.digitimes.com/news/a20261109PD243/gallium-oxide-power-semiconductors-6-inch-wafer-production.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-09T07:23:20Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261109-0671",
       "headline": "광주 반도체 용수시설 723억 사업, 지방비 부담 논란",
@@ -202,60 +1216,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261109-0660",
-      "headline": "한화세미텍, 김진우 사업총괄 신임 대표 내정",
-      "summary": [
-        "한화세미텍이 김진우 사업총괄을 신임 대표로 내정했다고 9일 밝혔다.",
-        "김 내정자는 HBM 후공정 장비인 TC본더, 하이브리드본더, PLP 시장에 집중할 예정이다.",
-        "기술 전문가 대신 경영 전문가를 앞세워 후공정 장비 사업 경쟁력을 강화하려는 움직임이다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "한화세미텍",
-        "HBM",
-        "TC본더",
-        "하이브리드본더",
-        "PLP",
-        "경영진 교체"
-      ],
-      "companies": [
-        "한화세미텍"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "한화세미텍"
-      ],
-      "importance": 3,
-      "importance_reason": "경영진 교체 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-09T05:05:23Z",
-      "updated_at": "2026-11-09T07:06:13Z",
-      "articles": [
-        {
-          "key": "a8d5a136a2d1809a",
-          "title": "한화세미텍, 30대 신임 대표 카드…김진우 사업총괄 내정",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409465",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-09T05:05:23Z"
-        },
-        {
-          "key": "def938879ccabd33",
-          "title": "한화세미텍, 컨설팅 전문가 김진우 사업총괄 신임 대표로 내정",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65121",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-09T07:06:13Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261109-0666",
@@ -2772,63 +3732,6 @@
           "source": "Korea Herald",
           "lang": "en",
           "published_at": "2026-11-08T04:55:28Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261107-0616",
-      "headline": "삼성전자·현대차그룹, 첫 경영진 교류 감사의 날 개최",
-      "summary": [
-        "삼성전자가 9일 용인 연수원에서 현대차·기아 주요 경영진과 임원을 초청해 감사의 날 행사를 연다.",
-        "부부 동반으로 열리며 전영현 부회장과 장재훈 현대차 부회장 등이 참석하고, 연합뉴스는 177명이 참석한다고 전했다.",
-        "반도체·배터리·전장 등 미래차 협력이 넓어지는 가운데 그룹 간 교류를 통해 파트너십 강화가 기대된다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "미래차",
-        "반도체",
-        "전장부품",
-        "파트너십",
-        "경영진 교류"
-      ],
-      "companies": [
-        "삼성전자",
-        "현대자동차",
-        "기아"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "삼성전자",
-        "현대자동차",
-        "기아"
-      ],
-      "importance": 3,
-      "importance_reason": "업계 일반 2점, 관심 기업(삼성전자) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-07T20:55:01Z",
-      "updated_at": "2026-11-08T03:26:02Z",
-      "articles": [
-        {
-          "key": "e30ffd8990f0d4cb",
-          "title": "삼전·현대차 첫 그룹간 교류…이재용·정의선 등 177명 총출동",
-          "url": "https://www.yna.co.kr/view/AKR20261107031000003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-07T20:55:01Z"
-        },
-        {
-          "key": "b7e12fa6185c2517",
-          "title": "삼성전자,현대차그룹 초청 첫 '감사 데이' 9일 개최…주요 경영진 참석",
-          "url": "https://www.etnews.com/20261108000055",
-          "source": "전자신문",
-          "lang": "ko",
-          "published_at": "2026-11-08T03:26:02Z"
         }
       ],
       "type_checked": true,
