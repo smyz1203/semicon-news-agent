@@ -1,7 +1,52 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T12:00:20Z",
+  "updated_at": "2026-11-10T13:19:54Z",
   "issues": [
+    {
+      "id": "c20261110-0784",
+      "headline": "머스크 테라팹, 2032년 이후 월 100만 장 생산 목표",
+      "summary": [
+        "일론 머스크의 테라팹이 2032년 이후 월 100만 장 웨이퍼 생산을 목표로 한다는 소식이다.",
+        "기사 본문에는 실제 사업 내용이 없고 기자 소개 문구만 담겨 있어 구체적 일정·투자 규모는 확인되지 않는다.",
+        "다만 대규모 자체 반도체 생산 계획이 공개된 만큼 업계는 향후 파운드리 경쟁 구도 변화를 주시할 필요가 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "테라팹",
+        "웨이퍼 생산",
+        "파운드리",
+        "자체 반도체"
+      ],
+      "companies": [
+        "테슬라",
+        "스페이스X"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "테슬라"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T13:00:00Z",
+      "updated_at": "2026-11-10T13:00:00Z",
+      "articles": [
+        {
+          "key": "117f1a8a98f34946",
+          "title": "Elon Musk’s Terafab targets 1 million wafers a month after 2032",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musks-terafab-targets-1-million-wafers-a-month-after-2032-planned-700-000-monthly-memory-wafers-could-rival-samsungs-entire-estimated-dram-production-capacity",
+          "source": "Tom's Hardware",
+          "lang": "en",
+          "published_at": "2026-11-10T13:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261110-0783",
       "headline": "유시디스플레이, 로봇 얼굴용 곡면 AMOLED 통합 솔루션 공개",
