@@ -1,7 +1,445 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T05:06:17Z",
+  "updated_at": "2026-11-10T06:05:17Z",
   "issues": [
+    {
+      "id": "c20261110-0758",
+      "headline": "LG디스플레이 OLED TV 베젤 축소 특허, 특허기술상 대상",
+      "summary": [
+        "LG디스플레이가 OLED TV 베젤 폭을 약 34% 줄인 구동회로 특허로 2026 특허기술상 대상을 받았다.",
+        "이 기술은 2022년부터 OLED TV 패널 전 제품에 적용돼 누적 3850억원의 원가 개선 효과를 냈다.",
+        "초슬림 베젤 기술이 TV 패널의 원가 경쟁력과 특허 가치를 함께 입증한 사례로 볼 수 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED TV",
+        "베젤 축소",
+        "게이트 구동회로",
+        "특허기술상",
+        "원가 개선"
+      ],
+      "companies": [
+        "LG디스플레이"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이"
+      ],
+      "importance": 3,
+      "importance_reason": "홍보·수상 1점, 관심 기업(LG디스플레이) +1, 매체 4곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T06:00:00Z",
+      "updated_at": "2026-11-10T06:00:04Z",
+      "articles": [
+        {
+          "key": "70842438580cd58c",
+          "title": "LGD, OLED TV 베젤 34% 줄인 기술로 특허기술상 대상",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65150",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-10T06:00:00Z"
+        },
+        {
+          "key": "7cc8fb0cb704e418",
+          "title": "LG디스플레이, OLED TV 베젤 34% 줄인 기술로 특허기술상 대상",
+          "url": "https://www.inews24.com/view/2024453",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-10T06:00:00Z"
+        },
+        {
+          "key": "dc84a09d18569126",
+          "title": "LG디스플레이, OLED 베젤 줄인 회로 기술로 특허기술상 대상 수상",
+          "url": "https://www.dt.co.kr/article/12094149",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-10T06:00:00Z"
+        },
+        {
+          "key": "77cb07b1ee128cdf",
+          "title": "LGD OLED TV 초슬림 베젤 기술 특허기술상 대상",
+          "url": "https://www.yna.co.kr/view/AKR20261110033800003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T06:00:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261110-0757",
+      "headline": "삼성디스플레이, 스마트폰 올레드 1위 유지 전망",
+      "summary": [
+        "시장조사 결과 올해 글로벌 스마트폰 올레드 패널 시장이 전년보다 소폭 감소할 것으로 전망됐다.",
+        "폴더블 올레드 패널 수요는 크게 늘어날 것으로 예상되며 삼성디스플레이가 1위를 지킬 것으로 보인다.",
+        "폴더블 중심의 성장세가 프리미엄 올레드 시장에서 업체 간 경쟁 구도를 좌우할 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "스마트폰 올레드",
+        "폴더블",
+        "시장 점유율",
+        "올레드 패널"
+      ],
+      "companies": [
+        "삼성디스플레이"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "삼성디스플레이"
+      ],
+      "importance": 3,
+      "importance_reason": "시장 전망·통계 2점, 관심 기업(삼성디스플레이) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T05:58:59Z",
+      "updated_at": "2026-11-10T05:58:59Z",
+      "articles": [
+        {
+          "key": "ddd645cff96ccc30",
+          "title": "삼성D, 올해 스마트폰 올레드 1위 유지…폴더블 급성장 전망",
+          "url": "https://www.yna.co.kr/view/AKR20261110119200003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T05:58:59Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261110-0756",
+      "headline": "인피니언, RISC-V 기반 차량용 MCU 오릭스 RC1 공개",
+      "summary": [
+        "인피니언이 RISC-V 기반 차세대 차량용 MCU 플랫폼 '오릭스 RC1'을 공개했다.",
+        "최대 12개의 32비트 프로세서 코어와 40MB 내장 메모리를 지원하며 내년 상반기 샘플을 공급할 예정이다.",
+        "자체 트라이코어 기반 제품군을 넘어 RISC-V로 차량용 MCU 라인업을 확장하는 의미가 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "RISC-V",
+        "차량용 MCU",
+        "오릭스 RC1",
+        "AURIX"
+      ],
+      "companies": [
+        "인피니언"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "인피니언"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T05:57:40Z",
+      "updated_at": "2026-11-10T05:57:40Z",
+      "articles": [
+        {
+          "key": "7f1e6bab2942bf5e",
+          "title": "인피니언, RISC-V 차량용 MCU '오릭스 RC1' 공개",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65211",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-10T05:57:40Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0755",
+      "headline": "광산구 주민, 반도체 클러스터 인근 도로·주차 확충 요구",
+      "summary": [
+        "광산구 주민들이 지자체 공론장에서 반도체 클러스터 조성 부지 인근 도로와 주차장 확충을 요구했다.",
+        "기사에 구체적인 수치나 일정은 제시되지 않아 요구의 규모와 범위는 확인되지 않는다.",
+        "호남 반도체 클러스터 조성 과정에서 지역 주민의 교통·주차 수요가 주요 쟁점으로 떠올랐음을 보여준다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "호남 반도체 클러스터",
+        "지역 인프라",
+        "공론장",
+        "주차·도로 확충"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T05:44:11Z",
+      "updated_at": "2026-11-10T05:44:11Z",
+      "articles": [
+        {
+          "key": "616d407ffd8752c0",
+          "title": "광산구 주민들 \"반도체 근로자 위해 도로·주차장 넓히자\"",
+          "url": "https://www.yna.co.kr/view/AKR20261110115800054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T05:44:11Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261110-0731",
+      "headline": "삼성디스플레이, 차량용 OLED 사이버보안 인증 2종 획득",
+      "summary": [
+        "삼성디스플레이가 DQS로부터 ISO/SAE 21434와 ENX VCS 인증을 동시에 받았다고 10일 밝혔다.",
+        "인증은 차량용 OLED의 개발부터 생산까지 사이버 보안 위험 관리 체계를 평가한 결과다.",
+        "업계 최초 사례로, 소프트웨어 중심 자동차(SDV) 시장 공략에 힘이 실릴 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "차량용 OLED",
+        "사이버보안",
+        "ISO/SAE 21434",
+        "ENX VCS",
+        "SDV"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "DQS"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "삼성디스플레이",
+        "DQS"
+      ],
+      "importance": 4,
+      "importance_reason": "업계 일반 2점, 관심 기업(삼성디스플레이) +1, 매체 7곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T02:27:55Z",
+      "updated_at": "2026-11-10T05:28:13Z",
+      "articles": [
+        {
+          "key": "91bfc11d1966872d",
+          "title": "삼성디스플레이, 차량용 OLED 보안 경쟁력 입증…국제 인증 2종 동시 획득",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409506",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T02:27:55Z"
+        },
+        {
+          "key": "e4256d3ac41f1a62",
+          "title": "삼성디스플레이, SDV 시대 차량용 OLED 보안 신뢰성 높인다",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343157",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-10T02:30:00Z"
+        },
+        {
+          "key": "4f12461e4d3bd0e0",
+          "title": "삼성디스플레이, 업계 첫 자동차 사이버보안 인증 2종 획득",
+          "url": "https://www.yna.co.kr/view/AKR20261110088000003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T02:44:16Z"
+        },
+        {
+          "key": "4e81706d891a187e",
+          "title": "삼성D, 차량 OLED '사이버보안 인증' 2종 획득...업계 최초",
+          "url": "https://zdnet.co.kr/view/?no=20261110122552",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-10T03:38:46Z"
+        },
+        {
+          "key": "c037b4b4ff3752bf",
+          "title": "삼성디스플레이, 차량용 OLED 사이버 보안 국제 인증 동시 획득",
+          "url": "https://www.dt.co.kr/article/12094233",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-10T03:58:03Z"
+        },
+        {
+          "key": "8ea4454d4cef588f",
+          "title": "삼성D, 차량용 OLED 사이버 보안 인증 2종 획득",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65207",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-10T05:13:32Z"
+        },
+        {
+          "key": "05c09aaebdd1138c",
+          "title": "삼성디스플레이, 차량용 OLED 사이버 보안 인증 2종 동시 획득",
+          "url": "https://www.inews24.com/view/2024479",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-10T05:28:13Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261110-0736",
+      "headline": "미쓰이화학, 반도체 소재 JSR 16조원 인수 결의",
+      "summary": [
+        "미쓰이화학이 반도체 소재 기업 JSR을 1조8400억엔(약 16조원)에 인수하기로 했다.",
+        "이사회 결의와 주식양도계약을 마쳤으며, 일본 정책투자은행과 공동 인수하고 2027년 인수 완료를 목표로 한다.",
+        "일본 화학업계 역대 최대 M&A로, 포토레지스트 세계 2위 JSR 확보로 반도체 소재 사업이 확대될 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "M&A",
+        "포토레지스트",
+        "펠리클",
+        "반도체 소재",
+        "JSR"
+      ],
+      "companies": [
+        "미쓰이화학",
+        "JSR",
+        "일본정책투자은행",
+        "JIC캐피털"
+      ],
+      "event_type": "인수합병",
+      "confirmed": true,
+      "parties": [
+        "미쓰이화학",
+        "JSR",
+        "일본정책투자은행",
+        "JIC캐피털"
+      ],
+      "importance": 2,
+      "importance_reason": "인수합병 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-10T02:28:16Z",
+      "updated_at": "2026-11-10T05:18:00Z",
+      "articles": [
+        {
+          "key": "b1784d0843b2827b",
+          "title": "Mitsui Chemicals to acquire JSR for US$11.6 billion, targeting semiconductor materials growth",
+          "url": "https://www.digitimes.com/news/a20261110VL201/mitsui-chemicals-jsr-acquisition-materials-business-growth.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T02:28:16Z"
+        },
+        {
+          "key": "ea103792f67866ac",
+          "title": "미쓰이화학, JSR 인수…일본 화학업계 최대 인수합병",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65175",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-10T05:18:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0754",
+      "headline": "광주 반도체 팹 증설 대비 예비 용수 확보 추진",
+      "summary": [
+        "전남광주통합특별시가 반도체 팹 4기 건설과 추가 증설 가능성을 염두에 두고 용수 확보를 추진하고 있다.",
+        "기사 본문이 일부만 제공되어 구체적인 용수량과 확보 일정 등 세부 수치는 확인되지 않는다.",
+        "지역 산업 인프라 확충 움직임으로, 대규모 반도체 투자의 전력·용수 기반 과제가 부각된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체 팹",
+        "용수 확보",
+        "지역 인프라",
+        "광주 반도체"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T05:14:14Z",
+      "updated_at": "2026-11-10T05:14:14Z",
+      "articles": [
+        {
+          "key": "e9a59558e4bf46c7",
+          "title": "전남광주시, 반도체 팹 추가 대비 예비 용수 확보 추진",
+          "url": "https://www.yna.co.kr/view/AKR20261110104800054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T05:14:14Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261110-0753",
+      "headline": "AMD, 구글 차세대 TPU 시스템에 5세대 에픽 공급",
+      "summary": [
+        "AMD가 서버용 CPU 에픽을 구글의 차세대 AI 연산 시스템 TPU 8tx에 공급한다고 9일 현지시간에 밝혔다.",
+        "시스템은 구글 8세대 TPU 기반이며 AMD 5세대 에픽 튜린과 초고속 네트워크가 결합된다.",
+        "에픽은 AI 작업 조율과 데이터 공급, 통신을 총괄하는 호스트 CPU 역할을 맡아 AI 인프라 내 AMD 입지를 넓힌다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "에픽 튜린",
+        "TPU 8tx",
+        "호스트 CPU",
+        "AI 인프라",
+        "8세대 TPU"
+      ],
+      "companies": [
+        "AMD",
+        "구글"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "AMD",
+        "구글"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T05:13:22Z",
+      "updated_at": "2026-11-10T05:13:22Z",
+      "articles": [
+        {
+          "key": "621931c4a0d4cd62",
+          "title": "AMD, 구글 차세대 AI 연산 시스템에 5세대 에픽 공급",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65200",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-10T05:13:22Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261110-0752",
       "headline": "LG디스플레이 정철동 사장, 흑자 전환 후 거취 주목",
@@ -276,19 +714,33 @@
     },
     {
       "id": "c20261110-0749",
-      "headline": "",
-      "summary": [],
-      "category": "",
-      "tags": [],
-      "companies": [],
-      "event_type": "",
-      "confirmed": null,
-      "parties": [],
-      "importance": 0,
-      "importance_reason": "",
-      "status": "pending",
-      "needs_summary": true,
-      "attempts": 1,
+      "headline": "쎄크, 마이크론에 HBM 검사장비 공급",
+      "summary": [
+        "쎄크가 마이크론에 HBM 검사장비를 공급하는 소식이 전해졌다.",
+        "기사 본문이 제공되지 않아 공급 규모와 계약 세부 내용은 확인되지 않는다.",
+        "HBM 생산 공정에서 검사장비 수요가 이어지고 있음을 보여주는 사례다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "HBM",
+        "검사장비",
+        "공급"
+      ],
+      "companies": [
+        "쎄크",
+        "마이크론"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "쎄크",
+        "마이크론"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
       "region": "ko",
       "first_seen": "2026-11-10T04:19:26Z",
       "updated_at": "2026-11-10T04:19:26Z",
@@ -301,7 +753,9 @@
           "lang": "ko",
           "published_at": "2026-11-10T04:19:26Z"
         }
-      ]
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261110-0748",
@@ -390,85 +844,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261110-0731",
-      "headline": "삼성디스플레이, 차량 OLED 사이버보안 인증 2종 획득",
-      "summary": [
-        "삼성디스플레이가 ISO/SAE 21434 자동차 사이버 보안 엔지니어링 표준과 ENX 사이버 보안 관리체계 평가 심사를 동시에 통과했다.",
-        "차량 설계부터 폐기까지 사이버 보안 위험을 관리하는 체계를 인정받았으며, 업계에서 처음 획득한 사례다.",
-        "유럽 중심 사이버 보안 규제 강화로 차량용 디스플레이의 보안 경쟁력이 중요해질 전망이다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "차량용 OLED",
-        "사이버 보안",
-        "ISO/SAE 21434",
-        "SDV",
-        "ENX 인증"
-      ],
-      "companies": [
-        "삼성디스플레이",
-        "DQS"
-      ],
-      "event_type": "소송·특허",
-      "confirmed": true,
-      "parties": [
-        "삼성디스플레이",
-        "DQS"
-      ],
-      "importance": 5,
-      "importance_reason": "소송·특허 3점, 관심 기업(삼성디스플레이) +1, 매체 5곳 보도 +1 → 5점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-10T02:27:55Z",
-      "updated_at": "2026-11-10T03:58:03Z",
-      "articles": [
-        {
-          "key": "91bfc11d1966872d",
-          "title": "삼성디스플레이, 차량용 OLED 보안 경쟁력 입증…국제 인증 2종 동시 획득",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409506",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-10T02:27:55Z"
-        },
-        {
-          "key": "e4256d3ac41f1a62",
-          "title": "삼성디스플레이, SDV 시대 차량용 OLED 보안 신뢰성 높인다",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=343157",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-11-10T02:30:00Z"
-        },
-        {
-          "key": "4f12461e4d3bd0e0",
-          "title": "삼성디스플레이, 업계 첫 자동차 사이버보안 인증 2종 획득",
-          "url": "https://www.yna.co.kr/view/AKR20261110088000003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-10T02:44:16Z"
-        },
-        {
-          "key": "4e81706d891a187e",
-          "title": "삼성D, 차량 OLED '사이버보안 인증' 2종 획득...업계 최초",
-          "url": "https://zdnet.co.kr/view/?no=20261110122552",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-10T03:38:46Z"
-        },
-        {
-          "key": "c037b4b4ff3752bf",
-          "title": "삼성디스플레이, 차량용 OLED 사이버 보안 국제 인증 동시 획득",
-          "url": "https://www.dt.co.kr/article/12094233",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-10T03:58:03Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 5
     },
     {
       "id": "c20261110-0746",
@@ -919,52 +1294,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261110-0736",
-      "headline": "미쓰이화학, JSR 인수 추진…반도체 소재 확대",
-      "summary": [
-        "미쓰이화학이 JSR을 116억 달러에 인수하는 방안을 추진하는 것으로 보도됐다.",
-        "기사 본문이 제한적이어서 인수 조건의 세부 내용과 완료 일정은 확인되지 않는다.",
-        "반도체 소재 사업 성장을 노린 움직임으로, 국내 소재 업체들의 경쟁 환경에도 영향을 줄 수 있다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "반도체 소재",
-        "인수합병",
-        "JSR",
-        "감광재"
-      ],
-      "companies": [
-        "미쓰이화학",
-        "JSR"
-      ],
-      "event_type": "인수합병",
-      "confirmed": false,
-      "parties": [
-        "미쓰이화학",
-        "JSR"
-      ],
-      "importance": 1,
-      "importance_reason": "인수합병 2점, 미확정 -1 → 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-10T02:28:16Z",
-      "updated_at": "2026-11-10T02:28:16Z",
-      "articles": [
-        {
-          "key": "b1784d0843b2827b",
-          "title": "Mitsui Chemicals to acquire JSR for US$11.6 billion, targeting semiconductor materials growth",
-          "url": "https://www.digitimes.com/news/a20261110VL201/mitsui-chemicals-jsr-acquisition-materials-business-growth.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-10T02:28:16Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
     },
     {
       "id": "c20261110-0730",
