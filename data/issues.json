@@ -1,7 +1,836 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T07:26:58Z",
+  "updated_at": "2026-11-10T09:04:40Z",
   "issues": [
+    {
+      "id": "c20261110-0778",
+      "headline": "삼성 EUV 블랭크마스크 조달 차질 우려, 호야 공급 확대 난색",
+      "summary": [
+        "삼성전자가 내년 EUV 블랭크마스크 사용량 급증에 대비해 일본 호야에 공급 확대를 요청했다.",
+        "호야는 다른 반도체사 수요도 크게 늘고 있어 삼성의 요청을 모두 수용하기 어렵다는 입장을 전했다.",
+        "삼성의 올해 사용량은 5500장 안팎으로, 향후 3년간 매년 25%가량 증가할 것으로 내부 시뮬레이션됐다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "EUV",
+        "블랭크마스크",
+        "공급망",
+        "수급 차질"
+      ],
+      "companies": [
+        "삼성전자",
+        "호야"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "호야"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T08:47:42Z",
+      "updated_at": "2026-11-10T08:47:42Z",
+      "articles": [
+        {
+          "key": "54218978611302ea",
+          "title": "삼성 EUV 블랭크마스크 조달 비상…日호야 \"더 못 늘린다\"",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65231",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-10T08:47:42Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261110-0753",
+      "headline": "AMD, 구글 AI 인프라에 서버용 CPU 공급 확대",
+      "summary": [
+        "AMD가 구글의 AI 반도체 시스템에 서버용 중앙처리장치(CPU)를 공급하기로 했다.",
+        "구글이 자체 개발한 TPU의 작동을 지원하며, 5세대 에픽 제품이 차세대 AI 연산 시스템에 공급된다.",
+        "AI 학습·추론 중 기업 데이터의 외부 노출을 막는 방향으로, AI 서버용 CPU 수요 확대 신호로 읽힌다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "서버용 CPU",
+        "TPU",
+        "5세대 에픽",
+        "AI 인프라"
+      ],
+      "companies": [
+        "AMD",
+        "구글"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "AMD",
+        "구글"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T05:13:22Z",
+      "updated_at": "2026-11-10T08:27:20Z",
+      "articles": [
+        {
+          "key": "621931c4a0d4cd62",
+          "title": "AMD, 구글 차세대 AI 연산 시스템에 5세대 에픽 공급",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65200",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-10T05:13:22Z"
+        },
+        {
+          "key": "109e5dd0756996d2",
+          "title": "AMD, 구글 AI 반도체에 서버용 CPU 공급…AI 인프라 협력 확대",
+          "url": "https://www.inews24.com/view/2024728",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-10T08:27:20Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261110-0743",
+      "headline": "올해 스마트폰 OLED 출하 감소, 폴더블은 성장",
+      "summary": [
+        "카운터포인트리서치는 올해 글로벌 스마트폰 OLED 패널 출하량이 약 7% 줄어든다고 전망했다.",
+        "출하량은 지난해 8억9400만장에서 8억2900만장으로 감소하고, 폴더블 OLED는 23% 늘어날 것으로 예상됐다.",
+        "메모리 공급 제약과 생산비 상승이 제조사 생산 계획을 압박해 패널 수요 위축이 디스플레이 업계에 부담이 된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "스마트폰 OLED",
+        "폴더블 OLED",
+        "출하량 전망",
+        "메모리 공급 제약"
+      ],
+      "companies": [
+        "카운터포인트리서치"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-10T03:40:11Z",
+      "updated_at": "2026-11-10T08:27:13Z",
+      "articles": [
+        {
+          "key": "5fcab9acf59d007a",
+          "title": "OLED smartphone panel market faces pressure in 2026, Counterpoint says",
+          "url": "https://www.digitimes.com/news/a20261110PR201/smartphone-oled-panel-display-2026.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T03:40:11Z"
+        },
+        {
+          "key": "254f84188413f0ff",
+          "title": "올해 스마트폰 OLED 출하량 역성장…폴더블은 23% 증가",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65213",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-10T08:27:13Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0777",
+      "headline": "삼성전자 초기업노조, 메가프로젝트 근무지 이동 노사합의 요구",
+      "summary": [
+        "삼성전자 초기업노조가 메가프로젝트에 따른 근무지 이동 시 노사 합의가 필요하다고 주장했다.",
+        "노조는 내년 단독 교섭을 추진 중이며, 기사에 제시된 구체적 수치나 일정은 확인되지 않았다.",
+        "근무지 이동 기준을 둘러싼 노사 갈등이 반도체 대형 프로젝트 인력 운용에 영향을 줄 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "메가프로젝트",
+        "초기업노조",
+        "근무지 이동",
+        "단독 교섭",
+        "노사 합의"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "초기업노조"
+      ],
+      "importance": 2,
+      "importance_reason": "재무·주주 2점, 관심 기업(삼성전자) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T08:22:58Z",
+      "updated_at": "2026-11-10T08:22:58Z",
+      "articles": [
+        {
+          "key": "9408c9493a535bae",
+          "title": "삼전 초기업노조 \"메가프로젝트로 근무지 이동시 노사합의해야\"",
+          "url": "https://www.yna.co.kr/view/AKR20261110158100003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T08:22:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0776",
+      "headline": "퀄리타스반도체, 모빌린트 AI SoC에 초고속 IP 통합 공급",
+      "summary": [
+        "퀄리타스반도체가 모빌린트 차세대 NPU 기반 AI SoC에 UCIe, PCIe, MIPI 등 인터페이스 IP를 통합 공급하기로 확정했다.",
+        "칩렛 구조의 이기종 UCIe 연결 기술과 PCIe·MIPI 서브시스템을 PHY와 컨트롤러 형태로 일괄 제공하며 설계 복잡성을 낮춘다.",
+        "국내 IP 기업이 칩 내외부 인터커넥트 전체를 단일 솔루션으로 공급한 사례로, 피지컬 AI 칩 시장에서 의미가 크다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "NPU",
+        "칩렛",
+        "UCIe",
+        "PCIe",
+        "MIPI",
+        "피지컬 AI"
+      ],
+      "companies": [
+        "퀄리타스반도체",
+        "모빌린트"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "퀄리타스반도체",
+        "모빌린트"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T08:19:12Z",
+      "updated_at": "2026-11-10T08:19:12Z",
+      "articles": [
+        {
+          "key": "efc2672c8534dbd9",
+          "title": "퀄리타스반도체, 모빌린트에 초고속 IP 통합 솔루션 공급…NPU 기반 AI SoC 협력",
+          "url": "https://zdnet.co.kr/view/?no=20261110170018",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-10T08:19:12Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261110-0775",
+      "headline": "FOPLP 양산 전환, 리소그래피 학습 주기 단축이 관건",
+      "summary": [
+        "FOPLP는 웨이퍼 대비 기판 활용률과 패키지 생산 수를 높여 첨단 패키징 확대의 대안으로 주목받고 있다.",
+        "기사 비교에서 300mm 웨이퍼는 약 55% 활용률에 6개, 300mm 패널은 86%에 12개, 510×515mm 패널은 74%에 30개를 생산한다.",
+        "패널이 커지면서 패턴 왜곡과 다이 쉬프트에 따른 오버레이 오류가 커져, 공정 안정화 속도가 양산 전환의 핵심 과제가 된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "FOPLP",
+        "리소그래피",
+        "패널레벨패키징",
+        "오버레이",
+        "HBM"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T08:08:35Z",
+      "updated_at": "2026-11-10T08:08:35Z",
+      "articles": [
+        {
+          "key": "9246d379353e4a55",
+          "title": "Reducing Lithography Learning Cycles To Accelerate FOPLP Ramps",
+          "url": "https://semiengineering.com/reducing-lithography-learning-cycles-to-accelerate-foplp-ramps/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-10T08:08:35Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261110-0774",
+      "headline": "자율주행 표시등으로 떠오른 시안 OLED 조명 평가",
+      "summary": [
+        "UDC와 OLEDWorks가 자율주행 시스템 신호용 시안 OLED 조명 평가에 협력하기로 했고 아우디도 참여한다.",
+        "UDC의 인광 블루 OLED 소재와 OLEDWorks의 패널 개발·생산 역량을 결합하며, SAE J3134는 청록색 ADS 표시등을 규정한다.",
+        "미국 NHTSA가 시안 ADS 표시등 사용을 허용하는 방안을 제안해 관련 OLED 조명 수요 확대가 기대된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "시안 OLED",
+        "자율주행 표시등",
+        "인광 블루 OLED",
+        "ADS 마커 램프",
+        "SAE J3134"
+      ],
+      "companies": [
+        "유니버셜디스플레이",
+        "OLEDWorks",
+        "아우디",
+        "메르세데스-벤츠"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "UDC",
+        "OLEDWorks",
+        "아우디"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T08:07:48Z",
+      "updated_at": "2026-11-10T08:07:48Z",
+      "articles": [
+        {
+          "key": "f1fb34dd7d593e57",
+          "title": "Cyan is emerging as a signal for autonomous driving: UDC, OLEDWorks and Audi to evaluate light-blue OLED lighting",
+          "url": "https://www.oled-info.com/universal-display-and-oledworks-evaluate-cyan-oled-lighting-automated-driving",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-10T08:07:48Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261110-0773",
+      "headline": "AI 칩 확산에 테스트 체계가 따라가지 못해",
+      "summary": [
+        "AI 워크로드 변화가 칩 설계·제조·테스트 속도보다 빨라 칩 업체들이 테스트 전략을 재고하고 있다.",
+        "멀티다이 패키징과 테스트 단계 증가로 방대한 데이터가 쏟아지지만 기업과 공장 간에 분리돼 있다.",
+        "고가 AI 하드웨어의 수명 연장 요구에 따라 노화와 신뢰성을 모니터링하는 방법 개선이 필요해졌다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI칩 테스트",
+        "멀티다이",
+        "신뢰성 모니터링",
+        "테스트 삽입",
+        "패키징"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T08:07:24Z",
+      "updated_at": "2026-11-10T08:07:24Z",
+      "articles": [
+        {
+          "key": "738c41b56552e08a",
+          "title": "Test Struggles To Keep Pace With AI",
+          "url": "https://semiengineering.com/test-struggles-to-keep-pace-with-ai/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-10T08:07:24Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261110-0772",
+      "headline": "통과한 칩 중 추가 검사가 필요한 칩 식별 방법",
+      "summary": [
+        "테스트를 통과한 칩도 미세한 신뢰성 위험을 숨길 수 있다는 점이 다뤄졌다.",
+        "기사는 장치 모델, 교차 삽입 데이터, 물리 검사로 의심 칩을 골라낼 수 있다고 설명한다.",
+        "다만 이상 신호가 곧 결함을 뜻하지는 않아, 추가 검사는 비용 대비 효과가 있을 때만 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "추가 검사",
+        "신뢰성",
+        "파라메트릭 측정",
+        "웨이퍼 테스트",
+        "최종 테스트"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T08:05:20Z",
+      "updated_at": "2026-11-10T08:05:20Z",
+      "articles": [
+        {
+          "key": "0708ca5337f23b99",
+          "title": "Which Passing Chips Need More Testing?",
+          "url": "https://semiengineering.com/which-passing-chips-need-more-testing/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-10T08:05:20Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261110-0771",
+      "headline": "AI 전환기 반도체 산업의 효율성 과제와 PDF Solutions 플랫폼",
+      "summary": [
+        "PDF Solutions 존 키바리안 CEO가 2026년 10월 CONNECT 행사에서 AI 중심 전략을 발표했다.",
+        "AI 중심 플랫폼은 신기술 수율 확보, 제조 데이터 IT 적용, 공급망 제조 연결 세 영역으로 구성된다.",
+        "AI는 반도체 설계·제조 방식까지 바꾸고 있어 장비 확보 같은 효율성 경쟁이 중요해졌다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 효율성",
+        "수율 확보",
+        "제조 데이터",
+        "공급망 연결",
+        "secureWISE"
+      ],
+      "companies": [
+        "PDF Solutions"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "PDF Solutions"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T08:03:58Z",
+      "updated_at": "2026-11-10T08:03:58Z",
+      "articles": [
+        {
+          "key": "38afad39eeb646bd",
+          "title": "AI’s Efficiency Challenge For The Semiconductor Industry",
+          "url": "https://semiengineering.com/ais-efficiency-challenge-for-the-semiconductor-industry/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-10T08:03:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261110-0770",
+      "headline": "리튬포어스, 엘엠케이 지분 99.9% 확보 완료",
+      "summary": [
+        "리튬포어스가 자회사 엘엠케이 창업주 지분 3071주를 양수하고 유상증자 대금 납입을 마쳐 지분 99.9%를 확보했다.",
+        "총 13억 2052만원 규모 거래이며 구주 매매대금을 제3자배정 유상증자 대금으로 재납입하는 방식으로 현금 유출 없이 진행됐다.",
+        "완전 자회사화로 친환경 반도체 신사업 추진력을 높이고, 이후 합병 등 사업 구조개편도 예정돼 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "플라즈마 리액터",
+        "PFAS-Free 세정",
+        "카본 박막",
+        "지분 인수",
+        "친환경 반도체"
+      ],
+      "companies": [
+        "리튬포어스",
+        "엘엠케이"
+      ],
+      "event_type": "인수합병",
+      "confirmed": true,
+      "parties": [
+        "리튬포어스",
+        "엘엠케이"
+      ],
+      "importance": 2,
+      "importance_reason": "인수합병 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T08:02:52Z",
+      "updated_at": "2026-11-10T08:02:52Z",
+      "articles": [
+        {
+          "key": "c444e46cf5c49df3",
+          "title": "리튬포어스, 엘엠케이 주식 양수도·유상증자 완료...친환경 반도체 신사업 박차",
+          "url": "https://zdnet.co.kr/view/?no=20261110165239",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-10T08:02:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0769",
+      "headline": "PCIe로 스캔 테스트 패턴 전송하는 신규 테스트 방식",
+      "summary": [
+        "시멘스 Tessent와 Teradyne이 PCIe 등 기능 인터페이스로 테스트 패턴을 전달하는 방식을 결합했다.",
+        "칩 내 컨트롤러가 AXI 버스로 패턴을 받고, UltraFLEXplus의 UltraPort와 IG-XL로 테스트를 수행한다.",
+        "칩렛 등 복잡한 패키지의 테스트 시간과 비용을 줄이는 방안으로 업계 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "스캔 테스트",
+        "PCIe",
+        "In-System Test",
+        "칩렛",
+        "AXI 버스"
+      ],
+      "companies": [
+        "시멘스",
+        "Teradyne"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "지멘스",
+        "테라다인"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T08:01:27Z",
+      "updated_at": "2026-11-10T08:01:27Z",
+      "articles": [
+        {
+          "key": "bc0c7462670d2771",
+          "title": "Streaming Scan Network Test Over PCIe",
+          "url": "https://semiengineering.com/streaming-scan-network-test-over-pcie/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-10T08:01:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0768",
+      "headline": "하이브리드 본딩 미세화, 검사 기술 한계 부각",
+      "summary": [
+        "하이브리드 본딩 상호접속 피치가 5µm 이하로 좁아지며 나노미터 단위 입자와 표면 오염이 접합 불량을 일으키고 있다.",
+        "CMP로 구리 리세스를 수 나노미터 수준으로 제어해야 하며, 광학·간섭계·AFM 등으로 토폴로지를 측정한다.",
+        "접합 후 매립 결함 탐지는 여전히 어려워, 적외선·X선·음향 영상 기법의 분해능과 처리량 한계가 과제로 남는다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "하이브리드 본딩",
+        "첨단 패키징",
+        "CMP",
+        "결함 검사",
+        "HBM"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T08:01:24Z",
+      "updated_at": "2026-11-10T08:01:24Z",
+      "articles": [
+        {
+          "key": "42372e5390007006",
+          "title": "Shrinking Hybrid Bonding Pitches Push Inspection Limits",
+          "url": "https://semiengineering.com/shrinking-hybrid-bonding-pitches-push-inspection-limits/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-10T08:01:24Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261110-0767",
+      "headline": "AI 시대 실리콘 포토닉스 공정 제어 과제",
+      "summary": [
+        "AI 확산으로 전기 배선의 한계가 드러나며 실리콘 포토닉스와 CPO가 대안으로 거론된다.",
+        "양산 규모에서는 광학 구조·소재·집적 공정 전반의 정밀한 공정 제어가 수율과 성능을 좌우한다.",
+        "광학 성능은 작은 공정 편차에도 민감해 광 결합 구조 등 핵심 공정의 관리 중요성이 커진다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "실리콘 포토닉스",
+        "CPO",
+        "공정 제어",
+        "광 인터커넥트",
+        "수율"
+      ],
+      "companies": [
+        "Onto Innovation"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T08:01:10Z",
+      "updated_at": "2026-11-10T08:01:10Z",
+      "articles": [
+        {
+          "key": "a523bcc826cedd76",
+          "title": "Overcoming Silicon Photonics Process Control Challenges in the AI Era",
+          "url": "https://semiengineering.com/overcoming-silicon-photonics-process-control-challenges-in-the-ai-era/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-10T08:01:10Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261110-0766",
+      "headline": "전자부품 공급망 불안 속 희소 칩 확보 전략",
+      "summary": [
+        "글로벌 전자부품 공급망이 2026년에도 불안정한 흐름을 이어가고 있다는 내용의 기사다.",
+        "유럽과 미국 바이어·엔지니어들이 부품을 구하는 어려움이 주로 다뤄졌으나 기사 본문이 짧게 잘려 구체적 수치와 사례는 확인되지 않는다.",
+        "다만 공급 차질이 지속되면 부품 조달 전략의 중요성이 커진다는 점에서 업계에 시사점이 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "전자부품",
+        "공급망",
+        "반도체 부품 조달",
+        "부품 부족"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T07:48:14Z",
+      "updated_at": "2026-11-10T07:48:14Z",
+      "articles": [
+        {
+          "key": "f1f04877ef7e9428",
+          "title": "We Source Chips Others Cannot Secure, 2026",
+          "url": "https://www.eetimes.com/we-source-chips-others-cannot-secure-2026/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-10T07:48:14Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261110-0765",
+      "headline": "젠슨 황 CEO 스캔들에 엔비디아 주가 하락, 관련 ETF 영향 우려",
+      "summary": [
+        "엔비디아 젠슨 황 CEO의 불륜 스캔들이 알려진 9일 엔비디아 주가가 나홀로 하락했다.",
+        "기사 원문 일부만 확인되어 하락 폭과 구체적 수치는 파악되지 않았다.",
+        "국내 상장 엔비디아 관련 ETF도 영향을 받을 수 있다는 우려가 제기되었다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "엔비디아",
+        "스캔들",
+        "주가 하락",
+        "관련 ETF"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": true,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T07:47:35Z",
+      "updated_at": "2026-11-10T07:47:35Z",
+      "articles": [
+        {
+          "key": "4f948908f2b26c79",
+          "title": "'젠슨황 스캔들'에 엔비디아 나홀로↓…국내 관련 ETF도 영향권?(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261110079851008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T07:47:35Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261110-0762",
+      "headline": "TSMC 10월 매출 역대 최대, 전년比 59.7% 급증",
+      "summary": [
+        "TSMC가 2026년 10월 연결 매출 5868억9000만 대만달러를 기록해 역대 최대 월간 매출을 올렸다.",
+        "전년 대비 59.7% 증가했으며 약 23조8500억원 규모로 대만 야후파이낸스가 보도했다.",
+        "AI 반도체 수요 확대가 파운드리 실적을 끌어올렸다는 점에서 업계 수요 강세를 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "월간 매출",
+        "AI 반도체 수요",
+        "파운드리",
+        "역대 최대"
+      ],
+      "companies": [
+        "TSMC"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "TSMC"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-10T06:27:36Z",
+      "updated_at": "2026-11-10T07:42:40Z",
+      "articles": [
+        {
+          "key": "ae04bc027a4a6915",
+          "title": "TSMC October 2026 revenue surges 59.7% on strong AI chip demand",
+          "url": "https://www.digitimes.com/news/a20261110VL212/tsmc-revenue-demand-2026-growth.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T06:27:36Z"
+        },
+        {
+          "key": "a0a4aa509ef85d8d",
+          "title": "TSMC, 10월 매출 5869억 대만달러 '역대 최대'⋯전년比 59.7% 급증",
+          "url": "https://www.inews24.com/view/2024667",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-10T07:42:40Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261109-0689",
+      "headline": "중국 HKC 6세대 OLED 라인 투자 지연, 장비 발주 전무",
+      "summary": [
+        "중국 HKC가 쓰촨성 몐양에 짓는 6세대 OLED 라인(H7) 계획이 일정보다 늦어지고 있다.",
+        "당초 2027년 3월 증착장비 설치, 2028년 6월 양산 시작을 목표했으나 주요 장비는 아직 발주되지 않았다.",
+        "OLED 시장 침체와 핵심 기술 확보 어려움이 원인으로 거론되며 프로젝트 전면 취소 가능성도 제기된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "6세대 OLED",
+        "H7 라인",
+        "HKC",
+        "장비 발주",
+        "투자 지연"
+      ],
+      "companies": [
+        "HKC",
+        "한국 장비업체"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "HKC"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-09T09:08:04Z",
+      "updated_at": "2026-11-10T07:34:26Z",
+      "articles": [
+        {
+          "key": "0f0b6119effd673f",
+          "title": "中 HKC, 6세대 OLED 투자 지연",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65079",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-09T09:08:04Z"
+        },
+        {
+          "key": "67b31e7fff4f0b3e",
+          "title": "HKC's 6-Gen OLED fab in Mianyang falls behind schedule, no major equipment has been ordered yet",
+          "url": "https://www.oled-info.com/hkcs-6-gen-oled-fab-mianyang-falls-behind-schedule-no-major-equipment-has-been",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-10T07:34:26Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261110-0757",
       "headline": "삼성디스플레이, 스마트폰 OLED 1위 유지 전망",
@@ -157,6 +986,35 @@
       "importance_raw": 3
     },
     {
+      "id": "c20261110-0764",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 1,
+      "region": "ko",
+      "first_seen": "2026-11-10T07:05:46Z",
+      "updated_at": "2026-11-10T07:05:46Z",
+      "articles": [
+        {
+          "key": "92e93bd3343d18e0",
+          "title": "국산 AI 반도체·클라우드 융합에 산학연 머리 맞댔다",
+          "url": "https://zdnet.co.kr/view/?no=20261110151400",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-10T07:05:46Z"
+        }
+      ]
+    },
+    {
       "id": "c20261110-0763",
       "headline": "엔비디아 법무 책임자, 메가스피드 조사 개입 의혹",
       "summary": [
@@ -201,50 +1059,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261110-0762",
-      "headline": "TSMC 10월 매출 59.7% 급증, AI칩 수요 견인",
-      "summary": [
-        "TSMC가 2026년 10월 매출이 전년 대비 59.7% 급증했다고 기사에서 전했다.",
-        "기사 본문은 사실상 비어 있어 세부 매출 규모와 분기 누계 수치는 확인되지 않는다.",
-        "AI 칩 수요가 강하다는 점이 확인되며, 파운드리 업황 호조 신호로 해석할 수 있다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "TSMC",
-        "월간 매출",
-        "AI칩 수요",
-        "파운드리"
-      ],
-      "companies": [
-        "TSMC"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "TSMC"
-      ],
-      "importance": 3,
-      "importance_reason": "실적 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-10T06:27:36Z",
-      "updated_at": "2026-11-10T06:27:36Z",
-      "articles": [
-        {
-          "key": "ae04bc027a4a6915",
-          "title": "TSMC October 2026 revenue surges 59.7% on strong AI chip demand",
-          "url": "https://www.digitimes.com/news/a20261110VL212/tsmc-revenue-demand-2026-growth.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-10T06:27:36Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261110-0761",
@@ -654,53 +1468,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261110-0753",
-      "headline": "AMD, 구글 차세대 TPU 시스템에 5세대 에픽 공급",
-      "summary": [
-        "AMD가 서버용 CPU 에픽을 구글의 차세대 AI 연산 시스템 TPU 8tx에 공급한다고 9일 현지시간에 밝혔다.",
-        "시스템은 구글 8세대 TPU 기반이며 AMD 5세대 에픽 튜린과 초고속 네트워크가 결합된다.",
-        "에픽은 AI 작업 조율과 데이터 공급, 통신을 총괄하는 호스트 CPU 역할을 맡아 AI 인프라 내 AMD 입지를 넓힌다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "에픽 튜린",
-        "TPU 8tx",
-        "호스트 CPU",
-        "AI 인프라",
-        "8세대 TPU"
-      ],
-      "companies": [
-        "AMD",
-        "구글"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "AMD",
-        "구글"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-10T05:13:22Z",
-      "updated_at": "2026-11-10T05:13:22Z",
-      "articles": [
-        {
-          "key": "621931c4a0d4cd62",
-          "title": "AMD, 구글 차세대 AI 연산 시스템에 5세대 에픽 공급",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65200",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-10T05:13:22Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261110-0752",
@@ -1231,48 +1998,6 @@
           "source": "DigiTimes Asia",
           "lang": "en",
           "published_at": "2026-11-10T03:41:37Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261110-0743",
-      "headline": "2026년 스마트폰 OLED 패널 시장 압박 전망",
-      "summary": [
-        "카운터포인트가 2026년 스마트폰 OLED 패널 시장에 압박이 있을 것이라고 전망했다.",
-        "기사 본문이 제공되지 않아 구체적인 수치와 일정은 확인할 수 없다.",
-        "디스플레이 업계의 수요와 가격 흐름에 영향을 줄 수 있는 시장 전망으로 볼 수 있다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "OLED",
-        "스마트폰 패널",
-        "시장 전망",
-        "카운터포인트"
-      ],
-      "companies": [
-        "카운터포인트"
-      ],
-      "event_type": "시장 전망·통계",
-      "confirmed": true,
-      "parties": [],
-      "importance": 2,
-      "importance_reason": "시장 전망·통계 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-10T03:40:11Z",
-      "updated_at": "2026-11-10T03:40:11Z",
-      "articles": [
-        {
-          "key": "5fcab9acf59d007a",
-          "title": "OLED smartphone panel market faces pressure in 2026, Counterpoint says",
-          "url": "https://www.digitimes.com/news/a20261110PR201/smartphone-oled-panel-display-2026.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-10T03:40:11Z"
         }
       ],
       "type_checked": true,
@@ -3982,52 +4707,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261109-0689",
-      "headline": "中 HKC 6세대 OLED 투자 지연, 취소 가능성 거론",
-      "summary": [
-        "HKC의 몐양 6세대 OLED 라인(H7) 장비 발주가 당초 계획보다 지연되고 있다.",
-        "당초 2027년 3월 증착장비 반입과 2028년 6월 양산을 목표했으나 주요 장비 발주가 아직 이뤄지지 않았다.",
-        "OLED 시장 침체와 기술 확보 문제가 겹쳐 중국 OLED 투자 속도에 영향을 줄 수 있다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "6세대 OLED",
-        "HKC",
-        "H7 라인",
-        "장비 발주",
-        "투자 지연"
-      ],
-      "companies": [
-        "HKC",
-        "국내 장비업체"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": false,
-      "parties": [
-        "HKC"
-      ],
-      "importance": 2,
-      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-09T09:08:04Z",
-      "updated_at": "2026-11-09T09:08:04Z",
-      "articles": [
-        {
-          "key": "0f0b6119effd673f",
-          "title": "中 HKC, 6세대 OLED 투자 지연",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65079",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-09T09:08:04Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261109-0688",
