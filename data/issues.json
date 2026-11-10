@@ -1,7 +1,67 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T17:56:59Z",
+  "updated_at": "2026-11-10T19:10:47Z",
   "issues": [
+    {
+      "id": "c20261110-0743",
+      "headline": "2026년 스마트폰 OLED 출하 감소, 폴더블만 성장",
+      "summary": [
+        "카운터포인트리서치는 2026년 스마트폰 OLED 패널 출하량이 2025년 8억9400만 개에서 8억2900만 개로 약 3% 줄어든다고 전망했다.",
+        "리지드 OLED는 24%, 플렉시블 OLED는 3% 감소하지만 폴더블·롤러블은 23% 이상 성장할 것으로 예상됐다.",
+        "메모리 공급 부족과 생산비 상승이 수요를 누르며, 프리미엄 폴더블 중심으로 제품 구조가 재편되는 흐름이 뚜렷해지고 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "스마트폰 OLED",
+        "폴더블",
+        "리지드 OLED",
+        "플렉시블 OLED",
+        "메모리 공급 부족"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "BOE"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 3,
+      "importance_reason": "시장 전망·통계 2점, 매체 3곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-10T03:40:11Z",
+      "updated_at": "2026-11-10T19:00:05Z",
+      "articles": [
+        {
+          "key": "5fcab9acf59d007a",
+          "title": "OLED smartphone panel market faces pressure in 2026, Counterpoint says",
+          "url": "https://www.digitimes.com/news/a20261110PR201/smartphone-oled-panel-display-2026.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T03:40:11Z"
+        },
+        {
+          "key": "254f84188413f0ff",
+          "title": "올해 스마트폰 OLED 출하량 역성장…폴더블은 23% 증가",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65213",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-10T08:27:13Z"
+        },
+        {
+          "key": "d237d0ac5e4ba898",
+          "title": "Counterpoint: smartphone OLED panel shipments to decline 3% in 2026, while foldable OLED shipments to grow 23%",
+          "url": "https://www.oled-info.com/counterpoint-smartphone-oled-panel-shipments-decline-3-2026-while-foldable-oled",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-10T19:00:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261110-0784",
       "headline": "머스크 테라팹, 2032년 이후 월 100만 장 생산 목표",
@@ -494,56 +554,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261110-0743",
-      "headline": "올해 스마트폰 OLED 출하 감소, 폴더블은 성장",
-      "summary": [
-        "카운터포인트리서치는 올해 글로벌 스마트폰 OLED 패널 출하량이 약 7% 줄어든다고 전망했다.",
-        "출하량은 지난해 8억9400만장에서 8억2900만장으로 감소하고, 폴더블 OLED는 23% 늘어날 것으로 예상됐다.",
-        "메모리 공급 제약과 생산비 상승이 제조사 생산 계획을 압박해 패널 수요 위축이 디스플레이 업계에 부담이 된다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "스마트폰 OLED",
-        "폴더블 OLED",
-        "출하량 전망",
-        "메모리 공급 제약"
-      ],
-      "companies": [
-        "카운터포인트리서치"
-      ],
-      "event_type": "시장 전망·통계",
-      "confirmed": true,
-      "parties": [],
-      "importance": 2,
-      "importance_reason": "시장 전망·통계 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-10T03:40:11Z",
-      "updated_at": "2026-11-10T08:27:13Z",
-      "articles": [
-        {
-          "key": "5fcab9acf59d007a",
-          "title": "OLED smartphone panel market faces pressure in 2026, Counterpoint says",
-          "url": "https://www.digitimes.com/news/a20261110PR201/smartphone-oled-panel-display-2026.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-10T03:40:11Z"
-        },
-        {
-          "key": "254f84188413f0ff",
-          "title": "올해 스마트폰 OLED 출하량 역성장…폴더블은 23% 증가",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65213",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-10T08:27:13Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261110-0777",
