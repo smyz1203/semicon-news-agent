@@ -1,7 +1,91 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T10:06:45Z",
+  "updated_at": "2026-11-10T11:02:25Z",
   "issues": [
+    {
+      "id": "c20261110-0782",
+      "headline": "화순군, 반도체 소부장 기업 유치 전담조직 신설",
+      "summary": [
+        "전남 화순군이 서남권 반도체 클러스터 조성에 맞춰 반도체 소부장 기업 유치를 위한 전담 조직을 꾸렸다.",
+        "기사 본문이 일부만 제공되어 조직의 규모와 구체적 유치 목표 등 세부 내용은 확인되지 않는다.",
+        "지역 차원에서 반도체 소부장 생태계를 키우려는 움직임으로, 서남권 산업 기반 확충에 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "반도체 소부장",
+        "서남권 반도체 클러스터",
+        "기업 유치",
+        "지역 산업단지"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T10:21:16Z",
+      "updated_at": "2026-11-10T10:21:16Z",
+      "articles": [
+        {
+          "key": "c4b71d3dcf8eba5a",
+          "title": "화순군, 반도체 소부장 기업 유치 본격화…전담조직 신설",
+          "url": "https://www.yna.co.kr/view/AKR20261110171900054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T10:21:16Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0781",
+      "headline": "엔비디아 젠슨 황, FBI 조사·주주 집단소송에 직면",
+      "summary": [
+        "젠슨 황 엔비디아 CEO가 FBI 조사에 이어 주주 집단소송을 당해 위기에 놓였다.",
+        "일부에서는 황 CEO의 직무정지를 요구하는 목소리가 나온 것으로 전해졌다.",
+        "경영 리더십 불확실성이 커지면서 투자자 신뢰와 회사 운영에 영향이 우려된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "FBI 조사",
+        "집단소송",
+        "경영 리더십",
+        "엔비디아"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T10:16:56Z",
+      "updated_at": "2026-11-10T10:16:56Z",
+      "articles": [
+        {
+          "key": "1104a12f321a88b7",
+          "title": "FBI 조사에 집단 소송까지… 탈출구 틀어막히는 젠슨 황",
+          "url": "https://www.dt.co.kr/article/12094379",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-10T10:16:56Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261110-0780",
       "headline": "LG화학, 여수공장 반도체 소재 생산기지 전환 검토",
