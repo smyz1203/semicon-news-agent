@@ -1,7 +1,47 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T19:10:47Z",
+  "updated_at": "2026-11-10T20:03:50Z",
   "issues": [
+    {
+      "id": "c20261110-0785",
+      "headline": "사스카처원 반도체 산업, 지역 거점 연결 확대",
+      "summary": [
+        "캐나다 사스카처원주의 반도체 산업 거점들이 서로 연결되는 흐름이 소개됐다.",
+        "기사 본문이 짧게 잘려 있어 구체적인 기업, 수치, 일정은 확인되지 않는다.",
+        "지역 간 전문성 연계가 캐나다 반도체 생태계의 특징으로 제시됐다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "캐나다 반도체",
+        "사스카처원",
+        "지역 클러스터",
+        "반도체 생태계"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T20:00:00Z",
+      "updated_at": "2026-11-10T20:00:00Z",
+      "articles": [
+        {
+          "key": "2e5d3bd7baa39b49",
+          "title": "Saskatchewan’s Semiconductor Strength Is Connecting the Pieces",
+          "url": "https://www.eetimes.com/saskatchewans-semiconductor-strength-is-connecting-the-pieces/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-10T20:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261110-0743",
       "headline": "2026년 스마트폰 OLED 출하 감소, 폴더블만 성장",
