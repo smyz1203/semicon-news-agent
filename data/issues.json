@@ -1,33 +1,373 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T06:05:17Z",
+  "updated_at": "2026-11-10T07:26:58Z",
   "issues": [
     {
-      "id": "c20261110-0758",
-      "headline": "LG디스플레이 OLED TV 베젤 축소 특허, 특허기술상 대상",
+      "id": "c20261110-0757",
+      "headline": "삼성디스플레이, 스마트폰 OLED 1위 유지 전망",
       "summary": [
-        "LG디스플레이가 OLED TV 베젤 폭을 약 34% 줄인 구동회로 특허로 2026 특허기술상 대상을 받았다.",
-        "이 기술은 2022년부터 OLED TV 패널 전 제품에 적용돼 누적 3850억원의 원가 개선 효과를 냈다.",
-        "초슬림 베젤 기술이 TV 패널의 원가 경쟁력과 특허 가치를 함께 입증한 사례로 볼 수 있다."
+        "카운터포인트리서치는 올해 글로벌 스마트폰 OLED 패널 시장이 역성장할 것으로 내다봤다.",
+        "삼성디스플레이는 저전력·고성능 기술을 앞세워 프리미엄 패널 시장에서 1위를 지키고 있다.",
+        "폴더블 패널이 빠르게 성장하며 삼성디스플레이의 수익 기반을 넓히는 요인이 될 전망이다."
       ],
       "category": "디스플레이",
       "tags": [
-        "OLED TV",
-        "베젤 축소",
-        "게이트 구동회로",
-        "특허기술상",
-        "원가 개선"
+        "스마트폰 OLED",
+        "폴더블 패널",
+        "저전력 기술",
+        "프리미엄 패널",
+        "시장 점유율"
       ],
       "companies": [
-        "LG디스플레이"
+        "삼성디스플레이"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "삼성디스플레이"
+      ],
+      "importance": 3,
+      "importance_reason": "시장 전망·통계 2점, 관심 기업(삼성디스플레이) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T05:58:59Z",
+      "updated_at": "2026-11-10T07:26:16Z",
+      "articles": [
+        {
+          "key": "ddd645cff96ccc30",
+          "title": "삼성D, 올해 스마트폰 올레드 1위 유지…폴더블 급성장 전망",
+          "url": "https://www.yna.co.kr/view/AKR20261110119200003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T05:58:59Z"
+        },
+        {
+          "key": "8b630a5c7ace1069",
+          "title": "“삼성D, OLED 시장 1위 수성…폴더블 패널 성장 가속”",
+          "url": "https://www.dt.co.kr/article/12094304",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-10T07:26:16Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261110-0731",
+      "headline": "삼성디스플레이, 차량용 OLED 사이버 보안 인증 2종 획득",
+      "summary": [
+        "삼성디스플레이가 ISO/SAE 21434와 ENX VCS 두 가지 차량 사이버 보안 인증을 받았다고 발표했다.",
+        "업계 최초로 두 인증을 동시에 취득했으며, 차량 설계부터 폐기까지 보안 위험 관리 체계를 인정받았다.",
+        "SDV 확산과 유럽 중심 사이버 보안 규제 강화에 따라 차량용 OLED 사업 경쟁력이 강화될 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "차량용 OLED",
+        "사이버 보안",
+        "ISO/SAE 21434",
+        "ENX VCS",
+        "SDV"
+      ],
+      "companies": [
+        "삼성디스플레이"
       ],
       "event_type": "홍보·수상",
       "confirmed": true,
       "parties": [
-        "LG디스플레이"
+        "삼성디스플레이"
       ],
       "importance": 3,
-      "importance_reason": "홍보·수상 1점, 관심 기업(LG디스플레이) +1, 매체 4곳 보도 +1 → 3점",
+      "importance_reason": "홍보·수상 1점, 관심 기업(삼성디스플레이) +1, 매체 8곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-10T02:27:55Z",
+      "updated_at": "2026-11-10T07:18:10Z",
+      "articles": [
+        {
+          "key": "91bfc11d1966872d",
+          "title": "삼성디스플레이, 차량용 OLED 보안 경쟁력 입증…국제 인증 2종 동시 획득",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409506",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T02:27:55Z"
+        },
+        {
+          "key": "e4256d3ac41f1a62",
+          "title": "삼성디스플레이, SDV 시대 차량용 OLED 보안 신뢰성 높인다",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343157",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-10T02:30:00Z"
+        },
+        {
+          "key": "4f12461e4d3bd0e0",
+          "title": "삼성디스플레이, 업계 첫 자동차 사이버보안 인증 2종 획득",
+          "url": "https://www.yna.co.kr/view/AKR20261110088000003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T02:44:16Z"
+        },
+        {
+          "key": "4e81706d891a187e",
+          "title": "삼성D, 차량 OLED '사이버보안 인증' 2종 획득...업계 최초",
+          "url": "https://zdnet.co.kr/view/?no=20261110122552",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-10T03:38:46Z"
+        },
+        {
+          "key": "c037b4b4ff3752bf",
+          "title": "삼성디스플레이, 차량용 OLED 사이버 보안 국제 인증 동시 획득",
+          "url": "https://www.dt.co.kr/article/12094233",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-10T03:58:03Z"
+        },
+        {
+          "key": "8ea4454d4cef588f",
+          "title": "삼성D, 차량용 OLED 사이버 보안 인증 2종 획득",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65207",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-10T05:13:32Z"
+        },
+        {
+          "key": "05c09aaebdd1138c",
+          "title": "삼성디스플레이, 차량용 OLED 사이버 보안 인증 2종 동시 획득",
+          "url": "https://www.inews24.com/view/2024479",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-10T05:28:13Z"
+        },
+        {
+          "key": "0516b71a439fd4db",
+          "title": "Samsung Display earns automotive cybersecurity certifications for its automotive OLED displays",
+          "url": "https://www.oled-info.com/samsung-display-earns-isosae-21434-and-enx-vcs-automotive-cybersecurity",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-10T07:18:10Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261110-0763",
+      "headline": "엔비디아 법무 책임자, 메가스피드 조사 개입 의혹",
+      "summary": [
+        "엔비디아의 법무 책임자가 메가스피드 관련 조사에 개입했다는 의혹이 제기됐다.",
+        "기사 본문이 제공되지 않아 구체적인 경위, 조사 범위, 일정은 확인할 수 없다.",
+        "반도체 업계에서 규제 당국과 기업 간 조사 대응 문제로 주목할 사안이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "엔비디아",
+        "메가스피드",
+        "조사 개입",
+        "법무"
+      ],
+      "companies": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T06:33:17Z",
+      "updated_at": "2026-11-10T06:33:17Z",
+      "articles": [
+        {
+          "key": "e00b8851d29d1756",
+          "title": "Nvidia legal chief accused of interfering in Megaspeed probe",
+          "url": "https://www.digitimes.com/news/a20261110PD242/nvidia-probe-jensen-huang-investigation-ceo.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T06:33:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0762",
+      "headline": "TSMC 10월 매출 59.7% 급증, AI칩 수요 견인",
+      "summary": [
+        "TSMC가 2026년 10월 매출이 전년 대비 59.7% 급증했다고 기사에서 전했다.",
+        "기사 본문은 사실상 비어 있어 세부 매출 규모와 분기 누계 수치는 확인되지 않는다.",
+        "AI 칩 수요가 강하다는 점이 확인되며, 파운드리 업황 호조 신호로 해석할 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "TSMC",
+        "월간 매출",
+        "AI칩 수요",
+        "파운드리"
+      ],
+      "companies": [
+        "TSMC"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "TSMC"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T06:27:36Z",
+      "updated_at": "2026-11-10T06:27:36Z",
+      "articles": [
+        {
+          "key": "ae04bc027a4a6915",
+          "title": "TSMC October 2026 revenue surges 59.7% on strong AI chip demand",
+          "url": "https://www.digitimes.com/news/a20261110VL212/tsmc-revenue-demand-2026-growth.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T06:27:36Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261110-0761",
+      "headline": "시스코, 한국 AI 인프라 시장 공략 확대",
+      "summary": [
+        "시스코가 호주 멜버른 기자간담회에서 한국을 APJC 투자 우선순위 시장으로 평가하고 삼성전자·SK하이닉스와 협력 확대 의지를 밝혔다.",
+        "국내 AI 인프라 투자가 이어지는 가운데 시스코는 엔비디아와 시큐어 AI 팩토리를 공동 개발하고 있으며, 한국별도 투자 규모와 공급 계약은 공개하지 않았다.",
+        "AI 활용이 추론과 에이전트 운영으로 넓어지면서 고성능 네트워크 수요가 늘어나, 시스코에게 국내 AI 데이터센터 시장의 사업 기회가 열릴 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 인프라",
+        "고성능 네트워크",
+        "시큐어 AI 팩토리",
+        "AI 데이터센터",
+        "아태 투자"
+      ],
+      "companies": [
+        "시스코",
+        "엔비디아",
+        "삼성전자",
+        "SK하이닉스",
+        "삼성SDS",
+        "SK그룹"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "시스코",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "설비 투자 3점, 관심 기업(SK하이닉스, 삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T06:21:12Z",
+      "updated_at": "2026-11-10T06:21:12Z",
+      "articles": [
+        {
+          "key": "3dbe6fafb61dae19",
+          "title": "시스코 \"韓 시장에 기대\"…아태 투자 늘리고 엔비디아와 AI 동맹 강화",
+          "url": "https://zdnet.co.kr/view/?no=20261110152000",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-10T06:21:12Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261110-0760",
+      "headline": "엔비디아, 새 의회 조사 가능성 제기",
+      "summary": [
+        "미 의회의 새 회기에서 엔비디아에 대한 조사가 강화될 수 있다는 보도가 나왔다.",
+        "기사 본문은 사진 크레딧만 있어 구체적인 조사 범위나 일정은 확인되지 않는다.",
+        "다만 간첩 수사 여파가 거론되어 대중국 반도체 규제 관련 리스크가 부각될 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "엔비디아",
+        "미국 의회",
+        "간첩 수사",
+        "수출규제"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T06:15:02Z",
+      "updated_at": "2026-11-10T06:15:02Z",
+      "articles": [
+        {
+          "key": "d6afc4ab3ec5ab17",
+          "title": "Nvidia could face more scrutiny by new Congress in wake of spy probe",
+          "url": "https://www.digitimes.com/news/a20261110VL210/nvidia-jensen-huang-chips-sales-china-usa.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T06:15:02Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0758",
+      "headline": "LG디스플레이 OLED TV 초슬림 베젤 특허, 특허기술상 대상",
+      "summary": [
+        "LG디스플레이가 OLED TV 고집적 게이트 구동회로 특허로 2026 특허기술상 대상을 받았다.",
+        "이 기술로 65인치 OLED TV 베젤 폭이 6.5mm에서 4.3mm로 34% 줄고, 원가 개선 효과는 3850억원이다.",
+        "42~97인치 OLED TV 패널에 적용돼 누적 2830만대가 양산되며 디스플레이 기술 경쟁력을 보여준다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED TV",
+        "초슬림 베젤",
+        "GIP",
+        "게이트 구동회로",
+        "특허기술상"
+      ],
+      "companies": [
+        "LG디스플레이"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이"
+      ],
+      "importance": 5,
+      "importance_reason": "소송·특허 3점, 관심 기업(LG디스플레이) +1, 매체 6곳 보도 +1 → 5점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -60,6 +400,22 @@
           "published_at": "2026-11-10T06:00:00Z"
         },
         {
+          "key": "89d7b3a950f9711e",
+          "title": "LG디스플레이, OLED TV 초슬림 베젤 혁신 기술로 올해 최고 특허기술상 수상",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343151",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-10T06:00:00Z"
+        },
+        {
+          "key": "b381c0288959b5ce",
+          "title": "LGD, '초슬림 베젤' OLED TV로 지재처 최고 특허상 수상",
+          "url": "https://zdnet.co.kr/view/?no=20261110094620",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-10T06:00:02Z"
+        },
+        {
           "key": "77cb07b1ee128cdf",
           "title": "LGD OLED TV 초슬림 베젤 기술 특허기술상 대상",
           "url": "https://www.yna.co.kr/view/AKR20261110033800003",
@@ -69,51 +425,7 @@
         }
       ],
       "type_checked": true,
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261110-0757",
-      "headline": "삼성디스플레이, 스마트폰 올레드 1위 유지 전망",
-      "summary": [
-        "시장조사 결과 올해 글로벌 스마트폰 올레드 패널 시장이 전년보다 소폭 감소할 것으로 전망됐다.",
-        "폴더블 올레드 패널 수요는 크게 늘어날 것으로 예상되며 삼성디스플레이가 1위를 지킬 것으로 보인다.",
-        "폴더블 중심의 성장세가 프리미엄 올레드 시장에서 업체 간 경쟁 구도를 좌우할 전망이다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "스마트폰 올레드",
-        "폴더블",
-        "시장 점유율",
-        "올레드 패널"
-      ],
-      "companies": [
-        "삼성디스플레이"
-      ],
-      "event_type": "시장 전망·통계",
-      "confirmed": true,
-      "parties": [
-        "삼성디스플레이"
-      ],
-      "importance": 3,
-      "importance_reason": "시장 전망·통계 2점, 관심 기업(삼성디스플레이) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-10T05:58:59Z",
-      "updated_at": "2026-11-10T05:58:59Z",
-      "articles": [
-        {
-          "key": "ddd645cff96ccc30",
-          "title": "삼성D, 올해 스마트폰 올레드 1위 유지…폴더블 급성장 전망",
-          "url": "https://www.yna.co.kr/view/AKR20261110119200003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-10T05:58:59Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
+      "importance_raw": 5
     },
     {
       "id": "c20261110-0756",
@@ -200,99 +512,49 @@
       "importance_raw": 1
     },
     {
-      "id": "c20261110-0731",
-      "headline": "삼성디스플레이, 차량용 OLED 사이버보안 인증 2종 획득",
+      "id": "c20261110-0759",
+      "headline": "삼성전자 3D 큐브-H 하이브리드 본딩 내년 초 개발 목표",
       "summary": [
-        "삼성디스플레이가 DQS로부터 ISO/SAE 21434와 ENX VCS 인증을 동시에 받았다고 10일 밝혔다.",
-        "인증은 차량용 OLED의 개발부터 생산까지 사이버 보안 위험 관리 체계를 평가한 결과다.",
-        "업계 최초 사례로, 소프트웨어 중심 자동차(SDV) 시장 공략에 힘이 실릴 전망이다."
+        "삼성전자가 하이브리드 본딩 기반 3D 큐브-H 패키징 기술을 내년 초까지 개발 완료하겠다는 계획을 세운 것으로 파악됐다.",
+        "피치 6마이크로미터 수준으로 기존 TC 본딩의 최소 25마이크로미터보다 훨씬 미세하며, 내년 초 첫 디자인 키트가 완성될 예정이다.",
+        "초고성능 AI 반도체와 파운드리 빅테크 고객 확보에 기여할 수 있어 첨단 패키징 경쟁력 강화 의미가 크다."
       ],
-      "category": "디스플레이",
+      "category": "파운드리/시스템반도체",
       "tags": [
-        "차량용 OLED",
-        "사이버보안",
-        "ISO/SAE 21434",
-        "ENX VCS",
-        "SDV"
+        "3D 큐브-H",
+        "하이브리드 본딩",
+        "첨단 패키징",
+        "TC 본딩",
+        "AI 반도체"
       ],
       "companies": [
-        "삼성디스플레이",
-        "DQS"
+        "삼성전자"
       ],
-      "event_type": "업계 일반",
-      "confirmed": true,
+      "event_type": "설비 투자",
+      "confirmed": false,
       "parties": [
-        "삼성디스플레이",
-        "DQS"
+        "삼성전자"
       ],
-      "importance": 4,
-      "importance_reason": "업계 일반 2점, 관심 기업(삼성디스플레이) +1, 매체 7곳 보도 +1 → 4점",
+      "importance": 3,
+      "importance_reason": "설비 투자 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-11-10T02:27:55Z",
-      "updated_at": "2026-11-10T05:28:13Z",
+      "first_seen": "2026-11-10T05:44:03Z",
+      "updated_at": "2026-11-10T05:44:03Z",
       "articles": [
         {
-          "key": "91bfc11d1966872d",
-          "title": "삼성디스플레이, 차량용 OLED 보안 경쟁력 입증…국제 인증 2종 동시 획득",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409506",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-10T02:27:55Z"
-        },
-        {
-          "key": "e4256d3ac41f1a62",
-          "title": "삼성디스플레이, SDV 시대 차량용 OLED 보안 신뢰성 높인다",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=343157",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-11-10T02:30:00Z"
-        },
-        {
-          "key": "4f12461e4d3bd0e0",
-          "title": "삼성디스플레이, 업계 첫 자동차 사이버보안 인증 2종 획득",
-          "url": "https://www.yna.co.kr/view/AKR20261110088000003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-10T02:44:16Z"
-        },
-        {
-          "key": "4e81706d891a187e",
-          "title": "삼성D, 차량 OLED '사이버보안 인증' 2종 획득...업계 최초",
-          "url": "https://zdnet.co.kr/view/?no=20261110122552",
+          "key": "b47c3f8e4bb4f5e1",
+          "title": "삼성전자, 첨단 패키징 '3D 큐브-H' 내년 초 개발완료 목표",
+          "url": "https://zdnet.co.kr/view/?no=20261110104822",
           "source": "ZDNet Korea",
           "lang": "ko",
-          "published_at": "2026-11-10T03:38:46Z"
-        },
-        {
-          "key": "c037b4b4ff3752bf",
-          "title": "삼성디스플레이, 차량용 OLED 사이버 보안 국제 인증 동시 획득",
-          "url": "https://www.dt.co.kr/article/12094233",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-10T03:58:03Z"
-        },
-        {
-          "key": "8ea4454d4cef588f",
-          "title": "삼성D, 차량용 OLED 사이버 보안 인증 2종 획득",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65207",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-10T05:13:32Z"
-        },
-        {
-          "key": "05c09aaebdd1138c",
-          "title": "삼성디스플레이, 차량용 OLED 사이버 보안 인증 2종 동시 획득",
-          "url": "https://www.inews24.com/view/2024479",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-10T05:28:13Z"
+          "published_at": "2026-11-10T05:44:03Z"
         }
       ],
       "type_checked": true,
-      "importance_raw": 4
+      "importance_raw": 3
     },
     {
       "id": "c20261110-0736",
