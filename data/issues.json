@@ -1,34 +1,424 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T04:03:50Z",
+  "updated_at": "2026-11-10T05:06:17Z",
   "issues": [
     {
-      "id": "c20261110-0731",
-      "headline": "삼성디스플레이, 차량용 OLED 사이버보안 국제인증 2종 획득",
+      "id": "c20261110-0752",
+      "headline": "LG디스플레이 정철동 사장, 흑자 전환 후 거취 주목",
       "summary": [
-        "삼성디스플레이가 업계 최초로 ISO/SAE 21434와 ENX 차량 사이버보안 관리체계 심사를 동시에 통과했다고 10일 발표했다.",
-        "이번 인증은 용인 사옥에서 열린 기념식을 통해 공개됐으며, 인증 기관 DQS가 평가를 진행했다.",
-        "소프트웨어 중심 차량(SDV) 전환에 따라 차량 부품 보안 요구가 커지는 가운데 완성차 기준 대응력을 높인 의미가 있다."
+        "LG디스플레이 정철동 사장이 취임 3년을 맞으며 거취에 업계의 관심이 쏠리고 있다.",
+        "정 사장은 중국 LCD 사업을 정리하고 OLED 중심으로 재편해 4년 만에 연간 흑자 전환을 이끌었다.",
+        "이달 말 예상되는 LG그룹 정기 임원 인사가 업계 관심사이며, 영업손익 개선이 리더십 평가에 영향을 줄 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "LCD 사업 정리",
+        "흑자 전환",
+        "정기 임원 인사"
+      ],
+      "companies": [
+        "LG디스플레이",
+        "LG그룹"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "LG디스플레이"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점, 관심 기업(LG디스플레이) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T04:54:56Z",
+      "updated_at": "2026-11-10T04:54:56Z",
+      "articles": [
+        {
+          "key": "9519a5cc0a3a0b5d",
+          "title": "LGD 적자 끊어낸 정철동…'구원투수'에서 부회장으로?",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65149",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-10T04:54:56Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261110-0715",
+      "headline": "삼성전자 C랩, 누적 스타트업 1000곳 육성 성과 발표",
+      "summary": [
+        "삼성전자가 사내벤처 육성 프로그램 C랩의 2026 스타트업 데모데이를 서울 우면동 R&D캠퍼스에서 열었다.",
+        "2012년 C랩 출범 이후 사내벤처 434개와 외부 스타트업 566개 등 총 1000개를 육성했다고 밝혔다.",
+        "C랩 아웃사이드 8기 30곳 중 절반이 삼성전자와 기술검증을 진행 중이며, 상생 생태계 확대 의미가 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "C랩",
+        "스타트업 육성",
+        "사내벤처",
+        "기술검증",
+        "상생 생태계"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "채용·인력 2점, 관심 기업(삼성전자) +1, 매체 5곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T01:00:00Z",
+      "updated_at": "2026-11-10T04:44:02Z",
+      "articles": [
+        {
+          "key": "05d5993fffe1c395",
+          "title": "삼성전자, '2026 C랩 스타트업 데모데이' 개최",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343156",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-10T01:00:00Z"
+        },
+        {
+          "key": "588792564a955ac3",
+          "title": "삼성전자, 스타트업·사내벤처 1000곳 키웠다",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65148",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-10T01:00:00Z"
+        },
+        {
+          "key": "5e32bd1b1a08030b",
+          "title": "삼성전자, 스타트업 1천곳 육성…투자유치·협력 확대 지원",
+          "url": "https://www.yna.co.kr/view/AKR20261110030000003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T01:00:02Z"
+        },
+        {
+          "key": "047db28c69209fd7",
+          "title": "삼성전자 C랩, 스타트업 1000개 키웠다…기술 사업화 지원 확대",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409503",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T01:53:38Z"
+        },
+        {
+          "key": "2c94b9585d48507f",
+          "title": "삼성전자, 스타트업 1천곳 육성…\"연매출 30배로 증가\"(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261110030051003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T04:09:28Z"
+        },
+        {
+          "key": "2f2c6c62ae41ea66",
+          "title": "삼성전자 “스타트업 1000개 육성…상생 생태계 조성”",
+          "url": "https://www.etnews.com/20261110000276",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-10T04:44:02Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261110-0738",
+      "headline": "호남 반도체 클러스터 팹 배치, 이달 내 마무리 전망",
+      "summary": [
+        "김정관 산업통상부 장관이 호남 반도체 클러스터 입주 기업들의 입장에 변함이 없다고 밝혔다.",
+        "이달 내 반도체 생산시설(팹) 배치를 마무리한다는 계획이며, 전력·용수 공급 계획과 연계된다.",
+        "지역 반도체 생태계 조성이 본격화되는 신호로, 생산 거점 확정 일정이 가시화됐다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "호남 반도체 클러스터",
+        "팹 배치",
+        "전력·용수 공급",
+        "지역 인프라"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "지역·인프라 2점, 관심 기업(SK하이닉스, 삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T03:07:27Z",
+      "updated_at": "2026-11-10T04:33:17Z",
+      "articles": [
+        {
+          "key": "257fe2ee52f7d6af",
+          "title": "산업장관 \"호남 반도체 클러스터 팹 배치 이달 내 마무리\"",
+          "url": "https://www.yna.co.kr/view/AKR20261110091000001",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T03:07:27Z"
+        },
+        {
+          "key": "3d6dfcbda2babf58",
+          "title": "산업장관, 호남 반도체 ‘삼전닉스’ 배치 “이달 내 마무리”",
+          "url": "https://www.dt.co.kr/article/12094236",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-10T04:33:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261110-0751",
+      "headline": "인텔, 18A·14A 이후 차세대 공정 구상 공개 추진",
+      "summary": [
+        "인텔이 18A와 14A 공정 이후의 차세대 컴퓨팅 방향을 검토하고 있다는 보도가 나왔다.",
+        "기사 본문이 사실상 없어 구체적인 기술 사양과 일정은 확인되지 않는다.",
+        "파운드리 경쟁 구도에서 인텔의 중장기 로드맵 변화 가능성을 가늠할 단서로 볼 수 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "인텔",
+        "18A",
+        "14A",
+        "차세대 공정",
+        "파운드리"
+      ],
+      "companies": [
+        "인텔"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T04:21:43Z",
+      "updated_at": "2026-11-10T04:21:43Z",
+      "articles": [
+        {
+          "key": "dc42614dadbfe0d0",
+          "title": "Intel looks beyond 18A and 14A to reshape computing",
+          "url": "https://www.digitimes.com/news/a20261110PD225/intel-quantum-computing-chips-technology.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T04:21:43Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261110-0750",
+      "headline": "대만 GIS, 800G·1.6T AI 광모듈용 레이저 패키징 증설",
+      "summary": [
+        "대만 GIS가 800G·1.6T급 AI 광모듈 시장을 겨냥한 레이저 패키징 생산 확대에 나선다고 전해졌다.",
+        "기사 본문이 제목과 크레딧 표기뿐이라 구체적 투자 규모나 생산능력 수치는 확인되지 않는다.",
+        "AI 데이터센터 광통신 수요가 커지면서 관련 부품 공급망의 증설 흐름을 보여주는 신호로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "800G",
+        "1.6T",
+        "AI 광모듈",
+        "레이저 패키징",
+        "광통신"
+      ],
+      "companies": [
+        "GIS"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "GIS"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T04:21:06Z",
+      "updated_at": "2026-11-10T04:21:06Z",
+      "articles": [
+        {
+          "key": "6a48660bb1708c56",
+          "title": "Taiwan's GIS targets 800G/1.6T AI optics, with laser packaging ramp-up starting 4Q26",
+          "url": "https://www.digitimes.com/news/a20261110PD226/gis-optics-laser-packaging-taiwan.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T04:21:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0749",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 1,
+      "region": "ko",
+      "first_seen": "2026-11-10T04:19:26Z",
+      "updated_at": "2026-11-10T04:19:26Z",
+      "articles": [
+        {
+          "key": "1e467b12614537ab",
+          "title": "쎄크, 마이크론에 HBM 검사장비 공급",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65201",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-10T04:19:26Z"
+        }
+      ]
+    },
+    {
+      "id": "c20261110-0748",
+      "headline": "SK하이닉스 지원 트리니티 팹, 2027년 장비 테스트 예정",
+      "summary": [
+        "SK하이닉스가 지원하는 트리니티 팹이 2027년 칩 제조 장비 테스트를 진행할 계획이라고 보도됐다.",
+        "기사 본문이 사실상 비어 있어 구체적인 투자 규모나 장비 종류, 세부 일정은 확인되지 않는다.",
+        "장비 테스트 일정이 잡힌 만큼 국내 반도체 장비·소재 생태계의 향후 움직임을 지켜볼 필요가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "트리니티 팹",
+        "장비 테스트",
+        "2027",
+        "SK하이닉스 지원"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T04:12:18Z",
+      "updated_at": "2026-11-10T04:12:18Z",
+      "articles": [
+        {
+          "key": "a20ea58cd6e24ec9",
+          "title": "SK Hynix-backed Trinity Fab to test chipmaking tools in 2027",
+          "url": "https://www.digitimes.com/news/a20261110VL207/sk-hynix-fab-testing-equipment-2027.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T04:12:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261110-0747",
+      "headline": "Wistron ITS, 반도체·게이밍 힘입어 2027년 성장 전망",
+      "summary": [
+        "Wistron ITS가 2027년 성장을 목표로 삼고 있다는 보도가 나왔다.",
+        "기사 본문이 제공되지 않아 구체적인 수치나 일정은 확인되지 않는다.",
+        "반도체와 게이밍 분야가 성장 동력으로 거론되며 관련 업계의 관심이 예상된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "반도체",
+        "게이밍",
+        "2027년 성장 전망",
+        "Wistron ITS"
+      ],
+      "companies": [
+        "Wistron ITS"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [
+        "Wistron ITS"
+      ],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T04:05:00Z",
+      "updated_at": "2026-11-10T04:05:00Z",
+      "articles": [
+        {
+          "key": "27e21f273f1ab6eb",
+          "title": "Wistron ITS eyes 2027 growth driven by semiconductors and gaming",
+          "url": "https://www.digitimes.com/news/a20261110PD234/wistron-growth-gaming-2027-semiconductors.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T04:05:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261110-0731",
+      "headline": "삼성디스플레이, 차량 OLED 사이버보안 인증 2종 획득",
+      "summary": [
+        "삼성디스플레이가 ISO/SAE 21434 자동차 사이버 보안 엔지니어링 표준과 ENX 사이버 보안 관리체계 평가 심사를 동시에 통과했다.",
+        "차량 설계부터 폐기까지 사이버 보안 위험을 관리하는 체계를 인정받았으며, 업계에서 처음 획득한 사례다.",
+        "유럽 중심 사이버 보안 규제 강화로 차량용 디스플레이의 보안 경쟁력이 중요해질 전망이다."
       ],
       "category": "디스플레이",
       "tags": [
         "차량용 OLED",
-        "사이버보안",
+        "사이버 보안",
         "ISO/SAE 21434",
         "SDV",
-        "ENX"
+        "ENX 인증"
       ],
       "companies": [
-        "삼성디스플레이"
+        "삼성디스플레이",
+        "DQS"
       ],
-      "event_type": "인수합병",
+      "event_type": "소송·특허",
       "confirmed": true,
       "parties": [
         "삼성디스플레이",
         "DQS"
       ],
-      "importance": 4,
-      "importance_reason": "인수합병 2점, 관심 기업(삼성디스플레이) +1, 매체 4곳 보도 +1 → 4점",
+      "importance": 5,
+      "importance_reason": "소송·특허 3점, 관심 기업(삼성디스플레이) +1, 매체 5곳 보도 +1 → 5점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -61,6 +451,14 @@
           "published_at": "2026-11-10T02:44:16Z"
         },
         {
+          "key": "4e81706d891a187e",
+          "title": "삼성D, 차량 OLED '사이버보안 인증' 2종 획득...업계 최초",
+          "url": "https://zdnet.co.kr/view/?no=20261110122552",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-10T03:38:46Z"
+        },
+        {
           "key": "c037b4b4ff3752bf",
           "title": "삼성디스플레이, 차량용 OLED 사이버 보안 국제 인증 동시 획득",
           "url": "https://www.dt.co.kr/article/12094233",
@@ -70,7 +468,7 @@
         }
       ],
       "type_checked": true,
-      "importance_raw": 4
+      "importance_raw": 5
     },
     {
       "id": "c20261110-0746",
@@ -424,46 +822,6 @@
       ],
       "type_checked": true,
       "importance_raw": 0
-    },
-    {
-      "id": "c20261110-0738",
-      "headline": "호남 반도체 클러스터 팹 배치 이달 내 마무리 추진",
-      "summary": [
-        "산업통상부 김정관 장관이 10일 호남 반도체 클러스터 사업과 관련해 팹 배치를 이달 안에 마무리하겠다고 밝혔다.",
-        "기사 본문이 일부만 제공돼 구체적인 배치 기업과 투자 규모 등 세부 내용은 확인되지 않는다.",
-        "지역 반도체 생태계 구축의 첫 단계인 생산시설 배치가 진전되면 클러스터 사업 속도가 빨라질 전망이다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "반도체 클러스터",
-        "팹 배치",
-        "호남",
-        "산업통상부"
-      ],
-      "companies": [],
-      "event_type": "지역·인프라",
-      "confirmed": true,
-      "parties": [],
-      "importance": 2,
-      "importance_reason": "지역·인프라 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-10T03:07:27Z",
-      "updated_at": "2026-11-10T03:07:27Z",
-      "articles": [
-        {
-          "key": "257fe2ee52f7d6af",
-          "title": "산업장관 \"호남 반도체 클러스터 팹 배치 이달 내 마무리\"",
-          "url": "https://www.yna.co.kr/view/AKR20261110091000001",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-10T03:07:27Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261110-0737",
@@ -899,67 +1257,6 @@
       ],
       "type_checked": true,
       "importance_raw": 0
-    },
-    {
-      "id": "c20261110-0715",
-      "headline": "삼성전자 C랩 스타트업 데모데이 개최, 누적 1000개 육성",
-      "summary": [
-        "삼성전자가 10일 서울R&D캠퍼스에서 2026 C랩 스타트업 데모데이를 열었다.",
-        "C랩 아웃사이드 8기 스타트업 30개사가 참여해 기술과 성과를 공유하고 투자 유치 기회를 얻었다.",
-        "반도체 대기업의 스타트업 육성이 투자·협력 생태계 확대로 이어질 전망이다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "C랩",
-        "스타트업 육성",
-        "데모데이",
-        "상생 생태계",
-        "투자 유치"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "채용·인력",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 4,
-      "importance_reason": "채용·인력 2점, 관심 기업(삼성전자) +1, 매체 3곳 보도 +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-10T01:00:00Z",
-      "updated_at": "2026-11-10T01:53:38Z",
-      "articles": [
-        {
-          "key": "05d5993fffe1c395",
-          "title": "삼성전자, '2026 C랩 스타트업 데모데이' 개최",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=343156",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-11-10T01:00:00Z"
-        },
-        {
-          "key": "5e32bd1b1a08030b",
-          "title": "삼성전자, 스타트업 1천곳 육성…투자유치·협력 확대 지원",
-          "url": "https://www.yna.co.kr/view/AKR20261110030000003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-10T01:00:02Z"
-        },
-        {
-          "key": "047db28c69209fd7",
-          "title": "삼성전자 C랩, 스타트업 1000개 키웠다…기술 사업화 지원 확대",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409503",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-10T01:53:38Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
     },
     {
       "id": "c20261110-0732",
