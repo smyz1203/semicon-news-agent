@@ -1,7 +1,842 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T01:18:13Z",
+  "updated_at": "2026-11-10T02:59:50Z",
   "issues": [
+    {
+      "id": "c20261109-0703",
+      "headline": "상장사 소액주주 24% 증가, 보유 주식은 감소",
+      "summary": [
+        "국내 상장사 소액주주 수가 최근 1년6개월 사이 24% 넘게 늘었으나 보유 주식 수는 10% 이상 줄었다.",
+        "삼성전자가 797만명으로 소액주주 수 1위를 기록했고 SK하이닉스, LS일렉트릭 등 대형주 중심으로 증가했다.",
+        "주가 상승에 따른 개인 투자 확대 흐름을 보여주지만 개인별 보유 규모는 작아진 것으로 해석된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "소액주주",
+        "개인투자자",
+        "주주 구조",
+        "증시 동향"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "LS일렉트릭"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T21:00:04Z",
+      "updated_at": "2026-11-10T02:45:00Z",
+      "articles": [
+        {
+          "key": "961f6aa3e8d3acd1",
+          "title": "국내 상장사 소액주주 18개월 새 24%↑…삼성전자 797만명 1위",
+          "url": "https://www.yna.co.kr/view/AKR20261109118900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-09T21:00:04Z"
+        },
+        {
+          "key": "ad51d5aef647a987",
+          "title": "국내 상장사 소액주주 18개월 새 24%↑…삼성전자 797만명",
+          "url": "https://www.dt.co.kr/article/12094222",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-10T02:45:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0731",
+      "headline": "삼성디스플레이, 차량용 OLED 사이버보안 국제 인증 2종 획득",
+      "summary": [
+        "삼성디스플레이가 자동차 사이버보안 국제표준 ISO/SAE 21434와 ENX VCS 심사를 동시에 통과했다.",
+        "업계 최초로 두 인증을 함께 받았으며 차량용 OLED 제품의 보안 관리 역량을 인정받았다.",
+        "차세대 모빌리티 시장 공략에서 차량용 디스플레이의 신뢰성을 높이는 의미가 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "차량용 OLED",
+        "사이버보안",
+        "ISO/SAE 21434",
+        "ENX VCS",
+        "자동차 디스플레이"
+      ],
+      "companies": [
+        "삼성디스플레이"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "삼성디스플레이"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(삼성디스플레이) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T02:27:55Z",
+      "updated_at": "2026-11-10T02:44:16Z",
+      "articles": [
+        {
+          "key": "91bfc11d1966872d",
+          "title": "삼성디스플레이, 차량용 OLED 보안 경쟁력 입증…국제 인증 2종 동시 획득",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409506",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T02:27:55Z"
+        },
+        {
+          "key": "4f12461e4d3bd0e0",
+          "title": "삼성디스플레이, 업계 첫 자동차 사이버보안 인증 2종 획득",
+          "url": "https://www.yna.co.kr/view/AKR20261110088000003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T02:44:16Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261110-0730",
+      "headline": "동운아나텍, 독립이사 2명·사내이사 1명 선임 추진",
+      "summary": [
+        "동운아나텍이 오는 24일 임시주주총회에서 독립이사 2명과 사내이사 1명을 선임한다고 공시했다.",
+        "독립이사 후보로 전세일 전 동국제약 사장과 임채승 고려대 의대 교수가 올랐으며 전 후보는 신규 선임이다.",
+        "반도체 팹리스 기업의 지배구조 재편 움직임이지만 산업적 파급효과는 기사에 제시되지 않았다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "독립이사",
+        "임시주주총회",
+        "지배구조",
+        "팹리스"
+      ],
+      "companies": [
+        "동운아나텍",
+        "동국제약"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "동운아나텍"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T02:18:28Z",
+      "updated_at": "2026-11-10T02:18:28Z",
+      "articles": [
+        {
+          "key": "ea023910136a8533",
+          "title": "동운아나텍, 독립이사에 전세일 전 동국제약 사장 추천",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65164",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-10T02:18:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0729",
+      "headline": "두산 전자BG, AI CCL 수요에 분기 매출 8000억 첫 돌파",
+      "summary": [
+        "두산 전자BG가 3분기 매출 8020억원을 기록했다고 9일 발표했다.",
+        "전년 동기 대비 82.4%, 전 분기 대비 18.6% 증가했으며 분기 8000억원 돌파는 처음이다.",
+        "AI 가속기·메모리·광모듈용 CCL 판매 확대로 4개 분기 연속 최대 실적을 경신하고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "CCL",
+        "동박적층판",
+        "AI 인프라",
+        "분기 최대 실적",
+        "광모듈"
+      ],
+      "companies": [
+        "두산",
+        "두산 전자BG"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "두산"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T02:01:34Z",
+      "updated_at": "2026-11-10T02:01:34Z",
+      "articles": [
+        {
+          "key": "64cf56c50a9878ae",
+          "title": "AI CCL 수요 폭발…두산 전자BG, 분기 매출 8000억 첫 돌파",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65143",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-10T02:01:34Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261110-0720",
+      "headline": "딥엑스 2나노 AI칩 DX-M2, CES 2027 혁신상 수상",
+      "summary": [
+        "딥엑스가 삼성전자 2나노 공정을 적용한 차세대 AI 반도체 DX-M2로 CES 2027 혁신상 AI 부문 수상작에 선정됐다.",
+        "DX-M2는 약 5와트 전력으로 LLM·VLM을 직접 실행하며, 내년 3월 첫 실리콘 확보 후 4분기 초기 양산을 계획한다.",
+        "로봇·산업용 기기의 클라우드 의존도를 낮춰 온디바이스 생성형 AI 시장 확대에 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "DX-M2",
+        "2나노",
+        "온디바이스 AI",
+        "CES 혁신상",
+        "저전력 AI 칩"
+      ],
+      "companies": [
+        "딥엑스",
+        "삼성전자"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "딥엑스",
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자) +1, 매체 3곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T00:56:47Z",
+      "updated_at": "2026-11-10T02:01:30Z",
+      "articles": [
+        {
+          "key": "a6ff0a6f28a1b110",
+          "title": "딥엑스 초전력 AI 칩 'DX-M2', CES 2027 혁신상 수상",
+          "url": "https://zdnet.co.kr/view/?no=20261110094952",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-10T00:56:47Z"
+        },
+        {
+          "key": "dd0b0f7e0383161a",
+          "title": "삼성 2나노 적용 딥엑스 AI칩, CES 혁신상 수상",
+          "url": "https://www.yna.co.kr/view/AKR20261110069100017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T01:39:35Z"
+        },
+        {
+          "key": "77b7b20eaa5be7f6",
+          "title": "딥엑스, 2나노 기반 온디바이스 AI 반도체 승부수",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409504",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T02:01:30Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261110-0715",
+      "headline": "삼성전자 C랩, 육성 스타트업 1000곳 돌파",
+      "summary": [
+        "삼성전자가 C랩 아웃사이드 8기 스타트업 데모데이를 서울R&D캠퍼스에서 열었다.",
+        "행사에는 서울·대구·경북·광주에서 육성된 스타트업 30개사가 참여해 기술과 성과를 공유했다.",
+        "C랩 육성 기업이 1000개에 이르며 투자 유치와 사업 협력 기회가 넓어지는 흐름이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "C랩",
+        "스타트업 육성",
+        "데모데이",
+        "창업 생태계"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "채용·인력 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T01:00:02Z",
+      "updated_at": "2026-11-10T01:53:38Z",
+      "articles": [
+        {
+          "key": "5e32bd1b1a08030b",
+          "title": "삼성전자, 스타트업 1천곳 육성…투자유치·협력 확대 지원",
+          "url": "https://www.yna.co.kr/view/AKR20261110030000003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T01:00:02Z"
+        },
+        {
+          "key": "047db28c69209fd7",
+          "title": "삼성전자 C랩, 스타트업 1000개 키웠다…기술 사업화 지원 확대",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409503",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T01:53:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261110-0728",
+      "headline": "위윈, 10월 매출 전월 대비 감소·전년 대비 증가",
+      "summary": [
+        "반도체 테스트 인터페이스 공급업체 위윈의 매출이 발표됐다.",
+        "매출은 전월 대비 11.51% 줄었고, 전년 대비로는 62.62% 늘었다.",
+        "전년 대비 큰 폭 성장은 테스트 수요 회복 흐름을 보여주지만, 월간 변동폭은 단기 수주 변화를 시사한다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "테스트 인터페이스",
+        "월간 매출",
+        "반도체 테스트",
+        "위윈"
+      ],
+      "companies": [
+        "위윈"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "위윈"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T01:22:35Z",
+      "updated_at": "2026-11-10T01:22:35Z",
+      "articles": [
+        {
+          "key": "9dec1884a1930db9",
+          "title": "Semiconductor test-interface supplier WinWay revenue falls 11.51% MoM, rises 62.62% YoY",
+          "url": "https://www.digitimes.com/news/a20261109PD244/revenue-demand-supplier-growth-market.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T01:22:35Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261110-0727",
+      "headline": "대만 엔지니어링사 야오지 수주잔고 확대, 구마모토 공장 효과 기대",
+      "summary": [
+        "대만 엔지니어링 기업 Yankey가 571억 대만달러 규모의 수주잔고를 확보했다고 보도됐다.",
+        "구마모토 웨이퍼 팹 프로젝트가 2027년 매출 확대에 기여할 것으로 전망됐다.",
+        "반도체 공장 건설 관련 엔지니어링 수요가 이어지고 있음을 보여주는 신호다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "수주잔고",
+        "구마모토 팹",
+        "웨이퍼 팹",
+        "엔지니어링"
+      ],
+      "companies": [
+        "Yankey"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "Yankey"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T01:21:41Z",
+      "updated_at": "2026-11-10T01:21:41Z",
+      "articles": [
+        {
+          "key": "4f1ad0d465fe7776",
+          "title": "Taiwanese engineering company Yankey holds NT$57.1 billion orders, Kumamoto wafer fab project to boost 2027 revenue",
+          "url": "https://www.digitimes.com/news/a20261109PD208/revenue-2027-kumamoto-wafer-fab.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T01:21:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0726",
+      "headline": "인텔, GPU 넘어 실리콘 포토닉스·인메모리 컴퓨팅 노린다",
+      "summary": [
+        "인텔이 GPU를 넘어 실리콘 포토닉스와 인메모리 컴퓨팅 분야를 겨냥하고 있다는 보도가 나왔다.",
+        "기사 본문은 사진 출처 표기뿐이라 구체적인 제품 일정이나 수치는 확인되지 않는다.",
+        "AI 연산 수요가 GPU 외 구조로 넓어질 수 있다는 방향성을 보여주는 소식이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "실리콘 포토닉스",
+        "인메모리 컴퓨팅",
+        "GPU",
+        "AI반도체"
+      ],
+      "companies": [
+        "인텔"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T01:21:36Z",
+      "updated_at": "2026-11-10T01:21:36Z",
+      "articles": [
+        {
+          "key": "f0ce18cebd6c194b",
+          "title": "Intel targets silicon photonics, in-memory computing beyond GPUs",
+          "url": "https://www.digitimes.com/news/a20261109PD207/intel-photonics-silicon-in-memory-computing-technology.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T01:21:36Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261110-0725",
+      "headline": "AI 수요에 대만 파운드리 Vanguard 용량 축소·가격 상승 전망",
+      "summary": [
+        "대만 파운드리 Vanguard의 생산 능력이 AI 수요 증가로 빠듯해지고 가격이 오를 것으로 보인다는 보도다.",
+        "다만 기사 본문이 저작권 표기만 있어 구체적 수치나 일정은 확인되지 않는다.",
+        "AI 반도체 수요가 파운드리 용량과 가격 전반에 영향을 줄 수 있다는 점을 보여준다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "파운드리",
+        "AI 수요",
+        "생산 능력",
+        "가격 상승"
+      ],
+      "companies": [
+        "Vanguard"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T01:20:57Z",
+      "updated_at": "2026-11-10T01:20:57Z",
+      "articles": [
+        {
+          "key": "0d3a7ce6bb5b0f3d",
+          "title": "AI demand points to tighter capacity, higher prices at Taiwanese foundry service Vanguard",
+          "url": "https://www.digitimes.com/news/a20261109PD216/demand-capacity-vis-2026-revenue.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T01:20:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261110-0724",
+      "headline": "라피더스, 대만식 칩 클러스터 모델 추진하며 홋카이도 공장 3곳 추가 계획",
+      "summary": [
+        "일본 반도체 기업 라피더스가 대만의 칩 클러스터 모델을 벤치마킹하겠다는 방향을 제시했다고 보도됐다.",
+        "기사 본문은 사진 출처 표기뿐이라 추가 공장 3곳의 일정·투자 규모 등 구체적 수치는 확인되지 않는다.",
+        "계획이 실현되면 홋카이도가 일본 파운드리 생산 거점으로 자리 잡을 가능성이 커지지만, 현재는 추진 단계의 소식이다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "라피더스",
+        "칩 클러스터",
+        "홋카이도",
+        "2나노",
+        "파운드리 증설"
+      ],
+      "companies": [
+        "라피더스",
+        "TSMC"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [
+        "라피더스"
+      ],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T01:20:20Z",
+      "updated_at": "2026-11-10T01:20:20Z",
+      "articles": [
+        {
+          "key": "29f95ed3eb7b6a2c",
+          "title": "Japanese chipmaker Rapidus targets Taiwan’s chip cluster model, plans 3 more Hokkaido plants",
+          "url": "https://www.digitimes.com/news/a20261109PD245/rapidus-taiwan-ibm-plant-production.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T01:20:20Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261110-0723",
+      "headline": "PMX, 반도체 매출 비중 20%로 두 배 확대",
+      "summary": [
+        "자동차 부품사 PMX가 반도체 사업의 매출 비중을 20%로 끌어올렸다고 보도됐다.",
+        "기사 본문이 제공되지 않아 구체적인 매출 규모와 추진 배경은 확인할 수 없다.",
+        "자동차 부품사의 반도체 사업 확대는 차량용 반도체 수요 변화를 보여주는 신호로 볼 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "차량용 반도체",
+        "매출 비중",
+        "자동차 부품",
+        "사업 다각화"
+      ],
+      "companies": [
+        "PMX"
+      ],
+      "event_type": "실적",
+      "confirmed": false,
+      "parties": [
+        "PMX"
+      ],
+      "importance": 2,
+      "importance_reason": "실적 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T01:19:59Z",
+      "updated_at": "2026-11-10T01:19:59Z",
+      "articles": [
+        {
+          "key": "5ef5c7b579454865",
+          "title": "Automotive component maker PMX doubles semiconductor revenue share to 20%",
+          "url": "https://www.digitimes.com/news/a20261109PD264/global-pmx-revenue-powertrain-component-eps.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T01:19:59Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0722",
+      "headline": "포타릭스, 반도체 포토닉스 기반 양자 보안 통신 도전",
+      "summary": [
+        "포타릭스 CEO 기즈렘 아자르 테킨이 칩 규모 단일광자 소스 기술을 소개했다.",
+        "이 기술은 확장 가능한 양자 보안 통신을 가능하게 할 수 있다고 설명됐다.",
+        "반도체 포토닉스가 양자 통신 분야로 확장될 가능성을 보여주는 사례다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "양자통신",
+        "단일광자 소스",
+        "반도체 포토닉스",
+        "양자 보안"
+      ],
+      "companies": [
+        "포타릭스"
+      ],
+      "event_type": "칼럼·인터뷰",
+      "confirmed": true,
+      "parties": [
+        "포타릭스"
+      ],
+      "importance": 1,
+      "importance_reason": "칼럼·인터뷰 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T01:19:25Z",
+      "updated_at": "2026-11-10T01:19:25Z",
+      "articles": [
+        {
+          "key": "c7f8fe5bca59d176",
+          "title": "Exclusive: Quantum beyond quantum—Photarix bets on a new era of semiconductor photonics",
+          "url": "https://www.digitimes.com/news/a20261109VL208/quantum-communications-photonics-technology-manufacturing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T01:19:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261109-0635",
+      "headline": "렌즈테크놀로지, 연내 유리기판 파일럿 라인 가동 추진",
+      "summary": [
+        "중국 렌즈테크놀로지가 연말까지 유리기판 파일럿 라인을 가동할 계획이라고 알려졌다.",
+        "기사에서 확인되는 구체적 투자 규모나 생산 능력 수치는 제시되지 않았다.",
+        "한국 반도체 기업과의 협력을 기대한다는 점에서 유리기판 공급망 경쟁에 영향을 줄 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "유리기판",
+        "파일럿 라인",
+        "렌즈테크놀로지",
+        "패키징"
+      ],
+      "companies": [
+        "렌즈테크놀로지"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "렌즈테크놀로지"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-08T23:56:03Z",
+      "updated_at": "2026-11-10T01:19:19Z",
+      "articles": [
+        {
+          "key": "bd955c3281a00d1f",
+          "title": "中 렌즈테크놀로지, 연내 유리기판 양산라인 가동…\"韓기업과 협력 기대\"",
+          "url": "https://zdnet.co.kr/view/?no=20261109081004",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-08T23:56:03Z"
+        },
+        {
+          "key": "f715feec05526258",
+          "title": "Lens Technology to start glass substrate pilot line by year-end, eyes Korean chipmakers",
+          "url": "https://www.digitimes.com/news/a20261109VL211/lens-technology-glass-substrate-tgv-packaging-capacity-2026.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T01:19:19Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0721",
+      "headline": "퀀텀모션, 칩 집적도 1만 배 도약 주장…큐빗 제어가 관건",
+      "summary": [
+        "퀀텀모션 CEO 제임스 팔레스딕이 실리콘 CMOS 기반 양자컴퓨팅 가능성을 언급했다.",
+        "기사 본문이 짧아 구체적 수치와 일정은 확인되지 않으며, 1만 배 집적도 향상은 기사 제목에 나온 주장이다.",
+        "업계적으로는 집적도 확대보다 큐빗 제어 기술이 내결함성 양자컴퓨터 실현의 핵심 과제로 제기된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "양자컴퓨팅",
+        "실리콘 CMOS",
+        "큐빗 제어",
+        "내결함성",
+        "칩 집적"
+      ],
+      "companies": [
+        "퀀텀모션"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T01:19:12Z",
+      "updated_at": "2026-11-10T01:19:12Z",
+      "articles": [
+        {
+          "key": "3a83771c5b122c31",
+          "title": "Exclusive: Quantum Motion makes 10,000-fold leap in chip integration, but qubit control remains the real test",
+          "url": "https://www.digitimes.com/news/a20261109VL212/quantum-computer-silicon-manufacturing-component-taiwan.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T01:19:12Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261109-0660",
+      "headline": "한화세미텍, 김진우 사업총괄 신임 대표 내정",
+      "summary": [
+        "한화세미텍이 김진우 사업총괄을 새 대표이사로 내정했다는 소식이 여러 매체를 통해 전해졌다.",
+        "김 내정자는 37세로 알려졌으며, 컨설팅 전문가 출신의 젊은 리더로 소개됐다.",
+        "회사 장비 매출이 3분기에 크게 늘었다는 보도와 함께 경영진 교체가 주목받고 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "한화세미텍",
+        "경영진 교체",
+        "HBM 본더",
+        "열압착 본더",
+        "장비 매출"
+      ],
+      "companies": [
+        "한화세미텍"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "한화세미텍"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점, 매체 4곳 보도 +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-09T05:05:23Z",
+      "updated_at": "2026-11-10T01:18:58Z",
+      "articles": [
+        {
+          "key": "a8d5a136a2d1809a",
+          "title": "한화세미텍, 30대 신임 대표 카드…김진우 사업총괄 내정",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409465",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-09T05:05:23Z"
+        },
+        {
+          "key": "def938879ccabd33",
+          "title": "한화세미텍, 컨설팅 전문가 김진우 사업총괄 신임 대표로 내정",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65121",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-09T07:06:13Z"
+        },
+        {
+          "key": "0c9c6aa44ece80bf",
+          "title": "한화세미텍, 새 대표에 김진우 사업총괄 내정…37세 젊은 리더 발탁",
+          "url": "https://www.dt.co.kr/article/12094058",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-09T08:23:55Z"
+        },
+        {
+          "key": "547b1fd982cb1f2e",
+          "title": "Hanwha Semitech taps new CEO as chip equipment sales more than double in 3Q26",
+          "url": "https://www.digitimes.com/news/a20261109VL232/hanwha-ceo-equipment-sales-business.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T01:18:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261109-0698",
+      "headline": "엔비디아 젠슨 황 CEO 불륜 스캔들, 시총 258조 증발",
+      "summary": [
+        "젠슨 황 엔비디아 CEO가 중국 스파이 의혹을 받는 여성 기업인과 불륜을 인정하고 가족에게 사과했다.",
+        "엔비디아 주가는 4.3% 하락한 178.67달러로 마감했고 시가총액 1921억 달러(약 258조원)가 하루 만에 증발했다.",
+        "이사회는 독립 조사에 착수했으나 기밀 유출 근거는 없다고 밝혔고, 분석가들은 해임 가능성은 낮지만 대외 신뢰도 훼손을 우려한다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "엔비디아 CEO 리스크",
+        "이사회 조사",
+        "칩 밀반입",
+        "메가스피드"
+      ],
+      "companies": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T10:15:50Z",
+      "updated_at": "2026-11-10T01:14:28Z",
+      "articles": [
+        {
+          "key": "d199b9e5bce59418",
+          "title": "엔비디아, 젠슨 황 ‘불륜’ 폭탄…시간외거래 4%대 급락",
+          "url": "https://www.dt.co.kr/article/12094105",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-09T10:15:50Z"
+        },
+        {
+          "key": "c704185017ed5b88",
+          "title": "‘불륜 스캔들’ 젠슨 황, CEO 자리 지킬까…전문가들 전망은",
+          "url": "https://zdnet.co.kr/view/?no=20261110092936",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-10T01:14:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261110-0718",
       "headline": "엔비디아 주주, 젠슨 황 中 스파이 의혹에 집단소송",
@@ -130,50 +965,6 @@
           "source": "Semiconductor Digest",
           "lang": "en",
           "published_at": "2026-11-10T01:04:14Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261110-0715",
-      "headline": "삼성전자, 스타트업 1천곳 육성 지원 확대",
-      "summary": [
-        "삼성전자가 서울 서초구 R&D캠퍼스에서 2026 C랩 스타트업 데모데이를 열었다.",
-        "기사 요약문이 잘려 있어 구체적인 참여 규모와 세부 지원 내용은 확인되지 않는다.",
-        "스타트업 투자 유치와 협력 확대를 돕는 방향으로, 반도체 생태계 저변 확대와 연결될 수 있다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "C랩",
-        "스타트업 육성",
-        "투자유치",
-        "협력 확대"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "홍보·수상",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 2,
-      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자) +1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-10T01:00:02Z",
-      "updated_at": "2026-11-10T01:00:02Z",
-      "articles": [
-        {
-          "key": "5e32bd1b1a08030b",
-          "title": "삼성전자, 스타트업 1천곳 육성…투자유치·협력 확대 지원",
-          "url": "https://www.yna.co.kr/view/AKR20261110030000003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-10T01:00:02Z"
         }
       ],
       "type_checked": true,
@@ -414,6 +1205,52 @@
       ],
       "type_checked": true,
       "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0719",
+      "headline": "AP시스템 올해 반도체장비 수주 1000억 돌파, 레이저 장비 확대",
+      "summary": [
+        "AP시스템이 올해 반도체 장비 신규 수주가 1000억원을 넘었다고 밝혔으며 연간 기준 처음이다.",
+        "주력 RTP 장비 수주가 늘었고 레이저 기반 신규 장비도 수주했으며, 지난해 매출 652억원의 1.5배 수준이다.",
+        "OLED 레이저 기술을 반도체 공정에 적용해 장비 매출 비중을 2030년 30%로 높일 계획이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "RTP",
+        "레이저 장비",
+        "HBM",
+        "반도체 장비 수주",
+        "레이저 다이싱"
+      ],
+      "companies": [
+        "AP시스템",
+        "삼성전자"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "AP시스템"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T00:18:10Z",
+      "updated_at": "2026-11-10T00:18:10Z",
+      "articles": [
+        {
+          "key": "7f0b0c1b3ae23e1c",
+          "title": "AP시스템, \"올해 반도체장비 신규수주 1000억원\"",
+          "url": "https://zdnet.co.kr/view/?no=20261110084740",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-10T00:18:10Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261110-0711",
@@ -768,50 +1605,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261109-0703",
-      "headline": "국내 상장사 소액주주 18개월 새 24% 증가",
-      "summary": [
-        "국내 상장사의 소액주주 수가 최근 18개월 사이 24% 늘어난 것으로 나타났다.",
-        "삼성전자가 소액주주 797만명으로 가장 많았고, SK하이닉스와 LS일렉트릭 등 대형주도 증가세를 이끌었다.",
-        "주식 투자 저변이 넓어진 신호로, 반도체 대형주에 개인 자금이 몰리는 흐름을 보여준다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "소액주주",
-        "주식투자",
-        "상장사",
-        "개인투자자"
-      ],
-      "companies": [
-        "삼성전자",
-        "SK하이닉스",
-        "LS일렉트릭"
-      ],
-      "event_type": "시장 전망·통계",
-      "confirmed": true,
-      "parties": [],
-      "importance": 2,
-      "importance_reason": "시장 전망·통계 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-09T21:00:04Z",
-      "updated_at": "2026-11-09T21:00:04Z",
-      "articles": [
-        {
-          "key": "961f6aa3e8d3acd1",
-          "title": "국내 상장사 소액주주 18개월 새 24%↑…삼성전자 797만명 1위",
-          "url": "https://www.yna.co.kr/view/AKR20261109118900003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-09T21:00:04Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261107-0608",
@@ -1172,46 +1965,118 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261109-0698",
-      "headline": "엔비디아 젠슨 황 CEO 스캔들에 시간외 주가 급락",
+      "id": "c20261109-0658",
+      "headline": "SKT·리벨리온·엔비디아, 국산 NPU 결합 소버린 AI 협력",
       "summary": [
-        "젠슨 황 엔비디아 CEO의 불륜 스캔들이 보도되며 주가가 흔들렸다.",
-        "9일 현지 월요 개장 전 시간외거래에서 엔비디아 주가가 5% 가까이 떨어졌다고 전해졌다.",
-        "다만 기사 내용이 짧아 실제 사실관계와 주가 영향의 지속성은 추가 확인이 필요하다."
+        "SK텔레콤, 리벨리온, 엔비디아가 NV링크 퓨전 기반 업무협약을 체결하고 GPU와 NPU를 함께 쓰는 AI데이터센터 구축에 나선다.",
+        "리벨리온의 차세대 R200 NPU를 엔비디아 플랫폼에 연결하고 SKT 데이터센터에서 이기종 컴퓨팅 환경을 구현할 계획이다.",
+        "국산 NPU의 해외 시장 진출 기반이 될 수 있으나 구체적 일정과 투자 규모는 기사에 나오지 않았다."
       ],
-      "category": "실적/투자/시장",
+      "category": "AI반도체",
       "tags": [
-        "젠슨 황",
-        "시간외거래",
-        "주가 급락",
-        "경영 리스크"
+        "소버린 AI",
+        "NV링크 퓨전",
+        "NPU",
+        "이기종 컴퓨팅",
+        "AI데이터센터",
+        "R200"
       ],
       "companies": [
+        "SK텔레콤",
+        "리벨리온",
         "엔비디아"
       ],
-      "event_type": "주가 등락",
-      "confirmed": false,
-      "parties": [],
-      "importance": 1,
-      "importance_reason": "주가 등락 1점, 미확정 -1 → 1점(최저점)",
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "SK텔레콤",
+        "리벨리온",
+        "엔비디아"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 매체 7곳 보도 +1 → 4점",
       "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-09T10:15:50Z",
-      "updated_at": "2026-11-09T10:15:50Z",
+      "needs_summary": true,
+      "attempts": 1,
+      "region": "both",
+      "first_seen": "2026-11-09T05:00:00Z",
+      "updated_at": "2026-11-09T10:00:00Z",
       "articles": [
         {
-          "key": "d199b9e5bce59418",
-          "title": "엔비디아, 젠슨 황 ‘불륜’ 폭탄…시간외거래 4%대 급락",
-          "url": "https://www.dt.co.kr/article/12094105",
+          "key": "81fe877546359a09",
+          "title": "SKT AIDC에 '엔비디아 GPU·리벨리온 NPU' 도입 추진⋯\"이기종 시스템 구현\"",
+          "url": "https://www.inews24.com/view/2024051",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-09T05:00:00Z"
+        },
+        {
+          "key": "69b059aada1a8a5c",
+          "title": "[AI픽] 국산 NPU, 엔비디아와 손잡고 글로벌 AI 시장 공략",
+          "url": "https://www.yna.co.kr/view/AKR20261109045800017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-09T05:00:02Z"
+        },
+        {
+          "key": "b43a6cb5c05cae33",
+          "title": "리벨리온, 엔비디아·SKT와 국산 NPU로 소버린 AI 인프라 구축",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409466",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-09T05:10:39Z"
+        },
+        {
+          "key": "cb02defa4ccb47f2",
+          "title": "Nvidia, SK Telecom, Rebellions forge AI chip alliance",
+          "url": "https://www.koreaherald.com/article/10930773",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-09T05:18:42Z"
+        },
+        {
+          "key": "834b332935c72e6a",
+          "title": "엔비디아 GPU에 국산 NPU 결합…SKT 데이터센터서 실증",
+          "url": "https://www.dt.co.kr/article/12093974",
           "source": "디지털타임스",
           "lang": "ko",
-          "published_at": "2026-11-09T10:15:50Z"
+          "published_at": "2026-11-09T05:36:51Z"
+        },
+        {
+          "key": "6220051e65bc51d8",
+          "title": "리벨리온, 엔비디아·SKT와 한국형 소버린 AI 기반 넓힌다",
+          "url": "https://www.yna.co.kr/view/AKR20261109100900017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-09T05:41:17Z"
+        },
+        {
+          "key": "334cdaf8b2509983",
+          "title": "엔비디아 올라탄 토종NPU...소버린AI로 글로벌 토큰시장 진출",
+          "url": "https://zdnet.co.kr/view/?no=20261109152937",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-09T06:29:37Z"
+        },
+        {
+          "key": "4619f4774902c9e7",
+          "title": "SKT, 엔비디아 GPU·리벨리온 NPU 결합⋯\"소버린 AI 토큰 공급\"(종합)",
+          "url": "https://www.inews24.com/view/2024185",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-09T07:14:04Z"
+        },
+        {
+          "key": "781cb43852c0820b",
+          "title": "엔비디아, 한국 AI 산업 생태계와 협력 확대…반도체부 자율주행·로보틱스 등",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343141",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-09T10:00:00Z"
         }
       ],
       "type_checked": true,
-      "importance_raw": 0
+      "importance_raw": 4
     },
     {
       "id": "c20261109-0697",
@@ -1773,66 +2638,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261109-0660",
-      "headline": "한화세미텍, 김진우 사업총괄 신임 대표 내정",
-      "summary": [
-        "한화세미텍이 김진우 사업총괄을 신임 대표이사로 내정했다.",
-        "김 내정자는 반도체 장비 사업 확대와 산업용 장비 사업구조 개편을 이끌어온 전략 전문가로 알려졌다.",
-        "회사는 젊은 리더를 전면에 배치해 성장동력 확보에 나설 계획이다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "한화세미텍",
-        "반도체 장비",
-        "대표이사 교체",
-        "사업구조 개편"
-      ],
-      "companies": [
-        "한화세미텍"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "한화세미텍"
-      ],
-      "importance": 4,
-      "importance_reason": "경영진 교체 3점, 매체 3곳 보도 +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-09T05:05:23Z",
-      "updated_at": "2026-11-09T08:23:55Z",
-      "articles": [
-        {
-          "key": "a8d5a136a2d1809a",
-          "title": "한화세미텍, 30대 신임 대표 카드…김진우 사업총괄 내정",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409465",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-09T05:05:23Z"
-        },
-        {
-          "key": "def938879ccabd33",
-          "title": "한화세미텍, 컨설팅 전문가 김진우 사업총괄 신임 대표로 내정",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65121",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-09T07:06:13Z"
-        },
-        {
-          "key": "0c9c6aa44ece80bf",
-          "title": "한화세미텍, 새 대표에 김진우 사업총괄 내정…37세 젊은 리더 발탁",
-          "url": "https://www.dt.co.kr/article/12094058",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-09T08:23:55Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
     },
     {
       "id": "c20261109-0684",
@@ -2551,112 +3356,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261109-0658",
-      "headline": "SKT·리벨리온·엔비디아, 국산 NPU 결합 소버린 AI 협력",
-      "summary": [
-        "SK텔레콤, 리벨리온, 엔비디아가 NV링크 퓨전 기반 업무협약을 체결하고 GPU와 NPU를 함께 쓰는 AI데이터센터 구축에 나선다.",
-        "리벨리온의 차세대 R200 NPU를 엔비디아 플랫폼에 연결하고 SKT 데이터센터에서 이기종 컴퓨팅 환경을 구현할 계획이다.",
-        "국산 NPU의 해외 시장 진출 기반이 될 수 있으나 구체적 일정과 투자 규모는 기사에 나오지 않았다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "소버린 AI",
-        "NV링크 퓨전",
-        "NPU",
-        "이기종 컴퓨팅",
-        "AI데이터센터",
-        "R200"
-      ],
-      "companies": [
-        "SK텔레콤",
-        "리벨리온",
-        "엔비디아"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "SK텔레콤",
-        "리벨리온",
-        "엔비디아"
-      ],
-      "importance": 4,
-      "importance_reason": "수주·공급 3점, 매체 6곳 보도 +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-09T05:00:00Z",
-      "updated_at": "2026-11-09T07:14:04Z",
-      "articles": [
-        {
-          "key": "81fe877546359a09",
-          "title": "SKT AIDC에 '엔비디아 GPU·리벨리온 NPU' 도입 추진⋯\"이기종 시스템 구현\"",
-          "url": "https://www.inews24.com/view/2024051",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-09T05:00:00Z"
-        },
-        {
-          "key": "69b059aada1a8a5c",
-          "title": "[AI픽] 국산 NPU, 엔비디아와 손잡고 글로벌 AI 시장 공략",
-          "url": "https://www.yna.co.kr/view/AKR20261109045800017",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-09T05:00:02Z"
-        },
-        {
-          "key": "b43a6cb5c05cae33",
-          "title": "리벨리온, 엔비디아·SKT와 국산 NPU로 소버린 AI 인프라 구축",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409466",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-09T05:10:39Z"
-        },
-        {
-          "key": "cb02defa4ccb47f2",
-          "title": "Nvidia, SK Telecom, Rebellions forge AI chip alliance",
-          "url": "https://www.koreaherald.com/article/10930773",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-11-09T05:18:42Z"
-        },
-        {
-          "key": "834b332935c72e6a",
-          "title": "엔비디아 GPU에 국산 NPU 결합…SKT 데이터센터서 실증",
-          "url": "https://www.dt.co.kr/article/12093974",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-09T05:36:51Z"
-        },
-        {
-          "key": "6220051e65bc51d8",
-          "title": "리벨리온, 엔비디아·SKT와 한국형 소버린 AI 기반 넓힌다",
-          "url": "https://www.yna.co.kr/view/AKR20261109100900017",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-09T05:41:17Z"
-        },
-        {
-          "key": "334cdaf8b2509983",
-          "title": "엔비디아 올라탄 토종NPU...소버린AI로 글로벌 토큰시장 진출",
-          "url": "https://zdnet.co.kr/view/?no=20261109152937",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-09T06:29:37Z"
-        },
-        {
-          "key": "4619f4774902c9e7",
-          "title": "SKT, 엔비디아 GPU·리벨리온 NPU 결합⋯\"소버린 AI 토큰 공급\"(종합)",
-          "url": "https://www.inews24.com/view/2024185",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-09T07:14:04Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
     },
     {
       "id": "c20261109-0670",
@@ -4413,53 +5112,6 @@
           "source": "KIPOST",
           "lang": "ko",
           "published_at": "2026-11-09T00:30:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261109-0635",
-      "headline": "렌즈테크놀로지, 연내 유리기판 파일럿 양산라인 가동 계획",
-      "summary": [
-        "렌즈테크놀로지가 올해 말 첫 TGV 유리기판 파일럿 양산라인을 가동할 계획이라고 밝혔다.",
-        "라인은 515×510㎜ 기준 월 약 300장 규모이며 내년에는 월 3000장 수준으로 확대할 예정이다.",
-        "유리기판 생산능력 확보와 함께 한국 반도체·메모리 고객사 협력이 AI 반도체 패키징 시장에서 중요해질 전망이다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "유리기판",
-        "TGV",
-        "AI반도체 패키징",
-        "UTG",
-        "인텔 협력"
-      ],
-      "companies": [
-        "렌즈테크놀로지",
-        "인텔",
-        "애플"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": false,
-      "parties": [
-        "렌즈테크놀로지"
-      ],
-      "importance": 2,
-      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-08T23:56:03Z",
-      "updated_at": "2026-11-08T23:56:03Z",
-      "articles": [
-        {
-          "key": "bd955c3281a00d1f",
-          "title": "中 렌즈테크놀로지, 연내 유리기판 양산라인 가동…\"韓기업과 협력 기대\"",
-          "url": "https://zdnet.co.kr/view/?no=20261109081004",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-08T23:56:03Z"
         }
       ],
       "type_checked": true,
