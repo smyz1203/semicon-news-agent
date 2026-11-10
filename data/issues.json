@@ -1,7 +1,226 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T09:04:40Z",
+  "updated_at": "2026-11-10T10:06:45Z",
   "issues": [
+    {
+      "id": "c20261110-0780",
+      "headline": "LG화학, 여수공장 반도체 소재 생산기지 전환 검토",
+      "summary": [
+        "LG화학이 과잉 공급으로 수익성이 악화된 기초소재 공장을 반도체 신소재 생산기지로 바꾸는 방안을 검토하고 있다.",
+        "기사에서는 범용 석유화학 비중을 낮추고 첨단소재 중심으로 사업 구조를 재편하는 전략의 일환이라고 전한다.",
+        "범용 석유화학 사업의 구조 전환 사례로, 반도체 소재 공급망 확대 흐름을 보여준다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "반도체 세정 소재",
+        "여수공장",
+        "증설 검토",
+        "사업 구조 재편"
+      ],
+      "companies": [
+        "LG화학"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "LG화학"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T09:49:34Z",
+      "updated_at": "2026-11-10T09:49:34Z",
+      "articles": [
+        {
+          "key": "47539719ada983eb",
+          "title": "LG화학, 여수공장서 ‘반도체 세정 소재’ 증설 검토",
+          "url": "https://www.dt.co.kr/article/12094372",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-10T09:49:34Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0738",
+      "headline": "호남 반도체 클러스터 팹 배치 이달 내 확정 전망",
+      "summary": [
+        "산업통상부 김정관 장관은 호남 반도체 클러스터 사업에서 기업들의 팹 배치를 이달 안에 마무리한다고 밝혔다.",
+        "삼성전자와 SK하이닉스가 건설할 생산시설의 배치 계획이 이달 중 확정될 전망이며, 정부는 기업 협의 후 입주협약을 체결할 방침이다.",
+        "부지 조성에 속도가 붙으면 호남 지역 반도체 생산 기반 구축이 본격화될 것으로 보인다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "호남 반도체 클러스터",
+        "팹 배치",
+        "산업단지 입주협약",
+        "부지 조성"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "지역·인프라 2점, 관심 기업(SK하이닉스, 삼성전자) +1, 매체 3곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T03:07:27Z",
+      "updated_at": "2026-11-10T09:46:18Z",
+      "articles": [
+        {
+          "key": "257fe2ee52f7d6af",
+          "title": "산업장관 \"호남 반도체 클러스터 팹 배치 이달 내 마무리\"",
+          "url": "https://www.yna.co.kr/view/AKR20261110091000001",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T03:07:27Z"
+        },
+        {
+          "key": "3d6dfcbda2babf58",
+          "title": "산업장관, 호남 반도체 ‘삼전닉스’ 배치 “이달 내 마무리”",
+          "url": "https://www.dt.co.kr/article/12094236",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-10T04:33:17Z"
+        },
+        {
+          "key": "d4f46e8cc4ab9791",
+          "title": "산업장관 \"호남 반도체 클러스터 팹 배치 이달 내 마무리\"(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261110091051001",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T09:30:49Z"
+        },
+        {
+          "key": "b8589edcd5f055c9",
+          "title": "김정관 \"호남 반도체 클러스터 팹 배치, 이달 안에 마무리 예정\"",
+          "url": "https://www.inews24.com/view/2024744",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-10T09:46:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261110-0757",
+      "headline": "스마트폰 OLED 출하 감소 속 삼성디스플레이 1위 유지 전망",
+      "summary": [
+        "올해 글로벌 스마트폰용 OLED 패널 출하량이 전년 대비 7.3% 감소할 것으로 전망됐다.",
+        "메모리 반도체 공급난과 생산비 상승으로 스마트폰 생산이 위축된 것이 원인으로 꼽힌다.",
+        "반면 폴더블·롤러블 OLED 출하는 크게 늘어 삼성디스플레이의 1위 지위 유지에 힘이 실린다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "스마트폰 OLED",
+        "폴더블 OLED",
+        "롤러블 OLED",
+        "출하량 전망",
+        "메모리 공급난"
+      ],
+      "companies": [
+        "삼성디스플레이"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "삼성디스플레이"
+      ],
+      "importance": 4,
+      "importance_reason": "시장 전망·통계 2점, 관심 기업(삼성디스플레이) +1, 매체 3곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T05:58:59Z",
+      "updated_at": "2026-11-10T09:45:25Z",
+      "articles": [
+        {
+          "key": "ddd645cff96ccc30",
+          "title": "삼성D, 올해 스마트폰 올레드 1위 유지…폴더블 급성장 전망",
+          "url": "https://www.yna.co.kr/view/AKR20261110119200003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T05:58:59Z"
+        },
+        {
+          "key": "8b630a5c7ace1069",
+          "title": "“삼성D, OLED 시장 1위 수성…폴더블 패널 성장 가속”",
+          "url": "https://www.dt.co.kr/article/12094304",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-10T07:26:16Z"
+        },
+        {
+          "key": "513776b9c1afdb2e",
+          "title": "스마트폰 OLED 출하량 올해 7.3%↓…삼성디스플레이 1위 유지",
+          "url": "https://www.inews24.com/view/2024722",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-10T09:45:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261110-0779",
+      "headline": "엔비디아 젠슨 황 의존도와 스파이 수사 논란",
+      "summary": [
+        "엔비디아를 둘러싼 스파이 수사 관련 보도가 나왔으나 기사 본문이 제공되지 않아 세부 내용은 확인되지 않는다.",
+        "기사에는 엔비디아의 최고경영자 의존도가 주요 쟁점으로 다뤄진 것으로 보이나 구체적 사실은 파악되지 않는다.",
+        "확인되지 않은 보도여서 산업적 영향은 판단하기 어렵고 추가 공식 발표를 지켜볼 필요가 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "스파이 수사",
+        "엔비디아",
+        "경영진 리스크",
+        "최고경영자 의존"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T09:35:00Z",
+      "updated_at": "2026-11-10T09:35:00Z",
+      "articles": [
+        {
+          "key": "a067524c984462f1",
+          "title": "Spy probe highlights Nvidia's heavy reliance on CEO",
+          "url": "https://www.digitimes.com/news/a20261110VL217/nvidia-jensen-huang-management-probe-ceo.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T09:35:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261110-0778",
       "headline": "삼성 EUV 블랭크마스크 조달 차질 우려, 호야 공급 확대 난색",
@@ -832,59 +1051,6 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261110-0757",
-      "headline": "삼성디스플레이, 스마트폰 OLED 1위 유지 전망",
-      "summary": [
-        "카운터포인트리서치는 올해 글로벌 스마트폰 OLED 패널 시장이 역성장할 것으로 내다봤다.",
-        "삼성디스플레이는 저전력·고성능 기술을 앞세워 프리미엄 패널 시장에서 1위를 지키고 있다.",
-        "폴더블 패널이 빠르게 성장하며 삼성디스플레이의 수익 기반을 넓히는 요인이 될 전망이다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "스마트폰 OLED",
-        "폴더블 패널",
-        "저전력 기술",
-        "프리미엄 패널",
-        "시장 점유율"
-      ],
-      "companies": [
-        "삼성디스플레이"
-      ],
-      "event_type": "시장 전망·통계",
-      "confirmed": true,
-      "parties": [
-        "삼성디스플레이"
-      ],
-      "importance": 3,
-      "importance_reason": "시장 전망·통계 2점, 관심 기업(삼성디스플레이) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-10T05:58:59Z",
-      "updated_at": "2026-11-10T07:26:16Z",
-      "articles": [
-        {
-          "key": "ddd645cff96ccc30",
-          "title": "삼성D, 올해 스마트폰 올레드 1위 유지…폴더블 급성장 전망",
-          "url": "https://www.yna.co.kr/view/AKR20261110119200003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-10T05:58:59Z"
-        },
-        {
-          "key": "8b630a5c7ace1069",
-          "title": "“삼성D, OLED 시장 1위 수성…폴더블 패널 성장 가속”",
-          "url": "https://www.dt.co.kr/article/12094304",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-10T07:26:16Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
       "id": "c20261110-0731",
       "headline": "삼성디스플레이, 차량용 OLED 사이버 보안 인증 2종 획득",
       "summary": [
@@ -987,19 +1153,28 @@
     },
     {
       "id": "c20261110-0764",
-      "headline": "",
-      "summary": [],
-      "category": "",
-      "tags": [],
+      "headline": "국산 AI 반도체·클라우드 융합 산학연 논의",
+      "summary": [
+        "산학연 관계자들이 국산 AI 반도체와 클라우드를 융합하는 방안을 논의했다.",
+        "기사 본문이 제공되지 않아 구체적인 참석 기관, 일정, 수치는 확인할 수 없다.",
+        "국산 AI 반도체 생태계 확장 방향을 모색하는 움직임으로 볼 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI반도체",
+        "클라우드",
+        "국산 반도체",
+        "산학연 협력"
+      ],
       "companies": [],
-      "event_type": "",
-      "confirmed": null,
+      "event_type": "업계 일반",
+      "confirmed": false,
       "parties": [],
-      "importance": 0,
-      "importance_reason": "",
-      "status": "pending",
-      "needs_summary": true,
-      "attempts": 1,
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
       "region": "ko",
       "first_seen": "2026-11-10T07:05:46Z",
       "updated_at": "2026-11-10T07:05:46Z",
@@ -1012,7 +1187,9 @@
           "lang": "ko",
           "published_at": "2026-11-10T07:05:46Z"
         }
-      ]
+      ],
+      "type_checked": true,
+      "importance_raw": 1
     },
     {
       "id": "c20261110-0763",
@@ -1598,60 +1775,6 @@
       ],
       "type_checked": true,
       "importance_raw": 4
-    },
-    {
-      "id": "c20261110-0738",
-      "headline": "호남 반도체 클러스터 팹 배치, 이달 내 마무리 전망",
-      "summary": [
-        "김정관 산업통상부 장관이 호남 반도체 클러스터 입주 기업들의 입장에 변함이 없다고 밝혔다.",
-        "이달 내 반도체 생산시설(팹) 배치를 마무리한다는 계획이며, 전력·용수 공급 계획과 연계된다.",
-        "지역 반도체 생태계 조성이 본격화되는 신호로, 생산 거점 확정 일정이 가시화됐다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "호남 반도체 클러스터",
-        "팹 배치",
-        "전력·용수 공급",
-        "지역 인프라"
-      ],
-      "companies": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "event_type": "지역·인프라",
-      "confirmed": true,
-      "parties": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "importance": 3,
-      "importance_reason": "지역·인프라 2점, 관심 기업(SK하이닉스, 삼성전자) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-10T03:07:27Z",
-      "updated_at": "2026-11-10T04:33:17Z",
-      "articles": [
-        {
-          "key": "257fe2ee52f7d6af",
-          "title": "산업장관 \"호남 반도체 클러스터 팹 배치 이달 내 마무리\"",
-          "url": "https://www.yna.co.kr/view/AKR20261110091000001",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-10T03:07:27Z"
-        },
-        {
-          "key": "3d6dfcbda2babf58",
-          "title": "산업장관, 호남 반도체 ‘삼전닉스’ 배치 “이달 내 마무리”",
-          "url": "https://www.dt.co.kr/article/12094236",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-10T04:33:17Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261110-0751",
