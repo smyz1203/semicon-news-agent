@@ -1,7 +1,515 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T02:59:50Z",
+  "updated_at": "2026-11-10T04:03:50Z",
   "issues": [
+    {
+      "id": "c20261110-0731",
+      "headline": "삼성디스플레이, 차량용 OLED 사이버보안 국제인증 2종 획득",
+      "summary": [
+        "삼성디스플레이가 업계 최초로 ISO/SAE 21434와 ENX 차량 사이버보안 관리체계 심사를 동시에 통과했다고 10일 발표했다.",
+        "이번 인증은 용인 사옥에서 열린 기념식을 통해 공개됐으며, 인증 기관 DQS가 평가를 진행했다.",
+        "소프트웨어 중심 차량(SDV) 전환에 따라 차량 부품 보안 요구가 커지는 가운데 완성차 기준 대응력을 높인 의미가 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "차량용 OLED",
+        "사이버보안",
+        "ISO/SAE 21434",
+        "SDV",
+        "ENX"
+      ],
+      "companies": [
+        "삼성디스플레이"
+      ],
+      "event_type": "인수합병",
+      "confirmed": true,
+      "parties": [
+        "삼성디스플레이",
+        "DQS"
+      ],
+      "importance": 4,
+      "importance_reason": "인수합병 2점, 관심 기업(삼성디스플레이) +1, 매체 4곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T02:27:55Z",
+      "updated_at": "2026-11-10T03:58:03Z",
+      "articles": [
+        {
+          "key": "91bfc11d1966872d",
+          "title": "삼성디스플레이, 차량용 OLED 보안 경쟁력 입증…국제 인증 2종 동시 획득",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409506",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T02:27:55Z"
+        },
+        {
+          "key": "e4256d3ac41f1a62",
+          "title": "삼성디스플레이, SDV 시대 차량용 OLED 보안 신뢰성 높인다",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343157",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-10T02:30:00Z"
+        },
+        {
+          "key": "4f12461e4d3bd0e0",
+          "title": "삼성디스플레이, 업계 첫 자동차 사이버보안 인증 2종 획득",
+          "url": "https://www.yna.co.kr/view/AKR20261110088000003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T02:44:16Z"
+        },
+        {
+          "key": "c037b4b4ff3752bf",
+          "title": "삼성디스플레이, 차량용 OLED 사이버 보안 국제 인증 동시 획득",
+          "url": "https://www.dt.co.kr/article/12094233",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-10T03:58:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261110-0746",
+      "headline": "한국, 차세대 디스플레이 연구 플랫폼 승인",
+      "summary": [
+        "한국 정부가 첨단 디스플레이 연구 플랫폼을 승인했다는 소식이 보도됐다.",
+        "기사 본문이 사실상 비어 있어 사업 규모, 예산, 일정 등 구체적 수치는 확인되지 않는다.",
+        "디스플레이 기술 연구 기반이 강화된다는 점에서 관련 산업의 중장기 경쟁력에 의미가 있을 것으로 보인다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "디스플레이",
+        "연구 플랫폼",
+        "정부 승인"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T03:48:41Z",
+      "updated_at": "2026-11-10T03:48:41Z",
+      "articles": [
+        {
+          "key": "48949ca0ea3a4c0f",
+          "title": "South Korea approves advanced display research platform",
+          "url": "https://www.digitimes.com/news/a20261110PR200/display-development-technology-budget-panel.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T03:48:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0745",
+      "headline": "리벨리온, AI 반도체 우주 시험 정부 지원 요청",
+      "summary": [
+        "리벨리온이 AI 반도체를 우주에서 시험하기 위해 정부의 지원을 요청했다.",
+        "기사 본문이 사실상 비어 있어 구체적인 사업 규모나 일정은 확인되지 않는다.",
+        "우주 환경에서의 AI 반도체 검증은 국내 팹리스의 새로운 응용 분야를 보여주는 사례다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI반도체",
+        "우주 시험",
+        "정부 지원",
+        "팹리스"
+      ],
+      "companies": [
+        "리벨리온"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [
+        "리벨리온"
+      ],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T03:45:00Z",
+      "updated_at": "2026-11-10T03:45:00Z",
+      "articles": [
+        {
+          "key": "7f89ff5c73aa7bf1",
+          "title": "Rebellions calls for govt support to test AI chips in space",
+          "url": "https://www.digitimes.com/news/a20261110PD220/chips-data-government-hardware-market.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T03:45:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261110-0744",
+      "headline": "엔비디아·SPIL, 2027년 CPO 양산 출하 목표",
+      "summary": [
+        "엔비디아와 SPIL이 CPO(공동패키징광학) 제품의 대량 출하를 2027년으로 겨냥하고 있다고 보도됐다.",
+        "기사 본문은 확인 가능한 내용이 없어 구체적 수치나 일정 세부사항은 알 수 없다.",
+        "광통신과 AI 칩 패키징을 결합하는 CPO 기술이 상용화 단계로 가까워진다는 신호로 볼 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "CPO",
+        "공동패키징광학",
+        "AI반도체",
+        "패키징"
+      ],
+      "companies": [
+        "엔비디아",
+        "SPIL"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "엔비디아",
+        "SPIL"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T03:41:37Z",
+      "updated_at": "2026-11-10T03:41:37Z",
+      "articles": [
+        {
+          "key": "e7c96644ed9945f6",
+          "title": "Nvidia, SPIL target CPO volume shipments in 2027",
+          "url": "https://www.digitimes.com/news/a20261110PD223/cpo-spil-nvidia-infrastructure-investment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T03:41:37Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0743",
+      "headline": "2026년 스마트폰 OLED 패널 시장 압박 전망",
+      "summary": [
+        "카운터포인트가 2026년 스마트폰 OLED 패널 시장에 압박이 있을 것이라고 전망했다.",
+        "기사 본문이 제공되지 않아 구체적인 수치와 일정은 확인할 수 없다.",
+        "디스플레이 업계의 수요와 가격 흐름에 영향을 줄 수 있는 시장 전망으로 볼 수 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "스마트폰 패널",
+        "시장 전망",
+        "카운터포인트"
+      ],
+      "companies": [
+        "카운터포인트"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T03:40:11Z",
+      "updated_at": "2026-11-10T03:40:11Z",
+      "articles": [
+        {
+          "key": "5fcab9acf59d007a",
+          "title": "OLED smartphone panel market faces pressure in 2026, Counterpoint says",
+          "url": "https://www.digitimes.com/news/a20261110PR201/smartphone-oled-panel-display-2026.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T03:40:11Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0742",
+      "headline": "애플 OLED 아이패드 에어, 2027년 목표로 삼성디스플레이 공급 주도",
+      "summary": [
+        "애플이 2027년 출시를 목표로 OLED 패널을 적용한 아이패드 에어를 준비하는 것으로 보도됐다.",
+        "기사 본문은 사실상 사진 출처 표기만 있어 구체적 수량이나 계약 조건은 확인되지 않는다.",
+        "삼성디스플레이가 패널 공급을 주도할 것으로 전해져 중소형 OLED 시장에서의 입지가 주목된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "아이패드 에어",
+        "중소형 OLED",
+        "2027년 출시"
+      ],
+      "companies": [
+        "애플",
+        "삼성디스플레이"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "애플",
+        "삼성디스플레이"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성디스플레이) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T03:28:54Z",
+      "updated_at": "2026-11-10T03:28:54Z",
+      "articles": [
+        {
+          "key": "bd5e0bb9854b46cc",
+          "title": "Apple's OLED iPad Air targets 2027, SDC leads panel supply",
+          "url": "https://www.digitimes.com/news/a20261110PD211/apple-sdc-2027-ipad-air-panel.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T03:28:54Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261110-0741",
+      "headline": "엔비디아 조사 여파로 중국 칩 규제 강화 우려 확산",
+      "summary": [
+        "엔비디아 이사회가 젠슨 황 CEO에 대한 독립 조사를 시작하면서 주가가 4.3% 하락했다.",
+        "기사 본문은 짧아 조사 세부 내용과 규제 일정은 확인되지 않는다.",
+        "중국 칩 규제 강화가 추진되면 삼성전자와 SK하이닉스의 중국 사업 리스크가 커질 수 있다는 분석이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "엔비디아",
+        "중국 칩 규제",
+        "수출규제",
+        "독립 조사",
+        "HBM"
+      ],
+      "companies": [
+        "엔비디아",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T03:20:55Z",
+      "updated_at": "2026-11-10T03:20:55Z",
+      "articles": [
+        {
+          "key": "8be0c8b9c8ec05be",
+          "title": "Nvidia probe fuels push for China chip curbs, raising risks for Samsung, SK Hynix",
+          "url": "https://www.digitimes.com/news/a20261110VL203/nvidia-samsung-investigation-sk-hynix-ceo.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T03:20:55Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0740",
+      "headline": "퓨전, 2027년 NAND 물량 70% 선점",
+      "summary": [
+        "Phison이 2027년 NAND 공급량의 70%를 확보했다는 보도가 나왔다.",
+        "기사 본문이 없어 구체적 계약 조건과 거래 상대는 확인되지 않는다.",
+        "AI 수요 급증으로 NAND 공급 확보 경쟁이 이어지고 있음을 보여준다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "NAND",
+        "AI 수요",
+        "공급 확보",
+        "2027년"
+      ],
+      "companies": [
+        "퓨전"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T03:12:26Z",
+      "updated_at": "2026-11-10T03:12:26Z",
+      "articles": [
+        {
+          "key": "819af38feb160167",
+          "title": "Phison locks in 70% of its 2027 NAND supply as AI demand surges",
+          "url": "https://www.digitimes.com/news/a20261109PD258/phison-demand-nand-2027-ceo.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T03:12:26Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0739",
+      "headline": "CXMT 회장의 딥시크 투자 보도, 중국 반도체 자본망 주목",
+      "summary": [
+        "중국 메모리 업체 CXMT 회장이 AI 기업 딥시크에 투자했다는 보도가 나왔다.",
+        "기사 본문이 제공되지 않아 투자 규모와 시점 등 구체적 수치는 확인할 수 없다.",
+        "중국 반도체 업계의 인적·자본 연결망이 AI 분야로 확장되는 흐름을 보여준다는 평가다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "CXMT",
+        "딥시크",
+        "중국 반도체",
+        "투자 네트워크",
+        "메모리"
+      ],
+      "companies": [
+        "CXMT",
+        "딥시크"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": false,
+      "parties": [
+        "CXMT",
+        "딥시크"
+      ],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T03:11:24Z",
+      "updated_at": "2026-11-10T03:11:24Z",
+      "articles": [
+        {
+          "key": "03f3a36299a7e026",
+          "title": "CXMT chairman's reported DeepSeek investment spotlights China's semiconductor capital network",
+          "url": "https://www.digitimes.com/news/a20261110PD217/cxmt-deepseek-gigadevice-investment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T03:11:24Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
+    {
+      "id": "c20261110-0738",
+      "headline": "호남 반도체 클러스터 팹 배치 이달 내 마무리 추진",
+      "summary": [
+        "산업통상부 김정관 장관이 10일 호남 반도체 클러스터 사업과 관련해 팹 배치를 이달 안에 마무리하겠다고 밝혔다.",
+        "기사 본문이 일부만 제공돼 구체적인 배치 기업과 투자 규모 등 세부 내용은 확인되지 않는다.",
+        "지역 반도체 생태계 구축의 첫 단계인 생산시설 배치가 진전되면 클러스터 사업 속도가 빨라질 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체 클러스터",
+        "팹 배치",
+        "호남",
+        "산업통상부"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T03:07:27Z",
+      "updated_at": "2026-11-10T03:07:27Z",
+      "articles": [
+        {
+          "key": "257fe2ee52f7d6af",
+          "title": "산업장관 \"호남 반도체 클러스터 팹 배치 이달 내 마무리\"",
+          "url": "https://www.yna.co.kr/view/AKR20261110091000001",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T03:07:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0737",
+      "headline": "미 중간선거 후에도 대미 관세·투자 압박 지속 전망",
+      "summary": [
+        "대한상공회의소가 미국 중간선거 이후 통상정책 전망 보고서를 발표했다.",
+        "반도체·로봇·산업기계 등 주요 제조업 대상 통상 조치와 대미 투자 이행 감독이 강화될 수 있다고 분석했다.",
+        "한국 기업은 관세·투자·입법을 중심으로 대미 통상전략을 재정비할 필요가 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "관세",
+        "대미 투자",
+        "중간선거",
+        "통상정책",
+        "반도체"
+      ],
+      "companies": [
+        "대한상공회의소"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "대한상공회의소"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T03:00:00Z",
+      "updated_at": "2026-11-10T03:00:00Z",
+      "articles": [
+        {
+          "key": "8e8ec4e669fa4fa3",
+          "title": "대한상의 “美 중간선거 이후에도 관세·투자 압박 지속…반도체·로봇 대응 필요”",
+          "url": "https://www.etnews.com/20261110000091",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-10T03:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261109-0703",
       "headline": "상장사 소액주주 24% 증가, 보유 주식은 감소",
@@ -55,57 +563,50 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261110-0731",
-      "headline": "삼성디스플레이, 차량용 OLED 사이버보안 국제 인증 2종 획득",
+      "id": "c20261110-0736",
+      "headline": "미쓰이화학, JSR 인수 추진…반도체 소재 확대",
       "summary": [
-        "삼성디스플레이가 자동차 사이버보안 국제표준 ISO/SAE 21434와 ENX VCS 심사를 동시에 통과했다.",
-        "업계 최초로 두 인증을 함께 받았으며 차량용 OLED 제품의 보안 관리 역량을 인정받았다.",
-        "차세대 모빌리티 시장 공략에서 차량용 디스플레이의 신뢰성을 높이는 의미가 있다."
+        "미쓰이화학이 JSR을 116억 달러에 인수하는 방안을 추진하는 것으로 보도됐다.",
+        "기사 본문이 제한적이어서 인수 조건의 세부 내용과 완료 일정은 확인되지 않는다.",
+        "반도체 소재 사업 성장을 노린 움직임으로, 국내 소재 업체들의 경쟁 환경에도 영향을 줄 수 있다."
       ],
-      "category": "디스플레이",
+      "category": "장비/소재/부품",
       "tags": [
-        "차량용 OLED",
-        "사이버보안",
-        "ISO/SAE 21434",
-        "ENX VCS",
-        "자동차 디스플레이"
+        "반도체 소재",
+        "인수합병",
+        "JSR",
+        "감광재"
       ],
       "companies": [
-        "삼성디스플레이"
+        "미쓰이화학",
+        "JSR"
       ],
-      "event_type": "업계 일반",
-      "confirmed": true,
+      "event_type": "인수합병",
+      "confirmed": false,
       "parties": [
-        "삼성디스플레이"
+        "미쓰이화학",
+        "JSR"
       ],
-      "importance": 3,
-      "importance_reason": "업계 일반 2점, 관심 기업(삼성디스플레이) +1 → 3점",
+      "importance": 1,
+      "importance_reason": "인수합병 2점, 미확정 -1 → 1점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-10T02:27:55Z",
-      "updated_at": "2026-11-10T02:44:16Z",
+      "region": "en",
+      "first_seen": "2026-11-10T02:28:16Z",
+      "updated_at": "2026-11-10T02:28:16Z",
       "articles": [
         {
-          "key": "91bfc11d1966872d",
-          "title": "삼성디스플레이, 차량용 OLED 보안 경쟁력 입증…국제 인증 2종 동시 획득",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409506",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-10T02:27:55Z"
-        },
-        {
-          "key": "4f12461e4d3bd0e0",
-          "title": "삼성디스플레이, 업계 첫 자동차 사이버보안 인증 2종 획득",
-          "url": "https://www.yna.co.kr/view/AKR20261110088000003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-10T02:44:16Z"
+          "key": "b1784d0843b2827b",
+          "title": "Mitsui Chemicals to acquire JSR for US$11.6 billion, targeting semiconductor materials growth",
+          "url": "https://www.digitimes.com/news/a20261110VL201/mitsui-chemicals-jsr-acquisition-materials-business-growth.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T02:28:16Z"
         }
       ],
       "type_checked": true,
-      "importance_raw": 3
+      "importance_raw": 1
     },
     {
       "id": "c20261110-0730",
@@ -151,6 +652,95 @@
       ],
       "type_checked": true,
       "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0735",
+      "headline": "웨이브 포토닉스, 맞춤형 포토닉 칩 접근성 확대 추진",
+      "summary": [
+        "웨이브 포토닉스가 맞춤형 포토닉 칩을 더 많은 기업이 쓸 수 있도록 하겠다는 방향을 밝혔다.",
+        "기사에는 경영진 사진과 캡션만 실려 구체적 제품, 수치, 일정은 확인되지 않는다.",
+        "광 기반 반도체 설계의 진입 장벽을 낮추려는 시도로, 소규모 고객의 주문형 광집적회로 수요와 연관될 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "포토닉스",
+        "맞춤형 칩",
+        "광집적회로",
+        "실리콘 포토닉스"
+      ],
+      "companies": [
+        "웨이브 포토닉스"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": false,
+      "parties": [
+        "웨이브 포토닉스"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T02:16:51Z",
+      "updated_at": "2026-11-10T02:16:51Z",
+      "articles": [
+        {
+          "key": "2de3f57148ba69b9",
+          "title": "Exclusive: Designing light for everyone—Wave Photonics seeks to make custom photonic chips accessible",
+          "url": "https://www.digitimes.com/news/a20261110VL200/chips-testing-design-photonics-component.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T02:16:51Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
+    {
+      "id": "c20261110-0734",
+      "headline": "엔비디아, AI 서버에 PTFE 소재 도입 검토",
+      "summary": [
+        "엔비디아가 AI 서버 부품에 PTFE 소재 사용을 검토하는 것으로 보도됐다.",
+        "기사 본문은 사진 크레딧만 제공되어 구체적 수치와 일정은 확인되지 않는다.",
+        "PFAS 규제 우려 속에서 소재 선택이 AI 서버 공급망에 미칠 영향이 주목된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "PTFE",
+        "PFAS",
+        "AI서버",
+        "엔비디아",
+        "소재규제"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T02:14:45Z",
+      "updated_at": "2026-11-10T02:14:45Z",
+      "articles": [
+        {
+          "key": "f3e035854e59f70e",
+          "title": "Column: Nvidia explores PTFE for AI servers amid PFAS concerns",
+          "url": "https://www.digitimes.com/news/a20261110PD215/chemical-materials-ai-server-brand-electronics-nvidia.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T02:14:45Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
     },
     {
       "id": "c20261110-0729",
@@ -202,9 +792,9 @@
       "id": "c20261110-0720",
       "headline": "딥엑스 2나노 AI칩 DX-M2, CES 2027 혁신상 수상",
       "summary": [
-        "딥엑스가 삼성전자 2나노 공정을 적용한 차세대 AI 반도체 DX-M2로 CES 2027 혁신상 AI 부문 수상작에 선정됐다.",
-        "DX-M2는 약 5와트 전력으로 LLM·VLM을 직접 실행하며, 내년 3월 첫 실리콘 확보 후 4분기 초기 양산을 계획한다.",
-        "로봇·산업용 기기의 클라우드 의존도를 낮춰 온디바이스 생성형 AI 시장 확대에 의미가 있다."
+        "딥엑스의 차세대 생성형 AI 반도체 DX-M2가 CES 2027 인공지능 부문 혁신상 수상 제품으로 선정됐다.",
+        "DX-M2는 삼성전자 2나노 공정으로 만들어졌으며 로봇·산업용 기기에서 LLM과 VLM을 직접 실행할 수 있다.",
+        "초저전력 온디바이스 AI 반도체의 기술력이 국제적으로 인정받아 삼성 파운드리 고객 사례로 주목된다."
       ],
       "category": "AI반도체",
       "tags": [
@@ -212,20 +802,19 @@
         "2나노",
         "온디바이스 AI",
         "CES 혁신상",
-        "저전력 AI 칩"
+        "LLM"
       ],
       "companies": [
         "딥엑스",
         "삼성전자"
       ],
-      "event_type": "홍보·수상",
+      "event_type": "소송·특허",
       "confirmed": true,
       "parties": [
-        "딥엑스",
-        "삼성전자"
+        "딥엑스"
       ],
-      "importance": 3,
-      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자) +1, 매체 3곳 보도 +1 → 3점",
+      "importance": 4,
+      "importance_reason": "소송·특허 3점, 매체 4곳 보도 +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -240,6 +829,14 @@
           "source": "ZDNet Korea",
           "lang": "ko",
           "published_at": "2026-11-10T00:56:47Z"
+        },
+        {
+          "key": "0c36397eceec8a73",
+          "title": "딥엑스, 차세대 AI 반도체 'DX-M2' CES 2027 'AI 부문' 혁신상 수상",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343155",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-10T01:00:00Z"
         },
         {
           "key": "dd0b0f7e0383161a",
@@ -259,22 +856,65 @@
         }
       ],
       "type_checked": true,
-      "importance_raw": 3
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261110-0733",
+      "headline": "중국 반도체 투자 확대, 조용한 방식으로 지배력 강화",
+      "summary": [
+        "중국 반도체 투자 생태계가 소리 없이 영향력을 키우는 흐름을 다룬 해설 기사다.",
+        "기사 본문은 CXMT 의장 사진 캡션만 포함되어 구체적 투자 규모와 일정은 확인되지 않는다.",
+        "업계는 중국 메모리 업체의 확장이 글로벌 공급 구도에 주는 영향을 주목할 필요가 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "중국 반도체",
+        "CXMT",
+        "반도체 투자",
+        "메모리"
+      ],
+      "companies": [
+        "CXMT"
+      ],
+      "event_type": "칼럼·인터뷰",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "칼럼·인터뷰 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T02:01:11Z",
+      "updated_at": "2026-11-10T02:01:11Z",
+      "articles": [
+        {
+          "key": "4a1f34560b2f4140",
+          "title": "Commentary: China's emerging semiconductor investment empire takes quieter route to dominance",
+          "url": "https://www.digitimes.com/news/a20261110PD216/cxmt-tsinghua-unigroup-manufacturing-investment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T02:01:11Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
     },
     {
       "id": "c20261110-0715",
-      "headline": "삼성전자 C랩, 육성 스타트업 1000곳 돌파",
+      "headline": "삼성전자 C랩 스타트업 데모데이 개최, 누적 1000개 육성",
       "summary": [
-        "삼성전자가 C랩 아웃사이드 8기 스타트업 데모데이를 서울R&D캠퍼스에서 열었다.",
-        "행사에는 서울·대구·경북·광주에서 육성된 스타트업 30개사가 참여해 기술과 성과를 공유했다.",
-        "C랩 육성 기업이 1000개에 이르며 투자 유치와 사업 협력 기회가 넓어지는 흐름이다."
+        "삼성전자가 10일 서울R&D캠퍼스에서 2026 C랩 스타트업 데모데이를 열었다.",
+        "C랩 아웃사이드 8기 스타트업 30개사가 참여해 기술과 성과를 공유하고 투자 유치 기회를 얻었다.",
+        "반도체 대기업의 스타트업 육성이 투자·협력 생태계 확대로 이어질 전망이다."
       ],
       "category": "실적/투자/시장",
       "tags": [
         "C랩",
         "스타트업 육성",
         "데모데이",
-        "창업 생태계"
+        "상생 생태계",
+        "투자 유치"
       ],
       "companies": [
         "삼성전자"
@@ -284,15 +924,23 @@
       "parties": [
         "삼성전자"
       ],
-      "importance": 3,
-      "importance_reason": "채용·인력 2점, 관심 기업(삼성전자) +1 → 3점",
+      "importance": 4,
+      "importance_reason": "채용·인력 2점, 관심 기업(삼성전자) +1, 매체 3곳 보도 +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-11-10T01:00:02Z",
+      "first_seen": "2026-11-10T01:00:00Z",
       "updated_at": "2026-11-10T01:53:38Z",
       "articles": [
+        {
+          "key": "05d5993fffe1c395",
+          "title": "삼성전자, '2026 C랩 스타트업 데모데이' 개최",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343156",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-10T01:00:00Z"
+        },
         {
           "key": "5e32bd1b1a08030b",
           "title": "삼성전자, 스타트업 1천곳 육성…투자유치·협력 확대 지원",
@@ -311,7 +959,48 @@
         }
       ],
       "type_checked": true,
-      "importance_raw": 3
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261110-0732",
+      "headline": "미 중간선거 대응, 정부 반도체·AI 경쟁력 강화 주문",
+      "summary": [
+        "이재명 대통령이 10일 국무회의에서 미국 중간선거 이후 대외 환경 변화에 대비할 것을 지시했다.",
+        "미 의회와 주 정부, 경제계로 협력 기반을 넓히고 금융시장 모니터링을 강화하라고 당부했다.",
+        "반도체·AI 등 핵심 전략산업 경쟁력 강화를 강조했으며 구체적인 지원 수치나 일정은 제시되지 않았다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "미국 중간선거",
+        "대외 환경",
+        "반도체 경쟁력",
+        "AI",
+        "한미 협력"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T01:50:33Z",
+      "updated_at": "2026-11-10T01:50:33Z",
+      "articles": [
+        {
+          "key": "b079083b0c6d1e21",
+          "title": "李대통령 \"미 중간선거 변화 대비...반도체·AI 경쟁력 높여야\"",
+          "url": "https://zdnet.co.kr/view/?no=20261110105033",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-10T01:50:33Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261110-0728",
@@ -1966,38 +2655,37 @@
     },
     {
       "id": "c20261109-0658",
-      "headline": "SKT·리벨리온·엔비디아, 국산 NPU 결합 소버린 AI 협력",
+      "headline": "엔비디아·SKT·리벨리온, 소버린 AI 토큰 공급 협력",
       "summary": [
-        "SK텔레콤, 리벨리온, 엔비디아가 NV링크 퓨전 기반 업무협약을 체결하고 GPU와 NPU를 함께 쓰는 AI데이터센터 구축에 나선다.",
-        "리벨리온의 차세대 R200 NPU를 엔비디아 플랫폼에 연결하고 SKT 데이터센터에서 이기종 컴퓨팅 환경을 구현할 계획이다.",
-        "국산 NPU의 해외 시장 진출 기반이 될 수 있으나 구체적 일정과 투자 규모는 기사에 나오지 않았다."
+        "SKT가 엔비디아 GPU와 리벨리온 NPU를 결합해 소버린 AI 토큰을 공급하는 방안을 발표했다.",
+        "기사에 구체적인 계약 규모나 일정 수치는 나타나지 않아 협력의 세부 내용은 확인이 제한적이다.",
+        "국산 NPU가 엔비디아 GPU와 함께 쓰여 한국형 AI 인프라와 글로벌 토큰 시장 진출 기회를 넓힌다는 의미가 있다."
       ],
       "category": "AI반도체",
       "tags": [
         "소버린 AI",
-        "NV링크 퓨전",
         "NPU",
-        "이기종 컴퓨팅",
-        "AI데이터센터",
-        "R200"
+        "GPU",
+        "AI 토큰",
+        "한국형 AI 인프라"
       ],
       "companies": [
         "SK텔레콤",
-        "리벨리온",
-        "엔비디아"
+        "엔비디아",
+        "리벨리온"
       ],
       "event_type": "수주·공급",
       "confirmed": true,
       "parties": [
         "SK텔레콤",
-        "리벨리온",
-        "엔비디아"
+        "엔비디아",
+        "리벨리온"
       ],
       "importance": 4,
       "importance_reason": "수주·공급 3점, 매체 7곳 보도 +1 → 4점",
       "status": "summarized",
-      "needs_summary": true,
-      "attempts": 1,
+      "needs_summary": false,
+      "attempts": 0,
       "region": "both",
       "first_seen": "2026-11-09T05:00:00Z",
       "updated_at": "2026-11-09T10:00:00Z",
