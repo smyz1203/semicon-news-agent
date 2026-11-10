@@ -1,7 +1,235 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T21:53:43Z",
+  "updated_at": "2026-11-10T22:55:02Z",
   "issues": [
+    {
+      "id": "c20261110-0791",
+      "headline": "Nordson, 패널급 패키징용 플라즈마 장비로 기술상 수상",
+      "summary": [
+        "Nordson Electronics Solutions가 MARCH ExoSPHERE 플라즈마 처리 시스템으로 2026 글로벌 기술상을 받았다.",
+        "이 장비는 AI·HPC용 차세대 패널급 패키징(PLP)을 위해 650x650mm 패널을 균일하게 처리하고 언더필 품질을 높인다.",
+        "반도체 패키징 공정의 수율과 신뢰성 향상에 기여할 장비로, 업계 관심이 예상된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "패널급 패키징",
+        "플라즈마 처리",
+        "PLP",
+        "AI 반도체",
+        "수율 향상"
+      ],
+      "companies": [
+        "Nordson"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T22:23:54Z",
+      "updated_at": "2026-11-10T22:23:54Z",
+      "articles": [
+        {
+          "key": "33b1819cf3ee7f6f",
+          "title": "Nordson Electronics Solutions Wins The 2026 Global Technology Award for the MARCH ExoSPHERE Plasma Treatment System",
+          "url": "https://www.semiconductor-digest.com/nordson-electronics-solutions-wins-the-2026-global-technology-award-for-the-march-exosphere-plasma-treatment-system/?utm_source=rss&utm_medium=rss&utm_campaign=nordson-electronics-solutions-wins-the-2026-global-technology-award-for-the-march-exosphere-plasma-treatment-system",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-10T22:23:54Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0790",
+      "headline": "ACM리서치, 황산 재활용 기능 갖춘 단일웨이퍼 고온 SPM 개선",
+      "summary": [
+        "ACM리서치가 황산 재활용 기능을 추가한 170°C 단일웨이퍼 고온 SPM 시스템을 발표했다.",
+        "파운드리 고객사 검증에서 50개 이상 공정층에 적용됐고, 황산 재활용률은 70%로 제시됐다.",
+        "공정 중 DI수 세정 없이도 안정적 세정이 가능해 수율 향상과 황산 절감 효과가 기대된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "고온 SPM",
+        "단일웨이퍼 세정",
+        "황산 재활용",
+        "파운드리 공정",
+        "수율"
+      ],
+      "companies": [
+        "ACM리서치",
+        "TSMC"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "ACM리서치"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T22:16:46Z",
+      "updated_at": "2026-11-10T22:16:46Z",
+      "articles": [
+        {
+          "key": "a48360c53c480cf5",
+          "title": "ACM Research Enhances Single-Wafer Hot SPM System with Sulfuric Acid Recycle Capability",
+          "url": "https://www.semiconductor-digest.com/acm-research-enhances-single-wafer-hot-spm-system-with-sulfuric-acid-recycle-capability/?utm_source=rss&utm_medium=rss&utm_campaign=acm-research-enhances-single-wafer-hot-spm-system-with-sulfuric-acid-recycle-capability",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-10T22:16:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0789",
+      "headline": "헬리온, 미 CHIPS 연구개발 자금 1.75억 달러 지원 의향서 체결",
+      "summary": [
+        "미국 핵융합 기업 헬리온이 상무부와 CHIPS 연구개발 지원금 최대 1억 7500만 달러 수령 의향서를 체결했다.",
+        "연방 지원금에 민간 투자 5000만 달러가 더해져 총 2억 2500만 달러 규모로 고전력 반도체 연구와 제조 역량을 키운다.",
+        "핵융합 발전 상용화에 필요한 고효율 반도체를 미국 내에서 만들 수 있게 되어, 현재 해외 의존도가 높은 분야의 공급망 변화로 이어질 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "CHIPS Act",
+        "고전력 반도체",
+        "핵융합",
+        "첨단 패키징",
+        "미국 반도체 공급망"
+      ],
+      "companies": [
+        "헬리온",
+        "미국 상무부"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": false,
+      "parties": [
+        "헬리온",
+        "미국 상무부"
+      ],
+      "importance": 1,
+      "importance_reason": "재무·주주 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T22:14:40Z",
+      "updated_at": "2026-11-10T22:14:40Z",
+      "articles": [
+        {
+          "key": "25de996f5a369014",
+          "title": "Helion Signs Letter of Intent For $175 Million CHIPS Award to Advance U.S. High Voltage Semiconductor R&D",
+          "url": "https://www.semiconductor-digest.com/helion-signs-letter-of-intent-for-175-million-chips-award-to-advance-u-s-high-voltage-semiconductor-rd/?utm_source=rss&utm_medium=rss&utm_campaign=helion-signs-letter-of-intent-for-175-million-chips-award-to-advance-u-s-high-voltage-semiconductor-rd",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-10T22:14:40Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261110-0788",
+      "headline": "반도체 서브팹 배출 저감 통합 솔루션 공개",
+      "summary": [
+        "DAS Environmental Experts가 SEMICON Europa에서 서브팹 배출 저감 개념 'Subfab NetZero'를 공개했다.",
+        "폐가스 처리, 배출 측정, 디지털 연결, 장비 제어를 연계하며 질소산화물 처리용 ALCEA 시스템도 함께 선보였다.",
+        "반도체 공정의 에너지·가스·용수 소비를 줄이는 방안으로, 일부 제조사가 적용을 검토하기 시작했다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "서브팹",
+        "폐가스 처리",
+        "배출 저감",
+        "NetZero",
+        "ALCEA"
+      ],
+      "companies": [
+        "DAS Environmental Experts"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "DAS Environmental Experts"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T22:12:17Z",
+      "updated_at": "2026-11-10T22:12:17Z",
+      "articles": [
+        {
+          "key": "2dc25863230d8566",
+          "title": "The Next Level of Efficiency in Chip Manufacturing Is Taking Shape Below the Cleanroom",
+          "url": "https://www.semiconductor-digest.com/the-next-level-of-efficiency-in-chip-manufacturing-is-taking-shape-below-the-cleanroom/?utm_source=rss&utm_medium=rss&utm_campaign=the-next-level-of-efficiency-in-chip-manufacturing-is-taking-shape-below-the-cleanroom",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-10T22:12:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0787",
+      "headline": "CEA-Leti, 저영향 칩 제조 기술 검증 SubFAB Labs 출범",
+      "summary": [
+        "CEA-Leti가 ISRL과 함께 SubFAB Labs 프로그램을 출범했다고 발표했다.",
+        "이 프로그램은 서브팹 환경 기술을 시험·검증하며, 1단계로 그레노블 사이트에서 가스·수계 물질 효율과 배출물을 분류한다.",
+        "칩 제조의 환경 부담을 줄이려는 업계가 규제에 앞서 대응할 수 있는 기반이 된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "SubFAB",
+        "친환경 반도체 제조",
+        "배출가스 저감",
+        "소재 회수",
+        "서브팹"
+      ],
+      "companies": [
+        "CEA-Leti",
+        "ISRL"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "CEA-Leti",
+        "ISRL"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T22:00:25Z",
+      "updated_at": "2026-11-10T22:00:25Z",
+      "articles": [
+        {
+          "key": "3330d8872f404e27",
+          "title": "CEA-Leti Launches SubFAB Labs with ISRL to Speed Adoption of Lower-Impact Chip Manufacturing Technologies",
+          "url": "https://www.semiconductor-digest.com/cea-leti-launches-subfab-labs-with-isrl-to-speed-adoption-of-lower-impact-chip-manufacturing-technologies/?utm_source=rss&utm_medium=rss&utm_campaign=cea-leti-launches-subfab-labs-with-isrl-to-speed-adoption-of-lower-impact-chip-manufacturing-technologies",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-10T22:00:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261110-0786",
       "headline": "앨리스 황, 엔비디아 칩 중국 밀반입 의혹 보도",
