@@ -1,7 +1,260 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11T05:14:07Z",
+  "updated_at": "2026-11-11T06:15:03Z",
   "issues": [
+    {
+      "id": "c20261111-0834",
+      "headline": "호남 반도체 산단 송전선로 내년 착공, 주민 이주 과제",
+      "summary": [
+        "호남권 반도체 산업단지에 전력을 공급할 송전선로 공사가 내년 1월 시작될 예정이다.",
+        "산업용수 확보를 위한 동복댐 증축도 추진되며, 약 280가구의 이주가 예상된다.",
+        "전력·용수 인프라는 확보되지만 주민 보상과 정착 지원이 산단 조성의 과제로 남았다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "송전선로",
+        "산업단지",
+        "동복댐",
+        "나주 에너지 거점",
+        "전력 인프라"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T06:02:29Z",
+      "updated_at": "2026-11-11T06:02:29Z",
+      "articles": [
+        {
+          "key": "792a3e8fde6a4ac3",
+          "title": "호남 반도체 산단 전력망 내년 착공…나주 에너지 거점 육성",
+          "url": "https://www.dt.co.kr/article/12094564",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-11T06:02:29Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0833",
+      "headline": "알리바바, 칩 설계 자회사 T-Head 홍콩 IPO 추진",
+      "summary": [
+        "알리바바가 반도체 설계 자회사 T-Head의 홍콩 증시 상장을 위해 관련 서류를 제출했다.",
+        "기사 본문이 제공되지 않아 상장 규모와 일정 등 구체적 수치는 확인되지 않는다.",
+        "중국 자체 AI 칩 설계 역량이 자본시장을 통해 확장될 수 있다는 점에서 의미가 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "T-Head",
+        "홍콩 IPO",
+        "AI반도체",
+        "칩 설계",
+        "중국 반도체"
+      ],
+      "companies": [
+        "알리바바",
+        "T-Head"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": false,
+      "parties": [
+        "알리바바",
+        "T-Head"
+      ],
+      "importance": 1,
+      "importance_reason": "재무·주주 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T05:43:42Z",
+      "updated_at": "2026-11-11T05:43:42Z",
+      "articles": [
+        {
+          "key": "b2c3b917dc86081d",
+          "title": "Alibaba files to spin off chip design unit T-Head for Hong Kong IPO",
+          "url": "https://www.digitimes.com/news/a20261111VL216/alibaba-t-head-ipo-spin-off-design.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T05:43:42Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261111-0813",
+      "headline": "삼성전자 동반성장지수 15년 연속 최우수 등급",
+      "summary": [
+        "삼성전자가 동반성장위원회 동반성장지수 평가에서 최우수 등급을 받았다고 11일 밝혔다.",
+        "15년 연속 최우수 등급을 받은 기업은 삼성전자가 유일하다고 전해졌다.",
+        "삼성전자는 스마트공장에 이어 제조 AI까지 중소기업 현장에 확대하며 협력사 지원을 넓히고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "동반성장지수",
+        "스마트공장",
+        "제조 AI",
+        "협력사 지원"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자) +1, 매체 5곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T03:00:00Z",
+      "updated_at": "2026-11-11T05:41:14Z",
+      "articles": [
+        {
+          "key": "8750c717185fe8b8",
+          "title": "삼성전자, 동반성장지수 15년 연속 최우수…도입 이후 유일",
+          "url": "https://www.dt.co.kr/article/12094488",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-11T03:00:00Z"
+        },
+        {
+          "key": "18c6c324586d094b",
+          "title": "삼성전자, 협력사 경쟁력 높였다…동반성장 최우수 15년 연속 최우수",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409580",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T03:00:00Z"
+        },
+        {
+          "key": "cc2f8e514ac096c9",
+          "title": "삼성전자, 동반성장 평가 '최우수'…국내 유일 15년 연속",
+          "url": "https://www.yna.co.kr/view/AKR20261111087200003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T03:00:02Z"
+        },
+        {
+          "key": "3621df59d131f8f4",
+          "title": "삼성전자, 동반성장지수 15년 연속 '최우수' 국내 유일",
+          "url": "https://zdnet.co.kr/view/?no=20261111105105",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-11T03:00:04Z"
+        },
+        {
+          "key": "7a5c2b58360923ed",
+          "title": "삼성전자, 협력사에 '제조 AI' 심는다…기업 최초 동반성장지수 15년 연속 최우수",
+          "url": "https://www.etnews.com/20261111000350",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-11T05:41:14Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261111-0832",
+      "headline": "익산시, 반도체 소부장 특화단지 미래 전략 논의",
+      "summary": [
+        "전북 익산시가 신동 익산공공영상미디어센터에서 반도체 소부장 특화단지의 미래를 주제로 타운홀미팅을 열었다.",
+        "기사 본문이 짧아 구체적인 참석 인원, 세부 계획과 수치는 확인되지 않았다.",
+        "지역 차원에서 소부장 특화단지 육성 방향을 주민과 함께 모색하는 움직임으로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "소부장 특화단지",
+        "반도체 소부장",
+        "타운홀미팅",
+        "익산 산업단지"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T05:34:04Z",
+      "updated_at": "2026-11-11T05:34:04Z",
+      "articles": [
+        {
+          "key": "a8964217961a0b9f",
+          "title": "익산시, 반도체 소부장 특화단지 미래 그린다…타운홀미팅 개최",
+          "url": "https://www.yna.co.kr/view/AKR20261111116400055",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T05:34:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0831",
+      "headline": "구글 TPU 확대, 삼성·SK하이닉스 HBM 수요 다변화 기회",
+      "summary": [
+        "구글이 자체 AI 칩 TPU를 자사 데이터센터 밖으로 판매 확대하고 있으며, 신규 TPU 시스템 2종을 공개했다.",
+        "기사에는 TPU 8i Max 등 신제품명만 언급되었고 구체적 수치나 출하 일정은 확인되지 않았다.",
+        "엔비디아 중심 GPU 생태계 밖으로 HBM 수요처가 넓어질 수 있어 삼성전자와 SK하이닉스에 긍정적 요인이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "TPU",
+        "HBM",
+        "구글 AI칩",
+        "엔비디아 대안"
+      ],
+      "companies": [
+        "구글",
+        "삼성전자",
+        "SK하이닉스",
+        "엔비디아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "구글",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 관심 기업(SK하이닉스, 삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T05:24:11Z",
+      "updated_at": "2026-11-11T05:24:11Z",
+      "articles": [
+        {
+          "key": "299256e0ad3dc1ac",
+          "title": "Google's AI chip expansion opens new doors for Samsung, SK hynix",
+          "url": "https://www.koreaherald.com/article/10933783",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-11T05:24:11Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
     {
       "id": "c20261111-0829",
       "headline": "모건스탠리·노무라, AI 메모리 호황 지속 기간 두고 목표가 격차",
@@ -228,6 +481,120 @@
       ],
       "type_checked": true,
       "importance_raw": 4
+    },
+    {
+      "id": "c20261111-0804",
+      "headline": "SK하이닉스 생산직 채용 재개, 학력 제한 폐지",
+      "summary": [
+        "SK하이닉스가 11월 탤런트 하이웨이 메인트·오퍼레이터 전임직 채용 공고를 내고 17일까지 서류를 접수한다.",
+        "학력 제한은 지난 6월 폐지됐고, 최종 선발은 SKCT 필기와 12월 면접으로 진행된다.",
+        "증권가 전망대로 초과이익분배금 재원이 28조원이면 인당 약 8억원 성과급이 예상돼 지원 경쟁이 치열해질 전망이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "생산직 채용",
+        "학력 제한 폐지",
+        "초과이익분배금",
+        "성과급",
+        "하이웨이"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "채용·인력 2점, 관심 기업(SK하이닉스) +1, 매체 4곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T01:27:13Z",
+      "updated_at": "2026-11-11T04:45:37Z",
+      "articles": [
+        {
+          "key": "c57a5e40b490148c",
+          "title": "SK하이닉스, '파격적 성과급' 기대감 속 하반기 생산직 채용",
+          "url": "https://www.yna.co.kr/view/AKR20261111061700003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:27:13Z"
+        },
+        {
+          "key": "76fa2346ad0f362d",
+          "title": "SK하이닉스, 하반기 생산직 채용…학력 제한 없애고 인재 확보",
+          "url": "https://www.dt.co.kr/article/12094486",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-11T02:17:00Z"
+        },
+        {
+          "key": "7f494ef0318f1060",
+          "title": "SK하이닉스 생산직 채용에 들썩…\"학력 무관·억대 성과급 기대\"",
+          "url": "https://www.inews24.com/view/2024982",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-11T03:32:42Z"
+        },
+        {
+          "key": "426b8639a38c2915",
+          "title": "학력폐지·억대 성과급...SK하이닉스, 생산직 채용 '후끈'",
+          "url": "https://zdnet.co.kr/view/?no=20261111133026",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-11T04:45:37Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261111-0830",
+      "headline": "젠슨 황 리스크, 엔비디아 경영권 흔들리나",
+      "summary": [
+        "엔비디아 젠슨 황 CEO의 사생활 논란이 중국 정보기관 연계 의혹과 맞물리며 확산 중이다.",
+        "황 CEO는 현재 직책을 유지하며 실적발표를 앞두고 본사에서 고위임원 회의를 주관한 것으로 알려졌다.",
+        "이사회 조사 결과에 따라 유지, 권한 분산, 사임 요구 등 경영 지배구조 변화 가능성이 거론된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "지배구조 리스크",
+        "내부통제",
+        "미중 패권 경쟁",
+        "보안"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T04:40:27Z",
+      "updated_at": "2026-11-11T04:40:27Z",
+      "articles": [
+        {
+          "key": "87bf4e4f42ca0a07",
+          "title": "유지냐, 교체냐...젠슨 황 앞에 놓인 길은",
+          "url": "https://zdnet.co.kr/view/?no=20261111011126",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-11T04:40:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261111-0824",
@@ -540,135 +907,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261111-0804",
-      "headline": "SK하이닉스, 학력 제한 없앤 생산직 채용 착수",
-      "summary": [
-        "SK하이닉스가 하반기 생산직 신입사원 채용에 나서며 고졸·전문대졸로 제한됐던 지원 자격을 넓혔다.",
-        "학력 제한이 완화되면서 반도체 호황에 따른 성과급 기대감과 맞물려 지원 경쟁이 치열할 전망이다.",
-        "반도체 인력 확보 경쟁이 이어지는 가운데 생산 인력 수급에 영향을 줄 수 있는 채용 조치다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "생산직 채용",
-        "학력 제한 완화",
-        "성과급",
-        "인재 확보"
-      ],
-      "companies": [
-        "SK하이닉스"
-      ],
-      "event_type": "채용·인력",
-      "confirmed": true,
-      "parties": [
-        "SK하이닉스"
-      ],
-      "importance": 4,
-      "importance_reason": "채용·인력 2점, 관심 기업(SK하이닉스) +1, 매체 3곳 보도 +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-11T01:27:13Z",
-      "updated_at": "2026-11-11T03:32:42Z",
-      "articles": [
-        {
-          "key": "c57a5e40b490148c",
-          "title": "SK하이닉스, '파격적 성과급' 기대감 속 하반기 생산직 채용",
-          "url": "https://www.yna.co.kr/view/AKR20261111061700003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-11T01:27:13Z"
-        },
-        {
-          "key": "76fa2346ad0f362d",
-          "title": "SK하이닉스, 하반기 생산직 채용…학력 제한 없애고 인재 확보",
-          "url": "https://www.dt.co.kr/article/12094486",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-11T02:17:00Z"
-        },
-        {
-          "key": "7f494ef0318f1060",
-          "title": "SK하이닉스 생산직 채용에 들썩…\"학력 무관·억대 성과급 기대\"",
-          "url": "https://www.inews24.com/view/2024982",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-11T03:32:42Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
-    },
-    {
-      "id": "c20261111-0813",
-      "headline": "삼성전자 동반성장지수 15년 연속 최우수 등급 획득",
-      "summary": [
-        "삼성전자가 동반성장위원회의 2026년도 동반성장지수 평가에서 최우수 등급을 받았다.",
-        "2011년 제도 도입 이후 15년 연속 최우수를 받은 기업은 삼성전자가 유일하며, 협력사 27만여 명 교육과 9800여 명 채용을 지원했다.",
-        "협력사 상생 지원이 평가에서 꾸준히 인정받았다는 점에서 대기업의 동반성장 모델로 의미가 크다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "동반성장지수",
-        "상생협력",
-        "ESG펀드",
-        "스마트공장",
-        "협력사 지원"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "홍보·수상",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 3,
-      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자) +1, 매체 4곳 보도 +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-11T03:00:00Z",
-      "updated_at": "2026-11-11T03:00:04Z",
-      "articles": [
-        {
-          "key": "8750c717185fe8b8",
-          "title": "삼성전자, 동반성장지수 15년 연속 최우수…도입 이후 유일",
-          "url": "https://www.dt.co.kr/article/12094488",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-11T03:00:00Z"
-        },
-        {
-          "key": "18c6c324586d094b",
-          "title": "삼성전자, 협력사 경쟁력 높였다…동반성장 최우수 15년 연속 최우수",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409580",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-11T03:00:00Z"
-        },
-        {
-          "key": "cc2f8e514ac096c9",
-          "title": "삼성전자, 동반성장 평가 '최우수'…국내 유일 15년 연속",
-          "url": "https://www.yna.co.kr/view/AKR20261111087200003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-11T03:00:02Z"
-        },
-        {
-          "key": "3621df59d131f8f4",
-          "title": "삼성전자, 동반성장지수 15년 연속 '최우수' 국내 유일",
-          "url": "https://zdnet.co.kr/view/?no=20261111105105",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-11T03:00:04Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261111-0801",
