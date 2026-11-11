@@ -1,7 +1,94 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11T13:27:01Z",
+  "updated_at": "2026-11-11T15:04:20Z",
   "issues": [
+    {
+      "id": "c20261111-0863",
+      "headline": "금속 없는 유연한 TADF 분자로 주황~적색 OLED 구현",
+      "summary": [
+        "오사카대 연구팀이 금속을 쓰지 않는 주황~적색 TADF 발광체를 개발했다.",
+        "새 분자로 만든 OLED는 598~624nm에서 발광하며 외부양자효율이 최대 14.9%에 달했다.",
+        "기존 강성 구조 없이도 장파장 발광을 구현해 고효율 적색 OLED 소재 설계의 가능성을 넓혔다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "TADF",
+        "OLED",
+        "적색 발광",
+        "through-space charge transfer",
+        "외부양자효율"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "오사카대"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T14:00:04Z",
+      "updated_at": "2026-11-11T14:00:04Z",
+      "articles": [
+        {
+          "key": "d3ade8aa94c24e52",
+          "title": "Researchers design flexible, metal-free TADF molecules for efficient orange-to-red OLEDs",
+          "url": "https://www.oled-info.com/researchers-design-flexible-metal-free-tadf-molecules-efficient-orange-red",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-11T14:00:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0862",
+      "headline": "코그니칩, AI로 칩 설계 기간 단축 프로그램 공개",
+      "summary": [
+        "AI 반도체 설계 스타트업 코그니칩이 AI 기반 신규 설계 프로그램의 작동 방식을 공개했다.",
+        "이 프로그램은 노동 집약적인 설계 작업을 자동화해 설계 기간을 수개월에서 수일 수준으로 줄이는 것이 목표다.",
+        "칩 설계 시간이 크게 줄면 반도체 제품 개발 주기가 빨라지고 설계 인력 부담도 완화될 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 칩 설계",
+        "설계 자동화",
+        "반도체 설계 단축",
+        "EDA"
+      ],
+      "companies": [
+        "코그니칩"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "코그니칩"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T13:30:00Z",
+      "updated_at": "2026-11-11T13:30:00Z",
+      "articles": [
+        {
+          "key": "a8a3b7cf8dff7bdd",
+          "title": "Cognichip reveals how its new AI-assisted program can slash chip design times from months to days — automating labor-intensive tasks cuts design time down, Chief Product Officer explains",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/cognichip-reveals-how-its-new-ai-assisted-program-can-slash-chip-design-times-from-months-to-days-automating-labor-intensive-tasks-cuts-design-time-down-chief-product-officer-explains",
+          "source": "Tom's Hardware",
+          "lang": "en",
+          "published_at": "2026-11-11T13:30:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261111-0861",
       "headline": "군사 연계 중국 대학, 블랙리스트에도 엔비디아 H200 구매",
