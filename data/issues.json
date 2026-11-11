@@ -1,7 +1,53 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11T12:07:29Z",
+  "updated_at": "2026-11-11T13:27:01Z",
   "issues": [
+    {
+      "id": "c20261111-0861",
+      "headline": "군사 연계 중국 대학, 블랙리스트에도 엔비디아 H200 구매",
+      "summary": [
+        "중국 인민해방군과 깊이 연결된 한 대학이 미국 수출 블랙리스트에 올라 있음에도 엔비디아 H200 AI 칩을 지난달 구매했다.",
+        "조달 기록에 따르면 이는 중국의 첨단 기술 접근을 막으려는 미국 정부의 노력에 허점이 있음을 보여준다.",
+        "이 사안은 AI 칩 대중 수출 규제 완화를 추진해 온 엔비디아와 젠슨 황 CEO에 대한 워싱턴의 조사 압박과 맞물려 주목받는다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "H200",
+        "수출규제",
+        "블랙리스트",
+        "AI칩",
+        "대중 반도체 규제"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "엔비디아",
+        "중국 군사 연계 대학"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T12:26:15Z",
+      "updated_at": "2026-11-11T12:26:15Z",
+      "articles": [
+        {
+          "key": "e90c20bd116d6049",
+          "title": "Military-linked Chinese university bought Nvidia H200 chips despite US blacklist, records show",
+          "url": "https://www.koreaherald.com/article/10934237",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-11T12:26:15Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261111-0797",
       "headline": "두산, 일렉트로니카 2026서 AI가속기 CCL로 유럽 공략",
