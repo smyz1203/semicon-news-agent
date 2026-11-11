@@ -1,7 +1,60 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11T10:12:42Z",
+  "updated_at": "2026-11-11T11:12:41Z",
   "issues": [
+    {
+      "id": "c20261111-0797",
+      "headline": "두산, 일렉트로니카 2026서 AI가속기 CCL로 유럽 공략",
+      "summary": [
+        "두산이 독일 뮌헨 전자부품 전시회 일렉트로니카 2026에 참가해 유럽 시장 신규 고객사 확보에 나선다.",
+        "전시회는 10일부터 13일까지 열리며 AI가속기용과 하이엔드 CCL 소재를 선보인다.",
+        "AI 반도체 기판 소재 경쟁력을 바탕으로 유럽 고객사 다변화를 노리는 행보다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "CCL",
+        "AI가속기",
+        "하이엔드 CCL",
+        "일렉트로니카 2026",
+        "유럽 시장"
+      ],
+      "companies": [
+        "두산"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "두산"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T00:50:45Z",
+      "updated_at": "2026-11-11T10:33:00Z",
+      "articles": [
+        {
+          "key": "de203e8ddd0fd243",
+          "title": "두산, AI 반도체 핵심소재 CCL로 유럽 시장 공략",
+          "url": "https://www.yna.co.kr/view/AKR20261111049600003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T00:50:45Z"
+        },
+        {
+          "key": "729d9e70c21af9d2",
+          "title": "두산, AI가속기·하이엔드 CCL로 유럽시장 공략",
+          "url": "https://www.dt.co.kr/article/12094692",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-11T10:33:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261107-0608",
       "headline": "젠슨 황 CEO 중국 스파이 의혹 논란, 엔비디아 리스크 확산",
@@ -3709,49 +3762,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261111-0797",
-      "headline": "두산, AI 가속기용 CCL로 유럽 시장 공략 나서",
-      "summary": [
-        "두산이 AI 가속기와 광모듈용 하이엔드 동박적층판(CCL)을 앞세워 유럽 시장 공략에 나섰다.",
-        "기사 본문이 일부만 제공돼 구체적 수주 규모나 계약 상대, 일정은 확인되지 않는다.",
-        "AI 반도체 기판 소재 공급망에서 유럽 고객 확보를 노린 움직임으로 볼 수 있다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "동박적층판",
-        "CCL",
-        "AI 가속기",
-        "광모듈",
-        "유럽 시장"
-      ],
-      "companies": [
-        "두산"
-      ],
-      "event_type": "시장 전망·통계",
-      "confirmed": false,
-      "parties": [],
-      "importance": 1,
-      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-11T00:50:45Z",
-      "updated_at": "2026-11-11T00:50:45Z",
-      "articles": [
-        {
-          "key": "de203e8ddd0fd243",
-          "title": "두산, AI 반도체 핵심소재 CCL로 유럽 시장 공략",
-          "url": "https://www.yna.co.kr/view/AKR20261111049600003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-11T00:50:45Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
     },
     {
       "id": "c20261111-0796",
