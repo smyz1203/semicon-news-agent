@@ -1,36 +1,124 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11T09:09:11Z",
+  "updated_at": "2026-11-11T10:12:42Z",
   "issues": [
     {
-      "id": "c20261111-0856",
-      "headline": "메모리 가격 급등에 저가폰 부품원가 절반 넘어",
+      "id": "c20261107-0608",
+      "headline": "젠슨 황 CEO 중국 스파이 의혹 논란, 엔비디아 리스크 확산",
       "summary": [
-        "카운터포인트리서치에 따르면 저가형 스마트폰에서 메모리가 부품원가에서 차지하는 비중이 1년 새 20%에서 54%로 올랐다.",
-        "저가폰 업체는 메모리 원가 부담이 커져 판매 가격을 올려야 하는 압박을 받고 있다.",
-        "AI 수요 확대로 메모리 가격이 급등하면서 저가 기기 시장의 수익구조가 크게 흔들리고 있다."
+        "뉴욕타임스가 미국 정보당국이 중국 연계 의혹 여성 사업가와 젠슨 황 CEO의 긴밀한 관계를 파악했다고 보도했다.",
+        "메가스피드는 최근 2년간 엔비디아 반도체를 48억 달러 이상 구매했으며, 수출 통제 우회 여부를 당국이 조사 중이다.",
+        "의회 안보 현안으로 번지면서 엔비디아의 대정부·공급망 리스크와 지배구조 불확실성이 부각되고 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "젠슨 황",
+        "엔비디아",
+        "수출통제",
+        "메가스피드",
+        "국가안보"
+      ],
+      "companies": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점, 매체 3곳 보도 +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-07T05:20:32Z",
+      "updated_at": "2026-11-11T10:06:42Z",
+      "articles": [
+        {
+          "key": "b9d4b578e19a2655",
+          "title": "[속보]“美당국, 젠슨 황과 ‘中스파이 의혹’ 여성 연인관계로 판단”",
+          "url": "https://www.dt.co.kr/article/12093649",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-07T05:20:32Z"
+        },
+        {
+          "key": "4d0ee7511dc92d67",
+          "title": "'젠슨 황 스캔들' 1년 전부터 경고음…美 정부는 알고 있었다?",
+          "url": "https://www.inews24.com/view/2024022",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-09T04:17:33Z"
+        },
+        {
+          "key": "5e4b67767a77e87e",
+          "title": "“젠슨황은 좋은 사람” 편든 트럼프도 정치적 부담…스파이와 불륜 묵인 해명요구 받을 수도",
+          "url": "https://www.dt.co.kr/article/12094128",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-09T20:03:29Z"
+        },
+        {
+          "key": "22d11dab95286e64",
+          "title": "단 10일 만에 엔비디아 제국 흔든 '젠슨 황 스캔들'",
+          "url": "https://zdnet.co.kr/view/?no=20261111011002",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-10T23:34:27Z"
+        },
+        {
+          "key": "9537eb5b89616f7d",
+          "title": "일파만파 번지는 의혹...젠슨 황, 무엇을 답해야 하나",
+          "url": "https://zdnet.co.kr/view/?no=20261111011038",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-11T00:37:11Z"
+        },
+        {
+          "key": "ac16e9d76d88e283",
+          "title": "10조 AI칩 中 밀반출 의혹… 젠슨 황·엔비디아 '악화일로'",
+          "url": "https://www.dt.co.kr/article/12094680",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-11T10:06:42Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261111-0856",
+      "headline": "메모리 가격 급등에 저가폰 원가 부담 가중",
+      "summary": [
+        "저가형 스마트폰 부품 원가에서 메모리가 차지하는 비중이 54%로 절반을 넘어섰다고 보도됐다.",
+        "1년 사이 메모리 원가 비중이 약 2.7배로 뛰어 원가 상승분을 판매가에 반영하기 어려운 상황이다.",
+        "제조사들의 수익성 압박이 커지며 저가폰 가격 인상 요구가 높아질 것으로 보인다."
       ],
       "category": "메모리",
       "tags": [
         "메모리 가격",
-        "저가 스마트폰",
-        "부품원가",
-        "AI 수요"
+        "저가폰",
+        "부품 원가",
+        "가격 인상"
       ],
       "companies": [
-        "카운터포인트리서치"
+        "삼성전자",
+        "SK하이닉스"
       ],
-      "event_type": "시장 전망·통계",
+      "event_type": "가격 동향",
       "confirmed": true,
       "parties": [],
-      "importance": 2,
-      "importance_reason": "시장 전망·통계 2점",
+      "importance": 4,
+      "importance_reason": "가격 동향 3점, 매체 3곳 보도 +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
       "first_seen": "2026-11-11T08:29:55Z",
-      "updated_at": "2026-11-11T08:31:23Z",
+      "updated_at": "2026-11-11T09:59:05Z",
       "articles": [
         {
           "key": "66fdce53509afaa9",
@@ -47,6 +135,195 @@
           "source": "아이뉴스24",
           "lang": "ko",
           "published_at": "2026-11-11T08:31:23Z"
+        },
+        {
+          "key": "411853d3e72f92e4",
+          "title": "저가폰 덮친 ‘메모리 쇼크’… 원가 절반 넘겼다",
+          "url": "https://www.dt.co.kr/article/12094677",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-11T09:59:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261111-0860",
+      "headline": "삼성전자 노조, 호남팹 조성을 임단협 카드로 제시",
+      "summary": [
+        "삼성전자 반도체 노조가 호남 반도체 클러스터 조성을 임금·단체협약 협상 카드로 내놓았다.",
+        "이재명 대통령은 지난 7월 노동쟁의 대상이 지나치게 넓어지고 있다고 지적했고 고용노동부도 교섭 범위에 우려를 표했다.",
+        "정부와 노조의 입장 차가 드러나면서 투자 계획과 노사 협상이 얽힌 새로운 갈등 양상이 주목된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "호남팹",
+        "임단협",
+        "노동쟁의",
+        "반도체 클러스터",
+        "노조 교섭"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T09:43:49Z",
+      "updated_at": "2026-11-11T09:43:49Z",
+      "articles": [
+        {
+          "key": "0efe9a6d0f0fdbc1",
+          "title": "\"호남팹 임단협 하자\"… 정부 안중 없는 삼전 노조",
+          "url": "https://www.dt.co.kr/article/12094674",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-11T09:43:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261111-0859",
+      "headline": "어보브반도체, 대표 보수 해결 위해 정관 변경 추진",
+      "summary": [
+        "어보브반도체가 8개월째 보수를 받지 못한 최원 대표 문제 해결을 위해 정관 변경을 추진한다.",
+        "정관에 보수한도를 정하고 이사회가 개별 보수를 정하는 방식이며, 12월 18일 임시주총에서 상정한다.",
+        "정관 변경은 특별결의 사항이라 보수한도 승인보다 많은 찬성이 필요해 주주 동의 여부가 관건이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "정관 변경",
+        "이사 보수",
+        "임시주총",
+        "특별결의"
+      ],
+      "companies": [
+        "어보브반도체"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "어보브반도체"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T09:36:08Z",
+      "updated_at": "2026-11-11T09:36:08Z",
+      "articles": [
+        {
+          "key": "871843dce7090f89",
+          "title": "8개월째 대표 월급 못 준 어보브반도체… 꺼낸 카드가?",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65296",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-11T09:36:08Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261111-0858",
+      "headline": "AMD, 산업용 6세대 EPYC 임베디드 CPU 공개",
+      "summary": [
+        "AMD가 10일(현지시간) 산업 장비용 6세대 CPU '에픽 임베디드 9006' 시리즈를 공개했다.",
+        "반도체 자동 검사 장비와 기업용 저장장치 제어 시스템처럼 대량 데이터 처리가 필요한 장비를 겨냥했다.",
+        "반도체 검사 장비 등 산업용 고성능 CPU 시장에서 AMD의 입지를 넓힐 제품으로 볼 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "에픽 임베디드 9006",
+        "산업용 CPU",
+        "반도체 검사 장비",
+        "데이터 처리"
+      ],
+      "companies": [
+        "AMD",
+        "삼성전자"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "AMD"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T09:30:58Z",
+      "updated_at": "2026-11-11T09:30:58Z",
+      "articles": [
+        {
+          "key": "b09b534816dff452",
+          "title": "AMD, 신형 산업용 CPU 공개…삼성과 메모리 검사 협력",
+          "url": "https://www.inews24.com/view/2025220",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-11T09:30:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261111-0857",
+      "headline": "중국 Moonshot AI, 미국 제재 칩 우회 접근 의혹",
+      "summary": [
+        "중국 AI 기업 Moonshot AI가 미국 제재 대상 엔비디아 칩에 접근했다는 보도가 나왔다.",
+        "기사 본문은 이미지 크레딧만 있어 구체적 수량이나 경로는 확인되지 않는다.",
+        "미국 수출 통제의 실효성과 중국 AI 기업의 칩 확보 경쟁에 대한 논란이 커질 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출규제",
+        "엔비디아",
+        "AI반도체",
+        "Moonshot AI",
+        "칩 우회"
+      ],
+      "companies": [
+        "Moonshot AI",
+        "엔비디아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "Moonshot AI",
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T09:18:11Z",
+      "updated_at": "2026-11-11T09:18:11Z",
+      "articles": [
+        {
+          "key": "81055520e5937646",
+          "title": "Moonshot AI reportedly accessed restricted Nvidia chips in China despite US ban",
+          "url": "https://www.digitimes.com/news/a20261111VL223/moonshot-nvidia-chips-beijing-exports.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T09:18:11Z"
         }
       ],
       "type_checked": true,
@@ -3475,85 +3752,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261107-0608",
-      "headline": "젠슨 황 CEO 중국 스파이 의혹 논란, 엔비디아 리스크 확산",
-      "summary": [
-        "뉴욕타임스가 미국 정보당국이 중국 연계 의혹 여성 사업가와 젠슨 황 CEO의 긴밀한 관계를 파악했다고 보도했다.",
-        "메가스피드는 최근 2년간 엔비디아 반도체를 48억 달러 이상 구매했으며, 수출 통제 우회 여부를 당국이 조사 중이다.",
-        "의회 안보 현안으로 번지면서 엔비디아의 대정부·공급망 리스크와 지배구조 불확실성이 부각되고 있다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "젠슨 황",
-        "엔비디아",
-        "수출통제",
-        "메가스피드",
-        "국가안보"
-      ],
-      "companies": [
-        "엔비디아",
-        "메가스피드"
-      ],
-      "event_type": "소송·특허",
-      "confirmed": false,
-      "parties": [
-        "엔비디아",
-        "메가스피드"
-      ],
-      "importance": 3,
-      "importance_reason": "소송·특허 3점, 매체 3곳 보도 +1, 미확정 -1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-07T05:20:32Z",
-      "updated_at": "2026-11-11T00:37:11Z",
-      "articles": [
-        {
-          "key": "b9d4b578e19a2655",
-          "title": "[속보]“美당국, 젠슨 황과 ‘中스파이 의혹’ 여성 연인관계로 판단”",
-          "url": "https://www.dt.co.kr/article/12093649",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-07T05:20:32Z"
-        },
-        {
-          "key": "4d0ee7511dc92d67",
-          "title": "'젠슨 황 스캔들' 1년 전부터 경고음…美 정부는 알고 있었다?",
-          "url": "https://www.inews24.com/view/2024022",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-09T04:17:33Z"
-        },
-        {
-          "key": "5e4b67767a77e87e",
-          "title": "“젠슨황은 좋은 사람” 편든 트럼프도 정치적 부담…스파이와 불륜 묵인 해명요구 받을 수도",
-          "url": "https://www.dt.co.kr/article/12094128",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-09T20:03:29Z"
-        },
-        {
-          "key": "22d11dab95286e64",
-          "title": "단 10일 만에 엔비디아 제국 흔든 '젠슨 황 스캔들'",
-          "url": "https://zdnet.co.kr/view/?no=20261111011002",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-10T23:34:27Z"
-        },
-        {
-          "key": "9537eb5b89616f7d",
-          "title": "일파만파 번지는 의혹...젠슨 황, 무엇을 답해야 하나",
-          "url": "https://zdnet.co.kr/view/?no=20261111011038",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-11T00:37:11Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261111-0796",
