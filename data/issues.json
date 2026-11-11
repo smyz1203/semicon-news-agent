@@ -1,7 +1,188 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11T18:05:20Z",
+  "updated_at": "2026-11-11T19:14:26Z",
   "issues": [
+    {
+      "id": "c20261111-0869",
+      "headline": "Sivers, WT마이크로일렉트로닉스와 InP 레이저 글로벌 유통 계약",
+      "summary": [
+        "Sivers Semiconductors가 WT마이크로일렉트로닉스와 글로벌 유통 계약을 체결했다고 발표했다.",
+        "WT는 InP 레이저와 무선 빔포머 제품을 전 세계 고객에게 공급하며, 첫 레이저 라인카드 파트너가 된다.",
+        "AI 인프라와 위성통신 시장 성장에 맞춰 Sivers의 상업적 도달 범위가 넓어질 것으로 보인다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "InP 레이저",
+        "빔포머",
+        "글로벌 유통",
+        "AI 포토닉스",
+        "LEO 위성통신"
+      ],
+      "companies": [
+        "Sivers Semiconductors",
+        "WT마이크로일렉트로닉스"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "Sivers Semiconductors",
+        "WT마이크로일렉트로닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T18:53:39Z",
+      "updated_at": "2026-11-11T18:53:39Z",
+      "articles": [
+        {
+          "key": "3a8afe6c9c2a3cea",
+          "title": "Sivers Semiconductors Announces Strategic Agreement with WT Microelectronics",
+          "url": "https://www.semiconductor-digest.com/sivers-semiconductors-announces-strategic-agreement-with-wt-microelectronics/?utm_source=rss&utm_medium=rss&utm_campaign=sivers-semiconductors-announces-strategic-agreement-with-wt-microelectronics",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-11T18:53:39Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261111-0868",
+      "headline": "esmo, 최종 테스트용 컨택터 Vulcon 출시",
+      "summary": [
+        "esmo가 반도체 최종 테스트용 컨택터 제품군 Vulcon을 새로 내놓고 테스트 셀 포트폴리오를 완성했다.",
+        "Vulcon은 자체 개발 제품군으로 모든 핸들러 브랜드에 적용할 수 있으며 테스트 조건에 맞게 구성된다.",
+        "핸들링 장비와 컨택터를 한 회사가 공급할 수 있게 되어, 테스트 장비 구성의 선택지가 넓어지는 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "컨택터",
+        "최종 테스트",
+        "핸들러",
+        "테스트 셀",
+        "Vulcon"
+      ],
+      "companies": [
+        "esmo"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "esmo"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T18:45:45Z",
+      "updated_at": "2026-11-11T18:45:45Z",
+      "articles": [
+        {
+          "key": "06b86079e88fad9e",
+          "title": "esmo Launches Vulcon Contactors for Semiconductor Final Test",
+          "url": "https://www.semiconductor-digest.com/esmo-launches-vulcon-contactors-for-semiconductor-final-test/?utm_source=rss&utm_medium=rss&utm_campaign=esmo-launches-vulcon-contactors-for-semiconductor-final-test",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-11T18:45:45Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261111-0867",
+      "headline": "엘모스, 3분기 매출 18% 성장·영업이익률 24.6%",
+      "summary": [
+        "엘모스반도체가 2026년 3분기 매출 1억 6,670만 유로로 전년 대비 18.4% 성장했다고 발표했다.",
+        "영업이익은 4,100만 유로로 29.2% 늘었고 영업이익률은 24.6%로 2.1%p 상승했다.",
+        "차량용 반도체 수요 회복과 현금창출력 개선이 이어지며 수익성 개선 흐름이 확인됐다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "영업이익률",
+        "3분기 실적",
+        "잉여현금흐름",
+        "차량용 반도체"
+      ],
+      "companies": [
+        "엘모스반도체"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "엘모스반도체"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T18:34:16Z",
+      "updated_at": "2026-11-11T18:34:16Z",
+      "articles": [
+        {
+          "key": "d02b6becd8192485",
+          "title": "Elmos Semiconductor Reports Double-Digit Revenue Growth in Q3 2026",
+          "url": "https://www.semiconductor-digest.com/elmos-semiconductor-reports-double-digit-revenue-growth-in-q3-2026/?utm_source=rss&utm_medium=rss&utm_campaign=elmos-semiconductor-reports-double-digit-revenue-growth-in-q3-2026",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-11T18:34:16Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261111-0866",
+      "headline": "imec, 유럽 칩렛용 실리콘 인터포저 기초 공정 흐름 제공",
+      "summary": [
+        "imec은 SEMICON Europa 2026에서 NanoIC 파일럿 라인의 실리콘 인터포저 플랫폼 기본 공정 흐름을 전달했다고 발표했다.",
+        "이 기술은 파인피치 RDL 인터포저, 다이투웨이퍼 하이브리드 본딩과 함께 공정 설계 키트(PDK)로 옮겨지고 저물량 시제품 제작으로 이어질 예정이다.",
+        "AI 연산 수요가 커지며 칩렛 연결 기술의 중요성이 높아져, 유럽 첨단 패키징 혁신의 접근성을 넓히는 의미가 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "실리콘 인터포저",
+        "칩렛",
+        "첨단 패키징",
+        "NanoIC",
+        "하이브리드 본딩"
+      ],
+      "companies": [
+        "imec"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "imec"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T18:32:19Z",
+      "updated_at": "2026-11-11T18:32:19Z",
+      "articles": [
+        {
+          "key": "f02816b186d5a0be",
+          "title": "imec Advances Silicon Interposer Platform for European Chiplet Development",
+          "url": "https://www.semiconductor-digest.com/imec-advances-silicon-interposer-platform-for-european-chiplet-development/?utm_source=rss&utm_medium=rss&utm_campaign=imec-advances-silicon-interposer-platform-for-european-chiplet-development",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-11T18:32:19Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261111-0865",
       "headline": "미국 팹 설계 자동화·자율화 웨비나 안내",
