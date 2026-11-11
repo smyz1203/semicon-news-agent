@@ -1,7 +1,241 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11T23:03:31Z",
+  "updated_at": "2026-11-11T23:58:16Z",
   "issues": [
+    {
+      "id": "c20261111-0884",
+      "headline": "젠슨 황 스캔들에 美 대중 반도체 규제 재가동",
+      "summary": [
+        "미국 의회가 대중국 반도체 규제를 강화하려는 움직임을 보이는 가운데 젠슨 황 엔비디아 CEO의 스캔들이 변수로 부상했다.",
+        "규제 대상은 첨단 AI 반도체부터 제조장비까지 확대될 것으로 전해졌으며 구체적 일정은 기사에 확인되지 않았다.",
+        "삼성전자와 SK하이닉스의 중국 공장도 규제 영향권에 들어갈 수 있어 업계의 주의가 필요하다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "대중국 반도체 규제",
+        "AI반도체",
+        "제조장비",
+        "수출통제",
+        "중국 공장"
+      ],
+      "companies": [
+        "엔비디아",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "엔비디아",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점, 관심 기업(SK하이닉스, 삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T23:57:28Z",
+      "updated_at": "2026-11-11T23:57:28Z",
+      "articles": [
+        {
+          "key": "fa82448177059da0",
+          "title": "젠슨 황 스캔들에 美 대중국 규제 다시 고삐…삼성·SK 中공장도 영향권",
+          "url": "https://www.dt.co.kr/article/12094731",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-11T23:57:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261107-0608",
+      "headline": "젠슨 황 CEO 중국 스파이 의혹 논란, 엔비디아 리스크 확산",
+      "summary": [
+        "뉴욕타임스가 미국 정보당국이 중국 연계 의혹 여성 사업가와 젠슨 황 CEO의 긴밀한 관계를 파악했다고 보도했다.",
+        "메가스피드는 최근 2년간 엔비디아 반도체를 48억 달러 이상 구매했으며, 수출 통제 우회 여부를 당국이 조사 중이다.",
+        "의회 안보 현안으로 번지면서 엔비디아의 대정부·공급망 리스크와 지배구조 불확실성이 부각되고 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "젠슨 황",
+        "엔비디아",
+        "수출통제",
+        "메가스피드",
+        "국가안보"
+      ],
+      "companies": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점, 매체 3곳 보도 +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-07T05:20:32Z",
+      "updated_at": "2026-11-11T23:45:50Z",
+      "articles": [
+        {
+          "key": "b9d4b578e19a2655",
+          "title": "[속보]“美당국, 젠슨 황과 ‘中스파이 의혹’ 여성 연인관계로 판단”",
+          "url": "https://www.dt.co.kr/article/12093649",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-07T05:20:32Z"
+        },
+        {
+          "key": "4d0ee7511dc92d67",
+          "title": "'젠슨 황 스캔들' 1년 전부터 경고음…美 정부는 알고 있었다?",
+          "url": "https://www.inews24.com/view/2024022",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-09T04:17:33Z"
+        },
+        {
+          "key": "5e4b67767a77e87e",
+          "title": "“젠슨황은 좋은 사람” 편든 트럼프도 정치적 부담…스파이와 불륜 묵인 해명요구 받을 수도",
+          "url": "https://www.dt.co.kr/article/12094128",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-09T20:03:29Z"
+        },
+        {
+          "key": "22d11dab95286e64",
+          "title": "단 10일 만에 엔비디아 제국 흔든 '젠슨 황 스캔들'",
+          "url": "https://zdnet.co.kr/view/?no=20261111011002",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-10T23:34:27Z"
+        },
+        {
+          "key": "9537eb5b89616f7d",
+          "title": "일파만파 번지는 의혹...젠슨 황, 무엇을 답해야 하나",
+          "url": "https://zdnet.co.kr/view/?no=20261111011038",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-11T00:37:11Z"
+        },
+        {
+          "key": "ac16e9d76d88e283",
+          "title": "10조 AI칩 中 밀반출 의혹… 젠슨 황·엔비디아 '악화일로'",
+          "url": "https://www.dt.co.kr/article/12094680",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-11T10:06:42Z"
+        },
+        {
+          "key": "c121fb7599494c6d",
+          "title": "젠슨 황 불륜 상대 中 스파이 의혹…AI·반도체 업계 '방첩 비상'",
+          "url": "https://www.inews24.com/view/2025231",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-11T23:45:50Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261111-0883",
+      "headline": "포인투테크놀로지, 데이터센터용 e-튜브 기술 공개·내년 양산",
+      "summary": [
+        "포인투테크놀로지가 DETO 2026 행사에서 데이터센터 상호연결 기술 e-튜브를 소개했다.",
+        "e-튜브는 플라스틱 도파관에 RF 신호를 실어 전송하는 방식으로, 내년 양산 계획이 함께 알려졌다.",
+        "AI 추론 인프라의 데이터 전송 병목을 해소할 새 인터커넥트 대안으로 주목받을 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "e-튜브",
+        "인터커넥트",
+        "RF 신호",
+        "밀리미터파",
+        "데이터센터"
+      ],
+      "companies": [
+        "포인투테크놀로지"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "포인투테크놀로지"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T23:38:27Z",
+      "updated_at": "2026-11-11T23:38:27Z",
+      "articles": [
+        {
+          "key": "f2ecbc290344cc9d",
+          "title": "포인투테크놀로지, DETO 2026서 e튜브 공개...내년 양산",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65303",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-11T23:38:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0882",
+      "headline": "엔비디아 이사회, 젠슨 황 CEO 해임 검토 보도",
+      "summary": [
+        "WSJ는 엔비디아 이사회가 젠슨 황 CEO 해임을 준비 중이며 이르면 11일 회의에서 거취를 정할 것이라고 보도했다.",
+        "황 CEO는 지난 8일 외도 사실을 인정하고 경영을 계속하겠다고 밝혔으나, 추가 의혹이 나오며 이사회 기류가 바뀐 것으로 전해졌다.",
+        "공식 발표 전 보도여서 최고경영진 교체 여부가 확정되지 않았고, AI반도체 선도기업의 리더십 변화가 시장에 미칠 영향이 주목된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "젠슨 황",
+        "이사회",
+        "경영진 교체",
+        "외도 의혹",
+        "엔비디아"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T23:27:27Z",
+      "updated_at": "2026-11-11T23:27:27Z",
+      "articles": [
+        {
+          "key": "20365821bc5b3761",
+          "title": "엔비디아 이사회, 젠슨 황 해임 준비…이르면 오늘 거취 결정",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65313",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-11T23:27:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261111-0881",
       "headline": "전자빔 증착 개선으로 금속-반도체 접촉 열화 완화 연구",
@@ -1024,93 +1258,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261107-0608",
-      "headline": "젠슨 황 CEO 중국 스파이 의혹 논란, 엔비디아 리스크 확산",
-      "summary": [
-        "뉴욕타임스가 미국 정보당국이 중국 연계 의혹 여성 사업가와 젠슨 황 CEO의 긴밀한 관계를 파악했다고 보도했다.",
-        "메가스피드는 최근 2년간 엔비디아 반도체를 48억 달러 이상 구매했으며, 수출 통제 우회 여부를 당국이 조사 중이다.",
-        "의회 안보 현안으로 번지면서 엔비디아의 대정부·공급망 리스크와 지배구조 불확실성이 부각되고 있다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "젠슨 황",
-        "엔비디아",
-        "수출통제",
-        "메가스피드",
-        "국가안보"
-      ],
-      "companies": [
-        "엔비디아",
-        "메가스피드"
-      ],
-      "event_type": "소송·특허",
-      "confirmed": false,
-      "parties": [
-        "엔비디아",
-        "메가스피드"
-      ],
-      "importance": 3,
-      "importance_reason": "소송·특허 3점, 매체 3곳 보도 +1, 미확정 -1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-07T05:20:32Z",
-      "updated_at": "2026-11-11T10:06:42Z",
-      "articles": [
-        {
-          "key": "b9d4b578e19a2655",
-          "title": "[속보]“美당국, 젠슨 황과 ‘中스파이 의혹’ 여성 연인관계로 판단”",
-          "url": "https://www.dt.co.kr/article/12093649",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-07T05:20:32Z"
-        },
-        {
-          "key": "4d0ee7511dc92d67",
-          "title": "'젠슨 황 스캔들' 1년 전부터 경고음…美 정부는 알고 있었다?",
-          "url": "https://www.inews24.com/view/2024022",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-09T04:17:33Z"
-        },
-        {
-          "key": "5e4b67767a77e87e",
-          "title": "“젠슨황은 좋은 사람” 편든 트럼프도 정치적 부담…스파이와 불륜 묵인 해명요구 받을 수도",
-          "url": "https://www.dt.co.kr/article/12094128",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-09T20:03:29Z"
-        },
-        {
-          "key": "22d11dab95286e64",
-          "title": "단 10일 만에 엔비디아 제국 흔든 '젠슨 황 스캔들'",
-          "url": "https://zdnet.co.kr/view/?no=20261111011002",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-10T23:34:27Z"
-        },
-        {
-          "key": "9537eb5b89616f7d",
-          "title": "일파만파 번지는 의혹...젠슨 황, 무엇을 답해야 하나",
-          "url": "https://zdnet.co.kr/view/?no=20261111011038",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-11T00:37:11Z"
-        },
-        {
-          "key": "ac16e9d76d88e283",
-          "title": "10조 AI칩 中 밀반출 의혹… 젠슨 황·엔비디아 '악화일로'",
-          "url": "https://www.dt.co.kr/article/12094680",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-11T10:06:42Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261111-0856",
