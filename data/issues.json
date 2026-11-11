@@ -1,7 +1,695 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11T06:15:03Z",
+  "updated_at": "2026-11-11T07:37:39Z",
   "issues": [
+    {
+      "id": "c20261111-0845",
+      "headline": "삼성D·LGD, 내년 모니터 OLED 패널 가격 인상 계획",
+      "summary": [
+        "삼성디스플레이와 LG디스플레이가 2027년 모니터용 OLED 패널 가격 인상을 계획하고 있는 것으로 전해졌다.",
+        "시그마인텔에 따르면 재료비 부담이 커져 양사가 내년 OLED 모니터 패널 출하 목표를 하향 조정했다.",
+        "가격 인상과 출하 축소가 함께 나타나 수요 위축 우려가 커지며 모니터 OLED 시장 전망에 영향을 줄 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "모니터 OLED",
+        "패널 가격 인상",
+        "출하 목표 하향",
+        "재료비"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "LG디스플레이",
+        "시그마인텔"
+      ],
+      "event_type": "가격 동향",
+      "confirmed": false,
+      "parties": [
+        "삼성디스플레이",
+        "LG디스플레이"
+      ],
+      "importance": 3,
+      "importance_reason": "가격 동향 3점, 관심 기업(LG디스플레이, 삼성디스플레이) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T07:27:39Z",
+      "updated_at": "2026-11-11T07:27:39Z",
+      "articles": [
+        {
+          "key": "725e8504f440b40c",
+          "title": "\"삼성D·LGD, 내년 모니터 OLED 가격 인상\"",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65272",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-11T07:27:39Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261111-0844",
+      "headline": "PC 완제품 재고 증가, 2027년 메모리 조달 계획 조정 움직임",
+      "summary": [
+        "TrendForce는 1년 넘게 이어진 메모리 가격 상승이 소비자 가전 업계의 원가 부담을 키우고 있다고 분석했다.",
+        "노트북 출하량이 2026년 3분기부터 전분기 대비 급감할 것으로 전망되며, PC 업체들은 판매 부진과 완제품 재고 누적에 직면했다.",
+        "이에 일부 PC 업체는 2027년 메모리 조달 계획을 조정하고 있어 메모리 수요 흐름에 영향을 줄 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "메모리 가격",
+        "노트북 출하",
+        "완제품 재고",
+        "2027 조달 계획"
+      ],
+      "companies": [
+        "TrendForce"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T07:20:31Z",
+      "updated_at": "2026-11-11T07:20:31Z",
+      "articles": [
+        {
+          "key": "946ca5339c9fd778",
+          "title": "Mounting Finished-Goods Inventories Prompt Some PC OEMs to Adjust Memory Procurement Plans for 2027, Says TrendForce",
+          "url": "https://www.trendforce.com/presscenter/news/20261111-13303.html",
+          "source": "TrendForce",
+          "lang": "en",
+          "published_at": "2026-11-11T07:20:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0843",
+      "headline": "AMD, TSMC 2나노 공정 바탕 3세대 EPYC 로드맵 공개",
+      "summary": [
+        "AMD가 3세대에 걸친 EPYC 서버 CPU 로드맵을 공개했다고 DigiTimes Asia가 보도했다.",
+        "기사 본문은 이미지 캡션만 있어 제품 사양이나 출시 일정 등 구체적 수치는 확인되지 않는다.",
+        "TSMC 2나노 공정 진전과 맞물려 차세대 서버 칩 경쟁과 파운드리 수요에 영향을 줄 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "EPYC",
+        "2나노",
+        "TSMC",
+        "서버 CPU",
+        "로드맵"
+      ],
+      "companies": [
+        "AMD",
+        "TSMC"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "AMD",
+        "TSMC"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T06:58:18Z",
+      "updated_at": "2026-11-11T06:58:18Z",
+      "articles": [
+        {
+          "key": "9750a2ce2da0533d",
+          "title": "AMD unveils three-gen EPYC roadmap as TSMC 2nm process advances",
+          "url": "https://www.digitimes.com/news/a20261111PD259/amd-2nm-tsmc-data-center-cpu.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T06:58:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0842",
+      "headline": "코오롱인더, 폴더블 소재 효과에 3분기 영업익 66%↑",
+      "summary": [
+        "코오롱인더스트리가 3분기 연결 매출 1조 2747억원, 영업이익 402억원을 잠정 집계해 11일 공시했다.",
+        "전년 같은 기간 대비 매출은 9.8%, 영업이익은 66.0% 늘었으며 폴더블용 투명 CPI 필름 공급 확대가 주요 요인이었다.",
+        "폴더블 디스플레이 소재 수요가 실적을 끌어올린 것으로, 고부가 소재 중심 사업 구조의 효과로 볼 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "투명 CPI 필름",
+        "폴더블 디스플레이",
+        "3분기 실적",
+        "고부가 소재"
+      ],
+      "companies": [
+        "코오롱인더스트리"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "코오롱인더스트리"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T06:50:56Z",
+      "updated_at": "2026-11-11T06:50:56Z",
+      "articles": [
+        {
+          "key": "94d37e582f2afd46",
+          "title": "코오롱인더, 폴더블 소재 힘입어 호실적…3분기 영업익 전년비 66%↑",
+          "url": "https://zdnet.co.kr/view/?no=20261111155056",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-11T06:50:56Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261111-0841",
+      "headline": "AMD, 6세대 에픽 베니스 정식 출시…서버 CPU 경쟁 본격화",
+      "summary": [
+        "AMD가 Zen 6 기반 6세대 서버 CPU 에픽 '베니스'를 공식 출시하고 정식 판매에 들어갔다.",
+        "주요 서버 제조사들이 베니스 기반 시스템 출하를 시작했으며 마이크로소프트 애저와 오라클 클라우드도 언급됐다.",
+        "가격 대비 성능을 앞세운 AMD의 서버 CPU 점유율 확대 전략이 본격화될 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "6세대 에픽",
+        "베니스",
+        "Zen 6",
+        "서버 CPU",
+        "가성비"
+      ],
+      "companies": [
+        "AMD",
+        "엔비디아",
+        "마이크로소프트",
+        "오라클"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "AMD"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T06:47:13Z",
+      "updated_at": "2026-11-11T06:47:13Z",
+      "articles": [
+        {
+          "key": "bf37b85a59081142",
+          "title": "AMD, 6세대 에픽 '베니스' 공식 출시...\"엔비디아 대비 성능 3.7배\"",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65270",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-11T06:47:13Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261111-0840",
+      "headline": "엠케이피, 올해 매출 두 배 전망…美 장비사와 양산 논의",
+      "summary": [
+        "엠케이피가 반도체 장비용 MFC 주문 급증에 힘입어 올해 매출이 작년의 두 배가 될 것이라고 밝혔다.",
+        "전석환 대표는 올해 연간 매출 400억원, 이익률 20% 수준을 예상했고 미국 장비사 A사와 대규모 양산 공급을 논의 중이다.",
+        "A사와의 계약이 성사되면 내년 매출도 크게 늘어날 전망이며 장비 부품 업체의 성장 신호로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "MFC",
+        "질량유량제어기",
+        "반도체 장비",
+        "양산 공급"
+      ],
+      "companies": [
+        "엠케이피",
+        "A사"
+      ],
+      "event_type": "가격 동향",
+      "confirmed": false,
+      "parties": [
+        "엠케이피",
+        "A사"
+      ],
+      "importance": 2,
+      "importance_reason": "가격 동향 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T06:45:30Z",
+      "updated_at": "2026-11-11T06:45:30Z",
+      "articles": [
+        {
+          "key": "7244b8a06e6a9634",
+          "title": "엠케이피 \"내년 매출 최대 800억\"…美대형 장비사와 양산 공급 논의",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65283",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-11T06:45:30Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0839",
+      "headline": "화순 동복댐 증축, 반도체 산단 용수 확보와 이주단지 조성",
+      "summary": [
+        "정부가 호남 반도체 국가산업단지 용수 공급을 위해 화순 동복댐 증축을 추진하고 있다.",
+        "수몰되는 주민 280가구를 위해 이주단지를 조성하는 방안이 함께 다뤄지고 있다.",
+        "반도체 산단의 용수 인프라 확충은 지역 산업 기반 마련의 전제 조건으로 의미가 크다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "동복댐",
+        "호남 반도체 국가산업단지",
+        "용수 공급",
+        "이주단지",
+        "수몰 주민"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T06:42:34Z",
+      "updated_at": "2026-11-11T06:42:34Z",
+      "articles": [
+        {
+          "key": "6d0b967565a53426",
+          "title": "화순 동복댐 증축 280가구 수몰주민 위한 이주단지 조성",
+          "url": "https://www.yna.co.kr/view/AKR20261111131800054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T06:42:34Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261111-0838",
+      "headline": "인텔, GPU와 Xeon으로 에이전틱 AI 공략",
+      "summary": [
+        "인텔이 GPU와 Xeon 프로세서를 앞세워 에이전틱 AI 시장을 겨냥하는 방향을 제시한 것으로 보도됐다.",
+        "기사 본문이 사실상 비어 있어 구체적인 제품 일정이나 수치는 확인할 수 없다.",
+        "에이전틱 AI 워크로드에서 CPU와 GPU를 함께 쓰는 수요가 늘어날 경우 인텔의 데이터센터 전략에 의미가 있을 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "에이전틱 AI",
+        "GPU",
+        "Xeon",
+        "데이터센터"
+      ],
+      "companies": [
+        "인텔"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T06:39:25Z",
+      "updated_at": "2026-11-11T06:39:25Z",
+      "articles": [
+        {
+          "key": "036b0bb7bdc5dd1a",
+          "title": "Intel targets agentic AI with GPUs and Xeon",
+          "url": "https://www.digitimes.com/news/a20261111PD209/intel-gpu-xeon-cpu-market.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T06:39:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261108-0624",
+      "headline": "TSMC, 3D D램 진출설 부인하고 파운드리 집중 강조",
+      "summary": [
+        "TSMC가 엔비디아 대상 3D D램 개발 보도에 대해 핵심 파운드리 사업에 집중하겠다고 입장을 밝혔다.",
+        "기사 본문이 제공되지 않아 구체적인 일정이나 수치는 확인할 수 없다.",
+        "메모리 시장 진입 보도를 부인한 것으로, 메모리 업계 경쟁 구도에 대한 해석에 영향을 줄 수 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "3D D램",
+        "파운드리",
+        "엔비디아",
+        "TSMC"
+      ],
+      "companies": [
+        "TSMC",
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "TSMC"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-08T01:08:52Z",
+      "updated_at": "2026-11-11T06:37:55Z",
+      "articles": [
+        {
+          "key": "fa6c92739af364e6",
+          "title": "TSMC, 3D D램 진출설에 \"핵심 파운드리 사업 집중\" 부인",
+          "url": "https://zdnet.co.kr/view/?no=20261107230421",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-08T01:08:52Z"
+        },
+        {
+          "key": "b79fdd518f773a94",
+          "title": "TSMC reaffirms foundry focus after report of 3D DRAM plans for Nvidia",
+          "url": "https://www.digitimes.com/news/a20261109VL202/tsmc-taiwan-dram-nvidia-3d.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-09T01:06:10Z"
+        },
+        {
+          "key": "8d4642e2ce807d7e",
+          "title": "TSMC unlikely to enter 3D DRAM; CXMT expansion a bigger threat",
+          "url": "https://www.digitimes.com/news/a20261111PD251/dram-tsmc-3d-cxmt-expansion.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T06:37:55Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0837",
+      "headline": "소형 메모리 구매사, 직접 공급에서 사실상 배제",
+      "summary": [
+        "기사 제목에 따르면 소형 메모리 구매사들이 직접 공급 체계에서 사실상 배제됐다는 Smith의 발언이 보도됐다.",
+        "본문은 이미지 출처 표기인 'Credit: SK Hynix' 한 줄뿐이라 구체적인 수치나 일정은 확인되지 않는다.",
+        "공급이 대형 고객 중심으로 쏠린다는 신호로 읽히지만, 세부 내용은 원문 확인이 필요하다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "메모리 공급",
+        "직접 공급",
+        "중소 구매사",
+        "SK하이닉스"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T06:35:00Z",
+      "updated_at": "2026-11-11T06:35:00Z",
+      "articles": [
+        {
+          "key": "033add9e6f5999c4",
+          "title": "Smaller memory buyers 'basically shut out' of direct supply, Smith says",
+          "url": "https://www.digitimes.com/news/a20261110VL218/spot-market-electronics-hbm-chips-chairman.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T06:35:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261111-0801",
+      "headline": "SK하이닉스 LPDDR5X, 산업용 기능안전 국제인증 획득",
+      "summary": [
+        "SK하이닉스가 LPDDR5X 제품과 개발 프로세스에 대해 IEC 61508 SIL 3 인증을 받았다고 11일 발표했다.",
+        "지난 1월 차량용 기능안전 인증에 이어 적용처를 로봇과 스마트팩토리 등 산업용으로 넓히는 것이다.",
+        "피지컬 AI 시장에서 메모리 신뢰성을 앞세워 고객 확보를 노리는 행보로 풀이된다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "LPDDR5X",
+        "기능안전",
+        "IEC 61508",
+        "피지컬 AI",
+        "SIL 3"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 5,
+      "importance_reason": "소송·특허 3점, 관심 기업(SK하이닉스) +1, 매체 6곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T01:08:06Z",
+      "updated_at": "2026-11-11T06:33:41Z",
+      "articles": [
+        {
+          "key": "0b0225ac0d9c5997",
+          "title": "SK하이닉스, 피지컬 AI 메모리 안전·보안 강화…국제 인증 2종 획득",
+          "url": "https://www.dt.co.kr/article/12094448",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:08:06Z"
+        },
+        {
+          "key": "aa0fd2af316d5c4b",
+          "title": "SK하이닉스, 메모리 안전성·보안성 입증…피지컬 AI 주도권 잡는다",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409569",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:13:41Z"
+        },
+        {
+          "key": "cfe256eceb070d4b",
+          "title": "SK하이닉스, 안전·보안 국제 인증으로 피지컬 AI 메모리 신뢰성 강화",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343201",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:22:49Z"
+        },
+        {
+          "key": "8034b95585c39c2a",
+          "title": "SK하이닉스, 저전력 D램 안전·보안 국제인증…피지컬 AI 공략",
+          "url": "https://www.yna.co.kr/view/AKR20261111067600003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:43:51Z"
+        },
+        {
+          "key": "466099136758151a",
+          "title": "SK하이닉스, '피지컬 AI' 메모리 보안인증 라인업 확대",
+          "url": "https://zdnet.co.kr/view/?no=20261111111359",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-11T02:59:50Z"
+        },
+        {
+          "key": "7ede6a04d15044d3",
+          "title": "SK하이닉스 LPDDR5X, 산업용 기능안전 인증 획득",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65280",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-11T06:33:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261111-0836",
+      "headline": "인피니언 최대 분기 실적, 전력반도체 AI 성장세 전환",
+      "summary": [
+        "인피니언이 역대 최대 분기 실적을 기록했다는 소식이 전해졌다.",
+        "기사 본문은 사진 크레딧만 있어 구체적 매출·이익 수치와 일정은 확인되지 않는다.",
+        "전력반도체가 경기 회복 국면을 넘어 AI 수요가 이끄는 성장으로 옮겨가고 있음을 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "전력반도체",
+        "인피니언",
+        "AI 데이터센터",
+        "실적"
+      ],
+      "companies": [
+        "인피니언"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "인피니언"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T06:20:54Z",
+      "updated_at": "2026-11-11T06:20:54Z",
+      "articles": [
+        {
+          "key": "abaf2636875c81bf",
+          "title": "Infineon's record quarter shows power chips moving from cyclical recovery to AI-led growth",
+          "url": "https://www.digitimes.com/news/a20261111VL217/infineon-power-semiconductors-data-growth-2026.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T06:20:54Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261110-0780",
+      "headline": "LG화학 여수공장 반도체 세정 소재 증설 검토",
+      "summary": [
+        "LG화학이 전남 여수 공장에 반도체 소재 생산시설 증설을 검토하는 것으로 알려졌다.",
+        "기사에 구체적인 투자 규모와 일정은 나와 있지 않으며, 증설 계획은 검토 단계다.",
+        "반도체 소재 국내 생산 확대 흐름 속에서 지역 사회의 관심이 쏠리는 상황이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "IPA",
+        "반도체 세정 소재",
+        "여수공장",
+        "생산시설 증설"
+      ],
+      "companies": [
+        "LG화학"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "LG화학"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T09:49:34Z",
+      "updated_at": "2026-11-11T06:15:35Z",
+      "articles": [
+        {
+          "key": "47539719ada983eb",
+          "title": "LG화학, 여수공장서 ‘반도체 세정 소재’ 증설 검토",
+          "url": "https://www.dt.co.kr/article/12094372",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-10T09:49:34Z"
+        },
+        {
+          "key": "1b97b10332f059a3",
+          "title": "LG화학 여수공장 반도체 소재 IPA 생산시설 증설 검토",
+          "url": "https://www.yna.co.kr/view/AKR20261111126800054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T06:15:35Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0835",
+      "headline": "레나테크놀로지, 알칼리 식각으로 유리기판 미세홀 공략",
+      "summary": [
+        "독일 식각장비사 레나테크놀로지가 유리기판 TGV 형성에 알칼리 식각 공정을 핵심으로 제시했다.",
+        "알칼리 식각은 테이퍼 각도가 최대 1도까지 낮아져 산성 식각(3~5도)보다 같은 면적에 더 많은 홀을 배치할 수 있다.",
+        "다만 낮은 쓰루풋을 고온 공정으로 보완하는 방식이며, 이는 패키징 유리기판 양산 경쟁력과 직결될 것으로 보인다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "유리기판",
+        "TGV",
+        "알칼리 식각",
+        "테이퍼 각도",
+        "LIDE",
+        "반도체 패키징"
+      ],
+      "companies": [
+        "레나테크놀로지",
+        "LPKF"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "레나테크놀로지"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T06:14:32Z",
+      "updated_at": "2026-11-11T06:14:32Z",
+      "articles": [
+        {
+          "key": "04eea620db101f32",
+          "title": "유리기판 난제 미세홀 형성…알칼리 소재로 뚫는다",
+          "url": "https://zdnet.co.kr/view/?no=20261111100326",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-11T06:14:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261111-0834",
       "headline": "호남 반도체 산단 송전선로 내년 착공, 주민 이주 과제",
@@ -907,84 +1595,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261111-0801",
-      "headline": "SK하이닉스 LPDDR5X 안전·보안 국제인증 획득",
-      "summary": [
-        "SK하이닉스가 저전력 D램 LPDDR5X로 IEC 61508 SIL 3 인증과 ISO/SAE 21434 사이버보안 관리체계 인증을 받았다고 밝혔다.",
-        "SIL 3는 단일 메모리 반도체가 달성할 수 있는 최고 등급으로, 개발부터 양산까지 절차가 국제 기준에 부합한다는 평가를 받았다.",
-        "회사는 자율주행·SDV, 로봇, 에지 AI 등 피지컬 AI 시장 공략을 강화할 계획이다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "LPDDR5X",
-        "IEC 61508",
-        "ISO/SAE 21434",
-        "피지컬 AI",
-        "기능안전",
-        "사이버보안"
-      ],
-      "companies": [
-        "SK하이닉스"
-      ],
-      "event_type": "홍보·수상",
-      "confirmed": true,
-      "parties": [
-        "SK하이닉스"
-      ],
-      "importance": 3,
-      "importance_reason": "홍보·수상 1점, 관심 기업(SK하이닉스) +1, 매체 5곳 보도 +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-11T01:08:06Z",
-      "updated_at": "2026-11-11T02:59:50Z",
-      "articles": [
-        {
-          "key": "0b0225ac0d9c5997",
-          "title": "SK하이닉스, 피지컬 AI 메모리 안전·보안 강화…국제 인증 2종 획득",
-          "url": "https://www.dt.co.kr/article/12094448",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-11T01:08:06Z"
-        },
-        {
-          "key": "aa0fd2af316d5c4b",
-          "title": "SK하이닉스, 메모리 안전성·보안성 입증…피지컬 AI 주도권 잡는다",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409569",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-11T01:13:41Z"
-        },
-        {
-          "key": "cfe256eceb070d4b",
-          "title": "SK하이닉스, 안전·보안 국제 인증으로 피지컬 AI 메모리 신뢰성 강화",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=343201",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-11-11T01:22:49Z"
-        },
-        {
-          "key": "8034b95585c39c2a",
-          "title": "SK하이닉스, 저전력 D램 안전·보안 국제인증…피지컬 AI 공략",
-          "url": "https://www.yna.co.kr/view/AKR20261111067600003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-11T01:43:51Z"
-        },
-        {
-          "key": "466099136758151a",
-          "title": "SK하이닉스, '피지컬 AI' 메모리 보안인증 라인업 확대",
-          "url": "https://zdnet.co.kr/view/?no=20261111111359",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-11T02:59:50Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261109-0687",
@@ -3115,50 +3725,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261110-0780",
-      "headline": "LG화학, 여수공장 반도체 소재 생산기지 전환 검토",
-      "summary": [
-        "LG화학이 과잉 공급으로 수익성이 악화된 기초소재 공장을 반도체 신소재 생산기지로 바꾸는 방안을 검토하고 있다.",
-        "기사에서는 범용 석유화학 비중을 낮추고 첨단소재 중심으로 사업 구조를 재편하는 전략의 일환이라고 전한다.",
-        "범용 석유화학 사업의 구조 전환 사례로, 반도체 소재 공급망 확대 흐름을 보여준다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "반도체 세정 소재",
-        "여수공장",
-        "증설 검토",
-        "사업 구조 재편"
-      ],
-      "companies": [
-        "LG화학"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": false,
-      "parties": [
-        "LG화학"
-      ],
-      "importance": 2,
-      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-10T09:49:34Z",
-      "updated_at": "2026-11-10T09:49:34Z",
-      "articles": [
-        {
-          "key": "47539719ada983eb",
-          "title": "LG화학, 여수공장서 ‘반도체 세정 소재’ 증설 검토",
-          "url": "https://www.dt.co.kr/article/12094372",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-10T09:49:34Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261110-0738",
@@ -10035,59 +10601,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261108-0624",
-      "headline": "TSMC, 3D D램 진출설 부인하고 파운드리 집중 강조",
-      "summary": [
-        "TSMC가 엔비디아 대상 3D D램 개발 보도에 대해 핵심 파운드리 사업에 집중하겠다고 입장을 밝혔다.",
-        "기사 본문이 제공되지 않아 구체적인 일정이나 수치는 확인할 수 없다.",
-        "메모리 시장 진입 보도를 부인한 것으로, 메모리 업계 경쟁 구도에 대한 해석에 영향을 줄 수 있다."
-      ],
-      "category": "파운드리/시스템반도체",
-      "tags": [
-        "3D D램",
-        "파운드리",
-        "엔비디아",
-        "TSMC"
-      ],
-      "companies": [
-        "TSMC",
-        "엔비디아"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "TSMC"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-08T01:08:52Z",
-      "updated_at": "2026-11-09T01:06:10Z",
-      "articles": [
-        {
-          "key": "fa6c92739af364e6",
-          "title": "TSMC, 3D D램 진출설에 \"핵심 파운드리 사업 집중\" 부인",
-          "url": "https://zdnet.co.kr/view/?no=20261107230421",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-08T01:08:52Z"
-        },
-        {
-          "key": "b79fdd518f773a94",
-          "title": "TSMC reaffirms foundry focus after report of 3D DRAM plans for Nvidia",
-          "url": "https://www.digitimes.com/news/a20261109VL202/tsmc-taiwan-dram-nvidia-3d.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-09T01:06:10Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261109-0636",
