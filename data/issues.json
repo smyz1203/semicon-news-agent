@@ -1,7 +1,198 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11T19:14:26Z",
+  "updated_at": "2026-11-11T20:13:08Z",
   "issues": [
+    {
+      "id": "c20261111-0872",
+      "headline": "삼성 연구진, OLED 전자차단층 표면전위로 수명 20% 연장",
+      "summary": [
+        "삼성종합기술원과 한밭대 연구진이 OLED 내부 박막의 표면 전위를 조절하는 방법을 발표했다.",
+        "음의 거대 표면 전위를 최적화한 전자차단층을 적용해 LT95 수명을 약 29시간에서 35시간으로 늘렸다.",
+        "효율과 수명을 떨어뜨리는 여기자-폴라론 소광 손실을 줄여 디스플레이 소자 수명 개선에 기여할 수 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "전자차단층",
+        "거대 표면 전위",
+        "수명 개선",
+        "여기자-폴라론 소광"
+      ],
+      "companies": [
+        "삼성전자",
+        "한밭대학교"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "삼성",
+        "한밭대"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T20:00:04Z",
+      "updated_at": "2026-11-11T20:00:04Z",
+      "articles": [
+        {
+          "key": "0aaa12194838cea9",
+          "title": "Samsung researchers and colleagues from Hanbat National University extend OLED lifetime by tuning the surface potential of the electron-blocking layer",
+          "url": "https://www.oled-info.com/korean-researchers-extend-oled-lifetime-tuning-surface-potential-electron",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-11T20:00:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0871",
+      "headline": "테크닉, 어드밴스드 패키징용 구리 도금 공정 전시",
+      "summary": [
+        "테크닉이 SEMICON Europa 2026에 참가해 반도체 패키징 솔루션을 선보인다고 밝혔다.",
+        "신제품 Elevate Cu 3000과 Cu 1500은 2.5D·3D 집적과 고밀도 상호연결을 지원한다고 소개했다.",
+        "AI 반도체 등 차세대 패키징 수요에 맞춘 도금 공정으로, 업계 관심을 끌 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "구리 도금",
+        "어드밴스드 패키징",
+        "2.5D·3D 집적",
+        "Elevate Cu 3000",
+        "SEMICON Europa"
+      ],
+      "companies": [
+        "테크닉"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T19:23:08Z",
+      "updated_at": "2026-11-11T19:23:08Z",
+      "articles": [
+        {
+          "key": "b65f583a49a1c56b",
+          "title": "Technic Showcases Copper Plating Chemistries for Advanced Packaging",
+          "url": "https://www.semiconductor-digest.com/technic-showcases-copper-plating-chemistries-for-advanced-packaging/?utm_source=rss&utm_medium=rss&utm_campaign=technic-showcases-copper-plating-chemistries-for-advanced-packaging",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-11T19:23:08Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0870",
+      "headline": "브루어 사이언스, SEMICON Europa 2026서 첨단 소재 공개",
+      "summary": [
+        "브루어 사이언스가 2026년 11월 10~13일 뮌헨 SEMICON Europa 2026에 참가해 신소재 솔루션을 선보인다고 밝혔다.",
+        "AI·HPC 패터닝, 2D 소재 통합, 첨단 패키징 관련 기술을 부스 C1470에서 소개할 예정이다.",
+        "AI 확산으로 반도체 설계 한계가 높아지며 고객이 요구하는 소재 역할이 커지고 있음을 보여준다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "SEMICON Europa 2026",
+        "첨단 패키징",
+        "2D 소재",
+        "AI 패터닝",
+        "이종 집적"
+      ],
+      "companies": [
+        "브루어 사이언스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T19:20:52Z",
+      "updated_at": "2026-11-11T19:20:52Z",
+      "articles": [
+        {
+          "key": "d89acfc67a6af29d",
+          "title": "Brewer Science to Showcase Advanced Materials Innovation at SEMICON Europa 2026",
+          "url": "https://www.semiconductor-digest.com/brewer-science-to-showcase-advanced-materials-innovation-at-semicon-europa-2026/?utm_source=rss&utm_medium=rss&utm_campaign=brewer-science-to-showcase-advanced-materials-innovation-at-semicon-europa-2026",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-11T19:20:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0796",
+      "headline": "탑코사이언티픽, 독일 드레스덴 거점 열고 유럽 반도체 전시회 첫 참가",
+      "summary": [
+        "탑코사이언티픽의 독일 법인 TOPCO GERMANY가 SEMICON Europa 2026에 처음 참가해 공정 소재·특수화학·세정장비 등을 선보인다.",
+        "법인은 2026년 8월 설립됐으며, 드레스덴 현지 팀을 통해 유럽 파운드리와 자동차 전장 기업에 소재 공급과 기술 지원을 제공할 계획이다.",
+        "유럽 현지화 수요를 겨냥한 행보로, 국내외 소재·장비 공급사를 엮는 통합 서비스 역량을 유럽 시장에서 확대하는 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "SEMICON Europa 2026",
+        "유럽 반도체 현지화",
+        "공정 소재",
+        "확산 세정장비",
+        "드레스덴 클러스터"
+      ],
+      "companies": [
+        "탑코사이언티픽",
+        "TSMC",
+        "보쉬",
+        "인피니언",
+        "NXP",
+        "글로벌파운드리"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "탑코사이언티픽"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T00:34:44Z",
+      "updated_at": "2026-11-11T19:17:20Z",
+      "articles": [
+        {
+          "key": "0f6663d281c6524d",
+          "title": "Topco Scientific makes European semiconductor show debut, targets localized foundry opportunities",
+          "url": "https://www.digitimes.com/news/a20261110PD255/topco-equipment-materials-germany-manufacturing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T00:34:44Z"
+        },
+        {
+          "key": "e20ace568595bde1",
+          "title": "Topco Scientific Establishes Dresden Hub, Makes SEMICON Europa Debut",
+          "url": "https://www.semiconductor-digest.com/topco-scientific-establishes-dresden-hub-makes-semicon-europa-debut/?utm_source=rss&utm_medium=rss&utm_campaign=topco-scientific-establishes-dresden-hub-makes-semicon-europa-debut",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-11T19:17:20Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261111-0869",
       "headline": "Sivers, WT마이크로일렉트로닉스와 InP 레이저 글로벌 유통 계약",
@@ -4158,49 +4349,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261111-0796",
-      "headline": "Topco Scientific, 유럽 반도체 전시회 첫 참가 및 현지화 파운드리 공략",
-      "summary": [
-        "Topco Scientific이 유럽 반도체 전시회에 처음 참가해 존재를 알렸다.",
-        "기사 본문이 사실상 없어 구체적 제품, 수치, 일정은 확인되지 않는다.",
-        "유럽 현지 파운드리 수요를 노리는 행보로, 지역 공급망 다변화 흐름과 맞닿아 있다."
-      ],
-      "category": "파운드리/시스템반도체",
-      "tags": [
-        "유럽 반도체 전시회",
-        "현지화 파운드리",
-        "공급망 다변화"
-      ],
-      "companies": [
-        "Topco Scientific"
-      ],
-      "event_type": "홍보·수상",
-      "confirmed": true,
-      "parties": [
-        "Topco Scientific"
-      ],
-      "importance": 1,
-      "importance_reason": "홍보·수상 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-11T00:34:44Z",
-      "updated_at": "2026-11-11T00:34:44Z",
-      "articles": [
-        {
-          "key": "0f6663d281c6524d",
-          "title": "Topco Scientific makes European semiconductor show debut, targets localized foundry opportunities",
-          "url": "https://www.digitimes.com/news/a20261110PD255/topco-equipment-materials-germany-manufacturing.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-11T00:34:44Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
     },
     {
       "id": "c20261110-0776",
