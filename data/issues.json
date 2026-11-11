@@ -1,7 +1,48 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11T16:04:20Z",
+  "updated_at": "2026-11-11T17:10:38Z",
   "issues": [
+    {
+      "id": "c20261111-0865",
+      "headline": "미국 팹 설계 자동화·자율화 웨비나 안내",
+      "summary": [
+        "EE Times가 신규 팹(greenfield) 설계 결정이 미국 반도체 성능을 20년간 좌우한다는 점을 짚는 온디맨드 웨비나를 공개했다.",
+        "웨비나에서는 전력 등 인프라를 초기 설계에 통합하는 방안 등을 다루며, 기사 본문은 짧은 소개문에 그친다.",
+        "다만 구체적 수치나 기업 발표는 없어, 업계에 주는 실질적 영향은 현재 기사만으로는 판단하기 어렵다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "팹 설계",
+        "자동화",
+        "자율화",
+        "신규 팹",
+        "미국 반도체"
+      ],
+      "companies": [],
+      "event_type": "홍보·수상",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T16:30:24Z",
+      "updated_at": "2026-11-11T16:30:24Z",
+      "articles": [
+        {
+          "key": "d42f0694e9708604",
+          "title": "From Automated to Autonomous: Rethinking Fab Design for the Future",
+          "url": "https://www.eetimes.com/from-automated-to-autonomous-rethinking-fab-design-for-the-future/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-11T16:30:24Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
     {
       "id": "c20261111-0864",
       "headline": "국내 연구진, 야외용 AR 안경 시제품 개발",
