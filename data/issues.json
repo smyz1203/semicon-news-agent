@@ -1,7 +1,214 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11T21:48:09Z",
+  "updated_at": "2026-11-11T23:03:31Z",
   "issues": [
+    {
+      "id": "c20261111-0881",
+      "headline": "전자빔 증착 개선으로 금속-반도체 접촉 열화 완화 연구",
+      "summary": [
+        "RWTH 아헨 대학 연구진이 전자빔 증착 장치를 개선해 시료에 대한 하전 입자 충격을 억제하는 방법을 발표했다.",
+        "백금-실리콘 쇼트키 다이오드 비교에서 페르미 준위 고정이 줄어 n형 실리콘과의 쇼트키 장벽이 높아졌다고 보고됐다.",
+        "반도체 접촉 신뢰성 개선을 위한 공정 기술 연구로, 향후 소자 제조 공정 최적화에 참고될 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "전자빔 증착",
+        "금속-반도체 접촉",
+        "쇼트키 장벽",
+        "페르미 준위 고정",
+        "실리콘"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T23:00:41Z",
+      "updated_at": "2026-11-11T23:00:41Z",
+      "articles": [
+        {
+          "key": "1f443440a88c8f0e",
+          "title": "Optimized E-Beam Evaporation Reduces Metal-Semiconductor Contact Degradation (RWTH Aachen)",
+          "url": "https://semiengineering.com/optimized-e-beam-evaporation-reduces-metal-semiconductor-contact-degradation-rwth-aachen/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-11T23:00:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0880",
+      "headline": "칩렛 설계 가속을 위한 AI 칩 인텔리전스 키노트",
+      "summary": [
+        "Cognichip의 스텔리오스 디아만티디스 최고제품책임자가 칩렛 설계 속도 향상을 주제로 키노트를 발표했다.",
+        "기사 본문이 짧게 잘려 있어 구체적인 기술 사양이나 수치는 확인되지 않는다.",
+        "무어의 법칙이 성숙기에 들어서면서 설계 생산성 확보가 업계의 과제로 제기된 흐름을 보여준다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "칩렛",
+        "AI 칩 인텔리전스",
+        "설계 자동화",
+        "무어의 법칙"
+      ],
+      "companies": [
+        "Cognichip"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T23:00:05Z",
+      "updated_at": "2026-11-11T23:00:05Z",
+      "articles": [
+        {
+          "key": "5978a74394e1a27f",
+          "title": "Chiplets: Revolutionizing Design Velocity with Artificial Chip Intelligence ACI",
+          "url": "https://www.eetimes.com/chiplets-revolutionizing-design-velocity-with-artificial-chip-intelligence-aci/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-11T23:00:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0879",
+      "headline": "젠슨 황 엔비디아 CEO 혼외 관계 의혹 확산",
+      "summary": [
+        "젠슨 황 엔비디아 CEO가 직속 여성 임원과도 혼외 관계를 맺었다는 의혹이 제기됐다.",
+        "이사회 조사와 미 의회의 압박이 이어지고 있으나 기사에는 구체적 조사 결과가 나오지 않았다.",
+        "경영진 리스크가 기업 지배구조와 투자 심리에 영향을 줄 수 있어 주목된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "엔비디아",
+        "지배구조",
+        "이사회 조사"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T22:39:58Z",
+      "updated_at": "2026-11-11T22:39:58Z",
+      "articles": [
+        {
+          "key": "1c2810be4680eeac",
+          "title": "앨리스 황 말고 또?…“젠슨 황, 사내 여성 임원과도 혼외 관계”",
+          "url": "https://www.dt.co.kr/article/12094716",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-11T22:39:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0878",
+      "headline": "칩렛 확장의 한계를 짚는 업계 패널 토론",
+      "summary": [
+        "EE Times가 칩렛 확장 한계를 주제로 업계 전문가 패널 토론을 진행했다.",
+        "기사에는 토론의 구체적 결론이나 수치가 나오지 않아 세부 내용은 확인되지 않는다.",
+        "칩렛 설계가 복잡해지면서 기술 과제가 늘고 있다는 점이 산업 논의의 쟁점으로 보인다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "칩렛",
+        "패키징",
+        "시스템 확장성",
+        "이종 집적"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T22:39:24Z",
+      "updated_at": "2026-11-11T22:39:24Z",
+      "articles": [
+        {
+          "key": "c712801d6fc3e579",
+          "title": "Chiplets: Panel Discussion: Scaling Chiplets Without Breaking the System – Where are the Limits?",
+          "url": "https://www.eetimes.com/chiplets-panel-discussion-scaling-chiplets-without-breaking-the-system-where-are-the-limits/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-11T22:39:24Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0877",
+      "headline": "칩렛 설계 흐름 재정비 필요성 논의 패널",
+      "summary": [
+        "EE Times가 칩렛 설계 흐름을 주제로 업계 전문가 패널 토론을 진행했다고 전했다.",
+        "기사 본문은 짧게 잘려 있어 구체적인 결론이나 수치는 확인되지 않는다.",
+        "칩렛 확산으로 기존 설계 방식의 한계가 드러나고 있어 설계 흐름 재정의가 업계 과제로 떠오른 흐름이다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "칩렛",
+        "멀티다이",
+        "설계 흐름",
+        "패키징"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T22:35:01Z",
+      "updated_at": "2026-11-11T22:35:01Z",
+      "articles": [
+        {
+          "key": "3270bc9a9ea18130",
+          "title": "Chiplets: Panel Discussion: How Should We Reimagine the Design Flow for Chiplet Scalability",
+          "url": "https://www.eetimes.com/chiplets-panel-discussion-how-should-we-reimagine-the-design-flow-for-chiplet-scalability/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-11T22:35:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261111-0876",
       "headline": "전기전자 5대 기업 수출 1년 새 3.3배 증가",
