@@ -1,7 +1,713 @@
 {
   "version": 1,
-  "updated_at": "2026-11-10T23:47:37Z",
+  "updated_at": "2026-11-11T01:20:58Z",
   "issues": [
+    {
+      "id": "c20261111-0801",
+      "headline": "SK하이닉스, 피지컬 AI용 메모리 안전·보안 국제 인증 2종 확보",
+      "summary": [
+        "SK하이닉스가 LPDDR5X D램으로 IEC 61508 SIL 3 기능안전 인증과 ISO/SAE 21434 기반 CSMS 사이버보안 인증을 획득했다고 11일 밝혔다.",
+        "두 인증은 SGS-TÜV Saar의 심사를 거쳐 확보했으며 자동차에 이어 로봇과 스마트팩토리로 적용 범위를 넓힐 기반이 됐다.",
+        "메모리의 안전성과 보안성을 국제적으로 입증해 피지컬 AI 시장에서 기술 경쟁력을 강화하는 계기가 될 전망이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "LPDDR5X",
+        "기능안전",
+        "사이버보안",
+        "피지컬 AI",
+        "IEC 61508",
+        "ISO/SAE 21434"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "SGS-TÜV Saar"
+      ],
+      "event_type": "인수합병",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "인수합병 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T01:08:06Z",
+      "updated_at": "2026-11-11T01:13:41Z",
+      "articles": [
+        {
+          "key": "0b0225ac0d9c5997",
+          "title": "SK하이닉스, 피지컬 AI 메모리 안전·보안 강화…국제 인증 2종 획득",
+          "url": "https://www.dt.co.kr/article/12094448",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:08:06Z"
+        },
+        {
+          "key": "aa0fd2af316d5c4b",
+          "title": "SK하이닉스, 메모리 안전성·보안성 입증…피지컬 AI 주도권 잡는다",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409569",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:13:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261110-0719",
+      "headline": "AP시스템 반도체 장비 신규 수주 1000억원 돌파",
+      "summary": [
+        "AP시스템이 올해 반도체 부문 신규 수주가 이달 기준 1000억원을 넘었다고 10일 밝혔다.",
+        "지난해 반도체 매출 652억원의 약 1.5배이며, 매출은 2027년까지 나눠 인식된다.",
+        "RTP 장비 수주 증가가 주된 배경이며, 메모리 제조사 내 점유율 확대가 성장 동력이 되고 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "RTP",
+        "급속열처리",
+        "낸드 플래시",
+        "D램",
+        "수주"
+      ],
+      "companies": [
+        "AP시스템",
+        "삼성전자"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "AP시스템"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T00:18:10Z",
+      "updated_at": "2026-11-11T01:02:10Z",
+      "articles": [
+        {
+          "key": "7f0b0c1b3ae23e1c",
+          "title": "AP시스템, \"올해 반도체장비 신규수주 1000억원\"",
+          "url": "https://zdnet.co.kr/view/?no=20261110084740",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-10T00:18:10Z"
+        },
+        {
+          "key": "e85bdb0ae5b421af",
+          "title": "AP시스템, 반도체 부문 신규 수주 1000억원 돌파",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65229",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:02:10Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261111-0799",
+      "headline": "LG전자, 이페이퍼 디스플레이 스마트폰 관리 앱 출시",
+      "summary": [
+        "LG전자가 초저전력 상업용 이페이퍼 디스플레이를 스마트폰으로 관리하는 앱 'LG 사이니지 매니저'를 출시했다.",
+        "스마트폰에서 이미지를 편집해 원하는 시간에 디스플레이로 전송할 수 있으며 별도 PC나 리모컨이 필요 없다.",
+        "매장 메뉴나 프로모션 안내의 콘텐츠 교체 시간을 줄여 상업용 디스플레이 운영 편의성을 높일 것으로 보인다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "이페이퍼 디스플레이",
+        "상업용 디스플레이",
+        "디지털 사이니지",
+        "모바일 관리 앱",
+        "초저전력"
+      ],
+      "companies": [
+        "LG전자"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "LG전자"
+      ],
+      "importance": 4,
+      "importance_reason": "재무·주주 2점, 관심 기업(LG전자) +1, 매체 3곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T01:00:00Z",
+      "updated_at": "2026-11-11T01:00:06Z",
+      "articles": [
+        {
+          "key": "b69638559466591b",
+          "title": "LG전자, 이페이퍼 디스플레이 관리 앱 출시",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65246",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:00:00Z"
+        },
+        {
+          "key": "1f29379c60a2090c",
+          "title": "LG전자 E-페이퍼 디스플레이, 모바일 앱으로 손쉽게 관리",
+          "url": "https://www.yna.co.kr/view/AKR20261111040100003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:00:02Z"
+        },
+        {
+          "key": "0b722d244bd1bd48",
+          "title": "“스마트폰으로 콘텐츠 편집”…LG전자, 이페이퍼 디스플레이 관리 앱 출시",
+          "url": "https://www.dt.co.kr/article/12094424",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:00:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261111-0800",
+      "headline": "삼성전자, 공공나노팹에 중고 장비 이전해 기능 고도화 지원",
+      "summary": [
+        "삼성전자가 국가 공공나노팹 기능 고도화를 위해 중고 장비를 이전하기로 했다.",
+        "기사에는 이전 장비의 규모, 시기, 금액 등 구체적 수치가 나오지 않았다.",
+        "국내 반도체 연구·인력 인프라 확충에 민간 장비가 쓰이는 사례로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "공공나노팹",
+        "중고 장비",
+        "장비 이전",
+        "반도체 인프라"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "재무·주주 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T01:00:00Z",
+      "updated_at": "2026-11-11T01:00:00Z",
+      "articles": [
+        {
+          "key": "d095ff1164d61b39",
+          "title": "삼성전자, 공공나노팹에 장비·노하우 나눈다",
+          "url": "https://www.yna.co.kr/view/AKR20261111052500017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261111-0798",
+      "headline": "딥엑스, 삼성 2나노로 차세대 AI칩 DX-M2 개발 진척",
+      "summary": [
+        "딥엑스가 차세대 AI 반도체 DX-M2의 칩 설계를 완료하고 마스크 제작에 들어갔다고 밝혔다.",
+        "삼성전자 2나노 SF2P 공정으로 제조되며 내년 3월 첫 실리콘 확보, 2분기 고객사 샘플 공급이 계획됐다.",
+        "2나노 파운드리 공정을 활용한 국내 팹리스의 양산 일정이 구체화된 사례로 볼 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "DX-M2",
+        "2나노",
+        "SF2P",
+        "AI반도체",
+        "테이프아웃"
+      ],
+      "companies": [
+        "딥엑스",
+        "삼성전자"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "딥엑스",
+        "삼성전자"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점, 관심 기업(삼성전자) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T00:59:35Z",
+      "updated_at": "2026-11-11T00:59:35Z",
+      "articles": [
+        {
+          "key": "39b1ed811444975a",
+          "title": "딥엑스, 삼성 2나노 칩 'DX-M2' 마스크 제작 착수...내년 4분기 양산",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65250",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-11T00:59:35Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0797",
+      "headline": "두산, AI 가속기용 CCL로 유럽 시장 공략 나서",
+      "summary": [
+        "두산이 AI 가속기와 광모듈용 하이엔드 동박적층판(CCL)을 앞세워 유럽 시장 공략에 나섰다.",
+        "기사 본문이 일부만 제공돼 구체적 수주 규모나 계약 상대, 일정은 확인되지 않는다.",
+        "AI 반도체 기판 소재 공급망에서 유럽 고객 확보를 노린 움직임으로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "동박적층판",
+        "CCL",
+        "AI 가속기",
+        "광모듈",
+        "유럽 시장"
+      ],
+      "companies": [
+        "두산"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T00:50:45Z",
+      "updated_at": "2026-11-11T00:50:45Z",
+      "articles": [
+        {
+          "key": "de203e8ddd0fd243",
+          "title": "두산, AI 반도체 핵심소재 CCL로 유럽 시장 공략",
+          "url": "https://www.yna.co.kr/view/AKR20261111049600003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T00:50:45Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261111-0796",
+      "headline": "Topco Scientific, 유럽 반도체 전시회 첫 참가 및 현지화 파운드리 공략",
+      "summary": [
+        "Topco Scientific이 유럽 반도체 전시회에 처음 참가해 존재를 알렸다.",
+        "기사 본문이 사실상 없어 구체적 제품, 수치, 일정은 확인되지 않는다.",
+        "유럽 현지 파운드리 수요를 노리는 행보로, 지역 공급망 다변화 흐름과 맞닿아 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "유럽 반도체 전시회",
+        "현지화 파운드리",
+        "공급망 다변화"
+      ],
+      "companies": [
+        "Topco Scientific"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "Topco Scientific"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T00:34:44Z",
+      "updated_at": "2026-11-11T00:34:44Z",
+      "articles": [
+        {
+          "key": "0f6663d281c6524d",
+          "title": "Topco Scientific makes European semiconductor show debut, targets localized foundry opportunities",
+          "url": "https://www.digitimes.com/news/a20261110PD255/topco-equipment-materials-germany-manufacturing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T00:34:44Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261109-0705",
+      "headline": "EV그룹, 본딩 기술로 양자컴퓨팅 큐비트 확장 지원",
+      "summary": [
+        "EV그룹이 첨단 본딩 등 패키징 기술로 양자컴퓨팅 개발을 지원한다고 10일 밝혔다.",
+        "이온 트랩·초전도·광자·스핀 방식의 양자 칩에 이종 소재와 소자를 집적해 큐비트 수를 늘리도록 돕는다.",
+        "양자 칩 분야에서 패키징 장비의 역할이 커지며 장비업체의 신사업 기회로 주목된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "첨단 패키징",
+        "본딩",
+        "양자컴퓨팅",
+        "큐비트",
+        "이종 집적"
+      ],
+      "companies": [
+        "EV그룹",
+        "실리콘 오스트리아 랩스",
+        "자나두"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "EV그룹"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-09T21:24:25Z",
+      "updated_at": "2026-11-11T00:33:17Z",
+      "articles": [
+        {
+          "key": "cb74273188e3c42b",
+          "title": "EV Group Advances Qubit Scaling Through Semiconductor Packaging Technology",
+          "url": "https://www.semiconductor-digest.com/ev-group-advances-qubit-scaling-through-semiconductor-packaging-technology/?utm_source=rss&utm_medium=rss&utm_campaign=ev-group-advances-qubit-scaling-through-semiconductor-packaging-technology",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-09T21:24:25Z"
+        },
+        {
+          "key": "f8ee160c5447d11a",
+          "title": "EVG, 첨단 본딩 기술로 양자컴퓨팅 개발 지원",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65241",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-11T00:33:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0776",
+      "headline": "퀄리타스반도체, 모빌린트 피지컬 AI SoC에 인터페이스 IP 공급",
+      "summary": [
+        "퀄리타스반도체가 모빌린트에 PCIe·MIPI 서브시스템 등 인터페이스 IP 통합 솔루션을 공급한다고 밝혔다.",
+        "모빌린트는 이 솔루션으로 NPU 기반 시스템온칩을 개발하며, 로봇과 자율주행차 등 피지컬 AI용 칩이다.",
+        "모빌린트는 지난달 휴머노이드용 AI 연산 플랫폼 개발을 밝힌 바 있어 AI 칩 설계 생태계 협력이 넓어지는 흐름이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "인터페이스 IP",
+        "PCIe 서브시스템",
+        "MIPI",
+        "NPU",
+        "피지컬 AI",
+        "칩렛"
+      ],
+      "companies": [
+        "퀄리타스반도체",
+        "모빌린트"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "퀄리타스반도체",
+        "모빌린트"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T08:19:12Z",
+      "updated_at": "2026-11-11T00:33:07Z",
+      "articles": [
+        {
+          "key": "efc2672c8534dbd9",
+          "title": "퀄리타스반도체, 모빌린트에 초고속 IP 통합 솔루션 공급…NPU 기반 AI SoC 협력",
+          "url": "https://zdnet.co.kr/view/?no=20261110170018",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-10T08:19:12Z"
+        },
+        {
+          "key": "daade3fcaa29f4a2",
+          "title": "퀄리타스반도체, 모빌린트 로봇용 SoC에 통합 솔루션 공급",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65235",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-11T00:33:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261111-0795",
+      "headline": "반도체 수출 급증, 1조 달러 달성 임박 전망",
+      "summary": [
+        "이달 초 반도체 수출이 작년 같은 기간보다 4배 이상 급증하며 전체 수출액도 두 배 이상 늘었다.",
+        "기사에 따르면 반도체 수출 호조로 누적 수출 규모가 1조 달러 달성에 가까워졌다는 전망이 나온다.",
+        "이는 국내 반도체 업황 회복세가 수출 전반을 끌어올리고 있음을 보여주는 지표로 해석된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "반도체 수출",
+        "수출 통계",
+        "1조 달러",
+        "업황 회복"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T00:31:26Z",
+      "updated_at": "2026-11-11T00:31:26Z",
+      "articles": [
+        {
+          "key": "f3891a05e2ca3c9c",
+          "title": "반도체 수출 4배로 껑충…'1조 달러' 곧 달성 전망(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261111035651002",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T00:31:26Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0794",
+      "headline": "TSMC, AI 기업 투자 위해 전용 투자사 설립",
+      "summary": [
+        "TSMC가 Anthropic과 OpenAI에 대한 투자를 계획하고 이를 위한 투자 회사를 설립했다는 보도가 나왔다.",
+        "기사 본문이 제목과 크레딧만 포함되어 투자 규모와 지분율 등 구체적 수치와 일정은 확인되지 않는다.",
+        "파운드리 선두 기업이 AI 기업 지분 투자로 반도체 전략을 넓히는 움직임으로, 수요처 확보 측면에서 의미가 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI반도체",
+        "투자",
+        "파운드리",
+        "반도체 전략"
+      ],
+      "companies": [
+        "TSMC",
+        "Anthropic",
+        "OpenAI"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "TSMC",
+        "Anthropic",
+        "OpenAI"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T00:19:57Z",
+      "updated_at": "2026-11-11T00:19:57Z",
+      "articles": [
+        {
+          "key": "335ea80d4c6c4be5",
+          "title": "TSMC plans investments in Anthropic, OpenAI; sets up investment firm to expand semiconductor strategy",
+          "url": "https://www.digitimes.com/news/a20261111PD200/tsmc-investment-taiwan-anthropic-openai.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T00:19:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0793",
+      "headline": "SK그룹, 2027년 사업전략 논의 위해 CEO 세미나 개최",
+      "summary": [
+        "SK그룹이 이번 주 주요 계열사 최고경영진을 모아 3일간 CEO 세미나를 연다고 업계 소식통이 전했다.",
+        "세미나는 최태원 회장 주관으로 목요일부터 토요일까지 진행되며 내년 사업전략을 논의하는 연례 행사다.",
+        "반도체부터 통신까지 아우르는 그룹 차원의 내년 방향이 정해질 자리여서 계열사 투자 기조에 영향을 줄 전망이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "CEO 세미나",
+        "2027 사업전략",
+        "최태원",
+        "계열사 경영진"
+      ],
+      "companies": [
+        "SK그룹"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "SK그룹"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T00:17:34Z",
+      "updated_at": "2026-11-11T00:17:34Z",
+      "articles": [
+        {
+          "key": "cf91102889552b82",
+          "title": "SK Group to hold CEO seminar to discuss 2027 business strategies",
+          "url": "https://www.koreaherald.com/article/10933066",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-11T00:17:34Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261111-0792",
+      "headline": "엔비디아, 젠슨 황 의혹 독립조사에 김준현 변호사 선임",
+      "summary": [
+        "엔비디아 이사회가 젠슨 황 CEO 의혹 조사를 위해 한국계 김준현 변호사와 WLRK 로펌을 선임했다.",
+        "이사회는 앞서 불륜 사실이 드러나자 독립 이사 위원회를 꾸려 외부 법률 자문단과 자체 조사를 진행하겠다고 밝혔다.",
+        "이번 조사는 중국 스파이 연루 의혹, 기밀 누출, 대중국 수출통제 준수 여부를 다룰 전망이라 업계 파장이 예상된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "젠슨 황",
+        "독립조사",
+        "대중국 수출통제",
+        "기밀 누출",
+        "중국 스파이 의혹"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T23:40:22Z",
+      "updated_at": "2026-11-10T23:40:22Z",
+      "articles": [
+        {
+          "key": "fb6a7277ebadc375",
+          "title": "엔비디아, '젠슨 황 의혹' 독립 조사에 한국계 변호사 선임",
+          "url": "https://zdnet.co.kr/view/?no=20261111080355",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-10T23:40:22Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261107-0608",
+      "headline": "젠슨 황 CEO 중국 스파이 의혹 논란, 엔비디아 리스크 확산",
+      "summary": [
+        "뉴욕타임스가 미국 정보당국이 중국 연계 의혹 여성 사업가와 젠슨 황 CEO의 긴밀한 관계를 파악했다고 보도했다.",
+        "메가스피드는 최근 2년간 엔비디아 반도체를 48억 달러 이상 구매했으며, 수출 통제 우회 여부를 당국이 조사 중이다.",
+        "의회 안보 현안으로 번지면서 엔비디아의 대정부·공급망 리스크와 지배구조 불확실성이 부각되고 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "젠슨 황",
+        "엔비디아",
+        "수출통제",
+        "메가스피드",
+        "국가안보"
+      ],
+      "companies": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점, 매체 3곳 보도 +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-07T05:20:32Z",
+      "updated_at": "2026-11-10T23:34:27Z",
+      "articles": [
+        {
+          "key": "b9d4b578e19a2655",
+          "title": "[속보]“美당국, 젠슨 황과 ‘中스파이 의혹’ 여성 연인관계로 판단”",
+          "url": "https://www.dt.co.kr/article/12093649",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-07T05:20:32Z"
+        },
+        {
+          "key": "4d0ee7511dc92d67",
+          "title": "'젠슨 황 스캔들' 1년 전부터 경고음…美 정부는 알고 있었다?",
+          "url": "https://www.inews24.com/view/2024022",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-09T04:17:33Z"
+        },
+        {
+          "key": "5e4b67767a77e87e",
+          "title": "“젠슨황은 좋은 사람” 편든 트럼프도 정치적 부담…스파이와 불륜 묵인 해명요구 받을 수도",
+          "url": "https://www.dt.co.kr/article/12094128",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-09T20:03:29Z"
+        },
+        {
+          "key": "22d11dab95286e64",
+          "title": "단 10일 만에 엔비디아 제국 흔든 '젠슨 황 스캔들'",
+          "url": "https://zdnet.co.kr/view/?no=20261111011002",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-10T23:34:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261110-0791",
       "headline": "Nordson, 패널급 패키징용 플라즈마 장비로 기술상 수상",
@@ -912,54 +1618,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261110-0776",
-      "headline": "퀄리타스반도체, 모빌린트 AI SoC에 초고속 IP 통합 공급",
-      "summary": [
-        "퀄리타스반도체가 모빌린트 차세대 NPU 기반 AI SoC에 UCIe, PCIe, MIPI 등 인터페이스 IP를 통합 공급하기로 확정했다.",
-        "칩렛 구조의 이기종 UCIe 연결 기술과 PCIe·MIPI 서브시스템을 PHY와 컨트롤러 형태로 일괄 제공하며 설계 복잡성을 낮춘다.",
-        "국내 IP 기업이 칩 내외부 인터커넥트 전체를 단일 솔루션으로 공급한 사례로, 피지컬 AI 칩 시장에서 의미가 크다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "NPU",
-        "칩렛",
-        "UCIe",
-        "PCIe",
-        "MIPI",
-        "피지컬 AI"
-      ],
-      "companies": [
-        "퀄리타스반도체",
-        "모빌린트"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "퀄리타스반도체",
-        "모빌린트"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-10T08:19:12Z",
-      "updated_at": "2026-11-10T08:19:12Z",
-      "articles": [
-        {
-          "key": "efc2672c8534dbd9",
-          "title": "퀄리타스반도체, 모빌린트에 초고속 IP 통합 솔루션 공급…NPU 기반 AI SoC 협력",
-          "url": "https://zdnet.co.kr/view/?no=20261110170018",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-10T08:19:12Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261110-0775",
@@ -4128,52 +4786,6 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261110-0719",
-      "headline": "AP시스템 올해 반도체장비 수주 1000억 돌파, 레이저 장비 확대",
-      "summary": [
-        "AP시스템이 올해 반도체 장비 신규 수주가 1000억원을 넘었다고 밝혔으며 연간 기준 처음이다.",
-        "주력 RTP 장비 수주가 늘었고 레이저 기반 신규 장비도 수주했으며, 지난해 매출 652억원의 1.5배 수준이다.",
-        "OLED 레이저 기술을 반도체 공정에 적용해 장비 매출 비중을 2030년 30%로 높일 계획이다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "RTP",
-        "레이저 장비",
-        "HBM",
-        "반도체 장비 수주",
-        "레이저 다이싱"
-      ],
-      "companies": [
-        "AP시스템",
-        "삼성전자"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "AP시스템"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-10T00:18:10Z",
-      "updated_at": "2026-11-10T00:18:10Z",
-      "articles": [
-        {
-          "key": "7f0b0c1b3ae23e1c",
-          "title": "AP시스템, \"올해 반도체장비 신규수주 1000억원\"",
-          "url": "https://zdnet.co.kr/view/?no=20261110084740",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-10T00:18:10Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
       "id": "c20261110-0711",
       "headline": "D램 수급 완화에도 핵심 부품 병목은 지속",
       "summary": [
@@ -4437,51 +5049,6 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261109-0705",
-      "headline": "EV그룹, 양자칩 확장 위한 첨단 패키징 공정 지원",
-      "summary": [
-        "EV그룹이 양자컴퓨팅 시스템 확장에 필요한 칩 제조 공정 지원에 나섰다고 밝혔다.",
-        "첨단 패키징, 이기종 집적, 포토닉스 제조 역량을 활용해 복잡한 양자 아키텍처 설계와 공정 개발을 돕는다.",
-        "이 회사는 11월 10~13일 뮌헨 SEMICON Europa에서 관련 공정 솔루션을 선보일 예정이다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "양자컴퓨팅",
-        "첨단 패키징",
-        "이기종 집적",
-        "포토닉스",
-        "큐빗 확장"
-      ],
-      "companies": [
-        "EV그룹"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "EV그룹"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-09T21:24:25Z",
-      "updated_at": "2026-11-09T21:24:25Z",
-      "articles": [
-        {
-          "key": "cb74273188e3c42b",
-          "title": "EV Group Advances Qubit Scaling Through Semiconductor Packaging Technology",
-          "url": "https://www.semiconductor-digest.com/ev-group-advances-qubit-scaling-through-semiconductor-packaging-technology/?utm_source=rss&utm_medium=rss&utm_campaign=ev-group-advances-qubit-scaling-through-semiconductor-packaging-technology",
-          "source": "Semiconductor Digest",
-          "lang": "en",
-          "published_at": "2026-11-09T21:24:25Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
       "id": "c20261109-0704",
       "headline": "미국 유리기판 기업, 남아시아 첨단패키징 공장에 SCHMID 장비 공급",
       "summary": [
@@ -4526,64 +5093,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261107-0608",
-      "headline": "젠슨 황 CEO 중국 정보기관 연계 의혹 확산",
-      "summary": [
-        "대만 언론은 젠슨 황 엔비디아 CEO와 중국 정보기관 연계가 의심되는 여성 기업인이 함께 있는 과거 정황을 보도했다.",
-        "지난해부터 관련 의혹이 제기됐던 정황이 드러났고, 미국 당국이 두 사람을 연인 관계로 판단했다는 보도도 나왔다.",
-        "기사 내용만으로는 의혹의 사실 여부가 확인되지 않아, 엔비디아 경영 리스크로 번질지 주시가 필요하다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "젠슨 황",
-        "중국 정보기관",
-        "스파이 의혹",
-        "엔비디아 리스크"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "소송·특허",
-      "confirmed": false,
-      "parties": [],
-      "importance": 2,
-      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-07T05:20:32Z",
-      "updated_at": "2026-11-09T20:03:29Z",
-      "articles": [
-        {
-          "key": "b9d4b578e19a2655",
-          "title": "[속보]“美당국, 젠슨 황과 ‘中스파이 의혹’ 여성 연인관계로 판단”",
-          "url": "https://www.dt.co.kr/article/12093649",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-07T05:20:32Z"
-        },
-        {
-          "key": "4d0ee7511dc92d67",
-          "title": "'젠슨 황 스캔들' 1년 전부터 경고음…美 정부는 알고 있었다?",
-          "url": "https://www.inews24.com/view/2024022",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-09T04:17:33Z"
-        },
-        {
-          "key": "5e4b67767a77e87e",
-          "title": "“젠슨황은 좋은 사람” 편든 트럼프도 정치적 부담…스파이와 불륜 묵인 해명요구 받을 수도",
-          "url": "https://www.dt.co.kr/article/12094128",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-09T20:03:29Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261108-0633",
