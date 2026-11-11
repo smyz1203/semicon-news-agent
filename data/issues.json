@@ -1,7 +1,374 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11T04:10:29Z",
+  "updated_at": "2026-11-11T05:14:07Z",
   "issues": [
+    {
+      "id": "c20261111-0829",
+      "headline": "모건스탠리·노무라, AI 메모리 호황 지속 기간 두고 목표가 격차",
+      "summary": [
+        "모건스탠리가 SK하이닉스 목표가를 38% 낮춰 160만 원으로, 삼성전자는 19% 낮춰 30만 9천 원으로 제시했다.",
+        "노무라와 모건스탠리는 2027년 이후 메모리 수익성에 대해 엇갈린 전망을 내놓고 있다.",
+        "칩 공급 증가와 데이터센터 지연 위험이 부각되며 메모리 업황 피크 우려가 커지고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 메모리",
+        "목표주가",
+        "HBM",
+        "데이터센터",
+        "공급 증가"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "삼성전자",
+        "모건스탠리",
+        "노무라"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "모건스탠리",
+        "노무라"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T04:53:51Z",
+      "updated_at": "2026-11-11T04:53:51Z",
+      "articles": [
+        {
+          "key": "4bd08cb8475f7a4a",
+          "title": "Samsung, SK hynix price targets diverge nearly threefold over AI outlook",
+          "url": "https://www.koreaherald.com/article/10933728",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-11T04:53:51Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0828",
+      "headline": "파워로직, AI 칩 부족에 게이밍 매출 39% 급감",
+      "summary": [
+        "파워로직의 매출이 전년 대비 39% 감소했다는 보도가 나왔다.",
+        "기사 본문이 없어 세부 수치와 사유의 구체적 내용은 확인할 수 없다.",
+        "AI 칩 공급 부족이 게이밍 부문 매출 감소로 이어졌다는 점에서 관련 수요 흐름을 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI칩 부족",
+        "게이밍",
+        "매출 감소",
+        "파워로직"
+      ],
+      "companies": [
+        "파워로직"
+      ],
+      "event_type": "실적",
+      "confirmed": false,
+      "parties": [
+        "파워로직"
+      ],
+      "importance": 2,
+      "importance_reason": "실적 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T04:49:22Z",
+      "updated_at": "2026-11-11T04:49:22Z",
+      "articles": [
+        {
+          "key": "289f5f23edefd044",
+          "title": "Powerlogic revenue falls 39% as AI chip shortages hit gaming",
+          "url": "https://www.digitimes.com/news/a20261110PD245/powerlogic-revenue-chips-ai-applications-growth.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T04:49:22Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0827",
+      "headline": "엔비디아, GPU에 광 인터커넥트 길 여는 OOI 구조 공개",
+      "summary": [
+        "엔비디아가 GPU에 광 인터커넥트를 도입할 수 있는 OOI 아키텍처를 선보인 것으로 전해졌다.",
+        "기사 본문은 사진 출처 표기만 남아 있어 구체적인 사양·일정·수치는 확인되지 않는다.",
+        "GPU 간 데이터 전송을 광신호로 바꾸는 흐름이 AI 가속기 설계에 영향을 줄 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "OOI 아키텍처",
+        "광 인터커넥트",
+        "GPU",
+        "엔비디아 AI 가속기"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T04:49:14Z",
+      "updated_at": "2026-11-11T04:49:14Z",
+      "articles": [
+        {
+          "key": "16b61a63f86ae851",
+          "title": "Nvidia's OOI architecture paves way for optical interconnects in GPUs",
+          "url": "https://www.digitimes.com/news/a20261110PD250/nvidia-digitimes-interposer-bandwidth-silicon.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T04:49:14Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261111-0826",
+      "headline": "엔비디아 보안 조사에 대만 공급망 발주 점검",
+      "summary": [
+        "엔비디아가 보안 관련 조사를 받으면서 대만 공급망 발주가 면밀히 들여다보이고 있다는 보도가 나왔다.",
+        "기사 본문이 제공되지 않아 조사의 구체적 내용, 대상 기업, 발주 규모는 확인되지 않는다.",
+        "AI 반도체 공급망 전반의 불확실성이 커질 수 있어 관련 업체들의 주문 흐름을 주시할 필요가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엔비디아",
+        "보안 조사",
+        "대만 공급망",
+        "발주"
+      ],
+      "companies": [
+        "엔비디아",
+        "TSMC"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T04:49:00Z",
+      "updated_at": "2026-11-11T04:49:00Z",
+      "articles": [
+        {
+          "key": "bb2086b54091b758",
+          "title": "Nvidia security probe puts Taiwan supply chain orders under scrutiny",
+          "url": "https://www.digitimes.com/news/a20261110PD248/nvidia-security-taiwan-supply-chain-taiwan-ai-server.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T04:49:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261111-0825",
+      "headline": "SK하이닉스, HBM 베테랑 미주 사업 총괄 발탁",
+      "summary": [
+        "SK하이닉스가 HBM 베테랑 안현을 미주 사업 책임자로 발탁했다.",
+        "기사에는 발탁 시점과 구체적 역할 범위에 대한 세부 수치나 일정이 명시되지 않았다.",
+        "경쟁이 심화되는 가운데 미국 시장 대응력을 높이려는 인사로 해석된다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM",
+        "미주사업",
+        "인사",
+        "경쟁 심화"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "TSMC"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 관심 기업(SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T04:48:41Z",
+      "updated_at": "2026-11-11T04:48:41Z",
+      "articles": [
+        {
+          "key": "ee52796952da9431",
+          "title": "SK Hynix taps HBM veteran to lead US business as competition intensifies",
+          "url": "https://www.digitimes.com/news/a20261110VL209/hbm-sk-hynix-competition-business-development.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T04:48:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261111-0824",
+      "headline": "인텔, 18A 공정 기반 Wildcat Lake AI PC 칩 확대",
+      "summary": [
+        "인텔이 18A 공정을 활용한 Wildcat Lake AI PC용 칩 적용 범위를 넓히고 있다는 보도가 나왔다.",
+        "기사 본문이 제공되지 않아 구체적인 제품 출시 일정이나 수치는 확인되지 않는다.",
+        "자체 공정 기반 AI PC 칩 확대는 인텔 파운드리 및 PC 시장 경쟁력에 의미가 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "18A",
+        "Wildcat Lake",
+        "AI PC",
+        "인텔 파운드리"
+      ],
+      "companies": [
+        "인텔"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "인텔"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T04:36:24Z",
+      "updated_at": "2026-11-11T04:36:24Z",
+      "articles": [
+        {
+          "key": "1b028756528e30ad",
+          "title": "Intel expands 18A reach with Wildcat Lake AI PC chips",
+          "url": "https://www.digitimes.com/news/a20261111PD211/intel-ai-pc-processor-packaging-tsmc.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T04:36:24Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261111-0823",
+      "headline": "화친, AI 서버 넘어 1.5억 달러 웨이퍼 파운드리 투자",
+      "summary": [
+        "중국 화친(Huaqin)이 AI 서버 사업을 넘어 웨이퍼 파운드리에 1억 5천만 달러를 투자하는 방향을 보도됐다.",
+        "기사 본문이 'Credit: Caixin'뿐이라 투자 시점, 공장 규모, 공정 세부 내용은 확인할 수 없다.",
+        "중국 내 제조 기업의 반도체 생산 영역 확장 움직임으로, 사업 다각화 신호로 볼 수 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "웨이퍼 파운드리",
+        "AI 서버",
+        "사업 다각화",
+        "1.5억 달러 투자"
+      ],
+      "companies": [
+        "화친"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "화친"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T04:03:51Z",
+      "updated_at": "2026-11-11T04:03:51Z",
+      "articles": [
+        {
+          "key": "738f3c755d9e1ee7",
+          "title": "China's Huaqin looks beyond AI servers with US$150M wafer foundry investment",
+          "url": "https://www.digitimes.com/news/a20261110VL208/huaqin-wafer-fab-investment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T04:03:51Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0716",
+      "headline": "인피니언, 300mm SiC 웨이퍼에서 전력소자 공정 구현",
+      "summary": [
+        "인피니언이 300mm 실리콘카바이드 웨이퍼에서 기능성 전력반도체 소자를 가공했다고 발표했다.",
+        "기사 본문이 거의 없어 구체적인 수율·양산 일정 등 세부 수치는 확인되지 않는다.",
+        "직경 확대는 SiC 생산 원가 절감과 대량 생산 기반 마련으로 이어질 수 있어 업계 관심이 크다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "SiC",
+        "300mm 웨이퍼",
+        "전력반도체",
+        "팹 전환"
+      ],
+      "companies": [
+        "인피니언"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "인피니언"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-10T01:04:14Z",
+      "updated_at": "2026-11-11T04:03:12Z",
+      "articles": [
+        {
+          "key": "2f2d6a60b61a4c5f",
+          "title": "Infineon Processes Functional Power Devices on 300mm SiC Wafers",
+          "url": "https://www.semiconductor-digest.com/infineon-processes-functional-power-devices-on-300mm-sic-wafers/?utm_source=rss&utm_medium=rss&utm_campaign=infineon-processes-functional-power-devices-on-300mm-sic-wafers",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-10T01:04:14Z"
+        },
+        {
+          "key": "0b749d92108dd644",
+          "title": "Infineon says it processed functional power devices on 300mm SiC wafers",
+          "url": "https://www.digitimes.com/news/a20261111PR202/infineon-sic-300mm-silicon-2026.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T04:03:12Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261111-0822",
       "headline": "인광 OLED 발광체, 효율 100%에도 청색은 과제",
@@ -236,18 +603,19 @@
     },
     {
       "id": "c20261111-0813",
-      "headline": "삼성전자 동반성장지수 15년 연속 최우수 선정",
+      "headline": "삼성전자 동반성장지수 15년 연속 최우수 등급 획득",
       "summary": [
         "삼성전자가 동반성장위원회의 2026년도 동반성장지수 평가에서 최우수 등급을 받았다.",
-        "도입 이후 15년 연속 최우수 등급으로, 국내에서 이 기록을 가진 기업은 삼성전자뿐이라고 보도됐다.",
-        "대기업의 협력사 상생 노력이 공식 평가에서 인정받은 사례로, 협력 생태계 관리 측면에서 의미가 있다."
+        "2011년 제도 도입 이후 15년 연속 최우수를 받은 기업은 삼성전자가 유일하며, 협력사 27만여 명 교육과 9800여 명 채용을 지원했다.",
+        "협력사 상생 지원이 평가에서 꾸준히 인정받았다는 점에서 대기업의 동반성장 모델로 의미가 크다."
       ],
-      "category": "실적/투자/시장",
+      "category": "정책/무역",
       "tags": [
         "동반성장지수",
-        "협력사 상생",
-        "최우수 등급",
-        "동반성장위원회"
+        "상생협력",
+        "ESG펀드",
+        "스마트공장",
+        "협력사 지원"
       ],
       "companies": [
         "삼성전자"
@@ -258,13 +626,13 @@
         "삼성전자"
       ],
       "importance": 3,
-      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자) +1, 매체 3곳 보도 +1 → 3점",
+      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자) +1, 매체 4곳 보도 +1 → 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
       "first_seen": "2026-11-11T03:00:00Z",
-      "updated_at": "2026-11-11T03:00:02Z",
+      "updated_at": "2026-11-11T03:00:04Z",
       "articles": [
         {
           "key": "8750c717185fe8b8",
@@ -289,6 +657,14 @@
           "source": "연합뉴스",
           "lang": "ko",
           "published_at": "2026-11-11T03:00:02Z"
+        },
+        {
+          "key": "3621df59d131f8f4",
+          "title": "삼성전자, 동반성장지수 15년 연속 '최우수' 국내 유일",
+          "url": "https://zdnet.co.kr/view/?no=20261111105105",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-11T03:00:04Z"
         }
       ],
       "type_checked": true,
@@ -5660,50 +6036,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261110-0716",
-      "headline": "인피니언, 300mm SiC 웨이퍼로 기능성 전력소자 구현",
-      "summary": [
-        "인피니언이 오스트리아 빌라흐 팹에서 300mm 탄화규소 웨이퍼를 기능성 전력소자로 가공하는 데 성공했다.",
-        "기존 실리콘 제조장비를 활용했으며, 300mm 웨이퍼는 200mm 대비 칩 수가 2.3배 많다.",
-        "전력반도체 대형 팹에서 SiC 대구경 양산 가능성을 보여, 향후 본격 산업화의 기반이 된다."
-      ],
-      "category": "파운드리/시스템반도체",
-      "tags": [
-        "300mm SiC",
-        "탄화규소",
-        "전력반도체",
-        "웨이퍼 대구경화"
-      ],
-      "companies": [
-        "인피니언"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "인피니언"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-10T01:04:14Z",
-      "updated_at": "2026-11-10T01:04:14Z",
-      "articles": [
-        {
-          "key": "2f2d6a60b61a4c5f",
-          "title": "Infineon Processes Functional Power Devices on 300mm SiC Wafers",
-          "url": "https://www.semiconductor-digest.com/infineon-processes-functional-power-devices-on-300mm-sic-wafers/?utm_source=rss&utm_medium=rss&utm_campaign=infineon-processes-functional-power-devices-on-300mm-sic-wafers",
-          "source": "Semiconductor Digest",
-          "lang": "en",
-          "published_at": "2026-11-10T01:04:14Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261110-0714",
