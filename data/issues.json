@@ -1,7 +1,136 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11T20:13:08Z",
+  "updated_at": "2026-11-11T21:48:09Z",
   "issues": [
+    {
+      "id": "c20261111-0876",
+      "headline": "전기전자 5대 기업 수출 1년 새 3.3배 증가",
+      "summary": [
+        "올해 3분기 전기·전자 제조업 상위 5대 기업의 수출액이 1년 전보다 3배 이상 늘었다.",
+        "기사 본문이 일부만 제공되어 구체적인 품목별 수치와 세부 내역은 확인되지 않는다.",
+        "반도체 수출 호조가 전체 수출에서 차지하는 비중을 키우고 있어 산업 전반의 회복 흐름을 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "반도체 수출",
+        "전기전자",
+        "3분기 실적",
+        "수출 증가"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T20:51:00Z",
+      "updated_at": "2026-11-11T20:51:00Z",
+      "articles": [
+        {
+          "key": "ef88285299cd264b",
+          "title": "'반도체 힘' 전기전자 5대 기업 수출 1년새 3.3배로 증가",
+          "url": "https://www.yna.co.kr/view/AKR20261111162400002",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T20:51:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0875",
+      "headline": "외국인 반도체 매수에 삼성전자·SK하이닉스 반등",
+      "summary": [
+        "외국인이 삼성전자와 SK하이닉스를 연일 집중 매수하며 코스피 반등을 이끌었다.",
+        "지난달 약 20조원을 팔아 급락장을 주도했던 외국인이 연이틀 순매수로 돌아섰다.",
+        "미국 고물가와 긴축 우려 속 반도체주 수급 변화가 추세 반전의 신호가 될지 주목된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "외국인 순매수",
+        "코스피 반등",
+        "반도체 투톱",
+        "미국 긴축"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": true,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T20:30:00Z",
+      "updated_at": "2026-11-11T20:30:00Z",
+      "articles": [
+        {
+          "key": "c678b80131337bdb",
+          "title": "나흘째 달린 ‘삼전닉스’…돌아온 외국인, 추세 반등 이끌까",
+          "url": "https://www.dt.co.kr/article/12094632",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-11T20:30:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261111-0874",
+      "headline": "NXP CTO, 피지컬 AI와 로봇·드론 전략 제시",
+      "summary": [
+        "NXP CTO 라스 레거가 뮌헨 electronica 2026에서 EE Times와 인터뷰했다.",
+        "그는 휴머노이드 로봇을 넘어 피지컬 AI 시대가 확장된다고 설명하고 신제품 NavQ95를 소개했다.",
+        "로봇과 드론 등 엣지 기기에서 AI 처리 수요가 커질 것으로 보여 시스템반도체 업계에 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "피지컬 AI",
+        "NavQ95",
+        "로봇",
+        "드론",
+        "엣지 AI"
+      ],
+      "companies": [
+        "NXP"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T20:23:13Z",
+      "updated_at": "2026-11-11T20:23:13Z",
+      "articles": [
+        {
+          "key": "6d47ca46ffcd023d",
+          "title": "NXP CTO Lars Reger on Physical AI, Robots, Drones, and Trust",
+          "url": "https://www.eetimes.com/nxp-cto-lars-reger-on-physical-ai-robots-drones-and-trust/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-11T20:23:13Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261111-0872",
       "headline": "삼성 연구진, OLED 전자차단층 표면전위로 수명 20% 연장",
@@ -414,6 +543,53 @@
       ],
       "type_checked": true,
       "importance_raw": 0
+    },
+    {
+      "id": "c20261111-0873",
+      "headline": "포스텍·삼성리서치, 야외용 AR글래스 광학 기술 개발",
+      "summary": [
+        "POSTECH 노준석 교수 연구팀이 삼성리서치와 공동으로 AR글래스용 광학 기술을 개발했다.",
+        "메타표면 도파로로 빛 손실을 줄여 1.5㎜ 두께에서 대각 시야각 30도를 구현했다고 밝혔다.",
+        "야외에서도 선명한 AR 안경 상용화에 기여할 기술로, 연구 결과는 네이처지에 공개됐다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AR글래스",
+        "메타표면",
+        "도파로",
+        "시야각",
+        "네이처"
+      ],
+      "companies": [
+        "삼성전자",
+        "POSTECH"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "포스텍",
+        "삼성리서치"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T16:00:01Z",
+      "updated_at": "2026-11-11T16:00:01Z",
+      "articles": [
+        {
+          "key": "cbd2af2142191b03",
+          "title": "포스텍·삼성리서치, 야외서도 선명한 AR글래스 개발",
+          "url": "https://zdnet.co.kr/view/?no=20261109185448",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-11T16:00:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261111-0864",
