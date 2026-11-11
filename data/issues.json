@@ -1,7 +1,48 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11T15:04:20Z",
+  "updated_at": "2026-11-11T16:04:20Z",
   "issues": [
+    {
+      "id": "c20261111-0864",
+      "headline": "국내 연구진, 야외용 AR 안경 시제품 개발",
+      "summary": [
+        "국내 연구진이 일상에서 쓸 수 있는 증강현실(AR) 안경 시제품을 개발했다.",
+        "얇은 렌즈 안에서 빛 손실을 줄여 밝은 야외에서도 화면 정보를 선명하게 볼 수 있다고 한다.",
+        "AR 안경 상용화를 앞당길 기술로 평가되나, 구체적 상용화 일정은 기사에 나오지 않았다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "AR안경",
+        "증강현실",
+        "디스플레이",
+        "광학 기술",
+        "시제품"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T16:00:00Z",
+      "updated_at": "2026-11-11T16:00:00Z",
+      "articles": [
+        {
+          "key": "e9c567b97f2e6aa8",
+          "title": "증강현실(AR) 안경 현실화되나…야외서도 선명한 영상 구현",
+          "url": "https://www.dt.co.kr/article/12094627",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-11T16:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261111-0863",
       "headline": "금속 없는 유연한 TADF 분자로 주황~적색 OLED 구현",
