@@ -1,22 +1,253 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11T03:01:55Z",
+  "updated_at": "2026-11-11T04:10:29Z",
   "issues": [
     {
-      "id": "c20261111-0813",
-      "headline": "삼성전자 동반성장지수 15년 연속 최우수 등급",
+      "id": "c20261111-0822",
+      "headline": "인광 OLED 발광체, 효율 100%에도 청색은 과제",
       "summary": [
-        "삼성전자가 동반성장위원회 동반성장지수에서 15년 연속 최우수 등급을 받았다.",
-        "2011년 평가 도입 이후 15년 연속 최우수를 유지한 기업은 삼성전자가 유일하다고 전해졌다.",
-        "협력사 기술 경쟁력 강화와 중소기업 스마트공장 지원 등 상생협력 성과가 인정받은 결과로 풀이된다."
+        "OLED 발광체 시리즈 2편으로 인광(PHOLED) 기술을 다룬다.",
+        "인광 소재는 이론상 내부 양자효율 100%를 낼 수 있으며, 이리듐 기반 적색·녹색에 이미 적용됐다.",
+        "다만 청색 인광 소재의 상용화는 아직 어려워, 디스플레이 업계의 수명·효율 과제로 남아 있다."
       ],
-      "category": "정책/무역",
+      "category": "디스플레이",
+      "tags": [
+        "인광 OLED",
+        "PHOLED",
+        "이리듐 화합물",
+        "청색 OLED",
+        "발광체"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T04:00:05Z",
+      "updated_at": "2026-11-11T04:00:05Z",
+      "articles": [
+        {
+          "key": "173d086fdab581c1",
+          "title": "OLED Emitter Systems, Part 2: Phosphorescence - 100% efficiency, still waiting on blue",
+          "url": "https://www.oled-info.com/oled-emitter-systems-part-2-phosphorescence-100-efficiency-still-waiting-blue",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-11T04:00:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261111-0821",
+      "headline": "젠슨 황 논란 속 엔비디아 독립 조사 착수",
+      "summary": [
+        "엔비디아 이사회가 한국계 전직 연방검사를 독립 조사 책임자로 선임했다는 소식이 전해졌다.",
+        "젠슨 황 CEO는 중국 정보기관 연계 의심 여성과의 불륜 논란에도 정상 출근해 업무를 이어가고 있다.",
+        "회사 지배구조와 리더십 리스크가 부각되며 일주일 뒤 실적 발표 컨퍼런스콜의 시장 관심이 커졌다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "엔비디아",
+        "독립 조사",
+        "지배구조",
+        "실적 발표"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T03:56:57Z",
+      "updated_at": "2026-11-11T03:56:57Z",
+      "articles": [
+        {
+          "key": "9633e7ade7ed5509",
+          "title": "젠슨 황, 불륜 논란에도 정상 출근…일주일 뒤 실적 발표 컨콜 등장할까",
+          "url": "https://www.inews24.com/view/2024991",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-11T03:56:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261111-0820",
+      "headline": "중국 HISIGK, MEMS·AR 광학 특화 노광 장비 진출",
+      "summary": [
+        "중국 HISIGK가 MEMS와 AR 광학 분야를 겨냥한 특화형 리소그래피 장비 사업에 나선 것으로 보도됐다.",
+        "기사 본문이 사진 크레딧만 있어 구체적인 제품 사양, 출시 일정, 수치는 확인되지 않는다.",
+        "대형 노광기 시장과 다른 틈새 영역 공략이라는 점에서 중국 장비업체의 사업 다변화 흐름으로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "리소그래피",
+        "MEMS",
+        "AR 광학",
+        "노광 장비"
+      ],
+      "companies": [
+        "HISIGK"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T03:55:00Z",
+      "updated_at": "2026-11-11T03:55:00Z",
+      "articles": [
+        {
+          "key": "809d6b09c56e53ca",
+          "title": "China's HISIGK takes a specialty route into lithography with MEMS, AR optics",
+          "url": "https://www.digitimes.com/news/a20261111VL208/mems-ar-optics-200mm-production.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T03:55:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261111-0819",
+      "headline": "퀄컴, 연간 보고서에 삼성·마이크론을 메모리 공급사로 명시",
+      "summary": [
+        "퀄컴이 연간 보고서(10-K 성격의 제출 문서)에서 삼성전자와 마이크론을 메모리 공급업체로 언급했다.",
+        "기사 본문이 사실상 없어 구체적인 계약 규모나 공급 조건, 수치는 확인되지 않는다.",
+        "메모리 공급처 공개는 주요 고객사의 메모리 조달 구조를 보여주는 자료로 참고할 만하다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "메모리 공급망",
+        "퀄컴",
+        "연간 보고서",
+        "메모리 조달"
+      ],
+      "companies": [
+        "퀄컴",
+        "삼성전자",
+        "마이크론"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "재무·주주 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T03:36:41Z",
+      "updated_at": "2026-11-11T03:36:41Z",
+      "articles": [
+        {
+          "key": "080c173fc66e0aa5",
+          "title": "Qualcomm names Samsung, Micron as memory suppliers in annual filing",
+          "url": "https://www.digitimes.com/news/a20261111VL209/qualcomm-samsung-automotive-micron-revenue.html?chid=10",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T03:36:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0804",
+      "headline": "SK하이닉스, 학력 제한 없앤 생산직 채용 착수",
+      "summary": [
+        "SK하이닉스가 하반기 생산직 신입사원 채용에 나서며 고졸·전문대졸로 제한됐던 지원 자격을 넓혔다.",
+        "학력 제한이 완화되면서 반도체 호황에 따른 성과급 기대감과 맞물려 지원 경쟁이 치열할 전망이다.",
+        "반도체 인력 확보 경쟁이 이어지는 가운데 생산 인력 수급에 영향을 줄 수 있는 채용 조치다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "생산직 채용",
+        "학력 제한 완화",
+        "성과급",
+        "인재 확보"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "채용·인력 2점, 관심 기업(SK하이닉스) +1, 매체 3곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T01:27:13Z",
+      "updated_at": "2026-11-11T03:32:42Z",
+      "articles": [
+        {
+          "key": "c57a5e40b490148c",
+          "title": "SK하이닉스, '파격적 성과급' 기대감 속 하반기 생산직 채용",
+          "url": "https://www.yna.co.kr/view/AKR20261111061700003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:27:13Z"
+        },
+        {
+          "key": "76fa2346ad0f362d",
+          "title": "SK하이닉스, 하반기 생산직 채용…학력 제한 없애고 인재 확보",
+          "url": "https://www.dt.co.kr/article/12094486",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-11T02:17:00Z"
+        },
+        {
+          "key": "7f494ef0318f1060",
+          "title": "SK하이닉스 생산직 채용에 들썩…\"학력 무관·억대 성과급 기대\"",
+          "url": "https://www.inews24.com/view/2024982",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-11T03:32:42Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261111-0813",
+      "headline": "삼성전자 동반성장지수 15년 연속 최우수 선정",
+      "summary": [
+        "삼성전자가 동반성장위원회의 2026년도 동반성장지수 평가에서 최우수 등급을 받았다.",
+        "도입 이후 15년 연속 최우수 등급으로, 국내에서 이 기록을 가진 기업은 삼성전자뿐이라고 보도됐다.",
+        "대기업의 협력사 상생 노력이 공식 평가에서 인정받은 사례로, 협력 생태계 관리 측면에서 의미가 있다."
+      ],
+      "category": "실적/투자/시장",
       "tags": [
         "동반성장지수",
-        "상생협력",
-        "협력사",
-        "스마트공장",
-        "중소기업"
+        "협력사 상생",
+        "최우수 등급",
+        "동반성장위원회"
       ],
       "companies": [
         "삼성전자"
@@ -26,14 +257,14 @@
       "parties": [
         "삼성전자"
       ],
-      "importance": 2,
-      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자) +1 → 2점",
+      "importance": 3,
+      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자) +1, 매체 3곳 보도 +1 → 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
       "first_seen": "2026-11-11T03:00:00Z",
-      "updated_at": "2026-11-11T03:00:00Z",
+      "updated_at": "2026-11-11T03:00:02Z",
       "articles": [
         {
           "key": "8750c717185fe8b8",
@@ -50,10 +281,150 @@
           "source": "테크월드뉴스",
           "lang": "ko",
           "published_at": "2026-11-11T03:00:00Z"
+        },
+        {
+          "key": "cc2f8e514ac096c9",
+          "title": "삼성전자, 동반성장 평가 '최우수'…국내 유일 15년 연속",
+          "url": "https://www.yna.co.kr/view/AKR20261111087200003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T03:00:02Z"
         }
       ],
       "type_checked": true,
-      "importance_raw": 2
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261111-0801",
+      "headline": "SK하이닉스 LPDDR5X 안전·보안 국제인증 획득",
+      "summary": [
+        "SK하이닉스가 저전력 D램 LPDDR5X로 IEC 61508 SIL 3 인증과 ISO/SAE 21434 사이버보안 관리체계 인증을 받았다고 밝혔다.",
+        "SIL 3는 단일 메모리 반도체가 달성할 수 있는 최고 등급으로, 개발부터 양산까지 절차가 국제 기준에 부합한다는 평가를 받았다.",
+        "회사는 자율주행·SDV, 로봇, 에지 AI 등 피지컬 AI 시장 공략을 강화할 계획이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "LPDDR5X",
+        "IEC 61508",
+        "ISO/SAE 21434",
+        "피지컬 AI",
+        "기능안전",
+        "사이버보안"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "홍보·수상 1점, 관심 기업(SK하이닉스) +1, 매체 5곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T01:08:06Z",
+      "updated_at": "2026-11-11T02:59:50Z",
+      "articles": [
+        {
+          "key": "0b0225ac0d9c5997",
+          "title": "SK하이닉스, 피지컬 AI 메모리 안전·보안 강화…국제 인증 2종 획득",
+          "url": "https://www.dt.co.kr/article/12094448",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:08:06Z"
+        },
+        {
+          "key": "aa0fd2af316d5c4b",
+          "title": "SK하이닉스, 메모리 안전성·보안성 입증…피지컬 AI 주도권 잡는다",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409569",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:13:41Z"
+        },
+        {
+          "key": "cfe256eceb070d4b",
+          "title": "SK하이닉스, 안전·보안 국제 인증으로 피지컬 AI 메모리 신뢰성 강화",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343201",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:22:49Z"
+        },
+        {
+          "key": "8034b95585c39c2a",
+          "title": "SK하이닉스, 저전력 D램 안전·보안 국제인증…피지컬 AI 공략",
+          "url": "https://www.yna.co.kr/view/AKR20261111067600003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:43:51Z"
+        },
+        {
+          "key": "466099136758151a",
+          "title": "SK하이닉스, '피지컬 AI' 메모리 보안인증 라인업 확대",
+          "url": "https://zdnet.co.kr/view/?no=20261111111359",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-11T02:59:50Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261109-0687",
+      "headline": "SK하이닉스, 엔비디아 기술로 메모리 시뮬레이션 가속",
+      "summary": [
+        "SK하이닉스가 엔비디아 기술을 활용해 메모리 칩 시뮬레이션 속도를 높인 사례가 소개됐다.",
+        "기사에는 반도체 공정 분석이 30배 빨라졌다는 내용이 담겼으며, 김정한 연구원이 관련 응용 사례를 발표했다.",
+        "메모리 연구개발에 AI 기반 가속 기술이 쓰이기 시작했음을 보여주는 사례로 볼 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "메모리 시뮬레이션",
+        "엔비디아 AI",
+        "공정 분석 가속",
+        "SK하이닉스 R&D"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스",
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-09T08:52:49Z",
+      "updated_at": "2026-11-11T02:58:46Z",
+      "articles": [
+        {
+          "key": "211e7b117edce893",
+          "title": "SK하이닉스, 반도체 공정 분석 30배 가속한 비결은 엔비디아 AI",
+          "url": "https://www.inews24.com/view/2024254",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-09T08:52:49Z"
+        },
+        {
+          "key": "154b280682da63ca",
+          "title": "SK Hynix taps Nvidia to speed up memory chip simulations",
+          "url": "https://www.digitimes.com/news/a20261111PD235/sk-hynix-nvidia-gpu-data-memory-chips.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T02:58:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261111-0812",
@@ -95,6 +466,50 @@
       ],
       "type_checked": true,
       "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0818",
+      "headline": "칩모스, 10개월 누적 매출 30% 증가와 2022년 이후 최대 이익",
+      "summary": [
+        "칩모스가 올해 10개월 누적 매출이 전년 대비 30% 늘었다고 발표했다.",
+        "같은 기간 영업이익 규모는 2022년 이후 가장 높은 수준을 기록한 것으로 보도됐다.",
+        "반도체 후공정·테스트 수요가 회복되고 있음을 보여주는 신호로 해석된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "후공정",
+        "반도체 테스트",
+        "실적 개선",
+        "매출 성장"
+      ],
+      "companies": [
+        "칩모스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "칩모스"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T02:48:02Z",
+      "updated_at": "2026-11-11T02:48:02Z",
+      "articles": [
+        {
+          "key": "bb7ab246a7a36fd7",
+          "title": "ChipMOS posts highest profit since 2022, revenue up 30% in 10 months",
+          "url": "https://www.digitimes.com/news/a20261111PD208/chipmos-profit-testing-packaging-revenue.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T02:48:02Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261111-0811",
@@ -251,6 +666,92 @@
       "importance_raw": 3
     },
     {
+      "id": "c20261111-0817",
+      "headline": "ASMedia, 칩 공급 비용 상승으로 자체 브랜드 가격 인상",
+      "summary": [
+        "ASMedia가 자체 브랜드 제품의 가격을 올리기로 했다는 보도가 나왔다.",
+        "기사 본문에는 인상 폭이나 적용 시점 등 구체적 수치가 제시되지 않았다.",
+        "공급 비용 상승이 칩 가격 전반으로 이어질 수 있는지 주목된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "ASMedia",
+        "칩 가격 인상",
+        "공급 비용",
+        "자체 브랜드"
+      ],
+      "companies": [
+        "ASMedia"
+      ],
+      "event_type": "가격 동향",
+      "confirmed": true,
+      "parties": [
+        "ASMedia"
+      ],
+      "importance": 3,
+      "importance_reason": "가격 동향 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T02:40:34Z",
+      "updated_at": "2026-11-11T02:40:34Z",
+      "articles": [
+        {
+          "key": "cdcbae450594b797",
+          "title": "ASMedia raises own-brand prices as chip supply costs climb",
+          "url": "https://www.digitimes.com/news/a20261111PD204/asmedia-revenue-gross-margin-osat-pcie.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T02:40:34Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261111-0816",
+      "headline": "엔비디아 창업자 중심 브랜드 모델의 지속 가능성 논평",
+      "summary": [
+        "DigiTimes Asia가 엔비디아의 창업자 중심 브랜드 전략이 유지될 수 있는지 논평했다.",
+        "기사 본문은 사실상 없고 제목과 출처 표기만 확인되어 구체적 수치나 일정은 알 수 없다.",
+        "업계에서는 창업자 이미지에 의존한 브랜드 운영의 한계를 가늠하는 시각으로 읽힐 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "엔비디아",
+        "브랜드 전략",
+        "창업자 리더십",
+        "AI반도체"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T02:33:20Z",
+      "updated_at": "2026-11-11T02:33:20Z",
+      "articles": [
+        {
+          "key": "fe24d783be48d09e",
+          "title": "Commentary: Can Nvidia's founder-centric brand model hold up",
+          "url": "https://www.digitimes.com/news/a20261111PD237/nvidia-brand-scandal-ceo-jensen-huang.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T02:33:20Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
       "id": "c20261111-0802",
       "headline": "딥엑스, AI반도체 원천특허로 특허기술상 홍대용상 수상",
       "summary": [
@@ -361,56 +862,48 @@
       "importance_raw": 3
     },
     {
-      "id": "c20261111-0804",
-      "headline": "SK하이닉스 하반기 생산직 채용, 학력 제한 폐지",
+      "id": "c20261111-0815",
+      "headline": "엔비디아 조사, 앨리스 황의 접근성이 AI칩 우위로 이어졌나",
       "summary": [
-        "SK하이닉스가 올해 하반기 전임직(생산직) 직원 채용에 나섰다.",
-        "기존 고졸·전문대졸 지원 제한을 없애 학력 요건을 폐지했고, 기사에 구체적 채용 인원은 나오지 않았다.",
-        "반도체 호황에 따른 성과급 기대감으로 지원자가 몰릴 것으로 예상되며 인력 확보 경쟁이 주목된다."
+        "엔비디아 내부 인물이 CEO 젠슨 황과의 접근성을 통해 AI칩 관련 이점을 얻었는지 조사 대상이 됐다는 보도다.",
+        "기사 본문이 사실상 없어 구체적인 조사 주체, 범위, 일정과 수치는 확인되지 않는다.",
+        "다만 AI칩 공급을 둘러싼 내부 거래나 우대 여부가 쟁점이 될 경우 업계 신뢰와 규제 리스크로 이어질 수 있다."
       ],
-      "category": "실적/투자/시장",
+      "category": "AI반도체",
       "tags": [
-        "생산직 채용",
-        "학력 제한 폐지",
-        "성과급",
-        "인재 확보"
+        "엔비디아",
+        "AI칩",
+        "내부 조사",
+        "젠슨 황"
       ],
       "companies": [
-        "SK하이닉스"
+        "엔비디아"
       ],
-      "event_type": "채용·인력",
-      "confirmed": true,
+      "event_type": "소송·특허",
+      "confirmed": false,
       "parties": [
-        "SK하이닉스"
+        "엔비디아"
       ],
-      "importance": 3,
-      "importance_reason": "채용·인력 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-11T01:27:13Z",
-      "updated_at": "2026-11-11T02:17:00Z",
+      "region": "en",
+      "first_seen": "2026-11-11T02:12:33Z",
+      "updated_at": "2026-11-11T02:12:33Z",
       "articles": [
         {
-          "key": "c57a5e40b490148c",
-          "title": "SK하이닉스, '파격적 성과급' 기대감 속 하반기 생산직 채용",
-          "url": "https://www.yna.co.kr/view/AKR20261111061700003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-11T01:27:13Z"
-        },
-        {
-          "key": "76fa2346ad0f362d",
-          "title": "SK하이닉스, 하반기 생산직 채용…학력 제한 없애고 인재 확보",
-          "url": "https://www.dt.co.kr/article/12094486",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-11T02:17:00Z"
+          "key": "e83d1dfb761d6793",
+          "title": "Nvidia probe: Did Alice Huang's access to Jensen Huang yield an AI chip advantage?",
+          "url": "https://www.digitimes.com/news/a20261111VL205/nvidia-jensen-huang-business-commercial-2025.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T02:12:33Z"
         }
       ],
       "type_checked": true,
-      "importance_raw": 3
+      "importance_raw": 2
     },
     {
       "id": "c20261111-0808",
@@ -501,6 +994,60 @@
       ],
       "type_checked": true,
       "importance_raw": 2
+    },
+    {
+      "id": "c20261110-0777",
+      "headline": "삼성 초기업노조, 메가프로젝트 근무지 이동 노사합의 요구",
+      "summary": [
+        "초기업노조가 2027년 임단협 요구안 1차안에서 신규 사업장 근무지 이동 시 노사 사전 합의를 요구했다.",
+        "요구안에는 부임여비와 근로조건 사전 합의, 분기별 사업 진행 설명 조항과 복지포인트 인상 등이 담겼다.",
+        "호남권 메가프로젝트를 겨냥한 것으로 해석되며, 임금인상률은 내년 1월 총회 전 확정될 예정이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "임단협",
+        "메가프로젝트",
+        "근무지 이동",
+        "노사합의",
+        "초기업노조"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "초기업노동조합 삼성전자지부"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T08:22:58Z",
+      "updated_at": "2026-11-11T01:59:11Z",
+      "articles": [
+        {
+          "key": "9408c9493a535bae",
+          "title": "삼전 초기업노조 \"메가프로젝트로 근무지 이동시 노사합의해야\"",
+          "url": "https://www.yna.co.kr/view/AKR20261110158100003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-10T08:22:58Z"
+        },
+        {
+          "key": "1ec148880eaf35c9",
+          "title": "삼성 초기업노조 \"근무지 이동 시 노사합의해야\"…호남 메가프로젝트 겨냥",
+          "url": "https://zdnet.co.kr/view/?no=20261111102722",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:59:11Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
     },
     {
       "id": "c20261111-0806",
@@ -649,76 +1196,49 @@
       "importance_raw": 3
     },
     {
-      "id": "c20261111-0801",
-      "headline": "SK하이닉스, LPDDR5X 국제 안전·보안 인증 2종 획득",
+      "id": "c20261111-0814",
+      "headline": "샌디스크, 피지컬 AI·IoT용 임베디드 저장장치 공개",
       "summary": [
-        "SK하이닉스가 LPDDR5X D램으로 산업용 기능안전 IEC 61508 SIL 3 인증과 자동차 사이버보안 CSMS 인증을 확보했다고 11일 밝혔다.",
-        "두 인증 모두 SGS-TÜV Saar의 심사를 거쳤으며, 앞서 받은 자동차 기능안전 ISO 26262 ASIL-D에 이어 적용 범위를 넓혔다.",
-        "기능안전을 자동차에서 로봇·스마트 팩토리 등 산업 전반으로 확장해 피지컬 AI 메모리 수요 공략에 힘을 실을 전망이다."
+        "샌디스크가 일렉트로니카 2026에서 임베디드 낸드 드라이브 '아이낸드 CL EM181'을 공개했다.",
+        "64·128·256GB 용량에 읽기 300MB/s, 쓰기 225MB/s를 지원하며 e.MMC 5.1 인터페이스를 쓴다.",
+        "셋톱박스, 스마트 TV, 보안 카메라 등 IoT 기기에 기존 설계를 유지한 채 적용할 수 있다."
       ],
       "category": "메모리",
       "tags": [
-        "LPDDR5X",
-        "IEC 61508",
-        "ISO/SAE 21434",
-        "기능안전",
-        "사이버보안",
-        "피지컬 AI"
+        "임베디드 낸드",
+        "e.MMC 5.1",
+        "스마트SLC",
+        "피지컬 AI",
+        "IoT"
       ],
       "companies": [
-        "SK하이닉스",
-        "SGS"
+        "샌디스크"
       ],
-      "event_type": "홍보·수상",
+      "event_type": "신제품·신기술·양산",
       "confirmed": true,
       "parties": [
-        "SK하이닉스",
-        "SGS"
+        "샌디스크"
       ],
-      "importance": 3,
-      "importance_reason": "홍보·수상 1점, 관심 기업(SK하이닉스) +1, 매체 4곳 보도 +1 → 3점",
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-11-11T01:08:06Z",
-      "updated_at": "2026-11-11T01:43:51Z",
+      "first_seen": "2026-11-11T01:33:46Z",
+      "updated_at": "2026-11-11T01:33:46Z",
       "articles": [
         {
-          "key": "0b0225ac0d9c5997",
-          "title": "SK하이닉스, 피지컬 AI 메모리 안전·보안 강화…국제 인증 2종 획득",
-          "url": "https://www.dt.co.kr/article/12094448",
-          "source": "디지털타임스",
+          "key": "c1d58f7b83a2e4cd",
+          "title": "샌디스크, 피지컬 AI·IoT용 임베디드 저장장치 공개",
+          "url": "https://zdnet.co.kr/view/?no=20261111103330",
+          "source": "ZDNet Korea",
           "lang": "ko",
-          "published_at": "2026-11-11T01:08:06Z"
-        },
-        {
-          "key": "aa0fd2af316d5c4b",
-          "title": "SK하이닉스, 메모리 안전성·보안성 입증…피지컬 AI 주도권 잡는다",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409569",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-11T01:13:41Z"
-        },
-        {
-          "key": "cfe256eceb070d4b",
-          "title": "SK하이닉스, 안전·보안 국제 인증으로 피지컬 AI 메모리 신뢰성 강화",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=343201",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-11-11T01:22:49Z"
-        },
-        {
-          "key": "8034b95585c39c2a",
-          "title": "SK하이닉스, 저전력 D램 안전·보안 국제인증…피지컬 AI 공략",
-          "url": "https://www.yna.co.kr/view/AKR20261111067600003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-11T01:43:51Z"
+          "published_at": "2026-11-11T01:33:46Z"
         }
       ],
       "type_checked": true,
-      "importance_raw": 3
+      "importance_raw": 5
     },
     {
       "id": "c20261110-0742",
@@ -2300,52 +2820,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261110-0777",
-      "headline": "삼성전자 초기업노조, 메가프로젝트 근무지 이동 노사합의 요구",
-      "summary": [
-        "삼성전자 초기업노조가 메가프로젝트에 따른 근무지 이동 시 노사 합의가 필요하다고 주장했다.",
-        "노조는 내년 단독 교섭을 추진 중이며, 기사에 제시된 구체적 수치나 일정은 확인되지 않았다.",
-        "근무지 이동 기준을 둘러싼 노사 갈등이 반도체 대형 프로젝트 인력 운용에 영향을 줄 수 있다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "메가프로젝트",
-        "초기업노조",
-        "근무지 이동",
-        "단독 교섭",
-        "노사 합의"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "재무·주주",
-      "confirmed": false,
-      "parties": [
-        "삼성전자",
-        "초기업노조"
-      ],
-      "importance": 2,
-      "importance_reason": "재무·주주 2점, 관심 기업(삼성전자) +1, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-10T08:22:58Z",
-      "updated_at": "2026-11-10T08:22:58Z",
-      "articles": [
-        {
-          "key": "9408c9493a535bae",
-          "title": "삼전 초기업노조 \"메가프로젝트로 근무지 이동시 노사합의해야\"",
-          "url": "https://www.yna.co.kr/view/AKR20261110158100003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-10T08:22:58Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261110-0775",
@@ -6560,52 +7034,6 @@
           "source": "OLED-info",
           "lang": "en",
           "published_at": "2026-11-09T09:00:07Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261109-0687",
-      "headline": "SK하이닉스, 엔비디아 AI로 공정 시뮬레이션 30배 가속",
-      "summary": [
-        "SK하이닉스가 엔비디아의 AI 기술을 활용해 반도체 공정 시뮬레이션 속도를 30배 이상 끌어올렸다.",
-        "반도체를 실제로 만들기 전에 공정 결과를 예측하고 최적의 생산 조건을 찾는 데 AI를 적용한 것이다.",
-        "공정 개발 기간과 시행착오 비용을 줄여 제조 효율을 높이는 방향으로 산업에 의미가 있다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "공정 시뮬레이션",
-        "AI 활용",
-        "엔비디아",
-        "반도체 공정"
-      ],
-      "companies": [
-        "SK하이닉스",
-        "엔비디아"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "SK하이닉스",
-        "엔비디아"
-      ],
-      "importance": 3,
-      "importance_reason": "업계 일반 2점, 관심 기업(SK하이닉스) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-09T08:52:49Z",
-      "updated_at": "2026-11-09T08:52:49Z",
-      "articles": [
-        {
-          "key": "211e7b117edce893",
-          "title": "SK하이닉스, 반도체 공정 분석 30배 가속한 비결은 엔비디아 AI",
-          "url": "https://www.inews24.com/view/2024254",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-09T08:52:49Z"
         }
       ],
       "type_checked": true,
