@@ -1,41 +1,688 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11T01:20:58Z",
+  "updated_at": "2026-11-11T03:01:55Z",
   "issues": [
     {
-      "id": "c20261111-0801",
-      "headline": "SK하이닉스, 피지컬 AI용 메모리 안전·보안 국제 인증 2종 확보",
+      "id": "c20261111-0813",
+      "headline": "삼성전자 동반성장지수 15년 연속 최우수 등급",
       "summary": [
-        "SK하이닉스가 LPDDR5X D램으로 IEC 61508 SIL 3 기능안전 인증과 ISO/SAE 21434 기반 CSMS 사이버보안 인증을 획득했다고 11일 밝혔다.",
-        "두 인증은 SGS-TÜV Saar의 심사를 거쳐 확보했으며 자동차에 이어 로봇과 스마트팩토리로 적용 범위를 넓힐 기반이 됐다.",
-        "메모리의 안전성과 보안성을 국제적으로 입증해 피지컬 AI 시장에서 기술 경쟁력을 강화하는 계기가 될 전망이다."
+        "삼성전자가 동반성장위원회 동반성장지수에서 15년 연속 최우수 등급을 받았다.",
+        "2011년 평가 도입 이후 15년 연속 최우수를 유지한 기업은 삼성전자가 유일하다고 전해졌다.",
+        "협력사 기술 경쟁력 강화와 중소기업 스마트공장 지원 등 상생협력 성과가 인정받은 결과로 풀이된다."
       ],
-      "category": "메모리",
+      "category": "정책/무역",
       "tags": [
-        "LPDDR5X",
-        "기능안전",
-        "사이버보안",
-        "피지컬 AI",
-        "IEC 61508",
-        "ISO/SAE 21434"
+        "동반성장지수",
+        "상생협력",
+        "협력사",
+        "스마트공장",
+        "중소기업"
       ],
       "companies": [
-        "SK하이닉스",
-        "SGS-TÜV Saar"
+        "삼성전자"
       ],
-      "event_type": "인수합병",
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 2,
+      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자) +1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T03:00:00Z",
+      "updated_at": "2026-11-11T03:00:00Z",
+      "articles": [
+        {
+          "key": "8750c717185fe8b8",
+          "title": "삼성전자, 동반성장지수 15년 연속 최우수…도입 이후 유일",
+          "url": "https://www.dt.co.kr/article/12094488",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-11T03:00:00Z"
+        },
+        {
+          "key": "18c6c324586d094b",
+          "title": "삼성전자, 협력사 경쟁력 높였다…동반성장 최우수 15년 연속 최우수",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409580",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T03:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0812",
+      "headline": "호남 반도체 산단 전력망 구축, 타 지역 변압기 전용 논란 해명",
+      "summary": [
+        "기후에너지환경부 장관이 호남 반도체 산업단지 전력망을 조기 구축하기 위해 다른 지역 변압기를 전용하지 않겠다고 밝혔다.",
+        "기사에 따르면 대구 등 다른 지역에 들어설 변전소의 변압기를 가져다 쓰는 방안이 논란이 된 것으로 보인다.",
+        "반도체 산단의 전력 인프라 확보 방식이 지역 간 형평성 쟁점으로 번질 수 있어 주목된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "전력망",
+        "변전소",
+        "호남 반도체 산단",
+        "변압기",
+        "지역 인프라"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T02:50:03Z",
+      "updated_at": "2026-11-11T02:50:03Z",
+      "articles": [
+        {
+          "key": "9cd789b89d02875c",
+          "title": "기후장관 \"호남 반도체 위해 다른 지역 변압기 전용 안해\"",
+          "url": "https://www.yna.co.kr/view/AKR20261111091700530",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T02:50:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0811",
+      "headline": "AI가 HBM 설계·성능 분석을 돕는 반도체 연구 변화",
+      "summary": [
+        "KAIST 김정호 교수가 AI로 반도체 설계와 성능 분석을 자동화하는 연구실 변화를 공개했다.",
+        "연구자가 직접 프로그램을 실행하고 결과를 확인하던 작업을 AI가 대신하는 방식이다.",
+        "설계 시간을 줄이는 방향의 변화로, 기사에 제시된 구체적 수치는 확인되지 않는다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 반도체 설계",
+        "HBM",
+        "성능 분석",
+        "KAIST"
+      ],
+      "companies": [
+        "KAIST"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "KAIST"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T02:41:56Z",
+      "updated_at": "2026-11-11T02:41:56Z",
+      "articles": [
+        {
+          "key": "5f36b220a3f96c90",
+          "title": "\"HBM 설계도 AI가 돕는다\"…김정호 교수, 반도체 연구실의 변화 공개",
+          "url": "https://www.inews24.com/view/2024960",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-11T02:41:56Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0810",
+      "headline": "삼성전자, AMD와 차세대 반도체 테스트 인프라 협력",
+      "summary": [
+        "삼성전자가 미국 AMD와 차세대 반도체 테스트 인프라 고도화에 협력하기로 했다.",
+        "기사에는 협력의 구체적인 규모, 일정, 계약 조건이 나와 있지 않다.",
+        "양사 협력은 차세대 반도체 생산 후공정 역량 강화에 의미가 있을 것으로 보인다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "테스트 인프라",
+        "차세대 반도체",
+        "반도체 테스트",
+        "협력"
+      ],
+      "companies": [
+        "삼성전자",
+        "AMD"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "AMD"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T02:41:35Z",
+      "updated_at": "2026-11-11T02:41:35Z",
+      "articles": [
+        {
+          "key": "01b0b32ff64e484a",
+          "title": "삼성전자, AMD와 차세대 반도체 테스트 인프라 협력",
+          "url": "https://www.yna.co.kr/view/AKR20261111089400003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T02:41:35Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261110-0786",
+      "headline": "앨리스 황 연루 엔비디아 GPU 24만개 중국 우회 수출 의혹",
+      "summary": [
+        "미국 IT매체 디인포메이션은 앨리스 황이 중국에 엔비디아 GPU를 우회 수출했다고 보도했다.",
+        "관련 GPU는 약 24만 개로 대부분 H100·H200이며 일부 A100이 포함됐다고 전해졌다.",
+        "엔비디아 이사회는 자체 조사에 착수하고 외부 로펌을 선임해 수출 통제 논란이 커질 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출규제",
+        "엔비디아 GPU",
+        "H100",
+        "H200",
+        "우회 수출"
+      ],
+      "companies": [
+        "엔비디아",
+        "메가스피드",
+        "디인포메이션"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점, 매체 3곳 보도 +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-10T21:25:21Z",
+      "updated_at": "2026-11-11T02:41:21Z",
+      "articles": [
+        {
+          "key": "7d8845cf8a91be25",
+          "title": "美 IT매체 “젠슨황 연인 앨리스황, 10조원 규모 엔비디아 칩 중국으로 밀반입”",
+          "url": "https://www.dt.co.kr/article/12094410",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-10T21:25:21Z"
+        },
+        {
+          "key": "ac6ef8afef8f412f",
+          "title": "\"앨리스 황, 엔비디아 GPU 24만개 중국 우회 수출 관여\"",
+          "url": "https://zdnet.co.kr/view/?no=20261111085646",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-11T00:52:40Z"
+        },
+        {
+          "key": "957bffcba408a6e0",
+          "title": "[영상] \"엔비디아 AI칩 24만개 중국행…앨리스황, 모호함으로 추적피해\"",
+          "url": "https://www.yna.co.kr/view/AKR20261111088600704",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T02:41:21Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261111-0802",
+      "headline": "딥엑스, AI반도체 원천특허로 특허기술상 홍대용상 수상",
+      "summary": [
+        "딥엑스가 2026 특허기술상에서 연산 가속 장치 특허로 홍대용상을 받았다.",
+        "기술은 중간 데이터 저장·이동을 줄여 FPGA 테스트에서 연산 성능 12배, 메모리 소요 340분의 1 감소를 보였다.",
+        "창업 초기 원천 IP 확보 전략이 공신력 있는 상으로 검증돼 AI반도체 시장 진입 경쟁력 강화에 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 가속기",
+        "원천 특허",
+        "DX-M1",
+        "피지컬 AI",
+        "NPU"
+      ],
+      "companies": [
+        "딥엑스",
+        "엔비디아",
+        "퀄컴",
+        "ARM"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "딥엑스"
+      ],
+      "importance": 4,
+      "importance_reason": "소송·특허 3점, 매체 3곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T00:50:00Z",
+      "updated_at": "2026-11-11T02:19:19Z",
+      "articles": [
+        {
+          "key": "4f9d791675f18adb",
+          "title": "딥엑스, 2026 특허기술상 ‘홍대용상’ 수상…AI반도체 원천기술 인정",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343202",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-11T00:50:00Z"
+        },
+        {
+          "key": "279c0c1ebb189b3b",
+          "title": "딥엑스, 특허기술상 '홍대용상' 수상…AI 반도체 원천기술 입증",
+          "url": "https://zdnet.co.kr/view/?no=20261111100004",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:03:22Z"
+        },
+        {
+          "key": "8bd55fe729d4f580",
+          "title": "딥엑스, 특허 606건으로 AI 반도체 기술 경쟁력 입증…홍대용상 수상",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409588",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T02:19:19Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261111-0809",
+      "headline": "씨케이솔루션 3분기 영업이익 18배 급증, 반도체·데이터센터 확대",
+      "summary": [
+        "씨케이솔루션이 올해 3분기 연결 매출 1077억원, 영업이익 109억원을 기록했다고 발표했다.",
+        "매출은 전년 동기 대비 61%, 전분기 대비 27% 늘었고 영업이익은 전분기 6억원에서 크게 증가했다.",
+        "배터리 드라이룸 중심에서 벗어나 반도체 제조 인프라와 데이터센터 공사 수주를 확대한 성과다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "3분기 실적",
+        "반도체 인프라",
+        "데이터센터",
+        "사업 다각화",
+        "드라이룸"
+      ],
+      "companies": [
+        "씨케이솔루션",
+        "SK하이닉스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "씨케이솔루션"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T02:18:05Z",
+      "updated_at": "2026-11-11T02:18:05Z",
+      "articles": [
+        {
+          "key": "12e2c4b7578684c7",
+          "title": "씨케이솔루션, 3분기 영업이익 109억원...18배 증가",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65252",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-11T02:18:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261111-0804",
+      "headline": "SK하이닉스 하반기 생산직 채용, 학력 제한 폐지",
+      "summary": [
+        "SK하이닉스가 올해 하반기 전임직(생산직) 직원 채용에 나섰다.",
+        "기존 고졸·전문대졸 지원 제한을 없애 학력 요건을 폐지했고, 기사에 구체적 채용 인원은 나오지 않았다.",
+        "반도체 호황에 따른 성과급 기대감으로 지원자가 몰릴 것으로 예상되며 인력 확보 경쟁이 주목된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "생산직 채용",
+        "학력 제한 폐지",
+        "성과급",
+        "인재 확보"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "채용·인력",
       "confirmed": true,
       "parties": [
         "SK하이닉스"
       ],
       "importance": 3,
-      "importance_reason": "인수합병 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "importance_reason": "채용·인력 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T01:27:13Z",
+      "updated_at": "2026-11-11T02:17:00Z",
+      "articles": [
+        {
+          "key": "c57a5e40b490148c",
+          "title": "SK하이닉스, '파격적 성과급' 기대감 속 하반기 생산직 채용",
+          "url": "https://www.yna.co.kr/view/AKR20261111061700003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:27:13Z"
+        },
+        {
+          "key": "76fa2346ad0f362d",
+          "title": "SK하이닉스, 하반기 생산직 채용…학력 제한 없애고 인재 확보",
+          "url": "https://www.dt.co.kr/article/12094486",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-11T02:17:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261111-0808",
+      "headline": "ICsense, 의료용 맞춤형 ASIC 수요에 힘입어 사상 최대 실적",
+      "summary": [
+        "TDK 계열 유럽 팹리스 ICsense가 22년 역사상 최대 실적을 발표했다.",
+        "매출은 30% 늘었고 이익은 50% 넘게 증가했으며, 뇌-컴퓨터 인터페이스 등 의료기기용 맞춤형 칩 수요가 성장을 이끌었다.",
+        "대형 파운드리가 대량 생산에 집중하면서 소량 맞춤 칩을 설계부터 공급까지 맡는 전문 팹리스의 입지가 넓어지고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "ASIC",
+        "의료용 반도체",
+        "뇌-컴퓨터 인터페이스",
+        "팹리스",
+        "아날로그·혼합신호 칩"
+      ],
+      "companies": [
+        "ICsense",
+        "TDK"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "ICsense"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T02:02:05Z",
+      "updated_at": "2026-11-11T02:02:05Z",
+      "articles": [
+        {
+          "key": "bcc93bf1dba7c58f",
+          "title": "ICsense Reports Record Growth as Demand Rises for Specialized Medical ASICs",
+          "url": "https://www.semiconductor-digest.com/icsense-reports-record-growth-as-demand-rises-for-specialized-medical-asics/?utm_source=rss&utm_medium=rss&utm_campaign=icsense-reports-record-growth-as-demand-rises-for-specialized-medical-asics",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-11T02:02:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261111-0807",
+      "headline": "라피더스, 2나노 양산 목표 일정 지연 보도",
+      "summary": [
+        "일본 라피더스가 2나노 칩 양산 목표 일정에서 뒤처졌다는 보도가 나왔다.",
+        "기사 본문은 사진 출처 표기만 있어 구체적 연기 기간이나 새 일정은 확인되지 않는다.",
+        "일정 차질은 일본의 반도체 부흥 계획과 2나노 공정 확보 전략에 대한 의문을 키울 수 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "2나노",
+        "라피더스",
+        "양산 일정",
+        "일본 반도체"
+      ],
+      "companies": [
+        "라피더스"
+      ],
+      "event_type": "실적",
+      "confirmed": false,
+      "parties": [
+        "라피더스"
+      ],
+      "importance": 2,
+      "importance_reason": "실적 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T01:59:26Z",
+      "updated_at": "2026-11-11T01:59:26Z",
+      "articles": [
+        {
+          "key": "5443cd3534782a67",
+          "title": "Rapidus reportedly falls behind schedule on 2nm chip production target, raising questions over Japan's chip ambitions",
+          "url": "https://www.digitimes.com/news/a20261111VL204/rapidus-2nm-production-manufacturing-development.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T01:59:26Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0806",
+      "headline": "파인테크, 공동 대표 선임으로 볼륨 생산 포트폴리오 확대",
+      "summary": [
+        "파인테크가 앙드레 티만을 공동 CEO로 선임해 경영진을 확대했다고 발표했다.",
+        "티만은 11월 1일부로 CEO 카를로타 바우만과 함께 회사를 이끌며 양산 전환을 지원한다.",
+        "포토닉스·양자기술·반도체 분야 양산용 장비를 강화해 개발부터 양산까지 일관된 경로를 제공한다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "다이 본딩",
+        "첨단 패키징",
+        "이종집적",
+        "볼륨 생산",
+        "포토닉스"
+      ],
+      "companies": [
+        "파인테크",
+        "Nikon SLM Solutions"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "파인테크"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T01:56:00Z",
+      "updated_at": "2026-11-11T01:56:00Z",
+      "articles": [
+        {
+          "key": "4fa4b18f7bd226d6",
+          "title": "Finetech Expands its Portfolio for Volume Production",
+          "url": "https://www.semiconductor-digest.com/finetech-expands-its-portfolio-for-volume-production/?utm_source=rss&utm_medium=rss&utm_campaign=finetech-expands-its-portfolio-for-volume-production",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-11T01:56:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261111-0805",
+      "headline": "Hummink, 패키징 결함 수리 모듈 BIRD 공개",
+      "summary": [
+        "Hummink가 SEMICON Europa 2026에서 마이크론 단위 인쇄·결함 수리 모듈 BIRD를 선보였다.",
+        "HPCaP 기술은 현재 디스플레이 라인에서 파일럿 단계이며, 반도체·첨단 패키징으로 적용을 넓힐 계획이다.",
+        "FOPLP에서 RDL 결함 수리로 패널 폐기를 줄여 수율 개선 효과를 기대할 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "첨단 패키징",
+        "HPCaP",
+        "결함 수리",
+        "FOPLP",
+        "RDL"
+      ],
+      "companies": [
+        "Hummink"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "Hummink"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T01:52:50Z",
+      "updated_at": "2026-11-11T01:52:50Z",
+      "articles": [
+        {
+          "key": "98198d87550ae9cd",
+          "title": "Hummink Unveils the BIRD Module at SEMICON Europa 2026",
+          "url": "https://www.semiconductor-digest.com/hummink-unveils-the-bird-module-at-semicon-europa-2026/?utm_source=rss&utm_medium=rss&utm_campaign=hummink-unveils-the-bird-module-at-semicon-europa-2026",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-11T01:52:50Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261109-0686",
+      "headline": "삼성전자·엔비디아, AI로 반도체 시뮬레이션 최대 3800배 가속 시연",
+      "summary": [
+        "삼성전자와 엔비디아가 AI 기반 반도체 시뮬레이션에서 최대 3,800배 속도 향상을 시연했다고 보도됐다.",
+        "기사 본문이 제한적이어서 구체적인 적용 공정, 시험 조건, 일정은 확인되지 않는다.",
+        "반도체 설계·공정 검증 시간을 크게 줄일 수 있어 AI 활용 개발 효율화의 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 시뮬레이션",
+        "GPU 가속",
+        "반도체 설계",
+        "엔비디아",
+        "삼성전자"
+      ],
+      "companies": [
+        "삼성전자",
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-09T08:52:38Z",
+      "updated_at": "2026-11-11T01:47:24Z",
+      "articles": [
+        {
+          "key": "8f5b51dec85a9127",
+          "title": "삼성전자 \"엔비디아 AI로 반도체 시뮬레이션 4000배 가속\"",
+          "url": "https://www.inews24.com/view/2024251",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-09T08:52:38Z"
+        },
+        {
+          "key": "7374c8c5e2301156",
+          "title": "Samsung and Nvidia demonstrate up to 3,800-fold speedup in chip simulation",
+          "url": "https://www.digitimes.com/news/a20261111PD241/nvidia-samsung-gpu-2026-materials.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T01:47:24Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261111-0801",
+      "headline": "SK하이닉스, LPDDR5X 국제 안전·보안 인증 2종 획득",
+      "summary": [
+        "SK하이닉스가 LPDDR5X D램으로 산업용 기능안전 IEC 61508 SIL 3 인증과 자동차 사이버보안 CSMS 인증을 확보했다고 11일 밝혔다.",
+        "두 인증 모두 SGS-TÜV Saar의 심사를 거쳤으며, 앞서 받은 자동차 기능안전 ISO 26262 ASIL-D에 이어 적용 범위를 넓혔다.",
+        "기능안전을 자동차에서 로봇·스마트 팩토리 등 산업 전반으로 확장해 피지컬 AI 메모리 수요 공략에 힘을 실을 전망이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "LPDDR5X",
+        "IEC 61508",
+        "ISO/SAE 21434",
+        "기능안전",
+        "사이버보안",
+        "피지컬 AI"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "SGS"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스",
+        "SGS"
+      ],
+      "importance": 3,
+      "importance_reason": "홍보·수상 1점, 관심 기업(SK하이닉스) +1, 매체 4곳 보도 +1 → 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
       "first_seen": "2026-11-11T01:08:06Z",
-      "updated_at": "2026-11-11T01:13:41Z",
+      "updated_at": "2026-11-11T01:43:51Z",
       "articles": [
         {
           "key": "0b0225ac0d9c5997",
@@ -52,10 +699,120 @@
           "source": "테크월드뉴스",
           "lang": "ko",
           "published_at": "2026-11-11T01:13:41Z"
+        },
+        {
+          "key": "cfe256eceb070d4b",
+          "title": "SK하이닉스, 안전·보안 국제 인증으로 피지컬 AI 메모리 신뢰성 강화",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343201",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:22:49Z"
+        },
+        {
+          "key": "8034b95585c39c2a",
+          "title": "SK하이닉스, 저전력 D램 안전·보안 국제인증…피지컬 AI 공략",
+          "url": "https://www.yna.co.kr/view/AKR20261111067600003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:43:51Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 3
+    },
+    {
+      "id": "c20261110-0742",
+      "headline": "애플 OLED 아이패드 에어, 2027년 초 출시 전망",
+      "summary": [
+        "애플이 2027년 초 아이패드 에어 두 모델에 OLED 디스플레이를 도입할 예정이라고 디지타임스가 보도했다.",
+        "2027년 아이패드 에어 출하량은 400만~500만 대로 전망되며, 아이패드 프로는 300만~400만 대로 목표에 못 미친다.",
+        "OLED 적용 확대는 디스플레이 패널 수요 증가로 이어질 수 있으나 공식 발표는 아직 없다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "아이패드 에어",
+        "8.5인치 OLED",
+        "M5 칩",
+        "패널 공급"
+      ],
+      "companies": [
+        "애플",
+        "삼성디스플레이"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [
+        "애플"
+      ],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-10T03:28:54Z",
+      "updated_at": "2026-11-11T01:26:42Z",
+      "articles": [
+        {
+          "key": "bd5e0bb9854b46cc",
+          "title": "Apple's OLED iPad Air targets 2027, SDC leads panel supply",
+          "url": "https://www.digitimes.com/news/a20261110PD211/apple-sdc-2027-ipad-air-panel.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-10T03:28:54Z"
+        },
+        {
+          "key": "1737f36fc43b0220",
+          "title": "\"아이패드 에어도 OLED 입는다…내년 초 출시\"",
+          "url": "https://zdnet.co.kr/view/?no=20261111101003",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:26:42Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261111-0803",
+      "headline": "호남 반도체 산단 폄훼 중단 촉구 성명",
+      "summary": [
+        "전남광주반도체포럼이 11일 성명을 내고 호남권 반도체 국가산업단지 조성을 둘러싼 정치권 논란을 비판했다.",
+        "성명은 전남광주 행정통합과 관련된 정치권의 산단 폄훼 발언 중단을 요구한 것으로 전해졌다.",
+        "지역 반도체 산업 기반에 대한 논쟁이 지역 정치 쟁점으로 번지는 상황을 보여준다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "호남 반도체 산단",
+        "국가산업단지",
+        "전남광주 행정통합",
+        "지역 반도체"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T01:21:48Z",
+      "updated_at": "2026-11-11T01:21:48Z",
+      "articles": [
+        {
+          "key": "827f30436c6de69d",
+          "title": "전남광주반도체포럼 \"호남 반도체 산단 폄훼 중단해야\"",
+          "url": "https://www.yna.co.kr/view/AKR20261111062600054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:21:48Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261110-0719",
@@ -113,30 +870,29 @@
     },
     {
       "id": "c20261111-0799",
-      "headline": "LG전자, 이페이퍼 디스플레이 스마트폰 관리 앱 출시",
+      "headline": "LG전자, 이페이퍼 디스플레이 관리 앱 'LG 사이니지 매니저' 출시",
       "summary": [
-        "LG전자가 초저전력 상업용 이페이퍼 디스플레이를 스마트폰으로 관리하는 앱 'LG 사이니지 매니저'를 출시했다.",
-        "스마트폰에서 이미지를 편집해 원하는 시간에 디스플레이로 전송할 수 있으며 별도 PC나 리모컨이 필요 없다.",
-        "매장 메뉴나 프로모션 안내의 콘텐츠 교체 시간을 줄여 상업용 디스플레이 운영 편의성을 높일 것으로 보인다."
+        "LG전자가 상업용 저전력 디스플레이 LG 이페이퍼 디스플레이의 모바일 관리 앱을 출시했다.",
+        "스마트폰과 블루투스로 연결해 네트워크 설정, 배터리 잔량 확인, 콘텐츠 편집과 배포를 할 수 있다.",
+        "상업용 디스플레이의 관리 편의성을 높여 사이니지 제품의 사용성을 강화하는 의미가 있다."
       ],
       "category": "디스플레이",
       "tags": [
         "이페이퍼 디스플레이",
+        "사이니지",
         "상업용 디스플레이",
-        "디지털 사이니지",
-        "모바일 관리 앱",
-        "초저전력"
+        "모바일 관리 앱"
       ],
       "companies": [
         "LG전자"
       ],
-      "event_type": "재무·주주",
+      "event_type": "업계 일반",
       "confirmed": true,
       "parties": [
         "LG전자"
       ],
       "importance": 4,
-      "importance_reason": "재무·주주 2점, 관심 기업(LG전자) +1, 매체 3곳 보도 +1 → 4점",
+      "importance_reason": "업계 일반 2점, 관심 기업(LG전자) +1, 매체 4곳 보도 +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -149,6 +905,14 @@
           "title": "LG전자, 이페이퍼 디스플레이 관리 앱 출시",
           "url": "https://www.thelec.kr/news/articleView.html?idxno=65246",
           "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:00:00Z"
+        },
+        {
+          "key": "80834fd6c5750d77",
+          "title": "LG전자, ‘이페이퍼 디스플레이’를 스마트폰으로 손쉽게 관리하는 앱 ' LG 사이니지 매니저' 출",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343205",
+          "source": "KIPOST",
           "lang": "ko",
           "published_at": "2026-11-11T01:00:00Z"
         },
@@ -305,6 +1069,85 @@
       ],
       "type_checked": true,
       "importance_raw": 1
+    },
+    {
+      "id": "c20261107-0608",
+      "headline": "젠슨 황 CEO 중국 스파이 의혹 논란, 엔비디아 리스크 확산",
+      "summary": [
+        "뉴욕타임스가 미국 정보당국이 중국 연계 의혹 여성 사업가와 젠슨 황 CEO의 긴밀한 관계를 파악했다고 보도했다.",
+        "메가스피드는 최근 2년간 엔비디아 반도체를 48억 달러 이상 구매했으며, 수출 통제 우회 여부를 당국이 조사 중이다.",
+        "의회 안보 현안으로 번지면서 엔비디아의 대정부·공급망 리스크와 지배구조 불확실성이 부각되고 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "젠슨 황",
+        "엔비디아",
+        "수출통제",
+        "메가스피드",
+        "국가안보"
+      ],
+      "companies": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점, 매체 3곳 보도 +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-07T05:20:32Z",
+      "updated_at": "2026-11-11T00:37:11Z",
+      "articles": [
+        {
+          "key": "b9d4b578e19a2655",
+          "title": "[속보]“美당국, 젠슨 황과 ‘中스파이 의혹’ 여성 연인관계로 판단”",
+          "url": "https://www.dt.co.kr/article/12093649",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-07T05:20:32Z"
+        },
+        {
+          "key": "4d0ee7511dc92d67",
+          "title": "'젠슨 황 스캔들' 1년 전부터 경고음…美 정부는 알고 있었다?",
+          "url": "https://www.inews24.com/view/2024022",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-09T04:17:33Z"
+        },
+        {
+          "key": "5e4b67767a77e87e",
+          "title": "“젠슨황은 좋은 사람” 편든 트럼프도 정치적 부담…스파이와 불륜 묵인 해명요구 받을 수도",
+          "url": "https://www.dt.co.kr/article/12094128",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-09T20:03:29Z"
+        },
+        {
+          "key": "22d11dab95286e64",
+          "title": "단 10일 만에 엔비디아 제국 흔든 '젠슨 황 스캔들'",
+          "url": "https://zdnet.co.kr/view/?no=20261111011002",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-10T23:34:27Z"
+        },
+        {
+          "key": "9537eb5b89616f7d",
+          "title": "일파만파 번지는 의혹...젠슨 황, 무엇을 답해야 하나",
+          "url": "https://zdnet.co.kr/view/?no=20261111011038",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-11T00:37:11Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261111-0796",
@@ -638,77 +1481,6 @@
       "importance_raw": 3
     },
     {
-      "id": "c20261107-0608",
-      "headline": "젠슨 황 CEO 중국 스파이 의혹 논란, 엔비디아 리스크 확산",
-      "summary": [
-        "뉴욕타임스가 미국 정보당국이 중국 연계 의혹 여성 사업가와 젠슨 황 CEO의 긴밀한 관계를 파악했다고 보도했다.",
-        "메가스피드는 최근 2년간 엔비디아 반도체를 48억 달러 이상 구매했으며, 수출 통제 우회 여부를 당국이 조사 중이다.",
-        "의회 안보 현안으로 번지면서 엔비디아의 대정부·공급망 리스크와 지배구조 불확실성이 부각되고 있다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "젠슨 황",
-        "엔비디아",
-        "수출통제",
-        "메가스피드",
-        "국가안보"
-      ],
-      "companies": [
-        "엔비디아",
-        "메가스피드"
-      ],
-      "event_type": "소송·특허",
-      "confirmed": false,
-      "parties": [
-        "엔비디아",
-        "메가스피드"
-      ],
-      "importance": 3,
-      "importance_reason": "소송·특허 3점, 매체 3곳 보도 +1, 미확정 -1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-07T05:20:32Z",
-      "updated_at": "2026-11-10T23:34:27Z",
-      "articles": [
-        {
-          "key": "b9d4b578e19a2655",
-          "title": "[속보]“美당국, 젠슨 황과 ‘中스파이 의혹’ 여성 연인관계로 판단”",
-          "url": "https://www.dt.co.kr/article/12093649",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-07T05:20:32Z"
-        },
-        {
-          "key": "4d0ee7511dc92d67",
-          "title": "'젠슨 황 스캔들' 1년 전부터 경고음…美 정부는 알고 있었다?",
-          "url": "https://www.inews24.com/view/2024022",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-09T04:17:33Z"
-        },
-        {
-          "key": "5e4b67767a77e87e",
-          "title": "“젠슨황은 좋은 사람” 편든 트럼프도 정치적 부담…스파이와 불륜 묵인 해명요구 받을 수도",
-          "url": "https://www.dt.co.kr/article/12094128",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-09T20:03:29Z"
-        },
-        {
-          "key": "22d11dab95286e64",
-          "title": "단 10일 만에 엔비디아 제국 흔든 '젠슨 황 스캔들'",
-          "url": "https://zdnet.co.kr/view/?no=20261111011002",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-10T23:34:27Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
       "id": "c20261110-0791",
       "headline": "Nordson, 패널급 패키징용 플라즈마 장비로 기술상 수상",
       "summary": [
@@ -931,50 +1703,6 @@
           "source": "Semiconductor Digest",
           "lang": "en",
           "published_at": "2026-11-10T22:00:25Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261110-0786",
-      "headline": "앨리스 황, 엔비디아 칩 중국 밀반입 의혹 보도",
-      "summary": [
-        "미국 IT매체와 로이터가 앨리스 황이 엔비디아 AI 반도체를 중국에 대규모로 들여갔다고 보도했다.",
-        "보도에 따르면 규모는 약 10조원으로, 젠슨 황 CEO와의 친분이 활용된 것으로 전해졌다.",
-        "수출 통제 회피 의혹으로, 미·중 반도체 규제 준수 문제가 다시 주목받을 전망이다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "AI반도체",
-        "수출규제",
-        "밀반입 의혹",
-        "엔비디아 칩"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "소송·특허",
-      "confirmed": false,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 2,
-      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-10T21:25:21Z",
-      "updated_at": "2026-11-10T21:25:21Z",
-      "articles": [
-        {
-          "key": "7d8845cf8a91be25",
-          "title": "美 IT매체 “젠슨황 연인 앨리스황, 10조원 규모 엔비디아 칩 중국으로 밀반입”",
-          "url": "https://www.dt.co.kr/article/12094410",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-10T21:25:21Z"
         }
       ],
       "type_checked": true,
@@ -3279,52 +4007,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261110-0742",
-      "headline": "애플 OLED 아이패드 에어, 2027년 목표로 삼성디스플레이 공급 주도",
-      "summary": [
-        "애플이 2027년 출시를 목표로 OLED 패널을 적용한 아이패드 에어를 준비하는 것으로 보도됐다.",
-        "기사 본문은 사실상 사진 출처 표기만 있어 구체적 수량이나 계약 조건은 확인되지 않는다.",
-        "삼성디스플레이가 패널 공급을 주도할 것으로 전해져 중소형 OLED 시장에서의 입지가 주목된다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "OLED",
-        "아이패드 에어",
-        "중소형 OLED",
-        "2027년 출시"
-      ],
-      "companies": [
-        "애플",
-        "삼성디스플레이"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": false,
-      "parties": [
-        "애플",
-        "삼성디스플레이"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점, 관심 기업(삼성디스플레이) +1, 미확정 -1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-10T03:28:54Z",
-      "updated_at": "2026-11-10T03:28:54Z",
-      "articles": [
-        {
-          "key": "bd5e0bb9854b46cc",
-          "title": "Apple's OLED iPad Air targets 2027, SDC leads panel supply",
-          "url": "https://www.digitimes.com/news/a20261110PD211/apple-sdc-2027-ipad-air-panel.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-10T03:28:54Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261110-0741",
@@ -5924,52 +6606,6 @@
           "source": "아이뉴스24",
           "lang": "ko",
           "published_at": "2026-11-09T08:52:49Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261109-0686",
-      "headline": "삼성전자, 엔비디아 AI로 반도체 시뮬레이션 4000배 가속",
-      "summary": [
-        "삼성전자가 엔비디아 AI 기술을 활용해 반도체 개발 시뮬레이션 속도를 최대 4000배 높였다.",
-        "기존 하루가량 걸리던 계산을 약 1분으로 단축했다고 기사에 전해졌다.",
-        "제조 전 불량 가능성을 미리 검증할 수 있어 개발 기간과 비용 절감에 기여할 것으로 보인다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "AI 시뮬레이션",
-        "엔비디아",
-        "반도체 개발",
-        "공정 검증"
-      ],
-      "companies": [
-        "삼성전자",
-        "엔비디아"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "삼성전자",
-        "엔비디아"
-      ],
-      "importance": 3,
-      "importance_reason": "업계 일반 2점, 관심 기업(삼성전자) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-09T08:52:38Z",
-      "updated_at": "2026-11-09T08:52:38Z",
-      "articles": [
-        {
-          "key": "8f5b51dec85a9127",
-          "title": "삼성전자 \"엔비디아 AI로 반도체 시뮬레이션 4000배 가속\"",
-          "url": "https://www.inews24.com/view/2024251",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-09T08:52:38Z"
         }
       ],
       "type_checked": true,
