@@ -1,7 +1,142 @@
 {
   "version": 1,
-  "updated_at": "2026-11-12T10:17:23Z",
+  "updated_at": "2026-11-12T12:09:34Z",
   "issues": [
+    {
+      "id": "c20261112-0959",
+      "headline": "파네시아·인텔, CXL 기반 AI 서버 랙 공동 개발 추진",
+      "summary": [
+        "국내 팹리스 파네시아가 인텔과 손잡고 AI 데이터센터의 메모리 활용도를 높이는 기술 개발에 나선다.",
+        "12일 서울 코엑스 '인텔 AI 서밋 서울 2026'에서 공동 개발 계획이 공개됐다.",
+        "AI 서버의 메모리 병목을 줄이는 방향이라 데이터센터 인프라 수요에 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "CXL",
+        "AI 서버 랙",
+        "메모리 확장",
+        "데이터센터"
+      ],
+      "companies": [
+        "파네시아",
+        "인텔"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "파네시아",
+        "인텔"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T10:32:22Z",
+      "updated_at": "2026-11-12T10:32:22Z",
+      "articles": [
+        {
+          "key": "977faa8dfb86f82c",
+          "title": "파네시아·인텔, CXL 기반 'AI 서버 랙' 공동 개발",
+          "url": "https://www.inews24.com/view/2025730",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T10:32:22Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0958",
+      "headline": "팹리스협회, 베트남과 AI 반도체 협력 확대 추진",
+      "summary": [
+        "한국팹리스산업협회가 베트남과 AI 반도체 분야 협력을 넓히기로 했다.",
+        "국내 팹리스 기업의 설계 기술과 베트남의 인력·산업 기반을 연계해 해외 진출을 지원할 계획이다.",
+        "국내 팹리스 기업에는 동남아 시장 진출의 새 통로가 될 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI반도체",
+        "팹리스",
+        "베트남",
+        "해외진출"
+      ],
+      "companies": [
+        "딥엑스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T10:30:51Z",
+      "updated_at": "2026-11-12T10:30:51Z",
+      "articles": [
+        {
+          "key": "cb6371e9fcfbac70",
+          "title": "팹리스협회, 베트남서 AI 반도체 협력 확대…딥엑스도 참여",
+          "url": "https://www.inews24.com/view/2025727",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T10:30:51Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261112-0957",
+      "headline": "에이직랜드, TSMC 행사서 AI 반도체 3종 공개",
+      "summary": [
+        "에이직랜드가 TSMC 대만 행사에서 AI 반도체 실물칩 3종을 공개했다.",
+        "대만 R&D센터를 중심으로 첨단공정과 패키징 기술 협력을 강화할 계획이다.",
+        "글로벌 고객사 확보를 노리는 행보로, 국내 팹리스의 해외 시장 공략 흐름을 보여준다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI반도체",
+        "TSMC",
+        "첨단공정",
+        "패키징",
+        "팹리스"
+      ],
+      "companies": [
+        "에이직랜드",
+        "TSMC"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "에이직랜드",
+        "TSMC"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T10:30:02Z",
+      "updated_at": "2026-11-12T10:30:02Z",
+      "articles": [
+        {
+          "key": "92d227542673ac03",
+          "title": "에이직랜드, TSMC 대만 행사서 AI 반도체 3종 공개…글로벌 고객사 공략",
+          "url": "https://www.inews24.com/view/2025725",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T10:30:02Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261109-0698",
       "headline": "엔비디아 젠슨 황 CEO 불륜 스캔들, 시총 258조 증발",
@@ -159,6 +294,102 @@
       ],
       "type_checked": true,
       "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0956",
+      "headline": "인텔코리아, 서울 AI 허브와 AI 스타트업 육성 MOU 체결",
+      "summary": [
+        "인텔코리아가 서울 AI 허브와 국내 AI 스타트업 육성을 위한 업무협약을 맺었다.",
+        "약 85시간 분량의 인텔 디지털 레디니스 프로그램 교육 커리큘럼을 스타트업에 무상 제공한다.",
+        "국내 AI 스타트업의 기술 경쟁력과 해외 진출 지원을 강화하는 계기가 될 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI스타트업",
+        "인텔 디지털 레디니스 프로그램",
+        "에이전틱 AI",
+        "피지컬 AI",
+        "업무협약"
+      ],
+      "companies": [
+        "인텔코리아",
+        "서울 AI 허브"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "인텔코리아",
+        "서울 AI 허브"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T09:14:49Z",
+      "updated_at": "2026-11-12T09:14:49Z",
+      "articles": [
+        {
+          "key": "ac401445a25f4aa7",
+          "title": "인텔코리아, 서울 AI 허브와 AI 스타트업 육성 협력",
+          "url": "https://zdnet.co.kr/view/?no=20261112181333",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T09:14:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0955",
+      "headline": "파네시아·인텔, CXL 기반 랙 서버 메모리 공유 협력",
+      "summary": [
+        "파네시아는 인텔코리아와 CXL 관련 MOU를 맺고 랙 단위 AI 데이터센터 구축에 협력하기로 했다.",
+        "양사는 파네시아의 PCIe 6.4-CXL 3.2 퓨전 스위치로 서버 간 메모리 공유 구조를 검토하고 PoC도 추진한다.",
+        "메모리 수급난 속에서 메모리 확장·공유 기술이 AI 데이터센터 구축의 대안으로 주목받을 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "CXL",
+        "PCIe 6.4",
+        "CXL 3.2",
+        "메모리 풀링",
+        "AI 데이터센터",
+        "퓨전 스위치"
+      ],
+      "companies": [
+        "파네시아",
+        "인텔코리아",
+        "인텔"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "파네시아",
+        "인텔코리아"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T08:57:32Z",
+      "updated_at": "2026-11-12T08:57:32Z",
+      "articles": [
+        {
+          "key": "8036f78e903432af",
+          "title": "파네시아-인텔 \"CXL 기반 랙 단위 서버 구축 협력\"",
+          "url": "https://zdnet.co.kr/view/?no=20261112172155",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T08:57:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261112-0953",
