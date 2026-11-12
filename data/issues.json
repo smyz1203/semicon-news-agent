@@ -1,7 +1,480 @@
 {
   "version": 1,
-  "updated_at": "2026-11-12T03:02:39Z",
+  "updated_at": "2026-11-12T04:08:50Z",
   "issues": [
+    {
+      "id": "c20261112-0914",
+      "headline": "SK하이닉스, 인텔과 메모리 중심 AI 시스템 설계 협력",
+      "summary": [
+        "SK하이닉스가 인텔과 메모리 중심의 인공지능 시스템 설계에 협력하고 있다.",
+        "GPU에 붙일 수 있는 메모리 용량의 한계를 넘기 위해 여러 서버가 대용량 메모리를 공유하는 구조를 제시했다.",
+        "AI 서버 구조에서 메모리의 역할이 커지고 있음을 보여주는 사례로 볼 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 시스템",
+        "메모리 중심 구조",
+        "HBM",
+        "GPU 메모리 한계"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "인텔"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스",
+        "인텔"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T03:51:15Z",
+      "updated_at": "2026-11-12T03:51:15Z",
+      "articles": [
+        {
+          "key": "ca80b7c44a7b752c",
+          "title": "SK하이닉스 주영표 \"AI 시스템 한가운데 메모리를…인텔과 긴밀히 협력\"",
+          "url": "https://www.inews24.com/view/2025460",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T03:51:15Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0913",
+      "headline": "YMTC 2027년 IPO 추진과 중국 대학 내 엔비디아 GPU 유입 논란",
+      "summary": [
+        "YMTC가 2027년 기업공개(IPO)를 노린다는 보도가 나왔고, 제한된 엔비디아 GPU가 중국 대학에 들어가고 있다고 전해졌다.",
+        "기사 본문이 'Credit: AFP'뿐이라 구체적인 규모나 일정, 공식 발표 내용은 확인되지 않는다.",
+        "중국의 반도체 자급 목표와 수출 규제 대상 GPU 유입이 충돌하는 상황을 보여주는 사례로 볼 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "YMTC",
+        "IPO",
+        "엔비디아 GPU",
+        "수출규제",
+        "반도체 자급"
+      ],
+      "companies": [
+        "YMTC",
+        "엔비디아"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": false,
+      "parties": [
+        "YMTC"
+      ],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T03:50:12Z",
+      "updated_at": "2026-11-12T03:50:12Z",
+      "articles": [
+        {
+          "key": "b6697dfeda559ac1",
+          "title": "The China chip self-sufficiency paradox: YMTC eyes 2027 IPO as restricted Nvidia GPUs reach Chinese universities",
+          "url": "https://www.digitimes.com/news/a20261112VL202/nvidia-ipo-ymtc-2027-military.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T03:50:12Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
+    {
+      "id": "c20261112-0912",
+      "headline": "AUO·이노룩스, 2028년 반도체 패키징 상용화 목표",
+      "summary": [
+        "AUO와 이노룩스가 반도체 패키징 분야 사업 진출을 추진하며 2028년 상용화 돌파구를 목표로 하고 있다는 소식이다.",
+        "기사 본문은 사진 크레딧 표기만 있어 구체적인 투자 규모나 기술 세부 내용은 확인되지 않는다.",
+        "디스플레이 패널 기업의 반도체 패키징 진출 움직임으로, 업계 사업 다각화 흐름을 보여준다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "반도체 패키징",
+        "디스플레이 패널",
+        "사업 다각화",
+        "2028년 상용화"
+      ],
+      "companies": [
+        "AUO",
+        "이노룩스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "AUO",
+        "이노룩스"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T03:46:37Z",
+      "updated_at": "2026-11-12T03:46:37Z",
+      "articles": [
+        {
+          "key": "7a2706a8f125d32b",
+          "title": "AUO and Innolux target 2028 commercial breakthrough in semiconductor packaging",
+          "url": "https://www.digitimes.com/news/a20261112PD217/auo-innolux-packaging-demand-commercial.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T03:46:37Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261112-0911",
+      "headline": "삼성디스플레이·BOE, 저가 OLED 패널 검토",
+      "summary": [
+        "삼성디스플레이와 BOE가 스마트폰 판매 부진에 대응해 저가 OLED 패널 도입을 검토하는 것으로 전해졌다.",
+        "기사 본문에는 구체적인 수치나 일정이 제시되지 않아 세부 내용은 확인되지 않는다.",
+        "저가 패널 전략이 현실화되면 중저가 OLED 시장 경쟁 구도에 영향을 줄 수 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "저가 OLED",
+        "스마트폰 판매 부진",
+        "OLED 패널"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "BOE"
+      ],
+      "event_type": "가격 동향",
+      "confirmed": false,
+      "parties": [
+        "삼성디스플레이",
+        "BOE"
+      ],
+      "importance": 3,
+      "importance_reason": "가격 동향 3점, 관심 기업(삼성디스플레이) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T03:43:40Z",
+      "updated_at": "2026-11-12T03:43:40Z",
+      "articles": [
+        {
+          "key": "5ca31ae4117759a4",
+          "title": "Samsung Display, BOE weigh low-cost OLED panels as phone sales fall",
+          "url": "https://www.digitimes.com/news/a20261112VL207/sdc-boe-sales-shipments-tianma.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T03:43:40Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0910",
+      "headline": "TSMC, AI칩 수요 급증과 첨단 패키징 기회 강조",
+      "summary": [
+        "TSMC가 AI 칩 수요가 크게 늘고 있다는 점과 첨단 패키징 및 피지컬 AI 기회를 강조했다.",
+        "기사 본문이 제공되지 않아 구체적인 수치나 일정은 확인되지 않는다.",
+        "AI 반도체 생산에서 첨단 패키징의 중요성이 더 커질 것으로 해석된다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "AI칩",
+        "첨단 패키징",
+        "피지컬 AI",
+        "파운드리"
+      ],
+      "companies": [
+        "TSMC"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [
+        "TSMC"
+      ],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T03:32:13Z",
+      "updated_at": "2026-11-12T03:32:13Z",
+      "articles": [
+        {
+          "key": "a79fee859f218dbc",
+          "title": "TSMC sees surging AI chip demand, highlights advanced packaging and physical AI opportunities",
+          "url": "https://www.digitimes.com/news/a20261112VL203/tsmc-demand-packaging-ai-chip-infrastructure.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T03:32:13Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261112-0909",
+      "headline": "엔비디아 간첩 사건, 젠슨 황 가문과 승계 계획 공백 주목",
+      "summary": [
+        "엔비디아를 둘러싼 간첩 사건이 보도되면서 젠슨 황 CEO 가문에 관심이 쏠렸다.",
+        "기사 본문은 사진 출처 표기만 있어 사건의 세부 내용과 수치는 확인되지 않는다.",
+        "회사의 후계 구도가 명확하지 않다는 점이 지배구조 측면의 불확실성으로 거론된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "간첩 사건",
+        "승계 계획",
+        "지배구조",
+        "엔비디아"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T03:31:49Z",
+      "updated_at": "2026-11-12T03:31:49Z",
+      "articles": [
+        {
+          "key": "1fbd2935c62fe72f",
+          "title": "Nvidia spy case puts Jensen Huang's family in spotlight amid lack of succession plan",
+          "url": "https://www.digitimes.com/news/a20261111VL225/nvidia-jensen-huang-security-chips.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T03:31:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0906",
+      "headline": "삼성, 충청권 144조 투자 착공…HBM·OLED 거점 확대",
+      "summary": [
+        "삼성전자 등 계열사가 충청권에 총 144조원을 투자하는 메가프로젝트 착공식을 12일 온양캠퍼스에서 열었다.",
+        "삼성전자 온양 5라인은 2028년 6월 가동을 목표로 HBM4E를 생산하며, 삼성디스플레이 A7 라인은 2029년 하반기 양산을 목표로 한다.",
+        "정부가 인허가와 전력·용수 등 인프라를 책임지기로 해 AI 반도체 공급 능력 확충에 힘이 실릴 전망이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "HBM4E",
+        "OLED",
+        "패키지 기판",
+        "충청권 메가프로젝트",
+        "설비 투자"
+      ],
+      "companies": [
+        "삼성전자",
+        "삼성디스플레이",
+        "삼성전기",
+        "삼성SDI"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "삼성디스플레이",
+        "삼성전기",
+        "삼성SDI"
+      ],
+      "importance": 5,
+      "importance_reason": "설비 투자 3점, 관심 기업(삼성전자, 삼성디스플레이) +1, 매체 3곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T02:57:05Z",
+      "updated_at": "2026-11-12T03:31:22Z",
+      "articles": [
+        {
+          "key": "2f70ab213be2a39c",
+          "title": "1년 앞당겼다…삼성 충청 온양캠퍼스 'AI 반도체 심장' 뛴다",
+          "url": "https://zdnet.co.kr/view/?no=20261112113651",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T02:57:05Z"
+        },
+        {
+          "key": "b42a583effeb94ef",
+          "title": "삼성 온양캠퍼스, 최첨단 HBM 거점으로…이재용 \"또 한번 도약\"",
+          "url": "https://www.yna.co.kr/view/AKR20261112094900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T03:01:15Z"
+        },
+        {
+          "key": "cb46d1db017bbccb",
+          "title": "삼성, 충청권 144조 투자 본격화…HBM·OLED·반도체 기판 증설",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65339",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-12T03:31:22Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261112-0908",
+      "headline": "노르마, 퀀텀모션과 실리콘 스핀 큐비트 양자칩 협력",
+      "summary": [
+        "노르마가 실리콘 양자 컴퓨팅 기업 퀀텀모션과 반도체 기반 QPU 공동 공급을 위한 MOU를 체결했다.",
+        "양사는 실리콘 스핀 큐비트와 양자 프로세서 공동 연구, 기술 교류, 국제 공동 R&D 추진에 협력한다.",
+        "반도체 공정 기반 양자칩 생태계 확장의 신호로, 구체적 수치나 일정은 기사에 나타나지 않았다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "양자처리장치(QPU)",
+        "스핀 큐비트",
+        "실리콘 양자칩",
+        "업무협약"
+      ],
+      "companies": [
+        "노르마",
+        "퀀텀모션"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "노르마",
+        "퀀텀모션"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T03:20:00Z",
+      "updated_at": "2026-11-12T03:20:00Z",
+      "articles": [
+        {
+          "key": "250c62b87fdcc2fb",
+          "title": "노르마-퀀텀모션, 반도체 QPU 공급…‘스핀 큐비트’ 기술로 대형 양자 프로젝트 수행 목표",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409664",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T03:20:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0907",
+      "headline": "인텔, 국내 23개사와 AI 생태계 동맹 결성",
+      "summary": [
+        "인텔이 국내 23개 기업과 손잡고 국산 서버 중심의 AI 생태계 구축에 나섰다.",
+        "기사에 구체적인 투자 규모나 일정은 제시되지 않았다.",
+        "국내 AI 인프라에서 협력 기반을 넓히는 움직임으로, AI 주권 강화 흐름과 맞물린다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 생태계",
+        "국산 서버",
+        "AI 주권",
+        "인텔 협력"
+      ],
+      "companies": [
+        "인텔"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "인텔"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T03:00:05Z",
+      "updated_at": "2026-11-12T03:00:05Z",
+      "articles": [
+        {
+          "key": "0e65ecd785fe8c35",
+          "title": "[AI프리즘] 인텔, 한국 23개사와 AI 동맹…'AI 주권' 강화 나선다",
+          "url": "https://www.yna.co.kr/view/AKR20261112076500017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T03:00:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0905",
+      "headline": "노타, 하이퍼엑셀 LPU에 LLM 최적화 기술 후속 공급",
+      "summary": [
+        "노타가 AI 반도체 스타트업 하이퍼엑셀과 LLM 최적화 기술 공급 후속 계약을 체결했다.",
+        "계약 대상은 LLM 추론 전용 반도체 베르다 LPU이며, 지난해 9월 첫 계약에 이어 2년 연속 수주다.",
+        "데이터센터·기업용 AI 추론 시장에서 반도체와 소프트웨어 최적화의 중요성이 커지고 있음을 보여준다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "LLM 최적화",
+        "베르다 LPU",
+        "넷츠프레소",
+        "양자화",
+        "AI 추론"
+      ],
+      "companies": [
+        "노타",
+        "하이퍼엑셀"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "노타",
+        "하이퍼엑셀"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T02:42:03Z",
+      "updated_at": "2026-11-12T02:42:03Z",
+      "articles": [
+        {
+          "key": "53e522051e3f3113",
+          "title": "노타, '데이터센터 AI 반도체'로 최적화 영토 확장",
+          "url": "https://zdnet.co.kr/view/?no=20261112114203",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T02:42:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261111-0810",
       "headline": "삼성전자, AMD와 차세대 반도체 테스트 협력",
