@@ -1,7 +1,234 @@
 {
   "version": 1,
-  "updated_at": "2026-11-12T21:02:00Z",
+  "updated_at": "2026-11-12T21:58:35Z",
   "issues": [
+    {
+      "id": "c20261112-0969",
+      "headline": "삼성, 8인치 파운드리 철수 2029년으로 앞당겨 UMC 위탁 검토",
+      "summary": [
+        "삼성전자가 8인치 파운드리 사업 철수 시점을 2029년으로 앞당기고 일부 생산을 UMC에 맡기는 방안이 보도됐다.",
+        "기사 본문이 제공되지 않아 구체적인 물량, 계약 조건, 세부 일정은 확인되지 않는다.",
+        "레거시 8인치 공급이 줄어드는 흐름이어서 관련 파운드리 업계 재편에 영향을 줄 수 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "8인치 파운드리",
+        "파운드리 철수",
+        "위탁 생산",
+        "레거시 반도체"
+      ],
+      "companies": [
+        "삼성전자",
+        "UMC"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "UMC"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T21:46:08Z",
+      "updated_at": "2026-11-12T21:46:08Z",
+      "articles": [
+        {
+          "key": "803cb0db27ce83ea",
+          "title": "Samsung reportedly moves up 8-inch foundry exit to 2029, outsources some production to UMC",
+          "url": "https://www.digitimes.com/news/a20261112VL214/samsung-production-umc-manufacturing-outsourcing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T21:46:08Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0968",
+      "headline": "퀄컴, 인도서 감원 착수…휴대폰 칩 매출 부진 여파",
+      "summary": [
+        "퀄컴이 인도에서 인력 감축(감원)을 시작했다는 소식이 전해졌다.",
+        "기사 본문은 사진 출처 표기만 있어 구체적 인원·규모·일정은 확인되지 않는다.",
+        "휴대폰용 칩 매출 둔화가 구조조정 배경으로 언급돼 업계의 모바일 수요 약세 신호로 볼 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "인도 감원",
+        "휴대폰 칩",
+        "매출 둔화",
+        "구조조정"
+      ],
+      "companies": [
+        "퀄컴"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "퀄컴"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T21:45:44Z",
+      "updated_at": "2026-11-12T21:45:44Z",
+      "articles": [
+        {
+          "key": "6b61180963f12544",
+          "title": "Qualcomm begins India job cuts as handset chip sales slide",
+          "url": "https://www.digitimes.com/news/a20261112VL200/qualcomm-revenue-workforce-salary-hyderabad.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T21:45:44Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0967",
+      "headline": "imec·ASRA, 차량용 칩렛 상호운용 아키텍처 요건 공동 발표",
+      "summary": [
+        "imec와 일본 ASRA가 차량용 칩렛 상호운용성 요건(ACIR) 문서를 공동으로 공개했다.",
+        "문서는 AECF 포럼에서 소개됐으며 기존 표준을 보완하는 공통 아키텍처 요건을 담는다.",
+        "차량 고성능 컴퓨팅 수요 증가에 대응해 업체 간 칩렛 통합과 도입 속도를 높이는 의미가 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "칩렛",
+        "차량용 반도체",
+        "상호운용성",
+        "ACIR",
+        "AI반도체"
+      ],
+      "companies": [
+        "imec",
+        "ASRA"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "imec",
+        "ASRA"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T21:44:29Z",
+      "updated_at": "2026-11-12T21:44:29Z",
+      "articles": [
+        {
+          "key": "2adf8a102ca53cbf",
+          "title": "imec and ASRA Release Joint Architectural Requirements for Interoperable Automotive Chiplets",
+          "url": "https://www.semiconductor-digest.com/imec-and-asra-release-joint-architectural-requirements-for-interoperable-automotive-chiplets/?utm_source=rss&utm_medium=rss&utm_campaign=imec-and-asra-release-joint-architectural-requirements-for-interoperable-automotive-chiplets",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-12T21:44:29Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0966",
+      "headline": "텍사스텍대, 반도체 연구용 AI 컴퓨팅 클러스터 구축 위해 1900만 달러 지원",
+      "summary": [
+        "텍사스텍대 공과대학이 텍사스 반도체혁신기금(TSIF)으로 1900만 달러 이상의 추가 지원을 받았다.",
+        "지원금으로 로벅에 차세대 컴퓨팅 클러스터를 구축해 AI와 고충실도 시뮬레이션·실험 데이터를 결합할 계획이다.",
+        "반도체 소자·소재 개발 주기를 단축하는 효과가 기대되지만 산업 파급 규모는 기사에 명시되지 않았다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "TSIF",
+        "AI 컴퓨팅 클러스터",
+        "반도체 연구",
+        "와이드밴드갭 반도체"
+      ],
+      "companies": [
+        "텍사스텍대"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "텍사스텍대"
+      ],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T21:36:25Z",
+      "updated_at": "2026-11-12T21:36:25Z",
+      "articles": [
+        {
+          "key": "276e4b70994227fe",
+          "title": "Texas Tech Receives $19 Million Grant to Further Semiconductor Innovation",
+          "url": "https://www.semiconductor-digest.com/texas-tech-receives-19-million-grant-to-further-semiconductor-innovation/?utm_source=rss&utm_medium=rss&utm_campaign=texas-tech-receives-19-million-grant-to-further-semiconductor-innovation",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-12T21:36:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0965",
+      "headline": "삼성디스플레이 A7 라인 현장 공개, 중국 OLED 경쟁 가속",
+      "summary": [
+        "삼성디스플레이가 충남 아산 A7 생산라인 건설 현장을 공개했다.",
+        "이 라인에는 5조9000억원이 투입되며, 중국 TCL CSOT가 차세대 OLED 공장 장비 반입을 발표한 지 엿새 만에 이뤄졌다.",
+        "중국 업체의 설비 투자 경쟁이 본격화되면서 국내 OLED 업계의 증설 경쟁 압박이 커질 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "A7 라인",
+        "8.6세대 OLED",
+        "설비 투자"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "TCL CSOT",
+        "애플"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "삼성디스플레이"
+      ],
+      "importance": 4,
+      "importance_reason": "설비 투자 3점, 관심 기업(삼성디스플레이) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T21:00:00Z",
+      "updated_at": "2026-11-12T21:00:00Z",
+      "articles": [
+        {
+          "key": "d38aad0ac51f6806",
+          "title": "中 OLED 장비 반입 엿새 만에…삼성디스플레이, 5.9조 A7 현장 공개",
+          "url": "https://www.inews24.com/view/2025749",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T21:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
     {
       "id": "c20261112-0960",
       "headline": "젠슨 황 엔비디아 CEO 사임, 콜렛 크레스 CFO 임시 대행",
