@@ -1,7 +1,706 @@
 {
   "version": 1,
-  "updated_at": "2026-11-12T01:27:54Z",
+  "updated_at": "2026-11-12T03:02:39Z",
   "issues": [
+    {
+      "id": "c20261111-0810",
+      "headline": "삼성전자, AMD와 차세대 반도체 테스트 협력",
+      "summary": [
+        "삼성전자와 AMD가 차세대 반도체 테스트 인프라 분야에서 협력하기로 했다고 보도됐다.",
+        "기사 본문이 제한적이어서 협력의 구체적 범위, 일정, 투자 규모 등은 확인되지 않는다.",
+        "반도체 테스트 공정 고도화는 양산 품질과 수율 관리에 영향을 줄 수 있는 사안이다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "반도체 테스트",
+        "AMD",
+        "차세대 반도체",
+        "협력"
+      ],
+      "companies": [
+        "삼성전자",
+        "AMD"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "AMD"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-11T02:41:35Z",
+      "updated_at": "2026-11-12T02:32:25Z",
+      "articles": [
+        {
+          "key": "01b0b32ff64e484a",
+          "title": "삼성전자, AMD와 차세대 반도체 테스트 인프라 협력",
+          "url": "https://www.yna.co.kr/view/AKR20261111089400003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T02:41:35Z"
+        },
+        {
+          "key": "624ce05b2f217417",
+          "title": "Samsung, AMD team up to upgrade chip testing",
+          "url": "https://www.digitimes.com/news/a20261112VL204/samsung-amd-testing-manufacturing-pcie.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T02:32:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0904",
+      "headline": "아이에스시, 송도에 350억 투자해 AI 반도체 테스트 거점 착공",
+      "summary": [
+        "아이에스시가 인천 송도 지식정보산업단지에서 송도팹 신공장 착공식을 열었다.",
+        "약 350억원을 투자해 AI 반도체 테스트 소켓 생산과 연구개발 시설을 함께 짓고, 2027년 내 공사 완료를 목표로 한다.",
+        "AI 반도체 테스트 장비 공급망에서 국내 테스트 소켓 기업의 생산 능력이 확충되는 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "테스트 소켓",
+        "AI 반도체",
+        "송도팹",
+        "반도체 테스트"
+      ],
+      "companies": [
+        "아이에스시",
+        "인천경제자유구역청"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "아이에스시"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T02:16:17Z",
+      "updated_at": "2026-11-12T02:21:43Z",
+      "articles": [
+        {
+          "key": "4fd9bc2ce3639dbe",
+          "title": "[인천소식] 반도체 분야 기업 아이에스시, 송도에 신공장 건설",
+          "url": "https://www.yna.co.kr/view/AKR20261112085300065",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T02:16:17Z"
+        },
+        {
+          "key": "f84743ed859a4c83",
+          "title": "아이에스시, 350억원 투자해 송도팹 착공…AI 반도체 테스트 거점 구축",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409668",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T02:21:43Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0900",
+      "headline": "삼성 아산 온양캠 첨단패키징 팹 착공, 충청권 메가프로젝트 본격화",
+      "summary": [
+        "삼성전자가 충남 아산 온양캠퍼스에서 첨단 패키징 팹 착공식을 열고 충청권 메가프로젝트를 시작했다.",
+        "팹 신설에 6조원, 이후 장비 투자 40조원 규모가 순차적으로 이어질 계획이며 HBM 패키징 거점으로 키운다.",
+        "지방정부의 인허가 단축과 전력·용수 등 인프라 지원이 속도의 배경으로 꼽혀 산업 투자 모델로 주목된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "첨단 패키징",
+        "HBM",
+        "충청권 메가프로젝트",
+        "온양캠퍼스",
+        "인허가 단축"
+      ],
+      "companies": [
+        "삼성전자",
+        "삼성전기",
+        "삼성디스플레이",
+        "SK하이닉스"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "설비 투자 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T01:35:39Z",
+      "updated_at": "2026-11-12T02:14:23Z",
+      "articles": [
+        {
+          "key": "d03b2314a9f11093",
+          "title": "李대통령, 충청권 메가프로젝트 착공식 참석…\"지역 성장 기회 마련\"",
+          "url": "https://zdnet.co.kr/view/?no=20261112102308",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T01:35:39Z"
+        },
+        {
+          "key": "3d16355d1b54e982",
+          "title": "이재용 회장 \"충청 온양캠, 최첨단 HBM 거점으로 변모\"",
+          "url": "https://zdnet.co.kr/view/?no=20261112102736",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T01:52:13Z"
+        },
+        {
+          "key": "2eb456739ab95f67",
+          "title": "李대통령 \"대한민국 산업지도 바꿀 첨단 투자...4개월만에 현실로\"",
+          "url": "https://zdnet.co.kr/view/?no=20261112105653",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T02:14:23Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261112-0903",
+      "headline": "국산 온디바이스 AI반도체 10종 개발 로드맵 확정",
+      "summary": [
+        "산업통상부가 8002억원 규모 K-온디바이스 AI반도체 사업의 2030년까지 로드맵을 확정하고 10종 개발 일정을 발표했다.",
+        "자율주행·가전·로봇·드론용 칩을 풀스택으로 개발하며 가전용 칩 1종은 제조 시점을 1년 이상 앞당긴다.",
+        "수요기업의 혁신 구매자 역할과 삼성전자 2나노 등 파운드리 우선 배정, IP 지원으로 국내 팹리스 부담을 낮출 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "온디바이스 AI",
+        "AI반도체",
+        "2나노",
+        "팹리스",
+        "IP",
+        "M.AX 얼라이언스"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "업계 일반 2점, 관심 기업(삼성전자) +1, 매체 3곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T02:00:00Z",
+      "updated_at": "2026-11-12T02:00:02Z",
+      "articles": [
+        {
+          "key": "4a74d2732e001b10",
+          "title": "정부, 국산 AI반도체 개발 속도…삼성 2나노 공정 지원",
+          "url": "https://www.inews24.com/view/2025296",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T02:00:00Z"
+        },
+        {
+          "key": "22c11fb1f1c3afcb",
+          "title": "K-온디바이스 AI반도체 속도…2030년까지 AI칩 등 10종 개발",
+          "url": "https://www.yna.co.kr/view/AKR20261112061400003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T02:00:01Z"
+        },
+        {
+          "key": "f3a2ee5d93fe5131",
+          "title": "K-온디바이스, 2030년까지 자율주행 AI칩 등 10종 개발",
+          "url": "https://zdnet.co.kr/view/?no=20261112092039",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T02:00:02Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261112-0902",
+      "headline": "디스플레이 국가R&D 총괄워크샵 평창서 개최, 미래 로드맵 발표",
+      "summary": [
+        "한국디스플레이산업협회가 산학연관 400여명이 참여하는 제19회 디스플레이 국가연구개발사업 총괄워크샵을 평창에서 3일간 연다.",
+        "행사에서는 77개 국가R&D 과제(OLED 25개, iLED 31개, 장비·친환경 공정 21개)의 성과가 공유되고 미래 디스플레이 로드맵 2040이 발표된다.",
+        "국가 R&D 성과를 점검하고 차세대 디스플레이 기술 개발 방향을 정하는 자리로, 신시장 확대 전략에 영향을 줄 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "디스플레이 국가R&D",
+        "미래 디스플레이 로드맵 2040",
+        "OLED",
+        "iLED",
+        "친환경 공정"
+      ],
+      "companies": [
+        "한국디스플레이산업협회"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "한국디스플레이산업협회"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T02:00:00Z",
+      "updated_at": "2026-11-12T02:00:00Z",
+      "articles": [
+        {
+          "key": "94baaf8c14c9bb5c",
+          "title": "한국디스플레이산업협회, ‘제19회 디스플레이 국가연구개발사업 총괄워크샵’ 개",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343238",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-12T02:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0882",
+      "headline": "엔비디아 이사회, 젠슨 황 CEO 거취 논의 착수",
+      "summary": [
+        "엔비디아 이사회가 젠슨 황 CEO의 해임 준비에 들어가고 후임 물색에도 나섰다는 보도가 나왔다.",
+        "기사에 따르면 황 CEO는 중국 스파이 의심을 받는 임원과의 불륜 사실을 시인했고, 이사회는 외부 업체와 후임 CEO 선정을 추진 중이다.",
+        "이번 사태는 AI 반도체 수요를 이끌어 온 엔비디아의 지배구조 불안으로 번져 관련 공급망에도 영향을 줄 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "젠슨 황",
+        "CEO 교체",
+        "이사회",
+        "AI 반도체",
+        "지배구조"
+      ],
+      "companies": [
+        "엔비디아",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점, 매체 5곳 보도 +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-11T23:21:46Z",
+      "updated_at": "2026-11-12T01:50:39Z",
+      "articles": [
+        {
+          "key": "367f7f1d98c7879e",
+          "title": "[속보] WSJ \"엔비디아, 젠슨 황 CEO 해임 검토…빠르면 오늘 결론\"",
+          "url": "https://zdnet.co.kr/view/?no=20261112082127",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-11T23:21:46Z"
+        },
+        {
+          "key": "20365821bc5b3761",
+          "title": "엔비디아 이사회, 젠슨 황 해임 준비…이르면 오늘 거취 결정",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65313",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-11T23:27:27Z"
+        },
+        {
+          "key": "182097f20ac8d8ee",
+          "title": "엔비디아 이사회, 젠슨 황 해임 준비…여성 임원과 불륜 의혹도",
+          "url": "https://zdnet.co.kr/view/?no=20261112084239",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-11T23:54:18Z"
+        },
+        {
+          "key": "44a0bca9a3333444",
+          "title": "Nvidia board meets on Jensen Huang's future as succession gap comes into focus",
+          "url": "https://www.digitimes.com/news/a20261112VL201/nvidia-bloomberg-jensen-huang.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T00:29:18Z"
+        },
+        {
+          "key": "4f5af31ac295c816",
+          "title": "흔들리는 엔비디아·다가오는 미국규제에 삼전닉스 '초긴장'",
+          "url": "https://www.yna.co.kr/view/AKR20261112047300003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T00:39:41Z"
+        },
+        {
+          "key": "149f32576e6ca959",
+          "title": "[속보] “엔비디아 이사회, 젠슨황 거취결정 회의 중”…‘사내 불륜’에 기류 급변",
+          "url": "https://www.dt.co.kr/article/12094773",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-12T01:50:39Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0893",
+      "headline": "LG디스플레이, 임직원 기술 워크숍 '테크X' 첫 개최",
+      "summary": [
+        "LG디스플레이가 11일부터 13일까지 파주사업장에서 임직원 기술 워크숍 '테크X'를 처음 연다.",
+        "행사에서는 R&D포럼과 AX 스쿼드 챔피언십 등이 진행되며 차세대 OLED 기술과 AX 성과를 공유한다.",
+        "기술 중심 회사 가치를 내재화하고 업무 혁신과 AX 전환을 가속하려는 취지로 해석된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "AX",
+        "테크X",
+        "기술 워크숍",
+        "파주사업장"
+      ],
+      "companies": [
+        "LG디스플레이"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이"
+      ],
+      "importance": 4,
+      "importance_reason": "업계 일반 2점, 관심 기업(LG디스플레이) +1, 매체 3곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T01:00:00Z",
+      "updated_at": "2026-11-12T01:46:01Z",
+      "articles": [
+        {
+          "key": "a4672c82af2e7244",
+          "title": "LG디스플레이, 디스플레이 기술 워크숍 ‘Tech X’ 연다",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343235",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-12T01:00:00Z"
+        },
+        {
+          "key": "c0e494063d2879d8",
+          "title": "LGD, 첫 임직원 기술워크숍 '테크X'…\"더 어려운 것에 도전해야\"",
+          "url": "https://www.yna.co.kr/view/AKR20261112033500003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T01:00:02Z"
+        },
+        {
+          "key": "78e792c5d2c7ea4c",
+          "title": "LG디스플레이, 기술 워크숍 '테크X' 첫 개최",
+          "url": "https://www.inews24.com/view/2025336",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T01:46:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261112-0901",
+      "headline": "파인텍 3분기 흑자 전환, 삼성디스플레이 수주 효과",
+      "summary": [
+        "파인텍이 연결 기준 3분기 영업이익 21억원으로 흑자 전환했다고 발표했다.",
+        "매출은 246억원으로 전년 대비 68.1% 늘었고, 7월부터 삼성디스플레이로부터 약 352억원 장비를 수주했다.",
+        "디스플레이 장비 수주가 실적을 견인하며 푸드테크 로봇 등 신규 사업 확장의 재원이 되고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "디스플레이 장비",
+        "흑자 전환",
+        "삼성디스플레이 수주",
+        "푸드테크 로봇",
+        "보글 C"
+      ],
+      "companies": [
+        "파인텍",
+        "삼성디스플레이"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "파인텍"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T01:38:47Z",
+      "updated_at": "2026-11-12T01:38:47Z",
+      "articles": [
+        {
+          "key": "6f08cc51e3a9cb2d",
+          "title": "파인텍, 3분기 영업익 흑자 전환…디스플레이 수주 호조",
+          "url": "https://zdnet.co.kr/view/?no=20261112101125",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T01:38:47Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0899",
+      "headline": "대만, 포스트 무어 시대 장비 격차 해소에 학계 R&D 동원",
+      "summary": [
+        "대만이 학계 연구개발 역량을 동원해 포스트 무어 시대의 반도체 장비 격차 해소에 나섰다.",
+        "기사 본문은 사진 출처 표기만 있어 구체적 투자 규모나 일정, 참여 기관은 확인되지 않는다.",
+        "장비 기술 자립 움직임으로 해석될 수 있으나 세부 내용이 없어 산업 영향은 판단하기 어렵다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "포스트 무어",
+        "반도체 장비",
+        "학계 R&D",
+        "대만"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T01:35:10Z",
+      "updated_at": "2026-11-12T01:35:10Z",
+      "articles": [
+        {
+          "key": "ec3a5c850f68cb00",
+          "title": "Taiwan mobilizes academic R&D to address post-Moore semiconductor equipment gaps",
+          "url": "https://www.digitimes.com/news/a20261111PD246/equipment-taiwan-materials-silicon-semiconductors.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T01:35:10Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261109-0689",
+      "headline": "HKC 미앙양 6세대 OLED 투자 지연, 장비 발주 전",
+      "summary": [
+        "중국 HKC의 미앙양 6세대 OLED 공장 투자가 일정보다 늦어지고 있다는 보도가 나왔다.",
+        "기사에 따르면 아직 주요 장비가 발주되지 않은 상태다.",
+        "중국 OLED 패널 증설 속도가 둔화될 수 있어 국내 OLED 업계에도 영향을 줄 수 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "6세대 OLED",
+        "HKC",
+        "미앙양",
+        "투자 지연",
+        "장비 발주"
+      ],
+      "companies": [
+        "HKC"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "HKC"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점, 매체 3곳 보도 +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-09T09:08:04Z",
+      "updated_at": "2026-11-12T01:34:55Z",
+      "articles": [
+        {
+          "key": "0f0b6119effd673f",
+          "title": "中 HKC, 6세대 OLED 투자 지연",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65079",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-09T09:08:04Z"
+        },
+        {
+          "key": "67b31e7fff4f0b3e",
+          "title": "HKC's 6-Gen OLED fab in Mianyang falls behind schedule, no major equipment has been ordered yet",
+          "url": "https://www.oled-info.com/hkcs-6-gen-oled-fab-mianyang-falls-behind-schedule-no-major-equipment-has-been",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-10T07:34:26Z"
+        },
+        {
+          "key": "598051e9a12aef6d",
+          "title": "HKC’s Mianyang Gen 6 OLED investment faces delays",
+          "url": "https://www.digitimes.com/news/a20261111PD234/hkc-investment-equipment-technology-lcd-equipment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T01:34:55Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0898",
+      "headline": "대학 연구 혁신과 반도체 기술 개발 방식에 대한 칼럼",
+      "summary": [
+        "DigiTimes Asia가 대학은 공장이 아니라는 취지의 칼럼을 실었다.",
+        "기사 본문은 사진 출처 표기만 있어 구체적 수치나 일정은 확인되지 않는다.",
+        "반도체 혁신을 대학 연구에서 어떻게 이끌지에 대한 시각을 담은 의견성 기사로 보인다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "대학 연구",
+        "반도체 혁신",
+        "산학협력",
+        "기술 개발"
+      ],
+      "companies": [],
+      "event_type": "칼럼·인터뷰",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "칼럼·인터뷰 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T01:34:14Z",
+      "updated_at": "2026-11-12T01:34:14Z",
+      "articles": [
+        {
+          "key": "452f9d6e4e4b5cc9",
+          "title": "Universities aren't factories: Can a hot-rodding spirit drive semiconductor innovation?",
+          "url": "https://www.digitimes.com/news/a20261111PD224/equipment-taiwan-academia-talent-technology.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T01:34:14Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
+    {
+      "id": "c20261112-0897",
+      "headline": "젠슨 황 관련 논란, 중국 AI칩 시장 재편 가능성",
+      "summary": [
+        "DigiTimes Asia는 젠슨 황(엔비디아) 관련 스캔들이 중국 AI칩 시장 구도를 바꿀 수 있다고 보도했다.",
+        "기사 본문이 사실상 비어 있어 스캔들의 구체적 내용, 당사자, 일정은 확인되지 않는다.",
+        "다만 엔비디아의 중국 시장 입지가 흔들릴 경우 현지 AI칩 업체들에 기회가 될 수 있다는 점이 주목된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "젠슨 황",
+        "AI칩",
+        "중국 시장",
+        "엔비디아"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T01:34:06Z",
+      "updated_at": "2026-11-12T01:34:06Z",
+      "articles": [
+        {
+          "key": "0034bfea2f1c9595",
+          "title": "Jensen Huang scandal could reshape China’s AI chip landscape",
+          "url": "https://www.digitimes.com/news/a20261111PD222/nvidia-fuel-jensen-huang-asia-huawei.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T01:34:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0896",
+      "headline": "AMD, AI 예측 메모리 관리로 DRAM 사용량 절감 추진",
+      "summary": [
+        "AMD가 AI 기반 예측 메모리 관리 기술로 DRAM 사용량을 줄이려는 방향을 제시했다는 보도다.",
+        "기사 본문은 사진 크레딧만 남아 있어 구체적 기술 구조나 수치, 일정은 확인되지 않는다.",
+        "메모리 가격 부담이 큰 상황에서 DRAM 효율화 전략이 주목받을 수 있는 사안이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "AI 예측 메모리",
+        "DRAM 절감",
+        "메모리 관리",
+        "AMD"
+      ],
+      "companies": [
+        "AMD"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "AMD"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T01:33:50Z",
+      "updated_at": "2026-11-12T01:33:50Z",
+      "articles": [
+        {
+          "key": "71b26247e4688f98",
+          "title": "AMD targets lower DRAM use with AI-predictive memory management",
+          "url": "https://www.digitimes.com/news/a20261111PD265/amd-dram-data-management-technology.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T01:33:50Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261112-0887",
       "headline": "DB하이텍, 3분기 잠정 영업이익 900억원…전력반도체 수요 견조",
@@ -145,50 +844,6 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261112-0893",
-      "headline": "LG디스플레이, 임직원 기술워크숍 테크X 개최",
-      "summary": [
-        "LG디스플레이가 임직원이 참여하는 디스플레이 기술 워크숍 '테크X'를 사흘간 열었다고 알려졌다.",
-        "워크숍은 오는 13일까지 진행되며, 더 어려운 기술 과제에 도전하자는 메시지가 강조됐다.",
-        "사내 기술 역량을 결집하는 행사로, 차세대 디스플레이 기술 경쟁력 강화 방향을 보여준다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "디스플레이",
-        "기술워크숍",
-        "테크X",
-        "기술 내재화"
-      ],
-      "companies": [
-        "LG디스플레이"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "LG디스플레이"
-      ],
-      "importance": 3,
-      "importance_reason": "업계 일반 2점, 관심 기업(LG디스플레이) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-12T01:00:02Z",
-      "updated_at": "2026-11-12T01:00:02Z",
-      "articles": [
-        {
-          "key": "c0e494063d2879d8",
-          "title": "LGD, 첫 임직원 기술워크숍 '테크X'…\"더 어려운 것에 도전해야\"",
-          "url": "https://www.yna.co.kr/view/AKR20261112033500003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-12T01:00:02Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
       "id": "c20261112-0892",
       "headline": "LG디스플레이, R&D·AX 중심 기술 기업 전환 가속",
       "summary": [
@@ -316,84 +971,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261111-0882",
-      "headline": "엔비디아 이사회, 젠슨 황 CEO 해임 추진 보도",
-      "summary": [
-        "WSJ는 엔비디아 이사회가 젠슨 황 CEO의 해임을 추진 중이라고 11일 보도했다.",
-        "이사회는 이르면 11일 회의를 열어 거취를 논의할 예정이며, 황 CEO의 혼외관계 의혹이 배경으로 거론된다.",
-        "엔비디아 경영진 공백과 지배구조 불확실성이 커져 AI 반도체 공급 전략에 영향이 우려된다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "젠슨 황",
-        "엔비디아 지배구조",
-        "혼외관계 의혹",
-        "중국 스파이 의혹",
-        "AI반도체"
-      ],
-      "companies": [
-        "엔비디아",
-        "메가스피드"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": false,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 3,
-      "importance_reason": "경영진 교체 3점, 매체 4곳 보도 +1, 미확정 -1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-11T23:21:46Z",
-      "updated_at": "2026-11-12T00:39:41Z",
-      "articles": [
-        {
-          "key": "367f7f1d98c7879e",
-          "title": "[속보] WSJ \"엔비디아, 젠슨 황 CEO 해임 검토…빠르면 오늘 결론\"",
-          "url": "https://zdnet.co.kr/view/?no=20261112082127",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-11T23:21:46Z"
-        },
-        {
-          "key": "20365821bc5b3761",
-          "title": "엔비디아 이사회, 젠슨 황 해임 준비…이르면 오늘 거취 결정",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65313",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-11T23:27:27Z"
-        },
-        {
-          "key": "182097f20ac8d8ee",
-          "title": "엔비디아 이사회, 젠슨 황 해임 준비…여성 임원과 불륜 의혹도",
-          "url": "https://zdnet.co.kr/view/?no=20261112084239",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-11T23:54:18Z"
-        },
-        {
-          "key": "44a0bca9a3333444",
-          "title": "Nvidia board meets on Jensen Huang's future as succession gap comes into focus",
-          "url": "https://www.digitimes.com/news/a20261112VL201/nvidia-bloomberg-jensen-huang.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-12T00:29:18Z"
-        },
-        {
-          "key": "4f5af31ac295c816",
-          "title": "흔들리는 엔비디아·다가오는 미국규제에 삼전닉스 '초긴장'",
-          "url": "https://www.yna.co.kr/view/AKR20261112047300003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-12T00:39:41Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261112-0889",
@@ -4419,52 +4996,6 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261111-0810",
-      "headline": "삼성전자, AMD와 차세대 반도체 테스트 인프라 협력",
-      "summary": [
-        "삼성전자가 미국 AMD와 차세대 반도체 테스트 인프라 고도화에 협력하기로 했다.",
-        "기사에는 협력의 구체적인 규모, 일정, 계약 조건이 나와 있지 않다.",
-        "양사 협력은 차세대 반도체 생산 후공정 역량 강화에 의미가 있을 것으로 보인다."
-      ],
-      "category": "파운드리/시스템반도체",
-      "tags": [
-        "테스트 인프라",
-        "차세대 반도체",
-        "반도체 테스트",
-        "협력"
-      ],
-      "companies": [
-        "삼성전자",
-        "AMD"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "삼성전자",
-        "AMD"
-      ],
-      "importance": 3,
-      "importance_reason": "업계 일반 2점, 관심 기업(삼성전자) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-11T02:41:35Z",
-      "updated_at": "2026-11-11T02:41:35Z",
-      "articles": [
-        {
-          "key": "01b0b32ff64e484a",
-          "title": "삼성전자, AMD와 차세대 반도체 테스트 인프라 협력",
-          "url": "https://www.yna.co.kr/view/AKR20261111089400003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-11T02:41:35Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
       "id": "c20261110-0786",
       "headline": "앨리스 황 연루 엔비디아 GPU 24만개 중국 우회 수출 의혹",
       "summary": [
@@ -6950,60 +7481,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261109-0689",
-      "headline": "중국 HKC 6세대 OLED 라인 투자 지연, 장비 발주 전무",
-      "summary": [
-        "중국 HKC가 쓰촨성 몐양에 짓는 6세대 OLED 라인(H7) 계획이 일정보다 늦어지고 있다.",
-        "당초 2027년 3월 증착장비 설치, 2028년 6월 양산 시작을 목표했으나 주요 장비는 아직 발주되지 않았다.",
-        "OLED 시장 침체와 핵심 기술 확보 어려움이 원인으로 거론되며 프로젝트 전면 취소 가능성도 제기된다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "6세대 OLED",
-        "H7 라인",
-        "HKC",
-        "장비 발주",
-        "투자 지연"
-      ],
-      "companies": [
-        "HKC",
-        "한국 장비업체"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": false,
-      "parties": [
-        "HKC"
-      ],
-      "importance": 2,
-      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-09T09:08:04Z",
-      "updated_at": "2026-11-10T07:34:26Z",
-      "articles": [
-        {
-          "key": "0f0b6119effd673f",
-          "title": "中 HKC, 6세대 OLED 투자 지연",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65079",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-09T09:08:04Z"
-        },
-        {
-          "key": "67b31e7fff4f0b3e",
-          "title": "HKC's 6-Gen OLED fab in Mianyang falls behind schedule, no major equipment has been ordered yet",
-          "url": "https://www.oled-info.com/hkcs-6-gen-oled-fab-mianyang-falls-behind-schedule-no-major-equipment-has-been",
-          "source": "OLED-info",
-          "lang": "en",
-          "published_at": "2026-11-10T07:34:26Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261110-0731",
