@@ -1,7 +1,180 @@
 {
   "version": 1,
-  "updated_at": "2026-11-12T13:28:45Z",
+  "updated_at": "2026-11-12T15:08:59Z",
   "issues": [
+    {
+      "id": "c20261112-0962",
+      "headline": "DB하이텍 3분기 누적 영업이익 24% 증가, 가동률 100%",
+      "summary": [
+        "DB하이텍이 올해 3분기 연결기준 잠정 실적을 공시하며 전력반도체 중심 실적 개선을 발표했다.",
+        "3분기 매출은 4033억원으로 14% 늘었고, 누적 매출 1조1774억원·영업이익 2622억원으로 각각 19%, 24% 증가했다.",
+        "8인치 파운드리 사업 호조로 공장 가동률이 사실상 100%를 유지해 특화 공정 수요의 견조함을 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "전력반도체",
+        "8인치 파운드리",
+        "3분기 실적",
+        "가동률"
+      ],
+      "companies": [
+        "DB하이텍"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "DB하이텍"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T14:59:31Z",
+      "updated_at": "2026-11-12T14:59:31Z",
+      "articles": [
+        {
+          "key": "9886e0c1fc5d000a",
+          "title": "DB하이텍, 3분기 누적 영업익 24% 증가...\"공장 가동률 100%\"",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65372",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-12T14:59:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0960",
+      "headline": "젠슨 황 엔비디아 CEO 사임, 크레스 임시 CEO 체제",
+      "summary": [
+        "젠슨 황 엔비디아 CEO가 사장·CEO·이사직에서 모두 물러났다고 회사가 12일(현지시간) 발표했다.",
+        "CFO 콜렛 크레스가 재무 업무를 유지한 채 임시 CEO를 맡고, 회사는 후임 CEO를 찾고 있다.",
+        "혼외관계 논란 속 창업자의 퇴진으로 AI 반도체 1위 기업의 리더십 공백이 커질 전망이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "CEO 사임",
+        "콜렛 크레스",
+        "임시 CEO",
+        "지배구조"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 매체 4곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-12T13:56:30Z",
+      "updated_at": "2026-11-12T14:47:57Z",
+      "articles": [
+        {
+          "key": "dd5e9c16ac7a0932",
+          "title": "[속보] 젠슨 황, 엔비디아 CEO 사임…콜레트 크레스 임시 CEO 선임",
+          "url": "https://www.inews24.com/view/2025760",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T13:56:30Z"
+        },
+        {
+          "key": "bed76800e244585f",
+          "title": "젠슨 황, 엔비디아 CEO 사임…콜레트 크레스 임시 CEO 선임",
+          "url": "https://www.inews24.com/view/2025762",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T14:00:32Z"
+        },
+        {
+          "key": "eb2fd52b758f4d9b",
+          "title": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief",
+          "url": "https://www.digitimes.com/news/a20261112VL217/nvidia-ceo-jensen-huang-president-roadmap.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T14:15:37Z"
+        },
+        {
+          "key": "2574480ea2c77bf4",
+          "title": "Nvidia's Jensen Huang resigns as CEO amid spy scandal, CFO Kress takes over",
+          "url": "https://www.koreaherald.com/article/10935644",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-12T14:20:27Z"
+        },
+        {
+          "key": "5fa1fe7b75ddb5cd",
+          "title": "젠슨 황 엔비디아 CEO 전격 사임",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65377",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-12T14:21:52Z"
+        },
+        {
+          "key": "5d71cb7a4b929974",
+          "title": "젠슨황, 엔비디아 창업 33년만에 불명예 퇴진…\"한 시대의 막 내렸다\"",
+          "url": "https://www.inews24.com/view/2025765",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T14:47:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261112-0961",
+      "headline": "마이크론, 타오위안 노사 협상 계속 진행 의지 밝혀",
+      "summary": [
+        "마이크론이 타오위안 공장 노사 분쟁과 관련해 면제(waiver)를 요구한 적이 없다고 밝혔다.",
+        "기사 본문이 제공되지 않아 협상 세부 내용과 일정은 확인되지 않는다.",
+        "대만 생산 거점의 노사 협상이 이어지며 공급 차질 우려 여부가 주목된다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "노사분쟁",
+        "타오위안",
+        "마이크론",
+        "협상"
+      ],
+      "companies": [
+        "마이크론"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "마이크론"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T14:05:14Z",
+      "updated_at": "2026-11-12T14:05:14Z",
+      "articles": [
+        {
+          "key": "9c5ed9ff7ccb6dcf",
+          "title": "Micron says it has not required waivers and will keep negotiating in Taoyuan labor dispute",
+          "url": "https://www.digitimes.com/news/a20261112VL216.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T14:05:14Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261112-0959",
       "headline": "파네시아·인텔, CXL 기반 AI 서버 랙 공동 개발 추진",
