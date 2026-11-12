@@ -1,7 +1,349 @@
 {
   "version": 1,
-  "updated_at": "2026-11-12T08:27:03Z",
+  "updated_at": "2026-11-12T10:17:23Z",
   "issues": [
+    {
+      "id": "c20261109-0698",
+      "headline": "엔비디아 젠슨 황 CEO 불륜 스캔들, 시총 258조 증발",
+      "summary": [
+        "젠슨 황 엔비디아 CEO가 중국 스파이 의혹을 받는 여성 기업인과 불륜을 인정하고 가족에게 사과했다.",
+        "엔비디아 주가는 4.3% 하락한 178.67달러로 마감했고 시가총액 1921억 달러(약 258조원)가 하루 만에 증발했다.",
+        "이사회는 독립 조사에 착수했으나 기밀 유출 근거는 없다고 밝혔고, 분석가들은 해임 가능성은 낮지만 대외 신뢰도 훼손을 우려한다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "엔비디아 CEO 리스크",
+        "이사회 조사",
+        "칩 밀반입",
+        "메가스피드"
+      ],
+      "companies": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T10:15:50Z",
+      "updated_at": "2026-11-12T10:04:51Z",
+      "articles": [
+        {
+          "key": "d199b9e5bce59418",
+          "title": "엔비디아, 젠슨 황 ‘불륜’ 폭탄…시간외거래 4%대 급락",
+          "url": "https://www.dt.co.kr/article/12094105",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-09T10:15:50Z"
+        },
+        {
+          "key": "c704185017ed5b88",
+          "title": "‘불륜 스캔들’ 젠슨 황, CEO 자리 지킬까…전문가들 전망은",
+          "url": "https://zdnet.co.kr/view/?no=20261110092936",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-10T01:14:28Z"
+        },
+        {
+          "key": "ed163f9cbb5857e1",
+          "title": "젠슨 황 'OUT'… AI 방향타 흔들",
+          "url": "https://www.dt.co.kr/article/12094951",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-12T10:04:51Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261112-0954",
+      "headline": "젠슨 황 CEO 불륜·중국 간첩 의혹 외신 보도",
+      "summary": [
+        "외신 보도에 따르면 젠슨 황 엔비디아 CEO에게 앨리스 황을 소개한 인물은 그녀의 남편 캉웨이라고 한다.",
+        "앨리스 황은 젠슨 황의 불륜 상대이자 중국 간첩으로 지목된 인물로 보도됐다.",
+        "기업 최고경영자의 사생활 의혹으로, 반도체 사업에 미칠 영향은 기사에서 확인되지 않는다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "중국 간첩 의혹",
+        "불륜 의혹",
+        "외신 보도"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T09:59:49Z",
+      "updated_at": "2026-11-12T09:59:49Z",
+      "articles": [
+        {
+          "key": "26b1c24203d7811a",
+          "title": "“남편도 아내의 불륜 용인했다”…젠슨 황에 ‘中간첩 의혹’ 아내 소개",
+          "url": "https://www.dt.co.kr/article/12094949",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-12T09:59:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261112-0952",
+      "headline": "엔비디아 차기 CEO 후보 부상, AI 반도체 경쟁 변수",
+      "summary": [
+        "젠슨 황 엔비디아 CEO의 거취를 둘러싼 논란이 이어지며 차기 수장 후보군이 거론되고 있다.",
+        "기사에 따르면 해임 가능성이 제기됐고, 애플 실리콘 주역 등이 후보로 부상했다는 보도가 나왔다.",
+        "국내 업계는 기존 HBM 공급에 미칠 영향이 제한적일 것으로 보며, AI 반도체 주도권 변화가 관심사다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엔비디아",
+        "젠슨 황",
+        "CEO 교체",
+        "HBM",
+        "AI 반도체"
+      ],
+      "companies": [
+        "엔비디아",
+        "애플"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T08:53:18Z",
+      "updated_at": "2026-11-12T09:45:42Z",
+      "articles": [
+        {
+          "key": "578543940573de1a",
+          "title": "젠슨 황 후임에 '애플 실리콘' 주역 부상…반도체업계 \"HBM 영향 제한적\"",
+          "url": "https://www.inews24.com/view/2025706",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T08:53:18Z"
+        },
+        {
+          "key": "9566c77c3976a0fa",
+          "title": "차기 '엔비디아 리더' 누굴까… AI 향방 가를 인사에 시장 집중",
+          "url": "https://www.dt.co.kr/article/12094948",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-12T09:45:42Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0953",
+      "headline": "전남광주교육청·목포대, 반도체 실무인재 양성 협약",
+      "summary": [
+        "전남광주통합특별시교육청이 12일 목포대 화합물반도체센터와 반도체 실무 인재 양성 및 교원 전문성 강화 협약을 맺었다.",
+        "기사 본문이 일부만 제공되어 협약의 세부 내용과 기간, 예산 규모는 확인되지 않는다.",
+        "지역 반도체 인재 기반을 넓히는 교육 협력으로, 산업 인력 공급 측면에서 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "반도체 인재양성",
+        "화합물반도체",
+        "교원 전문성",
+        "산학협력"
+      ],
+      "companies": [
+        "목포대"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "전남광주통합특별시교육청",
+        "목포대"
+      ],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T08:55:41Z",
+      "updated_at": "2026-11-12T08:55:41Z",
+      "articles": [
+        {
+          "key": "4d99c5cf8656c537",
+          "title": "전남광주교육청·목포대, 반도체 실무인재 교육 협력",
+          "url": "https://www.yna.co.kr/view/AKR20261112170600054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T08:55:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0951",
+      "headline": "SK하이닉스, 사내 챗GPT 도입 실증 착수",
+      "summary": [
+        "SK하이닉스가 기업용 AI 서비스 챗GPT 엔터프라이즈의 사내 도입을 위한 실증 작업에 들어갔다.",
+        "기사에는 도입 범위와 일정, 세부 수치가 제시되지 않았다.",
+        "정보 유출 우려로 외부 AI 활용에 신중하던 반도체 업계에서 업무용 AI 도입이 확대되는 흐름을 보여준다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "챗GPT 엔터프라이즈",
+        "사내 AI",
+        "업무 효율화",
+        "정보 보안"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "OpenAI"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": false,
+      "parties": [
+        "SK하이닉스",
+        "오픈AI"
+      ],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T08:47:48Z",
+      "updated_at": "2026-11-12T08:47:48Z",
+      "articles": [
+        {
+          "key": "50e2778e1ac556f8",
+          "title": "SK하이닉스, 사내 챗GPT 도입 시험⋯반도체 업무 AI 활용 확대 검토",
+          "url": "https://www.inews24.com/view/2025705",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T08:47:48Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0950",
+      "headline": "전남광주 부시장, 국회에 반도체 클러스터 국비 건의",
+      "summary": [
+        "윤난실 전남광주통합특별시 시민주권부시장이 12일 국회를 찾아 현안과 국비 지원을 건의했다.",
+        "건의 대상에는 호남권 반도체 클러스터 등 5대 현안이 포함됐으며 구체적 금액은 기사에 나오지 않았다.",
+        "반도체 클러스터 관련 국비 확보 논의가 이어지면서 지역 반도체 인프라 추진 동력이 주목된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "호남권 반도체 클러스터",
+        "국비 지원",
+        "지역 산업단지",
+        "국회 건의"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T08:43:06Z",
+      "updated_at": "2026-11-12T08:43:06Z",
+      "articles": [
+        {
+          "key": "fe024aa667e581f4",
+          "title": "윤난실 전남광주 부시장, 국회서 현안·국비 지원 건의",
+          "url": "https://www.yna.co.kr/view/AKR20261112166000054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T08:43:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0861",
+      "headline": "중국 대학, 미국 수출규제에도 엔비디아 칩 확보 논란",
+      "summary": [
+        "중국 대학들이 미국의 수출 통제에도 엔비디아 AI 칩을 확보한 것으로 보도됐다.",
+        "기사 기록에 따르면 군 연계 중국 대학이 블랙리스트에도 불구하고 H200 칩을 구매했다.",
+        "미국 수출 규제의 실효성과 중국 AI 반도체 수급 우회 문제가 다시 부각되는 흐름이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출규제",
+        "H200",
+        "엔비디아",
+        "블랙리스트",
+        "AI반도체"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T12:26:15Z",
+      "updated_at": "2026-11-12T08:35:46Z",
+      "articles": [
+        {
+          "key": "e90c20bd116d6049",
+          "title": "Military-linked Chinese university bought Nvidia H200 chips despite US blacklist, records show",
+          "url": "https://www.koreaherald.com/article/10934237",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-11T12:26:15Z"
+        },
+        {
+          "key": "db64b21d5c04c344",
+          "title": "Chinese universities obtain Nvidia chips despite US export controls",
+          "url": "https://www.digitimes.com/news/a20261112PD237/chips-nvidia-university-supplier-military.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T08:35:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261112-0940",
       "headline": "중기부, 메가프로젝트 성과 확산에 중소기업 역할 강조",
@@ -111,6 +453,170 @@
       "importance_raw": 4
     },
     {
+      "id": "c20261112-0949",
+      "headline": "AI 추론 확산에 따른 메모리 구조 재설계 필요성",
+      "summary": [
+        "AI 학습에서 엣지 기반 추론으로 전환되면서 데이터 처리와 저장 위치를 재고해야 한다는 논의가 나왔다.",
+        "연산을 메모리 가까이에 두면 데이터 이동과 전력 소모, 지연 시간을 줄일 수 있다고 설명됐다.",
+        "전력 예산이 제한된 전기차·드론 등에서 메모리 설계 최적화가 중요해지며 소프트웨어와 표준화가 과제로 남았다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "AI 추론",
+        "메모리 아키텍처",
+        "PIM",
+        "엣지 AI",
+        "전력 효율"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T08:11:46Z",
+      "updated_at": "2026-11-12T08:11:46Z",
+      "articles": [
+        {
+          "key": "6b0a496a8dddb203",
+          "title": "Rethinking Memory For AI Inference",
+          "url": "https://semiengineering.com/rethinking-memory-for-ai-inference/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-12T08:11:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261112-0948",
+      "headline": "AI 추론 확산이 메모리 장벽의 성격을 바꾸고 있다",
+      "summary": [
+        "AI 인프라 경쟁이 연산 성능 중심에서 지연시간·전력·비용 등 추론 효율 중심으로 옮겨가고 있다고 분석됐다.",
+        "KV 캐시는 반복 연산을 줄이지만 문맥 길이와 동시 요청이 늘수록 저장·접근해야 할 데이터가 커진다.",
+        "메모리 용량과 대역폭을 늘려도 연산·상호연결·소프트웨어가 함께 맞물려야 효과가 나므로 반도체 설계 전반의 과제가 된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "KV 캐시",
+        "메모리 월",
+        "AI 추론",
+        "대역폭",
+        "상호연결"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T08:08:39Z",
+      "updated_at": "2026-11-12T08:08:39Z",
+      "articles": [
+        {
+          "key": "5bd5372d4dd24967",
+          "title": "Beyond Bandwidth: AI Inference Is Reshaping The Memory Wall",
+          "url": "https://semiengineering.com/beyond-bandwidth-ai-inference-is-reshaping-the-memory-wall/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-12T08:08:39Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261112-0947",
+      "headline": "엣지 AI SoC, near-threshold 저전압 설계와 파운데이션 IP 역할",
+      "summary": [
+        "엣지 AI SoC는 전력·발열 한계 속에서 near-threshold 저전압 동작을 확대하는 추세다.",
+        "저전압에서는 지연이 비선형으로 늘고 변동성이 커져 설계 리스크가 커진다.",
+        "파운데이션 IP의 품질·모델 정확도가 전력 효율 확보의 핵심 변수가 된다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "엣지 AI",
+        "near-threshold",
+        "저전압 설계",
+        "파운데이션 IP",
+        "전력 효율"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T08:05:04Z",
+      "updated_at": "2026-11-12T08:05:04Z",
+      "articles": [
+        {
+          "key": "bc7c18241b0c6f6c",
+          "title": "Designing Edge AI SoCs At Near-Threshold: Why Foundation IP Can Help You Break Down The Power Wall",
+          "url": "https://semiengineering.com/designing-edge-ai-socs-at-near-threshold-why-foundation-ip-can-help-you-break-down-the-power-wall/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-12T08:05:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261112-0946",
+      "headline": "IP 통합 난제, 사양 불완전과 전력·열 정보 관리가 핵심",
+      "summary": [
+        "IP 통합 과정에서 블록 연결을 넘어 의미(semantic) 문제가 가장 많은 오류를 일으키고 있다.",
+        "불완전하거나 잘못된 사양과 늘어나는 소프트웨어 비중이 설계 관리를 더 어렵게 만든다.",
+        "전력·열 한계를 밀어붙이는 설계가 늘면서 새로운 정보 계층의 명세와 추적이 필요해졌다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "IP 통합",
+        "시스템 반도체 설계",
+        "사양 관리",
+        "전력·열 설계",
+        "검증"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T08:05:00Z",
+      "updated_at": "2026-11-12T08:05:00Z",
+      "articles": [
+        {
+          "key": "c750b0c3e4701421",
+          "title": "IP Integration Challenges Evolve",
+          "url": "https://semiengineering.com/ip-integration-challenges-evolve/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-12T08:05:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
       "id": "c20261112-0939",
       "headline": "인텔, AI 데이터센터 GPU에 LPDDR 활용 확대 추진",
       "summary": [
@@ -153,6 +659,97 @@
       ],
       "type_checked": true,
       "importance_raw": 1
+    },
+    {
+      "id": "c20261112-0945",
+      "headline": "피지컬 AI 시대, 메모리와 데이터 이동이 새 병목",
+      "summary": [
+        "피지컬 AI 시스템에서 연산뿐 아니라 메모리와 데이터 이동의 중요성이 커지고 있다고 분석됐다.",
+        "센서 스트림, 모델 가중치, 임시 버퍼 등이 동시에 처리되며 메모리 접근이 불규칙하면 연산 장치가 멈출 수 있다.",
+        "실시간 제어가 필요한 기기 설계에서는 온칩 메모리와 외부 메모리 계층의 예측 가능성이 핵심 과제가 된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "피지컬 AI",
+        "메모리 계층",
+        "LPDDR",
+        "온칩 SRAM",
+        "데이터 이동"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T08:04:39Z",
+      "updated_at": "2026-11-12T08:04:39Z",
+      "articles": [
+        {
+          "key": "95c05672bca47ec2",
+          "title": "The Memory Challenge Of Physical AI",
+          "url": "https://semiengineering.com/the-memory-challenge-of-physical-ai/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-12T08:04:39Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261112-0944",
+      "headline": "FP8 저정밀 데이터 포맷, Arm CPU에도 확산 조짐",
+      "summary": [
+        "Arm, Intel, NVIDIA가 OCP 8비트 부동소수점 사양(OFP8)을 공동 발표했다. FP8은 E4M3와 E5M2 두 인코딩으로 이뤄진 포맷 계열이다.",
+        "NVIDIA Hopper H100 GPU가 FP8을 이미 지원하며 주요 ML 프레임워크에도 적용되고 있다. Arm은 v9 ISA에 FP8 지원을 추가했다.",
+        "저정밀 포맷은 AI 추론·학습의 처리량과 전력 효율을 높이고, 엣지 기기에서는 모델 크기와 메모리 대역폭 부담을 줄인다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "FP8",
+        "OFP8",
+        "E4M3",
+        "E5M2",
+        "FPMR",
+        "Arm v9 ISA"
+      ],
+      "companies": [
+        "Arm",
+        "Intel",
+        "NVIDIA"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "Arm",
+        "Intel",
+        "NVIDIA"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T08:03:25Z",
+      "updated_at": "2026-11-12T08:03:25Z",
+      "articles": [
+        {
+          "key": "9ad98cf872e69db0",
+          "title": "Introduction To FP8 Formats: Part 1",
+          "url": "https://semiengineering.com/introduction-to-fp8-formats-part-1/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-12T08:03:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261112-0938",
@@ -241,6 +838,96 @@
       "importance_raw": 3
     },
     {
+      "id": "c20261112-0943",
+      "headline": "AI 가속에 쓰이는 RISC-V, 돌파구인가 잘못된 선택인가",
+      "summary": [
+        "RISC-V를 AI 가속기에 적용하는 방안의 장단점을 전문가들이 논의했다.",
+        "커스텀 명령어는 가속기 제어와 load/store 지연 감소에 도움이 될 수 있다고 한다.",
+        "다만 CPU와 가속기 간 데이터 이동 비용과 컴파일러 복잡성이 문제로 지적된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "RISC-V",
+        "AI 가속기",
+        "커스텀 명령어",
+        "시스템 검증",
+        "데이터 이동"
+      ],
+      "companies": [
+        "Quadric",
+        "Siemens EDA",
+        "SignatureIP",
+        "Breker"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T08:01:26Z",
+      "updated_at": "2026-11-12T08:01:26Z",
+      "articles": [
+        {
+          "key": "07941d85f2416ace",
+          "title": "RISC-V For AI: Breakthrough Or Bad Idea?",
+          "url": "https://semiengineering.com/risc-v-for-ai-breakthrough-or-bad-idea/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-12T08:01:26Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261112-0942",
+      "headline": "AI 시대 파운데이션 IP 통합이 SoC 비용을 좌우",
+      "summary": [
+        "시놉시스가 AI 시대 파운데이션 IP 통합의 중요성을 다룬 전자책을 발간했다.",
+        "통합 IP 플랫폼은 로직 라이브러리, 임베디드 메모리, I/O, OTP NVM을 하나로 묶어 설계 지연을 줄인다고 설명했다.",
+        "고성능·엣지 AI 칩에서 PPA 개선과 재설계 회피가 상당한 경제적 가치를 낼 수 있다는 점을 강조했다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "파운데이션 IP",
+        "SoC 설계",
+        "PPA",
+        "3나노",
+        "엣지 AI",
+        "TCO"
+      ],
+      "companies": [
+        "시놉시스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T08:01:23Z",
+      "updated_at": "2026-11-12T08:01:23Z",
+      "articles": [
+        {
+          "key": "9c7495a9aa90f5a7",
+          "title": "Foundation IP For The AI Era: Why Execution Shapes SoC Cost ─ eBook",
+          "url": "https://semiengineering.com/foundation-ip-for-the-ai-era-why-execution-shapes-soc-cost/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-12T08:01:23Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
       "id": "c20261112-0936",
       "headline": "우리은행, 코트라·무보와 소부장 기업 수입자금 지원 협약",
       "summary": [
@@ -284,6 +971,52 @@
           "source": "테크월드뉴스",
           "lang": "ko",
           "published_at": "2026-11-12T07:50:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0941",
+      "headline": "인텔, 추론 시대 겨냥해 CPU·추론 GPU 전략 강화",
+      "summary": [
+        "인텔이 서울 인텔 AI 서밋 2026에서 제온6·6+, 코어 울트라 시리즈3, 차세대 제온과 추론용 GPU D시리즈 전략을 밝혔다.",
+        "GPU D시리즈(크레센트 아일랜드)는 LPDDR5 메모리를 최대 480GB 활용하며 내년 출시를 목표로 PCIe 5.0 제품을 우선 개발 중이다.",
+        "에이전틱 AI 확산으로 데이터센터 CPU 수요가 현재의 5배로 늘고 시장이 2000억 달러를 넘을 것이라는 전망이 나왔다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "추론 GPU",
+        "에이전틱 AI",
+        "CPU 수요",
+        "GPU D시리즈",
+        "피지컬 AI"
+      ],
+      "companies": [
+        "인텔",
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "인텔"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T07:48:54Z",
+      "updated_at": "2026-11-12T07:48:54Z",
+      "articles": [
+        {
+          "key": "ae20aaf6e7bcbe0a",
+          "title": "인텔 \"단일 솔루션으로 모든 AI 문제 해결할 수 없다\"",
+          "url": "https://zdnet.co.kr/view/?no=20261112164129",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T07:48:54Z"
         }
       ],
       "type_checked": true,
@@ -403,6 +1136,62 @@
           "source": "디지털타임스",
           "lang": "ko",
           "published_at": "2026-11-12T07:25:29Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0838",
+      "headline": "인텔, 에이전틱·피지컬 AI 겨냥 CPU·GPU 라인업 강화",
+      "summary": [
+        "인텔이 서울 AI 서밋에서 제온6·다이아몬드래피즈 CPU와 추론용 GPU D시리즈 로드맵을 제시했다.",
+        "GPU D시리즈(크레센트 아일랜드)는 350W 전력에 최대 480GB 메모리를 지원하며 일부 작업에서 엔비디아 경쟁 제품 대비 최대 5.9배 성능을 보였다고 밝혔다.",
+        "에이전틱 AI에서 CPU 역할이 커진다는 점을 강조하며, 인텔은 CPU·GPU·NPU 결합 전략을 AI 추론 시장의 핵심으로 내세웠다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "에이전틱 AI",
+        "피지컬 AI",
+        "GPU D시리즈",
+        "다이아몬드래피즈",
+        "추론"
+      ],
+      "companies": [
+        "인텔",
+        "엔비디아",
+        "삼바노바"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "인텔",
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-11T06:39:25Z",
+      "updated_at": "2026-11-12T07:05:29Z",
+      "articles": [
+        {
+          "key": "036b0bb7bdc5dd1a",
+          "title": "Intel targets agentic AI with GPUs and Xeon",
+          "url": "https://www.digitimes.com/news/a20261111PD209/intel-gpu-xeon-cpu-market.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T06:39:25Z"
+        },
+        {
+          "key": "1b5c703048bb949a",
+          "title": "인텔 \"차세대 CPU·GPU로 에이전틱 AI·피지컬 AI 공략 강화\"",
+          "url": "https://zdnet.co.kr/view/?no=20261112154342",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T07:05:29Z"
         }
       ],
       "type_checked": true,
@@ -4095,52 +4884,6 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261111-0861",
-      "headline": "군사 연계 중국 대학, 블랙리스트에도 엔비디아 H200 구매",
-      "summary": [
-        "중국 인민해방군과 깊이 연결된 한 대학이 미국 수출 블랙리스트에 올라 있음에도 엔비디아 H200 AI 칩을 지난달 구매했다.",
-        "조달 기록에 따르면 이는 중국의 첨단 기술 접근을 막으려는 미국 정부의 노력에 허점이 있음을 보여준다.",
-        "이 사안은 AI 칩 대중 수출 규제 완화를 추진해 온 엔비디아와 젠슨 황 CEO에 대한 워싱턴의 조사 압박과 맞물려 주목받는다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "H200",
-        "수출규제",
-        "블랙리스트",
-        "AI칩",
-        "대중 반도체 규제"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "소송·특허",
-      "confirmed": true,
-      "parties": [
-        "엔비디아",
-        "중국 군사 연계 대학"
-      ],
-      "importance": 3,
-      "importance_reason": "소송·특허 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-11T12:26:15Z",
-      "updated_at": "2026-11-11T12:26:15Z",
-      "articles": [
-        {
-          "key": "e90c20bd116d6049",
-          "title": "Military-linked Chinese university bought Nvidia H200 chips despite US blacklist, records show",
-          "url": "https://www.koreaherald.com/article/10934237",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-11-11T12:26:15Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
       "id": "c20261111-0797",
       "headline": "두산, 일렉트로니카 2026서 AI가속기 CCL로 유럽 공략",
       "summary": [
@@ -5355,48 +6098,6 @@
           "source": "연합뉴스",
           "lang": "ko",
           "published_at": "2026-11-11T06:42:34Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
-    },
-    {
-      "id": "c20261111-0838",
-      "headline": "인텔, GPU와 Xeon으로 에이전틱 AI 공략",
-      "summary": [
-        "인텔이 GPU와 Xeon 프로세서를 앞세워 에이전틱 AI 시장을 겨냥하는 방향을 제시한 것으로 보도됐다.",
-        "기사 본문이 사실상 비어 있어 구체적인 제품 일정이나 수치는 확인할 수 없다.",
-        "에이전틱 AI 워크로드에서 CPU와 GPU를 함께 쓰는 수요가 늘어날 경우 인텔의 데이터센터 전략에 의미가 있을 수 있다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "에이전틱 AI",
-        "GPU",
-        "Xeon",
-        "데이터센터"
-      ],
-      "companies": [
-        "인텔"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": false,
-      "parties": [],
-      "importance": 1,
-      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-11T06:39:25Z",
-      "updated_at": "2026-11-11T06:39:25Z",
-      "articles": [
-        {
-          "key": "036b0bb7bdc5dd1a",
-          "title": "Intel targets agentic AI with GPUs and Xeon",
-          "url": "https://www.digitimes.com/news/a20261111PD209/intel-gpu-xeon-cpu-market.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-11T06:39:25Z"
         }
       ],
       "type_checked": true,
@@ -11259,60 +11960,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261109-0698",
-      "headline": "엔비디아 젠슨 황 CEO 불륜 스캔들, 시총 258조 증발",
-      "summary": [
-        "젠슨 황 엔비디아 CEO가 중국 스파이 의혹을 받는 여성 기업인과 불륜을 인정하고 가족에게 사과했다.",
-        "엔비디아 주가는 4.3% 하락한 178.67달러로 마감했고 시가총액 1921억 달러(약 258조원)가 하루 만에 증발했다.",
-        "이사회는 독립 조사에 착수했으나 기밀 유출 근거는 없다고 밝혔고, 분석가들은 해임 가능성은 낮지만 대외 신뢰도 훼손을 우려한다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "젠슨 황",
-        "엔비디아 CEO 리스크",
-        "이사회 조사",
-        "칩 밀반입",
-        "메가스피드"
-      ],
-      "companies": [
-        "엔비디아",
-        "메가스피드"
-      ],
-      "event_type": "주가 등락",
-      "confirmed": true,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 1,
-      "importance_reason": "주가 등락 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-09T10:15:50Z",
-      "updated_at": "2026-11-10T01:14:28Z",
-      "articles": [
-        {
-          "key": "d199b9e5bce59418",
-          "title": "엔비디아, 젠슨 황 ‘불륜’ 폭탄…시간외거래 4%대 급락",
-          "url": "https://www.dt.co.kr/article/12094105",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-09T10:15:50Z"
-        },
-        {
-          "key": "c704185017ed5b88",
-          "title": "‘불륜 스캔들’ 젠슨 황, CEO 자리 지킬까…전문가들 전망은",
-          "url": "https://zdnet.co.kr/view/?no=20261110092936",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-10T01:14:28Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
     },
     {
       "id": "c20261110-0718",
