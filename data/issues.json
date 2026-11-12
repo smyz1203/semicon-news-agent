@@ -1,7 +1,440 @@
 {
   "version": 1,
-  "updated_at": "2026-11-12T04:08:50Z",
+  "updated_at": "2026-11-12T05:14:22Z",
   "issues": [
+    {
+      "id": "c20261112-0921",
+      "headline": "호남 반도체 산단에 국제학교 설립 추진",
+      "summary": [
+        "전남광주시가 호남 반도체 국가산업단지 조성에 맞춰 외국교육기관, 즉 국제학교 설립을 추진하고 있다.",
+        "기사에는 설립 규모나 일정 등 구체적 수치가 제시되지 않아 추진 단계의 계획으로 보인다.",
+        "반도체 인력의 자녀 교육 여건을 개선해 산단 정주 기반을 마련하는 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "호남 반도체 산단",
+        "국제학교",
+        "지역 인프라",
+        "반도체 인재"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T05:04:06Z",
+      "updated_at": "2026-11-12T05:04:06Z",
+      "articles": [
+        {
+          "key": "0492de5a15a91976",
+          "title": "전남광주시, 호남 반도체 산단 국제학교 설립 추진",
+          "url": "https://www.yna.co.kr/view/AKR20261112110600054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T05:04:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261112-0920",
+      "headline": "삼성전자, 임직원 10만8천명 나눔위크 참여",
+      "summary": [
+        "삼성 임직원 10만8000여명이 나눔위크에 참여해 기부, 헌혈, 봉사활동을 펼쳤다.",
+        "삼성은 임직원 기부를 지역사회와 연계하는 나눔가게 사업을 본격화했으며 화성사업장에서 나눔의 날 행사를 열었다.",
+        "이번 활동은 사회공헌 성과를 알리는 것으로, 반도체 산업에 직접적인 사업 영향은 크지 않다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "나눔위크",
+        "사회공헌",
+        "나눔가게",
+        "기부",
+        "헌혈"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 2,
+      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자) +1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T05:00:00Z",
+      "updated_at": "2026-11-12T05:00:00Z",
+      "articles": [
+        {
+          "key": "55e23b0645c6a3fe",
+          "title": "삼성전자, 화성사업장서 ‘2026 나눔의 날’ 개최…임직원 10.8만명 동참",
+          "url": "https://www.dt.co.kr/article/12094735",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-12T05:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0802",
+      "headline": "딥엑스, 2026 특허기술상 홍대용상 수상",
+      "summary": [
+        "딥엑스가 2026 특허기술상에서 홍대용상을 받았다고 11일 밝혔다.",
+        "수상 특허는 AI 연산의 중간 데이터 저장과 이동을 줄이는 파이프라인 구조 가속 장치 기술이다.",
+        "AI 반도체 원천기술 경쟁력을 인정받은 사례로, 처리 속도와 전력 효율 개선 기술의 가치를 보여준다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI반도체",
+        "특허기술상",
+        "파이프라인 구조",
+        "인공신경망 가속기",
+        "홍대용상"
+      ],
+      "companies": [
+        "딥엑스"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "딥엑스"
+      ],
+      "importance": 2,
+      "importance_reason": "홍보·수상 1점, 매체 4곳 보도 +1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-11T00:50:00Z",
+      "updated_at": "2026-11-12T04:53:19Z",
+      "articles": [
+        {
+          "key": "4f9d791675f18adb",
+          "title": "딥엑스, 2026 특허기술상 ‘홍대용상’ 수상…AI반도체 원천기술 인정",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343202",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-11T00:50:00Z"
+        },
+        {
+          "key": "279c0c1ebb189b3b",
+          "title": "딥엑스, 특허기술상 '홍대용상' 수상…AI 반도체 원천기술 입증",
+          "url": "https://zdnet.co.kr/view/?no=20261111100004",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-11T01:03:22Z"
+        },
+        {
+          "key": "8bd55fe729d4f580",
+          "title": "딥엑스, 특허 606건으로 AI 반도체 기술 경쟁력 입증…홍대용상 수상",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409588",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-11T02:19:19Z"
+        },
+        {
+          "key": "899f6bf9e98cb053",
+          "title": "딥엑스, 파이프라인 구조 가속장치로 2026 특허기술상 수상",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65311",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-12T04:53:19Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0901",
+      "headline": "파인텍, 3분기 영업이익 흑자전환…디스플레이 장비 호조",
+      "summary": [
+        "파인텍이 3분기 매출 246억원, 영업이익 21억원을 기록하며 흑자로 돌아섰다고 12일 밝혔다.",
+        "매출은 전년 동기 대비 68.1% 증가했고 1~3분기 누적 매출은 414억원으로 지난해 연간 매출의 약 89%에 달한다.",
+        "디스플레이 장비 매출이 크게 늘며 실적 개선을 이끌었고, 누적 영업손실은 남아 있어 회복 속도가 관건이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "디스플레이 장비",
+        "흑자전환",
+        "3분기 실적",
+        "누적 매출"
+      ],
+      "companies": [
+        "파인텍"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "파인텍"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T01:38:47Z",
+      "updated_at": "2026-11-12T04:49:01Z",
+      "articles": [
+        {
+          "key": "6f08cc51e3a9cb2d",
+          "title": "파인텍, 3분기 영업익 흑자 전환…디스플레이 수주 호조",
+          "url": "https://zdnet.co.kr/view/?no=20261112101125",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T01:38:47Z"
+        },
+        {
+          "key": "8a24f50ad71e1a4a",
+          "title": "파인텍, 3분기 영업익 21억원…흑자전환",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65324",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-12T04:49:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0919",
+      "headline": "한국 HBM 수요에 대만 유리섬유 수출 54% 급증",
+      "summary": [
+        "대만의 유리섬유 수출이 한국의 HBM 수요 증가에 힘입어 54% 크게 늘어난 것으로 보도됐다.",
+        "기사 본문은 사실상 출처 표기만 있어 세부 수치와 기업별 내용은 확인되지 않는다.",
+        "HBM 공급망 소재 수요가 확대되고 있음을 보여주는 신호로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "HBM",
+        "유리섬유",
+        "수출",
+        "공급망"
+      ],
+      "companies": [],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T04:24:49Z",
+      "updated_at": "2026-11-12T04:24:49Z",
+      "articles": [
+        {
+          "key": "4eb23e2e80f29bc9",
+          "title": "South Korea’s HBM demand drives 54% surge in Taiwan glass fiber exports",
+          "url": "https://www.digitimes.com/news/a20261112PD207/taiwan-demand-exports-hbm-2026.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T04:24:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0918",
+      "headline": "AI 병목, 연산에서 전력으로…전력반도체 부족 우려",
+      "summary": [
+        "AI 인프라의 병목이 연산 능력에서 전력 공급으로 옮겨가고 있다는 분석이 나왔다.",
+        "유럽 공급망에서는 전력반도체가 다음 부족 품목이 될 수 있다는 시각이 제기됐다.",
+        "전력 효율과 전력반도체 공급 확보가 AI 반도체 산업의 새로운 변수로 떠오른다는 의미가 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "전력반도체",
+        "AI 병목",
+        "전력 공급",
+        "공급망"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T04:24:37Z",
+      "updated_at": "2026-11-12T04:24:37Z",
+      "articles": [
+        {
+          "key": "4aab6eae41440485",
+          "title": "AI bottleneck shifts from compute to power; European supply chain sees power semiconductors as next shortage",
+          "url": "https://www.digitimes.com/news/a20261112PD214/2026-panel-supply-chain-power-semiconductors-data.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T04:24:37Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261112-0887",
+      "headline": "DB하이텍 3분기 영업이익 증가, 순이익은 감소",
+      "summary": [
+        "DB하이텍이 2026년 3분기 실적을 발표했으며 영업이익은 전년 대비 늘었다.",
+        "3분기 누적 영업이익은 2622억원으로 전년 대비 24% 증가했고, 3분기 영업이익은 900억원 수준이다.",
+        "전력반도체 수요가 이익 개선을 이끌었으나 순이익은 줄어 수익성 구조를 함께 살펴볼 필요가 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "DB하이텍",
+        "3분기 실적",
+        "전력반도체",
+        "영업이익",
+        "순이익 감소"
+      ],
+      "companies": [
+        "DB하이텍"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "DB하이텍"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 매체 3곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-12T00:20:44Z",
+      "updated_at": "2026-11-12T04:22:39Z",
+      "articles": [
+        {
+          "key": "ed4e31e260d271d1",
+          "title": "DB하이텍, 3분기 영업이익 900억원…전력반도체 수요 지속",
+          "url": "https://www.inews24.com/view/2025317",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T00:20:44Z"
+        },
+        {
+          "key": "f681831520ca3e02",
+          "title": "DB하이텍, 3분기 누적 영업이익 2622억원…전년比 24%↑",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409656",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T01:24:00Z"
+        },
+        {
+          "key": "f2e9b9bd9997313e",
+          "title": "DB HiTek 3Q26 shows power-chip demand lifts operating profit, but net income falls",
+          "url": "https://www.digitimes.com/news/a20261112VL208/demand-operating-profit-capacity-power-semiconductors-investment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T04:22:39Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261112-0917",
+      "headline": "미쓰비시가스화학, 태국 BT 소재 라인으로 AI 패키징 공략",
+      "summary": [
+        "미쓰비시가스화학이 태국에 BT(비스말레이미드트리아진) 소재 생산라인을 짜는 방향으로 AI 패키징 시장을 겨냥하고 있다는 보도다.",
+        "기사 본문에는 투자 규모, 생산능력, 가동 시점 등 구체적 수치와 일정이 나와 있지 않다.",
+        "AI 반도체 패키징용 기판 소재의 생산 거점이 아시아로 분산되는 흐름을 보여주는 사례로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "BT 소재",
+        "AI 패키징",
+        "기판 소재",
+        "태국 생산"
+      ],
+      "companies": [
+        "미쓰비시가스화학"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "미쓰비시가스화학"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T04:12:02Z",
+      "updated_at": "2026-11-12T04:12:02Z",
+      "articles": [
+        {
+          "key": "69e7ebb554b929eb",
+          "title": "Mitsubishi Gas Chemical bets on AI packaging with Thailand BT materials line",
+          "url": "https://www.digitimes.com/news/a20261112PD200/mitsubishi-materials-packaging-equipment-manufacturing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T04:12:02Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0916",
+      "headline": "프래그매틱, 모든 사물에 칩을 넣는 일상형 지능 비전 제시",
+      "summary": [
+        "프래그매틱의 공동창업자 겸 CTO 리처드 프라이스와 제조·운영 부사장 폴 제임스가 파트너 공장 Pragmatic Park에서 소개된 기사다.",
+        "기사 본문은 사진 설명만 담겨 있어 구체적인 제품, 수치, 일정은 확인되지 않는다.",
+        "모든 사물에 칩을 적용하는 방향은 저가 유연 반도체 수요 확대 흐름과 연결해 볼 수 있으나 세부 내용은 불명확하다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "유연 반도체",
+        "사물인터넷",
+        "일상형 지능",
+        "Pragmatic Park"
+      ],
+      "companies": [
+        "프래그매틱"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T04:00:28Z",
+      "updated_at": "2026-11-12T04:00:28Z",
+      "articles": [
+        {
+          "key": "d272c51470e1aeb9",
+          "title": "Exclusive: A world where everything has a chip—Pragmatic reimagines the boundaries of everyday intelligence",
+          "url": "https://www.digitimes.com/news/a20261110VL213/silicon-chips-packaging-manufacturing-electronics.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T04:00:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261112-0914",
       "headline": "SK하이닉스, 인텔과 메모리 중심 AI 시스템 설계 협력",
@@ -902,52 +1335,6 @@
       "importance_raw": 4
     },
     {
-      "id": "c20261112-0901",
-      "headline": "파인텍 3분기 흑자 전환, 삼성디스플레이 수주 효과",
-      "summary": [
-        "파인텍이 연결 기준 3분기 영업이익 21억원으로 흑자 전환했다고 발표했다.",
-        "매출은 246억원으로 전년 대비 68.1% 늘었고, 7월부터 삼성디스플레이로부터 약 352억원 장비를 수주했다.",
-        "디스플레이 장비 수주가 실적을 견인하며 푸드테크 로봇 등 신규 사업 확장의 재원이 되고 있다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "디스플레이 장비",
-        "흑자 전환",
-        "삼성디스플레이 수주",
-        "푸드테크 로봇",
-        "보글 C"
-      ],
-      "companies": [
-        "파인텍",
-        "삼성디스플레이"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "파인텍"
-      ],
-      "importance": 3,
-      "importance_reason": "실적 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-12T01:38:47Z",
-      "updated_at": "2026-11-12T01:38:47Z",
-      "articles": [
-        {
-          "key": "6f08cc51e3a9cb2d",
-          "title": "파인텍, 3분기 영업익 흑자 전환…디스플레이 수주 호조",
-          "url": "https://zdnet.co.kr/view/?no=20261112101125",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-12T01:38:47Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
       "id": "c20261112-0899",
       "headline": "대만, 포스트 무어 시대 장비 격차 해소에 학계 R&D 동원",
       "summary": [
@@ -1175,58 +1562,6 @@
       "importance_raw": 1
     },
     {
-      "id": "c20261112-0887",
-      "headline": "DB하이텍, 3분기 잠정 영업이익 900억원…전력반도체 수요 견조",
-      "summary": [
-        "DB하이텍이 2026년 3분기 잠정 실적으로 매출 4034억원, 영업이익 900억원을 공시했다.",
-        "전년 동기 대비 매출은 14%, 영업이익은 7% 증가했으며 누적 영업이익은 2622억원으로 24% 늘었다.",
-        "전력반도체 중심의 견조한 수요가 8인치 파운드리 실적 개선을 뒷받침하고 있다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "3분기 실적",
-        "전력반도체",
-        "8인치 파운드리",
-        "누적 영업이익"
-      ],
-      "companies": [
-        "DB하이텍"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "DB하이텍"
-      ],
-      "importance": 3,
-      "importance_reason": "실적 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-12T00:20:44Z",
-      "updated_at": "2026-11-12T01:24:00Z",
-      "articles": [
-        {
-          "key": "ed4e31e260d271d1",
-          "title": "DB하이텍, 3분기 영업이익 900억원…전력반도체 수요 지속",
-          "url": "https://www.inews24.com/view/2025317",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-12T00:20:44Z"
-        },
-        {
-          "key": "f681831520ca3e02",
-          "title": "DB하이텍, 3분기 누적 영업이익 2622억원…전년比 24%↑",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409656",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-12T01:24:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
       "id": "c20261112-0895",
       "headline": "충청권 메가프로젝트 착공, 삼성 온양 현장 착공식 열려",
       "summary": [
@@ -1360,6 +1695,51 @@
       ],
       "type_checked": true,
       "importance_raw": 4
+    },
+    {
+      "id": "c20261112-0915",
+      "headline": "LG디스플레이, FMM 없는 차세대 OLED 패터닝 기술 FLiPP 공개",
+      "summary": [
+        "LG디스플레이가 차세대 OLED 패터닝 기술 FLiPP를 전사 임직원에게 처음 공개했다.",
+        "11일부터 13일까지 파주 사업장에서 기술 워크숍 '테크 X'를 열어 FLiPP를 소개·전시했다.",
+        "FMM을 쓰지 않는 패터닝 기술로 OLED 기술 로드맵 공유가 이뤄져 향후 방향이 주목된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "FLiPP",
+        "FMM-Less 패터닝",
+        "OLED",
+        "차세대 디스플레이",
+        "테크 X"
+      ],
+      "companies": [
+        "LG디스플레이"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(LG디스플레이) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T01:00:00Z",
+      "updated_at": "2026-11-12T01:00:00Z",
+      "articles": [
+        {
+          "key": "410ed3a7b56405df",
+          "title": "LGD, 차세대 OLED 기술 'FLiPP' 사내 첫 공개",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65314",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-12T01:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261112-0891",
@@ -5617,70 +5997,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261111-0802",
-      "headline": "딥엑스, AI반도체 원천특허로 특허기술상 홍대용상 수상",
-      "summary": [
-        "딥엑스가 2026 특허기술상에서 연산 가속 장치 특허로 홍대용상을 받았다.",
-        "기술은 중간 데이터 저장·이동을 줄여 FPGA 테스트에서 연산 성능 12배, 메모리 소요 340분의 1 감소를 보였다.",
-        "창업 초기 원천 IP 확보 전략이 공신력 있는 상으로 검증돼 AI반도체 시장 진입 경쟁력 강화에 의미가 있다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "AI 가속기",
-        "원천 특허",
-        "DX-M1",
-        "피지컬 AI",
-        "NPU"
-      ],
-      "companies": [
-        "딥엑스",
-        "엔비디아",
-        "퀄컴",
-        "ARM"
-      ],
-      "event_type": "소송·특허",
-      "confirmed": true,
-      "parties": [
-        "딥엑스"
-      ],
-      "importance": 4,
-      "importance_reason": "소송·특허 3점, 매체 3곳 보도 +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-11T00:50:00Z",
-      "updated_at": "2026-11-11T02:19:19Z",
-      "articles": [
-        {
-          "key": "4f9d791675f18adb",
-          "title": "딥엑스, 2026 특허기술상 ‘홍대용상’ 수상…AI반도체 원천기술 인정",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=343202",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-11-11T00:50:00Z"
-        },
-        {
-          "key": "279c0c1ebb189b3b",
-          "title": "딥엑스, 특허기술상 '홍대용상' 수상…AI 반도체 원천기술 입증",
-          "url": "https://zdnet.co.kr/view/?no=20261111100004",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-11T01:03:22Z"
-        },
-        {
-          "key": "8bd55fe729d4f580",
-          "title": "딥엑스, 특허 606건으로 AI 반도체 기술 경쟁력 입증…홍대용상 수상",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409588",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-11T02:19:19Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
     },
     {
       "id": "c20261111-0809",
