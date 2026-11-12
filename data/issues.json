@@ -1,7 +1,339 @@
 {
   "version": 1,
-  "updated_at": "2026-11-12T22:58:43Z",
+  "updated_at": "2026-11-12T23:55:26Z",
   "issues": [
+    {
+      "id": "c20261112-0955",
+      "headline": "파네시아-인텔, CXL 스위치 기반 AI 서버 협력 MOU",
+      "summary": [
+        "파네시아가 인텔코리아와 CXL 기술 협력을 위한 업무협약을 체결했다고 12일 밝혔다.",
+        "양사는 인텔 제온 플랫폼에 파네시아의 CXL 스위치 등 인터커넥트 칩을 접목할 예정이다.",
+        "CXL 기반 서버를 실제 AI 데이터센터에 공급하는 것이 목표로, 연동 검증부터 진행한다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "CXL",
+        "CXL 스위치",
+        "인터커넥트",
+        "제온",
+        "AI 데이터센터"
+      ],
+      "companies": [
+        "파네시아",
+        "인텔코리아",
+        "인텔"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "파네시아",
+        "인텔코리아"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T08:57:32Z",
+      "updated_at": "2026-11-12T23:52:31Z",
+      "articles": [
+        {
+          "key": "8036f78e903432af",
+          "title": "파네시아-인텔 \"CXL 기반 랙 단위 서버 구축 협력\"",
+          "url": "https://zdnet.co.kr/view/?no=20261112172155",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T08:57:32Z"
+        },
+        {
+          "key": "a281977424ceda77",
+          "title": "파네시아-인텔 MOU...제온에 CXL 스위치 접목한다",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65380",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-12T23:52:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0976",
+      "headline": "삼성전자, 협력사 대상 반도체 기술 세미나 개최",
+      "summary": [
+        "삼성전자 DS부문이 지난 10일 경기도 수원 상생협력 아카데미에서 협력사를 초청해 세미나를 열었다.",
+        "기사 본문이 일부만 제공되어 세미나의 구체적인 발표 내용과 참석 규모는 확인되지 않는다.",
+        "협력사와의 기술 교류를 통해 공급망 상생 협력을 강화하려는 취지로 해석된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "협력사 상생",
+        "반도체 세미나",
+        "공급망",
+        "삼성전자 DS부문"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 2,
+      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자) +1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T23:25:38Z",
+      "updated_at": "2026-11-12T23:25:38Z",
+      "articles": [
+        {
+          "key": "33c21567752a038a",
+          "title": "삼성전자, 협력사 초청 '반도체 테크 세미나' 개최",
+          "url": "https://www.yna.co.kr/view/AKR20261113028500003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T23:25:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0960",
+      "headline": "젠슨 황 엔비디아 CEO 사임, 크레스 임시 체제 전환",
+      "summary": [
+        "엔비디아 젠슨 황 CEO가 사임했으며 사임은 즉시 효력이 발생했고 콜렛 크레스 CFO가 임시 CEO를 맡았다.",
+        "엔비디아는 17일 3분기 실적을 발표할 예정이며 크레스 단독으로 실적발표와 정상화 방안을 설명한다.",
+        "정식 CEO 선임 전까지 경영 불확실성이 남아 국내 HBM 공급망에도 영향이 주목된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황 사임",
+        "임시 CEO",
+        "HBM 공급망",
+        "수출통제",
+        "3분기 실적"
+      ],
+      "companies": [
+        "엔비디아",
+        "삼성전자",
+        "SK하이닉스",
+        "구글",
+        "인텔",
+        "Arm"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 매체 7곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-12T13:56:30Z",
+      "updated_at": "2026-11-12T23:25:00Z",
+      "articles": [
+        {
+          "key": "dd5e9c16ac7a0932",
+          "title": "[속보] 젠슨 황, 엔비디아 CEO 사임…콜레트 크레스 임시 CEO 선임",
+          "url": "https://www.inews24.com/view/2025760",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T13:56:30Z"
+        },
+        {
+          "key": "bed76800e244585f",
+          "title": "젠슨 황, 엔비디아 CEO 사임…콜레트 크레스 임시 CEO 선임",
+          "url": "https://www.inews24.com/view/2025762",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T14:00:32Z"
+        },
+        {
+          "key": "eb2fd52b758f4d9b",
+          "title": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief",
+          "url": "https://www.digitimes.com/news/a20261112VL217/nvidia-ceo-jensen-huang-president-roadmap.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T14:15:37Z"
+        },
+        {
+          "key": "2574480ea2c77bf4",
+          "title": "Nvidia's Jensen Huang resigns as CEO amid spy scandal, CFO Kress takes over",
+          "url": "https://www.koreaherald.com/article/10935644",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-12T14:20:27Z"
+        },
+        {
+          "key": "5fa1fe7b75ddb5cd",
+          "title": "젠슨 황 엔비디아 CEO 전격 사임",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65377",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-12T14:21:52Z"
+        },
+        {
+          "key": "34d813a65facf651",
+          "title": "엔비디아 젠슨 황 CEO 사임... \"콜렛 크레스 CFO가 대행\"",
+          "url": "https://zdnet.co.kr/view/?no=20261112233500",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T14:35:25Z"
+        },
+        {
+          "key": "5d71cb7a4b929974",
+          "title": "젠슨황, 엔비디아 창업 33년만에 불명예 퇴진…\"한 시대의 막 내렸다\"",
+          "url": "https://www.inews24.com/view/2025765",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T14:47:57Z"
+        },
+        {
+          "key": "0d8f0d9cd78eff0b",
+          "title": "엔비디아 임시 CEO \"젠슨이 33년간 쌓은 토대 위에서 나아갈 것\"",
+          "url": "https://www.inews24.com/view/2025767",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T15:09:24Z"
+        },
+        {
+          "key": "7c9a81b005c73e1d",
+          "title": "Jensen Resigns Over Second Affair",
+          "url": "https://www.eetimes.com/jensen-resigns-over-second-affair/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-12T20:48:35Z"
+        },
+        {
+          "key": "3583e6c6d6a52e5e",
+          "title": "젠슨 황 빈자리 메우는 콜렛 크레스, 엔비디아 리더십 재편 시작",
+          "url": "https://zdnet.co.kr/view/?no=20261113073253",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T22:43:47Z"
+        },
+        {
+          "key": "c3b40ec54098cfba",
+          "title": "엔비디아 성장세 이어질까... 국내 반도체 공급망도 주목",
+          "url": "https://zdnet.co.kr/view/?no=20261113073707",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T22:43:52Z"
+        },
+        {
+          "key": "5cbdafa5e10944e1",
+          "title": "차기 CEO 인선 시급한 엔비디아, 무성한 하마평",
+          "url": "https://zdnet.co.kr/view/?no=20261113074116",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T22:43:56Z"
+        },
+        {
+          "key": "ebdf0edc3c2bac0a",
+          "title": "젠슨 황 전격 사임…엔비디아 33년 창업자 시대 막 내렸다",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409720",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T23:25:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261112-0975",
+      "headline": "테다인, 300mm 웨이퍼 단일 패스 검사 장비 시연",
+      "summary": [
+        "테다인 비전 솔루션즈는 SEMICON Europa 2026에서 반도체 검사용 영상 기술을 선보인다.",
+        "Linea ML 32K 라인스캔 카메라는 300mm 웨이퍼를 10µm 해상도로 단일 패스 검사하는 시연을 한다.",
+        "AI 반도체 수요에 맞춘 3D 계측 장비로 검사 속도와 정밀도를 높인 점이 업계에 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "라인스캔 카메라",
+        "3D 계측",
+        "웨이퍼 검사",
+        "TSV",
+        "SEMICON Europa"
+      ],
+      "companies": [
+        "테다인"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T23:04:57Z",
+      "updated_at": "2026-11-12T23:04:57Z",
+      "articles": [
+        {
+          "key": "ca3b5dad7cd5f6e8",
+          "title": "Teledyne Vision Solutions Demonstrates Single-Pass 300mm Wafer Inspection",
+          "url": "https://www.semiconductor-digest.com/teledyne-vision-solutions-demonstrates-single-pass-300mm-wafer-inspection/?utm_source=rss&utm_medium=rss&utm_campaign=teledyne-vision-solutions-demonstrates-single-pass-300mm-wafer-inspection",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-12T23:04:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0974",
+      "headline": "비트록스, 유럽 반도체 전시회서 AI 3D 검사 장비 공개",
+      "summary": [
+        "비트록스는 SEMICON Europa 2026에서 AI 기반 3D AOI·3D AXI 검사 솔루션을 선보인다.",
+        "전시 장비 V510Ai ST는 최대 600×510mm PCB를 검사하며 검사 속도는 최대 64cm/초로 소개됐다.",
+        "첨단 패키징과 고밀도 SMT에서 미세 결함 검출 수요가 커지는 가운데 의미가 크다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "3D AOI",
+        "3D AXI",
+        "AI 검사",
+        "첨단 패키징",
+        "SEMICON Europa 2026"
+      ],
+      "companies": [
+        "비트록스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T23:02:06Z",
+      "updated_at": "2026-11-12T23:02:06Z",
+      "articles": [
+        {
+          "key": "49939274003016ea",
+          "title": "ViTrox Reports Nearly 200 AI-Powered X-Ray Inspection Systems Deployed",
+          "url": "https://www.semiconductor-digest.com/vitrox-reports-nearly-200-ai-powered-x-ray-inspection-systems-deployed/?utm_source=rss&utm_medium=rss&utm_campaign=vitrox-reports-nearly-200-ai-powered-x-ray-inspection-systems-deployed",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-12T23:02:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261112-0973",
       "headline": "Q.ANT, 알메러·플레보란트와 광컴퓨팅 협력 MoU 체결",
@@ -412,115 +744,6 @@
           "source": "아이뉴스24",
           "lang": "ko",
           "published_at": "2026-11-12T21:00:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
-    },
-    {
-      "id": "c20261112-0960",
-      "headline": "젠슨 황 엔비디아 CEO 사임, 콜렛 크레스 CFO 임시 대행",
-      "summary": [
-        "젠슨 황이 엔비디아 회장·CEO·이사회에서 물러났고 콜렛 크레스 CFO가 임시 CEO를 맡는다.",
-        "이사회는 내부·외부 후보를 모두 검토해 정식 후임을 선임할 계획이며 3분기 실적은 17일 예정대로 발표된다.",
-        "AI 반도체 1위 기업의 리더십 공백이 생겼지만 이사회는 사업과 제품 로드맵이 차질 없이 이어진다고 밝혔다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "CEO 사임",
-        "경영진 공백",
-        "임시 CEO",
-        "엔비디아 실적",
-        "AI 반도체"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 4,
-      "importance_reason": "경영진 교체 3점, 매체 6곳 보도 +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-12T13:56:30Z",
-      "updated_at": "2026-11-12T20:48:35Z",
-      "articles": [
-        {
-          "key": "dd5e9c16ac7a0932",
-          "title": "[속보] 젠슨 황, 엔비디아 CEO 사임…콜레트 크레스 임시 CEO 선임",
-          "url": "https://www.inews24.com/view/2025760",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-12T13:56:30Z"
-        },
-        {
-          "key": "bed76800e244585f",
-          "title": "젠슨 황, 엔비디아 CEO 사임…콜레트 크레스 임시 CEO 선임",
-          "url": "https://www.inews24.com/view/2025762",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-12T14:00:32Z"
-        },
-        {
-          "key": "eb2fd52b758f4d9b",
-          "title": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief",
-          "url": "https://www.digitimes.com/news/a20261112VL217/nvidia-ceo-jensen-huang-president-roadmap.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-12T14:15:37Z"
-        },
-        {
-          "key": "2574480ea2c77bf4",
-          "title": "Nvidia's Jensen Huang resigns as CEO amid spy scandal, CFO Kress takes over",
-          "url": "https://www.koreaherald.com/article/10935644",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-11-12T14:20:27Z"
-        },
-        {
-          "key": "5fa1fe7b75ddb5cd",
-          "title": "젠슨 황 엔비디아 CEO 전격 사임",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65377",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-12T14:21:52Z"
-        },
-        {
-          "key": "34d813a65facf651",
-          "title": "엔비디아 젠슨 황 CEO 사임... \"콜렛 크레스 CFO가 대행\"",
-          "url": "https://zdnet.co.kr/view/?no=20261112233500",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-12T14:35:25Z"
-        },
-        {
-          "key": "5d71cb7a4b929974",
-          "title": "젠슨황, 엔비디아 창업 33년만에 불명예 퇴진…\"한 시대의 막 내렸다\"",
-          "url": "https://www.inews24.com/view/2025765",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-12T14:47:57Z"
-        },
-        {
-          "key": "0d8f0d9cd78eff0b",
-          "title": "엔비디아 임시 CEO \"젠슨이 33년간 쌓은 토대 위에서 나아갈 것\"",
-          "url": "https://www.inews24.com/view/2025767",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-12T15:09:24Z"
-        },
-        {
-          "key": "7c9a81b005c73e1d",
-          "title": "Jensen Resigns Over Second Affair",
-          "url": "https://www.eetimes.com/jensen-resigns-over-second-affair/",
-          "source": "EE Times",
-          "lang": "en",
-          "published_at": "2026-11-12T20:48:35Z"
         }
       ],
       "type_checked": true,
@@ -1041,55 +1264,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261112-0955",
-      "headline": "파네시아·인텔, CXL 기반 랙 서버 메모리 공유 협력",
-      "summary": [
-        "파네시아는 인텔코리아와 CXL 관련 MOU를 맺고 랙 단위 AI 데이터센터 구축에 협력하기로 했다.",
-        "양사는 파네시아의 PCIe 6.4-CXL 3.2 퓨전 스위치로 서버 간 메모리 공유 구조를 검토하고 PoC도 추진한다.",
-        "메모리 수급난 속에서 메모리 확장·공유 기술이 AI 데이터센터 구축의 대안으로 주목받을 전망이다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "CXL",
-        "PCIe 6.4",
-        "CXL 3.2",
-        "메모리 풀링",
-        "AI 데이터센터",
-        "퓨전 스위치"
-      ],
-      "companies": [
-        "파네시아",
-        "인텔코리아",
-        "인텔"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "파네시아",
-        "인텔코리아"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-12T08:57:32Z",
-      "updated_at": "2026-11-12T08:57:32Z",
-      "articles": [
-        {
-          "key": "8036f78e903432af",
-          "title": "파네시아-인텔 \"CXL 기반 랙 단위 서버 구축 협력\"",
-          "url": "https://zdnet.co.kr/view/?no=20261112172155",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-12T08:57:32Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261112-0953",
