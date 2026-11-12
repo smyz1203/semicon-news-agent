@@ -1,50 +1,94 @@
 {
   "version": 1,
-  "updated_at": "2026-11-12T15:08:59Z",
+  "updated_at": "2026-11-12T16:17:19Z",
   "issues": [
     {
-      "id": "c20261112-0962",
-      "headline": "DB하이텍 3분기 누적 영업이익 24% 증가, 가동률 100%",
+      "id": "c20261112-0964",
+      "headline": "에이전틱 AI로 반도체 설계·검증 병목 해소 논의",
       "summary": [
-        "DB하이텍이 올해 3분기 연결기준 잠정 실적을 공시하며 전력반도체 중심 실적 개선을 발표했다.",
-        "3분기 매출은 4033억원으로 14% 늘었고, 누적 매출 1조1774억원·영업이익 2622억원으로 각각 19%, 24% 증가했다.",
-        "8인치 파운드리 사업 호조로 공장 가동률이 사실상 100%를 유지해 특화 공정 수요의 견조함을 보여준다."
+        "Siemens의 에이전틱 AI 시스템 Calibre AI 등 AI가 IC 설계·검증의 병목을 줄이는 방안이 제시됐다.",
+        "기사는 감사 가능한 워크플로와 기업 간 협업, 투명성과 신뢰 확보가 핵심 요건이라고 강조한다.",
+        "다만 구체적 수치나 도입 성과는 제시되지 않아, 신뢰성 확보가 지속 가능한 혁신의 전제라는 기술 전망에 가깝다."
       ],
-      "category": "실적/투자/시장",
+      "category": "AI반도체",
       "tags": [
-        "전력반도체",
-        "8인치 파운드리",
-        "3분기 실적",
-        "가동률"
+        "에이전틱 AI",
+        "IC 설계 검증",
+        "Calibre AI",
+        "반도체 특이점",
+        "IC 사인오프"
       ],
       "companies": [
-        "DB하이텍"
+        "Siemens"
       ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "DB하이텍"
-      ],
-      "importance": 3,
-      "importance_reason": "실적 3점",
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-12T14:59:31Z",
-      "updated_at": "2026-11-12T14:59:31Z",
+      "region": "en",
+      "first_seen": "2026-11-12T15:57:50Z",
+      "updated_at": "2026-11-12T15:57:50Z",
       "articles": [
         {
-          "key": "9886e0c1fc5d000a",
-          "title": "DB하이텍, 3분기 누적 영업익 24% 증가...\"공장 가동률 100%\"",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65372",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-12T14:59:31Z"
+          "key": "1ab4d0c6ead53613",
+          "title": "The Semiconductor Singularity",
+          "url": "https://semiengineering.com/the-semiconductor-singularity/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-12T15:57:50Z"
         }
       ],
       "type_checked": true,
-      "importance_raw": 3
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261112-0963",
+      "headline": "머스크, 젠슨 황 영입 의향 밝혀",
+      "summary": [
+        "일론 머스크가 해임된 엔비디아 CEO 젠슨 황을 영입하는 것은 영광일 것이라고 말했다는 소식이다.",
+        "다만 기사 본문에는 발언의 구체적 맥락, 일정, 조건이 담겨 있지 않고 작성자 소개만 실려 있다.",
+        "기사 내용만으로는 실제 채용 추진이나 공식 결정 여부를 확인하기 어려워 업계 영향은 판단하기 이르다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "젠슨 황",
+        "엔비디아",
+        "CEO 교체",
+        "일론 머스크"
+      ],
+      "companies": [
+        "엔비디아",
+        "테슬라"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T15:46:04Z",
+      "updated_at": "2026-11-12T15:46:04Z",
+      "articles": [
+        {
+          "key": "f4e44cbdf0bc2b6d",
+          "title": "Elon Musk says it ‘would be an honor’ to hire ousted Nvidia CEO Jensen Huang",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-says-it-would-be-an-honor-to-hire-ousted-nvidia-ceo-jensen-huang-possible-projects-could-include-terafab-spacexs-planned-gpu-manufacturing-or-teslas-ai-accelerators",
+          "source": "Tom's Hardware",
+          "lang": "en",
+          "published_at": "2026-11-12T15:46:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261112-0960",
@@ -77,7 +121,7 @@
       "attempts": 0,
       "region": "both",
       "first_seen": "2026-11-12T13:56:30Z",
-      "updated_at": "2026-11-12T14:47:57Z",
+      "updated_at": "2026-11-12T15:09:24Z",
       "articles": [
         {
           "key": "dd5e9c16ac7a0932",
@@ -126,10 +170,62 @@
           "source": "아이뉴스24",
           "lang": "ko",
           "published_at": "2026-11-12T14:47:57Z"
+        },
+        {
+          "key": "0d8f0d9cd78eff0b",
+          "title": "엔비디아 임시 CEO \"젠슨이 33년간 쌓은 토대 위에서 나아갈 것\"",
+          "url": "https://www.inews24.com/view/2025767",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T15:09:24Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 4
+    },
+    {
+      "id": "c20261112-0962",
+      "headline": "DB하이텍 3분기 누적 영업이익 24% 증가, 가동률 100%",
+      "summary": [
+        "DB하이텍이 올해 3분기 연결기준 잠정 실적을 공시하며 전력반도체 중심 실적 개선을 발표했다.",
+        "3분기 매출은 4033억원으로 14% 늘었고, 누적 매출 1조1774억원·영업이익 2622억원으로 각각 19%, 24% 증가했다.",
+        "8인치 파운드리 사업 호조로 공장 가동률이 사실상 100%를 유지해 특화 공정 수요의 견조함을 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "전력반도체",
+        "8인치 파운드리",
+        "3분기 실적",
+        "가동률"
+      ],
+      "companies": [
+        "DB하이텍"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "DB하이텍"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T14:59:31Z",
+      "updated_at": "2026-11-12T14:59:31Z",
+      "articles": [
+        {
+          "key": "9886e0c1fc5d000a",
+          "title": "DB하이텍, 3분기 누적 영업익 24% 증가...\"공장 가동률 100%\"",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65372",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-12T14:59:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261112-0961",
