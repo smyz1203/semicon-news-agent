@@ -1,7 +1,195 @@
 {
   "version": 1,
-  "updated_at": "2026-11-12T21:58:35Z",
+  "updated_at": "2026-11-12T22:58:43Z",
   "issues": [
+    {
+      "id": "c20261112-0973",
+      "headline": "Q.ANT, 알메러·플레보란트와 광컴퓨팅 협력 MoU 체결",
+      "summary": [
+        "Q.ANT와 Innovally, Horizon Flevoland가 SEMICON Europa에서 양해각서(MoU) 체결식을 열었다.",
+        "광(光) 기반 AI 프로세서를 알메러·플레보란트에서 개발·검증하고 상용화하는 것이 목표다.",
+        "에너지 효율을 높인 광 프로세서는 AI 전력 문제 해결 수단으로 주목받을 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "광컴퓨팅",
+        "포토닉 프로세서",
+        "AI 반도체",
+        "에너지 효율",
+        "MoU"
+      ],
+      "companies": [
+        "Q.ANT",
+        "Innovally",
+        "Horizon Flevoland",
+        "High Tech NL"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "Q.ANT",
+        "Innovally",
+        "Horizon Flevoland"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T22:57:34Z",
+      "updated_at": "2026-11-12T22:57:34Z",
+      "articles": [
+        {
+          "key": "1a52bdfcfb4b4a3e",
+          "title": "Almere, Flevoland and Q.ANT Team Up for Computing with Light",
+          "url": "https://www.semiconductor-digest.com/almere-flevoland-and-q-ant-team-up-for-computing-with-light/?utm_source=rss&utm_medium=rss&utm_campaign=almere-flevoland-and-q-ant-team-up-for-computing-with-light",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-12T22:57:34Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0972",
+      "headline": "SFA, 3분기 반도체 수주 비중 확대와 수익성 개선",
+      "summary": [
+        "SFA가 3분기 별도 기준 매출 1923억원, 영업이익 266억원을 기록했다고 발표했다.",
+        "영업이익률은 13.8%로 1·2분기에 이어 3개 분기 연속 상승했고, 매출총이익률은 21.7%로 전년 대비 3.2%포인트 개선됐다.",
+        "반도체 장비 중심의 고부가 제품 확대와 원가 경쟁력 강화가 수익성 개선을 이끌고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "3분기 실적",
+        "영업이익률",
+        "반도체 장비",
+        "수주 포트폴리오",
+        "매출총이익률"
+      ],
+      "companies": [
+        "SFA"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "SFA"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T22:47:00Z",
+      "updated_at": "2026-11-12T22:47:00Z",
+      "articles": [
+        {
+          "key": "679f90882b83ae0c",
+          "title": "SFA, 3분기 반도체 수주 비중 57%로 확대",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65365",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-12T22:47:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0971",
+      "headline": "Aeluma, AIXTRON MOCVD 장비 도입해 비InP 포토닉스 생산 확대",
+      "summary": [
+        "미국 Aeluma가 AIXTRON G10-AsP MOCVD 장비 구매 계약을 체결했다고 발표했다.",
+        "장비는 150mm·200mm 웨이퍼를 지원하며 GaAs·Si 기판 기반 비InP 포토닉스 양산에 쓰인다.",
+        "AI 데이터통신용 광부품 수요 증가에 대응해 InP 기판 의존 없이 생산 규모를 키울 수 있는 기반이 된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "MOCVD",
+        "포토닉스",
+        "비InP",
+        "GaAs",
+        "실리콘 포토닉스",
+        "AI 데이터통신"
+      ],
+      "companies": [
+        "Aeluma",
+        "AIXTRON"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "Aeluma",
+        "AIXTRON"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T22:27:38Z",
+      "updated_at": "2026-11-12T22:27:38Z",
+      "articles": [
+        {
+          "key": "5545e4948ca2fef0",
+          "title": "Aeluma Orders AIXTRON MOCVD System to Expand Photonics Manufacturing",
+          "url": "https://www.semiconductor-digest.com/aeluma-orders-aixtron-mocvd-system-to-expand-photonics-manufacturing/?utm_source=rss&utm_medium=rss&utm_campaign=aeluma-orders-aixtron-mocvd-system-to-expand-photonics-manufacturing",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-12T22:27:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0970",
+      "headline": "써모피셔, 차세대 FIB-SEM 'Optis' 다수 설치 완료",
+      "summary": [
+        "써모피셔 사이언티픽이 반도체 분석용 집속이온빔 주사전자현미경 Optis의 다수 설치 완료를 발표했다.",
+        "Optis는 웨이퍼에서 직접 TEM 시료를 자동 준비하며, 로봇과 AI 도구로 작업 단계를 줄인다.",
+        "고객 현장 시험 후 개선을 거쳐 주요 칩 제조사에서 도입이 확대되어 R&D 단계 계측 효율화에 기여할 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "FIB-SEM",
+        "TEM 시료 준비",
+        "Optis",
+        "반도체 계측",
+        "자동화"
+      ],
+      "companies": [
+        "써모피셔 사이언티픽"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "써모피셔 사이언티픽"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T22:26:17Z",
+      "updated_at": "2026-11-12T22:26:17Z",
+      "articles": [
+        {
+          "key": "96db3fa36ba43d5f",
+          "title": "Thermo Fisher Scientific Reports Multiple Installations of Optis FIB-SEM Systems",
+          "url": "https://www.semiconductor-digest.com/thermo-fisher-scientific-reports-multiple-installations-of-optis-fib-sem-systems/?utm_source=rss&utm_medium=rss&utm_campaign=thermo-fisher-scientific-reports-multiple-installations-of-optis-fib-sem-systems",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-12T22:26:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261112-0969",
       "headline": "삼성, 8인치 파운드리 철수 2029년으로 앞당겨 UMC 위탁 검토",
