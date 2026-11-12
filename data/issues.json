@@ -1,7 +1,116 @@
 {
   "version": 1,
-  "updated_at": "2026-11-12T20:05:57Z",
+  "updated_at": "2026-11-12T21:02:00Z",
   "issues": [
+    {
+      "id": "c20261112-0960",
+      "headline": "젠슨 황 엔비디아 CEO 사임, 콜렛 크레스 CFO 임시 대행",
+      "summary": [
+        "젠슨 황이 엔비디아 회장·CEO·이사회에서 물러났고 콜렛 크레스 CFO가 임시 CEO를 맡는다.",
+        "이사회는 내부·외부 후보를 모두 검토해 정식 후임을 선임할 계획이며 3분기 실적은 17일 예정대로 발표된다.",
+        "AI 반도체 1위 기업의 리더십 공백이 생겼지만 이사회는 사업과 제품 로드맵이 차질 없이 이어진다고 밝혔다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "CEO 사임",
+        "경영진 공백",
+        "임시 CEO",
+        "엔비디아 실적",
+        "AI 반도체"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 매체 6곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-12T13:56:30Z",
+      "updated_at": "2026-11-12T20:48:35Z",
+      "articles": [
+        {
+          "key": "dd5e9c16ac7a0932",
+          "title": "[속보] 젠슨 황, 엔비디아 CEO 사임…콜레트 크레스 임시 CEO 선임",
+          "url": "https://www.inews24.com/view/2025760",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T13:56:30Z"
+        },
+        {
+          "key": "bed76800e244585f",
+          "title": "젠슨 황, 엔비디아 CEO 사임…콜레트 크레스 임시 CEO 선임",
+          "url": "https://www.inews24.com/view/2025762",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T14:00:32Z"
+        },
+        {
+          "key": "eb2fd52b758f4d9b",
+          "title": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief",
+          "url": "https://www.digitimes.com/news/a20261112VL217/nvidia-ceo-jensen-huang-president-roadmap.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T14:15:37Z"
+        },
+        {
+          "key": "2574480ea2c77bf4",
+          "title": "Nvidia's Jensen Huang resigns as CEO amid spy scandal, CFO Kress takes over",
+          "url": "https://www.koreaherald.com/article/10935644",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-12T14:20:27Z"
+        },
+        {
+          "key": "5fa1fe7b75ddb5cd",
+          "title": "젠슨 황 엔비디아 CEO 전격 사임",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65377",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-12T14:21:52Z"
+        },
+        {
+          "key": "34d813a65facf651",
+          "title": "엔비디아 젠슨 황 CEO 사임... \"콜렛 크레스 CFO가 대행\"",
+          "url": "https://zdnet.co.kr/view/?no=20261112233500",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T14:35:25Z"
+        },
+        {
+          "key": "5d71cb7a4b929974",
+          "title": "젠슨황, 엔비디아 창업 33년만에 불명예 퇴진…\"한 시대의 막 내렸다\"",
+          "url": "https://www.inews24.com/view/2025765",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T14:47:57Z"
+        },
+        {
+          "key": "0d8f0d9cd78eff0b",
+          "title": "엔비디아 임시 CEO \"젠슨이 33년간 쌓은 토대 위에서 나아갈 것\"",
+          "url": "https://www.inews24.com/view/2025767",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T15:09:24Z"
+        },
+        {
+          "key": "7c9a81b005c73e1d",
+          "title": "Jensen Resigns Over Second Affair",
+          "url": "https://www.eetimes.com/jensen-resigns-over-second-affair/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-12T20:48:35Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
     {
       "id": "c20261112-0964",
       "headline": "에이전틱 AI로 반도체 설계·검증 병목 해소 논의",
@@ -89,99 +198,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261112-0960",
-      "headline": "젠슨 황 엔비디아 CEO 사임, 크레스 임시 CEO 체제",
-      "summary": [
-        "젠슨 황 엔비디아 CEO가 사장·CEO·이사직에서 모두 물러났다고 회사가 12일(현지시간) 발표했다.",
-        "CFO 콜렛 크레스가 재무 업무를 유지한 채 임시 CEO를 맡고, 회사는 후임 CEO를 찾고 있다.",
-        "혼외관계 논란 속 창업자의 퇴진으로 AI 반도체 1위 기업의 리더십 공백이 커질 전망이다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "젠슨 황",
-        "CEO 사임",
-        "콜렛 크레스",
-        "임시 CEO",
-        "지배구조"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 4,
-      "importance_reason": "경영진 교체 3점, 매체 4곳 보도 +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-12T13:56:30Z",
-      "updated_at": "2026-11-12T15:09:24Z",
-      "articles": [
-        {
-          "key": "dd5e9c16ac7a0932",
-          "title": "[속보] 젠슨 황, 엔비디아 CEO 사임…콜레트 크레스 임시 CEO 선임",
-          "url": "https://www.inews24.com/view/2025760",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-12T13:56:30Z"
-        },
-        {
-          "key": "bed76800e244585f",
-          "title": "젠슨 황, 엔비디아 CEO 사임…콜레트 크레스 임시 CEO 선임",
-          "url": "https://www.inews24.com/view/2025762",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-12T14:00:32Z"
-        },
-        {
-          "key": "eb2fd52b758f4d9b",
-          "title": "Jensen Huang resigns as Nvidia CEO; CFO Colette Kress named interim chief",
-          "url": "https://www.digitimes.com/news/a20261112VL217/nvidia-ceo-jensen-huang-president-roadmap.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-12T14:15:37Z"
-        },
-        {
-          "key": "2574480ea2c77bf4",
-          "title": "Nvidia's Jensen Huang resigns as CEO amid spy scandal, CFO Kress takes over",
-          "url": "https://www.koreaherald.com/article/10935644",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-11-12T14:20:27Z"
-        },
-        {
-          "key": "5fa1fe7b75ddb5cd",
-          "title": "젠슨 황 엔비디아 CEO 전격 사임",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65377",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-12T14:21:52Z"
-        },
-        {
-          "key": "5d71cb7a4b929974",
-          "title": "젠슨황, 엔비디아 창업 33년만에 불명예 퇴진…\"한 시대의 막 내렸다\"",
-          "url": "https://www.inews24.com/view/2025765",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-12T14:47:57Z"
-        },
-        {
-          "key": "0d8f0d9cd78eff0b",
-          "title": "엔비디아 임시 CEO \"젠슨이 33년간 쌓은 토대 위에서 나아갈 것\"",
-          "url": "https://www.inews24.com/view/2025767",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-12T15:09:24Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
     },
     {
       "id": "c20261112-0962",
