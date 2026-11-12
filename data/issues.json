@@ -1,7 +1,299 @@
 {
   "version": 1,
-  "updated_at": "2026-11-12T05:14:22Z",
+  "updated_at": "2026-11-12T06:19:14Z",
   "issues": [
+    {
+      "id": "c20261112-0905",
+      "headline": "노타, 하이퍼엑셀 LPU용 LLM 최적화 2차 계약 체결",
+      "summary": [
+        "노타가 하이퍼엑셀과 LLM 최적화 기술 공급 후속 계약을 맺었다고 12일 발표했다.",
+        "이번 계약은 지난해 9월 첫 계약에 이은 두 번째 수주로, 베르다 LPU에서 쓸 주요 LLM의 최적화 기술을 공급한다.",
+        "양사는 베르다가 지원하는 LLM 범위를 넓히고 실제 서비스 환경의 실행 효율을 높이는 데 힘쓸 계획이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "LLM 최적화",
+        "LPU",
+        "베르다",
+        "추론 반도체",
+        "모델 경량화"
+      ],
+      "companies": [
+        "노타",
+        "하이퍼엑셀"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "노타",
+        "하이퍼엑셀"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T02:42:03Z",
+      "updated_at": "2026-11-12T06:00:00Z",
+      "articles": [
+        {
+          "key": "53e522051e3f3113",
+          "title": "노타, '데이터센터 AI 반도체'로 최적화 영토 확장",
+          "url": "https://zdnet.co.kr/view/?no=20261112114203",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T02:42:03Z"
+        },
+        {
+          "key": "49379f4fc4c9414c",
+          "title": "노타-하이퍼엑셀, AI 반도체 최적화 2년 연속 계약",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409673",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T06:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0926",
+      "headline": "인텔 중국, 미활용 재생에너지로 AI 토큰 컴퓨팅 포드 추진",
+      "summary": [
+        "인텔 중국이 미활용 재생에너지를 AI 토큰 생산에 쓰는 컴퓨팅 포드 사업을 추진한다는 보도다.",
+        "기사 본문이 사실상 없어 포드 규모와 세부 사양은 확인되지 않았고, 2027년 상반기 출시 목표만 제시됐다.",
+        "에너지 자원을 AI 연산으로 전환하는 시도로, 데이터센터 전력 조달 방식에 참고가 될 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 토큰",
+        "컴퓨팅 포드",
+        "재생에너지",
+        "2027년 상반기"
+      ],
+      "companies": [
+        "인텔"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [
+        "인텔 중국"
+      ],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T05:58:38Z",
+      "updated_at": "2026-11-12T05:58:38Z",
+      "articles": [
+        {
+          "key": "b54d35d35c2af77c",
+          "title": "Intel China wants to turn untapped renewable energy into AI tokens with computing pods slated for 1H27",
+          "url": "https://www.digitimes.com/news/a20261112PD211/intel-china-renewable-energy-chipmakers-ai-inference-demand.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T05:58:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261112-0925",
+      "headline": "삼성전자, HBM 패키징 공장 개소 2028년 6월로 앞당겨",
+      "summary": [
+        "삼성전자가 아산 온양 캠퍼스의 HBM 패키징 공장 개소 시점을 2028년 6월로 앞당겼다고 전해졌다.",
+        "기사 본문은 설명이 거의 없어 공장 규모와 투자 금액 등 구체적 내용은 확인되지 않는다.",
+        "HBM 생산능력 확대 일정이 빨라진 것으로, 고대역폭 메모리 공급 경쟁에 영향을 줄 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM",
+        "패키징",
+        "온양캠퍼스",
+        "생산능력 확대"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "설비 투자 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T05:57:08Z",
+      "updated_at": "2026-11-12T05:57:08Z",
+      "articles": [
+        {
+          "key": "924ffefe3fbf9ca0",
+          "title": "Samsung moves up HBM packaging plant opening to June 2028",
+          "url": "https://www.digitimes.com/news/a20261112VL209/samsung-hbm-packaging-2028-plant.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T05:57:08Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261112-0924",
+      "headline": "하이퍼엑셀, 삼성 파운드리·SK 메모리 물량 확보난",
+      "summary": [
+        "국내 AI 반도체 스타트업 하이퍼엑셀이 내년 양산을 앞두고 물량 확보에 어려움을 겪고 있다.",
+        "삼성전자 파운드리에 AI 가속기 2만개를 요청했으나 1만개를 우선 배정받았고, SK하이닉스 메모리는 10만개 요청 중 일부만 확보했다.",
+        "AI 반도체 팹리스 기업에게 파운드리와 메모리 공급 확보가 제품 양산의 주요 걸림돌임을 보여준다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI반도체",
+        "팹리스",
+        "파운드리 물량",
+        "HBM",
+        "베르다 가속기"
+      ],
+      "companies": [
+        "하이퍼엑셀",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "하이퍼엑셀",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 관심 기업(SK하이닉스, 삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T05:36:52Z",
+      "updated_at": "2026-11-12T05:36:52Z",
+      "articles": [
+        {
+          "key": "49aea51e3f52b443",
+          "title": "하이퍼엑셀 \"삼성 파운드리도 SK 메모리도 구하기 어렵다\"",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65328",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-12T05:36:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261112-0907",
+      "headline": "인텔, 국내 23개사와 AI 동맹…AI 주권 생태계 구축",
+      "summary": [
+        "인텔이 국내 23개 기업과 손잡고 국산 서버 중심의 AI 생태계 구축에 나섰다.",
+        "국내 AI 반도체·서버·소프트웨어 기술을 결합해 소버린 AI와 피지컬 AI 협력을 넓힌다.",
+        "국내 AI 산업 자생력을 높이고 협력사의 세계 시장 진출을 지원하는 효과가 기대된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "소버린 AI",
+        "피지컬 AI",
+        "국산 서버",
+        "AI 생태계",
+        "AI 반도체"
+      ],
+      "companies": [
+        "인텔",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "인텔"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T03:00:05Z",
+      "updated_at": "2026-11-12T05:17:13Z",
+      "articles": [
+        {
+          "key": "0e65ecd785fe8c35",
+          "title": "[AI프리즘] 인텔, 한국 23개사와 AI 동맹…'AI 주권' 강화 나선다",
+          "url": "https://www.yna.co.kr/view/AKR20261112076500017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T03:00:05Z"
+        },
+        {
+          "key": "3dc5609c2fd1c42c",
+          "title": "인텔 \"한국 23개사와 손잡고 AI 주권 강화…세계 시장 진출 지원\"",
+          "url": "https://www.inews24.com/view/2025507",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T05:17:13Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0923",
+      "headline": "솔루스첨단소재 3분기 매출 증가, 적자 폭 확대",
+      "summary": [
+        "솔루스첨단소재가 3분기 연결 잠정 매출 1255억원, 영업손실 301억원을 기록했다고 밝혔다.",
+        "전지박 매출은 916억원으로 역대 최대 분기 실적을 냈고, 일부 고객사와 판가 인상 협의를 마쳤다.",
+        "전지박 판가 인상과 유럽·북미 수요 확대가 수익성 개선의 계기가 될 것으로 보인다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "전지박",
+        "OLED",
+        "판가 인상",
+        "ESS",
+        "메이드 인 유럽"
+      ],
+      "companies": [
+        "솔루스첨단소재"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "솔루스첨단소재"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T05:13:45Z",
+      "updated_at": "2026-11-12T05:13:45Z",
+      "articles": [
+        {
+          "key": "7ae96ab61fb5ab89",
+          "title": "솔루스첨단소재, 3분기 영업손실 301억…전년비 15.9% 확대",
+          "url": "https://zdnet.co.kr/view/?no=20261112140443",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T05:13:45Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261112-0921",
       "headline": "호남 반도체 산단에 국제학교 설립 추진",
@@ -44,22 +336,24 @@
     },
     {
       "id": "c20261112-0920",
-      "headline": "삼성전자, 임직원 10만8천명 나눔위크 참여",
+      "headline": "삼성, 2026 나눔의 날 열어 임직원 사회공헌 성과 공유",
       "summary": [
-        "삼성 임직원 10만8000여명이 나눔위크에 참여해 기부, 헌혈, 봉사활동을 펼쳤다.",
-        "삼성은 임직원 기부를 지역사회와 연계하는 나눔가게 사업을 본격화했으며 화성사업장에서 나눔의 날 행사를 열었다.",
-        "이번 활동은 사회공헌 성과를 알리는 것으로, 반도체 산업에 직접적인 사업 영향은 크지 않다."
+        "삼성은 12일 화성사업장에서 '2026 나눔의 날' 행사를 열고 나눔위크 사회공헌 성과를 공유했다.",
+        "나눔위크에는 관계사 임직원 10만 8000여 명이 참여했고 나눔키오스크 특별모금으로 3억원이 모였다.",
+        "임직원 참여형 CSR 프로그램의 확산을 보여주는 사례로, 지역사회 상생 모델로 자리잡고 있다."
       ],
       "category": "정책/무역",
       "tags": [
-        "나눔위크",
         "사회공헌",
+        "나눔위크",
         "나눔가게",
-        "기부",
-        "헌혈"
+        "헌혈캠페인"
       ],
       "companies": [
-        "삼성전자"
+        "삼성전자",
+        "삼성전기",
+        "삼성디스플레이",
+        "삼성SDI"
       ],
       "event_type": "홍보·수상",
       "confirmed": true,
@@ -73,7 +367,7 @@
       "attempts": 0,
       "region": "ko",
       "first_seen": "2026-11-12T05:00:00Z",
-      "updated_at": "2026-11-12T05:00:00Z",
+      "updated_at": "2026-11-12T05:00:03Z",
       "articles": [
         {
           "key": "55e23b0645c6a3fe",
@@ -82,6 +376,14 @@
           "source": "디지털타임스",
           "lang": "ko",
           "published_at": "2026-11-12T05:00:00Z"
+        },
+        {
+          "key": "bc4c3ccc0f6198d9",
+          "title": "삼성, '2026 나눔의 날' 개최…임직원 11만명 나눔 성과 공유",
+          "url": "https://zdnet.co.kr/view/?no=20261112111312",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T05:00:03Z"
         }
       ],
       "type_checked": true,
@@ -207,6 +509,55 @@
       ],
       "type_checked": true,
       "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0922",
+      "headline": "페라리 전기차 루체, 삼성디스플레이·SK온 부품 적용 혁신상",
+      "summary": [
+        "페라리 첫 순수전기차 루체가 베를린 골든 스티어링 휠에서 최고 혁신상을 받았다고 페라리가 밝혔다.",
+        "루체에는 SK온의 122kWh NCM 배터리 셀과 삼성디스플레이의 OLED 패널 4종이 단독 공급됐다.",
+        "국내 배터리·디스플레이 기업이 프리미엄 전기차 부품 공급 역량을 입증한 사례로 볼 수 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "전기차 배터리",
+        "NCM 셀",
+        "골든 스티어링 휠",
+        "차량용 디스플레이"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "SK온",
+        "페라리"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "삼성디스플레이",
+        "SK온",
+        "페라리"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성디스플레이) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T04:44:25Z",
+      "updated_at": "2026-11-12T04:44:25Z",
+      "articles": [
+        {
+          "key": "379215df2d30a866",
+          "title": "\"디지털 시대 페라리의 혁신\"…첫 순수전기차 루체, 최고 혁신상",
+          "url": "https://zdnet.co.kr/view/?no=20261112134425",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T04:44:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
     },
     {
       "id": "c20261112-0919",
@@ -816,97 +1167,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261112-0907",
-      "headline": "인텔, 국내 23개사와 AI 생태계 동맹 결성",
-      "summary": [
-        "인텔이 국내 23개 기업과 손잡고 국산 서버 중심의 AI 생태계 구축에 나섰다.",
-        "기사에 구체적인 투자 규모나 일정은 제시되지 않았다.",
-        "국내 AI 인프라에서 협력 기반을 넓히는 움직임으로, AI 주권 강화 흐름과 맞물린다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "AI 생태계",
-        "국산 서버",
-        "AI 주권",
-        "인텔 협력"
-      ],
-      "companies": [
-        "인텔"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "인텔"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-12T03:00:05Z",
-      "updated_at": "2026-11-12T03:00:05Z",
-      "articles": [
-        {
-          "key": "0e65ecd785fe8c35",
-          "title": "[AI프리즘] 인텔, 한국 23개사와 AI 동맹…'AI 주권' 강화 나선다",
-          "url": "https://www.yna.co.kr/view/AKR20261112076500017",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-12T03:00:05Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261112-0905",
-      "headline": "노타, 하이퍼엑셀 LPU에 LLM 최적화 기술 후속 공급",
-      "summary": [
-        "노타가 AI 반도체 스타트업 하이퍼엑셀과 LLM 최적화 기술 공급 후속 계약을 체결했다.",
-        "계약 대상은 LLM 추론 전용 반도체 베르다 LPU이며, 지난해 9월 첫 계약에 이어 2년 연속 수주다.",
-        "데이터센터·기업용 AI 추론 시장에서 반도체와 소프트웨어 최적화의 중요성이 커지고 있음을 보여준다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "LLM 최적화",
-        "베르다 LPU",
-        "넷츠프레소",
-        "양자화",
-        "AI 추론"
-      ],
-      "companies": [
-        "노타",
-        "하이퍼엑셀"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "노타",
-        "하이퍼엑셀"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-12T02:42:03Z",
-      "updated_at": "2026-11-12T02:42:03Z",
-      "articles": [
-        {
-          "key": "53e522051e3f3113",
-          "title": "노타, '데이터센터 AI 반도체'로 최적화 영토 확장",
-          "url": "https://zdnet.co.kr/view/?no=20261112114203",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-12T02:42:03Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261111-0810",
