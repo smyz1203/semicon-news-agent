@@ -1,7 +1,964 @@
 {
   "version": 1,
-  "updated_at": "2026-11-12T06:19:14Z",
+  "updated_at": "2026-11-12T08:27:03Z",
   "issues": [
+    {
+      "id": "c20261112-0940",
+      "headline": "중기부, 메가프로젝트 성과 확산에 중소기업 역할 강조",
+      "summary": [
+        "중소벤처기업부가 메가프로젝트 성과 확산에 중소기업의 역할을 강화해야 한다고 주장했다.",
+        "중기부는 12일 삼성전자 아산 온양캠퍼스에서 열린 제4차 민관합동 점검회의에서 관련 방향을 제시했다.",
+        "반도체 대형 투자 프로젝트의 효과가 중소기업으로 넓게 퍼져야 한다는 점을 재확인한 자리였다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "메가프로젝트",
+        "민관합동 점검회의",
+        "중소기업 상생",
+        "반도체 투자"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "중소벤처기업부",
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "지역·인프라 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T08:19:03Z",
+      "updated_at": "2026-11-12T08:19:03Z",
+      "articles": [
+        {
+          "key": "e37f27dcf57b0161",
+          "title": "중기부, “메가프로젝트 성과 확산에 중소기업 역할 강화 필요”",
+          "url": "https://www.dt.co.kr/article/12094915",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-12T08:19:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0907",
+      "headline": "인텔, 국내 23개사와 K-AI 풀스택 얼라이언스 출범",
+      "summary": [
+        "인텔이 국내 기업 23곳과 한국형 AI 인프라 협력체 'K-AI 풀스택 얼라이언스'를 공식 출범시켰다.",
+        "국산 서버에 인텔 반도체를 탑재해 하드웨어부터 소프트웨어, AI 서비스까지 아우르는 구성이다.",
+        "소버린 AI와 피지컬 AI 시장 공략이 목표이며 국내 AI 주권 강화에 기여할 것으로 보인다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "K-AI 풀스택 얼라이언스",
+        "소버린 AI",
+        "피지컬 AI",
+        "인텔 서버",
+        "국산 서버"
+      ],
+      "companies": [
+        "인텔",
+        "인텔코리아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "인텔",
+        "인텔코리아"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 매체 3곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T03:00:05Z",
+      "updated_at": "2026-11-12T08:14:47Z",
+      "articles": [
+        {
+          "key": "0e65ecd785fe8c35",
+          "title": "[AI프리즘] 인텔, 한국 23개사와 AI 동맹…'AI 주권' 강화 나선다",
+          "url": "https://www.yna.co.kr/view/AKR20261112076500017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T03:00:05Z"
+        },
+        {
+          "key": "3dc5609c2fd1c42c",
+          "title": "인텔 \"한국 23개사와 손잡고 AI 주권 강화…세계 시장 진출 지원\"",
+          "url": "https://www.inews24.com/view/2025507",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T05:17:13Z"
+        },
+        {
+          "key": "3e4d2f59e2fd1be9",
+          "title": "인텔, 韓기업 23곳과 AI 동맹…국산 서버로 소버린 AI 공략",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65349",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-12T08:14:47Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261112-0939",
+      "headline": "인텔, AI 데이터센터 GPU에 LPDDR 활용 확대 추진",
+      "summary": [
+        "인텔이 AI 데이터센터용 GPU에 HBM 대신 저전력 D램(LPDDR)을 활용하는 전략을 넓히고 있다.",
+        "기사에는 구체적인 수치나 일정이 제시되지 않았으며, 차세대 메모리 협력 모색 방향이 언급됐다.",
+        "메모리 공급 제약 속에서 용량과 전력 효율을 높여 AI 추론 시장을 겨냥하는 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "LPDDR",
+        "HBM",
+        "AI추론",
+        "데이터센터 GPU"
+      ],
+      "companies": [
+        "인텔"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "인텔"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T08:04:43Z",
+      "updated_at": "2026-11-12T08:04:43Z",
+      "articles": [
+        {
+          "key": "3643c77ea5ea9122",
+          "title": "인텔 \"데이터센터 GPU에 LPDDR 활용 확대\"…차세대 메모리 협력 모색",
+          "url": "https://www.inews24.com/view/2025609",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T08:04:43Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261112-0938",
+      "headline": "미국, 중국 기업의 해외 AI 반도체 우회 사용 차단 추진",
+      "summary": [
+        "미국 정부가 중국 AI 기업의 해외 데이터센터를 통한 첨단 반도체 우회 사용을 막기 위한 규정을 마련 중이다.",
+        "중국 직접 수출뿐 아니라 해외에 설치된 반도체 사용까지 규제 대상에 포함하는 방향으로 알려졌다.",
+        "해외 클라우드를 통한 우회 경로가 막히면 AI 반도체 수출 통제의 실효성이 한층 높아질 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출규제",
+        "AI반도체",
+        "우회 수출",
+        "데이터센터"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "정책·규제·법",
+      "confirmed": false,
+      "parties": [],
+      "importance": 3,
+      "importance_reason": "정책·규제·법 4점, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T08:02:47Z",
+      "updated_at": "2026-11-12T08:02:47Z",
+      "articles": [
+        {
+          "key": "055d7db3e5f1c4d9",
+          "title": "美 정부, 中 기업의 해외 AI 반도체 우회 사용 차단 추진",
+          "url": "https://www.inews24.com/view/2025622",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T08:02:47Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0937",
+      "headline": "제너셈 3분기 흑자전환, 수주잔고 매출 1.5배",
+      "summary": [
+        "제너셈이 올해 3분기 연결 기준 매출 251억5400만원, 영업이익 25억6700만원을 공시했다.",
+        "매출은 전년 대비 59.5% 늘었고 영업손익은 지난해 3억7200만원 손실에서 흑자로 전환됐다.",
+        "상반기 수주 장비를 순차 납품한 결과로, 9월 말 수주잔고가 지난해 연간 매출의 1.5배에 달해 후공정 장비 수요가 이어질 전망이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "후공정 장비",
+        "영업이익 흑자전환",
+        "수주잔고",
+        "반도체 장비"
+      ],
+      "companies": [
+        "제너셈"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "제너셈"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T08:01:55Z",
+      "updated_at": "2026-11-12T08:01:55Z",
+      "articles": [
+        {
+          "key": "4cdc549c605011f4",
+          "title": "제너셈, 3분기 수주잔고 지난해 매출 1.5배…영업익 흑자전환",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65354",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-12T08:01:55Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0936",
+      "headline": "우리은행, 코트라·무보와 소부장 기업 수입자금 지원 협약",
+      "summary": [
+        "우리은행이 코트라, 한국무역보험공사와 공급망 안정 금융지원 업무협약을 체결했다.",
+        "협약은 소부장 중소·중견기업의 원자재 수입자금 조달과 금융비용 부담 완화를 목표로 한다.",
+        "원자재 가격 변동과 공급망 불확실성 속에서 반도체·이차전지 기업의 자금 숨통을 틔운다는 의미가 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "공급망 안정",
+        "소부장",
+        "수입자금",
+        "업무협약",
+        "무역보험"
+      ],
+      "companies": [
+        "우리은행",
+        "코트라",
+        "한국무역보험공사"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "우리은행",
+        "코트라",
+        "한국무역보험공사"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T07:50:00Z",
+      "updated_at": "2026-11-12T07:50:00Z",
+      "articles": [
+        {
+          "key": "e326000e2bb6a3b2",
+          "title": "우리은행 “소재·부품·장비 기업 수입자금 걱정 덜어주겠다”",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409688",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T07:50:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0923",
+      "headline": "솔루스첨단소재 3분기 매출 1255억, 영업손실 확대",
+      "summary": [
+        "솔루스첨단소재가 3분기 매출 1255억원, 영업손실 301억원을 기록했다고 12일 밝혔다.",
+        "매출은 전년 동기 대비 83.1% 증가했고, 전지박 매출은 916억원으로 역대 최대 분기 실적을 냈다.",
+        "동박 사업 성장에도 전력비와 감가상각비 부담이 커져 적자 폭이 확대됐다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "전지박",
+        "OLED",
+        "3분기 실적",
+        "영업손실",
+        "동박"
+      ],
+      "companies": [
+        "솔루스첨단소재"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "솔루스첨단소재"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T05:13:45Z",
+      "updated_at": "2026-11-12T07:25:50Z",
+      "articles": [
+        {
+          "key": "7ae96ab61fb5ab89",
+          "title": "솔루스첨단소재, 3분기 영업손실 301억…전년비 15.9% 확대",
+          "url": "https://zdnet.co.kr/view/?no=20261112140443",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T05:13:45Z"
+        },
+        {
+          "key": "5f3e7fd698d84ffb",
+          "title": "솔루스첨단소재, 동박 사업 확대에 매출 1255억…전년비 83% ↑",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65353",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-12T07:25:50Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0903",
+      "headline": "정부, 8002억 규모 K-온디바이스 AI반도체 10종 개발 추진",
+      "summary": [
+        "산업통상부가 총 8002억원 규모의 K-온디바이스 AI반도체 기술개발 로드맵을 구체화하고 사업 추진에 속도를 낸다.",
+        "2030년까지 자율주행 AI칩 등 10종을 개발하며, 수요기업·팹리스·파운드리·IP 관계자가 참여하는 논의가 열렸다.",
+        "국내 AI반도체 생태계 육성의 기반이 마련되는 것으로, 세부 과제와 지원 대상 확정이 향후 관건이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "K-온디바이스",
+        "AI반도체",
+        "자율주행 AI칩",
+        "기술개발 로드맵"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점, 매체 4곳 보도 +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T02:00:00Z",
+      "updated_at": "2026-11-12T07:25:29Z",
+      "articles": [
+        {
+          "key": "4a74d2732e001b10",
+          "title": "정부, 국산 AI반도체 개발 속도…삼성 2나노 공정 지원",
+          "url": "https://www.inews24.com/view/2025296",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T02:00:00Z"
+        },
+        {
+          "key": "22c11fb1f1c3afcb",
+          "title": "K-온디바이스 AI반도체 속도…2030년까지 AI칩 등 10종 개발",
+          "url": "https://www.yna.co.kr/view/AKR20261112061400003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T02:00:01Z"
+        },
+        {
+          "key": "f3a2ee5d93fe5131",
+          "title": "K-온디바이스, 2030년까지 자율주행 AI칩 등 10종 개발",
+          "url": "https://zdnet.co.kr/view/?no=20261112092039",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T02:00:02Z"
+        },
+        {
+          "key": "5cdc7ffcae5c1272",
+          "title": "K-온디바이스 AI반도체 속도…2030년까지 AI칩 등 10종 개발",
+          "url": "https://www.dt.co.kr/article/12094887",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-12T07:25:29Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0935",
+      "headline": "OLED-Info 모바일 앱 출시, 무료 제공",
+      "summary": [
+        "OLED-Info가 iPhone과 Android용 전용 앱을 무료로 출시했다.",
+        "앱은 매일의 OLED 뉴스 확인, 알림, 그리고 Pro 회원용 보고서와 데이터 기능을 제공한다.",
+        "디스플레이 업계 종사자의 뉴스 소비 방식에 맞춘 서비스로, 업계 정보 접근성을 높이는 의미가 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "OLED-Info",
+        "모바일 앱",
+        "뉴스 알림",
+        "Pro 리포트"
+      ],
+      "companies": [
+        "OLED-Info"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "OLED-Info"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T07:02:44Z",
+      "updated_at": "2026-11-12T07:02:44Z",
+      "articles": [
+        {
+          "key": "fc35e4e32f44db52",
+          "title": "The OLED-Info app is here: daily OLED news, alerts and Pro intelligence on your phone",
+          "url": "https://www.oled-info.com/oled-info-app-announcement-2026-11",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-12T07:02:44Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261112-0934",
+      "headline": "젠슨 황 이미지 흔들, 한국 투자자 우려 확산",
+      "summary": [
+        "엔비디아 CEO 젠슨 황의 사생활 관련 논란이 제기되며 그간 쌓아온 한국 내 호감도가 흔들렸다.",
+        "기사에는 그의 불륜 의혹 관련 보도와 본인이 이를 일부 인정했다는 내용이 담겼으나 구체적 경위는 확인되지 않았다.",
+        "한국 투자자들은 엔비디아 경영 불확실성이 회사 가치에 미칠 영향을 우려하고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "엔비디아",
+        "기업 리스크",
+        "경영 불확실성"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T06:57:45Z",
+      "updated_at": "2026-11-12T06:57:45Z",
+      "articles": [
+        {
+          "key": "f69c13bfdedf5f5a",
+          "title": "From chimaek to scandal: Jensen Huang's star loses luster in Korea",
+          "url": "https://www.koreaherald.com/article/10935375",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-12T06:57:45Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
+    {
+      "id": "c20261112-0933",
+      "headline": "샤프, LCD 컬러필터 공장 니토덴코에 매각",
+      "summary": [
+        "샤프가 LCD 컬러필터 공장을 니토덴코에 222억 엔에 매각하기로 했다고 보도됐다.",
+        "기사 본문이 거의 없어 매각 일정과 세부 조건은 확인되지 않는다.",
+        "LCD 사업 구조조정과 생산설비 정리 흐름을 보여주는 사례로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "LCD",
+        "컬러필터",
+        "공장 매각",
+        "사업 구조조정"
+      ],
+      "companies": [
+        "샤프",
+        "니토덴코"
+      ],
+      "event_type": "인수합병",
+      "confirmed": false,
+      "parties": [
+        "샤프",
+        "니토덴코"
+      ],
+      "importance": 1,
+      "importance_reason": "인수합병 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T06:55:00Z",
+      "updated_at": "2026-11-12T06:55:00Z",
+      "articles": [
+        {
+          "key": "1e5cafc0cb971c5f",
+          "title": "Sharp sells LCD color filter plant to Nitto Denko for JPY22.2B",
+          "url": "https://www.digitimes.com/news/a20261112PD232/sharp-plant-nitto-denko-lcd-business.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T06:55:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261112-0932",
+      "headline": "호남 반도체 클러스터, 투자 이행과 인력 확보가 관건",
+      "summary": [
+        "호남권 반도체 클러스터 성공 조건으로 기업 투자 이행, 지역경제 파급효과, 전문인력 양성이 제시됐다.",
+        "기사 본문이 짧게 잘려 있어 구체적 투자 규모나 일정은 확인되지 않는다.",
+        "지역 산업 생태계 구축을 위해 인력과 인프라 확보가 핵심 과제로 부각된 상황이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "호남 반도체 클러스터",
+        "투자 이행",
+        "전문인력 양성",
+        "지역경제"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T06:54:13Z",
+      "updated_at": "2026-11-12T06:54:13Z",
+      "articles": [
+        {
+          "key": "6a62c94fcebf1e0a",
+          "title": "호남 반도체 성공 조건…투자 이행·인력·상생 '숙제'",
+          "url": "https://www.yna.co.kr/view/AKR20261112139300054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T06:54:13Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261112-0931",
+      "headline": "중국 언론, 젠슨 황 발언 시점 의문 제기",
+      "summary": [
+        "중국 언론이 칩 규제 국면에서 젠슨 황 엔비디아 CEO의 주장이 나온 시점에 의문을 제기했다.",
+        "기사 본문이 사실상 비어 있어 구체적 발언 내용과 규제 세부 사항은 확인되지 않는다.",
+        "다만 대중 칩 규제를 둘러싼 논쟁이 이어지고 있음을 보여, 엔비디아의 중국 사업 환경에 영향을 줄 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "칩 규제",
+        "대중 수출통제",
+        "젠슨 황 발언",
+        "중국 언론"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "칼럼·인터뷰",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 1,
+      "importance_reason": "칼럼·인터뷰 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T06:44:54Z",
+      "updated_at": "2026-11-12T06:44:54Z",
+      "articles": [
+        {
+          "key": "a2e366e6bcdf49ee",
+          "title": "Chinese media question timing of Huang allegations amid chip controls",
+          "url": "https://www.digitimes.com/news/a20261112PD221/nvidia-apec-ceo-policy-technology.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T06:44:54Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
+    {
+      "id": "c20261112-0930",
+      "headline": "메모리 품귀에 중고 칩 재활용 스마트폰 확산 전망",
+      "summary": [
+        "메모리 가격 급등으로 일부 저가 스마트폰 업체가 중고 메모리 칩을 재활용하고 있다.",
+        "TrendForce는 2027년 출하 스마트폰의 7~9%에 재활용(리볼링) 메모리가 쓰일 것으로 추정했으며, 올해는 3~4%로 봤다.",
+        "주로 구형 LPDDR4X 4GB 칩이 쓰이며, 메모리 공급 부족이 비용 구조와 저가 기기 설계에 영향을 주고 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "메모리 품귀",
+        "리볼링",
+        "LPDDR4X",
+        "중고 칩",
+        "저가 스마트폰"
+      ],
+      "companies": [
+        "TrendForce"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T06:27:38Z",
+      "updated_at": "2026-11-12T06:27:38Z",
+      "articles": [
+        {
+          "key": "9bb0a25f60f859b2",
+          "title": "How bad is the memory crunch? New phones now use secondhand chips",
+          "url": "https://www.koreaherald.com/article/10935338",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-12T06:27:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0929",
+      "headline": "중국 eSSD 주문 축소, 삼성·SK 미국 공급 확대",
+      "summary": [
+        "중국 주요 AI 기업들이 eSSD 주문을 줄이면서 삼성전자·SK하이닉스가 해당 물량을 미국 고객사에 재배정하기로 했다.",
+        "AI 반도체 수출 규제로 함께 탑재되는 메모리 수요가 줄었고, 중국향 감소분은 미국 데이터센터 기업이 흡수할 예정이다.",
+        "낸드 공급난이 글로벌하게 이어져 전체 수요 영향은 제한적이며, 국내 기업에는 미국향 공급 확대가 긍정적이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "eSSD",
+        "낸드",
+        "오더 컷",
+        "AI반도체 수출규제",
+        "데이터센터"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "엔비디아",
+        "알리바바",
+        "바이두",
+        "텐센트"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(SK하이닉스, 삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T06:20:45Z",
+      "updated_at": "2026-11-12T06:20:45Z",
+      "articles": [
+        {
+          "key": "ad695f3492033ef0",
+          "title": "中, AI칩 수급난에 eSSD '주문 축소'…삼성·SK, 美 공급 비중 늘린다",
+          "url": "https://zdnet.co.kr/view/?no=20261112144609",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T06:20:45Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261110-0716",
+      "headline": "인피니언, 300mm SiC 웨이퍼로 전력반도체 구현 성공",
+      "summary": [
+        "인피니언이 업계 최초로 300mm 실리콘카바이드 웨이퍼에서 실제 동작하는 전력 디바이스를 구현했다고 발표했다.",
+        "오스트리아 빌라흐 공장에서 가공에 성공했으며, 300mm 웨이퍼는 200mm 대비 웨이퍼당 칩 수가 2.3배 많다.",
+        "200mm 중심이던 SiC 생산을 대구경으로 확대할 기술 기반을 마련해 전력반도체 생산 효율 향상이 기대된다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "300mm SiC",
+        "전력반도체",
+        "실리콘카바이드",
+        "웨이퍼 대구경화"
+      ],
+      "companies": [
+        "인피니언"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "인피니언"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점, 매체 3곳 보도 +1 → 5점(최고점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-10T01:04:14Z",
+      "updated_at": "2026-11-12T06:20:09Z",
+      "articles": [
+        {
+          "key": "2f2d6a60b61a4c5f",
+          "title": "Infineon Processes Functional Power Devices on 300mm SiC Wafers",
+          "url": "https://www.semiconductor-digest.com/infineon-processes-functional-power-devices-on-300mm-sic-wafers/?utm_source=rss&utm_medium=rss&utm_campaign=infineon-processes-functional-power-devices-on-300mm-sic-wafers",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-10T01:04:14Z"
+        },
+        {
+          "key": "0b749d92108dd644",
+          "title": "Infineon says it processed functional power devices on 300mm SiC wafers",
+          "url": "https://www.digitimes.com/news/a20261111PR202/infineon-sic-300mm-silicon-2026.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-11T04:03:12Z"
+        },
+        {
+          "key": "322e07c91f5c5106",
+          "title": "인피니언, 300mm SiC 기술 구현…전력반도체 생산 효율 높인다",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409682",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T06:20:09Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 6
+    },
+    {
+      "id": "c20261112-0928",
+      "headline": "부산 이전 반도체기업 대표, 경찰 수사 장기화에 1인 시위",
+      "summary": [
+        "부산으로 본사를 이전한 전력반도체 기업 대표가 1인 시위에 나섰다.",
+        "대표는 경찰 수사가 장기화되면서 회사가 경영 위기에 처했다고 주장했다.",
+        "기사 원문이 일부만 제공되어 수사 대상과 구체적 경위는 확인되지 않는다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "전력반도체",
+        "경찰 수사",
+        "경영 위기",
+        "1인 시위",
+        "부산 이전"
+      ],
+      "companies": [],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T06:18:56Z",
+      "updated_at": "2026-11-12T06:18:56Z",
+      "articles": [
+        {
+          "key": "2d7b541e90db353b",
+          "title": "부산이전 반도체기업 대표 1인시위…\"경찰수사 장기화 경영위기\"",
+          "url": "https://www.yna.co.kr/view/AKR20261112126400051",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T06:18:56Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0927",
+      "headline": "충남도, 삼성 아산사업장 인허가 기간 단축 지원",
+      "summary": [
+        "충남도가 삼성전자 아산사업장의 공장 설립 승인과 건축허가 등 행정절차 기간을 대폭 줄이기로 했다.",
+        "행정절차 기간은 기존 10개월에서 80일로 단축되며, 기사 본문은 일부만 확인되어 세부 일정은 불명확하다.",
+        "이는 아산사업장 조기 착공을 돕는 지원책으로, 반도체 설비 투자 속도를 높일 수 있다는 의미가 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "인허가 단축",
+        "공장 설립 승인",
+        "조기 착공",
+        "아산사업장"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "지역·인프라 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T06:16:11Z",
+      "updated_at": "2026-11-12T06:16:11Z",
+      "articles": [
+        {
+          "key": "0ff908c9c8a3481d",
+          "title": "삼성 아산공장 인허가 10개월→80일…충남도, 조기 착공 지원",
+          "url": "https://www.yna.co.kr/view/AKR20261112131700063",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T06:16:11Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261111-0882",
+      "headline": "엔비디아 이사회, 젠슨 황 CEO 거취 논의 착수",
+      "summary": [
+        "엔비디아 이사회가 젠슨 황 CEO의 해임 준비에 들어가고 후임 물색에도 나섰다는 보도가 나왔다.",
+        "기사에 따르면 황 CEO는 중국 스파이 의심을 받는 임원과의 불륜 사실을 시인했고, 이사회는 외부 업체와 후임 CEO 선정을 추진 중이다.",
+        "이번 사태는 AI 반도체 수요를 이끌어 온 엔비디아의 지배구조 불안으로 번져 관련 공급망에도 영향을 줄 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "젠슨 황",
+        "CEO 교체",
+        "이사회",
+        "AI 반도체",
+        "지배구조"
+      ],
+      "companies": [
+        "엔비디아",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점, 매체 5곳 보도 +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-11T23:21:46Z",
+      "updated_at": "2026-11-12T06:08:58Z",
+      "articles": [
+        {
+          "key": "367f7f1d98c7879e",
+          "title": "[속보] WSJ \"엔비디아, 젠슨 황 CEO 해임 검토…빠르면 오늘 결론\"",
+          "url": "https://zdnet.co.kr/view/?no=20261112082127",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-11T23:21:46Z"
+        },
+        {
+          "key": "20365821bc5b3761",
+          "title": "엔비디아 이사회, 젠슨 황 해임 준비…이르면 오늘 거취 결정",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65313",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-11T23:27:27Z"
+        },
+        {
+          "key": "182097f20ac8d8ee",
+          "title": "엔비디아 이사회, 젠슨 황 해임 준비…여성 임원과 불륜 의혹도",
+          "url": "https://zdnet.co.kr/view/?no=20261112084239",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-11T23:54:18Z"
+        },
+        {
+          "key": "44a0bca9a3333444",
+          "title": "Nvidia board meets on Jensen Huang's future as succession gap comes into focus",
+          "url": "https://www.digitimes.com/news/a20261112VL201/nvidia-bloomberg-jensen-huang.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T00:29:18Z"
+        },
+        {
+          "key": "4f5af31ac295c816",
+          "title": "흔들리는 엔비디아·다가오는 미국규제에 삼전닉스 '초긴장'",
+          "url": "https://www.yna.co.kr/view/AKR20261112047300003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T00:39:41Z"
+        },
+        {
+          "key": "149f32576e6ca959",
+          "title": "[속보] “엔비디아 이사회, 젠슨황 거취결정 회의 중”…‘사내 불륜’에 기류 급변",
+          "url": "https://www.dt.co.kr/article/12094773",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-12T01:50:39Z"
+        },
+        {
+          "key": "48df11c8b1e14219",
+          "title": "블룸버그 \"엔비디아 이사회, 후임 CEO 물색...임시 CEO도 거론\"",
+          "url": "https://zdnet.co.kr/view/?no=20261112135619",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T06:08:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261112-0905",
       "headline": "노타, 하이퍼엑셀 LPU용 LLM 최적화 2차 계약 체결",
@@ -195,106 +1152,6 @@
       "importance_raw": 4
     },
     {
-      "id": "c20261112-0907",
-      "headline": "인텔, 국내 23개사와 AI 동맹…AI 주권 생태계 구축",
-      "summary": [
-        "인텔이 국내 23개 기업과 손잡고 국산 서버 중심의 AI 생태계 구축에 나섰다.",
-        "국내 AI 반도체·서버·소프트웨어 기술을 결합해 소버린 AI와 피지컬 AI 협력을 넓힌다.",
-        "국내 AI 산업 자생력을 높이고 협력사의 세계 시장 진출을 지원하는 효과가 기대된다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "소버린 AI",
-        "피지컬 AI",
-        "국산 서버",
-        "AI 생태계",
-        "AI 반도체"
-      ],
-      "companies": [
-        "인텔",
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "인텔"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-12T03:00:05Z",
-      "updated_at": "2026-11-12T05:17:13Z",
-      "articles": [
-        {
-          "key": "0e65ecd785fe8c35",
-          "title": "[AI프리즘] 인텔, 한국 23개사와 AI 동맹…'AI 주권' 강화 나선다",
-          "url": "https://www.yna.co.kr/view/AKR20261112076500017",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-12T03:00:05Z"
-        },
-        {
-          "key": "3dc5609c2fd1c42c",
-          "title": "인텔 \"한국 23개사와 손잡고 AI 주권 강화…세계 시장 진출 지원\"",
-          "url": "https://www.inews24.com/view/2025507",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-12T05:17:13Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261112-0923",
-      "headline": "솔루스첨단소재 3분기 매출 증가, 적자 폭 확대",
-      "summary": [
-        "솔루스첨단소재가 3분기 연결 잠정 매출 1255억원, 영업손실 301억원을 기록했다고 밝혔다.",
-        "전지박 매출은 916억원으로 역대 최대 분기 실적을 냈고, 일부 고객사와 판가 인상 협의를 마쳤다.",
-        "전지박 판가 인상과 유럽·북미 수요 확대가 수익성 개선의 계기가 될 것으로 보인다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "전지박",
-        "OLED",
-        "판가 인상",
-        "ESS",
-        "메이드 인 유럽"
-      ],
-      "companies": [
-        "솔루스첨단소재"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "솔루스첨단소재"
-      ],
-      "importance": 3,
-      "importance_reason": "실적 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-12T05:13:45Z",
-      "updated_at": "2026-11-12T05:13:45Z",
-      "articles": [
-        {
-          "key": "7ae96ab61fb5ab89",
-          "title": "솔루스첨단소재, 3분기 영업손실 301억…전년비 15.9% 확대",
-          "url": "https://zdnet.co.kr/view/?no=20261112140443",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-12T05:13:45Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
       "id": "c20261112-0921",
       "headline": "호남 반도체 산단에 국제학교 설립 추진",
       "summary": [
@@ -336,32 +1193,30 @@
     },
     {
       "id": "c20261112-0920",
-      "headline": "삼성, 2026 나눔의 날 열어 임직원 사회공헌 성과 공유",
+      "headline": "삼성, 2026 나눔의 날 열고 나눔가게 기부금 첫 전달",
       "summary": [
-        "삼성은 12일 화성사업장에서 '2026 나눔의 날' 행사를 열고 나눔위크 사회공헌 성과를 공유했다.",
-        "나눔위크에는 관계사 임직원 10만 8000여 명이 참여했고 나눔키오스크 특별모금으로 3억원이 모였다.",
-        "임직원 참여형 CSR 프로그램의 확산을 보여주는 사례로, 지역사회 상생 모델로 자리잡고 있다."
+        "삼성은 11월 12일 화성사업장에서 2026 나눔의 날 행사를 열고 나눔위크 성과를 공유했다.",
+        "임직원들이 참여한 기부·헌혈·봉사 활동 결과가 발표됐으며, 나눔가게 기부금 전달식도 처음 진행됐다.",
+        "임직원 참여형 CSR 활동이 지역사회 취약계층 지원으로 이어지는 구조를 보여준다."
       ],
-      "category": "정책/무역",
+      "category": "실적/투자/시장",
       "tags": [
-        "사회공헌",
-        "나눔위크",
+        "나눔의 날",
         "나눔가게",
-        "헌혈캠페인"
+        "CSR",
+        "사회공헌",
+        "지역사회"
       ],
       "companies": [
-        "삼성전자",
-        "삼성전기",
-        "삼성디스플레이",
-        "삼성SDI"
+        "삼성전자"
       ],
       "event_type": "홍보·수상",
       "confirmed": true,
       "parties": [
         "삼성전자"
       ],
-      "importance": 2,
-      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자) +1 → 2점",
+      "importance": 3,
+      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자) +1, 매체 3곳 보도 +1 → 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -378,6 +1233,14 @@
           "published_at": "2026-11-12T05:00:00Z"
         },
         {
+          "key": "5c29c62bfac7026c",
+          "title": "삼성, '2026 나눔의 날' 개최…'나눔가게' 기부금 첫 전달식",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343236",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-12T05:00:00Z"
+        },
+        {
           "key": "bc4c3ccc0f6198d9",
           "title": "삼성, '2026 나눔의 날' 개최…임직원 11만명 나눔 성과 공유",
           "url": "https://zdnet.co.kr/view/?no=20261112111312",
@@ -387,7 +1250,7 @@
         }
       ],
       "type_checked": true,
-      "importance_raw": 2
+      "importance_raw": 3
     },
     {
       "id": "c20261111-0802",
@@ -1340,68 +2203,6 @@
       "importance_raw": 4
     },
     {
-      "id": "c20261112-0903",
-      "headline": "국산 온디바이스 AI반도체 10종 개발 로드맵 확정",
-      "summary": [
-        "산업통상부가 8002억원 규모 K-온디바이스 AI반도체 사업의 2030년까지 로드맵을 확정하고 10종 개발 일정을 발표했다.",
-        "자율주행·가전·로봇·드론용 칩을 풀스택으로 개발하며 가전용 칩 1종은 제조 시점을 1년 이상 앞당긴다.",
-        "수요기업의 혁신 구매자 역할과 삼성전자 2나노 등 파운드리 우선 배정, IP 지원으로 국내 팹리스 부담을 낮출 전망이다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "온디바이스 AI",
-        "AI반도체",
-        "2나노",
-        "팹리스",
-        "IP",
-        "M.AX 얼라이언스"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 4,
-      "importance_reason": "업계 일반 2점, 관심 기업(삼성전자) +1, 매체 3곳 보도 +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-12T02:00:00Z",
-      "updated_at": "2026-11-12T02:00:02Z",
-      "articles": [
-        {
-          "key": "4a74d2732e001b10",
-          "title": "정부, 국산 AI반도체 개발 속도…삼성 2나노 공정 지원",
-          "url": "https://www.inews24.com/view/2025296",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-12T02:00:00Z"
-        },
-        {
-          "key": "22c11fb1f1c3afcb",
-          "title": "K-온디바이스 AI반도체 속도…2030년까지 AI칩 등 10종 개발",
-          "url": "https://www.yna.co.kr/view/AKR20261112061400003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-12T02:00:01Z"
-        },
-        {
-          "key": "f3a2ee5d93fe5131",
-          "title": "K-온디바이스, 2030년까지 자율주행 AI칩 등 10종 개발",
-          "url": "https://zdnet.co.kr/view/?no=20261112092039",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-12T02:00:02Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
-    },
-    {
       "id": "c20261112-0902",
       "headline": "디스플레이 국가R&D 총괄워크샵 평창서 개최, 미래 로드맵 발표",
       "summary": [
@@ -1445,93 +2246,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261111-0882",
-      "headline": "엔비디아 이사회, 젠슨 황 CEO 거취 논의 착수",
-      "summary": [
-        "엔비디아 이사회가 젠슨 황 CEO의 해임 준비에 들어가고 후임 물색에도 나섰다는 보도가 나왔다.",
-        "기사에 따르면 황 CEO는 중국 스파이 의심을 받는 임원과의 불륜 사실을 시인했고, 이사회는 외부 업체와 후임 CEO 선정을 추진 중이다.",
-        "이번 사태는 AI 반도체 수요를 이끌어 온 엔비디아의 지배구조 불안으로 번져 관련 공급망에도 영향을 줄 수 있다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "젠슨 황",
-        "CEO 교체",
-        "이사회",
-        "AI 반도체",
-        "지배구조"
-      ],
-      "companies": [
-        "엔비디아",
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": false,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 3,
-      "importance_reason": "경영진 교체 3점, 매체 5곳 보도 +1, 미확정 -1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-11T23:21:46Z",
-      "updated_at": "2026-11-12T01:50:39Z",
-      "articles": [
-        {
-          "key": "367f7f1d98c7879e",
-          "title": "[속보] WSJ \"엔비디아, 젠슨 황 CEO 해임 검토…빠르면 오늘 결론\"",
-          "url": "https://zdnet.co.kr/view/?no=20261112082127",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-11T23:21:46Z"
-        },
-        {
-          "key": "20365821bc5b3761",
-          "title": "엔비디아 이사회, 젠슨 황 해임 준비…이르면 오늘 거취 결정",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65313",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-11T23:27:27Z"
-        },
-        {
-          "key": "182097f20ac8d8ee",
-          "title": "엔비디아 이사회, 젠슨 황 해임 준비…여성 임원과 불륜 의혹도",
-          "url": "https://zdnet.co.kr/view/?no=20261112084239",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-11T23:54:18Z"
-        },
-        {
-          "key": "44a0bca9a3333444",
-          "title": "Nvidia board meets on Jensen Huang's future as succession gap comes into focus",
-          "url": "https://www.digitimes.com/news/a20261112VL201/nvidia-bloomberg-jensen-huang.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-12T00:29:18Z"
-        },
-        {
-          "key": "4f5af31ac295c816",
-          "title": "흔들리는 엔비디아·다가오는 미국규제에 삼전닉스 '초긴장'",
-          "url": "https://www.yna.co.kr/view/AKR20261112047300003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-12T00:39:41Z"
-        },
-        {
-          "key": "149f32576e6ca959",
-          "title": "[속보] “엔비디아 이사회, 젠슨황 거취결정 회의 중”…‘사내 불륜’에 기류 급변",
-          "url": "https://www.dt.co.kr/article/12094773",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-12T01:50:39Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261112-0893",
@@ -5696,58 +6410,6 @@
           "source": "DigiTimes Asia",
           "lang": "en",
           "published_at": "2026-11-11T04:03:51Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261110-0716",
-      "headline": "인피니언, 300mm SiC 웨이퍼에서 전력소자 공정 구현",
-      "summary": [
-        "인피니언이 300mm 실리콘카바이드 웨이퍼에서 기능성 전력반도체 소자를 가공했다고 발표했다.",
-        "기사 본문이 거의 없어 구체적인 수율·양산 일정 등 세부 수치는 확인되지 않는다.",
-        "직경 확대는 SiC 생산 원가 절감과 대량 생산 기반 마련으로 이어질 수 있어 업계 관심이 크다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "SiC",
-        "300mm 웨이퍼",
-        "전력반도체",
-        "팹 전환"
-      ],
-      "companies": [
-        "인피니언"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "인피니언"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-10T01:04:14Z",
-      "updated_at": "2026-11-11T04:03:12Z",
-      "articles": [
-        {
-          "key": "2f2d6a60b61a4c5f",
-          "title": "Infineon Processes Functional Power Devices on 300mm SiC Wafers",
-          "url": "https://www.semiconductor-digest.com/infineon-processes-functional-power-devices-on-300mm-sic-wafers/?utm_source=rss&utm_medium=rss&utm_campaign=infineon-processes-functional-power-devices-on-300mm-sic-wafers",
-          "source": "Semiconductor Digest",
-          "lang": "en",
-          "published_at": "2026-11-10T01:04:14Z"
-        },
-        {
-          "key": "0b749d92108dd644",
-          "title": "Infineon says it processed functional power devices on 300mm SiC wafers",
-          "url": "https://www.digitimes.com/news/a20261111PR202/infineon-sic-300mm-silicon-2026.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-11T04:03:12Z"
         }
       ],
       "type_checked": true,
