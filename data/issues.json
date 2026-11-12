@@ -1,7 +1,582 @@
 {
   "version": 1,
-  "updated_at": "2026-11-11T23:58:16Z",
+  "updated_at": "2026-11-12T01:27:54Z",
   "issues": [
+    {
+      "id": "c20261112-0887",
+      "headline": "DB하이텍, 3분기 잠정 영업이익 900억원…전력반도체 수요 견조",
+      "summary": [
+        "DB하이텍이 2026년 3분기 잠정 실적으로 매출 4034억원, 영업이익 900억원을 공시했다.",
+        "전년 동기 대비 매출은 14%, 영업이익은 7% 증가했으며 누적 영업이익은 2622억원으로 24% 늘었다.",
+        "전력반도체 중심의 견조한 수요가 8인치 파운드리 실적 개선을 뒷받침하고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "3분기 실적",
+        "전력반도체",
+        "8인치 파운드리",
+        "누적 영업이익"
+      ],
+      "companies": [
+        "DB하이텍"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "DB하이텍"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T00:20:44Z",
+      "updated_at": "2026-11-12T01:24:00Z",
+      "articles": [
+        {
+          "key": "ed4e31e260d271d1",
+          "title": "DB하이텍, 3분기 영업이익 900억원…전력반도체 수요 지속",
+          "url": "https://www.inews24.com/view/2025317",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T00:20:44Z"
+        },
+        {
+          "key": "f681831520ca3e02",
+          "title": "DB하이텍, 3분기 누적 영업이익 2622억원…전년比 24%↑",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409656",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T01:24:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0895",
+      "headline": "충청권 메가프로젝트 착공, 삼성 온양 현장 착공식 열려",
+      "summary": [
+        "이재명 대통령이 12일 충남 아산시 삼성전자 온양캠퍼스 건설 현장의 충청권 메가프로젝트 착공식에 참석했다.",
+        "기사 본문이 짧게 잘려 있어 투자 규모와 세부 일정 등 구체적 수치는 확인되지 않는다.",
+        "반도체 생산 거점 조성과 함께 민관 협력 논의가 이어질 예정이라 지역 산업 기반에 의미가 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "충청권 메가프로젝트",
+        "착공식",
+        "온양캠퍼스",
+        "민관회의"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "지역·인프라 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T01:17:09Z",
+      "updated_at": "2026-11-12T01:17:09Z",
+      "articles": [
+        {
+          "key": "287afe8ec45b08c0",
+          "title": "李대통령, 충청권 메가프로젝트 착공식 참석…민관회의도 주재",
+          "url": "https://www.yna.co.kr/view/AKR20261112040100001",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T01:17:09Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0894",
+      "headline": "이미지스, 美 AIStorm과 Physical AI 협력 MOU",
+      "summary": [
+        "이미지스가 미국 AI 반도체 기업 AIStorm과 양해각서(MOU)를 체결했다.",
+        "양측은 공동 연구개발과 글로벌 영업·생산공급 협력을 추진하기로 했다.",
+        "Physical AI 분야 기술 경쟁력과 해외 사업 기반을 넓히는 계기가 될 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "Physical AI",
+        "MOU",
+        "AI반도체",
+        "공동 연구개발"
+      ],
+      "companies": [
+        "이미지스",
+        "AIStorm"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "이미지스",
+        "AIStorm"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T01:13:37Z",
+      "updated_at": "2026-11-12T01:13:37Z",
+      "articles": [
+        {
+          "key": "2509a3d6b1c1db3e",
+          "title": "이미지스, 美 AIStorm과 MOU 체결…Physical AI 사업 확대",
+          "url": "https://www.dt.co.kr/article/12094752",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-12T01:13:37Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0893",
+      "headline": "LG디스플레이, 임직원 기술워크숍 테크X 개최",
+      "summary": [
+        "LG디스플레이가 임직원이 참여하는 디스플레이 기술 워크숍 '테크X'를 사흘간 열었다고 알려졌다.",
+        "워크숍은 오는 13일까지 진행되며, 더 어려운 기술 과제에 도전하자는 메시지가 강조됐다.",
+        "사내 기술 역량을 결집하는 행사로, 차세대 디스플레이 기술 경쟁력 강화 방향을 보여준다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "디스플레이",
+        "기술워크숍",
+        "테크X",
+        "기술 내재화"
+      ],
+      "companies": [
+        "LG디스플레이"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(LG디스플레이) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T01:00:02Z",
+      "updated_at": "2026-11-12T01:00:02Z",
+      "articles": [
+        {
+          "key": "c0e494063d2879d8",
+          "title": "LGD, 첫 임직원 기술워크숍 '테크X'…\"더 어려운 것에 도전해야\"",
+          "url": "https://www.yna.co.kr/view/AKR20261112033500003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T01:00:02Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0892",
+      "headline": "LG디스플레이, R&D·AX 중심 기술 기업 전환 가속",
+      "summary": [
+        "LG디스플레이가 기술 경쟁력 강화와 인공지능 전환(AX)을 통한 업무 혁신에 속도를 내고 있다.",
+        "중국 디스플레이 업체의 추격에 대응해 차별화 기술을 확보하고 연구개발 중심 조직 역량을 키우는 전략이다.",
+        "기사 본문이 짧아 구체적 수치와 일정은 확인되지 않으며, 디스플레이 업계의 기술 경쟁 구도 변화를 보여준다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "LG디스플레이",
+        "R&D",
+        "인공지능 전환(AX)",
+        "중국 디스플레이 추격",
+        "차별화 기술"
+      ],
+      "companies": [
+        "LG디스플레이"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 관심 기업(LG디스플레이) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T01:00:00Z",
+      "updated_at": "2026-11-12T01:00:00Z",
+      "articles": [
+        {
+          "key": "c8c33b4941e16fac",
+          "title": "LGD, 기술 중심 회사로 체질 전환…R&D·AX 혁신 속도",
+          "url": "https://www.dt.co.kr/article/12094739",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-12T01:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261112-0891",
+      "headline": "AI칩 밀수 막을 5G 기반 위치 인증 기술 연구",
+      "summary": [
+        "텍사스A&M대 연구진이 AI 가속기의 설치 위치를 검증하는 5G 기반 인증 시스템 '5G CATS'를 발표했다.",
+        "GPU 패키지에 5G 무선 모듈과 암호 엔진을 넣고 URLLC 기지국과 연동하며, 시뮬레이션에서 99.9% 왕복 지연 편차를 2.60ms로 줄였다.",
+        "수출 통제 우회를 노린 광섬유 중계 밀수를 300km 거리에서 차단할 수 있다는 결과로, 반도체 수출 규제 집행 기술에 의미가 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI칩 밀수",
+        "수출통제",
+        "5G URLLC",
+        "위치 인증",
+        "GPU 보안"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T00:59:35Z",
+      "updated_at": "2026-11-12T00:59:35Z",
+      "articles": [
+        {
+          "key": "66e50240c5fc6d31",
+          "title": "Hardware-Based Location Checks Target AI Chip Smuggling (Texas A&M)",
+          "url": "https://semiengineering.com/hardware-based-location-checks-target-ai-chip-smuggling-texas-am/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-12T00:59:35Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261112-0890",
+      "headline": "AI 가중치를 비트 플립 공격から 지키는 키 기반 내장 ECC 기법",
+      "summary": [
+        "플로리다대 연구진이 신경망 가중치를 비트 플립 공격으로부터 보호하는 SANAI 기법을 논문으로 발표했다.",
+        "SANAI는 민감도 기반 비트 플레인 선택 방식으로 추가 패리티 저장 공간 없이 가중치를 보호한다고 설명한다.",
+        "AI 모델 하드웨어 보안 연구로, 메모리에 저장된 가중치 무결성 확보 방안으로 주목될 만하다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "비트 플립 공격",
+        "ECC",
+        "AI 가중치 보안",
+        "신경망 보호",
+        "패리티"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T00:42:18Z",
+      "updated_at": "2026-11-12T00:42:18Z",
+      "articles": [
+        {
+          "key": "d92a963cacfaaa88",
+          "title": "Embedded ECC Protects AI Weights Against Bit-Flip Attacks (University of Florida)",
+          "url": "https://semiengineering.com/embedded-ecc-protects-ai-weights-against-bit-flip-attacks-university-of-florida/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-12T00:42:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0882",
+      "headline": "엔비디아 이사회, 젠슨 황 CEO 해임 추진 보도",
+      "summary": [
+        "WSJ는 엔비디아 이사회가 젠슨 황 CEO의 해임을 추진 중이라고 11일 보도했다.",
+        "이사회는 이르면 11일 회의를 열어 거취를 논의할 예정이며, 황 CEO의 혼외관계 의혹이 배경으로 거론된다.",
+        "엔비디아 경영진 공백과 지배구조 불확실성이 커져 AI 반도체 공급 전략에 영향이 우려된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "엔비디아 지배구조",
+        "혼외관계 의혹",
+        "중국 스파이 의혹",
+        "AI반도체"
+      ],
+      "companies": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점, 매체 4곳 보도 +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-11T23:21:46Z",
+      "updated_at": "2026-11-12T00:39:41Z",
+      "articles": [
+        {
+          "key": "367f7f1d98c7879e",
+          "title": "[속보] WSJ \"엔비디아, 젠슨 황 CEO 해임 검토…빠르면 오늘 결론\"",
+          "url": "https://zdnet.co.kr/view/?no=20261112082127",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-11T23:21:46Z"
+        },
+        {
+          "key": "20365821bc5b3761",
+          "title": "엔비디아 이사회, 젠슨 황 해임 준비…이르면 오늘 거취 결정",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65313",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-11T23:27:27Z"
+        },
+        {
+          "key": "182097f20ac8d8ee",
+          "title": "엔비디아 이사회, 젠슨 황 해임 준비…여성 임원과 불륜 의혹도",
+          "url": "https://zdnet.co.kr/view/?no=20261112084239",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-11T23:54:18Z"
+        },
+        {
+          "key": "44a0bca9a3333444",
+          "title": "Nvidia board meets on Jensen Huang's future as succession gap comes into focus",
+          "url": "https://www.digitimes.com/news/a20261112VL201/nvidia-bloomberg-jensen-huang.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T00:29:18Z"
+        },
+        {
+          "key": "4f5af31ac295c816",
+          "title": "흔들리는 엔비디아·다가오는 미국규제에 삼전닉스 '초긴장'",
+          "url": "https://www.yna.co.kr/view/AKR20261112047300003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T00:39:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0889",
+      "headline": "단결정 고유전체로 저전력 2D CFET 구현 가능성 제시",
+      "summary": [
+        "싱가포르국립대(NUS) 등 연구팀이 단결정 아나타제 이산화티타늄 유전체를 2D 반도체와 결합한 논문을 Nature에 발표했다.",
+        "이 구조로 열적 한계에 가까운 문턱하 스윙과 낮은 이력현상을 확인했으며, 인버터는 피코와트 이하의 정적 전력을 보였다.",
+        "초저전력 반도체 구현을 위한 2D 소재 기반 CFET 연구의 가능성을 보여준 결과로, 상용화까지는 추가 검증이 필요하다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "2D CFET",
+        "단결정 고유전체",
+        "이산화티타늄",
+        "2D 반도체",
+        "저전력 반도체"
+      ],
+      "companies": [
+        "싱가포르국립대",
+        "Nexstrom"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "싱가포르국립대"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T00:28:49Z",
+      "updated_at": "2026-11-12T00:28:49Z",
+      "articles": [
+        {
+          "key": "97ca514d65b01ca6",
+          "title": "Single-Crystal High-κ Dielectric Enables Low-Power 2D CFETs (NUS et al.)",
+          "url": "https://semiengineering.com/single-crystal-high-%ce%ba-dielectric-enables-low-power-2d-cfets-nus-et-al/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-12T00:28:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0888",
+      "headline": "LH, 광명시흥·용인 반도체 산단 보상에 2조원 추가 투입",
+      "summary": [
+        "LH가 광명시흥 공공주택지구와 용인 반도체 국가산업단지의 사업 속도를 높이기 위해 추가 자금을 투입하기로 했다.",
+        "기사 본문이 잘려 있어 투입 시점과 세부 집행 계획의 구체적 일정은 확인되지 않는다.",
+        "용인 반도체 산단의 보상과 토지 공급이 빨라지면 반도체 클러스터 조성 일정에도 영향을 줄 것으로 보인다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "용인 반도체 국가산업단지",
+        "보상",
+        "토지보상",
+        "산업단지 조성",
+        "광명시흥"
+      ],
+      "companies": [
+        "LH",
+        "삼성전자"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "LH"
+      ],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T00:22:07Z",
+      "updated_at": "2026-11-12T00:22:07Z",
+      "articles": [
+        {
+          "key": "06aa98db7d6d51bb",
+          "title": "LH, 광명시흥·용인 반도체 산단에 2조원 추가 투입…보상 속도",
+          "url": "https://www.yna.co.kr/view/AKR20261112039300003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T00:22:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0886",
+      "headline": "서울대, 퀀텀칩 직접 제작 공정교육 첫 개최",
+      "summary": [
+        "서울대 반도체공동연구소가 반도체 공정으로 퀀텀칩을 직접 만드는 교육과정을 처음 열었다.",
+        "교육은 지난 2일부터 5일까지 '제1회 양자 반도체 기본공정교육'으로 진행됐다.",
+        "양자 칩 제작 인력을 키우는 시도로, 양자컴퓨터 부품의 국내 기반 확충에 의미가 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "퀀텀칩",
+        "양자컴퓨터",
+        "반도체 공정교육",
+        "양자 반도체"
+      ],
+      "companies": [
+        "서울대학교"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "서울대학교"
+      ],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T00:16:22Z",
+      "updated_at": "2026-11-12T00:16:22Z",
+      "articles": [
+        {
+          "key": "bc0b014a52be4f34",
+          "title": "서울대 반도체공동연구소, 퀀텀칩 직접 만드는 공정교육 첫 개최",
+          "url": "https://www.inews24.com/view/2025316",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T00:16:22Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0885",
+      "headline": "슈가스AI, 검사장비용 연결 칩 사파리 양산 출시",
+      "summary": [
+        "슈가스AI가 검사장비용 영상 신호 연결 칩 사파리의 양산 제품 2종을 출시했다고 발표했다.",
+        "카메라 신호 수신 칩 MPR03K와 디스플레이 전송 칩 MPX03K이며 초당 24Gbps급 영상 신호를 처리한다.",
+        "TSMC 55nm 공정에서 생산되며 2027년 공급 확대가 예정돼 검사장비 칩 시장에 영향을 줄 전망이다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "사파리",
+        "MIPI 브리지",
+        "검사장비",
+        "55nm 공정",
+        "영상 신호 칩"
+      ],
+      "companies": [
+        "슈가스AI",
+        "TSMC"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "슈가스AI"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T00:00:00Z",
+      "updated_at": "2026-11-12T00:00:00Z",
+      "articles": [
+        {
+          "key": "9f36f08e3b834980",
+          "title": "슈가스AI, 검사장비 연결 칩 ‘사파리’ 양산 제품 출시…2027년 공급 확대",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409435",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T00:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
     {
       "id": "c20261111-0884",
       "headline": "젠슨 황 스캔들에 美 대중 반도체 규제 재가동",
@@ -186,51 +761,6 @@
           "source": "디일렉",
           "lang": "ko",
           "published_at": "2026-11-11T23:38:27Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261111-0882",
-      "headline": "엔비디아 이사회, 젠슨 황 CEO 해임 검토 보도",
-      "summary": [
-        "WSJ는 엔비디아 이사회가 젠슨 황 CEO 해임을 준비 중이며 이르면 11일 회의에서 거취를 정할 것이라고 보도했다.",
-        "황 CEO는 지난 8일 외도 사실을 인정하고 경영을 계속하겠다고 밝혔으나, 추가 의혹이 나오며 이사회 기류가 바뀐 것으로 전해졌다.",
-        "공식 발표 전 보도여서 최고경영진 교체 여부가 확정되지 않았고, AI반도체 선도기업의 리더십 변화가 시장에 미칠 영향이 주목된다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "젠슨 황",
-        "이사회",
-        "경영진 교체",
-        "외도 의혹",
-        "엔비디아"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": false,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 2,
-      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-11T23:27:27Z",
-      "updated_at": "2026-11-11T23:27:27Z",
-      "articles": [
-        {
-          "key": "20365821bc5b3761",
-          "title": "엔비디아 이사회, 젠슨 황 해임 준비…이르면 오늘 거취 결정",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65313",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-11T23:27:27Z"
         }
       ],
       "type_checked": true,
