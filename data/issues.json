@@ -1,7 +1,369 @@
 {
   "version": 1,
-  "updated_at": "2026-11-13T01:25:01Z",
+  "updated_at": "2026-11-13T02:59:29Z",
   "issues": [
+    {
+      "id": "c20261113-0999",
+      "headline": "엔비디아 젠슨 황 CEO 불명예 퇴진 보도",
+      "summary": [
+        "연합뉴스 영상 기사 제목은 젠슨 황 엔비디아 CEO가 33년 만에 불명예 퇴진했다고 전한다.",
+        "본문에는 퇴진 경위, 후임 체제, 회사 공식 발표 등 구체적 내용이 없어 사실 여부를 확인하기 어렵다.",
+        "사실이라면 AI 반도체 선두 기업의 최고경영자 교체로 업계 파장이 클 수 있어 추가 확인이 필요하다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "CEO 교체",
+        "불명예 퇴진",
+        "AI반도체"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T02:56:02Z",
+      "updated_at": "2026-11-13T02:56:02Z",
+      "articles": [
+        {
+          "key": "838f0004bb0eebda",
+          "title": "[영상] 내쫓긴 젠슨황 엔비디아 CEO…33년 만에 불명예 퇴진",
+          "url": "https://www.yna.co.kr/view/AKR20261113086000704",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T02:56:02Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261113-0998",
+      "headline": "코스피 상승 속 삼성전자·SK하이닉스 강세, 엔비디아 급락과 대조",
+      "summary": [
+        "코스피가 장 초반 2% 넘게 올라 5,400선을 넘었고, 장중 고점은 5,504.44까지 기록했다.",
+        "삼성전자와 SK하이닉스가 반도체 업종 상승을 주도했으며, 전날 미국 증시는 엔비디아 급락으로 하락했다.",
+        "미국 반도체주 약세에도 국내 반도체주가 오른 것은 투자 심리가 견조함을 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "코스피",
+        "엔비디아 급락",
+        "반도체 주가",
+        "장중 변동"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "엔비디아"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": true,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T02:08:33Z",
+      "updated_at": "2026-11-13T02:08:33Z",
+      "articles": [
+        {
+          "key": "1e3b035005c144c5",
+          "title": "Samsung, SK hynix gain over 2% despite Nvidia sell-off",
+          "url": "https://www.koreaherald.com/article/10936118",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-13T02:08:33Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261113-0997",
+      "headline": "나이스홀딩스, 아이티엠반도체 자금 수혈 위해 에이치PE와 협의",
+      "summary": [
+        "나이스홀딩스가 아이티엠반도체 정상화를 위해 외부 투자자로부터 자금을 조달하는 방안을 추진 중이다.",
+        "현재 에이치프라이빗에쿼티와 논의 중이며 지분 매각이나 제3자 배정 유상증자를 검토하고 있다.",
+        "주주총회에서 신주발행 한도와 CB 발행한도를 늘려 자금조달 여력이 확대된 것이 업계에 의미가 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "아이티엠반도체",
+        "정상화",
+        "제3자 배정 유상증자",
+        "전환사채",
+        "에이치PE"
+      ],
+      "companies": [
+        "나이스홀딩스",
+        "아이티엠반도체",
+        "에이치프라이빗에쿼티"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": false,
+      "parties": [
+        "나이스홀딩스",
+        "아이티엠반도체",
+        "에이치프라이빗에쿼티"
+      ],
+      "importance": 1,
+      "importance_reason": "재무·주주 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T02:08:02Z",
+      "updated_at": "2026-11-13T02:08:02Z",
+      "articles": [
+        {
+          "key": "668c911bc7dfb05f",
+          "title": "나이스홀딩스, 아이티엠반도체 자금수혈 추진…에이치PE 물망",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65389",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-13T02:08:02Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261113-0996",
+      "headline": "AMD, 후면 물리 공격 막는 보안 적응형 SoC 공개",
+      "summary": [
+        "AMD가 반도체 후면의 물리적 해킹을 막는 보안 특화 적응형 SoC 'AMD 버설 TR'을 공개했다.",
+        "버설 TR은 2세대 버설 AI 엣지 시리즈를 기반으로 개발됐으며 보안 정보를 보호하면서 이기종 컴퓨팅을 제공한다.",
+        "정교해지는 물리적 공격에 대응하는 하드웨어 보안 제품으로, 엣지 기기 보안 수요에 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AMD 버설 TR",
+        "적응형 SoC",
+        "물리적 보안",
+        "버설 AI 엣지"
+      ],
+      "companies": [
+        "AMD"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "AMD"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T02:00:00Z",
+      "updated_at": "2026-11-13T02:00:00Z",
+      "articles": [
+        {
+          "key": "4d9bb4aabd4d293f",
+          "title": "AMD, 반도체 후면 물리적 공격 막는다…보안 내장형 SoC 공개",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409743",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T02:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261113-0995",
+      "headline": "엔비디아 2028년 로드맵, 황 CEO 중심 체제의 과제",
+      "summary": [
+        "엔비디아가 2028년까지의 제품 로드맵을 확정했다는 보도가 나왔다.",
+        "기사 본문은 제공되지 않았고 제목만으로 로드맵 속도와 인재 체계가 황 CEO 중심이라는 점이 언급됐다.",
+        "다만 구체적 수치와 일정은 확인되지 않아, 리더십 의존도가 AI 반도체 공급 전략에 주는 영향은 추가 확인이 필요하다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엔비디아",
+        "로드맵",
+        "2028",
+        "AI반도체",
+        "리더십"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T01:56:00Z",
+      "updated_at": "2026-11-13T01:56:00Z",
+      "articles": [
+        {
+          "key": "cf803d406f26fef6",
+          "title": "Nvidia's roadmap is set through 2028, but its tempo, talent bench were built around Huang",
+          "url": "https://www.digitimes.com/news/a20261113VL208/nvidia-ceo-roadmap-2028-jensen-huang.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T01:56:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261113-0994",
+      "headline": "엔비디아 창업자 CEO 이탈, AMD·브로드컴 등 기회 노려",
+      "summary": [
+        "엔비디아 창업자 CEO가 회사를 떠난다는 소식이 보도됐다.",
+        "기사 본문은 사진 크레딧만 있어 구체적 일정과 수치는 확인되지 않는다.",
+        "AI 가속기 시장에서 경쟁사와 맞춤형 칩 업체들이 기회를 노릴 것으로 전망된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI가속기",
+        "엔비디아",
+        "AMD",
+        "브로드컴",
+        "맞춤형칩"
+      ],
+      "companies": [
+        "엔비디아",
+        "AMD",
+        "브로드컴"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T01:47:33Z",
+      "updated_at": "2026-11-13T01:47:33Z",
+      "articles": [
+        {
+          "key": "3d179c1f02cfce2b",
+          "title": "AMD, Broadcom, custom chips eye an opening as Nvidia loses its founder CEO",
+          "url": "https://www.digitimes.com/news/a20261113VL207/nvidia-amd-broadcom-jensen-huang-ceo.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T01:47:33Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261113-0993",
+      "headline": "엔비디아 CEO 사퇴 여파, 정부 GPU 공급 점검",
+      "summary": [
+        "과기정통부가 젠슨 황 엔비디아 CEO의 전격 사퇴와 관련해 13일 긴급 점검회의를 열었다.",
+        "회의는 류제명 제2차관이 주재했으며, 엔비디아 측과 직접 소통하며 한국에 공급할 GPU 상황을 점검했다.",
+        "정부는 GPU 공급 차질이 없다고 밝혀 국내 AI반도체 수급 우려를 진정시키는 모습이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "GPU 공급",
+        "젠슨 황",
+        "엔비디아 CEO 사퇴",
+        "AI반도체",
+        "긴급 점검회의"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T01:32:11Z",
+      "updated_at": "2026-11-13T01:32:11Z",
+      "articles": [
+        {
+          "key": "adce812652d52218",
+          "title": "과기정통부, 2차관 주재 긴급 점검회의⋯\"GPU 공급 차질 無\"",
+          "url": "https://www.inews24.com/view/2025867",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-13T01:32:11Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261113-0992",
+      "headline": "젠슨 황 퇴진 후 엔비디아의 AI 금융 역할 변화 우려",
+      "summary": [
+        "엔비디아 젠슨 황의 퇴진 가능성이 보도되며 AI 산업 내 엔비디아 위상이 주목받고 있다.",
+        "기사 본문은 사진 크레딧만 있어 구체적 일정과 수치는 확인되지 않는다.",
+        "AI 산업에 자금을 대는 금융자 역할과 딜 주도 역할이 분리될 수 있다는 점이 업계 시사점이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엔비디아",
+        "젠슨 황",
+        "AI 투자",
+        "경영진 교체"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T01:26:14Z",
+      "updated_at": "2026-11-13T01:26:14Z",
+      "articles": [
+        {
+          "key": "5cb91def7c392715",
+          "title": "Huang's exit leaves Nvidia's role as the AI industry's financier without its dealmaker",
+          "url": "https://www.digitimes.com/news/a20261113VL206/nvidia-jensen-huang-ceo-chips-funding.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T01:26:14Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261113-0987",
       "headline": "인텔 GPU, 농협은행 비대면 본인확인 AI에 투입",
@@ -49,6 +411,94 @@
       ],
       "type_checked": true,
       "importance_raw": 3
+    },
+    {
+      "id": "c20261113-0991",
+      "headline": "덕산하이메탈, 대한적십자사 회원유공장 명예대장 수상",
+      "summary": [
+        "덕산하이메탈이 울산 적십자 연차대회에서 단체 부문 회원유공장 명예대장을 받았다.",
+        "김태수 대표이사가 7개 기업·단체 수상자를 대표해 무대에 올랐고, 480여 명이 참석했다.",
+        "반도체 솔더소재 기업의 사회공헌 활동이 대외적으로 인정받은 홍보성 소식이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "회원유공장 명예대장",
+        "대한적십자사",
+        "사회공헌",
+        "솔더소재"
+      ],
+      "companies": [
+        "덕산하이메탈"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "덕산하이메탈"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T01:16:58Z",
+      "updated_at": "2026-11-13T01:16:58Z",
+      "articles": [
+        {
+          "key": "e45476613a02e453",
+          "title": "덕산하이메탈, 대한적십자사 '회원유공장 명예대장' 수상",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65382",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-13T01:16:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261113-0990",
+      "headline": "엔비디아 임시 CEO 크레스, 황 이후 체제 논의 속 안정 강조",
+      "summary": [
+        "엔비디아의 콜레트 크레스 임시 CEO가 이사회의 후임 검토와 맞물려 안정을 우선시하겠다는 뜻을 밝힌 것으로 전해졌다.",
+        "기사 본문은 사진 출처 표기만 남아 있어 구체적인 발언 내용과 일정, 수치는 확인되지 않는다.",
+        "CEO 공백과 후계 구도는 AI 반도체 수요를 이끄는 엔비디아의 경영 방향에 영향을 줄 수 있어 업계가 주시할 사안이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엔비디아",
+        "임시 CEO",
+        "경영진 교체",
+        "AI반도체"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T01:13:58Z",
+      "updated_at": "2026-11-13T01:13:58Z",
+      "articles": [
+        {
+          "key": "001b708b6cae164a",
+          "title": "Nvidia's interim CEO Colette Kress signals stability first as board weighs future after Huang",
+          "url": "https://www.digitimes.com/news/a20261113VL205/nvidia-ceo-jensen-huang-technology-president.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T01:13:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261113-0986",
@@ -131,6 +581,58 @@
           "source": "연합뉴스",
           "lang": "ko",
           "published_at": "2026-11-13T00:59:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261113-0983",
+      "headline": "TCL, 성수동 체험 팝업으로 게이밍·디스플레이 알려",
+      "summary": [
+        "TCL이 11월 20일부터 22일까지 서울 성수동에서 게이밍과 디스플레이 체험 팝업스토어를 운영한다.",
+        "팝업은 2개 층으로 구성되며, 1층은 게이밍 모니터 체험과 생활가전 전시, 2층은 미니 LED TV를 선보인다.",
+        "소비자 접점을 넓히는 브랜드 마케팅 행보로, 디스플레이 기술의 일상 체험 확대 의미가 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "게이밍 모니터",
+        "미니 LED TV",
+        "체험형 팝업",
+        "생활가전"
+      ],
+      "companies": [
+        "TCL"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "TCL"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T00:40:00Z",
+      "updated_at": "2026-11-13T00:51:38Z",
+      "articles": [
+        {
+          "key": "32d25739d956ab56",
+          "title": "TCL, 성수동서 체험형 팝업 개최…디스플레이 기술, 일상 속 즐거움으로",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409725",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T00:40:00Z"
+        },
+        {
+          "key": "c41f59ea32fb53e0",
+          "title": "TCL, 성수동서 게이밍·디스플레이 체험 팝업 운영",
+          "url": "https://www.etnews.com/20261113000065",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-13T00:51:38Z"
         }
       ],
       "type_checked": true,
@@ -237,51 +739,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261113-0983",
-      "headline": "TCL, 성수동 체험형 팝업으로 디스플레이 기술 공개",
-      "summary": [
-        "TCL이 20일부터 22일까지 서울 성수동 연무장길에서 체험형 팝업을 운영한다고 밝혔다.",
-        "게이밍과 최신 디스플레이 기술을 게임 및 일상 경험으로 선보이며 방문객 참여 이벤트를 마련했다.",
-        "제품 체험 중심의 브랜드 소통 행사로, 디스플레이 제품의 소비자 접점 확대 의미가 있다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "TCL",
-        "체험형 팝업",
-        "게이밍 디스플레이",
-        "성수동",
-        "브랜드 마케팅"
-      ],
-      "companies": [
-        "TCL"
-      ],
-      "event_type": "홍보·수상",
-      "confirmed": true,
-      "parties": [
-        "TCL"
-      ],
-      "importance": 1,
-      "importance_reason": "홍보·수상 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-13T00:40:00Z",
-      "updated_at": "2026-11-13T00:40:00Z",
-      "articles": [
-        {
-          "key": "32d25739d956ab56",
-          "title": "TCL, 성수동서 체험형 팝업 개최…디스플레이 기술, 일상 속 즐거움으로",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409725",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-13T00:40:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
     },
     {
       "id": "c20261113-0981",
@@ -1339,6 +1796,52 @@
       "importance_raw": 2
     },
     {
+      "id": "c20261113-0989",
+      "headline": "SuperX, SC26서 미국 전시회 데뷔…AI 인프라 공개",
+      "summary": [
+        "SuperX가 미국 SC26 전시회에 처음 참가해 풀스택 AI 인프라 솔루션을 선보인다고 발표했다.",
+        "NVIDIA 생태계에 맞춘 AI 인프라 역량과 AI 토큰 플랫폼, 아시아태평양 납품 경험을 소개할 예정이다.",
+        "반도체 업계에는 AI 서버 인프라 공급 업체의 북미 시장 진출 신호로 해석될 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 인프라",
+        "SC26",
+        "AI 토큰 플랫폼",
+        "NVIDIA 생태계",
+        "전시회"
+      ],
+      "companies": [
+        "SuperX",
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "SuperX"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T15:00:00Z",
+      "updated_at": "2026-11-12T15:00:00Z",
+      "articles": [
+        {
+          "key": "6a14e0c3dc3e5411",
+          "title": "SuperX (NASDAQ: SUPX) to Make U.S. Exhibition Debut at SC26, Showcasing Full-Stack AI Infrastructure Solutions",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343262",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-12T15:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
       "id": "c20261112-0962",
       "headline": "DB하이텍 3분기 누적 영업이익 24% 증가, 가동률 100%",
       "summary": [
@@ -1949,6 +2452,51 @@
       ],
       "type_checked": true,
       "importance_raw": 3
+    },
+    {
+      "id": "c20261113-0988",
+      "headline": "인텔, 서울서 AI 서밋 개최해 국내 AI 생태계 협력 강화",
+      "summary": [
+        "인텔은 12일 서울 코엑스에서 '2026 인텔 AI 서밋 서울'을 열어 파트너와 업계 관계자 약 1,000명이 참여했다.",
+        "행사에서는 소버린 AI, 커스텀 ASIC, 엣지 AI, 에이전틱 AI 등 5개 핵심 주제로 AI 하드웨어와 소프트웨어 전략을 공유했다.",
+        "국내 AI 인프라 협력 확대의 장으로 쓰이며 AI 산업 발전 방향을 논의한 자리라는 점에서 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 서밋",
+        "소버린 AI",
+        "커스텀 ASIC",
+        "엣지 AI",
+        "AI PC"
+      ],
+      "companies": [
+        "인텔"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "인텔"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T08:30:00Z",
+      "updated_at": "2026-11-12T08:30:00Z",
+      "articles": [
+        {
+          "key": "c61a9108856d4eee",
+          "title": "인텔코리아, ‘2026 인텔 AI 서밋 서울’ 개최…국내 AI 생태계 협력 강화",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343275",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-12T08:30:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261112-0940",
