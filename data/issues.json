@@ -1,7 +1,186 @@
 {
   "version": 1,
-  "updated_at": "2026-11-13T10:14:37Z",
+  "updated_at": "2026-11-13T11:14:32Z",
   "issues": [
+    {
+      "id": "c20261113-1039",
+      "headline": "AI 투자 확대에 어플라이드 장비 생산량 두 배 확대",
+      "summary": [
+        "어플라이드머티어리얼즈가 실적 발표에서 고객들의 장비 조기 납품 요청이 이어지고 있다고 밝혔다.",
+        "고객사들이 향후 8개 분기 수요 전망을 갱신해 공유하고 주문을 앞당겨 넣고 있으며, 내년 WFE 수요가 올해보다 30% 이상 늘 것으로 봤다.",
+        "AI 반도체와 D램, 첨단 패키징 투자 확대가 장비 업계의 중장기 수요를 뒷받침하고 있다는 신호다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI반도체",
+        "WFE",
+        "첨단 패키징",
+        "D램",
+        "장비 수요"
+      ],
+      "companies": [
+        "어플라이드머티어리얼즈"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "어플라이드머티어리얼즈"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T10:42:29Z",
+      "updated_at": "2026-11-13T10:42:29Z",
+      "articles": [
+        {
+          "key": "b1e2e965ac035d89",
+          "title": "\"장비 더 빨리 달라\"…투자 폭발에 어플라이드 생산량 두 배로",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65436",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-13T10:42:29Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261113-1038",
+      "headline": "차량 엣지 노드용 NovoGenius MCU+ 소개 기사",
+      "summary": [
+        "NOVOSENSE가 NovoGenius MCU+ 기기를 차량 엣지 노드용으로 소개하는 내용의 기사다.",
+        "기사 본문이 짧게 잘려 있어 구체적 제품 사양이나 수치는 확인되지 않는다.",
+        "자동차 존 아키텍처에서 말단 장치의 로컬 지능 수요를 다루는 기술 동향으로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "MCU",
+        "차량 반도체",
+        "존 아키텍처",
+        "엣지 노드"
+      ],
+      "companies": [
+        "NOVOSENSE"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "NOVOSENSE"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T10:41:03Z",
+      "updated_at": "2026-11-13T10:41:03Z",
+      "articles": [
+        {
+          "key": "1c769da4b3b1c80c",
+          "title": "How NovoGenius® MCU+ Devices Are Reshaping the Automotive Edge Node",
+          "url": "https://www.eetimes.com/how-novogenius-mcu-devices-are-reshaping-the-automotive-edge-node/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-13T10:41:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261113-1037",
+      "headline": "아이언디바이스 3분기 매출 60% 증가, 누적 154억 원",
+      "summary": [
+        "아이언디바이스가 올해 3분기 연결 기준 실적을 발표했다.",
+        "3분기 매출은 전년 동기 대비 약 60% 증가한 49억7500만 원이며, 누적 매출은 154억 원이다.",
+        "스마트파워앰프의 안정적 공급이 성장을 이끌었고, 이미 지난해 연간 매출 101억 원을 웃도는 실적으로 성장세가 이어지고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "스마트파워앰프",
+        "혼성신호 반도체",
+        "팹리스",
+        "화합물전력소자",
+        "파워 IC"
+      ],
+      "companies": [
+        "아이언디바이스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "아이언디바이스"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T09:58:26Z",
+      "updated_at": "2026-11-13T09:58:26Z",
+      "articles": [
+        {
+          "key": "20ec3641bcdafcdc",
+          "title": "아이언디바이스, 3분기 매출 전년비 60% 증가...누적 154억",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65435",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-13T09:58:26Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261113-1036",
+      "headline": "솔루스첨단소재, 3분기 OLED 소재 사상 최대 매출 기록",
+      "summary": [
+        "솔루스첨단소재가 2026년 3분기 잠정 실적에서 OLED 사업 역대 최고 분기 매출을 발표했다.",
+        "매출은 2,540만 달러로 전분기 대비 26%, 전년 동기 대비 5.6% 증가했으며, 중국 패널 고객의 스마트폰 패널 생산 재개가 배경이다.",
+        "레드 프라임 정공수송 소재와 자체 특허 HBL 소재 출하가 늘어 OLED 소재 수요 회복을 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "OLED 소재",
+        "정공수송층",
+        "HBL",
+        "AMOLED",
+        "분기 실적"
+      ],
+      "companies": [
+        "솔루스첨단소재"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "솔루스첨단소재"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T09:16:47Z",
+      "updated_at": "2026-11-13T09:16:47Z",
+      "articles": [
+        {
+          "key": "341f92691cfd65dd",
+          "title": "Solus Advanced Materials reports record quarterly OLED material sales in Q3 2026, up 26% from Q2",
+          "url": "https://www.oled-info.com/solus-advanced-materials-reports-record-quarterly-oled-material-sales-q3-2026",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-13T09:16:47Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261113-0993",
       "headline": "젠슨 황 사임에도 엔비디아 GPU 26만장 공급 유지",
@@ -193,6 +372,106 @@
       "importance_raw": 4
     },
     {
+      "id": "c20261113-1035",
+      "headline": "엔비디아 포스트 젠슨 황 시대 2035년 전망 논평",
+      "summary": [
+        "디지타임스 아시아가 엔비디아의 2035년 전망을 다룬 논평을 게재했다.",
+        "기사 본문은 사진 크레딧만 있어 구체적 수치나 일정은 확인되지 않는다.",
+        "업계 리더 교체 이후 엔비디아가 산업 주도자에서 참여자로 바뀔지에 대한 시각을 제시한다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "엔비디아",
+        "젠슨 황",
+        "2035 전망",
+        "AI반도체",
+        "리더십 승계"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T08:35:48Z",
+      "updated_at": "2026-11-13T08:35:48Z",
+      "articles": [
+        {
+          "key": "6aaf6dce08d4d117",
+          "title": "Commentary: From industry definer to industry participant? Nvidia's 2035 outlook in post-Jensen Huang Era",
+          "url": "https://www.digitimes.com/news/a20261113VL234/2035-nvidia-jensen-huang-ai-outlook.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T08:35:48Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261111-0798",
+      "headline": "딥엑스, 삼성 2나노 공정 AI칩 개발 착수",
+      "summary": [
+        "딥엑스가 삼성 2나노 공정으로 AI칩 'DX-M2'의 마스크 제작에 들어갔다고 알려졌다.",
+        "기사에 따르면 양산 목표 시점은 내년 4분기로 제시됐다.",
+        "엣지 AI 반도체의 파운드리 선단 공정 활용 사례로 시스템반도체 생태계에 의미가 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "2나노",
+        "AI반도체",
+        "DX-M2",
+        "테이프아웃",
+        "삼성 파운드리"
+      ],
+      "companies": [
+        "딥엑스",
+        "삼성전자"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "딥엑스",
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-11T00:59:35Z",
+      "updated_at": "2026-11-13T08:35:00Z",
+      "articles": [
+        {
+          "key": "39b1ed811444975a",
+          "title": "딥엑스, 삼성 2나노 칩 'DX-M2' 마스크 제작 착수...내년 4분기 양산",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65250",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-11T00:59:35Z"
+        },
+        {
+          "key": "d6d7a4e120eda51e",
+          "title": "DEEPX tapes out AI chip on Samsung's 2nm process",
+          "url": "https://www.digitimes.com/news/a20261113VL232/ai-chip-samsung-2nm-production-processor.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T08:35:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
       "id": "c20261113-1022",
       "headline": "세미파이브 3분기 신규 수주 역대 최대 경신",
       "summary": [
@@ -245,6 +524,50 @@
       "importance_raw": 3
     },
     {
+      "id": "c20261113-1034",
+      "headline": "마스반도체, 2027년 하반기 eBMC 수주 기대",
+      "summary": [
+        "마스반도체가 소폭의 매출 성장을 기록했다고 보도됐다.",
+        "기사 본문이 사실상 비어 있어 구체적 수치와 수주 규모는 확인되지 않는다.",
+        "2027년 하반기 eBMC 수주가 예상된다는 점이 업계에 전해진 소식이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "eBMC",
+        "마스반도체",
+        "수주",
+        "실적"
+      ],
+      "companies": [
+        "마스반도체"
+      ],
+      "event_type": "실적",
+      "confirmed": false,
+      "parties": [
+        "마스반도체"
+      ],
+      "importance": 2,
+      "importance_reason": "실적 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T08:15:00Z",
+      "updated_at": "2026-11-13T08:15:00Z",
+      "articles": [
+        {
+          "key": "918ac6c86c2f74d3",
+          "title": "Mars Semiconductor posts slight revenue growth, expects eBMC orders in 2H27",
+          "url": "https://www.digitimes.com/news/a20261113PD208/mars-semiconductor-revenue-growth-2026-ddr.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T08:15:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
       "id": "c20261113-1030",
       "headline": "반도체 업계 주간 동향: 300mm SiC 양산과 AI 칩 신제품 발표",
       "summary": [
@@ -293,6 +616,92 @@
       ],
       "type_checked": true,
       "importance_raw": 5
+    },
+    {
+      "id": "c20261113-1033",
+      "headline": "삼성전자, 메모리와 모바일 리더십 분리 검토",
+      "summary": [
+        "삼성전자가 메모리와 모바일 사업의 리더십을 분리하는 방안을 검토 중이라는 보도가 나왔다.",
+        "기사는 전준형 부회장과 노태문 사장의 사진만 제공하며 구체적 조직 개편 내용과 일정은 확인되지 않았다.",
+        "경영진 구조 변화가 현실화되면 메모리와 모바일 사업의 의사결정 체계에 변화가 생길 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "경영진 교체",
+        "조직 개편",
+        "메모리",
+        "모바일"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T07:55:00Z",
+      "updated_at": "2026-11-13T07:55:00Z",
+      "articles": [
+        {
+          "key": "a9ec2555da5507fa",
+          "title": "Samsung weighs separating memory and mobile leadership",
+          "url": "https://www.digitimes.com/news/a20261113VL233/samsung-mobile-development-revenue-business.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T07:55:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261113-1032",
+      "headline": "노동부 장관, 반도체 업계 근로시간 상한 논의 청취",
+      "summary": [
+        "한국 고용노동부 장관이 반도체 업계로부터 주 52시간 상한 제도에 대한 의견을 들은 것으로 보인다.",
+        "기사에는 특구 관련 협의가 지연되고 있다는 내용이 함께 언급되었으나 구체적 수치나 일정은 확인되지 않는다.",
+        "근로시간 규제 완화 여부가 반도체 인력 운영과 생산 계획에 영향을 줄 수 있어 업계의 관심이 크다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "주52시간",
+        "근로시간 특례",
+        "반도체 특구",
+        "노동 규제"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "고용노동부"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T07:37:44Z",
+      "updated_at": "2026-11-13T07:37:44Z",
+      "articles": [
+        {
+          "key": "4adf6facb24fce9c",
+          "title": "Korean labor minister hears chipmakers on 52-hour cap amid dragging special-zone talks",
+          "url": "https://www.digitimes.com/news/a20261113VL227/labor-chipmakers-staff-government-samsung.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T07:37:44Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
     },
     {
       "id": "c20261113-1029",
@@ -347,6 +756,50 @@
       ],
       "type_checked": true,
       "importance_raw": 3
+    },
+    {
+      "id": "c20261113-1031",
+      "headline": "중국 eSSD 주문, 삼성·SK하이닉스 미국 시장 기회로",
+      "summary": [
+        "중국 업체가 eSSD(기업용 SSD) 주문을 내면서 삼성전자와 SK하이닉스가 미국 시장 기회를 얻을 수 있다는 보도다.",
+        "기사 본문은 SK하이닉스가 2025년 10월 서울 SEDEX에서 AI 데이터센터용 PS1012 U.2 eSSD를 선보였다는 사진 설명뿐이다.",
+        "AI 데이터센터향 고용량 SSD 수요가 메모리 업체의 새로운 수익원이 될 수 있다는 의미가 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "eSSD",
+        "AI 데이터센터",
+        "PS1012",
+        "미국 시장",
+        "기업용 SSD"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T07:08:47Z",
+      "updated_at": "2026-11-13T07:08:47Z",
+      "articles": [
+        {
+          "key": "04c560caef1e67d0",
+          "title": "China's eSSD order opens up US market opportunity for Samsung, SK Hynix",
+          "url": "https://www.digitimes.com/news/a20261113VL225/samsung-sk-hynix-ssd-data-center-infrastructure-demand.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T07:08:47Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261113-1028",
@@ -12060,53 +12513,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261111-0798",
-      "headline": "딥엑스, 삼성 2나노로 차세대 AI칩 DX-M2 개발 진척",
-      "summary": [
-        "딥엑스가 차세대 AI 반도체 DX-M2의 칩 설계를 완료하고 마스크 제작에 들어갔다고 밝혔다.",
-        "삼성전자 2나노 SF2P 공정으로 제조되며 내년 3월 첫 실리콘 확보, 2분기 고객사 샘플 공급이 계획됐다.",
-        "2나노 파운드리 공정을 활용한 국내 팹리스의 양산 일정이 구체화된 사례로 볼 수 있다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "DX-M2",
-        "2나노",
-        "SF2P",
-        "AI반도체",
-        "테이프아웃"
-      ],
-      "companies": [
-        "딥엑스",
-        "삼성전자"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": false,
-      "parties": [
-        "딥엑스",
-        "삼성전자"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점, 관심 기업(삼성전자) +1, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-11T00:59:35Z",
-      "updated_at": "2026-11-11T00:59:35Z",
-      "articles": [
-        {
-          "key": "39b1ed811444975a",
-          "title": "딥엑스, 삼성 2나노 칩 'DX-M2' 마스크 제작 착수...내년 4분기 양산",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65250",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-11T00:59:35Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261110-0776",
