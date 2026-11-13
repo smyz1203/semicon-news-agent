@@ -1,10 +1,7 @@
 {
   "version": 1,
-  "last_success_at": "2026-11-13T15:01:50Z",
+  "last_success_at": "2026-11-13T16:01:45Z",
   "seen": {
-    "6ac5f13ceaf85d98": "2026-10-30T15:07:09Z",
-    "59a0bdc7a07f219e": "2026-10-30T15:07:09Z",
-    "286119828fbf74cf": "2026-10-30T15:07:09Z",
     "47576f4df3dc760a": "2026-10-30T17:52:54Z",
     "943143f1b8178062": "2026-10-30T19:55:46Z",
     "0d781ea6025a8aa5": "2026-10-30T20:54:01Z",
@@ -9528,7 +9525,15 @@
     "0413fde9cc4ed219": "2026-11-13T15:01:50Z",
     "bd056ffec3d0f01e": "2026-11-13T15:01:50Z",
     "424bd8598cebf5a4": "2026-11-13T15:01:50Z",
-    "a7c46b5f7ae10387": "2026-11-13T15:01:50Z"
+    "a7c46b5f7ae10387": "2026-11-13T15:01:50Z",
+    "c70d8dc1e958f7b9": "2026-11-13T16:01:45Z",
+    "bf067fceb60afbbe": "2026-11-13T16:01:45Z",
+    "69d44c731847767f": "2026-11-13T16:01:45Z",
+    "e267f4083b064f0b": "2026-11-13T16:01:45Z",
+    "c486b64704306812": "2026-11-13T16:01:45Z",
+    "9d1c9f6e54bbfb70": "2026-11-13T16:01:45Z",
+    "fe38177ae2130db0": "2026-11-13T16:01:45Z",
+    "dd43784ff7ac9019": "2026-11-13T16:01:45Z"
   },
   "sources": {
     "thelec-semi": {
@@ -9551,68 +9556,68 @@
     },
     "etnews": {
       "fail_streak": 0,
-      "last_checked_at": "2026-11-13T15:01:50Z",
-      "last_ok_at": "2026-11-13T15:01:50Z",
+      "last_checked_at": "2026-11-13T16:01:45Z",
+      "last_ok_at": "2026-11-13T16:01:45Z",
       "last_new_at": "2026-11-13T07:40:09Z"
     },
     "kipost": {
       "fail_streak": 0,
-      "last_checked_at": "2026-11-13T15:01:50Z",
-      "last_ok_at": "2026-11-13T15:01:50Z",
+      "last_checked_at": "2026-11-13T16:01:45Z",
+      "last_ok_at": "2026-11-13T16:01:45Z",
       "last_new_at": "2026-11-13T09:12:53Z"
     },
     "dt-ict": {
       "fail_streak": 0,
-      "last_checked_at": "2026-11-13T15:01:50Z",
-      "last_ok_at": "2026-11-13T15:01:50Z",
+      "last_checked_at": "2026-11-13T16:01:45Z",
+      "last_ok_at": "2026-11-13T16:01:45Z",
       "last_new_at": "2026-11-13T09:12:53Z"
     },
     "dt-industry": {
       "fail_streak": 0,
-      "last_checked_at": "2026-11-13T15:01:50Z",
-      "last_ok_at": "2026-11-13T15:01:50Z",
-      "last_new_at": "2026-11-13T09:12:53Z"
+      "last_checked_at": "2026-11-13T16:01:45Z",
+      "last_ok_at": "2026-11-13T16:01:45Z",
+      "last_new_at": "2026-11-13T16:01:45Z"
     },
     "yna-industry": {
       "fail_streak": 0,
-      "last_checked_at": "2026-11-13T15:01:50Z",
-      "last_ok_at": "2026-11-13T15:01:50Z",
-      "last_new_at": "2026-11-13T13:25:07Z"
+      "last_checked_at": "2026-11-13T16:01:45Z",
+      "last_ok_at": "2026-11-13T16:01:45Z",
+      "last_new_at": "2026-11-13T16:01:45Z"
     },
     "zdnet-kr": {
       "fail_streak": 0,
-      "last_checked_at": "2026-11-13T15:01:50Z",
-      "last_ok_at": "2026-11-13T15:01:50Z",
-      "last_new_at": "2026-11-13T13:25:07Z"
+      "last_checked_at": "2026-11-13T16:01:45Z",
+      "last_ok_at": "2026-11-13T16:01:45Z",
+      "last_new_at": "2026-11-13T16:01:45Z"
     },
     "semieng": {
       "fail_streak": 0,
-      "last_checked_at": "2026-11-13T15:01:50Z",
-      "last_ok_at": "2026-11-13T15:01:50Z",
+      "last_checked_at": "2026-11-13T16:01:45Z",
+      "last_ok_at": "2026-11-13T16:01:45Z",
       "last_new_at": "2026-11-13T09:12:53Z"
     },
     "toms-semi": {
       "fail_streak": 0,
-      "last_checked_at": "2026-11-13T15:01:50Z",
-      "last_ok_at": "2026-11-13T15:01:50Z",
+      "last_checked_at": "2026-11-13T16:01:45Z",
+      "last_ok_at": "2026-11-13T16:01:45Z",
       "last_new_at": "2026-11-12T16:17:19Z"
     },
     "oled-info": {
       "fail_streak": 0,
-      "last_checked_at": "2026-11-13T15:01:50Z",
-      "last_ok_at": "2026-11-13T15:01:50Z",
+      "last_checked_at": "2026-11-13T16:01:45Z",
+      "last_ok_at": "2026-11-13T16:01:45Z",
       "last_new_at": "2026-11-13T15:01:50Z"
     },
     "trendforce-semi": {
       "fail_streak": 0,
-      "last_checked_at": "2026-11-13T15:01:50Z",
-      "last_ok_at": "2026-11-13T15:01:50Z",
+      "last_checked_at": "2026-11-13T16:01:45Z",
+      "last_ok_at": "2026-11-13T16:01:45Z",
       "last_new_at": "2026-11-11T07:37:39Z"
     },
     "trendforce-display": {
       "fail_streak": 0,
-      "last_checked_at": "2026-11-13T15:01:50Z",
-      "last_ok_at": "2026-11-13T15:01:50Z",
+      "last_checked_at": "2026-11-13T16:01:45Z",
+      "last_ok_at": "2026-11-13T16:01:45Z",
       "last_new_at": "2026-10-29T09:06:49Z"
     },
     "thelec-en": {
@@ -9623,46 +9628,46 @@
     },
     "eetimes": {
       "fail_streak": 0,
-      "last_checked_at": "2026-11-13T15:01:50Z",
-      "last_ok_at": "2026-11-13T15:01:50Z",
+      "last_checked_at": "2026-11-13T16:01:45Z",
+      "last_ok_at": "2026-11-13T16:01:45Z",
       "last_new_at": "2026-11-13T15:01:50Z"
     },
     "digitimes": {
       "fail_streak": 0,
-      "last_checked_at": "2026-11-13T15:01:50Z",
-      "last_ok_at": "2026-11-13T15:01:50Z",
+      "last_checked_at": "2026-11-13T16:01:45Z",
+      "last_ok_at": "2026-11-13T16:01:45Z",
       "last_new_at": "2026-11-13T11:14:32Z"
     },
     "koreaherald": {
       "fail_streak": 0,
-      "last_checked_at": "2026-11-13T15:01:50Z",
-      "last_ok_at": "2026-11-13T15:01:50Z",
+      "last_checked_at": "2026-11-13T16:01:45Z",
+      "last_ok_at": "2026-11-13T16:01:45Z",
       "last_new_at": "2026-11-13T15:01:50Z"
     },
     "thelec": {
       "fail_streak": 0,
-      "last_checked_at": "2026-11-13T15:01:50Z",
-      "last_ok_at": "2026-11-13T15:01:50Z",
+      "last_checked_at": "2026-11-13T16:01:45Z",
+      "last_ok_at": "2026-11-13T16:01:45Z",
       "last_new_at": "2026-11-13T13:25:07Z"
     },
     "inews24-it": {
       "fail_streak": 0,
-      "last_checked_at": "2026-11-13T15:01:50Z",
-      "last_ok_at": "2026-11-13T15:01:50Z",
+      "last_checked_at": "2026-11-13T16:01:45Z",
+      "last_ok_at": "2026-11-13T16:01:45Z",
       "last_new_at": "2026-11-13T15:01:50Z"
     },
     "epnc": {
       "fail_streak": 0,
-      "last_checked_at": "2026-11-13T15:01:50Z",
-      "last_ok_at": "2026-11-13T15:01:50Z",
+      "last_checked_at": "2026-11-13T16:01:45Z",
+      "last_ok_at": "2026-11-13T16:01:45Z",
       "last_new_at": "2026-11-13T11:14:32Z"
     },
     "semidigest": {
       "fail_streak": 0,
-      "last_checked_at": "2026-11-13T15:01:50Z",
-      "last_ok_at": "2026-11-13T15:01:50Z",
+      "last_checked_at": "2026-11-13T16:01:45Z",
+      "last_ok_at": "2026-11-13T16:01:45Z",
       "last_new_at": "2026-11-12T23:55:26Z"
     }
   },
-  "issue_seq": 1042
+  "issue_seq": 1043
 }
