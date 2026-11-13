@@ -1,7 +1,147 @@
 {
   "version": 1,
-  "updated_at": "2026-11-13T13:25:07Z",
+  "updated_at": "2026-11-13T15:01:50Z",
   "issues": [
+    {
+      "id": "c20261113-1042",
+      "headline": "electronica 2026, 칩 업체들 시스템·플랫폼 단위로 확장",
+      "summary": [
+        "electronica 2026에서 주요 칩 업체들이 시스템·플랫폼 관점의 접근을 강조했다.",
+        "기사 본문이 짧게 잘려 있어 구체적인 제품명·수치·일정은 확인되지 않는다.",
+        "데이터센터와 피지컬 AI, 엣지 AI로의 수요 확대가 칩 업계의 전략 방향 변화를 보여준다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "피지컬 AI",
+        "엣지 AI",
+        "하드웨어-소프트웨어 통합",
+        "데이터센터",
+        "electronica 2026"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T14:47:27Z",
+      "updated_at": "2026-11-13T14:47:27Z",
+      "articles": [
+        {
+          "key": "bd056ffec3d0f01e",
+          "title": "electronica 2026: Chipmakers Move Up the Stack as Data Centers and Physical AI Take Center Stage",
+          "url": "https://www.eetimes.com/electronica-2026-chipmakers-move-up-the-stack-as-data-centers-and-physical-ai-take-center-stage/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-13T14:47:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261111-0845",
+      "headline": "삼성D·LGD, 2027년 모니터 OLED 패널 가격 인상 추진",
+      "summary": [
+        "삼성디스플레이와 LG디스플레이가 2027년 모니터용 OLED 패널 가격을 올릴 계획이라고 시장조사기관 시그마인텔이 밝혔다.",
+        "두 회사는 원가 상승으로 2027년 모니터 OLED 패널 출하 목표도 함께 낮췄으며, 메모리 가격 급등이 원인으로 꼽혔다.",
+        "AI 수요로 GPU·그래픽 메모리 공급이 빠듯해지면서 모니터 시장 전반에 압박이 커지고 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "모니터 OLED",
+        "패널 가격 인상",
+        "메모리 가격 급등",
+        "스케일러 IC",
+        "출하 목표 하향"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "LG디스플레이"
+      ],
+      "event_type": "가격 동향",
+      "confirmed": false,
+      "parties": [
+        "삼성디스플레이",
+        "LG디스플레이"
+      ],
+      "importance": 3,
+      "importance_reason": "가격 동향 3점, 관심 기업(LG디스플레이, 삼성디스플레이) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-11T07:27:39Z",
+      "updated_at": "2026-11-13T14:00:05Z",
+      "articles": [
+        {
+          "key": "725e8504f440b40c",
+          "title": "\"삼성D·LGD, 내년 모니터 OLED 가격 인상\"",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65272",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-11T07:27:39Z"
+        },
+        {
+          "key": "0413fde9cc4ed219",
+          "title": "Sigmaintell: Samsung Display and LG Display to raise OLED monitor panel prices in 2027, as memory costs surge",
+          "url": "https://www.oled-info.com/sigmaintell-samsung-display-and-lg-display-raise-oled-monitor-panel-prices-2027",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-13T14:00:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261113-1041",
+      "headline": "젠슨 황 엔비디아 CEO 사임에 직원 반발",
+      "summary": [
+        "젠슨 황이 33년간 이끌던 엔비디아 CEO직에서 물러난 뒤 직원들 사이에서 반발이 나온 것으로 알려졌다.",
+        "사임 전 한 엔지니어가 사내 건의함에 남긴 글에 댓글이 이어졌다는 내용이 와이어드 보도로 전해졌다.",
+        "다만 기사 본문이 짧아 사임 경위와 후임 체제 등 세부 사실은 확인되지 않아 추가 검증이 필요하다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "엔비디아",
+        "젠슨 황",
+        "CEO 사임",
+        "경영진 교체"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T13:41:21Z",
+      "updated_at": "2026-11-13T13:41:21Z",
+      "articles": [
+        {
+          "key": "08c41151861229ad",
+          "title": "엔비디아 본사 앞 꽃다발…직원들 \"젠슨 황, 돌아와요\"",
+          "url": "https://www.inews24.com/view/2026171",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-13T13:41:21Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261113-0993",
       "headline": "엔비디아 GPU 26만 장 한국 공급 계획 유지 확인",
@@ -10007,53 +10147,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261111-0845",
-      "headline": "삼성D·LGD, 내년 모니터 OLED 패널 가격 인상 계획",
-      "summary": [
-        "삼성디스플레이와 LG디스플레이가 2027년 모니터용 OLED 패널 가격 인상을 계획하고 있는 것으로 전해졌다.",
-        "시그마인텔에 따르면 재료비 부담이 커져 양사가 내년 OLED 모니터 패널 출하 목표를 하향 조정했다.",
-        "가격 인상과 출하 축소가 함께 나타나 수요 위축 우려가 커지며 모니터 OLED 시장 전망에 영향을 줄 전망이다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "모니터 OLED",
-        "패널 가격 인상",
-        "출하 목표 하향",
-        "재료비"
-      ],
-      "companies": [
-        "삼성디스플레이",
-        "LG디스플레이",
-        "시그마인텔"
-      ],
-      "event_type": "가격 동향",
-      "confirmed": false,
-      "parties": [
-        "삼성디스플레이",
-        "LG디스플레이"
-      ],
-      "importance": 3,
-      "importance_reason": "가격 동향 3점, 관심 기업(LG디스플레이, 삼성디스플레이) +1, 미확정 -1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-11T07:27:39Z",
-      "updated_at": "2026-11-11T07:27:39Z",
-      "articles": [
-        {
-          "key": "725e8504f440b40c",
-          "title": "\"삼성D·LGD, 내년 모니터 OLED 가격 인상\"",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65272",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-11T07:27:39Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261110-0759",
