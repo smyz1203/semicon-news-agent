@@ -1,7 +1,180 @@
 {
   "version": 1,
-  "updated_at": "2026-11-13T18:00:00Z",
+  "updated_at": "2026-11-13T19:10:26Z",
   "issues": [
+    {
+      "id": "c20261113-1047",
+      "headline": "애플 OLED 맥북프로 사용자 눈 피로 호소 잇따라",
+      "summary": [
+        "애플이 11월 6일 첫 OLED 노트북 맥북프로 PROLED XDR 디스플레이 모델을 출하했다.",
+        "일부 초기 구매자가 장시간 텍스트 읽기, 특히 다크 모드에서 눈 피로와 두통, 어지럼증을 호소했다.",
+        "일부는 제품을 반품하고 기존 미니 LED 맥북프로로 돌아가 OLED 노트북의 사용성 문제가 드러났다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "맥북프로",
+        "PWM 디밍",
+        "240Hz",
+        "다크 모드"
+      ],
+      "companies": [
+        "애플"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": false,
+      "parties": [
+        "애플"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T19:00:08Z",
+      "updated_at": "2026-11-13T19:00:08Z",
+      "articles": [
+        {
+          "key": "bc6b4bab2190dc3d",
+          "title": "Some users of Apple's new OLED MacBook Pro report eye strain and dizziness, blame the display's 240Hz PWM dimming",
+          "url": "https://www.oled-info.com/some-users-apples-new-oled-macbook-pro-report-eye-strain-and-dizziness-blame",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-13T19:00:08Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
+    {
+      "id": "c20261113-1046",
+      "headline": "알파 산화갈륨 박막의 전자 이동과 방열 특성 규명",
+      "summary": [
+        "일본 홋카이도대와 교토대 연구팀이 알파 산화갈륨 박막에 게르마늄을 첨가해 전기·열 특성을 분석했다.",
+        "연구팀은 mist CVD로 박막을 만들고 게르마늄 양을 바꿔 전자 농도에 따른 전기 및 열 전달 변화를 측정했다.",
+        "고내압 전력 반도체 소재로서 전자 이동과 방열 성능을 이해하는 기초 연구 성과라는 의미가 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "알파 산화갈륨",
+        "전력 반도체",
+        "게르마늄 도핑",
+        "방열",
+        "mist CVD"
+      ],
+      "companies": [
+        "홋카이도대학",
+        "교토대학"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T18:32:36Z",
+      "updated_at": "2026-11-13T18:32:36Z",
+      "articles": [
+        {
+          "key": "d226f522a05d7fae",
+          "title": "New Insights Into a Promising Material for Next-Generation Electronics",
+          "url": "https://www.semiconductor-digest.com/new-insights-into-a-promising-material-for-next-generation-electronics/?utm_source=rss&utm_medium=rss&utm_campaign=new-insights-into-a-promising-material-for-next-generation-electronics",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-13T18:32:36Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261113-1045",
+      "headline": "어플라이드머티리얼즈, 사상 최대 실적 달성",
+      "summary": [
+        "어플라이드머티리얼즈가 2026 회계연도 4분기와 연간 실적을 발표했다.",
+        "4분기 매출은 104.1억 달러로 사상 최대이며, 연간 매출은 344.5억 달러를 기록했다.",
+        "장비 업황 회복 속에 반도체 장비 수요가 강세를 보이고 있음을 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "실적 발표",
+        "사상 최대 매출",
+        "반도체 장비",
+        "주주환원"
+      ],
+      "companies": [
+        "어플라이드머티리얼즈"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "어플라이드머티리얼즈"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T18:27:10Z",
+      "updated_at": "2026-11-13T18:27:10Z",
+      "articles": [
+        {
+          "key": "d630b2b065d2ae77",
+          "title": "Applies Materials Introduces VeritySEM 20; Adds Intel to EPIC Center Partnerships",
+          "url": "https://www.semiconductor-digest.com/applies-materials-introduces-veritysem-20-adds-intel-to-epic-center-partnerships/?utm_source=rss&utm_medium=rss&utm_campaign=applies-materials-introduces-veritysem-20-adds-intel-to-epic-center-partnerships",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-13T18:27:10Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261113-1044",
+      "headline": "노바스코샤, 웨이퍼 팹 대신 마이크로일렉트로닉스 통합 노린다",
+      "summary": [
+        "노바스코샤가 웨이퍼 팹 유치보다 반도체·마이크로일렉트로닉스 조립 역량 확보에 무게를 두는 방향이 소개됐다.",
+        "기사 본문이 짧게 잘려 있어 구체적인 투자 규모, 기업명, 일정은 확인되지 않는다.",
+        "웨이퍼 팹보다 지역 경제에 맞는 산업 구성을 고민하는 사례로, 후공정·패키징 중심 지역 전략에 참고가 될 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "마이크로일렉트로닉스",
+        "웨이퍼 팹",
+        "반도체 조립",
+        "지역 산업 전략"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T18:00:00Z",
+      "updated_at": "2026-11-13T18:00:00Z",
+      "articles": [
+        {
+          "key": "d0f0f5f3b9d71e24",
+          "title": "Nova Scotia Bets on Microelectronics Integration, Not Chip Fabs",
+          "url": "https://www.eetimes.com/nova-scotia-bets-on-microelectronics-integration-not-chip-fabs/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-13T18:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261113-1043",
       "headline": "AI 우려 속 삼성전자 주가 변동, 실적 기대는 유지",
