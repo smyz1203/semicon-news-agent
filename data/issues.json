@@ -1,7 +1,91 @@
 {
   "version": 1,
-  "updated_at": "2026-11-13T12:09:48Z",
+  "updated_at": "2026-11-13T13:25:07Z",
   "issues": [
+    {
+      "id": "c20261113-0993",
+      "headline": "엔비디아 GPU 26만 장 한국 공급 계획 유지 확인",
+      "summary": [
+        "엔비디아가 한국 기업과 협력해 최대 26만 장의 GPU를 국내에 배치하는 계획을 재확인했다.",
+        "과기정통부 장관은 젠슨 황 CEO 사임과 무관하게 공급과 협력이 계속된다고 밝혔다.",
+        "AI 팩토리 구축을 위한 대규모 GPU 공급이 국내 AI 인프라 확충에 의미가 크다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "GPU",
+        "AI 팩토리",
+        "엔비디아",
+        "AI 인프라"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 매체 4곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-13T01:32:11Z",
+      "updated_at": "2026-11-13T12:43:14Z",
+      "articles": [
+        {
+          "key": "adce812652d52218",
+          "title": "과기정통부, 2차관 주재 긴급 점검회의⋯\"GPU 공급 차질 無\"",
+          "url": "https://www.inews24.com/view/2025867",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-13T01:32:11Z"
+        },
+        {
+          "key": "e6efcbcb332e9d1f",
+          "title": "젠슨 황 없는 엔비디아…한국 GPU 26만장 공급 약속 유지",
+          "url": "https://www.yna.co.kr/view/AKR20261113155400017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T08:20:46Z"
+        },
+        {
+          "key": "49e305866b748de9",
+          "title": "젠슨 황 사임에 정부 긴급 점검…GPU 공급·협력 유지 총력(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261113155451017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T08:50:50Z"
+        },
+        {
+          "key": "3579224134345597",
+          "title": "젠슨 황 사임해도…과기정통부 “한국 GPU 26만 장 공급·협력 차질 없다”",
+          "url": "https://www.dt.co.kr/article/12095060",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-13T09:04:55Z"
+        },
+        {
+          "key": "1c82eebdf51eb5a1",
+          "title": "배경훈 부총리 \"젠슨 황 사임에도 GPU 공급·협력 계속\"",
+          "url": "https://www.inews24.com/view/2026126",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-13T09:06:41Z"
+        },
+        {
+          "key": "c87cea918963c6dc",
+          "title": "Nvidia confirms planned supply of GPUs to S. Korea despite Jensen Huang's resignation: science minister",
+          "url": "https://www.koreaherald.com/article/10936791",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-13T12:43:14Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
     {
       "id": "c20261113-1040",
       "headline": "딥엑스, 삼성 2나노로 차세대 AI칩 DX-M2 개발",
@@ -291,83 +375,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261113-0993",
-      "headline": "젠슨 황 사임에도 엔비디아 GPU 26만장 공급 유지",
-      "summary": [
-        "젠슨 황 엔비디아 CEO가 갑작스럽게 사임했다.",
-        "배경훈 부총리는 엔비디아가 한국 첨단 GPU 26만장 공급과 국내 협력을 기존 발표대로 추진한다고 밝혔다.",
-        "정부는 긴급 점검에 나섰고, 대규모 GPU 공급 일정의 불확실성은 일단 낮아진 모습이다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "GPU",
-        "엔비디아",
-        "젠슨 황",
-        "GPU 26만장",
-        "AI 인프라"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 4,
-      "importance_reason": "경영진 교체 3점, 매체 3곳 보도 +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-13T01:32:11Z",
-      "updated_at": "2026-11-13T09:06:41Z",
-      "articles": [
-        {
-          "key": "adce812652d52218",
-          "title": "과기정통부, 2차관 주재 긴급 점검회의⋯\"GPU 공급 차질 無\"",
-          "url": "https://www.inews24.com/view/2025867",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-13T01:32:11Z"
-        },
-        {
-          "key": "e6efcbcb332e9d1f",
-          "title": "젠슨 황 없는 엔비디아…한국 GPU 26만장 공급 약속 유지",
-          "url": "https://www.yna.co.kr/view/AKR20261113155400017",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-13T08:20:46Z"
-        },
-        {
-          "key": "49e305866b748de9",
-          "title": "젠슨 황 사임에 정부 긴급 점검…GPU 공급·협력 유지 총력(종합)",
-          "url": "https://www.yna.co.kr/view/AKR20261113155451017",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-13T08:50:50Z"
-        },
-        {
-          "key": "3579224134345597",
-          "title": "젠슨 황 사임해도…과기정통부 “한국 GPU 26만 장 공급·협력 차질 없다”",
-          "url": "https://www.dt.co.kr/article/12095060",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-13T09:04:55Z"
-        },
-        {
-          "key": "1c82eebdf51eb5a1",
-          "title": "배경훈 부총리 \"젠슨 황 사임에도 GPU 공급·협력 계속\"",
-          "url": "https://www.inews24.com/view/2026126",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-13T09:06:41Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
     },
     {
       "id": "c20261112-0976",
