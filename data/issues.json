@@ -1,7 +1,56 @@
 {
   "version": 1,
-  "updated_at": "2026-11-13T20:05:36Z",
+  "updated_at": "2026-11-13T21:03:54Z",
   "issues": [
+    {
+      "id": "c20261113-1048",
+      "headline": "젠슨 황 스캔들, 반도체 수출통제 변수로 부상",
+      "summary": [
+        "엔비디아 젠슨 황 CEO를 둘러싼 스캔들이 사생활 논란을 넘어 반도체 산업 변수로 번지고 있다.",
+        "미국 의회에서 대중국 반도체 수출통제 강화 움직임이 다시 힘을 얻고 있는 것으로 전해졌다.",
+        "엔비디아 경영 공백 우려가 커지며 삼성전자와 SK하이닉스에도 간접적 영향이 거론된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출통제",
+        "엔비디아",
+        "젠슨 황",
+        "대중국 규제",
+        "경영 공백"
+      ],
+      "companies": [
+        "엔비디아",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "칼럼·인터뷰",
+      "confirmed": false,
+      "parties": [
+        "엔비디아",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 1,
+      "importance_reason": "칼럼·인터뷰 1점, 관심 기업(SK하이닉스, 삼성전자) +1, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T21:00:04Z",
+      "updated_at": "2026-11-13T21:00:04Z",
+      "articles": [
+        {
+          "key": "e8908da2957c19f0",
+          "title": "[이상현의 전자수첩] AI 황제의 스캔들, 삼성·SK에 어떻게 불똥 튀나",
+          "url": "https://www.dt.co.kr/article/12094956",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-13T21:00:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261113-1047",
       "headline": "애플 OLED 맥북프로 사용자 눈 피로 호소 잇따라",
