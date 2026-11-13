@@ -1,49 +1,55 @@
 {
   "version": 1,
-  "updated_at": "2026-11-13T05:13:42Z",
+  "updated_at": "2026-11-13T06:15:41Z",
   "issues": [
     {
-      "id": "c20261113-1020",
-      "headline": "삼성전자 제7노조 설립 추진, 이달 두 번째 신규 노조",
+      "id": "c20261113-1021",
+      "headline": "힘스, 日 레이저텍 독점 깨고 포토마스크 검사장비 국산화 추진",
       "summary": [
-        "삼성전자에서 제6노조 설립 신고 약 일주일 만에 제7노조 설립이 추진되고 있다.",
-        "이달 들어 두 번째 신규 노조 설립 움직임으로, 기사 본문 일부만 확인된다.",
-        "노조 설립이 잇따르며 회사 내 노사 구도 변화가 주목되는 상황이다."
+        "국내 장비업체 힘스가 일본 레이저텍이 독점해 온 대형 디스플레이용 포토마스크 검사장비 시장에 진입한다.",
+        "힘스는 올해 2~6월 삼성디스플레이 성능 평가에서 170여개 항목을 모두 통과했고 7~8월 최종 검증도 마쳤다.",
+        "연내 장비 발주가 이뤄질 것으로 보여 국산 장비의 디스플레이 공정 내재화 가능성이 커진다."
       ],
-      "category": "정책/무역",
+      "category": "장비/소재/부품",
       "tags": [
-        "노조 설립",
-        "노사관계",
-        "삼성전자"
+        "포토마스크 검사장비",
+        "대형 디스플레이",
+        "OLED",
+        "FMM",
+        "국산화"
       ],
       "companies": [
-        "삼성전자"
+        "힘스",
+        "레이저텍",
+        "삼성디스플레이"
       ],
-      "event_type": "채용·인력",
+      "event_type": "수주·공급",
       "confirmed": false,
       "parties": [
-        "삼성전자"
+        "힘스",
+        "레이저텍",
+        "삼성디스플레이"
       ],
-      "importance": 2,
-      "importance_reason": "채용·인력 2점, 관심 기업(삼성전자) +1, 미확정 -1 → 2점",
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성디스플레이) +1, 미확정 -1 → 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-11-13T05:03:27Z",
-      "updated_at": "2026-11-13T05:03:27Z",
+      "first_seen": "2026-11-13T06:01:35Z",
+      "updated_at": "2026-11-13T06:01:35Z",
       "articles": [
         {
-          "key": "45220836b2900d94",
-          "title": "삼성전자 제7노조 설립 추진…이달만 두번째 신규 노조",
-          "url": "https://www.yna.co.kr/view/AKR20261113090100003",
-          "source": "연합뉴스",
+          "key": "b4f615ff130729d8",
+          "title": "힘스, 日레이저텍 독점 깬다…대형 포토마스크 검사기 국산화",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65401",
+          "source": "디일렉",
           "lang": "ko",
-          "published_at": "2026-11-13T05:03:27Z"
+          "published_at": "2026-11-13T06:01:35Z"
         }
       ],
       "type_checked": true,
-      "importance_raw": 2
+      "importance_raw": 3
     },
     {
       "id": "c20261112-0960",
@@ -81,7 +87,7 @@
       "attempts": 0,
       "region": "both",
       "first_seen": "2026-11-12T13:56:30Z",
-      "updated_at": "2026-11-13T04:42:50Z",
+      "updated_at": "2026-11-13T05:49:54Z",
       "articles": [
         {
           "key": "dd5e9c16ac7a0932",
@@ -194,10 +200,61 @@
           "source": "ZDNet Korea",
           "lang": "ko",
           "published_at": "2026-11-13T04:42:50Z"
+        },
+        {
+          "key": "0a80aab461897d13",
+          "title": "Huang's exit could give Korean HBM makers more leverage, raise doubts over Nvidia's AI ventures",
+          "url": "https://www.koreaherald.com/article/10936449",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-13T05:49:54Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 4
+    },
+    {
+      "id": "c20261113-1020",
+      "headline": "삼성전자 제7노조 설립 추진, 이달 두 번째 신규 노조",
+      "summary": [
+        "삼성전자에서 제6노조 설립 신고 약 일주일 만에 제7노조 설립이 추진되고 있다.",
+        "이달 들어 두 번째 신규 노조 설립 움직임으로, 기사 본문 일부만 확인된다.",
+        "노조 설립이 잇따르며 회사 내 노사 구도 변화가 주목되는 상황이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "노조 설립",
+        "노사관계",
+        "삼성전자"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": false,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점, 관심 기업(삼성전자) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T05:03:27Z",
+      "updated_at": "2026-11-13T05:03:27Z",
+      "articles": [
+        {
+          "key": "45220836b2900d94",
+          "title": "삼성전자 제7노조 설립 추진…이달만 두번째 신규 노조",
+          "url": "https://www.yna.co.kr/view/AKR20261113090100003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T05:03:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261113-1019",
