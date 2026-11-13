@@ -1,7 +1,481 @@
 {
   "version": 1,
-  "updated_at": "2026-11-13T02:59:29Z",
+  "updated_at": "2026-11-13T04:08:43Z",
   "issues": [
+    {
+      "id": "c20261112-0940",
+      "headline": "정부 메가프로젝트 성과 위해 중소기업 AX 혁신 필요",
+      "summary": [
+        "정부의 반도체·AI 데이터센터·피지컬 AI 중심 메가프로젝트가 추진 중이다.",
+        "중소벤처기업부는 메가프로젝트 성과 확산을 위해 중소기업의 역할 강화가 필요하다고 강조했다.",
+        "단순 하청을 넘어선 중소기업의 AX(인공지능 전환) 혁신이 프로젝트 성공의 관건으로 제시됐다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "메가프로젝트",
+        "AX 혁신",
+        "중소기업",
+        "AI 데이터센터",
+        "피지컬 AI"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "중소벤처기업부"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T08:19:03Z",
+      "updated_at": "2026-11-13T04:00:01Z",
+      "articles": [
+        {
+          "key": "e37f27dcf57b0161",
+          "title": "중기부, “메가프로젝트 성과 확산에 중소기업 역할 강화 필요”",
+          "url": "https://www.dt.co.kr/article/12094915",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-12T08:19:03Z"
+        },
+        {
+          "key": "196f631c83c8c024",
+          "title": "\"메가프로젝트 성공 위해 中企 AX 혁신 필요…단순 하청 경계\"",
+          "url": "https://www.yna.co.kr/view/AKR20261113070100030",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T04:00:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261113-1005",
+      "headline": "어플라이드 머티어리얼즈, AI 수요로 사상 최대 실적 달성",
+      "summary": [
+        "어플라이드 머티어리얼즈가 회계연도 2026년 4분기 및 연간 실적을 발표했다.",
+        "4분기 글로벌 매출은 104억1000만 달러로 전년 대비 53% 증가해 분기 기준 역대 최대를 기록했다.",
+        "AI 반도체 장비 수요 확대가 실적을 끌어올려 반도체 장비 업계의 호황을 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI반도체",
+        "반도체 장비",
+        "사상 최대 실적",
+        "영업이익",
+        "매출총이익률"
+      ],
+      "companies": [
+        "어플라이드 머티어리얼즈"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "어플라이드 머티어리얼즈"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-13T02:15:38Z",
+      "updated_at": "2026-11-13T04:00:00Z",
+      "articles": [
+        {
+          "key": "5fefdfa34f317268",
+          "title": "Applied Materials posts record fourth-quarter revenue as AI-driven chip equipment demand accelerates",
+          "url": "https://www.digitimes.com/news/a20261113VL209/applied-materials-revenue-equipment-demand-investment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T02:15:38Z"
+        },
+        {
+          "key": "93b44f86fc81d105",
+          "title": "어플라이드, 연간 영업이익 110억 달러 돌파... 사상 최대 실적",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409751",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T04:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261113-1015",
+      "headline": "영국 핵심 칩의 대만 의존 구조 조명",
+      "summary": [
+        "영국 반도체 업계 원탁회의에서 핵심 칩의 해외 의존 문제가 논의됐다.",
+        "기사에는 TT Electronics와 Nascent 측 인사가 참석한 것으로 나오며, 구체적 수치나 결정 사항은 확인되지 않는다.",
+        "영국 내 생산 칩이 대만 공급망에 얼마나 기대는지 보여주는 사례로, 공급망 리스크 관리에 시사점을 준다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "핵심 칩",
+        "공급망 의존",
+        "대만",
+        "영국 반도체",
+        "원탁회의"
+      ],
+      "companies": [
+        "TT Electronics",
+        "Nascent",
+        "TSMC"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T03:57:05Z",
+      "updated_at": "2026-11-13T03:57:05Z",
+      "articles": [
+        {
+          "key": "85cc35ec1d69aecd",
+          "title": "Exclusive: Made in Britain, enabled by Taiwan — the hidden dependencies behind critical chips",
+          "url": "https://www.digitimes.com/news/a20261113VL201/robot-taiwan-chips-manufacturing-electronics.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T03:57:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261112-0925",
+      "headline": "삼성전자, HBM 패키징 공장 개소 2028년 6월로 앞당겨",
+      "summary": [
+        "삼성전자가 아산 온양 캠퍼스의 HBM 패키징 공장 개소 시점을 2028년 6월로 앞당겼다고 전해졌다.",
+        "기사 본문은 설명이 거의 없어 공장 규모와 투자 금액 등 구체적 내용은 확인되지 않는다.",
+        "HBM 생산능력 확대 일정이 빨라진 것으로, 고대역폭 메모리 공급 경쟁에 영향을 줄 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM",
+        "패키징",
+        "온양캠퍼스",
+        "생산능력 확대"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "설비 투자 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-12T05:57:08Z",
+      "updated_at": "2026-11-13T03:46:11Z",
+      "articles": [
+        {
+          "key": "924ffefe3fbf9ca0",
+          "title": "Samsung moves up HBM packaging plant opening to June 2028",
+          "url": "https://www.digitimes.com/news/a20261112VL209/samsung-hbm-packaging-2028-plant.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T05:57:08Z"
+        },
+        {
+          "key": "1bef68c62a2a0584",
+          "title": "Samsung expands HBM packaging at Onyang as Cheonan runs short of space",
+          "url": "https://www.digitimes.com/news/a20261113VL219/samsung-hbm-packaging-production-capacity.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T03:46:11Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261113-1014",
+      "headline": "유럽 AI 야망, 전력반도체와 중국 경쟁에 달려",
+      "summary": [
+        "유럽이 AI 경쟁력 확보를 위해 전력반도체 역량과 중국 업체 대응을 핵심 과제로 삼고 있다는 보도다.",
+        "기사 본문은 사진 크레딧만 포함돼 있어 구체적인 수치나 일정, 정책 내용은 확인되지 않는다.",
+        "다만 전력반도체의 중요성이 부각되는 흐름은 국내 반도체 기업의 유럽 수요와 경쟁 구도 판단에 참고할 만하다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "전력반도체",
+        "유럽 AI",
+        "중국 경쟁",
+        "반도체 자립"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T03:41:03Z",
+      "updated_at": "2026-11-13T03:41:03Z",
+      "articles": [
+        {
+          "key": "7a16a370b53c6136",
+          "title": "Europe's AI ambitions hinge on power semiconductors, and on fending off Chinese rivals",
+          "url": "https://www.digitimes.com/news/a20261113PD226/europe-power-semiconductors-data-growth-market.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T03:41:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261111-0861",
+      "headline": "중국 대학, 미국 수출규제에도 엔비디아 칩 확보 논란",
+      "summary": [
+        "중국 대학들이 미국의 수출 통제에도 엔비디아 AI 칩을 확보한 것으로 보도됐다.",
+        "기사 기록에 따르면 군 연계 중국 대학이 블랙리스트에도 불구하고 H200 칩을 구매했다.",
+        "미국 수출 규제의 실효성과 중국 AI 반도체 수급 우회 문제가 다시 부각되는 흐름이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출규제",
+        "H200",
+        "엔비디아",
+        "블랙리스트",
+        "AI반도체"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-11T12:26:15Z",
+      "updated_at": "2026-11-13T03:24:26Z",
+      "articles": [
+        {
+          "key": "e90c20bd116d6049",
+          "title": "Military-linked Chinese university bought Nvidia H200 chips despite US blacklist, records show",
+          "url": "https://www.koreaherald.com/article/10934237",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-11T12:26:15Z"
+        },
+        {
+          "key": "db64b21d5c04c344",
+          "title": "Chinese universities obtain Nvidia chips despite US export controls",
+          "url": "https://www.digitimes.com/news/a20261112PD237/chips-nvidia-university-supplier-military.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-12T08:35:46Z"
+        },
+        {
+          "key": "9e8c6ea596be1863",
+          "title": "From personal scandal to national security probe: how Nvidia chips reached China's AI giants",
+          "url": "https://www.digitimes.com/news/a20261113VL221/nvidia-china-chips-security-deepseek.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T03:24:26Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261113-1013",
+      "headline": "북동 잉글랜드 반도체 부활, 산업 전환 딜레마 직면",
+      "summary": [
+        "북동 잉글랜드의 반도체 산업 부활 움직임을 다룬 DigiTimes 분석 기사가 보도됐다.",
+        "기사 본문은 AI 생성 삽화 설명만 포함되어 구체적 수치나 기업 사례는 확인되지 않는다.",
+        "다만 실리콘을 넘어선 지역 산업 전환의 구조적 고민을 짚으며 지역 반도체 생태계에 대한 관심을 보여준다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "북동 잉글랜드",
+        "반도체 클러스터",
+        "지역 산업 전환"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T03:22:26Z",
+      "updated_at": "2026-11-13T03:22:26Z",
+      "articles": [
+        {
+          "key": "21b8b9c63d64b388",
+          "title": "Analysis: Beyond silicon, North East England's semiconductor revival confronts an old industrial dilemma",
+          "url": "https://www.digitimes.com/news/a20261113VL200/industrial-business-silicon-manufacturing-region.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T03:22:26Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261113-1012",
+      "headline": "말레이시아, 엔비디아 GPU 중국 재수출 의혹 조사 착수",
+      "summary": [
+        "말레이시아 정부가 엔비디아 GPU의 중국 재수출 가능성을 조사하고 있으며, 메가스피드 관련 연결고리를 겨냥하고 있다.",
+        "기사 본문이 제목과 사진 설명뿐이라 조사 범위, 일정, 구체적 수치는 확인되지 않는다.",
+        "이는 AI 반도체의 우회 수출 단속과 데이터센터 규제가 강화될 수 있음을 시사해 관련 공급망에 부담이 될 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "GPU 재수출",
+        "수출규제",
+        "데이터센터 규정",
+        "엔비디아 GPU"
+      ],
+      "companies": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T03:14:14Z",
+      "updated_at": "2026-11-13T03:14:14Z",
+      "articles": [
+        {
+          "key": "2f80ebcadb166a32",
+          "title": "Malaysia probes possible Nvidia GPU re-exports to China, targets Megaspeed links with tighter data center rules",
+          "url": "https://www.digitimes.com/news/a20261113VL220/data-nvidia-gpu-ai-chip-investigation.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T03:14:14Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261113-1011",
+      "headline": "엔비디아 AI 해자, 젠슨 황 이후에도 유지될까",
+      "summary": [
+        "DigiTimes가 엔비디아의 AI 경쟁력이 젠슨 황 CEO 없이도 유지될 수 있을지 묻는 칼럼을 실었다.",
+        "기사 본문은 사진 출처 표기만 포함되어 있어 구체적인 수치나 일정은 확인되지 않는다.",
+        "업계 입장에서는 AI 반도체 리더십의 지속성을 가늠하는 논의로, 경영 리스크 관점의 참고 자료에 가깝다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 반도체",
+        "엔비디아",
+        "경영 리더십",
+        "젠슨 황",
+        "AI 해자"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "칼럼·인터뷰",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "칼럼·인터뷰 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T02:59:57Z",
+      "updated_at": "2026-11-13T02:59:57Z",
+      "articles": [
+        {
+          "key": "8268dab0c64612a3",
+          "title": "Commentary: Can Nvidia's AI moat survive without Jensen Huang?",
+          "url": "https://www.digitimes.com/news/a20261113PD228/nvidia-ceo-jensen-huang-president-market.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T02:59:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
+    {
+      "id": "c20261113-1010",
+      "headline": "AI 메모리 2028년 중반 이후 균형 전망, 연산 부품은 부족 지속",
+      "summary": [
+        "SMIC가 AI 메모리 수급이 2028년 중반 이후 균형을 찾을 수 있다고 내다봤다.",
+        "기사 본문이 제공되지 않아 구체적 수치와 일정은 제목에 나온 범위로만 파악된다.",
+        "연산 및 보조 칩은 여전히 부족할 것으로 보여 관련 공급망의 주의가 필요하다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 메모리",
+        "수급 전망",
+        "연산 칩 부족",
+        "SMIC"
+      ],
+      "companies": [
+        "SMIC"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "SMIC"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T02:58:28Z",
+      "updated_at": "2026-11-13T02:58:28Z",
+      "articles": [
+        {
+          "key": "eb7b79a9dfbd64f3",
+          "title": "AI memory may balance after mid-2028 while compute and supporting chips stay short, SMIC says",
+          "url": "https://www.digitimes.com/news/a20261113VL218/smic-chips-capacity-demand-equipment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T02:58:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261113-0999",
       "headline": "엔비디아 젠슨 황 CEO 불명예 퇴진 보도",
@@ -41,6 +515,236 @@
           "source": "연합뉴스",
           "lang": "ko",
           "published_at": "2026-11-13T02:56:02Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261113-1009",
+      "headline": "젠슨 황 전 엔비디아 CEO, 의회 증언 동의",
+      "summary": [
+        "젠슨 황 전 엔비디아 CEO가 의회에 출석해 증언하는 데 동의했다는 소식이 전해졌다.",
+        "기사 본문은 사진 출처 표기만 있어 증언 주제, 일정 등 구체적 내용은 확인되지 않는다.",
+        "다만 엔비디아 전 CEO의 의회 증언은 AI 반도체 산업에 대한 정책적 관심을 보여주는 신호로 볼 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "젠슨 황",
+        "의회 증언",
+        "AI반도체",
+        "엔비디아"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "칼럼·인터뷰",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 1,
+      "importance_reason": "칼럼·인터뷰 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T02:54:41Z",
+      "updated_at": "2026-11-13T02:54:41Z",
+      "articles": [
+        {
+          "key": "98bfce19d3d85e6b",
+          "title": "Former Nvidia CEO Jensen Huang agrees to testify before Congress",
+          "url": "https://www.digitimes.com/news/a20261113PD235/nvidia-ceo-jensen-huang-policy-business.html?chid=10",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T02:54:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
+    {
+      "id": "c20261113-1008",
+      "headline": "CSOT, 8.6세대 잉크젯 OLED 2027년 4분기 양산 계획",
+      "summary": [
+        "CSOT가 광저우 8.6세대 잉크젯 프린팅 OLED 라인을 2027년 4분기 양산 가동하겠다고 밝혔다.",
+        "라인은 이미 일부 장비가 반입됐으며, 5.5세대 라인에서는 게이밍 노트북 등으로 응용처가 확대되고 있다.",
+        "이는 제품 라인업과 생산량을 함께 늘리는 계기로, 디스플레이 업계의 차세대 OLED 경쟁에 영향을 줄 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "잉크젯 OLED",
+        "8.6세대",
+        "양산 일정",
+        "게이밍 노트북",
+        "유리기판"
+      ],
+      "companies": [
+        "CSOT",
+        "MSI",
+        "레노버"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "CSOT"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T02:51:01Z",
+      "updated_at": "2026-11-13T02:51:01Z",
+      "articles": [
+        {
+          "key": "ef49f9b27537137e",
+          "title": "CSOT \"8.6세대 잉크젯 OLED 내년 4분기 양산\"",
+          "url": "https://zdnet.co.kr/view/?no=20261113114213",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-13T02:51:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261113-1007",
+      "headline": "삼성전자, 데이터센터 냉각업체 모딘 인수 협상",
+      "summary": [
+        "삼성전자가 미국 데이터센터 냉각 업체 모딘 매뉴팩처링 인수를 협상 중이라고 블룸버그가 보도했다.",
+        "양사는 빠르면 수주 내 타결을 목표로 논의 중이나 최종 결정은 나지 않았고 결렬 가능성도 열려 있다.",
+        "AI 호황에 따른 데이터센터 열관리 수요를 겨냥한 인수로, 삼성전자의 열관리 역량 강화 행보로 풀이된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "데이터센터 냉각",
+        "열관리",
+        "인수합병",
+        "AI 데이터센터",
+        "플랙트그룹"
+      ],
+      "companies": [
+        "삼성전자",
+        "모딘 매뉴팩처링",
+        "플랙트그룹"
+      ],
+      "event_type": "인수합병",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "모딘 매뉴팩처링"
+      ],
+      "importance": 2,
+      "importance_reason": "인수합병 2점, 관심 기업(삼성전자) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T02:45:00Z",
+      "updated_at": "2026-11-13T02:45:00Z",
+      "articles": [
+        {
+          "key": "cb38488ae7db69fc",
+          "title": "블룸버그 \"삼성전자, 美 데이터센터 냉각업체 '모딘' 인수 추진\"",
+          "url": "https://zdnet.co.kr/view/?no=20261113114145",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-13T02:45:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261113-1006",
+      "headline": "SK하이닉스 HBM4 수율 70% 돌파, 삼성 패키징 증설",
+      "summary": [
+        "SK하이닉스의 HBM4 수율이 70%를 넘어섰다는 보도가 나왔고, 삼성전자는 칩 패키징 생산능력을 확대하고 있다.",
+        "기사 본문이 사실상 비어 있어 구체적인 수치와 증설 규모, 일정은 확인되지 않는다.",
+        "고대역폭 메모리 공급 경쟁이 수율과 패키징 역량 중심으로 옮겨가고 있다는 점을 보여준다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM4",
+        "수율",
+        "패키징",
+        "고대역폭메모리"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "SK하이닉스",
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점, 관심 기업(SK하이닉스, 삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T02:18:28Z",
+      "updated_at": "2026-11-13T02:18:28Z",
+      "articles": [
+        {
+          "key": "d740acefd016a040",
+          "title": "SK Hynix's HBM4 yield tops 70% as Samsung expands chip packaging capacity",
+          "url": "https://www.digitimes.com/news/a20261113VL217/sk-hynix-hbm4-production-packaging-samsung.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T02:18:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261113-1004",
+      "headline": "루트닉 상무장관, 엔비디아 칩 규제 놓고 재무부와 충돌",
+      "summary": [
+        "기사 본문이 'Credit: AFP'뿐이라 구체적 사실은 확인되지 않는다.",
+        "제목에 따르면 루트닉 상무장관과 재무부가 엔비디아 칩 수출 규제를 두고 갈등을 빚고 있고, 백악관이 그의 거취를 검토 중이다.",
+        "반도체 수출 규제 방향과 미국 행정부 내 의견 대립이 향후 엔비디아 등 기업의 대중 공급 전략에 영향을 줄 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출규제",
+        "엔비디아",
+        "AI반도체",
+        "미국 상무부",
+        "대중 반도체 규제"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T02:10:34Z",
+      "updated_at": "2026-11-13T02:10:34Z",
+      "articles": [
+        {
+          "key": "e5672d7136ce4805",
+          "title": "Lutnick's clash with Treasury over Nvidia chip curbs deepens as White House weighs his future",
+          "url": "https://www.digitimes.com/news/a20261113VL211/nvidia-cxmt-2025-blacklist.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T02:10:34Z"
         }
       ],
       "type_checked": true,
@@ -138,6 +842,150 @@
       ],
       "type_checked": true,
       "importance_raw": 1
+    },
+    {
+      "id": "c20261113-1003",
+      "headline": "미국 원격 접속 우회 차단 위한 반도체 통제 강화 추진",
+      "summary": [
+        "미국 의회와 상무부가 중국 등의 원격 접속을 통한 반도체 수출통제 우회를 막기 위한 조치를 추진 중이다.",
+        "기사 본문이 'Credit: AFP'뿐이라 구체적 법안명, 시행 일정, 대상 품목은 확인되지 않는다.",
+        "원격 접속이 통제의 가장 큰 허점으로 지목되면서 클라우드 기반 AI 칩 사용 규제가 강화될 가능성이 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출통제",
+        "원격접속",
+        "반도체규제",
+        "AI칩",
+        "미국상무부"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "미국 상무부",
+        "미국 의회",
+        "중국"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T02:04:04Z",
+      "updated_at": "2026-11-13T02:04:04Z",
+      "articles": [
+        {
+          "key": "a4345398c6dbb30a",
+          "title": "Remote access emerges as biggest gap in US chip controls as Congress and Commerce move to close it",
+          "url": "https://www.digitimes.com/news/a20261113VL214/ai-chip-data-center-usa-policy-nvidia-2027.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T02:04:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261113-1002",
+      "headline": "LG화학, HBM용 MR-MUF 소재 개발 추진 보도",
+      "summary": [
+        "LG화학이 NCF에 이어 HBM용 MR-MUF 소재를 개발 중이라는 보도가 나왔다.",
+        "기사 본문이 사실상 비어 있어 개발 일정이나 구체적 수치는 확인되지 않는다.",
+        "HBM 적층 공정 소재 경쟁에서 LG화학의 공급 다변화 시도로 해석될 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "HBM",
+        "MR-MUF",
+        "NCF",
+        "반도체 소재",
+        "HBM 패키징"
+      ],
+      "companies": [
+        "LG화학"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "LG화학"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T02:02:58Z",
+      "updated_at": "2026-11-13T02:02:58Z",
+      "articles": [
+        {
+          "key": "12ead03800f1d4d5",
+          "title": "LG Chem reportedly developing MR-MUF materials for HBM on top of NCF work",
+          "url": "https://www.digitimes.com/news/a20261113PD216/materials-lg-chem-hbm-mr-muf-sk-hynix.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T02:02:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261113-1001",
+      "headline": "CSOT 잉크젯 OLED에 SFC·SK JNC 재료 공급 확인",
+      "summary": [
+        "SFC와 SK JNC가 중국 CSOT에 잉크젯 프린팅 OLED 재료를 공급 중인 것으로 확인됐다.",
+        "CSOT는 우한 5.5세대 라인에서 모니터·노트북 패널을 생산하고 광저우에 8.6세대 T8 라인을 구축 중이다.",
+        "재료 공급망 공개로 잉크젯 OLED 상용화 기반이 넓어지며, LG전자도 2028~2029년 적용을 검토 중이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "잉크젯 프린팅 OLED",
+        "8.6세대 OLED",
+        "청색 도판트",
+        "FMM",
+        "게이밍 모니터"
+      ],
+      "companies": [
+        "SFC",
+        "SK JNC",
+        "CSOT",
+        "LG전자",
+        "MSI",
+        "이데미츠코산",
+        "미쓰비시케미컬",
+        "서머스프라우트"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "SFC",
+        "SK JNC",
+        "CSOT"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T02:00:01Z",
+      "updated_at": "2026-11-13T02:00:01Z",
+      "articles": [
+        {
+          "key": "b701098a1bcf035c",
+          "title": "SFC·SK JNC, CSOT에 잉크젯 OLED 재료 공급",
+          "url": "https://zdnet.co.kr/view/?no=20261113012426",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-13T02:00:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261113-0996",
@@ -363,6 +1211,51 @@
       ],
       "type_checked": true,
       "importance_raw": 2
+    },
+    {
+      "id": "c20261113-1000",
+      "headline": "저스템, 3분기 누적 영업이익 204억…사상 최대 실적",
+      "summary": [
+        "반도체 습도제어 기업 저스템이 2026년 3분기 누적 매출 711억원, 영업이익 204억원을 공표했다.",
+        "전년 동기 대비 영업이익은 361% 늘었고, 3분기 단독 영업이익률은 28.7%로 전년 13.3%에서 상승했다.",
+        "수주잔고 약 400억원과 JFS 성장세를 바탕으로 4분기 이후에도 견조한 성장이 기대된다는 점이 의미가 크다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "습도제어",
+        "N2 LPM",
+        "JFS",
+        "수주잔고",
+        "영업이익률"
+      ],
+      "companies": [
+        "저스템"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "저스템"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T01:23:44Z",
+      "updated_at": "2026-11-13T01:23:44Z",
+      "articles": [
+        {
+          "key": "c0d44b583c8f49fe",
+          "title": "저스템, 3분기 누적 영업익 204억…전년비 361% 급증",
+          "url": "https://zdnet.co.kr/view/?no=20261113100220",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-13T01:23:44Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261113-0987",
@@ -640,41 +1533,49 @@
     },
     {
       "id": "c20261113-0982",
-      "headline": "딥엑스, 인텔과 AI 추론 협력 MOU…서버 사업 확대",
+      "headline": "딥엑스, 인텔과 AI 추론 NPU 협력 MOU 체결",
       "summary": [
-        "딥엑스가 인텔코리아와 AI 추론 기술 협력을 위한 업무협약을 맺었다.",
-        "12일 서울 코엑스에서 체결됐으며, 서버 기업 KTNF가 참여한 3자 협약도 함께 체결됐다.",
-        "AI 반도체·소프트웨어·서버를 아우르는 이기종 컴퓨팅 기반 AI 서버 협력 체계 구축이 목표다."
+        "딥엑스는 인텔코리아와 AI 추론 소프트웨어 OpenVINO와 자사 NPU의 연동·최적화 방안을 모색하기로 업무협약을 맺었다.",
+        "같은 날 인텔코리아, 서버 기업 KTNF와 별도의 3자 업무협약도 체결해 협력 범위를 서버 시스템까지 넓힐 계획이다.",
+        "이번 협력은 AI 반도체의 소프트웨어 생태계 연계를 강화하는 사례로, 로봇·서버 등 응용처 확대에 의미가 있다."
       ],
       "category": "AI반도체",
       "tags": [
+        "AI 추론",
         "NPU",
         "OpenVINO",
-        "AI 추론",
-        "AI 서버",
-        "이기종 컴퓨팅"
+        "업무협약",
+        "서버"
       ],
       "companies": [
         "딥엑스",
-        "인텔",
+        "인텔코리아",
         "KTNF"
       ],
-      "event_type": "업계 일반",
+      "event_type": "인수합병",
       "confirmed": true,
       "parties": [
         "딥엑스",
         "인텔코리아",
         "KTNF"
       ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
+      "importance": 3,
+      "importance_reason": "인수합병 2점, 매체 3곳 보도 +1 → 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-11-13T00:39:46Z",
+      "first_seen": "2026-11-13T00:30:00Z",
       "updated_at": "2026-11-13T00:47:51Z",
       "articles": [
+        {
+          "key": "63f6be3def8edb08",
+          "title": "딥엑스, 인텔코리아와 ‘AI 추론’ 기술 협력…OpenVINO·NPU 연동 모색",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343282",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-13T00:30:00Z"
+        },
         {
           "key": "490ea6a3564c3f25",
           "title": "딥엑스, 인텔과 AI 추론 기술 검증…차세대 NPU 사업 확대",
@@ -693,7 +1594,7 @@
         }
       ],
       "type_checked": true,
-      "importance_raw": 2
+      "importance_raw": 3
     },
     {
       "id": "c20261113-0984",
@@ -1931,28 +2832,29 @@
     },
     {
       "id": "c20261112-0959",
-      "headline": "파네시아·인텔, CXL 기반 AI 서버 랙 공동 개발 추진",
+      "headline": "파네시아·인텔코리아, CXL 기반 AI 인프라 협력 MOU",
       "summary": [
-        "국내 팹리스 파네시아가 인텔과 손잡고 AI 데이터센터의 메모리 활용도를 높이는 기술 개발에 나선다.",
-        "12일 서울 코엑스 '인텔 AI 서밋 서울 2026'에서 공동 개발 계획이 공개됐다.",
-        "AI 서버의 메모리 병목을 줄이는 방향이라 데이터센터 인프라 수요에 의미가 있다."
+        "파네시아와 인텔코리아가 인텔 AI 서밋 서울 2026에서 CXL 기술 협력 업무협약을 체결했다.",
+        "양사는 CXL 기반 서버를 AI 데이터센터에 도입하기 위해 장치 간 연동 검증부터 랙 스케일 협업까지 단계적으로 추진할 계획이다.",
+        "AI 모델과 데이터 증가로 메모리 확장 수요가 커지는 가운데, 국내 AI 인프라 메모리 연결 기술 협력의 의미가 있다."
       ],
       "category": "AI반도체",
       "tags": [
         "CXL",
-        "AI 서버 랙",
+        "AI 데이터센터",
+        "랙 스케일 인프라",
         "메모리 확장",
-        "데이터센터"
+        "MOU"
       ],
       "companies": [
         "파네시아",
-        "인텔"
+        "인텔코리아"
       ],
       "event_type": "업계 일반",
       "confirmed": true,
       "parties": [
         "파네시아",
-        "인텔"
+        "인텔코리아"
       ],
       "importance": 2,
       "importance_reason": "업계 일반 2점",
@@ -1960,9 +2862,17 @@
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-11-12T10:32:22Z",
+      "first_seen": "2026-11-12T09:00:00Z",
       "updated_at": "2026-11-12T10:32:22Z",
       "articles": [
+        {
+          "key": "80c318079223c60e",
+          "title": "파네시아, 인텔코리아와 CXL 기술 협력 위한 업무협약(MOU) 체결",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343276",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-12T09:00:00Z"
+        },
         {
           "key": "977faa8dfb86f82c",
           "title": "파네시아·인텔, CXL 기반 'AI 서버 랙' 공동 개발",
@@ -2401,59 +3311,6 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261111-0861",
-      "headline": "중국 대학, 미국 수출규제에도 엔비디아 칩 확보 논란",
-      "summary": [
-        "중국 대학들이 미국의 수출 통제에도 엔비디아 AI 칩을 확보한 것으로 보도됐다.",
-        "기사 기록에 따르면 군 연계 중국 대학이 블랙리스트에도 불구하고 H200 칩을 구매했다.",
-        "미국 수출 규제의 실효성과 중국 AI 반도체 수급 우회 문제가 다시 부각되는 흐름이다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "수출규제",
-        "H200",
-        "엔비디아",
-        "블랙리스트",
-        "AI반도체"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "소송·특허",
-      "confirmed": true,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 3,
-      "importance_reason": "소송·특허 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-11T12:26:15Z",
-      "updated_at": "2026-11-12T08:35:46Z",
-      "articles": [
-        {
-          "key": "e90c20bd116d6049",
-          "title": "Military-linked Chinese university bought Nvidia H200 chips despite US blacklist, records show",
-          "url": "https://www.koreaherald.com/article/10934237",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-11-11T12:26:15Z"
-        },
-        {
-          "key": "db64b21d5c04c344",
-          "title": "Chinese universities obtain Nvidia chips despite US export controls",
-          "url": "https://www.digitimes.com/news/a20261112PD237/chips-nvidia-university-supplier-military.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-12T08:35:46Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
       "id": "c20261113-0988",
       "headline": "인텔, 서울서 AI 서밋 개최해 국내 AI 생태계 협력 강화",
       "summary": [
@@ -2497,51 +3354,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261112-0940",
-      "headline": "중기부, 메가프로젝트 성과 확산에 중소기업 역할 강조",
-      "summary": [
-        "중소벤처기업부가 메가프로젝트 성과 확산에 중소기업의 역할을 강화해야 한다고 주장했다.",
-        "중기부는 12일 삼성전자 아산 온양캠퍼스에서 열린 제4차 민관합동 점검회의에서 관련 방향을 제시했다.",
-        "반도체 대형 투자 프로젝트의 효과가 중소기업으로 넓게 퍼져야 한다는 점을 재확인한 자리였다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "메가프로젝트",
-        "민관합동 점검회의",
-        "중소기업 상생",
-        "반도체 투자"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "지역·인프라",
-      "confirmed": true,
-      "parties": [
-        "중소벤처기업부",
-        "삼성전자"
-      ],
-      "importance": 3,
-      "importance_reason": "지역·인프라 2점, 관심 기업(삼성전자) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-12T08:19:03Z",
-      "updated_at": "2026-11-12T08:19:03Z",
-      "articles": [
-        {
-          "key": "e37f27dcf57b0161",
-          "title": "중기부, “메가프로젝트 성과 확산에 중소기업 역할 강화 필요”",
-          "url": "https://www.dt.co.kr/article/12094915",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-12T08:19:03Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261112-0907",
@@ -4000,50 +4812,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261112-0925",
-      "headline": "삼성전자, HBM 패키징 공장 개소 2028년 6월로 앞당겨",
-      "summary": [
-        "삼성전자가 아산 온양 캠퍼스의 HBM 패키징 공장 개소 시점을 2028년 6월로 앞당겼다고 전해졌다.",
-        "기사 본문은 설명이 거의 없어 공장 규모와 투자 금액 등 구체적 내용은 확인되지 않는다.",
-        "HBM 생산능력 확대 일정이 빨라진 것으로, 고대역폭 메모리 공급 경쟁에 영향을 줄 수 있다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "HBM",
-        "패키징",
-        "온양캠퍼스",
-        "생산능력 확대"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 4,
-      "importance_reason": "설비 투자 3점, 관심 기업(삼성전자) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-12T05:57:08Z",
-      "updated_at": "2026-11-12T05:57:08Z",
-      "articles": [
-        {
-          "key": "924ffefe3fbf9ca0",
-          "title": "Samsung moves up HBM packaging plant opening to June 2028",
-          "url": "https://www.digitimes.com/news/a20261112VL209/samsung-hbm-packaging-2028-plant.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-12T05:57:08Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
     },
     {
       "id": "c20261112-0924",
