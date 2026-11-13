@@ -1,34 +1,5 @@
 [
   {
-    "at": "2026-11-08T05:59:17Z",
-    "collected": 374,
-    "new": 14,
-    "relevant": 3,
-    "groups": 3,
-    "deferred": 0,
-    "irrelevant_by_ai": 3,
-    "new_issues": 0,
-    "summarized": 0,
-    "resummarized": 0,
-    "classified": 0,
-    "pending": 0,
-    "failed": 0,
-    "sources_ok": 17,
-    "sources_total": 18,
-    "ai_model": "claude/claude-haiku-5-5",
-    "ai_calls": 3,
-    "tokens": {
-      "calls": 3,
-      "input": 2364,
-      "output": 510,
-      "cache_write": 2022,
-      "cache_read": 4044
-    },
-    "cost_usd": 0.0008,
-    "ai_stopped": null,
-    "alerts": []
-  },
-  {
     "at": "2026-11-08T07:18:14Z",
     "collected": 356,
     "new": 11,
@@ -2896,6 +2867,35 @@
       "cache_read": 8214
     },
     "cost_usd": 0.0057,
+    "ai_stopped": null,
+    "alerts": []
+  },
+  {
+    "at": "2026-11-13T07:40:09Z",
+    "collected": 714,
+    "new": 93,
+    "relevant": 20,
+    "groups": 20,
+    "deferred": 0,
+    "irrelevant_by_ai": 5,
+    "new_issues": 7,
+    "summarized": 14,
+    "resummarized": 7,
+    "classified": 0,
+    "pending": 0,
+    "failed": 0,
+    "sources_ok": 18,
+    "sources_total": 18,
+    "ai_model": "claude/claude-haiku-5-5",
+    "ai_calls": 42,
+    "tokens": {
+      "calls": 42,
+      "input": 105116,
+      "output": 20733,
+      "cache_write": 16142,
+      "cache_read": 75120
+    },
+    "cost_usd": 0.0236,
     "ai_stopped": null,
     "alerts": []
   }

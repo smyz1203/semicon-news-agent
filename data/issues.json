@@ -1,79 +1,461 @@
 {
   "version": 1,
-  "updated_at": "2026-11-13T06:15:41Z",
+  "updated_at": "2026-11-13T07:40:09Z",
   "issues": [
     {
-      "id": "c20261113-1021",
-      "headline": "힘스, 日 레이저텍 독점 깨고 포토마스크 검사장비 국산화 추진",
+      "id": "c20261113-1028",
+      "headline": "큐알티 3분기 누적 영업이익 55% 증가, 우주 부품 평가 수요",
       "summary": [
-        "국내 장비업체 힘스가 일본 레이저텍이 독점해 온 대형 디스플레이용 포토마스크 검사장비 시장에 진입한다.",
-        "힘스는 올해 2~6월 삼성디스플레이 성능 평가에서 170여개 항목을 모두 통과했고 7~8월 최종 검증도 마쳤다.",
-        "연내 장비 발주가 이뤄질 것으로 보여 국산 장비의 디스플레이 공정 내재화 가능성이 커진다."
+        "큐알티가 올해 1~3분기 연결 기준 매출 578억1400만원, 영업이익 58억7100만원을 공시했다.",
+        "영업이익은 전년 대비 54.9% 늘었고 영업이익률은 7.3%에서 10.1%로 상승했다.",
+        "우주 부품 신뢰성 시험과 차세대 유리기판 평가 의뢰 증가가 실적 개선을 이끌었다."
       ],
-      "category": "장비/소재/부품",
+      "category": "실적/투자/시장",
       "tags": [
-        "포토마스크 검사장비",
-        "대형 디스플레이",
-        "OLED",
-        "FMM",
-        "국산화"
+        "신뢰성 평가",
+        "우주 부품",
+        "유리기판",
+        "영업이익률",
+        "3분기 실적"
       ],
       "companies": [
-        "힘스",
-        "레이저텍",
-        "삼성디스플레이"
+        "큐알티"
       ],
-      "event_type": "수주·공급",
-      "confirmed": false,
+      "event_type": "실적",
+      "confirmed": true,
       "parties": [
-        "힘스",
-        "레이저텍",
-        "삼성디스플레이"
+        "큐알티"
       ],
       "importance": 3,
-      "importance_reason": "수주·공급 3점, 관심 기업(삼성디스플레이) +1, 미확정 -1 → 3점",
+      "importance_reason": "실적 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-11-13T06:01:35Z",
-      "updated_at": "2026-11-13T06:01:35Z",
+      "first_seen": "2026-11-13T07:05:05Z",
+      "updated_at": "2026-11-13T07:05:05Z",
       "articles": [
         {
-          "key": "b4f615ff130729d8",
-          "title": "힘스, 日레이저텍 독점 깬다…대형 포토마스크 검사기 국산화",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65401",
+          "key": "2d66cdca3b40229b",
+          "title": "큐알티, 우주 부품 평가 수요에 3분기 누적 영업익 55%↑",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65421",
           "source": "디일렉",
           "lang": "ko",
-          "published_at": "2026-11-13T06:01:35Z"
+          "published_at": "2026-11-13T07:05:05Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 3
     },
     {
-      "id": "c20261112-0960",
-      "headline": "젠슨 황 엔비디아 CEO 사임, 크레스 임시 체제 전환",
+      "id": "c20261113-0987",
+      "headline": "인텔 GPU 기반 AI 영상통화 비대면 본인확인 솔루션 공개",
       "summary": [
-        "엔비디아 젠슨 황 CEO가 사임했으며 사임은 즉시 효력이 발생했고 콜렛 크레스 CFO가 임시 CEO를 맡았다.",
-        "엔비디아는 17일 3분기 실적을 발표할 예정이며 크레스 단독으로 실적발표와 정상화 방안을 설명한다.",
-        "정식 CEO 선임 전까지 경영 불확실성이 남아 국내 HBM 공급망에도 영향이 주목된다."
+        "인텔코리아가 메사쿠어컴퍼니, NH농협은행과 AI 영상통화 기반 비대면 본인확인 사례를 공개했다.",
+        "솔루션은 아크 프로 B70 GPU로 얼굴과 행동을 실시간 분석해 위변조 시도를 탐지하며 24시간 운영이 가능하다.",
+        "생체정보를 외부 클라우드 없이 은행 내부에서 처리해 망분리 요건과 정보 유출 우려에 대응한다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "아크 프로 B70",
+        "AI 영상통화",
+        "비대면 본인확인",
+        "온프레미스 AI",
+        "엣지 AI"
+      ],
+      "companies": [
+        "인텔",
+        "메사쿠어컴퍼니",
+        "NH농협은행"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "인텔",
+        "메사쿠어컴퍼니",
+        "NH농협은행"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T01:19:52Z",
+      "updated_at": "2026-11-13T06:56:54Z",
+      "articles": [
+        {
+          "key": "3539ee86c14247cb",
+          "title": "인텔 GPU, NH농협은행 비대면 인증에 투입…AI 금융 보안 강화",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409741",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T01:19:52Z"
+        },
+        {
+          "key": "aa993222905818c0",
+          "title": "메사쿠어컴퍼니·NH농협은행, 인텔 GPU 기반 비대면 본인확인 구축",
+          "url": "https://zdnet.co.kr/view/?no=20261113155654",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-13T06:56:54Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0903",
+      "headline": "산업부, 2030년까지 온디바이스 AI반도체 10종 개발 추진",
+      "summary": [
+        "산업통상부는 12일 K-온디바이스 AI반도체 기술개발 로드맵을 발표했다.",
+        "지난 6월 착수한 8002억원 규모 사업으로, 2030년까지 AI칩 8종과 설계자산 2종을 개발·검증한다.",
+        "자율주행·가전·로봇·드론 등 응용처별 칩 개발로 국내 AI반도체 생태계 확대가 기대된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "온디바이스 AI",
+        "AI반도체",
+        "K-온디바이스",
+        "로드맵",
+        "자율주행칩"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "산업통상부"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 매체 5곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T02:00:00Z",
+      "updated_at": "2026-11-13T06:50:23Z",
+      "articles": [
+        {
+          "key": "4a74d2732e001b10",
+          "title": "정부, 국산 AI반도체 개발 속도…삼성 2나노 공정 지원",
+          "url": "https://www.inews24.com/view/2025296",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T02:00:00Z"
+        },
+        {
+          "key": "22c11fb1f1c3afcb",
+          "title": "K-온디바이스 AI반도체 속도…2030년까지 AI칩 등 10종 개발",
+          "url": "https://www.yna.co.kr/view/AKR20261112061400003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T02:00:01Z"
+        },
+        {
+          "key": "f3a2ee5d93fe5131",
+          "title": "K-온디바이스, 2030년까지 자율주행 AI칩 등 10종 개발",
+          "url": "https://zdnet.co.kr/view/?no=20261112092039",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-12T02:00:02Z"
+        },
+        {
+          "key": "5cdc7ffcae5c1272",
+          "title": "K-온디바이스 AI반도체 속도…2030년까지 AI칩 등 10종 개발",
+          "url": "https://www.dt.co.kr/article/12094887",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-12T07:25:29Z"
+        },
+        {
+          "key": "7ce6a79c337eb934",
+          "title": "[Weekly 신기술 및 정책소식] 메모리 내부 전류 통로를 3차원으로 관찰",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343285",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-13T06:50:23Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261113-1027",
+      "headline": "삼성전자, 미국 클라우드 기업서 AI칩 수주 확대 보도",
+      "summary": [
+        "미국 클라우드 기업들로부터 삼성전자가 AI 칩 주문을 더 확보했다는 보도가 나왔다.",
+        "기사 본문이 사실상 없어 구체적 물량, 제품 종류, 계약 규모는 확인되지 않는다.",
+        "공식 확인 없이 전해진 소식이라 AI 반도체 고객 다변화 흐름의 참고 신호로만 볼 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI칩",
+        "수주",
+        "클라우드",
+        "파운드리"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T06:44:47Z",
+      "updated_at": "2026-11-13T06:44:47Z",
+      "articles": [
+        {
+          "key": "82a5abbf665a621c",
+          "title": "Samsung reportedly wins more AI chip orders from US cloud firms",
+          "url": "https://www.digitimes.com/news/a20261113VL229/samsung-ai-chip-manufacturing-2028-2nm.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T06:44:47Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261113-1023",
+      "headline": "텔레칩스 3분기 흑자전환…매출 26% 증가",
+      "summary": [
+        "텔레칩스가 2026년 3분기 연결 매출 633억원, 영업이익 4억9000만원을 공시했다.",
+        "전년 동기 영업손실에서 흑자로 돌아섰고, 계기판·HUD 매출이 전분기 대비 약 40% 늘었다.",
+        "차량용 반도체 제품군 다변화와 아시아 수출 확대가 실적 반등을 이끌었다는 평가다."
       ],
       "category": "실적/투자/시장",
       "tags": [
-        "젠슨 황 사임",
-        "임시 CEO",
-        "HBM 공급망",
-        "수출통제",
+        "차량용 반도체",
+        "계기판",
+        "HUD",
+        "카인포테인먼트",
         "3분기 실적"
       ],
       "companies": [
-        "엔비디아",
-        "삼성전자",
+        "텔레칩스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "텔레칩스"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T05:14:59Z",
+      "updated_at": "2026-11-13T06:44:31Z",
+      "articles": [
+        {
+          "key": "36bf4ad33c18f02b",
+          "title": "텔레칩스, 3분기 매출 633억원...4개 분기 연속 흑자",
+          "url": "https://zdnet.co.kr/view/?no=20261112170052",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-13T05:14:59Z"
+        },
+        {
+          "key": "a3e565690ca93051",
+          "title": "텔레칩스, 3분기 영업이익 흑자전환…매출 26% 증가",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65413",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-13T06:44:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261113-1026",
+      "headline": "CXMT, AI 서버·LPDDR6로 고부가 D램 시장 공략",
+      "summary": [
+        "중국 CXMT가 AI 서버용 메모리와 LPDDR6 분야에서 성과를 내며 고부가 D램 시장 진입을 노리고 있다는 보도다.",
+        "기사 본문은 출처 표기만 있어 구체적인 제품 사양이나 수치는 확인되지 않는다.",
+        "국내 메모리 기업에는 중국 업체의 고부가 제품 확대가 경쟁 구도 변화 요인으로 작용할 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "CXMT",
+        "AI 서버 메모리",
+        "LPDDR6",
+        "D램"
+      ],
+      "companies": [
+        "CXMT"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [
+        "CXMT"
+      ],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T06:43:49Z",
+      "updated_at": "2026-11-13T06:43:49Z",
+      "articles": [
+        {
+          "key": "5a83b9a884556cba",
+          "title": "CXMT targets higher-value DRAM market with AI server memory, LPDDR6 breakthroughs",
+          "url": "https://www.digitimes.com/news/a20261113VL228/dram-cxmt-market-ai-server-automotive.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T06:43:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261113-1025",
+      "headline": "SK하이닉스·인텔, AI 병목 완화 위한 공유 메모리 협력 검토",
+      "summary": [
+        "SK하이닉스와 인텔이 AI 연산의 병목을 줄이기 위한 공유 메모리 방안을 검토하고 있다고 보도됐다.",
+        "기사 본문이 제목과 저자 표기뿐이라 구체적인 기술 사양, 일정, 수치는 확인되지 않는다.",
+        "확정되지 않은 탐색 단계의 협력 논의로, AI 서버용 메모리 구조 변화의 방향을 보여주는 신호로 볼 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "공유 메모리",
+        "AI 병목",
+        "HBM",
         "SK하이닉스",
-        "구글",
-        "인텔",
-        "Arm"
+        "인텔"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "인텔"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "SK하이닉스",
+        "인텔"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T06:42:52Z",
+      "updated_at": "2026-11-13T06:42:52Z",
+      "articles": [
+        {
+          "key": "52f35ac44a0234b0",
+          "title": "SK Hynix, Intel explore shared memory to ease AI bottlenecks",
+          "url": "https://www.digitimes.com/news/a20261113PD229/sk-hynix-intel-data-capacity-cxl.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T06:42:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261112-0907",
+      "headline": "인텔, 한국 23개사와 AI 동맹 결성",
+      "summary": [
+        "인텔이 한국 기업 23곳과 AI 동맹을 맺고 국산 서버 기반 소버린 AI 시장 공략에 나섰다.",
+        "동맹은 HBM을 쓰지 않는 추론용 GPU를 중심으로 하며 세계 시장 진출을 지원하는 것이 목표다.",
+        "국내 AI 주권 강화 흐름 속에서 인텔이 한국 생태계 협력을 넓히는 신호로 해석된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 동맹",
+        "소버린 AI",
+        "추론 GPU",
+        "HBM-free",
+        "국산 서버"
+      ],
+      "companies": [
+        "인텔"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "인텔"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 매체 4곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-12T03:00:05Z",
+      "updated_at": "2026-11-13T06:40:01Z",
+      "articles": [
+        {
+          "key": "0e65ecd785fe8c35",
+          "title": "[AI프리즘] 인텔, 한국 23개사와 AI 동맹…'AI 주권' 강화 나선다",
+          "url": "https://www.yna.co.kr/view/AKR20261112076500017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T03:00:05Z"
+        },
+        {
+          "key": "3dc5609c2fd1c42c",
+          "title": "인텔 \"한국 23개사와 손잡고 AI 주권 강화…세계 시장 진출 지원\"",
+          "url": "https://www.inews24.com/view/2025507",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T05:17:13Z"
+        },
+        {
+          "key": "3e4d2f59e2fd1be9",
+          "title": "인텔, 韓기업 23곳과 AI 동맹…국산 서버로 소버린 AI 공략",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65349",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-12T08:14:47Z"
+        },
+        {
+          "key": "0af3ea0cadd13889",
+          "title": "Intel forms 23-company Korean AI alliance as it pitches HBM-free inference GPU",
+          "url": "https://www.digitimes.com/news/a20261113VL226/intel-gpu-alliance-president-design.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T06:40:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261112-0960",
+      "headline": "젠슨 황 엔비디아 CEO 사임, 콜레트 크레스 임시 CEO 체제",
+      "summary": [
+        "젠슨 황 엔비디아 CEO가 사임하고 콜레트 크레스가 임시 CEO를 맡게 됐다.",
+        "창업 33년 만의 경영진 교체로 엔비디아 리더십 공백과 방향 변화가 주목받고 있다.",
+        "HBM 공급사의 협상력이 커질 수 있다는 분석이 나오며 국내 메모리 업계에 영향이 예상된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "젠슨 황",
+        "엔비디아",
+        "임시 CEO",
+        "HBM",
+        "AI 투자"
+      ],
+      "companies": [
+        "엔비디아",
+        "SK하이닉스",
+        "삼성전자"
       ],
       "event_type": "경영진 교체",
       "confirmed": true,
@@ -81,13 +463,13 @@
         "엔비디아"
       ],
       "importance": 4,
-      "importance_reason": "경영진 교체 3점, 매체 7곳 보도 +1 → 4점",
+      "importance_reason": "경영진 교체 3점, 매체 8곳 보도 +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "both",
       "first_seen": "2026-11-12T13:56:30Z",
-      "updated_at": "2026-11-13T05:49:54Z",
+      "updated_at": "2026-11-13T06:25:43Z",
       "articles": [
         {
           "key": "dd5e9c16ac7a0932",
@@ -208,41 +590,96 @@
           "source": "Korea Herald",
           "lang": "en",
           "published_at": "2026-11-13T05:49:54Z"
+        },
+        {
+          "key": "a9b4c6104e6b1c42",
+          "title": "[한눈에 보는 Weekly 기업 소식] 젠슨 황 엔비디아 CEO 사임…콜레트 크레스가 임시 CEO",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343284",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-13T06:25:43Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 4
     },
     {
-      "id": "c20261113-1020",
-      "headline": "삼성전자 제7노조 설립 추진, 이달 두 번째 신규 노조",
+      "id": "c20261113-1024",
+      "headline": "네덜란드 법원, 윙테크의 넥스페리아 지배권 추가 제한",
       "summary": [
-        "삼성전자에서 제6노조 설립 신고 약 일주일 만에 제7노조 설립이 추진되고 있다.",
-        "이달 들어 두 번째 신규 노조 설립 움직임으로, 기사 본문 일부만 확인된다.",
-        "노조 설립이 잇따르며 회사 내 노사 구도 변화가 주목되는 상황이다."
+        "네덜란드 법원이 중국 윙테크의 넥스페리아 경영권 행사를 한층 더 제한하는 결정을 내렸다.",
+        "기사 본문은 사진 출처 표기만 있어 구체적 조치 내용과 일정은 확인되지 않는다.",
+        "이번 결정으로 중국과 서방 간 반도체 공급망 분리가 더 넓어질 수 있다는 우려가 나온다."
       ],
       "category": "정책/무역",
       "tags": [
-        "노조 설립",
-        "노사관계",
-        "삼성전자"
+        "넥스페리아",
+        "윙테크",
+        "공급망 분리",
+        "반도체 지배구조"
+      ],
+      "companies": [
+        "넥스페리아",
+        "윙테크"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "넥스페리아",
+        "윙테크"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T06:08:55Z",
+      "updated_at": "2026-11-13T06:08:55Z",
+      "articles": [
+        {
+          "key": "445f91328cecf6f6",
+          "title": "Dutch court further curbs Wingtech's control of Nexperia, widening China chip supply chain split",
+          "url": "https://www.digitimes.com/news/a20261113PD247/nexperia-dutch-chip-supply-business-supply-chain.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T06:08:55Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261113-1020",
+      "headline": "삼성전자 제7노조 설립 추진, 이달 들어 잇따른 신규 노조",
+      "summary": [
+        "삼성전자 광주노동조합 설립신고서가 광주지방고용노동청에 제출돼 제7노조 설립이 추진되고 있다.",
+        "지난 4일 유니온샵 노조 신고 후 9일 만으로, 이달에만 노조 설립이 연이어 추진되고 있다.",
+        "기존 노조 내부 갈등이 신규 노조 설립을 부추긴다는 비판이 나와 노사 구도 변화가 주목된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "노동조합",
+        "노사갈등",
+        "삼성전자 노조",
+        "설립신고"
       ],
       "companies": [
         "삼성전자"
       ],
-      "event_type": "채용·인력",
-      "confirmed": false,
+      "event_type": "경영진 교체",
+      "confirmed": true,
       "parties": [
         "삼성전자"
       ],
-      "importance": 2,
-      "importance_reason": "채용·인력 2점, 관심 기업(삼성전자) +1, 미확정 -1 → 2점",
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
       "first_seen": "2026-11-13T05:03:27Z",
-      "updated_at": "2026-11-13T05:03:27Z",
+      "updated_at": "2026-11-13T06:02:46Z",
       "articles": [
         {
           "key": "45220836b2900d94",
@@ -251,10 +688,244 @@
           "source": "연합뉴스",
           "lang": "ko",
           "published_at": "2026-11-13T05:03:27Z"
+        },
+        {
+          "key": "f8951590e260a517",
+          "title": "삼성전자, 이달에만 제6·제7노조 연이어 설립 추진",
+          "url": "https://www.etnews.com/20261113000229",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-13T06:02:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261113-1021",
+      "headline": "힘스, 日 레이저텍 독점 깨고 포토마스크 검사장비 국산화 추진",
+      "summary": [
+        "국내 장비업체 힘스가 일본 레이저텍이 독점해 온 대형 디스플레이용 포토마스크 검사장비 시장에 진입한다.",
+        "힘스는 올해 2~6월 삼성디스플레이 성능 평가에서 170여개 항목을 모두 통과했고 7~8월 최종 검증도 마쳤다.",
+        "연내 장비 발주가 이뤄질 것으로 보여 국산 장비의 디스플레이 공정 내재화 가능성이 커진다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "포토마스크 검사장비",
+        "대형 디스플레이",
+        "OLED",
+        "FMM",
+        "국산화"
+      ],
+      "companies": [
+        "힘스",
+        "레이저텍",
+        "삼성디스플레이"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "힘스",
+        "레이저텍",
+        "삼성디스플레이"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성디스플레이) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T06:01:35Z",
+      "updated_at": "2026-11-13T06:01:35Z",
+      "articles": [
+        {
+          "key": "b4f615ff130729d8",
+          "title": "힘스, 日레이저텍 독점 깬다…대형 포토마스크 검사기 국산화",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65401",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-13T06:01:35Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261113-1007",
+      "headline": "삼성전자, 미국 데이터센터 냉각업체 모딘 인수 추진",
+      "summary": [
+        "삼성전자가 미국 데이터센터 냉각 시스템 업체 모딘 매뉴팩처링 인수를 추진 중이라고 블룸버그가 소식통을 인용해 보도했다.",
+        "양측은 인수 거래를 논의 중이며 이르면 수주 내 합의에 도달할 수 있으나 최종 결정은 내려지지 않았다.",
+        "플랙트그룹에 이은 추가 M&A 시도로, AI 데이터센터 냉각 사업 확대 의지를 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "데이터센터 냉각",
+        "AI 데이터센터",
+        "인수합병",
+        "모딘",
+        "플랙트그룹"
+      ],
+      "companies": [
+        "삼성전자",
+        "모딘 매뉴팩처링",
+        "플랙트그룹"
+      ],
+      "event_type": "인수합병",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "모딘 매뉴팩처링"
+      ],
+      "importance": 2,
+      "importance_reason": "인수합병 2점, 관심 기업(삼성전자) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T02:45:00Z",
+      "updated_at": "2026-11-13T05:17:25Z",
+      "articles": [
+        {
+          "key": "cb38488ae7db69fc",
+          "title": "블룸버그 \"삼성전자, 美 데이터센터 냉각업체 '모딘' 인수 추진\"",
+          "url": "https://zdnet.co.kr/view/?no=20261113114145",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-13T02:45:00Z"
+        },
+        {
+          "key": "9681fd862aedf82d",
+          "title": "블룸버그 “삼성전자, 美 데이터센터 냉각 기업 '모딘' 인수 추진”",
+          "url": "https://www.etnews.com/20261113000194",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-13T05:17:25Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 2
+    },
+    {
+      "id": "c20261113-1022",
+      "headline": "세미파이브 3분기 수주잔고 2455억원, 역대 최대 경신",
+      "summary": [
+        "세미파이브가 3분기 연결 기준 신규 수주 1784억원, 수주잔고 2455억원을 기록했다고 13일 밝혔다.",
+        "ASIC 개발 부문 수주가 1369억원으로 전년 동기 대비 705% 급증했고, 북미 HPC 대형 프로젝트가 주요 요인이다.",
+        "AI ASIC 시장 공급 확대로 4분기부터 수주잔고가 매출에 순차 반영될 전망이라 실적 개선이 기대된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "ASIC",
+        "수주잔고",
+        "4nm 공정",
+        "AI 추론 칩",
+        "소버린 AI"
+      ],
+      "companies": [
+        "세미파이브",
+        "삼성전자"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "세미파이브"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T05:09:51Z",
+      "updated_at": "2026-11-13T05:09:51Z",
+      "articles": [
+        {
+          "key": "248e8e567c8ff7d2",
+          "title": "세미파이브, 3분기 수주잔고 2455억원 '최대 실적' 경신",
+          "url": "https://zdnet.co.kr/view/?no=20261113135805",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-13T05:09:51Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261113-0982",
+      "headline": "딥엑스, 인텔·KTNF와 AI 추론 서버 생태계 확장",
+      "summary": [
+        "딥엑스는 12일 인텔코리아와 AI 반도체 기술 협력 MOU를 맺고, 같은 날 KTNF와 3자 MOU도 체결했다.",
+        "양사는 오픈비노와 딥엑스 NPU의 연동·최적화를 추진하며, 3사는 온프레미스 AI 추론 서버 공동 개발과 PoC 지원에 나선다.",
+        "이는 AI 추론 하드웨어와 서버 인프라를 묶는 협력으로, 온프레미스 AI 수요 대응 기반을 넓히는 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "NPU",
+        "OpenVINO",
+        "온프레미스 AI 추론 서버",
+        "DX-M2",
+        "이기종 컴퓨팅"
+      ],
+      "companies": [
+        "딥엑스",
+        "인텔코리아",
+        "KTNF",
+        "삼성전자",
+        "인텔"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "딥엑스",
+        "인텔코리아",
+        "KTNF"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 매체 4곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T00:30:00Z",
+      "updated_at": "2026-11-13T05:07:11Z",
+      "articles": [
+        {
+          "key": "63f6be3def8edb08",
+          "title": "딥엑스, 인텔코리아와 ‘AI 추론’ 기술 협력…OpenVINO·NPU 연동 모색",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343282",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-13T00:30:00Z"
+        },
+        {
+          "key": "490ea6a3564c3f25",
+          "title": "딥엑스, 인텔과 AI 추론 기술 검증…차세대 NPU 사업 확대",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409732",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T00:39:46Z"
+        },
+        {
+          "key": "c1fd318b26797d9c",
+          "title": "[AI픽] 딥엑스, 인텔과 AI 반도체 협력…로봇·서버로 확대",
+          "url": "https://www.yna.co.kr/view/AKR20261113048500017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T00:47:51Z"
+        },
+        {
+          "key": "03430933aed8f2a4",
+          "title": "딥엑스, 인텔코리아·KTNF와 AI 생태계 확장",
+          "url": "https://zdnet.co.kr/view/?no=20261113134331",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-13T05:07:11Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
     },
     {
       "id": "c20261113-1019",
@@ -1097,54 +1768,6 @@
       "importance_raw": 3
     },
     {
-      "id": "c20261113-1007",
-      "headline": "삼성전자, 데이터센터 냉각업체 모딘 인수 협상",
-      "summary": [
-        "삼성전자가 미국 데이터센터 냉각 업체 모딘 매뉴팩처링 인수를 협상 중이라고 블룸버그가 보도했다.",
-        "양사는 빠르면 수주 내 타결을 목표로 논의 중이나 최종 결정은 나지 않았고 결렬 가능성도 열려 있다.",
-        "AI 호황에 따른 데이터센터 열관리 수요를 겨냥한 인수로, 삼성전자의 열관리 역량 강화 행보로 풀이된다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "데이터센터 냉각",
-        "열관리",
-        "인수합병",
-        "AI 데이터센터",
-        "플랙트그룹"
-      ],
-      "companies": [
-        "삼성전자",
-        "모딘 매뉴팩처링",
-        "플랙트그룹"
-      ],
-      "event_type": "인수합병",
-      "confirmed": false,
-      "parties": [
-        "삼성전자",
-        "모딘 매뉴팩처링"
-      ],
-      "importance": 2,
-      "importance_reason": "인수합병 2점, 관심 기업(삼성전자) +1, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-13T02:45:00Z",
-      "updated_at": "2026-11-13T02:45:00Z",
-      "articles": [
-        {
-          "key": "cb38488ae7db69fc",
-          "title": "블룸버그 \"삼성전자, 美 데이터센터 냉각업체 '모딘' 인수 추진\"",
-          "url": "https://zdnet.co.kr/view/?no=20261113114145",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-13T02:45:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
       "id": "c20261113-1006",
       "headline": "SK하이닉스 HBM4 수율 70% 돌파, 삼성 패키징 증설",
       "summary": [
@@ -1698,54 +2321,6 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261113-0987",
-      "headline": "인텔 GPU, 농협은행 비대면 본인확인 AI에 투입",
-      "summary": [
-        "인텔코리아는 메사쿠어컴퍼니, NH농협은행과 AI 기반 비대면 본인확인 사례를 공개했다.",
-        "솔루션에는 인텔 아크 Pro B70 GPU가 탑재돼 얼굴·행동을 실시간 분석하고 위변조 시도를 탐지한다.",
-        "금융권 비대면 인증 보안을 AI 추론 가속으로 강화하는 사례로, 워크스테이션용 GPU의 활용 범위를 보여준다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "인텔 아크 Pro B70",
-        "AI 추론",
-        "비대면 본인확인",
-        "금융 보안"
-      ],
-      "companies": [
-        "인텔",
-        "메사쿠어컴퍼니",
-        "NH농협은행"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "인텔코리아",
-        "메사쿠어컴퍼니",
-        "NH농협은행"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-13T01:19:52Z",
-      "updated_at": "2026-11-13T01:19:52Z",
-      "articles": [
-        {
-          "key": "3539ee86c14247cb",
-          "title": "인텔 GPU, NH농협은행 비대면 인증에 투입…AI 금융 보안 강화",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409741",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-13T01:19:52Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
       "id": "c20261113-0991",
       "headline": "덕산하이메탈, 대한적십자사 회원유공장 명예대장 수상",
       "summary": [
@@ -1970,71 +2545,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261113-0982",
-      "headline": "딥엑스, 인텔과 AI 추론 NPU 협력 MOU 체결",
-      "summary": [
-        "딥엑스는 인텔코리아와 AI 추론 소프트웨어 OpenVINO와 자사 NPU의 연동·최적화 방안을 모색하기로 업무협약을 맺었다.",
-        "같은 날 인텔코리아, 서버 기업 KTNF와 별도의 3자 업무협약도 체결해 협력 범위를 서버 시스템까지 넓힐 계획이다.",
-        "이번 협력은 AI 반도체의 소프트웨어 생태계 연계를 강화하는 사례로, 로봇·서버 등 응용처 확대에 의미가 있다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "AI 추론",
-        "NPU",
-        "OpenVINO",
-        "업무협약",
-        "서버"
-      ],
-      "companies": [
-        "딥엑스",
-        "인텔코리아",
-        "KTNF"
-      ],
-      "event_type": "인수합병",
-      "confirmed": true,
-      "parties": [
-        "딥엑스",
-        "인텔코리아",
-        "KTNF"
-      ],
-      "importance": 3,
-      "importance_reason": "인수합병 2점, 매체 3곳 보도 +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-13T00:30:00Z",
-      "updated_at": "2026-11-13T00:47:51Z",
-      "articles": [
-        {
-          "key": "63f6be3def8edb08",
-          "title": "딥엑스, 인텔코리아와 ‘AI 추론’ 기술 협력…OpenVINO·NPU 연동 모색",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=343282",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-11-13T00:30:00Z"
-        },
-        {
-          "key": "490ea6a3564c3f25",
-          "title": "딥엑스, 인텔과 AI 추론 기술 검증…차세대 NPU 사업 확대",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409732",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-13T00:39:46Z"
-        },
-        {
-          "key": "c1fd318b26797d9c",
-          "title": "[AI픽] 딥엑스, 인텔과 AI 반도체 협력…로봇·서버로 확대",
-          "url": "https://www.yna.co.kr/view/AKR20261113048500017",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-13T00:47:51Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261113-0984",
@@ -3650,69 +4160,6 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261112-0907",
-      "headline": "인텔, 국내 23개사와 K-AI 풀스택 얼라이언스 출범",
-      "summary": [
-        "인텔이 국내 기업 23곳과 한국형 AI 인프라 협력체 'K-AI 풀스택 얼라이언스'를 공식 출범시켰다.",
-        "국산 서버에 인텔 반도체를 탑재해 하드웨어부터 소프트웨어, AI 서비스까지 아우르는 구성이다.",
-        "소버린 AI와 피지컬 AI 시장 공략이 목표이며 국내 AI 주권 강화에 기여할 것으로 보인다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "K-AI 풀스택 얼라이언스",
-        "소버린 AI",
-        "피지컬 AI",
-        "인텔 서버",
-        "국산 서버"
-      ],
-      "companies": [
-        "인텔",
-        "인텔코리아"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "인텔",
-        "인텔코리아"
-      ],
-      "importance": 4,
-      "importance_reason": "수주·공급 3점, 매체 3곳 보도 +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-12T03:00:05Z",
-      "updated_at": "2026-11-12T08:14:47Z",
-      "articles": [
-        {
-          "key": "0e65ecd785fe8c35",
-          "title": "[AI프리즘] 인텔, 한국 23개사와 AI 동맹…'AI 주권' 강화 나선다",
-          "url": "https://www.yna.co.kr/view/AKR20261112076500017",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-12T03:00:05Z"
-        },
-        {
-          "key": "3dc5609c2fd1c42c",
-          "title": "인텔 \"한국 23개사와 손잡고 AI 주권 강화…세계 시장 진출 지원\"",
-          "url": "https://www.inews24.com/view/2025507",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-12T05:17:13Z"
-        },
-        {
-          "key": "3e4d2f59e2fd1be9",
-          "title": "인텔, 韓기업 23곳과 AI 동맹…국산 서버로 소버린 AI 공략",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65349",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-12T08:14:47Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
-    },
-    {
       "id": "c20261112-0949",
       "headline": "AI 추론 확산에 따른 메모리 구조 재설계 필요성",
       "summary": [
@@ -4334,72 +4781,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261112-0903",
-      "headline": "정부, 8002억 규모 K-온디바이스 AI반도체 10종 개발 추진",
-      "summary": [
-        "산업통상부가 총 8002억원 규모의 K-온디바이스 AI반도체 기술개발 로드맵을 구체화하고 사업 추진에 속도를 낸다.",
-        "2030년까지 자율주행 AI칩 등 10종을 개발하며, 수요기업·팹리스·파운드리·IP 관계자가 참여하는 논의가 열렸다.",
-        "국내 AI반도체 생태계 육성의 기반이 마련되는 것으로, 세부 과제와 지원 대상 확정이 향후 관건이다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "K-온디바이스",
-        "AI반도체",
-        "자율주행 AI칩",
-        "기술개발 로드맵"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": false,
-      "parties": [],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점, 매체 4곳 보도 +1, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-12T02:00:00Z",
-      "updated_at": "2026-11-12T07:25:29Z",
-      "articles": [
-        {
-          "key": "4a74d2732e001b10",
-          "title": "정부, 국산 AI반도체 개발 속도…삼성 2나노 공정 지원",
-          "url": "https://www.inews24.com/view/2025296",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-12T02:00:00Z"
-        },
-        {
-          "key": "22c11fb1f1c3afcb",
-          "title": "K-온디바이스 AI반도체 속도…2030년까지 AI칩 등 10종 개발",
-          "url": "https://www.yna.co.kr/view/AKR20261112061400003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-12T02:00:01Z"
-        },
-        {
-          "key": "f3a2ee5d93fe5131",
-          "title": "K-온디바이스, 2030년까지 자율주행 AI칩 등 10종 개발",
-          "url": "https://zdnet.co.kr/view/?no=20261112092039",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-12T02:00:02Z"
-        },
-        {
-          "key": "5cdc7ffcae5c1272",
-          "title": "K-온디바이스 AI반도체 속도…2030년까지 AI칩 등 10종 개발",
-          "url": "https://www.dt.co.kr/article/12094887",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-12T07:25:29Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261111-0838",
