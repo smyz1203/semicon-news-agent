@@ -1,7 +1,508 @@
 {
   "version": 1,
-  "updated_at": "2026-11-12T23:55:26Z",
+  "updated_at": "2026-11-13T01:25:01Z",
   "issues": [
+    {
+      "id": "c20261113-0987",
+      "headline": "인텔 GPU, 농협은행 비대면 본인확인 AI에 투입",
+      "summary": [
+        "인텔코리아는 메사쿠어컴퍼니, NH농협은행과 AI 기반 비대면 본인확인 사례를 공개했다.",
+        "솔루션에는 인텔 아크 Pro B70 GPU가 탑재돼 얼굴·행동을 실시간 분석하고 위변조 시도를 탐지한다.",
+        "금융권 비대면 인증 보안을 AI 추론 가속으로 강화하는 사례로, 워크스테이션용 GPU의 활용 범위를 보여준다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "인텔 아크 Pro B70",
+        "AI 추론",
+        "비대면 본인확인",
+        "금융 보안"
+      ],
+      "companies": [
+        "인텔",
+        "메사쿠어컴퍼니",
+        "NH농협은행"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "인텔코리아",
+        "메사쿠어컴퍼니",
+        "NH농협은행"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T01:19:52Z",
+      "updated_at": "2026-11-13T01:19:52Z",
+      "articles": [
+        {
+          "key": "3539ee86c14247cb",
+          "title": "인텔 GPU, NH농협은행 비대면 인증에 투입…AI 금융 보안 강화",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409741",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T01:19:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261113-0986",
+      "headline": "아데카코리아, 완주 공장에 900억원 투자해 전구체 증설",
+      "summary": [
+        "전북특별자치도는 아데카코리아와 완주산업단지 2공장 증설 투자 협약을 맺었다.",
+        "투자 규모는 900억원이며 반도체 소재인 전구체 생산시설을 확충하는 내용이다.",
+        "반도체 소재 국내 생산 기반이 강화되며 지역 소재 공급망 경쟁력에도 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "전구체",
+        "반도체 소재",
+        "완주산업단지",
+        "설비 증설"
+      ],
+      "companies": [
+        "아데카코리아"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "아데카코리아"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T01:02:56Z",
+      "updated_at": "2026-11-13T01:02:56Z",
+      "articles": [
+        {
+          "key": "eb396aa76dbd53da",
+          "title": "아데카코리아, 완주 공장 증설에 900억원 투자…전구체 생산",
+          "url": "https://www.yna.co.kr/view/AKR20261113057400055",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T01:02:56Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261113-0985",
+      "headline": "엔비디아 CEO 리더십이 기업 운명 좌우, 칼럼 분석",
+      "summary": [
+        "연합뉴스 머니톡스 칼럼이 엔비디아의 위기와 젠슨 황 CEO의 역할을 다뤘다.",
+        "기사 본문이 일부만 제공되어 구체적 사건 내용과 수치는 확인되지 않는다.",
+        "산업 전반에 미치는 CEO 중심 경영의 리스크를 짚은 해설로 볼 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "엔비디아",
+        "젠슨 황",
+        "CEO 리더십",
+        "경영 리스크"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "칼럼·인터뷰",
+      "confirmed": true,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "칼럼·인터뷰 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T00:59:41Z",
+      "updated_at": "2026-11-13T00:59:41Z",
+      "articles": [
+        {
+          "key": "900305a76eaf4caa",
+          "title": "[머니톡스] 위험한 황제 젠슨 황…결국 기업의 운명은 CEO가 결정한다",
+          "url": "https://www.yna.co.kr/view/AKR20261113050700546",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T00:59:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261113-0982",
+      "headline": "딥엑스, 인텔과 AI 추론 협력 MOU…서버 사업 확대",
+      "summary": [
+        "딥엑스가 인텔코리아와 AI 추론 기술 협력을 위한 업무협약을 맺었다.",
+        "12일 서울 코엑스에서 체결됐으며, 서버 기업 KTNF가 참여한 3자 협약도 함께 체결됐다.",
+        "AI 반도체·소프트웨어·서버를 아우르는 이기종 컴퓨팅 기반 AI 서버 협력 체계 구축이 목표다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "NPU",
+        "OpenVINO",
+        "AI 추론",
+        "AI 서버",
+        "이기종 컴퓨팅"
+      ],
+      "companies": [
+        "딥엑스",
+        "인텔",
+        "KTNF"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "딥엑스",
+        "인텔코리아",
+        "KTNF"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T00:39:46Z",
+      "updated_at": "2026-11-13T00:47:51Z",
+      "articles": [
+        {
+          "key": "490ea6a3564c3f25",
+          "title": "딥엑스, 인텔과 AI 추론 기술 검증…차세대 NPU 사업 확대",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409732",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T00:39:46Z"
+        },
+        {
+          "key": "c1fd318b26797d9c",
+          "title": "[AI픽] 딥엑스, 인텔과 AI 반도체 협력…로봇·서버로 확대",
+          "url": "https://www.yna.co.kr/view/AKR20261113048500017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T00:47:51Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261113-0984",
+      "headline": "삼성전자, 삼성라이온즈 우승 기념 경품 행사 진행",
+      "summary": [
+        "삼성전자가 삼성 라이온즈의 2026 한국시리즈 우승을 기념하는 특별 경품 이벤트를 13일부터 시작했다.",
+        "기사 본문이 잘려 있어 경품의 구체적 내용과 기간, 응모 조건은 확인되지 않는다.",
+        "이번 행사는 반도체·디스플레이 산업 사업과 직접 관련이 없는 기업 홍보 활동이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "기념 경품",
+        "한국시리즈",
+        "삼성라이온즈",
+        "기업 홍보"
+      ],
+      "companies": [
+        "삼성전자",
+        "삼성라이온즈"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 2,
+      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자) +1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T00:42:00Z",
+      "updated_at": "2026-11-13T00:42:00Z",
+      "articles": [
+        {
+          "key": "5cfb79a332509ca2",
+          "title": "삼성전자, '삼성라이온즈 통산 9번째 우승' 기념 경품 행사",
+          "url": "https://www.yna.co.kr/view/AKR20261113048700003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T00:42:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261113-0983",
+      "headline": "TCL, 성수동 체험형 팝업으로 디스플레이 기술 공개",
+      "summary": [
+        "TCL이 20일부터 22일까지 서울 성수동 연무장길에서 체험형 팝업을 운영한다고 밝혔다.",
+        "게이밍과 최신 디스플레이 기술을 게임 및 일상 경험으로 선보이며 방문객 참여 이벤트를 마련했다.",
+        "제품 체험 중심의 브랜드 소통 행사로, 디스플레이 제품의 소비자 접점 확대 의미가 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "TCL",
+        "체험형 팝업",
+        "게이밍 디스플레이",
+        "성수동",
+        "브랜드 마케팅"
+      ],
+      "companies": [
+        "TCL"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "TCL"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T00:40:00Z",
+      "updated_at": "2026-11-13T00:40:00Z",
+      "articles": [
+        {
+          "key": "32d25739d956ab56",
+          "title": "TCL, 성수동서 체험형 팝업 개최…디스플레이 기술, 일상 속 즐거움으로",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409725",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T00:40:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261113-0981",
+      "headline": "SFA 3분기 실적, 반도체 수주 비중 56.9%로 급증",
+      "summary": [
+        "SFA가 2026년 3분기 매출 4302억원, 영업이익 221억원을 발표했고 영업이익은 전년 대비 17.2% 감소했다.",
+        "매출총이익률은 21.7%로 2022년 이후 최고 수준이며, 3분기 수주 1356억원 중 반도체 비중은 56.9%로 상승했다.",
+        "반도체 고부가 수주 확대로 수익성 개선이 기대되지만, 연간 수주 목표 1조 3000억원은 유지됐다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "3분기 실적",
+        "매출총이익률",
+        "반도체 수주",
+        "OSAT",
+        "연간 수주 목표"
+      ],
+      "companies": [
+        "SFA",
+        "SFA반도체",
+        "SFA넥셀"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "SFA"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T00:35:23Z",
+      "updated_at": "2026-11-13T00:35:23Z",
+      "articles": [
+        {
+          "key": "0f0cff0683b32b00",
+          "title": "SFA, 3분기 영업익 전년비 17.2% ↓…\"반도체 기반 고수익 수주 확대\"",
+          "url": "https://zdnet.co.kr/view/?no=20261113085128",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-13T00:35:23Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261113-0980",
+      "headline": "엔비디아 경영진 교체에도 대만 공급망 단기 수요 낙관",
+      "summary": [
+        "엔비디아의 경영진 교체 이후에도 대만 공급업체들이 단기 수요에 자신감을 보이고 있다는 분석이 나왔다.",
+        "기사 본문은 출처 표기만 있어 구체적인 인물, 수치, 일정은 확인되지 않는다.",
+        "다만 AI 반도체 수요가 당분간 유지된다는 시각이 공급망에서 확산되고 있어 업계 참고 사안이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엔비디아",
+        "경영진 교체",
+        "대만 공급망",
+        "AI 반도체 수요"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T00:30:26Z",
+      "updated_at": "2026-11-13T00:30:26Z",
+      "articles": [
+        {
+          "key": "998573e2b60bdcf2",
+          "title": "Analysis: Nvidia's leadership change leaves Taiwan suppliers confident in near-term demand",
+          "url": "https://www.digitimes.com/news/a20261113PD213/nvidia-taiwan-jensen-huang-demand-rubin.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T00:30:26Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261113-0979",
+      "headline": "노동장관, 반도체 기업과 근로시간 현장 간담회 개최",
+      "summary": [
+        "김영훈 고용노동부 장관이 13일 반도체 기업 관계자들과 간담회를 열었다.",
+        "간담회에서는 반도체 연구·개발 현장의 근로시간제도 운용 실태를 청취했다.",
+        "이번 논의는 초광역특구 관련 사회적 대화의 참고 자료로 활용될 예정이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "근로시간제도",
+        "반도체 연구개발",
+        "초광역특구",
+        "사회적 대화"
+      ],
+      "companies": [],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T00:30:02Z",
+      "updated_at": "2026-11-13T00:30:02Z",
+      "articles": [
+        {
+          "key": "0d72affc4b1e6842",
+          "title": "노동장관, 반도체 기업 간담회…초광역특구 사회적 대화에 참고",
+          "url": "https://www.yna.co.kr/view/AKR20261112178500530",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T00:30:02Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261113-0978",
+      "headline": "젠슨 황 엔비디아 CEO 사퇴, 내부 여론은 반대",
+      "summary": [
+        "기사에 따르면 젠슨 황 엔비디아 CEO가 잇단 불륜 의혹 끝에 물러났다.",
+        "사퇴 발표 직전 직장인 익명 커뮤니티에서는 재직자 74%가 사퇴에 반대했다고 전했다.",
+        "기사 본문이 일부만 제공돼 세부 경위와 후임 체제는 확인되지 않아 산업 영향 판단은 제한적이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "경영진 교체",
+        "불륜 의혹",
+        "사퇴 여론",
+        "엔비디아"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T00:28:05Z",
+      "updated_at": "2026-11-13T00:28:05Z",
+      "articles": [
+        {
+          "key": "9299ddc367ea4331",
+          "title": "젠슨 황 퇴진직전 엔비디아 내 여론은…재직자 74% \"사퇴 반대\"",
+          "url": "https://www.yna.co.kr/view/AKR20261112174100017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T00:28:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261113-0977",
+      "headline": "엔비디아 임시 CEO, 18일 전사회의 소집",
+      "summary": [
+        "엔비디아 임시 CEO 콜레트 크레스가 18일 전사회의를 소집했다고 더버지가 사내 이메일을 인용해 보도했다.",
+        "회의는 3분기 실적 발표 다음 날 열리며, 크레스는 지금이 극도로 힘든 시기라는 입장을 밝혔다.",
+        "젠슨 황 사임 이후 경영 공백과 내부 결속 필요성이 함께 부각되는 흐름으로 해석된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "임시 CEO",
+        "전사회의",
+        "경영 공백",
+        "3분기 실적"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T00:03:10Z",
+      "updated_at": "2026-11-13T00:03:10Z",
+      "articles": [
+        {
+          "key": "d72127cff6bd40d2",
+          "title": "엔비디아 임시 CEO \"지금 극도로 힘든 시기\"…18일 전사회의 소집",
+          "url": "https://www.inews24.com/view/2025795",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-13T00:03:10Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261112-0955",
       "headline": "파네시아-인텔, CXL 스위치 기반 AI 서버 협력 MOU",
