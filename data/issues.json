@@ -1,7 +1,48 @@
 {
   "version": 1,
-  "updated_at": "2026-11-13T21:03:54Z",
+  "updated_at": "2026-11-13T21:57:48Z",
   "issues": [
+    {
+      "id": "c20261113-1050",
+      "headline": "HBM4 컨트롤러 기능, 호스트에서 베이스 다이로 이동 연구",
+      "summary": [
+        "캘리포니아대 리버사이드 연구진이 HBM4 컨트롤러 기능 배치를 분석한 기술 논문을 발표했다.",
+        "호스트와 HBM4 베이스 다이 사이에서 컨트롤러 기능을 네 가지 방식으로 나눠 평가했다.",
+        "메모리 근처에 제어 기능을 두는 설계 방향을 정량적으로 검토한 학술 성과다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM4",
+        "HBM 컨트롤러",
+        "베이스 다이",
+        "실리콘 인터포저",
+        "메모리 아키텍처"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T21:53:30Z",
+      "updated_at": "2026-11-13T21:53:30Z",
+      "articles": [
+        {
+          "key": "eb6dbafa5a30ed4e",
+          "title": "Shifting HBM4 Controller Functions Closer To Memory (UC Riverside)",
+          "url": "https://semiengineering.com/shifting-hbm4-controller-functions-closer-to-memory-uc-riverside/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-13T21:53:30Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261113-1048",
       "headline": "젠슨 황 스캔들, 반도체 수출통제 변수로 부상",
@@ -223,6 +264,57 @@
       ],
       "type_checked": true,
       "importance_raw": 1
+    },
+    {
+      "id": "c20261113-1049",
+      "headline": "CSOT, 샤오미 YU7 GT에 파노라마 헤드업 디스플레이 공급",
+      "summary": [
+        "CSOT가 샤오미 전기 SUV YU7 GT에 파노라마 헤드업 디스플레이(PHUD)와 CID, RSED 등 차량용 LCD를 공급했다고 밝혔다.",
+        "PHUD는 가로로 긴 HUD로 YU7 GT는 속도·주행정보를 띄우며, CSOT는 화웨이 차량용 CID도 여러 차종에 납품 중이다.",
+        "차량용 디스플레이 레퍼런스가 확대되며 CSOT의 완성차 고객 기반이 넓어지고 있다는 의미가 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "파노라마 헤드업 디스플레이",
+        "차량용 LCD",
+        "CID",
+        "미니 LED BLU",
+        "PHUD"
+      ],
+      "companies": [
+        "CSOT",
+        "샤오미",
+        "화웨이",
+        "BAIC",
+        "티엔마",
+        "화양그룹"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "CSOT",
+        "샤오미"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T16:39:31Z",
+      "updated_at": "2026-11-13T16:39:31Z",
+      "articles": [
+        {
+          "key": "c9e04cc449c04d21",
+          "title": "CSOT, 샤오미 전기차 YU7 GT에 '파노라마 헤드업 디스플레이' 공급",
+          "url": "https://zdnet.co.kr/view/?no=20261114003746",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-13T16:39:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261113-1043",
