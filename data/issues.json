@@ -1,7 +1,111 @@
 {
   "version": 1,
-  "updated_at": "2026-11-13T21:57:48Z",
+  "updated_at": "2026-11-13T22:55:49Z",
   "issues": [
+    {
+      "id": "c20261113-0999",
+      "headline": "젠슨 황 엔비디아 CEO 불명예 퇴진, 업계 파장",
+      "summary": [
+        "젠슨 황 엔비디아 CEO가 혼외관계 논란 속에 최고경영자 자리에서 물러났다.",
+        "기사에는 교체 후임과 구체적 일정에 대한 내용이 나오지 않아 세부 경과는 확인되지 않는다.",
+        "최고경영자 교체는 엔비디아 경영 방향과 AI 반도체 시장 전반에 영향을 줄 수 있어 주목된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엔비디아",
+        "젠슨 황",
+        "CEO 교체",
+        "경영진 리스크",
+        "AI반도체"
+      ],
+      "companies": [
+        "엔비디아",
+        "에픽게임즈"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T02:56:02Z",
+      "updated_at": "2026-11-13T22:00:00Z",
+      "articles": [
+        {
+          "key": "838f0004bb0eebda",
+          "title": "[영상] 내쫓긴 젠슨황 엔비디아 CEO…33년 만에 불명예 퇴진",
+          "url": "https://www.yna.co.kr/view/AKR20261113086000704",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T02:56:02Z"
+        },
+        {
+          "key": "b0c86f2231080b21",
+          "title": "젠슨 황, 불명예 퇴진에 실리콘밸리 술렁…일각선 '황어게인'",
+          "url": "https://www.inews24.com/view/2026167",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-13T22:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261112-0938",
+      "headline": "미국, 중국 기업의 해외 AI 반도체 우회 사용 차단 추진",
+      "summary": [
+        "미국 정부가 중국 AI 기업의 해외 데이터센터를 통한 첨단 반도체 우회 사용을 막기 위한 규정을 마련 중이다.",
+        "중국 직접 수출뿐 아니라 해외에 설치된 반도체 사용까지 규제 대상에 포함하는 방향으로 알려졌다.",
+        "해외 클라우드를 통한 우회 경로가 막히면 AI 반도체 수출 통제의 실효성이 한층 높아질 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출규제",
+        "AI반도체",
+        "우회 수출",
+        "데이터센터"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "정책·규제·법",
+      "confirmed": false,
+      "parties": [],
+      "importance": 3,
+      "importance_reason": "정책·규제·법 4점, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T08:02:47Z",
+      "updated_at": "2026-11-13T22:00:00Z",
+      "articles": [
+        {
+          "key": "055d7db3e5f1c4d9",
+          "title": "美 정부, 中 기업의 해외 AI 반도체 우회 사용 차단 추진",
+          "url": "https://www.inews24.com/view/2025622",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-12T08:02:47Z"
+        },
+        {
+          "key": "a458de2c29a2097d",
+          "title": "美, 중국의 해외 AI 반도체 사용 막는다…동남아 AIDC '대출 리스크' 부상",
+          "url": "https://www.inews24.com/view/2025977",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-13T22:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261113-1050",
       "headline": "HBM4 컨트롤러 기능, 호스트에서 베이스 다이로 이동 연구",
@@ -2948,50 +3052,6 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261113-0999",
-      "headline": "엔비디아 젠슨 황 CEO 불명예 퇴진 보도",
-      "summary": [
-        "연합뉴스 영상 기사 제목은 젠슨 황 엔비디아 CEO가 33년 만에 불명예 퇴진했다고 전한다.",
-        "본문에는 퇴진 경위, 후임 체제, 회사 공식 발표 등 구체적 내용이 없어 사실 여부를 확인하기 어렵다.",
-        "사실이라면 AI 반도체 선두 기업의 최고경영자 교체로 업계 파장이 클 수 있어 추가 확인이 필요하다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "젠슨 황",
-        "CEO 교체",
-        "불명예 퇴진",
-        "AI반도체"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": false,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 2,
-      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-13T02:56:02Z",
-      "updated_at": "2026-11-13T02:56:02Z",
-      "articles": [
-        {
-          "key": "838f0004bb0eebda",
-          "title": "[영상] 내쫓긴 젠슨황 엔비디아 CEO…33년 만에 불명예 퇴진",
-          "url": "https://www.yna.co.kr/view/AKR20261113086000704",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-13T02:56:02Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
       "id": "c20261113-1009",
       "headline": "젠슨 황 전 엔비디아 CEO, 의회 증언 동의",
       "summary": [
@@ -5629,48 +5689,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261112-0938",
-      "headline": "미국, 중국 기업의 해외 AI 반도체 우회 사용 차단 추진",
-      "summary": [
-        "미국 정부가 중국 AI 기업의 해외 데이터센터를 통한 첨단 반도체 우회 사용을 막기 위한 규정을 마련 중이다.",
-        "중국 직접 수출뿐 아니라 해외에 설치된 반도체 사용까지 규제 대상에 포함하는 방향으로 알려졌다.",
-        "해외 클라우드를 통한 우회 경로가 막히면 AI 반도체 수출 통제의 실효성이 한층 높아질 전망이다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "수출규제",
-        "AI반도체",
-        "우회 수출",
-        "데이터센터"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "정책·규제·법",
-      "confirmed": false,
-      "parties": [],
-      "importance": 3,
-      "importance_reason": "정책·규제·법 4점, 미확정 -1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-12T08:02:47Z",
-      "updated_at": "2026-11-12T08:02:47Z",
-      "articles": [
-        {
-          "key": "055d7db3e5f1c4d9",
-          "title": "美 정부, 中 기업의 해외 AI 반도체 우회 사용 차단 추진",
-          "url": "https://www.inews24.com/view/2025622",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-12T08:02:47Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261112-0937",
