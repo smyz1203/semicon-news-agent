@@ -1,7 +1,353 @@
 {
   "version": 1,
-  "updated_at": "2026-11-13T07:40:09Z",
+  "updated_at": "2026-11-13T09:12:53Z",
   "issues": [
+    {
+      "id": "c20261113-0993",
+      "headline": "젠슨 황 사임에도 엔비디아 GPU 26만장 공급 유지",
+      "summary": [
+        "젠슨 황 엔비디아 CEO가 갑작스럽게 사임했다.",
+        "배경훈 부총리는 엔비디아가 한국 첨단 GPU 26만장 공급과 국내 협력을 기존 발표대로 추진한다고 밝혔다.",
+        "정부는 긴급 점검에 나섰고, 대규모 GPU 공급 일정의 불확실성은 일단 낮아진 모습이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "GPU",
+        "엔비디아",
+        "젠슨 황",
+        "GPU 26만장",
+        "AI 인프라"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 매체 3곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T01:32:11Z",
+      "updated_at": "2026-11-13T09:06:41Z",
+      "articles": [
+        {
+          "key": "adce812652d52218",
+          "title": "과기정통부, 2차관 주재 긴급 점검회의⋯\"GPU 공급 차질 無\"",
+          "url": "https://www.inews24.com/view/2025867",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-13T01:32:11Z"
+        },
+        {
+          "key": "e6efcbcb332e9d1f",
+          "title": "젠슨 황 없는 엔비디아…한국 GPU 26만장 공급 약속 유지",
+          "url": "https://www.yna.co.kr/view/AKR20261113155400017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T08:20:46Z"
+        },
+        {
+          "key": "49e305866b748de9",
+          "title": "젠슨 황 사임에 정부 긴급 점검…GPU 공급·협력 유지 총력(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261113155451017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T08:50:50Z"
+        },
+        {
+          "key": "3579224134345597",
+          "title": "젠슨 황 사임해도…과기정통부 “한국 GPU 26만 장 공급·협력 차질 없다”",
+          "url": "https://www.dt.co.kr/article/12095060",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-13T09:04:55Z"
+        },
+        {
+          "key": "1c82eebdf51eb5a1",
+          "title": "배경훈 부총리 \"젠슨 황 사임에도 GPU 공급·협력 계속\"",
+          "url": "https://www.inews24.com/view/2026126",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-13T09:06:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261112-0976",
+      "headline": "삼성전자 DS, 협력사 대상 HBM·소재 기술 공유 행사 개최",
+      "summary": [
+        "삼성전자 DS부문이 협력사 임직원 1000여명을 대상으로 HBM과 차세대 반도체 소재 기술을 공유했다.",
+        "행사는 지난 10일 경기 수원 상생협력 아카데미에서 열렸으며, 기사에 구체적 수치 외 세부 내용은 제시되지 않았다.",
+        "협력사와 기술 정보를 공유하며 AI 반도체 공급망의 협력 기반을 다지는 행보로 볼 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "HBM",
+        "차세대 반도체 소재",
+        "상생협력",
+        "AI 반도체"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "채용·인력 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-12T23:25:38Z",
+      "updated_at": "2026-11-13T08:43:05Z",
+      "articles": [
+        {
+          "key": "33c21567752a038a",
+          "title": "삼성전자, 협력사 초청 '반도체 테크 세미나' 개최",
+          "url": "https://www.yna.co.kr/view/AKR20261113028500003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-12T23:25:38Z"
+        },
+        {
+          "key": "181c0bad5082ff65",
+          "title": "삼성전자 DS, 협력사 1000명과 AI 반도체 기술 공유",
+          "url": "https://www.inews24.com/view/2025855",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-13T08:43:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261113-1005",
+      "headline": "어플라이드 머티어리얼즈, AI 수요에 사상 최대 실적",
+      "summary": [
+        "어플라이드 머티어리얼즈가 회계연도 2026년 4분기 매출 104억1000만달러로 분기 사상 최대를 기록했다.",
+        "분기와 연간 매출이 모두 역대 최고치이며 전년 대비 53% 증가했고, 연간 영업이익은 110억달러를 넘어섰다.",
+        "AI 반도체 장비 수요가 실적을 이끌고 있어 반도체 장비 업계의 투자 확대 흐름이 이어질 전망이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI반도체",
+        "반도체장비",
+        "사상최대실적",
+        "영업이익",
+        "매출성장"
+      ],
+      "companies": [
+        "어플라이드 머티어리얼즈"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "어플라이드 머티어리얼즈"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 매체 3곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-13T02:15:38Z",
+      "updated_at": "2026-11-13T08:42:47Z",
+      "articles": [
+        {
+          "key": "5fefdfa34f317268",
+          "title": "Applied Materials posts record fourth-quarter revenue as AI-driven chip equipment demand accelerates",
+          "url": "https://www.digitimes.com/news/a20261113VL209/applied-materials-revenue-equipment-demand-investment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T02:15:38Z"
+        },
+        {
+          "key": "93b44f86fc81d105",
+          "title": "어플라이드, 연간 영업이익 110억 달러 돌파... 사상 최대 실적",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409751",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T04:00:00Z"
+        },
+        {
+          "key": "51b7f4b68ced9a88",
+          "title": "어플라이드, 4분기 매출 104억달러 '역대 최대'…전년比 53%↑",
+          "url": "https://www.inews24.com/view/2026123",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-13T08:42:47Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261113-1022",
+      "headline": "세미파이브 3분기 신규 수주 역대 최대 경신",
+      "summary": [
+        "세미파이브가 올해 3분기 연결 기준 역대 최대 신규 수주 실적을 발표했다.",
+        "신규 수주는 1784억원으로 전년 대비 437% 증가했고, 수주잔고는 2455억원으로 집계됐다.",
+        "북미 고성능컴퓨팅 분야 대형 프로젝트 수주가 늘어 AI 맞춤형 반도체 설계 수요의 강세를 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI ASIC",
+        "수주잔고",
+        "북미 HPC",
+        "맞춤형 반도체 설계"
+      ],
+      "companies": [
+        "세미파이브"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "세미파이브"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T05:09:51Z",
+      "updated_at": "2026-11-13T08:25:55Z",
+      "articles": [
+        {
+          "key": "248e8e567c8ff7d2",
+          "title": "세미파이브, 3분기 수주잔고 2455억원 '최대 실적' 경신",
+          "url": "https://zdnet.co.kr/view/?no=20261113135805",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-13T05:09:51Z"
+        },
+        {
+          "key": "3297e78d72d10fbe",
+          "title": "세미파이브, 3분기 신규 수주 1784억원 '역대 최대'…전년比 437%↑",
+          "url": "https://www.inews24.com/view/2026110",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-13T08:25:55Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261113-1030",
+      "headline": "반도체 업계 주간 동향: 300mm SiC 양산과 AI 칩 신제품 발표",
+      "summary": [
+        "인피니언이 오스트리아 빌라흐 공장에서 300mm 실리콘카바이드 전력반도체 기능 소자 제조에 성공했다고 밝혔다.",
+        "웨이퍼 면적은 200mm 대비 칩을 2.3배 더 담을 수 있어 자동차·산업용 전력소자 원가 절감이 기대된다.",
+        "AMD와 구글 등 AI 칩 신제품이 잇따라 나왔으나, 기사에는 엔비디아 CEO 사임 관련 후속 논란도 언급됐다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "300mm SiC",
+        "HBM4",
+        "TPU 8세대",
+        "EPYC",
+        "실리콘 인터포저"
+      ],
+      "companies": [
+        "인피니언",
+        "AMD",
+        "구글",
+        "아크",
+        "imec",
+        "엔비디아"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "인피니언"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T08:01:34Z",
+      "updated_at": "2026-11-13T08:01:34Z",
+      "articles": [
+        {
+          "key": "53757342acf08778",
+          "title": "Chip Industry Week In Review",
+          "url": "https://semiengineering.com/chip-industry-week-in-review-164/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-13T08:01:34Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261113-1029",
+      "headline": "엔비디아·AMD·인텔, 국산 AI 팹리스와 이기종 컴퓨팅 협력 확대",
+      "summary": [
+        "엔비디아는 리벨리온 NPU를 NV링크 퓨전으로 연동하고 SK텔레콤과 데이터센터 구축 3자 협력을 발표했다.",
+        "AMD는 하이퍼엑셀, 망고부스트, 파두 등과 시스템 연동을, 인텔은 딥엑스와 온프레미스 AI 서버 공동 개발을 추진 중이다.",
+        "AI 추론 중심 전환에 따라 단일 칩 경쟁을 넘어 이기종 연결 인프라가 국산 팹리스의 새로운 기회로 떠오르고 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "이기종 컴퓨팅",
+        "NV링크 퓨전",
+        "소버린 AI",
+        "AI 추론",
+        "NPU"
+      ],
+      "companies": [
+        "엔비디아",
+        "AMD",
+        "인텔",
+        "리벨리온",
+        "SK텔레콤",
+        "딥엑스",
+        "퓨리오사AI",
+        "하이퍼엑셀"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "엔비디아",
+        "리벨리온",
+        "SK텔레콤"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T07:14:18Z",
+      "updated_at": "2026-11-13T07:14:18Z",
+      "articles": [
+        {
+          "key": "8bc77459b376f3f5",
+          "title": "글로벌 빅테크-K반도체, '이기종 컴퓨팅' 인프라 전방위 협력",
+          "url": "https://zdnet.co.kr/view/?no=20261113155458",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-13T07:14:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261113-1028",
       "headline": "큐알티 3분기 누적 영업이익 55% 증가, 우주 부품 평가 수요",
@@ -807,52 +1153,6 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261113-1022",
-      "headline": "세미파이브 3분기 수주잔고 2455억원, 역대 최대 경신",
-      "summary": [
-        "세미파이브가 3분기 연결 기준 신규 수주 1784억원, 수주잔고 2455억원을 기록했다고 13일 밝혔다.",
-        "ASIC 개발 부문 수주가 1369억원으로 전년 동기 대비 705% 급증했고, 북미 HPC 대형 프로젝트가 주요 요인이다.",
-        "AI ASIC 시장 공급 확대로 4분기부터 수주잔고가 매출에 순차 반영될 전망이라 실적 개선이 기대된다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "ASIC",
-        "수주잔고",
-        "4nm 공정",
-        "AI 추론 칩",
-        "소버린 AI"
-      ],
-      "companies": [
-        "세미파이브",
-        "삼성전자"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "세미파이브"
-      ],
-      "importance": 3,
-      "importance_reason": "실적 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-13T05:09:51Z",
-      "updated_at": "2026-11-13T05:09:51Z",
-      "articles": [
-        {
-          "key": "248e8e567c8ff7d2",
-          "title": "세미파이브, 3분기 수주잔고 2455억원 '최대 실적' 경신",
-          "url": "https://zdnet.co.kr/view/?no=20261113135805",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-13T05:09:51Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
       "id": "c20261113-0982",
       "headline": "딥엑스, 인텔·KTNF와 AI 추론 서버 생태계 확장",
       "summary": [
@@ -1208,59 +1508,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261113-1005",
-      "headline": "어플라이드 머티어리얼즈, AI 수요로 사상 최대 실적 달성",
-      "summary": [
-        "어플라이드 머티어리얼즈가 회계연도 2026년 4분기 및 연간 실적을 발표했다.",
-        "4분기 글로벌 매출은 104억1000만 달러로 전년 대비 53% 증가해 분기 기준 역대 최대를 기록했다.",
-        "AI 반도체 장비 수요 확대가 실적을 끌어올려 반도체 장비 업계의 호황을 보여준다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "AI반도체",
-        "반도체 장비",
-        "사상 최대 실적",
-        "영업이익",
-        "매출총이익률"
-      ],
-      "companies": [
-        "어플라이드 머티어리얼즈"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "어플라이드 머티어리얼즈"
-      ],
-      "importance": 3,
-      "importance_reason": "실적 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-13T02:15:38Z",
-      "updated_at": "2026-11-13T04:00:00Z",
-      "articles": [
-        {
-          "key": "5fefdfa34f317268",
-          "title": "Applied Materials posts record fourth-quarter revenue as AI-driven chip equipment demand accelerates",
-          "url": "https://www.digitimes.com/news/a20261113VL209/applied-materials-revenue-equipment-demand-investment.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-13T02:15:38Z"
-        },
-        {
-          "key": "93b44f86fc81d105",
-          "title": "어플라이드, 연간 영업이익 110억 달러 돌파... 사상 최대 실적",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409751",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-13T04:00:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261113-1015",
@@ -2232,51 +2479,6 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261113-0993",
-      "headline": "엔비디아 CEO 사퇴 여파, 정부 GPU 공급 점검",
-      "summary": [
-        "과기정통부가 젠슨 황 엔비디아 CEO의 전격 사퇴와 관련해 13일 긴급 점검회의를 열었다.",
-        "회의는 류제명 제2차관이 주재했으며, 엔비디아 측과 직접 소통하며 한국에 공급할 GPU 상황을 점검했다.",
-        "정부는 GPU 공급 차질이 없다고 밝혀 국내 AI반도체 수급 우려를 진정시키는 모습이다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "GPU 공급",
-        "젠슨 황",
-        "엔비디아 CEO 사퇴",
-        "AI반도체",
-        "긴급 점검회의"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 3,
-      "importance_reason": "경영진 교체 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-13T01:32:11Z",
-      "updated_at": "2026-11-13T01:32:11Z",
-      "articles": [
-        {
-          "key": "adce812652d52218",
-          "title": "과기정통부, 2차관 주재 긴급 점검회의⋯\"GPU 공급 차질 無\"",
-          "url": "https://www.inews24.com/view/2025867",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-13T01:32:11Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
       "id": "c20261113-0992",
       "headline": "젠슨 황 퇴진 후 엔비디아의 AI 금융 역할 변화 우려",
       "summary": [
@@ -2862,50 +3064,6 @@
           "source": "디일렉",
           "lang": "ko",
           "published_at": "2026-11-12T23:52:31Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261112-0976",
-      "headline": "삼성전자, 협력사 대상 반도체 기술 세미나 개최",
-      "summary": [
-        "삼성전자 DS부문이 지난 10일 경기도 수원 상생협력 아카데미에서 협력사를 초청해 세미나를 열었다.",
-        "기사 본문이 일부만 제공되어 세미나의 구체적인 발표 내용과 참석 규모는 확인되지 않는다.",
-        "협력사와의 기술 교류를 통해 공급망 상생 협력을 강화하려는 취지로 해석된다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "협력사 상생",
-        "반도체 세미나",
-        "공급망",
-        "삼성전자 DS부문"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "홍보·수상",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 2,
-      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자) +1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-12T23:25:38Z",
-      "updated_at": "2026-11-12T23:25:38Z",
-      "articles": [
-        {
-          "key": "33c21567752a038a",
-          "title": "삼성전자, 협력사 초청 '반도체 테크 세미나' 개최",
-          "url": "https://www.yna.co.kr/view/AKR20261113028500003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-12T23:25:38Z"
         }
       ],
       "type_checked": true,
