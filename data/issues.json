@@ -1,7 +1,123 @@
 {
   "version": 1,
-  "updated_at": "2026-11-13T22:55:49Z",
+  "updated_at": "2026-11-13T23:51:36Z",
   "issues": [
+    {
+      "id": "c20261109-0698",
+      "headline": "엔비디아 젠슨 황 CEO 불륜 스캔들, 시총 258조 증발",
+      "summary": [
+        "젠슨 황 엔비디아 CEO가 중국 스파이 의혹을 받는 여성 기업인과 불륜을 인정하고 가족에게 사과했다.",
+        "엔비디아 주가는 4.3% 하락한 178.67달러로 마감했고 시가총액 1921억 달러(약 258조원)가 하루 만에 증발했다.",
+        "이사회는 독립 조사에 착수했으나 기밀 유출 근거는 없다고 밝혔고, 분석가들은 해임 가능성은 낮지만 대외 신뢰도 훼손을 우려한다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "엔비디아 CEO 리스크",
+        "이사회 조사",
+        "칩 밀반입",
+        "메가스피드"
+      ],
+      "companies": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-09T10:15:50Z",
+      "updated_at": "2026-11-13T23:33:39Z",
+      "articles": [
+        {
+          "key": "d199b9e5bce59418",
+          "title": "엔비디아, 젠슨 황 ‘불륜’ 폭탄…시간외거래 4%대 급락",
+          "url": "https://www.dt.co.kr/article/12094105",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-09T10:15:50Z"
+        },
+        {
+          "key": "c704185017ed5b88",
+          "title": "‘불륜 스캔들’ 젠슨 황, CEO 자리 지킬까…전문가들 전망은",
+          "url": "https://zdnet.co.kr/view/?no=20261110092936",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-10T01:14:28Z"
+        },
+        {
+          "key": "ed163f9cbb5857e1",
+          "title": "젠슨 황 'OUT'… AI 방향타 흔들",
+          "url": "https://www.dt.co.kr/article/12094951",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-12T10:04:51Z"
+        },
+        {
+          "key": "688f4cdfa0fae754",
+          "title": "“서학개미 1000억 넣었는데”…엔비디아 주가, 일주일새 13% ‘뚝’",
+          "url": "https://www.dt.co.kr/article/12095075",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-13T23:33:39Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261113-1051",
+      "headline": "엔비디아 차기 CEO 물색설, 후보 접촉 부인",
+      "summary": [
+        "엔비디아가 러네이 하스 암 CEO와 차기 수장 관련 접촉했다는 보도를 부인했다.",
+        "엔비디아 이사회는 어떠한 잠재 후보에도 아직 공식 연락하지 않았다고 밝혔다.",
+        "후계 구도에 대한 보도와 공식 입장이 엇갈리며 향후 경영진 변화 여부가 주목된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "엔비디아",
+        "CEO 승계",
+        "러네이 하스",
+        "Arm"
+      ],
+      "companies": [
+        "엔비디아",
+        "Arm"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아",
+        "Arm"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T23:16:27Z",
+      "updated_at": "2026-11-13T23:16:27Z",
+      "articles": [
+        {
+          "key": "623125bb56deb79a",
+          "title": "젠슨 황 후임 찾는 엔비디아…Arm CEO 접촉설에 “누구와도 연락 안해”",
+          "url": "https://www.dt.co.kr/article/12095074",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-13T23:16:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261113-0999",
       "headline": "젠슨 황 엔비디아 CEO 불명예 퇴진, 업계 파장",
@@ -5009,68 +5125,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261109-0698",
-      "headline": "엔비디아 젠슨 황 CEO 불륜 스캔들, 시총 258조 증발",
-      "summary": [
-        "젠슨 황 엔비디아 CEO가 중국 스파이 의혹을 받는 여성 기업인과 불륜을 인정하고 가족에게 사과했다.",
-        "엔비디아 주가는 4.3% 하락한 178.67달러로 마감했고 시가총액 1921억 달러(약 258조원)가 하루 만에 증발했다.",
-        "이사회는 독립 조사에 착수했으나 기밀 유출 근거는 없다고 밝혔고, 분석가들은 해임 가능성은 낮지만 대외 신뢰도 훼손을 우려한다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "젠슨 황",
-        "엔비디아 CEO 리스크",
-        "이사회 조사",
-        "칩 밀반입",
-        "메가스피드"
-      ],
-      "companies": [
-        "엔비디아",
-        "메가스피드"
-      ],
-      "event_type": "주가 등락",
-      "confirmed": true,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 1,
-      "importance_reason": "주가 등락 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-09T10:15:50Z",
-      "updated_at": "2026-11-12T10:04:51Z",
-      "articles": [
-        {
-          "key": "d199b9e5bce59418",
-          "title": "엔비디아, 젠슨 황 ‘불륜’ 폭탄…시간외거래 4%대 급락",
-          "url": "https://www.dt.co.kr/article/12094105",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-09T10:15:50Z"
-        },
-        {
-          "key": "c704185017ed5b88",
-          "title": "‘불륜 스캔들’ 젠슨 황, CEO 자리 지킬까…전문가들 전망은",
-          "url": "https://zdnet.co.kr/view/?no=20261110092936",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-10T01:14:28Z"
-        },
-        {
-          "key": "ed163f9cbb5857e1",
-          "title": "젠슨 황 'OUT'… AI 방향타 흔들",
-          "url": "https://www.dt.co.kr/article/12094951",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-12T10:04:51Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
     },
     {
       "id": "c20261112-0954",
