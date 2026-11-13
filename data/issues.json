@@ -1,7 +1,54 @@
 {
   "version": 1,
-  "updated_at": "2026-11-13T11:14:32Z",
+  "updated_at": "2026-11-13T12:09:48Z",
   "issues": [
+    {
+      "id": "c20261113-1040",
+      "headline": "딥엑스, 삼성 2나노로 차세대 AI칩 DX-M2 개발",
+      "summary": [
+        "딥엑스는 삼성전자의 2나노 공정을 활용한 차세대 AI칩 DX-M2 개발에 1억 달러 이상을 투입한다.",
+        "설계를 마치고 최종 설계도를 삼성 파운드리에 전달했으며, 2027년 3월 첫 실리콘 확보를 목표로 한다.",
+        "2028년 고객 평가와 양산으로 이어질 계획이어서 국산 AI칩의 선단 공정 활용 사례로 주목된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "DX-M2",
+        "2나노",
+        "AI칩",
+        "파운드리",
+        "양산 일정"
+      ],
+      "companies": [
+        "딥엑스",
+        "삼성전자"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "딥엑스",
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T12:00:46Z",
+      "updated_at": "2026-11-13T12:00:46Z",
+      "articles": [
+        {
+          "key": "0c78f551f539c8c8",
+          "title": "DeepX bets $100M on new AI chip using Samsung technology",
+          "url": "https://www.koreaherald.com/article/10936776",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-13T12:00:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261113-1039",
       "headline": "AI 투자 확대에 어플라이드 장비 생산량 두 배 확대",
@@ -90,6 +137,70 @@
       ],
       "type_checked": true,
       "importance_raw": 2
+    },
+    {
+      "id": "c20261113-1001",
+      "headline": "TCL CSOT, 잉크젯 프린팅 OLED 재료 공급망 공개",
+      "summary": [
+        "TCL CSOT가 DTC 2026 행사에서 잉크젯 프린팅 OLED 패널용 재료 공급사 5곳을 공개했다.",
+        "SFC는 청색 발광층 잉크를, SK머티리얼즈JNC는 청색 도펀트를 공급하며 용해도와 수명 개선 수치를 제시했다.",
+        "프린팅 OLED 소재 공급망이 구체화되면서 차세대 디스플레이 제조 기술의 상용화 준비가 진전되고 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "잉크젯 프린팅 OLED",
+        "청색 발광층",
+        "도펀트",
+        "DTC 2026",
+        "공급망"
+      ],
+      "companies": [
+        "TCL CSOT",
+        "SFC",
+        "이데미쓰고산",
+        "SK머티리얼즈JNC",
+        "미쓰비시케미컬",
+        "서머스프라우트",
+        "LG전자"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "TCL CSOT",
+        "SFC",
+        "SK머티리얼즈JNC",
+        "이데미쓰고산",
+        "미쓰비시케미컬",
+        "서머스프라우트"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-13T02:00:01Z",
+      "updated_at": "2026-11-13T10:20:07Z",
+      "articles": [
+        {
+          "key": "b701098a1bcf035c",
+          "title": "SFC·SK JNC, CSOT에 잉크젯 OLED 재료 공급",
+          "url": "https://zdnet.co.kr/view/?no=20261113012426",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-13T02:00:01Z"
+        },
+        {
+          "key": "792ab60c1f55a481",
+          "title": "TCL CSOT reveals its inkjet printed OLED material supply chain, as LG Electronics considers printed OLED monitors for 2028-2029",
+          "url": "https://www.oled-info.com/tcl-csot-reveals-its-inkjet-printed-oled-material-supply-chain-lg-electronics",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-13T10:20:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261113-1037",
@@ -2740,60 +2851,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261113-1001",
-      "headline": "CSOT 잉크젯 OLED에 SFC·SK JNC 재료 공급 확인",
-      "summary": [
-        "SFC와 SK JNC가 중국 CSOT에 잉크젯 프린팅 OLED 재료를 공급 중인 것으로 확인됐다.",
-        "CSOT는 우한 5.5세대 라인에서 모니터·노트북 패널을 생산하고 광저우에 8.6세대 T8 라인을 구축 중이다.",
-        "재료 공급망 공개로 잉크젯 OLED 상용화 기반이 넓어지며, LG전자도 2028~2029년 적용을 검토 중이다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "잉크젯 프린팅 OLED",
-        "8.6세대 OLED",
-        "청색 도판트",
-        "FMM",
-        "게이밍 모니터"
-      ],
-      "companies": [
-        "SFC",
-        "SK JNC",
-        "CSOT",
-        "LG전자",
-        "MSI",
-        "이데미츠코산",
-        "미쓰비시케미컬",
-        "서머스프라우트"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "SFC",
-        "SK JNC",
-        "CSOT"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-13T02:00:01Z",
-      "updated_at": "2026-11-13T02:00:01Z",
-      "articles": [
-        {
-          "key": "b701098a1bcf035c",
-          "title": "SFC·SK JNC, CSOT에 잉크젯 OLED 재료 공급",
-          "url": "https://zdnet.co.kr/view/?no=20261113012426",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-13T02:00:01Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261113-0996",
