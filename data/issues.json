@@ -1,7 +1,145 @@
 {
   "version": 1,
-  "updated_at": "2026-11-14T17:48:47Z",
+  "updated_at": "2026-11-14T18:58:26Z",
   "issues": [
+    {
+      "id": "c20261114-1060",
+      "headline": "폭스콘, 차량용 칩렛 패키징 공략 나서",
+      "summary": [
+        "폭스콘이 5μm 팬아웃 RDL 패키징으로 차량용 칩렛 시장을 겨냥하고 있다고 DigiTimes Asia가 보도했다.",
+        "다만 기사 본문이 사진 출처 표기뿐이라 양산 시점이나 고객사 등 구체적 수치와 일정은 확인되지 않는다.",
+        "자동차용 칩렛 패키징 경쟁이 가시화된다는 점에서 완성차·반도체 후공정 업계의 관심 사안이다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "칩렛",
+        "팬아웃 RDL",
+        "첨단 패키징",
+        "차량용 반도체"
+      ],
+      "companies": [
+        "폭스콘"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "폭스콘"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-14T17:59:00Z",
+      "updated_at": "2026-11-14T17:59:00Z",
+      "articles": [
+        {
+          "key": "5939e683f4458df3",
+          "title": "Foxconn targets automotive chiplets with 5μm fan-out RDL packaging",
+          "url": "https://www.digitimes.com/news/a20261112PD242/packaging-ai-applications-foxconn-automotive-training.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-14T17:59:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261114-1059",
+      "headline": "중국 Xilect, 5억 위안 투자 유치로 엔비디아 Thor 도전",
+      "summary": [
+        "중국 로봇 칩 업체 Xilect이 5억 위안(CNY500 million) 규모의 자금을 유치했다고 알려졌다.",
+        "기사 본문이 사실상 비어 있어 투자자, 투자 조건 등 세부 내용은 확인되지 않는다.",
+        "로봇용 칩 시장에서 엔비디아 Thor에 맞서려는 중국 기업의 움직임으로 해석된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "로봇 칩",
+        "Thor",
+        "투자 유치",
+        "중국 AI반도체"
+      ],
+      "companies": [
+        "Xilect",
+        "MetaX",
+        "UBTech",
+        "엔비디아"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "Xilect"
+      ],
+      "importance": 2,
+      "importance_reason": "재무·주주 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-14T17:58:00Z",
+      "updated_at": "2026-11-14T17:58:00Z",
+      "articles": [
+        {
+          "key": "b99eb4920f951ed1",
+          "title": "MetaX-UBTech robot chip venture Xilect raises CNY500 million to take on Nvidia Thor",
+          "url": "https://www.digitimes.com/news/a20261112VL205/robot-nvidia-metax-gpu-software.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-14T17:58:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261114-1058",
+      "headline": "호야, 삼성 2027년 EUV 마스크블랭크 물량 공급 차질 보도",
+      "summary": [
+        "호야가 삼성전자의 2027년 EUV 마스크블랭크 전체 요청량을 맞추기 어렵다는 보도가 나왔다.",
+        "기사 본문이 짧아 구체적인 물량, 부족 규모, 대응 일정은 확인되지 않는다.",
+        "EUV 노광 소재의 공급 여력이 빠듯하다는 신호로, 삼성의 공급망 확보 전략에 영향을 줄 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "EUV",
+        "마스크블랭크",
+        "공급망",
+        "2027년",
+        "포토마스크"
+      ],
+      "companies": [
+        "호야",
+        "삼성전자"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "호야",
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-14T17:57:00Z",
+      "updated_at": "2026-11-14T17:57:00Z",
+      "articles": [
+        {
+          "key": "c764667b33c5aa72",
+          "title": "Hoya reportedly unable to meet Samsung's full 2027 EUV mask blank request",
+          "url": "https://www.digitimes.com/news/a20261112VL210/hoya-euv-photomask-samsung-2027.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-14T17:57:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261114-1052",
       "headline": "CSOT, 4서브픽셀 듀얼모드 OLED 시제품 공개",
