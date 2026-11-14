@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-14T10:55:38Z",
+  "updated_at": "2026-11-14T11:51:34Z",
   "issues": [
     {
       "id": "c20261114-1052",
@@ -50,6 +50,61 @@
           "source": "OLED-info",
           "lang": "en",
           "published_at": "2026-11-14T10:13:23Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261114-1057",
+      "headline": "베트남-한국 AI·반도체 서밋, MOU 8건 체결 협력 확대",
+      "summary": [
+        "베트남-한국 AI·반도체 서밋(VKAISS 2026)이 하노이에서 열려 양국 기업과 기관 400여 명이 참석했다.",
+        "양국 기업 간 비즈니스 매칭 상담 약 100건이 진행되고 MOU 8건이 체결됐으며 기술 전시회도 열렸다.",
+        "베트남이 투자 유치를 넘어 기술 확보와 글로벌 밸류체인 참여를 목표로 한다는 점에서 한국 기업의 현지 진출 기회가 커질 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI반도체",
+        "반도체 패키징",
+        "MOU",
+        "베트남 진출",
+        "팹리스"
+      ],
+      "companies": [
+        "FPT",
+        "하나마이크론",
+        "한국팹리스산업협회",
+        "스카이칩스",
+        "엣지AI",
+        "슈퍼게이트"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "FPT",
+        "하나마이크론",
+        "한국팹리스산업협회",
+        "스카이칩스",
+        "엣지AI",
+        "슈퍼게이트"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-14T10:10:01Z",
+      "updated_at": "2026-11-14T10:10:01Z",
+      "articles": [
+        {
+          "key": "9d938cf0e41cd591",
+          "title": "VKAISS 2026, 베트남과 한국의 AI 및 반도체 협력 강화",
+          "url": "https://zdnet.co.kr/view/?no=20261114191001",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-14T10:10:01Z"
         }
       ],
       "type_checked": true,
