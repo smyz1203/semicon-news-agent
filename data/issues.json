@@ -1,7 +1,97 @@
 {
   "version": 1,
-  "updated_at": "2026-11-14T18:58:26Z",
+  "updated_at": "2026-11-14T19:53:53Z",
   "issues": [
+    {
+      "id": "c20261114-1062",
+      "headline": "TCL CSOT, 360Hz 잉크젯 OLED 노트북 패널 공개",
+      "summary": [
+        "TCL CSOT가 DTC 2026 행사에서 16인치 잉크젯 프린팅 OLED 노트북 패널을 선보였다.",
+        "패널은 360Hz 주사율, 2560x1440 해상도, 500니트 밝기, DCI-P3 100% 색역을 갖췄다.",
+        "삼성디스플레이의 300Hz 제품보다 높은 주사율로, 고주사율 노트북 OLED 경쟁이 한층 가열될 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "잉크젯 OLED",
+        "360Hz",
+        "고주사율 노트북",
+        "IJP",
+        "DCI-P3"
+      ],
+      "companies": [
+        "TCL CSOT",
+        "삼성디스플레이",
+        "레노버"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "TCL CSOT",
+        "삼성디스플레이"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(삼성디스플레이) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-14T19:00:06Z",
+      "updated_at": "2026-11-14T19:00:06Z",
+      "articles": [
+        {
+          "key": "04aa147b5ac94cb4",
+          "title": "TCL CSOT shows a 360Hz 16-inch inkjet printed OLED laptop panel, surpassing Samsung's 300Hz display",
+          "url": "https://www.oled-info.com/tcl-csot-shows-360hz-16-inch-inkjet-printed-oled-laptop-panel-surpassing",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-14T19:00:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261114-1061",
+      "headline": "시놉시스, AI 기반 EDA 가속과 칩별 모델 분업 전망",
+      "summary": [
+        "시놉시스는 AI가 반도체 설계 자동화(EDA)를 가속할 것이라고 내다봤다.",
+        "기사 본문은 저작권 표기만 있어 구체적 수치나 일정은 확인되지 않는다.",
+        "칩 설계 도구 영역에서 AI 활용이 확대될 수 있다는 방향성을 보여주는 소식이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "EDA",
+        "AI 설계 자동화",
+        "칩별 AI 모델",
+        "반도체 설계"
+      ],
+      "companies": [
+        "시놉시스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-14T18:59:00Z",
+      "updated_at": "2026-11-14T18:59:00Z",
+      "articles": [
+        {
+          "key": "f03723f22a74c0c6",
+          "title": "Synopsys sees AI accelerating EDA as chip-specific models divide work",
+          "url": "https://www.digitimes.com/news/a20261112PD239/synopsys-eda-openai-development-design.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-14T18:59:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261114-1060",
       "headline": "폭스콘, 차량용 칩렛 패키징 공략 나서",
