@@ -1,7 +1,53 @@
 {
   "version": 1,
-  "updated_at": "2026-11-14T19:53:53Z",
+  "updated_at": "2026-11-14T20:51:34Z",
   "issues": [
+    {
+      "id": "c20261114-1063",
+      "headline": "CXMT 증설에 2년 뒤 메모리 공급 과잉 우려",
+      "summary": [
+        "중국 CXMT가 대규모 생산시설 확장에 나서며 글로벌 메모리 공급 과잉 경고가 나왔다.",
+        "중국의 대규모 반도체 공장 증설이 향후 2년 안에 본격화될 것으로 기사는 전했다.",
+        "메모리 가격 하락과 국내 업계 수익성 압박으로 이어질 수 있어 주목된다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "CXMT",
+        "D램",
+        "공급 과잉",
+        "중국 반도체 증설"
+      ],
+      "companies": [
+        "CXMT",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [
+        "CXMT"
+      ],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-14T20:30:04Z",
+      "updated_at": "2026-11-14T20:30:04Z",
+      "articles": [
+        {
+          "key": "17f031eb0b81514d",
+          "title": "‘D램 대부’의 경고…“중국 CXMT 증설에 2년 뒤 메모리 넘친다”",
+          "url": "https://www.dt.co.kr/article/12095114",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-14T20:30:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261114-1062",
       "headline": "TCL CSOT, 360Hz 잉크젯 OLED 노트북 패널 공개",
