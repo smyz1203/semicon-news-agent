@@ -1,7 +1,153 @@
 {
   "version": 1,
-  "updated_at": "2026-11-14T03:00:35Z",
+  "updated_at": "2026-11-14T04:05:41Z",
   "issues": [
+    {
+      "id": "c20261114-1054",
+      "headline": "Pictiva, BOE 상대 OLED 특허 침해 소송 제기",
+      "summary": [
+        "Pictiva Displays와 모회사 Key Patent Innovations가 2026년 11월 4일 미국 텍사스 동부지법에 BOE를 상대로 OLED 특허 침해 소송을 냈다.",
+        "소송은 OSRAM OLED 포트폴리오에서 나온 미국 특허 5건으로, 2014~2023년 등록된 봉지·발광 구조·다층 봉지 공정 기술이 대상이다.",
+        "Pictiva는 2020년 11월~2021년 7월 세 차례 라이선스를 제안했으나 BOE가 응답하지 않았다며, 디스플레이 특허 분쟁이 이어질 가능성을 보여준다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "OLED",
+        "특허 침해",
+        "라이선스",
+        "봉지 기술",
+        "다층 봉지"
+      ],
+      "companies": [
+        "Pictiva Displays",
+        "Key Patent Innovations",
+        "BOE",
+        "삼성전자",
+        "OSRAM"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "Pictiva Displays",
+        "Key Patent Innovations",
+        "BOE"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-14T04:00:04Z",
+      "updated_at": "2026-11-14T04:00:04Z",
+      "articles": [
+        {
+          "key": "667a25f3fe3f9abb",
+          "title": "After settling with Samsung, Pictiva Displays sues BOE for OLED patent infringement",
+          "url": "https://www.oled-info.com/days-after-settling-samsung-pictiva-displays-sues-boe-oled-patent-infringement",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-14T04:00:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261113-0992",
+      "headline": "젠슨 황 퇴진 후 엔비디아의 AI 금융 역할 변화 우려",
+      "summary": [
+        "엔비디아 젠슨 황의 퇴진 가능성이 보도되며 AI 산업 내 엔비디아 위상이 주목받고 있다.",
+        "기사 본문은 사진 크레딧만 있어 구체적 일정과 수치는 확인되지 않는다.",
+        "AI 산업에 자금을 대는 금융자 역할과 딜 주도 역할이 분리될 수 있다는 점이 업계 시사점이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엔비디아",
+        "젠슨 황",
+        "AI 투자",
+        "경영진 교체"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-13T01:26:14Z",
+      "updated_at": "2026-11-14T03:40:39Z",
+      "articles": [
+        {
+          "key": "5cb91def7c392715",
+          "title": "Huang's exit leaves Nvidia's role as the AI industry's financier without its dealmaker",
+          "url": "https://www.digitimes.com/news/a20261113VL206/nvidia-jensen-huang-ceo-chips-funding.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-13T01:26:14Z"
+        },
+        {
+          "key": "92445bca4b907a03",
+          "title": "Jensen Huang’s exit threatens to upend Nvidia’s global AI funding network",
+          "url": "https://www.digitimes.com/news/a20261113PD239/nvidia-jensen-huang-funding-ceo-investment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-14T03:40:39Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261114-1053",
+      "headline": "젠슨 황 시대 종결 전망과 대만의 대응 고민",
+      "summary": [
+        "기사 제목은 엔비디아 젠슨 황 체제가 저물 수 있다는 관측과 대만의 반응을 다룬다.",
+        "본문은 사진 크레딧만 있어 구체적 수치·일정·발표 내용은 확인되지 않는다.",
+        "업계에서는 엔비디아 리더십 변화가 대만 공급망에 미칠 영향을 주목할 필요가 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "엔비디아",
+        "젠슨 황",
+        "대만 공급망",
+        "리더십 변화"
+      ],
+      "companies": [
+        "엔비디아",
+        "TSMC"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-14T03:39:48Z",
+      "updated_at": "2026-11-14T03:39:48Z",
+      "articles": [
+        {
+          "key": "0af6b13efbf87587",
+          "title": "Jensen Huang's Nvidia era may be over. But Taiwan isn't ready to say goodbye.",
+          "url": "https://www.digitimes.com/news/a20261114VL200/nvidia-taiwan-2022-jensen-huang-taipei.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-14T03:39:48Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261113-0999",
       "headline": "젠슨 황 엔비디아 CEO 퇴진, 2인자 부재가 드러내",
@@ -3732,50 +3878,6 @@
           "source": "DigiTimes Asia",
           "lang": "en",
           "published_at": "2026-11-13T01:47:33Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261113-0992",
-      "headline": "젠슨 황 퇴진 후 엔비디아의 AI 금융 역할 변화 우려",
-      "summary": [
-        "엔비디아 젠슨 황의 퇴진 가능성이 보도되며 AI 산업 내 엔비디아 위상이 주목받고 있다.",
-        "기사 본문은 사진 크레딧만 있어 구체적 일정과 수치는 확인되지 않는다.",
-        "AI 산업에 자금을 대는 금융자 역할과 딜 주도 역할이 분리될 수 있다는 점이 업계 시사점이다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "엔비디아",
-        "젠슨 황",
-        "AI 투자",
-        "경영진 교체"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": false,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 2,
-      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-13T01:26:14Z",
-      "updated_at": "2026-11-13T01:26:14Z",
-      "articles": [
-        {
-          "key": "5cb91def7c392715",
-          "title": "Huang's exit leaves Nvidia's role as the AI industry's financier without its dealmaker",
-          "url": "https://www.digitimes.com/news/a20261113VL206/nvidia-jensen-huang-ceo-chips-funding.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-13T01:26:14Z"
         }
       ],
       "type_checked": true,
