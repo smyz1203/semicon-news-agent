@@ -1,7 +1,137 @@
 {
   "version": 1,
-  "updated_at": "2026-11-14T01:18:42Z",
+  "updated_at": "2026-11-14T03:00:35Z",
   "issues": [
+    {
+      "id": "c20261113-0999",
+      "headline": "젠슨 황 엔비디아 CEO 퇴진, 2인자 부재가 드러내",
+      "summary": [
+        "엔비디아가 젠슨 황의 사장·CEO·이사직 즉시 사임을 발표하고 CFO 콜레트 크레스를 임시 CEO로 세웠다.",
+        "황에게 직접 보고하는 임원이 36~60명에 달해 의사결정이 한 사람에게 몰린 구조였다는 점이 지적됐다.",
+        "후계 구도가 불확실해져 AI 반도체 1위 기업의 경영 공백과 지배구조 재설계 필요성이 커졌다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "CEO 교체",
+        "지배구조",
+        "리더십 공백",
+        "임시 CEO",
+        "AI 반도체"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 매체 3곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T02:56:02Z",
+      "updated_at": "2026-11-14T01:24:19Z",
+      "articles": [
+        {
+          "key": "838f0004bb0eebda",
+          "title": "[영상] 내쫓긴 젠슨황 엔비디아 CEO…33년 만에 불명예 퇴진",
+          "url": "https://www.yna.co.kr/view/AKR20261113086000704",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T02:56:02Z"
+        },
+        {
+          "key": "b0c86f2231080b21",
+          "title": "젠슨 황, 불명예 퇴진에 실리콘밸리 술렁…일각선 '황어게인'",
+          "url": "https://www.inews24.com/view/2026167",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-13T22:00:00Z"
+        },
+        {
+          "key": "0e16eb814da96371",
+          "title": "세계 최고 AI 기업 엔비디아에 '2인자'가 없었다... 왜",
+          "url": "https://zdnet.co.kr/view/?no=20261114020337",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-14T00:00:34Z"
+        },
+        {
+          "key": "f499b0a5c2f2e2fc",
+          "title": "[안광섭 AI 진테제] 젠슨 황 사태로 엔비디아가 잃은 것",
+          "url": "https://zdnet.co.kr/view/?no=20261114102419",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-14T01:24:19Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261113-1022",
+      "headline": "세미파이브 3분기 신규 수주 1784억 역대 최대 경신",
+      "summary": [
+        "세미파이브가 3분기 연결 기준 매출 514억원, 영업손실 97억원을 기록했다고 13일 발표했다.",
+        "매출은 전년 동기 대비 23.2% 증가해 분기 매출 500억원을 처음 넘어섰고, 신규 수주는 1784억원으로 역대 최대다.",
+        "AI 반도체 수요 확대가 수주를 끌어올린 것으로, 영업손실은 확대됐지만 전체 실적은 개선 흐름이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "신규 수주",
+        "분기 매출",
+        "AI 반도체",
+        "수주잔고",
+        "영업손실"
+      ],
+      "companies": [
+        "세미파이브"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "세미파이브"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 매체 3곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T05:09:51Z",
+      "updated_at": "2026-11-14T01:21:53Z",
+      "articles": [
+        {
+          "key": "248e8e567c8ff7d2",
+          "title": "세미파이브, 3분기 수주잔고 2455억원 '최대 실적' 경신",
+          "url": "https://zdnet.co.kr/view/?no=20261113135805",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-13T05:09:51Z"
+        },
+        {
+          "key": "3297e78d72d10fbe",
+          "title": "세미파이브, 3분기 신규 수주 1784억원 '역대 최대'…전년比 437%↑",
+          "url": "https://www.inews24.com/view/2026110",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-13T08:25:55Z"
+        },
+        {
+          "key": "be7935bfe45a269f",
+          "title": "세미파이브, 3분기 신규 수주 1784억 '역대 최대'…매출도 첫 500억 돌파",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65444",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-14T01:21:53Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
     {
       "id": "c20261114-1052",
       "headline": "CSOT, 청색 인광 적용 4서브픽셀 OLED 3종 전시",
@@ -162,60 +292,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261113-0999",
-      "headline": "젠슨 황 엔비디아 CEO 불명예 퇴진, 업계 파장",
-      "summary": [
-        "젠슨 황 엔비디아 CEO가 혼외관계 논란 속에 최고경영자 자리에서 물러났다.",
-        "기사에는 교체 후임과 구체적 일정에 대한 내용이 나오지 않아 세부 경과는 확인되지 않는다.",
-        "최고경영자 교체는 엔비디아 경영 방향과 AI 반도체 시장 전반에 영향을 줄 수 있어 주목된다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "엔비디아",
-        "젠슨 황",
-        "CEO 교체",
-        "경영진 리스크",
-        "AI반도체"
-      ],
-      "companies": [
-        "엔비디아",
-        "에픽게임즈"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 3,
-      "importance_reason": "경영진 교체 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-13T02:56:02Z",
-      "updated_at": "2026-11-13T22:00:00Z",
-      "articles": [
-        {
-          "key": "838f0004bb0eebda",
-          "title": "[영상] 내쫓긴 젠슨황 엔비디아 CEO…33년 만에 불명예 퇴진",
-          "url": "https://www.yna.co.kr/view/AKR20261113086000704",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-13T02:56:02Z"
-        },
-        {
-          "key": "b0c86f2231080b21",
-          "title": "젠슨 황, 불명예 퇴진에 실리콘밸리 술렁…일각선 '황어게인'",
-          "url": "https://www.inews24.com/view/2026167",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-13T22:00:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261112-0938",
@@ -1346,58 +1422,6 @@
           "source": "DigiTimes Asia",
           "lang": "en",
           "published_at": "2026-11-13T08:35:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261113-1022",
-      "headline": "세미파이브 3분기 신규 수주 역대 최대 경신",
-      "summary": [
-        "세미파이브가 올해 3분기 연결 기준 역대 최대 신규 수주 실적을 발표했다.",
-        "신규 수주는 1784억원으로 전년 대비 437% 증가했고, 수주잔고는 2455억원으로 집계됐다.",
-        "북미 고성능컴퓨팅 분야 대형 프로젝트 수주가 늘어 AI 맞춤형 반도체 설계 수요의 강세를 보여준다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "AI ASIC",
-        "수주잔고",
-        "북미 HPC",
-        "맞춤형 반도체 설계"
-      ],
-      "companies": [
-        "세미파이브"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "세미파이브"
-      ],
-      "importance": 3,
-      "importance_reason": "실적 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-13T05:09:51Z",
-      "updated_at": "2026-11-13T08:25:55Z",
-      "articles": [
-        {
-          "key": "248e8e567c8ff7d2",
-          "title": "세미파이브, 3분기 수주잔고 2455억원 '최대 실적' 경신",
-          "url": "https://zdnet.co.kr/view/?no=20261113135805",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-13T05:09:51Z"
-        },
-        {
-          "key": "3297e78d72d10fbe",
-          "title": "세미파이브, 3분기 신규 수주 1784억원 '역대 최대'…전년比 437%↑",
-          "url": "https://www.inews24.com/view/2026110",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-13T08:25:55Z"
         }
       ],
       "type_checked": true,
