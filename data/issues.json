@@ -1,7 +1,60 @@
 {
   "version": 1,
-  "updated_at": "2026-11-14T09:57:48Z",
+  "updated_at": "2026-11-14T10:55:38Z",
   "issues": [
+    {
+      "id": "c20261114-1052",
+      "headline": "CSOT, 4서브픽셀 듀얼모드 OLED 시제품 공개",
+      "summary": [
+        "TCL CSOT가 DTC 2026 행사에서 4서브픽셀 듀얼모드 OLED 시제품 3종을 선보였다.",
+        "청색 서브픽셀 하나를 인광 소재로 만든 RGBB 패널은 저전력 모드에서 같은 밝기에 소비전력을 20% 줄인다고 밝혔다.",
+        "아직 상용화되지 않은 시제품으로, 태블릿용 OLED의 저전력 기술 경쟁에 영향을 줄 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "듀얼모드 OLED",
+        "RGBB",
+        "인광 청색",
+        "APEX Pixel",
+        "저전력 OLED"
+      ],
+      "companies": [
+        "TCL CSOT"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "TCL CSOT"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-13T23:54:31Z",
+      "updated_at": "2026-11-14T10:13:23Z",
+      "articles": [
+        {
+          "key": "c09878ebea9f6965",
+          "title": "CSOT, '청색인광 적용' 등 4서브픽셀 듀얼모드 OLED 전시",
+          "url": "https://zdnet.co.kr/view/?no=20261114081552",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-13T23:54:31Z"
+        },
+        {
+          "key": "0b19e8966f0c1a62",
+          "title": "TCL CSOT shows four-subpixel dual-mode OLED prototypes, including an RGBB panel with a blue phosphorescent subpixel",
+          "url": "https://www.oled-info.com/tcl-csot-shows-four-subpixel-dual-mode-oled-prototypes-including-rgbb-panel",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-14T10:13:23Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261114-1056",
       "headline": "미 상무부 차관, 사임한 젠슨 황 연사 초청 추진 논란",
@@ -322,51 +375,6 @@
       ],
       "type_checked": true,
       "importance_raw": 4
-    },
-    {
-      "id": "c20261114-1052",
-      "headline": "CSOT, 청색 인광 적용 4서브픽셀 OLED 3종 전시",
-      "summary": [
-        "CSOT가 우한 DTC 2026에서 4서브픽셀 듀얼모드 OLED 3종과 RGBN LCD를 전시했다.",
-        "청색 인광 소자 적용 RGBB OLED는 표준모드 대비 저전력 모드에서 소비전력을 20% 줄일 수 있다고 밝혔다.",
-        "다만 상용화된 제품은 아니며 청색 인광 소자는 수명 문제로 아직 양산되지 않아 산업 적용 시점은 불확실하다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "4서브픽셀 OLED",
-        "청색 인광 소자",
-        "RGBB",
-        "RGBN",
-        "저전력 OLED"
-      ],
-      "companies": [
-        "CSOT"
-      ],
-      "event_type": "홍보·수상",
-      "confirmed": true,
-      "parties": [
-        "CSOT"
-      ],
-      "importance": 1,
-      "importance_reason": "홍보·수상 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-13T23:54:31Z",
-      "updated_at": "2026-11-13T23:54:31Z",
-      "articles": [
-        {
-          "key": "c09878ebea9f6965",
-          "title": "CSOT, '청색인광 적용' 등 4서브픽셀 듀얼모드 OLED 전시",
-          "url": "https://zdnet.co.kr/view/?no=20261114081552",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-13T23:54:31Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
     },
     {
       "id": "c20261109-0698",
