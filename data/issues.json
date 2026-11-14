@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-14T06:00:26Z",
+  "updated_at": "2026-11-14T07:18:46Z",
   "issues": [
     {
       "id": "c20261114-1054",
@@ -747,6 +747,51 @@
           "source": "EE Times",
           "lang": "en",
           "published_at": "2026-11-13T18:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261114-1055",
+      "headline": "코윈, 일렉트로니카 2026서 고신뢰 스토리지 제품 공개",
+      "summary": [
+        "코윈은 독일 뮌헨 일렉트로니카 2026에서 임베디드 스토리지, SSD, DRAM 모듈, 이동식 저장장치 제품군을 선보였다.",
+        "기사에는 구체적 제품 사양이나 출시 일정, 수치가 제시되지 않았다.",
+        "고신뢰 저장장치를 앞세워 전동화 사회 구현을 지원한다는 점을 강조했으나 산업적 영향은 제한적으로 보인다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "임베디드 스토리지",
+        "SSD",
+        "DRAM 모듈",
+        "이동식 저장장치",
+        "일렉트로니카 2026"
+      ],
+      "companies": [
+        "코윈"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "코윈"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T17:13:00Z",
+      "updated_at": "2026-11-13T17:13:00Z",
+      "articles": [
+        {
+          "key": "39b94eee3ddf53c9",
+          "title": "KOWIN High-performance Storage Products Empowering the All-electric Society",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343318",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-13T17:13:00Z"
         }
       ],
       "type_checked": true,
