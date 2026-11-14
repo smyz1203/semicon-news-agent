@@ -1,7 +1,52 @@
 {
   "version": 1,
-  "updated_at": "2026-11-13T23:51:36Z",
+  "updated_at": "2026-11-14T01:18:42Z",
   "issues": [
+    {
+      "id": "c20261114-1052",
+      "headline": "CSOT, 청색 인광 적용 4서브픽셀 OLED 3종 전시",
+      "summary": [
+        "CSOT가 우한 DTC 2026에서 4서브픽셀 듀얼모드 OLED 3종과 RGBN LCD를 전시했다.",
+        "청색 인광 소자 적용 RGBB OLED는 표준모드 대비 저전력 모드에서 소비전력을 20% 줄일 수 있다고 밝혔다.",
+        "다만 상용화된 제품은 아니며 청색 인광 소자는 수명 문제로 아직 양산되지 않아 산업 적용 시점은 불확실하다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "4서브픽셀 OLED",
+        "청색 인광 소자",
+        "RGBB",
+        "RGBN",
+        "저전력 OLED"
+      ],
+      "companies": [
+        "CSOT"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "CSOT"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T23:54:31Z",
+      "updated_at": "2026-11-13T23:54:31Z",
+      "articles": [
+        {
+          "key": "c09878ebea9f6965",
+          "title": "CSOT, '청색인광 적용' 등 4서브픽셀 듀얼모드 OLED 전시",
+          "url": "https://zdnet.co.kr/view/?no=20261114081552",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-13T23:54:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261109-0698",
       "headline": "엔비디아 젠슨 황 CEO 불륜 스캔들, 시총 258조 증발",
