@@ -1,7 +1,52 @@
 {
   "version": 1,
-  "updated_at": "2026-11-14T07:18:46Z",
+  "updated_at": "2026-11-14T09:00:10Z",
   "issues": [
+    {
+      "id": "c20261114-1056",
+      "headline": "미 상무부 차관, 사임한 젠슨 황 연사 초청 추진 논란",
+      "summary": [
+        "미 상무부 산업안보 차관이 사임한 젠슨 황 전 엔비디아 CEO를 BIS 연례 콘퍼런스 연사로 초청하려 했다고 블룸버그가 보도했다.",
+        "행사는 2027년 1월 10일 워싱턴에서 열릴 예정이나 BIS는 연사가 아직 확정되지 않았다고 밝혔다.",
+        "규제 대상 기업 수장을 규제 당국 행사에 세우려 했다는 점에서 의회가 정경유착 의혹을 조사하고 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출통제",
+        "BIS",
+        "AI반도체",
+        "정경유착 의혹"
+      ],
+      "companies": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "event_type": "칼럼·인터뷰",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 1,
+      "importance_reason": "칼럼·인터뷰 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-14T07:30:01Z",
+      "updated_at": "2026-11-14T07:30:01Z",
+      "articles": [
+        {
+          "key": "772eba3dfa20c82f",
+          "title": "美상무부 차관, '스캔들 퇴진' 젠슨 황 연사 초청 추진 논란…정경유착 의혹 확산",
+          "url": "https://zdnet.co.kr/view/?no=20261114132902",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-14T07:30:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
     {
       "id": "c20261114-1054",
       "headline": "Pictiva, BOE 상대 OLED 특허 침해 소송 제기",
