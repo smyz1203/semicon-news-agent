@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-15T05:07:46Z",
+  "updated_at": "2026-11-15T06:03:23Z",
   "issues": [
     {
       "id": "c20261115-1072",
@@ -46,6 +46,53 @@
       ],
       "type_checked": true,
       "importance_raw": 2
+    },
+    {
+      "id": "c20261115-1073",
+      "headline": "삼성 갤럭시링 스마트링 특허 분쟁 1차 결론 임박",
+      "summary": [
+        "삼성전자와 오우라의 스마트링 특허침해 조사에 대한 미국 ITC 1차 결론이 20일(현지시간) 나온다.",
+        "ITC가 침해를 인정하고 약 4개월 뒤 최종 결정도 같으면 갤럭시링의 미국 수입이 제한될 수 있다.",
+        "결과에 따라 라이선스 협상과 로열티 지급 문제가 불거질 수 있어 스마트링 사업에 영향이 주목된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "갤럭시링",
+        "스마트링 특허",
+        "ITC 조사",
+        "특허침해",
+        "수입 제한"
+      ],
+      "companies": [
+        "삼성전자",
+        "오우라"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "오우라"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-15T04:19:47Z",
+      "updated_at": "2026-11-15T04:19:47Z",
+      "articles": [
+        {
+          "key": "a3b5b9bcbe6c3250",
+          "title": "[ZD브리핑] 삼성전자 갤럭시링 특허 분쟁 결론 임박...지스타·MS 이그나이트 개막",
+          "url": "https://zdnet.co.kr/view/?no=20261115124937",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-15T04:19:47Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261115-1071",
