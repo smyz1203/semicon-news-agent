@@ -1,7 +1,56 @@
 {
   "version": 1,
-  "updated_at": "2026-11-15T19:55:13Z",
+  "updated_at": "2026-11-15T20:52:25Z",
   "issues": [
+    {
+      "id": "c20261115-1078",
+      "headline": "CSOT, 반도체 유리 코어 기판 시제품 3종 공개",
+      "summary": [
+        "CSOT가 우한 연례행사 DTC 2026에서 반도체 패키징용 유리기판 시제품 3종을 전시했다.",
+        "패널 크기는 510×515mm이며 TGV 종횡비 10대 1, 12층 배선 구조와 10μm 선폭·간격을 제시했다.",
+        "중국 패널 업체들의 유리기판 사업화 움직임이 본격화되는 신호로, 양산 전 검증 단계라는 점은 유의해야 한다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "반도체 유리기판",
+        "TGV",
+        "유리 코어 기판",
+        "종횡비",
+        "구리 충전"
+      ],
+      "companies": [
+        "CSOT",
+        "BOE",
+        "AGC",
+        "TCL",
+        "코닝"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "CSOT"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-15T14:38:58Z",
+      "updated_at": "2026-11-15T14:38:58Z",
+      "articles": [
+        {
+          "key": "fbd71e9969153192",
+          "title": "CSOT, 반도체 유리 코어 기판 시제품 공개...종횡비 10:1",
+          "url": "https://zdnet.co.kr/view/?no=20261113124245",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-15T14:38:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261115-1077",
       "headline": "프리바일런트, 삼성디스플레이 LTPO 특허 침해 소송 제기",
