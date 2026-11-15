@@ -1,7 +1,51 @@
 {
   "version": 1,
-  "updated_at": "2026-11-15T21:51:49Z",
+  "updated_at": "2026-11-15T22:51:35Z",
   "issues": [
+    {
+      "id": "c20261115-1082",
+      "headline": "젠슨 황 엔비디아 CEO 복귀 추진설 보도",
+      "summary": [
+        "FT는 복수 소식통을 인용해 젠슨 황 전 엔비디아 CEO가 경영 복귀를 추진한다고 15일 보도했다.",
+        "기사 원문이 짧아 구체적인 일정과 세부 내용은 확인되지 않으며 측근들과 협의 중이라는 내용이다.",
+        "공식 발표가 없는 소식통 보도라 사실 여부와 향후 엔비디아 경영 구도에 미칠 영향은 추가 확인이 필요하다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "엔비디아",
+        "젠슨 황",
+        "CEO 복귀",
+        "경영진 교체"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-15T22:17:50Z",
+      "updated_at": "2026-11-15T22:17:50Z",
+      "articles": [
+        {
+          "key": "3b7aec83e64c971a",
+          "title": "젠슨 황 CEO 복귀 추진설…“실리콘밸리 거물들 지원 나섰다”",
+          "url": "https://www.dt.co.kr/article/12095309",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-15T22:17:50Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261115-1081",
       "headline": "삼성D·LG디스플레이, 중국 게이밍 OLED 시장 공략 강화",
