@@ -1,22 +1,71 @@
 {
   "version": 1,
-  "updated_at": "2026-11-15T01:23:26Z",
+  "updated_at": "2026-11-15T02:59:53Z",
   "issues": [
     {
-      "id": "c20261114-1066",
-      "headline": "삼성전자, CES 2027 혁신상 19개 수상",
+      "id": "c20261115-1068",
+      "headline": "AI 수요에 10월 ICT 수출 703억달러, 역대 최대",
       "summary": [
-        "삼성전자가 CES 2027 혁신상 총 19개를 수상했고 최고 혁신상은 4개다.",
-        "영상디스플레이 13개, 생활가전 1개, 모바일 2개, 반도체 3개 등에서 수상이 나왔다.",
-        "수상은 기술력 홍보 효과가 있으나 전시회 수상 자체가 직접적인 사업 성과로 보기는 어렵다."
+        "지난달 ICT 수출이 AI 열풍 속 반도체 수요 급증에 힘입어 역대 10월 기준 최대치를 경신했다.",
+        "반도체 수출은 전년 동월 대비 259.4% 급증했으며, 데이터센터용 저장장치 수요도 함께 늘었다.",
+        "반도체 호황이 수출 실적을 견인하고 있어 AI 인프라 투자 지속 여부가 향후 수출 흐름의 관건이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "ICT 수출",
+        "AI 반도체",
+        "데이터센터 저장장치",
+        "반도체 수출",
+        "역대 최대"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-15T02:00:01Z",
+      "updated_at": "2026-11-15T02:47:06Z",
+      "articles": [
+        {
+          "key": "f8014eb0576bdad9",
+          "title": "AI 특수에 ICT 수출 703억달러…증가율 202% '역대 최고'",
+          "url": "https://www.yna.co.kr/view/AKR20261115016600017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-15T02:00:01Z"
+        },
+        {
+          "key": "cc33510b696a7c7a",
+          "title": "AI 특수에 ICT 수출 703억달러…증가율 ‘역대 최고’",
+          "url": "https://www.dt.co.kr/article/12095186",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-15T02:47:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261114-1066",
+      "headline": "삼성전자 CES 2027 혁신상 19개 수상, 폴드8 등 선정",
+      "summary": [
+        "삼성전자가 내년 1월 CES 2027에서 총 19개 혁신상을 받았다고 15일 밝혔다.",
+        "영상디스플레이 13개, 반도체 3개, 모바일 2개, 생활가전 1개 부문이며 최고 혁신상 4개를 차지했다.",
+        "폴더블 신제품과 AI 메모리 수상은 기술 경쟁력을 보여주는 신호로 해석된다."
       ],
       "category": "실적/투자/시장",
       "tags": [
         "CES 2027",
         "혁신상",
-        "최고 혁신상",
-        "영상디스플레이",
-        "반도체"
+        "갤럭시 Z 폴드8",
+        "SOCAMM2",
+        "UFS 5.0"
       ],
       "companies": [
         "삼성전자"
@@ -26,8 +75,8 @@
       "parties": [
         "삼성전자"
       ],
-      "importance": 2,
-      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자) +1 → 2점",
+      "importance": 3,
+      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자) +1, 매체 3곳 보도 +1 → 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
@@ -44,6 +93,14 @@
           "published_at": "2026-11-14T23:31:12Z"
         },
         {
+          "key": "4b5e989c6d9dd21d",
+          "title": "삼성전자, 메모리부터 가전까지 'CES 2027'서 19개 혁신상 수상",
+          "url": "https://zdnet.co.kr/view/?no=20261115083056",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-15T00:43:36Z"
+        },
+        {
           "key": "18df7a24f4d18f4b",
           "title": "삼성전자, 'CES 2027' 혁신상 19개 수상",
           "url": "https://www.etnews.com/20261115000037",
@@ -53,7 +110,7 @@
         }
       ],
       "type_checked": true,
-      "importance_raw": 2
+      "importance_raw": 3
     },
     {
       "id": "c20261115-1067",
