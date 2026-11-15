@@ -1,7 +1,52 @@
 {
   "version": 1,
-  "updated_at": "2026-11-15T04:06:29Z",
+  "updated_at": "2026-11-15T05:07:46Z",
   "issues": [
+    {
+      "id": "c20261115-1072",
+      "headline": "TCL CSOT, 청색 PSF 발광 OLED 스마트폰 디스플레이 공개",
+      "summary": [
+        "TCL CSOT가 DTC 2026 행사에서 PSF 방식 청색 서브픽셀 OLED 디스플레이를 선보였다.",
+        "6.36형 스마트폰용과 2.86형 컴팩트 카메라용 디스플레이이며, 같은 밝기에서 일반 형광 청색 대비 전력 30% 절감을 주장했다.",
+        "인광 물질이 삼중항 엑시톤을 흡수해 형광 청색 발광체에 전달하는 구조로, 디스플레이 전력 효율 개선 가능성을 보여준다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "PSF",
+        "청색 OLED",
+        "인광",
+        "저전력",
+        "DTC 2026"
+      ],
+      "companies": [
+        "TCL CSOT"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "TCL CSOT"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-15T04:43:57Z",
+      "updated_at": "2026-11-15T04:43:57Z",
+      "articles": [
+        {
+          "key": "5c2cc8c84058542b",
+          "title": "TCL CSOT shows world's first OLED smartphone displays with blue PSF emitters",
+          "url": "https://www.oled-info.com/tcl-csot-shows-what-it-calls-worlds-first-blue-phosphorescent-smartphone-oled",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-15T04:43:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261115-1071",
       "headline": "BOE, 48인치 초광폭 투명 OLED 양산 시작",
@@ -50,17 +95,17 @@
       "id": "c20261114-1066",
       "headline": "삼성전자, CES 2027 혁신상 19개 수상",
       "summary": [
-        "삼성전자가 내년 1월 열리는 CES 2027을 앞두고 CES 혁신상 총 19개를 수상했다.",
-        "수상 목록에는 최고 혁신상 4개가 포함되었으며 TV, 폴드8, 메모리 등 여러 제품군이 선정됐다.",
-        "반도체 메모리부터 가전까지 폭넓은 분야에서 제품 경쟁력을 공식 인정받은 사례다."
+        "삼성전자가 CES 2027 혁신상 최고 혁신상 4개를 포함해 총 19개를 수상했다고 15일 밝혔다.",
+        "CTA는 지난 9일 현지시간 수상 제품과 기술을 발표했으며, 부문별로 영상디스플레이 13개, 모바일 2개, 반도체 3개, 생활가전 1개다.",
+        "수상 제품 대부분이 영상디스플레이 분야에 몰려 있어 삼성의 디스플레이 기술 경쟁력이 부각된다."
       ],
-      "category": "정책/무역",
+      "category": "AI반도체",
       "tags": [
         "CES 2027",
         "CES 혁신상",
-        "폴드8",
+        "최고 혁신상",
         "메모리",
-        "TV"
+        "영상디스플레이"
       ],
       "companies": [
         "삼성전자"
@@ -71,14 +116,22 @@
         "삼성전자"
       ],
       "importance": 3,
-      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자) +1, 매체 4곳 보도 +1 → 3점",
+      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자) +1, 매체 5곳 보도 +1 → 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-11-14T23:31:12Z",
+      "first_seen": "2026-11-14T23:00:00Z",
       "updated_at": "2026-11-15T03:08:00Z",
       "articles": [
+        {
+          "key": "5c979c83e6a72dde",
+          "title": "삼성전자, 'CES 2027' 최고 혁신상 4개 포함 총 19개의 CES 혁신상 수상",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343333",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-14T23:00:00Z"
+        },
         {
           "key": "6c1d04c63c16dd92",
           "title": "삼성전자, CES 2027 혁신상 19개…폴드8·메모리 등 선정",
