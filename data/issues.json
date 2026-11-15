@@ -1,7 +1,532 @@
 {
   "version": 1,
-  "updated_at": "2026-11-15T22:51:35Z",
+  "updated_at": "2026-11-15T23:55:49Z",
   "issues": [
+    {
+      "id": "c20261115-1094",
+      "headline": "어플라이드머티리얼즈, 2028년까지 장비 생산량 두 배 목표",
+      "summary": [
+        "어플라이드머티리얼즈가 2028년까지 반도체 장비 생산량을 두 배로 늘리겠다는 목표를 제시했다.",
+        "기사 본문이 제공되지 않아 구체적인 증설 규모와 일정 세부 내용은 확인되지 않는다.",
+        "장비 수요가 공급을 앞지르는 상황이라 장비 업계의 생산능력 확대 흐름을 보여준다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "반도체 장비",
+        "생산능력 확대",
+        "2028년 목표",
+        "장비 수요"
+      ],
+      "companies": [
+        "어플라이드머티리얼즈"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "어플라이드머티리얼즈"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-15T23:21:43Z",
+      "updated_at": "2026-11-15T23:21:43Z",
+      "articles": [
+        {
+          "key": "9de3deb8aad0d0f6",
+          "title": "Applied Materials targets double output by 2028 as chip equipment demand outpaces supply",
+          "url": "https://www.digitimes.com/news/a20261113VL238/applied-materials-equipment-demand-2028-capacity.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-15T23:21:43Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261115-1093",
+      "headline": "웨일스 반도체 클러스터의 제조 패러다임 변화",
+      "summary": [
+        "영국 남웨일스 뉴포트의 CS² 행사에 UKSC, CSconnected 등 업계 관계자들이 모인 모습이 보도됐다.",
+        "기사 본문은 사진 설명 수준으로, 구체적인 투자 규모나 일정, 수치는 확인되지 않는다.",
+        "웨일스 반도체 생태계가 성장하는 가운데 제조 방식의 변화가 업계에 주는 의미를 짚는 분석 기사로 보인다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "웨일스 반도체",
+        "CS²",
+        "제조 방식 변화",
+        "반도체 클러스터"
+      ],
+      "companies": [
+        "UKSC",
+        "CSconnected"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-15T23:20:51Z",
+      "updated_at": "2026-11-15T23:20:51Z",
+      "articles": [
+        {
+          "key": "9050d30357254607",
+          "title": "Analysis: South Wales built a semiconductor powerhouse—but the rules of manufacturing are changing",
+          "url": "https://www.digitimes.com/news/a20261113VL213/manufacturing-industrial-materials-production-region.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-15T23:20:51Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261115-1092",
+      "headline": "2026년 OLED 스마트폰 패널 출하량 감소 전망",
+      "summary": [
+        "카운터포인트리서치가 2026년 스마트폰용 OLED 패널 출하량이 감소할 것으로 전망했다.",
+        "기사 본문이 없어 감소 폭과 세부 수치, 원인은 확인할 수 없다.",
+        "스마트폰 디스플레이 시장의 수요 둔화 신호로, 패널 업체의 생산 계획에 영향을 줄 수 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "스마트폰 패널",
+        "출하량 전망",
+        "카운터포인트"
+      ],
+      "companies": [
+        "카운터포인트리서치"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-15T23:20:35Z",
+      "updated_at": "2026-11-15T23:20:35Z",
+      "articles": [
+        {
+          "key": "67063e891ab8b741",
+          "title": "OLED smartphone panel shipments forecast to decline in 2026, says Counterpoint",
+          "url": "https://www.digitimes.com/news/a20261113PR201/panel-2026-shipments-forecast-revenue.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-15T23:20:35Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261115-1091",
+      "headline": "ASE, 루주 공장 1단계 가동으로 첨단 패키징 확대",
+      "summary": [
+        "ASE가 대만 루주(Luzhu) 공장의 1단계 가동을 시작하며 첨단 패키징 생산능력을 넓혔다.",
+        "기사 본문이 제공되지 않아 설비 규모나 투자액, 가동 일정 등 구체적 수치는 확인할 수 없다.",
+        "이번 확장은 AI 반도체 수요에 맞춘 첨단 패키징 공급 여력 확대로 해석될 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "첨단 패키징",
+        "루주 공장",
+        "OSAT",
+        "AI반도체"
+      ],
+      "companies": [
+        "ASE"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "ASE"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-15T23:20:13Z",
+      "updated_at": "2026-11-15T23:20:13Z",
+      "articles": [
+        {
+          "key": "e46a927550d6e827",
+          "title": "ASE opens phase one of Luzhu plant, expands advanced packaging",
+          "url": "https://www.digitimes.com/news/a20261113PD254/ase-packaging-plant-taiwan-kaohsiung.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-15T23:20:13Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261115-1090",
+      "headline": "에노스타, 차량용 디스플레이 수주 후 수익성 우선 전략",
+      "summary": [
+        "에노스타가 대형 차량용 디스플레이 수주를 계기로 수익성 중심 경영에 무게를 두고 있다.",
+        "회사는 2027년을 목표로 핵심 사업의 실적 턴어라운드를 추진하겠다는 방향을 제시했다.",
+        "자동차 디스플레이 시장에서 성과를 거두려는 LED·디스플레이 업체의 체질 개선 흐름으로 볼 수 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "차량용 디스플레이",
+        "수익성 개선",
+        "턴어라운드",
+        "2027",
+        "LED"
+      ],
+      "companies": [
+        "에노스타"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "에노스타"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-15T23:19:54Z",
+      "updated_at": "2026-11-15T23:19:54Z",
+      "articles": [
+        {
+          "key": "f2953b8210c93959",
+          "title": "Ennostar prioritizes profitability following major auto display win, targeting 2027 core turnaround",
+          "url": "https://www.digitimes.com/news/a20261113PD252/ennostar-2027-display-automotive-production.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-15T23:19:54Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261115-1089",
+      "headline": "황 CEO 연계 기업, 딥시크 투자 참여 보도",
+      "summary": [
+        "기사 제목에 따르면 젠슨 황 엔비디아 CEO와 연계된 기업들이 딥시크 투자 라운드에 참여했다는 보도가 나왔다.",
+        "본문은 'Credit: AFP' 한 줄뿐이라 투자 규모와 수출 금지 엔비디아 칩 공급의 구체적 내용은 확인되지 않는다.",
+        "보도가 사실이라면 미국 수출 통제 우회 논란과 중국 AI 기업 칩 조달 문제로 이어질 수 있어 주목된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "딥시크",
+        "엔비디아",
+        "수출규제",
+        "AI반도체"
+      ],
+      "companies": [
+        "딥시크",
+        "엔비디아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "엔비디아",
+        "딥시크"
+      ],
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-15T23:17:48Z",
+      "updated_at": "2026-11-15T23:17:48Z",
+      "articles": [
+        {
+          "key": "2e1a4d88aff09fbd",
+          "title": "Report: Huang-linked firms join DeepSeek round, supply banned Nvidia chips",
+          "url": "https://www.digitimes.com/news/a20261113PD242/nvidia-chips-deepseek-funding-hardware.html?chid=10",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-15T23:17:48Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261115-1088",
+      "headline": "난야오, 반도체·폴더블 소재 호조로 9월 이익 23.5% 증가",
+      "summary": [
+        "대만 난야오(Nan Pao)가 2026년 9월 실적에서 이익이 전년 대비 23.5% 늘었다고 발표했다.",
+        "기사 본문이 없어 세부 매출·수치는 확인되지 않았고, 이익 증가의 배경으로 반도체와 폴더블 디스플레이 소재가 언급됐다.",
+        "반도체 소재와 폴더블 패널 소재 수요가 실적을 견인하고 있음을 보여주는 신호로 해석할 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "난야오",
+        "폴더블 디스플레이",
+        "반도체 소재",
+        "월별 실적"
+      ],
+      "companies": [
+        "난야오"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "난야오"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-15T23:17:12Z",
+      "updated_at": "2026-11-15T23:17:12Z",
+      "articles": [
+        {
+          "key": "f98df72e3a6011cb",
+          "title": "Nan Pao profit rises 23.5% in September 2026 on semiconductor, foldable display materials",
+          "url": "https://www.digitimes.com/news/a20261113PD237/profit-revenue-foldable-materials-display.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-15T23:17:12Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261115-1087",
+      "headline": "이터널머티리얼즈 반도체 패키징 소재 사업 흑자 전환",
+      "summary": [
+        "이터널머티리얼즈의 반도체 패키징 소재 사업이 흑자로 돌아섰다는 보도가 나왔다.",
+        "기사 본문이 사실상 없어 구체적인 매출, 이익 규모와 기간은 확인되지 않는다.",
+        "패키징 소재 수익성 개선은 반도체 후공정 소재 업체의 실적 회복 신호로 볼 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "패키징 소재",
+        "흑자 전환",
+        "반도체 후공정"
+      ],
+      "companies": [
+        "이터널머티리얼즈"
+      ],
+      "event_type": "실적",
+      "confirmed": false,
+      "parties": [
+        "이터널머티리얼즈"
+      ],
+      "importance": 2,
+      "importance_reason": "실적 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-15T23:16:57Z",
+      "updated_at": "2026-11-15T23:16:57Z",
+      "articles": [
+        {
+          "key": "93274b3ce8005b3d",
+          "title": "Eternal Materials' semiconductor packaging materials turn profitable",
+          "url": "https://www.digitimes.com/news/a20261113PD236/eternal-materials-lcy-materials-packaging-revenue.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-15T23:16:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261115-1086",
+      "headline": "청메이, 2027년 반도체 매출 목표 발표",
+      "summary": [
+        "대만 청메이(Cheng Mei)가 2027년 반도체 매출 목표를 제시했다고 DigiTimes가 보도했다.",
+        "기사 본문이 제목과 저작권 표기만 있어 구체적 매출 규모와 세부 계획은 확인되지 않는다.",
+        "2028년 성장 목표도 함께 언급됐으나 수치가 없어 산업 영향은 추가 정보가 필요하다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "청메이",
+        "반도체 매출 목표",
+        "2027년 전망",
+        "2028년 성장"
+      ],
+      "companies": [
+        "청메이"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [
+        "청메이"
+      ],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-15T23:16:37Z",
+      "updated_at": "2026-11-15T23:16:37Z",
+      "articles": [
+        {
+          "key": "02bc04d31452d21b",
+          "title": "Cheng Mei targets semiconductor revenue in 2027, growth in 2028",
+          "url": "https://www.digitimes.com/news/a20261113PD231/cmmt-polarizer-revenue-growth-2028.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-15T23:16:37Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261115-1085",
+      "headline": "대만, 중국 내 반도체 인력 구금 위험 경고",
+      "summary": [
+        "대만 당국이 중국에서 근무하는 반도체 인력의 구금 위험을 경고했다.",
+        "기사에 따르면 관련 사례는 470건으로 집계됐다.",
+        "기술 인력 유출과 해외 근무 리스크가 업계의 주요 관심사로 부상하고 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "인력 구금",
+        "중국 리스크",
+        "대만 정부",
+        "반도체 인재"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-15T23:16:06Z",
+      "updated_at": "2026-11-15T23:16:06Z",
+      "articles": [
+        {
+          "key": "ed2c18d5c4043f0c",
+          "title": "Taiwan warns chip workers of detention risk in China, citing 470 cases",
+          "url": "https://www.digitimes.com/news/a20261113PD217/nvidia-taiwan-ceo-jensen-huang-technology.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-15T23:16:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261115-1084",
+      "headline": "ITH 3분기 흑자 전환, 2027년 OLED 출하 성장 전망",
+      "summary": [
+        "ITH가 2026년 3분기에 흑자로 돌아섰다는 보도가 나왔다.",
+        "기사 본문이 제공되지 않아 구체적인 실적 수치와 출하량 규모는 확인할 수 없다.",
+        "OLED 출하가 2027년에 늘어날 것이라는 전망은 디스플레이 업계의 회복 신호로 볼 수 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "흑자 전환",
+        "3분기 실적",
+        "출하량"
+      ],
+      "companies": [
+        "ITH"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "ITH"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-15T23:14:21Z",
+      "updated_at": "2026-11-15T23:14:21Z",
+      "articles": [
+        {
+          "key": "7c45fcdd4e03aa79",
+          "title": "ITH turns profitable in 3Q26, OLED shipments to grow in 2027",
+          "url": "https://www.digitimes.com/news/a20261113PD209/shipments-2027-driver-ic-2026-revenue.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-15T23:14:21Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261115-1083",
+      "headline": "엔비디아 위기 속 HBM 적층 장비 한미반도체 주목",
+      "summary": [
+        "젠슨 황 CEO 관련 논란과 글로벌 안보 조사로 엔비디아의 AI 반도체 지배력이 흔들리고 있다는 평가다.",
+        "빅테크들이 자체 ASIC·NPU 개발에 속도를 내며 이른바 탈엔비디아 흐름이 나타나고 있다.",
+        "기사 본문이 짧게 잘려 있어 구체적 수치와 일정은 확인되지 않으며, HBM 장비 수요 측면의 의미가 강조된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "HBM",
+        "TC본더",
+        "탈엔비디아",
+        "ASIC",
+        "AI반도체"
+      ],
+      "companies": [
+        "한미반도체",
+        "엔비디아",
+        "구글",
+        "메타"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-15T23:00:00Z",
+      "updated_at": "2026-11-15T23:00:00Z",
+      "articles": [
+        {
+          "key": "901275e6ce86953b",
+          "title": "[TECH한주] 엔비디아 위기에도 흔들리지 않는 HBM 적층 기술의 절대 강자 ‘한미반도체’",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409784",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-15T23:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261115-1082",
       "headline": "젠슨 황 엔비디아 CEO 복귀 추진설 보도",
