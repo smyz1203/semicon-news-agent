@@ -1,7 +1,141 @@
 {
   "version": 1,
-  "updated_at": "2026-11-15T20:52:25Z",
+  "updated_at": "2026-11-15T21:51:49Z",
   "issues": [
+    {
+      "id": "c20261115-1081",
+      "headline": "삼성D·LG디스플레이, 중국 게이밍 OLED 시장 공략 강화",
+      "summary": [
+        "삼성디스플레이와 LG디스플레이가 중국 게이밍 시장에서 프리미엄 OLED 공략을 강화하고 있다.",
+        "현지 게임 업체 및 PC방과의 협력을 늘리는 방향으로 움직이고 있으나 구체적 수치와 일정은 기사에 나와 있지 않다.",
+        "중국 게이밍 수요를 겨냥한 OLED 확산이 패널 업체의 응용처 다변화에 의미를 가질 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "게이밍 OLED",
+        "중국 시장",
+        "프리미엄 디스플레이",
+        "협력 확대"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "LG디스플레이"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "삼성디스플레이",
+        "LG디스플레이"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(LG디스플레이, 삼성디스플레이) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-15T21:17:01Z",
+      "updated_at": "2026-11-15T21:17:01Z",
+      "articles": [
+        {
+          "key": "71c4a02fb5039b45",
+          "title": "삼성D·LGD, 중국 게이밍 OLED 공략…현지업체·PC방 협력 강화",
+          "url": "https://www.yna.co.kr/view/AKR20261113093800003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-15T21:17:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261115-1080",
+      "headline": "베선트 장관, 엔비디아 차기 CEO 외부 영입 촉구",
+      "summary": [
+        "스콧 베선트 미국 재무장관이 젠슨 황 전 엔비디아 CEO 논란과 관련해 차기 CEO를 외부에서 영입해야 한다고 밝혔다.",
+        "기사 본문이 짧게 잘려 있어 구체적 인물, 일정, 발언 배경의 세부 내용은 확인되지 않는다.",
+        "엔비디아 경영진 교체 방향에 대한 정부 고위 인사의 발언으로, 반도체 업계 지배구조 관심을 키울 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "엔비디아",
+        "젠슨 황",
+        "CEO 교체",
+        "경영진 쇄신"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-15T20:58:50Z",
+      "updated_at": "2026-11-15T20:58:50Z",
+      "articles": [
+        {
+          "key": "ae6b48a4b04a7fa6",
+          "title": "베선트 美 재무 “젠슨 황 후임은 엔비디아 밖에서 영입해야”",
+          "url": "https://www.dt.co.kr/article/12095306",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-15T20:58:50Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261115-1079",
+      "headline": "젠슨 황 엔비디아 복귀 논의 보도, 백악관 지지 확보 시도",
+      "summary": [
+        "FT는 젠슨 황 전 엔비디아 CEO가 물러난 지 일주일 안에 복귀를 노린다고 보도했다.",
+        "기사 요약본에는 측근들과 경영 복귀 방안을 논의하며 백악관 지지를 얻으려 한다는 내용이 담겼다.",
+        "다만 공식 발표가 없어 복귀 여부는 확정되지 않았으며, 엔비디아 경영 공백 이슈로 주목된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "엔비디아 경영권",
+        "CEO 교체",
+        "백악관"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-15T20:52:41Z",
+      "updated_at": "2026-11-15T20:52:41Z",
+      "articles": [
+        {
+          "key": "df74e3d92a4aff32",
+          "title": "FT “젠슨 황, 엔비디아 복귀 논의 중…백악관 지지 확보 시도”",
+          "url": "https://www.dt.co.kr/article/12095305",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-15T20:52:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261115-1078",
       "headline": "CSOT, 반도체 유리 코어 기판 시제품 3종 공개",
