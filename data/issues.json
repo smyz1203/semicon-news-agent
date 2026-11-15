@@ -1,21 +1,22 @@
 {
   "version": 1,
-  "updated_at": "2026-11-14T23:47:46Z",
+  "updated_at": "2026-11-15T01:23:26Z",
   "issues": [
     {
       "id": "c20261114-1066",
       "headline": "삼성전자, CES 2027 혁신상 19개 수상",
       "summary": [
-        "삼성전자가 CES 2027 혁신상 19개 제품을 받았다고 연합뉴스가 보도했다.",
-        "수상 대상에는 폴드8과 메모리 제품 등이 포함된 것으로 전해졌다.",
-        "전시회 수상 소식으로, 제품 경쟁력을 알리는 홍보 성격이 강하다."
+        "삼성전자가 CES 2027 혁신상 총 19개를 수상했고 최고 혁신상은 4개다.",
+        "영상디스플레이 13개, 생활가전 1개, 모바일 2개, 반도체 3개 등에서 수상이 나왔다.",
+        "수상은 기술력 홍보 효과가 있으나 전시회 수상 자체가 직접적인 사업 성과로 보기는 어렵다."
       ],
       "category": "실적/투자/시장",
       "tags": [
         "CES 2027",
         "혁신상",
-        "폴드8",
-        "메모리"
+        "최고 혁신상",
+        "영상디스플레이",
+        "반도체"
       ],
       "companies": [
         "삼성전자"
@@ -32,7 +33,7 @@
       "attempts": 0,
       "region": "ko",
       "first_seen": "2026-11-14T23:31:12Z",
-      "updated_at": "2026-11-14T23:31:12Z",
+      "updated_at": "2026-11-15T01:00:08Z",
       "articles": [
         {
           "key": "6c1d04c63c16dd92",
@@ -41,6 +42,54 @@
           "source": "연합뉴스",
           "lang": "ko",
           "published_at": "2026-11-14T23:31:12Z"
+        },
+        {
+          "key": "18df7a24f4d18f4b",
+          "title": "삼성전자, 'CES 2027' 혁신상 19개 수상",
+          "url": "https://www.etnews.com/20261115000037",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-15T01:00:08Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261115-1067",
+      "headline": "호남 반도체 산단 완충 저류·폐수처리 시설 구축 착수",
+      "summary": [
+        "전남광주통합특별시가 호남 반도체 국가산업단지에 필요한 완충 저류·폐수처리 시설 구축에 나섰다.",
+        "기사에는 시설 규모, 준공 일정, 투입 예산 등 구체적 수치가 제시되지 않았다.",
+        "반도체 산단 운영에 필수적인 용수·환경 기반을 지자체가 직접 챙긴다는 점에서 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "호남반도체산단",
+        "폐수처리",
+        "완충저류시설",
+        "산업단지 인프라"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-15T00:01:01Z",
+      "updated_at": "2026-11-15T00:01:01Z",
+      "articles": [
+        {
+          "key": "987b5dd09ec1c6f9",
+          "title": "호남 반도체 '필수 기반' 완충 저류·폐수처리 시설 구축 착수",
+          "url": "https://www.yna.co.kr/view/AKR20261113119300054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-15T00:01:01Z"
         }
       ],
       "type_checked": true,
@@ -315,6 +364,14 @@
           "published_at": "2026-11-13T17:13:00Z"
         },
         {
+          "key": "1c253146527264d6",
+          "title": "코윈, 고성능 스토리지 제품으로 완전 전기화 사회 지원",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343328",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-14T17:26:00Z"
+        },
+        {
           "key": "514a0c04337d7f0a",
           "title": "코윈, 고성능 스토리지 제품으로 완전 전기화 사회 지원",
           "url": "https://zdnet.co.kr/view/?no=20261115031002",
@@ -519,47 +576,43 @@
     },
     {
       "id": "c20261114-1057",
-      "headline": "베트남-한국 AI·반도체 서밋, MOU 8건 체결 협력 확대",
+      "headline": "베트남·한국, AI·반도체 협력 서밋 개최로 공조 강화",
       "summary": [
-        "베트남-한국 AI·반도체 서밋(VKAISS 2026)이 하노이에서 열려 양국 기업과 기관 400여 명이 참석했다.",
-        "양국 기업 간 비즈니스 매칭 상담 약 100건이 진행되고 MOU 8건이 체결됐으며 기술 전시회도 열렸다.",
-        "베트남이 투자 유치를 넘어 기술 확보와 글로벌 밸류체인 참여를 목표로 한다는 점에서 한국 기업의 현지 진출 기회가 커질 전망이다."
+        "2026년 11월 하노이에서 제1회 베트남-한국 AI-반도체 서밋(VKAISS 2026)이 열렸다.",
+        "양국 반도체 기업과 연구기관, 대학, 지방정부 관계자 400명 이상이 참석했고 50개 넘는 기업이 함께했다.",
+        "양국 간 AI·반도체 인재와 기술 교류가 확대될 발판이 될 것으로 보인다."
       ],
       "category": "정책/무역",
       "tags": [
         "AI반도체",
-        "반도체 패키징",
-        "MOU",
-        "베트남 진출",
-        "팹리스"
+        "반도체 협력",
+        "베트남",
+        "한국팹리스산업협회",
+        "VKAISS 2026"
       ],
       "companies": [
-        "FPT",
-        "하나마이크론",
-        "한국팹리스산업협회",
-        "스카이칩스",
-        "엣지AI",
-        "슈퍼게이트"
+        "한국팹리스산업협회"
       ],
       "event_type": "업계 일반",
       "confirmed": true,
-      "parties": [
-        "FPT",
-        "하나마이크론",
-        "한국팹리스산업협회",
-        "스카이칩스",
-        "엣지AI",
-        "슈퍼게이트"
-      ],
+      "parties": [],
       "importance": 2,
       "importance_reason": "업계 일반 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-11-14T10:10:01Z",
+      "first_seen": "2026-11-14T09:10:00Z",
       "updated_at": "2026-11-14T10:10:01Z",
       "articles": [
+        {
+          "key": "cd38d8a2b576fdc2",
+          "title": "VKAISS 2026, 베트남과 한국의 AI 및 반도체 협력 강화",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343324",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-14T09:10:00Z"
+        },
         {
           "key": "9d938cf0e41cd591",
           "title": "VKAISS 2026, 베트남과 한국의 AI 및 반도체 협력 강화",
