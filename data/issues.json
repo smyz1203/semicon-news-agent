@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-15T06:03:23Z",
+  "updated_at": "2026-11-15T07:21:10Z",
   "issues": [
     {
       "id": "c20261115-1072",
@@ -984,6 +984,70 @@
       ],
       "type_checked": true,
       "importance_raw": 0
+    },
+    {
+      "id": "c20261113-1007",
+      "headline": "삼성전자, 美 모딘 인수 협상…데이터센터 냉각 공략",
+      "summary": [
+        "삼성전자가 미국 냉난방공조 업체 모딘 매뉴팩처링 인수를 위한 협상을 진행 중이라고 블룸버그가 복수 소식통을 인용해 보도했다.",
+        "모딘은 데이터센터 시장에서 성장세를 보이는 업체이며, 이르면 수주 내 거래가 성사될 수 있다고 전해졌다.",
+        "이번 협상은 지난해 플랙트그룹 인수에 이어 AI 데이터센터 냉각 사업을 강화하려는 움직임으로 해석된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "데이터센터 냉각",
+        "모딘",
+        "냉난방공조(HVAC)",
+        "AI 데이터센터",
+        "인수합병"
+      ],
+      "companies": [
+        "삼성전자",
+        "모딘 매뉴팩처링",
+        "플랙트그룹"
+      ],
+      "event_type": "인수합병",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "모딘 매뉴팩처링"
+      ],
+      "importance": 3,
+      "importance_reason": "인수합병 2점, 관심 기업(삼성전자) +1, 매체 3곳 보도 +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-13T02:45:00Z",
+      "updated_at": "2026-11-14T06:20:00Z",
+      "articles": [
+        {
+          "key": "cb38488ae7db69fc",
+          "title": "블룸버그 \"삼성전자, 美 데이터센터 냉각업체 '모딘' 인수 추진\"",
+          "url": "https://zdnet.co.kr/view/?no=20261113114145",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-13T02:45:00Z"
+        },
+        {
+          "key": "9681fd862aedf82d",
+          "title": "블룸버그 “삼성전자, 美 데이터센터 냉각 기업 '모딘' 인수 추진”",
+          "url": "https://www.etnews.com/20261113000194",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-13T05:17:25Z"
+        },
+        {
+          "key": "00ef4377a1dd85fa",
+          "title": "[Weekly Issue] 삼성전자, 美 냉난방공조 시스템 업체 모딘 인수 추진…AI 데이터센터 시장 공략 강화",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343338",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-14T06:20:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261114-1054",
@@ -3536,62 +3600,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261113-1007",
-      "headline": "삼성전자, 미국 데이터센터 냉각업체 모딘 인수 추진",
-      "summary": [
-        "삼성전자가 미국 데이터센터 냉각 시스템 업체 모딘 매뉴팩처링 인수를 추진 중이라고 블룸버그가 소식통을 인용해 보도했다.",
-        "양측은 인수 거래를 논의 중이며 이르면 수주 내 합의에 도달할 수 있으나 최종 결정은 내려지지 않았다.",
-        "플랙트그룹에 이은 추가 M&A 시도로, AI 데이터센터 냉각 사업 확대 의지를 보여준다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "데이터센터 냉각",
-        "AI 데이터센터",
-        "인수합병",
-        "모딘",
-        "플랙트그룹"
-      ],
-      "companies": [
-        "삼성전자",
-        "모딘 매뉴팩처링",
-        "플랙트그룹"
-      ],
-      "event_type": "인수합병",
-      "confirmed": false,
-      "parties": [
-        "삼성전자",
-        "모딘 매뉴팩처링"
-      ],
-      "importance": 2,
-      "importance_reason": "인수합병 2점, 관심 기업(삼성전자) +1, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-13T02:45:00Z",
-      "updated_at": "2026-11-13T05:17:25Z",
-      "articles": [
-        {
-          "key": "cb38488ae7db69fc",
-          "title": "블룸버그 \"삼성전자, 美 데이터센터 냉각업체 '모딘' 인수 추진\"",
-          "url": "https://zdnet.co.kr/view/?no=20261113114145",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-13T02:45:00Z"
-        },
-        {
-          "key": "9681fd862aedf82d",
-          "title": "블룸버그 “삼성전자, 美 데이터센터 냉각 기업 '모딘' 인수 추진”",
-          "url": "https://www.etnews.com/20261113000194",
-          "source": "전자신문",
-          "lang": "ko",
-          "published_at": "2026-11-13T05:17:25Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261113-0982",
