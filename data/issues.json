@@ -1,7 +1,57 @@
 {
   "version": 1,
-  "updated_at": "2026-11-15T11:53:41Z",
+  "updated_at": "2026-11-15T13:09:22Z",
   "issues": [
+    {
+      "id": "c20261115-1077",
+      "headline": "프리바일런트, 삼성디스플레이 LTPO 특허 침해 소송 제기",
+      "summary": [
+        "미국 특허 관리 기업 프리바일런트 디스플레이가 삼성디스플레이 등을 텍사스 동부지법에 제소했다.",
+        "이 회사는 이노룩스가 2015~2016년 출원한 AMOLED 구동 특허 4건을 양수받아 삼성 OLED가 침해한다고 주장했다.",
+        "특허는 LTPS 구동 트랜지스터와 산화물 스위칭 트랜지스터를 결합한 구조로, 삼성의 LTPO 기술과 겹친다는 주장이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "LTPO",
+        "AMOLED",
+        "특허 소송",
+        "하이브리드 트랜지스터",
+        "HOP"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "삼성전자",
+        "프리바일런트 디스플레이",
+        "이노룩스"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "프리바일런트 디스플레이",
+        "삼성디스플레이",
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "소송·특허 3점, 관심 기업(삼성전자, 삼성디스플레이) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-15T12:00:06Z",
+      "updated_at": "2026-11-15T12:00:06Z",
+      "articles": [
+        {
+          "key": "0d6cc86acda4e83c",
+          "title": "Prevalent Display sues Samsung over four former Innolux AMOLED patents",
+          "url": "https://www.oled-info.com/prevalent-display-sues-samsung-over-four-former-innolux-oled-patents-names",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-15T12:00:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
     {
       "id": "c20261115-1076",
       "headline": "박현주 회장, 젠슨 황 엔비디아 복귀 청원 동참",
