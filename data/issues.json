@@ -1,71 +1,66 @@
 {
   "version": 1,
-  "updated_at": "2026-11-15T02:59:53Z",
+  "updated_at": "2026-11-15T04:06:29Z",
   "issues": [
     {
-      "id": "c20261115-1068",
-      "headline": "AI 수요에 10월 ICT 수출 703억달러, 역대 최대",
+      "id": "c20261115-1071",
+      "headline": "BOE, 48인치 초광폭 투명 OLED 양산 시작",
       "summary": [
-        "지난달 ICT 수출이 AI 열풍 속 반도체 수요 급증에 힘입어 역대 10월 기준 최대치를 경신했다.",
-        "반도체 수출은 전년 동월 대비 259.4% 급증했으며, 데이터센터용 저장장치 수요도 함께 늘었다.",
-        "반도체 호황이 수출 실적을 견인하고 있어 AI 인프라 투자 지속 여부가 향후 수출 흐름의 관건이다."
+        "BOE가 48인치 초광폭 투명 OLED 디스플레이 BOE-TR-48을 양산 중이라고 소개했다.",
+        "패널은 1920x540 해상도, 투과율 40%, 최대 휘도 400니트, 120Hz 주사율을 갖췄고 두께는 1.4mm다.",
+        "쇼윈도·전시관·디지털 사이니지 등 투명 디스플레이 응용처 확대 흐름을 보여준다."
       ],
-      "category": "실적/투자/시장",
+      "category": "디스플레이",
       "tags": [
-        "ICT 수출",
-        "AI 반도체",
-        "데이터센터 저장장치",
-        "반도체 수출",
-        "역대 최대"
+        "투명 OLED",
+        "BOE-TR-48",
+        "초광폭 디스플레이",
+        "디지털 사이니지"
       ],
-      "companies": [],
-      "event_type": "시장 전망·통계",
+      "companies": [
+        "BOE"
+      ],
+      "event_type": "신제품·신기술·양산",
       "confirmed": true,
-      "parties": [],
-      "importance": 2,
-      "importance_reason": "시장 전망·통계 2점",
+      "parties": [
+        "BOE"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-15T02:00:01Z",
-      "updated_at": "2026-11-15T02:47:06Z",
+      "region": "en",
+      "first_seen": "2026-11-15T04:00:02Z",
+      "updated_at": "2026-11-15T04:00:02Z",
       "articles": [
         {
-          "key": "f8014eb0576bdad9",
-          "title": "AI 특수에 ICT 수출 703억달러…증가율 202% '역대 최고'",
-          "url": "https://www.yna.co.kr/view/AKR20261115016600017",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-15T02:00:01Z"
-        },
-        {
-          "key": "cc33510b696a7c7a",
-          "title": "AI 특수에 ICT 수출 703억달러…증가율 ‘역대 최고’",
-          "url": "https://www.dt.co.kr/article/12095186",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-15T02:47:06Z"
+          "key": "02471650c35fa26b",
+          "title": "The OLED Marketplace reaches 200 displays - with BOE's 48\" ultra-wide transparent OLED as our 200th listing",
+          "url": "https://www.oled-info.com/oled-marketplace-reaches-200-displays-boes-48-ultra-wide-transparent-oled-our",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-15T04:00:02Z"
         }
       ],
       "type_checked": true,
-      "importance_raw": 2
+      "importance_raw": 5
     },
     {
       "id": "c20261114-1066",
-      "headline": "삼성전자 CES 2027 혁신상 19개 수상, 폴드8 등 선정",
+      "headline": "삼성전자, CES 2027 혁신상 19개 수상",
       "summary": [
-        "삼성전자가 내년 1월 CES 2027에서 총 19개 혁신상을 받았다고 15일 밝혔다.",
-        "영상디스플레이 13개, 반도체 3개, 모바일 2개, 생활가전 1개 부문이며 최고 혁신상 4개를 차지했다.",
-        "폴더블 신제품과 AI 메모리 수상은 기술 경쟁력을 보여주는 신호로 해석된다."
+        "삼성전자가 내년 1월 열리는 CES 2027을 앞두고 CES 혁신상 총 19개를 수상했다.",
+        "수상 목록에는 최고 혁신상 4개가 포함되었으며 TV, 폴드8, 메모리 등 여러 제품군이 선정됐다.",
+        "반도체 메모리부터 가전까지 폭넓은 분야에서 제품 경쟁력을 공식 인정받은 사례다."
       ],
-      "category": "실적/투자/시장",
+      "category": "정책/무역",
       "tags": [
         "CES 2027",
-        "혁신상",
-        "갤럭시 Z 폴드8",
-        "SOCAMM2",
-        "UFS 5.0"
+        "CES 혁신상",
+        "폴드8",
+        "메모리",
+        "TV"
       ],
       "companies": [
         "삼성전자"
@@ -76,13 +71,13 @@
         "삼성전자"
       ],
       "importance": 3,
-      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자) +1, 매체 3곳 보도 +1 → 3점",
+      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자) +1, 매체 4곳 보도 +1 → 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
       "first_seen": "2026-11-14T23:31:12Z",
-      "updated_at": "2026-11-15T01:00:08Z",
+      "updated_at": "2026-11-15T03:08:00Z",
       "articles": [
         {
           "key": "6c1d04c63c16dd92",
@@ -107,6 +102,169 @@
           "source": "전자신문",
           "lang": "ko",
           "published_at": "2026-11-15T01:00:08Z"
+        },
+        {
+          "key": "8e5281ed39b4a878",
+          "title": "삼성전자, CES 2027 혁신상 19개…TV·폴드8·메모리 등 선정",
+          "url": "https://www.dt.co.kr/article/12095182",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-15T03:08:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261115-1069",
+      "headline": "한국 고해상도 신축성 디스플레이 특허출원 세계 1위",
+      "summary": [
+        "최근 10년간 국가전략기술인 고해상도 신축성 디스플레이 분야 특허출원 건수에서 한국이 세계 1위를 기록했다.",
+        "삼성디스플레이, LG디스플레이, 삼성전자 등 국내 3개사가 다출원 상위 5개 기업에 포함됐다.",
+        "국내 기업들의 특허 선점은 차세대 신축성 디스플레이 기술 경쟁력을 보여주는 신호로 해석된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "고해상도 신축성 디스플레이",
+        "특허출원",
+        "신축성 디스플레이",
+        "차세대 디스플레이"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "LG디스플레이",
+        "삼성전자"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-15T03:00:00Z",
+      "updated_at": "2026-11-15T03:00:09Z",
+      "articles": [
+        {
+          "key": "dc17c5db2548f7d8",
+          "title": "韓, 차세대 디스플레이 강국 면모 ‘여전하네’…삼성·LG디스플레이 ‘밀고 끈다’",
+          "url": "https://www.dt.co.kr/article/12095148",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-15T03:00:00Z"
+        },
+        {
+          "key": "6fa84f40e9d6974e",
+          "title": "한국 '고해상도 신축성 디스플레이' 특허출원 세계 1위",
+          "url": "https://www.yna.co.kr/view/AKR20261113129900063",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-15T03:00:09Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261115-1070",
+      "headline": "EDA 소프트웨어 입찰 담합 9개 업체 과징금 부과",
+      "summary": [
+        "반도체 설계 자동화(EDA) 소프트웨어 관련 품목 입찰에서 9개 사업자가 짬짜미를 벌인 사실이 드러났다.",
+        "기사에 따르면 담합 기간은 약 20년이며, 부과된 과징금은 2억원이다.",
+        "반도체 설계 인프라 영역의 공공 조달 질서를 훼손한 사건으로, 입찰 관행 점검이 필요하다는 의미가 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "EDA",
+        "입찰 담합",
+        "과징금",
+        "반도체 설계 자동화",
+        "공공 조달"
+      ],
+      "companies": [
+        "한국전자통신연구원"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-15T03:00:08Z",
+      "updated_at": "2026-11-15T03:00:08Z",
+      "articles": [
+        {
+          "key": "5d4b8e8bca723f1a",
+          "title": "반도체설계자동화SW 입찰서 20년 담합한 9개 업체…과징금 2억원",
+          "url": "https://www.yna.co.kr/view/AKR20261113101100002",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-15T03:00:08Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261115-1068",
+      "headline": "AI 반도체 호황에 10월 ICT 수출 202% 급증",
+      "summary": [
+        "과기정통부 발표에 따르면 10월 ICT 수출은 703억 5000만 달러로 전년 대비 202.0% 늘었다.",
+        "반도체 수출은 564억 7000만 달러로 259.4% 증가했고, SSD와 D램 가격 강세가 성장을 이끌었다.",
+        "AI 데이터센터와 고성능 메모리 수요가 이어지며 국내 수출 구조의 반도체 의존도가 높아졌다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 반도체",
+        "ICT 수출",
+        "D램",
+        "SSD",
+        "고성능 메모리"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 3,
+      "importance_reason": "시장 전망·통계 2점, 매체 3곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-15T02:00:01Z",
+      "updated_at": "2026-11-15T02:47:06Z",
+      "articles": [
+        {
+          "key": "f8014eb0576bdad9",
+          "title": "AI 특수에 ICT 수출 703억달러…증가율 202% '역대 최고'",
+          "url": "https://www.yna.co.kr/view/AKR20261115016600017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-15T02:00:01Z"
+        },
+        {
+          "key": "98167f932de9ae26",
+          "title": "AI 반도체 호황에 ICT 수출 증가율 첫 200% 돌파",
+          "url": "https://zdnet.co.kr/view/?no=20261115004601",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-15T02:00:01Z"
+        },
+        {
+          "key": "cc33510b696a7c7a",
+          "title": "AI 특수에 ICT 수출 703억달러…증가율 ‘역대 최고’",
+          "url": "https://www.dt.co.kr/article/12095186",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-15T02:47:06Z"
         }
       ],
       "type_checked": true,
