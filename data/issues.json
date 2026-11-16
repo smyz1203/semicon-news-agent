@@ -1,7 +1,559 @@
 {
   "version": 1,
-  "updated_at": "2026-11-15T23:55:49Z",
+  "updated_at": "2026-11-16T01:39:22Z",
   "issues": [
+    {
+      "id": "c20261115-1079",
+      "headline": "젠슨 황 엔비디아 복귀 논의와 지지 확보 시도",
+      "summary": [
+        "FT 보도에 따르면 젠슨 황 엔비디아 CEO의 복귀를 둘러싼 논의가 진행 중이며 백악관 지지 확보를 시도하고 있다.",
+        "기사 본문이 제한적이어서 구체적인 일정이나 복귀 조건, 컴플라이언스 이슈의 세부 내용은 확인되지 않았다.",
+        "경영권 승계와 규제 대응 문제가 얽혀 있어 엔비디아 지배구조와 대미 관계에 영향을 줄 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "젠슨 황",
+        "엔비디아 경영진",
+        "승계",
+        "컴플라이언스",
+        "백악관"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-15T20:52:41Z",
+      "updated_at": "2026-11-16T00:41:04Z",
+      "articles": [
+        {
+          "key": "df74e3d92a4aff32",
+          "title": "FT “젠슨 황, 엔비디아 복귀 논의 중…백악관 지지 확보 시도”",
+          "url": "https://www.dt.co.kr/article/12095305",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-15T20:52:41Z"
+        },
+        {
+          "key": "ef683c392a0c716a",
+          "title": "Allies rally for Jensen Huang’s return as Nvidia faces compliance and succession questions",
+          "url": "https://www.digitimes.com/news/a20261116VL201/nvidia-governance-jensen-huang.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-16T00:41:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261116-1103",
+      "headline": "엔비디아, 대만 AI 서버 우회 수출 사건 직원 기소 대응 로비",
+      "summary": [
+        "엔비디아가 AI 서버 우회 반출 사건으로 직원이 기소된 것과 관련해 대만 당국자들에게 로비에 나섰다고 보도됐다.",
+        "기사 본문은 사진 출처 표기만 있어 구체적인 혐의 내용과 수사 일정은 확인되지 않는다.",
+        "AI 서버 공급망의 수출 통제 준수 문제가 대만 현지 사법·정책 이슈로 번지는 양상이라 업계 주목이 필요하다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI서버",
+        "수출규제",
+        "우회수출",
+        "대만",
+        "엔비디아"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-16T00:38:58Z",
+      "updated_at": "2026-11-16T00:38:58Z",
+      "articles": [
+        {
+          "key": "ef474571859db0d4",
+          "title": "Nvidia lobbies Taiwan officials over employee charged in AI server diversion case",
+          "url": "https://www.digitimes.com/news/a20261116VL206/nvidia-taiwan-investigation-bloomberg-manufacturing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-16T00:38:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261115-1080",
+      "headline": "베선트 장관, 엔비디아 외부 CEO 영입 및 중국 칩 판매 답변 요구",
+      "summary": [
+        "베선트 미 재무장관이 엔비디아에 젠슨 황 후임을 외부에서 영입해야 한다고 주장했다.",
+        "기사에 따르면 중국 대상 칩 판매 관련 답변을 10일 안에 내놓으라고 요구했다.",
+        "엔비디아 경영 지배구조와 대중국 반도체 수출 문제가 동시에 주목받는 상황이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "엔비디아",
+        "젠슨 황",
+        "대중국 칩 판매",
+        "경영진 교체",
+        "수출규제"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-15T20:58:50Z",
+      "updated_at": "2026-11-16T00:36:54Z",
+      "articles": [
+        {
+          "key": "ae6b48a4b04a7fa6",
+          "title": "베선트 美 재무 “젠슨 황 후임은 엔비디아 밖에서 영입해야”",
+          "url": "https://www.dt.co.kr/article/12095306",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-15T20:58:50Z"
+        },
+        {
+          "key": "263fb2b5a951ee32",
+          "title": "Bessent urges Nvidia to hire outside CEO, demands answers on China chip sales within 10 days",
+          "url": "https://www.digitimes.com/news/a20261116VL208/nvidia-ceo-sales-revenue-earnings.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-16T00:36:54Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261116-1095",
+      "headline": "SK하이닉스, 용인 팹에 소부장 검증용 트리니티팹 조성",
+      "summary": [
+        "SK하이닉스 용인 클러스터 1기 팹 3층에 소부장 기업 검증용 트리니티팹이 조성되고 있다.",
+        "클린룸 1000평에 12인치 공정·계측장비 51대를 갖추며, 준공은 내년 5월, 서비스 개시는 내년 4분기로 예상된다.",
+        "소부장 기업은 독자 클린룸 구축 부담을 줄이고 양산 환경의 정밀 데이터를 확보해 개발 기간을 단축할 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "트리니티팹",
+        "소부장",
+        "양산 검증",
+        "용인 클러스터",
+        "HBM"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "지역·인프라 2점, 관심 기업(SK하이닉스) +1, 매체 5곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-16T00:00:00Z",
+      "updated_at": "2026-11-16T00:26:11Z",
+      "articles": [
+        {
+          "key": "fb9a15df99c6738a",
+          "title": "[르포] ‘여의도 1.4배’ 부지서 막바지 공사…반도체 소부장 꿈 키울 SK ‘트리니티 펩’ 가보니",
+          "url": "https://www.dt.co.kr/article/12095320",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-16T00:00:00Z"
+        },
+        {
+          "key": "9160b9b5fc1439f0",
+          "title": "SK하이닉스 첫 팹에 소부장 실증시설…'트리니티팹' 가보니 [르포]",
+          "url": "https://www.inews24.com/view/2026242",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-16T00:00:00Z"
+        },
+        {
+          "key": "23c82b71658795f3",
+          "title": "[르포] 양산 검증 장벽 허문다…SK하이닉스가 용인에 품은 '상생의 팹'",
+          "url": "https://zdnet.co.kr/view/?no=20261113134910",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-16T00:00:01Z"
+        },
+        {
+          "key": "ae442cd78a090455",
+          "title": "Korea makes world-class memory chips. Can its suppliers catch up?",
+          "url": "https://www.koreaherald.com/article/10938000",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-16T00:02:48Z"
+        },
+        {
+          "key": "2c632ae0f6922168",
+          "title": "개발기간 줄이고 검증 부담 낮추고…소부장 기업, SK ‘트리니티 팹’에 기대감",
+          "url": "https://www.dt.co.kr/article/12095322",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-16T00:10:00Z"
+        },
+        {
+          "key": "d668a36641672c32",
+          "title": "한쪽은 메모리 공장, 한쪽은 소부장 실험실... SK하이닉스 용인 팹 3층 가보니",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65286",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-16T00:26:11Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261116-1102",
+      "headline": "젠슨 황 퇴진설, 삼성전자 AI 반도체 반사이익 전망",
+      "summary": [
+        "KB증권은 16일 젠슨 황 엔비디아 CEO 퇴진에 따른 AI 반도체 판도 재편을 진단했다.",
+        "김동원 연구원은 엔비디아 이탈 흐름에서 삼성전자가 반사이익을 얻을 것으로 봤다.",
+        "기사에 제시된 구체적 수치와 일정은 확인되지 않았으며, 증권가 전망이라는 점이 중요하다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "엔비디아",
+        "탈엔비디아",
+        "AI 반도체"
+      ],
+      "companies": [
+        "삼성전자",
+        "엔비디아",
+        "KB증권"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "KB증권"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T00:18:03Z",
+      "updated_at": "2026-11-16T00:18:03Z",
+      "articles": [
+        {
+          "key": "39a6f1cf16a2b953",
+          "title": "KB증권 “젠슨 황 퇴진, 삼성전자엔 기회… ‘탈엔비디아’ 최대 수혜”",
+          "url": "https://www.dt.co.kr/article/12095335",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-16T00:18:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261116-1101",
+      "headline": "리노공업 노사, 183일 만에 임단협 잠정 합의",
+      "summary": [
+        "반도체 테스트 부품 기업 리노공업의 노사가 임금·단체협약 잠정 합의안을 마련했다.",
+        "기사에서는 183일간의 교섭 끝에 잠정 합의에 이르렀다고 전하며 세부 조건은 확인되지 않는다.",
+        "장기간 이어진 노사 갈등이 일단 봉합 국면에 들어서 생산 차질 우려가 줄어들 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "임단협",
+        "잠정합의",
+        "반도체 테스트 부품",
+        "노사갈등"
+      ],
+      "companies": [
+        "리노공업"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "리노공업"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T00:15:05Z",
+      "updated_at": "2026-11-16T00:15:05Z",
+      "articles": [
+        {
+          "key": "c78aff9735202c3a",
+          "title": "반도체 기업 리노공업 노사, 183일 만에 임단협 잠정 합의",
+          "url": "https://www.yna.co.kr/view/AKR20261116031200051",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-16T00:15:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261116-1099",
+      "headline": "SK하이닉스 생산라인 소부장 양산 기간 1년 단축",
+      "summary": [
+        "SK하이닉스가 용인 반도체 생산라인 일부를 소부장 기업에 내줘 장비·소재 검증 공간을 마련했다.",
+        "기사 발췌에는 1천평 규모의 공간과 대형 승강기 장비가 소개되어 있으며, 양산 기간이 1년 단축된다는 내용이 담겼다.",
+        "장비·소재 기업이 현장에서 바로 검증할 수 있게 되면서 국내 소부장 생태계의 양산 속도가 빨라질 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "소부장",
+        "양산기간 단축",
+        "용인 반도체",
+        "생산라인 개방"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "설비 투자 3점, 관심 기업(SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T00:00:02Z",
+      "updated_at": "2026-11-16T00:00:02Z",
+      "articles": [
+        {
+          "key": "68058b5c1a7a0f76",
+          "title": "[르포] 반도체 생산라인 내준 SK하이닉스…소부장 양산기간 1년 단축",
+          "url": "https://www.yna.co.kr/view/AKR20261116018400003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-16T00:00:02Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261116-1100",
+      "headline": "SK하이닉스 트리니티팹, 소부장 양산 리드타임 단축 추진",
+      "summary": [
+        "SK하이닉스가 용인 클러스터 제1기팹 1층에 소부장 검증용 개방형 테스트베드 트리니티팹을 구축 중이다.",
+        "총 8746억원을 SK하이닉스·정부·지자체가 공동 출자하며, 2027년 5월 준공 후 하반기 서비스 개시를 목표로 한다.",
+        "소부장 기업의 양산 리드타임을 30% 줄이는 것이 목표로, 국내 장비·소재 기업의 기술 경쟁력 강화에 기여할 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "트리니티팹",
+        "소부장 상생",
+        "양산 검증",
+        "테스트베드",
+        "용인 클러스터"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "테스",
+        "티이엠씨"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스",
+        "정부",
+        "지자체"
+      ],
+      "importance": 4,
+      "importance_reason": "설비 투자 3점, 관심 기업(SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T00:00:02Z",
+      "updated_at": "2026-11-16T00:00:02Z",
+      "articles": [
+        {
+          "key": "605d281e82e199c9",
+          "title": "\"제품 상용화 1년도 줄이죠\"…SK하이닉스 상생협력에 소부장 '함박웃음'",
+          "url": "https://zdnet.co.kr/view/?no=20261113145501",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-16T00:00:02Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261116-1096",
+      "headline": "SK하이닉스, 소부장 상용화 기간 단축 위해 트리니티팹 가동",
+      "summary": [
+        "SK하이닉스가 소부장 협력사의 기술 상용화 기간을 1년 이상 줄이는 방안을 추진한다.",
+        "내년 5월 공동 시험시설 트리니티팹을 가동해 양산 검증에 드는 시간과 비용을 줄일 계획이다.",
+        "협력사 기술 검증 속도가 빨라져 국내 소부장 경쟁력 강화에 도움이 될 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "트리니티팹",
+        "소부장 상용화",
+        "양산 검증",
+        "협력사 상생"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T00:00:00Z",
+      "updated_at": "2026-11-16T00:00:00Z",
+      "articles": [
+        {
+          "key": "fd4a002af0bd1a95",
+          "title": "3년 걸리던 소부장 상용화, 18개월로…SK하이닉스 트리니티팹의 목표",
+          "url": "https://www.inews24.com/view/2024775",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-16T00:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261116-1097",
+      "headline": "SK하이닉스, 협력사 R&D 실패 위험 분담 제도 도입",
+      "summary": [
+        "SK하이닉스가 소부장 협력사의 기술 개발 실패 위험을 함께 나누는 새 지원제도를 도입했다.",
+        "초기 연구개발비를 먼저 지급하고, 개발 실패나 구매 미연결 시에도 기술 성과에 따라 비용을 보상한다.",
+        "중소 협력사의 R&D 부담을 낮춰 국내 반도체 소부장 생태계 경쟁력 강화에 기여할 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "소부장",
+        "협력사 R&D",
+        "개발비 보상",
+        "상생협력"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T00:00:00Z",
+      "updated_at": "2026-11-16T00:00:00Z",
+      "articles": [
+        {
+          "key": "3f06670ccf78cdbb",
+          "title": "실패해도 개발비 보상…SK하이닉스, 협력사 R&D 위험 나눈다",
+          "url": "https://www.inews24.com/view/2024760",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-16T00:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261116-1098",
+      "headline": "온세미, 피지컬 AI용 지능형 산업 센서 기술 공개",
+      "summary": [
+        "온세미는 피지컬 AI와 스마트 제조 확산에 맞춰 지능형 산업용 센서 기술 전략을 제시했다.",
+        "센서 컨트롤러, 아날로그 프런트엔드(AFE), 프로세서를 하나의 칩에 통합하는 방향을 차세대 핵심으로 제시했다.",
+        "로봇 팔·AGV·CNC 등 물리 시스템의 안정적 동작에 필요한 센서 역할이 커지는 흐름을 보여준다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "피지컬 AI",
+        "산업용 센서",
+        "AFE",
+        "스마트 제조",
+        "통합 칩"
+      ],
+      "companies": [
+        "온세미"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "온세미"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T00:00:00Z",
+      "updated_at": "2026-11-16T00:00:00Z",
+      "articles": [
+        {
+          "key": "4350c87203a6fdab",
+          "title": "온세미, 피지컬 AI 시대 센서 패러다임 바꾼다…지능형 반도체 기술 공개",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409791",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-16T00:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261115-1094",
       "headline": "어플라이드머티리얼즈, 2028년까지 장비 생산량 두 배 목표",
@@ -616,94 +1168,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261115-1080",
-      "headline": "베선트 장관, 엔비디아 차기 CEO 외부 영입 촉구",
-      "summary": [
-        "스콧 베선트 미국 재무장관이 젠슨 황 전 엔비디아 CEO 논란과 관련해 차기 CEO를 외부에서 영입해야 한다고 밝혔다.",
-        "기사 본문이 짧게 잘려 있어 구체적 인물, 일정, 발언 배경의 세부 내용은 확인되지 않는다.",
-        "엔비디아 경영진 교체 방향에 대한 정부 고위 인사의 발언으로, 반도체 업계 지배구조 관심을 키울 수 있다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "엔비디아",
-        "젠슨 황",
-        "CEO 교체",
-        "경영진 쇄신"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": false,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 2,
-      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-15T20:58:50Z",
-      "updated_at": "2026-11-15T20:58:50Z",
-      "articles": [
-        {
-          "key": "ae6b48a4b04a7fa6",
-          "title": "베선트 美 재무 “젠슨 황 후임은 엔비디아 밖에서 영입해야”",
-          "url": "https://www.dt.co.kr/article/12095306",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-15T20:58:50Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261115-1079",
-      "headline": "젠슨 황 엔비디아 복귀 논의 보도, 백악관 지지 확보 시도",
-      "summary": [
-        "FT는 젠슨 황 전 엔비디아 CEO가 물러난 지 일주일 안에 복귀를 노린다고 보도했다.",
-        "기사 요약본에는 측근들과 경영 복귀 방안을 논의하며 백악관 지지를 얻으려 한다는 내용이 담겼다.",
-        "다만 공식 발표가 없어 복귀 여부는 확정되지 않았으며, 엔비디아 경영 공백 이슈로 주목된다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "젠슨 황",
-        "엔비디아 경영권",
-        "CEO 교체",
-        "백악관"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": false,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 2,
-      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-15T20:52:41Z",
-      "updated_at": "2026-11-15T20:52:41Z",
-      "articles": [
-        {
-          "key": "df74e3d92a4aff32",
-          "title": "FT “젠슨 황, 엔비디아 복귀 논의 중…백악관 지지 확보 시도”",
-          "url": "https://www.dt.co.kr/article/12095305",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-15T20:52:41Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261115-1078",
