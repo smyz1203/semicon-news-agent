@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-16T17:26:26Z",
+  "updated_at": "2026-11-16T19:12:32Z",
   "issues": [
     {
       "id": "c20261116-1159",
@@ -123,6 +123,56 @@
       ],
       "type_checked": true,
       "importance_raw": 4
+    },
+    {
+      "id": "c20261116-1160",
+      "headline": "유티아이, 아이폰 듀오 UTG 소량 납품 시작했으나 적자 지속",
+      "summary": [
+        "유티아이가 3분기 누적 영업손실 436억원, 매출 172억원을 기록했다고 16일 밝혔다.",
+        "10월 마지막 주부터 삼성디스플레이에 아이폰 듀오 패널 커버윈도 UTG를 소량 공급했고, 연말까지 55만~60만개 납품을 기대한다고 밝혔다.",
+        "양산 일정은 1개 분기 밀렸고 UTG 매출 비중은 8%에 그쳐 실적 회복은 내년 물량에 달려 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "UTG",
+        "아이폰 듀오",
+        "폴더블 패널",
+        "커버윈도",
+        "삼성디스플레이"
+      ],
+      "companies": [
+        "유티아이",
+        "삼성디스플레이",
+        "렌즈 테크놀러지",
+        "애플",
+        "도우인시스",
+        "삼성전자"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "유티아이"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T13:44:22Z",
+      "updated_at": "2026-11-16T13:44:22Z",
+      "articles": [
+        {
+          "key": "1124afbabc0e216b",
+          "title": "유티아이, 3분기 누적 영업손실 436억...매출 172억의 2.5배",
+          "url": "https://zdnet.co.kr/view/?no=20261116223144",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-16T13:44:22Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261116-1158",
