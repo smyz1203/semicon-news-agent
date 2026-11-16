@@ -1,7 +1,681 @@
 {
   "version": 1,
-  "updated_at": "2026-11-16T01:39:22Z",
+  "updated_at": "2026-11-16T03:12:36Z",
   "issues": [
+    {
+      "id": "c20261116-1115",
+      "headline": "반도체 생산성 급증, 비반도체와 임금 격차 확대",
+      "summary": [
+        "KDI 분석에 따르면 최근 4년간 반도체 제조업 생산성은 연평균 8% 넘게 증가했다.",
+        "반면 비반도체 부문 생산성은 오히려 감소해 두 부문 간 격차가 벌어지고 있다.",
+        "이는 반도체 호황이 산업 내 임금 격차 확대로 이어질 수 있음을 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "반도체 생산성",
+        "임금 격차",
+        "KDI",
+        "제조업"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T03:00:03Z",
+      "updated_at": "2026-11-16T03:00:03Z",
+      "articles": [
+        {
+          "key": "66ea164603a7a2e6",
+          "title": "KDI \"반도체 생산성 8.5% 늘 때 그 외 0.4% 줄어…임금 격차↑\"",
+          "url": "https://www.yna.co.kr/view/AKR20261116075000002",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-16T03:00:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261116-1114",
+      "headline": "광주 군공항 전투기 서산 이전 두고 주민 반발",
+      "summary": [
+        "공군이 광주 군공항의 TA-50 경공격기 전력을 충남 서산으로 옮기는 계획을 추진하고 있다.",
+        "이전은 호남권 반도체 클러스터 조성 투자와 연계되어 있으며, 광주 주민들은 이에 강하게 반대하고 있다.",
+        "군공항 이전 여부는 반도체 클러스터 부지 확보와 지역 갈등 해소의 향방을 가르는 변수가 될 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "호남권 반도체 클러스터",
+        "광주 군공항",
+        "TA-50",
+        "군공항 이전",
+        "지역 갈등"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T02:37:09Z",
+      "updated_at": "2026-11-16T02:37:09Z",
+      "articles": [
+        {
+          "key": "4d1e8181380a386d",
+          "title": "광주 군공항 전투기 서산 이전 계획에 주민들 \"결사반대\"(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261116049951063",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-16T02:37:09Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261116-1113",
+      "headline": "엔비디아 후 전망이 한국 반도체·배터리 재평가 촉발",
+      "summary": [
+        "엔비디아 포스트 젠슨 황 체제 이후 한국 반도체·배터리 업계에 대한 재평가 움직임이 나타났다는 보도다.",
+        "기사 본문은 사진 크레딧만 포함돼 구체적 수치나 일정, 기업별 조치는 확인되지 않는다.",
+        "다만 엔비디아의 리더십 변화가 한국 공급망 전반에 영향을 줄 수 있다는 관측을 담고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "엔비디아",
+        "포스트 젠슨 황",
+        "한국 반도체",
+        "배터리",
+        "시장 재평가"
+      ],
+      "companies": [
+        "엔비디아",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-16T02:22:05Z",
+      "updated_at": "2026-11-16T02:22:05Z",
+      "articles": [
+        {
+          "key": "99042ffb5cb2bc93",
+          "title": "Post-Jensen Nvidia sparks South Korean chip, battery rethink",
+          "url": "https://www.digitimes.com/news/a20261116PD211/nvidia-technology-samsung-roadmap-ceo.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-16T02:22:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261116-1112",
+      "headline": "디스플레이협회, 초광역특구법 발의 환영",
+      "summary": [
+        "한국디스플레이산업협회가 지역 전략산업 육성과 첨단산업 경쟁력 강화를 위한 초광역특구법 발의를 환영했다.",
+        "기사 본문이 잘려 있어 법안의 세부 내용과 발의 주체, 일정 등 구체적 수치는 확인되지 않는다.",
+        "디스플레이 업계는 지역 기반 산업 육성이 첨단산업 경쟁력 강화로 이어지기를 기대하는 입장이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "초광역특구법",
+        "지방주도성장",
+        "지역 전략산업",
+        "첨단산업 경쟁력"
+      ],
+      "companies": [
+        "한국디스플레이산업협회"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "한국디스플레이산업협회"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T02:19:45Z",
+      "updated_at": "2026-11-16T02:19:45Z",
+      "articles": [
+        {
+          "key": "8b19f09fb37c09f5",
+          "title": "디스플레이협회 \"초광역특구법 발의 환영…경쟁력 강화 기대\"",
+          "url": "https://www.yna.co.kr/view/AKR20261116072600003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-16T02:19:45Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261115-1078",
+      "headline": "CSOT, 유리 코어 기판 시제품 공개하며 패키징 시장 진입",
+      "summary": [
+        "TCL CSOT가 유리 코어 기판 시제품을 공개했으며 종횡비는 10:1이다.",
+        "기사 본문이 제한적이라 양산 일정이나 고객사 등 구체적 내용은 확인되지 않는다.",
+        "중국 패널업체가 디스플레이를 넘어 반도체 패키징 영역으로 사업을 넓히는 흐름을 보여준다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "유리 코어 기판",
+        "반도체 패키징",
+        "종횡비 10:1",
+        "CSOT"
+      ],
+      "companies": [
+        "CSOT",
+        "TCL"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "CSOT"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-15T14:38:58Z",
+      "updated_at": "2026-11-16T02:17:13Z",
+      "articles": [
+        {
+          "key": "fbd71e9969153192",
+          "title": "CSOT, 반도체 유리 코어 기판 시제품 공개...종횡비 10:1",
+          "url": "https://zdnet.co.kr/view/?no=20261113124245",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-15T14:38:58Z"
+        },
+        {
+          "key": "8dc9d03ad28c3233",
+          "title": "TCL CSOT unveils glass-core substrate prototypes as Chinese panel makers push into chip packaging",
+          "url": "https://www.digitimes.com/news/a20261116VL205/tcl-csot-glass-substrate-panel-packaging.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-16T02:17:13Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261115-1093",
+      "headline": "웨일스 반도체 클러스터의 제조 패러다임 변화",
+      "summary": [
+        "영국 남웨일스 뉴포트의 CS² 행사에 UKSC, CSconnected 등 업계 관계자들이 모인 모습이 보도됐다.",
+        "기사 본문은 사진 설명 수준으로, 구체적인 투자 규모나 일정, 수치는 확인되지 않는다.",
+        "웨일스 반도체 생태계가 성장하는 가운데 제조 방식의 변화가 업계에 주는 의미를 짚는 분석 기사로 보인다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "웨일스 반도체",
+        "CS²",
+        "제조 방식 변화",
+        "반도체 클러스터"
+      ],
+      "companies": [
+        "UKSC",
+        "CSconnected"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-15T23:20:51Z",
+      "updated_at": "2026-11-16T02:07:36Z",
+      "articles": [
+        {
+          "key": "9050d30357254607",
+          "title": "Analysis: South Wales built a semiconductor powerhouse—but the rules of manufacturing are changing",
+          "url": "https://www.digitimes.com/news/a20261113VL213/manufacturing-industrial-materials-production-region.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-15T23:20:51Z"
+        },
+        {
+          "key": "33d6b977cf811b13",
+          "title": "The institutions behind South Wales' semiconductor strength face a changing industrial reality",
+          "url": "https://www.digitimes.com/news/a20261113VL235/industrial-investment-region-manufacturing-development.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-16T02:07:36Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261116-1111",
+      "headline": "아산 스마트모듈러센터 착공, 무기발광 디스플레이 육성 시동",
+      "summary": [
+        "산업통상부는 16일 충남 아산탕정테크노일반산업단지에서 스마트모듈러센터 착공식을 열었다.",
+        "기사 본문이 짧아 센터의 규모, 투자액, 완공 일정 등 구체적 수치는 확인되지 않는다.",
+        "무기발광 디스플레이 분야의 초격차 확보를 위한 기반 시설 구축이 본격화된 신호로 볼 수 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "무기발광 디스플레이",
+        "스마트모듈러센터",
+        "아산탕정산업단지",
+        "초격차"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T02:00:38Z",
+      "updated_at": "2026-11-16T02:00:38Z",
+      "articles": [
+        {
+          "key": "aaafe8ef48320269",
+          "title": "아산 스마트모듈러센터 착공…무기발광 디스플레이 초격차 시동",
+          "url": "https://www.yna.co.kr/view/AKR20261116027100003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-16T02:00:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261116-1110",
+      "headline": "삼성전자 김영진 파트장, 한국에너지대상 은탑산업훈장 수상",
+      "summary": [
+        "기후에너지환경부가 16일 서울에서 2026 한국에너지대상 시상식을 열었다.",
+        "김영진 삼성전자 파트장이 에너지 효율 향상 공로로 은탑산업훈장을 받았다.",
+        "반도체 공장의 에너지 효율 관리 성과가 산업계 전반에 주목받을 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "한국에너지대상",
+        "은탑산업훈장",
+        "에너지 효율",
+        "포상"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 2,
+      "importance_reason": "홍보·수상 1점, 관심 기업(삼성전자) +1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T02:00:04Z",
+      "updated_at": "2026-11-16T02:00:04Z",
+      "articles": [
+        {
+          "key": "5622a338f27dadb1",
+          "title": "2026 한국에너지대상…은탑산업훈장에 김영진 삼성전자 파트장",
+          "url": "https://www.yna.co.kr/view/AKR20261116034400530",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-16T02:00:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261116-1109",
+      "headline": "D램 시장 매출 급증, AI 수요와 가격 상승이 견인",
+      "summary": [
+        "카운터포인트리서치에 따르면 2026년 3분기 글로벌 D램 시장 매출은 전년 동기 대비 369% 증가했다.",
+        "매출은 2000억달러에 육박했으며 출하량보다 메모리 가격 상승이 성장을 주도했다.",
+        "AI 가속기와 데이터센터 수요가 메모리 시장 호황을 이끌며 업계 수익성이 크게 개선되는 추세다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "D램",
+        "AI 데이터센터",
+        "AI 가속기",
+        "메모리 가격"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T02:00:00Z",
+      "updated_at": "2026-11-16T02:00:00Z",
+      "articles": [
+        {
+          "key": "34c1d7bc8d1916f2",
+          "title": "삼성전자, D램 점유율 38%…SK하이닉스 추격 속 메모리 경쟁 격화",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409794",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-16T02:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261116-1108",
+      "headline": "아산 무기발광 디스플레이 실증센터 착공, 1461억 투입",
+      "summary": [
+        "충남 아산에 마이크로LED 등 차세대 디스플레이의 기술 검증과 상용화를 돕는 실증센터가 착공됐다.",
+        "센터에서는 화소부터 패널, 모듈까지 제조 공정 전반을 시험할 수 있으며 총 1461억원이 투입된다.",
+        "국내 소재·부품·장비 기업이 차세대 디스플레이 상용화 기반을 확보하는 계기가 될 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "마이크로LED",
+        "무기발광 디스플레이",
+        "실증센터",
+        "차세대 디스플레이",
+        "아산"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T01:52:33Z",
+      "updated_at": "2026-11-16T01:52:33Z",
+      "articles": [
+        {
+          "key": "8eab4585a8cb99c6",
+          "title": "아산에 무기발광 디스플레이 실증센터 착공…1461억원 투입",
+          "url": "https://www.inews24.com/view/2026505",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-16T01:52:33Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261116-1107",
+      "headline": "반도체 장비 공급사, 주문 기간 9개월로 늘어나며 생산 확대",
+      "summary": [
+        "기사에 따르면 VAT Group 등 반도체 장비 공급사들이 생산을 늘리고 있으며 주문 기간이 9개월로 길어졌다.",
+        "다만 기사 본문이 'Credit: VAT Group' 한 줄뿐이라 구체적인 수치나 일정은 확인할 수 없다.",
+        "장비 수주 리드타임이 길어진다는 점은 업계 설비 투자 수요가 강하다는 신호로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "반도체 장비",
+        "진공 밸브",
+        "주문 리드타임",
+        "설비 투자"
+      ],
+      "companies": [
+        "VAT Group"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "VAT Group"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-16T01:42:37Z",
+      "updated_at": "2026-11-16T01:42:37Z",
+      "articles": [
+        {
+          "key": "914ccd085bfba6a7",
+          "title": "Chip equipment suppliers ramp up as VAT order windows stretch to nine months",
+          "url": "https://www.digitimes.com/news/a20261113VL237/equipment-capacity-manufacturing-inventory-demand.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-16T01:42:37Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261116-1106",
+      "headline": "젠슨 황 사임설에 엔비디아 주문 우려, 대만 업계 전환 주목",
+      "summary": [
+        "디지타임스 아시아는 젠슨 황의 사임이 엔비디아 주문에 대한 의구심을 낳는다고 제목으로 보도했다.",
+        "본문이 제공되지 않아 사임 확정 여부와 시점, 주문 규모 등 구체적 수치는 확인되지 않는다.",
+        "대만 공급업체들이 2027년 중반을 겨냥한 사업 방향 전환을 검토하는 것으로 보여 공급망 영향이 관심사다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "엔비디아 주문",
+        "젠슨 황 사임",
+        "대만 공급망",
+        "2027년 중반 전환"
+      ],
+      "companies": [
+        "엔비디아",
+        "디지타임스"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-16T01:36:00Z",
+      "updated_at": "2026-11-16T01:36:00Z",
+      "articles": [
+        {
+          "key": "c0157669f20144ed",
+          "title": "Huang's resignation casts doubt on Nvidia orders; Taiwan suppliers eye mid-2027 pivot",
+          "url": "https://www.digitimes.com/news/a20261116PD206/taiwan-nvidia-jensen-huang-investigation.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-16T01:36:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261116-1105",
+      "headline": "TSMC, 5억 달러 규모 신규 투자 법인 설립 추진",
+      "summary": [
+        "TSMC가 5억 달러 규모의 신규 조직을 통해 칩 공급업체에 투자할 수 있다는 보도가 나왔다.",
+        "기사 본문이 제공되지 않아 투자 대상과 구체적 일정은 확인되지 않았다.",
+        "공급망 협력을 강화하려는 움직임으로, 장비·소재 기업에 영향을 줄 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "TSMC",
+        "공급망 투자",
+        "5억 달러",
+        "칩 공급업체"
+      ],
+      "companies": [
+        "TSMC"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "TSMC"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-16T01:31:30Z",
+      "updated_at": "2026-11-16T01:31:30Z",
+      "articles": [
+        {
+          "key": "b0f6dd853c68a06a",
+          "title": "TSMC's new US$500 million arm could invest in chip suppliers",
+          "url": "https://www.digitimes.com/news/a20261113VL236/tsmc-investment-manufacturing-openai-development.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-16T01:31:30Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261115-1082",
+      "headline": "젠슨 황 엔비디아 CEO 복귀 추진설 확산",
+      "summary": [
+        "젠슨 황 전 CEO가 물러난 지 나흘 만에 복귀를 추진한다는 FT 보도가 나왔다.",
+        "측근들은 실리콘밸리 임원 중심의 대책팀을 꾸리고 백악관 지지 확보를 추진하는 것으로 알려졌다.",
+        "복귀 논쟁이 공식 결정이 아닌 상태에서 엔비디아 지배구조와 투자자 행보에 영향을 줄 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "CEO 교체",
+        "엔비디아 지배구조",
+        "앨리스 황 스캔들",
+        "주주 소송"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-15T22:17:50Z",
+      "updated_at": "2026-11-16T01:26:30Z",
+      "articles": [
+        {
+          "key": "3b7aec83e64c971a",
+          "title": "젠슨 황 CEO 복귀 추진설…“실리콘밸리 거물들 지원 나섰다”",
+          "url": "https://www.dt.co.kr/article/12095309",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-15T22:17:50Z"
+        },
+        {
+          "key": "fb6f2046b1775bfc",
+          "title": "젠슨 황, 엔비디아 CEO 복귀할까…\"측근들과 논의\"",
+          "url": "https://zdnet.co.kr/view/?no=20261116100351",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-16T01:26:30Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261116-1104",
+      "headline": "하이퍼엑셀, SC26서 LPU 기반 AI 추론 서버 공개",
+      "summary": [
+        "하이퍼엑셀이 시카고 SC26 행사에 단독 부스를 내고 LPU 8개 탑재 AI 추론 서버를 시연한다고 밝혔다.",
+        "엔비디아 RTX 프로 6000 블랙웰 서버 대비 와트당·달러당 토큰 처리량이 3.5배 이상이며 카드당 소비전력은 250W다.",
+        "HBM 대신 LPDDR5X를 써 AI 추론 효율과 전력 비용 절감을 강조한 전략이 주목된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "LPU",
+        "AI추론",
+        "LPDDR5X",
+        "SC26",
+        "토큰 효율"
+      ],
+      "companies": [
+        "하이퍼엑셀",
+        "엔비디아",
+        "래블업"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "하이퍼엑셀"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T01:11:20Z",
+      "updated_at": "2026-11-16T01:11:20Z",
+      "articles": [
+        {
+          "key": "d4192befcebda87e",
+          "title": "하이퍼엑셀, 슈퍼컴퓨팅 행사 'SC26'서 LPU 기반 AI 추론 서버 첫선",
+          "url": "https://zdnet.co.kr/view/?no=20261116092249",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-16T01:11:20Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
     {
       "id": "c20261115-1079",
       "headline": "젠슨 황 엔비디아 복귀 논의와 지지 확보 시도",
@@ -599,49 +1273,6 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261115-1093",
-      "headline": "웨일스 반도체 클러스터의 제조 패러다임 변화",
-      "summary": [
-        "영국 남웨일스 뉴포트의 CS² 행사에 UKSC, CSconnected 등 업계 관계자들이 모인 모습이 보도됐다.",
-        "기사 본문은 사진 설명 수준으로, 구체적인 투자 규모나 일정, 수치는 확인되지 않는다.",
-        "웨일스 반도체 생태계가 성장하는 가운데 제조 방식의 변화가 업계에 주는 의미를 짚는 분석 기사로 보인다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "웨일스 반도체",
-        "CS²",
-        "제조 방식 변화",
-        "반도체 클러스터"
-      ],
-      "companies": [
-        "UKSC",
-        "CSconnected"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-15T23:20:51Z",
-      "updated_at": "2026-11-15T23:20:51Z",
-      "articles": [
-        {
-          "key": "9050d30357254607",
-          "title": "Analysis: South Wales built a semiconductor powerhouse—but the rules of manufacturing are changing",
-          "url": "https://www.digitimes.com/news/a20261113VL213/manufacturing-industrial-materials-production-region.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-15T23:20:51Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
       "id": "c20261115-1092",
       "headline": "2026년 OLED 스마트폰 패널 출하량 감소 전망",
       "summary": [
@@ -1080,50 +1711,6 @@
       "importance_raw": 1
     },
     {
-      "id": "c20261115-1082",
-      "headline": "젠슨 황 엔비디아 CEO 복귀 추진설 보도",
-      "summary": [
-        "FT는 복수 소식통을 인용해 젠슨 황 전 엔비디아 CEO가 경영 복귀를 추진한다고 15일 보도했다.",
-        "기사 원문이 짧아 구체적인 일정과 세부 내용은 확인되지 않으며 측근들과 협의 중이라는 내용이다.",
-        "공식 발표가 없는 소식통 보도라 사실 여부와 향후 엔비디아 경영 구도에 미칠 영향은 추가 확인이 필요하다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "엔비디아",
-        "젠슨 황",
-        "CEO 복귀",
-        "경영진 교체"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": false,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 2,
-      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-15T22:17:50Z",
-      "updated_at": "2026-11-15T22:17:50Z",
-      "articles": [
-        {
-          "key": "3b7aec83e64c971a",
-          "title": "젠슨 황 CEO 복귀 추진설…“실리콘밸리 거물들 지원 나섰다”",
-          "url": "https://www.dt.co.kr/article/12095309",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-15T22:17:50Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
       "id": "c20261115-1081",
       "headline": "삼성D·LG디스플레이, 중국 게이밍 OLED 시장 공략 강화",
       "summary": [
@@ -1168,55 +1755,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261115-1078",
-      "headline": "CSOT, 반도체 유리 코어 기판 시제품 3종 공개",
-      "summary": [
-        "CSOT가 우한 연례행사 DTC 2026에서 반도체 패키징용 유리기판 시제품 3종을 전시했다.",
-        "패널 크기는 510×515mm이며 TGV 종횡비 10대 1, 12층 배선 구조와 10μm 선폭·간격을 제시했다.",
-        "중국 패널 업체들의 유리기판 사업화 움직임이 본격화되는 신호로, 양산 전 검증 단계라는 점은 유의해야 한다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "반도체 유리기판",
-        "TGV",
-        "유리 코어 기판",
-        "종횡비",
-        "구리 충전"
-      ],
-      "companies": [
-        "CSOT",
-        "BOE",
-        "AGC",
-        "TCL",
-        "코닝"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "CSOT"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-15T14:38:58Z",
-      "updated_at": "2026-11-15T14:38:58Z",
-      "articles": [
-        {
-          "key": "fbd71e9969153192",
-          "title": "CSOT, 반도체 유리 코어 기판 시제품 공개...종횡비 10:1",
-          "url": "https://zdnet.co.kr/view/?no=20261113124245",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-15T14:38:58Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261115-1077",
