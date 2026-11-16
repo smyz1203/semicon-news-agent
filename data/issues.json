@@ -1,7 +1,1044 @@
 {
   "version": 1,
-  "updated_at": "2026-11-16T06:39:32Z",
+  "updated_at": "2026-11-16T09:52:12Z",
   "issues": [
+    {
+      "id": "c20261116-1154",
+      "headline": "LG디스플레이 3분기 누적 매출 17조, OLED 비중 확대",
+      "summary": [
+        "LG디스플레이가 올해 3분기 누적 매출 17조4231억원, 원재료 매입액 6조8587억원을 공시했다.",
+        "매출과 영업이익은 전년 동기보다 줄었지만 OLED 매출 비중은 높아진 것으로 나타났다.",
+        "수익성은 약화됐으나 OLED 중심 사업 구조 전환이 가속되고 있다는 점에서 의미가 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "3분기 실적",
+        "OLED",
+        "매출 비중",
+        "원재료 매입"
+      ],
+      "companies": [
+        "LG디스플레이"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(LG디스플레이) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T09:43:13Z",
+      "updated_at": "2026-11-16T09:43:13Z",
+      "articles": [
+        {
+          "key": "973bd42034c236e6",
+          "title": "LG디스플레이, 3분기 누적 매출 17.4조⋯원재료 매입 6.9조",
+          "url": "https://www.inews24.com/view/2026831",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-16T09:43:13Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261116-1153",
+      "headline": "글로벌테크놀로지, 9개월 누적 매출 지난해 연간 실적 넘어서",
+      "summary": [
+        "글로벌테크놀로지가 올해 3분기 매출 131억원을 공시하며 전년 대비 86.9% 증가했다고 밝혔다.",
+        "올해 1~3분기 누적 매출은 419억원으로 지난해 연간 매출 297억원을 넘어섰고, 누적 영업이익은 7억원으로 흑자 전환했다.",
+        "LDI 공급 확대가 실적을 이끌며 LED 구동칩 수요 회복이 팹리스 업체 실적에 긍정적 신호로 읽힌다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "LED 구동칩",
+        "LDI",
+        "3분기 실적",
+        "누적 매출",
+        "팹리스"
+      ],
+      "companies": [
+        "글로벌테크놀로지"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "글로벌테크놀로지"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T08:52:38Z",
+      "updated_at": "2026-11-16T08:52:38Z",
+      "articles": [
+        {
+          "key": "cd6edb3cc9061068",
+          "title": "글로벌테크놀로지, 3분기 누적 매출 419억원...지난해 연매출 상회",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65490",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-16T08:52:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261116-1152",
+      "headline": "디바이스 수주잔고 1000억 돌파, 누적 매출 웃돌아",
+      "summary": [
+        "디바이스의 반도체·디스플레이 장비 수주잔고가 9월 말 기준 1016억원으로 집계됐다.",
+        "올해 1~3분기 누적 매출 873억원보다 16.4% 많으며, 전년 동기 570억원 대비 크게 늘었다.",
+        "삼성전자, SK하이닉스, 중국 디스플레이 업체 수주로 향후 매출 성장 기반이 넓어졌다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "수주잔고",
+        "반도체 장비",
+        "디스플레이 장비",
+        "3분기 실적"
+      ],
+      "companies": [
+        "디바이스",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "디바이스",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스, 삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T08:49:22Z",
+      "updated_at": "2026-11-16T08:49:22Z",
+      "articles": [
+        {
+          "key": "133ee2431cba2152",
+          "title": "디바이스, 수주잔고 1000억 돌파…3분기 누적 매출 넘었다",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65469",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-16T08:49:22Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261116-1151",
+      "headline": "케이씨텍, SK하이닉스에 700억원대 세정장비 수주",
+      "summary": [
+        "케이씨텍이 SK하이닉스로부터 698억9551만원 규모 웨이퍼 세정장비를 수주했다고 16일 공시했다.",
+        "최종 납기는 내년 6월 25일이며 대금은 납품 후 90%, 검수 후 10%를 받는다.",
+        "이달 들어 211억원대 장비 계약을 포함해 약 910억원을 수주해 장비 업계에 긍정적이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "웨이퍼 세정장비",
+        "수주",
+        "SK하이닉스",
+        "반도체 장비"
+      ],
+      "companies": [
+        "케이씨텍",
+        "SK하이닉스"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "케이씨텍",
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 관심 기업(SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T08:45:31Z",
+      "updated_at": "2026-11-16T08:45:31Z",
+      "articles": [
+        {
+          "key": "55f7164031a1f295",
+          "title": "케이씨텍, SK하이닉스에 700억원 규모 세정장비 공급",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65494",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-16T08:45:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261116-1150",
+      "headline": "삼성전자 세트 적자 속 가동률 개선, 투자 역대 최대",
+      "summary": [
+        "삼성전자가 16일 공시한 3분기 보고서에서 TV·가전·스마트폰을 맡은 세트 사업부의 적자 지속이 확인됐다.",
+        "세트 사업부는 2개 분기 연속 적자를 기록했지만 가동률은 작년보다 개선된 것으로 나타났다.",
+        "투자 규모는 역대 최대 수준으로 알려져 세트 부문 부진 속에서도 반도체 등 핵심 투자는 이어지는 흐름이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "3분기 실적",
+        "세트 적자",
+        "가동률",
+        "역대 최대 투자"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T08:44:45Z",
+      "updated_at": "2026-11-16T08:44:45Z",
+      "articles": [
+        {
+          "key": "5b2946871fb0dd87",
+          "title": "삼성전자, TV·스마트폰 적자에도 가동률 개선…투자 역대 최대",
+          "url": "https://www.dt.co.kr/article/12095496",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-16T08:44:45Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261116-1149",
+      "headline": "SK하이닉스 3분기 누적 설비투자 31조원 역대 최대",
+      "summary": [
+        "SK하이닉스의 올해 1~3분기 누적 설비투자액이 31조2천억원으로 집계됐다.",
+        "이는 역대 최고치로, 분기 누적 기준 설비투자 규모가 사상 최대를 기록했다.",
+        "대규모 투자가 메모리 생산능력 확대로 이어질지 주목된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "설비투자",
+        "역대 최대",
+        "메모리",
+        "생산능력"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "설비 투자 3점, 관심 기업(SK하이닉스) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T08:37:26Z",
+      "updated_at": "2026-11-16T08:37:26Z",
+      "articles": [
+        {
+          "key": "04f05e8181f1d724",
+          "title": "SK하이닉스 3분기 누적 설비투자 31조원 역대 최대",
+          "url": "https://www.yna.co.kr/view/AKR20261116160500003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-16T08:37:26Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261116-1146",
+      "headline": "SK하이닉스 미국 매출 급증, 전체의 60% 이상 차지",
+      "summary": [
+        "SK하이닉스의 올해 3분기 누적 미국 매출이 148조원에 육박한 것으로 나타났다.",
+        "미국 매출은 지난해 같은 기간보다 100조원 넘게 늘었고 엔비디아 매출은 35조원이다.",
+        "AI 데이터센터 투자 확대로 미국 빅테크 수요가 커지며 SK하이닉스의 대미 의존도가 높아졌다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 데이터센터",
+        "미국 매출",
+        "HBM",
+        "엔비디아 공급"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "엔비디아"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "시장 전망·통계 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T08:10:13Z",
+      "updated_at": "2026-11-16T08:36:25Z",
+      "articles": [
+        {
+          "key": "a75945e8fcc2639f",
+          "title": "SK하이닉스, 3분기 미국 매출 1년새 102조↑…엔비디아 35조",
+          "url": "https://www.yna.co.kr/view/AKR20261116152900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-16T08:10:13Z"
+        },
+        {
+          "key": "6eb6aa14c23b04f3",
+          "title": "SK하이닉스, 美 매출 148조원…전체 62.5% 차지",
+          "url": "https://www.dt.co.kr/article/12095492",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-16T08:36:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261116-1148",
+      "headline": "AMD, MI400 시리즈 확대로 엔비디아 베라 루빈 겨냥",
+      "summary": [
+        "AMD가 인스팅트 MI400 시리즈의 신규 모델 MI450X와 과학 연산용 MI430X 사양을 16일 공개했다.",
+        "MI455X는 MLPerf 오프라인 추론에서 GPU당 초당 2만1333토큰을 기록했다고 AMD가 밝혔으며 이는 베라 루빈 대비 최대 30% 높다.",
+        "AMD 자체 테스트 결과이며, 고대역폭메모리 대역폭 우위가 AI 추론 시장 경쟁 구도에 영향을 줄 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "MI400",
+        "MI450X",
+        "MI430X",
+        "HBM4",
+        "랙스케일",
+        "추론 성능"
+      ],
+      "companies": [
+        "AMD",
+        "엔비디아"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [
+        "AMD",
+        "엔비디아"
+      ],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T08:36:04Z",
+      "updated_at": "2026-11-16T08:36:04Z",
+      "articles": [
+        {
+          "key": "a784f81c183af683",
+          "title": "AMD, 차세대 '인스팅트 MI400' GPU 라인업 확대…엔비디아 '베라루빈' 겨냥",
+          "url": "https://zdnet.co.kr/view/?no=20261116173129",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-16T08:36:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261116-1147",
+      "headline": "메모리 가격 급등에 삼성전자 원재료비 1년새 10조 증가",
+      "summary": [
+        "삼성전자의 외부 구매 원재료비가 1년 사이 10조원가량 늘었다는 보도가 나왔다.",
+        "메모리 반도체를 중심으로 전자 부품 가격이 크게 오르면서 원가 부담이 커진 것으로 전해졌다.",
+        "메모리 가격 상승이 완제품 제조 원가를 끌어올리며 반도체·세트 업계의 수익성 관리가 과제가 될 전망이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "메모리 가격",
+        "원재료비",
+        "전자 부품",
+        "원가 부담"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "가격 동향",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "가격 동향 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T08:15:20Z",
+      "updated_at": "2026-11-16T08:15:20Z",
+      "articles": [
+        {
+          "key": "2d00fa27106c369b",
+          "title": "삼성전자 원재료비 부담 1년 새 10조원↑…메모리값 상승 여파",
+          "url": "https://www.yna.co.kr/view/AKR20261116151200003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-16T08:15:20Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261116-1145",
+      "headline": "첨단 패키징 검사에 쓰이는 음향 초음파 영상 기술 AMI 소개",
+      "summary": [
+        "음향 마이크로 이미징(AMI) 기술이 첨단 패키징 검사 방법으로 소개되었다.",
+        "AMI는 고주파 초음파를 이용해 디바이스 내부의 박리나 공극을 명확히 보여준다.",
+        "미세 결함을 조기에 찾아내 수율과 소자 신뢰성 확보에 기여할 것으로 보인다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "AMI",
+        "음향 마이크로 이미징",
+        "첨단 패키징",
+        "검사 공정",
+        "초음파 검사"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-16T08:01:29Z",
+      "updated_at": "2026-11-16T08:01:29Z",
+      "articles": [
+        {
+          "key": "943643d7ae2a74b5",
+          "title": "What Is Acoustic Micro Imaging? A Quick Guide To This Inspection Process",
+          "url": "https://semiengineering.com/what-is-acoustic-micro-imaging-a-quick-guide-to-this-inspection-process/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-16T08:01:29Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261116-1141",
+      "headline": "AMD, MI455X 추론 성능 엔비디아 루빈 대비 30% 앞서 주장",
+      "summary": [
+        "AMD가 MI455X 기반 헬리오스 시스템의 MLPerf 추론 성능을 공개했다.",
+        "딥시크-R1 구동 시 GPU당 초당 2만1333토큰을 기록해 엔비디아 베라 루빈 NVL72 대비 30% 높다고 밝혔다.",
+        "엔비디아 경영 공백 속에서 AMD가 AI 가속기 경쟁을 강화하는 신호로 해석된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "MI455X",
+        "헬리오스",
+        "MLPerf",
+        "추론 성능",
+        "베라 루빈"
+      ],
+      "companies": [
+        "AMD",
+        "엔비디아"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "AMD",
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T07:34:48Z",
+      "updated_at": "2026-11-16T07:53:55Z",
+      "articles": [
+        {
+          "key": "0836dc5f48931867",
+          "title": "엔비디아 내홍 속 AMD 차세대 AI 칩 공세…\"추론 성능 30% 앞서\"",
+          "url": "https://www.inews24.com/view/2026707",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-16T07:34:48Z"
+        },
+        {
+          "key": "98c0e06e385b70ce",
+          "title": "AMD \"MI455X 토큰 처리량 엔비디아 대비 30% 향상\"",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65482",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-16T07:53:55Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261116-1112",
+      "headline": "초광역특구법 발의에 디스플레이업계 입법 촉구",
+      "summary": [
+        "디스플레이협회가 초광역권전략산업특구 특별법안 발의를 환영하며 조속한 입법을 기대한다고 밝혔다.",
+        "법안에는 초광역권 산업거점 조성, 기업 투자 재정·세제 지원, 규제특례, 인재 양성이 담겼다.",
+        "대규모 설비투자가 필요한 디스플레이산업의 투자 여건 개선과 지역 소부장 업계 성장에 도움이 될 것으로 보인다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "초광역특구법",
+        "디스플레이",
+        "규제특례",
+        "투자 지원",
+        "인재 양성"
+      ],
+      "companies": [
+        "한국디스플레이산업협회"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "디스플레이협회"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T02:19:45Z",
+      "updated_at": "2026-11-16T07:53:10Z",
+      "articles": [
+        {
+          "key": "8b19f09fb37c09f5",
+          "title": "디스플레이협회 \"초광역특구법 발의 환영…경쟁력 강화 기대\"",
+          "url": "https://www.yna.co.kr/view/AKR20261116072600003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-16T02:19:45Z"
+        },
+        {
+          "key": "1348aa9065891370",
+          "title": "디스플레이협회 \"초광역특구법 조속 입법 기대\"",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65478",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-16T07:53:10Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261116-1144",
+      "headline": "삼성전자 3분기 누적 매출 500조 돌파, 투자·R&D 확대",
+      "summary": [
+        "삼성전자의 올해 3분기까지 누적 매출액이 500조원을 넘어섰다고 보도됐다.",
+        "누적 투자액은 57조원, 연구개발비는 42조원으로 집계됐다.",
+        "대규모 매출과 투자 확대는 반도체 업황 회복과 기술 경쟁력 유지를 보여주는 신호다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "3분기 누적 실적",
+        "투자 확대",
+        "연구개발",
+        "매출 500조"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T07:50:30Z",
+      "updated_at": "2026-11-16T07:50:30Z",
+      "articles": [
+        {
+          "key": "847b92072bcd471d",
+          "title": "삼성전자 올해 3분기 누적매출 500조…투자 57조·R&D 42조",
+          "url": "https://www.yna.co.kr/view/AKR20261116148100003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-16T07:50:30Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261116-1143",
+      "headline": "SK스퀘어, 3분기 영업이익 7조9406억원 기록",
+      "summary": [
+        "SK스퀘어가 2026년 3분기 연결 기준 매출 3048억원, 영업이익 7조9406억원, 순이익 12조5344억원을 발표했다.",
+        "SK하이닉스의 실적 호조가 반영된 결과이며, 기사 본문은 주주환원 지속과 AI·반도체 중심 포트폴리오 강화를 함께 언급했다.",
+        "지주사의 실적이 자회사 SK하이닉스의 반도체 호황에 크게 기대고 있음을 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "3분기 실적",
+        "SK하이닉스",
+        "주주환원",
+        "AI 반도체",
+        "포트폴리오"
+      ],
+      "companies": [
+        "SK스퀘어",
+        "SK하이닉스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "SK스퀘어"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T07:47:34Z",
+      "updated_at": "2026-11-16T07:47:34Z",
+      "articles": [
+        {
+          "key": "41d3283400115aee",
+          "title": "SK스퀘어, 3분기 영업익 7조9406억원…순이익 12조5344억원",
+          "url": "https://www.inews24.com/view/2026767",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-16T07:47:34Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261116-1142",
+      "headline": "CSOT, LG전자에 1000Hz LCD 모니터 패널 공급",
+      "summary": [
+        "CSOT가 1000Hz와 FHD를 동시 지원하는 24.5인치 LCD 패널을 LG전자 울트라기어에 공급했다.",
+        "이 패널은 광저우 8.5세대 공장 T9에서 양산됐으며 CSOT가 1000Hz LCD를 양산한 것은 처음이다.",
+        "LG전자는 잉크젯 프린팅 OLED 모니터 적용도 검토 중이어서 디스플레이 협력이 넓어지는 흐름이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "1000Hz LCD",
+        "IPS",
+        "잉크젯 프린팅 OLED",
+        "8.6세대 OLED",
+        "게이밍 모니터"
+      ],
+      "companies": [
+        "CSOT",
+        "LG전자",
+        "LG디스플레이",
+        "BOE",
+        "MSI",
+        "삼성디스플레이",
+        "SK머티리얼즈JNC"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "CSOT",
+        "LG전자"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 관심 기업(LG전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T07:42:17Z",
+      "updated_at": "2026-11-16T07:42:17Z",
+      "articles": [
+        {
+          "key": "b511494657b8ccd0",
+          "title": "CSOT, LG전자에 1000Hz·FHD 모니터 납품...LG, 잉크젯 OLED도 검토",
+          "url": "https://zdnet.co.kr/view/?no=20261116161009",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-16T07:42:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261116-1140",
+      "headline": "호남 반도체 산단 조성, 투자 일정 구체화 필요",
+      "summary": [
+        "호남 반도체 산업단지 조성을 위해 전문가들이 제언을 내놓았다.",
+        "삼성전자와 SK하이닉스의 구체적인 투자 일정 확정과 지역 청년 채용 방안이 거론됐다.",
+        "지역 반도체 클러스터 가시화에는 기업 투자 계획의 구체화가 선결 과제라는 의미가 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "호남 반도체 산단",
+        "산업단지",
+        "투자 일정",
+        "지역 청년 채용"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T07:24:17Z",
+      "updated_at": "2026-11-16T07:24:17Z",
+      "articles": [
+        {
+          "key": "a91a1caa4d23e85c",
+          "title": "\"호남 반도체 산단, 투자 일정 구체화해야\"…전문가 제언",
+          "url": "https://www.yna.co.kr/view/AKR20261116137100054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-16T07:24:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261116-1139",
+      "headline": "젠슨 황 발언 여파에 SK하이닉스 급락, SK그룹 시총 1천조 턱걸이",
+      "summary": [
+        "SK하이닉스 주가가 젠슨 황 관련 사태 영향으로 16일 급락했다.",
+        "이 여파로 SK그룹 전체 시가총액이 종가 기준 1천조원 턱걸이 수준까지 내려앉았다.",
+        "반도체 대표 기업의 주가 급변이 그룹 시총 전반을 흔들 만큼 시장 민감도가 커졌음을 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "SK하이닉스",
+        "주가 급락",
+        "젠슨 황",
+        "시가총액"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "SK그룹",
+        "엔비디아"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": true,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T07:23:13Z",
+      "updated_at": "2026-11-16T07:23:13Z",
+      "articles": [
+        {
+          "key": "b457e26d956839cc",
+          "title": "젠슨황 충격에 하이닉스 '털썩'…SK그룹 시총 1천조원 턱걸이",
+          "url": "https://www.yna.co.kr/view/AKR20261116138500008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-16T07:23:13Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261116-1138",
+      "headline": "DB글로벌칩, AI 디스플레이칩 조직 확대하고 독자 PMIC 확보 추진",
+      "summary": [
+        "DB글로벌칩이 AI 기반 차세대 DDI 사업을 위해 R&D 조직을 확대 개편했다.",
+        "내년 신제품 양산을 추진하며, 외부 의존하던 PMIC 기술도 자체 확보를 계획 중이다.",
+        "독자 PMIC 상용화까지 2~3년이 걸릴 것으로 예상돼 중장기 경쟁력 확보 과제로 남는다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "DDI",
+        "PMIC",
+        "미니 LED",
+        "AI 디스플레이 구동칩",
+        "네뷸라 AI"
+      ],
+      "companies": [
+        "DB글로벌칩"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "DB글로벌칩"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T07:16:12Z",
+      "updated_at": "2026-11-16T07:16:12Z",
+      "articles": [
+        {
+          "key": "a749f16a08f58ae2",
+          "title": "DB글로벌칩, '네뷸라 AI' 조직 개편...3년 내 독자 PMIC 확보",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65475",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-16T07:16:12Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261116-1137",
+      "headline": "젠슨 황 리스크에 반도체 급락, 코스피 3% 이상 하락",
+      "summary": [
+        "엔비디아 젠슨 황 CEO의 경영 불확실성과 실적 발표 경계감으로 AI 투자심리가 위축됐다.",
+        "외국인 대량 매도로 코스피가 3.59% 내려 5100선 턱걸이에 그쳤고 삼성전자와 SK하이닉스가 크게 밀렸다.",
+        "AI 반도체 수요에 대한 시장 신뢰가 흔들리며 국내 메모리 기업 주가 변동성이 커진 상황이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "AI 투자심리",
+        "외국인 매도",
+        "코스피",
+        "엔비디아 실적"
+      ],
+      "companies": [
+        "엔비디아",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": true,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T07:04:36Z",
+      "updated_at": "2026-11-16T07:04:36Z",
+      "articles": [
+        {
+          "key": "e397e9bb812ed449",
+          "title": "‘젠슨 황 파장’에 삼전닉스 급락…코스피 3.59% 내려 5100 턱걸이",
+          "url": "https://www.dt.co.kr/article/12095456",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-16T07:04:36Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261116-1135",
+      "headline": "코웨이엔텍, 반도체 수처리 성장에 역대 최대 매출 달성",
+      "summary": [
+        "코웨이엔텍이 3분기 누적 매출 1084억원으로 역대 최대 실적을 기록했다.",
+        "전년 동기 대비 88.4% 증가했으며, 법인 설립 후 처음 매출 1000억원을 돌파했다.",
+        "반도체 수처리 사업 성장이 실적을 견인해 반도체 공정 수처리 수요의 강세를 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "반도체 수처리",
+        "역대 최대 매출",
+        "누적 실적",
+        "흑자 전환"
+      ],
+      "companies": [
+        "코웨이엔텍",
+        "코웨이"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "코웨이엔텍"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T07:00:00Z",
+      "updated_at": "2026-11-16T07:00:00Z",
+      "articles": [
+        {
+          "key": "7f67fc573c43e985",
+          "title": "코웨이엔텍, 반도체 수처리 사업 성장에 3분기 만에 역대 최대 매출",
+          "url": "https://www.etnews.com/20261116000272",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-16T07:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261116-1136",
+      "headline": "메모리 가격 급등에 HP 프린터 최대 15% 인상",
+      "summary": [
+        "HP 일본법인이 내년 2월 4일부터 잉크젯 프린터 19개 모델 가격을 15~15.9% 인상한다고 밝혔다.",
+        "HP는 메모리·스토리지 등 부품 가격 상승과 글로벌 공급 환경 변화를 인상 이유로 들었다.",
+        "메모리 가격 급등이 완제품 가격으로 번지며 소비자 부담과 수요 위축 우려가 커지고 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "메모리 가격 급등",
+        "원가 상승",
+        "잉크젯 프린터",
+        "가격 인상"
+      ],
+      "companies": [
+        "HP"
+      ],
+      "event_type": "가격 동향",
+      "confirmed": true,
+      "parties": [
+        "HP"
+      ],
+      "importance": 3,
+      "importance_reason": "가격 동향 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T07:00:00Z",
+      "updated_at": "2026-11-16T07:00:00Z",
+      "articles": [
+        {
+          "key": "0e44496aa9711ebc",
+          "title": "메모리 대란, 프린터까지 덮쳤다…원가 급등에 제품 가격 15% 인상",
+          "url": "https://www.etnews.com/20261116000211",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-16T07:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261116-1116",
+      "headline": "사람과 로봇이 함께 보는 반사형 디스플레이 기술 개발",
+      "summary": [
+        "KAIST·연세대·MIT 등 공동 연구진이 사람과 로봇이 함께 인식하는 반사형 플렉시블 디스플레이를 개발했다.",
+        "어둡거나 안개 낀 환경에서도 식별할 수 있으며, 사람은 색을 보고 로봇은 근적외선 패턴으로 정보를 확인한다.",
+        "제품이나 장비에 붙이는 전자 이름표로 활용될 수 있어 로봇 협업 현장의 디스플레이 응용을 넓힐 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "반사형 디스플레이",
+        "플렉시블 디스플레이",
+        "근적외선 패턴",
+        "휴먼-로봇 인터페이스"
+      ],
+      "companies": [
+        "KAIST",
+        "연세대학교",
+        "MIT"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "KAIST",
+        "연세대",
+        "MIT"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 매체 3곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T02:32:16Z",
+      "updated_at": "2026-11-16T06:43:58Z",
+      "articles": [
+        {
+          "key": "1879a6a69ab7f90d",
+          "title": "KAIST·연대·MIT 등 뭉쳐 반사형 플렉시블 디스플레이 개발",
+          "url": "https://zdnet.co.kr/view/?no=20261116113216",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-16T02:32:16Z"
+        },
+        {
+          "key": "1af675196fab76f7",
+          "title": "사람은 색, 로봇은 근적외선 패턴으로 정보 확인 外 [과학게시판]",
+          "url": "https://www.inews24.com/view/2026654",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-16T06:05:00Z"
+        },
+        {
+          "key": "3f20905b47504e2f",
+          "title": "사람과 로봇이 함께 보는 ‘디스플레이’…어둡고 안개 환경서도 식별",
+          "url": "https://www.dt.co.kr/article/12095442",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-16T06:43:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261116-1133",
       "headline": "삼성전자·SK하이닉스 ELS 낙인 우려, 시장 변동성 확대 가능성",
@@ -96,56 +1133,52 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261116-1116",
-      "headline": "사람은 색, 로봇은 근적외선으로 읽는 유연 디스플레이 개발",
+      "id": "c20261116-1100",
+      "headline": "SK하이닉스 트리니티 팹, 소부장 상생으로 상용화 기간 단축",
       "summary": [
-        "KAIST 등 국제 연구팀이 색과 근적외선 패턴으로 정보를 표시하는 유연한 디스플레이를 개발했다고 전해졌다.",
-        "사람은 색으로, 로봇은 눈에 보이지 않는 근적외선 패턴으로 작업 정보를 확인하는 구조다.",
-        "제품이나 장비에 부착하는 전자 이름표로 활용될 수 있어 사람과 로봇의 협업 환경에 쓰임새가 기대된다."
+        "SK하이닉스가 트리니티 팹을 중심으로 소부장 협력사와의 상생협력을 강화하고 있다고 보도됐다.",
+        "기사 본문이 제공되지 않아 구체적인 수치나 일정은 확인되지 않았다.",
+        "협력사의 공급 경로와 제품 상용화 기간을 줄이는 방향이라 소부장 생태계에 긍정적으로 평가된다."
       ],
-      "category": "디스플레이",
+      "category": "장비/소재/부품",
       "tags": [
-        "플렉시블 디스플레이",
-        "근적외선",
-        "반사형 디스플레이",
-        "휴먼로봇협업"
+        "트리니티 팹",
+        "상생협력",
+        "소부장",
+        "상용화 기간 단축"
       ],
       "companies": [
-        "KAIST",
-        "연세대학교",
-        "MIT"
+        "SK하이닉스"
       ],
       "event_type": "업계 일반",
-      "confirmed": true,
+      "confirmed": false,
       "parties": [
-        "KAIST",
-        "연세대학교",
-        "MIT"
+        "SK하이닉스"
       ],
       "importance": 2,
-      "importance_reason": "업계 일반 2점",
+      "importance_reason": "업계 일반 2점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-16T02:32:16Z",
-      "updated_at": "2026-11-16T06:05:00Z",
+      "region": "both",
+      "first_seen": "2026-11-16T00:00:02Z",
+      "updated_at": "2026-11-16T06:20:00Z",
       "articles": [
         {
-          "key": "1879a6a69ab7f90d",
-          "title": "KAIST·연대·MIT 등 뭉쳐 반사형 플렉시블 디스플레이 개발",
-          "url": "https://zdnet.co.kr/view/?no=20261116113216",
+          "key": "605d281e82e199c9",
+          "title": "\"제품 상용화 1년도 줄이죠\"…SK하이닉스 상생협력에 소부장 '함박웃음'",
+          "url": "https://zdnet.co.kr/view/?no=20261113145501",
           "source": "ZDNet Korea",
           "lang": "ko",
-          "published_at": "2026-11-16T02:32:16Z"
+          "published_at": "2026-11-16T00:00:02Z"
         },
         {
-          "key": "1af675196fab76f7",
-          "title": "사람은 색, 로봇은 근적외선 패턴으로 정보 확인 外 [과학게시판]",
-          "url": "https://www.inews24.com/view/2026654",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-16T06:05:00Z"
+          "key": "6deb5ecc3422b0c1",
+          "title": "SK Hynix's Trinity Fab aims to shorten suppliers' path to chip production",
+          "url": "https://www.digitimes.com/news/a20261116VL216/sk-hynix-production-trinity-equipment-cleanroom.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-16T06:20:00Z"
         }
       ],
       "type_checked": true,
@@ -272,6 +1305,51 @@
           "source": "연합뉴스",
           "lang": "ko",
           "published_at": "2026-11-16T05:08:16Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261116-1134",
+      "headline": "디케이락, 175억 단기차입으로 항공·반도체 사업 확대",
+      "summary": [
+        "디케이락이 금융기관으로부터 단기차입금 175억원을 차입한다고 11일 공시했다.",
+        "단기차입금은 454억원에서 629억원으로 늘었고 자기자본의 12.8%에 해당한다.",
+        "항공·반도체 피팅 생산 인프라 구축과 부품 국산화에 쓰일 것으로 보여 관련 사업 확장 의미가 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "단기차입",
+        "항공 부품",
+        "반도체 피팅",
+        "부품 국산화",
+        "산업용 밸브"
+      ],
+      "companies": [
+        "디케이락"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "디케이락"
+      ],
+      "importance": 2,
+      "importance_reason": "재무·주주 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T05:00:00Z",
+      "updated_at": "2026-11-16T05:00:00Z",
+      "articles": [
+        {
+          "key": "cf4e575f266287be",
+          "title": "디케이락, 175억 차입 결정…항공 신사업 확대",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65374",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-16T05:00:00Z"
         }
       ],
       "type_checked": true,
@@ -1082,50 +2160,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261116-1112",
-      "headline": "디스플레이협회, 초광역특구법 발의 환영",
-      "summary": [
-        "한국디스플레이산업협회가 지역 전략산업 육성과 첨단산업 경쟁력 강화를 위한 초광역특구법 발의를 환영했다.",
-        "기사 본문이 잘려 있어 법안의 세부 내용과 발의 주체, 일정 등 구체적 수치는 확인되지 않는다.",
-        "디스플레이 업계는 지역 기반 산업 육성이 첨단산업 경쟁력 강화로 이어지기를 기대하는 입장이다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "초광역특구법",
-        "지방주도성장",
-        "지역 전략산업",
-        "첨단산업 경쟁력"
-      ],
-      "companies": [
-        "한국디스플레이산업협회"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "한국디스플레이산업협회"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-16T02:19:45Z",
-      "updated_at": "2026-11-16T02:19:45Z",
-      "articles": [
-        {
-          "key": "8b19f09fb37c09f5",
-          "title": "디스플레이협회 \"초광역특구법 발의 환영…경쟁력 강화 기대\"",
-          "url": "https://www.yna.co.kr/view/AKR20261116072600003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-16T02:19:45Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261115-1078",
@@ -1954,55 +2988,6 @@
           "title": "[르포] 반도체 생산라인 내준 SK하이닉스…소부장 양산기간 1년 단축",
           "url": "https://www.yna.co.kr/view/AKR20261116018400003",
           "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-16T00:00:02Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
-    },
-    {
-      "id": "c20261116-1100",
-      "headline": "SK하이닉스 트리니티팹, 소부장 양산 리드타임 단축 추진",
-      "summary": [
-        "SK하이닉스가 용인 클러스터 제1기팹 1층에 소부장 검증용 개방형 테스트베드 트리니티팹을 구축 중이다.",
-        "총 8746억원을 SK하이닉스·정부·지자체가 공동 출자하며, 2027년 5월 준공 후 하반기 서비스 개시를 목표로 한다.",
-        "소부장 기업의 양산 리드타임을 30% 줄이는 것이 목표로, 국내 장비·소재 기업의 기술 경쟁력 강화에 기여할 전망이다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "트리니티팹",
-        "소부장 상생",
-        "양산 검증",
-        "테스트베드",
-        "용인 클러스터"
-      ],
-      "companies": [
-        "SK하이닉스",
-        "테스",
-        "티이엠씨"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": true,
-      "parties": [
-        "SK하이닉스",
-        "정부",
-        "지자체"
-      ],
-      "importance": 4,
-      "importance_reason": "설비 투자 3점, 관심 기업(SK하이닉스) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-16T00:00:02Z",
-      "updated_at": "2026-11-16T00:00:02Z",
-      "articles": [
-        {
-          "key": "605d281e82e199c9",
-          "title": "\"제품 상용화 1년도 줄이죠\"…SK하이닉스 상생협력에 소부장 '함박웃음'",
-          "url": "https://zdnet.co.kr/view/?no=20261113145501",
-          "source": "ZDNet Korea",
           "lang": "ko",
           "published_at": "2026-11-16T00:00:02Z"
         }
