@@ -1,7 +1,57 @@
 {
   "version": 1,
-  "updated_at": "2026-11-16T22:59:19Z",
+  "updated_at": "2026-11-16T23:54:52Z",
   "issues": [
+    {
+      "id": "c20261116-1166",
+      "headline": "HBF 읽기 지연을 줄이는 GPU용 프리페처 SlipStream 연구",
+      "summary": [
+        "조지아공대·엔비디아 리서치·스탠퍼드대 연구진이 HBF용 프리페처 SlipStream 논문을 발표했다.",
+        "HBF는 용량이 최대 16배지만 읽기 지연이 약 20μs로 HBM의 20배에 달해 추론을 최대 12.8배 늦춘다.",
+        "SlipStream은 데이터 사용 순서대로 페이지를 미리 불러오는 생산자-소비자 구조로, 대용량 메모리 기반 LLM 추론 효율화에 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "HBF",
+        "HBM",
+        "GPU",
+        "프리페처",
+        "LLM 추론",
+        "NAND 플래시"
+      ],
+      "companies": [
+        "엔비디아",
+        "조지아공대",
+        "스탠퍼드대"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "엔비디아",
+        "조지아공대",
+        "스탠퍼드대"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-16T23:52:56Z",
+      "updated_at": "2026-11-16T23:52:56Z",
+      "articles": [
+        {
+          "key": "93d0cbef7904881b",
+          "title": "Reducing High-Bandwidth Flash Latency In GPU Systems (Georgia Tech, Nvidia, Stanford)",
+          "url": "https://semiengineering.com/reducing-high-bandwidth-flash-latency-in-gpu-systems-georgia-tech-nvidia-stanford/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-16T23:52:56Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261116-1165",
       "headline": "지멘스, 디버그·트레이스 기업 라우터바흐 인수 추진",
