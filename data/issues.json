@@ -1,7 +1,140 @@
 {
   "version": 1,
-  "updated_at": "2026-11-16T09:52:12Z",
+  "updated_at": "2026-11-16T11:35:02Z",
   "issues": [
+    {
+      "id": "c20261116-1157",
+      "headline": "세메스, 산학 협력으로 장비 기술 난제 해결 나서",
+      "summary": [
+        "반도체 장비업체 세메스가 대학·연구기관과 손잡고 공정장비의 기술적 난제 해결에 나섰다.",
+        "올해부터 기업이 장비 개발 중 겪는 어려움을 공모 과제에 반영해 21개 팀을 선정했다.",
+        "차세대 장비에 필요한 핵심 기술 확보를 넓혀 장비 경쟁력 강화에 기여할 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "공정장비",
+        "산학협력",
+        "차세대 장비",
+        "기술 공모"
+      ],
+      "companies": [
+        "세메스"
+      ],
+      "event_type": "인수합병",
+      "confirmed": true,
+      "parties": [
+        "세메스"
+      ],
+      "importance": 2,
+      "importance_reason": "인수합병 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T10:37:07Z",
+      "updated_at": "2026-11-16T10:37:07Z",
+      "articles": [
+        {
+          "key": "23cde5e176bd9df5",
+          "title": "세메스, 반도체 장비 난제 해결할 산학 기술 발굴…21개팀 선정",
+          "url": "https://www.inews24.com/view/2026774",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-16T10:37:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261116-1156",
+      "headline": "삼성전기 반도체기판 영업이익 322% 급증, 수익성 개선",
+      "summary": [
+        "삼성전기의 올해 3분기 누적 반도체 패키지기판 영업이익이 전년 동기 대비 322% 증가했다.",
+        "반도체 패키지기판 평균판매가격 상승으로 매출과 수익성이 함께 개선된 것으로 나타났다.",
+        "기판 사업의 수익성 회복이 가속되고 있어 업계 실적 흐름에 긍정적 신호로 해석된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "반도체 패키지기판",
+        "영업이익",
+        "평균판매가격",
+        "수익성 개선"
+      ],
+      "companies": [
+        "삼성전기"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전기"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T10:36:22Z",
+      "updated_at": "2026-11-16T10:36:22Z",
+      "articles": [
+        {
+          "key": "eb30b1223015e1ed",
+          "title": "삼성전기, 반도체기판 영업이익 322% 급증⋯수익성 개선 가속",
+          "url": "https://www.inews24.com/view/2026844",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-16T10:36:22Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261116-1155",
+      "headline": "젠슨 황 엔비디아 전 CEO 퇴진에 대만 업계 응원",
+      "summary": [
+        "대만 기술업계가 젠슨 황 엔비디아 전 CEO의 갑작스러운 퇴진에 응원 메시지를 보내기로 했다.",
+        "대만 공상시보에 따르면 타이베이101 외벽에 황 전 CEO를 지지하는 메시지를 띄울 예정이다.",
+        "기사 본문이 중간에 끊겨 퇴진 배경과 엔비디아의 후속 경영 체제는 확인되지 않는다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "CEO 퇴진",
+        "엔비디아",
+        "대만 응원",
+        "타이베이101"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T10:02:21Z",
+      "updated_at": "2026-11-16T10:02:21Z",
+      "articles": [
+        {
+          "key": "5f8bad881b64be1d",
+          "title": "\"대만은 젠슨 황을 사랑합니다\"…타이베이101에 응원 메시지",
+          "url": "https://www.inews24.com/view/2026842",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-16T10:02:21Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261116-1154",
       "headline": "LG디스플레이 3분기 누적 매출 17조, OLED 비중 확대",
@@ -3341,6 +3474,14 @@
           "key": "2e1a4d88aff09fbd",
           "title": "Report: Huang-linked firms join DeepSeek round, supply banned Nvidia chips",
           "url": "https://www.digitimes.com/news/a20261113PD242/nvidia-chips-deepseek-funding-hardware.html?chid=10",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-15T23:17:48Z"
+        },
+        {
+          "key": "ac8575a657054eee",
+          "title": "Alice Huang-linked firms join DeepSeek round, supply banned Nvidia chips",
+          "url": "https://www.digitimes.com/news/a20261113PD242/nvidia-chips-deepseek-funding-hardware.html",
           "source": "DigiTimes Asia",
           "lang": "en",
           "published_at": "2026-11-15T23:17:48Z"
