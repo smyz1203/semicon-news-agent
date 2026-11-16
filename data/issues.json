@@ -1,7 +1,131 @@
 {
   "version": 1,
-  "updated_at": "2026-11-16T11:35:02Z",
+  "updated_at": "2026-11-16T15:21:28Z",
   "issues": [
+    {
+      "id": "c20261113-0999",
+      "headline": "젠슨 황 엔비디아 CEO 사임, 33년 만의 퇴진",
+      "summary": [
+        "엔비디아 젠슨 황 CEO가 11월 12일 사임하며 33년간 이끌어 온 회사를 떠나게 됐다.",
+        "사임은 황 CEO의 개인 관계를 둘러싼 일련의 보도 이후 이뤄진 것으로 전해졌다.",
+        "엔비디아의 리더십 공백과 후계 구도가 업계의 주요 관심사로 떠올랐다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "젠슨 황",
+        "CEO 사임",
+        "후계 구도",
+        "엔비디아 리더십",
+        "AI 반도체"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 매체 4곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-13T02:56:02Z",
+      "updated_at": "2026-11-16T13:59:50Z",
+      "articles": [
+        {
+          "key": "838f0004bb0eebda",
+          "title": "[영상] 내쫓긴 젠슨황 엔비디아 CEO…33년 만에 불명예 퇴진",
+          "url": "https://www.yna.co.kr/view/AKR20261113086000704",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-13T02:56:02Z"
+        },
+        {
+          "key": "b0c86f2231080b21",
+          "title": "젠슨 황, 불명예 퇴진에 실리콘밸리 술렁…일각선 '황어게인'",
+          "url": "https://www.inews24.com/view/2026167",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-13T22:00:00Z"
+        },
+        {
+          "key": "0e16eb814da96371",
+          "title": "세계 최고 AI 기업 엔비디아에 '2인자'가 없었다... 왜",
+          "url": "https://zdnet.co.kr/view/?no=20261114020337",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-14T00:00:34Z"
+        },
+        {
+          "key": "f499b0a5c2f2e2fc",
+          "title": "[안광섭 AI 진테제] 젠슨 황 사태로 엔비디아가 잃은 것",
+          "url": "https://zdnet.co.kr/view/?no=20261114102419",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-14T01:24:19Z"
+        },
+        {
+          "key": "18580437861e0f1d",
+          "title": "Technology as a Trojan Horse",
+          "url": "https://www.eetimes.com/technology-as-a-trojan-horse/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-16T13:59:50Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261116-1158",
+      "headline": "삼성·SK하이닉스 3분기 누적 시설투자 88조원, 역대 최대",
+      "summary": [
+        "삼성전자와 SK하이닉스의 올 3분기 누적 시설투자가 88조 1000억원을 넘어 역대 최대치를 기록했다.",
+        "삼성전자는 56조 9440억원, SK하이닉스는 31조 2160억원을 투자했고 전년 동기 대비 75% 이상 늘었다.",
+        "AI 메모리 수요에 대응한 공격적 설비투자 기조가 이어지며 4분기에도 투자 규모 확대가 예상된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "시설투자",
+        "AI 메모리",
+        "HBM",
+        "최첨단 공정",
+        "설비투자"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "설비 투자 3점, 관심 기업(SK하이닉스, 삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T12:30:28Z",
+      "updated_at": "2026-11-16T12:30:28Z",
+      "articles": [
+        {
+          "key": "a3ddbf07b492776e",
+          "title": "삼성·SK하이닉스, 역대 최대 시설투자…3분기 누적 88조원",
+          "url": "https://zdnet.co.kr/view/?no=20261116175638",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-16T12:30:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
     {
       "id": "c20261116-1157",
       "headline": "세메스, 산학 협력으로 장비 기술 난제 해결 나서",
@@ -5173,75 +5297,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261113-0999",
-      "headline": "젠슨 황 엔비디아 CEO 퇴진, 2인자 부재가 드러내",
-      "summary": [
-        "엔비디아가 젠슨 황의 사장·CEO·이사직 즉시 사임을 발표하고 CFO 콜레트 크레스를 임시 CEO로 세웠다.",
-        "황에게 직접 보고하는 임원이 36~60명에 달해 의사결정이 한 사람에게 몰린 구조였다는 점이 지적됐다.",
-        "후계 구도가 불확실해져 AI 반도체 1위 기업의 경영 공백과 지배구조 재설계 필요성이 커졌다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "CEO 교체",
-        "지배구조",
-        "리더십 공백",
-        "임시 CEO",
-        "AI 반도체"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 4,
-      "importance_reason": "경영진 교체 3점, 매체 3곳 보도 +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-13T02:56:02Z",
-      "updated_at": "2026-11-14T01:24:19Z",
-      "articles": [
-        {
-          "key": "838f0004bb0eebda",
-          "title": "[영상] 내쫓긴 젠슨황 엔비디아 CEO…33년 만에 불명예 퇴진",
-          "url": "https://www.yna.co.kr/view/AKR20261113086000704",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-13T02:56:02Z"
-        },
-        {
-          "key": "b0c86f2231080b21",
-          "title": "젠슨 황, 불명예 퇴진에 실리콘밸리 술렁…일각선 '황어게인'",
-          "url": "https://www.inews24.com/view/2026167",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-13T22:00:00Z"
-        },
-        {
-          "key": "0e16eb814da96371",
-          "title": "세계 최고 AI 기업 엔비디아에 '2인자'가 없었다... 왜",
-          "url": "https://zdnet.co.kr/view/?no=20261114020337",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-14T00:00:34Z"
-        },
-        {
-          "key": "f499b0a5c2f2e2fc",
-          "title": "[안광섭 AI 진테제] 젠슨 황 사태로 엔비디아가 잃은 것",
-          "url": "https://zdnet.co.kr/view/?no=20261114102419",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-14T01:24:19Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
     },
     {
       "id": "c20261113-1022",
