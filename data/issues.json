@@ -1,7 +1,160 @@
 {
   "version": 1,
-  "updated_at": "2026-11-16T22:00:07Z",
+  "updated_at": "2026-11-16T22:59:19Z",
   "issues": [
+    {
+      "id": "c20261116-1165",
+      "headline": "지멘스, 디버그·트레이스 기업 라우터바흐 인수 추진",
+      "summary": [
+        "지멘스가 임베디드 소프트웨어용 디버그·트레이스 솔루션 기업 라우터바흐 인수 계약을 체결했다.",
+        "라우터바흐의 하드웨어 기반 디버거와 실시간 트레이스 도구를 결합해 칩과 소프트웨어를 함께 검증한다.",
+        "칩 설계 초기 단계에서 소프트웨어 검증이 가능해져 EDA 경쟁력을 강화할 것으로 보인다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "EDA",
+        "하드웨어 검증",
+        "디버그·트레이스",
+        "SoC",
+        "M&A"
+      ],
+      "companies": [
+        "지멘스",
+        "라우터바흐"
+      ],
+      "event_type": "인수합병",
+      "confirmed": true,
+      "parties": [
+        "지멘스",
+        "라우터바흐"
+      ],
+      "importance": 2,
+      "importance_reason": "인수합병 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-16T22:27:45Z",
+      "updated_at": "2026-11-16T22:27:45Z",
+      "articles": [
+        {
+          "key": "c95094fd32fc8953",
+          "title": "Siemens to Acquire Lauterbach to Expand Semiconductor Design and Verification",
+          "url": "https://www.semiconductor-digest.com/siemens-to-acquire-lauterbach-to-expand-semiconductor-design-and-verification/?utm_source=rss&utm_medium=rss&utm_campaign=siemens-to-acquire-lauterbach-to-expand-semiconductor-design-and-verification",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-16T22:27:45Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261116-1164",
+      "headline": "EV그룹, 오스트리아 국가혁신상 3회 수상",
+      "summary": [
+        "EV그룹이 2026년 국가혁신상을 받아 오스트리아 최고 혁신 기업으로 선정되었다.",
+        "수상작은 적외선 레이저로 초박막 실리콘 층을 나노 단위로 분리·전사하는 IR LayerRelease 기술이다.",
+        "이 기술은 3D 집적과 칩 적층을 돕아 AI·고성능 컴퓨팅용 반도체 생산에 기여할 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "IR LayerRelease",
+        "3D 집적",
+        "칩 적층",
+        "국가혁신상"
+      ],
+      "companies": [
+        "EV그룹"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "EV그룹"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-16T22:19:31Z",
+      "updated_at": "2026-11-16T22:19:31Z",
+      "articles": [
+        {
+          "key": "20dfc4fedba35d74",
+          "title": "EV Group Wins Austrian National Innovation Award for Third Time",
+          "url": "https://www.semiconductor-digest.com/ev-group-wins-austrian-national-innovation-award-for-third-time/?utm_source=rss&utm_medium=rss&utm_campaign=ev-group-wins-austrian-national-innovation-award-for-third-time",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-16T22:19:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261115-1082",
+      "headline": "젠슨 황 엔비디아 CEO 복귀설, 반도체업계 촉각",
+      "summary": [
+        "젠슨 황 엔비디아 창업자가 CEO에서 물러난 지 나흘 만에 복귀 가능성을 논의한다는 보도가 나왔다.",
+        "보도에 따르면 그는 측근들과 복귀를 논의하고 있으며 실리콘밸리 거물들도 지원에 나선 것으로 전해졌다.",
+        "국내 반도체업계는 삼성전자·SK하이닉스와의 HBM 협력에 미칠 영향을 주시하고 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "젠슨 황",
+        "엔비디아 CEO",
+        "HBM",
+        "CEO 복귀설"
+      ],
+      "companies": [
+        "엔비디아",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점, 매체 3곳 보도 +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-15T22:17:50Z",
+      "updated_at": "2026-11-16T22:00:00Z",
+      "articles": [
+        {
+          "key": "3b7aec83e64c971a",
+          "title": "젠슨 황 CEO 복귀 추진설…“실리콘밸리 거물들 지원 나섰다”",
+          "url": "https://www.dt.co.kr/article/12095309",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-15T22:17:50Z"
+        },
+        {
+          "key": "fb6f2046b1775bfc",
+          "title": "젠슨 황, 엔비디아 CEO 복귀할까…\"측근들과 논의\"",
+          "url": "https://zdnet.co.kr/view/?no=20261116100351",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-16T01:26:30Z"
+        },
+        {
+          "key": "c5bc27278eeed867",
+          "title": "젠슨 황 복귀설에 K반도체 촉각…HBM 협력은 \"예정대로\"",
+          "url": "https://www.inews24.com/view/2026741",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-16T22:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261116-1163",
       "headline": "트럼프, 젠슨 황 엔비디아 CEO 복귀론에 긍정 반응",
@@ -3006,58 +3159,6 @@
           "source": "DigiTimes Asia",
           "lang": "en",
           "published_at": "2026-11-16T01:31:30Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261115-1082",
-      "headline": "젠슨 황 엔비디아 CEO 복귀 추진설 확산",
-      "summary": [
-        "젠슨 황 전 CEO가 물러난 지 나흘 만에 복귀를 추진한다는 FT 보도가 나왔다.",
-        "측근들은 실리콘밸리 임원 중심의 대책팀을 꾸리고 백악관 지지 확보를 추진하는 것으로 알려졌다.",
-        "복귀 논쟁이 공식 결정이 아닌 상태에서 엔비디아 지배구조와 투자자 행보에 영향을 줄 수 있다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "CEO 교체",
-        "엔비디아 지배구조",
-        "앨리스 황 스캔들",
-        "주주 소송"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": false,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 2,
-      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-15T22:17:50Z",
-      "updated_at": "2026-11-16T01:26:30Z",
-      "articles": [
-        {
-          "key": "3b7aec83e64c971a",
-          "title": "젠슨 황 CEO 복귀 추진설…“실리콘밸리 거물들 지원 나섰다”",
-          "url": "https://www.dt.co.kr/article/12095309",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-15T22:17:50Z"
-        },
-        {
-          "key": "fb6f2046b1775bfc",
-          "title": "젠슨 황, 엔비디아 CEO 복귀할까…\"측근들과 논의\"",
-          "url": "https://zdnet.co.kr/view/?no=20261116100351",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-16T01:26:30Z"
         }
       ],
       "type_checked": true,
