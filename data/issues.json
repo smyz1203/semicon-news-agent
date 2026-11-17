@@ -1,7 +1,91 @@
 {
   "version": 1,
-  "updated_at": "2026-11-17T05:12:32Z",
+  "updated_at": "2026-11-17T06:14:59Z",
   "issues": [
+    {
+      "id": "c20261117-1201",
+      "headline": "SK하이닉스, 용인 Y1 클린룸 가동 앞당겨",
+      "summary": [
+        "SK하이닉스가 용인 Y1 클린룸의 가동 시점을 앞당기고 있다는 보도가 나왔다.",
+        "기사 본문은 사진 크레딧만 있어 구체적 일정과 투자 규모는 확인되지 않는다.",
+        "AI 메모리 수요 급증에 대응한 생산능력 확대라는 점에서 업계의 관심이 크다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "용인 Y1",
+        "클린룸",
+        "AI 메모리",
+        "생산능력 확대"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T05:53:11Z",
+      "updated_at": "2026-11-17T05:53:11Z",
+      "articles": [
+        {
+          "key": "64dc9d99125b83ad",
+          "title": "SK Hynix accelerates Yongin Y1 cleanroom opening as AI memory demand surges",
+          "url": "https://www.digitimes.com/news/a20261117PD231/sk-hynix-cleanroom-memory-equipment-demand.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T05:53:11Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1200",
+      "headline": "경기도, 8개 시와 반도체클러스터 지정 추진",
+      "summary": [
+        "경기도는 수원·용인·화성 등 8개 시와 함께 반도체클러스터 지정을 추진하고 있다.",
+        "기사 본문이 짧게 잘려 있어 구체적인 일정이나 지정 기준, 예산 규모는 확인되지 않는다.",
+        "지역 반도체 산업 생태계를 국가 차원에서 묶는 움직임으로, 용인·평택 등 클러스터 확대 흐름과 맞물린다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체클러스터",
+        "지역 인프라",
+        "경기도",
+        "용인반도체단지"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T05:30:46Z",
+      "updated_at": "2026-11-17T05:30:46Z",
+      "articles": [
+        {
+          "key": "c0562b9a0dfc02cd",
+          "title": "경기도, 용인 등 8개 시와 '반도체클러스터 지정' 추진",
+          "url": "https://www.yna.co.kr/view/AKR20261117109600061",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T05:30:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261117-1199",
       "headline": "반도체 웨이퍼 국경 간 이동 확대, 해외 생산 확장 영향",
