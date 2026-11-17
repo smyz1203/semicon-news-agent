@@ -1,7 +1,97 @@
 {
   "version": 1,
-  "updated_at": "2026-11-17T17:18:05Z",
+  "updated_at": "2026-11-17T19:16:41Z",
   "issues": [
+    {
+      "id": "c20261117-1228",
+      "headline": "칩렛 결함 인식 매칭으로 이종집적 수율 높이는 연구",
+      "summary": [
+        "ASU와 Ampere 연구진이 결함·연결 구조를 고려한 칩렛 매칭 기법 DT-MATCH를 발표했다.",
+        "ILP 기반 방식은 해법 품질이 높고, GRASP 기반 방식은 연산 시간을 크게 줄이면서도 근접한 품질을 보인다고 밝혔다.",
+        "이 연구는 결함 칩렛을 활용해 기능하는 SoC 수를 늘리는 방향을 제시해 이종집적 패키징의 수율 개선에 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "칩렛",
+        "이종집적",
+        "수율 최적화",
+        "패키징",
+        "ILP",
+        "GRASP"
+      ],
+      "companies": [
+        "Ampere",
+        "ASU"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T17:44:39Z",
+      "updated_at": "2026-11-17T17:44:39Z",
+      "articles": [
+        {
+          "key": "99013b3a167450a4",
+          "title": "Defect-Aware Chiplet Matching For Heterogeneous Integration Yield (ASU, Ampere)",
+          "url": "https://semiengineering.com/defect-aware-chiplet-matching-for-heterogeneous-integration-yield-asu-ampere/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-17T17:44:39Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1227",
+      "headline": "KAIST, 후면전원공급 구조용 후면 클록 메시 기술 발표",
+      "summary": [
+        "KAIST 연구진이 후면 금속층에 클록 메시를 배치하는 클록 분배 네트워크 기법을 논문으로 공개했다.",
+        "후면 전원공급망(BSPDN)과 금속층을 공유하며, 전위장 기법으로 메시 수신기 배치 문제를 해결했다고 밝혔다.",
+        "논문은 ASPDAC 2027 학회 발표로 예정돼 있어, 후면전원 설계에서 스큐와 전력 감소 연구에 참고가 될 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "BSPDN",
+        "후면 전원공급",
+        "클록 메시",
+        "클록 분배 네트워크",
+        "스큐 감소"
+      ],
+      "companies": [
+        "KAIST"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "KAIST"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T17:35:37Z",
+      "updated_at": "2026-11-17T17:35:37Z",
+      "articles": [
+        {
+          "key": "377aa0015d9803d1",
+          "title": "Backside Clock Mesh Reduces Skew And Power In Backside Power Delivery (KAIST)",
+          "url": "https://semiengineering.com/backside-clock-mesh-reduces-skew-and-power-in-backside-power-delivery-kaist/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-17T17:35:37Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261117-1222",
       "headline": "SFC, 수요예측 부진으로 코스피 상장 철회",
