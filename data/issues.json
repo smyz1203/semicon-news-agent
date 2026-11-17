@@ -1,7 +1,363 @@
 {
   "version": 1,
-  "updated_at": "2026-11-17T06:14:59Z",
+  "updated_at": "2026-11-17T07:41:18Z",
   "issues": [
+    {
+      "id": "c20261117-1206",
+      "headline": "엔비디아 매디슨 황의 내부 영향력 논란",
+      "summary": [
+        "젠슨 황의 딸 매디슨 황이 아버지의 영향력을 등에 업고 엔비디아 내부에서 강한 권한을 행사했다는 보도가 나왔다.",
+        "공식 직함은 피지컬AI 부문 제품 마케팅 수석이사이나, 기사 본문 일부만 확인돼 구체적 사례와 범위는 추가 확인이 필요하다.",
+        "엔비디아 지배구조와 조직 운영에 대한 시선이 쏠리며 투자자와 업계의 관심이 높아질 전망이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "엔비디아",
+        "젠슨 황",
+        "피지컬AI",
+        "지배구조",
+        "내부 권력"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T07:39:41Z",
+      "updated_at": "2026-11-17T07:39:41Z",
+      "articles": [
+        {
+          "key": "a4477eede289fe62",
+          "title": "“임원진 집합시키고, 고함 치기도”…젠슨 황 딸의 ‘숨은 권력’",
+          "url": "https://www.dt.co.kr/article/12095697",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-17T07:39:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1205",
+      "headline": "삼성, HBM5용 D0A 웨이퍼 본딩 D램 구조 확정",
+      "summary": [
+        "삼성전자가 셀과 주변회로를 다른 웨이퍼에서 만든 뒤 결합하는 D0A 구조를 HBM5에 적용한다.",
+        "셀에는 D1b, 코어와 주변회로에는 D1d 공정을 쓰며 LPDDR에는 D1d를 적용한다.",
+        "4F스퀘어 기반 D0AV는 2028년 고성능 제품을 목표로 개발을 이어가 차세대 D램 전략이 세 갈래로 나뉜다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM5",
+        "D0A",
+        "웨이퍼 본딩",
+        "D1d",
+        "D0AV",
+        "LPDDR"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T07:34:48Z",
+      "updated_at": "2026-11-17T07:34:48Z",
+      "articles": [
+        {
+          "key": "45ac65fa05951c4b",
+          "title": "삼성 차세대 D램 '3트랙' 개발 확정…HBM5는 D0A 웨이퍼 본딩",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65559",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-17T07:34:48Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1197",
+      "headline": "AMD, 월드랩스 인수로 피지컬 AI 공략 본격화",
+      "summary": [
+        "AMD가 AI 모델 개발사 월드랩스 인수를 완료하고 피지컬 AI 시장 공략에 나섰다.",
+        "AI 석학 페이페이 리를 부사장 겸 수석과학자로 영입해 차세대 AI 인프라 개발을 강화할 계획이다.",
+        "반도체 기업이 AI 소프트웨어 역량을 확보하며 AI 인프라 경쟁이 한층 가팔라질 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "피지컬 AI",
+        "월드랩스",
+        "AI 인프라",
+        "M&A"
+      ],
+      "companies": [
+        "AMD",
+        "월드랩스"
+      ],
+      "event_type": "인수합병",
+      "confirmed": true,
+      "parties": [
+        "AMD",
+        "월드랩스"
+      ],
+      "importance": 2,
+      "importance_reason": "인수합병 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T04:53:58Z",
+      "updated_at": "2026-11-17T07:10:55Z",
+      "articles": [
+        {
+          "key": "2c2748fdafe9313f",
+          "title": "AMD, 월드랩스 인수 완료...'AI 대모' 수석과학자로 품었다",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65504",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-17T04:53:58Z"
+        },
+        {
+          "key": "8fae80822c7da9bc",
+          "title": "AMD, '월드랩스' 인수 완료…페이페이 리 앞세워 '피지컬 AI' 공략",
+          "url": "https://www.inews24.com/view/2027240",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-17T07:10:55Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1171",
+      "headline": "젠슨황 리스크에 삼성전자·SK하이닉스 장초반 약세",
+      "summary": [
+        "미국발 악재로 삼성전자와 SK하이닉스 등 반도체주가 17일 장 초반 하락했다.",
+        "하락 폭은 1~2%대이며, 기사 본문에 추가 수치나 구체적 원인은 제시되지 않았다.",
+        "단순 주가 등락 성격으로, 엔비디아 관련 불확실성이 국내 반도체 투자심리에 영향을 준 것으로 보인다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨황 리스크",
+        "반도체 주가",
+        "미국 증시",
+        "투자심리"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "엔비디아"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": true,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T00:17:19Z",
+      "updated_at": "2026-11-17T07:06:36Z",
+      "articles": [
+        {
+          "key": "6ad854831d2bc89a",
+          "title": "[특징주] 삼전·닉스, '젠슨황 리스크' 지속에 장초반 1∼2%대↓",
+          "url": "https://www.yna.co.kr/view/AKR20261117037800008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T00:17:19Z"
+        },
+        {
+          "key": "72c8aa02506f3466",
+          "title": "반도체주 '털썩', 하이닉스 7개월만 110만원선 무너져(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261117037851008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T07:06:36Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261117-1204",
+      "headline": "인텔 D270, AI 추론 GPU를 HPC 시장으로 확대",
+      "summary": [
+        "인텔이 AI 추론용 GPU D270을 고성능 컴퓨팅(HPC) 시장으로 확대하겠다고 밝혔다.",
+        "네이티브 FP64 연산과 대용량 메모리를 내세워 과학 시뮬레이션과 금융 모델링 등 정밀 연산 영역을 겨냥한다.",
+        "AI 추론 중심이던 GPU 활용 범위가 넓어지며 인텔의 데이터센터 GPU 경쟁력에 영향을 줄 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "D270",
+        "크레센트 아일랜드",
+        "AI 추론",
+        "HPC",
+        "FP64"
+      ],
+      "companies": [
+        "인텔"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "인텔"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T07:00:00Z",
+      "updated_at": "2026-11-17T07:00:00Z",
+      "articles": [
+        {
+          "key": "0370681578a5c7fd",
+          "title": "AI 추론용 GPU의 반전…인텔 D270, HPC까지 넘본다",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409876",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T07:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261116-1100",
+      "headline": "SK하이닉스 트리니티 팹, 소부장 상생으로 상용화 기간 단축",
+      "summary": [
+        "SK하이닉스가 트리니티 팹을 중심으로 소부장 협력사와의 상생협력을 강화하고 있다고 보도됐다.",
+        "기사 본문이 제공되지 않아 구체적인 수치나 일정은 확인되지 않았다.",
+        "협력사의 공급 경로와 제품 상용화 기간을 줄이는 방향이라 소부장 생태계에 긍정적으로 평가된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "트리니티 팹",
+        "상생협력",
+        "소부장",
+        "상용화 기간 단축"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-16T00:00:02Z",
+      "updated_at": "2026-11-17T06:55:00Z",
+      "articles": [
+        {
+          "key": "605d281e82e199c9",
+          "title": "\"제품 상용화 1년도 줄이죠\"…SK하이닉스 상생협력에 소부장 '함박웃음'",
+          "url": "https://zdnet.co.kr/view/?no=20261113145501",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-16T00:00:02Z"
+        },
+        {
+          "key": "6deb5ecc3422b0c1",
+          "title": "SK Hynix's Trinity Fab aims to shorten suppliers' path to chip production",
+          "url": "https://www.digitimes.com/news/a20261116VL216/sk-hynix-production-trinity-equipment-cleanroom.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-16T06:20:00Z"
+        },
+        {
+          "key": "56b5e072a2240724",
+          "title": "SK Hynix links partner park, Trinity Fab to accelerate supplier commercialization",
+          "url": "https://www.digitimes.com/news/a20261117PD232/sk-hynix-trinity-supplier-equipment-technology.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T06:55:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261116-1102",
+      "headline": "젠슨 황 퇴진설에 삼성전자 HBM 수혜 전망 부각",
+      "summary": [
+        "KB증권은 젠슨 황 엔비디아 CEO의 퇴진 가능성이 거론되는 가운데 탈엔비디아 흐름의 최대 수혜주로 삼성전자를 꼽았다.",
+        "기사 본문이 제한적이라 구체적 수치나 일정은 확인되지 않으며, 보도는 증권가의 분석 의견에 가깝다.",
+        "HBM 공급처 다변화가 진행된다면 삼성전자의 HBM 사업 기회가 넓어질 수 있다는 점에서 업계 관심이 높다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM",
+        "탈엔비디아",
+        "젠슨 황",
+        "엔비디아 공급망"
+      ],
+      "companies": [
+        "삼성전자",
+        "엔비디아",
+        "KB증권"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "KB증권"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-16T00:18:03Z",
+      "updated_at": "2026-11-17T06:46:13Z",
+      "articles": [
+        {
+          "key": "39a6f1cf16a2b953",
+          "title": "KB증권 “젠슨 황 퇴진, 삼성전자엔 기회… ‘탈엔비디아’ 최대 수혜”",
+          "url": "https://www.dt.co.kr/article/12095335",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-16T00:18:03Z"
+        },
+        {
+          "key": "acc8f46e7a43b7f8",
+          "title": "HBMs beyond Nvidia: Why Samsung has the most to gain from Jensen's exit",
+          "url": "https://www.digitimes.com/news/a20261117PD239/nvidia-samsung-hbm-market-amd.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T06:46:13Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261117-1201",
       "headline": "SK하이닉스, 용인 Y1 클린룸 가동 앞당겨",
@@ -41,6 +397,100 @@
           "source": "DigiTimes Asia",
           "lang": "en",
           "published_at": "2026-11-17T05:53:11Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1203",
+      "headline": "앤트로픽 IPO, 삼성·SK하이닉스 반등 시험대",
+      "summary": [
+        "앤트로픽의 기업공개(IPO) 상장이 임박해 투자자 관심이 집중되고 있다.",
+        "상장 주식은 목요일 거래를 시작할 예정이며, 기사에는 공모가나 규모 등 구체적 수치가 없다.",
+        "흥행 여부에 따라 AI 투자 흐름과 삼성전자·SK하이닉스 주가 회복 동력이 좌우될 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "IPO",
+        "AI 데이터센터",
+        "HBM",
+        "AI 투자 심리"
+      ],
+      "companies": [
+        "앤트로픽",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "앤트로픽"
+      ],
+      "importance": 2,
+      "importance_reason": "재무·주주 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T05:47:22Z",
+      "updated_at": "2026-11-17T05:47:22Z",
+      "articles": [
+        {
+          "key": "996affbaf6a100e8",
+          "title": "Anthropic IPO tests next leg of rally in Samsung, SK hynix",
+          "url": "https://www.koreaherald.com/article/10939942",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-17T05:47:22Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1202",
+      "headline": "삼성 8인치 파운드리 축소에 국내 팹리스 비상",
+      "summary": [
+        "삼성전자 파운드리가 8인치 공정을 줄여 단계적으로 가동을 중단할 것으로 전망됐다.",
+        "내년 8인치 MPW 계획은 공유되지 않았고, 12인치 MPW는 2나노 포함 21회 진행될 예정이다.",
+        "PMIC·DDI·CIS 등 아날로그반도체 공급이 흔들려 국내 팹리스의 12인치 전환 지원이 시급하다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "8인치 공정",
+        "MPW",
+        "아날로그반도체",
+        "팹리스",
+        "12인치 전환"
+      ],
+      "companies": [
+        "삼성전자",
+        "DB하이텍",
+        "SK키파운드리",
+        "UMC"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T05:45:13Z",
+      "updated_at": "2026-11-17T05:45:13Z",
+      "articles": [
+        {
+          "key": "0deda32c27aa0bda",
+          "title": "8인치 손 떼는 삼성전자, 韓 팹리스 비상...\"12인치 전환 지원해야\"",
+          "url": "https://zdnet.co.kr/view/?no=20261117111401",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T05:45:13Z"
         }
       ],
       "type_checked": true,
@@ -176,53 +626,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261117-1197",
-      "headline": "AMD, 월드랩스 인수 완료로 AI 모델 연구 역량 확보",
-      "summary": [
-        "AMD가 AI 모델 개발 기업 월드랩스의 인수 절차를 완료했다고 16일 현지시간 발표했다.",
-        "페이페이 리 전 CEO가 AMD 수석과학자로 합류해 리사 수 CEO에게 직접 보고한다.",
-        "AMD는 AI 반도체·소프트웨어에 모델 연구 역량을 더해 차세대 개방형 AI 연산 인프라 개발에 활용할 계획이다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "AI 모델",
-        "기업 인수",
-        "수석과학자",
-        "개방형 AI 인프라",
-        "AI 반도체"
-      ],
-      "companies": [
-        "AMD",
-        "월드랩스"
-      ],
-      "event_type": "인수합병",
-      "confirmed": true,
-      "parties": [
-        "AMD",
-        "월드랩스"
-      ],
-      "importance": 2,
-      "importance_reason": "인수합병 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-17T04:53:58Z",
-      "updated_at": "2026-11-17T04:53:58Z",
-      "articles": [
-        {
-          "key": "2c2748fdafe9313f",
-          "title": "AMD, 월드랩스 인수 완료...'AI 대모' 수석과학자로 품었다",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65504",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-17T04:53:58Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261117-1170",
@@ -1682,50 +2085,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261117-1171",
-      "headline": "젠슨황 리스크에 삼성전자·SK하이닉스 장초반 약세",
-      "summary": [
-        "미국발 악재로 삼성전자와 SK하이닉스 등 반도체주가 17일 장 초반 하락했다.",
-        "하락 폭은 1~2%대이며, 기사 본문에 추가 수치나 구체적 원인은 제시되지 않았다.",
-        "단순 주가 등락 성격으로, 엔비디아 관련 불확실성이 국내 반도체 투자심리에 영향을 준 것으로 보인다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "젠슨황 리스크",
-        "반도체 주가",
-        "미국 증시",
-        "투자심리"
-      ],
-      "companies": [
-        "삼성전자",
-        "SK하이닉스",
-        "엔비디아"
-      ],
-      "event_type": "주가 등락",
-      "confirmed": true,
-      "parties": [],
-      "importance": 1,
-      "importance_reason": "주가 등락 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-17T00:17:19Z",
-      "updated_at": "2026-11-17T00:17:19Z",
-      "articles": [
-        {
-          "key": "6ad854831d2bc89a",
-          "title": "[특징주] 삼전·닉스, '젠슨황 리스크' 지속에 장초반 1∼2%대↓",
-          "url": "https://www.yna.co.kr/view/AKR20261117037800008",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-17T00:17:19Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
     },
     {
       "id": "c20261116-1166",
@@ -3569,58 +3928,6 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261116-1100",
-      "headline": "SK하이닉스 트리니티 팹, 소부장 상생으로 상용화 기간 단축",
-      "summary": [
-        "SK하이닉스가 트리니티 팹을 중심으로 소부장 협력사와의 상생협력을 강화하고 있다고 보도됐다.",
-        "기사 본문이 제공되지 않아 구체적인 수치나 일정은 확인되지 않았다.",
-        "협력사의 공급 경로와 제품 상용화 기간을 줄이는 방향이라 소부장 생태계에 긍정적으로 평가된다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "트리니티 팹",
-        "상생협력",
-        "소부장",
-        "상용화 기간 단축"
-      ],
-      "companies": [
-        "SK하이닉스"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": false,
-      "parties": [
-        "SK하이닉스"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-16T00:00:02Z",
-      "updated_at": "2026-11-16T06:20:00Z",
-      "articles": [
-        {
-          "key": "605d281e82e199c9",
-          "title": "\"제품 상용화 1년도 줄이죠\"…SK하이닉스 상생협력에 소부장 '함박웃음'",
-          "url": "https://zdnet.co.kr/view/?no=20261113145501",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-16T00:00:02Z"
-        },
-        {
-          "key": "6deb5ecc3422b0c1",
-          "title": "SK Hynix's Trinity Fab aims to shorten suppliers' path to chip production",
-          "url": "https://www.digitimes.com/news/a20261116VL216/sk-hynix-production-trinity-equipment-cleanroom.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-16T06:20:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
       "id": "c20261116-1131",
       "headline": "Ace Pillar, 웨이퍼 재생·SiPh로 반도체 사업 확대",
       "summary": [
@@ -5244,52 +5551,6 @@
       ],
       "type_checked": true,
       "importance_raw": 4
-    },
-    {
-      "id": "c20261116-1102",
-      "headline": "젠슨 황 퇴진설, 삼성전자 AI 반도체 반사이익 전망",
-      "summary": [
-        "KB증권은 16일 젠슨 황 엔비디아 CEO 퇴진에 따른 AI 반도체 판도 재편을 진단했다.",
-        "김동원 연구원은 엔비디아 이탈 흐름에서 삼성전자가 반사이익을 얻을 것으로 봤다.",
-        "기사에 제시된 구체적 수치와 일정은 확인되지 않았으며, 증권가 전망이라는 점이 중요하다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "젠슨 황",
-        "엔비디아",
-        "탈엔비디아",
-        "AI 반도체"
-      ],
-      "companies": [
-        "삼성전자",
-        "엔비디아",
-        "KB증권"
-      ],
-      "event_type": "시장 전망·통계",
-      "confirmed": true,
-      "parties": [
-        "KB증권"
-      ],
-      "importance": 2,
-      "importance_reason": "시장 전망·통계 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-16T00:18:03Z",
-      "updated_at": "2026-11-16T00:18:03Z",
-      "articles": [
-        {
-          "key": "39a6f1cf16a2b953",
-          "title": "KB증권 “젠슨 황 퇴진, 삼성전자엔 기회… ‘탈엔비디아’ 최대 수혜”",
-          "url": "https://www.dt.co.kr/article/12095335",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-16T00:18:03Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261116-1101",
