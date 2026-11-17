@@ -1,7 +1,327 @@
 {
   "version": 1,
-  "updated_at": "2026-11-17T03:00:34Z",
+  "updated_at": "2026-11-17T04:08:15Z",
   "issues": [
+    {
+      "id": "c20261117-1191",
+      "headline": "삼성, 메타용 맞춤형 HBM 개발 추진",
+      "summary": [
+        "삼성전자가 메타를 위한 맞춤형 HBM을 개발하고 있다는 보도가 나왔다.",
+        "기사에는 2나노 공정을 채택한다는 내용이 포함되어 있으나 구체적 일정과 수치는 확인되지 않았다.",
+        "고객 맞춤형 HBM 수요가 커지는 흐름에서 삼성의 AI 메모리 고객 확보 행보로 해석될 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "맞춤형 HBM",
+        "2나노",
+        "AI 메모리",
+        "메타"
+      ],
+      "companies": [
+        "삼성전자",
+        "메타"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "메타"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T03:45:00Z",
+      "updated_at": "2026-11-17T03:45:00Z",
+      "articles": [
+        {
+          "key": "7f30998cd3496f11",
+          "title": "Samsung develops custom HBM for Meta, adopts 2nm process",
+          "url": "https://www.digitimes.com/news/a20261117PD225/samsung-hbm-meta-2nm-nvidia.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T03:45:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1190",
+      "headline": "신텍·TSMC, 7년 용량 위탁 생산 계약 체결",
+      "summary": [
+        "신텍과 TSMC가 기판 위 생산라인 구축을 위한 7년 용량 아웃소싱 계약을 체결했다.",
+        "기사에는 계약 규모나 투자액에 대한 구체적 수치가 제시되지 않았다.",
+        "장기 계약으로 패키징 생산능력 확보를 둘러싼 협력이 강화될 것으로 보인다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "기판 위 생산라인",
+        "용량 아웃소싱",
+        "TSMC",
+        "패키징"
+      ],
+      "companies": [
+        "신텍",
+        "TSMC"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "신텍",
+        "TSMC"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T03:44:38Z",
+      "updated_at": "2026-11-17T03:44:38Z",
+      "articles": [
+        {
+          "key": "bba59941e06dbf74",
+          "title": "Xintec, TSMC sign 7-year capacity outsourcing agreement to build on-substrate production line",
+          "url": "https://www.digitimes.com/news/a20261116PD237/xintec-substrate-production-capacity-outsourcing-tsmc.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T03:44:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1189",
+      "headline": "TSMC, 벤처투자로 AI 생태계 양끝 공략",
+      "summary": [
+        "TSMC가 AI 생태계의 수요와 공급 양쪽에 걸친 벤처 투자 전략을 추진하는 것으로 분석됐다.",
+        "기사 본문이 제목과 필자 표기만 있어 구체적인 투자 대상과 금액, 일정은 확인되지 않는다.",
+        "다만 수요 확보와 공급 강화를 동시에 노린다는 점에서 파운드리 선두 기업의 AI 생태계 영향력 확대 흐름으로 볼 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "벤처투자",
+        "AI 생태계",
+        "파운드리",
+        "공급망 확보",
+        "수요 확보"
+      ],
+      "companies": [
+        "TSMC"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": false,
+      "parties": [
+        "TSMC"
+      ],
+      "importance": 1,
+      "importance_reason": "재무·주주 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T03:16:14Z",
+      "updated_at": "2026-11-17T03:16:14Z",
+      "articles": [
+        {
+          "key": "17bb4867788ba55a",
+          "title": "Analysis: TSMC's venture capital strategy targets both ends of AI ecosystem to secure demand and strengthen supply",
+          "url": "https://www.digitimes.com/news/a20261117PD223/tsmc-venture-capital-investment-development.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T03:16:14Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261115-1072",
+      "headline": "TCL CSOT, 청색 인광 OLED 디스플레이 공개",
+      "summary": [
+        "TCL CSOT가 청색 인광(PSF) 발광체를 적용한 OLED 스마트폰 디스플레이를 선보였다고 보도됐다.",
+        "기사 본문이 거의 없어 구체적인 수치와 양산 일정은 확인되지 않는다.",
+        "OLED의 남은 효율 한계를 극복하는 시도로, 디스플레이 업계의 기술 경쟁에 의미가 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "청색 인광",
+        "PSF 발광체",
+        "OLED",
+        "스마트폰 디스플레이"
+      ],
+      "companies": [
+        "TCL CSOT"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "TCL CSOT"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-15T04:43:57Z",
+      "updated_at": "2026-11-17T02:42:04Z",
+      "articles": [
+        {
+          "key": "5c2cc8c84058542b",
+          "title": "TCL CSOT shows world's first OLED smartphone displays with blue PSF emitters",
+          "url": "https://www.oled-info.com/tcl-csot-shows-what-it-calls-worlds-first-blue-phosphorescent-smartphone-oled",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-15T04:43:57Z"
+        },
+        {
+          "key": "987bb3d95ca4ca16",
+          "title": "TCL CSOT tackles OLED's last major efficiency hurdle with blue phosphorescent displays",
+          "url": "https://www.digitimes.com/news/a20261117VL205/tcl-csot-oled-panel-display-efficiency.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T02:42:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261117-1188",
+      "headline": "TSMC 3나노, HBM 베이스다이 경쟁에 진입",
+      "summary": [
+        "TSMC 3나노 공정이 HBM 베이스다이 영역에 들어서며 NVHBM 구조가 경쟁 구도를 바꾸고 있다는 보도다.",
+        "기사 본문은 저작권 표기만 있어 구체적 수치나 일정은 확인되지 않는다.",
+        "HBM 베이스다이 공급처가 다변화될 수 있어 메모리·파운드리 업계의 관심 사안이다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "3나노",
+        "HBM",
+        "베이스다이",
+        "NVHBM"
+      ],
+      "companies": [
+        "TSMC"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "TSMC"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T02:33:53Z",
+      "updated_at": "2026-11-17T02:33:53Z",
+      "articles": [
+        {
+          "key": "f36cf0abf2c3e279",
+          "title": "TSMC 3nm enters HBM as NVHBM reshapes base-die competition",
+          "url": "https://www.digitimes.com/news/a20261117PD221/tsmc-3nm-hbm-competition-nvidia.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T02:33:53Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261117-1187",
+      "headline": "엔비디아 베라 루빈 2027년 1분기 출하 일정 유지",
+      "summary": [
+        "ODM 업체들이 엔비디아 베라 루빈(Vera Rubin) 출시 일정이 2027년 1분기로 예정대로 진행 중이라고 밝혔다.",
+        "기사 본문에는 구체적인 수치나 세부 일정이 제시되어 있지 않아 추가 내용은 확인되지 않는다.",
+        "차세대 AI 서버 공급망 전반에서 일정 불확실성이 줄어든 신호로 해석될 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "베라 루빈",
+        "엔비디아",
+        "AI 서버",
+        "양산 일정"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T02:23:18Z",
+      "updated_at": "2026-11-17T02:23:18Z",
+      "articles": [
+        {
+          "key": "d49125075c5b4a9c",
+          "title": "Nvidia Vera Rubin rollout remains on track for 1Q27, ODMs say",
+          "url": "https://www.digitimes.com/news/a20261117PD219/quanta-inventec-ai-server-asic-nvidia-rubin-2027.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T02:23:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1186",
+      "headline": "싱가포르, 미국 신규 반도체 라이선스 규정 관련 워싱턴과 협의",
+      "summary": [
+        "싱가포르 정부가 미국의 새로운 반도체 라이선스 규정과 관련해 워싱턴과 협의에 나섰다고 보도됐다.",
+        "기사 본문이 사실상 비어 있어 규정의 구체적 내용, 적용 범위, 일정은 확인되지 않는다.",
+        "동남아 반도체 물류·거래 허브의 수출통제 대응 부담이 커질 수 있다는 점에서 참고할 만한 이슈다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출통제",
+        "라이선스 규정",
+        "싱가포르",
+        "미국 반도체 정책"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "싱가포르 정부",
+        "미국 정부"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T02:19:38Z",
+      "updated_at": "2026-11-17T02:19:38Z",
+      "articles": [
+        {
+          "key": "e1a3e6e35a928f1c",
+          "title": "Singapore engages with Washington on new US chip licence rule",
+          "url": "https://www.digitimes.com/news/a20261117VL207/data-center-nvidia-business.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T02:19:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261116-1158",
       "headline": "삼성·SK하이닉스 3분기 누적 설비투자 88조원, 현금 329조원",
@@ -220,6 +540,97 @@
       ],
       "type_checked": true,
       "importance_raw": 1
+    },
+    {
+      "id": "c20261117-1185",
+      "headline": "SK하이닉스, 청주 P&T6에 HBM4 후공정 장비 발주 준비",
+      "summary": [
+        "SK하이닉스가 청주 P&T6 공장의 HBM4 생산능력 확대를 위해 후공정 장비 발주를 준비하고 있다는 보도다.",
+        "기사 본문은 사진 크레딧만 있어 구체적인 발주 규모나 일정은 확인되지 않는다.",
+        "HBM4 후공정 증설 움직임으로, 차세대 HBM 공급 확대 흐름을 보여주는 신호로 볼 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM4",
+        "후공정",
+        "청주 P&T6",
+        "생산능력 확대",
+        "장비 발주"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T02:12:27Z",
+      "updated_at": "2026-11-17T02:12:27Z",
+      "articles": [
+        {
+          "key": "032e8d171f8e87a2",
+          "title": "SK Hynix readies back-end equipment orders to add HBM4 capacity at Cheongju P&T6",
+          "url": "https://www.digitimes.com/news/a20261117VL200/sk-hynix-equipment-hbm4-capacity-hbm.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T02:12:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1184",
+      "headline": "삼성 8인치 파운드리 철수설, DB하이텍 수혜 주목",
+      "summary": [
+        "삼성전자가 8인치 파운드리 사업에서 철수할 것이라는 보도가 나왔다.",
+        "기사에는 철수 시점이나 구체적 규모에 대한 수치가 명확히 제시되어 있지 않다.",
+        "공급처 재편으로 DB하이텍의 생산 확대와 가격 협상력에 영향을 줄 수 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "8인치 파운드리",
+        "파운드리 철수",
+        "DB하이텍",
+        "가격 협상력"
+      ],
+      "companies": [
+        "삼성전자",
+        "DB하이텍"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "DB하이텍"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T02:00:57Z",
+      "updated_at": "2026-11-17T02:00:57Z",
+      "articles": [
+        {
+          "key": "f7334fff15f9b1db",
+          "title": "Samsung's reported 8-inch foundry exit sharpens focus on DB HiTek's expansion and pricing power",
+          "url": "https://www.digitimes.com/news/a20261117VL202/samsung-db-hitek-8-inch-wafer-foundry-expansion-capacity.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T02:00:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261117-1181",
@@ -5298,51 +5709,6 @@
       ],
       "type_checked": true,
       "importance_raw": 0
-    },
-    {
-      "id": "c20261115-1072",
-      "headline": "TCL CSOT, 청색 PSF 발광 OLED 스마트폰 디스플레이 공개",
-      "summary": [
-        "TCL CSOT가 DTC 2026 행사에서 PSF 방식 청색 서브픽셀 OLED 디스플레이를 선보였다.",
-        "6.36형 스마트폰용과 2.86형 컴팩트 카메라용 디스플레이이며, 같은 밝기에서 일반 형광 청색 대비 전력 30% 절감을 주장했다.",
-        "인광 물질이 삼중항 엑시톤을 흡수해 형광 청색 발광체에 전달하는 구조로, 디스플레이 전력 효율 개선 가능성을 보여준다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "PSF",
-        "청색 OLED",
-        "인광",
-        "저전력",
-        "DTC 2026"
-      ],
-      "companies": [
-        "TCL CSOT"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "TCL CSOT"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-15T04:43:57Z",
-      "updated_at": "2026-11-15T04:43:57Z",
-      "articles": [
-        {
-          "key": "5c2cc8c84058542b",
-          "title": "TCL CSOT shows world's first OLED smartphone displays with blue PSF emitters",
-          "url": "https://www.oled-info.com/tcl-csot-shows-what-it-calls-worlds-first-blue-phosphorescent-smartphone-oled",
-          "source": "OLED-info",
-          "lang": "en",
-          "published_at": "2026-11-15T04:43:57Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261115-1073",
