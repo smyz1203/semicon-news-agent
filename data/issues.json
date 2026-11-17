@@ -1,7 +1,234 @@
 {
   "version": 1,
-  "updated_at": "2026-11-17T20:19:03Z",
+  "updated_at": "2026-11-17T22:06:04Z",
   "issues": [
+    {
+      "id": "c20261117-1233",
+      "headline": "엔비디아 3분기 매출 1158억달러, 전년比 103% 급증",
+      "summary": [
+        "엔비디아가 2027회계연도 3분기 실적을 발표했고 매출은 1158억달러였다.",
+        "매출은 전년 동기 대비 103% 증가해 사상 최대를 기록했으며 젠슨 황 CEO 퇴임 후에도 성장세가 이어졌다.",
+        "AI 반도체 수요가 실적을 견인하고 있어 업계 전반의 투자 흐름에 영향을 줄 전망이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "실적",
+        "AI반도체",
+        "매출 증가",
+        "데이터센터"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T21:35:34Z",
+      "updated_at": "2026-11-17T21:35:34Z",
+      "articles": [
+        {
+          "key": "a19f1cf4b460c86e",
+          "title": "젠슨 황 없는 엔비디아, 3분기 깜짝실적…매출 103% 증가",
+          "url": "https://www.dt.co.kr/article/12095812",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-17T21:35:34Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1232",
+      "headline": "람다, NVIDIA CPO 스위치로 1만 개 GPU 대규모 연결",
+      "summary": [
+        "람다가 캐나다 퀘벡 캠퍼스에서 NVIDIA 포토닉스 스위치 기반 CPO 네트워킹을 대규모로 배치했다고 발표했다.",
+        "1만 개 이상의 Blackwell Ultra GPU를 연결했으며, 벤치마크에서 기존 광학 대비 낮은 지연과 안정적인 신호를 확인했다.",
+        "AI 클러스터 확대에 따라 네트워크 인프라의 중요성이 커지는 가운데, CPO 상용화 흐름에 의미 있는 사례다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "CPO",
+        "NVIDIA 포토닉스",
+        "Blackwell Ultra",
+        "네트워킹",
+        "광학 인터커넥트"
+      ],
+      "companies": [
+        "람다",
+        "NVIDIA"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "람다",
+        "NVIDIA"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T21:15:42Z",
+      "updated_at": "2026-11-17T21:15:42Z",
+      "articles": [
+        {
+          "key": "8fd1ee3dec5c75ff",
+          "title": "Lambda Announces World’s First Large-Scale CPO Deployment of NVIDIA Photonics Switches",
+          "url": "https://www.semiconductor-digest.com/lambda-announces-worlds-first-large-scale-cpo-deployment-of-nvidia-photonics-switches/?utm_source=rss&utm_medium=rss&utm_campaign=lambda-announces-worlds-first-large-scale-cpo-deployment-of-nvidia-photonics-switches",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-17T21:15:42Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261117-1231",
+      "headline": "젠슨 황 전 엔비디아 CEO, 경영 복귀 의사 공식화",
+      "summary": [
+        "젠슨 황 전 엔비디아 CEO가 이사회 요청 시 경영 일선에 복귀할 의사를 공식적으로 밝혔다.",
+        "지난 12일 사임 이후 처음 내놓은 공개 입장이며 월스트리트저널이 보도했다.",
+        "복귀 여부는 이사회 요청에 달려 있어 엔비디아 경영 공백과 향후 지배구조 변화가 주목된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "경영 복귀",
+        "CEO 사임",
+        "지배구조"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T21:08:36Z",
+      "updated_at": "2026-11-17T21:08:36Z",
+      "articles": [
+        {
+          "key": "859b167cc544b3ee",
+          "title": "젠슨황 “CEO로 돌아가면 영광일 것” 복귀의사 공식화",
+          "url": "https://www.dt.co.kr/article/12095811",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-17T21:08:36Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1230",
+      "headline": "ACM리서치, 오리건주 연구개발·생산 시설 개소",
+      "summary": [
+        "ACM리서치가 오리건주 힐스버러에 미국 R&D·제조 시설을 열었다.",
+        "연면적 4만 평방피트 규모이며 생산공간 2.4만 평방피트와 데모 랩을 갖췄다.",
+        "1단계 1억 달러 이상 미국 투자의 주요 이정표로, 북미 고객 협업을 강화한다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "웨이퍼 세정장비",
+        "첨단 패키징",
+        "미국 생산거점",
+        "북미 고객"
+      ],
+      "companies": [
+        "ACM리서치"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "ACM리서치"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T20:57:37Z",
+      "updated_at": "2026-11-17T20:57:37Z",
+      "articles": [
+        {
+          "key": "11008d2ede552872",
+          "title": "ACM Research Expands U.S. Operations with Oregon R&D and Manufacturing Facility",
+          "url": "https://www.semiconductor-digest.com/acm-research-expands-u-s-operations-with-oregon-rd-and-manufacturing-facility/?utm_source=rss&utm_medium=rss&utm_campaign=acm-research-expands-u-s-operations-with-oregon-rd-and-manufacturing-facility",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-17T20:57:37Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1229",
+      "headline": "지멘스, 브레커 인수로 SoC 검증 포트폴리오 확대",
+      "summary": [
+        "지멘스가 SoC 수준 검증 기술을 보유한 브레커 베리피케이션 시스템즈 인수 계약을 체결했다.",
+        "인수 완료 시 AI·Arm·RISC-V CPU 검증 역량이 강화되며, 라우터바흐 인수 계획과 함께 임베디드 소프트웨어 연계를 추진한다.",
+        "복잡해지는 반도체 설계에서 검증 생산성이 핵심 경쟁력이 되며, EDA 업체의 입지가 강화될 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "SoC 검증",
+        "EDA",
+        "AI 검증",
+        "RISC-V",
+        "임베디드 소프트웨어"
+      ],
+      "companies": [
+        "지멘스",
+        "브레커 베리피케이션 시스템즈",
+        "라우터바흐"
+      ],
+      "event_type": "인수합병",
+      "confirmed": true,
+      "parties": [
+        "지멘스",
+        "브레커 베리피케이션 시스템즈"
+      ],
+      "importance": 2,
+      "importance_reason": "인수합병 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T20:43:52Z",
+      "updated_at": "2026-11-17T20:43:52Z",
+      "articles": [
+        {
+          "key": "b438dda40ace84e6",
+          "title": "Siemens to Acquire Breker Verification Systems to Expand System-on-Chip Verification Portfolio",
+          "url": "https://www.semiconductor-digest.com/siemens-to-acquire-breker-verification-systems-to-expand-system-on-chip-verification-portfolio/?utm_source=rss&utm_medium=rss&utm_campaign=siemens-to-acquire-breker-verification-systems-to-expand-system-on-chip-verification-portfolio",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-17T20:43:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261117-1209",
       "headline": "AP시스템, HMO용 ALD 장비 IT OLED 양산 추진",
