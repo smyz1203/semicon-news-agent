@@ -1,7 +1,59 @@
 {
   "version": 1,
-  "updated_at": "2026-11-17T12:04:08Z",
+  "updated_at": "2026-11-17T13:26:42Z",
   "issues": [
+    {
+      "id": "c20261117-1222",
+      "headline": "SFC, 수요예측 부진으로 코스피 상장 철회",
+      "summary": [
+        "OLED 소재 기업 SFC가 코스피 상장 계획을 철회하고 증권신고서 철회신고서를 금융감독원에 제출했다.",
+        "지난 9~13일 기관 수요예측 결과 조달 가능액이 1500억원에 못 미칠 것으로 추정돼 당초 목표 2000억원에서 미달했다.",
+        "공모 부진으로 상장 재추진 시점을 검토 중이며, 소재 기업의 자금 조달 환경 악화를 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "코스피 상장",
+        "수요예측",
+        "OLED 소재",
+        "증권신고서 철회"
+      ],
+      "companies": [
+        "SFC"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "SFC"
+      ],
+      "importance": 2,
+      "importance_reason": "재무·주주 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T09:49:27Z",
+      "updated_at": "2026-11-17T13:10:09Z",
+      "articles": [
+        {
+          "key": "3960fd4fff4ef0f6",
+          "title": "'LG화학과 청색 OLED 특허분쟁' SFC, 상장 철회",
+          "url": "https://zdnet.co.kr/view/?no=20261117182743",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T09:49:27Z"
+        },
+        {
+          "key": "33e0fe5de8e0ded2",
+          "title": "SFC, 코스피 상장 철회",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65580",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-17T13:10:09Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261117-1226",
       "headline": "삼성·SK하이닉스·마이크론, 로봇 충전 규격 표준화 추진",
@@ -238,59 +290,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261117-1222",
-      "headline": "SFC, 수요예측 후 코스피 상장 철회",
-      "summary": [
-        "청색 OLED 재료 업체 SFC가 일반청약을 하루 앞두고 코스피 상장 계획을 철회했다.",
-        "SFC는 총 500만주 공모를 계획했으나 회사가치 평가 여건을 이유로 잔여 일정을 취소했으며, LG화학과의 청색 OLED 특허소송도 진행 중이다.",
-        "삼성디스플레이 IT용 재료 세트에서 청색 도판트를 경쟁사에 뺏긴 점이 중장기 성장에 부담으로 작용할 수 있다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "청색 OLED",
-        "상장 철회",
-        "특허소송",
-        "IT OLED",
-        "재료 세트"
-      ],
-      "companies": [
-        "SFC",
-        "LG화학",
-        "삼성디스플레이",
-        "미래에셋증권",
-        "한국투자증권",
-        "이데미츠코산",
-        "애플"
-      ],
-      "event_type": "재무·주주",
-      "confirmed": true,
-      "parties": [
-        "SFC",
-        "미래에셋증권",
-        "한국투자증권"
-      ],
-      "importance": 2,
-      "importance_reason": "재무·주주 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-17T09:49:27Z",
-      "updated_at": "2026-11-17T09:49:27Z",
-      "articles": [
-        {
-          "key": "3960fd4fff4ef0f6",
-          "title": "'LG화학과 청색 OLED 특허분쟁' SFC, 상장 철회",
-          "url": "https://zdnet.co.kr/view/?no=20261117182743",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-17T09:49:27Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261117-1221",
