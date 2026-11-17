@@ -1,7 +1,190 @@
 {
   "version": 1,
-  "updated_at": "2026-11-17T22:06:04Z",
+  "updated_at": "2026-11-17T23:06:27Z",
   "issues": [
+    {
+      "id": "c20261117-1206",
+      "headline": "젠슨 황 딸 매디슨 황의 엔비디아 내 영향력 논란",
+      "summary": [
+        "젠슨 황 전 엔비디아 CEO의 딸 매디슨 황이 고위 임원을 질책하는 등 강한 권한을 행사했다는 보도가 나왔다.",
+        "기사 본문이 짧아 구체적 사례와 시점, 퇴진 경위는 확인되지 않는다.",
+        "엔비디아 내부 지배구조와 인사 운영에 대한 우려가 제기된 사안으로 볼 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "엔비디아",
+        "젠슨 황",
+        "지배구조",
+        "경영진"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T07:39:41Z",
+      "updated_at": "2026-11-17T23:02:25Z",
+      "articles": [
+        {
+          "key": "a4477eede289fe62",
+          "title": "“임원진 집합시키고, 고함 치기도”…젠슨 황 딸의 ‘숨은 권력’",
+          "url": "https://www.dt.co.kr/article/12095697",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-17T07:39:41Z"
+        },
+        {
+          "key": "1802e2e66cb7ff6a",
+          "title": "\"고위 임원 질책에 줄퇴사 의혹\"⋯젠슨 황 딸, 엔비디아 '그림자 실세' 논란",
+          "url": "https://www.inews24.com/view/2027342",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:02:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1236",
+      "headline": "엔비디아, 삼성전기와 패키지기판 신규 계약 체결",
+      "summary": [
+        "엔비디아가 삼성전기와 패키지기판 공급을 위한 신규 계약을 체결했다고 밝혔다.",
+        "기사에는 계약 규모, 물량, 납품 일정 등 구체적인 수치가 나오지 않았다.",
+        "AI 가속기 수요에 맞춘 고사양 기판 공급망 확보 움직임으로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "패키지기판",
+        "AI반도체",
+        "공급계약"
+      ],
+      "companies": [
+        "엔비디아",
+        "삼성전기"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "엔비디아",
+        "삼성전기"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T23:01:54Z",
+      "updated_at": "2026-11-17T23:01:54Z",
+      "articles": [
+        {
+          "key": "fc697c600add8b7a",
+          "title": "[속보] 엔비디아 \"삼성전기와 패키지기판 신규 계약 체결\"",
+          "url": "https://www.inews24.com/view/2027409",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:01:54Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1235",
+      "headline": "엔비디아 이사회, 젠슨 황 CEO 복귀 일축",
+      "summary": [
+        "엔비디아 이사회가 젠슨 황 전 CEO를 재선임할 계획이 없다고 공식 밝혔다.",
+        "황 전 CEO가 경영 복귀 의사를 밝힌 지 수시간 만에 이사회가 이를 부정했다.",
+        "차기 CEO 인선에 관심이 쏠리며 엔비디아 경영 공백 우려가 부각될 전망이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "CEO 복귀",
+        "이사회",
+        "차기 CEO"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T23:01:13Z",
+      "updated_at": "2026-11-17T23:01:13Z",
+      "articles": [
+        {
+          "key": "1645d787396d5048",
+          "title": "엔비디아 이사회 \"젠슨 황 CEO 복귀 계획 없다\"…재선임 일축",
+          "url": "https://www.inews24.com/view/2027404",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:01:13Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1234",
+      "headline": "ASML의 문화·공급망·지정학을 짚은 인터뷰",
+      "summary": [
+        "ASML의 역사와 조직 문화, 공급망, 지정학적 환경을 다룬 영상 인터뷰가 공개됐다.",
+        "기사 요약문에는 구체적인 수치나 일정이 포함되어 있지 않다.",
+        "EUV 장비 독점 공급사로서 ASML의 위상을 다시 조명하는 콘텐츠로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "EUV",
+        "노광장비",
+        "공급망",
+        "지정학"
+      ],
+      "companies": [
+        "ASML"
+      ],
+      "event_type": "칼럼·인터뷰",
+      "confirmed": true,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "칼럼·인터뷰 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T22:37:22Z",
+      "updated_at": "2026-11-17T22:37:22Z",
+      "articles": [
+        {
+          "key": "983c4a22b32cf854",
+          "title": "Marc Hijink on ASML’s Culture, Supply Chain, and Geopolitics",
+          "url": "https://www.eetimes.com/marc-hijink-on-asmls-culture-supply-chain-and-geopolitics/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-17T22:37:22Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261117-1233",
       "headline": "엔비디아 3분기 매출 1158억달러, 전년比 103% 급증",
@@ -1432,51 +1615,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261117-1206",
-      "headline": "엔비디아 매디슨 황의 내부 영향력 논란",
-      "summary": [
-        "젠슨 황의 딸 매디슨 황이 아버지의 영향력을 등에 업고 엔비디아 내부에서 강한 권한을 행사했다는 보도가 나왔다.",
-        "공식 직함은 피지컬AI 부문 제품 마케팅 수석이사이나, 기사 본문 일부만 확인돼 구체적 사례와 범위는 추가 확인이 필요하다.",
-        "엔비디아 지배구조와 조직 운영에 대한 시선이 쏠리며 투자자와 업계의 관심이 높아질 전망이다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "엔비디아",
-        "젠슨 황",
-        "피지컬AI",
-        "지배구조",
-        "내부 권력"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": false,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 2,
-      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-17T07:39:41Z",
-      "updated_at": "2026-11-17T07:39:41Z",
-      "articles": [
-        {
-          "key": "a4477eede289fe62",
-          "title": "“임원진 집합시키고, 고함 치기도”…젠슨 황 딸의 ‘숨은 권력’",
-          "url": "https://www.dt.co.kr/article/12095697",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-17T07:39:41Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261117-1205",
