@@ -1,37 +1,94 @@
 {
   "version": 1,
-  "updated_at": "2026-11-17T01:28:44Z",
+  "updated_at": "2026-11-17T03:00:34Z",
   "issues": [
     {
-      "id": "c20261117-1170",
-      "headline": "한국 OLED 점유율 68%대로 상승, 출하량도 1위 탈환",
+      "id": "c20261116-1158",
+      "headline": "삼성·SK하이닉스 3분기 누적 설비투자 88조원, 현금 329조원",
       "summary": [
-        "올해 상반기 한국 OLED의 글로벌 시장점유율이 금액 기준 68.3%로 올랐다.",
-        "출하량 기준으로도 중국을 제치고 2년 만에 1위를 되찾았다는 점이 확인됐다.",
-        "고부가 OLED 중심으로 한국 디스플레이 업계의 경쟁력이 회복되고 있다는 신호다."
+        "삼성전자와 SK하이닉스가 올해 3분기까지 설비투자에 합산 88.16조원을 썼고, 현금성 자산은 1년 새 약 193조원 늘어 329.2조원이 됐다.",
+        "삼성전자의 누적 설비투자는 56.94조원으로 전년 동기 대비 76.6% 증가했으며, 이 중 약 93%가 반도체 분야에 집행됐다.",
+        "AI 수요에 따른 메모리 호황이 대규모 투자와 현금 축적을 함께 이끌고 있어 업계 증설 경쟁이 한층 가팔라질 전망이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "설비투자",
+        "현금성 자산",
+        "AI 메모리 호황",
+        "반도체 증설"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스, 삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-16T12:30:28Z",
+      "updated_at": "2026-11-17T02:16:42Z",
+      "articles": [
+        {
+          "key": "a3ddbf07b492776e",
+          "title": "삼성·SK하이닉스, 역대 최대 시설투자…3분기 누적 88조원",
+          "url": "https://zdnet.co.kr/view/?no=20261116175638",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-16T12:30:28Z"
+        },
+        {
+          "key": "9c071c71fddea7f2",
+          "title": "Samsung, SK hynix spend W88tr on capex as cash holdings soar",
+          "url": "https://www.koreaherald.com/article/10939605",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-17T02:16:42Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261117-1170",
+      "headline": "한국 OLED, 상반기 출하량 1위 탈환하며 중국 제쳐",
+      "summary": [
+        "한국디스플레이산업협회 발표에 따르면 상반기 OLED 출하량 점유율은 한국 50.1%, 중국 49.8%로 한국이 1위를 되찾았다.",
+        "매출 점유율은 한국 68.3%로 전년 대비 3.0%p 올랐고, LTPO와 탠덤 등 고부가 제품 양산이 성과를 이끌었다.",
+        "LCD 축소로 전체 디스플레이 점유율은 0.9%p 줄어, OLED 중심 고부가 전환의 효과와 과제가 함께 드러났다."
       ],
       "category": "디스플레이",
       "tags": [
         "OLED",
-        "시장점유율",
-        "출하량",
-        "중국 경쟁"
+        "LTPO",
+        "탠덤 OLED",
+        "출하량 1위",
+        "디스플레이 통계"
       ],
       "companies": [
         "삼성디스플레이",
-        "LG디스플레이"
+        "LG디스플레이",
+        "BOE",
+        "애플"
       ],
       "event_type": "시장 전망·통계",
       "confirmed": true,
       "parties": [],
-      "importance": 2,
-      "importance_reason": "시장 전망·통계 2점",
+      "importance": 3,
+      "importance_reason": "시장 전망·통계 2점, 매체 5곳 보도 +1 → 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
-      "region": "ko",
+      "region": "both",
       "first_seen": "2026-11-17T00:15:24Z",
-      "updated_at": "2026-11-17T01:17:59Z",
+      "updated_at": "2026-11-17T02:16:21Z",
       "articles": [
         {
           "key": "2f88ad18be244eef",
@@ -42,16 +99,559 @@
           "published_at": "2026-11-17T00:15:24Z"
         },
         {
+          "key": "310c529814a66b78",
+          "title": "韓 OLED, ‘26년 상반기 금액 및 출하량 모두 세계 1위…출하량에서 中 제치고 1위 탈환",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343381",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-17T00:30:00Z"
+        },
+        {
+          "key": "fe2d64b75597828b",
+          "title": "韓, OLED 출하 1위 탈환…中과 OLED 매출 격차 확대",
+          "url": "https://zdnet.co.kr/view/?no=20261117090315",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T01:12:14Z"
+        },
+        {
           "key": "b7a9d6a176b16d5e",
           "title": "한국 OLED 점유율 68%…중국 제치고 2년만에 출하량 1위도 탈환",
           "url": "https://www.yna.co.kr/view/AKR20261117056900003",
           "source": "연합뉴스",
           "lang": "ko",
           "published_at": "2026-11-17T01:17:59Z"
+        },
+        {
+          "key": "1f278da80d248f3d",
+          "title": "S. Korea regains top spot in global OLED shipments in H1",
+          "url": "https://www.koreaherald.com/article/10939601",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-17T02:16:21Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1183",
+      "headline": "삼성전자·SK하이닉스, 500대 기업 영업익 80% 차지",
+      "summary": [
+        "국내 500대 기업의 3분기 영업이익 239조원 가운데 약 80%를 삼성전자와 SK하이닉스가 차지했다.",
+        "기업데이터연구소 CEO스코어가 분기보고서를 제출한 324개사를 집계해 발표한 결과다.",
+        "반도체 두 기업에 이익이 집중되며 국내 대기업 실적의 쏠림 현상이 뚜렷해졌다는 의미를 갖는다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "영업이익",
+        "3분기 실적",
+        "반도체 호황",
+        "실적 쏠림"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T02:13:40Z",
+      "updated_at": "2026-11-17T02:13:40Z",
+      "articles": [
+        {
+          "key": "24318e793b6b82be",
+          "title": "500대 기업 영업익 239조…'삼전닉스'가 80% 차지",
+          "url": "https://www.inews24.com/view/2026979",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-17T02:13:40Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1182",
+      "headline": "젠슨 황 이후 엔비디아 AI 금융지원 체계 유지 전망",
+      "summary": [
+        "엔비디아의 젠슨 황 CEO 사임 이후에도 5000억달러 규모 AI 인프라 금융지원 체계가 유지될 것이라는 전망이 나왔다.",
+        "경영진 교체로 고위험 투자에 대한 선호도가 낮아질 수 있다는 관측도 함께 제기됐다.",
+        "AI 인프라 투자 구조의 안정성과 리스크 관리 방향이 업계의 관심사가 될 전망이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 인프라",
+        "금융지원",
+        "경영진 교체",
+        "고위험 투자"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T02:13:22Z",
+      "updated_at": "2026-11-17T02:13:22Z",
+      "articles": [
+        {
+          "key": "821fda3b1d401f3b",
+          "title": "\"젠슨 황 떠난 엔비디아, 5000억달러 'AI 금융' 유지 전망\"",
+          "url": "https://www.inews24.com/view/2027024",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-17T02:13:22Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261117-1181",
+      "headline": "반도체 기판 등 세계일류상품 79건 선정",
+      "summary": [
+        "산업통상부가 17일 2026년 세계일류상품 인증서 수여식을 열고 79건의 상품을 선정했다.",
+        "선정 품목에는 메모리 기판 등이 포함됐으며, 기사 요약 범위에서 세부 수치는 확인되지 않는다.",
+        "반도체 기판 제품이 세계일류상품으로 인정받아 국내 소재·부품 경쟁력을 보여준 사례로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "세계일류상품",
+        "메모리 기판",
+        "산업통상부",
+        "품질 인증"
+      ],
+      "companies": [],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T02:00:02Z",
+      "updated_at": "2026-11-17T02:00:02Z",
+      "articles": [
+        {
+          "key": "a32c5f564272b0b1",
+          "title": "메모리 기판부터 김까지…세계일류상품 79건 선정",
+          "url": "https://www.yna.co.kr/view/AKR20261117061700003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T02:00:02Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261117-1179",
+      "headline": "젠슨 황 복귀 논란과 미국 AI칩 원격접근 규제 강화",
+      "summary": [
+        "엔비디아 이사회가 젠슨 황 복귀를 검토하지 않고 내부 조사에 집중한다는 보도가 나왔다.",
+        "미국 상무부 BIS는 해외 데이터센터를 통한 AI칩 원격 이용까지 규제하는 중간 최종 규칙을 발표했다.",
+        "중국 기업의 해외 GPU 우회 접근을 막는 조치로, 클라우드 업계의 허가 부담이 커질 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출규제",
+        "원격접근",
+        "AI반도체",
+        "네오클라우드",
+        "젠슨 황"
+      ],
+      "companies": [
+        "엔비디아",
+        "CNBC",
+        "테슬라"
+      ],
+      "event_type": "정책·규제·법",
+      "confirmed": true,
+      "parties": [
+        "미국 상무부 산업안보국"
+      ],
+      "importance": 4,
+      "importance_reason": "정책·규제·법 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-17T01:40:18Z",
+      "updated_at": "2026-11-17T01:52:46Z",
+      "articles": [
+        {
+          "key": "c4256fcb5db8f3a8",
+          "title": "CNBC \"엔비디아 이사회, 젠슨 황 CEO 복귀 검토 안 해\"",
+          "url": "https://zdnet.co.kr/view/?no=20261117101806",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T01:40:18Z"
+        },
+        {
+          "key": "6e3ed7f1c1aa72b5",
+          "title": "Nvidia board reportedly rules out Huang return as campaign for his reinstatement grows",
+          "url": "https://www.digitimes.com/news/a20261117VL204/nvidia-ceo-jensen-huang-2026.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T01:52:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261117-1172",
+      "headline": "미국, 중국 기업 해외 데이터센터 통한 AI칩 우회 차단 나서",
+      "summary": [
+        "미국 상무부가 중국 기업의 해외 데이터센터를 통한 첨단 AI칩 우회 사용을 막는 새 수출통제 규정을 발표했다.",
+        "데이터센터는 첨단 칩 반입 시 미국 허가가 필요해지고, 기존 업체는 90일 내 허가를 받아야 하며 싱가포르 등 5개국은 선적 허가 대상이다.",
+        "엔비디아 칩 우회 반출 의혹이 불거진 상황에서 나온 조치로, 반도체 우회 유출 경로 차단이 강화될 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출통제",
+        "AI칩",
+        "우회 접근",
+        "해외 데이터센터",
+        "선적 허가제"
+      ],
+      "companies": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "event_type": "정책·규제·법",
+      "confirmed": true,
+      "parties": [],
+      "importance": 4,
+      "importance_reason": "정책·규제·법 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-17T00:26:38Z",
+      "updated_at": "2026-11-17T01:49:55Z",
+      "articles": [
+        {
+          "key": "a5a8079a4ccd1674",
+          "title": "US moves to shut remote-access route to AI chips for Chinese firms after Nvidia scandal",
+          "url": "https://www.digitimes.com/news/a20261117VL201/chips-nvidia-data-asia.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T00:26:38Z"
+        },
+        {
+          "key": "ecb5e01e900ae9ab",
+          "title": "美, 中 AI칩 우회접근 통제 강화…5개국 선적 허가제 도입",
+          "url": "https://zdnet.co.kr/view/?no=20261117095135",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T01:49:55Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261117-1180",
+      "headline": "인텔 D270, 추론 넘어 HPC 고성능컴퓨팅 확장 시도",
+      "summary": [
+        "인텔이 내년 출시할 추론 특화 GPU D270의 자체 성능시험 결과를 공개했다.",
+        "테스트에서 D270은 엔비디아 RTX 프로 6000 블랙웰 대비 최대 5.9배 높은 애플리케이션 처리량을 보였다고 밝혔다.",
+        "인텔은 D270이 HPC 분야에서도 활용 가능하다고 강조해 엔비디아 중심 AI 가속기 시장 경쟁에 영향을 줄 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "D270",
+        "GPU",
+        "추론 가속기",
+        "HPC",
+        "FP64",
+        "LPDDR5X"
+      ],
+      "companies": [
+        "인텔",
+        "엔비디아"
+      ],
+      "event_type": "실적",
+      "confirmed": false,
+      "parties": [
+        "인텔",
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "실적 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T01:47:54Z",
+      "updated_at": "2026-11-17T01:47:54Z",
+      "articles": [
+        {
+          "key": "f21d664ce9c1a07f",
+          "title": "인텔 \"GPU D270, 고성능컴퓨팅 분야로 확장 가능\"",
+          "url": "https://zdnet.co.kr/view/?no=20261117104728",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T01:47:54Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261115-1081",
+      "headline": "삼성D·LGD, 중국 게이밍 OLED 시장 공략 확대",
+      "summary": [
+        "삼성디스플레이와 LG디스플레이가 중국 프리미엄 게이밍 모니터용 OLED 패널 사업을 확대하고 있다.",
+        "두 회사는 중국 모니터 브랜드로부터 주문을 확보하고 PC방·게이밍 호텔 등 현지 소비자 접점을 넓히는 중이다.",
+        "다만 중국 패널 업체의 OLED 생산 확대는 향후 두 회사의 기술 우위를 위협할 수 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "게이밍 OLED",
+        "중국 시장",
+        "프리미엄 모니터",
+        "PC방 협력"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "LG디스플레이"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "삼성디스플레이",
+        "LG디스플레이"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 관심 기업(LG디스플레이, 삼성디스플레이) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-15T21:17:01Z",
+      "updated_at": "2026-11-17T01:34:09Z",
+      "articles": [
+        {
+          "key": "71c4a02fb5039b45",
+          "title": "삼성D·LGD, 중국 게이밍 OLED 공략…현지업체·PC방 협력 강화",
+          "url": "https://www.yna.co.kr/view/AKR20261113093800003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-15T21:17:01Z"
+        },
+        {
+          "key": "215603a1c8986c70",
+          "title": "Samsung, LG Display bet on China's gaming OLED boom",
+          "url": "https://www.koreaherald.com/article/10939500",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-17T01:34:09Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261117-1178",
+      "headline": "트럼프-시진핑 정상회담 앞두고 AI칩 통제 변수 부상",
+      "summary": [
+        "트럼프-시진핑 정상회담을 앞두고 젠슨 황 관련 조사가 미·중 AI칩 통제 협상에 영향을 줄 수 있다는 보도가 나왔다.",
+        "기사 본문은 사진 크레딧만 있어 구체적인 조사 내용이나 일정, 수치는 확인되지 않는다.",
+        "미·중 AI칩 수출 통제 방향이 정상회담을 계기로 바뀔 수 있어 엔비디아 등 관련 기업의 중국 사업에 영향을 줄 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI칩 수출통제",
+        "미중 정상회담",
+        "젠슨 황",
+        "엔비디아 조사"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T01:33:38Z",
+      "updated_at": "2026-11-17T01:33:38Z",
+      "articles": [
+        {
+          "key": "77f22a5263b0d1ca",
+          "title": "Trump-Xi summit preview: Jensen Huang probe could tip the balance on US-China AI chip controls",
+          "url": "https://www.digitimes.com/news/a20261117PD210/donald-trump-ai-chip-jensen-huang-xi-jinping-nvidia.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T01:33:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1177",
+      "headline": "ETRI, 우주용 전력반도체 2종 국산화 성과",
+      "summary": [
+        "ETRI는 저궤도 위성 전력시스템에 쓸 650V급 탄화규소 전력반도체 2종을 국산화했다.",
+        "기사 본문이 짧게 잘려 있어 세부 성능과 양산 일정 등 구체적 수치는 확인되지 않는다.",
+        "위성 핵심 부품을 국내에서 확보했다는 점에서 우주용 반도체 공급망 자립에 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "우주용 반도체",
+        "탄화규소",
+        "전력반도체",
+        "저궤도 위성",
+        "국산화"
+      ],
+      "companies": [
+        "ETRI"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "ETRI"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T01:30:40Z",
+      "updated_at": "2026-11-17T01:30:40Z",
+      "articles": [
+        {
+          "key": "e817804dc669dba9",
+          "title": "ETRI, 우주용 전력반도체 2종 국산화…위성 핵심 부품 확보",
+          "url": "https://www.yna.co.kr/view/AKR20261117063700063",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T01:30:40Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1176",
+      "headline": "오픈AI, 텐서웨이브와 AMD 기반 457MW AI 인프라 확보",
+      "summary": [
+        "텐서웨이브가 오픈AI에 총 457MW 규모 AMD 기반 AI 인프라를 6년간 공급하는 계약을 체결했다고 발표했다.",
+        "AMD 차세대 GPU 인스팅트 MI455X와 헬리오스 랙 시스템을 미국 여러 데이터센터에 배치하며, 2027년 상반기 가동 후 2028년 초 완공 예정이다.",
+        "엔비디아 중심 GPU 조달 구조를 분산하려는 오픈AI의 움직임으로, AMD의 랙 단위 AI 인프라 경쟁력 확대에도 의미가 크다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AMD MI455X",
+        "헬리오스",
+        "457MW",
+        "AI 인프라",
+        "네오클라우드",
+        "GPU 공급망 다변화"
+      ],
+      "companies": [
+        "오픈AI",
+        "텐서웨이브",
+        "AMD",
+        "엔비디아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "오픈AI",
+        "텐서웨이브"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T01:23:09Z",
+      "updated_at": "2026-11-17T01:23:09Z",
+      "articles": [
+        {
+          "key": "9e4635b4a543122b",
+          "title": "[AI 고속도로] \"엔비디아 의존도 낮춘다\"…오픈AI, AMD 기반 AI 인프라 457MW 확보",
+          "url": "https://zdnet.co.kr/view/?no=20261117101352",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T01:23:09Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1175",
+      "headline": "코아시아, 3분기 영업이익 31억 흑자 전환",
+      "summary": [
+        "코아시아가 3분기 연결 매출 1149억원, 영업이익 31억원을 기록하며 흑자로 돌아섰다.",
+        "시스템 반도체 누적 매출이 전년 대비 227% 급증했고 전체 매출 비중은 36%로 확대됐다.",
+        "전자부품 중심 사업에서 시스템 반도체로 포트폴리오가 넓어진 점이 체질 개선의 근거가 된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "시스템 반도체",
+        "흑자 전환",
+        "3분기 실적",
+        "사업 포트폴리오"
+      ],
+      "companies": [
+        "코아시아"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "코아시아"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T01:08:14Z",
+      "updated_at": "2026-11-17T01:08:14Z",
+      "articles": [
+        {
+          "key": "0764836820566eb6",
+          "title": "코아시아, 3분기 영업익 31억…흑자전환",
+          "url": "https://zdnet.co.kr/view/?no=20261117093234",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T01:08:14Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261117-1174",
@@ -142,49 +742,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261117-1172",
-      "headline": "미국, 중국 기업의 원격 접속 통한 AI칩 우회 차단 추진",
-      "summary": [
-        "미국 정부가 중국 기업이 원격 접근으로 AI 칩을 쓰는 경로를 막으려 한다는 보도가 나왔다.",
-        "기사 본문은 사진 크레딧만 제공되어 구체적 조치 내용과 일정은 확인되지 않는다.",
-        "엔비디아 관련 논란을 계기로 한 수출통제 강화 움직임이어서 AI 반도체 공급망에 영향을 줄 수 있다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "AI칩",
-        "원격접속",
-        "수출규제",
-        "엔비디아",
-        "중국"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": false,
-      "parties": [],
-      "importance": 1,
-      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-17T00:26:38Z",
-      "updated_at": "2026-11-17T00:26:38Z",
-      "articles": [
-        {
-          "key": "a5a8079a4ccd1674",
-          "title": "US moves to shut remote-access route to AI chips for Chinese firms after Nvidia scandal",
-          "url": "https://www.digitimes.com/news/a20261117VL201/chips-nvidia-data-asia.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-17T00:26:38Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
     },
     {
       "id": "c20261117-1171",
@@ -860,53 +1417,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261116-1158",
-      "headline": "삼성·SK하이닉스 3분기 누적 시설투자 88조원, 역대 최대",
-      "summary": [
-        "삼성전자와 SK하이닉스의 올 3분기 누적 시설투자가 88조 1000억원을 넘어 역대 최대치를 기록했다.",
-        "삼성전자는 56조 9440억원, SK하이닉스는 31조 2160억원을 투자했고 전년 동기 대비 75% 이상 늘었다.",
-        "AI 메모리 수요에 대응한 공격적 설비투자 기조가 이어지며 4분기에도 투자 규모 확대가 예상된다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "시설투자",
-        "AI 메모리",
-        "HBM",
-        "최첨단 공정",
-        "설비투자"
-      ],
-      "companies": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": true,
-      "parties": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "importance": 4,
-      "importance_reason": "설비 투자 3점, 관심 기업(SK하이닉스, 삼성전자) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-16T12:30:28Z",
-      "updated_at": "2026-11-16T12:30:28Z",
-      "articles": [
-        {
-          "key": "a3ddbf07b492776e",
-          "title": "삼성·SK하이닉스, 역대 최대 시설투자…3분기 누적 88조원",
-          "url": "https://zdnet.co.kr/view/?no=20261116175638",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-16T12:30:28Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
     },
     {
       "id": "c20261116-1157",
@@ -4604,52 +5114,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261115-1081",
-      "headline": "삼성D·LG디스플레이, 중국 게이밍 OLED 시장 공략 강화",
-      "summary": [
-        "삼성디스플레이와 LG디스플레이가 중국 게이밍 시장에서 프리미엄 OLED 공략을 강화하고 있다.",
-        "현지 게임 업체 및 PC방과의 협력을 늘리는 방향으로 움직이고 있으나 구체적 수치와 일정은 기사에 나와 있지 않다.",
-        "중국 게이밍 수요를 겨냥한 OLED 확산이 패널 업체의 응용처 다변화에 의미를 가질 전망이다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "게이밍 OLED",
-        "중국 시장",
-        "프리미엄 디스플레이",
-        "협력 확대"
-      ],
-      "companies": [
-        "삼성디스플레이",
-        "LG디스플레이"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": false,
-      "parties": [
-        "삼성디스플레이",
-        "LG디스플레이"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점, 관심 기업(LG디스플레이, 삼성디스플레이) +1, 미확정 -1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-15T21:17:01Z",
-      "updated_at": "2026-11-15T21:17:01Z",
-      "articles": [
-        {
-          "key": "71c4a02fb5039b45",
-          "title": "삼성D·LGD, 중국 게이밍 OLED 공략…현지업체·PC방 협력 강화",
-          "url": "https://www.yna.co.kr/view/AKR20261113093800003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-15T21:17:01Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261115-1077",
