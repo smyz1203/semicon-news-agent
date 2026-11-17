@@ -1,7 +1,68 @@
 {
   "version": 1,
-  "updated_at": "2026-11-17T19:16:41Z",
+  "updated_at": "2026-11-17T20:19:03Z",
   "issues": [
+    {
+      "id": "c20261117-1209",
+      "headline": "AP시스템, HMO용 ALD 장비 IT OLED 양산 추진",
+      "summary": [
+        "AP시스템이 고이동도산화물(HMO) TFT 백플레인용 원자층증착(ALD) 장비를 대형 IT OLED 양산에 적용하려 논의 중이다.",
+        "플라즈마 강화 ALD(PeALD) 장비의 성능을 개선했으며 공급을 준비하고 있다고 밝혔다.",
+        "노트북·태블릿·모니터용 IT OLED 차세대 라인 도입이 목표로, 고객사 이름은 공개되지 않았다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "HMO",
+        "ALD",
+        "PeALD",
+        "IT OLED",
+        "백플레인"
+      ],
+      "companies": [
+        "AP시스템"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "AP시스템"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점, 매체 3곳 보도 +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-17T08:11:46Z",
+      "updated_at": "2026-11-17T18:00:09Z",
+      "articles": [
+        {
+          "key": "67ba7715f9fc7d7f",
+          "title": "AP시스템, \"고이동도산화물 원자층증착장비 상용화 추진\"...IT OLED 겨냥",
+          "url": "https://zdnet.co.kr/view/?no=20261117170631",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T08:11:46Z"
+        },
+        {
+          "key": "8009f531957c9ff8",
+          "title": "AP시스템, HMO용 ALD 장비 상용화 추진",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65536",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-17T08:30:18Z"
+        },
+        {
+          "key": "cfe1bd7a25653c2d",
+          "title": "AP Systems in talks to bring its spatial ALD system for HMO backplanes into large-area IT OLED production",
+          "url": "https://www.oled-info.com/ap-systems-talks-bring-its-spatial-ald-system-hmo-backplanes-large-area-it-oled",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-17T18:00:09Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261117-1228",
       "headline": "칩렛 결함 인식 매칭으로 이종집적 수율 높이는 연구",
@@ -815,59 +876,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261117-1209",
-      "headline": "AP시스템, IT OLED용 HMO ALD 장비 상용화 추진",
-      "summary": [
-        "AP시스템이 차세대 IT OLED에 적용할 고이동도산화물(HMO) 원자층증착(ALD) 장비 상용화를 추진 중이라고 17일 밝혔다.",
-        "공간분할 방식 ALD 장비로 공정 효율을 기존보다 40% 이상 개선했다고 설명하며 대면적 양산 적용을 협의 중이다.",
-        "ELA 장비 중심이던 사업이 산화물 TFT 공정 장비로 넓어져 새로운 매출원이 될 수 있다는 평가다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "HMO",
-        "ALD",
-        "IT OLED",
-        "산화물 TFT",
-        "ELA"
-      ],
-      "companies": [
-        "AP시스템"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": false,
-      "parties": [
-        "AP시스템"
-      ],
-      "importance": 2,
-      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-17T08:11:46Z",
-      "updated_at": "2026-11-17T08:30:18Z",
-      "articles": [
-        {
-          "key": "67ba7715f9fc7d7f",
-          "title": "AP시스템, \"고이동도산화물 원자층증착장비 상용화 추진\"...IT OLED 겨냥",
-          "url": "https://zdnet.co.kr/view/?no=20261117170631",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-17T08:11:46Z"
-        },
-        {
-          "key": "8009f531957c9ff8",
-          "title": "AP시스템, HMO용 ALD 장비 상용화 추진",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65536",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-17T08:30:18Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261117-1204",
