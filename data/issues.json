@@ -1,7 +1,235 @@
 {
   "version": 1,
-  "updated_at": "2026-11-16T23:54:52Z",
+  "updated_at": "2026-11-17T01:28:44Z",
   "issues": [
+    {
+      "id": "c20261117-1170",
+      "headline": "한국 OLED 점유율 68%대로 상승, 출하량도 1위 탈환",
+      "summary": [
+        "올해 상반기 한국 OLED의 글로벌 시장점유율이 금액 기준 68.3%로 올랐다.",
+        "출하량 기준으로도 중국을 제치고 2년 만에 1위를 되찾았다는 점이 확인됐다.",
+        "고부가 OLED 중심으로 한국 디스플레이 업계의 경쟁력이 회복되고 있다는 신호다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "시장점유율",
+        "출하량",
+        "중국 경쟁"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "LG디스플레이"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T00:15:24Z",
+      "updated_at": "2026-11-17T01:17:59Z",
+      "articles": [
+        {
+          "key": "2f88ad18be244eef",
+          "title": "상반기 韓 OLED 점유율 68.3%…출하량도 中 제치고 1위 탈환",
+          "url": "https://www.dt.co.kr/article/12095583",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-17T00:15:24Z"
+        },
+        {
+          "key": "b7a9d6a176b16d5e",
+          "title": "한국 OLED 점유율 68%…중국 제치고 2년만에 출하량 1위도 탈환",
+          "url": "https://www.yna.co.kr/view/AKR20261117056900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T01:17:59Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1174",
+      "headline": "CMP 연마율 예측에 자기지도 가상계측 기법 제안",
+      "summary": [
+        "싱가포르 SUTD·A*STAR·NUS 연구진이 CMP 연마율(MRR) 예측용 자기지도 어텐션 기반 가상계측 논문을 arXiv에 게재했다.",
+        "GREP 방식으로 라벨 없는 센서 신호에서 시간 표현을 학습한 뒤 미세조정하며, 적은 라벨·센서 노이즈·공정 드리프트 조건에서 평가했다.",
+        "공정 데이터가 부족한 상황에서도 계측 비용을 줄일 수 있는 연구로, 반도체 공정 제어 연구 동향을 보여준다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "CMP",
+        "연마율 예측",
+        "가상계측",
+        "자기지도학습",
+        "공정 제어"
+      ],
+      "companies": [
+        "SUTD",
+        "A*STAR",
+        "NUS"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T00:56:29Z",
+      "updated_at": "2026-11-17T00:56:29Z",
+      "articles": [
+        {
+          "key": "974958f03d8b1414",
+          "title": "Self-Supervised Virtual Metrology For CMP MRR Prediction (SUTD, A*STAR, NUS)",
+          "url": "https://semiengineering.com/self-supervised-virtual-metrology-for-cmp-mrr-prediction-sutd-astar-nus/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-17T00:56:29Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1173",
+      "headline": "세미파이브, HBM 대안 3D-IC 플랫폼 공개",
+      "summary": [
+        "세미파이브가 미국 시카고 SC26 전시회에서 자체 개발한 3D-IC 특화 플랫폼과 첫 개발 협업 성과를 공개했다.",
+        "HBM 공급 제약을 보완할 차세대 패키징 기술로, 고성능 AI ASIC 수요 대응을 위해 R&D와 공급망 구축을 선제적으로 진행해 왔다.",
+        "맞춤형 AI 반도체 시장에서 HBM 의존도를 낮추는 패키징 선택지가 넓어질 것으로 보인다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "3D-IC",
+        "HBM",
+        "패키징",
+        "맞춤형 AI 반도체",
+        "ASIC"
+      ],
+      "companies": [
+        "세미파이브"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "세미파이브"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T00:44:07Z",
+      "updated_at": "2026-11-17T00:44:07Z",
+      "articles": [
+        {
+          "key": "bbc9a6485f5a8811",
+          "title": "세미파이브, HBM 한계 넘을 3D-IC 플랫폼 공개…AI 반도체 판 바꾼다",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409872",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T00:44:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1172",
+      "headline": "미국, 중국 기업의 원격 접속 통한 AI칩 우회 차단 추진",
+      "summary": [
+        "미국 정부가 중국 기업이 원격 접근으로 AI 칩을 쓰는 경로를 막으려 한다는 보도가 나왔다.",
+        "기사 본문은 사진 크레딧만 제공되어 구체적 조치 내용과 일정은 확인되지 않는다.",
+        "엔비디아 관련 논란을 계기로 한 수출통제 강화 움직임이어서 AI 반도체 공급망에 영향을 줄 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI칩",
+        "원격접속",
+        "수출규제",
+        "엔비디아",
+        "중국"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T00:26:38Z",
+      "updated_at": "2026-11-17T00:26:38Z",
+      "articles": [
+        {
+          "key": "a5a8079a4ccd1674",
+          "title": "US moves to shut remote-access route to AI chips for Chinese firms after Nvidia scandal",
+          "url": "https://www.digitimes.com/news/a20261117VL201/chips-nvidia-data-asia.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T00:26:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261117-1171",
+      "headline": "젠슨황 리스크에 삼성전자·SK하이닉스 장초반 약세",
+      "summary": [
+        "미국발 악재로 삼성전자와 SK하이닉스 등 반도체주가 17일 장 초반 하락했다.",
+        "하락 폭은 1~2%대이며, 기사 본문에 추가 수치나 구체적 원인은 제시되지 않았다.",
+        "단순 주가 등락 성격으로, 엔비디아 관련 불확실성이 국내 반도체 투자심리에 영향을 준 것으로 보인다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨황 리스크",
+        "반도체 주가",
+        "미국 증시",
+        "투자심리"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "엔비디아"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": true,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T00:17:19Z",
+      "updated_at": "2026-11-17T00:17:19Z",
+      "articles": [
+        {
+          "key": "6ad854831d2bc89a",
+          "title": "[특징주] 삼전·닉스, '젠슨황 리스크' 지속에 장초반 1∼2%대↓",
+          "url": "https://www.yna.co.kr/view/AKR20261117037800008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T00:17:19Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261116-1166",
       "headline": "HBF 읽기 지연을 줄이는 GPU용 프리페처 SlipStream 연구",
@@ -51,6 +279,129 @@
       ],
       "type_checked": true,
       "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1169",
+      "headline": "영국 주권 AI, 대만 칩 제조·OSAT 협력 필요성 부각",
+      "summary": [
+        "영국의 주권 AI 추진 과정에서 대만의 반도체 제조와 OSAT(후공정) 파트너십이 필요하다는 분석이 나왔다.",
+        "기사 본문은 사진 크레딧만 있어 구체적 수치나 일정, 계약 내용은 확인되지 않는다.",
+        "산업적으로는 자국 AI 역량 확보를 위해 해외 파운드리·패키징 생태계와의 협력이 중요하다는 점을 시사한다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "주권 AI",
+        "대만 칩 제조",
+        "OSAT",
+        "후공정",
+        "반도체 협력"
+      ],
+      "companies": [
+        "TSMC"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-16T23:51:20Z",
+      "updated_at": "2026-11-16T23:51:20Z",
+      "articles": [
+        {
+          "key": "e38646c927f1c79c",
+          "title": "UK sovereign AI push needs Taiwan's chip manufacturing and OSAT partners",
+          "url": "https://www.digitimes.com/news/a20261116PD227/uk-manufacturing-taiwan-osat-design.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-16T23:51:20Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261117-1168",
+      "headline": "북미 데이터센터 전력 부족 심화, 전력반도체 기회 부각",
+      "summary": [
+        "북미 데이터센터의 전력 공급 부족률이 100%에 가까워진 것으로 보도됐다.",
+        "기사 본문이 제한적이라 구체적 수치와 일정은 확인되지 않는다.",
+        "전력 병목이 커지면서 전력반도체 수요 확대의 기회로 해석된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "데이터센터",
+        "전력반도체",
+        "전력 부족",
+        "AI 인프라"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-16T23:49:53Z",
+      "updated_at": "2026-11-16T23:49:53Z",
+      "articles": [
+        {
+          "key": "6ba38a1618c9c830",
+          "title": "North American data center power deficit nears 100%, opening opportunity for power chips",
+          "url": "https://www.digitimes.com/news/a20261116PD223/data-center-expansion-power-supply-demand-north-america.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-16T23:49:53Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261117-1167",
+      "headline": "AI 웨이퍼 테스트 정확도 향상, 첨단 패키징은 하드웨어 한계",
+      "summary": [
+        "AI를 활용해 웨이퍼 테스트 정확도를 높이는 흐름이 나타나고 있다는 분석이다.",
+        "다만 기사 본문이 제공되지 않아 구체적인 수치와 일정은 확인할 수 없다.",
+        "첨단 패키징 분야는 하드웨어 한계에 부딪혔다는 점에서 공정 확대에 제약 요인이 될 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "AI 웨이퍼 테스트",
+        "첨단 패키징",
+        "하드웨어 한계",
+        "웨이퍼 테스트"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-16T23:49:30Z",
+      "updated_at": "2026-11-16T23:49:30Z",
+      "articles": [
+        {
+          "key": "0e0748e6c5667c5e",
+          "title": "DIGITIMES Insight: AI improves wafer testing accuracy, but advanced packaging hits hardware limits",
+          "url": "https://www.digitimes.com/news/a20261116PD221/packaging-wafer-testing-hardware-digitimes-cooling.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-16T23:49:30Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
     },
     {
       "id": "c20261116-1165",
