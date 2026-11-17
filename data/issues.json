@@ -1,7 +1,99 @@
 {
   "version": 1,
-  "updated_at": "2026-11-17T11:14:29Z",
+  "updated_at": "2026-11-17T12:04:08Z",
   "issues": [
+    {
+      "id": "c20261117-1226",
+      "headline": "삼성·SK하이닉스·마이크론, 로봇 충전 규격 표준화 추진",
+      "summary": [
+        "삼성전자, SK하이닉스, 마이크론이 로봇 충전 방식의 표준화를 위해 손잡았다는 보도다.",
+        "기사 본문에는 구체적인 협력 범위, 일정, 규격 내용이 제시되지 않고 작성자 소개문만 담겨 있다.",
+        "반도체 공장의 무인화 흐름 속에서 로봇 운용 기반을 맞추려는 움직임으로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "로봇 충전",
+        "표준화",
+        "무인 팹",
+        "스마트 팩토리"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "마이크론"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스",
+        "마이크론"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점, 관심 기업(SK하이닉스, 삼성전자) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T11:30:00Z",
+      "updated_at": "2026-11-17T11:30:00Z",
+      "articles": [
+        {
+          "key": "32166fdf356416d5",
+          "title": "Samsung, SK hynix, and Micron form unlikely alliance to standardize robot charging as chipmakers push toward unmanned fabs",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/samsung-sk-hynix-and-micron-form-unlikely-alliance-to-standardize-robot-charging-as-chipmakers-push-toward-unmanned-chip-fabs-standard-specs-would-allow-manufacturer-agnostic-charging-equipment",
+          "source": "Tom's Hardware",
+          "lang": "en",
+          "published_at": "2026-11-17T11:30:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1225",
+      "headline": "엔비디아, 국가안보·수출통제 감독위원회 신설",
+      "summary": [
+        "엔비디아 이사회가 국가안보 및 수출통제 감독위원회를 새로 설치했다.",
+        "기사 본문에는 위원회 구성과 세부 권한이 제시되지 않아 구체적 내용은 확인되지 않는다.",
+        "황런쉰 관련 논란 이후 수출 규제 리스크 관리 체계를 강화하려는 움직임으로 해석된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출통제",
+        "국가안보",
+        "거버넌스",
+        "AI반도체"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T11:21:39Z",
+      "updated_at": "2026-11-17T11:21:39Z",
+      "articles": [
+        {
+          "key": "cf6b82b3d88923cf",
+          "title": "Nvidia board establishes National Security and Export Control Oversight Committee in wake of Jensen Huang scandal",
+          "url": "https://www.tomshardware.com/tech-industry/policy/nvidia-board-establishes-national-security-and-export-control-oversight-committee-in-wake-of-jensen-huang-scandal-group-to-work-with-independent-law-national-security-and-trade-compliance-experts",
+          "source": "Tom's Hardware",
+          "lang": "en",
+          "published_at": "2026-11-17T11:21:39Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261116-1161",
       "headline": "삼성전자·SK하이닉스 현금성자산 330조 돌파, 투자 여력 확대",
