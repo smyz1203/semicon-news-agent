@@ -1,7 +1,575 @@
 {
   "version": 1,
-  "updated_at": "2026-11-17T04:08:15Z",
+  "updated_at": "2026-11-17T05:12:32Z",
   "issues": [
+    {
+      "id": "c20261117-1199",
+      "headline": "반도체 웨이퍼 국경 간 이동 확대, 해외 생산 확장 영향",
+      "summary": [
+        "삼성전자와 SK하이닉스가 반도체 생산시설을 해외로 넓히면서 웨이퍼의 국가 간 이동도 늘어날 전망이다.",
+        "한국에서 회로를 만든 뒤 해외에서 패키징하거나, 미국 생산 웨이퍼를 아시아에서 후공정하는 흐름이 거론됐다.",
+        "첨단 공정은 국내에, 범용 공정은 해외에 두는 분업 구조가 강화되며 공급망 물류와 후공정 전략에 영향을 줄 것으로 보인다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "웨이퍼",
+        "해외 생산",
+        "후공정",
+        "패키징",
+        "공급망"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T05:00:00Z",
+      "updated_at": "2026-11-17T05:00:00Z",
+      "articles": [
+        {
+          "key": "bbf5be2ee8250bb5",
+          "title": "첨단은 한국, 범용은 해외…국경 넘는 반도체 웨이퍼",
+          "url": "https://www.inews24.com/view/2026878",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-17T05:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261117-1198",
+      "headline": "마벨·펭귄솔루션즈, AI 데이터센터 메모리 협력 발표",
+      "summary": [
+        "마벨과 펭귄솔루션즈가 AI 데이터센터 메모리 인프라 전략적 협력을 16일(현지시간) 발표했다.",
+        "CXL 기반 서버 메모리 확장과 랙 간 광학 상호연결 기술에서 협력하며 메모리 확장·공유·분리를 지원한다.",
+        "HBM과 DDR5 공급 부족 및 데이터센터 메모리 병목 완화가 목적으로, 산업적 의미가 크다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "CXL",
+        "광인터커넥트",
+        "HBM",
+        "DDR5",
+        "메모리 풀링"
+      ],
+      "companies": [
+        "마벨",
+        "펭귄솔루션즈"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "마벨",
+        "펭귄솔루션즈"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T04:54:16Z",
+      "updated_at": "2026-11-17T04:54:16Z",
+      "articles": [
+        {
+          "key": "105b51e74a16cbed",
+          "title": "마벨-펭귄솔루션즈 전략적 협력...CXL·광솔루션 통합",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65506",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-17T04:54:16Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1197",
+      "headline": "AMD, 월드랩스 인수 완료로 AI 모델 연구 역량 확보",
+      "summary": [
+        "AMD가 AI 모델 개발 기업 월드랩스의 인수 절차를 완료했다고 16일 현지시간 발표했다.",
+        "페이페이 리 전 CEO가 AMD 수석과학자로 합류해 리사 수 CEO에게 직접 보고한다.",
+        "AMD는 AI 반도체·소프트웨어에 모델 연구 역량을 더해 차세대 개방형 AI 연산 인프라 개발에 활용할 계획이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 모델",
+        "기업 인수",
+        "수석과학자",
+        "개방형 AI 인프라",
+        "AI 반도체"
+      ],
+      "companies": [
+        "AMD",
+        "월드랩스"
+      ],
+      "event_type": "인수합병",
+      "confirmed": true,
+      "parties": [
+        "AMD",
+        "월드랩스"
+      ],
+      "importance": 2,
+      "importance_reason": "인수합병 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T04:53:58Z",
+      "updated_at": "2026-11-17T04:53:58Z",
+      "articles": [
+        {
+          "key": "2c2748fdafe9313f",
+          "title": "AMD, 월드랩스 인수 완료...'AI 대모' 수석과학자로 품었다",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65504",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-17T04:53:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1170",
+      "headline": "한국 OLED, 상반기 출하량 1위 탈환하며 중국과 격차 확대",
+      "summary": [
+        "한국이 올해 상반기 세계 OLED 출하량 1위를 되찾아 2년 연속 중국에 내줬던 선두를 회복했다.",
+        "출하량 점유율은 한국 50.1%, 중국 49.8%이며, 매출 점유율은 한국이 68.3%로 지난해 상반기보다 3%포인트 높아졌다.",
+        "OLED 시장에서 한국 기업의 기술·생산 경쟁력이 매출 기준으로 중국과의 격차를 벌렸다는 의미가 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "출하량 점유율",
+        "매출 점유율",
+        "상반기 통계",
+        "디스플레이산업 통계"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "LG디스플레이"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 3,
+      "importance_reason": "시장 전망·통계 2점, 매체 6곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-17T00:15:24Z",
+      "updated_at": "2026-11-17T04:52:46Z",
+      "articles": [
+        {
+          "key": "2f88ad18be244eef",
+          "title": "상반기 韓 OLED 점유율 68.3%…출하량도 中 제치고 1위 탈환",
+          "url": "https://www.dt.co.kr/article/12095583",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-17T00:15:24Z"
+        },
+        {
+          "key": "310c529814a66b78",
+          "title": "韓 OLED, ‘26년 상반기 금액 및 출하량 모두 세계 1위…출하량에서 中 제치고 1위 탈환",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343381",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-17T00:30:00Z"
+        },
+        {
+          "key": "fe2d64b75597828b",
+          "title": "韓, OLED 출하 1위 탈환…中과 OLED 매출 격차 확대",
+          "url": "https://zdnet.co.kr/view/?no=20261117090315",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T01:12:14Z"
+        },
+        {
+          "key": "b7a9d6a176b16d5e",
+          "title": "한국 OLED 점유율 68%…중국 제치고 2년만에 출하량 1위도 탈환",
+          "url": "https://www.yna.co.kr/view/AKR20261117056900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T01:17:59Z"
+        },
+        {
+          "key": "1f278da80d248f3d",
+          "title": "S. Korea regains top spot in global OLED shipments in H1",
+          "url": "https://www.koreaherald.com/article/10939601",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-17T02:16:21Z"
+        },
+        {
+          "key": "6fd8c68fc52ccddd",
+          "title": "韓OLED, 상반기 출하량 1위 탈환…매출 점유율도 68.3%로 확대",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65512",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-17T04:52:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1173",
+      "headline": "세미파이브, 로직 위 D램 적층 3D-IC 칩 설계 적용",
+      "summary": [
+        "세미파이브가 로직 반도체와 D램을 수직 적층하는 3D-IC 플랫폼을 PFN의 차세대 AI 추론 반도체에 처음 적용했다고 밝혔다.",
+        "해당 칩은 내년 1분기 설계를 마치고 테이프아웃에 들어가며, 세미파이브는 설계부터 웨이퍼 양산 공급까지 턴키로 맡는다.",
+        "AI 칩의 메모리 병목을 줄이는 적층 설계 기술이 ASIC 설계 시장에서 경쟁력으로 떠오를 수 있다는 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "3D-IC",
+        "D램 적층",
+        "AI 추론 반도체",
+        "테이프아웃",
+        "ASIC"
+      ],
+      "companies": [
+        "세미파이브",
+        "프리퍼드 네트웍스"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "세미파이브",
+        "프리퍼드 네트웍스"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T00:44:07Z",
+      "updated_at": "2026-11-17T04:46:57Z",
+      "articles": [
+        {
+          "key": "bbc9a6485f5a8811",
+          "title": "세미파이브, HBM 한계 넘을 3D-IC 플랫폼 공개…AI 반도체 판 바꾼다",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409872",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T00:44:07Z"
+        },
+        {
+          "key": "dd5f587e059460b0",
+          "title": "세미파이브, 로직 위에 D램 쌓는 AI 칩 설계…내년 1분기 테이프아웃",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65513",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-17T04:46:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1196",
+      "headline": "비엠티, 글로벌 톱 장비사 A사 정식 공급사 선정",
+      "summary": [
+        "비엠티가 미국 글로벌 반도체 장비사 A사의 승인 공급사 명단에 올랐다.",
+        "3~4년 평가를 거쳐 지난 9월 선정됐으며 모든 장비와 프로젝트에 공급할 자격을 얻었다.",
+        "글로벌 장비 부품 시장 진입에 성공해 내년부터 A사에서 연간 수백억원 매출을 기대한다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "장비 부품",
+        "공급사 승인",
+        "글로벌 장비",
+        "부품 국산화"
+      ],
+      "companies": [
+        "비엠티",
+        "스웨즈락",
+        "후지킨"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "비엠티",
+        "A사"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T04:42:27Z",
+      "updated_at": "2026-11-17T04:42:27Z",
+      "articles": [
+        {
+          "key": "dd0b656a23e0f7c1",
+          "title": "비엠티, 글로벌 톱 장비사 뚫었다…연간 수백억원 매출 기대",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65525",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-17T04:42:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261116-1146",
+      "headline": "SK하이닉스 미국 매출 비중 60% 돌파, 엔비디아 의존 심화",
+      "summary": [
+        "SK하이닉스의 3분기 미국 매출이 1년 새 크게 늘어 전체의 60%를 넘었다.",
+        "미국 매출은 약 148조원으로 전체의 62.5%를 차지했고, 엔비디아 매출은 약 35조원으로 집계됐다.",
+        "AI 메모리 판매에서 엔비디아 비중이 커지고 있어 특정 고객 의존도 리스크가 주목된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "HBM",
+        "AI메모리",
+        "미국 매출 비중",
+        "엔비디아 의존도"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "엔비디아"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 5,
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스) +1, 매체 3곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-16T08:10:13Z",
+      "updated_at": "2026-11-17T04:41:25Z",
+      "articles": [
+        {
+          "key": "a75945e8fcc2639f",
+          "title": "SK하이닉스, 3분기 미국 매출 1년새 102조↑…엔비디아 35조",
+          "url": "https://www.yna.co.kr/view/AKR20261116152900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-16T08:10:13Z"
+        },
+        {
+          "key": "6eb6aa14c23b04f3",
+          "title": "SK하이닉스, 美 매출 148조원…전체 62.5% 차지",
+          "url": "https://www.dt.co.kr/article/12095492",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-16T08:36:25Z"
+        },
+        {
+          "key": "d19ed3994a42f585",
+          "title": "SK Hynix's US revenue tops 60%, exposing Nvidia's growing weight in AI memory sales",
+          "url": "https://www.digitimes.com/news/a20261117VL211/sk-hynix-memory-nvidia-revenue-sales-2026.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T04:41:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261117-1177",
+      "headline": "ETRI, 우주용 전력반도체 2종 국산화 성공",
+      "summary": [
+        "한국전자통신연구원(ETRI)이 인공위성 전력시스템에 쓰이는 전력반도체 2종을 국산화했다고 밝혔다.",
+        "글로벌 톱 전략연구단이 국내 반도체 기업과 함께 개발했으며 글로벌 규격을 충족한다고 전해졌다.",
+        "해외 기술 의존도가 높던 우주용 반도체의 기술 자립 기반을 마련했다는 평가가 나온다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "우주용 반도체",
+        "전력반도체",
+        "국산화",
+        "인공위성"
+      ],
+      "companies": [
+        "ETRI",
+        "한국전자통신연구원"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "한국전자통신연구원"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T01:30:40Z",
+      "updated_at": "2026-11-17T04:34:57Z",
+      "articles": [
+        {
+          "key": "e817804dc669dba9",
+          "title": "ETRI, 우주용 전력반도체 2종 국산화…위성 핵심 부품 확보",
+          "url": "https://www.yna.co.kr/view/AKR20261117063700063",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T01:30:40Z"
+        },
+        {
+          "key": "1403b7abe4459657",
+          "title": "우주서 작동하는 ‘전력반도체’ 2종 국산화…글로벌 규격 충족",
+          "url": "https://www.dt.co.kr/article/12095637",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-17T04:34:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261117-1195",
+      "headline": "다신, 2030년 반도체 소재 매출 비중 50% 초과 목표",
+      "summary": [
+        "다신(Daxin)은 2030년까지 반도체 소재 사업이 전체 매출의 절반을 넘는 것을 목표로 한다고 밝혔다.",
+        "기사 본문이 제목과 크레딧만 있어 구체적인 매출액이나 세부 계획은 확인되지 않는다.",
+        "소재 사업 비중 확대는 사업 포트폴리오 재편 방향을 보여주는 신호로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "반도체 소재",
+        "매출 구조 전환",
+        "2030 목표"
+      ],
+      "companies": [
+        "다신"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "재무·주주 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T04:28:47Z",
+      "updated_at": "2026-11-17T04:28:47Z",
+      "articles": [
+        {
+          "key": "66e1d21ce669aa1a",
+          "title": "Daxin aims for semiconductor materials to exceed half of revenue by 2030",
+          "url": "https://www.digitimes.com/news/a20261117PD213/materials-revenue-daxin-demand-2026.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T04:28:47Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261117-1194",
+      "headline": "삼성 파운드리, 국산 AI칩 이니셔티브로 방산·로봇 공략",
+      "summary": [
+        "삼성 파운드리가 한국의 국산 AI칩 이니셔티브를 통해 방산과 로봇 시장을 겨냥하고 있다는 보도가 나왔다.",
+        "기사 본문은 사진 출처 표기만 있어 구체적인 수치나 일정은 확인되지 않는다.",
+        "방산·로봇 등 특화 시장으로의 진출은 파운드리 고객 다변화 측면에서 의미가 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "국산 AI칩",
+        "파운드리",
+        "방산",
+        "로봇"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T04:21:33Z",
+      "updated_at": "2026-11-17T04:21:33Z",
+      "articles": [
+        {
+          "key": "1ed95bd54ddfd209",
+          "title": "Samsung Foundry targets defense, robotics markets through South Korea's homegrown AI chip initiative",
+          "url": "https://www.digitimes.com/news/a20261117PD220/samsung-foundry-ai-chip-samsung-chips-manufacturing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T04:21:33Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1193",
+      "headline": "유럽·일본 반도체 협력 확대, imec 홋카이도 진출",
+      "summary": [
+        "imec가 홋카이도에서 사업을 확장하고 JASMINE 프로젝트가 가동에 나선 것으로 전해졌다.",
+        "기사 본문이 사실상 비어 있어 구체적인 투자 규모와 일정은 확인되지 않는다.",
+        "유럽과 일본의 반도체 협력이 깊어지는 흐름을 보여주는 소식으로 볼 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "imec",
+        "JASMINE",
+        "홋카이도",
+        "유럽-일본 협력",
+        "반도체 협력"
+      ],
+      "companies": [
+        "imec"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [
+        "imec"
+      ],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T04:15:29Z",
+      "updated_at": "2026-11-17T04:15:29Z",
+      "articles": [
+        {
+          "key": "9bfa8eac8aba3de1",
+          "title": "Europe and Japan deepen semiconductor ties as imec expands in Hokkaido and JASMINE mobilizes",
+          "url": "https://www.digitimes.com/news/a20261117VL212/europe-japan-semiconductors-equipment-materials-industrial-imec.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T04:15:29Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261117-1191",
       "headline": "삼성, 메타용 맞춤형 HBM 개발 추진",
@@ -377,84 +945,6 @@
       "importance_raw": 4
     },
     {
-      "id": "c20261117-1170",
-      "headline": "한국 OLED, 상반기 출하량 1위 탈환하며 중국 제쳐",
-      "summary": [
-        "한국디스플레이산업협회 발표에 따르면 상반기 OLED 출하량 점유율은 한국 50.1%, 중국 49.8%로 한국이 1위를 되찾았다.",
-        "매출 점유율은 한국 68.3%로 전년 대비 3.0%p 올랐고, LTPO와 탠덤 등 고부가 제품 양산이 성과를 이끌었다.",
-        "LCD 축소로 전체 디스플레이 점유율은 0.9%p 줄어, OLED 중심 고부가 전환의 효과와 과제가 함께 드러났다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "OLED",
-        "LTPO",
-        "탠덤 OLED",
-        "출하량 1위",
-        "디스플레이 통계"
-      ],
-      "companies": [
-        "삼성디스플레이",
-        "LG디스플레이",
-        "BOE",
-        "애플"
-      ],
-      "event_type": "시장 전망·통계",
-      "confirmed": true,
-      "parties": [],
-      "importance": 3,
-      "importance_reason": "시장 전망·통계 2점, 매체 5곳 보도 +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-17T00:15:24Z",
-      "updated_at": "2026-11-17T02:16:21Z",
-      "articles": [
-        {
-          "key": "2f88ad18be244eef",
-          "title": "상반기 韓 OLED 점유율 68.3%…출하량도 中 제치고 1위 탈환",
-          "url": "https://www.dt.co.kr/article/12095583",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-17T00:15:24Z"
-        },
-        {
-          "key": "310c529814a66b78",
-          "title": "韓 OLED, ‘26년 상반기 금액 및 출하량 모두 세계 1위…출하량에서 中 제치고 1위 탈환",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=343381",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-11-17T00:30:00Z"
-        },
-        {
-          "key": "fe2d64b75597828b",
-          "title": "韓, OLED 출하 1위 탈환…中과 OLED 매출 격차 확대",
-          "url": "https://zdnet.co.kr/view/?no=20261117090315",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-17T01:12:14Z"
-        },
-        {
-          "key": "b7a9d6a176b16d5e",
-          "title": "한국 OLED 점유율 68%…중국 제치고 2년만에 출하량 1위도 탈환",
-          "url": "https://www.yna.co.kr/view/AKR20261117056900003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-17T01:17:59Z"
-        },
-        {
-          "key": "1f278da80d248f3d",
-          "title": "S. Korea regains top spot in global OLED shipments in H1",
-          "url": "https://www.koreaherald.com/article/10939601",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-11-17T02:16:21Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
       "id": "c20261117-1183",
       "headline": "삼성전자·SK하이닉스, 500대 기업 영업익 80% 차지",
       "summary": [
@@ -585,6 +1075,51 @@
       ],
       "type_checked": true,
       "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1192",
+      "headline": "KAIST 연구생들, AI 에이전트 시대 반도체 인재 전략 제시",
+      "summary": [
+        "KAIST 테라랩 연구생들이 AI 에이전트 도입에 따른 반도체 산업의 변화와 과제를 논의했다.",
+        "연구생들은 인재 유출 방지를 위해 스톡옵션 도입, 설계·해석 기반 기술 투자, 해석 데이터 공유 체계를 제시했다.",
+        "반도체 설계는 공개 데이터가 적어 AI 대체 속도가 느릴 것이라는 전망도 나왔다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 에이전트",
+        "반도체 설계 자동화",
+        "인재 유출",
+        "스톡옵션",
+        "해석 데이터"
+      ],
+      "companies": [
+        "KAIST"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "KAIST"
+      ],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T02:09:42Z",
+      "updated_at": "2026-11-17T02:09:42Z",
+      "articles": [
+        {
+          "key": "f06ea02aa14f9709",
+          "title": "KAIST 석·박과정 \"인재유출 막으려면 미국처럼 스톡옵션 도입을\"",
+          "url": "https://zdnet.co.kr/view/?no=20261116184020",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T02:09:42Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261117-1184",
@@ -926,51 +1461,6 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261117-1177",
-      "headline": "ETRI, 우주용 전력반도체 2종 국산화 성과",
-      "summary": [
-        "ETRI는 저궤도 위성 전력시스템에 쓸 650V급 탄화규소 전력반도체 2종을 국산화했다.",
-        "기사 본문이 짧게 잘려 있어 세부 성능과 양산 일정 등 구체적 수치는 확인되지 않는다.",
-        "위성 핵심 부품을 국내에서 확보했다는 점에서 우주용 반도체 공급망 자립에 의미가 있다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "우주용 반도체",
-        "탄화규소",
-        "전력반도체",
-        "저궤도 위성",
-        "국산화"
-      ],
-      "companies": [
-        "ETRI"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "ETRI"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-17T01:30:40Z",
-      "updated_at": "2026-11-17T01:30:40Z",
-      "articles": [
-        {
-          "key": "e817804dc669dba9",
-          "title": "ETRI, 우주용 전력반도체 2종 국산화…위성 핵심 부품 확보",
-          "url": "https://www.yna.co.kr/view/AKR20261117063700063",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-17T01:30:40Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
       "id": "c20261117-1176",
       "headline": "오픈AI, 텐서웨이브와 AMD 기반 457MW AI 인프라 확보",
       "summary": [
@@ -1104,51 +1594,6 @@
           "source": "Semiconductor Engineering",
           "lang": "en",
           "published_at": "2026-11-17T00:56:29Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261117-1173",
-      "headline": "세미파이브, HBM 대안 3D-IC 플랫폼 공개",
-      "summary": [
-        "세미파이브가 미국 시카고 SC26 전시회에서 자체 개발한 3D-IC 특화 플랫폼과 첫 개발 협업 성과를 공개했다.",
-        "HBM 공급 제약을 보완할 차세대 패키징 기술로, 고성능 AI ASIC 수요 대응을 위해 R&D와 공급망 구축을 선제적으로 진행해 왔다.",
-        "맞춤형 AI 반도체 시장에서 HBM 의존도를 낮추는 패키징 선택지가 넓어질 것으로 보인다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "3D-IC",
-        "HBM",
-        "패키징",
-        "맞춤형 AI 반도체",
-        "ASIC"
-      ],
-      "companies": [
-        "세미파이브"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "세미파이브"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-17T00:44:07Z",
-      "updated_at": "2026-11-17T00:44:07Z",
-      "articles": [
-        {
-          "key": "bbc9a6485f5a8811",
-          "title": "세미파이브, HBM 한계 넘을 3D-IC 플랫폼 공개…AI 반도체 판 바꾼다",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409872",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-17T00:44:07Z"
         }
       ],
       "type_checked": true,
@@ -2232,59 +2677,6 @@
       ],
       "type_checked": true,
       "importance_raw": 4
-    },
-    {
-      "id": "c20261116-1146",
-      "headline": "SK하이닉스 미국 매출 급증, 전체의 60% 이상 차지",
-      "summary": [
-        "SK하이닉스의 올해 3분기 누적 미국 매출이 148조원에 육박한 것으로 나타났다.",
-        "미국 매출은 지난해 같은 기간보다 100조원 넘게 늘었고 엔비디아 매출은 35조원이다.",
-        "AI 데이터센터 투자 확대로 미국 빅테크 수요가 커지며 SK하이닉스의 대미 의존도가 높아졌다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "AI 데이터센터",
-        "미국 매출",
-        "HBM",
-        "엔비디아 공급"
-      ],
-      "companies": [
-        "SK하이닉스",
-        "엔비디아"
-      ],
-      "event_type": "시장 전망·통계",
-      "confirmed": true,
-      "parties": [
-        "SK하이닉스"
-      ],
-      "importance": 3,
-      "importance_reason": "시장 전망·통계 2점, 관심 기업(SK하이닉스) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-16T08:10:13Z",
-      "updated_at": "2026-11-16T08:36:25Z",
-      "articles": [
-        {
-          "key": "a75945e8fcc2639f",
-          "title": "SK하이닉스, 3분기 미국 매출 1년새 102조↑…엔비디아 35조",
-          "url": "https://www.yna.co.kr/view/AKR20261116152900003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-16T08:10:13Z"
-        },
-        {
-          "key": "6eb6aa14c23b04f3",
-          "title": "SK하이닉스, 美 매출 148조원…전체 62.5% 차지",
-          "url": "https://www.dt.co.kr/article/12095492",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-16T08:36:25Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261116-1148",
