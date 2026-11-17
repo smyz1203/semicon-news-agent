@@ -1,7 +1,587 @@
 {
   "version": 1,
-  "updated_at": "2026-11-17T07:41:18Z",
+  "updated_at": "2026-11-17T09:18:01Z",
   "issues": [
+    {
+      "id": "c20261117-1216",
+      "headline": "삼성 파운드리 DSP 5곳 중 4곳 3분기 매출 증가, 수익성은 엇갈려",
+      "summary": [
+        "국내 삼성전자 파운드리 DSP 5곳 중 4곳이 올해 3분기 매출을 전년 대비 늘렸다.",
+        "코아시아세미 매출은 439억8000만원으로 전년 동기 145억2000만원의 약 3배로 늘었다.",
+        "DSP 업체 간 수익성 격차가 커져 파운드리 생태계 내 실적 양극화가 나타났다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "파운드리 DSP",
+        "삼성 파운드리",
+        "3분기 실적",
+        "영업흑자"
+      ],
+      "companies": [
+        "코아시아세미",
+        "가온칩스",
+        "알파칩스",
+        "세미파이브",
+        "에이디테크놀로지",
+        "삼성전자"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "코아시아세미",
+        "가온칩스",
+        "알파칩스",
+        "세미파이브",
+        "에이디테크놀로지"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T09:12:46Z",
+      "updated_at": "2026-11-17T09:12:46Z",
+      "articles": [
+        {
+          "key": "55d5e0902371924d",
+          "title": "삼성 DSP 5곳 중 4곳 매출 증가…수익성은 엇갈려",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65532",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-17T09:12:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1200",
+      "headline": "경기도, 8개 시와 반도체클러스터 지정 추진",
+      "summary": [
+        "경기도는 수원·용인·화성 등 8개 시와 함께 반도체클러스터 지정을 추진하고 있다.",
+        "기사 본문이 짧게 잘려 있어 구체적인 일정이나 지정 기준, 예산 규모는 확인되지 않는다.",
+        "지역 반도체 산업 생태계를 국가 차원에서 묶는 움직임으로, 용인·평택 등 클러스터 확대 흐름과 맞물린다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체클러스터",
+        "지역 인프라",
+        "경기도",
+        "용인반도체단지"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T05:30:46Z",
+      "updated_at": "2026-11-17T08:48:24Z",
+      "articles": [
+        {
+          "key": "c0562b9a0dfc02cd",
+          "title": "경기도, 용인 등 8개 시와 '반도체클러스터 지정' 추진",
+          "url": "https://www.yna.co.kr/view/AKR20261117109600061",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T05:30:46Z"
+        },
+        {
+          "key": "9ad26bf840aac476",
+          "title": "경기도·8개 시, 반도체클러스터 지정 추진…행정 지원 강화(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261117109651061",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T08:48:24Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261117-1215",
+      "headline": "부산에 차세대 전력반도체 소재 공장 준공",
+      "summary": [
+        "부산에 원자력 연구로를 활용해 반도체 소재를 생산하는 차세대 전력반도체 공장이 준공됐다.",
+        "기사에 따르면 해당 공장은 국내 최초 시설이며 투자 규모는 100억원으로 보도됐다.",
+        "국내 전력반도체 소재 생산 기반이 지방에 구축되면서 관련 공급망 다변화에 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "전력반도체",
+        "반도체 소재",
+        "원자력 연구로",
+        "부산 공장"
+      ],
+      "companies": [
+        "NFS"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "NFS"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T08:33:29Z",
+      "updated_at": "2026-11-17T08:33:29Z",
+      "articles": [
+        {
+          "key": "7389d6212fa61f32",
+          "title": "차세대 전력반도체 기업 NFS 부산 공장 준공…100억원 투자",
+          "url": "https://www.yna.co.kr/view/AKR20261117150900051",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T08:33:29Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1209",
+      "headline": "AP시스템, IT OLED용 HMO ALD 장비 상용화 추진",
+      "summary": [
+        "AP시스템이 차세대 IT OLED에 적용할 고이동도산화물(HMO) 원자층증착(ALD) 장비 상용화를 추진 중이라고 17일 밝혔다.",
+        "공간분할 방식 ALD 장비로 공정 효율을 기존보다 40% 이상 개선했다고 설명하며 대면적 양산 적용을 협의 중이다.",
+        "ELA 장비 중심이던 사업이 산화물 TFT 공정 장비로 넓어져 새로운 매출원이 될 수 있다는 평가다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "HMO",
+        "ALD",
+        "IT OLED",
+        "산화물 TFT",
+        "ELA"
+      ],
+      "companies": [
+        "AP시스템"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "AP시스템"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T08:11:46Z",
+      "updated_at": "2026-11-17T08:30:18Z",
+      "articles": [
+        {
+          "key": "67ba7715f9fc7d7f",
+          "title": "AP시스템, \"고이동도산화물 원자층증착장비 상용화 추진\"...IT OLED 겨냥",
+          "url": "https://zdnet.co.kr/view/?no=20261117170631",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T08:11:46Z"
+        },
+        {
+          "key": "8009f531957c9ff8",
+          "title": "AP시스템, HMO용 ALD 장비 상용화 추진",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65536",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-17T08:30:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1204",
+      "headline": "인텔, AI 추론용 GPU D270 성능 주장 공개",
+      "summary": [
+        "인텔이 데이터센터용 GPU 'D270' 성능이 엔비디아 시스템 대비 최대 5.9배라고 발표했다.",
+        "금융 벤치마크 테스트에서 엔비디아 RTX 프로 6000 대비 최대 5.9배 높은 처리량을 기록했다고 밝혔다.",
+        "자사 GPU가 엔비디아 대비 추론 성능 경쟁력을 갖췄다는 점을 보여 AI 가속기 시장 경쟁이 심화될 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "GPU D270",
+        "AI 추론",
+        "엔비디아 RTX 프로 6000",
+        "FP64",
+        "HPC"
+      ],
+      "companies": [
+        "인텔",
+        "엔비디아"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "인텔"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T07:00:00Z",
+      "updated_at": "2026-11-17T08:30:07Z",
+      "articles": [
+        {
+          "key": "0370681578a5c7fd",
+          "title": "AI 추론용 GPU의 반전…인텔 D270, HPC까지 넘본다",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409876",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T07:00:00Z"
+        },
+        {
+          "key": "560e884748793d1b",
+          "title": "인텔 \"GPU D270 성능 엔비디아 5.9배\"...FP64 지원",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65551",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-17T08:30:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1210",
+      "headline": "저스템 2세대 습도제어 JFS, 세계일류상품 선정",
+      "summary": [
+        "저스템의 2세대 습도제어 장비 JFS가 산업통상자원부·KOTRA 주관 2026 세계일류상품에 선정됐다.",
+        "JFS는 웨이퍼 보관·이송 중 습도를 낮춰 산화와 오염을 억제하며, 1세대 N2 LPM 대비 기류 제어를 개선했다.",
+        "HBM 등 첨단 반도체 공정의 수율 향상 수요에 맞춰, 1세대에 이은 2년 연속 인증으로 장비 경쟁력을 입증했다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "습도제어",
+        "JFS",
+        "세계일류상품",
+        "HBM",
+        "수율"
+      ],
+      "companies": [
+        "저스템"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "저스템"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T08:12:51Z",
+      "updated_at": "2026-11-17T08:29:54Z",
+      "articles": [
+        {
+          "key": "8e9a2fe3289ed49e",
+          "title": "저스템, 습도제어 제품 'JFS' 세계일류상품 선정",
+          "url": "https://zdnet.co.kr/view/?no=20261117163603",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T08:12:51Z"
+        },
+        {
+          "key": "9d9ffd529c7417be",
+          "title": "저스템, 2세대 습도제어 제품 '세계일류상품' 선정",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65556",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-17T08:29:54Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261117-1214",
+      "headline": "심텍 메모리 기판 3종 세계일류상품 선정",
+      "summary": [
+        "심텍의 SOCAMM, RDIMM, LPDDR 기판 3종이 현재 세계일류상품으로 추가 선정됐다.",
+        "심텍이 보유한 세계일류상품은 총 7종으로 늘었으며, 17일 세계일류상품 수출대전에서 인증서를 받았다.",
+        "AI 서버용 메모리 기판의 기술력과 수출 경쟁력이 정부 인증으로 확인된 사례다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "SOCAMM",
+        "RDIMM",
+        "LPDDR",
+        "세계일류상품",
+        "메모리 기판"
+      ],
+      "companies": [
+        "심텍"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "심텍"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T08:29:45Z",
+      "updated_at": "2026-11-17T08:29:45Z",
+      "articles": [
+        {
+          "key": "af4301e7a4443307",
+          "title": "심텍, SOCAMM·RDIMM·LPDDR 기판 3종 세계일류상품 선정",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65558",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-17T08:29:45Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261117-1213",
+      "headline": "TSMC·알칩, 10월 AI 서버 매출 급증 흐름 포착",
+      "summary": [
+        "TSMC와 알칩이 10월 AI 서버 관련 매출에서 큰 폭의 증가를 기록한 것으로 보도됐다.",
+        "기사 본문이 없어 구체적 매출 수치나 2나노·ASIC 수주 규모는 확인되지 않는다.",
+        "AI 서버용 2나노 공정과 주문형 칩 수요가 파운드리 실적에 영향을 주고 있음을 보여준다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "2나노",
+        "ASIC",
+        "AI서버",
+        "파운드리"
+      ],
+      "companies": [
+        "TSMC",
+        "알칩"
+      ],
+      "event_type": "실적",
+      "confirmed": false,
+      "parties": [
+        "TSMC",
+        "알칩"
+      ],
+      "importance": 2,
+      "importance_reason": "실적 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T08:27:15Z",
+      "updated_at": "2026-11-17T08:27:15Z",
+      "articles": [
+        {
+          "key": "0d1e9843ead86b98",
+          "title": "AI server tracker: TSMC, Alchip post big October gains powered by 2nm and ASIC orders",
+          "url": "https://www.digitimes.com/news/a20261117VL216/revenue-growth-taiwan-semiconductor-supply-chain-tsmc-2nm.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T08:27:15Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1212",
+      "headline": "젠슨 황 해임 후 엔비디아 첫 실적, 크레스 CEO 과제",
+      "summary": [
+        "엔비디아가 젠슨 황 전 CEO 해임 이후 처음으로 분기 실적을 발표하며 콜렛 크레스 임시 CEO가 나선다.",
+        "이번 발표에서는 황 회장의 복귀 여부, 싱가포르 매출 집계 기준 변경, 메가스피드 관련 칩 공급 중단이 쟁점이다.",
+        "중국 수출 규제와 판매 전략 변화 여부가 AI 반도체 업계 전반의 관심사가 될 전망이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "콜렛 크레스",
+        "대중국 수출규제",
+        "메가스피드",
+        "싱가포르 매출"
+      ],
+      "companies": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T08:19:51Z",
+      "updated_at": "2026-11-17T08:19:51Z",
+      "articles": [
+        {
+          "key": "051d4dc6086d6f3d",
+          "title": "젠슨 황 없는 엔비디아, 첫 실적 발표서 답해야 할 질문",
+          "url": "https://zdnet.co.kr/view/?no=20261117170059",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T08:19:51Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1211",
+      "headline": "JDI, 모바라 공장 신코전기공업에 매각…상장 유지 숨통",
+      "summary": [
+        "JDI가 치바현 모바라 공장을 반도체 패키지 기판 업체 신코전기공업에 매각하기로 2026년 9월 30일 최종 계약했다.",
+        "신코는 이곳을 AI 가속기용 플립칩 패키지의 핵심 공장으로 바꾸며 2028 회계연도 가동을 목표로 한다.",
+        "JDI는 매각으로 3억 2,200만 달러 이익을 예상하며, 순자산이 플러스로 돌아서 도쿄증권거래소 프라임 시장 상장 유지에 도움이 된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "모바라 공장",
+        "OLED",
+        "플립칩 패키지",
+        "상장 유지",
+        "공장 매각"
+      ],
+      "companies": [
+        "JDI",
+        "신코전기공업"
+      ],
+      "event_type": "인수합병",
+      "confirmed": true,
+      "parties": [
+        "JDI",
+        "신코전기공업"
+      ],
+      "importance": 2,
+      "importance_reason": "인수합병 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T08:14:38Z",
+      "updated_at": "2026-11-17T08:14:38Z",
+      "articles": [
+        {
+          "key": "074887b0720da156",
+          "title": "Japan Display sells its former OLED fab in Mobara to Shinko Electric Industries",
+          "url": "https://www.oled-info.com/japan-display-returns-positive-net-assets-it-sells-its-former-oled-fab-mobara",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-17T08:14:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1208",
+      "headline": "반도체 기술 논문 모음, HBM 컨트롤러·CFET 등 연구 동향",
+      "summary": [
+        "학술 기술 논문 목록이 반도체 전문 매체에 새로 추가되었으며, HBM 컨트롤러 분할과 2D CFET 등이 포함되었다.",
+        "논문에는 DRAM급 저전압 강유전체 커패시터, 금속-반도체 접촉 열화 완화, 신경망 비트플립 공격 방어 등이 다뤄졌다.",
+        "개별 연구 성과는 상용화 단계가 아니어서 산업에 미치는 직접적 영향은 제한적이며, 차세대 소자 연구 방향을 보여준다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "HBM",
+        "CFET",
+        "강유전체 DRAM",
+        "기술 논문",
+        "HBM 컨트롤러"
+      ],
+      "companies": [
+        "UC Riverside",
+        "서울대학교",
+        "한양대학교",
+        "POSTECH"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T08:01:08Z",
+      "updated_at": "2026-11-17T08:01:08Z",
+      "articles": [
+        {
+          "key": "b3669523999d65ff",
+          "title": "Chip Industry Technical Paper Roundup: Nov. 17",
+          "url": "https://semiengineering.com/chip-industry-technical-paper-roundup-nov-17/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-17T08:01:08Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1207",
+      "headline": "미국, 2024년부터 엔비디아 싱가포르 고객 수사 착수 주장",
+      "summary": [
+        "미국 당국이 싱가포르 당국의 자체 수사보다 수개월 앞선 2024년에 엔비디아 싱가포르 고객에 대한 조사를 시작했다고 밝혔다.",
+        "기사 본문이 제공되지 않아 구체적인 수사 대상, 혐의, 일정 등 세부 내용은 확인되지 않는다.",
+        "이번 발표는 AI 반도체 수출 통제 집행과 관련한 미·싱가포르 공조 및 엔비디아 유통 경로 관리에 관심을 높일 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출통제",
+        "엔비디아",
+        "AI반도체",
+        "싱가포르",
+        "수사"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T07:42:14Z",
+      "updated_at": "2026-11-17T07:42:14Z",
+      "articles": [
+        {
+          "key": "a910cd29cb6d1e0c",
+          "title": "US says it began probing Nvidia's Singapore customer in 2024, months before Singapore's own case",
+          "url": "https://www.digitimes.com/news/a20261117VL215/nvidia-2024-2025-investigation-2026.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T07:42:14Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261117-1206",
       "headline": "엔비디아 매디슨 황의 내부 영향력 논란",
@@ -92,6 +672,59 @@
       ],
       "type_checked": true,
       "importance_raw": 3
+    },
+    {
+      "id": "c20261116-1162",
+      "headline": "미국, 해외 데이터센터 원격 이용까지 AI 반도체 수출통제 확대",
+      "summary": [
+        "미국 상무부 BIS가 16일 첨단 AI 반도체·서버의 원격 접근을 제한하는 잠정 최종 규정을 발표했다.",
+        "중국 기업이 해외 데이터센터의 GPU를 원격으로 빌려 쓰는 경로를 규제하고, 동남아 4개국과 브라질의 수출허가 요건도 강화했다.",
+        "기존 물리적 반출 중심 규제의 사각지대를 메우는 조치로, 클라우드형 AI 연산 우회 공급 차단이 강화될 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI반도체",
+        "수출통제",
+        "원격 이용",
+        "GPU",
+        "재반출 통제"
+      ],
+      "companies": [
+        "엔비디아",
+        "메가스피드",
+        "삼성전자"
+      ],
+      "event_type": "정책·규제·법",
+      "confirmed": true,
+      "parties": [],
+      "importance": 4,
+      "importance_reason": "정책·규제·법 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T21:07:07Z",
+      "updated_at": "2026-11-17T07:32:05Z",
+      "articles": [
+        {
+          "key": "b0a065dbce029198",
+          "title": "美, AIDC 中접속 제한…수출규제 우회 차단 조치",
+          "url": "https://www.dt.co.kr/article/12095565",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-16T21:07:07Z"
+        },
+        {
+          "key": "df6b7e438335918f",
+          "title": "[AI 고속도로] 美 AI 반도체 수출통제 클라우드까지 확대…中 우회 이용 차단",
+          "url": "https://zdnet.co.kr/view/?no=20261117152056",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T07:32:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
     },
     {
       "id": "c20261117-1197",
@@ -198,51 +831,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261117-1204",
-      "headline": "인텔 D270, AI 추론 GPU를 HPC 시장으로 확대",
-      "summary": [
-        "인텔이 AI 추론용 GPU D270을 고성능 컴퓨팅(HPC) 시장으로 확대하겠다고 밝혔다.",
-        "네이티브 FP64 연산과 대용량 메모리를 내세워 과학 시뮬레이션과 금융 모델링 등 정밀 연산 영역을 겨냥한다.",
-        "AI 추론 중심이던 GPU 활용 범위가 넓어지며 인텔의 데이터센터 GPU 경쟁력에 영향을 줄 전망이다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "D270",
-        "크레센트 아일랜드",
-        "AI 추론",
-        "HPC",
-        "FP64"
-      ],
-      "companies": [
-        "인텔"
-      ],
-      "event_type": "시장 전망·통계",
-      "confirmed": true,
-      "parties": [
-        "인텔"
-      ],
-      "importance": 2,
-      "importance_reason": "시장 전망·통계 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-17T07:00:00Z",
-      "updated_at": "2026-11-17T07:00:00Z",
-      "articles": [
-        {
-          "key": "0370681578a5c7fd",
-          "title": "AI 추론용 GPU의 반전…인텔 D270, HPC까지 넘본다",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409876",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-17T07:00:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261116-1100",
@@ -495,46 +1083,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261117-1200",
-      "headline": "경기도, 8개 시와 반도체클러스터 지정 추진",
-      "summary": [
-        "경기도는 수원·용인·화성 등 8개 시와 함께 반도체클러스터 지정을 추진하고 있다.",
-        "기사 본문이 짧게 잘려 있어 구체적인 일정이나 지정 기준, 예산 규모는 확인되지 않는다.",
-        "지역 반도체 산업 생태계를 국가 차원에서 묶는 움직임으로, 용인·평택 등 클러스터 확대 흐름과 맞물린다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "반도체클러스터",
-        "지역 인프라",
-        "경기도",
-        "용인반도체단지"
-      ],
-      "companies": [],
-      "event_type": "지역·인프라",
-      "confirmed": false,
-      "parties": [],
-      "importance": 1,
-      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-17T05:30:46Z",
-      "updated_at": "2026-11-17T05:30:46Z",
-      "articles": [
-        {
-          "key": "c0562b9a0dfc02cd",
-          "title": "경기도, 용인 등 8개 시와 '반도체클러스터 지정' 추진",
-          "url": "https://www.yna.co.kr/view/AKR20261117109600061",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-17T05:30:46Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
     },
     {
       "id": "c20261117-1199",
@@ -2455,49 +3003,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261116-1162",
-      "headline": "미국, 해외 데이터센터 통한 중국 AI반도체 접근 차단",
-      "summary": [
-        "미국 정부가 중국의 첨단 AI반도체 접근을 더 제한하는 통제 조치를 발표했다.",
-        "반도체 직접 수출뿐 아니라 해외 데이터센터를 통한 원격 연산 서비스도 제한 대상에 포함됐다.",
-        "수출규제 우회 경로를 막는 조치로, 중국 AI 개발 환경에 영향을 줄 전망이다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "수출규제",
-        "AI반도체",
-        "AIDC",
-        "원격연산",
-        "미국 상무부"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "정책·규제·법",
-      "confirmed": true,
-      "parties": [],
-      "importance": 4,
-      "importance_reason": "정책·규제·법 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-16T21:07:07Z",
-      "updated_at": "2026-11-16T21:07:07Z",
-      "articles": [
-        {
-          "key": "b0a065dbce029198",
-          "title": "美, AIDC 中접속 제한…수출규제 우회 차단 조치",
-          "url": "https://www.dt.co.kr/article/12095565",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-16T21:07:07Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
     },
     {
       "id": "c20261116-1161",
