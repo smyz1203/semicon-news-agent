@@ -1,7 +1,451 @@
 {
   "version": 1,
-  "updated_at": "2026-11-17T09:18:01Z",
+  "updated_at": "2026-11-17T11:14:29Z",
   "issues": [
+    {
+      "id": "c20261116-1161",
+      "headline": "삼성전자·SK하이닉스 현금성자산 330조 돌파, 투자 여력 확대",
+      "summary": [
+        "삼성전자와 SK하이닉스가 AI 메모리 호황으로 보유 현금성 자산이 330조원 수준으로 늘었다.",
+        "1년 새 193조원 급증한 것으로 나타났으며, 양사는 대규모 투자와 주주환원을 검토하고 있다.",
+        "막대한 현금 여력이 메모리 경쟁력 강화와 주주가치 제고에 쓰일 수 있어 업계 관심이 크다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI메모리",
+        "슈퍼사이클",
+        "현금성자산",
+        "주주환원",
+        "대규모 투자"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 2,
+      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스, 삼성전자) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-16T21:01:00Z",
+      "updated_at": "2026-11-17T10:28:29Z",
+      "articles": [
+        {
+          "key": "3ef0caa54774bd6e",
+          "title": "삼전닉스 현금 곳간 329조 돌파…1년새 193조 급증",
+          "url": "https://www.yna.co.kr/view/AKR20261116168000003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-16T21:01:00Z"
+        },
+        {
+          "key": "7bd1f64da533da02",
+          "title": "‘삼전닉스’ 현금성자산 330조…초대형 투자·주주환원 기대감",
+          "url": "https://www.dt.co.kr/article/12095775",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-17T10:28:29Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1224",
+      "headline": "메모리 현물가 하락 전환, AI 불확실성 확대",
+      "summary": [
+        "미국 중간선거 이후 AI 산업 불확실성이 커지며 일부 메모리 반도체 현물 가격이 내림세로 돌아섰다.",
+        "현물 시장은 규모가 작지만 구글 등 빅테크와의 장기공급계약 가격 협상에 영향을 줄 수 있다고 전해졌다.",
+        "메모리 업황 전망의 변수로 작용할 수 있어 공급사들의 가격 전략과 수요 흐름을 주시할 필요가 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "D램",
+        "현물가격",
+        "장기공급계약",
+        "AI 수요"
+      ],
+      "companies": [
+        "구글"
+      ],
+      "event_type": "가격 동향",
+      "confirmed": true,
+      "parties": [],
+      "importance": 3,
+      "importance_reason": "가격 동향 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T10:16:09Z",
+      "updated_at": "2026-11-17T10:16:09Z",
+      "articles": [
+        {
+          "key": "2780ce24cc0a554b",
+          "title": "[기획] 흔들리는 반도체… D램 가격도 떨어졌다",
+          "url": "https://www.dt.co.kr/article/12095772",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-17T10:16:09Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1223",
+      "headline": "실리콘모션, AI 인프라용 엔비디아 DPU·에이스피드 BMC 결합 추진",
+      "summary": [
+        "실리콘모션이 엔비디아 DPU와 에이스피드 BMC를 활용해 AI 인프라 가속 방안을 내놓았다는 소식이다.",
+        "기사 본문에는 구체적인 제품 사양이나 일정, 수치가 제시되지 않아 세부 내용은 확인되지 않는다.",
+        "AI 서버의 제어·데이터 처리 칩 조합이 주목받는 흐름을 보여주는 사례로 볼 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "DPU",
+        "BMC",
+        "AI 인프라",
+        "서버 반도체"
+      ],
+      "companies": [
+        "실리콘모션",
+        "엔비디아",
+        "에이스피드"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "실리콘모션",
+        "엔비디아",
+        "에이스피드"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T09:56:08Z",
+      "updated_at": "2026-11-17T09:56:08Z",
+      "articles": [
+        {
+          "key": "d6c99f6f84a7c969",
+          "title": "Silicon Motion accelerates AI infrastructure with Nvidia DPU and Aspeed BMC",
+          "url": "https://www.digitimes.com/news/a20261117PD240/silicon-motion-2026-bmc-infrastructure-aspeed.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T09:56:08Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261117-1222",
+      "headline": "SFC, 수요예측 후 코스피 상장 철회",
+      "summary": [
+        "청색 OLED 재료 업체 SFC가 일반청약을 하루 앞두고 코스피 상장 계획을 철회했다.",
+        "SFC는 총 500만주 공모를 계획했으나 회사가치 평가 여건을 이유로 잔여 일정을 취소했으며, LG화학과의 청색 OLED 특허소송도 진행 중이다.",
+        "삼성디스플레이 IT용 재료 세트에서 청색 도판트를 경쟁사에 뺏긴 점이 중장기 성장에 부담으로 작용할 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "청색 OLED",
+        "상장 철회",
+        "특허소송",
+        "IT OLED",
+        "재료 세트"
+      ],
+      "companies": [
+        "SFC",
+        "LG화학",
+        "삼성디스플레이",
+        "미래에셋증권",
+        "한국투자증권",
+        "이데미츠코산",
+        "애플"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "SFC",
+        "미래에셋증권",
+        "한국투자증권"
+      ],
+      "importance": 2,
+      "importance_reason": "재무·주주 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T09:49:27Z",
+      "updated_at": "2026-11-17T09:49:27Z",
+      "articles": [
+        {
+          "key": "3960fd4fff4ef0f6",
+          "title": "'LG화학과 청색 OLED 특허분쟁' SFC, 상장 철회",
+          "url": "https://zdnet.co.kr/view/?no=20261117182743",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T09:49:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1221",
+      "headline": "스타퓨전그룹, 반도체·에너지·AI 사업 통합",
+      "summary": [
+        "스타퓨전그룹이 반도체, 에너지, AI 사업을 하나로 통합한 것으로 보도됐다.",
+        "기사 본문은 출처 표시뿐이라 통합 방식, 시기, 세부 수치는 확인되지 않는다.",
+        "복합 사업 구조로의 재편으로 볼 수 있으나 산업적 영향은 추가 정보가 필요하다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "사업 통합",
+        "반도체",
+        "에너지",
+        "AI",
+        "사업 재편"
+      ],
+      "companies": [
+        "스타퓨전그룹"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "스타퓨전그룹"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T09:38:19Z",
+      "updated_at": "2026-11-17T09:38:19Z",
+      "articles": [
+        {
+          "key": "de7dd88d88268de6",
+          "title": "Star Fusion Group integrates semiconductor, energy, and AI businesses",
+          "url": "https://www.digitimes.com/news/a20261117PD202/business-revenue-softstar-entertainment-taiwan-mask.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T09:38:19Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1210",
+      "headline": "저스템 2세대 습도제어 제품 JFS, 세계일류상품 선정",
+      "summary": [
+        "반도체 습도제어 기업 저스템의 2세대 제품 JFS가 세계일류상품으로 선정됐다.",
+        "산업통상자원부와 대한무역투자진흥공사 등이 주관한 선정으로 글로벌 기술 경쟁력을 인정받았다.",
+        "반도체 공정 습도 관리 장비 분야에서 국산 제품의 해외 경쟁력이 부각된 사례다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "습도제어",
+        "JFS",
+        "세계일류상품",
+        "반도체 장비"
+      ],
+      "companies": [
+        "저스템"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "저스템"
+      ],
+      "importance": 2,
+      "importance_reason": "홍보·수상 1점, 매체 3곳 보도 +1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T08:12:51Z",
+      "updated_at": "2026-11-17T09:31:57Z",
+      "articles": [
+        {
+          "key": "8e9a2fe3289ed49e",
+          "title": "저스템, 습도제어 제품 'JFS' 세계일류상품 선정",
+          "url": "https://zdnet.co.kr/view/?no=20261117163603",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T08:12:51Z"
+        },
+        {
+          "key": "9d9ffd529c7417be",
+          "title": "저스템, 2세대 습도제어 제품 '세계일류상품' 선정",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65556",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-17T08:29:54Z"
+        },
+        {
+          "key": "f00fa3b56cd948e1",
+          "title": "저스템 차세대 습도제어 솔루션 ‘JFS’, 세계일류상품 선정",
+          "url": "https://www.dt.co.kr/article/12095757",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-17T09:31:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1220",
+      "headline": "엔비디아 데브 쇼퀴스트 부사장, 여성 혁신상 수상",
+      "summary": [
+        "엔비디아 데브 쇼퀴스트 운영 수석부사장이 GSA의 2026 리사 수 여성 혁신상을 받았다.",
+        "쇼퀴스트 부사장은 2007년부터 엔비디아 공급망과 제조를 총괄하며 TSMC·폭스콘 등과의 협력을 이끌었다.",
+        "엔비디아가 광학 부품사에 투자하며 협력사 생산기반을 지원하는 흐름이 드러나 업계의 관심을 끌고 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "리사 수 여성 혁신상",
+        "공급망",
+        "공동패키지광학(CPO)",
+        "데이터센터"
+      ],
+      "companies": [
+        "엔비디아",
+        "TSMC",
+        "폭스콘",
+        "위스트론",
+        "코히어런트",
+        "루멘텀"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T09:23:14Z",
+      "updated_at": "2026-11-17T09:23:14Z",
+      "articles": [
+        {
+          "key": "74a0e281f2c715d8",
+          "title": "데브 쇼퀴스트 엔비디아 부사장, '2026 리사 수 여성 혁신상' 수상",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65560",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-17T09:23:14Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261117-1219",
+      "headline": "삼성전자, 베트남 낸드 패키징 라인 계획",
+      "summary": [
+        "삼성전자가 베트남에 낸드플래시 패키징 라인을 짓는 계획을 세우고 있다는 보도가 나왔다.",
+        "테스트 공장과 나란히 들어설 예정이며, 기사에는 투자 규모와 구체적 일정이 나와 있지 않다.",
+        "메모리 후공정 생산 거점을 베트남에 두려는 움직임으로, 공급망 구성 방향을 가늠할 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "낸드플래시",
+        "패키징",
+        "테스트 공장",
+        "베트남 생산",
+        "후공정"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T09:14:58Z",
+      "updated_at": "2026-11-17T09:14:58Z",
+      "articles": [
+        {
+          "key": "639483a1a4544694",
+          "title": "Samsung Vietnam plans NAND packaging line alongside test plant",
+          "url": "https://www.digitimes.com/news/a20261117PD208/samsung-nand-packaging-plant-hbm.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T09:14:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1218",
+      "headline": "KPCA, PCB·패키징 인력 교육 전국 출장 확대",
+      "summary": [
+        "한국PCB반도체패키징산업협회(KPCA)가 PCB와 반도체 패키징 인력 양성을 위한 출장 교육을 전국으로 확대한다.",
+        "협회는 인천 송도 교육장 중심 운영에서 벗어나 지역 기업과 대학의 교육 수요에 현장 출장교육으로 대응하고 있다.",
+        "지역 간 교육 격차를 줄이고 지역 대학과의 협력을 넓혀 패키징 전문인력 저변을 키우는 효과가 기대된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "PCB",
+        "반도체 패키징",
+        "인력 양성",
+        "출장 교육",
+        "PCB 자격증"
+      ],
+      "companies": [
+        "KPCA",
+        "경상국립대학교"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "KPCA",
+        "경상국립대학교"
+      ],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T09:13:50Z",
+      "updated_at": "2026-11-17T09:13:50Z",
+      "articles": [
+        {
+          "key": "682ba3c8546063ad",
+          "title": "KPCA, PCB와 패키징 교육 전국으로 확대",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65552",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-17T09:13:50Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261117-1216",
       "headline": "삼성 파운드리 DSP 5곳 중 4곳 3분기 매출 증가, 수익성은 엇갈려",
@@ -54,6 +498,50 @@
       ],
       "type_checked": true,
       "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1217",
+      "headline": "TSMC, 공급망 시공 안전 우선 강조하며 협력사 시상",
+      "summary": [
+        "TSMC가 2026년 공급업체 시상에서 공사 안전을 생산능력 달성 목표보다 앞세웠다.",
+        "기사 본문은 사진 출처 표기만 있어 구체적인 시상 기준이나 수상 기업 정보는 확인되지 않는다.",
+        "반도체 공장 건설 현장의 안전 관리가 협력사 평가의 핵심 요소로 부각됐다는 점이 업계에 주는 의미다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "TSMC",
+        "공급업체 시상",
+        "건설 안전",
+        "협력사 관리"
+      ],
+      "companies": [
+        "TSMC"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "TSMC"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T09:08:17Z",
+      "updated_at": "2026-11-17T09:08:17Z",
+      "articles": [
+        {
+          "key": "a4d582f660e76c9d",
+          "title": "TSMC puts construction safety ahead of capacity milestones in its 2026 supplier awards",
+          "url": "https://www.digitimes.com/news/a20261117VL219/tsmc-2026-capacity-fab-supply.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T09:08:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
     },
     {
       "id": "c20261117-1200",
@@ -253,59 +741,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261117-1210",
-      "headline": "저스템 2세대 습도제어 JFS, 세계일류상품 선정",
-      "summary": [
-        "저스템의 2세대 습도제어 장비 JFS가 산업통상자원부·KOTRA 주관 2026 세계일류상품에 선정됐다.",
-        "JFS는 웨이퍼 보관·이송 중 습도를 낮춰 산화와 오염을 억제하며, 1세대 N2 LPM 대비 기류 제어를 개선했다.",
-        "HBM 등 첨단 반도체 공정의 수율 향상 수요에 맞춰, 1세대에 이은 2년 연속 인증으로 장비 경쟁력을 입증했다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "습도제어",
-        "JFS",
-        "세계일류상품",
-        "HBM",
-        "수율"
-      ],
-      "companies": [
-        "저스템"
-      ],
-      "event_type": "홍보·수상",
-      "confirmed": true,
-      "parties": [
-        "저스템"
-      ],
-      "importance": 1,
-      "importance_reason": "홍보·수상 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-17T08:12:51Z",
-      "updated_at": "2026-11-17T08:29:54Z",
-      "articles": [
-        {
-          "key": "8e9a2fe3289ed49e",
-          "title": "저스템, 습도제어 제품 'JFS' 세계일류상품 선정",
-          "url": "https://zdnet.co.kr/view/?no=20261117163603",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-17T08:12:51Z"
-        },
-        {
-          "key": "9d9ffd529c7417be",
-          "title": "저스템, 2세대 습도제어 제품 '세계일류상품' 선정",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65556",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-17T08:29:54Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
     },
     {
       "id": "c20261117-1214",
@@ -3003,52 +3438,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261116-1161",
-      "headline": "삼성전자·SK하이닉스 현금 329조 돌파, 메모리 호황 반영",
-      "summary": [
-        "삼성전자와 SK하이닉스의 보유 현금이 329조원을 넘어서며 1년 새 193조원 늘었다.",
-        "AI발 메모리 슈퍼사이클로 두 회사의 현금 창출력이 크게 높아진 것으로 전해졌다.",
-        "메모리 호황이 대규모 투자 여력으로 이어져 국내 반도체 업계의 경쟁 구도에 영향을 줄 전망이다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "메모리 슈퍼사이클",
-        "AI 반도체",
-        "현금 보유",
-        "HBM"
-      ],
-      "companies": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "event_type": "재무·주주",
-      "confirmed": true,
-      "parties": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "importance": 3,
-      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스, 삼성전자) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-16T21:01:00Z",
-      "updated_at": "2026-11-16T21:01:00Z",
-      "articles": [
-        {
-          "key": "3ef0caa54774bd6e",
-          "title": "삼전닉스 현금 곳간 329조 돌파…1년새 193조 급증",
-          "url": "https://www.yna.co.kr/view/AKR20261116168000003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-16T21:01:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261116-1159",
