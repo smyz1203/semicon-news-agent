@@ -1,7 +1,308 @@
 {
   "version": 1,
-  "updated_at": "2026-11-17T23:06:27Z",
+  "updated_at": "2026-11-17T23:59:50Z",
   "issues": [
+    {
+      "id": "c20261117-1240",
+      "headline": "보스턴다이내믹스 아틀라스, 반도체 공장 투입 테스트",
+      "summary": [
+        "현대차그룹 보스턴다이내믹스의 휴머노이드 로봇 아틀라스가 반도체 제조 현장에서 테스트를 진행하고 있다.",
+        "기사 본문이 일부만 제공되어 구체적인 테스트 범위와 일정, 수치는 확인되지 않는다.",
+        "자동차를 넘어 반도체 제조 공정으로 휴머노이드 로봇 적용이 확장되는 흐름을 보여준다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "휴머노이드 로봇",
+        "아틀라스",
+        "반도체 제조",
+        "자동화"
+      ],
+      "companies": [
+        "현대차",
+        "보스턴다이내믹스"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "보스턴다이내믹스",
+        "현대차그룹"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T23:53:25Z",
+      "updated_at": "2026-11-17T23:53:25Z",
+      "articles": [
+        {
+          "key": "c844866b013f0d9c",
+          "title": "보스턴다이내믹스 아틀라스, 반도체 공장서도 테스트",
+          "url": "https://www.yna.co.kr/view/AKR20261118035400003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:53:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1236",
+      "headline": "삼성전기, 엔비디아에 기판·MLCC 공급 확대 추진",
+      "summary": [
+        "삼성전기가 엔비디아와 AI 인프라용 패키지기판 및 MLCC 공급 협력을 확대하는 방향으로 나섰다.",
+        "엔비디아는 생산능력 확충을 위해 세종·부산 사업장에 추가 자금 지원을 검토 중인 것으로 전해졌다.",
+        "AI 가속 컴퓨팅 부품 수요가 커지는 가운데 국내 생산 거점의 역할이 강화되는 흐름이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "패키지기판",
+        "MLCC",
+        "GPU기판",
+        "AI 가속 컴퓨팅",
+        "생산능력 확충"
+      ],
+      "companies": [
+        "삼성전기",
+        "엔비디아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "삼성전기",
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 매체 3곳 보도 +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T23:01:54Z",
+      "updated_at": "2026-11-17T23:51:00Z",
+      "articles": [
+        {
+          "key": "fc697c600add8b7a",
+          "title": "[속보] 엔비디아 \"삼성전기와 패키지기판 신규 계약 체결\"",
+          "url": "https://www.inews24.com/view/2027409",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:01:54Z"
+        },
+        {
+          "key": "445c7ae4c772683c",
+          "title": "삼성전기·엔비디아, GPU용 기판 협력 확대…추가 자금 지원 검토",
+          "url": "https://www.inews24.com/view/2027422",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:26:54Z"
+        },
+        {
+          "key": "30e897d3f53aacd3",
+          "title": "삼성전기·엔비디아, 차세대 GPU 기판 공급 확대…MLCC도 협력",
+          "url": "https://www.yna.co.kr/view/AKR20261118031800003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:45:29Z"
+        },
+        {
+          "key": "f4a91dfd9b56e1b0",
+          "title": "삼성전기, 엔비디아와 AI 부품 협력 확대…기판 이어 MLCC 공급 추진",
+          "url": "https://www.dt.co.kr/article/12095830",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:51:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1239",
+      "headline": "엔비디아, AI 기업 투자 신중 검토 방침 밝혀",
+      "summary": [
+        "엔비디아가 AI 기업에 대한 투자와 금융 지원을 신중하게 검토하겠다고 밝혔다.",
+        "고객사의 자금조달 능력과 실제 데이터센터 가동 여부를 확인해 투자 위험을 관리할 계획이다.",
+        "AI 반도체 수요가 커지는 가운데 무분별한 투자 확대보다 옥석 가리기가 강조되는 흐름이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 반도체",
+        "데이터센터",
+        "투자 리스크",
+        "금융 지원"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "재무·주주 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T23:47:17Z",
+      "updated_at": "2026-11-17T23:47:17Z",
+      "articles": [
+        {
+          "key": "28304cee19c9b38a",
+          "title": "엔비디아, AI 투자 '옥석 가리기'…\"실제 수요·자금력 따질 것\"",
+          "url": "https://www.inews24.com/view/2027437",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:47:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1238",
+      "headline": "엔비디아 메모리 조달비 상승, 삼성·하이닉스 협상력 강화",
+      "summary": [
+        "엔비디아가 AI 가속기 수요에 대응해 장기 공급계약을 늘리면서 메모리 조달 비용이 증가해 수익성 압박을 받고 있다.",
+        "기사 본문이 중간에 끊겨 구체적인 계약 규모와 가격 수치는 확인되지 않는다.",
+        "메모리 가격 급등은 삼성전자와 SK하이닉스의 가격 협상력을 키우는 요인으로 작용하고 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "메모리 가격",
+        "AI 가속기",
+        "장기 공급계약",
+        "HBM"
+      ],
+      "companies": [
+        "엔비디아",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "가격 동향",
+      "confirmed": false,
+      "parties": [
+        "엔비디아",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "가격 동향 3점, 관심 기업(SK하이닉스, 삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T23:47:04Z",
+      "updated_at": "2026-11-17T23:47:04Z",
+      "articles": [
+        {
+          "key": "86470e3feed05506",
+          "title": "엔비디아도 못 피한 메모리값 급등…삼성·하이닉스 협상력 강화",
+          "url": "https://www.inews24.com/view/2027431",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:47:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1233",
+      "headline": "엔비디아, 젠슨 황 사임 후 첫 분기 실적 어닝 서프라이즈",
+      "summary": [
+        "엔비디아가 올해 3분기 영업이익이 전년 동기 대비 115% 증가한 실적을 발표했다.",
+        "매출은 전년 대비 103% 늘었고, 시장 예상치를 웃도는 성적을 거뒀다고 전해졌다.",
+        "AI 반도체 수요 확대가 실적을 끌어올린 것으로, 업계 전반의 AI 투자 흐름이 여전히 강하다는 신호로 읽힌다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "3분기 실적",
+        "영업이익",
+        "AI 반도체",
+        "젠슨 황 사임"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T21:35:34Z",
+      "updated_at": "2026-11-17T23:13:14Z",
+      "articles": [
+        {
+          "key": "a19f1cf4b460c86e",
+          "title": "젠슨 황 없는 엔비디아, 3분기 깜짝실적…매출 103% 증가",
+          "url": "https://www.dt.co.kr/article/12095812",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-17T21:35:34Z"
+        },
+        {
+          "key": "4ef0f06cb8a876c3",
+          "title": "'젠슨 황 없는' 엔비디아, 3분기 영업익 104조원…전년比 115%↑",
+          "url": "https://www.inews24.com/view/2027413",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:13:14Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1237",
+      "headline": "부산서 전력반도체 산학연 국제심포지엄 개최",
+      "summary": [
+        "부산시는 18일부터 이틀간 해운대구에서 제10회 WBGS 2026 국제심포지엄을 연다.",
+        "행사에서는 전력반도체 관련 산학연 연구 성과를 공유하는 것으로 알려졌다.",
+        "전력반도체 분야의 연구 교류가 지역 산업 생태계 확산에 도움이 될 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "전력반도체",
+        "WBGS 2026",
+        "국제심포지엄",
+        "산학연"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T23:04:17Z",
+      "updated_at": "2026-11-17T23:04:17Z",
+      "articles": [
+        {
+          "key": "81cc85694a7286ce",
+          "title": "부산서 전력반도체 산학연 국제심포지엄…연구 성과 공유",
+          "url": "https://www.yna.co.kr/view/AKR20261118023400051",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:04:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261117-1206",
       "headline": "젠슨 황 딸 매디슨 황의 엔비디아 내 영향력 논란",
@@ -53,51 +354,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261117-1236",
-      "headline": "엔비디아, 삼성전기와 패키지기판 신규 계약 체결",
-      "summary": [
-        "엔비디아가 삼성전기와 패키지기판 공급을 위한 신규 계약을 체결했다고 밝혔다.",
-        "기사에는 계약 규모, 물량, 납품 일정 등 구체적인 수치가 나오지 않았다.",
-        "AI 가속기 수요에 맞춘 고사양 기판 공급망 확보 움직임으로 볼 수 있다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "패키지기판",
-        "AI반도체",
-        "공급계약"
-      ],
-      "companies": [
-        "엔비디아",
-        "삼성전기"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "엔비디아",
-        "삼성전기"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-17T23:01:54Z",
-      "updated_at": "2026-11-17T23:01:54Z",
-      "articles": [
-        {
-          "key": "fc697c600add8b7a",
-          "title": "[속보] 엔비디아 \"삼성전기와 패키지기판 신규 계약 체결\"",
-          "url": "https://www.inews24.com/view/2027409",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-17T23:01:54Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261117-1235",
@@ -186,44 +442,53 @@
       "importance_raw": 1
     },
     {
-      "id": "c20261117-1233",
-      "headline": "엔비디아 3분기 매출 1158억달러, 전년比 103% 급증",
+      "id": "c20261117-1225",
+      "headline": "엔비디아 이사회, 국가안보·수출통제 감독위원회 신설",
       "summary": [
-        "엔비디아가 2027회계연도 3분기 실적을 발표했고 매출은 1158억달러였다.",
-        "매출은 전년 동기 대비 103% 증가해 사상 최대를 기록했으며 젠슨 황 CEO 퇴임 후에도 성장세가 이어졌다.",
-        "AI 반도체 수요가 실적을 견인하고 있어 업계 전반의 투자 흐름에 영향을 줄 전망이다."
+        "엔비디아 이사회가 국가안보·수출통제 준수를 감독하는 상설위원회를 승인했다.",
+        "위원장은 수전 노라 존슨 이사이며 최소 분기별 1회 회의를 열고, 관련 팀은 이사회에 직접 보고한다.",
+        "미국의 AI 반도체 원격접근 규제 강화에 대응해 엔비디아의 수출통제 관리 부담과 감독 체계가 커질 전망이다."
       ],
-      "category": "실적/투자/시장",
+      "category": "정책/무역",
       "tags": [
-        "실적",
+        "수출통제",
+        "국가안보",
         "AI반도체",
-        "매출 증가",
-        "데이터센터"
+        "원격접근 규제",
+        "GPU 우회수출"
       ],
       "companies": [
         "엔비디아"
       ],
-      "event_type": "실적",
+      "event_type": "경영진 교체",
       "confirmed": true,
       "parties": [
         "엔비디아"
       ],
       "importance": 3,
-      "importance_reason": "실적 3점",
+      "importance_reason": "경영진 교체 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-17T21:35:34Z",
-      "updated_at": "2026-11-17T21:35:34Z",
+      "region": "both",
+      "first_seen": "2026-11-17T11:21:39Z",
+      "updated_at": "2026-11-17T22:00:01Z",
       "articles": [
         {
-          "key": "a19f1cf4b460c86e",
-          "title": "젠슨 황 없는 엔비디아, 3분기 깜짝실적…매출 103% 증가",
-          "url": "https://www.dt.co.kr/article/12095812",
-          "source": "디지털타임스",
+          "key": "cf6b82b3d88923cf",
+          "title": "Nvidia board establishes National Security and Export Control Oversight Committee in wake of Jensen Huang scandal",
+          "url": "https://www.tomshardware.com/tech-industry/policy/nvidia-board-establishes-national-security-and-export-control-oversight-committee-in-wake-of-jensen-huang-scandal-group-to-work-with-independent-law-national-security-and-trade-compliance-experts",
+          "source": "Tom's Hardware",
+          "lang": "en",
+          "published_at": "2026-11-17T11:21:39Z"
+        },
+        {
+          "key": "1c9d699f51ee99ea",
+          "title": "엔비디아, '국가안보·수출통제 감독위원회' 신설",
+          "url": "https://zdnet.co.kr/view/?no=20261117235730",
+          "source": "ZDNet Korea",
           "lang": "ko",
-          "published_at": "2026-11-17T21:35:34Z"
+          "published_at": "2026-11-17T22:00:01Z"
         }
       ],
       "type_checked": true,
@@ -662,50 +927,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261117-1225",
-      "headline": "엔비디아, 국가안보·수출통제 감독위원회 신설",
-      "summary": [
-        "엔비디아 이사회가 국가안보 및 수출통제 감독위원회를 새로 설치했다.",
-        "기사 본문에는 위원회 구성과 세부 권한이 제시되지 않아 구체적 내용은 확인되지 않는다.",
-        "황런쉰 관련 논란 이후 수출 규제 리스크 관리 체계를 강화하려는 움직임으로 해석된다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "수출통제",
-        "국가안보",
-        "거버넌스",
-        "AI반도체"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 3,
-      "importance_reason": "경영진 교체 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-17T11:21:39Z",
-      "updated_at": "2026-11-17T11:21:39Z",
-      "articles": [
-        {
-          "key": "cf6b82b3d88923cf",
-          "title": "Nvidia board establishes National Security and Export Control Oversight Committee in wake of Jensen Huang scandal",
-          "url": "https://www.tomshardware.com/tech-industry/policy/nvidia-board-establishes-national-security-and-export-control-oversight-committee-in-wake-of-jensen-huang-scandal-group-to-work-with-independent-law-national-security-and-trade-compliance-experts",
-          "source": "Tom's Hardware",
-          "lang": "en",
-          "published_at": "2026-11-17T11:21:39Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261116-1161",
