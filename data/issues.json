@@ -1,27 +1,131 @@
 {
   "version": 1,
-  "updated_at": "2026-11-18T01:32:04Z",
+  "updated_at": "2026-11-18T03:03:53Z",
   "issues": [
     {
-      "id": "c20261117-1236",
-      "headline": "삼성전기, 엔비디아와 AI 기판·MLCC 협력 확대",
+      "id": "c20261118-1254",
+      "headline": "AI 저장장치 호황에도 NAND 현물가 20% 하락",
       "summary": [
-        "삼성전기가 엔비디아 가속 컴퓨팅 플랫폼 생산 확대를 지원하기 위해 협력을 강화하기로 했다.",
-        "엔비디아는 세종·부산사업장 AI 기판 전용 증설을 위한 자금 지원을 검토 중이며, 2029년부터 본격 양산 체계를 갖출 계획이다.",
-        "첨단 패키지 기판에 이어 MLCC 공급까지 확대돼 AI 서버 부품 공급망 내 삼성전기 입지가 커질 전망이다."
+        "DigiTimes는 AI 저장장치 수요 호황에도 NAND 현물 가격이 20% 떨어진 이유를 분석했다.",
+        "기사 본문은 사진 출처 표기만 있어 구체적 수치와 원인 설명은 확인되지 않는다.",
+        "메모리 시장의 현물가와 수요 간 괴리를 보여주는 동향으로 해석될 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "NAND",
+        "낸드플래시",
+        "현물가",
+        "AI 저장장치",
+        "YMTC"
+      ],
+      "companies": [
+        "YMTC"
+      ],
+      "event_type": "가격 동향",
+      "confirmed": false,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "가격 동향 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T02:53:32Z",
+      "updated_at": "2026-11-18T02:53:32Z",
+      "articles": [
+        {
+          "key": "705169985f19d07f",
+          "title": "Why NAND spot prices fell 20% despite the AI storage boom",
+          "url": "https://www.digitimes.com/news/a20261118PD228/nand-nand-flash-2026-pc-demand.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T02:53:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1252",
+      "headline": "딥엑스 NPU 탑재 대만 엣지 AI 제품, 우수제품상 수상",
+      "summary": [
+        "딥엑스 NPU를 탑재한 대만 에이페이서의 엣지 AI 제품 '바이클로'가 2027 대만 우수제품상을 받았다.",
+        "바이클로는 25TOPS 성능의 딥엑스 NPU 2개와 SSD 2개를 한 카드에 탑재한 제품이다.",
+        "국산 NPU의 성능과 기술력이 해외 시장에서 검증된 사례로, 엣지 AI 반도체 경쟁력을 보여준다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "NPU",
+        "엣지 AI",
+        "딥엑스",
+        "대만 우수제품상",
+        "초저전력 AI 반도체"
+      ],
+      "companies": [
+        "딥엑스",
+        "에이페이서"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "딥엑스",
+        "에이페이서"
+      ],
+      "importance": 4,
+      "importance_reason": "소송·특허 3점, 매체 3곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-18T01:41:42Z",
+      "updated_at": "2026-11-18T02:39:40Z",
+      "articles": [
+        {
+          "key": "f10b8c2a4ff35e6a",
+          "title": "대만 우수 AI 제품에 한국산 반도체…딥엑스 NPU 기술력 입증",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409945",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-18T01:41:42Z"
+        },
+        {
+          "key": "4c4266385344884f",
+          "title": "딥엑스 NPU 탑재한 대만 에이페이서 엣지 AI 제품 '바이클로', 2027 대만 우수제품상 수상",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343432",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-18T02:00:00Z"
+        },
+        {
+          "key": "a408acec15946a35",
+          "title": "딥엑스 NPU 탑재 에이페이서 제품, 대만 우수제품상 수상",
+          "url": "https://www.yna.co.kr/view/AKR20261118090300017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-18T02:39:40Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261117-1236",
+      "headline": "삼성전기, 엔비디아와 AI 부품 협력 MLCC까지 확대",
+      "summary": [
+        "삼성전기가 엔비디아와 AI 반도체 패키지기판 협력을 MLCC 분야로 넓히기로 했다고 18일 밝혔다.",
+        "엔비디아는 세종·부산 사업장 패키지기판 증설 자금을 지원한 데 이어 추가 지원도 검토 중이다.",
+        "AI 가속기용 고신뢰성 MLCC 공급 기반이 넓어져 AI 인프라 부품 공급망 의존도가 커질 전망이다."
       ],
       "category": "장비/소재/부품",
       "tags": [
-        "패키지 기판",
         "MLCC",
-        "AI 가속 컴퓨팅",
-        "엔비디아 협력",
-        "세종·부산사업장"
+        "패키지기판",
+        "AI 가속기",
+        "증설 투자"
       ],
       "companies": [
         "삼성전기",
-        "엔비디아",
-        "삼성전자"
+        "엔비디아"
       ],
       "event_type": "수주·공급",
       "confirmed": true,
@@ -30,14 +134,22 @@
         "엔비디아"
       ],
       "importance": 4,
-      "importance_reason": "수주·공급 3점, 매체 5곳 보도 +1 → 4점",
+      "importance_reason": "수주·공급 3점, 매체 7곳 보도 +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "both",
-      "first_seen": "2026-11-17T23:01:54Z",
-      "updated_at": "2026-11-18T01:23:15Z",
+      "first_seen": "2026-11-17T23:00:00Z",
+      "updated_at": "2026-11-18T02:26:04Z",
       "articles": [
+        {
+          "key": "e44e4d3ae6033252",
+          "title": "삼성전기-엔비디아, AI 인프라 확충 위한 협력 강화",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343428",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:00:00Z"
+        },
         {
           "key": "fc697c600add8b7a",
           "title": "[속보] 엔비디아 \"삼성전기와 패키지기판 신규 계약 체결\"",
@@ -93,10 +205,394 @@
           "source": "Korea Herald",
           "lang": "en",
           "published_at": "2026-11-18T01:23:15Z"
+        },
+        {
+          "key": "48362251588d881a",
+          "title": "삼성전기, 엔비디아와 MLCC 협력",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65583",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-18T01:54:31Z"
+        },
+        {
+          "key": "5d39d5005e2ac8a6",
+          "title": "Samsung Electro-Mechanics, Nvidia expand ties to MLCCs",
+          "url": "https://www.koreaherald.com/article/10941103",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-18T02:26:04Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 4
+    },
+    {
+      "id": "c20261118-1253",
+      "headline": "엔비디아 NVHBM 구조가 바꾸는 HBM 설계 주체 논쟁",
+      "summary": [
+        "엔비디아의 NVHBM 아키텍처를 두고 HBM을 누가 설계하는지에 대한 질문이 제기됐다.",
+        "기사 본문이 제목과 출처 표기만 있어 구체적 수치나 일정은 확인되지 않는다.",
+        "HBM 설계 역할 구분이 복잡해지면서 메모리 업체와 설계 기업 간 협업 구도에 영향을 줄 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM",
+        "NVHBM",
+        "엔비디아",
+        "HBM 설계"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T01:59:27Z",
+      "updated_at": "2026-11-18T01:59:27Z",
+      "articles": [
+        {
+          "key": "aa3aad7fce33b468",
+          "title": "Who designs HBM? Nvidia's NVHBM architecture makes the question far more complex",
+          "url": "https://www.digitimes.com/news/a20261117PD247/hbm-samsung-dram-nvidia-testing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T01:59:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261117-1233",
+      "headline": "젠슨 황 사임에도 엔비디아 3분기 실적 시장 예상 상회",
+      "summary": [
+        "엔비디아가 2027회계연도 3분기 실적을 발표해 GAAP 매출 1158억달러를 기록했다고 밝혔다.",
+        "전년 동기 대비 매출은 103%, 영업이익은 115% 늘었고 희석 EPS는 GAAP 기준 2.70달러였다.",
+        "CEO 공백 속에서도 실적이 시장과 회사 자체 예상치를 모두 웃돌아 AI 반도체 수요의 견조함을 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "3분기 실적",
+        "GAAP 매출",
+        "영업이익",
+        "AI 반도체",
+        "CEO 사임"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 매체 5곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-17T21:35:34Z",
+      "updated_at": "2026-11-18T01:53:10Z",
+      "articles": [
+        {
+          "key": "a19f1cf4b460c86e",
+          "title": "젠슨 황 없는 엔비디아, 3분기 깜짝실적…매출 103% 증가",
+          "url": "https://www.dt.co.kr/article/12095812",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-17T21:35:34Z"
+        },
+        {
+          "key": "4ef0f06cb8a876c3",
+          "title": "'젠슨 황 없는' 엔비디아, 3분기 영업익 104조원…전년比 115%↑",
+          "url": "https://www.inews24.com/view/2027413",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:13:14Z"
+        },
+        {
+          "key": "b18f18f011cea7cb",
+          "title": "엔비디아, 3분기 영업이익 104조... 전년比 두 배 증가",
+          "url": "https://zdnet.co.kr/view/?no=20261118083047",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:40:14Z"
+        },
+        {
+          "key": "2e9779d979aab221",
+          "title": "Nvidia doubles revenue mid-transition, but its outlook signals the cost of the new ramp",
+          "url": "https://www.digitimes.com/news/a20261118VL200/nvidia-demand-rubin-infrastructure-revenue.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T23:56:43Z"
+        },
+        {
+          "key": "da8133be2ac7ac8f",
+          "title": "젠슨 황 공백 없었다…엔비디아 3분기 매출 시장 전망 상회",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65581",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-18T01:53:10Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261117-1240",
+      "headline": "보스턴다이내믹스, 글로벌파운드리 반도체 공장에 로봇 도입",
+      "summary": [
+        "보스턴다이내믹스가 글로벌파운드리 공장에 사족보행 로봇 스팟을 배치하기로 했다고 발표했다.",
+        "스팟은 미국 뉴욕·버몬트주, 독일, 싱가포르 시설에 배치되며 휴머노이드 아틀라스는 2027년 초 테스트한다.",
+        "반도체 제조 현장의 자동화 로봇 활용이 넓어지는 신호로, 휴머노이드 적용 가능성을 보여준다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "휴머노이드 로봇",
+        "아틀라스",
+        "스팟",
+        "반도체 공장 자동화"
+      ],
+      "companies": [
+        "보스턴다이내믹스",
+        "글로벌파운드리",
+        "현대자동차그룹"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "보스턴다이내믹스",
+        "글로벌파운드리"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 매체 3곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-17T23:47:05Z",
+      "updated_at": "2026-11-18T01:47:45Z",
+      "articles": [
+        {
+          "key": "dbf34d5ff08f7e2b",
+          "title": "반도체 공장 가는 아틀라스…보스턴다이나믹스, 글로벌파운드리와 협력",
+          "url": "https://zdnet.co.kr/view/?no=20261118084025",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:47:05Z"
+        },
+        {
+          "key": "c844866b013f0d9c",
+          "title": "보스턴다이내믹스 아틀라스, 반도체 공장서도 테스트",
+          "url": "https://www.yna.co.kr/view/AKR20261118035400003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:53:25Z"
+        },
+        {
+          "key": "4562c9218b6898de",
+          "title": "Boston Dynamics to deploy robots at GlobalFoundries' chip plants",
+          "url": "https://www.koreaherald.com/article/10940963",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-18T01:47:45Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261118-1251",
+      "headline": "대만 반도체 확장으로 기술직 채용 급증",
+      "summary": [
+        "대만에서 반도체 공장 확장으로 기술 분야 채용 공고가 크게 늘어난 것으로 보도됐다.",
+        "기사 본문이 제공되지 않아 구체적인 채용 규모와 수치는 확인할 수 없다.",
+        "인력 부족 속에서 반도체 투자 확대가 고용 수요를 끌어올리는 흐름으로 읽힌다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "대만 반도체",
+        "기술직 채용",
+        "인력 부족",
+        "설비 확장"
+      ],
+      "companies": [
+        "TSMC"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "채용·인력 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T01:27:32Z",
+      "updated_at": "2026-11-18T01:27:32Z",
+      "articles": [
+        {
+          "key": "825f0731fd383cd1",
+          "title": "Semiconductor expansion in Taiwan drives surge in tech job openings amid labor shortage",
+          "url": "https://www.digitimes.com/news/a20261117PD248/taiwan-talent-hpc-demand-expansion.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T01:27:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261118-1250",
+      "headline": "중국 AI칩 공급망, 엔비디아 이탈 시험대에",
+      "summary": [
+        "중국 AI 기업들이 해외 컴퓨팅 규제 강화로 엔비디아 GPU에서 멀어지고 있다.",
+        "기업들은 화웨이 어센드 등 현지 칩 의존도를 높이고 있으나 구체적 수치는 기사에 없다.",
+        "이는 중국 AI 반도체 공급망의 생산 능력과 한계를 동시에 드러내는 신호다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엔비디아 GPU",
+        "화웨이 어센드",
+        "수출규제",
+        "중국 AI칩",
+        "컴퓨팅 규제"
+      ],
+      "companies": [
+        "엔비디아",
+        "화웨이"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "엔비디아",
+        "화웨이"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T01:15:25Z",
+      "updated_at": "2026-11-18T01:15:25Z",
+      "articles": [
+        {
+          "key": "dae8726233d8b436",
+          "title": "China's shift away from Nvidia GPUs tests the limits of its AI chip supply chain",
+          "url": "https://www.digitimes.com/news/a20261118PD218/nvidia-ai-chip-data-center-chips-software.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T01:15:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261118-1249",
+      "headline": "모빌린트, 일본 AI 전시회서 현지 파트너와 엣지 AI 공개",
+      "summary": [
+        "모빌린트가 11~13일 일본 AI EXPO TOKYO Autumn 2026에 참가해 엣지 AI 솔루션을 선보였다.",
+        "일본 파트너사 6곳과 함께 일본어 특화 VLM, 실시간 영상분석 등 총 6종의 AI 데모를 공개했다.",
+        "일본 현지 협력을 바탕으로 NPU 기반 엣지 AI 시장 공략 기반을 넓힐 것으로 보인다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엣지 AI",
+        "NPU",
+        "일본 시장",
+        "VLM",
+        "ARIES"
+      ],
+      "companies": [
+        "모빌린트",
+        "소프트뱅크인튜이션즈",
+        "NEC",
+        "EQUES"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "모빌린트",
+        "소프트뱅크인튜이션즈",
+        "컴퓨터마인드",
+        "DUX",
+        "NEC PF",
+        "EQUES",
+        "시키노 하이테크"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-18T01:13:55Z",
+      "updated_at": "2026-11-18T01:13:55Z",
+      "articles": [
+        {
+          "key": "91f5e553804344d9",
+          "title": "모빌린트, 日 AI 전시회서 엣지 AI 솔루션 공개",
+          "url": "https://zdnet.co.kr/view/?no=20261118095704",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-18T01:13:55Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1248",
+      "headline": "엔비디아 국가안보 리스크 논란, 칼럼 분석",
+      "summary": [
+        "미국 DigiTimes 칼럼이 도시바 사례를 빗대 엔비디아의 국가안보 리스크를 짚었다.",
+        "기사 본문은 사진 크레딧만 있어 구체적 사실과 수치는 확인되지 않는다.",
+        "다만 해당 칼럼은 미국 내 반도체 기업의 안보 검토 가능성을 제기한 의견 기사다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "엔비디아",
+        "국가안보",
+        "도시바 사례",
+        "반도체 규제"
+      ],
+      "companies": [
+        "엔비디아",
+        "도시바"
+      ],
+      "event_type": "칼럼·인터뷰",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "칼럼·인터뷰 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T01:10:42Z",
+      "updated_at": "2026-11-18T01:10:42Z",
+      "articles": [
+        {
+          "key": "4f71e0820fe69b2d",
+          "title": "Commentary: What if the Toshiba scandal happened in America? Nvidia faces a potential national security reckoning",
+          "url": "https://www.digitimes.com/news/a20261117PD230/toshiba-security-scandal-jensen-huang-commercial.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T01:10:42Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
     },
     {
       "id": "c20261118-1247",
@@ -481,75 +977,6 @@
       "importance_raw": 3
     },
     {
-      "id": "c20261117-1233",
-      "headline": "엔비디아 3분기 매출 1158억 달러, 전년 대비 두 배 성장",
-      "summary": [
-        "엔비디아가 3분기 매출 1158억 달러로 전년 대비 두 배 늘었다고 발표했다.",
-        "데이터센터 매출은 1076억 달러이며 베라 루빈 NVL72 출하도 시작됐다고 밝혔다.",
-        "4분기 매출 전망은 약 1300억 달러로 제시돼 AI 인프라 수요 지속이 확인됐다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "AI 인프라",
-        "베라 루빈 NVL72",
-        "데이터센터",
-        "GPU",
-        "4분기 전망"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 4,
-      "importance_reason": "실적 3점, 매체 4곳 보도 +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-17T21:35:34Z",
-      "updated_at": "2026-11-17T23:56:43Z",
-      "articles": [
-        {
-          "key": "a19f1cf4b460c86e",
-          "title": "젠슨 황 없는 엔비디아, 3분기 깜짝실적…매출 103% 증가",
-          "url": "https://www.dt.co.kr/article/12095812",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-17T21:35:34Z"
-        },
-        {
-          "key": "4ef0f06cb8a876c3",
-          "title": "'젠슨 황 없는' 엔비디아, 3분기 영업익 104조원…전년比 115%↑",
-          "url": "https://www.inews24.com/view/2027413",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-17T23:13:14Z"
-        },
-        {
-          "key": "b18f18f011cea7cb",
-          "title": "엔비디아, 3분기 영업이익 104조... 전년比 두 배 증가",
-          "url": "https://zdnet.co.kr/view/?no=20261118083047",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-17T23:40:14Z"
-        },
-        {
-          "key": "2e9779d979aab221",
-          "title": "Nvidia doubles revenue mid-transition, but its outlook signals the cost of the new ramp",
-          "url": "https://www.digitimes.com/news/a20261118VL200/nvidia-demand-rubin-infrastructure-revenue.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-17T23:56:43Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
-    },
-    {
       "id": "c20261118-1241",
       "headline": "엔비디아, 고객 금융 조이고 공급사 평가·자사주 우선",
       "summary": [
@@ -592,62 +1019,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261117-1240",
-      "headline": "보스턴다이나믹스, 글로벌파운드리 공장에 아틀라스·스팟 투입 확대",
-      "summary": [
-        "보스턴다이나믹스가 글로벌파운드리와 휴머노이드 아틀라스 현장 테스트와 사족보행 로봇 스팟 배치 확대를 추진한다.",
-        "아틀라스 테스트는 2027년 초 주요 사업장에서 시작되며, 싱가포르 스팟은 9만 건 이상 검사하고 임무 성공률 99%를 기록했다.",
-        "반도체 제조 현장의 로봇 활용이 본격화되는 신호로, 설비 예측 유지보수와 AI 기반 제조 확산에 영향을 줄 전망이다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "휴머노이드 로봇",
-        "아틀라스",
-        "스팟",
-        "AI 제조",
-        "예측 유지보수"
-      ],
-      "companies": [
-        "보스턴다이나믹스",
-        "글로벌파운드리",
-        "현대차그룹"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "보스턴다이나믹스",
-        "글로벌파운드리"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-17T23:47:05Z",
-      "updated_at": "2026-11-17T23:53:25Z",
-      "articles": [
-        {
-          "key": "dbf34d5ff08f7e2b",
-          "title": "반도체 공장 가는 아틀라스…보스턴다이나믹스, 글로벌파운드리와 협력",
-          "url": "https://zdnet.co.kr/view/?no=20261118084025",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-17T23:47:05Z"
-        },
-        {
-          "key": "c844866b013f0d9c",
-          "title": "보스턴다이내믹스 아틀라스, 반도체 공장서도 테스트",
-          "url": "https://www.yna.co.kr/view/AKR20261118035400003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-17T23:53:25Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261117-1231",
