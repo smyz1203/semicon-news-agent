@@ -1,7 +1,372 @@
 {
   "version": 1,
-  "updated_at": "2026-11-18T08:29:03Z",
+  "updated_at": "2026-11-18T10:20:23Z",
   "issues": [
+    {
+      "id": "c20261118-1293",
+      "headline": "글로벌파운드리, 미·일 팹으로 AI 투자 소외 칩 공략",
+      "summary": [
+        "글로벌파운드리가 미국과 일본의 팹에서 AI 투자 붐에서 소외될 수 있는 칩 생산을 겨냥하고 있다는 보도다.",
+        "기사 본문은 사진 출처 표기만 있어 구체적 수치나 일정, 투자 규모는 확인되지 않는다.",
+        "AI 설비 투자가 특정 반도체 영역을 비껴갈 수 있다는 점에서 파운드리 업계의 사업 방향 전환을 보여준다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "글로벌파운드리",
+        "미국 팹",
+        "일본 팹",
+        "레거시 공정",
+        "AI 투자"
+      ],
+      "companies": [
+        "글로벌파운드리"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "글로벌파운드리"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T09:16:27Z",
+      "updated_at": "2026-11-18T09:16:27Z",
+      "articles": [
+        {
+          "key": "b04c7373273b5776",
+          "title": "GlobalFoundries' US-Japan fabs target chips that AI investment risks leaving behind",
+          "url": "https://www.digitimes.com/news/a20261118VL221/globalfoundries-usa-japan-fab-investment-chips-manufacturing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T09:16:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261118-1292",
+      "headline": "대만 해상풍력 1GW 완공, TSMC 전력 공급 예정",
+      "summary": [
+        "대만에서 중부 해안 앞바다의 대형 해상풍력 단지가 완공되어 연결이 마무리된 것으로 보도됐다.",
+        "해당 프로젝트는 약 1GW 용량으로 아시아 최대 규모 단일 해상풍력으로 소개됐으며, 2027년 TSMC 공급과 연계된다.",
+        "반도체 공장의 전력 수요를 재생에너지로 충당하려는 흐름을 보여주며, 공급망 탄소 관리에 시사점을 준다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "해상풍력",
+        "재생에너지",
+        "전력 공급",
+        "RE100",
+        "대만 에너지"
+      ],
+      "companies": [
+        "TSMC"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "TSMC"
+      ],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T09:07:26Z",
+      "updated_at": "2026-11-18T09:07:26Z",
+      "articles": [
+        {
+          "key": "91c1999db559a8e1",
+          "title": "Taiwan completes Asia's largest single offshore wind project off central coast, connecting 1 GW of capacity to supply TSMC in 2027",
+          "url": "https://www.digitimes.com/news/a20261118PD227/taiwan-offshore-wind-capacity-tsmc-2027.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T09:07:26Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1290",
+      "headline": "엔비디아 경영진 교체, 경쟁 AI칩 업체에 기회 될 수도",
+      "summary": [
+        "엔비디아 경영진 교체 가능성이 보도됐으나 기사 본문은 사진 크레딧만 있어 세부 내용은 확인되지 않는다.",
+        "구체적인 인물, 일정, 조직 변화 등 수치나 세부 사실은 기사에서 확인할 수 없다.",
+        "만약 리더십 변화가 현실화되면 AI반도체 시장에서 경쟁 업체들의 점유율 확대 가능성이 거론된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엔비디아",
+        "경영진 교체",
+        "AI반도체",
+        "경쟁 구도"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T08:58:00Z",
+      "updated_at": "2026-11-18T08:58:00Z",
+      "articles": [
+        {
+          "key": "a21b479b68ef3432",
+          "title": "Nvidia leadership change could open doors for rival AI chipmakers",
+          "url": "https://www.digitimes.com/news/a20261118VL225/nvidia-amd-chips-ceo-google.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T08:58:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1291",
+      "headline": "폭스콘, 엔비디아 차세대 GPU·네트워킹 협력 확대",
+      "summary": [
+        "폭스콘이 엔비디아와의 협력을 차세대 GPU 및 네트워킹 플랫폼 전반으로 넓히고 있다는 보도다.",
+        "기사 본문이 저작권 표기뿐이라 구체적인 계약 규모나 일정, 제품 사양은 확인되지 않는다.",
+        "AI 서버 공급망에서 폭스콘의 위치가 강화될 수 있다는 점에서 관련 업계가 주목할 만하다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "차세대 GPU",
+        "네트워킹 플랫폼",
+        "AI 서버",
+        "엔비디아 협력"
+      ],
+      "companies": [
+        "폭스콘",
+        "엔비디아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "폭스콘",
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T08:58:00Z",
+      "updated_at": "2026-11-18T08:58:00Z",
+      "articles": [
+        {
+          "key": "f2d0646522064528",
+          "title": "Foxconn deepens Nvidia ties across next-gen GPU, networking platforms",
+          "url": "https://www.digitimes.com/news/a20261118PD249/foxconn-nvidia-gpu-manufacturing-shipments.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T08:58:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1289",
+      "headline": "SK하이닉스, 청주 취약계층 아동 겨울나기 1억 기탁",
+      "summary": [
+        "SK하이닉스가 청주시에 취약계층 아동의 겨울나기를 지원하기 위해 1억원을 기탁했다.",
+        "청주시가 18일 이를 밝혔으며, 기사에는 세부 집행 계획이 나오지 않았다.",
+        "반도체 기업의 지역사회 공헌 활동으로, 산업 영향보다는 기업 이미지 차원의 소식이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "사회공헌",
+        "취약계층 아동",
+        "기탁",
+        "청주시"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스",
+        "청주시"
+      ],
+      "importance": 2,
+      "importance_reason": "홍보·수상 1점, 관심 기업(SK하이닉스) +1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-18T08:55:46Z",
+      "updated_at": "2026-11-18T08:55:46Z",
+      "articles": [
+        {
+          "key": "2f6225e1321fd89f",
+          "title": "SK하이닉스, 청주 취약계층 아동 겨울나기에 1억원 기탁",
+          "url": "https://www.yna.co.kr/view/AKR20261118169200064",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-18T08:55:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1288",
+      "headline": "쓰리에이로직스 다이나믹 NFC 태그칩, 세계일류상품 선정",
+      "summary": [
+        "NFC 팹리스 쓰리에이로직스의 다이나믹 NFC 태그칩 TNB132M이 세계일류상품에 선정됐다고 발표했다.",
+        "연간 약 1억개 규모로 공급되며 동종 분야 세계 시장 점유율 2위를 기록하고 있다고 밝혔다.",
+        "전자 가격 표시기(ESL) 등 유통 시장에서 입지를 넓힐 수 있어 국내 팹리스의 경쟁력을 보여준다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "다이나믹 NFC",
+        "태그칩",
+        "브릿지 IC",
+        "세계일류상품",
+        "전자 가격 표시기"
+      ],
+      "companies": [
+        "쓰리에이로직스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "쓰리에이로직스"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-18T08:42:47Z",
+      "updated_at": "2026-11-18T08:42:47Z",
+      "articles": [
+        {
+          "key": "e68676853614056e",
+          "title": "쓰리에이로직스, 다이나믹 NFC 태그칩 '세계일류상품' 선정",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65622",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-18T08:42:47Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1287",
+      "headline": "수퍼게이트, 베트남 FPT와 AI 반도체 협력 MOU",
+      "summary": [
+        "국내 팹리스 수퍼게이트가 베트남 FPT 세미컨덕터와 AI 반도체 사업 협력 양해각서를 체결했다.",
+        "양사는 반도체 테스트·패키징, 클라우드, 비전 AI 솔루션 분야에서 협력 기회를 발굴하기로 했다.",
+        "수퍼게이트 제품의 베트남 테스트·패키징과 AI 시스템온모듈 현지 개발이 추진되어 해외 생산·개발 거점 확보에 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI반도체",
+        "시스템온모듈",
+        "반도체 테스트·패키징",
+        "비전 AI",
+        "MOU"
+      ],
+      "companies": [
+        "수퍼게이트",
+        "FPT 세미컨덕터"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "수퍼게이트",
+        "FPT 세미컨덕터"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-18T08:40:18Z",
+      "updated_at": "2026-11-18T08:40:18Z",
+      "articles": [
+        {
+          "key": "969027a10a7327a4",
+          "title": "수퍼게이트, 베트남 반도체 기업과 협력",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65603",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-18T08:40:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1286",
+      "headline": "한화세미텍 매각설 한화비전 공식 부인",
+      "summary": [
+        "한화비전은 자회사 한화세미텍의 매각을 검토한 적이 없다며 매각설을 사실무근이라고 공시했다.",
+        "이번 해명은 한 매체가 장비 사업 성장성 의문과 함께 매각 가능성을 보도한 데 따른 것이다.",
+        "HBM 열압착 본더 고객 확대가 더딘 상황에서 매각설이 나돌아 업계의 관심이 쏠리고 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "한화세미텍",
+        "TC 본더",
+        "HBM",
+        "매각설",
+        "해명공시"
+      ],
+      "companies": [
+        "한화비전",
+        "한화세미텍",
+        "SK하이닉스"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "한화비전",
+        "한화세미텍"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-18T08:30:00Z",
+      "updated_at": "2026-11-18T08:30:00Z",
+      "articles": [
+        {
+          "key": "90c0538e9239afad",
+          "title": "한화비전, 한화세미텍 매각설 공식 부인",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65619",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-18T08:30:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261118-1284",
       "headline": "GST, 머스크 테라팹에 스크러버·칠러 공급 논의",
@@ -48,6 +413,50 @@
       ],
       "type_checked": true,
       "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1285",
+      "headline": "삼성 반도체 설비투자 비중 93%, R&D 역대 최고",
+      "summary": [
+        "삼성 반도체 부문이 전체 설비투자의 93%를 차지했다는 보도가 나왔다.",
+        "연구개발비가 역대 최고 수준을 기록한 것으로 전해졌으나 기사 본문은 사진 크레딧만 있어 구체적 수치는 확인되지 않는다.",
+        "본문 정보가 부족해 확정된 수치를 근거로 한 산업적 의미 판단은 제한적이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "설비투자",
+        "연구개발비",
+        "반도체 투자",
+        "삼성전자"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T08:24:17Z",
+      "updated_at": "2026-11-18T08:24:17Z",
+      "articles": [
+        {
+          "key": "7d43a5b0e9ae30e5",
+          "title": "Samsung chip unit accounts for 93% of capex as R&D hits record",
+          "url": "https://www.digitimes.com/news/a20261118VL223/samsung-capex-2026-2025-revenue.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T08:24:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261118-1283",
@@ -211,6 +620,63 @@
       ],
       "type_checked": true,
       "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1275",
+      "headline": "삼성디스플레이·LG디스플레이, 아이폰18 OLED 양산 착수 임박",
+      "summary": [
+        "삼성디스플레이와 LG디스플레이가 2027년 3월 출시 예정인 아이폰18 일반형과 아이폰 에어2용 OLED 양산을 준비 중이다.",
+        "LG디스플레이는 2026년 12월 말, 삼성디스플레이는 2027년 1월 양산을 시작할 예정이라고 보도됐다.",
+        "두 회사가 일반형 아이폰18 패널을 함께 공급하는 만큼, 애플의 발주 배분 향방이 업계의 주목을 받고 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "아이폰18",
+        "아이폰 에어2",
+        "애플 공급망",
+        "양산"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "LG디스플레이",
+        "애플"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "삼성디스플레이",
+        "LG디스플레이",
+        "애플"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(LG디스플레이, 삼성디스플레이) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T06:26:40Z",
+      "updated_at": "2026-11-18T07:29:52Z",
+      "articles": [
+        {
+          "key": "fffce54a58af869b",
+          "title": "Samsung Display, LG Display to start OLED production for Apple's 2027 iPhones",
+          "url": "https://www.digitimes.com/news/a20261118VL215/lg-display-production-iphone-apple-sdc.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T06:26:40Z"
+        },
+        {
+          "key": "b6852fddf5e2846e",
+          "title": "Samsung Display and LG Display to start producing panels for Apple's iPhone 18 and iPhone Air 2",
+          "url": "https://www.oled-info.com/samsung-display-and-lg-display-start-producing-panels-apples-spring-2027-iphone",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-18T07:29:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261118-1281",
@@ -630,54 +1096,6 @@
       ],
       "type_checked": true,
       "importance_raw": 4
-    },
-    {
-      "id": "c20261118-1275",
-      "headline": "삼성디스플레이·LG디스플레이, 2027년 아이폰용 OLED 양산 착수",
-      "summary": [
-        "삼성디스플레이와 LG디스플레이가 애플의 2027년 아이폰용 OLED 패널 생산을 시작한다는 보도가 나왔다.",
-        "기사 본문은 사진 출처 표기뿐이라 생산 물량이나 구체적 일정 등 세부 수치는 확인되지 않는다.",
-        "보도가 사실이라면 두 회사의 차세대 아이폰 공급 지위가 이어지며 국내 OLED 업계에 대형 고객 물량이 확보되는 의미가 있다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "OLED",
-        "아이폰",
-        "2027년 아이폰",
-        "패널 양산"
-      ],
-      "companies": [
-        "삼성디스플레이",
-        "LG디스플레이",
-        "애플"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": false,
-      "parties": [
-        "삼성디스플레이",
-        "LG디스플레이",
-        "애플"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점, 관심 기업(LG디스플레이, 삼성디스플레이) +1, 미확정 -1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-18T06:26:40Z",
-      "updated_at": "2026-11-18T06:26:40Z",
-      "articles": [
-        {
-          "key": "fffce54a58af869b",
-          "title": "Samsung Display, LG Display to start OLED production for Apple's 2027 iPhones",
-          "url": "https://www.digitimes.com/news/a20261118VL215/lg-display-production-iphone-apple-sdc.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-18T06:26:40Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261118-1274",
