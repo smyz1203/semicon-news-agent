@@ -1,7 +1,144 @@
 {
   "version": 1,
-  "updated_at": "2026-11-18T10:20:23Z",
+  "updated_at": "2026-11-18T12:11:16Z",
   "issues": [
+    {
+      "id": "c20261118-1296",
+      "headline": "AI 에이전트 확산에 CPU 수요 증가와 첨단 패키지 LDI 주목",
+      "summary": [
+        "한 주간 테크 이슈를 정리한 영상 콘텐츠로, AI 에이전트 작업에서 CPU 역할이 커졌다는 인텔 행사 발언을 다룬다.",
+        "첨단 패키지의 핵심 설비로 LDI 기술이 자리 잡았다는 내용과 AI 가속기 수명 2.5년에 대한 세레브라스의 반박도 함께 소개된다.",
+        "기사에 구체적 수치나 일정은 제시되지 않아, 산업 영향은 CPU 수요와 패키징 설비 중요성 확대 정도로 제한적으로 볼 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI에이전트",
+        "CPU",
+        "LDI",
+        "첨단패키지",
+        "AI가속기"
+      ],
+      "companies": [
+        "인텔",
+        "세레브라스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-18T11:02:31Z",
+      "updated_at": "2026-11-18T11:02:31Z",
+      "articles": [
+        {
+          "key": "43d1a7cfa2cfdfdb",
+          "title": "[안테나] 4년간 6배 성장할 반도체 기술은 이것",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343463",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-18T11:02:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261118-1295",
+      "headline": "엔비디아, 공급 약정 2배 이상 확대 전망",
+      "summary": [
+        "엔비디아의 2028 회계연도 공급 약정 규모가 2,030억 달러로 두 배 넘게 늘어난 것으로 보도됐다.",
+        "기사 본문은 사실상 비어 있고 'SK하이닉스' 사진 크레딧만 확인되어 세부 내용은 확인이 어렵다.",
+        "공급 약정 증가는 AI 반도체 수요와 메모리 공급 계약이 확대되고 있음을 시사하는 신호로 해석된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "공급 약정",
+        "AI 반도체",
+        "HBM",
+        "엔비디아 2028 회계연도"
+      ],
+      "companies": [
+        "엔비디아",
+        "SK하이닉스"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T10:10:42Z",
+      "updated_at": "2026-11-18T10:10:42Z",
+      "articles": [
+        {
+          "key": "04fc407ae3f23d5a",
+          "title": "Nvidia's fiscal 2028 supply commitments more than double to US$203 billion",
+          "url": "https://www.digitimes.com/news/a20261118VL226/nvidia-hbm-memory-2028.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T10:10:42Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1294",
+      "headline": "망고부스트, 일본 PFN과 AI 추론 효율화 기술 협력",
+      "summary": [
+        "망고부스트가 일본 프리퍼드 네트웍스(PFN)와 AI 추론 인프라 개발을 위한 업무협약(MOU)을 SC26 현장에서 체결했다.",
+        "GPU는 프리필, 엠엔코어는 디코드 단계를 맡는 구조를 시뮬레이션으로 먼저 검증하며 PFN의 차세대 칩 시제품 확보 후 실제 성능 시험을 계획한다.",
+        "이번 협력은 아직 기술 검증 단계로, 다양한 AI 반도체를 함께 쓰는 추론 최적화 환경 확대에 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 추론",
+        "프리필·디코드 분리",
+        "엠엔코어",
+        "DPU",
+        "KV 캐시"
+      ],
+      "companies": [
+        "망고부스트",
+        "프리퍼드 네트웍스",
+        "엔비디아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "망고부스트",
+        "프리퍼드 네트웍스"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-18T09:23:39Z",
+      "updated_at": "2026-11-18T09:23:39Z",
+      "articles": [
+        {
+          "key": "642b058c88490405",
+          "title": "망고부스트, 日 AI 반도체 기업과 맞손…AI 추론 인프라 효율 높인다",
+          "url": "https://zdnet.co.kr/view/?no=20261118182318",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-18T09:23:39Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261118-1293",
       "headline": "글로벌파운드리, 미·일 팹으로 AI 투자 소외 칩 공략",
