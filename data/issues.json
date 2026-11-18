@@ -1,7 +1,106 @@
 {
   "version": 1,
-  "updated_at": "2026-11-18T20:12:38Z",
+  "updated_at": "2026-11-18T21:07:31Z",
   "issues": [
+    {
+      "id": "c20261118-1301",
+      "headline": "삼성전자 사장단 인사 임박, 메모리·모바일 리더십 보강 전망",
+      "summary": [
+        "삼성전자가 이르면 이번 주 사장단 인사를 단행할 것으로 알려졌다.",
+        "기사에는 인사 규모나 구체적 인물 정보가 나와 있지 않아 세부 내용은 확인되지 않는다.",
+        "메모리와 스마트폰 사업의 리더십이 강화되면 주요 사업 방향에 변화가 있을 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "사장단 인사",
+        "메모리",
+        "스마트폰",
+        "리더십"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-18T21:01:00Z",
+      "updated_at": "2026-11-18T21:01:00Z",
+      "articles": [
+        {
+          "key": "30a003337b7b1518",
+          "title": "삼성전자 사장단 인사 임박…메모리·스마트폰 리더십 보강할듯",
+          "url": "https://www.yna.co.kr/view/AKR20261118094300003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-18T21:01:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261116-1121",
+      "headline": "TCL CSOT, 잉크젯 OLED 수율 70% 돌파…양산 확대 신호",
+      "summary": [
+        "TCL CSOT가 잉크젯 프린팅 OLED의 수율을 70%까지 끌어올린 것으로 전해졌다.",
+        "양산 초기 한 자릿수였던 수율을 빠르게 개선했으며, 2027년 생산 확대 계획이 함께 거론됐다.",
+        "삼성디스플레이·LG디스플레이가 주도하는 OLED 시장에서 중국 업체의 추격이 빨라지고 있음을 보여준다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "잉크젯 OLED",
+        "수율",
+        "TCL CSOT",
+        "프린팅 OLED",
+        "2027 양산 확대"
+      ],
+      "companies": [
+        "TCL CSOT",
+        "삼성디스플레이",
+        "LG디스플레이"
+      ],
+      "event_type": "실적",
+      "confirmed": false,
+      "parties": [
+        "TCL CSOT"
+      ],
+      "importance": 2,
+      "importance_reason": "실적 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-16T04:05:00Z",
+      "updated_at": "2026-11-18T21:00:00Z",
+      "articles": [
+        {
+          "key": "b3486b00f0871c29",
+          "title": "TCL CSOT's 13-year printed OLED push reaches turning point with 70% yield, 2027 expansion",
+          "url": "https://www.digitimes.com/news/a20261116VL214/csot-tcl-2027-production-technology.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-16T04:05:00Z"
+        },
+        {
+          "key": "26532a0071a679c4",
+          "title": "삼성·LGD 턱밑까지 쫓아온 中 TCL…잉크젯 OLED 수율 70% 넘겼다",
+          "url": "https://www.dt.co.kr/article/12096019",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-18T21:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261118-1300",
       "headline": "Qnity CTO, 반도체 소재와 AI 패키징 과제 조명",
@@ -9029,50 +9128,6 @@
           "source": "DigiTimes Asia",
           "lang": "en",
           "published_at": "2026-11-16T04:05:21Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261116-1121",
-      "headline": "TCL CSOT, 프린티드 OLED 수율 70% 달성 및 2027년 확대",
-      "summary": [
-        "TCL CSOT가 13년간 추진해 온 프린티드 OLED 개발이 전환점을 맞았다는 소식이다.",
-        "기사에 따르면 수율은 70%에 도달했으며 2027년 생산 확대가 예정돼 있다.",
-        "프린티드 OLED 상용화 가능성이 높아지며 차세대 디스플레이 공정 경쟁에 영향을 줄 전망이다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "프린티드 OLED",
-        "수율 70%",
-        "8.6세대 OLED",
-        "차세대 디스플레이"
-      ],
-      "companies": [
-        "TCL CSOT"
-      ],
-      "event_type": "실적",
-      "confirmed": false,
-      "parties": [
-        "TCL CSOT"
-      ],
-      "importance": 2,
-      "importance_reason": "실적 3점, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-16T04:05:00Z",
-      "updated_at": "2026-11-16T04:05:00Z",
-      "articles": [
-        {
-          "key": "b3486b00f0871c29",
-          "title": "TCL CSOT's 13-year printed OLED push reaches turning point with 70% yield, 2027 expansion",
-          "url": "https://www.digitimes.com/news/a20261116VL214/csot-tcl-2027-production-technology.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-16T04:05:00Z"
         }
       ],
       "type_checked": true,
