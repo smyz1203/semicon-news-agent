@@ -1,7 +1,51 @@
 {
   "version": 1,
-  "updated_at": "2026-11-18T21:07:31Z",
+  "updated_at": "2026-11-18T22:03:16Z",
   "issues": [
+    {
+      "id": "c20261118-1302",
+      "headline": "엔비디아 직원 과반, 젠슨 황 복귀 희망…후임 후보 주목",
+      "summary": [
+        "엔비디아 재직자들이 블라인드에 올린 글을 분석한 결과, 직원 56%가 젠슨 황의 복귀를 원하는 것으로 나타났다.",
+        "후임 CEO 후보로는 이언 벅이 선두에 올랐다는 내용이 보도됐다.",
+        "사내 여론이 경영진 교체 이후 리더십 공백에 민감하다는 점을 보여 주며 후계 구도가 주목받고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "이언 벅",
+        "CEO 교체",
+        "엔비디아 직원 여론"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-18T21:45:01Z",
+      "updated_at": "2026-11-18T21:45:01Z",
+      "articles": [
+        {
+          "key": "95cca62f2af7210a",
+          "title": "엔비디아 직원 56% \"젠슨황 복귀 원해\"…후임 후보 이언 벅 선두",
+          "url": "https://www.yna.co.kr/view/AKR20261118167500017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-18T21:45:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261118-1301",
       "headline": "삼성전자 사장단 인사 임박, 메모리·모바일 리더십 보강 전망",
