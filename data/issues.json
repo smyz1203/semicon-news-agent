@@ -1,7 +1,684 @@
 {
   "version": 1,
-  "updated_at": "2026-11-18T06:22:54Z",
+  "updated_at": "2026-11-18T08:29:03Z",
   "issues": [
+    {
+      "id": "c20261118-1284",
+      "headline": "GST, 머스크 테라팹에 스크러버·칠러 공급 논의",
+      "summary": [
+        "GST가 테슬라-스페이스X의 반도체 프로젝트 테라팹에 스크러버와 칠러 공급을 논의 중이다.",
+        "테라팹은 필요한 장비가 수천 대 수준이라고 전했고, GST는 납품 가능 물량을 검토하고 있다.",
+        "확정되지 않은 공급 타진 단계로, 국내 장비업체의 해외 대형 수주 가능성을 보여준다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "스크러버",
+        "칠러",
+        "테라팹",
+        "반도체 장비"
+      ],
+      "companies": [
+        "GST",
+        "테슬라",
+        "스페이스X"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "GST",
+        "테라팹"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-18T08:24:20Z",
+      "updated_at": "2026-11-18T08:24:20Z",
+      "articles": [
+        {
+          "key": "91760da7bc722c54",
+          "title": "GST, 머스크 '테라팹'에 스크러버·칠러 수천대 공급 타진",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65598",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-18T08:24:20Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1283",
+      "headline": "엑셀리스코리아, 임직원 연탄 나눔 봉사 실시",
+      "summary": [
+        "엑셀리스코리아는 지난 17일 임직원과 경기도에서 연탄 나눔 봉사활동을 진행했다.",
+        "회사는 2021년 평택에 아시아 오퍼레이션 센터를 설립하고 한국 내 사회공헌을 이어 왔다.",
+        "반도체 이온 주입기 장비 기업의 지역 상생 활동으로, 산업 영향은 제한적이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "이온 주입기",
+        "사회공헌",
+        "평택"
+      ],
+      "companies": [
+        "엑셀리스코리아",
+        "엑셀리스 테크놀로지스"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "엑셀리스코리아"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-18T08:12:57Z",
+      "updated_at": "2026-11-18T08:12:57Z",
+      "articles": [
+        {
+          "key": "b47dcb57aaad0059",
+          "title": "엑셀리스코리아, 임직원들과 연탄 나눔 봉사",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65626",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-18T08:12:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261118-1252",
+      "headline": "딥엑스 NPU 탑재 AI 가속기, 대만 우수제품상 수상",
+      "summary": [
+        "딥엑스의 NPU DX-M1M을 탑재한 에이페이서의 AI 가속기 카드 '바이클로'가 2027 대만 우수제품상을 받았다.",
+        "제품에는 NPU 2개가 들어가며 초당 25조번 AI 연산이 가능하고, 칩당 소비전력은 5W 수준이다.",
+        "국산 NPU가 해외 엣지 AI 제품에 적용돼 성능을 인정받은 사례로, 딥엑스의 기술력을 보여준다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "NPU",
+        "DX-M1M",
+        "엣지 AI",
+        "AI 가속기",
+        "우수제품상"
+      ],
+      "companies": [
+        "딥엑스",
+        "에이페이서"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "딥엑스",
+        "에이페이서"
+      ],
+      "importance": 4,
+      "importance_reason": "소송·특허 3점, 매체 4곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-18T01:41:42Z",
+      "updated_at": "2026-11-18T08:08:45Z",
+      "articles": [
+        {
+          "key": "f10b8c2a4ff35e6a",
+          "title": "대만 우수 AI 제품에 한국산 반도체…딥엑스 NPU 기술력 입증",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409945",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-18T01:41:42Z"
+        },
+        {
+          "key": "4c4266385344884f",
+          "title": "딥엑스 NPU 탑재한 대만 에이페이서 엣지 AI 제품 '바이클로', 2027 대만 우수제품상 수상",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343432",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-18T02:00:00Z"
+        },
+        {
+          "key": "a408acec15946a35",
+          "title": "딥엑스 NPU 탑재 에이페이서 제품, 대만 우수제품상 수상",
+          "url": "https://www.yna.co.kr/view/AKR20261118090300017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-18T02:39:40Z"
+        },
+        {
+          "key": "73150ab4ad159a39",
+          "title": "딥엑스 NPU 탑재 제품, 대만서 우수제품상 수상",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65627",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-18T08:08:45Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261118-1282",
+      "headline": "엔비디아 루빈 전환, 삼성·SK하이닉스 HBM 수요 확대 전망",
+      "summary": [
+        "엔비디아가 차세대 AI 플랫폼 베라 루빈으로 전환하면서 HBM 수요 확대 전망이 나왔다.",
+        "시장조사업체 카운터포인트리서치는 삼성전자와 SK하이닉스가 이 전환에서 성장 기회를 얻을 것으로 봤다.",
+        "HBM 공급 경쟁이 커질 수 있으나 중국 규제는 변수로 남아 있어 업계는 추이를 주시해야 한다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM",
+        "베라 루빈",
+        "엔비디아",
+        "AI반도체",
+        "중국 규제"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "엔비디아",
+        "카운터포인트리서치"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "카운터포인트리서치"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-18T07:45:34Z",
+      "updated_at": "2026-11-18T07:45:34Z",
+      "articles": [
+        {
+          "key": "e2736e208b7bec74",
+          "title": "\"엔비디아 '루빈' 전환에 삼성·하닉 성장 기회…중국 규제는 변수\"",
+          "url": "https://www.inews24.com/view/2027792",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-18T07:45:34Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1281",
+      "headline": "엔비디아 차기 CEO 후보로 이안 벅 부사장 부상",
+      "summary": [
+        "엔비디아 3분기 실적 컨퍼런스콜에 이안 벅 부사장이 임시 CEO·이사회 의장과 함께 등장했다.",
+        "이사회는 젠슨 황 CEO를 재선임하지 않을 계획이며 헤드헌팅 업체를 통해 내외부 후보를 찾고 있다.",
+        "벅 부사장은 예측시장에서 40%로 가장 높은 선임 가능성을 보여, 엔비디아 후계 구도에 주목이 쏠린다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "차기 CEO",
+        "이안 벅",
+        "젠슨 황",
+        "엔비디아 후계",
+        "CUDA"
+      ],
+      "companies": [
+        "엔비디아",
+        "인텔"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-18T07:12:49Z",
+      "updated_at": "2026-11-18T07:12:49Z",
+      "articles": [
+        {
+          "key": "56fb90c5ebc55612",
+          "title": "엔비디아 실적콜에 등장한 이 남자…젠슨 황 후계자 될까",
+          "url": "https://zdnet.co.kr/view/?no=20261118152050",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-18T07:12:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1280",
+      "headline": "엔비디아 경영권 갈등, 창업자 영향력과 이사회 권한 충돌",
+      "summary": [
+        "엔비디아 내부에서 창업자의 영향력과 이사회 권한이 맞서는 리더십 갈등이 제기됐다.",
+        "기사 본문이 없어 구체적 인사 사안이나 수치, 일정은 확인되지 않는다.",
+        "지배구조 분쟁이 현실화하면 AI 반도체 리더 기업의 전략 방향에 불확실성이 커질 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엔비디아",
+        "경영권 갈등",
+        "이사회",
+        "지배구조",
+        "AI반도체"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T07:10:32Z",
+      "updated_at": "2026-11-18T07:10:32Z",
+      "articles": [
+        {
+          "key": "ce3eed5c9ec67246",
+          "title": "Commentary: Nvidia leadership standoff pits founder clout against board authority",
+          "url": "https://www.digitimes.com/news/a20261118PD252/nvidia-jensen-huang-governance-market-government.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T07:10:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1276",
+      "headline": "베리실리콘, AI·AR 글라스용 저전력 웨어러블 서브시스템 공개",
+      "summary": [
+        "베리실리콘이 차세대 AI·AR 글라스를 위한 저전력 웨어러블 서브시스템 솔루션을 발표했다.",
+        "신규 Nano-XR 시리즈는 ISP, DC, GC 등 IP를 글라스용으로 확장해 화질, 저지연 디스플레이, 상시 구동 기능을 지원한다.",
+        "웨어러블 기기의 전력 효율과 메모리 대역폭 문제를 해결하는 IP 공급 전략으로 평가된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI글라스",
+        "AR글라스",
+        "Nano-XR",
+        "서브시스템",
+        "저전력 IP",
+        "DECNano"
+      ],
+      "companies": [
+        "베리실리콘"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "베리실리콘"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-18T06:29:00Z",
+      "updated_at": "2026-11-18T07:10:02Z",
+      "articles": [
+        {
+          "key": "2bc7e295fde1ed83",
+          "title": "베리실리콘, 차세대 AI/AR 글라스용 저전력 고성능 웨어러블 서브시스템 솔루션 공개",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343444",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-18T06:29:00Z"
+        },
+        {
+          "key": "a5d8f705ceb93328",
+          "title": "베리실리콘, 차세대 AI/AR 글라스용 저전력 고성능 웨어러블 서브시스템 솔루션 공개",
+          "url": "https://zdnet.co.kr/view/?no=20261118161002",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-18T07:10:02Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1279",
+      "headline": "엔비디아, 킨서스 공급망 추가…루빈 울트라·파인먼 일정 유지",
+      "summary": [
+        "엔비디아가 대만 기판 업체 킨서스를 아시아 공급망에 추가한 것으로 전해졌다.",
+        "기사 본문이 거의 없어 구체적 계약 규모나 물량은 확인되지 않는다.",
+        "차세대 루빈 울트라와 파인먼 로드맵이 예정대로 유지된다는 점은 AI 반도체 공급망 안정성 신호로 볼 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "루빈 울트라",
+        "파인먼",
+        "공급망",
+        "AI 반도체"
+      ],
+      "companies": [
+        "엔비디아",
+        "킨서스"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "엔비디아",
+        "킨서스"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T06:51:30Z",
+      "updated_at": "2026-11-18T06:51:30Z",
+      "articles": [
+        {
+          "key": "e48f6d64ef04171e",
+          "title": "Nvidia adds Kinsus to Asian supply push, keeps Rubin Ultra and Feynman on schedule",
+          "url": "https://www.digitimes.com/news/a20261118VL203/nvidia-rubin-kinsus-capacity-packaging.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T06:51:30Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1278",
+      "headline": "삼성전자, HBM5 겨냥 3트랙 D램 로드맵 보도",
+      "summary": [
+        "삼성전자가 HBM5를 겨냥한 3트랙 D램 로드맵을 준비하고 있다는 보도가 나왔다.",
+        "기사 본문이 사실상 없어 구체적인 기술 방식과 일정은 확인되지 않는다.",
+        "확정되지 않은 계획 단계의 소식으로, 차세대 HBM 경쟁 방향을 가늠하는 참고 자료다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM5",
+        "D램",
+        "3트랙 로드맵",
+        "차세대 HBM"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점, 관심 기업(삼성전자) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T06:50:46Z",
+      "updated_at": "2026-11-18T06:50:46Z",
+      "articles": [
+        {
+          "key": "bb7210c8d6542a6f",
+          "title": "Samsung reportedly plans three-track DRAM roadmap for HBM5",
+          "url": "https://www.digitimes.com/news/a20261118VL214/samsung-dram-roadmap-wafer.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T06:50:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1277",
+      "headline": "3분기 OLED 모니터 출하 전년比 두 배로 급증",
+      "summary": [
+        "시장조사기관 트렌드포스는 2026년 3분기 글로벌 OLED 모니터 출하량이 전분기 대비 13%, 전년 동기 대비 두 배 증가했다고 발표했다.",
+        "주요 브랜드의 신제품 출시와 풍부한 상류 패널 공급이 성장을 이끌었으며, 2급 및 신흥 브랜드의 출하 확대가 두드러졌다.",
+        "패널 공급 여력이 넓어지면서 모니터 시장 내 업체 간 순위 변동이 커지고 있어 OLED 모니터 확산 흐름이 이어질 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED 모니터",
+        "출하량",
+        "패널 공급",
+        "트렌드포스"
+      ],
+      "companies": [
+        "트렌드포스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T06:48:28Z",
+      "updated_at": "2026-11-18T06:48:28Z",
+      "articles": [
+        {
+          "key": "fa2d77e7fcf025e5",
+          "title": "Global OLED Monitor Shipments Double YoY in 3Q26 as Rankings Shift Dramatically Among Top Five Brands, Says TrendForce",
+          "url": "https://www.trendforce.com/presscenter/news/20261118-13311.html",
+          "source": "TrendForce",
+          "lang": "en",
+          "published_at": "2026-11-18T06:48:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261117-1236",
+      "headline": "삼성전기, 엔비디아와 AI 부품 협력 확대",
+      "summary": [
+        "삼성전기가 엔비디아와 AI 인프라용 부품 협력을 강화하기로 밝혔다.",
+        "패키지기판 공급을 늘리고 MLCC까지 협력 범위를 넓히며, 세종·부산 사업장 관련 추가 협력도 논의됐다.",
+        "AI 가속 컴퓨팅 부품 공급망에서 삼성전기의 입지가 강화될 것으로 보인다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "패키지기판",
+        "MLCC",
+        "AI 인프라",
+        "가속 컴퓨팅"
+      ],
+      "companies": [
+        "삼성전기",
+        "엔비디아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "삼성전기",
+        "엔비디아"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 매체 8곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-17T23:00:00Z",
+      "updated_at": "2026-11-18T06:41:36Z",
+      "articles": [
+        {
+          "key": "e44e4d3ae6033252",
+          "title": "삼성전기-엔비디아, AI 인프라 확충 위한 협력 강화",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343428",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:00:00Z"
+        },
+        {
+          "key": "fc697c600add8b7a",
+          "title": "[속보] 엔비디아 \"삼성전기와 패키지기판 신규 계약 체결\"",
+          "url": "https://www.inews24.com/view/2027409",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:01:54Z"
+        },
+        {
+          "key": "445c7ae4c772683c",
+          "title": "삼성전기·엔비디아, GPU용 기판 협력 확대…추가 자금 지원 검토",
+          "url": "https://www.inews24.com/view/2027422",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:26:54Z"
+        },
+        {
+          "key": "30e897d3f53aacd3",
+          "title": "삼성전기·엔비디아, 차세대 GPU 기판 공급 확대…MLCC도 협력",
+          "url": "https://www.yna.co.kr/view/AKR20261118031800003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:45:29Z"
+        },
+        {
+          "key": "f4a91dfd9b56e1b0",
+          "title": "삼성전기, 엔비디아와 AI 부품 협력 확대…기판 이어 MLCC 공급 추진",
+          "url": "https://www.dt.co.kr/article/12095830",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:51:00Z"
+        },
+        {
+          "key": "f5dbab33d756b44f",
+          "title": "[특징주] 삼성전기, 엔비디아와 협력 강화…장초반 7%대↑",
+          "url": "https://www.yna.co.kr/view/AKR20261118043200008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-18T00:14:40Z"
+        },
+        {
+          "key": "1f2cc06a68a3a2fc",
+          "title": "삼성전기, 엔비디아향 기판·MLCC 공급 확대…AI 동맹 강화",
+          "url": "https://zdnet.co.kr/view/?no=20261118091130",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-18T00:29:47Z"
+        },
+        {
+          "key": "5577e3f9f8b0e14e",
+          "title": "Samsung Electro-Mechanics, Nvidia to expand cooperation on AI chip components",
+          "url": "https://www.koreaherald.com/article/10940879",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-18T01:23:15Z"
+        },
+        {
+          "key": "48362251588d881a",
+          "title": "삼성전기, 엔비디아와 MLCC 협력",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65583",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-18T01:54:31Z"
+        },
+        {
+          "key": "5d39d5005e2ac8a6",
+          "title": "Samsung Electro-Mechanics, Nvidia expand ties to MLCCs",
+          "url": "https://www.koreaherald.com/article/10941103",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-18T02:26:04Z"
+        },
+        {
+          "key": "829211d148623872",
+          "title": "삼성전기, 엔비디아와 AI 부품 동맹…패키지기판·MLCC 공급 확대",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409928",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-18T04:00:00Z"
+        },
+        {
+          "key": "4255d94559f8fb71",
+          "title": "엔비디아, 삼성전기와 AI 공급망 동맹 강화…기판 생산 기반 확대",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409952",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-18T04:14:55Z"
+        },
+        {
+          "key": "38283b328cec91d9",
+          "title": "[특징주] 삼성전기, 엔비디아와 협력 강화에 7%대 상승(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261118043251008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-18T06:41:36Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261118-1275",
+      "headline": "삼성디스플레이·LG디스플레이, 2027년 아이폰용 OLED 양산 착수",
+      "summary": [
+        "삼성디스플레이와 LG디스플레이가 애플의 2027년 아이폰용 OLED 패널 생산을 시작한다는 보도가 나왔다.",
+        "기사 본문은 사진 출처 표기뿐이라 생산 물량이나 구체적 일정 등 세부 수치는 확인되지 않는다.",
+        "보도가 사실이라면 두 회사의 차세대 아이폰 공급 지위가 이어지며 국내 OLED 업계에 대형 고객 물량이 확보되는 의미가 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "아이폰",
+        "2027년 아이폰",
+        "패널 양산"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "LG디스플레이",
+        "애플"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "삼성디스플레이",
+        "LG디스플레이",
+        "애플"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(LG디스플레이, 삼성디스플레이) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T06:26:40Z",
+      "updated_at": "2026-11-18T06:26:40Z",
+      "articles": [
+        {
+          "key": "fffce54a58af869b",
+          "title": "Samsung Display, LG Display to start OLED production for Apple's 2027 iPhones",
+          "url": "https://www.digitimes.com/news/a20261118VL215/lg-display-production-iphone-apple-sdc.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T06:26:40Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261118-1274",
       "headline": "전남광주교육청, 앰코·대한상의와 반도체 인재 양성 협력",
@@ -686,140 +1363,6 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261117-1236",
-      "headline": "삼성전기, 엔비디아와 AI 부품 협력 확대",
-      "summary": [
-        "삼성전기가 엔비디아와 AI 인프라용 부품 협력을 강화하기로 밝혔다.",
-        "패키지기판 공급을 늘리고 MLCC까지 협력 범위를 넓히며, 세종·부산 사업장 관련 추가 협력도 논의됐다.",
-        "AI 가속 컴퓨팅 부품 공급망에서 삼성전기의 입지가 강화될 것으로 보인다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "패키지기판",
-        "MLCC",
-        "AI 인프라",
-        "가속 컴퓨팅"
-      ],
-      "companies": [
-        "삼성전기",
-        "엔비디아"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "삼성전기",
-        "엔비디아"
-      ],
-      "importance": 4,
-      "importance_reason": "수주·공급 3점, 매체 8곳 보도 +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-17T23:00:00Z",
-      "updated_at": "2026-11-18T04:14:55Z",
-      "articles": [
-        {
-          "key": "e44e4d3ae6033252",
-          "title": "삼성전기-엔비디아, AI 인프라 확충 위한 협력 강화",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=343428",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-11-17T23:00:00Z"
-        },
-        {
-          "key": "fc697c600add8b7a",
-          "title": "[속보] 엔비디아 \"삼성전기와 패키지기판 신규 계약 체결\"",
-          "url": "https://www.inews24.com/view/2027409",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-17T23:01:54Z"
-        },
-        {
-          "key": "445c7ae4c772683c",
-          "title": "삼성전기·엔비디아, GPU용 기판 협력 확대…추가 자금 지원 검토",
-          "url": "https://www.inews24.com/view/2027422",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-17T23:26:54Z"
-        },
-        {
-          "key": "30e897d3f53aacd3",
-          "title": "삼성전기·엔비디아, 차세대 GPU 기판 공급 확대…MLCC도 협력",
-          "url": "https://www.yna.co.kr/view/AKR20261118031800003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-17T23:45:29Z"
-        },
-        {
-          "key": "f4a91dfd9b56e1b0",
-          "title": "삼성전기, 엔비디아와 AI 부품 협력 확대…기판 이어 MLCC 공급 추진",
-          "url": "https://www.dt.co.kr/article/12095830",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-17T23:51:00Z"
-        },
-        {
-          "key": "f5dbab33d756b44f",
-          "title": "[특징주] 삼성전기, 엔비디아와 협력 강화…장초반 7%대↑",
-          "url": "https://www.yna.co.kr/view/AKR20261118043200008",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-18T00:14:40Z"
-        },
-        {
-          "key": "1f2cc06a68a3a2fc",
-          "title": "삼성전기, 엔비디아향 기판·MLCC 공급 확대…AI 동맹 강화",
-          "url": "https://zdnet.co.kr/view/?no=20261118091130",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-18T00:29:47Z"
-        },
-        {
-          "key": "5577e3f9f8b0e14e",
-          "title": "Samsung Electro-Mechanics, Nvidia to expand cooperation on AI chip components",
-          "url": "https://www.koreaherald.com/article/10940879",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-11-18T01:23:15Z"
-        },
-        {
-          "key": "48362251588d881a",
-          "title": "삼성전기, 엔비디아와 MLCC 협력",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65583",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-18T01:54:31Z"
-        },
-        {
-          "key": "5d39d5005e2ac8a6",
-          "title": "Samsung Electro-Mechanics, Nvidia expand ties to MLCCs",
-          "url": "https://www.koreaherald.com/article/10941103",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-11-18T02:26:04Z"
-        },
-        {
-          "key": "829211d148623872",
-          "title": "삼성전기, 엔비디아와 AI 부품 동맹…패키지기판·MLCC 공급 확대",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409928",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-18T04:00:00Z"
-        },
-        {
-          "key": "4255d94559f8fb71",
-          "title": "엔비디아, 삼성전기와 AI 공급망 동맹 강화…기판 생산 기반 확대",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409952",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-18T04:14:55Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
-    },
-    {
       "id": "c20261118-1262",
       "headline": "엔비디아, 과학·공학 시뮬레이션용 루빈 HPC 공개",
       "summary": [
@@ -1245,69 +1788,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261118-1252",
-      "headline": "딥엑스 NPU 탑재 대만 엣지 AI 제품, 우수제품상 수상",
-      "summary": [
-        "딥엑스 NPU를 탑재한 대만 에이페이서의 엣지 AI 제품 '바이클로'가 2027 대만 우수제품상을 받았다.",
-        "바이클로는 25TOPS 성능의 딥엑스 NPU 2개와 SSD 2개를 한 카드에 탑재한 제품이다.",
-        "국산 NPU의 성능과 기술력이 해외 시장에서 검증된 사례로, 엣지 AI 반도체 경쟁력을 보여준다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "NPU",
-        "엣지 AI",
-        "딥엑스",
-        "대만 우수제품상",
-        "초저전력 AI 반도체"
-      ],
-      "companies": [
-        "딥엑스",
-        "에이페이서"
-      ],
-      "event_type": "소송·특허",
-      "confirmed": true,
-      "parties": [
-        "딥엑스",
-        "에이페이서"
-      ],
-      "importance": 4,
-      "importance_reason": "소송·특허 3점, 매체 3곳 보도 +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-18T01:41:42Z",
-      "updated_at": "2026-11-18T02:39:40Z",
-      "articles": [
-        {
-          "key": "f10b8c2a4ff35e6a",
-          "title": "대만 우수 AI 제품에 한국산 반도체…딥엑스 NPU 기술력 입증",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409945",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-18T01:41:42Z"
-        },
-        {
-          "key": "4c4266385344884f",
-          "title": "딥엑스 NPU 탑재한 대만 에이페이서 엣지 AI 제품 '바이클로', 2027 대만 우수제품상 수상",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=343432",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-11-18T02:00:00Z"
-        },
-        {
-          "key": "a408acec15946a35",
-          "title": "딥엑스 NPU 탑재 에이페이서 제품, 대만 우수제품상 수상",
-          "url": "https://www.yna.co.kr/view/AKR20261118090300017",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-18T02:39:40Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
     },
     {
       "id": "c20261118-1253",
