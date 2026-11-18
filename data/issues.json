@@ -1,7 +1,386 @@
 {
   "version": 1,
-  "updated_at": "2026-11-18T03:03:53Z",
+  "updated_at": "2026-11-18T04:10:27Z",
   "issues": [
+    {
+      "id": "c20261117-1236",
+      "headline": "삼성전기, 엔비디아와 AI 부품 협력 확대",
+      "summary": [
+        "삼성전기가 엔비디아와 AI 인프라용 부품 협력을 강화하기로 밝혔다.",
+        "패키지기판 공급을 늘리고 MLCC까지 협력 범위를 넓히며, 세종·부산 사업장 관련 추가 협력도 논의됐다.",
+        "AI 가속 컴퓨팅 부품 공급망에서 삼성전기의 입지가 강화될 것으로 보인다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "패키지기판",
+        "MLCC",
+        "AI 인프라",
+        "가속 컴퓨팅"
+      ],
+      "companies": [
+        "삼성전기",
+        "엔비디아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "삼성전기",
+        "엔비디아"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 매체 8곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-17T23:00:00Z",
+      "updated_at": "2026-11-18T04:00:00Z",
+      "articles": [
+        {
+          "key": "e44e4d3ae6033252",
+          "title": "삼성전기-엔비디아, AI 인프라 확충 위한 협력 강화",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343428",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:00:00Z"
+        },
+        {
+          "key": "fc697c600add8b7a",
+          "title": "[속보] 엔비디아 \"삼성전기와 패키지기판 신규 계약 체결\"",
+          "url": "https://www.inews24.com/view/2027409",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:01:54Z"
+        },
+        {
+          "key": "445c7ae4c772683c",
+          "title": "삼성전기·엔비디아, GPU용 기판 협력 확대…추가 자금 지원 검토",
+          "url": "https://www.inews24.com/view/2027422",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:26:54Z"
+        },
+        {
+          "key": "30e897d3f53aacd3",
+          "title": "삼성전기·엔비디아, 차세대 GPU 기판 공급 확대…MLCC도 협력",
+          "url": "https://www.yna.co.kr/view/AKR20261118031800003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:45:29Z"
+        },
+        {
+          "key": "f4a91dfd9b56e1b0",
+          "title": "삼성전기, 엔비디아와 AI 부품 협력 확대…기판 이어 MLCC 공급 추진",
+          "url": "https://www.dt.co.kr/article/12095830",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:51:00Z"
+        },
+        {
+          "key": "f5dbab33d756b44f",
+          "title": "[특징주] 삼성전기, 엔비디아와 협력 강화…장초반 7%대↑",
+          "url": "https://www.yna.co.kr/view/AKR20261118043200008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-18T00:14:40Z"
+        },
+        {
+          "key": "1f2cc06a68a3a2fc",
+          "title": "삼성전기, 엔비디아향 기판·MLCC 공급 확대…AI 동맹 강화",
+          "url": "https://zdnet.co.kr/view/?no=20261118091130",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-18T00:29:47Z"
+        },
+        {
+          "key": "5577e3f9f8b0e14e",
+          "title": "Samsung Electro-Mechanics, Nvidia to expand cooperation on AI chip components",
+          "url": "https://www.koreaherald.com/article/10940879",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-18T01:23:15Z"
+        },
+        {
+          "key": "48362251588d881a",
+          "title": "삼성전기, 엔비디아와 MLCC 협력",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65583",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-18T01:54:31Z"
+        },
+        {
+          "key": "5d39d5005e2ac8a6",
+          "title": "Samsung Electro-Mechanics, Nvidia expand ties to MLCCs",
+          "url": "https://www.koreaherald.com/article/10941103",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-18T02:26:04Z"
+        },
+        {
+          "key": "829211d148623872",
+          "title": "삼성전기, 엔비디아와 AI 부품 동맹…패키지기판·MLCC 공급 확대",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409928",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-18T04:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261118-1260",
+      "headline": "엔비디아, 킨수스에 10억 달러 이상 투자해 AI 기판 증설",
+      "summary": [
+        "엔비디아가 킨수스에 10억 달러 이상을 투자하는 방안이 보도됐다.",
+        "기사 본문이 비어 있어 투자 규모 외의 세부 조건과 일정은 확인되지 않는다.",
+        "AI 가속기 수요에 맞춰 고성능 기판 공급 능력을 확보하려는 움직임으로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "AI 기판",
+        "투자",
+        "생산능력 확대"
+      ],
+      "companies": [
+        "엔비디아",
+        "킨수스"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "엔비디아",
+        "킨수스"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T03:55:07Z",
+      "updated_at": "2026-11-18T03:55:07Z",
+      "articles": [
+        {
+          "key": "26b54d71f7cca4a9",
+          "title": "Nvidia invests over US$1B in Kinsus for AI substrate capacity",
+          "url": "https://www.digitimes.com/news/a20261118PD233/kinsus-capacity-substrate-nvidia-expansion.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T03:55:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261118-1259",
+      "headline": "미국 첨단 칩 규제 확대, 중국 보복 예고",
+      "summary": [
+        "미국이 첨단 반도체 수출 통제를 확대했고 중국은 보복을 예고했다.",
+        "기사 본문이 제공되지 않아 구체적 품목, 대상 기업, 시행 일정은 확인되지 않는다.",
+        "국내 반도체 기업의 대중 수출과 공급망에 영향을 줄 수 있는 사안이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출규제",
+        "첨단 칩",
+        "미중 갈등",
+        "보복 조치"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T03:54:15Z",
+      "updated_at": "2026-11-18T03:54:15Z",
+      "articles": [
+        {
+          "key": "acbe472aa308186e",
+          "title": "US expands advanced chip controls, China vows to retaliate",
+          "url": "https://www.digitimes.com/news/a20261118PD206/chips-semiconductors-brazil-development-security.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T03:54:15Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261118-1258",
+      "headline": "엔비디아 중국 클라우드 접근 단속 강화 논란",
+      "summary": [
+        "엔비디아의 중국 문제가 클라우드 접근 단속으로 번지는 양상이라는 보도가 나왔다.",
+        "기사 본문은 사진 크레딧만 있어 구체적 규제 내용과 일정은 확인되지 않는다.",
+        "중국 내 AI 칩 수요 접근 경로가 막힐 수 있어 엔비디아 등 관련 기업에 영향이 우려된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "엔비디아",
+        "중국 수출규제",
+        "클라우드 접근",
+        "AI반도체"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T03:40:38Z",
+      "updated_at": "2026-11-18T03:40:38Z",
+      "articles": [
+        {
+          "key": "4f79edbdfc89eb5e",
+          "title": "Huang fallout turns Nvidia's China problem into a cloud-access crackdown",
+          "url": "https://www.digitimes.com/news/a20261118VL210/nvidia-usa-china-export-restrictions-chips-infrastructure-jensen-huang.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T03:40:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261118-1257",
+      "headline": "미국 AI칩 수출 심사 강화, 국내 하이퍼스케일러 수요 전환 가능성",
+      "summary": [
+        "미국이 AI 반도체 수출 심사를 강화했다는 보도가 나왔다.",
+        "기사 본문은 짧아 구체적 규제 내용과 시행 일정은 확인되지 않는다.",
+        "수출 제약이 커지면 현지 하이퍼스케일러 중심으로 AI칩 수요가 옮겨갈 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI반도체",
+        "수출규제",
+        "하이퍼스케일러",
+        "수출심사"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T03:24:42Z",
+      "updated_at": "2026-11-18T03:24:42Z",
+      "articles": [
+        {
+          "key": "27fc97eaa52a0645",
+          "title": "US tightens AI chip export reviews, potentially shifting demand to domestic hyperscalers",
+          "url": "https://www.digitimes.com/news/a20261118PD229/demand-ai-chip-chips-government-asic.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T03:24:42Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261118-1256",
+      "headline": "CXMT, 장기 DRAM 계약 추진하며 4F² 양산 고객 검증 대기",
+      "summary": [
+        "CXMT가 장기 DRAM 공급 계약을 추진하는 가운데 4F² 구조 생산은 고객사 검증을 기다리는 상황이다.",
+        "기사 본문이 제공되지 않아 구체적 계약 규모나 양산 일정, 수치는 확인할 수 없다.",
+        "메모리 업계에서는 중국 업체의 장기 공급 확보 움직임이 DRAM 경쟁 구도에 영향을 줄 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "DRAM",
+        "4F²",
+        "장기공급계약",
+        "고객검증"
+      ],
+      "companies": [
+        "CXMT"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "CXMT"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T03:09:10Z",
+      "updated_at": "2026-11-18T03:09:10Z",
+      "articles": [
+        {
+          "key": "a1a82e16432bc32a",
+          "title": "CXMT lines up long-term DRAM deals while 4F-squared production awaits customer validation",
+          "url": "https://www.digitimes.com/news/a20261118PD226/cxmt-dram-production-demand-president.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T03:09:10Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1255",
+      "headline": "충북 3분기 광공업생산 30% 가까이 증가, 반도체 호조",
+      "summary": [
+        "올해 3분기 충북의 광공업생산이 1년 전보다 30% 가까이 늘어 2분기에 이어 증가세를 보였다.",
+        "반도체 공장과 기업이 몰린 충북에서 반도체 업황 호조가 생산 증가를 주도한 것으로 보인다.",
+        "지역 반도체 생산이 살아나며 충북 산업 경기가 개선되는 흐름으로 해석된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "광공업생산",
+        "충북",
+        "반도체 호조",
+        "지역 경제"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-18T03:00:10Z",
+      "updated_at": "2026-11-18T03:00:10Z",
+      "articles": [
+        {
+          "key": "50329731175619b2",
+          "title": "반도체 호조로 3분기 충북 광공업생산 30%↑…소매판매 13곳↓",
+          "url": "https://www.yna.co.kr/view/AKR20261118062900002",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-18T03:00:10Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261118-1254",
       "headline": "AI 저장장치 호황에도 NAND 현물가 20% 하락",
@@ -103,124 +482,6 @@
           "source": "연합뉴스",
           "lang": "ko",
           "published_at": "2026-11-18T02:39:40Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
-    },
-    {
-      "id": "c20261117-1236",
-      "headline": "삼성전기, 엔비디아와 AI 부품 협력 MLCC까지 확대",
-      "summary": [
-        "삼성전기가 엔비디아와 AI 반도체 패키지기판 협력을 MLCC 분야로 넓히기로 했다고 18일 밝혔다.",
-        "엔비디아는 세종·부산 사업장 패키지기판 증설 자금을 지원한 데 이어 추가 지원도 검토 중이다.",
-        "AI 가속기용 고신뢰성 MLCC 공급 기반이 넓어져 AI 인프라 부품 공급망 의존도가 커질 전망이다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "MLCC",
-        "패키지기판",
-        "AI 가속기",
-        "증설 투자"
-      ],
-      "companies": [
-        "삼성전기",
-        "엔비디아"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "삼성전기",
-        "엔비디아"
-      ],
-      "importance": 4,
-      "importance_reason": "수주·공급 3점, 매체 7곳 보도 +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-17T23:00:00Z",
-      "updated_at": "2026-11-18T02:26:04Z",
-      "articles": [
-        {
-          "key": "e44e4d3ae6033252",
-          "title": "삼성전기-엔비디아, AI 인프라 확충 위한 협력 강화",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=343428",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-11-17T23:00:00Z"
-        },
-        {
-          "key": "fc697c600add8b7a",
-          "title": "[속보] 엔비디아 \"삼성전기와 패키지기판 신규 계약 체결\"",
-          "url": "https://www.inews24.com/view/2027409",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-17T23:01:54Z"
-        },
-        {
-          "key": "445c7ae4c772683c",
-          "title": "삼성전기·엔비디아, GPU용 기판 협력 확대…추가 자금 지원 검토",
-          "url": "https://www.inews24.com/view/2027422",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-17T23:26:54Z"
-        },
-        {
-          "key": "30e897d3f53aacd3",
-          "title": "삼성전기·엔비디아, 차세대 GPU 기판 공급 확대…MLCC도 협력",
-          "url": "https://www.yna.co.kr/view/AKR20261118031800003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-17T23:45:29Z"
-        },
-        {
-          "key": "f4a91dfd9b56e1b0",
-          "title": "삼성전기, 엔비디아와 AI 부품 협력 확대…기판 이어 MLCC 공급 추진",
-          "url": "https://www.dt.co.kr/article/12095830",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-17T23:51:00Z"
-        },
-        {
-          "key": "f5dbab33d756b44f",
-          "title": "[특징주] 삼성전기, 엔비디아와 협력 강화…장초반 7%대↑",
-          "url": "https://www.yna.co.kr/view/AKR20261118043200008",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-18T00:14:40Z"
-        },
-        {
-          "key": "1f2cc06a68a3a2fc",
-          "title": "삼성전기, 엔비디아향 기판·MLCC 공급 확대…AI 동맹 강화",
-          "url": "https://zdnet.co.kr/view/?no=20261118091130",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-18T00:29:47Z"
-        },
-        {
-          "key": "5577e3f9f8b0e14e",
-          "title": "Samsung Electro-Mechanics, Nvidia to expand cooperation on AI chip components",
-          "url": "https://www.koreaherald.com/article/10940879",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-11-18T01:23:15Z"
-        },
-        {
-          "key": "48362251588d881a",
-          "title": "삼성전기, 엔비디아와 MLCC 협력",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65583",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-18T01:54:31Z"
-        },
-        {
-          "key": "5d39d5005e2ac8a6",
-          "title": "Samsung Electro-Mechanics, Nvidia expand ties to MLCCs",
-          "url": "https://www.koreaherald.com/article/10941103",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-11-18T02:26:04Z"
         }
       ],
       "type_checked": true,
