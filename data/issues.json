@@ -1,7 +1,260 @@
 {
   "version": 1,
-  "updated_at": "2026-11-18T04:10:27Z",
+  "updated_at": "2026-11-18T05:16:18Z",
   "issues": [
+    {
+      "id": "c20261117-1222",
+      "headline": "SFC, 코스피 상장 철회…시장 여건 악화 영향",
+      "summary": [
+        "청색 OLED 소재 기업 SFC가 일반 청약을 하루 앞두고 코스피 상장을 철회했다.",
+        "기관 수요예측 이후 공정한 기업가치 평가를 받기 어렵다고 판단했으며, 공모가 상단 기준 시가총액은 5억~5억5천만 달러로 예상보다 낮았다.",
+        "상장 시장 여건이 크게 나빠져 IPO 흥행이 어려워졌다는 신호로, 2027년 1분기 재도전을 검토 중이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "IPO",
+        "청색 OLED",
+        "상장 철회",
+        "수요예측",
+        "기업가치"
+      ],
+      "companies": [
+        "SFC",
+        "삼성전자"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "SFC"
+      ],
+      "importance": 3,
+      "importance_reason": "재무·주주 2점, 매체 3곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-17T09:49:27Z",
+      "updated_at": "2026-11-18T05:05:44Z",
+      "articles": [
+        {
+          "key": "3960fd4fff4ef0f6",
+          "title": "'LG화학과 청색 OLED 특허분쟁' SFC, 상장 철회",
+          "url": "https://zdnet.co.kr/view/?no=20261117182743",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T09:49:27Z"
+        },
+        {
+          "key": "33e0fe5de8e0ded2",
+          "title": "SFC, 코스피 상장 철회",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65580",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-17T13:10:09Z"
+        },
+        {
+          "key": "9633d6830b728e9d",
+          "title": "SFC withdraws its IPO a day before the public subscription, reveals it lost the blue dopant slot in Samsung's latest IT OLED material set",
+          "url": "https://www.oled-info.com/sfc-withdraws-its-ipo-day-public-subscription-its-filing-reveals-it-lost-blue",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-18T05:05:44Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1173",
+      "headline": "세미파이브, HBM 없이 AI 반도체 구현하는 3D-IC 기술 공개",
+      "summary": [
+        "세미파이브가 SC26 전시회에서 자체 개발한 3D-IC 설계 플랫폼을 공개했다.",
+        "로직 위에 D램을 적층하는 AI 칩 설계이며 내년 1분기 테이프아웃이 예정돼 있다.",
+        "HBM 의존도를 낮출 수 있는 대안으로 AI 반도체 설계 방식에 영향을 줄 전망이다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "3D-IC",
+        "HBM",
+        "AI반도체",
+        "로직 위 D램 적층",
+        "테이프아웃"
+      ],
+      "companies": [
+        "세미파이브"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "세미파이브"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 매체 3곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T00:44:07Z",
+      "updated_at": "2026-11-18T04:57:05Z",
+      "articles": [
+        {
+          "key": "bbc9a6485f5a8811",
+          "title": "세미파이브, HBM 한계 넘을 3D-IC 플랫폼 공개…AI 반도체 판 바꾼다",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409872",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T00:44:07Z"
+        },
+        {
+          "key": "dd5f587e059460b0",
+          "title": "세미파이브, 로직 위에 D램 쌓는 AI 칩 설계…내년 1분기 테이프아웃",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65513",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-17T04:46:57Z"
+        },
+        {
+          "key": "c9b0b47c89c19104",
+          "title": "세미파이브, HBM 없는 AI 반도체 개발…3D 적층 기술 공개",
+          "url": "https://www.inews24.com/view/2027586",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-18T04:57:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261118-1265",
+      "headline": "코코링크, 엔비디아 NVLink 없이 PCIe 기반 AI 서버 공개",
+      "summary": [
+        "코코링크가 엔비디아 NVLink를 쓰지 않고 여러 가속기를 잇는 PCIe 기반 AI 서버를 공개했다.",
+        "SC26 전시회(15~20일, 미국 시카고)에서 다중화 PCIe 스위칭 기술과 차세대 가속기 로드맵을 선보였다.",
+        "엔비디아 전용 연결 기술에 의존하지 않는 대안으로, 서버용 인터커넥트 경쟁 구도에 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "PCIe",
+        "NVLink",
+        "다중화 PCIe 스위칭",
+        "AI 서버",
+        "SC26"
+      ],
+      "companies": [
+        "코코링크",
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "코코링크"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-18T04:53:01Z",
+      "updated_at": "2026-11-18T04:53:01Z",
+      "articles": [
+        {
+          "key": "b006b54603222730",
+          "title": "코코링크, 엔비디아 대안 PCIe 서버 공개",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65608",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-18T04:53:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1264",
+      "headline": "인도, 동남아와 반도체 패키징 경쟁…고객 신뢰가 관건",
+      "summary": [
+        "인도가 반도체 패키징 분야에서 동남아시아 국가들과 경쟁에 나서고 있다는 보도가 나왔다.",
+        "기사 본문은 사진 캡션만 있어 구체적 투자 규모나 일정, 기업 계획은 확인되지 않는다.",
+        "고객사 신뢰 확보가 인도 패키징 산업의 성장 가능성을 좌우할 과제로 제시됐다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "반도체 패키징",
+        "인도 반도체",
+        "동남아시아",
+        "고객 신뢰"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T04:38:02Z",
+      "updated_at": "2026-11-18T04:38:02Z",
+      "articles": [
+        {
+          "key": "e68c848ec1e5de33",
+          "title": "India faces test of customer confidence as it challenges Southeast Asia in chip packaging",
+          "url": "https://www.digitimes.com/news/a20261117VL222/india-packaging-equipment-manufacturing-osat.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T04:38:02Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261118-1263",
+      "headline": "미 SEC, 엔비디아 조사 착수 보도",
+      "summary": [
+        "미국 증권거래위원회(SEC)가 엔비디아를 조사하고 있다는 보도가 나왔다.",
+        "기사 본문이 제목과 출처 표기뿐이라 조사 범위나 세부 일정은 확인되지 않는다.",
+        "다만 전직 최고경영자(CEO) 젠슨 황의 의회 증언 동의가 함께 전해져 파장이 주목된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "SEC조사",
+        "엔비디아",
+        "젠슨황",
+        "의회증언"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T04:27:57Z",
+      "updated_at": "2026-11-18T04:27:57Z",
+      "articles": [
+        {
+          "key": "63ea52f4d773d563",
+          "title": "SEC probes Nvidia as ex-CEO Jensen Huang agrees to testify before Congress",
+          "url": "https://www.digitimes.com/news/a20261118VL208/nvidia-jensen-huang-investigation-security-ceo.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T04:27:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261117-1236",
       "headline": "삼성전기, 엔비디아와 AI 부품 협력 확대",
@@ -34,7 +287,7 @@
       "attempts": 0,
       "region": "both",
       "first_seen": "2026-11-17T23:00:00Z",
-      "updated_at": "2026-11-18T04:00:00Z",
+      "updated_at": "2026-11-18T04:14:55Z",
       "articles": [
         {
           "key": "e44e4d3ae6033252",
@@ -123,10 +376,106 @@
           "source": "테크월드뉴스",
           "lang": "ko",
           "published_at": "2026-11-18T04:00:00Z"
+        },
+        {
+          "key": "4255d94559f8fb71",
+          "title": "엔비디아, 삼성전기와 AI 공급망 동맹 강화…기판 생산 기반 확대",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409952",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-18T04:14:55Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 4
+    },
+    {
+      "id": "c20261118-1262",
+      "headline": "엔비디아, 과학·공학 시뮬레이션용 루빈 HPC 공개",
+      "summary": [
+        "엔비디아가 과학·공학 시뮬레이션을 겨냥한 루빈 기반 HPC 제품을 공개했다.",
+        "기사 본문이 사진 출처 표기뿐이라 사양과 가격, 출하 일정은 확인되지 않는다.",
+        "고성능 컴퓨팅 시장에서 AI와 과학계산을 함께 잡으려는 엔비디아의 행보로 볼 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "루빈",
+        "HPC",
+        "과학 시뮬레이션",
+        "엔비디아"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T04:11:17Z",
+      "updated_at": "2026-11-18T04:11:17Z",
+      "articles": [
+        {
+          "key": "1bfbe938aa77b85d",
+          "title": "Nvidia unveils Rubin HPC for science and engineering simulations",
+          "url": "https://www.digitimes.com/news/a20261118VL212/nvidia-rubin-gpu-processor-hpc.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T04:11:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1261",
+      "headline": "TCL중환, 300mm 웨이퍼 자회사 지분 98.5% 확보 추진",
+      "summary": [
+        "TCL중환이 300mm AI칩 웨이퍼 사업 자회사의 지분 98.5% 확보에 나섰다는 보도가 나왔다.",
+        "기사 본문이 사실상 비어 있어 거래 조건, 금액, 일정은 확인되지 않는다.",
+        "AI칩용 대형 웨이퍼 수요 증가에 대응한 지분 확대로 공급망 재편 흐름을 보여준다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "300mm 웨이퍼",
+        "AI칩",
+        "웨이퍼",
+        "지분 인수"
+      ],
+      "companies": [
+        "TCL중환"
+      ],
+      "event_type": "인수합병",
+      "confirmed": false,
+      "parties": [
+        "TCL중환"
+      ],
+      "importance": 1,
+      "importance_reason": "인수합병 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T04:06:32Z",
+      "updated_at": "2026-11-18T04:06:32Z",
+      "articles": [
+        {
+          "key": "daae419f976c0327",
+          "title": "TCL Zhonghuan seeks 98.5% of wafer unit to capture rising demand for 300mm AI chip wafers",
+          "url": "https://www.digitimes.com/news/a20261118VL209/tcl-300mm-wafer-demand-subsidiary.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T04:06:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
     },
     {
       "id": "c20261118-1260",
@@ -1904,58 +2253,6 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261117-1222",
-      "headline": "SFC, 수요예측 부진으로 코스피 상장 철회",
-      "summary": [
-        "OLED 소재 기업 SFC가 코스피 상장 계획을 철회하고 증권신고서 철회신고서를 금융감독원에 제출했다.",
-        "지난 9~13일 기관 수요예측 결과 조달 가능액이 1500억원에 못 미칠 것으로 추정돼 당초 목표 2000억원에서 미달했다.",
-        "공모 부진으로 상장 재추진 시점을 검토 중이며, 소재 기업의 자금 조달 환경 악화를 보여준다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "코스피 상장",
-        "수요예측",
-        "OLED 소재",
-        "증권신고서 철회"
-      ],
-      "companies": [
-        "SFC"
-      ],
-      "event_type": "재무·주주",
-      "confirmed": true,
-      "parties": [
-        "SFC"
-      ],
-      "importance": 2,
-      "importance_reason": "재무·주주 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-17T09:49:27Z",
-      "updated_at": "2026-11-17T13:10:09Z",
-      "articles": [
-        {
-          "key": "3960fd4fff4ef0f6",
-          "title": "'LG화학과 청색 OLED 특허분쟁' SFC, 상장 철회",
-          "url": "https://zdnet.co.kr/view/?no=20261117182743",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-17T09:49:27Z"
-        },
-        {
-          "key": "33e0fe5de8e0ded2",
-          "title": "SFC, 코스피 상장 철회",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65580",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-17T13:10:09Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
       "id": "c20261117-1226",
       "headline": "삼성·SK하이닉스·마이크론, 로봇 충전 규격 표준화 추진",
       "summary": [
@@ -3539,61 +3836,6 @@
           "source": "디일렉",
           "lang": "ko",
           "published_at": "2026-11-17T04:52:46Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261117-1173",
-      "headline": "세미파이브, 로직 위 D램 적층 3D-IC 칩 설계 적용",
-      "summary": [
-        "세미파이브가 로직 반도체와 D램을 수직 적층하는 3D-IC 플랫폼을 PFN의 차세대 AI 추론 반도체에 처음 적용했다고 밝혔다.",
-        "해당 칩은 내년 1분기 설계를 마치고 테이프아웃에 들어가며, 세미파이브는 설계부터 웨이퍼 양산 공급까지 턴키로 맡는다.",
-        "AI 칩의 메모리 병목을 줄이는 적층 설계 기술이 ASIC 설계 시장에서 경쟁력으로 떠오를 수 있다는 의미가 있다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "3D-IC",
-        "D램 적층",
-        "AI 추론 반도체",
-        "테이프아웃",
-        "ASIC"
-      ],
-      "companies": [
-        "세미파이브",
-        "프리퍼드 네트웍스"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "세미파이브",
-        "프리퍼드 네트웍스"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-17T00:44:07Z",
-      "updated_at": "2026-11-17T04:46:57Z",
-      "articles": [
-        {
-          "key": "bbc9a6485f5a8811",
-          "title": "세미파이브, HBM 한계 넘을 3D-IC 플랫폼 공개…AI 반도체 판 바꾼다",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409872",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-17T00:44:07Z"
-        },
-        {
-          "key": "dd5f587e059460b0",
-          "title": "세미파이브, 로직 위에 D램 쌓는 AI 칩 설계…내년 1분기 테이프아웃",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65513",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-17T04:46:57Z"
         }
       ],
       "type_checked": true,
