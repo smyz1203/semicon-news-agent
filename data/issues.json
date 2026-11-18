@@ -1,7 +1,98 @@
 {
   "version": 1,
-  "updated_at": "2026-11-18T13:29:25Z",
+  "updated_at": "2026-11-18T15:10:46Z",
   "issues": [
+    {
+      "id": "c20261118-1300",
+      "headline": "Qnity CTO, 반도체 소재와 AI 패키징 과제 조명",
+      "summary": [
+        "Qnity의 CTO 랜디 킹이 DuPont 분리 1년을 맞아 인터뷰에 응했다.",
+        "기사는 반도체 속도 대응, 첨단 패키징의 소재 과제, 칩메이커들의 요구를 다룬다.",
+        "AI 반도체 확산에 따라 소재 기업의 기술 역할이 커지고 있음을 보여준다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "첨단 패키징",
+        "반도체 소재",
+        "AI 반도체",
+        "Qnity"
+      ],
+      "companies": [
+        "Qnity",
+        "DuPont"
+      ],
+      "event_type": "칼럼·인터뷰",
+      "confirmed": true,
+      "parties": [
+        "Qnity"
+      ],
+      "importance": 1,
+      "importance_reason": "칼럼·인터뷰 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T14:00:00Z",
+      "updated_at": "2026-11-18T14:00:00Z",
+      "articles": [
+        {
+          "key": "25fda4b4e77f63f8",
+          "title": "Qnity at One: Randy King on Shrink, Stack and the Materials Behind AI",
+          "url": "https://www.eetimes.com/qnity-at-one-randy-king-on-shrink-stack-and-the-materials-behind-ai/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-18T14:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261118-1299",
+      "headline": "Oxmiq, 인도 팀 대상 AI칩 설계 IP·도구 제공 나서",
+      "summary": [
+        "Oxmiq Labs의 라자 코두리 CEO가 인도 이니셔티브와 AI칩 설계 방향을 인터뷰에서 밝혔다.",
+        "인터뷰에서는 AI 컴퓨팅의 메모리 계층 역할과 맞춤형 실리콘의 경제성이 다뤄졌다.",
+        "인도 설계 인력의 AI칩 개발 진입 장벽을 낮출 수 있다는 점에서 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI칩 설계",
+        "IP",
+        "메모리 계층",
+        "맞춤형 실리콘",
+        "인도 반도체"
+      ],
+      "companies": [
+        "Oxmiq",
+        "Oxmiq Labs"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "Oxmiq Labs"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T13:30:00Z",
+      "updated_at": "2026-11-18T13:30:00Z",
+      "articles": [
+        {
+          "key": "ce8f18e0975c2faf",
+          "title": "Koduri’s Oxmiq Offers IP, Tools for Indian Teams to Design AI Chips",
+          "url": "https://www.eetimes.com/koduri-oxmiq-offers-ip-tools-for-indian-teams-to-design-ai-chips/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-18T13:30:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261118-1298",
       "headline": "딥엑스, 광주 임대주택을 국산 AI반도체 실증 거점으로 제안",
