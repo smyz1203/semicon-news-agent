@@ -1,87 +1,42 @@
 {
   "version": 1,
-  "updated_at": "2026-11-17T23:59:50Z",
+  "updated_at": "2026-11-18T01:32:04Z",
   "issues": [
     {
-      "id": "c20261117-1240",
-      "headline": "보스턴다이내믹스 아틀라스, 반도체 공장 투입 테스트",
+      "id": "c20261117-1236",
+      "headline": "삼성전기, 엔비디아와 AI 기판·MLCC 협력 확대",
       "summary": [
-        "현대차그룹 보스턴다이내믹스의 휴머노이드 로봇 아틀라스가 반도체 제조 현장에서 테스트를 진행하고 있다.",
-        "기사 본문이 일부만 제공되어 구체적인 테스트 범위와 일정, 수치는 확인되지 않는다.",
-        "자동차를 넘어 반도체 제조 공정으로 휴머노이드 로봇 적용이 확장되는 흐름을 보여준다."
+        "삼성전기가 엔비디아 가속 컴퓨팅 플랫폼 생산 확대를 지원하기 위해 협력을 강화하기로 했다.",
+        "엔비디아는 세종·부산사업장 AI 기판 전용 증설을 위한 자금 지원을 검토 중이며, 2029년부터 본격 양산 체계를 갖출 계획이다.",
+        "첨단 패키지 기판에 이어 MLCC 공급까지 확대돼 AI 서버 부품 공급망 내 삼성전기 입지가 커질 전망이다."
       ],
       "category": "장비/소재/부품",
       "tags": [
-        "휴머노이드 로봇",
-        "아틀라스",
-        "반도체 제조",
-        "자동화"
-      ],
-      "companies": [
-        "현대차",
-        "보스턴다이내믹스"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": false,
-      "parties": [
-        "보스턴다이내믹스",
-        "현대차그룹"
-      ],
-      "importance": 2,
-      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-17T23:53:25Z",
-      "updated_at": "2026-11-17T23:53:25Z",
-      "articles": [
-        {
-          "key": "c844866b013f0d9c",
-          "title": "보스턴다이내믹스 아틀라스, 반도체 공장서도 테스트",
-          "url": "https://www.yna.co.kr/view/AKR20261118035400003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-17T23:53:25Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261117-1236",
-      "headline": "삼성전기, 엔비디아에 기판·MLCC 공급 확대 추진",
-      "summary": [
-        "삼성전기가 엔비디아와 AI 인프라용 패키지기판 및 MLCC 공급 협력을 확대하는 방향으로 나섰다.",
-        "엔비디아는 생산능력 확충을 위해 세종·부산 사업장에 추가 자금 지원을 검토 중인 것으로 전해졌다.",
-        "AI 가속 컴퓨팅 부품 수요가 커지는 가운데 국내 생산 거점의 역할이 강화되는 흐름이다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "패키지기판",
+        "패키지 기판",
         "MLCC",
-        "GPU기판",
         "AI 가속 컴퓨팅",
-        "생산능력 확충"
+        "엔비디아 협력",
+        "세종·부산사업장"
       ],
       "companies": [
         "삼성전기",
-        "엔비디아"
+        "엔비디아",
+        "삼성전자"
       ],
       "event_type": "수주·공급",
-      "confirmed": false,
+      "confirmed": true,
       "parties": [
         "삼성전기",
         "엔비디아"
       ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점, 매체 3곳 보도 +1, 미확정 -1 → 3점",
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 매체 5곳 보도 +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
-      "region": "ko",
+      "region": "both",
       "first_seen": "2026-11-17T23:01:54Z",
-      "updated_at": "2026-11-17T23:51:00Z",
+      "updated_at": "2026-11-18T01:23:15Z",
       "articles": [
         {
           "key": "fc697c600add8b7a",
@@ -114,6 +69,634 @@
           "source": "디지털타임스",
           "lang": "ko",
           "published_at": "2026-11-17T23:51:00Z"
+        },
+        {
+          "key": "f5dbab33d756b44f",
+          "title": "[특징주] 삼성전기, 엔비디아와 협력 강화…장초반 7%대↑",
+          "url": "https://www.yna.co.kr/view/AKR20261118043200008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-18T00:14:40Z"
+        },
+        {
+          "key": "1f2cc06a68a3a2fc",
+          "title": "삼성전기, 엔비디아향 기판·MLCC 공급 확대…AI 동맹 강화",
+          "url": "https://zdnet.co.kr/view/?no=20261118091130",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-18T00:29:47Z"
+        },
+        {
+          "key": "5577e3f9f8b0e14e",
+          "title": "Samsung Electro-Mechanics, Nvidia to expand cooperation on AI chip components",
+          "url": "https://www.koreaherald.com/article/10940879",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-18T01:23:15Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261118-1247",
+      "headline": "동남아 스마트폰 출하 36% 급감, 메모리 공급난 영향",
+      "summary": [
+        "2026년 3분기 동남아 스마트폰 출하량이 전년 대비 36% 감소했다고 옴디아가 밝혔다.",
+        "출하량은 1650만대이며 평균판매가격은 53% 올라 고가 제품 중심으로 재편되는 양상이다.",
+        "메모리 공급 부족과 부품 가격 상승이 저가 물량 축소로 이어져 시장 구조 변화를 보여준다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "메모리 공급난",
+        "스마트폰 출하량",
+        "평균판매가격",
+        "동남아 시장"
+      ],
+      "companies": [
+        "옴디아"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-18T01:00:00Z",
+      "updated_at": "2026-11-18T01:00:00Z",
+      "articles": [
+        {
+          "key": "4cf18b80336c96f4",
+          "title": "동남아 스마트폰 시장 36% 급감…메모리 공급난 직격탄",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=409933",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-18T01:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1246",
+      "headline": "영국 반도체, 혁신 아이디어와 미완의 산업 야심",
+      "summary": [
+        "영국 반도체 산업의 역사와 현황을 짚은 기고 칼럼이 게재되었다.",
+        "기사 본문은 삽화 설명뿐이며 구체적인 수치나 일정은 확인되지 않는다.",
+        "독창적 기술 아이디어에 비해 산업화 성과가 덜하다는 평가가 제기된 것으로 보인다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "영국 반도체",
+        "산업 정책",
+        "칼럼"
+      ],
+      "companies": [],
+      "event_type": "칼럼·인터뷰",
+      "confirmed": true,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "칼럼·인터뷰 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T00:59:07Z",
+      "updated_at": "2026-11-18T00:59:07Z",
+      "articles": [
+        {
+          "key": "710ee2c08eabd92d",
+          "title": "Commentary: Britain's semiconductor story is one of extraordinary ideas \u001b—and unfinished industrial ambitions",
+          "url": "https://www.digitimes.com/news/a20261116VL220/uk-semiconductors-commercial-industrial-manufacturing-production-technology.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T00:59:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261117-1172",
+      "headline": "미국, 중국 기업 해외 데이터센터 통한 AI칩 우회 차단 나서",
+      "summary": [
+        "미국 상무부가 중국 기업의 해외 데이터센터를 통한 첨단 AI칩 우회 사용을 막는 새 수출통제 규정을 발표했다.",
+        "데이터센터는 첨단 칩 반입 시 미국 허가가 필요해지고, 기존 업체는 90일 내 허가를 받아야 하며 싱가포르 등 5개국은 선적 허가 대상이다.",
+        "엔비디아 칩 우회 반출 의혹이 불거진 상황에서 나온 조치로, 반도체 우회 유출 경로 차단이 강화될 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출통제",
+        "AI칩",
+        "우회 접근",
+        "해외 데이터센터",
+        "선적 허가제"
+      ],
+      "companies": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "event_type": "정책·규제·법",
+      "confirmed": true,
+      "parties": [],
+      "importance": 4,
+      "importance_reason": "정책·규제·법 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-17T00:26:38Z",
+      "updated_at": "2026-11-18T00:43:17Z",
+      "articles": [
+        {
+          "key": "a5a8079a4ccd1674",
+          "title": "US moves to shut remote-access route to AI chips for Chinese firms after Nvidia scandal",
+          "url": "https://www.digitimes.com/news/a20261117VL201/chips-nvidia-data-asia.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T00:26:38Z"
+        },
+        {
+          "key": "ecb5e01e900ae9ab",
+          "title": "美, 中 AI칩 우회접근 통제 강화…5개국 선적 허가제 도입",
+          "url": "https://zdnet.co.kr/view/?no=20261117095135",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T01:49:55Z"
+        },
+        {
+          "key": "f36c519d65be797e",
+          "title": "China's offshore Nvidia GPU rentals face a new US licensing test",
+          "url": "https://www.digitimes.com/news/a20261118PD217/nvidia-licensing-capacity-data-chips.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T00:43:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261117-1235",
+      "headline": "엔비디아 이사회, 젠슨 황 CEO 복귀 불허",
+      "summary": [
+        "엔비디아 이사회가 젠슨 황 전 CEO의 복귀 요청을 거절하고 차기 CEO 선임 방침을 밝혔다.",
+        "엔비디아는 2027회계연도 3분기(2026년 8~10월)에도 사상 최대 실적을 기록한 것으로 전해졌다.",
+        "실적 호조 속에서도 경영진 공백이 이어지며 후임 CEO 선임 과정이 업계의 관심사가 됐다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "CEO 교체",
+        "사상 최대 실적",
+        "이사회",
+        "차기 CEO"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 매체 3곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-17T23:01:13Z",
+      "updated_at": "2026-11-18T00:23:28Z",
+      "articles": [
+        {
+          "key": "1645d787396d5048",
+          "title": "엔비디아 이사회 \"젠슨 황 CEO 복귀 계획 없다\"…재선임 일축",
+          "url": "https://www.inews24.com/view/2027404",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:01:13Z"
+        },
+        {
+          "key": "aa43205a4b742689",
+          "title": "Nvidia board rules out Huang's return, puts national security at center of CEO search",
+          "url": "https://www.digitimes.com/news/a20261118VL202/nvidia-ceo-security-jensen-huang-president.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T23:51:03Z"
+        },
+        {
+          "key": "d5460c65e8c6ac0e",
+          "title": "엔비디아 사상 최대 실적에도…젠슨 황 복귀 요청에 이사회 ‘퇴짜’",
+          "url": "https://www.dt.co.kr/article/12095841",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-18T00:23:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261118-1245",
+      "headline": "엔비디아 젠슨 황 퇴진 후 실적 상향, 사업 정상 강조",
+      "summary": [
+        "엔비디아는 젠슨 황 사임 이후 첫 컨퍼런스 콜에서 사업이 정상 운영 중이라고 밝혔다.",
+        "내년 매출이 올해 대비 75% 가량 늘 것으로 전망하며, 기존 70% 전망을 상향했다.",
+        "AI 추론 수요와 공급 확보가 맞물리며, 웨이퍼·기판·첨단 패키징 공급망이 핵심 과제로 부각됐다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황 사임",
+        "AI 추론 수요",
+        "첨단 패키징",
+        "에이전틱 AI",
+        "차기 CEO"
+      ],
+      "companies": [
+        "엔비디아",
+        "TSMC"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-18T00:19:03Z",
+      "updated_at": "2026-11-18T00:19:03Z",
+      "articles": [
+        {
+          "key": "0480ffe9ba1f692b",
+          "title": "'깜짝 실적' 엔비디아 \"젠슨 황 복귀 없다...사업 정상 진행 중\"",
+          "url": "https://zdnet.co.kr/view/?no=20261118090852",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-18T00:19:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261118-1244",
+      "headline": "램리서치, 레고 에듀케이션과 어린이 이공계 교육 협력",
+      "summary": [
+        "램리서치가 레고 에듀케이션과 아동·청소년 과학·기술 교육 지원을 위해 손을 잡았다.",
+        "기사 본문이 일부만 제공되어 협약의 세부 내용과 규모, 일정은 확인되지 않는다.",
+        "반도체 장비업체의 이공계 인재 저변 확대 활동으로, 산업 인력 육성 측면에서 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "이공계 교육",
+        "STEM",
+        "사회공헌",
+        "레고 에듀케이션"
+      ],
+      "companies": [
+        "램리서치",
+        "레고"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "램리서치",
+        "레고 에듀케이션"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-18T00:05:27Z",
+      "updated_at": "2026-11-18T00:05:27Z",
+      "articles": [
+        {
+          "key": "61a84b6864605557",
+          "title": "램리서치, 레고 에듀케이션과 어린이 이공계 교육 지원 맞손",
+          "url": "https://www.yna.co.kr/view/AKR20261118036900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-18T00:05:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261118-1243",
+      "headline": "엔비디아, 베라 루빈·CPU 확대로 가격 전략 변화 신호",
+      "summary": [
+        "엔비디아가 베라 루빈과 CPU, 기업용 AI 사업 확대에 맞춰 새로운 가격 정책을 내비쳤다는 보도다.",
+        "기사 본문은 사진 크레딧만 있어 구체적 가격 수치나 일정은 확인되지 않는다.",
+        "다만 AI 인프라 제품군이 넓어지면서 가격 구조가 바뀔 수 있다는 점은 업계 관심 사안이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "베라 루빈",
+        "CPU",
+        "기업용 AI",
+        "가격 정책"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "가격 동향",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "가격 동향 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T23:59:14Z",
+      "updated_at": "2026-11-17T23:59:14Z",
+      "articles": [
+        {
+          "key": "114fcd90654001e0",
+          "title": "Nvidia signals new pricing as Vera Rubin, CPUs and enterprise AI broaden growth",
+          "url": "https://www.digitimes.com/news/a20261118VL204/nvidia-rubin-growth-revenue-2028.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T23:59:14Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1242",
+      "headline": "엔비디아, 젠슨 황 사임 후 공급망 안정 강조",
+      "summary": [
+        "젠슨 황 CEO 사임 후 첫 실적 발표에서 콜레트 크레스 임시 CEO가 사업 운영에 차질이 없다고 밝혔다.",
+        "주요 고객사와 협력사 관계가 유지되고 있으며 메모리와 첨단 패키징 공급 물량도 확보하고 있다고 설명했다.",
+        "리더십 공백 우려 속에서도 공급망 안정성을 보여준 것으로, AI 반도체 수급 측면에서 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI가속기",
+        "첨단 패키징",
+        "HBM",
+        "경영진 교체"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T23:56:52Z",
+      "updated_at": "2026-11-17T23:56:52Z",
+      "articles": [
+        {
+          "key": "0adb727a0507aee6",
+          "title": "\"젠슨 떠나도 문제없다\"…엔비디아, 메모리·패키징 공급 확보",
+          "url": "https://www.inews24.com/view/2027443",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:56:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1233",
+      "headline": "엔비디아 3분기 매출 1158억 달러, 전년 대비 두 배 성장",
+      "summary": [
+        "엔비디아가 3분기 매출 1158억 달러로 전년 대비 두 배 늘었다고 발표했다.",
+        "데이터센터 매출은 1076억 달러이며 베라 루빈 NVL72 출하도 시작됐다고 밝혔다.",
+        "4분기 매출 전망은 약 1300억 달러로 제시돼 AI 인프라 수요 지속이 확인됐다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 인프라",
+        "베라 루빈 NVL72",
+        "데이터센터",
+        "GPU",
+        "4분기 전망"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 매체 4곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-17T21:35:34Z",
+      "updated_at": "2026-11-17T23:56:43Z",
+      "articles": [
+        {
+          "key": "a19f1cf4b460c86e",
+          "title": "젠슨 황 없는 엔비디아, 3분기 깜짝실적…매출 103% 증가",
+          "url": "https://www.dt.co.kr/article/12095812",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-17T21:35:34Z"
+        },
+        {
+          "key": "4ef0f06cb8a876c3",
+          "title": "'젠슨 황 없는' 엔비디아, 3분기 영업익 104조원…전년比 115%↑",
+          "url": "https://www.inews24.com/view/2027413",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:13:14Z"
+        },
+        {
+          "key": "b18f18f011cea7cb",
+          "title": "엔비디아, 3분기 영업이익 104조... 전년比 두 배 증가",
+          "url": "https://zdnet.co.kr/view/?no=20261118083047",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:40:14Z"
+        },
+        {
+          "key": "2e9779d979aab221",
+          "title": "Nvidia doubles revenue mid-transition, but its outlook signals the cost of the new ramp",
+          "url": "https://www.digitimes.com/news/a20261118VL200/nvidia-demand-rubin-infrastructure-revenue.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T23:56:43Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261118-1241",
+      "headline": "엔비디아, 고객 금융 조이고 공급사 평가·자사주 우선",
+      "summary": [
+        "엔비디아가 크레스 체제에서 고객 금융 지원을 엄격히 하고 공급사 순위와 자사주 매입을 우선순위에 두는 방향을 택했다는 보도다.",
+        "기사 본문은 사진 캡션만 있어 구체적 금액이나 일정, 세부 조건은 확인되지 않는다.",
+        "고객 금융 축소와 자사주 확대는 AI 반도체 수요 자금 흐름과 공급망 협상력에 영향을 줄 수 있는 변화다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "엔비디아",
+        "고객 금융",
+        "공급사 순위",
+        "자사주 매입"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 1,
+      "importance_reason": "재무·주주 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-17T23:54:04Z",
+      "updated_at": "2026-11-17T23:54:04Z",
+      "articles": [
+        {
+          "key": "f9ef60e9efa2f9b1",
+          "title": "Nvidia tightens customer financing under Kress, ranking suppliers and buybacks first",
+          "url": "https://www.digitimes.com/news/a20261118VL205/nvidia-financing-yahoo-ceo-infrastructure.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T23:54:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261117-1240",
+      "headline": "보스턴다이나믹스, 글로벌파운드리 공장에 아틀라스·스팟 투입 확대",
+      "summary": [
+        "보스턴다이나믹스가 글로벌파운드리와 휴머노이드 아틀라스 현장 테스트와 사족보행 로봇 스팟 배치 확대를 추진한다.",
+        "아틀라스 테스트는 2027년 초 주요 사업장에서 시작되며, 싱가포르 스팟은 9만 건 이상 검사하고 임무 성공률 99%를 기록했다.",
+        "반도체 제조 현장의 로봇 활용이 본격화되는 신호로, 설비 예측 유지보수와 AI 기반 제조 확산에 영향을 줄 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "휴머노이드 로봇",
+        "아틀라스",
+        "스팟",
+        "AI 제조",
+        "예측 유지보수"
+      ],
+      "companies": [
+        "보스턴다이나믹스",
+        "글로벌파운드리",
+        "현대차그룹"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "보스턴다이나믹스",
+        "글로벌파운드리"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-17T23:47:05Z",
+      "updated_at": "2026-11-17T23:53:25Z",
+      "articles": [
+        {
+          "key": "dbf34d5ff08f7e2b",
+          "title": "반도체 공장 가는 아틀라스…보스턴다이나믹스, 글로벌파운드리와 협력",
+          "url": "https://zdnet.co.kr/view/?no=20261118084025",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:47:05Z"
+        },
+        {
+          "key": "c844866b013f0d9c",
+          "title": "보스턴다이내믹스 아틀라스, 반도체 공장서도 테스트",
+          "url": "https://www.yna.co.kr/view/AKR20261118035400003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:53:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1231",
+      "headline": "젠슨 황, 엔비디아 CEO 복귀 의사 밝혀",
+      "summary": [
+        "젠슨 황 엔비디아 CEO가 자신이 CEO로 돌아간다면 영광일 것이라며 복귀 의사를 공식화했다.",
+        "리사 수 AMD CEO가 이를 지지하는 입장을 밝혔고, 한 직원은 인재 이탈을 우려하는 목소리를 냈다.",
+        "엔비디아 경영진 구도와 인재 유지 문제가 AI 반도체 업계의 관심사로 떠오를 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "엔비디아",
+        "경영진 교체",
+        "인재 이탈",
+        "AI반도체"
+      ],
+      "companies": [
+        "엔비디아",
+        "AMD"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-17T21:08:36Z",
+      "updated_at": "2026-11-17T23:49:35Z",
+      "articles": [
+        {
+          "key": "859b167cc544b3ee",
+          "title": "젠슨황 “CEO로 돌아가면 영광일 것” 복귀의사 공식화",
+          "url": "https://www.dt.co.kr/article/12095811",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-17T21:08:36Z"
+        },
+        {
+          "key": "a9be8a63f1a799ab",
+          "title": "Jensen Huang says he would return to Nvidia as Lisa Su voices support and employee warns of talent loss",
+          "url": "https://www.digitimes.com/news/a20261118VL201/nvidia-jensen-huang-talent-lisa-su-loss.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T23:49:35Z"
         }
       ],
       "type_checked": true,
@@ -212,58 +795,6 @@
       "importance_raw": 3
     },
     {
-      "id": "c20261117-1233",
-      "headline": "엔비디아, 젠슨 황 사임 후 첫 분기 실적 어닝 서프라이즈",
-      "summary": [
-        "엔비디아가 올해 3분기 영업이익이 전년 동기 대비 115% 증가한 실적을 발표했다.",
-        "매출은 전년 대비 103% 늘었고, 시장 예상치를 웃도는 성적을 거뒀다고 전해졌다.",
-        "AI 반도체 수요 확대가 실적을 끌어올린 것으로, 업계 전반의 AI 투자 흐름이 여전히 강하다는 신호로 읽힌다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "3분기 실적",
-        "영업이익",
-        "AI 반도체",
-        "젠슨 황 사임"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 3,
-      "importance_reason": "실적 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-17T21:35:34Z",
-      "updated_at": "2026-11-17T23:13:14Z",
-      "articles": [
-        {
-          "key": "a19f1cf4b460c86e",
-          "title": "젠슨 황 없는 엔비디아, 3분기 깜짝실적…매출 103% 증가",
-          "url": "https://www.dt.co.kr/article/12095812",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-17T21:35:34Z"
-        },
-        {
-          "key": "4ef0f06cb8a876c3",
-          "title": "'젠슨 황 없는' 엔비디아, 3분기 영업익 104조원…전년比 115%↑",
-          "url": "https://www.inews24.com/view/2027413",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-17T23:13:14Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
       "id": "c20261117-1237",
       "headline": "부산서 전력반도체 산학연 국제심포지엄 개최",
       "summary": [
@@ -354,50 +885,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261117-1235",
-      "headline": "엔비디아 이사회, 젠슨 황 CEO 복귀 일축",
-      "summary": [
-        "엔비디아 이사회가 젠슨 황 전 CEO를 재선임할 계획이 없다고 공식 밝혔다.",
-        "황 전 CEO가 경영 복귀 의사를 밝힌 지 수시간 만에 이사회가 이를 부정했다.",
-        "차기 CEO 인선에 관심이 쏠리며 엔비디아 경영 공백 우려가 부각될 전망이다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "젠슨 황",
-        "CEO 복귀",
-        "이사회",
-        "차기 CEO"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 3,
-      "importance_reason": "경영진 교체 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-17T23:01:13Z",
-      "updated_at": "2026-11-17T23:01:13Z",
-      "articles": [
-        {
-          "key": "1645d787396d5048",
-          "title": "엔비디아 이사회 \"젠슨 황 CEO 복귀 계획 없다\"…재선임 일축",
-          "url": "https://www.inews24.com/view/2027404",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-17T23:01:13Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261117-1234",
@@ -540,50 +1027,6 @@
       ],
       "type_checked": true,
       "importance_raw": 5
-    },
-    {
-      "id": "c20261117-1231",
-      "headline": "젠슨 황 전 엔비디아 CEO, 경영 복귀 의사 공식화",
-      "summary": [
-        "젠슨 황 전 엔비디아 CEO가 이사회 요청 시 경영 일선에 복귀할 의사를 공식적으로 밝혔다.",
-        "지난 12일 사임 이후 처음 내놓은 공개 입장이며 월스트리트저널이 보도했다.",
-        "복귀 여부는 이사회 요청에 달려 있어 엔비디아 경영 공백과 향후 지배구조 변화가 주목된다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "젠슨 황",
-        "경영 복귀",
-        "CEO 사임",
-        "지배구조"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 3,
-      "importance_reason": "경영진 교체 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-17T21:08:36Z",
-      "updated_at": "2026-11-17T21:08:36Z",
-      "articles": [
-        {
-          "key": "859b167cc544b3ee",
-          "title": "젠슨황 “CEO로 돌아가면 영광일 것” 복귀의사 공식화",
-          "url": "https://www.dt.co.kr/article/12095811",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-17T21:08:36Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261117-1230",
@@ -3502,58 +3945,6 @@
           "source": "DigiTimes Asia",
           "lang": "en",
           "published_at": "2026-11-17T01:52:46Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
-    },
-    {
-      "id": "c20261117-1172",
-      "headline": "미국, 중국 기업 해외 데이터센터 통한 AI칩 우회 차단 나서",
-      "summary": [
-        "미국 상무부가 중국 기업의 해외 데이터센터를 통한 첨단 AI칩 우회 사용을 막는 새 수출통제 규정을 발표했다.",
-        "데이터센터는 첨단 칩 반입 시 미국 허가가 필요해지고, 기존 업체는 90일 내 허가를 받아야 하며 싱가포르 등 5개국은 선적 허가 대상이다.",
-        "엔비디아 칩 우회 반출 의혹이 불거진 상황에서 나온 조치로, 반도체 우회 유출 경로 차단이 강화될 전망이다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "수출통제",
-        "AI칩",
-        "우회 접근",
-        "해외 데이터센터",
-        "선적 허가제"
-      ],
-      "companies": [
-        "엔비디아",
-        "메가스피드"
-      ],
-      "event_type": "정책·규제·법",
-      "confirmed": true,
-      "parties": [],
-      "importance": 4,
-      "importance_reason": "정책·규제·법 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-17T00:26:38Z",
-      "updated_at": "2026-11-17T01:49:55Z",
-      "articles": [
-        {
-          "key": "a5a8079a4ccd1674",
-          "title": "US moves to shut remote-access route to AI chips for Chinese firms after Nvidia scandal",
-          "url": "https://www.digitimes.com/news/a20261117VL201/chips-nvidia-data-asia.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-17T00:26:38Z"
-        },
-        {
-          "key": "ecb5e01e900ae9ab",
-          "title": "美, 中 AI칩 우회접근 통제 강화…5개국 선적 허가제 도입",
-          "url": "https://zdnet.co.kr/view/?no=20261117095135",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-17T01:49:55Z"
         }
       ],
       "type_checked": true,
