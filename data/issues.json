@@ -1,40 +1,228 @@
 {
   "version": 1,
-  "updated_at": "2026-11-19T00:00:17Z",
+  "updated_at": "2026-11-19T01:29:07Z",
   "issues": [
     {
-      "id": "c20261119-1311",
-      "headline": "디노티시아, AI 검색 반도체 VDPU ASIC 실시간 구동 공개",
+      "id": "c20261119-1315",
+      "headline": "마이크론, 2027년 메모리 물량 75% 선판매 공급 부족 전망",
       "summary": [
-        "디노티시아가 벡터 검색 전용 반도체 VDPU의 ASIC 기반 실시간 구동을 처음 공개했다.",
-        "슈퍼컴퓨팅 2026(SC26)에서 ASIC을 탑재한 VDPU 카드로 시연을 진행했다고 밝혔다.",
-        "FPGA 단계를 넘어 전용 반도체로 AI 데이터 검색 처리 효율화 시장을 겨냥하는 행보다."
+        "마이크론 CEO가 내년 메모리 생산량의 75%를 이미 판매했다고 밝혔다.",
+        "AI 수요 확대로 2028년까지 메모리 공급 부족이 심화할 것으로 내다봤다.",
+        "HBM 등 AI 메모리 수요가 장기 호황을 이어갈 수 있다는 신호로 읽힌다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "AI 메모리",
+        "공급 부족",
+        "선판매",
+        "엔비디아 협력"
+      ],
+      "companies": [
+        "마이크론",
+        "엔비디아"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "마이크론"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-19T01:23:34Z",
+      "updated_at": "2026-11-19T01:23:34Z",
+      "articles": [
+        {
+          "key": "9437e1bb916b4c9d",
+          "title": "마이크론 CEO \"2027년 물량 75% 판매\"…엔비디아와 협력 지속",
+          "url": "https://www.inews24.com/view/2028024",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-19T01:23:34Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261119-1314",
+      "headline": "MS 칩 패키징 계약, 인텔 신뢰도 회복 신호",
+      "summary": [
+        "마이크로소프트가 인텔과 칩 패키징 관련 계약을 맺은 것으로 보도됐다.",
+        "기사 본문이 제공되지 않아 계약 규모와 세부 조건은 확인할 수 없다.",
+        "매출보다 인텔의 기술 신뢰도 회복에 더 큰 의미가 있다는 분석이다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "칩 패키징",
+        "인텔",
+        "파운드리",
+        "계약"
+      ],
+      "companies": [
+        "마이크로소프트",
+        "인텔"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "마이크로소프트",
+        "인텔"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T00:53:54Z",
+      "updated_at": "2026-11-19T00:53:54Z",
+      "articles": [
+        {
+          "key": "e92e9f14a0c5f9e8",
+          "title": "Microsoft’s chip packaging deal hands Intel credibility more than revenue",
+          "url": "https://www.digitimes.com/news/a20261119VL209/microsoft-intel-azure-packaging-intel-foundry.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-19T00:53:54Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261119-1313",
+      "headline": "삼성전자, 네오클라우드 부채 우려에 AI 성장 위협론 일축",
+      "summary": [
+        "삼성전자가 네오클라우드 업체들의 과도한 부채가 AI 산업 성장을 위협한다는 우려에 선을 그었다.",
+        "기사 본문이 짧아 구체적인 수치나 일정은 확인되지 않는다.",
+        "AI 투자 확대가 투기적 수요에 그친다는 시각을 반박하며 AI 수요에 대한 낙관론을 드러낸 것으로 보인다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "네오클라우드",
+        "AI 투자",
+        "부채 우려",
+        "AI 인프라"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "시장 전망·통계 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-19T00:24:14Z",
+      "updated_at": "2026-11-19T00:24:14Z",
+      "articles": [
+        {
+          "key": "0fdd8b317fa87e00",
+          "title": "삼성전자 “네오클라우드 부채 우려, AI 성장 위협 아니다”",
+          "url": "https://www.dt.co.kr/article/12096062",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-19T00:24:14Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261119-1312",
+      "headline": "젠슨 황 사임 후 엔비디아 내부 결속과 이사회 복귀 일축",
+      "summary": [
+        "젠슨 황 사임 이후 콜렛 크레스 임시 CEO가 전 직원 타운홀 미팅을 열어 결속을 강조했다.",
+        "연봉 인상과 주식 보상 지급 시기를 내년 봄에서 12월로 앞당기고, 주가는 6일 대비 19% 하락했다.",
+        "이사회는 젠슨 황의 CEO 복귀 의사를 거절해, 경영 공백과 인재 이탈 우려가 이어질 전망이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황 사임",
+        "콜렛 크레스",
+        "보상 정책",
+        "중국 GPU 수출",
+        "주가 하락"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-19T00:23:49Z",
+      "updated_at": "2026-11-19T00:23:49Z",
+      "articles": [
+        {
+          "key": "e19f149b4d5046a0",
+          "title": "젠슨 황 떠난 엔비디아, 임직원 다독이고 내부 결속 총력",
+          "url": "https://zdnet.co.kr/view/?no=20261119082207",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-19T00:23:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261119-1311",
+      "headline": "디노티시아, AI 데이터 검색 반도체 VDPU ASIC 실시간 구동 공개",
+      "summary": [
+        "디노티시아는 SC26에서 AI 데이터 검색 반도체 VDPU의 ASIC 기반 실시간 구동을 처음 공개했다.",
+        "시연에서는 260만여 개 영상 프레임을 대상으로 자연어 검색을 실시간으로 수행하는 모습을 보였다.",
+        "벡터 데이터 탐색 기능을 칩으로 구현해 AI 검색 반도체의 기술 검증 단계를 보여준 의미가 있다."
       ],
       "category": "AI반도체",
       "tags": [
         "VDPU",
         "ASIC",
-        "벡터 검색",
         "AI 데이터 검색",
-        "FPGA"
+        "벡터 데이터 처리",
+        "영상 검색"
       ],
       "companies": [
         "디노티시아"
       ],
-      "event_type": "신제품·신기술·양산",
+      "event_type": "업계 일반",
       "confirmed": true,
       "parties": [
         "디노티시아"
       ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점",
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-11-19T00:00:00Z",
+      "first_seen": "2026-11-18T23:30:00Z",
       "updated_at": "2026-11-19T00:00:00Z",
       "articles": [
+        {
+          "key": "f4ec4ff96cf21317",
+          "title": "디노티시아, SC26서 AI 데이터 검색 반도체 ‘VDPU’ 실시간 구동 첫 공개",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343485",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-18T23:30:00Z"
+        },
         {
           "key": "8e8c315213a4e898",
           "title": "디노티시아, FPGA 넘어 ASIC으로…AI 검색 반도체 기술 검증",
@@ -45,7 +233,7 @@
         }
       ],
       "type_checked": true,
-      "importance_raw": 5
+      "importance_raw": 2
     },
     {
       "id": "c20261119-1310",
