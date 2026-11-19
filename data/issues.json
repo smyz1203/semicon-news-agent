@@ -1,7 +1,349 @@
 {
   "version": 1,
-  "updated_at": "2026-11-19T01:29:07Z",
+  "updated_at": "2026-11-19T03:04:30Z",
   "issues": [
+    {
+      "id": "c20261119-1324",
+      "headline": "램리서치, 대만 R&D 확대로 TSMC와 공정 개발 가속",
+      "summary": [
+        "램리서치가 대만에서 연구개발(R&D) 거점을 확대하는 계획이 보도됐다.",
+        "기사 본문은 사진 출처 표기만 있어 구체적 투자 규모나 일정은 확인되지 않는다.",
+        "TSMC와의 협력을 통한 칩 개발 속도 향상이 목표로, 장비 업체의 공정 개발 협력 강화로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "R&D 확대",
+        "TSMC 협력",
+        "반도체 장비",
+        "대만"
+      ],
+      "companies": [
+        "램리서치",
+        "TSMC"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "램리서치",
+        "TSMC"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T02:39:31Z",
+      "updated_at": "2026-11-19T02:39:31Z",
+      "articles": [
+        {
+          "key": "8b3bdf30c2430d24",
+          "title": "Lam Research's Taiwan R&D expansion targets faster chip development with TSMC",
+          "url": "https://www.digitimes.com/news/a20261118PD254/lam-research-taiwan-development-tsmc-expansion.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-19T02:39:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261119-1323",
+      "headline": "AI 호황 속 유럽 완성차, 메모리 칩 확보 경쟁",
+      "summary": [
+        "유럽 완성차 업체들이 메모리 칩 물량 확보에 나서고 있다는 보도가 나왔다.",
+        "기사 본문은 크레딧 표기만 있어 구체적 수치나 계약 내용은 확인되지 않는다.",
+        "AI 수요로 메모리 공급이 빠듯해지며 자동차 업계의 부품 조달 부담이 커지는 흐름을 보여준다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "메모리 칩",
+        "공급 부족",
+        "AI 수요",
+        "자동차 반도체"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "마이크론"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T02:12:32Z",
+      "updated_at": "2026-11-19T02:12:32Z",
+      "articles": [
+        {
+          "key": "b049f3f55b139899",
+          "title": "European automakers rush to secure memory chips as AI boom squeezes supply",
+          "url": "https://www.digitimes.com/news/a20261119PD214/automakers-chips-2027-capacity-price.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-19T02:12:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261119-1322",
+      "headline": "AI 반도체 수출 규제 허점과 미국의 대응 의지",
+      "summary": [
+        "AI 반도체 수출 규제에 허점이 있다는 문제가 제기됐다.",
+        "기사 본문이 없어 구체적인 우회 경로와 수치는 확인되지 않는다.",
+        "수출 통제가 강화될지에 따라 AI 반도체 공급망에 영향이 있을 수 있어 주목된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI반도체",
+        "수출규제",
+        "수출 통제 허점",
+        "국가안보"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T02:08:59Z",
+      "updated_at": "2026-11-19T02:08:59Z",
+      "articles": [
+        {
+          "key": "15b744e3f6a0fe2f",
+          "title": "AI chip export loopholes expose US resolve to defend national security",
+          "url": "https://www.digitimes.com/news/a20261119PD202/scandal-nvidia-ai-chip-security-chips.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-19T02:08:59Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261119-1321",
+      "headline": "엔비디아 차기 CEO 물색, Arm 리네 하스 거론",
+      "summary": [
+        "엔비디아 이사회가 젠슨 황 이후를 준비하며 차기 CEO 후보를 찾고 있다는 보도가 나왔다.",
+        "기사 본문이 'Credit: AFP'뿐이라 구체적 인선 일정이나 공식 발표 내용은 확인되지 않는다.",
+        "확정되지 않은 인사 소식이어서 반도체 업계에 미칠 실질적 영향은 아직 판단하기 어렵다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "엔비디아",
+        "CEO 승계",
+        "젠슨 황",
+        "Arm",
+        "리네 하스"
+      ],
+      "companies": [
+        "엔비디아",
+        "Arm"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아",
+        "Arm"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T01:58:37Z",
+      "updated_at": "2026-11-19T01:58:37Z",
+      "articles": [
+        {
+          "key": "99b32fa8756a555a",
+          "title": "Nvidia's CEO search reportedly reaches Arm's Rene Haas as board moves on from Huang",
+          "url": "https://www.digitimes.com/news/a20261119VL208/nvidia-ceo-arm-jensen-huang.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-19T01:58:37Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261119-1320",
+      "headline": "데이터센터 유휴 메모리 공유 SW 기술 개발",
+      "summary": [
+        "국내 연구진이 데이터센터 서버의 유휴 메모리를 모아 공동으로 쓰는 소프트웨어 기술을 개발했다.",
+        "기사에 따르면 대규모 AI 학습과 과학계산에 필요한 메모리 자원을 효율적으로 활용하는 것이 목표다.",
+        "AI 확산으로 메모리 부족이 심화된 상황에서 하드웨어 증설 없이 활용률을 높일 수 있다는 점이 의미가 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "유휴 메모리",
+        "데이터센터",
+        "AI 메모리",
+        "메모리 공유 SW"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-19T01:53:40Z",
+      "updated_at": "2026-11-19T01:53:40Z",
+      "articles": [
+        {
+          "key": "bab45528ce6ceb5e",
+          "title": "데이터센터 AI 메모리 부족 ‘걱정 없다’…SW로 유휴 메모리 활용",
+          "url": "https://www.dt.co.kr/article/12096088",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-19T01:53:40Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261119-1319",
+      "headline": "예스티, HPSP와 HPA 특허분쟁서 대법원 상고 기각으로 우위",
+      "summary": [
+        "HPSP가 예스티의 '027 특허 침해 주장을 담은 상고가 대법원에서 심리불속행 기각됐다.",
+        "특허법원은 특허를 유효하나 권리범위를 좁혔고, 예스티는 구조 차이를 근거로 비침해를 주장한다.",
+        "민사 특허침해 본안소송은 진행 중이며 다음 변론은 이달 26일이라 산업 영향은 아직 남아 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "HPA 장비",
+        "고압수소어닐링",
+        "특허분쟁",
+        "특허침해소송",
+        "반도체 공정"
+      ],
+      "companies": [
+        "예스티",
+        "HPSP"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "예스티",
+        "HPSP"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-19T01:48:25Z",
+      "updated_at": "2026-11-19T01:48:25Z",
+      "articles": [
+        {
+          "key": "04954df4ac2ddba1",
+          "title": "예스티, HPSP 상대 특허분쟁 우위 재확인...대법원, HPSP 상고 기각",
+          "url": "https://zdnet.co.kr/view/?no=20261119101851",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-19T01:48:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261119-1318",
+      "headline": "인도 남부 주, 반도체 팹 최대 80% 자본 지원 나서",
+      "summary": [
+        "인도 남부 주정부가 반도체 팹 투자에 최대 80% 자본 지원을 제공하는 방안을 내놓았다.",
+        "티루파티에 5,000에이커 규모의 반도체 산업단지를 조성할 계획이라고 보도됐다.",
+        "인도 반도체 생산 기반 확충 움직임으로 해외 팹 투자 유치 경쟁이 치열해질 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체 팹",
+        "자본 지원",
+        "산업단지",
+        "인도 반도체",
+        "티루파티"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T01:43:03Z",
+      "updated_at": "2026-11-19T01:43:03Z",
+      "articles": [
+        {
+          "key": "6cd753308acae88e",
+          "title": "India's southern state offers up to 80% capital support for chip fabs, plans 5,000-acre park in Tirupati",
+          "url": "https://www.digitimes.com/news/a20261119VL207/government-cost-packaging-fab-design.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-19T01:43:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261119-1317",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 1,
+      "region": "ko",
+      "first_seen": "2026-11-19T01:25:10Z",
+      "updated_at": "2026-11-19T01:38:17Z",
+      "articles": [
+        {
+          "key": "8c02afb5d461f5ee",
+          "title": "삼성전자, 에이전틱 AI 시대 메모리 해법으로 소캠2 제시",
+          "url": "https://www.yna.co.kr/view/AKR20261119054600003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-19T01:25:10Z"
+        },
+        {
+          "key": "d9c8b8979efdca42",
+          "title": "삼성전자, 에이전틱 AI 시대 서버 메모리로 '소캠2' 제시",
+          "url": "https://www.inews24.com/view/2028055",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-19T01:38:17Z"
+        }
+      ]
+    },
     {
       "id": "c20261119-1315",
       "headline": "마이크론, 2027년 메모리 물량 75% 선판매 공급 부족 전망",
@@ -48,38 +390,145 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261119-1314",
-      "headline": "MS 칩 패키징 계약, 인텔 신뢰도 회복 신호",
+      "id": "c20261119-1316",
+      "headline": "엔비디아 경영진 교체에도 AI칩 냉각 수요는 유지 전망",
       "summary": [
-        "마이크로소프트가 인텔과 칩 패키징 관련 계약을 맺은 것으로 보도됐다.",
-        "기사 본문이 제공되지 않아 계약 규모와 세부 조건은 확인할 수 없다.",
-        "매출보다 인텔의 기술 신뢰도 회복에 더 큰 의미가 있다는 분석이다."
+        "엔비디아 경영진 교체 소식이 전해졌으나 대만 공급업체들은 영향이 크지 않을 것으로 봤다. 기사 본문은 사진 크레딧만 있어 세부 내용은 확인되지 않는다. 다만 AI칩 냉각 수요는 계속될 것이라는 업계의 시각이 담겼다.",
+        "본문이 제공되지 않아 교체된 임원의 직책과 구체적 일정, 수치는 확인할 수 없다. 기사 제목을 기준으로 한 내용이다.",
+        "AI 가속기 발열 관리 장비를 공급하는 대만 업체들에게는 고객사 리더십 변화가 단기 수요 우려로 번지지 않는다는 신호로 읽힌다."
       ],
-      "category": "파운드리/시스템반도체",
+      "category": "AI반도체",
       "tags": [
-        "칩 패키징",
-        "인텔",
-        "파운드리",
-        "계약"
+        "AI칩 냉각",
+        "엔비디아",
+        "경영진 교체",
+        "대만 공급업체"
       ],
       "companies": [
-        "마이크로소프트",
-        "인텔"
+        "엔비디아"
       ],
-      "event_type": "수주·공급",
-      "confirmed": false,
+      "event_type": "경영진 교체",
+      "confirmed": true,
       "parties": [
-        "마이크로소프트",
-        "인텔"
+        "엔비디아"
       ],
-      "importance": 2,
-      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "en",
+      "first_seen": "2026-11-19T01:18:01Z",
+      "updated_at": "2026-11-19T01:18:01Z",
+      "articles": [
+        {
+          "key": "2f5d7446904c82d9",
+          "title": "Nvidia leadership shake-up unlikely to slow AI chip cooling demand, Taiwanese suppliers say",
+          "url": "https://www.digitimes.com/news/a20261119PD210/cooling-demand-ai-chip-development-roadmap.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-19T01:18:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261119-1311",
+      "headline": "디노티시아, ASIC 기반 AI 검색 반도체 VDPU 첫 공개",
+      "summary": [
+        "디노티시아는 SC26에서 ASIC 탑재 AI 데이터 검색 반도체 VDPU의 실시간 구동을 처음 선보였다.",
+        "260만여 개 영상 프레임 대상 벡터 검색을 시연했고, 기존 CPU 대비 CPU 사용량을 90% 이상 줄였다.",
+        "상용화 단계에 한 걸음 다가섰으며 AI 스토리지 사업 확장과 글로벌 서버·스토리지 기업과의 PoC가 예정돼 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "VDPU",
+        "ASIC",
+        "벡터 검색",
+        "시맨틱 검색",
+        "AI 스토리지"
+      ],
+      "companies": [
+        "디노티시아"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "디노티시아"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점, 매체 3곳 보도 +1 → 5점(최고점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-18T23:30:00Z",
+      "updated_at": "2026-11-19T01:10:02Z",
+      "articles": [
+        {
+          "key": "f4ec4ff96cf21317",
+          "title": "디노티시아, SC26서 AI 데이터 검색 반도체 ‘VDPU’ 실시간 구동 첫 공개",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343485",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-18T23:30:00Z"
+        },
+        {
+          "key": "8e8c315213a4e898",
+          "title": "디노티시아, FPGA 넘어 ASIC으로…AI 검색 반도체 기술 검증",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=410000",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-19T00:00:00Z"
+        },
+        {
+          "key": "4387a64ae8ad7fee",
+          "title": "디노티시아, AI 검색 반도체 'VDPU' ASIC 구동 첫 공개",
+          "url": "https://zdnet.co.kr/view/?no=20261119095429",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-19T01:10:02Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 6
+    },
+    {
+      "id": "c20261119-1314",
+      "headline": "인텔 파운드리, MS와 EMIB 패키징·제온 공급 계약 체결",
+      "summary": [
+        "인텔 파운드리가 EMIB 2.5차원 패키징의 첫 외부 고객사로 마이크로소프트를 확보했다고 양사가 18일 발표했다.",
+        "MS는 애저 실리콘 패키징에 EMIB를 쓰고, 인텔은 차세대 제온 '다이아몬드래피즈'를 포함해 수년간 제온을 공급한다.",
+        "외부 고객 확보로 인텔 파운드리 사업 확대 가능성을 확인했으며 AI·클라우드 인프라 협력도 강화된다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "EMIB",
+        "2.5차원 패키징",
+        "다이아몬드래피즈",
+        "제온",
+        "애저 실리콘",
+        "인텔 18A-P"
+      ],
+      "companies": [
+        "인텔",
+        "마이크로소프트"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "인텔",
+        "마이크로소프트"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
       "first_seen": "2026-11-19T00:53:54Z",
-      "updated_at": "2026-11-19T00:53:54Z",
+      "updated_at": "2026-11-19T01:08:01Z",
       "articles": [
         {
           "key": "e92e9f14a0c5f9e8",
@@ -88,10 +537,18 @@
           "source": "DigiTimes Asia",
           "lang": "en",
           "published_at": "2026-11-19T00:53:54Z"
+        },
+        {
+          "key": "e2996004c253f2f9",
+          "title": "인텔 파운드리, 2.5차원 패키징 'EMIB' 첫 외부 고객사로 MS 확보",
+          "url": "https://zdnet.co.kr/view/?no=20261119100612",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-19T01:08:01Z"
         }
       ],
       "type_checked": true,
-      "importance_raw": 2
+      "importance_raw": 3
     },
     {
       "id": "c20261119-1313",
@@ -181,59 +638,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261119-1311",
-      "headline": "디노티시아, AI 데이터 검색 반도체 VDPU ASIC 실시간 구동 공개",
-      "summary": [
-        "디노티시아는 SC26에서 AI 데이터 검색 반도체 VDPU의 ASIC 기반 실시간 구동을 처음 공개했다.",
-        "시연에서는 260만여 개 영상 프레임을 대상으로 자연어 검색을 실시간으로 수행하는 모습을 보였다.",
-        "벡터 데이터 탐색 기능을 칩으로 구현해 AI 검색 반도체의 기술 검증 단계를 보여준 의미가 있다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "VDPU",
-        "ASIC",
-        "AI 데이터 검색",
-        "벡터 데이터 처리",
-        "영상 검색"
-      ],
-      "companies": [
-        "디노티시아"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "디노티시아"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-18T23:30:00Z",
-      "updated_at": "2026-11-19T00:00:00Z",
-      "articles": [
-        {
-          "key": "f4ec4ff96cf21317",
-          "title": "디노티시아, SC26서 AI 데이터 검색 반도체 ‘VDPU’ 실시간 구동 첫 공개",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=343485",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-11-18T23:30:00Z"
-        },
-        {
-          "key": "8e8c315213a4e898",
-          "title": "디노티시아, FPGA 넘어 ASIC으로…AI 검색 반도체 기술 검증",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=410000",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-19T00:00:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261119-1310",
