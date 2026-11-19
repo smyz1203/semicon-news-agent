@@ -1,7 +1,196 @@
 {
   "version": 1,
-  "updated_at": "2026-11-19T05:21:23Z",
+  "updated_at": "2026-11-19T07:35:40Z",
   "issues": [
+    {
+      "id": "c20261119-1341",
+      "headline": "LG전자 MS사업본부장 교체, 이상우·백승태 사장 승진",
+      "summary": [
+        "LG전자가 2027년 임원인사와 조직개편을 승인받아 발표했으며, 임원인사는 내년 1월 1일부터 적용된다.",
+        "이상우 경영전략부문장이 MS사업본부장 겸 디스플레이사업부장을 맡아 사장으로 승진했고, 백승태 HS사업본부장도 사장이 됐다.",
+        "TV·미디어 사업과 디스플레이 사업을 맡는 수장이 바뀌어 사업 방향 재편이 예상된다는 점에서 의미가 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "임원인사",
+        "조직개편",
+        "MS사업본부",
+        "디스플레이사업부"
+      ],
+      "companies": [
+        "LG전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "LG전자"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 관심 기업(LG전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-19T07:26:01Z",
+      "updated_at": "2026-11-19T07:26:01Z",
+      "articles": [
+        {
+          "key": "45f29d11543d10b4",
+          "title": "LG전자, 이상우·백승태 사장 승진",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65671",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-19T07:26:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261119-1340",
+      "headline": "2027년 낸드플래시 가격 하락 전망, 중국 CSP 발주 축소 영향",
+      "summary": [
+        "트렌드포스는 2027년 낸드플래시 시장의 수급 균형이 공급 과잉 쪽으로 뒤집힐 것으로 내다봤다.",
+        "중국 CSP의 기업용 SSD 발주 대폭 축소와 소비자 가전 수요 추가 위축이 공급 과잉을 더 키울 전망이다.",
+        "북미 수요 증가에도 중국 발주 감소를 상쇄하기 어려워, 낸드 가격 하락 압력이 커질 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "낸드플래시",
+        "기업용 SSD",
+        "가격 전망",
+        "공급 과잉",
+        "중국 CSP"
+      ],
+      "companies": [
+        "트렌드포스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T07:05:29Z",
+      "updated_at": "2026-11-19T07:05:29Z",
+      "articles": [
+        {
+          "key": "7147444cf82a6ba0",
+          "title": "NAND Flash Prices Set to Decline in 2027 as Chinese CSP Order Cuts Outweigh North American Demand Growth, Says TrendForce",
+          "url": "https://www.trendforce.com/presscenter/news/20261119-13314.html",
+          "source": "TrendForce",
+          "lang": "en",
+          "published_at": "2026-11-19T07:05:29Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1277",
+      "headline": "3분기 OLED 모니터 출하 두 배, MSI 2위 올라",
+      "summary": [
+        "2026년 3분기 글로벌 OLED 모니터 출하량은 전분기 대비 13%, 전년 동기 대비 두 배 늘었다고 트렌드포스가 밝혔다.",
+        "ASUS가 21.7% 점유율로 1위를 지켰고, MSI는 점유율 14.5%로 처음 2위에 올랐으며 삼성 출하량과 비슷한 수준이다.",
+        "신제품 출시와 패널 공급 여유로 중소·신흥 브랜드도 출하를 늘려 상위 업체 순위가 크게 바뀌었다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED 모니터",
+        "출하량",
+        "27인치 QHD",
+        "540Hz",
+        "320Hz"
+      ],
+      "companies": [
+        "ASUS",
+        "MSI",
+        "삼성전자",
+        "트렌드포스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "ASUS",
+        "MSI",
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "시장 전망·통계 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T06:48:28Z",
+      "updated_at": "2026-11-19T06:31:51Z",
+      "articles": [
+        {
+          "key": "fa2d77e7fcf025e5",
+          "title": "Global OLED Monitor Shipments Double YoY in 3Q26 as Rankings Shift Dramatically Among Top Five Brands, Says TrendForce",
+          "url": "https://www.trendforce.com/presscenter/news/20261118-13311.html",
+          "source": "TrendForce",
+          "lang": "en",
+          "published_at": "2026-11-18T06:48:28Z"
+        },
+        {
+          "key": "3b51c9be67302184",
+          "title": "TrendForce: MSI overtakes Samsung to become the second-largest OLED monitor brand in Q3 2026",
+          "url": "https://www.oled-info.com/trendforce-msi-overtakes-samsung-become-second-largest-oled-monitor-brand-q3",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-19T06:31:51Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261119-1339",
+      "headline": "수출 1조달러 달성, SK하이닉스 HBM·소부장 협력 강조",
+      "summary": [
+        "SK하이닉스는 국내 연간 수출 1조 달러 돌파의 바탕으로 HBM 기술과 소부장 협력을 꼽았다.",
+        "기사는 19일 뉴스룸을 통해 발표된 입장으로, 구체적 수출 품목별 수치는 본문에 명확히 나오지 않는다.",
+        "반도체 업계의 기술력과 국내 공급망 연대가 수출 성과에 기여했다는 점을 강조한 것으로 보인다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "HBM",
+        "소부장",
+        "수출 1조달러",
+        "반도체 수출"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 2,
+      "importance_reason": "홍보·수상 1점, 관심 기업(SK하이닉스) +1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-19T06:28:07Z",
+      "updated_at": "2026-11-19T06:28:07Z",
+      "articles": [
+        {
+          "key": "c37b541a950007c8",
+          "title": "[수출 1조달러 시대] SK하이닉스 \"수출 1조달러, 소부장 기술력·연대의 결실\"",
+          "url": "https://www.inews24.com/view/2028242",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-19T06:28:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261119-1338",
       "headline": "유브라이트, 반도체·수동부품·스마트 음향으로 성장 모색",
@@ -46,19 +235,32 @@
     },
     {
       "id": "c20261119-1337",
-      "headline": "",
-      "summary": [],
-      "category": "",
-      "tags": [],
-      "companies": [],
-      "event_type": "",
-      "confirmed": null,
-      "parties": [],
-      "importance": 0,
-      "importance_reason": "",
-      "status": "pending",
-      "needs_summary": true,
-      "attempts": 1,
+      "headline": "글로벌테크놀로지 딥테크 혁신으로 중기부 장관표창 수상",
+      "summary": [
+        "글로벌테크놀로지가 딥테크 혁신 성과로 중소벤처기업부 장관표창을 받았다는 소식이다.",
+        "기사 본문이 제공되지 않아 수상 경위와 구체적 성과 내용은 확인할 수 없다.",
+        "반도체·디스플레이 업계에서는 중소 기술기업의 포상 소식으로, 산업적 파급력은 제한적인 것으로 보인다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "딥테크",
+        "중기부 장관표창",
+        "중소기업",
+        "기술혁신"
+      ],
+      "companies": [
+        "글로벌테크놀로지"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "글로벌테크놀로지"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
       "region": "ko",
       "first_seen": "2026-11-19T04:24:14Z",
       "updated_at": "2026-11-19T04:24:14Z",
@@ -71,7 +273,9 @@
           "lang": "ko",
           "published_at": "2026-11-19T04:24:14Z"
         }
-      ]
+      ],
+      "type_checked": true,
+      "importance_raw": 1
     },
     {
       "id": "c20261119-1336",
@@ -3194,48 +3398,6 @@
           "source": "DigiTimes Asia",
           "lang": "en",
           "published_at": "2026-11-18T06:50:46Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261118-1277",
-      "headline": "3분기 OLED 모니터 출하 전년比 두 배로 급증",
-      "summary": [
-        "시장조사기관 트렌드포스는 2026년 3분기 글로벌 OLED 모니터 출하량이 전분기 대비 13%, 전년 동기 대비 두 배 증가했다고 발표했다.",
-        "주요 브랜드의 신제품 출시와 풍부한 상류 패널 공급이 성장을 이끌었으며, 2급 및 신흥 브랜드의 출하 확대가 두드러졌다.",
-        "패널 공급 여력이 넓어지면서 모니터 시장 내 업체 간 순위 변동이 커지고 있어 OLED 모니터 확산 흐름이 이어질 전망이다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "OLED 모니터",
-        "출하량",
-        "패널 공급",
-        "트렌드포스"
-      ],
-      "companies": [
-        "트렌드포스"
-      ],
-      "event_type": "시장 전망·통계",
-      "confirmed": true,
-      "parties": [],
-      "importance": 2,
-      "importance_reason": "시장 전망·통계 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-18T06:48:28Z",
-      "updated_at": "2026-11-18T06:48:28Z",
-      "articles": [
-        {
-          "key": "fa2d77e7fcf025e5",
-          "title": "Global OLED Monitor Shipments Double YoY in 3Q26 as Rankings Shift Dramatically Among Top Five Brands, Says TrendForce",
-          "url": "https://www.trendforce.com/presscenter/news/20261118-13311.html",
-          "source": "TrendForce",
-          "lang": "en",
-          "published_at": "2026-11-18T06:48:28Z"
         }
       ],
       "type_checked": true,
