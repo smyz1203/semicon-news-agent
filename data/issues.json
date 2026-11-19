@@ -1,7 +1,76 @@
 {
   "version": 1,
-  "updated_at": "2026-11-19T19:14:19Z",
+  "updated_at": "2026-11-19T20:18:42Z",
   "issues": [
+    {
+      "id": "c20261119-1356",
+      "headline": "LG디스플레이, 파주 10.5세대 OLED 3조 투자 철회",
+      "summary": [
+        "LG디스플레이가 파주 P10 공장 10.5세대 대형 OLED 3조원 투자계획을 19일 철회했다.",
+        "투자 발표 7년 만이며, OLED TV 시장 성장 둔화와 LCD에서 OLED로의 전환 지연이 배경으로 꼽혔다.",
+        "초대형 패널 대신 기존 8.5세대 라인 활용과 중소형 프리미엄 제품 대응으로 전략을 바꾼 것이 업계 의미다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "10.5세대 OLED",
+        "대형 OLED",
+        "투자 철회",
+        "8.5세대 라인",
+        "OLED TV"
+      ],
+      "companies": [
+        "LG디스플레이"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이"
+      ],
+      "importance": 5,
+      "importance_reason": "설비 투자 3점, 관심 기업(LG디스플레이) +1, 매체 4곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-19T08:38:01Z",
+      "updated_at": "2026-11-19T17:06:33Z",
+      "articles": [
+        {
+          "key": "b2317b9f0c4ba8ae",
+          "title": "LG디스플레이, 파주 올레드 생산라인 3조원 투자계획 철회",
+          "url": "https://www.yna.co.kr/view/AKR20261119157800003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-19T08:38:01Z"
+        },
+        {
+          "key": "14f9e6029bb1c6b0",
+          "title": "LG디스플레이, 파주 OLED 3조원 투자 철회…7년 만에 백지화",
+          "url": "https://www.inews24.com/view/2028386",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-19T09:07:50Z"
+        },
+        {
+          "key": "2df5c5b2140be706",
+          "title": "LG디스플레이, 파주 10.5세대 OLED 3조 투자 철회",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65689",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-19T09:33:41Z"
+        },
+        {
+          "key": "3ef137f8424d0d34",
+          "title": "LG디스플레이, 10.5세대 대형 OLED 3조원 투자계획 철회",
+          "url": "https://zdnet.co.kr/view/?no=20261120013247",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-19T17:06:33Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
     {
       "id": "c20261119-1314",
       "headline": "인텔 파운드리, MS를 EMIB 패키징 첫 외부 고객으로 확보",
@@ -353,66 +422,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261119-1356",
-      "headline": "LG디스플레이, 파주 10.5세대 OLED 3조 투자 철회",
-      "summary": [
-        "LG디스플레이가 파주 P10 공장 10.5세대 OLED 생산라인 3조원 투자 계획을 철회했다고 19일 공시했다.",
-        "2019년 투자를 결정한 지 7년 만이며, 당초 투자 종료 시점은 2028년 3월이었다.",
-        "대외 여건 악화와 OLED TV 시장 성장 둔화가 겹치며 대형 OLED 투자 부담이 커졌다는 의미를 갖는다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "10.5세대 OLED",
-        "파주 P10",
-        "설비 투자 철회",
-        "OLED TV"
-      ],
-      "companies": [
-        "LG디스플레이"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": true,
-      "parties": [
-        "LG디스플레이"
-      ],
-      "importance": 5,
-      "importance_reason": "설비 투자 3점, 관심 기업(LG디스플레이) +1, 매체 3곳 보도 +1 → 5점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-19T08:38:01Z",
-      "updated_at": "2026-11-19T09:33:41Z",
-      "articles": [
-        {
-          "key": "b2317b9f0c4ba8ae",
-          "title": "LG디스플레이, 파주 올레드 생산라인 3조원 투자계획 철회",
-          "url": "https://www.yna.co.kr/view/AKR20261119157800003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-19T08:38:01Z"
-        },
-        {
-          "key": "14f9e6029bb1c6b0",
-          "title": "LG디스플레이, 파주 OLED 3조원 투자 철회…7년 만에 백지화",
-          "url": "https://www.inews24.com/view/2028386",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-19T09:07:50Z"
-        },
-        {
-          "key": "2df5c5b2140be706",
-          "title": "LG디스플레이, 파주 10.5세대 OLED 3조 투자 철회",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65689",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-19T09:33:41Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 5
     },
     {
       "id": "c20261119-1343",
