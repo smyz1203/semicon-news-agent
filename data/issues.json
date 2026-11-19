@@ -1,7 +1,282 @@
 {
   "version": 1,
-  "updated_at": "2026-11-19T23:00:02Z",
+  "updated_at": "2026-11-19T23:56:16Z",
   "issues": [
+    {
+      "id": "c20261119-1365",
+      "headline": "에이직랜드, 고성능 메모리 컨트롤러 양산 공급 계약 체결",
+      "summary": [
+        "에이직랜드가 글로벌 데이터센터 반도체 업체와 고성능 메모리 컨트롤러 신규 양산 공급 계약을 맺었다고 20일 밝혔다.",
+        "첫 발주서 기준 계약 규모는 1047만달러(약 139억원)이며, 계약 종료일은 내년 4월 30일이다.",
+        "향후 물량은 고객사 생산 일정과 수요에 따라 개별 발주로 확정되어 AI 데이터센터 시스템반도체 수주 흐름에 의미가 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "메모리 컨트롤러",
+        "양산 공급",
+        "데이터센터",
+        "시스템반도체",
+        "AI"
+      ],
+      "companies": [
+        "에이직랜드"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "에이직랜드"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-19T23:39:45Z",
+      "updated_at": "2026-11-19T23:39:45Z",
+      "articles": [
+        {
+          "key": "2df58f10041d371c",
+          "title": "에이직랜드, 메모리 컨트롤러 양산 수주",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65695",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-19T23:39:45Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1240",
+      "headline": "보스턴다이내믹스, 글로벌파운드리 반도체 팹에 로봇 확대",
+      "summary": [
+        "보스턴다이내믹스와 글로벌파운드리가 협력을 넓혀 Spot을 여러 팹에 배치하고 휴머노이드 Atlas 테스트도 시작한다.",
+        "싱가포르에서 Spot 두 대가 90,000회 이상 점검을 수행했고 성공률은 99%로 보고됐다.",
+        "반도체 제조 현장의 자동화·예지 정비 확산을 보여주는 사례로, 제조 로봇 도입이 가속될 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "Spot",
+        "Atlas 휴머노이드",
+        "예지 정비",
+        "팹 자동화",
+        "로봇"
+      ],
+      "companies": [
+        "보스턴다이내믹스",
+        "글로벌파운드리"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "보스턴다이내믹스",
+        "글로벌파운드리"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 매체 5곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-17T23:47:05Z",
+      "updated_at": "2026-11-19T23:34:24Z",
+      "articles": [
+        {
+          "key": "dbf34d5ff08f7e2b",
+          "title": "반도체 공장 가는 아틀라스…보스턴다이나믹스, 글로벌파운드리와 협력",
+          "url": "https://zdnet.co.kr/view/?no=20261118084025",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:47:05Z"
+        },
+        {
+          "key": "c844866b013f0d9c",
+          "title": "보스턴다이내믹스 아틀라스, 반도체 공장서도 테스트",
+          "url": "https://www.yna.co.kr/view/AKR20261118035400003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:53:25Z"
+        },
+        {
+          "key": "4562c9218b6898de",
+          "title": "Boston Dynamics to deploy robots at GlobalFoundries' chip plants",
+          "url": "https://www.koreaherald.com/article/10940963",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-18T01:47:45Z"
+        },
+        {
+          "key": "2ded4eeae5aa4dcf",
+          "title": "Boston Dynamics to test Atlas humanoid in GlobalFoundries chip plants from early 2027",
+          "url": "https://www.digitimes.com/news/a20261118VL219/boston-dynamics-globalfoundries-atlas-robot-testing-2027.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T23:45:15Z"
+        },
+        {
+          "key": "b11f5ee6b1cf48df",
+          "title": "Boston Dynamics & GlobalFoundries Expand Robotics Collaboration",
+          "url": "https://www.semiconductor-digest.com/boston-dynamics-globalfoundries-expand-robotics-collaboration/?utm_source=rss&utm_medium=rss&utm_campaign=boston-dynamics-globalfoundries-expand-robotics-collaboration",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-19T23:34:24Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261119-1364",
+      "headline": "ADEKA, 대만 신공장 가동으로 첨단 로직 반도체 ALD 소재 공급 확대",
+      "summary": [
+        "ADEKA가 대만 자회사 ADEKA FINE CHEMICAL TAIWAN의 신공장에서 2025년부터 로직 반도체용 ALD 소재를 공급해 왔다.",
+        "신공장은 신소재의 소량 초기 공급과 평가를 빠르게 지원하며, 이후 본격 양산으로 이어지는 체계를 목표로 한다.",
+        "로직 반도체 구조가 3D화되면서 ALD 소재 수요가 커지고, 소재 사업 확장이 산업 공급망에 의미를 더한다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "ALD 소재",
+        "로직 반도체",
+        "High-k",
+        "3D 트랜지스터",
+        "양산 체계"
+      ],
+      "companies": [
+        "ADEKA",
+        "ADEKA FINE CHEMICAL TAIWAN"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "ADEKA",
+        "ADEKA FINE CHEMICAL TAIWAN"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T23:32:33Z",
+      "updated_at": "2026-11-19T23:32:33Z",
+      "articles": [
+        {
+          "key": "e8dddb2469236255",
+          "title": "Construction of a New Plant for ALD Materials for Advanced Semiconductors",
+          "url": "https://www.semiconductor-digest.com/construction-of-a-new-plant-for-ald-materials-for-advanced-semiconductors/?utm_source=rss&utm_medium=rss&utm_campaign=construction-of-a-new-plant-for-ald-materials-for-advanced-semiconductors",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-19T23:32:33Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261119-1362",
+      "headline": "삼성디스플레이, 지스타서 QD-OLED 게이밍 체험존 운영",
+      "summary": [
+        "삼성디스플레이가 부산 지스타 2026에서 CD 프로젝트 레드, 크래프톤과 QD-OLED 게이밍 체험존을 운영한다.",
+        "QD-OLED 패널을 탑재한 모니터 92대가 전시되며 MSI와 삼성전자 제품이 포함된다.",
+        "게임사와 협업한 체험 마케팅으로 QD-OLED 모니터의 게이머 수요를 넓히려는 행보로 볼 수 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "QD-OLED",
+        "지스타 2026",
+        "게이밍 모니터",
+        "OLED"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "CD 프로젝트 레드",
+        "크래프톤",
+        "MSI",
+        "삼성전자"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "삼성디스플레이",
+        "CD 프로젝트 레드",
+        "크래프톤"
+      ],
+      "importance": 2,
+      "importance_reason": "홍보·수상 1점, 관심 기업(삼성디스플레이) +1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-19T23:15:01Z",
+      "updated_at": "2026-11-19T23:26:32Z",
+      "articles": [
+        {
+          "key": "cb77f4d6324e3118",
+          "title": "삼성디스플레이, 지스타서 게임사와 QD-OLED 체험존 운영",
+          "url": "https://www.yna.co.kr/view/AKR20261120024900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-19T23:15:01Z"
+        },
+        {
+          "key": "9d763a8f210d0292",
+          "title": "삼성D, 부산 지스타서 QD-OLED 알린다",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65694",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-19T23:26:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261119-1363",
+      "headline": "증권가, 내년 D램 가격 40% 상승 전망",
+      "summary": [
+        "KB증권이 공급 부족과 제품 믹스 차별화를 근거로 내년 D램 가격 상승을 전망했다.",
+        "기사 본문이 일부만 제공되어 구체적 일정과 세부 근거는 확인할 수 없다.",
+        "삼성전자와 SK하이닉스의 메모리 수익성 개선 기대가 커질 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "D램",
+        "가격 전망",
+        "공급 부족",
+        "제품 믹스"
+      ],
+      "companies": [
+        "KB증권",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "KB증권"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-19T23:17:55Z",
+      "updated_at": "2026-11-19T23:17:55Z",
+      "articles": [
+        {
+          "key": "f0cd318e221dbbc4",
+          "title": "KB증권 \"공급 부족 속 삼전닉스 내년 D램 가격 40% 상승 전망\"",
+          "url": "https://www.yna.co.kr/view/AKR20261120024500008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-19T23:17:55Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261119-1361",
       "headline": "마이크론, 차세대 노드 대비 전용 R&D 시설 구축",
@@ -3017,76 +3292,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261117-1240",
-      "headline": "보스턴다이내믹스 아틀라스, 글로벌파운드리 반도체 공장 투입",
-      "summary": [
-        "보스턴다이내믹스가 휴머노이드 아틀라스를 글로벌파운드리 반도체 공장에서 시험 운영하기로 했다.",
-        "기사에 따르면 테스트는 2027년 초부터 시작되며, 공장 내 로봇 활용 범위를 넓히는 계획이다.",
-        "반도체 제조 현장에 휴머노이드를 도입하는 사례로, 공장 자동화 시장의 관심을 끌 전망이다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "휴머노이드",
-        "아틀라스",
-        "반도체 공장 자동화",
-        "글로벌파운드리"
-      ],
-      "companies": [
-        "보스턴다이내믹스",
-        "글로벌파운드리"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "보스턴다이내믹스",
-        "글로벌파운드리"
-      ],
-      "importance": 3,
-      "importance_reason": "업계 일반 2점, 매체 4곳 보도 +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-17T23:47:05Z",
-      "updated_at": "2026-11-18T23:45:15Z",
-      "articles": [
-        {
-          "key": "dbf34d5ff08f7e2b",
-          "title": "반도체 공장 가는 아틀라스…보스턴다이나믹스, 글로벌파운드리와 협력",
-          "url": "https://zdnet.co.kr/view/?no=20261118084025",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-17T23:47:05Z"
-        },
-        {
-          "key": "c844866b013f0d9c",
-          "title": "보스턴다이내믹스 아틀라스, 반도체 공장서도 테스트",
-          "url": "https://www.yna.co.kr/view/AKR20261118035400003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-17T23:53:25Z"
-        },
-        {
-          "key": "4562c9218b6898de",
-          "title": "Boston Dynamics to deploy robots at GlobalFoundries' chip plants",
-          "url": "https://www.koreaherald.com/article/10940963",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-11-18T01:47:45Z"
-        },
-        {
-          "key": "2ded4eeae5aa4dcf",
-          "title": "Boston Dynamics to test Atlas humanoid in GlobalFoundries chip plants from early 2027",
-          "url": "https://www.digitimes.com/news/a20261118VL219/boston-dynamics-globalfoundries-atlas-robot-testing-2027.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-18T23:45:15Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261119-1304",
