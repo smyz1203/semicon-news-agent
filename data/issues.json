@@ -1,7 +1,97 @@
 {
   "version": 1,
-  "updated_at": "2026-11-19T22:02:40Z",
+  "updated_at": "2026-11-19T23:00:02Z",
   "issues": [
+    {
+      "id": "c20261119-1361",
+      "headline": "마이크론, 차세대 노드 대비 전용 R&D 시설 구축",
+      "summary": [
+        "마이크론이 다음 공정 노드 너머를 겨냥한 전용 연구개발 시설을 만든 것으로 전해졌다.",
+        "기사 본문이 잘려 있어 투자 규모와 가동 일정 등 구체적 수치는 확인되지 않는다.",
+        "메모리 업계가 대규모 R&D 투자를 멈출 수 없다는 점을 보여주는 사례로 평가된다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "마이크론",
+        "메모리 R&D",
+        "차세대 공정",
+        "연구개발 시설"
+      ],
+      "companies": [
+        "마이크론"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "마이크론"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T22:21:15Z",
+      "updated_at": "2026-11-19T22:21:15Z",
+      "articles": [
+        {
+          "key": "2fd16fc8937b7b2d",
+          "title": "Memory R&D Is a High-Stakes Game",
+          "url": "https://www.eetimes.com/memory-rd-is-a-high-stakes-game/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-19T22:21:15Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261119-1360",
+      "headline": "EUV 계측기업 EUV Tech, 량 박사 전략기술 펠로 영입",
+      "summary": [
+        "EUV 계측 장비 업체 EUV Tech가 Ted Liang 박사를 전략기술 펠로로 임명했다.",
+        "Liang 박사는 약 30년간 EUV 마스크 제조·검사·계측 기술을 개발했으며, 전 Lasertec USA와 Intel 출신이다.",
+        "고객 요구 파악과 차세대 계측 기술 개발을 강화하려는 움직임으로, EUV 공정 확대에 따른 계측 수요에 대응하는 신호다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "EUV 계측",
+        "EUV 마스크",
+        "전략기술 펠로",
+        "결함 관리"
+      ],
+      "companies": [
+        "EUV Tech",
+        "Lasertec",
+        "Intel"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "EUV Tech"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T22:04:51Z",
+      "updated_at": "2026-11-19T22:04:51Z",
+      "articles": [
+        {
+          "key": "ca619e5d53d3b252",
+          "title": "EUV Tech Appoints Dr. Ted Liang as Strategic Technology Fellow",
+          "url": "https://www.semiconductor-digest.com/euv-tech-appoints-dr-ted-liang-as-strategic-technology-fellow/?utm_source=rss&utm_medium=rss&utm_campaign=euv-tech-appoints-dr-ted-liang-as-strategic-technology-fellow",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-19T22:04:51Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261119-1356",
       "headline": "LG디스플레이, 파주 10.5세대 OLED 3조 투자 철회",
