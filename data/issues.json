@@ -1,7 +1,59 @@
 {
   "version": 1,
-  "updated_at": "2026-11-19T11:14:03Z",
+  "updated_at": "2026-11-19T12:13:57Z",
   "issues": [
+    {
+      "id": "c20261119-1358",
+      "headline": "반도체 수출 호조로 사상 첫 연간 수출 1조 달러 달성",
+      "summary": [
+        "한국의 연간 수출이 사상 처음으로 1조 달러를 넘어섰고 반도체가 증가를 주도했다.",
+        "수출에서 반도체가 차지한 비중은 42.7%로, AI 투자 확대에 따른 메모리 수요 급증과 가격 상승이 수출액을 끌어올렸다.",
+        "다만 메모리 가격 급등은 스마트폰과 PC 등 완제품 업계의 원가 부담으로 이어질 수 있다는 우려를 낳고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "메모리",
+        "AI 투자",
+        "수출 1조 달러",
+        "반도체 수출",
+        "메모리 가격"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-19T08:59:52Z",
+      "updated_at": "2026-11-19T11:19:39Z",
+      "articles": [
+        {
+          "key": "c1affa54727ebef4",
+          "title": "How semiconductors powered South Korea’s $1tr export milestone",
+          "url": "https://www.koreaherald.com/article/10943146",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-19T08:59:52Z"
+        },
+        {
+          "key": "6eed55bc7d6d7dad",
+          "title": "[수출 1조달러 시대] 수출 42.7%가 반도체…AI가 끌고 가격이 밀었다",
+          "url": "https://www.inews24.com/view/2028383",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-19T11:19:39Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261119-1359",
       "headline": "OLED 적층 소재 공급망을 정리한 인터랙티브 시장 보고서 출시",
@@ -375,46 +427,6 @@
       ],
       "type_checked": true,
       "importance_raw": 5
-    },
-    {
-      "id": "c20261119-1358",
-      "headline": "반도체가 견인한 한국 연간 수출 1조 달러 달성",
-      "summary": [
-        "산업통상부는 올해 누적 수출이 연간 1조 달러를 넘어섰다고 잠정 집계를 발표했다.",
-        "AI 메모리 수요 확대와 가격 상승으로 반도체 수출은 1~10월 기준 3964억 달러를 넘어섰다.",
-        "한국은 미국·독일·중국에 이어 네 번째로 연간 수출 1조 달러를 달성한 나라가 됐다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "AI 메모리",
-        "반도체 수출",
-        "수출 1조 달러",
-        "메모리 가격"
-      ],
-      "companies": [],
-      "event_type": "시장 전망·통계",
-      "confirmed": true,
-      "parties": [],
-      "importance": 2,
-      "importance_reason": "시장 전망·통계 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-19T08:59:52Z",
-      "updated_at": "2026-11-19T08:59:52Z",
-      "articles": [
-        {
-          "key": "c1affa54727ebef4",
-          "title": "How semiconductors powered South Korea’s $1tr export milestone",
-          "url": "https://www.koreaherald.com/article/10943146",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-11-19T08:59:52Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261119-1357",
