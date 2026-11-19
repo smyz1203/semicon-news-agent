@@ -1,7 +1,373 @@
 {
   "version": 1,
-  "updated_at": "2026-11-19T03:04:30Z",
+  "updated_at": "2026-11-19T04:12:43Z",
   "issues": [
+    {
+      "id": "c20261119-1331",
+      "headline": "SemiFive·PFN, HBM 대안으로 DRAM 로직 직접 적층 공개",
+      "summary": [
+        "SemiFive와 Preferred Networks가 시카고 SC26에서 MN-Core L2000 프로젝트를 선보였다.",
+        "기사에는 DRAM을 로직 위에 직접 적층하는 방식이 소개됐으나 구체적 수치와 양산 일정은 제시되지 않았다.",
+        "HBM에 대한 대안 아키텍처로 주목받을 수 있어 AI 가속기 메모리 구조 논의에 참고가 된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "DRAM 적층",
+        "HBM 대안",
+        "MN-Core L2000",
+        "SC26"
+      ],
+      "companies": [
+        "SemiFive",
+        "Preferred Networks"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "SemiFive",
+        "Preferred Networks"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T03:59:36Z",
+      "updated_at": "2026-11-19T03:59:36Z",
+      "articles": [
+        {
+          "key": "9e8d59dd82fefa50",
+          "title": "SemiFive, PFN stack DRAM directly on logic as HBM alternative",
+          "url": "https://www.digitimes.com/news/a20261119VL212/pfn-dram-design-hbm-processor.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-19T03:59:36Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261119-1330",
+      "headline": "젠슨 황의 엔비디아 복귀 조건을 짚은 칼럼",
+      "summary": [
+        "기사는 젠슨 황 엔비디아 CEO가 회사로 복귀하기 위해 필요한 조건을 논평 형식으로 다뤘다.",
+        "본문은 이미지 크레딧 문구만 남아 있어 구체적 사실, 수치, 일정은 확인되지 않는다.",
+        "다만 엔비디아 경영 구조에 대한 관심이 이어진다는 점은 AI반도체 업계 동향 판단에 참고할 만하다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엔비디아",
+        "젠슨 황",
+        "경영진",
+        "AI반도체"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "칼럼·인터뷰",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "칼럼·인터뷰 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T03:58:45Z",
+      "updated_at": "2026-11-19T03:58:45Z",
+      "articles": [
+        {
+          "key": "69c59b050c693db0",
+          "title": "Commentary: What it would take for Jensen Huang to return to Nvidia",
+          "url": "https://www.digitimes.com/news/a20261119VL216/nvidia-jensen-huang-ceo-digitimes.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-19T03:58:45Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
+    {
+      "id": "c20261119-1329",
+      "headline": "GF, 인도 사이언트 반도체에 1000만 달러 투자",
+      "summary": [
+        "글로벌파운드리스가 인도 기업 사이언트 반도체에 1000만 달러를 투자했다고 알려졌다.",
+        "기사 본문이 거의 없어 투자 시점과 지분 조건 등 세부 내용은 확인되지 않는다.",
+        "인도 반도체 생태계 확장과 파운드리의 현지 협력 강화 흐름으로 볼 수 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "글로벌파운드리스",
+        "사이언트 반도체",
+        "인도 반도체",
+        "해외 투자"
+      ],
+      "companies": [
+        "글로벌파운드리스",
+        "사이언트 반도체"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "글로벌파운드리스",
+        "사이언트 반도체"
+      ],
+      "importance": 2,
+      "importance_reason": "재무·주주 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T03:54:19Z",
+      "updated_at": "2026-11-19T03:54:19Z",
+      "articles": [
+        {
+          "key": "7dcc88cad788bd80",
+          "title": "GlobalFoundries invests US$10 million in India-based Cyient Semiconductors",
+          "url": "https://www.digitimes.com/news/a20261119PR200/investment-globalfoundries-silicon-development-design.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-19T03:54:19Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1271",
+      "headline": "애플, 삼성전자와 장기 D램 공급 계약 협상 막바지",
+      "summary": [
+        "애플이 SK하이닉스와 별도 계약을 맺은 뒤 삼성전자와 4~5년 D램 공급 계약을 협상 중이라는 보도다.",
+        "계약은 2027년 상반기 시작이 목표이며 최소 공급량을 보장하고 가격은 시장 상황에 따른다.",
+        "AI 주도 메모리 부족으로 공급사의 협상력이 커진 상황을 보여주는 사례다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "D램",
+        "장기공급계약",
+        "AI메모리 부족",
+        "HBM",
+        "공급 확보"
+      ],
+      "companies": [
+        "애플",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "애플",
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-18T05:41:37Z",
+      "updated_at": "2026-11-19T03:45:44Z",
+      "articles": [
+        {
+          "key": "62754bcf0441a499",
+          "title": "Apple reportedly nears long-term DRAM deal with Samsung",
+          "url": "https://www.digitimes.com/news/a20261118VL213/apple-dram-samsung-price-2027.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-18T05:41:37Z"
+        },
+        {
+          "key": "e543f083f2d7193d",
+          "title": "Apple seeks to lock in memory supply as Samsung, SK hynix gain leverage",
+          "url": "https://www.koreaherald.com/article/10942672",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-19T03:45:44Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261119-1328",
+      "headline": "중국 군, 미국 수출 규제 속 엔비디아 칩 확보 시도",
+      "summary": [
+        "미국이 대중 수출 규제를 강화하는 가운데 중국 군이 엔비디아 칩을 구하려 한다는 보도가 나왔다.",
+        "기사 본문이 제공되지 않아 구체적 물량·일정·거래 규모는 확인할 수 없다.",
+        "수출 통제가 조달 경로를 좁히는 상황을 보여주며, 공급망 리스크를 시사한다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출규제",
+        "엔비디아",
+        "AI반도체",
+        "중국 군사",
+        "대중 제재"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "엔비디아",
+        "중국 군"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T03:15:52Z",
+      "updated_at": "2026-11-19T03:15:52Z",
+      "articles": [
+        {
+          "key": "f6f7fd651868d098",
+          "title": "China's military seeks Nvidia chips as US tightens export curbs",
+          "url": "https://www.digitimes.com/news/a20261119VL213/nvidia-military-chips-data-shipments.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-19T03:15:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261119-1327",
+      "headline": "엔비디아 AI 혁신 속도, 젠슨 황 의존 우려",
+      "summary": [
+        "한 냉각 부품 공급업체가 젠슨 황 CEO 없이는 엔비디아의 AI 혁신 속도가 둔화될 수 있다고 경고했다.",
+        "기사 본문에는 구체적인 수치나 일정이 확인되지 않았고 제목과 출처 정보만 제공되었다.",
+        "이는 AI 가속기 공급망에서 핵심 인물 의존도에 대한 시장의 우려를 보여주는 신호로 볼 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI가속기",
+        "냉각솔루션",
+        "젠슨황",
+        "엔비디아",
+        "공급망"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T03:11:07Z",
+      "updated_at": "2026-11-19T03:11:07Z",
+      "articles": [
+        {
+          "key": "1f808db5f4a096cb",
+          "title": "Nvidia's AI innovation pace may slow without Jensen Huang, key cooling supplier warns",
+          "url": "https://www.digitimes.com/news/a20261119PD217/auras-jensen-huang-revenue-cooling-asic-development.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-19T03:11:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261119-1326",
+      "headline": "일론 머스크 테라팹, 한국 장비업체와 장비 구매 협의",
+      "summary": [
+        "일론 머스크의 테라팹이 한국 기업들과 반도체 제조 장비 구매를 협의 중이라고 보도됐다.",
+        "기사 본문은 텍스트가 거의 없고 텍사스 그림스 카운티에 건설 계획인 스페이스X·테슬라 공장 조감도만 담겨 있다.",
+        "협의가 실제 계약으로 이어질지는 확인되지 않았으며, 한국 장비 업계에는 신규 수주 기회로 거론될 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "테라팹",
+        "반도체 제조장비",
+        "텍사스 공장",
+        "장비 수주"
+      ],
+      "companies": [
+        "테슬라",
+        "스페이스X",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "스페이스X",
+        "테슬라"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T03:05:53Z",
+      "updated_at": "2026-11-19T03:05:53Z",
+      "articles": [
+        {
+          "key": "c49964d15916d217",
+          "title": "Musk's Terafab in talks with Korean firms to buy chipmaking equipment",
+          "url": "https://www.digitimes.com/news/a20261119VL214/equipment-elon-musk-manufacturing-texas-spacex.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-19T03:05:53Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261119-1325",
+      "headline": "LED 디스플레이 성장 동력 전환, 중국 둔화 영향",
+      "summary": [
+        "기사 제목에 따르면 LED 디스플레이 시장의 성장 동력이 새로운 요인으로 옮겨가고 있다.",
+        "본문 내용이 없어 구체적인 수치나 일정은 확인할 수 없다.",
+        "중국 시장 둔화가 배경으로 언급되어 관련 업계의 수요 구조 변화에 주목할 필요가 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "LED 디스플레이",
+        "중국 시장 둔화",
+        "성장 동력"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T03:01:15Z",
+      "updated_at": "2026-11-19T03:01:15Z",
+      "articles": [
+        {
+          "key": "d026aa720dcbf2bf",
+          "title": "LED display growth shifts toward new drivers amid China market slowdown",
+          "url": "https://www.digitimes.com/news/a20261118PD259/market-growth-display-price-demand.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-19T03:01:15Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261119-1324",
       "headline": "램리서치, 대만 R&D 확대로 TSMC와 공정 개발 가속",
@@ -309,19 +675,32 @@
     },
     {
       "id": "c20261119-1317",
-      "headline": "",
-      "summary": [],
-      "category": "",
-      "tags": [],
-      "companies": [],
-      "event_type": "",
-      "confirmed": null,
-      "parties": [],
-      "importance": 0,
-      "importance_reason": "",
-      "status": "pending",
-      "needs_summary": true,
-      "attempts": 1,
+      "headline": "삼성전자, 에이전틱 AI 서버용 소캠2 메모리 제시",
+      "summary": [
+        "삼성전자가 에이전틱 AI 시대의 서버 메모리 해법으로 소캠2(SOCAMM2)를 내놓았다고 여러 매체가 전했다.",
+        "기사 본문이 제공되지 않아 제품 사양이나 수치, 출시 일정은 확인할 수 없다.",
+        "AI 서버의 메모리 수요가 저전력·고용량 모듈로 옮겨갈 수 있다는 점에서 관련 시장의 관심이 될 전망이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "소캠2",
+        "에이전틱 AI",
+        "서버 메모리",
+        "저전력 D램"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점, 관심 기업(삼성전자) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
       "region": "ko",
       "first_seen": "2026-11-19T01:25:10Z",
       "updated_at": "2026-11-19T01:38:17Z",
@@ -342,7 +721,9 @@
           "lang": "ko",
           "published_at": "2026-11-19T01:38:17Z"
         }
-      ]
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261119-1315",
@@ -2897,51 +3278,6 @@
       ],
       "type_checked": true,
       "importance_raw": 4
-    },
-    {
-      "id": "c20261118-1271",
-      "headline": "애플, 삼성과 장기 DRAM 공급 계약 임박 보도",
-      "summary": [
-        "애플이 삼성전자와 장기 DRAM 공급 계약을 체결하는 단계에 가까워졌다는 보도가 나왔다.",
-        "기사 본문이 사실상 없어 계약 규모, 가격, 물량, 계약 기간 등 구체적 수치는 확인되지 않는다.",
-        "공식 확인 전이지만 메모리 장기 공급 계약은 고객사 확보와 수급 안정 측면에서 의미가 크다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "DRAM",
-        "장기 공급 계약",
-        "메모리 수급"
-      ],
-      "companies": [
-        "애플",
-        "삼성전자"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": false,
-      "parties": [
-        "애플",
-        "삼성전자"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-18T05:41:37Z",
-      "updated_at": "2026-11-18T05:41:37Z",
-      "articles": [
-        {
-          "key": "62754bcf0441a499",
-          "title": "Apple reportedly nears long-term DRAM deal with Samsung",
-          "url": "https://www.digitimes.com/news/a20261118VL213/apple-dram-samsung-price-2027.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-18T05:41:37Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261118-1270",
