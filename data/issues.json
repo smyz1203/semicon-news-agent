@@ -1,7 +1,69 @@
 {
   "version": 1,
-  "updated_at": "2026-11-19T12:13:57Z",
+  "updated_at": "2026-11-19T13:36:15Z",
   "issues": [
+    {
+      "id": "c20261119-1314",
+      "headline": "인텔 파운드리, MS를 EMIB 패키징 첫 외부 고객으로 확보",
+      "summary": [
+        "인텔 파운드리가 2.5차원 패키징 EMIB의 첫 외부 고객사로 마이크로소프트를 확보했다는 소식이 전해졌다.",
+        "기사 본문이 충분하지 않아 계약 규모와 세부 일정은 확인되지 않았다.",
+        "외부 고객 확보는 인텔 파운드리의 기술 신뢰도 개선과 패키징 사업 확장에 의미가 있다는 평가다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "EMIB",
+        "2.5차원 패키징",
+        "인텔 파운드리",
+        "외부 고객 확보"
+      ],
+      "companies": [
+        "인텔",
+        "마이크로소프트"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "인텔",
+        "마이크로소프트"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 매체 3곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-19T00:53:54Z",
+      "updated_at": "2026-11-19T13:00:00Z",
+      "articles": [
+        {
+          "key": "e92e9f14a0c5f9e8",
+          "title": "Microsoft’s chip packaging deal hands Intel credibility more than revenue",
+          "url": "https://www.digitimes.com/news/a20261119VL209/microsoft-intel-azure-packaging-intel-foundry.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-19T00:53:54Z"
+        },
+        {
+          "key": "e2996004c253f2f9",
+          "title": "인텔 파운드리, 2.5차원 패키징 'EMIB' 첫 외부 고객사로 MS 확보",
+          "url": "https://zdnet.co.kr/view/?no=20261119100612",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-19T01:08:01Z"
+        },
+        {
+          "key": "0549759d637afdeb",
+          "title": "Intel 18A yields hit 70% as company signs Microsoft as EMIB customer",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/intel-18a-yields-hit-70-percent-as-company-signs-microsoft-as-emib-customer-the-first-company-to-publicly-commit-to-intels-new-packaging-technology",
+          "source": "Tom's Hardware",
+          "lang": "en",
+          "published_at": "2026-11-19T13:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
     {
       "id": "c20261119-1358",
       "headline": "반도체 수출 호조로 사상 첫 연간 수출 1조 달러 달성",
@@ -2383,62 +2445,6 @@
       ],
       "type_checked": true,
       "importance_raw": 6
-    },
-    {
-      "id": "c20261119-1314",
-      "headline": "인텔 파운드리, MS와 EMIB 패키징·제온 공급 계약 체결",
-      "summary": [
-        "인텔 파운드리가 EMIB 2.5차원 패키징의 첫 외부 고객사로 마이크로소프트를 확보했다고 양사가 18일 발표했다.",
-        "MS는 애저 실리콘 패키징에 EMIB를 쓰고, 인텔은 차세대 제온 '다이아몬드래피즈'를 포함해 수년간 제온을 공급한다.",
-        "외부 고객 확보로 인텔 파운드리 사업 확대 가능성을 확인했으며 AI·클라우드 인프라 협력도 강화된다."
-      ],
-      "category": "파운드리/시스템반도체",
-      "tags": [
-        "EMIB",
-        "2.5차원 패키징",
-        "다이아몬드래피즈",
-        "제온",
-        "애저 실리콘",
-        "인텔 18A-P"
-      ],
-      "companies": [
-        "인텔",
-        "마이크로소프트"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "인텔",
-        "마이크로소프트"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-19T00:53:54Z",
-      "updated_at": "2026-11-19T01:08:01Z",
-      "articles": [
-        {
-          "key": "e92e9f14a0c5f9e8",
-          "title": "Microsoft’s chip packaging deal hands Intel credibility more than revenue",
-          "url": "https://www.digitimes.com/news/a20261119VL209/microsoft-intel-azure-packaging-intel-foundry.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-19T00:53:54Z"
-        },
-        {
-          "key": "e2996004c253f2f9",
-          "title": "인텔 파운드리, 2.5차원 패키징 'EMIB' 첫 외부 고객사로 MS 확보",
-          "url": "https://zdnet.co.kr/view/?no=20261119100612",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-19T01:08:01Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261119-1313",
