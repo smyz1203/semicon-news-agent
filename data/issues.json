@@ -1,7 +1,782 @@
 {
   "version": 1,
-  "updated_at": "2026-11-19T07:35:40Z",
+  "updated_at": "2026-11-19T09:22:11Z",
   "issues": [
+    {
+      "id": "c20261119-1356",
+      "headline": "LG디스플레이, 파주 OLED 3조원 투자 철회",
+      "summary": [
+        "LG디스플레이가 파주 P10 공장 10.5세대 OLED 생산시설에 대한 3조원 규모 신규 투자를 철회했다.",
+        "19일 공시를 통해 결정이 공개됐으며, 2019년 이후 추진해온 투자 계획을 7년 만에 접은 것이다.",
+        "국내 OLED 생산능력 확대 계획이 멈추면서 중소형·대형 패널 투자 전략 재편이 주목된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "10.5세대 OLED",
+        "파주 P10",
+        "설비 투자 철회",
+        "OLED 생산능력"
+      ],
+      "companies": [
+        "LG디스플레이"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이"
+      ],
+      "importance": 4,
+      "importance_reason": "설비 투자 3점, 관심 기업(LG디스플레이) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-19T08:38:01Z",
+      "updated_at": "2026-11-19T09:07:50Z",
+      "articles": [
+        {
+          "key": "b2317b9f0c4ba8ae",
+          "title": "LG디스플레이, 파주 올레드 생산라인 3조원 투자계획 철회",
+          "url": "https://www.yna.co.kr/view/AKR20261119157800003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-19T08:38:01Z"
+        },
+        {
+          "key": "14f9e6029bb1c6b0",
+          "title": "LG디스플레이, 파주 OLED 3조원 투자 철회…7년 만에 백지화",
+          "url": "https://www.inews24.com/view/2028386",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-19T09:07:50Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261119-1358",
+      "headline": "반도체가 견인한 한국 연간 수출 1조 달러 달성",
+      "summary": [
+        "산업통상부는 올해 누적 수출이 연간 1조 달러를 넘어섰다고 잠정 집계를 발표했다.",
+        "AI 메모리 수요 확대와 가격 상승으로 반도체 수출은 1~10월 기준 3964억 달러를 넘어섰다.",
+        "한국은 미국·독일·중국에 이어 네 번째로 연간 수출 1조 달러를 달성한 나라가 됐다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 메모리",
+        "반도체 수출",
+        "수출 1조 달러",
+        "메모리 가격"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T08:59:52Z",
+      "updated_at": "2026-11-19T08:59:52Z",
+      "articles": [
+        {
+          "key": "c1affa54727ebef4",
+          "title": "How semiconductors powered South Korea’s $1tr export milestone",
+          "url": "https://www.koreaherald.com/article/10943146",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-19T08:59:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261119-1357",
+      "headline": "엔비디아, AI 수요로 대만 공급망 투자 확대 전망",
+      "summary": [
+        "엔비디아가 대만 공급망에 더 의존하는 방향을 강화하는 흐름이 보도됐다.",
+        "기사 본문은 저작권 표기만 있어 구체적 수치나 일정은 확인되지 않는다.",
+        "AI 수요가 기판과 후공정(OSAT) 생산능력을 압박하고 있다는 점이 업계에 중요한 신호다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI반도체",
+        "기판",
+        "OSAT",
+        "대만 공급망",
+        "후공정"
+      ],
+      "companies": [
+        "엔비디아",
+        "TSMC"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T08:45:00Z",
+      "updated_at": "2026-11-19T08:45:00Z",
+      "articles": [
+        {
+          "key": "5899aeff98bb5e93",
+          "title": "Nvidia doubles down on Taiwan supply chain as AI squeezes substrate and OSAT capacity",
+          "url": "https://www.digitimes.com/news/a20261119PD229/nvidia-capacity-substrate-osat-taiwan.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-19T08:45:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261119-1355",
+      "headline": "엔비디아 로드맵 유지, AI칩 공급망 영향 제한적",
+      "summary": [
+        "엔비디아가 제품 로드맵을 그대로 유지하며 AI 칩 공급망에 대한 영향이 제한적이라는 입장이 보도됐다.",
+        "다만 기사 본문에는 구체적인 제품명, 일정, 수치가 확인되지 않아 세부 내용은 파악하기 어렵다.",
+        "AI 반도체 수요와 공급망 안정성에 대한 시장의 관심이 이어지는 상황에서 참고할 만한 소식이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI반도체",
+        "제품 로드맵",
+        "공급망",
+        "엔비디아"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T08:29:44Z",
+      "updated_at": "2026-11-19T08:29:44Z",
+      "articles": [
+        {
+          "key": "347c6b3c5f341daa",
+          "title": "Nvidia maintains product roadmap as AI chip supply chain impact stays limited",
+          "url": "https://www.digitimes.com/news/a20261119PD224/nvidia-ai-chip-roadmap-earnings-development.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-19T08:29:44Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261119-1343",
+      "headline": "LG디스플레이 정기 임원 인사, 사업부 2개로 재편",
+      "summary": [
+        "LG디스플레이가 정철동 사장을 유임하고 전무 6명, 상무 11명을 승진·선임하는 정기 임원 인사를 발표했다.",
+        "기존 3개 사업부를 2개로 재편하며 이사회 승인을 거쳤다.",
+        "중형 OLED 전환을 추진하고 기술 중심 경쟁력을 강화하려는 조직 개편 방향이 드러났다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "정기 임원 인사",
+        "사업부 재편",
+        "중형 OLED",
+        "정철동"
+      ],
+      "companies": [
+        "LG디스플레이",
+        "LG전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 관심 기업(LG디스플레이) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-19T07:37:03Z",
+      "updated_at": "2026-11-19T08:26:07Z",
+      "articles": [
+        {
+          "key": "7dc1a6863cf4add9",
+          "title": "[인사] LG디스플레이",
+          "url": "https://www.yna.co.kr/view/AKR20261119140700003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-19T07:37:03Z"
+        },
+        {
+          "key": "2911f98b147e5754",
+          "title": "[인사] LG디스플레이",
+          "url": "https://www.inews24.com/view/2028324",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-19T07:45:33Z"
+        },
+        {
+          "key": "287c3d6726601358",
+          "title": "LG디스플레이, 전무 6명·상무 11명 승진…사업부 2개로 재편",
+          "url": "https://www.yna.co.kr/view/AKR20261119143900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-19T07:50:07Z"
+        },
+        {
+          "key": "1dcb47bd334ae770",
+          "title": "LG디스플레이, 정철동 사장 유임…전무 6명 승진·사업부 2개 재편",
+          "url": "https://www.inews24.com/view/2028346",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-19T08:26:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261119-1354",
+      "headline": "평택시, 독일 드레스덴과 반도체 산업 협력 논의",
+      "summary": [
+        "경기 평택시가 시청을 방문한 독일 드레스덴시 대표단과 반도체 산업 협력 방안을 논의했다.",
+        "기사에는 구체적인 합의 내용이나 일정, 수치가 나오지 않았다.",
+        "지역 간 반도체 산업 교류가 논의 단계에 있음을 보여주는 사례다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체 산업 협력",
+        "지방자치단체 교류",
+        "평택",
+        "드레스덴"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-19T08:24:35Z",
+      "updated_at": "2026-11-19T08:24:35Z",
+      "articles": [
+        {
+          "key": "61967def47546617",
+          "title": "평택시, 독일 드레스덴시와 반도체 산업 협력방안 논의",
+          "url": "https://www.yna.co.kr/view/AKR20261119153000061",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-19T08:24:35Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261119-1353",
+      "headline": "미국 반도체 규제 강화, 퀄컴·미디어텍 수혜 전망",
+      "summary": [
+        "미국이 반도체 규제를 강화할 것이라는 보도가 나왔다.",
+        "기사 본문이 없어 구체적 규제 내용과 일정은 확인되지 않는다.",
+        "규제가 현실화되면 퀄컴과 미디어텍이 상대적 수혜를 볼 수 있다는 분석이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출규제",
+        "미국 반도체 규제",
+        "퀄컴",
+        "미디어텍"
+      ],
+      "companies": [
+        "퀄컴",
+        "미디어텍"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T08:20:00Z",
+      "updated_at": "2026-11-19T08:20:00Z",
+      "articles": [
+        {
+          "key": "dee67f3e1302d848",
+          "title": "Tighter US chip rules set to favor Qualcomm and MediaTek",
+          "url": "https://www.digitimes.com/news/a20261119PD222/mediatek-qualcomm-chips-automotive-technology.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-19T08:20:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261119-1352",
+      "headline": "PVTW 기반 실리콘 마진 특성화로 합불 너머 한계 파악",
+      "summary": [
+        "테스트 업계가 합격·불합격 판정을 넘어 실리콘 동작 마진을 특성화하는 방법을 제시했다.",
+        "동일 조건에서 합격 칩들의 최소 동작 전압이 0.70~0.79V로 달라, 마진 차이를 드러낸다.",
+        "PVTW 프레임으로 워크로드별 전압·주파수 한계를 비교해 제품 마진을 갉아먹는 요인을 찾는다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "실리콘 마진",
+        "PVTW",
+        "특성화 테스트",
+        "ATE",
+        "전압 한계"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T08:06:18Z",
+      "updated_at": "2026-11-19T08:06:18Z",
+      "articles": [
+        {
+          "key": "1b690eec9ed6ef1a",
+          "title": "Beyond Pass/Fail: Characterizing Silicon Margin With PVTW",
+          "url": "https://semiengineering.com/beyond-pass-fail-characterizing-silicon-margin-with-pvtw/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-19T08:06:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261119-1351",
+      "headline": "AI 가속기 전력 공급망, 수직형 PDN으로 재설계 확산",
+      "summary": [
+        "AI 가속기와 GPU는 낮은 전압에서 수천 암페어의 전류를 소비하며 전력 전달망 구조가 바뀌고 있다. 600W GPU는 약 0.7V에서 1,000A 이상의 전류가 필요하다고 기사는 전한다.",
+        "전압 레귤레이터 모듈을 기판 아래, 패키지 내부, 실리콘 인터포저 등 칩 가까이로 옮기는 수직형 전력 공급 구조가 여러 방식으로 검토되고 있다.",
+        "전력 공급은 성능을 제한하는 요인이 되어 시스템 수준의 공동 설계와 시뮬레이션, OSAT의 역할이 커지고 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "수직형 PDN",
+        "전력 공급망",
+        "AI 가속기",
+        "백사이드 파워 딜리버리",
+        "칩렛"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T08:05:17Z",
+      "updated_at": "2026-11-19T08:05:17Z",
+      "articles": [
+        {
+          "key": "ede1365725df43bc",
+          "title": "AI Accelerators Drive Changes In Power Delivery Networks",
+          "url": "https://semiengineering.com/ai-accelerators-drive-changes-in-power-delivery-networks/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-19T08:05:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261119-1350",
+      "headline": "가상 트윈과 머신러닝으로 DRAM 수율 systemic 불량 원인 찾기",
+      "summary": [
+        "DRAM 공정이 복잡해지면서 공정 모듈 간 상호작용에서 비롯된 체계적 불량이 수율 램프업의 주요 손실원으로 떠올랐다.",
+        "기존 웨이퍼 실험과 통계 분석은 느리고 비용이 많이 들어, 가상 제조 모델과 ML 최적화를 결합한 접근이 제시됐다.",
+        "이 방식은 여러 불량 기전과 공정 변경을 동시에 평가해 수율 개선 효과를 적은 실험으로 검토할 수 있게 해준다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "DRAM",
+        "수율 램프업",
+        "가상 트윈",
+        "머신러닝 최적화",
+        "체계적 불량"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T08:03:18Z",
+      "updated_at": "2026-11-19T08:03:18Z",
+      "articles": [
+        {
+          "key": "0c0dca2c07716bef",
+          "title": "How Virtual Twins And Machine Learning Optimize DRAM Yield",
+          "url": "https://semiengineering.com/how-virtual-twins-and-machine-learning-optimize-dram-yield/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-19T08:03:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261119-1349",
+      "headline": "인텔 파운드리, SEMICON West 2026서 AI 팹 자율화 비전 제시",
+      "summary": [
+        "인텔 파운드리는 SEMICON West 2026에서 발표 14건을 통해 수율·품질 향상 방안을 공유했다.",
+        "계측 기술을 수율 관리의 제어 계층으로 확장하고, 측정 신뢰성과 상호운용 플랫폼 구축을 강조했다.",
+        "공정 간 숨은 상호작용을 조기에 잡아내는 것이 팹 자율화와 원가 절감에 중요하다는 점을 시사한다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "계측",
+        "수율 관리",
+        "팹 자율화",
+        "어드밴스드 패키징",
+        "SEMICON West 2026"
+      ],
+      "companies": [
+        "인텔"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T08:02:31Z",
+      "updated_at": "2026-11-19T08:02:31Z",
+      "articles": [
+        {
+          "key": "7528ef77d972ab04",
+          "title": "From Metrology To Autonomy: Scaling Yield, Quality, And Innovation",
+          "url": "https://semiengineering.com/from-metrology-to-autonomy-scaling-yield-quality-and-innovation/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-19T08:02:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261119-1348",
+      "headline": "AI 수요에 힘입은 실리콘 웨이퍼 출하 회복 전망",
+      "summary": [
+        "SEMI는 2026년 실리콘 웨이퍼 출하량이 11.8% 증가할 것으로 전망했다.",
+        "AI 수요와 공정 소재 판매 증가, 메모리 수요 확대가 회복을 이끄는 요인으로 꼽혔다.",
+        "과거 메모리 WIP 정점과 출하 시차 패턴을 감안해도 신규 라인 증가가 이번 사이클의 특징이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "실리콘 웨이퍼",
+        "AI 수요",
+        "메모리 WIP",
+        "공정 소재",
+        "신규 생산라인"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "마이크론"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T08:01:54Z",
+      "updated_at": "2026-11-19T08:01:54Z",
+      "articles": [
+        {
+          "key": "8b34dcf85d92671c",
+          "title": "What Is Driving Silicon Wafer Demand Recovery?",
+          "url": "https://semiengineering.com/what-is-driving-silicon-wafer-demand-recovery/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-19T08:01:54Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261119-1347",
+      "headline": "플라즈마 챔버 시뮬레이션으로 반도체 식각 공정 예측",
+      "summary": [
+        "Silvaco의 VSim Plasma는 입자-인-셀과 몬테카를로 충돌 모델로 플라즈마 챔버를 시뮬레이션한다.",
+        "유도결합 플라즈마 측정값과 비교해 전자 온도와 플라즈마 전위가 잘 맞는 것으로 검증됐다.",
+        "이 결과를 Victory Process에 연결해 식각 공정의 형상 변화와 공정 편차를 예측하는 데 활용할 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "플라즈마 시뮬레이션",
+        "식각 공정",
+        "입자-인-셀",
+        "공정 예측",
+        "VSim Plasma"
+      ],
+      "companies": [
+        "Silvaco"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T08:01:39Z",
+      "updated_at": "2026-11-19T08:01:39Z",
+      "articles": [
+        {
+          "key": "f52bbde7f999a36a",
+          "title": "Simulation of Plasma Chambers for Predictive Simulation of Semiconductor Manufacturing",
+          "url": "https://semiengineering.com/simulation-of-plasma-chambers-for-predictive-simulation-of-semiconductor-manufacturing/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-19T08:01:39Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261119-1346",
+      "headline": "CPO·NPO 광섬유 연결, 분리형 커넥터 표준화 과제",
+      "summary": [
+        "CPO·NPO 방식에서 광섬유를 칩 패키지에 연결하는 분리형 커넥터 설계가 여러 가지 나오고 있다.",
+        "현재 공통 인터페이스는 없으며 표준화 논의도 아직 시작되지 않았다고 전해졌다.",
+        "레이저를 보드 내부로 옮기면 전력과 지연을 줄일 수 있어 AI 데이터센터 광통신에 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "CPO",
+        "NPO",
+        "분리형 커넥터",
+        "광섬유",
+        "AI 데이터센터"
+      ],
+      "companies": [
+        "미쓰비시케미컬"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T08:01:36Z",
+      "updated_at": "2026-11-19T08:01:36Z",
+      "articles": [
+        {
+          "key": "39bd813db41b2035",
+          "title": "Detachable Fiber Connectors Pose New Challenges For Photonics",
+          "url": "https://semiengineering.com/detachable-fiber-connectors-pose-new-challenges-for-photonics/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-19T08:01:36Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261119-1345",
+      "headline": "인텔, 18A-P 파운드리 첫 고객 확보",
+      "summary": [
+        "인텔이 18A-P 파운드리 공정의 첫 고객을 확보했다는 소식이 전해졌다.",
+        "다만 기사 본문에는 고객사 이름, 계약 규모, 일정 등 구체적 내용이 제시되지 않았다.",
+        "파운드리 수주 성과로서 인텔의 외부 고객 유치 흐름을 가늠할 신호로 볼 수 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "18A-P",
+        "파운드리",
+        "공정 고객 확보"
+      ],
+      "companies": [
+        "인텔"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "인텔"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T07:45:00Z",
+      "updated_at": "2026-11-19T07:45:00Z",
+      "articles": [
+        {
+          "key": "86fd3fec447d8c13",
+          "title": "Intel lands first customer for 18A-P foundry process",
+          "url": "https://www.digitimes.com/news/a20261119VL222/intel-manufacturing-business-technology-design.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-19T07:45:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261119-1344",
+      "headline": "후루카와전공, LG화학 DDF 특허침해 소송 제기",
+      "summary": [
+        "일본 후루카와전공이 LG화학의 DDF가 자사 웨이퍼 가공용 테이프 특허를 침해했다며 제조·판매 금지를 청구했다.",
+        "후루카와전공은 지난달 30일 서울중앙지방법원에 소송을 냈으며, 이를 19일 공개했다.",
+        "DDF는 다이싱 테이프와 다이 어태치 필름을 합친 패키징 소재로, 이번 소송이 관련 시장에 영향을 줄 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "DDF",
+        "다이싱 다이본딩 필름",
+        "특허침해",
+        "반도체 패키징",
+        "다이 어태치 필름"
+      ],
+      "companies": [
+        "후루카와전공",
+        "LG화학"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "후루카와전공",
+        "LG화학"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-19T07:43:01Z",
+      "updated_at": "2026-11-19T07:43:01Z",
+      "articles": [
+        {
+          "key": "2d203a78ce507597",
+          "title": "일본 후루카와전공, LG화학에 DDF 특허침해 소송 제기",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65674",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-19T07:43:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261119-1342",
+      "headline": "LG이노텍, 2027년 정기 임원인사 단행…기판 인재 전진 배치",
+      "summary": [
+        "LG이노텍이 19일 이사회에서 부사장 1명, 전무 1명, 상무 7명 등 총 9명의 2027년 정기 임원인사를 단행했다.",
+        "패키지솔루션 사업부장 조지태 씨가 부사장으로 승진했고, 신규 상무 7명 중 4명은 연구개발 분야에서 발탁됐다.",
+        "반도체 기판과 피지컬 AI 등 차세대 사업을 육성하려는 기술 전문성 중심의 인사로, 성과주의 기조가 드러난다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "정기 임원인사",
+        "반도체 기판",
+        "피지컬 AI",
+        "R&D 인재"
+      ],
+      "companies": [
+        "LG이노텍"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "LG이노텍"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-19T07:35:31Z",
+      "updated_at": "2026-11-19T07:42:25Z",
+      "articles": [
+        {
+          "key": "69535b5dc78c9454",
+          "title": "LG이노텍, 2027년 임원인사 단행…반도체 기판·피지컬 AI 인재 전진 배치",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=410036",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-19T07:35:31Z"
+        },
+        {
+          "key": "766590e0d7ae42cc",
+          "title": "LG이노텍, 조지태 부사장 승진",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65673",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-19T07:42:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261119-1341",
       "headline": "LG전자 MS사업본부장 교체, 이상우·백승태 사장 승진",
