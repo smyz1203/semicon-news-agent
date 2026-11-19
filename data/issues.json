@@ -1,7 +1,310 @@
 {
   "version": 1,
-  "updated_at": "2026-11-19T04:12:43Z",
+  "updated_at": "2026-11-19T05:21:23Z",
   "issues": [
+    {
+      "id": "c20261119-1338",
+      "headline": "유브라이트, 반도체·수동부품·스마트 음향으로 성장 모색",
+      "summary": [
+        "유브라이트가 반도체, 수동부품, 스마트 음향 사업으로의 성장을 추진하고 있다고 DigiTimes Asia가 보도했다.",
+        "다만 기사 본문은 사진 출처 표기뿐이어서 구체적인 투자 규모나 일정은 확인되지 않는다.",
+        "부품 사업 다각화 방향이 제시됐지만 실제 추진 내용은 추가 확인이 필요하다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "수동부품",
+        "스마트 음향",
+        "반도체 부품",
+        "사업 다각화"
+      ],
+      "companies": [
+        "유브라이트"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T04:29:32Z",
+      "updated_at": "2026-11-19T04:29:32Z",
+      "articles": [
+        {
+          "key": "7d5f58d879dce61d",
+          "title": "UBright eyes semiconductor, passive components and smart acoustics growth",
+          "url": "https://www.digitimes.com/news/a20261119PD212/competition-passive-optical-film-market-technology.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-19T04:29:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261119-1337",
+      "headline": "",
+      "summary": [],
+      "category": "",
+      "tags": [],
+      "companies": [],
+      "event_type": "",
+      "confirmed": null,
+      "parties": [],
+      "importance": 0,
+      "importance_reason": "",
+      "status": "pending",
+      "needs_summary": true,
+      "attempts": 1,
+      "region": "ko",
+      "first_seen": "2026-11-19T04:24:14Z",
+      "updated_at": "2026-11-19T04:24:14Z",
+      "articles": [
+        {
+          "key": "25536259401fe240",
+          "title": "글로벌테크놀로지, '딥테크혁신' 중기부 장관표창",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65644",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-19T04:24:14Z"
+        }
+      ]
+    },
+    {
+      "id": "c20261119-1336",
+      "headline": "국내 메모리 팹리스 3분기 실적 급성장",
+      "summary": [
+        "피델릭스·파두·제주반도체 등 메모리 팹리스가 3분기 세자릿수 매출 증가율을 기록했다.",
+        "피델릭스는 3분기 매출 845억1800만원으로 전년 동기 대비 573.96% 증가했다.",
+        "AI 인프라 확산에 따른 메모리 수요 증가가 국내 팹리스 실적 개선의 배경으로 분석된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "메모리 팹리스",
+        "AI 인프라",
+        "3분기 실적",
+        "매출 증가율"
+      ],
+      "companies": [
+        "피델릭스",
+        "파두",
+        "제주반도체"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "피델릭스",
+        "파두",
+        "제주반도체"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-19T04:22:40Z",
+      "updated_at": "2026-11-19T04:22:40Z",
+      "articles": [
+        {
+          "key": "9c3a5638f4f59d07",
+          "title": "메모리 팹리스도 폭발적 실적 성장",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65646",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-19T04:22:40Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261119-1335",
+      "headline": "애플 OLED 아이맥 백지화 검토, 삼성디스플레이와 협의",
+      "summary": [
+        "애플이 아이맥에 OLED를 탑재하는 계획을 재검토하며 삼성디스플레이와 일정 연기나 백지화를 논의 중이다.",
+        "패널 가격 부담과 기존 OLED 탑재 제품의 판매 부진이 배경으로 거론되며 프로젝트 중단안도 검토 대상에 올랐다.",
+        "공식 결정은 아직 없으나, 디스플레이 업계에는 아이맥용 OLED 수요 불확실성이 커지는 신호로 해석된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "아이맥",
+        "패널 가격",
+        "일정 연기"
+      ],
+      "companies": [
+        "애플",
+        "삼성디스플레이"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "애플",
+        "삼성디스플레이"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성디스플레이) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-19T04:15:21Z",
+      "updated_at": "2026-11-19T04:15:21Z",
+      "articles": [
+        {
+          "key": "99791bbd0d56def3",
+          "title": "애플, 아이맥 OLED 탑재 백지화 검토",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65641",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-19T04:15:21Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261119-1334",
+      "headline": "엔비디아, 알리바바-앨리스 황 연결 의혹에 메가스피드 조사 확대",
+      "summary": [
+        "엔비디아가 미국 칩 규제 시행 전 알리바바와 앨리스 황을 연결한 역할이 도마에 올랐다.",
+        "기사에 제시된 정보는 제목과 사진 크레딧이 전부라 구체적 경위와 규모는 확인되지 않는다.",
+        "중국향 AI 칩 공급망과 수출 규제 준수 여부를 둘러싼 감독이 강화될 수 있어 업계 주시가 필요하다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출규제",
+        "AI반도체",
+        "메가스피드",
+        "엔비디아",
+        "중국 규제"
+      ],
+      "companies": [
+        "엔비디아",
+        "알리바바",
+        "메가스피드"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "엔비디아",
+        "알리바바",
+        "메가스피드"
+      ],
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T04:12:46Z",
+      "updated_at": "2026-11-19T04:12:46Z",
+      "articles": [
+        {
+          "key": "8f9c43af51362e39",
+          "title": "Nvidia's role in connecting Alibaba with Alice Huang ahead of US chip curbs deepens Megaspeed scrutiny",
+          "url": "https://www.digitimes.com/news/a20261119VL218/nvidia-alibaba-sales-technology-2022.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-19T04:12:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261119-1333",
+      "headline": "공급 차질로 4분기 서버 출하 하향 조정 전망",
+      "summary": [
+        "DigiTimes는 4분기 서버 출하 감소의 원인으로 선거나 엔비디아 CEO 교체가 아닌 공급 차질을 지목했다.",
+        "기사 본문은 크레딧 표시만 있어 구체적 출하량 수치와 세부 일정은 확인되지 않는다.",
+        "이는 AI 서버 공급망의 부품 수급 문제가 출하 흐름에 직접 영향을 줄 수 있음을 시사한다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "서버 출하",
+        "공급 차질",
+        "4분기 전망",
+        "AI 서버"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T04:12:38Z",
+      "updated_at": "2026-11-19T04:12:38Z",
+      "articles": [
+        {
+          "key": "f8ff80e351aae7c7",
+          "title": "DIGITIMES Insight: Supply snags, not election or Nvidia CEO exit, behind 4Q26 server shipment cut",
+          "url": "https://www.digitimes.com/news/a20261119PD219/digitimes-nvidia-server-shipments-ceo-supply.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-19T04:12:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261119-1332",
+      "headline": "구글, 브로드컴 우회해 HBM 직접 구매 추진",
+      "summary": [
+        "구글이 TPU 칩 생산에 필요한 HBM을 브로드컴을 거치지 않고 직접 구매하려는 움직임이 보도됐다.",
+        "기사 본문은 사진 캡션만 있어 구체적인 수량, 가격, 계약 일정은 확인되지 않는다.",
+        "공급망에서 주문 경로가 바뀌면 HBM 공급사와 AI 칩 설계사의 거래 구조에 영향을 줄 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "HBM",
+        "TPU",
+        "구글 TPU 8i",
+        "브로드컴",
+        "직접 구매"
+      ],
+      "companies": [
+        "구글",
+        "브로드컴"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "구글",
+        "브로드컴"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T04:01:06Z",
+      "updated_at": "2026-11-19T04:01:06Z",
+      "articles": [
+        {
+          "key": "227118b15ed5c8df",
+          "title": "Google looks to bypass Broadcom with direct HBM purchases",
+          "url": "https://www.digitimes.com/news/a20261119VL217/google-hbm-broadcom-mediatek-2027.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-19T04:01:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261119-1331",
       "headline": "SemiFive·PFN, HBM 대안으로 DRAM 로직 직접 적층 공개",
