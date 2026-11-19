@@ -1,21 +1,259 @@
 {
   "version": 1,
-  "updated_at": "2026-11-19T09:22:11Z",
+  "updated_at": "2026-11-19T11:14:03Z",
   "issues": [
     {
-      "id": "c20261119-1356",
-      "headline": "LG디스플레이, 파주 OLED 3조원 투자 철회",
+      "id": "c20261119-1359",
+      "headline": "OLED 적층 소재 공급망을 정리한 인터랙티브 시장 보고서 출시",
       "summary": [
-        "LG디스플레이가 파주 P10 공장 10.5세대 OLED 생산시설에 대한 3조원 규모 신규 투자를 철회했다.",
-        "19일 공시를 통해 결정이 공개됐으며, 2019년 이후 추진해온 투자 계획을 7년 만에 접은 것이다.",
-        "국내 OLED 생산능력 확대 계획이 멈추면서 중소형·대형 패널 투자 전략 재편이 주목된다."
+        "OLED-Info가 OLED 증착 적층 소재 시장 보고서 'OLED-Info Pro'를 출시했다고 밝혔다.",
+        "보고서는 정공주입층, 발광층, 전자수송층, 전하생성층, 캡핑층 등 전 적층 구조별 제조사와 고객사를 다룬다.",
+        "패널 업체별 소재 공급 관계는 잘 공개되지 않아, 이번 자료는 디스플레이 소재 공급망 파악에 참고가 된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "증착 소재",
+        "적층 구조",
+        "탠덤 OLED",
+        "시장 보고서"
+      ],
+      "companies": [
+        "OLED-Info"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "OLED-Info"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-19T10:57:52Z",
+      "updated_at": "2026-11-19T10:57:52Z",
+      "articles": [
+        {
+          "key": "5fa62f4ad5321635",
+          "title": "New on OLED-Info Pro: an interactive OLED stack materials report, with a build-your-own market forecast",
+          "url": "https://www.oled-info.com/oled-stack-materials-makers-customers-and-market-scenarios-interactive-data",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-19T10:57:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261119-1335",
+      "headline": "애플, OLED 아이맥 도입 연기 또는 취소 검토",
+      "summary": [
+        "애플이 아이맥 올인원 PC에 OLED 디스플레이를 탑재하는 계획을 재검토하고 있다는 보도가 나왔다.",
+        "삼성디스플레이와 개발 일정 조정을 논의 중이며, 프로젝트 연기 또는 전면 취소가 거론된다.",
+        "패널 원가 부담과 OLED iPad Pro의 판매 부진이 배경으로 꼽혀, 디스플레이 업계에 영향이 예상된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "아이맥",
+        "탠덤 OLED",
+        "패널 원가",
+        "iPad Pro"
+      ],
+      "companies": [
+        "애플",
+        "삼성디스플레이"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "애플",
+        "삼성디스플레이"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성디스플레이) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-19T04:15:21Z",
+      "updated_at": "2026-11-19T10:53:52Z",
+      "articles": [
+        {
+          "key": "99791bbd0d56def3",
+          "title": "애플, 아이맥 OLED 탑재 백지화 검토",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65641",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-19T04:15:21Z"
+        },
+        {
+          "key": "b41a71f8d616e35e",
+          "title": "Reports suggest Apple is reconsidering its OLED iMac plans, and may delay or even cancel the project",
+          "url": "https://www.oled-info.com/reports-suggest-apple-reconsidering-its-oled-imac-plans-and-may-delay-or-even",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-19T10:53:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261117-1233",
+      "headline": "엔비디아 3분기 매출 1158억 달러, 두 배 성장",
+      "summary": [
+        "엔비디아가 3분기 매출 1158억 달러를 발표했으며 전년 같은 기간의 두 배를 넘어섰다.",
+        "클라우드 업체와 빅테크들이 AI 프로세서를 강한 속도로 계속 사들인 것이 실적을 이끌었다.",
+        "AI 반도체 수요가 여전히 견조하다는 점을 보여주며 업계 전반의 투자 흐름에 긍정적 신호를 준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI반도체",
+        "분기 실적",
+        "클라우드 수요",
+        "엔비디아 실적"
+      ],
+      "companies": [
+        "엔비디아",
+        "TSMC"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 매체 6곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-17T21:35:34Z",
+      "updated_at": "2026-11-19T10:26:18Z",
+      "articles": [
+        {
+          "key": "a19f1cf4b460c86e",
+          "title": "젠슨 황 없는 엔비디아, 3분기 깜짝실적…매출 103% 증가",
+          "url": "https://www.dt.co.kr/article/12095812",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-17T21:35:34Z"
+        },
+        {
+          "key": "4ef0f06cb8a876c3",
+          "title": "'젠슨 황 없는' 엔비디아, 3분기 영업익 104조원…전년比 115%↑",
+          "url": "https://www.inews24.com/view/2027413",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:13:14Z"
+        },
+        {
+          "key": "b18f18f011cea7cb",
+          "title": "엔비디아, 3분기 영업이익 104조... 전년比 두 배 증가",
+          "url": "https://zdnet.co.kr/view/?no=20261118083047",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-17T23:40:14Z"
+        },
+        {
+          "key": "2e9779d979aab221",
+          "title": "Nvidia doubles revenue mid-transition, but its outlook signals the cost of the new ramp",
+          "url": "https://www.digitimes.com/news/a20261118VL200/nvidia-demand-rubin-infrastructure-revenue.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-17T23:56:43Z"
+        },
+        {
+          "key": "da8133be2ac7ac8f",
+          "title": "젠슨 황 공백 없었다…엔비디아 3분기 매출 시장 전망 상회",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65581",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-18T01:53:10Z"
+        },
+        {
+          "key": "c3631e8cf0e1dc11",
+          "title": "Nvidia Reports $115.8B in Quarterly Revenue Under Interim CEO",
+          "url": "https://www.eetimes.com/nvidia-reports-115-8b-in-quarterly-revenue-under-interim-ceo/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-19T10:26:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261118-1301",
+      "headline": "삼성전자 사장단 인사 임박, 메모리·모바일 리더십 재편 주목",
+      "summary": [
+        "삼성전자가 이르면 20일 정기 사장단 인사를 단행할 예정이다.",
+        "전영현 DS부문장과 노태문 DX부문장의 투톱 체제는 유지되고 겸임 중인 메모리·MX 사업부 책임자 조정이 거론된다.",
+        "반도체와 모바일 사업의 리더십 보강 여부가 조직 방향을 가늠할 변수다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "사장단 인사",
+        "투톱 체제",
+        "메모리 리더십",
+        "모바일경험",
+        "조직 개편"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-18T21:01:00Z",
+      "updated_at": "2026-11-19T09:49:22Z",
+      "articles": [
+        {
+          "key": "30a003337b7b1518",
+          "title": "삼성전자 사장단 인사 임박…메모리·스마트폰 리더십 보강할듯",
+          "url": "https://www.yna.co.kr/view/AKR20261118094300003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-18T21:01:00Z"
+        },
+        {
+          "key": "aed3711c9ed80973",
+          "title": "삼성도 이르면 오늘 사장단 인사… 투톱 유지 속 메모리·모바일 리더십 주목",
+          "url": "https://www.dt.co.kr/article/12096267",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-19T09:49:22Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261119-1356",
+      "headline": "LG디스플레이, 파주 10.5세대 OLED 3조 투자 철회",
+      "summary": [
+        "LG디스플레이가 파주 P10 공장 10.5세대 OLED 생산라인 3조원 투자 계획을 철회했다고 19일 공시했다.",
+        "2019년 투자를 결정한 지 7년 만이며, 당초 투자 종료 시점은 2028년 3월이었다.",
+        "대외 여건 악화와 OLED TV 시장 성장 둔화가 겹치며 대형 OLED 투자 부담이 커졌다는 의미를 갖는다."
       ],
       "category": "디스플레이",
       "tags": [
         "10.5세대 OLED",
         "파주 P10",
         "설비 투자 철회",
-        "OLED 생산능력"
+        "OLED TV"
       ],
       "companies": [
         "LG디스플레이"
@@ -25,14 +263,14 @@
       "parties": [
         "LG디스플레이"
       ],
-      "importance": 4,
-      "importance_reason": "설비 투자 3점, 관심 기업(LG디스플레이) +1 → 4점",
+      "importance": 5,
+      "importance_reason": "설비 투자 3점, 관심 기업(LG디스플레이) +1, 매체 3곳 보도 +1 → 5점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
       "first_seen": "2026-11-19T08:38:01Z",
-      "updated_at": "2026-11-19T09:07:50Z",
+      "updated_at": "2026-11-19T09:33:41Z",
       "articles": [
         {
           "key": "b2317b9f0c4ba8ae",
@@ -49,10 +287,94 @@
           "source": "아이뉴스24",
           "lang": "ko",
           "published_at": "2026-11-19T09:07:50Z"
+        },
+        {
+          "key": "2df5c5b2140be706",
+          "title": "LG디스플레이, 파주 10.5세대 OLED 3조 투자 철회",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65689",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-19T09:33:41Z"
         }
       ],
       "type_checked": true,
-      "importance_raw": 4
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261119-1343",
+      "headline": "LG디스플레이 사업부 2개로 재편, 정철동 사장 유임",
+      "summary": [
+        "LG디스플레이가 대형과 중형 사업부를 통합해 중대형·소형 2개 사업부 체제로 조직을 개편했다.",
+        "이번 인사에서 6명이 전무로 승진하고 11명이 상무로 신규 선임됐으며 정철동 사장은 대표이사를 유지한다.",
+        "중형 제품의 OLED 전환을 뒷받침하고 의사결정 속도를 높이려는 조치로, 디스플레이 사업 체질 개편으로 읽힌다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED 전환",
+        "사업부 통합",
+        "정기 임원인사",
+        "중형 OLED"
+      ],
+      "companies": [
+        "LG디스플레이"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이"
+      ],
+      "importance": 5,
+      "importance_reason": "경영진 교체 3점, 관심 기업(LG디스플레이) +1, 매체 3곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-19T07:37:03Z",
+      "updated_at": "2026-11-19T09:32:16Z",
+      "articles": [
+        {
+          "key": "7dc1a6863cf4add9",
+          "title": "[인사] LG디스플레이",
+          "url": "https://www.yna.co.kr/view/AKR20261119140700003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-19T07:37:03Z"
+        },
+        {
+          "key": "2911f98b147e5754",
+          "title": "[인사] LG디스플레이",
+          "url": "https://www.inews24.com/view/2028324",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-19T07:45:33Z"
+        },
+        {
+          "key": "287c3d6726601358",
+          "title": "LG디스플레이, 전무 6명·상무 11명 승진…사업부 2개로 재편",
+          "url": "https://www.yna.co.kr/view/AKR20261119143900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-19T07:50:07Z"
+        },
+        {
+          "key": "1dcb47bd334ae770",
+          "title": "LG디스플레이, 정철동 사장 유임…전무 6명 승진·사업부 2개 재편",
+          "url": "https://www.inews24.com/view/2028346",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-19T08:26:07Z"
+        },
+        {
+          "key": "ff1354a0a4ccc079",
+          "title": "LG디스플레이, 대형과 중형 사업부 통합…정철동 사장 유임",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65660",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-19T09:32:16Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
     },
     {
       "id": "c20261119-1358",
@@ -185,75 +507,6 @@
       "importance_raw": 1
     },
     {
-      "id": "c20261119-1343",
-      "headline": "LG디스플레이 정기 임원 인사, 사업부 2개로 재편",
-      "summary": [
-        "LG디스플레이가 정철동 사장을 유임하고 전무 6명, 상무 11명을 승진·선임하는 정기 임원 인사를 발표했다.",
-        "기존 3개 사업부를 2개로 재편하며 이사회 승인을 거쳤다.",
-        "중형 OLED 전환을 추진하고 기술 중심 경쟁력을 강화하려는 조직 개편 방향이 드러났다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "정기 임원 인사",
-        "사업부 재편",
-        "중형 OLED",
-        "정철동"
-      ],
-      "companies": [
-        "LG디스플레이",
-        "LG전자"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "LG디스플레이"
-      ],
-      "importance": 4,
-      "importance_reason": "경영진 교체 3점, 관심 기업(LG디스플레이) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-19T07:37:03Z",
-      "updated_at": "2026-11-19T08:26:07Z",
-      "articles": [
-        {
-          "key": "7dc1a6863cf4add9",
-          "title": "[인사] LG디스플레이",
-          "url": "https://www.yna.co.kr/view/AKR20261119140700003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-19T07:37:03Z"
-        },
-        {
-          "key": "2911f98b147e5754",
-          "title": "[인사] LG디스플레이",
-          "url": "https://www.inews24.com/view/2028324",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-19T07:45:33Z"
-        },
-        {
-          "key": "287c3d6726601358",
-          "title": "LG디스플레이, 전무 6명·상무 11명 승진…사업부 2개로 재편",
-          "url": "https://www.yna.co.kr/view/AKR20261119143900003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-19T07:50:07Z"
-        },
-        {
-          "key": "1dcb47bd334ae770",
-          "title": "LG디스플레이, 정철동 사장 유임…전무 6명 승진·사업부 2개 재편",
-          "url": "https://www.inews24.com/view/2028346",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-19T08:26:07Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
-    },
-    {
       "id": "c20261119-1354",
       "headline": "평택시, 독일 드레스덴과 반도체 산업 협력 논의",
       "summary": [
@@ -335,6 +588,58 @@
       ],
       "type_checked": true,
       "importance_raw": 1
+    },
+    {
+      "id": "c20261119-1341",
+      "headline": "LG전자 이상우 MS사업본부장 사장 승진, 디스플레이 겸직",
+      "summary": [
+        "LG전자가 2027년 정기 임원인사에서 이상우 MS사업본부장 부사장을 사장으로 승진시켰다.",
+        "이 신임 사장은 1996년 LG정보통신 입사 후 TV·신사업·경영전략 보직을 거쳤고, 2027년 1월 사장으로 승진한다.",
+        "경영진 교체로 LG전자 MS사업본부와 디스플레이사업부 리더십 변화가 예상된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "정기 임원인사",
+        "MS사업본부",
+        "디스플레이사업부",
+        "경영진 교체"
+      ],
+      "companies": [
+        "LG전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "LG전자"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 관심 기업(LG전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-19T07:26:01Z",
+      "updated_at": "2026-11-19T08:16:20Z",
+      "articles": [
+        {
+          "key": "45f29d11543d10b4",
+          "title": "LG전자, 이상우·백승태 사장 승진",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65671",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-19T07:26:01Z"
+        },
+        {
+          "key": "c61081bd5c566c60",
+          "title": "[프로필] 이상우 LG전자 MS사업본부장 겸 디스플레이사업부장 사장",
+          "url": "https://zdnet.co.kr/view/?no=20261119171620",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-19T08:16:20Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
     },
     {
       "id": "c20261119-1352",
@@ -778,50 +1083,6 @@
       "importance_raw": 3
     },
     {
-      "id": "c20261119-1341",
-      "headline": "LG전자 MS사업본부장 교체, 이상우·백승태 사장 승진",
-      "summary": [
-        "LG전자가 2027년 임원인사와 조직개편을 승인받아 발표했으며, 임원인사는 내년 1월 1일부터 적용된다.",
-        "이상우 경영전략부문장이 MS사업본부장 겸 디스플레이사업부장을 맡아 사장으로 승진했고, 백승태 HS사업본부장도 사장이 됐다.",
-        "TV·미디어 사업과 디스플레이 사업을 맡는 수장이 바뀌어 사업 방향 재편이 예상된다는 점에서 의미가 있다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "임원인사",
-        "조직개편",
-        "MS사업본부",
-        "디스플레이사업부"
-      ],
-      "companies": [
-        "LG전자"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "LG전자"
-      ],
-      "importance": 4,
-      "importance_reason": "경영진 교체 3점, 관심 기업(LG전자) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-19T07:26:01Z",
-      "updated_at": "2026-11-19T07:26:01Z",
-      "articles": [
-        {
-          "key": "45f29d11543d10b4",
-          "title": "LG전자, 이상우·백승태 사장 승진",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65671",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-19T07:26:01Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
-    },
-    {
       "id": "c20261119-1340",
       "headline": "2027년 낸드플래시 가격 하락 전망, 중국 CSP 발주 축소 영향",
       "summary": [
@@ -1095,52 +1356,6 @@
           "source": "디일렉",
           "lang": "ko",
           "published_at": "2026-11-19T04:22:40Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261119-1335",
-      "headline": "애플 OLED 아이맥 백지화 검토, 삼성디스플레이와 협의",
-      "summary": [
-        "애플이 아이맥에 OLED를 탑재하는 계획을 재검토하며 삼성디스플레이와 일정 연기나 백지화를 논의 중이다.",
-        "패널 가격 부담과 기존 OLED 탑재 제품의 판매 부진이 배경으로 거론되며 프로젝트 중단안도 검토 대상에 올랐다.",
-        "공식 결정은 아직 없으나, 디스플레이 업계에는 아이맥용 OLED 수요 불확실성이 커지는 신호로 해석된다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "OLED",
-        "아이맥",
-        "패널 가격",
-        "일정 연기"
-      ],
-      "companies": [
-        "애플",
-        "삼성디스플레이"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": false,
-      "parties": [
-        "애플",
-        "삼성디스플레이"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점, 관심 기업(삼성디스플레이) +1, 미확정 -1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-19T04:15:21Z",
-      "updated_at": "2026-11-19T04:15:21Z",
-      "articles": [
-        {
-          "key": "99791bbd0d56def3",
-          "title": "애플, 아이맥 OLED 탑재 백지화 검토",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65641",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-19T04:15:21Z"
         }
       ],
       "type_checked": true,
@@ -2845,50 +3060,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261118-1301",
-      "headline": "삼성전자 사장단 인사 임박, 메모리·모바일 리더십 보강 전망",
-      "summary": [
-        "삼성전자가 이르면 이번 주 사장단 인사를 단행할 것으로 알려졌다.",
-        "기사에는 인사 규모나 구체적 인물 정보가 나와 있지 않아 세부 내용은 확인되지 않는다.",
-        "메모리와 스마트폰 사업의 리더십이 강화되면 주요 사업 방향에 변화가 있을 수 있다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "사장단 인사",
-        "메모리",
-        "스마트폰",
-        "리더십"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": false,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 3,
-      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-18T21:01:00Z",
-      "updated_at": "2026-11-18T21:01:00Z",
-      "articles": [
-        {
-          "key": "30a003337b7b1518",
-          "title": "삼성전자 사장단 인사 임박…메모리·스마트폰 리더십 보강할듯",
-          "url": "https://www.yna.co.kr/view/AKR20261118094300003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-18T21:01:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261116-1121",
@@ -5426,83 +5597,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261117-1233",
-      "headline": "젠슨 황 사임에도 엔비디아 3분기 실적 시장 예상 상회",
-      "summary": [
-        "엔비디아가 2027회계연도 3분기 실적을 발표해 GAAP 매출 1158억달러를 기록했다고 밝혔다.",
-        "전년 동기 대비 매출은 103%, 영업이익은 115% 늘었고 희석 EPS는 GAAP 기준 2.70달러였다.",
-        "CEO 공백 속에서도 실적이 시장과 회사 자체 예상치를 모두 웃돌아 AI 반도체 수요의 견조함을 보여준다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "3분기 실적",
-        "GAAP 매출",
-        "영업이익",
-        "AI 반도체",
-        "CEO 사임"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 4,
-      "importance_reason": "실적 3점, 매체 5곳 보도 +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-17T21:35:34Z",
-      "updated_at": "2026-11-18T01:53:10Z",
-      "articles": [
-        {
-          "key": "a19f1cf4b460c86e",
-          "title": "젠슨 황 없는 엔비디아, 3분기 깜짝실적…매출 103% 증가",
-          "url": "https://www.dt.co.kr/article/12095812",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-17T21:35:34Z"
-        },
-        {
-          "key": "4ef0f06cb8a876c3",
-          "title": "'젠슨 황 없는' 엔비디아, 3분기 영업익 104조원…전년比 115%↑",
-          "url": "https://www.inews24.com/view/2027413",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-17T23:13:14Z"
-        },
-        {
-          "key": "b18f18f011cea7cb",
-          "title": "엔비디아, 3분기 영업이익 104조... 전년比 두 배 증가",
-          "url": "https://zdnet.co.kr/view/?no=20261118083047",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-17T23:40:14Z"
-        },
-        {
-          "key": "2e9779d979aab221",
-          "title": "Nvidia doubles revenue mid-transition, but its outlook signals the cost of the new ramp",
-          "url": "https://www.digitimes.com/news/a20261118VL200/nvidia-demand-rubin-infrastructure-revenue.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-17T23:56:43Z"
-        },
-        {
-          "key": "da8133be2ac7ac8f",
-          "title": "젠슨 황 공백 없었다…엔비디아 3분기 매출 시장 전망 상회",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65581",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-18T01:53:10Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
     },
     {
       "id": "c20261118-1251",
