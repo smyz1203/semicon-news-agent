@@ -1,7 +1,55 @@
 {
   "version": 1,
-  "updated_at": "2026-11-20T21:10:03Z",
+  "updated_at": "2026-11-20T22:01:45Z",
   "issues": [
+    {
+      "id": "c20261120-1423",
+      "headline": "존 포사이스 서클로직 CEO, 미국 반도체협회 회장 선출",
+      "summary": [
+        "미국 반도체협회(SIA) 이사회가 서클로직 존 포사이스 CEO를 신임 회장으로 선출했고 글로벌파운드리스 톰 콜필드가 부회장에 뽑혔다.",
+        "리사 수 AMD 회장은 2026년 회장직을 마치고 이사회와 리더십위원회에 계속 남는다.",
+        "SIA는 업계 역할을 강조하며 AIM 투자세액공제 연장과 협회 50주년을 앞둔 정책 대응에 힘을 싣게 됐다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "미국 반도체협회",
+        "AIM 투자세액공제",
+        "반도체 정책",
+        "협회 리더십"
+      ],
+      "companies": [
+        "서클로직",
+        "글로벌파운드리스",
+        "AMD"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "서클로직",
+        "글로벌파운드리스",
+        "AMD"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-20T21:13:42Z",
+      "updated_at": "2026-11-20T21:13:42Z",
+      "articles": [
+        {
+          "key": "cb2ff7324d087c89",
+          "title": "John Forsyth, Cirrus Logic President and CEO, Elected Chair of Semiconductor Industry Association",
+          "url": "https://www.semiconductor-digest.com/john-forsyth-cirrus-logic-president-and-ceo-elected-chair-of-semiconductor-industry-association/?utm_source=rss&utm_medium=rss&utm_campaign=john-forsyth-cirrus-logic-president-and-ceo-elected-chair-of-semiconductor-industry-association",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-20T21:13:42Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261120-1422",
       "headline": "TCL CSOT, 8.6세대 초고이동도 산화물 TFT 양산 세계 최초 달성",
