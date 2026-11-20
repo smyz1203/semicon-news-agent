@@ -1,7 +1,57 @@
 {
   "version": 1,
-  "updated_at": "2026-11-20T19:16:11Z",
+  "updated_at": "2026-11-20T20:15:35Z",
   "issues": [
+    {
+      "id": "c20261120-1420",
+      "headline": "오킨스전자, 케미텍 검사장비 커넥터 특허 무효심판 청구",
+      "summary": [
+        "오킨스전자가 케미텍의 커넥터 특허 2건에 대해 특허심판원에 무효심판을 청구했다.",
+        "330 특허 청구항 1항에 대해서는 침해하지 않았다는 소극적 권리범위확인심판도 함께 제기했다.",
+        "반도체 검사장비 내부 연결 부품 특허를 둘러싼 분쟁으로, 특허 리스크 대응 성격이 짙다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "검사장비 커넥터",
+        "특허 무효심판",
+        "소극적 권리범위확인심판",
+        "번인 소켓",
+        "프로브핀"
+      ],
+      "companies": [
+        "오킨스전자",
+        "케미텍",
+        "삼성전자",
+        "SK하이닉스",
+        "마이크론"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "오킨스전자",
+        "케미텍"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T15:38:23Z",
+      "updated_at": "2026-11-20T15:38:23Z",
+      "articles": [
+        {
+          "key": "2b3140bbe3d8f883",
+          "title": "오킨스전자, 케미텍 반도체 검사장비 커넥터 특허 2건 무효심판 청구",
+          "url": "https://zdnet.co.kr/view/?no=20261121002518",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-20T15:38:23Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261119-1356",
       "headline": "LG디스플레이, 파주 10.5세대 OLED 투자 철회",
