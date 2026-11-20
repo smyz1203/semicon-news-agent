@@ -1,7 +1,284 @@
 {
   "version": 1,
-  "updated_at": "2026-11-20T05:16:12Z",
+  "updated_at": "2026-11-20T06:23:05Z",
   "issues": [
+    {
+      "id": "c20261120-1401",
+      "headline": "전남광주 AI 현장 점검, 국산 NPU·AI센터 연계 추진",
+      "summary": [
+        "국가AI전략위원회 하정우 상근 부위원장이 19~20일 광주·영암·해남 일대 AI 정책 현장을 방문했다.",
+        "국산 AI 반도체 검증, 조선산업 AX 확산, AI 데이터센터 구축 방안을 논의했다.",
+        "재생에너지 기반 반도체·AI 클러스터 육성 정책과 연계해 AI 인프라와 산업 적용을 함께 점검한 것이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "국산 NPU",
+        "AI 반도체",
+        "국가AI컴퓨팅센터",
+        "조선 AX",
+        "AI 클러스터"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T06:20:09Z",
+      "updated_at": "2026-11-20T06:20:09Z",
+      "articles": [
+        {
+          "key": "6b9fc2e4711ad63e",
+          "title": "국가AI전략위, 전남광주 AI 현장 점검…국산 NPU·조선 AX·AI컴퓨팅센터 잇는다",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=410096",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T06:20:09Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261120-1400",
+      "headline": "평택시 반도체 세수 증가로 사상 첫 4조원대 본예산",
+      "summary": [
+        "경기 평택시가 2027년 본예산안을 사상 처음으로 4조원대로 편성했다.",
+        "반도체 호황에 따른 세수 증가가 예산 규모 확대의 배경으로 제시됐다.",
+        "지역 재정이 반도체 경기에 크게 좌우되는 구조를 보여주는 사례다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "지방재정",
+        "본예산",
+        "세수 증가",
+        "반도체 호황",
+        "평택"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T06:13:44Z",
+      "updated_at": "2026-11-20T06:13:44Z",
+      "articles": [
+        {
+          "key": "37c0e534f6858e20",
+          "title": "평택시, 반도체 세수 증가에 2027년 본예산안 첫 4조원대 편성",
+          "url": "https://www.yna.co.kr/view/AKR20261120117100061",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T06:13:44Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261120-1385",
+      "headline": "SK하이닉스, 키옥시아 전환사채 주식 전환 검토",
+      "summary": [
+        "SK하이닉스가 일본 키옥시아에 투자하며 확보한 전환사채의 주식 전환을 검토하고 있다.",
+        "2018년 도시바메모리 투자 때 받은 CB가 대상이며, 기사에 전환 규모와 일정은 나오지 않았다.",
+        "전환이 이뤄지면 키옥시아 지분 확보가 강화되어 낸드플래시 사업 협력 구도에 영향을 줄 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "전환사채",
+        "키옥시아",
+        "낸드플래시",
+        "지분 투자"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "키옥시아"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": false,
+      "parties": [
+        "SK하이닉스",
+        "키옥시아"
+      ],
+      "importance": 2,
+      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T02:12:00Z",
+      "updated_at": "2026-11-20T05:57:26Z",
+      "articles": [
+        {
+          "key": "fc2c2970ea912c09",
+          "title": "SK하이닉스, 일본 키옥시아 전환사채 주식전환 검토",
+          "url": "https://www.yna.co.kr/view/AKR20261120068900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T02:12:00Z"
+        },
+        {
+          "key": "4a28f4a94829939d",
+          "title": "SK하이닉스, 日 키옥시아 전환사채 주식 전환 검토",
+          "url": "https://www.inews24.com/view/2028697",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-20T05:57:26Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261120-1399",
+      "headline": "삼성, 프로텍 가접합 장비 234억 추가 발주",
+      "summary": [
+        "삼성전자가 프로텍과 234억1000만원 규모의 반도체 제조장비 공급계약을 체결했다.",
+        "계약 기간은 발주일인 19일부터 내년 9월 30일까지이며, 지난해 프로텍 연결 매출의 10.2%에 해당한다.",
+        "HBM 생산능력 확대에 맞춘 장비 투자로, 첨단 패키징 설비 증설 흐름을 보여준다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "HBM",
+        "가접합 본딩",
+        "어드밴스드 패키징",
+        "반도체 장비"
+      ],
+      "companies": [
+        "삼성전자",
+        "프로텍"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "프로텍"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T05:53:11Z",
+      "updated_at": "2026-11-20T05:53:11Z",
+      "articles": [
+        {
+          "key": "36334e80a61230c4",
+          "title": "삼성, HBM 증설에 프로텍 장비 추가 구매…234억 규모",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65720",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-20T05:53:11Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261120-1382",
+      "headline": "삼성 시스템LSI 수장 교체, 조상연 사장 체제로 엑시노스 반등 모색",
+      "summary": [
+        "삼성전자가 2027년 정기 사장단 인사에서 조상연 DSA총괄 부사장을 사장으로 승진시키고 시스템LSI사업부장을 맡겼다.",
+        "실적 부진이 이어진 시스템LSI사업부의 경영진을 교체해 사업 체질 개선에 나서는 조치로 전해졌다.",
+        "엑시노스 등 자사 시스템반도체 경쟁력 회복이 과제로 떠올라 업계의 관심이 쏠릴 전망이다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "시스템LSI",
+        "엑시노스",
+        "정기 사장단 인사",
+        "조상연",
+        "체질 개선"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T01:50:15Z",
+      "updated_at": "2026-11-20T05:49:21Z",
+      "articles": [
+        {
+          "key": "7441a501cda2d03f",
+          "title": "[프로필] 조상연 삼성전자 DS부문 시스템 LSI사업부장 사장",
+          "url": "https://zdnet.co.kr/view/?no=20261120104727",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-20T01:50:15Z"
+        },
+        {
+          "key": "d17b8b7bbe2f295f",
+          "title": "삼성전자, 시스템LSI 수장에 '미국통' 조상연…엑시노스 반등 이끈다",
+          "url": "https://www.inews24.com/view/2028669",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-20T05:49:21Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261120-1398",
+      "headline": "광주 반도체지원실장 추천채용 발언에 내정 논란",
+      "summary": [
+        "전남광주통합특별시 반도체산업지원실장 채용을 두고 민형배 시장의 추천채용 발언이 논란이 됐다.",
+        "기사 본문이 일부만 제공되어 구체적인 채용 조건과 일정은 확인되지 않는다.",
+        "지역 반도체 클러스터 조성을 총괄할 자리여서 지역 산업 정책의 공정성 논란으로 이어질 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체 클러스터",
+        "지역 인재 채용",
+        "내정 논란",
+        "호남 반도체"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T05:16:08Z",
+      "updated_at": "2026-11-20T05:16:08Z",
+      "articles": [
+        {
+          "key": "136b082a0de33285",
+          "title": "민형배 시장, 반도체지원실장 추천채용 발언에 '내정' 논란",
+          "url": "https://www.yna.co.kr/view/AKR20261120057200054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T05:16:08Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261120-1374",
       "headline": "바커케미칼코리아, CPO용 광인터커넥트 소재 국책과제 선정",
@@ -725,52 +1002,6 @@
       "importance_raw": 1
     },
     {
-      "id": "c20261120-1385",
-      "headline": "SK하이닉스, 키옥시아 전환사채 주식 전환 검토",
-      "summary": [
-        "SK하이닉스가 일본 키옥시아 투자로 확보한 전환사채의 주식 전환 방안을 검토하고 있다.",
-        "기사 본문이 짧아 전환 규모나 시기 등 구체적 수치와 일정은 확인되지 않았다.",
-        "검토가 실행되면 키옥시아 지분 구조가 바뀌어 낸드플래시 사업 협력의 무게가 달라질 수 있다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "전환사채",
-        "키옥시아",
-        "낸드플래시",
-        "지분 투자"
-      ],
-      "companies": [
-        "SK하이닉스",
-        "키옥시아"
-      ],
-      "event_type": "재무·주주",
-      "confirmed": false,
-      "parties": [
-        "SK하이닉스",
-        "키옥시아"
-      ],
-      "importance": 2,
-      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-20T02:12:00Z",
-      "updated_at": "2026-11-20T02:12:00Z",
-      "articles": [
-        {
-          "key": "fc2c2970ea912c09",
-          "title": "SK하이닉스, 일본 키옥시아 전환사채 주식전환 검토",
-          "url": "https://www.yna.co.kr/view/AKR20261120068900003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-20T02:12:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
       "id": "c20261120-1384",
       "headline": "엔비디아 중국향 H200 출하 중단, 공급 불확실성 확대",
       "summary": [
@@ -854,50 +1085,6 @@
           "source": "ZDNet Korea",
           "lang": "ko",
           "published_at": "2026-11-20T01:54:28Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
-    },
-    {
-      "id": "c20261120-1382",
-      "headline": "삼성전자 조상연 부사장, 시스템 LSI사업부장 사장 승진",
-      "summary": [
-        "삼성전자가 2027년 정기 사장단 인사에서 조상연 부사장을 DS부문 시스템 LSI사업부장 사장으로 승진시켰다.",
-        "조 사장은 시스템반도체와 메모리 소프트웨어 개발, 글로벌 고객 대응 경험을 갖춘 기술·사업 전문가로 소개됐다.",
-        "시스템 LSI 사업을 이끌 인물로 발탁된 것으로, 시스템반도체 사업 방향에 영향을 줄 인사로 해석된다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "정기 사장단 인사",
-        "시스템 LSI",
-        "DS부문",
-        "임원 승진"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 4,
-      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-20T01:50:15Z",
-      "updated_at": "2026-11-20T01:50:15Z",
-      "articles": [
-        {
-          "key": "7441a501cda2d03f",
-          "title": "[프로필] 조상연 삼성전자 DS부문 시스템 LSI사업부장 사장",
-          "url": "https://zdnet.co.kr/view/?no=20261120104727",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-20T01:50:15Z"
         }
       ],
       "type_checked": true,
