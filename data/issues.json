@@ -1,22 +1,331 @@
 {
   "version": 1,
-  "updated_at": "2026-11-20T01:24:35Z",
+  "updated_at": "2026-11-20T02:59:19Z",
   "issues": [
     {
-      "id": "c20261118-1301",
-      "headline": "삼성전자 정기 사장단 인사, 반도체 세대교체 단행",
+      "id": "c20261120-1386",
+      "headline": "무안 국가산단 지정 연내 신청, 앵커기업 확보가 관건",
       "summary": [
-        "삼성전자가 2027년 정기 사장단 인사를 발표하며 부사장 3명을 사장으로 승진시켰다.",
-        "전영현 부회장과 노태문 사장은 겸직하던 메모리사업부장과 MX사업부장을 내려놓고 미래사업에 집중한다.",
-        "반도체 실적을 이끈 인물을 전면에 배치해 조직 안정과 세대교체를 동시에 꾀한 인사로 평가된다."
+        "전남 무안국가산업단지 지정을 연내 신청하는 방안이 추진 중이다.",
+        "호남권 반도체 클러스터와 연계해 추진되며, 앵커기업 확보 여부가 지정의 핵심 변수로 꼽힌다.",
+        "앵커기업이 확보되어야 산단 지정 신청이 실질적으로 진전될 수 있어 지역 반도체 생태계 구축의 관건이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "무안국가산단",
+        "호남권 반도체 클러스터",
+        "앵커기업",
+        "산업단지 지정"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T02:13:58Z",
+      "updated_at": "2026-11-20T02:13:58Z",
+      "articles": [
+        {
+          "key": "9cd7625ce3c23307",
+          "title": "무안 국가산단 지정 연내 신청…앵커기업 확보가 '관건'",
+          "url": "https://www.yna.co.kr/view/AKR20261120071000054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T02:13:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261120-1385",
+      "headline": "SK하이닉스, 키옥시아 전환사채 주식 전환 검토",
+      "summary": [
+        "SK하이닉스가 일본 키옥시아 투자로 확보한 전환사채의 주식 전환 방안을 검토하고 있다.",
+        "기사 본문이 짧아 전환 규모나 시기 등 구체적 수치와 일정은 확인되지 않았다.",
+        "검토가 실행되면 키옥시아 지분 구조가 바뀌어 낸드플래시 사업 협력의 무게가 달라질 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "전환사채",
+        "키옥시아",
+        "낸드플래시",
+        "지분 투자"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "키옥시아"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": false,
+      "parties": [
+        "SK하이닉스",
+        "키옥시아"
+      ],
+      "importance": 2,
+      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T02:12:00Z",
+      "updated_at": "2026-11-20T02:12:00Z",
+      "articles": [
+        {
+          "key": "fc2c2970ea912c09",
+          "title": "SK하이닉스, 일본 키옥시아 전환사채 주식전환 검토",
+          "url": "https://www.yna.co.kr/view/AKR20261120068900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T02:12:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261120-1384",
+      "headline": "엔비디아 중국향 H200 출하 중단, 공급 불확실성 확대",
+      "summary": [
+        "엔비디아가 중국 대상 첨단 AI 반도체 출하를 중단했다고 실적 발표에서 밝혔다.",
+        "호퍼 세대 데이터센터용 허가 제품이 대상이며, 실적 전망에는 중국 매출이 반영되지 않았다는 취지다.",
+        "미중 양측의 수출입 규제가 겹치며 AI 반도체 공급과 수요 모두 불확실성이 커지고 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "H200",
+        "호퍼",
+        "수출규제",
+        "AI반도체",
+        "중국시장"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T02:00:00Z",
+      "updated_at": "2026-11-20T02:00:00Z",
+      "articles": [
+        {
+          "key": "844cfeed5edaf6cd",
+          "title": "엔비디아, 중국향 H200 출하 중단…美·中 규제에 공급 불확실성",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=410062",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T02:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261120-1383",
+      "headline": "삼성전자, 이종명 부사장 DS부문 CTO 겸 반도체연구소장 사장 승진",
+      "summary": [
+        "삼성전자가 2027년 정기 사장단 인사에서 이종명 부사장을 DS부문 CTO 겸 반도체연구소장 사장으로 승진시켰다.",
+        "이 신임 사장은 약 28년간 쌓은 반도체 공정 전문성을 바탕으로 D램·낸드·파운드리 신공정 개발을 주도해 왔다.",
+        "공정 미세화 한계를 넘는 기술 전략을 이끌 핵심 인물로, 차세대 기술 방향에 영향을 줄 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "정기 사장단 인사",
+        "반도체 공정 개발",
+        "공정 미세화",
+        "CTO"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T01:54:28Z",
+      "updated_at": "2026-11-20T01:54:28Z",
+      "articles": [
+        {
+          "key": "ce83729cf0550170",
+          "title": "[프로필] 이종명 삼성전자 DS부문 CTO 겸 반도체연구소장 사장",
+          "url": "https://zdnet.co.kr/view/?no=20261120105240",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-20T01:54:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261120-1382",
+      "headline": "삼성전자 조상연 부사장, 시스템 LSI사업부장 사장 승진",
+      "summary": [
+        "삼성전자가 2027년 정기 사장단 인사에서 조상연 부사장을 DS부문 시스템 LSI사업부장 사장으로 승진시켰다.",
+        "조 사장은 시스템반도체와 메모리 소프트웨어 개발, 글로벌 고객 대응 경험을 갖춘 기술·사업 전문가로 소개됐다.",
+        "시스템 LSI 사업을 이끌 인물로 발탁된 것으로, 시스템반도체 사업 방향에 영향을 줄 인사로 해석된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "정기 사장단 인사",
+        "시스템 LSI",
+        "DS부문",
+        "임원 승진"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T01:50:15Z",
+      "updated_at": "2026-11-20T01:50:15Z",
+      "articles": [
+        {
+          "key": "7441a501cda2d03f",
+          "title": "[프로필] 조상연 삼성전자 DS부문 시스템 LSI사업부장 사장",
+          "url": "https://zdnet.co.kr/view/?no=20261120104727",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-20T01:50:15Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261120-1381",
+      "headline": "무디스, 내년 한국 반도체 수출 호조 지속 전망",
+      "summary": [
+        "무디스가 내년에도 AI 수요 확대로 한국 반도체 수출이 호조를 이어갈 것으로 내다봤다.",
+        "기사에는 삼성전자와 SK하이닉스가 언급됐으나 구체적 수치와 세부 일정은 확인되지 않았다.",
+        "AI 투자 확대가 반도체뿐 아니라 건설업 등 연관 산업으로도 수혜가 번질 것이라는 의미다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 수요",
+        "반도체 수출",
+        "무디스 전망",
+        "AI투자"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "무디스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "무디스"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T01:43:25Z",
+      "updated_at": "2026-11-20T01:43:25Z",
+      "articles": [
+        {
+          "key": "7d43d0a7b943e297",
+          "title": "무디스 \"내년 韓반도체 수출 호조 지속…건설업도 AI투자 수혜\"",
+          "url": "https://www.yna.co.kr/view/AKR20261120066600008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T01:43:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261120-1380",
+      "headline": "마이크론, 싱가포르 HBM 공장 장비 반입 시작",
+      "summary": [
+        "마이크론이 싱가포르 고대역폭메모리(HBM) 공장에 첫 장비를 들여오기 시작했다.",
+        "기사 본문은 사진 출처 표기만 있어 구체적 투자 규모와 세부 일정은 확인되지 않는다.",
+        "2027년 생산 개시를 목표로 하고 있어 HBM 공급 능력 확대 흐름에 영향을 줄 전망이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM",
+        "싱가포르 공장",
+        "2027년 양산",
+        "마이크론"
+      ],
+      "companies": [
+        "마이크론"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "마이크론"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-20T01:41:35Z",
+      "updated_at": "2026-11-20T01:41:35Z",
+      "articles": [
+        {
+          "key": "c77d72e38a90dcf9",
+          "title": "Micron moves first equipment into Singapore high-bandwidth memory plant, eyes 2027 production start",
+          "url": "https://www.digitimes.com/news/a20261120PD200/micron-equipment-production-hbm-2027.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T01:41:35Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261118-1301",
+      "headline": "삼성전자 2027년 정기 사장단 인사, 반도체 중심 재편",
+      "summary": [
+        "삼성전자가 20일 2027년 정기 사장단 인사를 발표했고 사장 승진 3명과 위촉업무 변경 3명 등 총 6명이 포함됐다.",
+        "황상준 부사장이 메모리사업부장을 맡고 최원준 사장이 MX사업부장에 선임됐으며 전영현·노태문 두 대표이사의 사업부장 겸직은 해제됐다.",
+        "사장 승진자가 모두 반도체 부문에서 나와 AI 호황에 따른 반도체 사업 중심의 경영 체제가 강화된 것으로 보인다."
       ],
       "category": "실적/투자/시장",
       "tags": [
         "정기 사장단 인사",
-        "세대교체",
         "메모리사업부",
-        "미래사업",
-        "반도체 실적"
+        "사업부장 겸직 해제",
+        "AI 반도체",
+        "MX사업부"
       ],
       "companies": [
         "삼성전자"
@@ -27,13 +336,13 @@
         "삼성전자"
       ],
       "importance": 5,
-      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1, 매체 5곳 보도 +1 → 5점",
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1, 매체 7곳 보도 +1 → 5점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "both",
       "first_seen": "2026-11-18T21:01:00Z",
-      "updated_at": "2026-11-20T01:17:49Z",
+      "updated_at": "2026-11-20T01:40:55Z",
       "articles": [
         {
           "key": "30a003337b7b1518",
@@ -84,6 +393,14 @@
           "published_at": "2026-11-20T00:16:55Z"
         },
         {
+          "key": "e0c0a9b985e8acba",
+          "title": "삼성전자, 사장 승진 3명, 위촉업무 변경 3명 등 총 6명 규모 '2027년 정기 사장단 인사'",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343534",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-20T00:20:00Z"
+        },
+        {
           "key": "1a93cb4077d56692",
           "title": "삼성전자, 반도체 전영현·갤럭시 노태문 '투톱' 유지",
           "url": "https://www.yna.co.kr/view/AKR20261120040100003",
@@ -106,10 +423,128 @@
           "source": "Korea Herald",
           "lang": "en",
           "published_at": "2026-11-20T01:17:49Z"
+        },
+        {
+          "key": "50847503687f8c25",
+          "title": "메모리는 HBM 개발통, 갤럭시는 퀄컴 출신…삼성전자 투톱 겸직 해제",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65701",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-20T01:27:42Z"
+        },
+        {
+          "key": "44b227f11b99ba7b",
+          "title": "Samsung names new memory, mobile chiefs as chips sweep promotions",
+          "url": "https://www.koreaherald.com/article/10943786",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-20T01:35:35Z"
+        },
+        {
+          "key": "9258f4b7ddf6114d",
+          "title": "삼성전자 사장 승진 모두 반도체…기존 투톱에 성과·기술 방점",
+          "url": "https://www.yna.co.kr/view/AKR20261120060900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T01:40:55Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 5
+    },
+    {
+      "id": "c20261120-1379",
+      "headline": "파이슨, 마이크론 노사 분쟁에 타오위안 공장 계획 철회",
+      "summary": [
+        "파이슨 CEO K. 푸아는 AI 기업들의 투자가 엔비디아 관련 불안에도 둔화되지 않을 것이라고 말했다.",
+        "같은 맥락에서 마이크론 노동 분쟁을 이유로 타오위안 공장 계획을 철회했다고 보도됐다.",
+        "기사 본문이 사진 설명뿐이라 구체적 수치·일정은 확인되지 않으며, 메모리 공급망 영향은 추가 확인이 필요하다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 투자",
+        "엔비디아",
+        "타오위안 공장",
+        "마이크론 노동 분쟁",
+        "낸드 컨트롤러"
+      ],
+      "companies": [
+        "파이슨",
+        "엔비디아",
+        "마이크론"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "파이슨",
+        "마이크론"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-20T01:21:53Z",
+      "updated_at": "2026-11-20T01:21:53Z",
+      "articles": [
+        {
+          "key": "2deeafa1e96a1669",
+          "title": "Phison CEO says AI giants won't slow despite Nvidia turmoil, scraps Taoyuan plans over Micron labor dispute",
+          "url": "https://www.digitimes.com/news/a20261120PD201/phison-ceo-nvidia-micron-investment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T01:21:53Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261120-1378",
+      "headline": "리벨리온, 데이터센터 기술로 엔비디아 기술 활용 나서",
+      "summary": [
+        "한국 AI반도체 기업 리벨리온이 경쟁사인 엔비디아의 데이터센터 기술을 도입하는 방향으로 움직이고 있다는 보도다.",
+        "기사 본문에는 구체적인 계약 내용, 수치, 일정이 제시되지 않아 세부 조건은 확인되지 않는다.",
+        "AI반도체 시장에서 국산 기업이 엔비디아 생태계와 연계를 모색하는 흐름을 보여주는 사안이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI반도체",
+        "데이터센터",
+        "엔비디아",
+        "리벨리온"
+      ],
+      "companies": [
+        "리벨리온",
+        "엔비디아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "리벨리온",
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-20T01:15:29Z",
+      "updated_at": "2026-11-20T01:15:29Z",
+      "articles": [
+        {
+          "key": "c261199f8e19b3a4",
+          "title": "Seoul-backed Rebellions turns to rival Nvidia for data center technology",
+          "url": "https://www.digitimes.com/news/a20261119VL224/nvidia-technology-startup-infrastructure-ai-chip.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T01:15:29Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261120-1376",
@@ -199,23 +634,23 @@
       "id": "c20261119-1362",
       "headline": "삼성디스플레이, 지스타 2026서 QD-OLED 게이밍 체험존 운영",
       "summary": [
-        "삼성디스플레이가 지스타 2026에서 QD-OLED 게이밍 체험존을 운영하며 모니터 시장 공략에 나섰다.",
-        "CD 프로젝트 레드, 크래프톤과 협업했으며 MSI와 삼성전자의 게이밍 모니터 92대를 전시한다.",
-        "게이밍 모니터 시장에서 QD-OLED 기술력을 알리고 글로벌 게임사와의 협력을 넓히는 계기가 된다."
+        "삼성디스플레이가 부산 벡스코에서 열리는 지스타 2026에 참가해 QD-OLED 게이밍 체험존을 운영한다고 20일 밝혔다.",
+        "CD 프로젝트 레드, 크래프톤과 협업하며 27형 QHD QD-OLED 탑재 MSI 모니터 등을 선보인다.",
+        "모니터용 OLED에서 높은 점유율을 가진 삼성디스플레이가 게이밍 시장 공략을 더욱 강화하는 모습이다."
       ],
       "category": "디스플레이",
       "tags": [
         "QD-OLED",
+        "모니터 OLED",
         "게이밍 모니터",
         "지스타 2026",
-        "OLED"
+        "27형 QHD"
       ],
       "companies": [
         "삼성디스플레이",
-        "삼성전자",
-        "MSI",
         "CD 프로젝트 레드",
-        "크래프톤"
+        "크래프톤",
+        "MSI"
       ],
       "event_type": "홍보·수상",
       "confirmed": true,
@@ -225,14 +660,22 @@
         "크래프톤"
       ],
       "importance": 3,
-      "importance_reason": "홍보·수상 1점, 관심 기업(삼성디스플레이) +1, 매체 4곳 보도 +1 → 3점",
+      "importance_reason": "홍보·수상 1점, 관심 기업(삼성디스플레이) +1, 매체 5곳 보도 +1 → 3점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-11-19T23:15:01Z",
+      "first_seen": "2026-11-19T22:50:00Z",
       "updated_at": "2026-11-20T00:23:21Z",
       "articles": [
+        {
+          "key": "f1bb5ed9196f1527",
+          "title": "삼성디스플레이, OLED 모니터 주도권 강화…글로벌 게임사와 협업 19~22일 부산 '지스타 2026' 참가",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343531",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-19T22:50:00Z"
+        },
         {
           "key": "cb77f4d6324e3118",
           "title": "삼성디스플레이, 지스타서 게임사와 QD-OLED 체험존 운영",
@@ -1098,6 +1541,51 @@
       "importance_raw": 5
     },
     {
+      "id": "c20261120-1377",
+      "headline": "동운아나텍, 로봇 모션 제어 칩 시장 진출 선언",
+      "summary": [
+        "동운아나텍이 20년간 축적한 정밀 모터 제어 기술을 바탕으로 로봇 모션 제어 시장에 진출했다.",
+        "스마트폰용 칩 사업을 휴머노이드 로봇과 자율주행차 분야로 확장하는 것이 핵심 내용이다.",
+        "글로벌 반도체 공급망 변화 속에서 다변화된 공급처 대안을 제시한다는 점에서 의미가 있다."
+      ],
+      "category": "기타",
+      "tags": [
+        "로봇 모션 제어",
+        "피지컬 AI",
+        "휴머노이드",
+        "모터 제어 칩",
+        "자율주행"
+      ],
+      "companies": [
+        "동운아나텍"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "동운아나텍"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-19T16:00:00Z",
+      "updated_at": "2026-11-19T16:00:00Z",
+      "articles": [
+        {
+          "key": "8ffcebce163a9516",
+          "title": "Dongwoon Anatech Enters Robot Motion Control Market, Powering the Future of Physical AI",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343517",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-19T16:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
       "id": "c20261119-1314",
       "headline": "인텔 파운드리, MS를 EMIB 패키징 첫 외부 고객으로 확보",
       "summary": [
@@ -1420,10 +1908,10 @@
         "LG디스플레이"
       ],
       "importance": 5,
-      "importance_reason": "경영진 교체 3점, 관심 기업(LG디스플레이) +1, 매체 3곳 보도 +1 → 5점",
+      "importance_reason": "경영진 교체 3점, 관심 기업(LG디스플레이) +1, 매체 4곳 보도 +1 → 5점",
       "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
+      "needs_summary": true,
+      "attempts": 1,
       "region": "ko",
       "first_seen": "2026-11-19T07:37:03Z",
       "updated_at": "2026-11-19T09:32:16Z",
@@ -1435,6 +1923,14 @@
           "source": "연합뉴스",
           "lang": "ko",
           "published_at": "2026-11-19T07:37:03Z"
+        },
+        {
+          "key": "93617cbcdf49ec6c",
+          "title": "LG디스플레이, 2027년 정기 임원인사 실시...전무 6명, 상무 신규 선임 11명 승진 인사 발표",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343528",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-19T07:40:00Z"
         },
         {
           "key": "2911f98b147e5754",
