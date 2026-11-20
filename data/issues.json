@@ -1,7 +1,447 @@
 {
   "version": 1,
-  "updated_at": "2026-11-20T02:59:19Z",
+  "updated_at": "2026-11-20T04:08:39Z",
   "issues": [
+    {
+      "id": "c20261120-1376",
+      "headline": "SK하이닉스, SC26서 메모리 중심 AI 랙 시스템 공개",
+      "summary": [
+        "SK하이닉스가 슈퍼컴퓨팅 행사 SC26에서 메모리 중심 AI 랙 시스템을 선보였다.",
+        "기사에 구체적인 사양이나 수치는 나타나 있지 않으며, 본문도 확인되지 않는다.",
+        "경쟁사들이 추격하는 가운데 AI 서버용 메모리 기술 차별화 행보로 볼 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 랙 시스템",
+        "메모리 중심 아키텍처",
+        "SC26",
+        "차세대 AI 메모리"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-20T01:03:20Z",
+      "updated_at": "2026-11-20T04:00:01Z",
+      "articles": [
+        {
+          "key": "acb562617e2fdc74",
+          "title": "SK하이닉스, 슈퍼컴퓨팅 행사서 차세대 AI 메모리 기술 선봬",
+          "url": "https://www.yna.co.kr/view/AKR20261120053200003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T01:03:20Z"
+        },
+        {
+          "key": "5fa06efdcfcb00a7",
+          "title": "SK Hynix pitches memory-centric AI rack system at SC26 as rivals close in",
+          "url": "https://www.digitimes.com/news/a20261120VL211/sk-hynix-hbm-2026-dram-samsung.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T04:00:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261120-1393",
+      "headline": "구글 TPU 확산, 미디어텍 ASIC 공급 기회 부각",
+      "summary": [
+        "구글 TPU가 엔비디아 GPU에 도전하면서 ASIC 시장 구도가 바뀔 조짐이 보인다.",
+        "기사 본문은 크레딧 표기만 있어 구체적 수치나 계약 내용은 확인되지 않는다.",
+        "미디어텍이 맞춤형 칩(ASIC) 공급 시장에서 입지를 넓힐 수 있다는 전망이 나온다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "TPU",
+        "ASIC",
+        "엔비디아",
+        "맞춤형 반도체"
+      ],
+      "companies": [
+        "구글",
+        "엔비디아",
+        "미디어텍"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-20T03:56:22Z",
+      "updated_at": "2026-11-20T03:56:22Z",
+      "articles": [
+        {
+          "key": "dfde91733bdf90c3",
+          "title": "Google's TPU challenges Nvidia, opening a path for MediaTek to dominate ASIC supply",
+          "url": "https://www.digitimes.com/news/a20261120PD230/google-tpu-mediatek-asic-nvidia.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T03:56:22Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261120-1392",
+      "headline": "삼성·SK하이닉스, 신규 반도체 단지 남북 분할 합의 보도",
+      "summary": [
+        "DigiTimes Asia는 삼성전자와 SK하이닉스가 신규 반도체 단지를 남북으로 나누는 데 뜻을 모았다고 보도했다.",
+        "기사 본문은 사진 출처 표기만 있어 분할 면적, 일정, 투자 규모 등 구체적 수치는 확인되지 않는다.",
+        "다만 공식 발표 여부가 불분명해 향후 공식 확인 전까지는 잠정적인 소식으로 봐야 한다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "반도체 단지",
+        "남북 분할",
+        "클러스터 조성"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점, 관심 기업(SK하이닉스, 삼성전자) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-20T03:45:00Z",
+      "updated_at": "2026-11-20T03:45:00Z",
+      "articles": [
+        {
+          "key": "231adfc5fdc19210",
+          "title": "Samsung and SK Hynix align on north-south split for new chip park",
+          "url": "https://www.digitimes.com/news/a20261120PD208/samsung-sk-hynix-government-military-relocation.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T03:45:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261119-1356",
+      "headline": "LG디스플레이 10.5세대 OLED 투자 철회, 7년 만에 백지화",
+      "summary": [
+        "LG디스플레이가 파주 10.5세대 대형 OLED 투자계획을 약 2조2400만 달러(약 3조원) 규모로 철회했다.",
+        "프로젝트는 7년간 추진됐으나 시장 우선순위 변화에 따라 백지화됐다고 보도됐다.",
+        "대형 OLED 증설 계획이 접히면서 국내 디스플레이 업계의 설비 투자 방향에 영향을 줄 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "10.5세대 OLED",
+        "대형 OLED",
+        "설비 투자",
+        "파주"
+      ],
+      "companies": [
+        "LG디스플레이"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이"
+      ],
+      "importance": 5,
+      "importance_reason": "설비 투자 3점, 관심 기업(LG디스플레이) +1, 매체 5곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-19T08:38:01Z",
+      "updated_at": "2026-11-20T03:40:41Z",
+      "articles": [
+        {
+          "key": "b2317b9f0c4ba8ae",
+          "title": "LG디스플레이, 파주 올레드 생산라인 3조원 투자계획 철회",
+          "url": "https://www.yna.co.kr/view/AKR20261119157800003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-19T08:38:01Z"
+        },
+        {
+          "key": "14f9e6029bb1c6b0",
+          "title": "LG디스플레이, 파주 OLED 3조원 투자 철회…7년 만에 백지화",
+          "url": "https://www.inews24.com/view/2028386",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-19T09:07:50Z"
+        },
+        {
+          "key": "2df5c5b2140be706",
+          "title": "LG디스플레이, 파주 10.5세대 OLED 3조 투자 철회",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65689",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-19T09:33:41Z"
+        },
+        {
+          "key": "3ef137f8424d0d34",
+          "title": "LG디스플레이, 10.5세대 대형 OLED 3조원 투자계획 철회",
+          "url": "https://zdnet.co.kr/view/?no=20261120013247",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-19T17:06:33Z"
+        },
+        {
+          "key": "fcd7a326967fcaac",
+          "title": "LG Display scraps US$2.24 billion Gen 10.5 OLED project after seven years as market priorities shift",
+          "url": "https://www.digitimes.com/news/a20261120PD232/lg-display-oled-panel-investment-market-production.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T03:40:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261120-1391",
+      "headline": "중국 빅테크, 동남아 데이터센터용 미국 AI칩 110만 개 요청",
+      "summary": [
+        "중국 주요 기술기업들이 동남아시아 데이터센터용으로 미국산 AI칩 110만 개를 요청한 것으로 나타났다.",
+        "기사에 따르면 이 수치는 미국의 수출 허가 기록을 근거로 한 것이다.",
+        "중국 기업이 우회 경로로 고성능 AI칩을 확보하려는 움직임으로 해석되어 수출 통제 논의에 영향을 줄 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI칩",
+        "수출규제",
+        "동남아 데이터센터",
+        "수출 허가"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "중국 빅테크",
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-20T03:26:25Z",
+      "updated_at": "2026-11-20T03:26:25Z",
+      "articles": [
+        {
+          "key": "b4ff4f67581d53ad",
+          "title": "Chinese tech giants sought 1.1 million US AI chips for Southeast Asian data centers, license records show",
+          "url": "https://www.digitimes.com/news/a20261120VL205/ai-chip-alibaba-bytedance-nvidia-usa-china.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T03:26:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261120-1390",
+      "headline": "젠슨 황 엔비디아 CEO 사임 논란에 리사 수 반응",
+      "summary": [
+        "AMD 리사 수 CEO는 젠슨 황 전 엔비디아 CEO의 사임으로 생긴 업계 혼란에 대해 소란이 가라앉을 것이라고 밝혔다.",
+        "기사는 리사 수가 최대 경쟁사 엔비디아를 둘러싼 논란과 거리를 두는 입장을 보였다고 전했다.",
+        "다만 기사 본문이 짧게 잘려 있고 사임에 대한 공식 확인이 보이지 않아 추가 검증이 필요하다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "젠슨 황",
+        "엔비디아 경영진",
+        "리사 수",
+        "AI반도체 경쟁"
+      ],
+      "companies": [
+        "엔비디아",
+        "AMD"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T02:55:33Z",
+      "updated_at": "2026-11-20T02:55:33Z",
+      "articles": [
+        {
+          "key": "71981f00ff09ffdf",
+          "title": "리사 수 AMD CEO, '오촌당숙' 젠슨 황 스캔들에 \"소음 가라앉을 것\"",
+          "url": "https://www.inews24.com/view/2028599",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-20T02:55:33Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261120-1389",
+      "headline": "삼성전자, HBM 전문가 메모리 사업 수장 발탁",
+      "summary": [
+        "삼성전자가 HBM 경험이 있는 임원을 메모리 사업을 이끄는 자리에 앉혔다는 소식이다.",
+        "기사에는 GTC 2026 행사 사진 설명만 있어 구체적인 인사 내용과 직책은 확인되지 않는다.",
+        "메모리 사업 리더십이 HBM 전문성 중심으로 바뀌는지가 향후 관전 포인트다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM",
+        "메모리 사업",
+        "경영진 교체",
+        "GTC 2026"
+      ],
+      "companies": [
+        "삼성전자",
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-20T02:51:13Z",
+      "updated_at": "2026-11-20T02:51:13Z",
+      "articles": [
+        {
+          "key": "9fd9c454f9137d3c",
+          "title": "Samsung taps HBM executive to lead memory business",
+          "url": "https://www.digitimes.com/news/a20261120VL202/samsung-business-hbm-development-dram.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T02:51:13Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261120-1388",
+      "headline": "케이던스, 인도 반도체 상용화 효과가 자체 EDA 툴보다 크다고 진단",
+      "summary": [
+        "케이던스 디자인 시스템즈의 그룹 디렉터가 인도 반도체 산업 관련 견해를 밝혔다.",
+        "기사 본문은 인물 사진 캡션만 제공되어 구체적 수치나 일정은 확인되지 않는다.",
+        "인도의 칩 상용화 과제에서 외국 EDA 기업의 역할이 논의된 것으로, 산업적 의미는 제한적이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "EDA",
+        "반도체 상용화",
+        "인도 반도체",
+        "설계 자동화"
+      ],
+      "companies": [
+        "케이던스"
+      ],
+      "event_type": "칼럼·인터뷰",
+      "confirmed": true,
+      "parties": [
+        "케이던스"
+      ],
+      "importance": 1,
+      "importance_reason": "칼럼·인터뷰 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-20T02:33:52Z",
+      "updated_at": "2026-11-20T02:33:52Z",
+      "articles": [
+        {
+          "key": "e4ffc76d329c8c23",
+          "title": "Cadence sees bigger gains for India in chip commercialization than homegrown EDA tools",
+          "url": "https://www.digitimes.com/news/a20261119VL225/india-cadence-eda-design-ip-manufacturing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T02:33:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261120-1387",
+      "headline": "엔비디아 경영진 교체 가능성에 대만 공급망 긴장",
+      "summary": [
+        "엔비디아 경영진 변화가 거론되며 대만 공급업체들이 황 CEO 이후 시대에 대비하고 있다는 보도가 나왔다.",
+        "기사 본문이 제공되지 않아 구체적인 인사 내용과 일정, 수치는 확인할 수 없다.",
+        "공급망 입장에서는 리더십 변화가 주문과 협력 방향에 미칠 불확실성이 핵심 쟁점이 될 것으로 보인다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엔비디아",
+        "경영진 교체",
+        "대만 공급망",
+        "AI반도체"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-20T02:22:31Z",
+      "updated_at": "2026-11-20T02:22:31Z",
+      "articles": [
+        {
+          "key": "241d664e9c91ec88",
+          "title": "Nvidia's leadership shake-up puts two key uncertainties in focus as Taiwanese suppliers brace for post-Huang era",
+          "url": "https://www.digitimes.com/news/a20261120PD224/jensen-huang-ceo-development-supply-chain-taiwan.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T02:22:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261120-1386",
       "headline": "무안 국가산단 지정 연내 신청, 앵커기업 확보가 관건",
@@ -545,50 +985,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261120-1376",
-      "headline": "SK하이닉스, 슈퍼컴퓨팅 행사서 차세대 AI 메모리 공개",
-      "summary": [
-        "SK하이닉스가 미국 시카고에서 열린 슈퍼컴퓨팅 2026 행사에 참가해 차세대 AI 메모리 기술을 선보였다.",
-        "기사 본문이 일부만 제공되어 전시된 제품의 세부 사양과 수치는 확인되지 않는다.",
-        "AI 서버용 고대역폭 메모리 경쟁력을 알리는 자리로, 고성능 컴퓨팅 시장 공략 의지를 보여준다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "차세대 AI 메모리",
-        "슈퍼컴퓨팅 2026",
-        "AI 서버",
-        "고대역폭 메모리"
-      ],
-      "companies": [
-        "SK하이닉스"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "SK하이닉스"
-      ],
-      "importance": 3,
-      "importance_reason": "업계 일반 2점, 관심 기업(SK하이닉스) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-20T01:03:20Z",
-      "updated_at": "2026-11-20T01:03:20Z",
-      "articles": [
-        {
-          "key": "acb562617e2fdc74",
-          "title": "SK하이닉스, 슈퍼컴퓨팅 행사서 차세대 AI 메모리 기술 선봬",
-          "url": "https://www.yna.co.kr/view/AKR20261120053200003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-20T01:03:20Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261120-1375",
@@ -1472,75 +1868,6 @@
       "importance_raw": 3
     },
     {
-      "id": "c20261119-1356",
-      "headline": "LG디스플레이, 파주 10.5세대 OLED 3조 투자 철회",
-      "summary": [
-        "LG디스플레이가 파주 P10 공장 10.5세대 대형 OLED 3조원 투자계획을 19일 철회했다.",
-        "투자 발표 7년 만이며, OLED TV 시장 성장 둔화와 LCD에서 OLED로의 전환 지연이 배경으로 꼽혔다.",
-        "초대형 패널 대신 기존 8.5세대 라인 활용과 중소형 프리미엄 제품 대응으로 전략을 바꾼 것이 업계 의미다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "10.5세대 OLED",
-        "대형 OLED",
-        "투자 철회",
-        "8.5세대 라인",
-        "OLED TV"
-      ],
-      "companies": [
-        "LG디스플레이"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": true,
-      "parties": [
-        "LG디스플레이"
-      ],
-      "importance": 5,
-      "importance_reason": "설비 투자 3점, 관심 기업(LG디스플레이) +1, 매체 4곳 보도 +1 → 5점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-19T08:38:01Z",
-      "updated_at": "2026-11-19T17:06:33Z",
-      "articles": [
-        {
-          "key": "b2317b9f0c4ba8ae",
-          "title": "LG디스플레이, 파주 올레드 생산라인 3조원 투자계획 철회",
-          "url": "https://www.yna.co.kr/view/AKR20261119157800003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-19T08:38:01Z"
-        },
-        {
-          "key": "14f9e6029bb1c6b0",
-          "title": "LG디스플레이, 파주 OLED 3조원 투자 철회…7년 만에 백지화",
-          "url": "https://www.inews24.com/view/2028386",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-19T09:07:50Z"
-        },
-        {
-          "key": "2df5c5b2140be706",
-          "title": "LG디스플레이, 파주 10.5세대 OLED 3조 투자 철회",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65689",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-19T09:33:41Z"
-        },
-        {
-          "key": "3ef137f8424d0d34",
-          "title": "LG디스플레이, 10.5세대 대형 OLED 3조원 투자계획 철회",
-          "url": "https://zdnet.co.kr/view/?no=20261120013247",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-19T17:06:33Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 5
-    },
-    {
       "id": "c20261120-1377",
       "headline": "동운아나텍, 로봇 모션 제어 칩 시장 진출 선언",
       "summary": [
@@ -1886,18 +2213,18 @@
     },
     {
       "id": "c20261119-1343",
-      "headline": "LG디스플레이 사업부 2개로 재편, 정철동 사장 유임",
+      "headline": "LG디스플레이 정기 인사, 사업부 2개로 재편",
       "summary": [
-        "LG디스플레이가 대형과 중형 사업부를 통합해 중대형·소형 2개 사업부 체제로 조직을 개편했다.",
-        "이번 인사에서 6명이 전무로 승진하고 11명이 상무로 신규 선임됐으며 정철동 사장은 대표이사를 유지한다.",
-        "중형 제품의 OLED 전환을 뒷받침하고 의사결정 속도를 높이려는 조치로, 디스플레이 사업 체질 개편으로 읽힌다."
+        "LG디스플레이가 정철동 사장을 유임하고 전무 6명, 상무 11명을 승진시키는 정기 인사를 발표했다.",
+        "대형과 중형 사업부를 통합해 사업부를 2개로 재편하는 조직 개편이 함께 이뤄졌다.",
+        "경영진 안정과 사업 구조 재편을 통해 디스플레이 사업의 효율화 방향이 드러난 인사로 볼 수 있다."
       ],
       "category": "디스플레이",
       "tags": [
-        "OLED 전환",
-        "사업부 통합",
-        "정기 임원인사",
-        "중형 OLED"
+        "정기 인사",
+        "사업부 재편",
+        "임원 승진",
+        "대형·중형 통합"
       ],
       "companies": [
         "LG디스플레이"
@@ -1910,8 +2237,8 @@
       "importance": 5,
       "importance_reason": "경영진 교체 3점, 관심 기업(LG디스플레이) +1, 매체 4곳 보도 +1 → 5점",
       "status": "summarized",
-      "needs_summary": true,
-      "attempts": 1,
+      "needs_summary": false,
+      "attempts": 0,
       "region": "ko",
       "first_seen": "2026-11-19T07:37:03Z",
       "updated_at": "2026-11-19T09:32:16Z",
