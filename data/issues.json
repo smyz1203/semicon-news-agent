@@ -1,7 +1,875 @@
 {
   "version": 1,
-  "updated_at": "2026-11-20T06:23:05Z",
+  "updated_at": "2026-11-20T08:30:06Z",
   "issues": [
+    {
+      "id": "c20261120-1415",
+      "headline": "슈가스AI·위슨, 피지컬 AI 영상 연결 솔루션 공동 개발",
+      "summary": [
+        "슈가스AI가 대만 위슨과 AI 비전 커넥티비티 솔루션을 공동 개발 중이라고 밝혔다.",
+        "대상은 로봇, 자동차, 드론 등 현실에서 움직이는 기기이며 카메라와 연산 장치를 잇는 기술이다.",
+        "카메라 기반 판단 기기가 늘면서 영상 연결 기술의 중요성이 커지는 흐름을 겨냥한 협력이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "피지컬 AI",
+        "AI 비전 커넥티비티",
+        "영상 전송",
+        "카메라 인터페이스"
+      ],
+      "companies": [
+        "슈가스AI",
+        "위슨"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "슈가스AI",
+        "위슨"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T08:21:46Z",
+      "updated_at": "2026-11-20T08:21:46Z",
+      "articles": [
+        {
+          "key": "e6e12e5917ee4af4",
+          "title": "슈가스AI, 대만 위슨과 피지컬 AI 영상전송 솔루션 공동개발",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=410112",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T08:21:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261120-1414",
+      "headline": "마이크로칩, 우주용 FPGA 최고 등급 QML-V 인증 획득",
+      "summary": [
+        "마이크로칩테크놀로지의 내방사선 FPGA 'RTPF500ZT'가 미국 DLA의 QML Class V 인증을 받았다.",
+        "RT PolarFire SoC 'RTPFS460ZT'도 QML Class Q 및 M 인증을 함께 확보한 것으로 전해졌다.",
+        "우주용 반도체 신뢰성을 입증해 내방사선 FPGA 포트폴리오 경쟁력을 강화하는 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "내방사선 FPGA",
+        "QML Class V",
+        "PolarFire",
+        "우주용 반도체"
+      ],
+      "companies": [
+        "마이크로칩테크놀로지"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "마이크로칩테크놀로지"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T07:56:32Z",
+      "updated_at": "2026-11-20T07:56:32Z",
+      "articles": [
+        {
+          "key": "c267a78ef9f9facc",
+          "title": "마이크로칩, 우주용 반도체 신뢰성 입증…RTPF500ZT QML-V 획득",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=410109",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T07:56:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261119-1335",
+      "headline": "애플, OLED 아이맥 개발 연기·취소 검토",
+      "summary": [
+        "애플이 OLED 패널을 탑재한 아이맥 개발을 미루거나 취소하는 방안을 검토하고 있다는 보도가 나왔다.",
+        "기사들은 구체적인 일정이나 수치를 밝히지 않았으며, 공식 발표 없이 보도에 근거한 내용이다.",
+        "OLED 아이맥이 무산되면 대형 OLED 패널 수요 확대 기대가 약해질 수 있어 디스플레이 업계가 주목하고 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "아이맥",
+        "대형 OLED",
+        "개발 취소"
+      ],
+      "companies": [
+        "애플"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "애플"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점, 매체 3곳 보도 +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-19T04:15:21Z",
+      "updated_at": "2026-11-20T07:55:00Z",
+      "articles": [
+        {
+          "key": "99791bbd0d56def3",
+          "title": "애플, 아이맥 OLED 탑재 백지화 검토",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65641",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-19T04:15:21Z"
+        },
+        {
+          "key": "b41a71f8d616e35e",
+          "title": "Reports suggest Apple is reconsidering its OLED iMac plans, and may delay or even cancel the project",
+          "url": "https://www.oled-info.com/reports-suggest-apple-reconsidering-its-oled-imac-plans-and-may-delay-or-even",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-19T10:53:52Z"
+        },
+        {
+          "key": "183a0f5087b489fc",
+          "title": "Apple weighs delaying or canceling OLED iMac development",
+          "url": "https://www.digitimes.com/news/a20261120PD239/apple-imac-development-sdc-lg-display.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T07:55:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261120-1413",
+      "headline": "세메스 3분기 실적 급증, 연매출 3조 복귀 전망",
+      "summary": [
+        "세메스가 3분기 매출 8077억원, 영업이익 1185억원을 기록했다고 분기보고서로 밝혔다.",
+        "3분기 누적 매출 2조1443억원, 영업이익 3060억원으로 전년 대비 각각 27.9%, 105.8% 증가했다.",
+        "누적 영업이익이 지난해 연간 영업이익을 넘어서 올해 연매출 3조원 복귀가 가시권에 들었다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "반도체 장비",
+        "분기 실적",
+        "연매출 3조원",
+        "세메스 심상필"
+      ],
+      "companies": [
+        "세메스",
+        "삼성전자"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "세메스"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T07:51:20Z",
+      "updated_at": "2026-11-20T07:51:20Z",
+      "articles": [
+        {
+          "key": "6b53816ca00e2c64",
+          "title": "심상필 체제 2년…세메스, 연매출 3조원 복귀 가시권",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65725",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-20T07:51:20Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261120-1385",
+      "headline": "SK하이닉스, 키옥시아 전환사채 주식 전환 검토",
+      "summary": [
+        "SK하이닉스가 일본 키옥시아에 투자하며 확보한 전환사채의 주식 전환을 검토하고 있다.",
+        "2018년 도시바메모리 투자 때 받은 CB가 대상이며, 기사에 전환 규모와 일정은 나오지 않았다.",
+        "전환이 이뤄지면 키옥시아 지분 확보가 강화되어 낸드플래시 사업 협력 구도에 영향을 줄 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "전환사채",
+        "키옥시아",
+        "낸드플래시",
+        "지분 투자"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "키옥시아"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": false,
+      "parties": [
+        "SK하이닉스",
+        "키옥시아"
+      ],
+      "importance": 2,
+      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T02:12:00Z",
+      "updated_at": "2026-11-20T07:49:51Z",
+      "articles": [
+        {
+          "key": "fc2c2970ea912c09",
+          "title": "SK하이닉스, 일본 키옥시아 전환사채 주식전환 검토",
+          "url": "https://www.yna.co.kr/view/AKR20261120068900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T02:12:00Z"
+        },
+        {
+          "key": "4a28f4a94829939d",
+          "title": "SK하이닉스, 日 키옥시아 전환사채 주식 전환 검토",
+          "url": "https://www.inews24.com/view/2028697",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-20T05:57:26Z"
+        },
+        {
+          "key": "aa81a082e75bce32",
+          "title": "SK하이닉스, 일본 키옥시아 전환사채 주식 전환…14.1% 보유(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261120068951003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T07:17:46Z"
+        },
+        {
+          "key": "c9af9c7975121f4f",
+          "title": "SK하이닉스, 日 키옥시아 전환사채 주식 전환…지분 14.1% 보유",
+          "url": "https://www.inews24.com/view/2028777",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-20T07:49:51Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261120-1412",
+      "headline": "황 CEO 사임 후 대만 반도체 유통사 공급망 리스크 우려",
+      "summary": [
+        "대만 반도체 유통업체들이 황 CEO의 사임 이후 공급망 리스크가 커질 수 있다고 보고 있다.",
+        "기사 본문이 제공되지 않아 구체적인 사임 배경, 일정, 수치는 확인할 수 없다.",
+        "다만 핵심 유통 채널의 경영 변동이 부품 조달과 재고 운영에 영향을 줄 수 있다는 점이 업계의 주된 관심사다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "공급망 리스크",
+        "대만 유통",
+        "경영진 변동",
+        "반도체 유통"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-20T07:46:34Z",
+      "updated_at": "2026-11-20T07:46:34Z",
+      "articles": [
+        {
+          "key": "1022081603b7fb72",
+          "title": "Taiwan chip distributors see supply-chain risks after Huang's exit",
+          "url": "https://www.digitimes.com/news/a20261120PD226/nvidia-taiwan-security-jensen-huang-supply-chain.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T07:46:34Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261120-1411",
+      "headline": "호남 반도체 클러스터 용수 공급 현장 점검 나서",
+      "summary": [
+        "한국수자원공사 양승조 사장이 반도체 클러스터 예정지를 잇달아 방문해 용수 공급 계획을 점검했다.",
+        "기사 본문이 짧게 잘려 있어 구체적인 공급량과 일정은 확인되지 않는다.",
+        "반도체 산업 확장에 필요한 용수 인프라 확보가 지역 개발의 핵심 과제임을 보여준다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "용수 공급",
+        "반도체 클러스터",
+        "호남",
+        "메가프로젝트"
+      ],
+      "companies": [
+        "한국수자원공사"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "한국수자원공사"
+      ],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T07:23:52Z",
+      "updated_at": "2026-11-20T07:23:52Z",
+      "articles": [
+        {
+          "key": "228ce5398041c042",
+          "title": "양승조 수공 사장, 호남 반도체 클러스터 물 공급 현장 점검",
+          "url": "https://www.yna.co.kr/view/AKR20261120139500063",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T07:23:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261118-1301",
+      "headline": "삼성전자 2027년 사장단 인사, 반도체 3인 승진",
+      "summary": [
+        "삼성전자가 2027년 정기 사장단 인사에서 DS부문 황상준·조상연·이종명 3인을 신임 사장으로 선임했다.",
+        "황상준 사장은 메모리사업부장 겸 D램개발실장을 맡아 D램과 HBM 기술 개발을 이끈다.",
+        "전영현 부회장이 DS부문장에 집중하면서 메모리 사업 지휘권이 황 사장에게 넘어가 기술 중심 체제가 강화됐다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "정기 사장단 인사",
+        "HBM",
+        "D램",
+        "시스템LSI",
+        "파운드리"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 5,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1, 매체 8곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-18T21:01:00Z",
+      "updated_at": "2026-11-20T07:18:50Z",
+      "articles": [
+        {
+          "key": "30a003337b7b1518",
+          "title": "삼성전자 사장단 인사 임박…메모리·스마트폰 리더십 보강할듯",
+          "url": "https://www.yna.co.kr/view/AKR20261118094300003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-18T21:01:00Z"
+        },
+        {
+          "key": "aed3711c9ed80973",
+          "title": "삼성도 이르면 오늘 사장단 인사… 투톱 유지 속 메모리·모바일 리더십 주목",
+          "url": "https://www.dt.co.kr/article/12096267",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-19T09:49:22Z"
+        },
+        {
+          "key": "dcd35a6a2d3cfce7",
+          "title": "[속보] 삼성전자 사장단 인사…전영현·노태문 '투톱' 체제 유지",
+          "url": "https://www.yna.co.kr/view/AKR20261120029900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T00:01:34Z"
+        },
+        {
+          "key": "0966e09386486286",
+          "title": "[속보] 삼성전자 사업부장, 반도체 메모리 황상준·모바일경험 최원준",
+          "url": "https://www.yna.co.kr/view/AKR20261120030200003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T00:04:36Z"
+        },
+        {
+          "key": "a63191c1ef330821",
+          "title": "[속보] 삼성전자, 전영현·노태문 사업부장 겸직 내려놓는다…2027년 사장단 인사 단행",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=410058",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T00:11:56Z"
+        },
+        {
+          "key": "0588f808d0b9f756",
+          "title": "삼성전자, 반도체 '실적 주역' 3인 사장 발탁…전영현·노태문 미래사업 전념",
+          "url": "https://www.etnews.com/20261120000029",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-20T00:16:55Z"
+        },
+        {
+          "key": "e0c0a9b985e8acba",
+          "title": "삼성전자, 사장 승진 3명, 위촉업무 변경 3명 등 총 6명 규모 '2027년 정기 사장단 인사'",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343534",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-20T00:20:00Z"
+        },
+        {
+          "key": "1a93cb4077d56692",
+          "title": "삼성전자, 반도체 전영현·갤럭시 노태문 '투톱' 유지",
+          "url": "https://www.yna.co.kr/view/AKR20261120040100003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T00:21:08Z"
+        },
+        {
+          "key": "6c4a8694bd229643",
+          "title": "삼성전자, 메모리·갤럭시에 새 사령탑…황상준·최원준 전면에(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261120040151003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T01:02:00Z"
+        },
+        {
+          "key": "56bf18187137232c",
+          "title": "Samsung opts for leadership stability in annual postings reshuffle amid record earnings",
+          "url": "https://www.koreaherald.com/article/10943719",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-20T01:17:49Z"
+        },
+        {
+          "key": "50847503687f8c25",
+          "title": "메모리는 HBM 개발통, 갤럭시는 퀄컴 출신…삼성전자 투톱 겸직 해제",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65701",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-20T01:27:42Z"
+        },
+        {
+          "key": "44b227f11b99ba7b",
+          "title": "Samsung names new memory, mobile chiefs as chips sweep promotions",
+          "url": "https://www.koreaherald.com/article/10943786",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-20T01:35:35Z"
+        },
+        {
+          "key": "9258f4b7ddf6114d",
+          "title": "삼성전자 사장 승진 모두 반도체…기존 투톱에 성과·기술 방점",
+          "url": "https://www.yna.co.kr/view/AKR20261120060900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T01:40:55Z"
+        },
+        {
+          "key": "f9bae1495ea03652",
+          "title": "삼성 반도체 사장 승진 3인방...\"사업 현장·기술 흐름 가장 잘 알아\"",
+          "url": "https://zdnet.co.kr/view/?no=20261120155142",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-20T07:18:50Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261120-1410",
+      "headline": "미국 AI칩 규제에 알리바바 해외 컴퓨팅 전략 재검토",
+      "summary": [
+        "미국의 AI 반도체 수출 규제로 알리바바가 해외 컴퓨팅 전략을 다시 검토하게 됐다는 보도가 나왔다.",
+        "기사 본문은 사진 크레딧만 남아 있어 구체적인 규제 내용과 일정, 수치는 확인되지 않는다.",
+        "중국 빅테크의 AI 인프라 확보 경로가 제약받을 수 있어 관련 반도체 공급 구조에 영향이 예상된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI반도체",
+        "수출규제",
+        "컴퓨팅 전략",
+        "알리바바"
+      ],
+      "companies": [
+        "알리바바"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "알리바바"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-20T07:16:11Z",
+      "updated_at": "2026-11-20T07:16:11Z",
+      "articles": [
+        {
+          "key": "751e2732c08f19be",
+          "title": "US AI chip curbs force Alibaba to rethink overseas compute strategy",
+          "url": "https://www.digitimes.com/news/a20261120PD234/alibaba-t-head-ai-chip-computing-power-capacity-2027.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T07:16:11Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261120-1409",
+      "headline": "미국 AI칩 규제, 엔비디아 클라우드 우회 논란 부각",
+      "summary": [
+        "미국이 AI칩 수출 규제를 강화하는 가운데 Megaspeed 클라우드 사업이 주목받고 있다.",
+        "기사 본문은 사진 크레딧만 있어 구체적 수치와 일정은 확인되지 않는다.",
+        "AI칩 컴퓨팅 주도권과 엔비디아 사업 방향에 영향을 줄 수 있는 쟁점이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI칩 수출규제",
+        "엔비디아",
+        "클라우드",
+        "컴퓨팅 주도권"
+      ],
+      "companies": [
+        "엔비디아",
+        "Megaspeed"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "엔비디아",
+        "Megaspeed"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-20T07:12:04Z",
+      "updated_at": "2026-11-20T07:12:04Z",
+      "articles": [
+        {
+          "key": "bc7d3cf0eab8ec1c",
+          "title": "DIGITIMES Insight: US AI chip curbs target computing dominance, Megaspeed clouds Nvidia's future",
+          "url": "https://www.digitimes.com/news/a20261120PD237/nvidia-ai-chip-digitimes-chips-capacity.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T07:12:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261120-1407",
+      "headline": "윈난주석그룹, 반도체 패키징용 주석 소재로 고도화",
+      "summary": [
+        "윈난주석그룹이 솔더 페이스트·솔더 볼·솔더 와이어를 반도체 패키징 기업에 공급하고 있다고 밝혔다.",
+        "지름 0.1㎜ 초미세 솔더 와이어를 개발했고, 2025년 다툰 광산 주석 회수율은 79.21%를 기록했다.",
+        "AI 시대 컴퓨팅 연산용 금속으로 주목받으며 반도체 소재 밸류체인 내 입지가 커질 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "솔더 볼",
+        "솔더 페이스트",
+        "초미세 솔더 와이어",
+        "주석인듐",
+        "반도체 패키징"
+      ],
+      "companies": [
+        "윈난주석그룹",
+        "윈난주석신소재"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T06:53:00Z",
+      "updated_at": "2026-11-20T07:10:02Z",
+      "articles": [
+        {
+          "key": "e5591418c140c6b6",
+          "title": "Xinhua Silk Road: 윈난주석그룹, 혁신으로 산업 고도화",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343542",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-20T06:53:00Z"
+        },
+        {
+          "key": "e767af4c58ae51a6",
+          "title": "Xinhua Silk Road: 윈난주석그룹, 혁신으로 산업 고도화",
+          "url": "https://zdnet.co.kr/view/?no=20261120161002",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-20T07:10:02Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261120-1408",
+      "headline": "강원대 국방반도체학과 신설, 한화시스템 취업 연계",
+      "summary": [
+        "강원대 춘천캠퍼스 일반대학원에 국방반도체학과가 내년 3월 신설된다.",
+        "한화시스템 취업과 연계해 운영하는 인력 양성 과정이라고 기사는 전했다.",
+        "국방 분야 반도체 인재 공급 기반을 넓히는 의미가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "국방반도체",
+        "대학원 신설",
+        "인재 양성",
+        "취업 연계"
+      ],
+      "companies": [
+        "강원대학교",
+        "한화시스템"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "강원대학교",
+        "한화시스템"
+      ],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T07:05:09Z",
+      "updated_at": "2026-11-20T07:05:09Z",
+      "articles": [
+        {
+          "key": "f3da87adfd0bbd00",
+          "title": "강원대 대학원에 국방반도체학과 신설…한화시스템 취업 연계",
+          "url": "https://www.yna.co.kr/view/AKR20261120134200062",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T07:05:09Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261120-1375",
+      "headline": "AI 투심 위축에 반도체 소부장주 장초반 하락",
+      "summary": [
+        "AI 관련 투자 심리가 살아나지 않는 가운데 반도체 소부장주가 장 초반 약세를 보였다.",
+        "기사 본문이 짧게 잘려 있어 하락 폭 등 구체적 수치는 확인되지 않는다.",
+        "AI 투자 심리 위축이 반도체 소재·부품·장비 업종의 주가 흐름에 부담이 되고 있다는 신호다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 투자심리",
+        "반도체 소부장",
+        "주가 하락",
+        "장초반 약세"
+      ],
+      "companies": [],
+      "event_type": "주가 등락",
+      "confirmed": true,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T00:24:42Z",
+      "updated_at": "2026-11-20T06:47:29Z",
+      "articles": [
+        {
+          "key": "33694a8956629a17",
+          "title": "[특징주] AI 투심 위축 지속…반도체소부장주 장초반 하락",
+          "url": "https://www.yna.co.kr/view/AKR20261120041900008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T00:24:42Z"
+        },
+        {
+          "key": "22d2875323ab67fc",
+          "title": "[특징주] AI 투심 위축 지속…코스닥 반도체소부장 급락(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261120041951008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T06:47:29Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261120-1406",
+      "headline": "레이저·메서, 반도체 특수가스 합작법인 설립",
+      "summary": [
+        "레이저와 메서가 반도체용 특수가스 사업을 위한 합작법인(JV) 설립을 추진한 것으로 알려졌다.",
+        "기사 본문이 사실상 비어 있어 출자 비율, 투자 규모, 일정 등 구체적 수치는 확인할 수 없다.",
+        "반도체 공정에 쓰이는 특수가스 공급망 강화 움직임으로 볼 수 있으나 세부 내용 확인이 필요하다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "특수가스",
+        "합작법인",
+        "반도체 소재",
+        "공급망"
+      ],
+      "companies": [
+        "레이저",
+        "메서"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "레이저",
+        "메서"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-20T06:44:31Z",
+      "updated_at": "2026-11-20T06:44:31Z",
+      "articles": [
+        {
+          "key": "62cae05c1367030c",
+          "title": "Rayzher, Messer form JV for semiconductor specialty gases",
+          "url": "https://www.digitimes.com/news/a20261120PD207/rayzher-joint-venture-industrial-supplier-manufacturing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T06:44:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261120-1405",
+      "headline": "AAEON, 반도체·로봇·국방으로 사업 영역 확장 추진",
+      "summary": [
+        "AAEON이 소비자 AI 시장 과열을 넘어 반도체, 로봇, 국방 분야로 사업을 넓히려는 방향을 내세웠다.",
+        "기사 본문에는 구체적인 투자 규모나 일정, 수치가 나와 있지 않아 세부 내용은 확인되지 않는다.",
+        "산업적으로는 산업용 컴퓨팅 기업이 고부가 분야로 전환을 모색하는 흐름으로 볼 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AAEON",
+        "산업용 AI",
+        "로봇",
+        "국방",
+        "사업 다각화"
+      ],
+      "companies": [
+        "AAEON"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "AAEON"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-20T06:33:02Z",
+      "updated_at": "2026-11-20T06:33:02Z",
+      "articles": [
+        {
+          "key": "95e50483620c847f",
+          "title": "AAEON targets semiconductors, robotics and defense beyond consumer AI inflation",
+          "url": "https://www.digitimes.com/news/a20261118PD234/revenue-pc-investment-eps-growth.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T06:33:02Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261120-1404",
+      "headline": "Suregiant, 첨단 패키징용 이형필름으로 고성장 목표",
+      "summary": [
+        "Suregiant가 이형필름(release film)을 첨단 패키징 분야로 확대하고 있다는 보도가 나왔다.",
+        "기사 본문이 사실상 비어 있어 구체적인 매출 목표 수치와 일정은 확인되지 않는다.",
+        "다만 고성장 목표를 내세운 만큼 첨단 패키징 소재 공급 확대 움직임으로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "이형필름",
+        "첨단 패키징",
+        "고성장 목표"
+      ],
+      "companies": [
+        "Suregiant"
+      ],
+      "event_type": "실적",
+      "confirmed": false,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "실적 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-20T06:32:51Z",
+      "updated_at": "2026-11-20T06:32:51Z",
+      "articles": [
+        {
+          "key": "c50489eb927e726c",
+          "title": "Suregiant targets high-double-digit growth as release film enters advanced packaging",
+          "url": "https://www.digitimes.com/news/a20261119PD201/packaging-chips-growth-supply-chain-capacity.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T06:32:51Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261120-1401",
       "headline": "전남광주 AI 현장 점검, 국산 NPU·AI센터 연계 추진",
@@ -85,54 +953,47 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261120-1385",
-      "headline": "SK하이닉스, 키옥시아 전환사채 주식 전환 검토",
+      "id": "c20261120-1403",
+      "headline": "본에이아이, 국산 센서·AI칩 드론 실증 국책과제 참여",
       "summary": [
-        "SK하이닉스가 일본 키옥시아에 투자하며 확보한 전환사채의 주식 전환을 검토하고 있다.",
-        "2018년 도시바메모리 투자 때 받은 CB가 대상이며, 기사에 전환 규모와 일정은 나오지 않았다.",
-        "전환이 이뤄지면 키옥시아 지분 확보가 강화되어 낸드플래시 사업 협력 구도에 영향을 줄 수 있다."
+        "본에이아이가 과기정통부 피지컬 AI 반도체 국책과제에 참여해 산불 감지 드론으로 현장 실증을 맡는다.",
+        "2030년까지 총 107억5000만원이 투입되며 대구대 주도 산학연 10개 기관 컨소시엄으로 추진된다.",
+        "센서 해외 의존도를 낮추고 국산 AI칩 기반 화재 감지 시스템을 구현하는 것이 산업적 의미다."
       ],
-      "category": "메모리",
+      "category": "AI반도체",
       "tags": [
-        "전환사채",
-        "키옥시아",
-        "낸드플래시",
-        "지분 투자"
+        "피지컬 AI",
+        "시스템반도체",
+        "산불 감지 드론",
+        "다중 감각 센서",
+        "국책과제"
       ],
       "companies": [
-        "SK하이닉스",
-        "키옥시아"
+        "본에이아이",
+        "디메이커스"
       ],
-      "event_type": "재무·주주",
-      "confirmed": false,
+      "event_type": "지역·인프라",
+      "confirmed": true,
       "parties": [
-        "SK하이닉스",
-        "키옥시아"
+        "본에이아이",
+        "대구대"
       ],
       "importance": 2,
-      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 2점",
+      "importance_reason": "지역·인프라 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
-      "first_seen": "2026-11-20T02:12:00Z",
-      "updated_at": "2026-11-20T05:57:26Z",
+      "first_seen": "2026-11-20T06:09:33Z",
+      "updated_at": "2026-11-20T06:09:33Z",
       "articles": [
         {
-          "key": "fc2c2970ea912c09",
-          "title": "SK하이닉스, 일본 키옥시아 전환사채 주식전환 검토",
-          "url": "https://www.yna.co.kr/view/AKR20261120068900003",
-          "source": "연합뉴스",
+          "key": "d21c4941bec3edd7",
+          "title": "본에이아이, 107억5000만원 규모 시스템반도체 국책과제 실증 담당",
+          "url": "https://zdnet.co.kr/view/?no=20261120144500",
+          "source": "ZDNet Korea",
           "lang": "ko",
-          "published_at": "2026-11-20T02:12:00Z"
-        },
-        {
-          "key": "4a28f4a94829939d",
-          "title": "SK하이닉스, 日 키옥시아 전환사채 주식 전환 검토",
-          "url": "https://www.inews24.com/view/2028697",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-20T05:57:26Z"
+          "published_at": "2026-11-20T06:09:33Z"
         }
       ],
       "type_checked": true,
@@ -236,6 +1097,51 @@
       ],
       "type_checked": true,
       "importance_raw": 4
+    },
+    {
+      "id": "c20261120-1402",
+      "headline": "캘리포니아 법무부, 엔비디아에 조사 소환장 발부",
+      "summary": [
+        "캘리포니아 주 법무부가 대중국 GPU 우회 수출과 기밀 유출 의혹으로 엔비디아에 조사 소환장을 발부했다.",
+        "법무장관은 젠슨 황 전 CEO와 중국 스파이 의심 인물 간 정황을 문제 삼으며 투자자 오도 여부도 질의하고 있다.",
+        "증권법 위반이 확인되면 민사소송이나 형사 수사로 이어질 수 있어 엔비디아의 법적 부담이 커질 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "조사 소환장",
+        "대중국 수출",
+        "GPU 우회 수출",
+        "기밀 유출",
+        "증권법 위반"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T05:25:06Z",
+      "updated_at": "2026-11-20T05:25:06Z",
+      "articles": [
+        {
+          "key": "315100786bcbab0e",
+          "title": "美 캘리포니아주 법무부, 엔비디아에 조사 소환장",
+          "url": "https://zdnet.co.kr/view/?no=20261120135739",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-20T05:25:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261120-1398",
@@ -1181,147 +2087,6 @@
       "importance_raw": 3
     },
     {
-      "id": "c20261118-1301",
-      "headline": "삼성전자 2027년 정기 사장단 인사, 반도체 중심 재편",
-      "summary": [
-        "삼성전자가 20일 2027년 정기 사장단 인사를 발표했고 사장 승진 3명과 위촉업무 변경 3명 등 총 6명이 포함됐다.",
-        "황상준 부사장이 메모리사업부장을 맡고 최원준 사장이 MX사업부장에 선임됐으며 전영현·노태문 두 대표이사의 사업부장 겸직은 해제됐다.",
-        "사장 승진자가 모두 반도체 부문에서 나와 AI 호황에 따른 반도체 사업 중심의 경영 체제가 강화된 것으로 보인다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "정기 사장단 인사",
-        "메모리사업부",
-        "사업부장 겸직 해제",
-        "AI 반도체",
-        "MX사업부"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 5,
-      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1, 매체 7곳 보도 +1 → 5점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-18T21:01:00Z",
-      "updated_at": "2026-11-20T01:40:55Z",
-      "articles": [
-        {
-          "key": "30a003337b7b1518",
-          "title": "삼성전자 사장단 인사 임박…메모리·스마트폰 리더십 보강할듯",
-          "url": "https://www.yna.co.kr/view/AKR20261118094300003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-18T21:01:00Z"
-        },
-        {
-          "key": "aed3711c9ed80973",
-          "title": "삼성도 이르면 오늘 사장단 인사… 투톱 유지 속 메모리·모바일 리더십 주목",
-          "url": "https://www.dt.co.kr/article/12096267",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-19T09:49:22Z"
-        },
-        {
-          "key": "dcd35a6a2d3cfce7",
-          "title": "[속보] 삼성전자 사장단 인사…전영현·노태문 '투톱' 체제 유지",
-          "url": "https://www.yna.co.kr/view/AKR20261120029900003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-20T00:01:34Z"
-        },
-        {
-          "key": "0966e09386486286",
-          "title": "[속보] 삼성전자 사업부장, 반도체 메모리 황상준·모바일경험 최원준",
-          "url": "https://www.yna.co.kr/view/AKR20261120030200003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-20T00:04:36Z"
-        },
-        {
-          "key": "a63191c1ef330821",
-          "title": "[속보] 삼성전자, 전영현·노태문 사업부장 겸직 내려놓는다…2027년 사장단 인사 단행",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=410058",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-20T00:11:56Z"
-        },
-        {
-          "key": "0588f808d0b9f756",
-          "title": "삼성전자, 반도체 '실적 주역' 3인 사장 발탁…전영현·노태문 미래사업 전념",
-          "url": "https://www.etnews.com/20261120000029",
-          "source": "전자신문",
-          "lang": "ko",
-          "published_at": "2026-11-20T00:16:55Z"
-        },
-        {
-          "key": "e0c0a9b985e8acba",
-          "title": "삼성전자, 사장 승진 3명, 위촉업무 변경 3명 등 총 6명 규모 '2027년 정기 사장단 인사'",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=343534",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-11-20T00:20:00Z"
-        },
-        {
-          "key": "1a93cb4077d56692",
-          "title": "삼성전자, 반도체 전영현·갤럭시 노태문 '투톱' 유지",
-          "url": "https://www.yna.co.kr/view/AKR20261120040100003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-20T00:21:08Z"
-        },
-        {
-          "key": "6c4a8694bd229643",
-          "title": "삼성전자, 메모리·갤럭시에 새 사령탑…황상준·최원준 전면에(종합)",
-          "url": "https://www.yna.co.kr/view/AKR20261120040151003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-20T01:02:00Z"
-        },
-        {
-          "key": "56bf18187137232c",
-          "title": "Samsung opts for leadership stability in annual postings reshuffle amid record earnings",
-          "url": "https://www.koreaherald.com/article/10943719",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-11-20T01:17:49Z"
-        },
-        {
-          "key": "50847503687f8c25",
-          "title": "메모리는 HBM 개발통, 갤럭시는 퀄컴 출신…삼성전자 투톱 겸직 해제",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65701",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-20T01:27:42Z"
-        },
-        {
-          "key": "44b227f11b99ba7b",
-          "title": "Samsung names new memory, mobile chiefs as chips sweep promotions",
-          "url": "https://www.koreaherald.com/article/10943786",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-11-20T01:35:35Z"
-        },
-        {
-          "key": "9258f4b7ddf6114d",
-          "title": "삼성전자 사장 승진 모두 반도체…기존 투톱에 성과·기술 방점",
-          "url": "https://www.yna.co.kr/view/AKR20261120060900003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-20T01:40:55Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 5
-    },
-    {
       "id": "c20261120-1379",
       "headline": "파이슨, 마이크론 노사 분쟁에 타오위안 공장 계획 철회",
       "summary": [
@@ -1414,46 +2179,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261120-1375",
-      "headline": "AI 투심 위축에 반도체 소부장주 장초반 하락",
-      "summary": [
-        "AI 관련 투자 심리가 살아나지 않는 가운데 반도체 소부장주가 장 초반 약세를 보였다.",
-        "기사 본문이 짧게 잘려 있어 하락 폭 등 구체적 수치는 확인되지 않는다.",
-        "AI 투자 심리 위축이 반도체 소재·부품·장비 업종의 주가 흐름에 부담이 되고 있다는 신호다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "AI 투자심리",
-        "반도체 소부장",
-        "주가 하락",
-        "장초반 약세"
-      ],
-      "companies": [],
-      "event_type": "주가 등락",
-      "confirmed": true,
-      "parties": [],
-      "importance": 1,
-      "importance_reason": "주가 등락 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-20T00:24:42Z",
-      "updated_at": "2026-11-20T00:24:42Z",
-      "articles": [
-        {
-          "key": "33694a8956629a17",
-          "title": "[특징주] AI 투심 위축 지속…반도체소부장주 장초반 하락",
-          "url": "https://www.yna.co.kr/view/AKR20261120041900008",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-20T00:24:42Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
     },
     {
       "id": "c20261119-1362",
@@ -2452,61 +3177,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261119-1335",
-      "headline": "애플, OLED 아이맥 도입 연기 또는 취소 검토",
-      "summary": [
-        "애플이 아이맥 올인원 PC에 OLED 디스플레이를 탑재하는 계획을 재검토하고 있다는 보도가 나왔다.",
-        "삼성디스플레이와 개발 일정 조정을 논의 중이며, 프로젝트 연기 또는 전면 취소가 거론된다.",
-        "패널 원가 부담과 OLED iPad Pro의 판매 부진이 배경으로 꼽혀, 디스플레이 업계에 영향이 예상된다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "OLED",
-        "아이맥",
-        "탠덤 OLED",
-        "패널 원가",
-        "iPad Pro"
-      ],
-      "companies": [
-        "애플",
-        "삼성디스플레이"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": false,
-      "parties": [
-        "애플",
-        "삼성디스플레이"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점, 관심 기업(삼성디스플레이) +1, 미확정 -1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-19T04:15:21Z",
-      "updated_at": "2026-11-19T10:53:52Z",
-      "articles": [
-        {
-          "key": "99791bbd0d56def3",
-          "title": "애플, 아이맥 OLED 탑재 백지화 검토",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65641",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-19T04:15:21Z"
-        },
-        {
-          "key": "b41a71f8d616e35e",
-          "title": "Reports suggest Apple is reconsidering its OLED iMac plans, and may delay or even cancel the project",
-          "url": "https://www.oled-info.com/reports-suggest-apple-reconsidering-its-oled-imac-plans-and-may-delay-or-even",
-          "source": "OLED-info",
-          "lang": "en",
-          "published_at": "2026-11-19T10:53:52Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261117-1233",
