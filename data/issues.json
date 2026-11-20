@@ -1,7 +1,160 @@
 {
   "version": 1,
-  "updated_at": "2026-11-20T10:21:10Z",
+  "updated_at": "2026-11-20T12:10:51Z",
   "issues": [
+    {
+      "id": "c20261119-1356",
+      "headline": "LG디스플레이, 파주 10.5세대 OLED 투자 철회",
+      "summary": [
+        "LG디스플레이가 파주 P10 공장의 10.5세대 대형 OLED 생산라인 투자 계획을 공식 철회했다.",
+        "투자 규모는 약 2.25억 달러(3조원 안팎)로 보도됐으며, 계획 수립 후 7년 만에 중단됐다.",
+        "시장 우선순위 변화에 따른 결정으로, 대형 OLED 설비 투자 방향에 영향을 줄 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "10.5세대 OLED",
+        "WOLED",
+        "파주 P10",
+        "설비 투자 철회",
+        "대형 OLED"
+      ],
+      "companies": [
+        "LG디스플레이"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이"
+      ],
+      "importance": 5,
+      "importance_reason": "설비 투자 3점, 관심 기업(LG디스플레이) +1, 매체 7곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-19T08:38:01Z",
+      "updated_at": "2026-11-20T11:20:22Z",
+      "articles": [
+        {
+          "key": "b2317b9f0c4ba8ae",
+          "title": "LG디스플레이, 파주 올레드 생산라인 3조원 투자계획 철회",
+          "url": "https://www.yna.co.kr/view/AKR20261119157800003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-19T08:38:01Z"
+        },
+        {
+          "key": "14f9e6029bb1c6b0",
+          "title": "LG디스플레이, 파주 OLED 3조원 투자 철회…7년 만에 백지화",
+          "url": "https://www.inews24.com/view/2028386",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-19T09:07:50Z"
+        },
+        {
+          "key": "2df5c5b2140be706",
+          "title": "LG디스플레이, 파주 10.5세대 OLED 3조 투자 철회",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65689",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-19T09:33:41Z"
+        },
+        {
+          "key": "3ef137f8424d0d34",
+          "title": "LG디스플레이, 10.5세대 대형 OLED 3조원 투자계획 철회",
+          "url": "https://zdnet.co.kr/view/?no=20261120013247",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-19T17:06:33Z"
+        },
+        {
+          "key": "fcd7a326967fcaac",
+          "title": "LG Display scraps US$2.24 billion Gen 10.5 OLED project after seven years as market priorities shift",
+          "url": "https://www.digitimes.com/news/a20261120PD232/lg-display-oled-panel-investment-market-production.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T03:40:41Z"
+        },
+        {
+          "key": "d71506aa4b1fc2de",
+          "title": "LG Display officially cancels its $2.25 billion 10.5-Gen OLED TV line investment at its P10 fab",
+          "url": "https://www.oled-info.com/lg-display-officially-cancels-its-225-billion-105-gen-oled-tv-line-investment",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-20T04:50:10Z"
+        },
+        {
+          "key": "d181a1cdc8a123e6",
+          "title": "[한눈에 보는 Weekly 기업 소식] LG디스플레이, 3조원 규모 파주 10.5세대 WOLED 투자 철회",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343551",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-20T11:20:22Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261119-1345",
+      "headline": "인텔 18A-P 공정 첫 외부 고객 확보, 파운드리 재건 신호",
+      "summary": [
+        "인텔이 첨단 공정 18A-P의 첫 외부 고객을 확보했다고 알려졌다.",
+        "기사에서 확인되는 세부 계약 규모와 고객사 이름은 제한적으로 보도됐다.",
+        "자체 생산 중심에서 위탁생산 사업 확대로 나아가는 신호로 평가된다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "18A-P",
+        "파운드리",
+        "인텔 공정",
+        "외부 고객"
+      ],
+      "companies": [
+        "인텔"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "인텔"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 매체 3곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-19T07:45:00Z",
+      "updated_at": "2026-11-20T10:24:17Z",
+      "articles": [
+        {
+          "key": "86fd3fec447d8c13",
+          "title": "Intel lands first customer for 18A-P foundry process",
+          "url": "https://www.digitimes.com/news/a20261119VL222/intel-manufacturing-business-technology-design.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-19T07:45:00Z"
+        },
+        {
+          "key": "2fdbf51eb4db41e7",
+          "title": "Chip Industry Week In Review",
+          "url": "https://semiengineering.com/chip-industry-week-in-review-165/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-20T08:01:14Z"
+        },
+        {
+          "key": "8212a8d0620c4dcc",
+          "title": "인텔, 18A-P 첫 외부 고객 확보…파운드리 재건 신호탄?",
+          "url": "https://www.inews24.com/view/2028840",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-20T10:24:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
     {
       "id": "c20261120-1419",
       "headline": "삼성 MX사업부장 노태문 교체, 최원준 체제 전환",
@@ -92,34 +245,34 @@
     },
     {
       "id": "c20261120-1385",
-      "headline": "SK하이닉스, 키옥시아 전환사채 주식 전환 검토",
+      "headline": "SK하이닉스, 키옥시아 전환사채 주식 전환해 지분 14.1% 확보",
       "summary": [
-        "SK하이닉스가 일본 키옥시아에 투자하며 확보한 전환사채의 주식 전환을 검토하고 있다.",
-        "2018년 도시바메모리 투자 때 받은 CB가 대상이며, 기사에 전환 규모와 일정은 나오지 않았다.",
-        "전환이 이뤄지면 키옥시아 지분 확보가 강화되어 낸드플래시 사업 협력 구도에 영향을 줄 수 있다."
+        "SK하이닉스가 일본 키옥시아의 전환사채를 주식으로 전환해 지분 14.1%를 보유하게 됐다는 보도가 나왔다.",
+        "초기에는 전환을 검토한다는 기사가 먼저 나왔고, 이후 주식 전환이 실제로 이뤄졌다는 내용으로 이어졌다.",
+        "메모리 업계에서 키옥시아와의 지분 관계가 강화된 사안으로, 향후 협력 방향에 주목할 필요가 있다."
       ],
       "category": "메모리",
       "tags": [
-        "전환사채",
         "키옥시아",
-        "낸드플래시",
-        "지분 투자"
+        "전환사채",
+        "지분 투자",
+        "낸드플래시"
       ],
       "companies": [
         "SK하이닉스",
         "키옥시아"
       ],
       "event_type": "재무·주주",
-      "confirmed": false,
+      "confirmed": true,
       "parties": [
         "SK하이닉스",
         "키옥시아"
       ],
-      "importance": 3,
-      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1, 매체 3곳 보도 +1, 미확정 -1 → 3점",
+      "importance": 4,
+      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1, 매체 3곳 보도 +1 → 4점",
       "status": "summarized",
-      "needs_summary": true,
-      "attempts": 1,
+      "needs_summary": false,
+      "attempts": 0,
       "region": "ko",
       "first_seen": "2026-11-20T02:12:00Z",
       "updated_at": "2026-11-20T08:29:57Z",
@@ -166,7 +319,7 @@
         }
       ],
       "type_checked": true,
-      "importance_raw": 3
+      "importance_raw": 4
     },
     {
       "id": "c20261120-1415",
@@ -367,60 +520,6 @@
           "source": "ZDNet Korea",
           "lang": "ko",
           "published_at": "2026-11-20T08:03:09Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261119-1345",
-      "headline": "인텔 파운드리, 18A-P 첫 외부 고객 확보",
-      "summary": [
-        "인텔 파운드리가 첫 외부 고객을 확보했다고 인텔 경영진이 밝혔으며 고객사는 공개되지 않았다.",
-        "고객사명과 양산 일정은 공개되지 않았고, 인텔은 18A-P 공정의 외부 수주를 처음 확보한 셈이다.",
-        "외부 고객 확보는 인텔 파운드리의 공정 신뢰도 회복 여부를 가늠하는 신호로 해석된다."
-      ],
-      "category": "파운드리/시스템반도체",
-      "tags": [
-        "18A-P",
-        "인텔 파운드리",
-        "첫 외부 고객",
-        "EMIB"
-      ],
-      "companies": [
-        "인텔",
-        "마이크로소프트",
-        "AMD"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "인텔"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-19T07:45:00Z",
-      "updated_at": "2026-11-20T08:01:14Z",
-      "articles": [
-        {
-          "key": "86fd3fec447d8c13",
-          "title": "Intel lands first customer for 18A-P foundry process",
-          "url": "https://www.digitimes.com/news/a20261119VL222/intel-manufacturing-business-technology-design.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-19T07:45:00Z"
-        },
-        {
-          "key": "2fdbf51eb4db41e7",
-          "title": "Chip Industry Week In Review",
-          "url": "https://semiengineering.com/chip-industry-week-in-review-165/",
-          "source": "Semiconductor Engineering",
-          "lang": "en",
-          "published_at": "2026-11-20T08:01:14Z"
         }
       ],
       "type_checked": true,
@@ -1532,91 +1631,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261119-1356",
-      "headline": "LG디스플레이, 파주 10.5세대 OLED 투자 공식 철회",
-      "summary": [
-        "LG디스플레이가 파주 P10 공장 10.5세대 대형 OLED TV 라인 투자 계획을 공식 철회했다.",
-        "이사회는 11월 19일 결정했으며, 2019년 승인 후 여러 차례 연기된 약 22억5천만 달러 규모 투자다.",
-        "대형 OLED TV 시장 침체가 이어지면서 게이밍 모니터 등 소형 프리미엄 제품 성장세가 두드러진다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "10.5세대 OLED",
-        "대형 OLED",
-        "P10 공장",
-        "OLED TV",
-        "투자 철회"
-      ],
-      "companies": [
-        "LG디스플레이"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": true,
-      "parties": [
-        "LG디스플레이"
-      ],
-      "importance": 5,
-      "importance_reason": "설비 투자 3점, 관심 기업(LG디스플레이) +1, 매체 6곳 보도 +1 → 5점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-19T08:38:01Z",
-      "updated_at": "2026-11-20T04:50:10Z",
-      "articles": [
-        {
-          "key": "b2317b9f0c4ba8ae",
-          "title": "LG디스플레이, 파주 올레드 생산라인 3조원 투자계획 철회",
-          "url": "https://www.yna.co.kr/view/AKR20261119157800003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-19T08:38:01Z"
-        },
-        {
-          "key": "14f9e6029bb1c6b0",
-          "title": "LG디스플레이, 파주 OLED 3조원 투자 철회…7년 만에 백지화",
-          "url": "https://www.inews24.com/view/2028386",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-19T09:07:50Z"
-        },
-        {
-          "key": "2df5c5b2140be706",
-          "title": "LG디스플레이, 파주 10.5세대 OLED 3조 투자 철회",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65689",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-19T09:33:41Z"
-        },
-        {
-          "key": "3ef137f8424d0d34",
-          "title": "LG디스플레이, 10.5세대 대형 OLED 3조원 투자계획 철회",
-          "url": "https://zdnet.co.kr/view/?no=20261120013247",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-19T17:06:33Z"
-        },
-        {
-          "key": "fcd7a326967fcaac",
-          "title": "LG Display scraps US$2.24 billion Gen 10.5 OLED project after seven years as market priorities shift",
-          "url": "https://www.digitimes.com/news/a20261120PD232/lg-display-oled-panel-investment-market-production.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-20T03:40:41Z"
-        },
-        {
-          "key": "d71506aa4b1fc2de",
-          "title": "LG Display officially cancels its $2.25 billion 10.5-Gen OLED TV line investment at its P10 fab",
-          "url": "https://www.oled-info.com/lg-display-officially-cancels-its-225-billion-105-gen-oled-tv-line-investment",
-          "source": "OLED-info",
-          "lang": "en",
-          "published_at": "2026-11-20T04:50:10Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 5
     },
     {
       "id": "c20261120-1396",
