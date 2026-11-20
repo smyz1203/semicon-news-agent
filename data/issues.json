@@ -1,7 +1,94 @@
 {
   "version": 1,
-  "updated_at": "2026-11-20T22:01:45Z",
+  "updated_at": "2026-11-20T23:00:00Z",
   "issues": [
+    {
+      "id": "c20261120-1425",
+      "headline": "겔싱어, 유럽의 반도체 기업 공백과 첨단 로직 경쟁 한계 지적",
+      "summary": [
+        "펫 겔싱어가 유럽은 단순한 투자만으로 첨단 로직 경쟁을 따라잡기 어렵다고 말했다.",
+        "그는 14A 공정 경쟁에는 50년에 걸친 리소그래피 기술 축적이 출발점이라고 강조했다.",
+        "유럽이 기술 기반 없이 기업을 새로 키우기 어렵다는 점에서 산업 전략의 재검토가 필요하다는 의미다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "14A 공정",
+        "리소그래피",
+        "첨단 로직",
+        "유럽 반도체"
+      ],
+      "companies": [
+        "인텔"
+      ],
+      "event_type": "칼럼·인터뷰",
+      "confirmed": true,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "칼럼·인터뷰 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-20T22:23:32Z",
+      "updated_at": "2026-11-20T22:23:32Z",
+      "articles": [
+        {
+          "key": "348f128179373754",
+          "title": "Pat Gelsinger Goes Hunting for Europe’s Unbuilt Tech Companies",
+          "url": "https://www.eetimes.com/pat-gelsinger-goes-hunting-for-europes-unbuilt-tech-companies/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-20T22:23:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261120-1424",
+      "headline": "CXMT, 에지 AI 겨냥 LPDDR6 양산 돌입",
+      "summary": [
+        "CXMT는 차세대 저전력 메모리 LPDDR6 양산을 시작해 중국 플래그십 스마트폰에 탑재할 계획이다.",
+        "최고 전송속도는 1만 2800Mbps로 LPDDR5X 대비 대역폭은 60% 넓고 전력소모는 20% 줄었다.",
+        "온디바이스 AI 확산으로 메모리 수요가 늘며, 서버용 고성능 제품군과 함께 사업 영역 확대가 예상된다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "LPDDR6",
+        "에지 AI",
+        "온디바이스 AI",
+        "MRDIMM",
+        "RDIMM"
+      ],
+      "companies": [
+        "CXMT"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "CXMT"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T22:00:01Z",
+      "updated_at": "2026-11-20T22:00:01Z",
+      "articles": [
+        {
+          "key": "29b04b63a6311a56",
+          "title": "\"에지 AI 확산이 메모리 성장 견인\"…CXMT, 차세대 저전력 제품 양산",
+          "url": "https://zdnet.co.kr/view/?no=20261118203029",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-20T22:00:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
     {
       "id": "c20261120-1423",
       "headline": "존 포사이스 서클로직 CEO, 미국 반도체협회 회장 선출",
