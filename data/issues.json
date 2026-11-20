@@ -1,7 +1,272 @@
 {
   "version": 1,
-  "updated_at": "2026-11-20T04:08:39Z",
+  "updated_at": "2026-11-20T05:16:12Z",
   "issues": [
+    {
+      "id": "c20261120-1374",
+      "headline": "바커케미칼코리아, CPO용 광인터커넥트 소재 국책과제 선정",
+      "summary": [
+        "바커케미칼코리아가 공동패키징광학(CPO) 소재 개발 정부 과제에 선정됐다고 20일 밝혔다.",
+        "고지향성 나노 LED 광원과 PFAS를 쓰지 않는 실리콘 광학 소재를 2026년 7월부터 2028년 12월까지 개발한다.",
+        "올해 연구비 6억1200만원 중 정부 지원금은 5억원으로, 차세대 반도체 광연결 기술 확보에 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "CPO",
+        "광인터커넥트",
+        "고지향성 나노 LED",
+        "PFAS 프리",
+        "실리콘 광학 소재"
+      ],
+      "companies": [
+        "바커케미칼코리아",
+        "바커"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "바커케미칼코리아"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T00:10:00Z",
+      "updated_at": "2026-11-20T05:14:34Z",
+      "articles": [
+        {
+          "key": "b61c8c77beeeedfb",
+          "title": "바커, 차세대 반도체 공동 패키징 광학용 광인터커넥트 소재 개발 정부 과제 선정",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=410053",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T00:10:00Z"
+        },
+        {
+          "key": "f750cea538f4da18",
+          "title": "바커, CPO용 광인터커넥트 소재 개발 국책과제 선정",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65709",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-20T05:14:34Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261120-1397",
+      "headline": "청주시의회, 국가 반도체 클러스터 지정 건의안 채택",
+      "summary": [
+        "청주시의회가 20일 본회의에서 반도체 클러스터 청주 유치 건의안을 채택했다.",
+        "건의안은 청주시를 국가 반도체 클러스터로 지정해 달라는 내용이며 기사에 추가 수치는 없다.",
+        "지역 반도체 산업 거점 확보 논의가 본격화될 수 있으나 정부 결정은 아직 없다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체 클러스터",
+        "청주",
+        "지역 산업",
+        "국가 지정"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T05:05:56Z",
+      "updated_at": "2026-11-20T05:05:56Z",
+      "articles": [
+        {
+          "key": "f5081088e0729531",
+          "title": "청주시의회 \"청주시를 국가 반도체 클러스터로 지정하라\"",
+          "url": "https://www.yna.co.kr/view/AKR20261120100000064",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T05:05:56Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261119-1356",
+      "headline": "LG디스플레이, 파주 10.5세대 OLED 투자 공식 철회",
+      "summary": [
+        "LG디스플레이가 파주 P10 공장 10.5세대 대형 OLED TV 라인 투자 계획을 공식 철회했다.",
+        "이사회는 11월 19일 결정했으며, 2019년 승인 후 여러 차례 연기된 약 22억5천만 달러 규모 투자다.",
+        "대형 OLED TV 시장 침체가 이어지면서 게이밍 모니터 등 소형 프리미엄 제품 성장세가 두드러진다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "10.5세대 OLED",
+        "대형 OLED",
+        "P10 공장",
+        "OLED TV",
+        "투자 철회"
+      ],
+      "companies": [
+        "LG디스플레이"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이"
+      ],
+      "importance": 5,
+      "importance_reason": "설비 투자 3점, 관심 기업(LG디스플레이) +1, 매체 6곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-19T08:38:01Z",
+      "updated_at": "2026-11-20T04:50:10Z",
+      "articles": [
+        {
+          "key": "b2317b9f0c4ba8ae",
+          "title": "LG디스플레이, 파주 올레드 생산라인 3조원 투자계획 철회",
+          "url": "https://www.yna.co.kr/view/AKR20261119157800003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-19T08:38:01Z"
+        },
+        {
+          "key": "14f9e6029bb1c6b0",
+          "title": "LG디스플레이, 파주 OLED 3조원 투자 철회…7년 만에 백지화",
+          "url": "https://www.inews24.com/view/2028386",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-19T09:07:50Z"
+        },
+        {
+          "key": "2df5c5b2140be706",
+          "title": "LG디스플레이, 파주 10.5세대 OLED 3조 투자 철회",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65689",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-19T09:33:41Z"
+        },
+        {
+          "key": "3ef137f8424d0d34",
+          "title": "LG디스플레이, 10.5세대 대형 OLED 3조원 투자계획 철회",
+          "url": "https://zdnet.co.kr/view/?no=20261120013247",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-19T17:06:33Z"
+        },
+        {
+          "key": "fcd7a326967fcaac",
+          "title": "LG Display scraps US$2.24 billion Gen 10.5 OLED project after seven years as market priorities shift",
+          "url": "https://www.digitimes.com/news/a20261120PD232/lg-display-oled-panel-investment-market-production.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T03:40:41Z"
+        },
+        {
+          "key": "d71506aa4b1fc2de",
+          "title": "LG Display officially cancels its $2.25 billion 10.5-Gen OLED TV line investment at its P10 fab",
+          "url": "https://www.oled-info.com/lg-display-officially-cancels-its-225-billion-105-gen-oled-tv-line-investment",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-20T04:50:10Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261120-1396",
+      "headline": "SK하이닉스, HBM 하이브리드 본딩 장비 Besi에 도입 검토",
+      "summary": [
+        "SK하이닉스가 Besi의 HBM용 하이브리드 본딩 장비 구매를 검토하는 것으로 보도됐다.",
+        "기사에는 구매 규모나 일정에 대한 구체적 수치가 없고, 보도 내용도 공식 발표가 아니다.",
+        "HBM 적층 공정에서 본딩 장비 확보 움직임으로 차세대 HBM 생산 준비와 장비 공급망에 영향을 줄 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "HBM",
+        "하이브리드 본딩",
+        "TC 본더",
+        "HBM 적층 공정"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "Besi"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "SK하이닉스",
+        "Besi"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-20T04:29:24Z",
+      "updated_at": "2026-11-20T04:29:24Z",
+      "articles": [
+        {
+          "key": "535ef208905e7864",
+          "title": "SK Hynix reportedly plans to buy HBM bonding tools from Besi",
+          "url": "https://www.digitimes.com/news/a20261120VL212/sk-hynix-hbm-equipment-dutch-production.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T04:29:24Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261120-1395",
+      "headline": "중국 반도체 매출 급증 속 AI 연산 한계 진단",
+      "summary": [
+        "중국 반도체 매출이 전년 대비 89% 급증했다는 보도와 함께 관련 분석 칼럼이 나왔다.",
+        "기사 본문은 중국반도체산업협회 IC설계분과 위샤오쥔 회장의 사진 캡션만 남아 구체적 수치와 세부 내용은 확인되지 않는다.",
+        "다만 AI 연산 수요가 성장의 한계를 드러낸다는 점은 중국 반도체 산업의 향후 과제를 시사한다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "중국 반도체",
+        "AI 연산",
+        "IC 설계",
+        "반도체 매출"
+      ],
+      "companies": [],
+      "event_type": "칼럼·인터뷰",
+      "confirmed": true,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "칼럼·인터뷰 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-20T04:16:41Z",
+      "updated_at": "2026-11-20T04:16:41Z",
+      "articles": [
+        {
+          "key": "1a470fc1fa3e9226",
+          "title": "Commentary: China's chip sales surge 89%, but AI computing exposes the limits of growth",
+          "url": "https://www.digitimes.com/news/a20261120VL213/sales-growth-2026-performance-packaging.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T04:16:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261120-1376",
       "headline": "SK하이닉스, SC26서 메모리 중심 AI 랙 시스템 공개",
@@ -53,6 +318,59 @@
       ],
       "type_checked": true,
       "importance_raw": 3
+    },
+    {
+      "id": "c20261120-1394",
+      "headline": "국산 NPU 실증·판로 확대, 정부 범부처 지원 나서",
+      "summary": [
+        "대통령 직속 국가AI전략위원회가 광주·영암·해남 일대를 방문해 국산 NPU 상용화 현황을 점검했다.",
+        "리벨리온·퓨리오사AI 등 NPU 개발사 7곳과 간담회를 열고 성능 검증, 초기 도입 사례, 판로 확대를 논의했다.",
+        "국산 NPU 검증 기반이 확충되면서 국내 AI 반도체의 실제 현장 레퍼런스 확보에 도움이 될 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "NPU",
+        "국산 AI 반도체",
+        "K-퍼프",
+        "AI 풀스택",
+        "국가AI컴퓨팅센터"
+      ],
+      "companies": [
+        "리벨리온",
+        "퓨리오사AI",
+        "하이퍼엑셀",
+        "디노티시아",
+        "딥엑스",
+        "모빌린트",
+        "엣지에이아이",
+        "HD현대삼호"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "리벨리온",
+        "퓨리오사AI"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T04:00:01Z",
+      "updated_at": "2026-11-20T04:00:01Z",
+      "articles": [
+        {
+          "key": "66f5f62747294a8c",
+          "title": "국산 NPU 7개사 만난 국가AI전략위…\"실증부터 판로까지 지원\"",
+          "url": "https://zdnet.co.kr/view/?no=20261120103721",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-20T04:00:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261120-1393",
@@ -142,82 +460,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261119-1356",
-      "headline": "LG디스플레이 10.5세대 OLED 투자 철회, 7년 만에 백지화",
-      "summary": [
-        "LG디스플레이가 파주 10.5세대 대형 OLED 투자계획을 약 2조2400만 달러(약 3조원) 규모로 철회했다.",
-        "프로젝트는 7년간 추진됐으나 시장 우선순위 변화에 따라 백지화됐다고 보도됐다.",
-        "대형 OLED 증설 계획이 접히면서 국내 디스플레이 업계의 설비 투자 방향에 영향을 줄 전망이다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "10.5세대 OLED",
-        "대형 OLED",
-        "설비 투자",
-        "파주"
-      ],
-      "companies": [
-        "LG디스플레이"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": true,
-      "parties": [
-        "LG디스플레이"
-      ],
-      "importance": 5,
-      "importance_reason": "설비 투자 3점, 관심 기업(LG디스플레이) +1, 매체 5곳 보도 +1 → 5점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-19T08:38:01Z",
-      "updated_at": "2026-11-20T03:40:41Z",
-      "articles": [
-        {
-          "key": "b2317b9f0c4ba8ae",
-          "title": "LG디스플레이, 파주 올레드 생산라인 3조원 투자계획 철회",
-          "url": "https://www.yna.co.kr/view/AKR20261119157800003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-19T08:38:01Z"
-        },
-        {
-          "key": "14f9e6029bb1c6b0",
-          "title": "LG디스플레이, 파주 OLED 3조원 투자 철회…7년 만에 백지화",
-          "url": "https://www.inews24.com/view/2028386",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-19T09:07:50Z"
-        },
-        {
-          "key": "2df5c5b2140be706",
-          "title": "LG디스플레이, 파주 10.5세대 OLED 3조 투자 철회",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65689",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-19T09:33:41Z"
-        },
-        {
-          "key": "3ef137f8424d0d34",
-          "title": "LG디스플레이, 10.5세대 대형 OLED 3조원 투자계획 철회",
-          "url": "https://zdnet.co.kr/view/?no=20261120013247",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-19T17:06:33Z"
-        },
-        {
-          "key": "fcd7a326967fcaac",
-          "title": "LG Display scraps US$2.24 billion Gen 10.5 OLED project after seven years as market priorities shift",
-          "url": "https://www.digitimes.com/news/a20261120PD232/lg-display-oled-panel-investment-market-production.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-20T03:40:41Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 5
     },
     {
       "id": "c20261120-1391",
@@ -1107,53 +1349,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261120-1374",
-      "headline": "바커, CPO용 광인터커넥트 소재 정부 과제 선정",
-      "summary": [
-        "바커케미칼코리아가 산업통상부 산하 기관이 총괄하는 실리콘 기반 광학소재·광인터커넥트 개발 과제에 선정됐다.",
-        "과제의 핵심은 CPO에 쓸 고지향성 나노LED 광원과 PFAS-free 광인터커넥트를 개발하는 것이다.",
-        "회사가 주관연구기관을 맡고 대학·연구센터가 참여해 차세대 광 패키징 기술 확보에 나선다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "CPO",
-        "광인터커넥트",
-        "나노LED",
-        "PFAS-free",
-        "실리콘 포토닉스"
-      ],
-      "companies": [
-        "바커케미칼코리아",
-        "한국광기술원",
-        "조선대학교"
-      ],
-      "event_type": "채용·인력",
-      "confirmed": true,
-      "parties": [
-        "바커케미칼코리아"
-      ],
-      "importance": 2,
-      "importance_reason": "채용·인력 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-20T00:10:00Z",
-      "updated_at": "2026-11-20T00:10:00Z",
-      "articles": [
-        {
-          "key": "b61c8c77beeeedfb",
-          "title": "바커, 차세대 반도체 공동 패키징 광학용 광인터커넥트 소재 개발 정부 과제 선정",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=410053",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-20T00:10:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261120-1373",
