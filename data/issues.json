@@ -1,7 +1,97 @@
 {
   "version": 1,
-  "updated_at": "2026-11-21T07:27:11Z",
+  "updated_at": "2026-11-21T09:00:22Z",
   "issues": [
+    {
+      "id": "c20261121-1431",
+      "headline": "삼성전자·SK하이닉스 급락, AI 거품 우려에 반도체 전망 엇갈려",
+      "summary": [
+        "미국 기술주 매도세와 AI 거품 우려 속에 삼성전자와 SK하이닉스 주가가 금요일 급락했다.",
+        "삼성전자는 7.01% 하락한 18만3100원, SK하이닉스는 5.92% 하락한 111만3000원에 마감했으며 외국인과 기관이 대규모 순매도했다.",
+        "반도체 업황에 대한 증권가 시각이 갈리면서 단기 변동성이 커진 모습이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 거품 우려",
+        "주가 급락",
+        "외국인 순매도",
+        "반도체 업황 전망"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": true,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-21T07:48:43Z",
+      "updated_at": "2026-11-21T07:48:43Z",
+      "articles": [
+        {
+          "key": "8bf961d17d8beb6e",
+          "title": "Samsung, SK hynix tumble as analysts split on chip outlook",
+          "url": "https://www.koreaherald.com/article/10944729",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-21T07:48:43Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261121-1430",
+      "headline": "삼성전자·오우라 스마트링 특허분쟁 ITC 1차 결론 연기",
+      "summary": [
+        "미국 ITC가 삼성전자와 오우라의 스마트링 특허침해조사 1차 결론 발표를 12월 22일까지로 미뤘다.",
+        "최종결론 발표 예정일도 2027년 3월 22일에서 4월 22일로 한 달 연기됐으며 오우라는 특허 4건 침해를 주장한다.",
+        "판정 결과에 따라 갤럭시링 미국 수입 금지나 로열티 지급 부담이 생길 수 있어 업계의 관심이 크다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "스마트링",
+        "특허침해조사",
+        "ITC",
+        "갤럭시링",
+        "특허심판"
+      ],
+      "companies": [
+        "삼성전자",
+        "오우라"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "오우라"
+      ],
+      "importance": 4,
+      "importance_reason": "소송·특허 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-21T07:22:45Z",
+      "updated_at": "2026-11-21T07:22:45Z",
+      "articles": [
+        {
+          "key": "51d9efcd4c3a6615",
+          "title": "삼성-오우라 美ITC 특허분쟁 1차결론 발표 연기",
+          "url": "https://zdnet.co.kr/view/?no=20261121155831",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-21T07:22:45Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
     {
       "id": "c20261121-1429",
       "headline": "솔리드위자드, AI·반도체 주문 2027년까지 기대",
