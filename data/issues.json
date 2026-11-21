@@ -1,7 +1,47 @@
 {
   "version": 1,
-  "updated_at": "2026-11-20T23:59:02Z",
+  "updated_at": "2026-11-21T01:28:24Z",
   "issues": [
+    {
+      "id": "c20261121-1426",
+      "headline": "반도체 호황의 고용 파급효과는 미미하다는 분석",
+      "summary": [
+        "AI 산업 성장으로 국내 반도체 산업이 호황을 맞고 있다는 내용의 기사다.",
+        "기사에 따르면 반도체 호황의 경제 전반 확산 효과는 제한적이며, 10억원당 취업유발 인원은 2.4명 수준이다.",
+        "반도체 업황과 국내 고용 효과 사이의 괴리를 보여주며, 산업 파급 정책의 필요성을 시사한다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "취업유발효과",
+        "AI반도체",
+        "반도체 호황",
+        "산업 파급효과"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-21T00:00:00Z",
+      "updated_at": "2026-11-21T00:00:00Z",
+      "articles": [
+        {
+          "key": "4b6615fd51d03693",
+          "title": "\"반도체 호황에도 파급 미미…10억원당 취업유발 2.4명\"",
+          "url": "https://www.yna.co.kr/view/AKR20261120167400002",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-21T00:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261120-1425",
       "headline": "겔싱어, 유럽의 반도체 기업 공백과 첨단 로직 경쟁 한계 지적",
