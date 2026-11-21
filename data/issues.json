@@ -1,7 +1,60 @@
 {
   "version": 1,
-  "updated_at": "2026-11-21T21:54:24Z",
+  "updated_at": "2026-11-21T22:54:25Z",
   "issues": [
+    {
+      "id": "c20261120-1380",
+      "headline": "마이크론, 싱가포르 HBM 패키징 공장 장비 반입 완료",
+      "summary": [
+        "마이크론이 70억 달러 규모 싱가포르 HBM 첨단 패키징 공장에 첫 공정 장비를 반입했다.",
+        "전체 일정은 순조로우며 2027년 초 양산 시작이 예상되고 투자는 2030년 이후까지 이어진다.",
+        "대만 노사 갈등과 대조되며, 불확실성이 지속되면 마이크론의 투자 무게추가 싱가포르로 옮겨갈 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM",
+        "첨단 패키징",
+        "싱가포르 공장",
+        "노사 갈등",
+        "낸드플래시"
+      ],
+      "companies": [
+        "마이크론"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "마이크론"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-20T01:41:35Z",
+      "updated_at": "2026-11-21T22:00:01Z",
+      "articles": [
+        {
+          "key": "c77d72e38a90dcf9",
+          "title": "Micron moves first equipment into Singapore high-bandwidth memory plant, eyes 2027 production start",
+          "url": "https://www.digitimes.com/news/a20261120PD200/micron-equipment-production-hbm-2027.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T01:41:35Z"
+        },
+        {
+          "key": "25d0f164719816cc",
+          "title": "대만 노사갈등 겪는 마이크론…싱가포르 HBM 공장은 '순항'",
+          "url": "https://zdnet.co.kr/view/?no=20261121200700",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-21T22:00:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261121-1437",
       "headline": "대기업 영업익 급증에도 기부금 감소, SK하이닉스 포함",
@@ -3216,50 +3269,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261120-1380",
-      "headline": "마이크론, 싱가포르 HBM 공장 장비 반입 시작",
-      "summary": [
-        "마이크론이 싱가포르 고대역폭메모리(HBM) 공장에 첫 장비를 들여오기 시작했다.",
-        "기사 본문은 사진 출처 표기만 있어 구체적 투자 규모와 세부 일정은 확인되지 않는다.",
-        "2027년 생산 개시를 목표로 하고 있어 HBM 공급 능력 확대 흐름에 영향을 줄 전망이다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "HBM",
-        "싱가포르 공장",
-        "2027년 양산",
-        "마이크론"
-      ],
-      "companies": [
-        "마이크론"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": true,
-      "parties": [
-        "마이크론"
-      ],
-      "importance": 3,
-      "importance_reason": "설비 투자 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-20T01:41:35Z",
-      "updated_at": "2026-11-20T01:41:35Z",
-      "articles": [
-        {
-          "key": "c77d72e38a90dcf9",
-          "title": "Micron moves first equipment into Singapore high-bandwidth memory plant, eyes 2027 production start",
-          "url": "https://www.digitimes.com/news/a20261120PD200/micron-equipment-production-hbm-2027.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-20T01:41:35Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261120-1379",
