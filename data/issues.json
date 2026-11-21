@@ -1,7 +1,54 @@
 {
   "version": 1,
-  "updated_at": "2026-11-21T02:59:30Z",
+  "updated_at": "2026-11-21T04:06:09Z",
   "issues": [
+    {
+      "id": "c20261121-1427",
+      "headline": "소프트뱅크, SK하이닉스 인수 자금 조달 타진 보도",
+      "summary": [
+        "손정의 소프트뱅크 회장이 SK하이닉스 인수를 위해 월가 금융기관에 자금 조달 방안을 문의했다는 보도가 나왔다.",
+        "보도는 디인포메이션 보도를 인용한 로이터 통신 전달 내용으로, 인수 규모가 1조달러 수준이라고 전해졌다.",
+        "공식 확인이 없는 협상 단계 소식으로, 인수가 성사될 경우 국내 메모리 업계 지형에 큰 변화를 줄 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "SK하이닉스 인수",
+        "소프트뱅크",
+        "자금 조달",
+        "M&A",
+        "메모리"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "소프트뱅크그룹"
+      ],
+      "event_type": "인수합병",
+      "confirmed": false,
+      "parties": [
+        "소프트뱅크그룹",
+        "SK하이닉스"
+      ],
+      "importance": 2,
+      "importance_reason": "인수합병 2점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-21T04:03:38Z",
+      "updated_at": "2026-11-21T04:03:38Z",
+      "articles": [
+        {
+          "key": "d4fea70169d6c321",
+          "title": "日 소프트뱅크가 SK하이닉스 1조달러 인수?…미 언론 보도",
+          "url": "https://www.dt.co.kr/article/12096402",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-21T04:03:38Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261121-1426",
       "headline": "반도체 호황의 고용 파급효과는 미미하다는 분석",
