@@ -1,7 +1,51 @@
 {
   "version": 1,
-  "updated_at": "2026-11-21T14:13:44Z",
+  "updated_at": "2026-11-21T15:03:13Z",
   "issues": [
+    {
+      "id": "c20261121-1433",
+      "headline": "트럼프, 젠슨 황 사과와 엔비디아 복귀 요구 발언",
+      "summary": [
+        "트럼프 대统령이 젠슨 황 엔비디아 CEO에게 사과하고 회사로 복귀해야 한다는 취지로 말했다고 보도됐다.",
+        "기사 본문은 사진 출처 표기만 있어 발언의 배경과 세부 내용은 확인되지 않는다.",
+        "정치권 발언이 엔비디아 경영진 문제로 이어질 경우 경영 안정성과 미국 정책 리스크에 대한 관심이 커질 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "젠슨 황",
+        "엔비디아",
+        "미국 정책 리스크",
+        "경영진"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-21T14:14:02Z",
+      "updated_at": "2026-11-21T14:14:02Z",
+      "articles": [
+        {
+          "key": "3f880115df4b98bd",
+          "title": "Trump says Jensen Huang should apologize and return to Nvidia",
+          "url": "https://www.digitimes.com/news/a20261121VL200/nvidia-donald-trump-jensen-huang-taiwan-taipei.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-21T14:14:02Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261121-1432",
       "headline": "KTG, 새한하이테크 마스크 연마장치 특허 무효화 실패",
