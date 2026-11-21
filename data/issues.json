@@ -1,7 +1,95 @@
 {
   "version": 1,
-  "updated_at": "2026-11-21T04:06:09Z",
+  "updated_at": "2026-11-21T05:08:48Z",
   "issues": [
+    {
+      "id": "c20261121-1429",
+      "headline": "솔리드위자드, AI·반도체 주문 2027년까지 기대",
+      "summary": [
+        "솔리드위자드가 AI와 반도체 분야의 주문이 2027년까지 이어질 것으로 내다봤다는 보도가 나왔다.",
+        "기사 본문은 사진 출처 표기만 담겨 있어 구체적인 주문 규모나 수치는 확인되지 않는다.",
+        "정확한 근거가 부족해 해당 전망이 산업 전반에 주는 의미는 판단하기 어렵다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI",
+        "반도체 주문",
+        "2027 전망",
+        "솔리드위자드"
+      ],
+      "companies": [
+        "솔리드위자드"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [
+        "솔리드위자드"
+      ],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-21T04:04:46Z",
+      "updated_at": "2026-11-21T04:04:46Z",
+      "articles": [
+        {
+          "key": "e15e825ca7c3a87d",
+          "title": "SolidWizard sees AI, semiconductor orders through 2027",
+          "url": "https://www.digitimes.com/news/a20261118PD209/semiconductors-2027-investment-software-demand.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-21T04:04:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261121-1428",
+      "headline": "마이크론 대만 노사 분쟁 확산, 행정원장 근로자 보호 요구",
+      "summary": [
+        "마이크론 대만 법인을 둘러싼 노사 분쟁이 격화되며 대만 행정원장이 근로자 보호를 촉구했다.",
+        "기사 본문이 거의 없어 구체적 쟁점과 수치, 일정은 확인되지 않는다.",
+        "반도체 생산 거점의 노사 갈등이 공급 안정성과 정부 개입 가능성에 영향을 줄 수 있어 주목된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "마이크론",
+        "노사 분쟁",
+        "대만",
+        "근로자 보호"
+      ],
+      "companies": [
+        "마이크론"
+      ],
+      "event_type": "인수합병",
+      "confirmed": false,
+      "parties": [
+        "마이크론"
+      ],
+      "importance": 1,
+      "importance_reason": "인수합병 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-21T04:03:39Z",
+      "updated_at": "2026-11-21T04:03:39Z",
+      "articles": [
+        {
+          "key": "e8efeb712dfbd972",
+          "title": "Micron labor dispute in Taiwan heats up as premier calls for worker protection",
+          "url": "https://www.digitimes.com/news/a20261118PD247/micron-taiwan-labor-investment-government.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-21T04:03:39Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261121-1427",
       "headline": "소프트뱅크, SK하이닉스 인수 자금 조달 타진 보도",
