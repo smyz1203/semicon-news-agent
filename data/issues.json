@@ -1,7 +1,49 @@
 {
   "version": 1,
-  "updated_at": "2026-11-21T15:03:13Z",
+  "updated_at": "2026-11-21T15:58:05Z",
   "issues": [
+    {
+      "id": "c20261121-1434",
+      "headline": "라피더스, 2나노 SRAM 수율 난항에 2027년 양산 차질 우려",
+      "summary": [
+        "라피더스가 2나노 공정에서 정상 동작하는 SRAM을 생산하는 데 어려움을 겪고 있다는 보도가 나왔다.",
+        "기사 본문에는 구체적 수치나 일정 변경 내용이 없어 확인 가능한 세부 사항은 제한적이다.",
+        "이 상황이 사실이라면 2027년 양산 일정이 불확실해져 일본 파운드리 전략에 부담이 될 수 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "2나노",
+        "라피더스",
+        "SRAM",
+        "양산 일정"
+      ],
+      "companies": [
+        "라피더스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-21T15:30:00Z",
+      "updated_at": "2026-11-21T15:30:00Z",
+      "articles": [
+        {
+          "key": "9634ffc7b9ab364f",
+          "title": "Rapidus reportedly struggles to produce working SRAM on its 2nm node, putting 2027 mass production at risk",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/rapidus-reportedly-struggles-to-produce-working-sram-on-its-2nm-node-putting-2027-mass-production-at-risk-company-faces-significant-challenges-using-euv-to-develop-gaa-transistors",
+          "source": "Tom's Hardware",
+          "lang": "en",
+          "published_at": "2026-11-21T15:30:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261121-1433",
       "headline": "트럼프, 젠슨 황 사과와 엔비디아 복귀 요구 발언",
