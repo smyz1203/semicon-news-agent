@@ -1,7 +1,109 @@
 {
   "version": 1,
-  "updated_at": "2026-11-21T09:00:22Z",
+  "updated_at": "2026-11-21T10:00:16Z",
   "issues": [
+    {
+      "id": "c20261121-1432",
+      "headline": "KTG, 새한하이테크 마스크 연마장치 특허 무효화 실패",
+      "summary": [
+        "특허심판원이 새한하이테크의 포토마스크 연마장치 특허를 유효하다고 심결하며 KTG의 무효심판을 기각했다.",
+        "KTG는 2026년 2월 무효심판을 청구했으며 불복 시 특허법원에 심결취소소송을 제기할 수 있다.",
+        "디스플레이 포토마스크 연마 특허를 둘러싼 업체 간 분쟁으로, 중소 부품사의 특허 경쟁 구도를 보여준다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "포토마스크",
+        "연마장치",
+        "특허 무효심판",
+        "석영 연마",
+        "디스플레이 부품"
+      ],
+      "companies": [
+        "KTG",
+        "새한하이테크"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "KTG",
+        "새한하이테크"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-21T08:58:52Z",
+      "updated_at": "2026-11-21T08:58:52Z",
+      "articles": [
+        {
+          "key": "63a86563aaecd90b",
+          "title": "KTG, 새한하이테크 마스크 연마장치 특허 무효화 무산",
+          "url": "https://zdnet.co.kr/view/?no=20261121175722",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-21T08:58:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261121-1427",
+      "headline": "소프트뱅크 SK하이닉스 1조달러 인수 검토 보도",
+      "summary": [
+        "미국 디인포메이션이 손정의 회장의 SK하이닉스 인수 검토를 보도했다.",
+        "논의된 인수 규모는 1조 달러이며 월가 금융기관과 자금 조달 가능성을 타진했다고 전했다.",
+        "소프트뱅크는 현재는 적극 검토하지 않는다고 밝혀 실제 인수 추진 가능성은 낮아 보인다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "SK하이닉스",
+        "인수합병",
+        "AI인프라투자",
+        "소프트뱅크",
+        "Arm"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "소프트뱅크",
+        "Arm"
+      ],
+      "event_type": "인수합병",
+      "confirmed": false,
+      "parties": [
+        "소프트뱅크"
+      ],
+      "importance": 1,
+      "importance_reason": "인수합병 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-21T04:03:38Z",
+      "updated_at": "2026-11-21T08:55:29Z",
+      "articles": [
+        {
+          "key": "d4fea70169d6c321",
+          "title": "日 소프트뱅크가 SK하이닉스 1조달러 인수?…미 언론 보도",
+          "url": "https://www.dt.co.kr/article/12096402",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-21T04:03:38Z"
+        },
+        {
+          "key": "d6a1a8ee536eb57e",
+          "title": "\"손정의, SK하이닉스 1조달러 인수 검토…현재는 아냐\"",
+          "url": "https://zdnet.co.kr/view/?no=20261121174004",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-21T08:55:29Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261121-1431",
       "headline": "삼성전자·SK하이닉스 급락, AI 거품 우려에 반도체 전망 엇갈려",
@@ -179,53 +281,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261121-1427",
-      "headline": "소프트뱅크, SK하이닉스 인수 자금 조달 타진 보도",
-      "summary": [
-        "손정의 소프트뱅크 회장이 SK하이닉스 인수를 위해 월가 금융기관에 자금 조달 방안을 문의했다는 보도가 나왔다.",
-        "보도는 디인포메이션 보도를 인용한 로이터 통신 전달 내용으로, 인수 규모가 1조달러 수준이라고 전해졌다.",
-        "공식 확인이 없는 협상 단계 소식으로, 인수가 성사될 경우 국내 메모리 업계 지형에 큰 변화를 줄 수 있다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "SK하이닉스 인수",
-        "소프트뱅크",
-        "자금 조달",
-        "M&A",
-        "메모리"
-      ],
-      "companies": [
-        "SK하이닉스",
-        "소프트뱅크그룹"
-      ],
-      "event_type": "인수합병",
-      "confirmed": false,
-      "parties": [
-        "소프트뱅크그룹",
-        "SK하이닉스"
-      ],
-      "importance": 2,
-      "importance_reason": "인수합병 2점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-21T04:03:38Z",
-      "updated_at": "2026-11-21T04:03:38Z",
-      "articles": [
-        {
-          "key": "d4fea70169d6c321",
-          "title": "日 소프트뱅크가 SK하이닉스 1조달러 인수?…미 언론 보도",
-          "url": "https://www.dt.co.kr/article/12096402",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-21T04:03:38Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261121-1426",
