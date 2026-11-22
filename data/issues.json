@@ -1,7 +1,47 @@
 {
   "version": 1,
-  "updated_at": "2026-11-22T21:56:46Z",
+  "updated_at": "2026-11-22T22:56:57Z",
   "issues": [
+    {
+      "id": "c20261122-1450",
+      "headline": "메모리 가격 급등에 AI 서버 계약가 최대 45% 인상",
+      "summary": [
+        "메모리 가격 급등으로 AI 서버 공급업체들이 계약 체결 후에도 가격을 올리는 사례가 나타났다.",
+        "기사에 따르면 일부 AI 서버는 당초 계약 금액보다 최대 45% 높은 가격을 요구받고 있다.",
+        "메모리 원가 부담이 서버 가격으로 전가되면서 AI 인프라 투자 비용 부담이 커질 전망이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "메모리 가격",
+        "AI 서버",
+        "가격 인상",
+        "원가 전가"
+      ],
+      "companies": [],
+      "event_type": "가격 동향",
+      "confirmed": true,
+      "parties": [],
+      "importance": 3,
+      "importance_reason": "가격 동향 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-22T22:10:59Z",
+      "updated_at": "2026-11-22T22:10:59Z",
+      "articles": [
+        {
+          "key": "1523a46493947af7",
+          "title": "메모리값 폭등에 AI 서버도 ‘고무줄 가격’…“계약 뒤 45% 인상”",
+          "url": "https://www.dt.co.kr/article/12096596",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-22T22:10:59Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261122-1449",
       "headline": "베선트 재무, 엔비디아 규정준수 문제 강조",
