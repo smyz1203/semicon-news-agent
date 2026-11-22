@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updated_at": "2026-11-22T05:11:55Z",
+  "updated_at": "2026-11-22T06:10:07Z",
   "issues": [
     {
       "id": "c20261118-1301",
@@ -814,6 +814,94 @@
       "importance_raw": 4
     },
     {
+      "id": "c20261120-1385",
+      "headline": "SK하이닉스, 키옥시아 간접 최대주주 등극 예정",
+      "summary": [
+        "SK하이닉스가 키옥시아 투자법인 SPC2의 전환사채를 보통주로 전환하고 추가 지분을 취득한다고 공시했다.",
+        "전환 예정일은 12월 4일이며, 1290억엔 규모 CB를 12만9000주로 바꾸고 베인캐피털 지분 1001주를 1억엔에 사들인다.",
+        "전환이 완료되면 SK하이닉스는 SPC2를 100% 보유해 키옥시아 지분 14.1%를 간접 확보하게 된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "키옥시아",
+        "전환사채",
+        "지분 인수",
+        "낸드플래시",
+        "SPC2"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "키옥시아",
+        "베인캐피털"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스",
+        "베인캐피털"
+      ],
+      "importance": 4,
+      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1, 매체 4곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-20T02:12:00Z",
+      "updated_at": "2026-11-21T06:00:00Z",
+      "articles": [
+        {
+          "key": "fc2c2970ea912c09",
+          "title": "SK하이닉스, 일본 키옥시아 전환사채 주식전환 검토",
+          "url": "https://www.yna.co.kr/view/AKR20261120068900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T02:12:00Z"
+        },
+        {
+          "key": "4a28f4a94829939d",
+          "title": "SK하이닉스, 日 키옥시아 전환사채 주식 전환 검토",
+          "url": "https://www.inews24.com/view/2028697",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-20T05:57:26Z"
+        },
+        {
+          "key": "aa81a082e75bce32",
+          "title": "SK하이닉스, 일본 키옥시아 전환사채 주식 전환…14.1% 보유(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261120068951003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T07:17:46Z"
+        },
+        {
+          "key": "c9af9c7975121f4f",
+          "title": "SK하이닉스, 日 키옥시아 전환사채 주식 전환…지분 14.1% 보유",
+          "url": "https://www.inews24.com/view/2028777",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-20T07:49:51Z"
+        },
+        {
+          "key": "c2e0bfd13d7bc2d9",
+          "title": "SK하이닉스, 日키오시아 전환사채 주식 전환...지분율 14.1%",
+          "url": "https://zdnet.co.kr/view/?no=20261120162914",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-20T08:29:57Z"
+        },
+        {
+          "key": "aca328a83f0c8ee4",
+          "title": "[Weekly Issue] SK하이닉스, 키옥시아 투자법인 전환사채 주식 전환…지분 14.1% 간접 보유한 최대주주 등극",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343575",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-21T06:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
       "id": "c20261121-1429",
       "headline": "솔리드위자드, AI·반도체 주문 2027년까지 기대",
       "summary": [
@@ -1552,84 +1640,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261120-1385",
-      "headline": "SK하이닉스, 키옥시아 전환사채 주식 전환해 지분 14.1% 확보",
-      "summary": [
-        "SK하이닉스가 일본 키옥시아의 전환사채를 주식으로 전환해 지분 14.1%를 보유하게 됐다는 보도가 나왔다.",
-        "초기에는 전환을 검토한다는 기사가 먼저 나왔고, 이후 주식 전환이 실제로 이뤄졌다는 내용으로 이어졌다.",
-        "메모리 업계에서 키옥시아와의 지분 관계가 강화된 사안으로, 향후 협력 방향에 주목할 필요가 있다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "키옥시아",
-        "전환사채",
-        "지분 투자",
-        "낸드플래시"
-      ],
-      "companies": [
-        "SK하이닉스",
-        "키옥시아"
-      ],
-      "event_type": "재무·주주",
-      "confirmed": true,
-      "parties": [
-        "SK하이닉스",
-        "키옥시아"
-      ],
-      "importance": 4,
-      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1, 매체 3곳 보도 +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-20T02:12:00Z",
-      "updated_at": "2026-11-20T08:29:57Z",
-      "articles": [
-        {
-          "key": "fc2c2970ea912c09",
-          "title": "SK하이닉스, 일본 키옥시아 전환사채 주식전환 검토",
-          "url": "https://www.yna.co.kr/view/AKR20261120068900003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-20T02:12:00Z"
-        },
-        {
-          "key": "4a28f4a94829939d",
-          "title": "SK하이닉스, 日 키옥시아 전환사채 주식 전환 검토",
-          "url": "https://www.inews24.com/view/2028697",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-20T05:57:26Z"
-        },
-        {
-          "key": "aa81a082e75bce32",
-          "title": "SK하이닉스, 일본 키옥시아 전환사채 주식 전환…14.1% 보유(종합)",
-          "url": "https://www.yna.co.kr/view/AKR20261120068951003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-20T07:17:46Z"
-        },
-        {
-          "key": "c9af9c7975121f4f",
-          "title": "SK하이닉스, 日 키옥시아 전환사채 주식 전환…지분 14.1% 보유",
-          "url": "https://www.inews24.com/view/2028777",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-20T07:49:51Z"
-        },
-        {
-          "key": "c2e0bfd13d7bc2d9",
-          "title": "SK하이닉스, 日키오시아 전환사채 주식 전환...지분율 14.1%",
-          "url": "https://zdnet.co.kr/view/?no=20261120162914",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-20T08:29:57Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
     },
     {
       "id": "c20261120-1415",
