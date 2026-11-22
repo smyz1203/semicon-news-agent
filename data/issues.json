@@ -1,7 +1,52 @@
 {
   "version": 1,
-  "updated_at": "2026-11-22T14:09:54Z",
+  "updated_at": "2026-11-22T14:59:57Z",
   "issues": [
+    {
+      "id": "c20261122-1448",
+      "headline": "시노펙스 정민재 부사장, 중견기업인의 날 대통령상 수상",
+      "summary": [
+        "시노펙스 정민재 부사장이 핵심 부품·소재 국산화 공로로 대통령상을 받았다고 회사가 밝혔다.",
+        "수상은 제12회 중견기업인의 날 행사에서 이뤄졌고, 반도체 공정용 필터는 약 5년간 자체 기술개발로 국산화했다.",
+        "반도체·수처리·의료 분야 해외 의존 부품의 국산화 성과가 인정받은 사례로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "반도체 공정용 필터",
+        "국산화",
+        "중견기업인의 날",
+        "대통령상",
+        "수처리 멤브레인"
+      ],
+      "companies": [
+        "시노펙스"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "시노펙스"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-22T14:27:36Z",
+      "updated_at": "2026-11-22T14:27:36Z",
+      "articles": [
+        {
+          "key": "6de7515f62a74247",
+          "title": "정민재 시노펙스 부사장, 중견기업인의 날 대통령상",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65719",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-22T14:27:36Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261122-1447",
       "headline": "AI 에이전트가 새 CPU 아키텍처를 설계했다는 주장",
