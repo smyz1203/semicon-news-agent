@@ -1,7 +1,46 @@
 {
   "version": 1,
-  "updated_at": "2026-11-22T11:54:58Z",
+  "updated_at": "2026-11-22T13:11:49Z",
   "issues": [
+    {
+      "id": "c20261122-1447",
+      "headline": "AI 에이전트가 새 CPU 아키텍처를 설계했다는 주장",
+      "summary": [
+        "스타트업이 AI 에이전트로 CPU 아키텍처를 처음부터 설계했다고 주장했다.",
+        "기사 본문은 필자 소개만 담겨 있어 구체적인 설계 성능이나 일정은 확인되지 않는다.",
+        "다만 AI의 칩 설계 자동화 가능성을 보여주는 사례로, 설계 업계에 관심을 끌 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 에이전트",
+        "CPU 아키텍처",
+        "칩 설계 자동화"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-22T13:00:00Z",
+      "updated_at": "2026-11-22T13:00:00Z",
+      "articles": [
+        {
+          "key": "e1f402bb49a6062a",
+          "title": "AI agents design an entirely new CPU architecture from scratch, startup claims",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/ai-agents-design-an-entirely-new-cpu-architecture-from-scratch-startup-claims-frostbite-posts-4-59x-the-performance-per-watt-of-an-in-order-core-in-pre-silicon-tests",
+          "source": "Tom's Hardware",
+          "lang": "en",
+          "published_at": "2026-11-22T13:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261122-1446",
       "headline": "김정관 장관 “반도체 절박” 발언, 업계 심리 위축",
