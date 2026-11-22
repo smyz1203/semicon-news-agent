@@ -1,7 +1,51 @@
 {
   "version": 1,
-  "updated_at": "2026-11-21T23:51:25Z",
+  "updated_at": "2026-11-22T01:26:18Z",
   "issues": [
+    {
+      "id": "c20261122-1438",
+      "headline": "메모리 이어 부품 원자잿값 급등, 완제품 원가 부담 확대",
+      "summary": [
+        "메모리 가격 상승에 이어 기판, MLCC 소재, 구리 등 전자부품 원자재 가격도 큰 폭으로 올랐다.",
+        "삼성전자와 LG전자 등 가전·스마트폰 완제품 업체들의 원가 부담이 커지고 있는 것으로 나타났다.",
+        "메모리를 넘어 부품 전반으로 원가 상승이 번지며 완제품 가격 인상 압력이 높아질 전망이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "칩플레이션",
+        "MLCC",
+        "원자재 가격",
+        "메모리 가격",
+        "원가 부담"
+      ],
+      "companies": [
+        "삼성전자",
+        "LG전자"
+      ],
+      "event_type": "가격 동향",
+      "confirmed": true,
+      "parties": [],
+      "importance": 3,
+      "importance_reason": "가격 동향 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-22T00:53:27Z",
+      "updated_at": "2026-11-22T00:53:27Z",
+      "articles": [
+        {
+          "key": "5f61fda2f3a53e2f",
+          "title": "메모리 이어 부품 원자잿값도 급등…삼성·LG 원가 부담 가중",
+          "url": "https://www.dt.co.kr/article/12096455",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-22T00:53:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261120-1380",
       "headline": "마이크론, 싱가포르 HBM 패키징 공장 장비 반입 완료",
