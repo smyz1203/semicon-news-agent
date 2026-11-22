@@ -1,7 +1,49 @@
 {
   "version": 1,
-  "updated_at": "2026-11-22T09:59:55Z",
+  "updated_at": "2026-11-22T10:58:03Z",
   "issues": [
+    {
+      "id": "c20261122-1446",
+      "headline": "김정관 장관 “반도체 절박” 발언, 업계 심리 위축",
+      "summary": [
+        "김정관 산업통상부 장관이 경제 6단체 대표들과 만나 반도체 업종의 미래에 대한 걱정을 드러냈다.",
+        "장관은 수출 1조달러 돌파 다음날인 20일 대화에서 절박하고 초조하다는 심경을 밝힌 것으로 전해졌다.",
+        "반도체 업계 심리가 꺾였다는 분위기 속에서 향후 산업 전략과 정책 대응에 관심이 쏠릴 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체 심리",
+        "수출 1조달러",
+        "산업통상부",
+        "경제 6단체"
+      ],
+      "companies": [],
+      "event_type": "칼럼·인터뷰",
+      "confirmed": true,
+      "parties": [
+        "산업통상부"
+      ],
+      "importance": 1,
+      "importance_reason": "칼럼·인터뷰 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-22T10:08:04Z",
+      "updated_at": "2026-11-22T10:08:04Z",
+      "articles": [
+        {
+          "key": "de260eecac517d5d",
+          "title": "‘반도체 심리’ 확 꺾였다… 김정관 “초조하고 절박”",
+          "url": "https://www.dt.co.kr/article/12096576",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-22T10:08:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261122-1445",
       "headline": "삼성전자 기부금 확대, SK하이닉스는 축소",
