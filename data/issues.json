@@ -1,7 +1,142 @@
 {
   "version": 1,
-  "updated_at": "2026-11-22T06:10:07Z",
+  "updated_at": "2026-11-22T07:27:13Z",
   "issues": [
+    {
+      "id": "c20261122-1444",
+      "headline": "LG전자, OLED TV로 글로벌 점유율 반등",
+      "summary": [
+        "LG전자가 OLED TV 중심의 프리미엄 전략으로 글로벌 TV 시장 점유율을 끌어올렸다.",
+        "기사 요약본에는 점유율 상승 폭과 정확한 수치가 제시되지 않아 구체적 규모는 확인되지 않는다.",
+        "중국 업체의 저가 공세 속에서 한국 TV 업계가 프리미엄 중심 전략의 효과를 확인했다는 의미가 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED TV",
+        "프리미엄 TV",
+        "점유율",
+        "중국 저가 공세"
+      ],
+      "companies": [
+        "LG전자"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "LG전자"
+      ],
+      "importance": 3,
+      "importance_reason": "시장 전망·통계 2점, 관심 기업(LG전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-22T07:18:45Z",
+      "updated_at": "2026-11-22T07:18:45Z",
+      "articles": [
+        {
+          "key": "38340016857dc374",
+          "title": "LG도 놀랐다…中 밀어내고 TV 점유율 반등",
+          "url": "https://www.dt.co.kr/article/12096539",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-22T07:18:45Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261122-1443",
+      "headline": "호도가야, OLED 소재 호조로 실적 개선·SFC 상장 연기",
+      "summary": [
+        "일본 호도가야케미칼이 2026년 3분기 실적을 발표했으며 매출은 17.9% 증가한 1억 6,760만 달러였다.",
+        "OLED 소재 매출이 신규 스마트폰 모델 출하 확대로 예상보다 강했고, 영업이익은 122% 늘어 2,150만 달러를 기록했다.",
+        "회사는 한국 자회사 SFC의 IPO를 취소가 아닌 연기로 밝혀 OLED 소재 공급망의 수익성 회복 흐름을 보여준다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "OLED 소재",
+        "기능성 색소",
+        "스마트폰 OLED",
+        "SFC",
+        "IPO 연기"
+      ],
+      "companies": [
+        "호도가야케미칼",
+        "SFC",
+        "호도가야케미칼 코리아"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "호도가야케미칼"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-22T07:04:57Z",
+      "updated_at": "2026-11-22T07:04:57Z",
+      "articles": [
+        {
+          "key": "2d63c3e1f9180d9a",
+          "title": "OLED materials lift Hodogaya's first-half results, as it says SFC's IPO is postponed, not abandoned",
+          "url": "https://www.oled-info.com/oled-materials-lift-hodogayas-first-half-results-it-says-sfcs-ipo-postponed-not",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-22T07:04:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261122-1442",
+      "headline": "메모리 가격 급등에 PC 탑재 용량 축소 검토 확산",
+      "summary": [
+        "글로벌 PC 제조사들이 메모리 가격 급등으로 제품 탑재 메모리 용량 축소를 검토 중이다.",
+        "에이수스는 중저가 PC의 메모리를 16GB에서 8GB로 낮추는 방안을 검토하고 있다.",
+        "PC 가격 인상만으로 원가 상승을 흡수하기 어려워 사양 조정까지 나서는 흐름으로, 메모리 수요와 가격 구조에 영향을 줄 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "메모리 가격",
+        "DRAM",
+        "PC 사양",
+        "원가 상승"
+      ],
+      "companies": [
+        "에이수스"
+      ],
+      "event_type": "가격 동향",
+      "confirmed": false,
+      "parties": [
+        "에이수스"
+      ],
+      "importance": 2,
+      "importance_reason": "가격 동향 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-22T07:00:00Z",
+      "updated_at": "2026-11-22T07:00:00Z",
+      "articles": [
+        {
+          "key": "c45eb237b67faadf",
+          "title": "메모리 가격 폭등에 PC 사양 '역주행'…고육지책 꺼낸 제조사",
+          "url": "https://www.etnews.com/20261120000238",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-22T07:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261118-1301",
       "headline": "삼성전자 2027년 사장단 인사, 반도체 3인 승진",
