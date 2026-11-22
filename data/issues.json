@@ -1,7 +1,90 @@
 {
   "version": 1,
-  "updated_at": "2026-11-22T22:56:57Z",
+  "updated_at": "2026-11-22T23:54:45Z",
   "issues": [
+    {
+      "id": "c20261122-1452",
+      "headline": "수요 기업들, 메모리 업체 투자 협력 구상 확산",
+      "summary": [
+        "메리츠증권은 여러 기업이 메모리 중장기 조달을 위해 제조업체에 투자 협력 방안을 구상 중이라고 전했다.",
+        "기사 본문이 일부만 제공되어 구체적인 투자 규모, 상대 기업, 일정은 확인되지 않는다.",
+        "메모리 공급 불안이 이어질 경우 수요처와 공급사 간 장기 계약·지분 협력이 늘 수 있다는 의미다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "메모리",
+        "중장기 조달",
+        "투자 협력",
+        "공급 계약"
+      ],
+      "companies": [
+        "메리츠증권"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-22T23:48:14Z",
+      "updated_at": "2026-11-22T23:48:14Z",
+      "articles": [
+        {
+          "key": "e58817f6650a101a",
+          "title": "메리츠證 \"다양한 수요자들, 메모리 업체 대상 투자 등 협력 구상\"",
+          "url": "https://www.yna.co.kr/view/AKR20261123024200008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-22T23:48:14Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261122-1451",
+      "headline": "정부, AI반도체 글로벌 협력과 공급망 안정화 논의",
+      "summary": [
+        "정부가 국내 AI반도체 기업과 글로벌 빅테크 간 협력 확대를 지원하는 방안을 논의했다.",
+        "메모리와 기판 등 핵심 부품의 공급망 안정화도 함께 다뤄졌으나 구체적 수치와 일정은 기사에 나오지 않았다.",
+        "AI반도체 수요가 커지는 상황에서 핵심 부품 수급이 산업 경쟁력의 관건이 될 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI반도체",
+        "공급망 안정화",
+        "글로벌 협력",
+        "메모리",
+        "기판"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-22T23:00:03Z",
+      "updated_at": "2026-11-22T23:00:03Z",
+      "articles": [
+        {
+          "key": "54291b22f2af521b",
+          "title": "[AI픽] 정부, AI반도체 글로벌 협력 확대·공급망 안정화 논의",
+          "url": "https://www.yna.co.kr/view/AKR20261120150100017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-22T23:00:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261122-1450",
       "headline": "메모리 가격 급등에 AI 서버 계약가 최대 45% 인상",
