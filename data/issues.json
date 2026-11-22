@@ -1,7 +1,53 @@
 {
   "version": 1,
-  "updated_at": "2026-11-22T08:59:45Z",
+  "updated_at": "2026-11-22T09:59:55Z",
   "issues": [
+    {
+      "id": "c20261122-1445",
+      "headline": "삼성전자 기부금 확대, SK하이닉스는 축소",
+      "summary": [
+        "삼성전자는 올해 3분기 누적 기부금을 전년보다 203억 원 늘렸고 SK하이닉스는 120억 원 줄였다.",
+        "기업데이터연구소 CEO스코어가 매출 상위 500대 기업 중 공시한 250곳을 분석한 결과다.",
+        "반도체 호황기에도 기업별 사회공헌 지출 방향이 엇갈렸다는 점이 드러났다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "기부금",
+        "사회공헌",
+        "3분기 누적",
+        "반도체 호황"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스, 삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-22T09:36:00Z",
+      "updated_at": "2026-11-22T09:36:00Z",
+      "articles": [
+        {
+          "key": "e68daaec6bd289ee",
+          "title": "삼성전자 기부금 203억↑·SK하이닉스 120억↓…반도체 호황에도 차이",
+          "url": "https://www.inews24.com/view/2028989",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-22T09:36:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261122-1444",
       "headline": "LG전자, OLED TV로 글로벌 점유율 반등",
