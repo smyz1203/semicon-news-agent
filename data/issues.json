@@ -1,7 +1,51 @@
 {
   "version": 1,
-  "updated_at": "2026-11-22T19:59:01Z",
+  "updated_at": "2026-11-22T20:56:56Z",
   "issues": [
+    {
+      "id": "c20261122-1449",
+      "headline": "베선트 재무, 엔비디아 규정준수 문제 강조",
+      "summary": [
+        "미국 재무부 장관 베선트가 엔비디아 논란의 본질은 젠슨 황 개인 사안이 아니라고 밝혔다.",
+        "베선트는 22일 CBS 인터뷰에서 회사의 내부 통제와 규정 준수 체계를 문제의 핵심으로 짚었다.",
+        "기사 범위 내에서 구체적 조치는 확인되지 않아, 향후 규제 대응 여부가 주목된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "규정준수",
+        "내부통제",
+        "젠슨 황",
+        "엔비디아"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-22T20:55:37Z",
+      "updated_at": "2026-11-22T20:55:37Z",
+      "articles": [
+        {
+          "key": "3c62052c7074fbdc",
+          "title": "베선트 美 재무 “엔비디아 규정준수 문제는 젠슨 황 사적 잘못과 별개”",
+          "url": "https://www.dt.co.kr/article/12096592",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-22T20:55:37Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
     {
       "id": "c20261122-1448",
       "headline": "시노펙스 정민재 부사장, 중견기업인의 날 대통령상 수상",
