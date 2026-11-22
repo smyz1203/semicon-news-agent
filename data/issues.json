@@ -1,7 +1,259 @@
 {
   "version": 1,
-  "updated_at": "2026-11-22T04:08:19Z",
+  "updated_at": "2026-11-22T05:11:55Z",
   "issues": [
+    {
+      "id": "c20261118-1301",
+      "headline": "삼성전자 2027년 사장단 인사, 반도체 3인 승진",
+      "summary": [
+        "삼성전자가 2027년 정기 사장단 인사에서 DS부문 황상준·조상연·이종명 3인을 신임 사장으로 선임했다.",
+        "황상준 사장은 메모리사업부장 겸 D램개발실장을 맡아 D램과 HBM 기술 개발을 이끈다.",
+        "전영현 부회장이 DS부문장에 집중하면서 메모리 사업 지휘권이 황 사장에게 넘어가 기술 중심 체제가 강화됐다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "정기 사장단 인사",
+        "HBM",
+        "D램",
+        "시스템LSI",
+        "파운드리"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 5,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1, 매체 8곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-18T21:01:00Z",
+      "updated_at": "2026-11-22T05:00:00Z",
+      "articles": [
+        {
+          "key": "30a003337b7b1518",
+          "title": "삼성전자 사장단 인사 임박…메모리·스마트폰 리더십 보강할듯",
+          "url": "https://www.yna.co.kr/view/AKR20261118094300003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-18T21:01:00Z"
+        },
+        {
+          "key": "aed3711c9ed80973",
+          "title": "삼성도 이르면 오늘 사장단 인사… 투톱 유지 속 메모리·모바일 리더십 주목",
+          "url": "https://www.dt.co.kr/article/12096267",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-19T09:49:22Z"
+        },
+        {
+          "key": "dcd35a6a2d3cfce7",
+          "title": "[속보] 삼성전자 사장단 인사…전영현·노태문 '투톱' 체제 유지",
+          "url": "https://www.yna.co.kr/view/AKR20261120029900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T00:01:34Z"
+        },
+        {
+          "key": "0966e09386486286",
+          "title": "[속보] 삼성전자 사업부장, 반도체 메모리 황상준·모바일경험 최원준",
+          "url": "https://www.yna.co.kr/view/AKR20261120030200003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T00:04:36Z"
+        },
+        {
+          "key": "a63191c1ef330821",
+          "title": "[속보] 삼성전자, 전영현·노태문 사업부장 겸직 내려놓는다…2027년 사장단 인사 단행",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=410058",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T00:11:56Z"
+        },
+        {
+          "key": "0588f808d0b9f756",
+          "title": "삼성전자, 반도체 '실적 주역' 3인 사장 발탁…전영현·노태문 미래사업 전념",
+          "url": "https://www.etnews.com/20261120000029",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-20T00:16:55Z"
+        },
+        {
+          "key": "e0c0a9b985e8acba",
+          "title": "삼성전자, 사장 승진 3명, 위촉업무 변경 3명 등 총 6명 규모 '2027년 정기 사장단 인사'",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343534",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-20T00:20:00Z"
+        },
+        {
+          "key": "1a93cb4077d56692",
+          "title": "삼성전자, 반도체 전영현·갤럭시 노태문 '투톱' 유지",
+          "url": "https://www.yna.co.kr/view/AKR20261120040100003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T00:21:08Z"
+        },
+        {
+          "key": "6c4a8694bd229643",
+          "title": "삼성전자, 메모리·갤럭시에 새 사령탑…황상준·최원준 전면에(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261120040151003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T01:02:00Z"
+        },
+        {
+          "key": "56bf18187137232c",
+          "title": "Samsung opts for leadership stability in annual postings reshuffle amid record earnings",
+          "url": "https://www.koreaherald.com/article/10943719",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-20T01:17:49Z"
+        },
+        {
+          "key": "50847503687f8c25",
+          "title": "메모리는 HBM 개발통, 갤럭시는 퀄컴 출신…삼성전자 투톱 겸직 해제",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65701",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-20T01:27:42Z"
+        },
+        {
+          "key": "44b227f11b99ba7b",
+          "title": "Samsung names new memory, mobile chiefs as chips sweep promotions",
+          "url": "https://www.koreaherald.com/article/10943786",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-20T01:35:35Z"
+        },
+        {
+          "key": "9258f4b7ddf6114d",
+          "title": "삼성전자 사장 승진 모두 반도체…기존 투톱에 성과·기술 방점",
+          "url": "https://www.yna.co.kr/view/AKR20261120060900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-20T01:40:55Z"
+        },
+        {
+          "key": "f9bae1495ea03652",
+          "title": "삼성 반도체 사장 승진 3인방...\"사업 현장·기술 흐름 가장 잘 알아\"",
+          "url": "https://zdnet.co.kr/view/?no=20261120155142",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-20T07:18:50Z"
+        },
+        {
+          "key": "2dc5215ceeab402e",
+          "title": "삼성전자, '부문장은 미래·사업부장은 실적'…이번 주 임원 인사로 세대교체 잇는다",
+          "url": "https://www.etnews.com/20261120000194",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-22T05:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261122-1441",
+      "headline": "차세대 반도체 공정 전원 기술, 국내 장비사로 이전",
+      "summary": [
+        "한국전기연구원이 장성록 박사팀의 반도체 공정용 맞춤형 펄스 전원 기술을 아센디아에 이전했다.",
+        "수입에 의존하던 초미세 공정 핵심 장치의 국산화를 목표로 기술사업화에 들어갔다.",
+        "공정 장비 국산화로 해외 의존도를 낮출 수 있다는 점에서 국내 장비 산업에 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "펄스 전원",
+        "차세대 반도체 공정",
+        "장비 국산화",
+        "기술이전"
+      ],
+      "companies": [
+        "한국전기연구원",
+        "아센디아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "한국전기연구원",
+        "아센디아"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-22T04:43:10Z",
+      "updated_at": "2026-11-22T04:43:10Z",
+      "articles": [
+        {
+          "key": "03d6ea01ecdf5abe",
+          "title": "수입 의존 ‘차세대 반도체 공정 장비’ 국산화…기술사업화 추진",
+          "url": "https://www.dt.co.kr/article/12096517",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-22T04:43:10Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261122-1440",
+      "headline": "티씨케이 SiC 포커스링 특허 정정에 디에스테크노 무효심판 청구",
+      "summary": [
+        "디에스테크노가 티씨케이의 SiC 포커스링 '888 특허 정정에 대해 특허심판원에 무효심판을 청구했다.",
+        "정정은 지난 10월 인용됐으며, 두 업체는 2019년부터 이어진 특허분쟁을 7년째 벌이고 있다.",
+        "특허 권리범위 판단이 바뀔 수 있어 식각 부품 시장의 특허 경쟁 구도에 영향을 줄 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "SiC 포커스링",
+        "특허 정정",
+        "무효심판",
+        "식각 공정",
+        "특허 분쟁"
+      ],
+      "companies": [
+        "티씨케이",
+        "디에스테크노",
+        "와이엠씨",
+        "와이컴"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "디에스테크노",
+        "티씨케이"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-22T04:04:54Z",
+      "updated_at": "2026-11-22T04:04:54Z",
+      "articles": [
+        {
+          "key": "b949ff36435f7a7a",
+          "title": "디에스테크노, 티씨케이 '반도체 식각링 특허 정정'에 무효심판 청구",
+          "url": "https://zdnet.co.kr/view/?no=20261122124511",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-22T04:04:54Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261122-1439",
       "headline": "엔비디아 SEC 회계 조사 착수, 주가 급락",
@@ -1817,155 +2069,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261118-1301",
-      "headline": "삼성전자 2027년 사장단 인사, 반도체 3인 승진",
-      "summary": [
-        "삼성전자가 2027년 정기 사장단 인사에서 DS부문 황상준·조상연·이종명 3인을 신임 사장으로 선임했다.",
-        "황상준 사장은 메모리사업부장 겸 D램개발실장을 맡아 D램과 HBM 기술 개발을 이끈다.",
-        "전영현 부회장이 DS부문장에 집중하면서 메모리 사업 지휘권이 황 사장에게 넘어가 기술 중심 체제가 강화됐다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "정기 사장단 인사",
-        "HBM",
-        "D램",
-        "시스템LSI",
-        "파운드리"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 5,
-      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1, 매체 8곳 보도 +1 → 5점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-18T21:01:00Z",
-      "updated_at": "2026-11-20T07:18:50Z",
-      "articles": [
-        {
-          "key": "30a003337b7b1518",
-          "title": "삼성전자 사장단 인사 임박…메모리·스마트폰 리더십 보강할듯",
-          "url": "https://www.yna.co.kr/view/AKR20261118094300003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-18T21:01:00Z"
-        },
-        {
-          "key": "aed3711c9ed80973",
-          "title": "삼성도 이르면 오늘 사장단 인사… 투톱 유지 속 메모리·모바일 리더십 주목",
-          "url": "https://www.dt.co.kr/article/12096267",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-19T09:49:22Z"
-        },
-        {
-          "key": "dcd35a6a2d3cfce7",
-          "title": "[속보] 삼성전자 사장단 인사…전영현·노태문 '투톱' 체제 유지",
-          "url": "https://www.yna.co.kr/view/AKR20261120029900003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-20T00:01:34Z"
-        },
-        {
-          "key": "0966e09386486286",
-          "title": "[속보] 삼성전자 사업부장, 반도체 메모리 황상준·모바일경험 최원준",
-          "url": "https://www.yna.co.kr/view/AKR20261120030200003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-20T00:04:36Z"
-        },
-        {
-          "key": "a63191c1ef330821",
-          "title": "[속보] 삼성전자, 전영현·노태문 사업부장 겸직 내려놓는다…2027년 사장단 인사 단행",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=410058",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-20T00:11:56Z"
-        },
-        {
-          "key": "0588f808d0b9f756",
-          "title": "삼성전자, 반도체 '실적 주역' 3인 사장 발탁…전영현·노태문 미래사업 전념",
-          "url": "https://www.etnews.com/20261120000029",
-          "source": "전자신문",
-          "lang": "ko",
-          "published_at": "2026-11-20T00:16:55Z"
-        },
-        {
-          "key": "e0c0a9b985e8acba",
-          "title": "삼성전자, 사장 승진 3명, 위촉업무 변경 3명 등 총 6명 규모 '2027년 정기 사장단 인사'",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=343534",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-11-20T00:20:00Z"
-        },
-        {
-          "key": "1a93cb4077d56692",
-          "title": "삼성전자, 반도체 전영현·갤럭시 노태문 '투톱' 유지",
-          "url": "https://www.yna.co.kr/view/AKR20261120040100003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-20T00:21:08Z"
-        },
-        {
-          "key": "6c4a8694bd229643",
-          "title": "삼성전자, 메모리·갤럭시에 새 사령탑…황상준·최원준 전면에(종합)",
-          "url": "https://www.yna.co.kr/view/AKR20261120040151003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-20T01:02:00Z"
-        },
-        {
-          "key": "56bf18187137232c",
-          "title": "Samsung opts for leadership stability in annual postings reshuffle amid record earnings",
-          "url": "https://www.koreaherald.com/article/10943719",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-11-20T01:17:49Z"
-        },
-        {
-          "key": "50847503687f8c25",
-          "title": "메모리는 HBM 개발통, 갤럭시는 퀄컴 출신…삼성전자 투톱 겸직 해제",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65701",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-20T01:27:42Z"
-        },
-        {
-          "key": "44b227f11b99ba7b",
-          "title": "Samsung names new memory, mobile chiefs as chips sweep promotions",
-          "url": "https://www.koreaherald.com/article/10943786",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-11-20T01:35:35Z"
-        },
-        {
-          "key": "9258f4b7ddf6114d",
-          "title": "삼성전자 사장 승진 모두 반도체…기존 투톱에 성과·기술 방점",
-          "url": "https://www.yna.co.kr/view/AKR20261120060900003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-20T01:40:55Z"
-        },
-        {
-          "key": "f9bae1495ea03652",
-          "title": "삼성 반도체 사장 승진 3인방...\"사업 현장·기술 흐름 가장 잘 알아\"",
-          "url": "https://zdnet.co.kr/view/?no=20261120155142",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-20T07:18:50Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 5
     },
     {
       "id": "c20261120-1410",
