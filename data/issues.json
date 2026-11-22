@@ -1,7 +1,107 @@
 {
   "version": 1,
-  "updated_at": "2026-11-22T01:26:18Z",
+  "updated_at": "2026-11-22T03:01:57Z",
   "issues": [
+    {
+      "id": "c20261122-1439",
+      "headline": "엔비디아 SEC 회계 조사 착수, 주가 급락",
+      "summary": [
+        "SEC가 엔비디아의 잠재적 회계 문제를 조사 중이라고 로이터가 보도했다.",
+        "고객사 투자와 순환 금융 의혹이 거론되며, 캘리포니아 주 법무부도 중국 GPU 우회 수출 조사에 나섰다.",
+        "젠슨 황 퇴진과 법적 리스크가 겹치며 투자자 신뢰와 주가에 부담이 커졌다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "SEC 조사",
+        "순환 금융",
+        "GPU 우회수출",
+        "젠슨 황 퇴진",
+        "주가 하락"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-22T02:27:13Z",
+      "updated_at": "2026-11-22T02:27:13Z",
+      "articles": [
+        {
+          "key": "baf643313d378c9f",
+          "title": "미국 규제당국 조사에 엔비디아 휘청... 주가 2주새 32% 하락",
+          "url": "https://zdnet.co.kr/view/?no=20261121230330",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-22T02:27:13Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261121-1435",
+      "headline": "삼성전자·SK하이닉스 3분기 배당성향 대폭 상승",
+      "summary": [
+        "삼성전자와 SK하이닉스가 3분기 배당성향을 크게 높였다는 보도가 나왔다.",
+        "양사는 올해 초 대규모 이익을 주주에게 환원하겠다고 약속했고 연말 특별배당과 자사주 매입·소각이 기대된다.",
+        "AI 반도체 수요 확대로 이익이 커지면서 주주환원 규모도 함께 늘어날 전망이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "배당성향",
+        "주주환원",
+        "특별배당",
+        "자사주 매입",
+        "AI 반도체"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 2,
+      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스, 삼성전자) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-21T21:03:00Z",
+      "updated_at": "2026-11-22T01:27:53Z",
+      "articles": [
+        {
+          "key": "959678b2671fe73a",
+          "title": "삼전닉스, 3분기 배당성향 껑충…상반기 대비 21배로 늘기도",
+          "url": "https://www.yna.co.kr/view/AKR20261120152600003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-21T21:03:00Z"
+        },
+        {
+          "key": "5b96ad738fa0def8",
+          "title": "배당 대폭 늘린 삼전·SK하닉…연말 주주환원 더 커진다",
+          "url": "https://www.dt.co.kr/article/12096461",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-22T01:27:53Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261122-1438",
       "headline": "메모리 이어 부품 원자잿값 급등, 완제품 원가 부담 확대",
@@ -182,52 +282,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261121-1435",
-      "headline": "삼성전자·SK하이닉스 배당성향 대폭 확대",
-      "summary": [
-        "삼성전자와 SK하이닉스가 올해 분기 배당을 크게 늘려 주주환원을 강화하고 있다.",
-        "기사 본문이 일부만 제공되어 구체적인 배당 금액과 성향 수치는 확인되지 않는다.",
-        "AI 발 메모리 호황이 실적 개선으로 이어지며 주주환원 여력이 커졌다는 점이 산업적 의미다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "배당",
-        "주주환원",
-        "메모리 슈퍼사이클",
-        "AI 메모리"
-      ],
-      "companies": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "event_type": "재무·주주",
-      "confirmed": true,
-      "parties": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "importance": 3,
-      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스, 삼성전자) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-21T21:03:00Z",
-      "updated_at": "2026-11-21T21:03:00Z",
-      "articles": [
-        {
-          "key": "959678b2671fe73a",
-          "title": "삼전닉스, 3분기 배당성향 껑충…상반기 대비 21배로 늘기도",
-          "url": "https://www.yna.co.kr/view/AKR20261120152600003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-21T21:03:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261121-1434",
