@@ -1,22 +1,22 @@
 {
   "version": 1,
-  "updated_at": "2026-11-23T18:15:07Z",
+  "updated_at": "2026-11-23T19:23:09Z",
   "issues": [
     {
       "id": "c20261123-1486",
       "headline": "젠슨 황, 11일 만에 엔비디아 CEO 복귀",
       "summary": [
-        "엔비디아 이사회가 만장일치로 젠슨 황의 사장 겸 CEO, 이사직 복귀를 23일 발표했다.",
-        "사임 발표 11일 만이며 임시 CEO였던 콜레트 크레스는 CFO로 복귀한다.",
-        "경영진 공백이 해소되면서 거버넌스 강화와 국가안보 위원회 신설 등 내부 통제 강화가 함께 추진된다."
+        "엔비디아 이사회가 만장일치로 젠슨 황의 CEO 복직을 의결하며 11일 만에 복귀했다.",
+        "트럼프 대통령은 이번 복귀가 미국에 최선이라는 입장을 밝힌 것으로 보도됐다.",
+        "AI 반도체 선두 기업의 리더십 공백이 끝나면서 향후 전략 방향에 시장의 관심이 쏠린다."
       ],
-      "category": "실적/투자/시장",
+      "category": "AI반도체",
       "tags": [
         "젠슨 황",
         "CEO 복귀",
-        "거버넌스",
-        "수출통제",
-        "국가안보"
+        "이사회 의결",
+        "AI 반도체",
+        "경영진 교체"
       ],
       "companies": [
         "엔비디아"
@@ -27,13 +27,13 @@
         "엔비디아"
       ],
       "importance": 4,
-      "importance_reason": "경영진 교체 3점, 매체 3곳 보도 +1 → 4점",
+      "importance_reason": "경영진 교체 3점, 매체 4곳 보도 +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "both",
       "first_seen": "2026-11-23T14:19:42Z",
-      "updated_at": "2026-11-23T15:10:04Z",
+      "updated_at": "2026-11-23T18:17:02Z",
       "articles": [
         {
           "key": "616283a566b63644",
@@ -74,6 +74,14 @@
           "source": "아이뉴스24",
           "lang": "ko",
           "published_at": "2026-11-23T15:10:04Z"
+        },
+        {
+          "key": "57e40fb55f781b28",
+          "title": "Nvidia Board Reinstates Jensen Huang as CEO",
+          "url": "https://www.eetimes.com/nvidia-board-reinstates-jensen-huang-as-ceo/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-23T18:17:02Z"
         }
       ],
       "type_checked": true,
