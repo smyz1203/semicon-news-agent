@@ -1,7 +1,263 @@
 {
   "version": 1,
-  "updated_at": "2026-11-23T08:46:28Z",
+  "updated_at": "2026-11-23T10:27:04Z",
   "issues": [
+    {
+      "id": "c20261123-1484",
+      "headline": "낸드 가격 내년 하락 전망, 수출 1등 공신 흔들",
+      "summary": [
+        "한국 수출 1조달러 돌파를 이끈 낸드플래시 가격이 내년부터 떨어질 것이라는 전망이 나왔다.",
+        "기사는 반도체 가격 하락 시 한국 경제가 2000년 닷컴버블 때와 유사한 충격을 받을 수 있다고 짚었다.",
+        "메모리 가격 하락은 반도체 수출 의존도가 높은 한국 산업 전반에 부담으로 작용할 전망이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "낸드플래시",
+        "메모리 가격",
+        "수출 1조달러",
+        "반도체 수출"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-23T10:08:05Z",
+      "updated_at": "2026-11-23T10:08:05Z",
+      "articles": [
+        {
+          "key": "870f6dfae6f5888c",
+          "title": "[기획] 수출 1조달러 1등 공신 낸드… \"내년엔 떨어진다\"",
+          "url": "https://www.dt.co.kr/article/12096801",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-23T10:08:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261123-1464",
+      "headline": "삼성글로벌리서치 2027년 정기 사장단 인사 단행",
+      "summary": [
+        "삼성글로벌리서치가 2027년 정기 사장단 인사를 단행했다고 23일 발표했다.",
+        "김원준 부사장이 사장으로 승진했고, 최진원 삼성전자 DX부문 재경팀 부사장이 재무전략담당 사장으로 선임됐다.",
+        "반도체·디스플레이 산업 자체보다는 조사기관 내부 경영진 교체로, 산업 영향은 제한적이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "사장단 인사",
+        "정기 인사",
+        "경영진 교체",
+        "삼성글로벌리서치"
+      ],
+      "companies": [
+        "삼성글로벌리서치",
+        "삼성전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "삼성글로벌리서치"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 매체 4곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-23T02:07:26Z",
+      "updated_at": "2026-11-23T09:26:05Z",
+      "articles": [
+        {
+          "key": "70046b38413f49bf",
+          "title": "삼성글로벌리서치 2027년 사장단 인사 명단",
+          "url": "https://zdnet.co.kr/view/?no=20261123110726",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-23T02:07:26Z"
+        },
+        {
+          "key": "46986da433a4e2e2",
+          "title": "삼성글로벌리서치, 김원준 대표이사 사장 승진",
+          "url": "https://zdnet.co.kr/view/?no=20261123111247",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-23T02:16:12Z"
+        },
+        {
+          "key": "02059a25947c268a",
+          "title": "[프로필] 최진원 삼성글로벌리서치 재무전략담당 사장",
+          "url": "https://zdnet.co.kr/view/?no=20261123112103",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-23T02:25:52Z"
+        },
+        {
+          "key": "996cb4ab54e7e25e",
+          "title": "삼성글로벌리서치 김원준 대표 사장 승진…재무전략담당 사장에 최진원",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65756",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-23T03:55:26Z"
+        },
+        {
+          "key": "4efb9a9b7af4423b",
+          "title": "삼성글로벌리서치, 사장단 인사 단행…김원준 대표 사장 승진",
+          "url": "https://www.etnews.com/20261123000293",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-23T04:36:16Z"
+        },
+        {
+          "key": "1a6c2270e2fba1b4",
+          "title": "삼성글로벌리서치 사장단 인사… 김원준·최진원 승진",
+          "url": "https://www.dt.co.kr/article/12096795",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-23T09:26:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261123-1483",
+      "headline": "반도체 가격 2027년까지 상승 전망",
+      "summary": [
+        "DigiTimes는 반도체 가격이 2027년까지 오를 것이라고 보도했다.",
+        "기사 본문은 사실상 비어 있어 구체적 가격 수치와 품목은 확인되지 않는다.",
+        "가격 상승이 이어진다면 반도체 업황 성장의 주요 동력이 될 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "반도체 가격",
+        "업황 전망",
+        "2027년"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-23T08:59:00Z",
+      "updated_at": "2026-11-23T08:59:00Z",
+      "articles": [
+        {
+          "key": "4dbba63b78d77a7f",
+          "title": "Chip prices set to rise through 2027, driving semiconductor growth",
+          "url": "https://www.digitimes.com/news/a20261123PD231/2027-growth-demand-revenue-chips.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-23T08:59:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261123-1482",
+      "headline": "AI 기판 호황에 삼성전기, LG이노텍 대비 2.7배 이익",
+      "summary": [
+        "삼성전기가 2026년 1~3분기 기판 사업에서 LG이노텍보다 2.7배 많은 영업이익을 기록했다.",
+        "패키지솔루션 부문 영업이익은 3694억원(2억7400만달러)으로, LG이노텍의 1357억원과 비교된다.",
+        "AI 데이터센터용 고부가 기판 판매가 실적을 이끌며 기판 업계 수익성 격차가 뚜렷해졌다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 기판",
+        "패키지솔루션",
+        "영업이익",
+        "고부가 기판",
+        "AI 데이터센터"
+      ],
+      "companies": [
+        "삼성전기",
+        "LG이노텍"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전기",
+        "LG이노텍"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-23T08:51:33Z",
+      "updated_at": "2026-11-23T08:51:33Z",
+      "articles": [
+        {
+          "key": "d3de16f9bd1a77e9",
+          "title": "AI chip boom lifts Samsung Electro-Mechanics ahead of LG Innotek in substrate profits",
+          "url": "https://www.koreaherald.com/article/10946536",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-23T08:51:33Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261123-1481",
+      "headline": "LG전자, MS사업본부 내 연구조직 신설해 차세대 폼팩터 선행연구",
+      "summary": [
+        "LG전자가 MS사업본부 산하에 MS연구소와 MS선행연구담당 조직을 새로 꾸렸다.",
+        "이형일 전무가 MS연구소를, 기원도 상무가 MS선행연구담당을 맡아 폼팩터 등 선행연구를 이끈다.",
+        "BS본부 일부 사업의 MS본부 통합 후 중복 업무를 정리해 미래 성장동력 발굴에 집중하려는 조치다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "차세대 폼팩터",
+        "조직개편",
+        "선행연구",
+        "B2B 디스플레이",
+        "MS사업본부"
+      ],
+      "companies": [
+        "LG전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "LG전자"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 관심 기업(LG전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-23T08:40:35Z",
+      "updated_at": "2026-11-23T08:40:35Z",
+      "articles": [
+        {
+          "key": "a0370e2b76fc1f51",
+          "title": "LG전자, MS연구조직 재편...\"차세대 폼팩터 발굴 특명\"",
+          "url": "https://zdnet.co.kr/view/?no=20261123171834",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-23T08:40:35Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
     {
       "id": "c20261121-1427",
       "headline": "소프트뱅크, SK하이닉스 1조달러 인수 검토 보도",
@@ -74,6 +330,51 @@
       "importance_raw": 3
     },
     {
+      "id": "c20261123-1480",
+      "headline": "엔비디아, 기판 생산능력 확보…국내 칩 스타트업 공급난",
+      "summary": [
+        "엔비디아가 반도체 기판 생산능력을 확보했다는 보도가 나왔으며 국내 칩 스타트업들은 공급 부족에 직면했다.",
+        "기사 본문은 사진 크레딧만 포함돼 있어 구체적인 계약 규모·수량·일정은 확인되지 않는다.",
+        "대형 고객이 기판 물량을 선점하면 후발 국내 팹리스의 생산 차질 우려가 커질 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "기판",
+        "공급난",
+        "엔비디아",
+        "팹리스",
+        "생산능력"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-23T08:22:52Z",
+      "updated_at": "2026-11-23T08:22:52Z",
+      "articles": [
+        {
+          "key": "1f5e4c98c73cc25f",
+          "title": "Nvidia secures substrate capacity as South Korean chip startups face supply squeeze",
+          "url": "https://www.digitimes.com/news/a20261123VL210/nvidia-capacity-substrate-ai-chip-data-center.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-23T08:22:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
       "id": "c20261123-1478",
       "headline": "AI 수요에 PCB 기판 중견사도 대규모 증설 경쟁",
       "summary": [
@@ -130,6 +431,51 @@
       ],
       "type_checked": true,
       "importance_raw": 3
+    },
+    {
+      "id": "c20261123-1479",
+      "headline": "미국 신규 수출규제에 엔비디아 서버 동남아 출하 중단 보도",
+      "summary": [
+        "미국의 신규 수출 규칙 이후 엔비디아 서버 파트너사들이 동남아시아 출하를 중단했다는 보도가 나왔다.",
+        "기사 본문이 제공되지 않아 출하 중단 규모와 기간, 대상 국가 등 구체적 내용은 확인되지 않는다.",
+        "동남아 AI 서버 공급망에 영향을 줄 수 있어 수출 통제 강화에 따른 AI 반도체 유통 변화를 주시할 필요가 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출규제",
+        "엔비디아",
+        "AI서버",
+        "동남아시아",
+        "출하중단"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-23T08:08:39Z",
+      "updated_at": "2026-11-23T08:08:39Z",
+      "articles": [
+        {
+          "key": "1a5fd5ec4cc8d025",
+          "title": "Nvidia server partners reportedly suspend shipments to Southeast Asia following new US export rules",
+          "url": "https://www.digitimes.com/news/a20261123VL212/nvidia-southeast-asia-ai-server-shipments.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-23T08:08:39Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261123-1477",
@@ -533,83 +879,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261123-1464",
-      "headline": "삼성글로벌리서치 김원준·최진원 사장 승진 인사",
-      "summary": [
-        "삼성글로벌리서치가 김원준 대표와 최진원 부사장을 사장으로 승진시키는 인사를 23일 발표했다.",
-        "김 대표는 대표직을 계속 맡고, 최 사장은 재무전략담당 직책을 수행하게 된다.",
-        "이번 인사는 삼성그룹 싱크탱크 조직의 경영진 재편으로, 반도체 산업에 직접적인 영향은 제한적이다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "사장단 인사",
-        "삼성글로벌리서치",
-        "재무전략담당",
-        "경영진 교체"
-      ],
-      "companies": [
-        "삼성글로벌리서치",
-        "삼성전자"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "삼성글로벌리서치"
-      ],
-      "importance": 4,
-      "importance_reason": "경영진 교체 3점, 매체 3곳 보도 +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-23T02:07:26Z",
-      "updated_at": "2026-11-23T04:36:16Z",
-      "articles": [
-        {
-          "key": "70046b38413f49bf",
-          "title": "삼성글로벌리서치 2027년 사장단 인사 명단",
-          "url": "https://zdnet.co.kr/view/?no=20261123110726",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-23T02:07:26Z"
-        },
-        {
-          "key": "46986da433a4e2e2",
-          "title": "삼성글로벌리서치, 김원준 대표이사 사장 승진",
-          "url": "https://zdnet.co.kr/view/?no=20261123111247",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-23T02:16:12Z"
-        },
-        {
-          "key": "02059a25947c268a",
-          "title": "[프로필] 최진원 삼성글로벌리서치 재무전략담당 사장",
-          "url": "https://zdnet.co.kr/view/?no=20261123112103",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-23T02:25:52Z"
-        },
-        {
-          "key": "996cb4ab54e7e25e",
-          "title": "삼성글로벌리서치 김원준 대표 사장 승진…재무전략담당 사장에 최진원",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65756",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-23T03:55:26Z"
-        },
-        {
-          "key": "4efb9a9b7af4423b",
-          "title": "삼성글로벌리서치, 사장단 인사 단행…김원준 대표 사장 승진",
-          "url": "https://www.etnews.com/20261123000293",
-          "source": "전자신문",
-          "lang": "ko",
-          "published_at": "2026-11-23T04:36:16Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
     },
     {
       "id": "c20261123-1468",
