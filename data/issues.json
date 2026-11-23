@@ -1,7 +1,52 @@
 {
   "version": 1,
-  "updated_at": "2026-11-23T19:23:09Z",
+  "updated_at": "2026-11-23T21:03:41Z",
   "issues": [
+    {
+      "id": "c20261123-1492",
+      "headline": "트럼프, 젠슨 황 엔비디아 CEO 복귀에 개입 주장",
+      "summary": [
+        "트럼프 대통령이 젠슨 황의 엔비디아 CEO 복귀 과정에 직접 관여했다고 CNBC 인터뷰에서 밝혔다.",
+        "트럼프는 엔비디아 이사회 인사들과 직접 논의했다고 말했으며, 기사 본문은 일부만 확인된다.",
+        "정부 수장의 기업 경영진 인선 개입 주장은 엔비디아 지배구조와 미 정부-반도체 기업 관계에 주목을 끈다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "젠슨 황",
+        "엔비디아 CEO",
+        "경영진 복귀",
+        "이사회",
+        "미국 정부"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-23T20:53:43Z",
+      "updated_at": "2026-11-23T20:53:43Z",
+      "articles": [
+        {
+          "key": "f1ca87f08193f892",
+          "title": "트럼프 “젠슨 황 복귀 과정서 내가 엔비디아 이사회 설득”",
+          "url": "https://www.dt.co.kr/article/12096825",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-23T20:53:43Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261123-1486",
       "headline": "젠슨 황, 11일 만에 엔비디아 CEO 복귀",
@@ -33,7 +78,7 @@
       "attempts": 0,
       "region": "both",
       "first_seen": "2026-11-23T14:19:42Z",
-      "updated_at": "2026-11-23T18:17:02Z",
+      "updated_at": "2026-11-23T18:35:22Z",
       "articles": [
         {
           "key": "616283a566b63644",
@@ -76,16 +121,168 @@
           "published_at": "2026-11-23T15:10:04Z"
         },
         {
+          "key": "2eec05c6aabfb46f",
+          "title": "엔비디아 이사회, 젠슨 황을 왜 다시 CEO로 불렀나",
+          "url": "https://zdnet.co.kr/view/?no=20261124005221",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-23T15:58:39Z"
+        },
+        {
           "key": "57e40fb55f781b28",
           "title": "Nvidia Board Reinstates Jensen Huang as CEO",
           "url": "https://www.eetimes.com/nvidia-board-reinstates-jensen-huang-as-ceo/",
           "source": "EE Times",
           "lang": "en",
           "published_at": "2026-11-23T18:17:02Z"
+        },
+        {
+          "key": "7dbfc8e3de1a035c",
+          "title": "\"엔비디아 이사회, 트럼프 설득에 젠슨 황 복귀 결정\"",
+          "url": "https://zdnet.co.kr/view/?no=20261124033427",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-23T18:35:22Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 4
+    },
+    {
+      "id": "c20261123-1491",
+      "headline": "젠슨 황 엔비디아 CEO, 미 상원 청문회 출석 예정",
+      "summary": [
+        "미 상원 은행위원회가 젠슨 황 엔비디아 CEO와 러트닉 상무장관에게 출석을 요구했다.",
+        "12월 3일 오전 10시 공개 청문회가 예정돼 있으며, 대중국 반도체 수출 승인 문제가 쟁점이다.",
+        "중국 스파이 의혹 보도를 계기로 수출통제 정책 점검이 강화되며 엔비디아의 대중 사업에 영향이 주목된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출통제",
+        "대중국 수출",
+        "청문회",
+        "상무부 승인",
+        "안보"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "엔비디아",
+        "미 상원 은행위원회"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-23T18:12:28Z",
+      "updated_at": "2026-11-23T18:12:28Z",
+      "articles": [
+        {
+          "key": "4faf3cb4b0317594",
+          "title": "\"젠슨 황 엔비디아 CEO, 내달 3일 미 상원 청문회 출석\"",
+          "url": "https://zdnet.co.kr/view/?no=20261124030437",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-23T18:12:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261123-1490",
+      "headline": "젠슨 황 CEO 복귀에 미 의회 초당적 조사 요구",
+      "summary": [
+        "미 의회 여야 의원들이 젠슨 황 엔비디아 CEO 복귀 발표 이후 중국 관계와 반도체 밀수 의혹을 제기했다.",
+        "민주당 척 슈머 원내대표 등은 트럼프 행정부의 복귀 과정 개입을 문제 삼아 조사와 해명을 요구했다.",
+        "엔비디아의 수출통제 규정 준수 여부가 다시 쟁점이 되면서 미국 반도체 규제와 기업 거버넌스 리스크가 부각됐다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "젠슨 황",
+        "수출통제",
+        "반도체 밀수",
+        "중국 리스크",
+        "의회 조사"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-23T17:43:29Z",
+      "updated_at": "2026-11-23T17:43:29Z",
+      "articles": [
+        {
+          "key": "7f027a9ac5e1fa3f",
+          "title": "미 의회, 젠슨 황 복귀에 초당적 우려 표명",
+          "url": "https://zdnet.co.kr/view/?no=20261124024310",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-23T17:43:29Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261123-1489",
+      "headline": "엔비디아 이사회, 젠슨 황 CEO 복귀 결정",
+      "summary": [
+        "엔비디아 이사회가 젠슨 황 CEO의 복귀를 만장일치로 결정했고, 트럼프 대통령이 정부 보증 과정에 관여했다고 밝혔다.",
+        "이사회는 미국 정부 고위 관계자 의견을 수렴해 국가안보 위협이 없다고 판단했으며, 준법감시책임자를 새로 선임했다.",
+        "중국 정보기관 연계 의혹과 대중국 수출 규정 준수 여부에 대한 조사는 계속될 전망이라 불확실성이 남아 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "젠슨 황",
+        "엔비디아 경영진",
+        "대중국 수출통제",
+        "국가안보",
+        "내부 조사"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-23T16:16:50Z",
+      "updated_at": "2026-11-23T16:16:50Z",
+      "articles": [
+        {
+          "key": "35736894a5ef88a2",
+          "title": "트럼프 \"엔비디아 이사회, 젠슨 황 복귀 전 정부 보증 요청\"",
+          "url": "https://zdnet.co.kr/view/?no=20261124011622",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-23T16:16:50Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261123-1488",
