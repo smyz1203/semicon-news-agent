@@ -1,7 +1,389 @@
 {
   "version": 1,
-  "updated_at": "2026-11-23T01:30:17Z",
+  "updated_at": "2026-11-23T03:10:42Z",
   "issues": [
+    {
+      "id": "c20261123-1463",
+      "headline": "중국 메모리 증설, 한국 소재·장비 공급사에 기회 될까",
+      "summary": [
+        "중국 메모리 업체들의 생산 확대가 현지 경쟁력 강화 흐름과 맞물려 주목받고 있다.",
+        "기사는 한국 반도체 공급사들이 중국 시장에서 맞닥뜨릴 기회와 과제를 짚으며, 현지 업체의 성장을 배경으로 제시한다.",
+        "한국 장비·소재 기업에게는 중국 메모리 투자 확대가 수요 기회이자 현지 경쟁 심화의 신호가 될 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "중국 메모리",
+        "메모리 증설",
+        "한국 공급사",
+        "현지 경쟁"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "CXMT",
+        "YMTC"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-23T02:58:00Z",
+      "updated_at": "2026-11-23T02:58:00Z",
+      "articles": [
+        {
+          "key": "0b98bc10298cdf6c",
+          "title": "China's memory buildout could boost Korean suppliers as local rivals gain ground",
+          "url": "https://www.digitimes.com/news/a20261123PD212/equipment-expansion-materials-market-ymtc.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-23T02:58:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261123-1462",
+      "headline": "정부 \"반도체 호황 내년에도 지속\" 전망",
+      "summary": [
+        "이형일 부총리 겸 재정경제부 장관이 반도체 경기가 내년에도 견조할 것이라고 밝혔다.",
+        "기사 본문이 잘려 있어 구체적 수치와 세부 내용은 확인되지 않는다.",
+        "반도체 호황이 국내 경제 성장률 전망에 영향을 줄 수 있다는 점에서 의미가 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "반도체 호황",
+        "경기 전망",
+        "성장률"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-23T02:40:00Z",
+      "updated_at": "2026-11-23T02:40:00Z",
+      "articles": [
+        {
+          "key": "13877072d03fee6d",
+          "title": "이형일 \"반도체 호황 내년에도 지속…올해 4% 성장 가능 범위\"",
+          "url": "https://www.yna.co.kr/view/AKR20261123082900002",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-23T02:40:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261121-1427",
+      "headline": "소프트뱅크, SK하이닉스 1조달러 인수 검토 보도",
+      "summary": [
+        "미국 언론은 소프트뱅크가 SK하이닉스 1조달러 인수를 검토했다고 보도했다.",
+        "다만 손정의 회장은 현재는 아니라는 취지로 선을 그은 것으로 전해졌다.",
+        "기사에 구체적 협상 내용이 없어 실제 추진 여부는 확인되지 않은 상태다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "M&A",
+        "인수합병",
+        "SK하이닉스",
+        "소프트뱅크",
+        "메모리"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "소프트뱅크"
+      ],
+      "event_type": "인수합병",
+      "confirmed": false,
+      "parties": [
+        "소프트뱅크",
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "인수합병 2점, 관심 기업(SK하이닉스) +1, 매체 3곳 보도 +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-21T04:03:38Z",
+      "updated_at": "2026-11-23T02:24:18Z",
+      "articles": [
+        {
+          "key": "d4fea70169d6c321",
+          "title": "日 소프트뱅크가 SK하이닉스 1조달러 인수?…미 언론 보도",
+          "url": "https://www.dt.co.kr/article/12096402",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-21T04:03:38Z"
+        },
+        {
+          "key": "d6a1a8ee536eb57e",
+          "title": "\"손정의, SK하이닉스 1조달러 인수 검토…현재는 아냐\"",
+          "url": "https://zdnet.co.kr/view/?no=20261121174004",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-21T08:55:29Z"
+        },
+        {
+          "key": "b4dd8d6b7c147039",
+          "title": "Why SoftBank weighed a US$1 trillion SK Hynix buyout before backing off",
+          "url": "https://www.digitimes.com/news/a20261123VL205/sk-hynix-masayoshi-son-ceo-financing-hardware.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-23T02:24:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261123-1461",
+      "headline": "ASE·SPIL, 2027년 서버 CPU 패키징 시장서 암코 추월 전망",
+      "summary": [
+        "DigiTimes는 ASE와 SPIL이 2027년 암코를 앞설 것으로 보도했다.",
+        "서버 CPU가 TSMC CoWoS 외 패키징 기술로 옮겨가는 흐름이 배경으로 거론됐다.",
+        "기사 본문이 제목과 출처 표기뿐이라 구체적 수치와 일정은 확인되지 않는다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "후공정 패키징",
+        "CoWoS",
+        "서버 CPU",
+        "OSAT",
+        "점유율 전망"
+      ],
+      "companies": [
+        "ASE",
+        "SPIL",
+        "암코",
+        "TSMC"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [
+        "ASE",
+        "SPIL",
+        "암코"
+      ],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-23T02:19:30Z",
+      "updated_at": "2026-11-23T02:19:30Z",
+      "articles": [
+        {
+          "key": "bd6242ab17c22de7",
+          "title": "ASE, SPIL to overtake Amkor in 2027 as server CPUs shift beyond TSMC CoWoS",
+          "url": "https://www.digitimes.com/news/a20261123PD215/packaging-spil-amkor-tsmc-ase.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-23T02:19:30Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261123-1460",
+      "headline": "MS·구글, TSMC CoWoS 대안으로 인텔 EMIB 검토",
+      "summary": [
+        "마이크로소프트와 구글이 TSMC CoWoS 패키징의 대안으로 인텔 EMIB 기술에 눈을 돌리고 있다는 보도다.",
+        "기사 본문은 이미지 캡션만 있어 구체적 계약 규모나 일정, 수치는 확인되지 않는다.",
+        "클라우드 업체들의 패키징 공급처 다변화 움직임으로, 인텔 파운드리의 외부 고객 확보 가능성을 시사한다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "EMIB",
+        "CoWoS",
+        "첨단 패키징",
+        "클라우드 반도체"
+      ],
+      "companies": [
+        "마이크로소프트",
+        "구글",
+        "인텔",
+        "TSMC"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "마이크로소프트",
+        "구글",
+        "인텔"
+      ],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-23T01:50:47Z",
+      "updated_at": "2026-11-23T01:50:47Z",
+      "articles": [
+        {
+          "key": "49ad32af19addef5",
+          "title": "Microsoft, Google turn to Intel EMIB as CSPs seek alternatives to TSMC CoWoS",
+          "url": "https://www.digitimes.com/news/a20261123PD209/intel-microsoft-cowos-google-tsmc.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-23T01:50:47Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261123-1459",
+      "headline": "미국 칩 규제가 대만 팹리스에 점유율 기회 제공",
+      "summary": [
+        "미국의 반도체 규제가 대만 IC 설계사들에게 시장 점유율 확대 기회를 열어주고 있다는 분석이 나왔다.",
+        "기사 본문은 제공되지 않아 구체적인 규제 내용과 수치는 확인할 수 없다.",
+        "다만 이 기회가 지속될지는 불확실해, 대만 팹리스 업계의 향후 전략이 주목된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출규제",
+        "대만 팹리스",
+        "IC 설계",
+        "시장 점유율"
+      ],
+      "companies": [
+        "TSMC"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-23T01:50:23Z",
+      "updated_at": "2026-11-23T01:50:23Z",
+      "articles": [
+        {
+          "key": "2977b945878d1821",
+          "title": "US chip restrictions offer Taiwan IC designers a market-share opening, but will it last?",
+          "url": "https://www.digitimes.com/news/a20261123PD204/ic-taiwan-chips-ic-design-2026.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-23T01:50:23Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261123-1457",
+      "headline": "베센트 장관, 엔비디아 중국 수출 의혹 해명 촉구",
+      "summary": [
+        "미국 재무장관이 엔비디아의 대중국 반도체 수출 의혹 규명을 요구하며 경영진 조사 중임을 밝혔다.",
+        "SEC의 회계 문제 조사와 캘리포니아 주 법무부의 GPU 우회 수출 조사도 진행 중이다.",
+        "AI 반도체 수출 통제가 강화되는 가운데 엔비디아의 규제 리스크와 지배구조 논란이 커질 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출규제",
+        "AI반도체",
+        "GPU 우회수출",
+        "SEC 조사",
+        "원격 접근 제한"
+      ],
+      "companies": [
+        "엔비디아",
+        "메가스피드"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-23T01:21:23Z",
+      "updated_at": "2026-11-23T01:44:03Z",
+      "articles": [
+        {
+          "key": "0d38242a232de39e",
+          "title": "美 재무장관 \"엔비디아, 中 반도체 수출 의혹 해명해야\"",
+          "url": "https://zdnet.co.kr/view/?no=20261123094715",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-23T01:21:23Z"
+        },
+        {
+          "key": "ed3f37a8027ebe32",
+          "title": "Treasury Secretary Bessent leaves door open to Huang's return, says Nvidia still owes answers",
+          "url": "https://www.digitimes.com/news/a20261123VL203/nvidia-usa-policy-chips-taiwan.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-23T01:44:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261123-1458",
+      "headline": "AI칩 발열 증가에 다이아몬드 냉각 시장 주목",
+      "summary": [
+        "AI 반도체의 발열이 커지면서 다이아몬드 기반 냉각 소재 시장에 관심이 높아지고 있다고 보도됐다.",
+        "다만 기사 본문이 제공되지 않아 구체적인 기업, 수치, 일정은 확인할 수 없다.",
+        "열 관리가 AI 칩 성능과 직결되는 만큼 차세대 냉각 기술의 중요성이 커지고 있음을 시사한다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "다이아몬드 냉각",
+        "AI반도체 발열",
+        "열관리",
+        "방열 소재"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-23T01:26:15Z",
+      "updated_at": "2026-11-23T01:26:15Z",
+      "articles": [
+        {
+          "key": "5f56f4cf2bc28afa",
+          "title": "Diamond cooling market gains traction as AI chip heat rises",
+          "url": "https://www.digitimes.com/news/a20261123PD202/cooling-chips-market-commercial-manufacturing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-23T01:26:15Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261123-1456",
       "headline": "LG전자 윈드실드 디스플레이, 미국 전문지 혁신 기술 선정",
@@ -1364,61 +1746,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261121-1427",
-      "headline": "소프트뱅크 SK하이닉스 1조달러 인수 검토 보도",
-      "summary": [
-        "미국 디인포메이션이 손정의 회장의 SK하이닉스 인수 검토를 보도했다.",
-        "논의된 인수 규모는 1조 달러이며 월가 금융기관과 자금 조달 가능성을 타진했다고 전했다.",
-        "소프트뱅크는 현재는 적극 검토하지 않는다고 밝혀 실제 인수 추진 가능성은 낮아 보인다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "SK하이닉스",
-        "인수합병",
-        "AI인프라투자",
-        "소프트뱅크",
-        "Arm"
-      ],
-      "companies": [
-        "SK하이닉스",
-        "소프트뱅크",
-        "Arm"
-      ],
-      "event_type": "인수합병",
-      "confirmed": false,
-      "parties": [
-        "소프트뱅크"
-      ],
-      "importance": 1,
-      "importance_reason": "인수합병 2점, 미확정 -1 → 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-21T04:03:38Z",
-      "updated_at": "2026-11-21T08:55:29Z",
-      "articles": [
-        {
-          "key": "d4fea70169d6c321",
-          "title": "日 소프트뱅크가 SK하이닉스 1조달러 인수?…미 언론 보도",
-          "url": "https://www.dt.co.kr/article/12096402",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-21T04:03:38Z"
-        },
-        {
-          "key": "d6a1a8ee536eb57e",
-          "title": "\"손정의, SK하이닉스 1조달러 인수 검토…현재는 아냐\"",
-          "url": "https://zdnet.co.kr/view/?no=20261121174004",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-21T08:55:29Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
     },
     {
       "id": "c20261121-1431",
