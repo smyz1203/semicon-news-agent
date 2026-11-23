@@ -1,0 +1,50 @@
+{
+  "version": 1,
+  "issues": [
+    {
+      "id": "c20261026-0139",
+      "headline": "LG디스플레이, 카메라 빛 투과율 개선 OLED 특허 획득",
+      "summary": [
+        "LG디스플레이가 화면 아래 카메라와 센서를 배치하는 OLED 기술 특허를 등록했다.",
+        "이 기술은 화면 영역의 배선을 투명하게 만들어 빛 투과율을 높이는 방향으로 설계됐다.",
+        "이는 차세대 디스플레이 기술에 큰 영향을 미칠 것으로 기대된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "특허",
+        "카메라",
+        "아래 장착",
+        "빛 투과율"
+      ],
+      "companies": [
+        "LG디스플레이"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(LG디스플레이) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-24T22:00:01Z",
+      "updated_at": "2026-10-24T22:00:01Z",
+      "articles": [
+        {
+          "key": "b8b3f90cad65f2e4",
+          "title": "화면 구멍 없애고 카메라 빛 투과율 높인다…LGD, UDC 특허 등록",
+          "url": "https://www.inews24.com/view/2018540",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-24T22:00:01Z"
+        }
+      ],
+      "importance_raw": 3,
+      "type_checked": true
+    }
+  ]
+}

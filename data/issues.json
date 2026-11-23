@@ -1,67 +1,118 @@
 {
   "version": 1,
-  "updated_at": "2026-11-23T21:03:41Z",
+  "updated_at": "2026-11-23T22:04:49Z",
   "issues": [
     {
-      "id": "c20261123-1492",
-      "headline": "트럼프, 젠슨 황 엔비디아 CEO 복귀에 개입 주장",
+      "id": "c20261123-1494",
+      "headline": "하이브리드 본딩 3D NAND 기반 아날로그 인메모리 연산 칩 연구",
       "summary": [
-        "트럼프 대통령이 젠슨 황의 엔비디아 CEO 복귀 과정에 직접 관여했다고 CNBC 인터뷰에서 밝혔다.",
-        "트럼프는 엔비디아 이사회 인사들과 직접 논의했다고 말했으며, 기사 본문은 일부만 확인된다.",
-        "정부 수장의 기업 경영진 인선 개입 주장은 엔비디아 지배구조와 미 정부-반도체 기업 관계에 주목을 끈다."
+        "IBM, 마이크론, 파트라스대학교 연구진이 3D NAND 플래시 기반 아날로그 인메모리 컴퓨팅 매크로를 논문으로 발표했다.",
+        "이 구조는 하이브리드 본딩을 적용해 mm²당 480만 개의 가중치를 저장하는 것으로 기술됐다.",
+        "고밀도 메모리 내 연산 기술로서 AI 가속기의 연산 집적도 향상 가능성을 보여준 연구 성과다."
       ],
-      "category": "정책/무역",
+      "category": "메모리",
       "tags": [
-        "젠슨 황",
-        "엔비디아 CEO",
-        "경영진 복귀",
-        "이사회",
-        "미국 정부"
+        "3D NAND",
+        "인메모리 컴퓨팅",
+        "하이브리드 본딩",
+        "아날로그 CIM",
+        "AI 가속기"
       ],
       "companies": [
-        "엔비디아"
+        "IBM",
+        "마이크론",
+        "파트라스대학교"
       ],
-      "event_type": "경영진 교체",
+      "event_type": "업계 일반",
       "confirmed": true,
       "parties": [
-        "엔비디아"
+        "IBM",
+        "마이크론",
+        "파트라스대학교"
       ],
-      "importance": 3,
-      "importance_reason": "경영진 교체 3점",
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-23T20:53:43Z",
-      "updated_at": "2026-11-23T20:53:43Z",
+      "region": "en",
+      "first_seen": "2026-11-23T21:35:38Z",
+      "updated_at": "2026-11-23T21:35:38Z",
       "articles": [
         {
-          "key": "f1ca87f08193f892",
-          "title": "트럼프 “젠슨 황 복귀 과정서 내가 엔비디아 이사회 설득”",
-          "url": "https://www.dt.co.kr/article/12096825",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-23T20:53:43Z"
+          "key": "05974cf683c5982e",
+          "title": "Hybrid-Bonded 3D NAND Boosts Analog In-Memory Compute Density (IBM, Micron, U. of Patras)",
+          "url": "https://semiengineering.com/hybrid-bonded-3d-nand-boosts-analog-in-memory-compute-density/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-23T21:35:38Z"
         }
       ],
       "type_checked": true,
-      "importance_raw": 3
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261123-1493",
+      "headline": "전자빔 리소그래피 스티칭 오차가 SOI 도파로 손실을 높여",
+      "summary": [
+        "AMO GmbH와 RWTH 아헨 대학 연구진은 전자빔 리소그래피의 필드 스티칭 오차가 광 도파로 손실에 미치는 영향을 분석했다.",
+        "스티칭 오프셋이 작아도 손실이 나타나며, 2.5nm 오차에서도 전파 손실이 측정 가능하게 기여했다고 보고했다.",
+        "대형 광집적회로 제작에서 스티칭 정밀도가 중요한 고려 요소임을 시사한다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "전자빔 리소그래피",
+        "스티칭 오차",
+        "SOI 도파로",
+        "광집적회로",
+        "FDTD 시뮬레이션"
+      ],
+      "companies": [
+        "AMO GmbH",
+        "RWTH 아헨 대학"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "AMO GmbH",
+        "RWTH 아헨 대학"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-23T21:34:45Z",
+      "updated_at": "2026-11-23T21:34:45Z",
+      "articles": [
+        {
+          "key": "b882947dd52e4d14",
+          "title": "E-Beam Stitching Errors Increase Loss In SOI Waveguides (AMO GmbH, RWTH Aachen)",
+          "url": "https://semiengineering.com/e-beam-stitching-errors-increase-loss-in-soi-waveguides-amo-gmbh-rwth-aachen/",
+          "source": "Semiconductor Engineering",
+          "lang": "en",
+          "published_at": "2026-11-23T21:34:45Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261123-1486",
-      "headline": "젠슨 황, 11일 만에 엔비디아 CEO 복귀",
+      "headline": "젠슨 황 엔비디아 CEO 11일 만에 복귀 결정",
       "summary": [
-        "엔비디아 이사회가 만장일치로 젠슨 황의 CEO 복직을 의결하며 11일 만에 복귀했다.",
-        "트럼프 대통령은 이번 복귀가 미국에 최선이라는 입장을 밝힌 것으로 보도됐다.",
-        "AI 반도체 선두 기업의 리더십 공백이 끝나면서 향후 전략 방향에 시장의 관심이 쏠린다."
+        "엔비디아 이사회가 사임 11일 만에 젠슨 황의 CEO 및 이사 복귀를 만장일치로 의결하고 즉시 효력을 발생시켰다.",
+        "이사회는 미국 정부 고위급 의견을 받아 복귀가 국가안보에 위험을 주지 않는다고 판단했다고 밝혔다.",
+        "정치권 반발이 확산되는 가운데 AI 반도체 선두 기업의 리더십 불확실성이 해소되었다는 점에서 업계 의미가 크다."
       ],
       "category": "AI반도체",
       "tags": [
         "젠슨 황",
         "CEO 복귀",
+        "국가안보",
         "이사회 의결",
-        "AI 반도체",
-        "경영진 교체"
+        "AI 반도체"
       ],
       "companies": [
         "엔비디아"
@@ -72,13 +123,13 @@
         "엔비디아"
       ],
       "importance": 4,
-      "importance_reason": "경영진 교체 3점, 매체 4곳 보도 +1 → 4점",
+      "importance_reason": "경영진 교체 3점, 매체 5곳 보도 +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "both",
       "first_seen": "2026-11-23T14:19:42Z",
-      "updated_at": "2026-11-23T18:35:22Z",
+      "updated_at": "2026-11-23T21:27:56Z",
       "articles": [
         {
           "key": "616283a566b63644",
@@ -143,10 +194,116 @@
           "source": "ZDNet Korea",
           "lang": "ko",
           "published_at": "2026-11-23T18:35:22Z"
+        },
+        {
+          "key": "b64326944534d23a",
+          "title": "젠슨 황, 사임 11일 만에 엔비디아 CEO 복귀…美 정치권 반발 확산",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65796",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-23T21:27:56Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 4
+    },
+    {
+      "id": "c20261123-1489",
+      "headline": "젠슨 황 엔비디아 CEO 복귀 두고 이사회 독립성 논란",
+      "summary": [
+        "젠슨 황 엔비디아 CEO가 트럼프 대통령의 공개 지원 속에 복귀했다.",
+        "사임을 만장일치로 받아들였던 이사회가 2주도 안 돼 결정을 뒤집은 것으로 전해졌다.",
+        "이사회의 독립성과 감독 기능에 대한 지배구조 논란이 커지고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "엔비디아",
+        "이사회 독립성",
+        "지배구조",
+        "CEO 복귀"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-23T16:16:50Z",
+      "updated_at": "2026-11-23T21:06:14Z",
+      "articles": [
+        {
+          "key": "35736894a5ef88a2",
+          "title": "트럼프 \"엔비디아 이사회, 젠슨 황 복귀 전 정부 보증 요청\"",
+          "url": "https://zdnet.co.kr/view/?no=20261124011622",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-23T16:16:50Z"
+        },
+        {
+          "key": "4895fb0497de5e49",
+          "title": "“소신없는 이사회의 기이한 행동” 美지배구조 전문가들, 젠슨황 복귀 비판",
+          "url": "https://www.dt.co.kr/article/12096826",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-23T21:06:14Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261123-1492",
+      "headline": "트럼프, 젠슨 황 엔비디아 CEO 복귀에 개입 주장",
+      "summary": [
+        "트럼프 대통령이 젠슨 황의 엔비디아 CEO 복귀 과정에 직접 관여했다고 CNBC 인터뷰에서 밝혔다.",
+        "트럼프는 엔비디아 이사회 인사들과 직접 논의했다고 말했으며, 기사 본문은 일부만 확인된다.",
+        "정부 수장의 기업 경영진 인선 개입 주장은 엔비디아 지배구조와 미 정부-반도체 기업 관계에 주목을 끈다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "젠슨 황",
+        "엔비디아 CEO",
+        "경영진 복귀",
+        "이사회",
+        "미국 정부"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-23T20:53:43Z",
+      "updated_at": "2026-11-23T20:53:43Z",
+      "articles": [
+        {
+          "key": "f1ca87f08193f892",
+          "title": "트럼프 “젠슨 황 복귀 과정서 내가 엔비디아 이사회 설득”",
+          "url": "https://www.dt.co.kr/article/12096825",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-23T20:53:43Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261123-1491",
@@ -234,51 +391,6 @@
           "source": "ZDNet Korea",
           "lang": "ko",
           "published_at": "2026-11-23T17:43:29Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261123-1489",
-      "headline": "엔비디아 이사회, 젠슨 황 CEO 복귀 결정",
-      "summary": [
-        "엔비디아 이사회가 젠슨 황 CEO의 복귀를 만장일치로 결정했고, 트럼프 대통령이 정부 보증 과정에 관여했다고 밝혔다.",
-        "이사회는 미국 정부 고위 관계자 의견을 수렴해 국가안보 위협이 없다고 판단했으며, 준법감시책임자를 새로 선임했다.",
-        "중국 정보기관 연계 의혹과 대중국 수출 규정 준수 여부에 대한 조사는 계속될 전망이라 불확실성이 남아 있다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "젠슨 황",
-        "엔비디아 경영진",
-        "대중국 수출통제",
-        "국가안보",
-        "내부 조사"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 3,
-      "importance_reason": "경영진 교체 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-23T16:16:50Z",
-      "updated_at": "2026-11-23T16:16:50Z",
-      "articles": [
-        {
-          "key": "35736894a5ef88a2",
-          "title": "트럼프 \"엔비디아 이사회, 젠슨 황 복귀 전 정부 보증 요청\"",
-          "url": "https://zdnet.co.kr/view/?no=20261124011622",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-23T16:16:50Z"
         }
       ],
       "type_checked": true,
@@ -67735,51 +67847,6 @@
         }
       ],
       "importance_raw": 2
-    },
-    {
-      "id": "c20261026-0139",
-      "headline": "LG디스플레이, 카메라 빛 투과율 개선 OLED 특허 획득",
-      "summary": [
-        "LG디스플레이가 화면 아래 카메라와 센서를 배치하는 OLED 기술 특허를 등록했다.",
-        "이 기술은 화면 영역의 배선을 투명하게 만들어 빛 투과율을 높이는 방향으로 설계됐다.",
-        "이는 차세대 디스플레이 기술에 큰 영향을 미칠 것으로 기대된다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "OLED",
-        "특허",
-        "카메라",
-        "아래 장착",
-        "빛 투과율"
-      ],
-      "companies": [
-        "LG디스플레이"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "LG디스플레이"
-      ],
-      "importance": 3,
-      "importance_reason": "업계 일반 2점, 관심 기업(LG디스플레이) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-24T22:00:01Z",
-      "updated_at": "2026-10-24T22:00:01Z",
-      "articles": [
-        {
-          "key": "b8b3f90cad65f2e4",
-          "title": "화면 구멍 없애고 카메라 빛 투과율 높인다…LGD, UDC 특허 등록",
-          "url": "https://www.inews24.com/view/2018540",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-24T22:00:01Z"
-        }
-      ],
-      "importance_raw": 3,
-      "type_checked": true
     }
   ]
 }
