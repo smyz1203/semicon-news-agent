@@ -1,7 +1,168 @@
 {
   "version": 1,
-  "updated_at": "2026-11-23T03:10:42Z",
+  "updated_at": "2026-11-23T04:24:45Z",
   "issues": [
+    {
+      "id": "c20261123-1464",
+      "headline": "삼성글로벌리서치 2027년 사장단 인사, 김원준·최진원 승진",
+      "summary": [
+        "삼성글로벌리서치가 2027년 사장단 인사에서 김원준 대표이사 부사장과 최진원 삼성전자 재경팀 부사장을 사장으로 승진시켰다.",
+        "김원준 사장은 2023년 말부터 대표이사를 맡아 왔고, 최진원 사장은 재무전략담당을 맡아 계열사 경영 컨설팅을 담당할 예정이다.",
+        "이번 인사는 그룹 계열 리서치 법인의 경영 체제를 다지는 조치로, 부사장 이하 정기 임원 인사도 조만간 발표될 예정이다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "사장단 인사",
+        "대표이사",
+        "재무전략",
+        "경영 컨설팅",
+        "정기 임원 인사"
+      ],
+      "companies": [
+        "삼성글로벌리서치",
+        "삼성전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "삼성글로벌리서치"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-23T02:07:26Z",
+      "updated_at": "2026-11-23T03:55:26Z",
+      "articles": [
+        {
+          "key": "70046b38413f49bf",
+          "title": "삼성글로벌리서치 2027년 사장단 인사 명단",
+          "url": "https://zdnet.co.kr/view/?no=20261123110726",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-23T02:07:26Z"
+        },
+        {
+          "key": "46986da433a4e2e2",
+          "title": "삼성글로벌리서치, 김원준 대표이사 사장 승진",
+          "url": "https://zdnet.co.kr/view/?no=20261123111247",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-23T02:16:12Z"
+        },
+        {
+          "key": "02059a25947c268a",
+          "title": "[프로필] 최진원 삼성글로벌리서치 재무전략담당 사장",
+          "url": "https://zdnet.co.kr/view/?no=20261123112103",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-23T02:25:52Z"
+        },
+        {
+          "key": "996cb4ab54e7e25e",
+          "title": "삼성글로벌리서치 김원준 대표 사장 승진…재무전략담당 사장에 최진원",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65756",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-23T03:55:26Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261123-1466",
+      "headline": "트리니티 팹, SK하이닉스 EUV 장비 도입 협의",
+      "summary": [
+        "트리니티 팹 재단이 SK하이닉스의 EUV 장비 사용을 협의 중이라고 보도됐다.",
+        "기사에는 이기정 트리니티 팹 재단 대표가 설비 계획과 운영 방향을 설명한 내용이 담겼다.",
+        "구체적인 도입 규모와 일정은 확인되지 않아 장비 확보 가능성 정도로 해석된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "EUV",
+        "트리니티 팹",
+        "장비 도입",
+        "설비 계획"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "트리니티 팹 재단"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "트리니티 팹 재단",
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-23T03:55:00Z",
+      "updated_at": "2026-11-23T03:55:00Z",
+      "articles": [
+        {
+          "key": "36656a8cfd1b5efe",
+          "title": "Trinity Fab in talks to use SK Hynix's EUV tools",
+          "url": "https://www.digitimes.com/news/a20261123PD214/trinity-equipment-sk-hynix-euv-production.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-23T03:55:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261123-1465",
+      "headline": "트럼프, 중국 AI칩 규제 유지…엔비디아 H200 수출 불투명",
+      "summary": [
+        "트럼프 행정부가 중국향 AI칩 수출 규제를 유지하면서 엔비디아 H200의 대중국 수출이 불확실해졌다.",
+        "기사 본문이 제한적이라 구체적 수량·일정은 확인되지 않았으며 규제 방향은 유지되는 쪽으로 보인다.",
+        "엔비디아의 중국 시장 매출 전망과 국내외 반도체 공급망에 영향을 줄 수 있는 변수다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI반도체",
+        "H200",
+        "수출규제",
+        "대중국 규제",
+        "엔비디아"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-23T03:26:05Z",
+      "updated_at": "2026-11-23T03:26:05Z",
+      "articles": [
+        {
+          "key": "5568f6ac92e121ca",
+          "title": "Trump holds firm on China AI chip curbs, leaving Nvidia's H200 exports in limbo",
+          "url": "https://www.digitimes.com/news/a20261123VL208/nvidia-exports-ai-chip-donald-trump-chips.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-23T03:26:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261123-1463",
       "headline": "중국 메모리 증설, 한국 소재·장비 공급사에 기회 될까",
@@ -198,6 +359,58 @@
       ],
       "type_checked": true,
       "importance_raw": 1
+    },
+    {
+      "id": "c20261120-1418",
+      "headline": "TSMC, 미국 신규 규정 준수 방침 밝혀",
+      "summary": [
+        "TSMC는 중국 칩 설계사의 핵심 예외 조항을 없애는 새 미국 규정을 따르겠다고 밝혔다.",
+        "기사 본문이 제공되지 않아 규정의 세부 내용과 시행 시점은 확인할 수 없다.",
+        "중국 고객 대상 반도체 설계 거래에 영향을 줄 수 있어 파운드리 업계의 주목이 필요하다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출규제",
+        "TSMC",
+        "중국 칩 설계",
+        "예외 조항 폐지"
+      ],
+      "companies": [
+        "TSMC"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "TSMC"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-20T09:00:04Z",
+      "updated_at": "2026-11-23T02:17:01Z",
+      "articles": [
+        {
+          "key": "eb96f256891fa2d9",
+          "title": "TSMC says it will comply with new US rule that strips Chinese chip designers of a key exemption",
+          "url": "https://www.digitimes.com/news/a20261120VL218/tsmc-taiwan-chips-communications-samsung.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T09:00:04Z"
+        },
+        {
+          "key": "2c516e0131a0e4cf",
+          "title": "Weekly news roundup: TSMC to comply with new US rules; Musk approaches Korean firms for equipment",
+          "url": "https://www.digitimes.com/news/a20261123VL200/weekly-news-roundup-tsmc-sk-hynix-chips-equipment-investment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-23T02:17:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261123-1460",
@@ -2620,50 +2833,6 @@
       ],
       "type_checked": true,
       "importance_raw": 4
-    },
-    {
-      "id": "c20261120-1418",
-      "headline": "TSMC, 미국 신규 규정 준수 방침 밝혀",
-      "summary": [
-        "TSMC는 중국 칩 설계사의 핵심 예외 조항을 없애는 새 미국 규정을 따르겠다고 밝혔다.",
-        "기사 본문이 제공되지 않아 규정의 세부 내용과 시행 시점은 확인할 수 없다.",
-        "중국 고객 대상 반도체 설계 거래에 영향을 줄 수 있어 파운드리 업계의 주목이 필요하다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "수출규제",
-        "TSMC",
-        "중국 칩 설계",
-        "예외 조항 폐지"
-      ],
-      "companies": [
-        "TSMC"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "TSMC"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-20T09:00:04Z",
-      "updated_at": "2026-11-20T09:00:04Z",
-      "articles": [
-        {
-          "key": "eb96f256891fa2d9",
-          "title": "TSMC says it will comply with new US rule that strips Chinese chip designers of a key exemption",
-          "url": "https://www.digitimes.com/news/a20261120VL218/tsmc-taiwan-chips-communications-samsung.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-20T09:00:04Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261120-1415",
