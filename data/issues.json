@@ -1,7 +1,132 @@
 {
   "version": 1,
-  "updated_at": "2026-11-22T23:54:45Z",
+  "updated_at": "2026-11-23T01:30:17Z",
   "issues": [
+    {
+      "id": "c20261123-1456",
+      "headline": "LG전자 윈드실드 디스플레이, 미국 전문지 혁신 기술 선정",
+      "summary": [
+        "LG전자의 차세대 차량용 윈드실드 디스플레이가 미국 자동차 전문지로부터 혁신성을 인정받았다.",
+        "차량 앞유리를 대형 정보 표시 공간으로 활용하는 기술로, 기사에 구체적 수치는 나오지 않았다.",
+        "미래차 시장 공략을 위한 차량용 디스플레이 경쟁력 강화 흐름을 보여준다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "윈드실드 디스플레이",
+        "차량용 디스플레이",
+        "미래차",
+        "LG전자"
+      ],
+      "companies": [
+        "LG전자"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "LG전자"
+      ],
+      "importance": 2,
+      "importance_reason": "홍보·수상 1점, 관심 기업(LG전자) +1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-23T01:10:00Z",
+      "updated_at": "2026-11-23T01:10:00Z",
+      "articles": [
+        {
+          "key": "cddc1ea41b6dfbe1",
+          "title": "LG전자 앞유리 디스플레이, 美 자동차 전문지 ‘혁신 기술’ 선정",
+          "url": "https://www.dt.co.kr/article/12096619",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-23T01:10:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261123-1455",
+      "headline": "인도 반도체 야망, 실행 단계의 장애물 부각",
+      "summary": [
+        "인도 반도체 산업의 추진 동향을 다룬 기사가 보도됐다.",
+        "기사 본문이 사실상 비어 있어 구체적 수치나 일정은 확인되지 않는다.",
+        "다만 인도 반도체 육성 전략의 실행 과제가 거론된 만큼 주변국 경쟁 구도 참고 가치가 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "인도 반도체",
+        "반도체 육성",
+        "실행 과제"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-22T23:51:12Z",
+      "updated_at": "2026-11-22T23:51:12Z",
+      "articles": [
+        {
+          "key": "d4212b3b7d92fd6c",
+          "title": "India roundup: India's semiconductor ambitions' execution hurdles",
+          "url": "https://www.digitimes.com/news/a20261119VL210/india-roundup-cost-equipment-investment-manufacturing-xiaomi.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-22T23:51:12Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261123-1454",
+      "headline": "중국 칩 생산 거점, 싱가포르산 장비 수입 두 배로 확대",
+      "summary": [
+        "중국 반도체 생산 거점들이 싱가포르에서 만든 장비의 수입을 두 배로 늘린 것으로 보도됐다.",
+        "기사 본문은 싱가포르 탬피네스 캠퍼스 사진 설명만 담고 있어 구체적 수입 규모와 기간은 확인되지 않는다.",
+        "중국의 장비 조달 경로 변화를 보여주는 신호로, 장비 업계의 지역별 공급망 동향을 주시할 필요가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "반도체 장비",
+        "싱가포르",
+        "중국 수입",
+        "공급망"
+      ],
+      "companies": [
+        "어플라이드 머티리얼즈"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "수주·공급 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-22T23:50:56Z",
+      "updated_at": "2026-11-22T23:50:56Z",
+      "articles": [
+        {
+          "key": "89ad0d6645cf4235",
+          "title": "China's chipmaking hubs double imports of Singapore-made equipment",
+          "url": "https://www.digitimes.com/news/a20261120VL216/equipment-manufacturing-sk-hynix-beijing-cxmt.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-22T23:50:56Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261122-1452",
       "headline": "수요 기업들, 메모리 업체 투자 협력 구상 확산",
@@ -43,6 +168,104 @@
       ],
       "type_checked": true,
       "importance_raw": 1
+    },
+    {
+      "id": "c20261123-1453",
+      "headline": "공작기계 기업 힌윈, 한국 현지화로 반도체 증설 수요 공략",
+      "summary": [
+        "힌윈(Hiwin)이 한국 현지화를 강화해 반도체 설비 확대 수요를 잡으려는 움직임을 보이고 있다.",
+        "기사 본문이 제공되지 않아 구체적인 투자 규모나 일정, 수치는 확인할 수 없다.",
+        "반도체 장비 부품 공급망에서 한국 현지 대응이 중요해지고 있다는 점을 보여준다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "힌윈",
+        "한국 현지화",
+        "반도체 장비",
+        "반도체 증설"
+      ],
+      "companies": [
+        "힌윈",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [
+        "힌윈"
+      ],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-22T23:47:29Z",
+      "updated_at": "2026-11-22T23:47:29Z",
+      "articles": [
+        {
+          "key": "1fb883be34e2e2cd",
+          "title": "Hiwin deepens South Korea localization to capture semiconductor expansion",
+          "url": "https://www.digitimes.com/news/a20261120PD236/component-hiwin-technologies-expansion-localization-equipment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-22T23:47:29Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261120-1387",
+      "headline": "엔비디아 경영진 교체 가능성에 대만 공급망 긴장",
+      "summary": [
+        "엔비디아 경영진 변화가 거론되며 대만 공급업체들이 황 CEO 이후 시대에 대비하고 있다는 보도가 나왔다.",
+        "기사 본문이 제공되지 않아 구체적인 인사 내용과 일정, 수치는 확인할 수 없다.",
+        "공급망 입장에서는 리더십 변화가 주문과 협력 방향에 미칠 불확실성이 핵심 쟁점이 될 것으로 보인다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엔비디아",
+        "경영진 교체",
+        "대만 공급망",
+        "AI반도체"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-20T02:22:31Z",
+      "updated_at": "2026-11-22T23:47:01Z",
+      "articles": [
+        {
+          "key": "241d664e9c91ec88",
+          "title": "Nvidia's leadership shake-up puts two key uncertainties in focus as Taiwanese suppliers brace for post-Huang era",
+          "url": "https://www.digitimes.com/news/a20261120PD224/jensen-huang-ceo-development-supply-chain-taiwan.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-20T02:22:31Z"
+        },
+        {
+          "key": "48b3681aa5b119c2",
+          "title": "Nvidia leadership shake-up tests AI rack cadence, while Taiwan suppliers eye dual GPU-ASIC opportunities",
+          "url": "https://www.digitimes.com/news/a20261120PD233/nvidia-jensen-huang-president-google-component.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-22T23:47:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261122-1451",
@@ -3735,50 +3958,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261120-1387",
-      "headline": "엔비디아 경영진 교체 가능성에 대만 공급망 긴장",
-      "summary": [
-        "엔비디아 경영진 변화가 거론되며 대만 공급업체들이 황 CEO 이후 시대에 대비하고 있다는 보도가 나왔다.",
-        "기사 본문이 제공되지 않아 구체적인 인사 내용과 일정, 수치는 확인할 수 없다.",
-        "공급망 입장에서는 리더십 변화가 주문과 협력 방향에 미칠 불확실성이 핵심 쟁점이 될 것으로 보인다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "엔비디아",
-        "경영진 교체",
-        "대만 공급망",
-        "AI반도체"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": false,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 2,
-      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-20T02:22:31Z",
-      "updated_at": "2026-11-20T02:22:31Z",
-      "articles": [
-        {
-          "key": "241d664e9c91ec88",
-          "title": "Nvidia's leadership shake-up puts two key uncertainties in focus as Taiwanese suppliers brace for post-Huang era",
-          "url": "https://www.digitimes.com/news/a20261120PD224/jensen-huang-ceo-development-supply-chain-taiwan.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-20T02:22:31Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261120-1386",
