@@ -1,22 +1,66 @@
 {
   "version": 1,
-  "updated_at": "2026-11-23T04:24:45Z",
+  "updated_at": "2026-11-23T06:21:18Z",
   "issues": [
     {
-      "id": "c20261123-1464",
-      "headline": "삼성글로벌리서치 2027년 사장단 인사, 김원준·최진원 승진",
+      "id": "c20261123-1469",
+      "headline": "브이엠, 장비개발 총괄 이상우 사장 각자대표 선임",
       "summary": [
-        "삼성글로벌리서치가 2027년 사장단 인사에서 김원준 대표이사 부사장과 최진원 삼성전자 재경팀 부사장을 사장으로 승진시켰다.",
-        "김원준 사장은 2023년 말부터 대표이사를 맡아 왔고, 최진원 사장은 재무전략담당을 맡아 계열사 경영 컨설팅을 담당할 예정이다.",
-        "이번 인사는 그룹 계열 리서치 법인의 경영 체제를 다지는 조치로, 부사장 이하 정기 임원 인사도 조만간 발표될 예정이다."
+        "반도체 식각장비 업체 브이엠이 이사회를 열어 이상우 사내이사를 각자대표로 선임했다고 공시했다.",
+        "이상우 신임 대표는 1973년생으로 브이엠 개발팀장으로 입사해 18년 만에 대표이사에 올랐다.",
+        "최우형 대표와 함께 각자대표 체제를 이어가며 장비 개발 역량이 경영에 더 반영될 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "식각장비",
+        "각자대표",
+        "경영진 교체",
+        "장비 개발"
+      ],
+      "companies": [
+        "브이엠",
+        "원익IPS"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "브이엠"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-23T06:00:52Z",
+      "updated_at": "2026-11-23T06:00:52Z",
+      "articles": [
+        {
+          "key": "33c6fc79d459e9cd",
+          "title": "브이엠, 장비개발 총괄 이상우 사장 각자대표 선임",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65760",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-23T06:00:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261123-1464",
+      "headline": "삼성글로벌리서치 김원준·최진원 사장 승진 인사",
+      "summary": [
+        "삼성글로벌리서치가 김원준 대표와 최진원 부사장을 사장으로 승진시키는 인사를 23일 발표했다.",
+        "김 대표는 대표직을 계속 맡고, 최 사장은 재무전략담당 직책을 수행하게 된다.",
+        "이번 인사는 삼성그룹 싱크탱크 조직의 경영진 재편으로, 반도체 산업에 직접적인 영향은 제한적이다."
       ],
       "category": "실적/투자/시장",
       "tags": [
         "사장단 인사",
-        "대표이사",
-        "재무전략",
-        "경영 컨설팅",
-        "정기 임원 인사"
+        "삼성글로벌리서치",
+        "재무전략담당",
+        "경영진 교체"
       ],
       "companies": [
         "삼성글로벌리서치",
@@ -27,14 +71,14 @@
       "parties": [
         "삼성글로벌리서치"
       ],
-      "importance": 3,
-      "importance_reason": "경영진 교체 3점",
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 매체 3곳 보도 +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "ko",
       "first_seen": "2026-11-23T02:07:26Z",
-      "updated_at": "2026-11-23T03:55:26Z",
+      "updated_at": "2026-11-23T04:36:16Z",
       "articles": [
         {
           "key": "70046b38413f49bf",
@@ -67,10 +111,107 @@
           "source": "디일렉",
           "lang": "ko",
           "published_at": "2026-11-23T03:55:26Z"
+        },
+        {
+          "key": "4efb9a9b7af4423b",
+          "title": "삼성글로벌리서치, 사장단 인사 단행…김원준 대표 사장 승진",
+          "url": "https://www.etnews.com/20261123000293",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-23T04:36:16Z"
         }
       ],
       "type_checked": true,
-      "importance_raw": 3
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261123-1468",
+      "headline": "애플, 커스텀 칩용 실리콘 포토닉스 인력 영입",
+      "summary": [
+        "애플이 커스텀 칩 적용을 위한 광 패키징 인력을 채용하며 실리콘 포토닉스 분야에 진입했다.",
+        "기사 본문이 제공되지 않아 채용 규모와 구체적 일정, 기술 세부 내용은 확인할 수 없다.",
+        "광 연결 기술이 칩 간 데이터 전송에 쓰이는 만큼 AI 반도체 패키징 경쟁에 영향을 줄 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "실리콘 포토닉스",
+        "광 패키징",
+        "커스텀 칩",
+        "AI 반도체"
+      ],
+      "companies": [
+        "애플"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": false,
+      "parties": [
+        "애플"
+      ],
+      "importance": 1,
+      "importance_reason": "채용·인력 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-23T04:29:40Z",
+      "updated_at": "2026-11-23T04:29:40Z",
+      "articles": [
+        {
+          "key": "8e82f4205b764f80",
+          "title": "Apple enters silicon photonics race with optical packaging hires for custom chips",
+          "url": "https://www.digitimes.com/news/a20261123PD222/apple-photonics-silicon-packaging-chips.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-23T04:29:40Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261123-1467",
+      "headline": "SK하이닉스, 키옥시아 지분 15% 한도 내 의결권 확보",
+      "summary": [
+        "SK하이닉스가 일본 키옥시아에 대한 의결권을 확보할 것으로 보도됐다. 기사 본문은 사진 크레딧만 있어 구체적 지분율과 절차는 확인되지 않는다. 지분 15% 한도 내에서 의결권을 얻는다는 점이 핵심 쟁점이다. 메모리…"
+      ],
+      "category": "메모리",
+      "tags": [
+        "키옥시아",
+        "낸드플래시",
+        "지분 투자",
+        "의결권",
+        "SK하이닉스"
+      ],
+      "companies": [
+        "SK하이닉스",
+        "키옥시아"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": false,
+      "parties": [
+        "SK하이닉스",
+        "키옥시아"
+      ],
+      "importance": 2,
+      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-23T04:08:29Z",
+      "updated_at": "2026-11-23T04:08:29Z",
+      "articles": [
+        {
+          "key": "3a4637e51fc4abd7",
+          "title": "SK Hynix to gain voting rights in Kioxia under 15% cap",
+          "url": "https://www.digitimes.com/news/a20261123VL207/sk-hynix-kioxia-investment-nand-flash.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-23T04:08:29Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261123-1466",
