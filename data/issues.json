@@ -1,7 +1,141 @@
 {
   "version": 1,
-  "updated_at": "2026-11-24T12:13:06Z",
+  "updated_at": "2026-11-24T13:33:43Z",
   "issues": [
+    {
+      "id": "c20261124-1563",
+      "headline": "메모리 가격 급등에 테슬라 차량용 AI칩 D램 축소",
+      "summary": [
+        "테슬라가 메모리 가격 급등에 대응해 차량용 AI 반도체의 D램 용량을 25% 줄였다는 보도가 나왔다.",
+        "앞서 옵티머스 로봇용 차세대 칩의 메모리 용량도 줄인 데 이어 차량용 칩 설계까지 변경한 것으로 전해졌다.",
+        "메모리 가격 상승이 자동차 반도체 설계에까지 영향을 미치고 있음을 보여준다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "D램",
+        "AI반도체",
+        "메모리 가격",
+        "차량용 반도체",
+        "AI4.5"
+      ],
+      "companies": [
+        "테슬라"
+      ],
+      "event_type": "가격 동향",
+      "confirmed": false,
+      "parties": [
+        "테슬라"
+      ],
+      "importance": 2,
+      "importance_reason": "가격 동향 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-24T13:05:03Z",
+      "updated_at": "2026-11-24T13:05:03Z",
+      "articles": [
+        {
+          "key": "cd2ae75e361088d8",
+          "title": "\"메모리 너무 비싸\"…테슬라, AI6 이어 AI4.5도 용량 25% 축소설",
+          "url": "https://www.inews24.com/view/2030025",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-24T13:05:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261124-1562",
+      "headline": "젠슨 황 복귀 후에도 이어지는 엔비디아 논란과 의회 조사",
+      "summary": [
+        "젠슨 황 엔비디아 CEO가 사임 11일 만에 경영 일선에 복귀했다.",
+        "미국 의회는 황 CEO의 중국 관련 의혹과 첨단 반도체 수출 통제 문제를 조사 중이다.",
+        "경영진 공백과 규제 리스크가 겹치며 엔비디아의 거버넌스와 대중국 사업 전략에 불확실성이 커졌다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "젠슨 황",
+        "수출통제",
+        "대중국 반도체",
+        "의회 조사"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-24T12:49:32Z",
+      "updated_at": "2026-11-24T12:49:32Z",
+      "articles": [
+        {
+          "key": "82a589a2414a6b5e",
+          "title": "젠슨 황 돌아왔지만 끝나지 않은 논란…美 의회 청문회까지",
+          "url": "https://www.inews24.com/view/2030024",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-24T12:49:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261124-1561",
+      "headline": "젠슨 황 엔비디아 CEO 11일 만에 복귀",
+      "summary": [
+        "젠슨 황은 11월 12일 물러났다가 23일 이사회 만장일치 결정으로 CEO에 복귀했다.",
+        "복귀 소식에 엔비디아 주가는 27.56% 뛰어 165.05달러를 기록했고, 직전 20일간 31.0% 하락을 만회했다.",
+        "다만 독립 조사 결과 공개와 복귀 판단 기준 설명이 남아 있어, 제품 일정과 실적으로 효과를 검증해야 한다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "CEO 복귀",
+        "경영진 교체",
+        "독립 조사",
+        "AI반도체"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-24T12:18:30Z",
+      "updated_at": "2026-11-24T12:18:30Z",
+      "articles": [
+        {
+          "key": "15fae43570d62191",
+          "title": "[카드뉴스] 돌아온 젠슨 황, 엔비디아의 상황은 더 나아질까",
+          "url": "https://zdnet.co.kr/view/?no=20261124092913",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-24T12:18:30Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261124-1560",
       "headline": "일본, 트럭에 담은 이동식 반도체 실험실 mobileFab",
