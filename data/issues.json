@@ -1,7 +1,233 @@
 {
   "version": 1,
-  "updated_at": "2026-11-24T18:07:05Z",
+  "updated_at": "2026-11-24T19:15:37Z",
   "issues": [
+    {
+      "id": "c20261124-1568",
+      "headline": "적층 2D 반도체 다이오드, 빛으로 전자 흐름 규명",
+      "summary": [
+        "일본 연구팀이 텅스텐 디셀레나이드와 이황화몰리브덴 원자층을 쌓아 만든 다이오드의 전자 거동을 빛으로 분석했다.",
+        "연구 결과는 10월 20일 Applied Physics Letters에 발표됐으며, 광발광 분광법으로 전자가 모이는 활성 영역을 찾았다.",
+        "이 방식은 저전력 고효율 전자소자 개발에 참고가 될 수 있지만, 기사에 제시된 구체적 성능 수치는 없다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "적층 반도체",
+        "2D 반도체",
+        "다이오드",
+        "광발광 분광법",
+        "저전력 전자소자"
+      ],
+      "companies": [
+        "요코하마국립대학교"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-24T19:02:45Z",
+      "updated_at": "2026-11-24T19:02:45Z",
+      "articles": [
+        {
+          "key": "778d12341c06d1e8",
+          "title": "Shining a Light on Electron Behavior in Stacked Semiconductors",
+          "url": "https://www.semiconductor-digest.com/shining-a-light-on-electron-behavior-in-stacked-semiconductors/?utm_source=rss&utm_medium=rss&utm_campaign=shining-a-light-on-electron-behavior-in-stacked-semiconductors",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-24T19:02:45Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261124-1567",
+      "headline": "Festo·NOCTI, 반도체 제조 클린룸 인증 과정 개발",
+      "summary": [
+        "Festo Didactic과 NOCTI가 반도체 제조 교육용 클린룸 인증을 개발했다고 발표했다.",
+        "미국 제조업에 2024~2033년 380만 개 일자리가 필요하며 그중 190만 개가 채워지지 않을 수 있다는 전망이 함께 제시됐다.",
+        "반도체 인력 부족을 메우기 위한 실무형 자격 인증이 늘어나는 흐름을 보여준다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "클린룸 인증",
+        "반도체 인력 양성",
+        "반도체 제조 교육",
+        "산업 자격증"
+      ],
+      "companies": [
+        "Festo",
+        "NOCTI"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "Festo",
+        "NOCTI"
+      ],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-24T18:56:46Z",
+      "updated_at": "2026-11-24T18:56:46Z",
+      "articles": [
+        {
+          "key": "473abeaa90737878",
+          "title": "Festo and NOCTI Announce New Cleanroom Certification for Semiconductor Manufacturing Training",
+          "url": "https://www.semiconductor-digest.com/festo-and-nocti-announce-new-cleanroom-certification-for-semiconductor-manufacturing-training/?utm_source=rss&utm_medium=rss&utm_campaign=festo-and-nocti-announce-new-cleanroom-certification-for-semiconductor-manufacturing-training",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-24T18:56:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261124-1566",
+      "headline": "PI, 나노미터급 정밀 XY 스테이지 V-783 출시",
+      "summary": [
+        "PI가 웨이퍼 검사·계측 장비용 평면형 XY 스테이지 V-783을 선보였다.",
+        "310×310mm 이동 범위와 360×360mm 개구부, 1nm 엔코더 분해능, ±0.07µm 반복 정밀도를 갖췄다.",
+        "일체형 평면 구조로 높이와 강성을 개선해 검사 장비의 정밀도와 사이클 타임 단축에 기여한다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "XY 스테이지",
+        "웨이퍼 검사",
+        "계측 장비",
+        "나노 정밀도",
+        "리니어 모터"
+      ],
+      "companies": [
+        "Physik Instrumente"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "PI"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-24T18:51:51Z",
+      "updated_at": "2026-11-24T18:51:51Z",
+      "articles": [
+        {
+          "key": "6a2e0d3296d7dcbb",
+          "title": "Large XY Stage with 360x360mm Aperture Brings Nanometer Precision to Semiconductor Metrology and Wafer Inspection",
+          "url": "https://www.semiconductor-digest.com/large-xy-stage-with-360x360mm-aperture-brings-nanometer-precision-to-semiconductor-metrology-and-wafer-inspection/?utm_source=rss&utm_medium=rss&utm_campaign=large-xy-stage-with-360x360mm-aperture-brings-nanometer-precision-to-semiconductor-metrology-and-wafer-inspection",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-24T18:51:51Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261124-1565",
+      "headline": "에익스트론, 노키아에 G10-AsP 재주문…InP 포토닉스 증설",
+      "summary": [
+        "노키아가 에익스트론의 G10-AsP 장비를 여러 건 추가 주문했으며 2027년 중 순차 납품될 예정이다.",
+        "주문은 150mm InP 웨이퍼 양산 능력 확대를 겨냥하며, 기사 속 AI 인프라 레이저 시장은 2031년 435억 달러 규모로 전망된다.",
+        "AI 데이터센터용 광소자 생산 수요에 대응하는 장비 공급 사례로, 화합물 반도체 장비 업계에 의미가 크다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "InP 포토닉스",
+        "G10-AsP",
+        "150mm 웨이퍼",
+        "AI 광통신",
+        "코히어런트 광학"
+      ],
+      "companies": [
+        "에익스트론",
+        "노키아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "에익스트론",
+        "노키아"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-24T18:47:33Z",
+      "updated_at": "2026-11-24T18:47:33Z",
+      "articles": [
+        {
+          "key": "41a52acb001cc903",
+          "title": "AIXTRON and Nokia Expand Collaboration to Scale InP Photonics for AI Infrastructure",
+          "url": "https://www.semiconductor-digest.com/aixtron-and-nokia-expand-collaboration-to-scale-inp-photonics-for-ai-infrastructure/?utm_source=rss&utm_medium=rss&utm_campaign=aixtron-and-nokia-expand-collaboration-to-scale-inp-photonics-for-ai-infrastructure",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-24T18:47:33Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261124-1564",
+      "headline": "AlixLabs, EUV 비아 후공정으로 DRAM 미세화 가능성 시연",
+      "summary": [
+        "스웨덴 장비사 AlixLabs가 원자층 식각(ALE) 기술의 예비 시험 결과를 발표했다.",
+        "EUV로 만든 비아 개구부 직경이 약 25.3nm에서 17.1nm로 약 32% 줄었고, 88개 구조를 분석했다.",
+        "고집적 eDRAM 수직 커패시터 등 차세대 메모리 구조에 응용 가능성을 보여준 단계다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "원자층 식각",
+        "EUV",
+        "DRAM",
+        "eDRAM",
+        "비아 패터닝"
+      ],
+      "companies": [
+        "AlixLabs"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "AlixLabs"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-24T17:53:50Z",
+      "updated_at": "2026-11-24T17:53:50Z",
+      "articles": [
+        {
+          "key": "2a02fa162ddcdefd",
+          "title": "AlixLabs Demonstrates Advanced Via Patterning for Future DRAM Applications",
+          "url": "https://www.semiconductor-digest.com/alixlabs-demonstrates-advanced-via-patterning-for-future-dram-applications/?utm_source=rss&utm_medium=rss&utm_campaign=alixlabs-demonstrates-advanced-via-patterning-for-future-dram-applications",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-24T17:53:50Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261124-1563",
       "headline": "메모리 가격 급등에 테슬라 차량용 AI칩 D램 축소",
