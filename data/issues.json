@@ -1,26 +1,130 @@
 {
   "version": 1,
-  "updated_at": "2026-11-24T03:05:54Z",
+  "updated_at": "2026-11-24T04:15:55Z",
   "issues": [
     {
-      "id": "c20261124-1503",
-      "headline": "삼성전자, HBM4 주역 중용한 2027년 정기 임원인사",
+      "id": "c20261123-1489",
+      "headline": "젠슨 황 엔비디아 복귀, 바뀐 이사회와 지배구조 논란",
       "summary": [
-        "삼성전자가 2027년 정기 임원인사에서 부사장 39명 등 131명을 승진시키며 HBM4 개발 주역을 전면에 배치했다.",
-        "임원 승진자는 9년 만에 최소 수준이지만 DS부문 승진자는 1명 늘었고, DS부문 3분기 누적 매출은 356조원으로 역대 최대다.",
-        "HBM4 양산 경쟁력과 차세대 커스텀 HBM 역량을 강화해 AI 메모리 수요에 대응하려는 조치로 풀이된다."
+        "젠슨 황이 엔비디아에 복귀하면서 재편된 이사회 구성이 주목받고 있다.",
+        "기사에는 미국 지배구조 전문가들이 이사회의 행동을 비판했다는 내용과 트럼프 대통령이 복귀 전 정부 보증을 요청했다는 발언이 보도됐다.",
+        "복귀 과정의 이사회 판단과 정부 개입 여부가 엔비디아 거버넌스 논쟁으로 번질 가능성이 있다."
       ],
-      "category": "메모리",
+      "category": "정책/무역",
       "tags": [
+        "젠슨 황",
+        "엔비디아",
+        "이사회",
+        "지배구조",
+        "정부 보증"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 매체 3곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-23T16:16:50Z",
+      "updated_at": "2026-11-24T03:48:07Z",
+      "articles": [
+        {
+          "key": "35736894a5ef88a2",
+          "title": "트럼프 \"엔비디아 이사회, 젠슨 황 복귀 전 정부 보증 요청\"",
+          "url": "https://zdnet.co.kr/view/?no=20261124011622",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-23T16:16:50Z"
+        },
+        {
+          "key": "4895fb0497de5e49",
+          "title": "“소신없는 이사회의 기이한 행동” 美지배구조 전문가들, 젠슨황 복귀 비판",
+          "url": "https://www.dt.co.kr/article/12096826",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-23T21:06:14Z"
+        },
+        {
+          "key": "199f1572db363f5c",
+          "title": "Analysis: Jensen Huang is back at Nvidia, but he is returning to a changed board",
+          "url": "https://www.digitimes.com/news/a20261124VL210/nvidia-jensen-huang-ceo-security-government.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-24T03:48:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261124-1528",
+      "headline": "황런쉰 복귀 후 중국 AI업계 엔비디아 의존 논쟁 격화",
+      "summary": [
+        "젠슨 황 엔비디아 CEO의 중국 방문을 계기로 중국 AI 업계가 엔비디아 의존도를 두고 의견이 갈리고 있다.",
+        "기사 본문은 사진 크레딧만 포함되어 구체적 수치나 일정은 확인되지 않는다.",
+        "중국 내 엔비디아 칩 사용 여부가 국내 AI 산업 방향을 가르는 쟁점이 되고 있음을 보여준다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엔비디아",
+        "중국 AI",
+        "AI반도체 의존도",
+        "젠슨 황"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-24T03:17:57Z",
+      "updated_at": "2026-11-24T03:17:57Z",
+      "articles": [
+        {
+          "key": "082e8d77b68ef64b",
+          "title": "Analysis: Jensen Huang's return divides China's AI industry over Nvidia dependence",
+          "url": "https://www.digitimes.com/news/a20261124VL211/nvidia-jensen-huang-technology-gpu-robot.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-24T03:17:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261124-1503",
+      "headline": "삼성전자 2027년 정기 임원 인사, DS 승진 확대·DX 감소",
+      "summary": [
+        "삼성전자가 2027년 정기 임원 인사에서 131명을 승진시켰으며, DS부문은 70명, DX부문은 61명이다.",
+        "DX부문 승진자는 전년 92명에서 31명 줄었고, 3분기 영업손익이 8000억원 적자로 돌아선 실적 부진이 배경으로 보인다.",
+        "HBM4 양산과 파운드리 선단 공정을 이끈 인재가 발탁돼 메모리·시스템반도체 리더십 강화 기조가 드러났다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "임원 인사",
         "HBM4",
-        "정기 임원인사",
-        "성과주의",
-        "커스텀 HBM",
-        "AI 메모리"
+        "파운드리",
+        "TV 광고 사업",
+        "성과주의"
       ],
       "companies": [
         "삼성전자",
-        "SK하이닉스"
+        "TCL",
+        "소니"
       ],
       "event_type": "경영진 교체",
       "confirmed": true,
@@ -28,13 +132,13 @@
         "삼성전자"
       ],
       "importance": 5,
-      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1, 매체 8곳 보도 +1 → 5점",
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1, 매체 9곳 보도 +1 → 5점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
-      "region": "ko",
+      "region": "both",
       "first_seen": "2026-11-24T00:07:04Z",
-      "updated_at": "2026-11-24T03:01:06Z",
+      "updated_at": "2026-11-24T03:15:02Z",
       "articles": [
         {
           "key": "504e16dc24d82f84",
@@ -117,12 +221,36 @@
           "published_at": "2026-11-24T02:20:31Z"
         },
         {
+          "key": "1b464128790801eb",
+          "title": "삼성전자, 임원 131명 승진 인사...HBM4·파운드리 주역 전진 배치",
+          "url": "https://zdnet.co.kr/view/?no=20261124104420",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-24T02:56:40Z"
+        },
+        {
           "key": "8e8587cbb4967dad",
           "title": "삼성전자 DS 인사 키워드는 '성과주의'…HBM4 개발·양산 주역 승진",
           "url": "https://www.inews24.com/view/2029646",
           "source": "아이뉴스24",
           "lang": "ko",
           "published_at": "2026-11-24T03:01:06Z"
+        },
+        {
+          "key": "cf2480c3a3f63ae2",
+          "title": "삼성전자 DX부문 임원 승진 3분의 1 급감…TV는 '광고'·미래는 '로봇' 방점",
+          "url": "https://zdnet.co.kr/view/?no=20261124112108",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-24T03:02:03Z"
+        },
+        {
+          "key": "22be566e34c8686a",
+          "title": "Samsung cuts executive promotions by 19%, favors chip division",
+          "url": "https://www.digitimes.com/news/a20261124VL212/samsung-hbm-development-business-sales.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-24T03:15:02Z"
         }
       ],
       "type_checked": true,
@@ -2029,59 +2157,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261123-1489",
-      "headline": "젠슨 황 엔비디아 CEO 복귀 두고 이사회 독립성 논란",
-      "summary": [
-        "젠슨 황 엔비디아 CEO가 트럼프 대통령의 공개 지원 속에 복귀했다.",
-        "사임을 만장일치로 받아들였던 이사회가 2주도 안 돼 결정을 뒤집은 것으로 전해졌다.",
-        "이사회의 독립성과 감독 기능에 대한 지배구조 논란이 커지고 있다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "젠슨 황",
-        "엔비디아",
-        "이사회 독립성",
-        "지배구조",
-        "CEO 복귀"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 3,
-      "importance_reason": "경영진 교체 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-23T16:16:50Z",
-      "updated_at": "2026-11-23T21:06:14Z",
-      "articles": [
-        {
-          "key": "35736894a5ef88a2",
-          "title": "트럼프 \"엔비디아 이사회, 젠슨 황 복귀 전 정부 보증 요청\"",
-          "url": "https://zdnet.co.kr/view/?no=20261124011622",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-23T16:16:50Z"
-        },
-        {
-          "key": "4895fb0497de5e49",
-          "title": "“소신없는 이사회의 기이한 행동” 美지배구조 전문가들, 젠슨황 복귀 비판",
-          "url": "https://www.dt.co.kr/article/12096826",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-23T21:06:14Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261123-1491",
