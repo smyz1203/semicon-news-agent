@@ -701,6 +701,54 @@
         }
       ],
       "importance_raw": 3
+    },
+    {
+      "id": "c20261026-0142",
+      "headline": "삼성·SK, 미국 반도체 생산거점 구축 가속화",
+      "summary": [
+        "삼성전자와 SK하이닉스가 미국에서 반도체 생산거점 구축을 가속화하고 있다.",
+        "인텔과 TSMC도 현재 공장 증설을 추진 중이며, 일본과 한국 소부장 업체들도 참여할 예정이다.",
+        "이로 인해 미국 내 반도체 산업의 자립도가 높아지는 동시에 관련 협력 업체들에게 기회가 증가할 전망이다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "미국 반도체",
+        "삼성전자",
+        "SK하이닉스",
+        "TSMC",
+        "반도체 공급망"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "인텔",
+        "TSMC"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "설비 투자 3점, 관심 기업(SK하이닉스, 삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-25T22:00:02Z",
+      "updated_at": "2026-10-25T22:00:02Z",
+      "articles": [
+        {
+          "key": "736ca667940d10e6",
+          "title": "삼성은 테일러·SK는 인디애나…美 반도체 공급망 구축 속도",
+          "url": "https://www.inews24.com/view/2018510",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-25T22:00:02Z"
+        }
+      ],
+      "importance_raw": 4
     }
   ]
 }

@@ -1,7 +1,52 @@
 {
   "version": 1,
-  "updated_at": "2026-11-24T21:16:07Z",
+  "updated_at": "2026-11-24T22:17:20Z",
   "issues": [
+    {
+      "id": "c20261124-1570",
+      "headline": "삼성전자 HBM4E, 핀당 17Gbps 달성으로 속도 경신",
+      "summary": [
+        "삼성전자가 7세대 HBM4E의 동작 속도를 핀당 17Gbps까지 끌어올렸다고 밝혔다.",
+        "지난 5월 공개한 16Gbps 대비 약 6.25% 향상된 수치로, 약 6개월 만에 최고속도를 경신했다.",
+        "엔비디아가 요구한 것으로 알려진 17~18Gbps 기준에 근접하며 HBM 경쟁력 확보에 의미가 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM4E",
+        "핀당 17Gbps",
+        "차세대 HBM",
+        "엔비디아 요구 사양"
+      ],
+      "companies": [
+        "삼성전자",
+        "엔비디아"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-24T22:00:00Z",
+      "updated_at": "2026-11-24T22:00:00Z",
+      "articles": [
+        {
+          "key": "5cf454a40e5d4b66",
+          "title": "[단독] 삼성전자 HBM4E, 핀당 17Gbps 구현…6개월 만에 최고속도 경신",
+          "url": "https://www.inews24.com/view/2030030",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-24T22:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
     {
       "id": "c20261124-1569",
       "headline": "LG디스플레이, 발로란트 e스포츠 공식 파트너로 게이밍 OLED 공급",
@@ -70888,54 +70933,6 @@
         }
       ],
       "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0142",
-      "headline": "삼성·SK, 미국 반도체 생산거점 구축 가속화",
-      "summary": [
-        "삼성전자와 SK하이닉스가 미국에서 반도체 생산거점 구축을 가속화하고 있다.",
-        "인텔과 TSMC도 현재 공장 증설을 추진 중이며, 일본과 한국 소부장 업체들도 참여할 예정이다.",
-        "이로 인해 미국 내 반도체 산업의 자립도가 높아지는 동시에 관련 협력 업체들에게 기회가 증가할 전망이다."
-      ],
-      "category": "파운드리/시스템반도체",
-      "tags": [
-        "미국 반도체",
-        "삼성전자",
-        "SK하이닉스",
-        "TSMC",
-        "반도체 공급망"
-      ],
-      "companies": [
-        "삼성전자",
-        "SK하이닉스",
-        "인텔",
-        "TSMC"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": true,
-      "parties": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "importance": 4,
-      "importance_reason": "설비 투자 3점, 관심 기업(SK하이닉스, 삼성전자) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-25T22:00:02Z",
-      "updated_at": "2026-10-25T22:00:02Z",
-      "articles": [
-        {
-          "key": "736ca667940d10e6",
-          "title": "삼성은 테일러·SK는 인디애나…美 반도체 공급망 구축 속도",
-          "url": "https://www.inews24.com/view/2018510",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-25T22:00:02Z"
-        }
-      ],
-      "importance_raw": 4
     }
   ]
 }
