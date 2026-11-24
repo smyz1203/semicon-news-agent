@@ -1,7 +1,53 @@
 {
   "version": 1,
-  "updated_at": "2026-11-24T20:16:27Z",
+  "updated_at": "2026-11-24T21:16:07Z",
   "issues": [
+    {
+      "id": "c20261124-1569",
+      "headline": "LG디스플레이, 발로란트 e스포츠 공식 파트너로 게이밍 OLED 공급",
+      "summary": [
+        "LG디스플레이가 라이엇 게임즈 주최 발로란트 e스포츠 대회의 공식 파트너로 선정됐다.",
+        "기사 본문이 일부만 제공돼 구체적인 계약 규모와 공급 일정은 확인되지 않는다.",
+        "게이밍 OLED를 e스포츠 현장에 공급하며 디스플레이의 게이밍 시장 입지를 넓히는 의미가 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "게이밍 OLED",
+        "e스포츠",
+        "발로란트",
+        "공식 파트너"
+      ],
+      "companies": [
+        "LG디스플레이",
+        "라이엇 게임즈"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이",
+        "라이엇 게임즈"
+      ],
+      "importance": 2,
+      "importance_reason": "홍보·수상 1점, 관심 기업(LG디스플레이) +1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-24T21:01:00Z",
+      "updated_at": "2026-11-24T21:01:00Z",
+      "articles": [
+        {
+          "key": "050d16a4d2fb92b5",
+          "title": "LGD, '발로란트 e스포츠 2027' 공식 파트너…게이밍 OLED 공급",
+          "url": "https://www.yna.co.kr/view/AKR20261124160000003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-24T21:01:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261124-1568",
       "headline": "적층 2D 반도체 다이오드, 빛으로 전자 흐름 규명",
