@@ -656,6 +656,51 @@
         }
       ],
       "importance_raw": 3
+    },
+    {
+      "id": "c20261026-0091",
+      "headline": "파나소닉, 50만 대 4K OLED 기내 스크린 판매",
+      "summary": [
+        "파나소닉 아비오닉스는 50만 대의 Astrova 4K OLED 기내 스크린 판매를 발표했다.",
+        "2022년 출시 이후 45개 항공사에 채택되며 가장 빠르게 도입된 기내 솔루션으로 기록됐다.",
+        "수요 증가에 따라 공장 생산능력을 6배 확대했으며, 2027년까지 월 300만 승객이 사용할 것으로 예상하고 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "Astrova",
+        "4K OLED",
+        "기내 엔터테인먼트",
+        "파나소닉 아비오닉스",
+        "항공사",
+        "생산능력 확대"
+      ],
+      "companies": [
+        "파나소닉 아비오닉스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "파나소닉 아비오닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-25T15:00:07Z",
+      "updated_at": "2026-10-25T15:00:07Z",
+      "articles": [
+        {
+          "key": "76738e5d4b67ae31",
+          "title": "Panasonic Avionics sold over 500,000 Astrova 4K OLED in-flight entertainment screens, expands its production capacity sixfold",
+          "url": "https://www.oled-info.com/panasonic-avionics-has-sold-500000-astrova-4k-oled-flight-entertainment-screens",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-10-25T15:00:07Z"
+        }
+      ],
+      "importance_raw": 3
     }
   ]
 }
