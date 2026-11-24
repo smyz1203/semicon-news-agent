@@ -86,6 +86,323 @@
         }
       ],
       "importance_raw": 2
+    },
+    {
+      "id": "c20261026-0136",
+      "headline": "韓국 방산업체, OLED 전투기 디스플레이 개발 나선다",
+      "summary": [
+        "한국의 LG디스플레이와 한화시스템이 전투기용 AMOLED 개발 프로젝트에 착수한다.",
+        "보잉이 F-15 전투기의 LCD를 OLED로 대체해 달라고 요청했으며, 한화는 2~3년 내 개발 가능성을 검토 중이다.",
+        "군사용 LCD 제조업체가 감소하는 가운데, 한국의 OLED 패널이 대안으로 주목받고 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "AMOLED",
+        "F-15",
+        "전투기 디스플레이",
+        "방산",
+        "한화시스템"
+      ],
+      "companies": [
+        "LG디스플레이",
+        "한화시스템",
+        "보잉"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이",
+        "한화시스템",
+        "보잉"
+      ],
+      "importance": 4,
+      "importance_reason": "설비 투자 3점, 관심 기업(LG디스플레이) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-25T03:00:05Z",
+      "updated_at": "2026-10-25T03:00:05Z",
+      "articles": [
+        {
+          "key": "b2fb07c1f6d86af6",
+          "title": "More details emerge on LG Display's and Hanwha Systems' fighter jet OLED project, as Boeing asks to adopt OLEDs in its F-15 jets",
+          "url": "https://www.oled-info.com/more-details-emerge-lg-displays-and-hanwha-systems-fighter-jet-oled-project",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-10-25T03:00:05Z"
+        }
+      ],
+      "importance_raw": 4,
+      "type_checked": true
+    },
+    {
+      "id": "c20261026-0140",
+      "headline": "전기차 반도체 불량 판별 기준 15년 만에 개정",
+      "summary": [
+        "국내 연구팀이 SiC 전력반도체의 불량 판단 기준을 새롭게 정립했다.",
+        "15년 만에 마련된 새로운 기준은 검사 정확도를 획기적으로 향상시켰다.",
+        "이번 변화는 전기차 산업의 품질 개선에 큰 기여가 될 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "SiC",
+        "전력반도체",
+        "전기차",
+        "불량 판별 기준"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "국내 연구팀"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-25T03:00:01Z",
+      "updated_at": "2026-10-25T03:00:01Z",
+      "articles": [
+        {
+          "key": "872e39115c28d9da",
+          "title": "국제 결함 판별 기준, 15년 만에 우리 연구팀이 바꿔 버렸다",
+          "url": "https://www.inews24.com/view/2018599",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-25T03:00:01Z"
+        }
+      ],
+      "importance_raw": 2,
+      "type_checked": true
+    },
+    {
+      "id": "c20261026-0135",
+      "headline": "삼성전자, 사장단 인사로 사업부 책임 경영 강화",
+      "summary": [
+        "삼성전자는 정기 사장단 인사를 통해 전영현과 노태문의 겸직 해소에 주목하고 있다.",
+        "이번 인사를 통해 DS 부문과 DX 부문의 책임 경영 강화를 시도하며 경영 안정 기조를 유지할 계획이다.",
+        "사업부별 책임 경영이 메모리와 세트 사업에서의 경쟁력 강화를 가져올 것으로 기대된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "삼성전자",
+        "정기 인사",
+        "책임 경영",
+        "부문장",
+        "겸직 해소"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-25T03:00:00Z",
+      "updated_at": "2026-10-25T03:00:00Z",
+      "articles": [
+        {
+          "key": "c12181a7900e5eae",
+          "title": "[2027정기인사]삼성전자, 수시인사 기조 속 핵심 보직 정비…전영현·노태문 겸직 해소 주목",
+          "url": "https://www.etnews.com/20261023000167",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-10-25T03:00:00Z"
+        }
+      ],
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261026-0134",
+      "headline": "11월 제조업 경기 전망 하락, 반도체는 호황",
+      "summary": [
+        "전문가들이 전망한 11월 제조업 경기 PSI가 102를 기록하며 11포인트 하락했다.",
+        "국내 제조업 전반에서 개선 기대감이 크게 낮아졌으며, AI 수요 덕에 반도체 업종은 여전히 호황이다.",
+        "자동차, 휴대폰, 화학 등 주요 업종은 경기 부진이 예상되어 전반적인 경영 환경이 위축될 가능성이 있다."
+      ],
+      "category": "기타",
+      "tags": [
+        "제조업",
+        "경기 전망",
+        "PSI",
+        "반도체",
+        "AI 수요"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-25T02:03:19Z",
+      "updated_at": "2026-10-25T02:03:19Z",
+      "articles": [
+        {
+          "key": "ee8c157e39506bfd",
+          "title": "11월 업황 전망 PSI 102 기록…전월비 11포인트 하락",
+          "url": "https://www.dt.co.kr/article/12091047",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-25T02:03:19Z"
+        }
+      ],
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261026-0133",
+      "headline": "PNT, 중국 디스플레이 전시회 참여 예정",
+      "summary": [
+        "PNT는 중국 디스플레이 및 기능성 필름 시장을 겨냥한 롤 투 롤 장비를 선보인다.",
+        "PNT는 2026년 10월 23일 C-TOUCH & DISPLAY SHENZHEN 2026과 FILM & TAPE EXPO 2026에 참가할 예정이다.",
+        "해당 전시회 참가로 현지 고객 확보 및 장비 주문 기회를 확대할 계획이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "롤 투 롤",
+        "PNT",
+        "중국 전시회",
+        "디스플레이",
+        "기능성 필름"
+      ],
+      "companies": [
+        "PNT"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "PNT"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-25T01:53:39Z",
+      "updated_at": "2026-10-25T01:53:39Z",
+      "articles": [
+        {
+          "key": "3fa270153e021c7a",
+          "title": "PNT to Showcase Roll-to-Roll Equipment at China Display and Film Exhibitions",
+          "url": "https://www.thelec.net/news/articleView.html?idxno=14871",
+          "source": "디일렉",
+          "lang": "en",
+          "published_at": "2026-10-25T01:53:39Z"
+        }
+      ],
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261026-0132",
+      "headline": "한국, 2분기 경상수지 2위 차지",
+      "summary": [
+        "한국의 2분기 경상수지는 1,166억 3천만 달러로 집계되었다.",
+        "이는 독일과 일본의 경상수지를 합친 것보다도 더 높은 수치이다.",
+        "이로 인해 한국은 반도체 수출 호조로 주요 경제국 중 두 번째로 높은 경상수지를 기록하였다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "경상수지",
+        "반도체",
+        "수출",
+        "한국",
+        "IMF"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "한국은행"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-25T01:53:35Z",
+      "updated_at": "2026-10-25T01:53:35Z",
+      "articles": [
+        {
+          "key": "5e92902a02b29116",
+          "title": "S. Korea's Q2 current account surplus ranks 2nd on robust chip exports",
+          "url": "https://www.koreaherald.com/article/10913796",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-25T01:53:35Z"
+        }
+      ],
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261026-0129",
+      "headline": "엑시노스 2700, 퀄컴 최신 칩 대비 20% 성능 우위",
+      "summary": [
+        "삼성전자의 엑시노스 2700이 퀄컴의 스냅드래곤 칩을 성능 시험에서 앞섰다.",
+        "내부 멀티코어 CPU 테스트 결과, 엑시노스 2700이 스냅드래곤 8 엘리트 익스트림보다 20% 높은 점수를 기록했다.",
+        "이 결과는 엑시노스 2700이 갤럭시 S27 시리즈에 탑재될 것으로 기대되는 시점에서 중요한 의미를 갖는다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엑시노스 2700",
+        "스냅드래곤 8",
+        "CPU 성능",
+        "모바일 프로세서",
+        "삼성전자"
+      ],
+      "companies": [
+        "삼성전자",
+        "퀄컴"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "퀄컴"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-10-25T00:05:41Z",
+      "updated_at": "2026-10-25T01:40:13Z",
+      "articles": [
+        {
+          "key": "aceab78ecbf7ed7c",
+          "title": "삼성 엑시노스 2700, 스냅드래곤 최신 칩 앞섰다…CPU 성능 20% 우위",
+          "url": "https://www.dt.co.kr/article/12091003",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-25T00:05:41Z"
+        },
+        {
+          "key": "612efd41ddd8ec96",
+          "title": "Samsung's Exynos 2700 outscores Qualcomm's top chip by nearly 20%",
+          "url": "https://www.koreaherald.com/article/10913791",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-25T01:40:13Z"
+        }
+      ],
+      "importance_raw": 4,
+      "type_checked": true
     }
   ]
 }
