@@ -1,21 +1,75 @@
 {
   "version": 1,
-  "updated_at": "2026-11-23T23:06:58Z",
+  "updated_at": "2026-11-24T00:00:22Z",
   "issues": [
     {
-      "id": "c20261123-1486",
-      "headline": "젠슨 황 사임 11일 만에 엔비디아 CEO 복귀",
+      "id": "c20261124-1500",
+      "headline": "SK키파운드리, MPS 2026 최우수 공급사 선정",
       "summary": [
-        "엔비디아 이사회가 만장일치로 젠슨 황을 사장 겸 CEO로 즉시 복귀시키기로 결정했다.",
-        "사생활 논란과 중국 정보기관 연루 의혹으로 물러났던 그는 트럼프 대통령의 개입 이후 복귀했다.",
-        "복귀 소식에 엔비디아 주가가 하루 만에 30% 이상 급등해 경영 리더십 불확실성이 해소됐다."
+        "SK키파운드리가 글로벌 전력반도체 기업 MPS로부터 '2026 올해의 최우수 공급사'로 선정됐다.",
+        "기사에 제시된 세부 수치나 계약 규모는 확인되지 않았다.",
+        "전력반도체 분야에서 파운드리 협력 관계의 신뢰도를 보여주는 사례로 볼 수 있다."
       ],
-      "category": "실적/투자/시장",
+      "category": "파운드리/시스템반도체",
       "tags": [
-        "경영진 교체",
-        "젠슨 황",
-        "엔비디아 이사회",
-        "주가 급등"
+        "전력반도체",
+        "파운드리",
+        "최우수 공급사",
+        "MPS"
+      ],
+      "companies": [
+        "SK키파운드리",
+        "MPS"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "SK키파운드리",
+        "MPS"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-23T23:45:21Z",
+      "updated_at": "2026-11-24T00:00:00Z",
+      "articles": [
+        {
+          "key": "bfa927909e4121af",
+          "title": "SK키파운드리, 글로벌 전력반도체 기업 MPS 최우수 공급사 선정",
+          "url": "https://www.yna.co.kr/view/AKR20261124029900003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-23T23:45:21Z"
+        },
+        {
+          "key": "7e9b89d0c1a1fdef",
+          "title": "SK키파운드리, MPS ‘2026 최우수 공급사’로 선정",
+          "url": "https://www.dt.co.kr/article/12096739",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-24T00:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261124-1499",
+      "headline": "젠슨 황 엔비디아 CEO 복귀, 직원에게 사과와 다짐",
+      "summary": [
+        "젠슨 황 엔비디아 CEO가 23일 샌타클래라 본사를 찾아 복귀 첫날 직원들에게 사과했다.",
+        "그는 \"두 번째 기회를 줘서 감사하다\"며 더 나은 CEO가 되겠다고 밝혔고, 직원들은 환호로 맞았다.",
+        "복귀 이후 내부 결속과 리더십 행보가 주목되는 상황이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "CEO 복귀",
+        "엔비디아",
+        "리더십",
+        "임직원 소통"
       ],
       "companies": [
         "엔비디아"
@@ -25,14 +79,69 @@
       "parties": [
         "엔비디아"
       ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-23T23:35:13Z",
+      "updated_at": "2026-11-23T23:44:59Z",
+      "articles": [
+        {
+          "key": "ae0980be6ce133d0",
+          "title": "젠슨 황, 엔비디아 복귀 첫날 직원들에 사과…“두 번째 기회 감사”",
+          "url": "https://www.dt.co.kr/article/12096840",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-23T23:35:13Z"
+        },
+        {
+          "key": "646139ab16c8adf2",
+          "title": "젠슨 황, 복귀 첫날 본사 찾아 직원에 사과…\"더 나은 CEO 되겠다\"",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65803",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-23T23:44:59Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261123-1486",
+      "headline": "젠슨 황 엔비디아 CEO 11일 만에 복귀",
+      "summary": [
+        "젠슨 황 엔비디아 CEO가 사임 11일 만에 경영 일선에 복귀했다는 소식이 전해졌다.",
+        "기사들은 복귀 이후 엔비디아 주가가 31.5% 폭등했다고 전하며, 이사회가 트럼프 설득을 거쳐 복귀를 결정했다고 보도했다.",
+        "반도체 업계는 HBM 수요 불확실성과 피크아웃 우려가 줄어들 것으로 보고 있으며, 미국 정치권에서는 반발도 확산되고 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엔비디아",
+        "젠슨 황",
+        "CEO 복귀",
+        "HBM",
+        "AI 반도체"
+      ],
+      "companies": [
+        "엔비디아",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
       "importance": 4,
-      "importance_reason": "경영진 교체 3점, 매체 6곳 보도 +1 → 4점",
+      "importance_reason": "경영진 교체 3점, 매체 7곳 보도 +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "both",
       "first_seen": "2026-11-23T14:19:42Z",
-      "updated_at": "2026-11-23T23:00:00Z",
+      "updated_at": "2026-11-23T23:17:37Z",
       "articles": [
         {
           "key": "616283a566b63644",
@@ -113,6 +222,14 @@
           "source": "테크월드뉴스",
           "lang": "ko",
           "published_at": "2026-11-23T23:00:00Z"
+        },
+        {
+          "key": "ae25478680b40e70",
+          "title": "젠슨황 깜짝 복귀에 삼전닉스 HBM 불확실성·피크아웃 우려↓",
+          "url": "https://www.yna.co.kr/view/AKR20261124025800003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-23T23:17:37Z"
         }
       ],
       "type_checked": true,
