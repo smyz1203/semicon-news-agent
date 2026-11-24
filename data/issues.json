@@ -1,7 +1,289 @@
 {
   "version": 1,
-  "updated_at": "2026-11-24T09:24:40Z",
+  "updated_at": "2026-11-24T11:07:08Z",
   "issues": [
+    {
+      "id": "c20261124-1522",
+      "headline": "삼성 전자계열사 임원 42명 승진, AI·차세대 인재 발탁",
+      "summary": [
+        "삼성디스플레이·삼성SDI·삼성전기 등 삼성 전자계열사가 임원 인사를 단행해 42명을 승진시켰다.",
+        "AI 전자부품 수요 확대로 실적이 좋아진 삼성전기는 승진자 수가 전년 대비 두 배로 늘었다.",
+        "AI와 폴더블 OLED 등 차세대 제품을 이끌 인재를 대거 발탁해 주요 계열사의 기술 경쟁력 강화가 기대된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "임원 인사",
+        "AI 전자부품",
+        "폴더블 OLED",
+        "차세대 인재"
+      ],
+      "companies": [
+        "삼성전자",
+        "삼성디스플레이",
+        "삼성SDI",
+        "삼성전기"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "삼성디스플레이",
+        "삼성SDI",
+        "삼성전기"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성디스플레이) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-24T02:24:13Z",
+      "updated_at": "2026-11-24T10:04:50Z",
+      "articles": [
+        {
+          "key": "8ec78d1bd75afc33",
+          "title": "삼성 전자계열사 42명 승진…AI 수혜 삼성전기 승진자 두배로(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261124086300003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-24T02:24:13Z"
+        },
+        {
+          "key": "2177c2993e7fbb07",
+          "title": "삼성 전자계열 42명 승진… AI 수혜 삼성전기 ‘2배’",
+          "url": "https://www.dt.co.kr/article/12097039",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-24T10:04:50Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261124-1559",
+      "headline": "준감위, 삼성전자 주주환원 결정 준법 위반 아니라 판단",
+      "summary": [
+        "삼성 준법감시위원회가 삼성전자 주주환원 결정 과정을 둘러싼 논란을 검토했다.",
+        "기사에는 준법 위반이나 이해상충이 없다는 결론이 담겼으나 구체적 금액과 일정은 확인되지 않는다.",
+        "지배구조 논란이 정리되면서 주주환원 정책에 대한 시장의 불확실성이 줄어드는 계기가 될 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "주주환원",
+        "준법감시",
+        "지배구조",
+        "이해상충"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "소송·특허 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-24T09:43:28Z",
+      "updated_at": "2026-11-24T09:43:28Z",
+      "articles": [
+        {
+          "key": "e64bcc4518d94ee6",
+          "title": "준감위 \"삼성전자 주주환원 결정, 준법 위반·이해상충 아냐\"(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261124122351003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-24T09:43:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261124-1558",
+      "headline": "젠슨 황 방한과 엔비디아 주목도 상승",
+      "summary": [
+        "엔비디아 젠슨 황 CEO의 방문과 관련해 기사가 보도됐으나 본문은 사진 캡션뿐이다.",
+        "구체적인 방문 일정, 발표 내용, 수치는 기사에서 확인되지 않는다.",
+        "다만 엔비디아에 대한 시장 관심이 높아졌다는 분석으로 보이며 세부 의미는 불분명하다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "엔비디아",
+        "젠슨 황",
+        "AI반도체"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-24T09:37:23Z",
+      "updated_at": "2026-11-24T09:37:23Z",
+      "articles": [
+        {
+          "key": "e03a285fe8ba469d",
+          "title": "Analysis: Jensen’s homecoming puts Nvidia under a sharper spotlight",
+          "url": "https://www.digitimes.com/news/a20261124VL225/jensen-huang-nvidia-chips-security-ceo.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-24T09:37:23Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261124-1557",
+      "headline": "TSMC, 텍사스 226억 달러 규모 2나노 캠퍼스 추진",
+      "summary": [
+        "TSMC가 텍사스에 226억 달러 규모의 캠퍼스 조성을 검토하는 것으로 알려졌다.",
+        "기사 본문이 제공되지 않아 세부 일정과 생산 계획은 확인하기 어렵다.",
+        "미국 내 2나노 생산 기반 확대 움직임으로, 공급망 재편에 영향을 줄 수 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "2나노",
+        "TSMC",
+        "텍사스 캠퍼스",
+        "미국 생산"
+      ],
+      "companies": [
+        "TSMC"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "TSMC"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-24T09:31:50Z",
+      "updated_at": "2026-11-24T09:31:50Z",
+      "articles": [
+        {
+          "key": "560331dac8b6ad62",
+          "title": "TSMC eyes US$22.6 billion Texas campus for 2nm chips",
+          "url": "https://www.digitimes.com/news/a20261124VL226/tsmc-texas-arizona-investment-manufacturing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-24T09:31:50Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261124-1512",
+      "headline": "SK하이닉스, 협력사 R&D 1000억 지원하고 실패도 보상",
+      "summary": [
+        "SK하이닉스가 소부장 협력사의 연구개발에 5년간 1000억원을 지원하기로 했다.",
+        "올해부터 R&D 도전보상제를 도입해 개발에 실패하더라도 기술적 성과에 따라 보상한다.",
+        "공급망 협력사의 기술 개발 부담을 덜어 소부장 생태계 경쟁력 강화에 기여할 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "소부장",
+        "R&D 도전보상제",
+        "협력사 지원",
+        "공급망"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-24T01:07:41Z",
+      "updated_at": "2026-11-24T09:26:49Z",
+      "articles": [
+        {
+          "key": "63fde207e8c1073c",
+          "title": "SK하이닉스, 협력사 R&D 도전보상제에 5년간 1천억원 지원",
+          "url": "https://www.yna.co.kr/view/AKR20261124054700003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-24T01:07:41Z"
+        },
+        {
+          "key": "fd227668b7fda96b",
+          "title": "SK하이닉스, 협력사 R&D에 1000억원 지원…실패해도 보상",
+          "url": "https://www.inews24.com/view/2029989",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-24T09:26:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261124-1556",
+      "headline": "젠슨 황 복귀에 삼성전자·SK하이닉스 시총 123조 급등",
+      "summary": [
+        "젠슨 황 엔비디아 CEO가 복귀하자 삼성전자와 SK하이닉스 주가가 6% 넘게 급등했다.",
+        "두 회사의 시가총액은 하루 만에 약 123조원 늘어난 것으로 전해졌다.",
+        "엔비디아 경영 불확실성이 줄면서 국내 반도체 대형주 투자심리가 개선된 것으로 풀이된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "엔비디아 경영",
+        "시가총액",
+        "반도체 대형주"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "엔비디아"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": true,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-24T09:26:22Z",
+      "updated_at": "2026-11-24T09:26:22Z",
+      "articles": [
+        {
+          "key": "cce0927092b19120",
+          "title": "젠슨 황 돌아오자 삼성전자·SK하이닉스 시총 123조원 껑충",
+          "url": "https://www.inews24.com/view/2029992",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-24T09:26:22Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261124-1552",
       "headline": "중국 엔비디아 GPU 공급 라이프라인, 여전히 불안정",
@@ -1820,6 +2102,50 @@
       "importance_raw": 1
     },
     {
+      "id": "c20261124-1555",
+      "headline": "Zenitron, 2027년 하반기 신규 메모리 증설에도 DRAM 부족 완화 어려울 듯",
+      "summary": [
+        "DigiTimes는 Zenitron이 2027년 하반기 신규 메모리 생산능력이 가동되더라도 DRAM 공급 부족 완화는 제한적일 것으로 전망했다고 보도했다.",
+        "다만 기사 본문은 저작권 표기만 담고 있어 구체적인 증설 규모와 수치는 확인되지 않는다.",
+        "메모리 수급 타이트 상황이 장기화될 수 있다는 점은 업계의 공급 계획과 가격 흐름에 주목할 필요가 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "DRAM",
+        "DRAM 공급 부족",
+        "신규 메모리 증설",
+        "2027년 하반기"
+      ],
+      "companies": [
+        "Zenitron"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "Zenitron"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-24T02:36:17Z",
+      "updated_at": "2026-11-24T02:36:17Z",
+      "articles": [
+        {
+          "key": "4e00eeb1a15eb06a",
+          "title": "Zenitron sees little relief for DRAM shortages even with new memory capacity in 2H27",
+          "url": "https://www.digitimes.com/news/a20261124PD212.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-24T02:36:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
       "id": "c20261124-1523",
       "headline": "삼성전기, AI 대응 위해 임원 15명 승진 단행",
       "summary": [
@@ -1863,56 +2189,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261124-1522",
-      "headline": "삼성 전자계열사 42명 승진, AI 수혜 삼성전기 두배 확대",
-      "summary": [
-        "삼성디스플레이·삼성SDI·삼성전기 등 삼성 전자계열사가 정기 승진 인사를 단행해 총 42명이 승진했다.",
-        "승진자는 차세대 제품 개발을 이끌 기술 인재 중심이며, AI 수혜를 받은 삼성전기는 승진자 수가 전년보다 두 배로 늘었다.",
-        "기술 인재 중심 승진은 차세대 제품 경쟁력 강화 의지로 해석되며, 계열사 전반의 연구개발 조직 강화 흐름을 보여준다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "인사",
-        "승진",
-        "AI수혜",
-        "차세대제품",
-        "기술인재"
-      ],
-      "companies": [
-        "삼성전자",
-        "삼성디스플레이",
-        "삼성SDI",
-        "삼성전기"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "삼성디스플레이",
-        "삼성SDI",
-        "삼성전기"
-      ],
-      "importance": 4,
-      "importance_reason": "경영진 교체 3점, 관심 기업(삼성디스플레이) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-24T02:24:13Z",
-      "updated_at": "2026-11-24T02:24:13Z",
-      "articles": [
-        {
-          "key": "8ec78d1bd75afc33",
-          "title": "삼성 전자계열사 42명 승진…AI 수혜 삼성전기 승진자 두배로(종합)",
-          "url": "https://www.yna.co.kr/view/AKR20261124086300003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-24T02:24:13Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
     },
     {
       "id": "c20261124-1521",
@@ -2324,50 +2600,6 @@
       "importance_raw": 2
     },
     {
-      "id": "c20261124-1512",
-      "headline": "SK하이닉스, 소부장 협력사 R&D에 5년간 1천억 지원",
-      "summary": [
-        "SK하이닉스가 소재·부품·장비 협력사의 연구개발을 돕기 위해 향후 5년간 1천억원을 지원하기로 했다.",
-        "지원은 협력사 R&D 도전보상제를 통해 이뤄지며, 기사 본문은 세부 집행 방식을 짧게만 전한다.",
-        "협력사 기술 경쟁력을 키워 국내 반도체 공급망의 안정과 자립도를 높이는 효과가 기대된다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "소재·부품·장비",
-        "R&D 지원",
-        "협력사 상생",
-        "공급망"
-      ],
-      "companies": [
-        "SK하이닉스"
-      ],
-      "event_type": "재무·주주",
-      "confirmed": true,
-      "parties": [
-        "SK하이닉스"
-      ],
-      "importance": 3,
-      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-24T01:07:41Z",
-      "updated_at": "2026-11-24T01:07:41Z",
-      "articles": [
-        {
-          "key": "63fde207e8c1073c",
-          "title": "SK하이닉스, 협력사 R&D 도전보상제에 5년간 1천억원 지원",
-          "url": "https://www.yna.co.kr/view/AKR20261124054700003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-24T01:07:41Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
       "id": "c20261124-1511",
       "headline": "엔비디아 GPU 전력 수요 급증, 대만 PMIC 기업에 기회",
       "summary": [
@@ -2412,6 +2644,52 @@
       ],
       "type_checked": true,
       "importance_raw": 1
+    },
+    {
+      "id": "c20261124-1554",
+      "headline": "윈본드·성공대, AI·첨단패키징 칩 연구센터 설립",
+      "summary": [
+        "윈본드와 국립성공대(NCKU)가 AI와 첨단 패키징을 다루는 칩 연구개발 센터를 열었다고 알려졌다.",
+        "기사 본문은 사진 출처 표기만 있어 센터 규모, 투자액, 운영 일정 등 구체적 내용은 확인되지 않는다.",
+        "대만 메모리 기업의 학계 협력으로, 첨단 패키징 인재와 기술 확보 흐름을 보여주는 사례로 볼 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "AI반도체",
+        "첨단패키징",
+        "칩 연구개발",
+        "산학협력"
+      ],
+      "companies": [
+        "윈본드",
+        "국립성공대"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "윈본드",
+        "국립성공대"
+      ],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-24T01:03:56Z",
+      "updated_at": "2026-11-24T01:03:56Z",
+      "articles": [
+        {
+          "key": "25666b1424e035d1",
+          "title": "Winbond, NCKU launch chip R&D center focused on AI, advanced packaging",
+          "url": "https://www.digitimes.com/news/a20261123PD233/packaging-winbond-talent-design-management.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-24T01:03:56Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261124-1510",
@@ -2745,6 +3023,51 @@
       ],
       "type_checked": true,
       "importance_raw": 4
+    },
+    {
+      "id": "c20261124-1553",
+      "headline": "젠슨 황 엔비디아 복귀를 두고 입법부 질의 확산",
+      "summary": [
+        "미국 입법자들이 젠슨 황 엔비디아 CEO의 복귀와 관련해 해명을 요구하고 있다.",
+        "기사 본문에는 구체적 일정이나 수치가 없고 제목과 사진 설명만 확인된다.",
+        "업계 리더들은 환영하는 반면 투자자 반응은 엇갈려 지배구조 논란이 주목받고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "엔비디아",
+        "경영진 복귀",
+        "입법 질의",
+        "투자자 반응"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-24T00:08:04Z",
+      "updated_at": "2026-11-24T00:08:04Z",
+      "articles": [
+        {
+          "key": "5768bce44e7bd45d",
+          "title": "Lawmakers demand answers on Jensen Huang's return to Nvidia as tech leaders cheer and investors split",
+          "url": "https://www.digitimes.com/news/a20261124VL201.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-24T00:08:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     },
     {
       "id": "c20261124-1504",
