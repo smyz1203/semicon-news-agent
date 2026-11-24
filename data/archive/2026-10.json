@@ -558,6 +558,104 @@
         }
       ],
       "importance_raw": 3
+    },
+    {
+      "id": "c20261026-0090",
+      "headline": "메모리 가격 상승으로 PC 출하량 21% 감소",
+      "summary": [
+        "올해 3분기 글로벌 PC 출하량이 5700만대로 21% 감소했다.",
+        "메모리 반도체 가격 상승이 주요 원인으로 작용했으며, 애플과 에이수스는 점유율을 높였다.",
+        "이러한 상황은 PC 시장 회복에 부정적인 영향을 미칠 것으로 예상된다."
+      ],
+      "category": "기타",
+      "tags": [
+        "PC 출하량",
+        "메모리 가격",
+        "시장 점유율",
+        "애플",
+        "에이수스"
+      ],
+      "companies": [
+        "애플",
+        "에이수스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "애플",
+        "에이수스"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-25T06:48:37Z",
+      "updated_at": "2026-10-25T08:54:16Z",
+      "articles": [
+        {
+          "key": "cf369673312a220e",
+          "title": "메모리값 급등에 PC 출하 21% 감소…애플·에이수스는 점유율 확대",
+          "url": "https://www.inews24.com/view/2018665",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-25T06:48:37Z"
+        },
+        {
+          "key": "a088bb05530b7bcb",
+          "title": "부품값 상승에 PC 교체수요 위축…글로벌 출하량 21% 급감",
+          "url": "https://www.dt.co.kr/article/12091116",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-25T08:54:16Z"
+        }
+      ],
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261026-0089",
+      "headline": "에버디스플레이, 3분기 실적 20% 감소",
+      "summary": [
+        "에버디스플레이(EDO)는 2026년 3분기 매출이 1억 5,900만 달러로 20% 감소했다고 발표했다.",
+        "올해 1~3분기 수익은 5억 4,500만 달러로 전년 대비 8.6% 줄었으며, 누적 순손실은 2억 7,000만 달러에 달했다.",
+        "소비자 전자 제품 시장의 수요 약세와 AMOLED 업계의 압박이 주요 원인으로, 회사는 R&D에 지속적으로 투자하고 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "AMOLED",
+        "에버디스플레이",
+        "3분기 실적",
+        "소비자 전자제품",
+        "R&D 투자"
+      ],
+      "companies": [
+        "에버디스플레이"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "에버디스플레이"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-25T08:00:06Z",
+      "updated_at": "2026-10-25T08:00:06Z",
+      "articles": [
+        {
+          "key": "8b13c5c997482746",
+          "title": "Everdisplay's revenues drop 20% in Q3 2026, as demand for its AMOLED products remain weak",
+          "url": "https://www.oled-info.com/everdisplays-revenues-drop-20-q3-2026-company-continues-post-losses",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-10-25T08:00:06Z"
+        }
+      ],
+      "importance_raw": 3
     }
   ]
 }
