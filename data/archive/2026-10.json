@@ -403,6 +403,51 @@
       ],
       "importance_raw": 4,
       "type_checked": true
+    },
+    {
+      "id": "c20261026-0138",
+      "headline": "한국, 15년 만에 전기차 반도체 불량 기준 개선",
+      "summary": [
+        "국내 연구진이 전기차용 탄화규소 전력반도체의 불량 판단 기준을 새로 확립했다.",
+        "기존 불량 판별 기준은 지난 15년간 국제표준으로 사용되어 왔으나, 원자 단위에서 검증되어 개선됐다.",
+        "이 개선은 전기차 반도체 산업의 품질 향상과 안전성 확보에 큰 의미를 지닌다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "탄화규소",
+        "전력반도체",
+        "불량 기준",
+        "전기차",
+        "소자 기술"
+      ],
+      "companies": [
+        "연구진"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "한국"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-25T04:30:29Z",
+      "updated_at": "2026-10-25T04:30:29Z",
+      "articles": [
+        {
+          "key": "b4cfb1b7da9d4002",
+          "title": "\"韓, 15년 만에 오류 잡았다\"…전기차 반도체 ‘불량 기준’ 새 확립",
+          "url": "https://www.dt.co.kr/article/12091070",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-25T04:30:29Z"
+        }
+      ],
+      "importance_raw": 2,
+      "type_checked": true
     }
   ]
 }
