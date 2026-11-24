@@ -1,7 +1,99 @@
 {
   "version": 1,
-  "updated_at": "2026-11-24T11:07:08Z",
+  "updated_at": "2026-11-24T12:13:06Z",
   "issues": [
+    {
+      "id": "c20261124-1560",
+      "headline": "일본, 트럭에 담은 이동식 반도체 실험실 mobileFab",
+      "summary": [
+        "제목에 따르면 일본에서 반도체 실험실을 트럭에 싣는 mobileFab 프로젝트가 소개됐다.",
+        "본문은 기자 소개글이며 mobileFab의 규모, 일정, 참여 기관 등 구체적 내용은 담기지 않았다.",
+        "현재 확인되는 내용만으로는 산업적 영향을 판단하기 어려우며 원문 기사 확인이 필요하다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "mobileFab",
+        "이동식 팹",
+        "반도체 연구 인프라",
+        "일본"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-24T11:30:00Z",
+      "updated_at": "2026-11-24T11:30:00Z",
+      "articles": [
+        {
+          "key": "841daf87aeb8a79f",
+          "title": "Japan puts chipmaking labs inside trucks with mobileFab",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/japan-puts-chipmaking-labs-inside-trucks-with-mobilefab-trucks-pack-30-cm-lithography-gear-to-tackle-a-10-year-semiconductor-engineer-shortage",
+          "source": "Tom's Hardware",
+          "lang": "en",
+          "published_at": "2026-11-24T11:30:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261124-1559",
+      "headline": "삼성 준감위, 삼성전자 주주환원 결정에 이해상충 없다고 판단",
+      "summary": [
+        "삼성 준법감시위원회가 삼성전자 주주환원 결정 과정의 이해상충 논란을 검토했다.",
+        "위원회는 해당 사안이 준법 위반이나 이해상충에 해당하지 않는다고 24일 밝혔다.",
+        "이번 판단으로 주주환원 결정의 투명성 논란이 일단 정리되는 흐름이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "주주환원",
+        "이해상충",
+        "준법감시위원회",
+        "지배구조"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "재무·주주 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-24T09:43:28Z",
+      "updated_at": "2026-11-24T10:10:17Z",
+      "articles": [
+        {
+          "key": "e64bcc4518d94ee6",
+          "title": "준감위 \"삼성전자 주주환원 결정, 준법 위반·이해상충 아냐\"(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261124122351003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-24T09:43:28Z"
+        },
+        {
+          "key": "64d1dc6266bc7d31",
+          "title": "삼성 준감위 “삼성전자 주주환원 결정, 이해상충 아냐”",
+          "url": "https://www.etnews.com/20261124000505",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-24T10:10:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261124-1522",
       "headline": "삼성 전자계열사 임원 42명 승진, AI·차세대 인재 발탁",
@@ -54,50 +146,6 @@
           "source": "디지털타임스",
           "lang": "ko",
           "published_at": "2026-11-24T10:04:50Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
-    },
-    {
-      "id": "c20261124-1559",
-      "headline": "준감위, 삼성전자 주주환원 결정 준법 위반 아니라 판단",
-      "summary": [
-        "삼성 준법감시위원회가 삼성전자 주주환원 결정 과정을 둘러싼 논란을 검토했다.",
-        "기사에는 준법 위반이나 이해상충이 없다는 결론이 담겼으나 구체적 금액과 일정은 확인되지 않는다.",
-        "지배구조 논란이 정리되면서 주주환원 정책에 대한 시장의 불확실성이 줄어드는 계기가 될 전망이다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "주주환원",
-        "준법감시",
-        "지배구조",
-        "이해상충"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "소송·특허",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 4,
-      "importance_reason": "소송·특허 3점, 관심 기업(삼성전자) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-24T09:43:28Z",
-      "updated_at": "2026-11-24T09:43:28Z",
-      "articles": [
-        {
-          "key": "e64bcc4518d94ee6",
-          "title": "준감위 \"삼성전자 주주환원 결정, 준법 위반·이해상충 아냐\"(종합)",
-          "url": "https://www.yna.co.kr/view/AKR20261124122351003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-24T09:43:28Z"
         }
       ],
       "type_checked": true,
