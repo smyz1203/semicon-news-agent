@@ -1,7 +1,648 @@
 {
   "version": 1,
-  "updated_at": "2026-11-24T05:25:58Z",
+  "updated_at": "2026-11-24T07:38:09Z",
   "issues": [
+    {
+      "id": "c20261124-1547",
+      "headline": "삼성 계열사 CEO 유임·세대교체 인사 단행",
+      "summary": [
+        "삼성이 2027년 정기 인사에서 주요 계열사 CEO를 유임하며 경영 안정을 택했다.",
+        "반도체·모바일·건설·조선 등 핵심 사업에는 기술·현장 전문가를 새 수장으로 선임했다.",
+        "임원 승진에는 성과주의를 적용해 세대교체를 이어가는 흐름이 드러났다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "정기 인사",
+        "CEO 유임",
+        "세대교체",
+        "성과주의"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-24T07:27:17Z",
+      "updated_at": "2026-11-24T07:27:17Z",
+      "articles": [
+        {
+          "key": "1555a3947485fcb1",
+          "title": "삼성 전자계열, 파격 대신 '안정'…성과주의 바탕으로 세대교체[종합]",
+          "url": "https://www.inews24.com/view/2029869",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-24T07:27:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261124-1546",
+      "headline": "삼성 초기업노조, DX부문 성과급 통합 논의 착수",
+      "summary": [
+        "삼성 초기업노조 삼성전자지부가 내년 단체교섭을 앞두고 DX부문 성과급 통합 의견을 수렴하고 있다.",
+        "기사 본문이 일부만 제공되어 구체적인 금액이나 일정은 확인되지 않는다.",
+        "성과급 체계 변화는 반도체와 완제품 부문 간 보상 격차 논의로 이어질 수 있어 주목된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "성과급",
+        "단체교섭",
+        "DX부문",
+        "초기업노조"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "삼성그룹 초기업노동조합 삼성전자지부"
+      ],
+      "importance": 2,
+      "importance_reason": "재무·주주 2점, 관심 기업(삼성전자) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-24T07:17:32Z",
+      "updated_at": "2026-11-24T07:17:32Z",
+      "articles": [
+        {
+          "key": "86c09d49f48c4cab",
+          "title": "반도체 중심 삼성 초기업노조, DX부문 성과급 통합 의견 수렴",
+          "url": "https://www.yna.co.kr/view/AKR20261124145800003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-24T07:17:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261124-1545",
+      "headline": "젠슨 황 복귀 소식에 반도체주 급등, 코스피 5000 회복",
+      "summary": [
+        "젠슨 황 엔비디아 CEO의 복귀 소식에 미국 반도체주가 급등했다.",
+        "코스피는 6% 넘게 상승해 3거래일 만에 5000선을 되찾았고 매수 사이드카가 발동됐다.",
+        "반도체 업황 기대가 국내 증시 전반의 투자심리를 끌어올린 흐름으로 읽힌다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "젠슨 황",
+        "엔비디아",
+        "코스피",
+        "매수 사이드카",
+        "반도체 주가"
+      ],
+      "companies": [
+        "엔비디아",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": true,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-24T07:00:41Z",
+      "updated_at": "2026-11-24T07:00:41Z",
+      "articles": [
+        {
+          "key": "1cbec808c71bd847",
+          "title": "젠슨 황 복귀 훈풍에 ‘삼전닉스’ 6%대 급등…코스피 3거래일 만에 5000선 탈환",
+          "url": "https://www.dt.co.kr/article/12096955",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-24T07:00:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261124-1544",
+      "headline": "용인 반도체클러스터 열병합발전소 시공계약 체결",
+      "summary": [
+        "한국중부발전과 SK이노베이션 E&S가 용인 반도체클러스터 열병합발전소 건설 시공계약을 맺었다.",
+        "기사에는 계약 금액이나 준공 일정 등 구체적 수치가 제시되지 않았다.",
+        "반도체클러스터의 전력·열 인프라 확보가 진행되며 사업 속도가 붙는 신호로 볼 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "용인 반도체클러스터",
+        "열병합발전소",
+        "전력 인프라",
+        "시공계약"
+      ],
+      "companies": [
+        "한국중부발전",
+        "SK이노베이션 E&S"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "한국중부발전",
+        "SK이노베이션 E&S"
+      ],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-24T07:00:36Z",
+      "updated_at": "2026-11-24T07:00:36Z",
+      "articles": [
+        {
+          "key": "3017b4b873bf0ee0",
+          "title": "용인 반도체클러스터 열병합발전소 시공계약…사업 속도",
+          "url": "https://www.yna.co.kr/view/AKR20261124143700003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-24T07:00:36Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261124-1543",
+      "headline": "ASML, 미국 MATCH법이 역효과 낳을 수 있다고 경고",
+      "summary": [
+        "ASML이 미국의 MATCH법이 오히려 역효과를 낼 수 있다고 경고했다.",
+        "기사 본문이 제공되지 않아 법안의 구체적 조항과 수치는 확인되지 않는다.",
+        "중국 팹이 통제 밖에서 가동될 수 있다는 우려가 제기되어 장비 규제 논의에 영향을 줄 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "MATCH법",
+        "반도체 장비 규제",
+        "수출통제",
+        "중국 팹"
+      ],
+      "companies": [
+        "ASML"
+      ],
+      "event_type": "칼럼·인터뷰",
+      "confirmed": false,
+      "parties": [
+        "ASML"
+      ],
+      "importance": 1,
+      "importance_reason": "칼럼·인터뷰 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-24T06:59:58Z",
+      "updated_at": "2026-11-24T06:59:58Z",
+      "articles": [
+        {
+          "key": "d70fd45b5ddc6d1a",
+          "title": "ASML warns US MATCH Act could backfire, leaving China's fabs running beyond its control",
+          "url": "https://www.digitimes.com/news/a20261124PD226.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-24T06:59:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
+    {
+      "id": "c20261124-1542",
+      "headline": "삼성전자 임원 승진 축소, HBM4 엔지니어는 발탁",
+      "summary": [
+        "삼성전자가 2027년 정기 인사에서 임원 승진 131명을 발표하며 전년(161명)보다 약 19% 줄였다.",
+        "반도체 부문(DS)은 70명을 승진시켜 전년보다 1명 늘었고, AI 메모리 핵심 엔지니어도 함께 승진했다.",
+        "전체 승진은 줄였지만 반도체 인재와 차세대 사업 인력에 집중하는 방향으로 해석된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "HBM4",
+        "임원 승진",
+        "인사",
+        "AI 메모리"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-24T06:42:52Z",
+      "updated_at": "2026-11-24T06:42:52Z",
+      "articles": [
+        {
+          "key": "023380915be41c2f",
+          "title": "Samsung pares promotions but elevates HBM4 engineers",
+          "url": "https://www.koreaherald.com/article/10947717",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-24T06:42:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261124-1541",
+      "headline": "삼성·SK하이닉스, 엔비디아 의존 탈피 모색",
+      "summary": [
+        "기사에 따르면 젠슨 황이 2026년 11월 23일 엔비디아 CEO로 복귀했다는 소식이 전해졌다.",
+        "본문은 짧아 복귀 외의 구체적 수치나 일정은 확인되지 않는다.",
+        "삼성전자와 SK하이닉스가 엔비디아 외 고객 확보를 모색하는 흐름이 산업에 주는 의미를 살필 필요가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엔비디아",
+        "젠슨 황",
+        "HBM",
+        "고객 다변화"
+      ],
+      "companies": [
+        "엔비디아",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-24T06:27:18Z",
+      "updated_at": "2026-11-24T06:27:18Z",
+      "articles": [
+        {
+          "key": "a7a605ee013e1b6d",
+          "title": "Analysis: Samsung, SK Hynix look beyond Nvidia as Huang returns",
+          "url": "https://www.digitimes.com/news/a20261124VL217/nvidia-samsung-jensen-huang-sk-hynix-ceo.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-24T06:27:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261124-1540",
+      "headline": "젠슨 황 복귀로 HBM 불확실성 완화",
+      "summary": [
+        "엔비디아 젠슨 황 CEO가 사임 11일 만에 복귀했다는 소식이 전해졌다.",
+        "이번 복귀로 삼성전자와 SK하이닉스의 HBM 협력 우려가 완화된 것으로 보인다.",
+        "다만 양사는 빅테크의 자체 AI칩 개발 확대에 대응해 고객 기반을 넓힐 전망이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM",
+        "엔비디아",
+        "AI메모리",
+        "젠슨 황",
+        "고객 다변화"
+      ],
+      "companies": [
+        "엔비디아",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-24T06:24:17Z",
+      "updated_at": "2026-11-24T06:24:17Z",
+      "articles": [
+        {
+          "key": "9833e742932b4be1",
+          "title": "Jensen Huang’s return eases HBM uncertainty for Samsung, SK hynix",
+          "url": "https://www.koreaherald.com/article/10947677",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-24T06:24:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261124-1539",
+      "headline": "BOE, 비전옥스 인수 논의 확대…12월 결정 전망",
+      "summary": [
+        "중국 BOE가 비전옥스 인수를 추진 중인 것으로 확인됐다.",
+        "당초 OLED 생산라인 한 곳만 인수하려 했으나 회사 전체 인수로 논의 범위를 넓혔다.",
+        "디스플레이 업계는 오는 12월 인수 범위가 구체적으로 결정될 것으로 보고 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "비전옥스",
+        "BOE",
+        "기업 인수"
+      ],
+      "companies": [
+        "BOE",
+        "비전옥스"
+      ],
+      "event_type": "인수합병",
+      "confirmed": false,
+      "parties": [
+        "BOE",
+        "비전옥스"
+      ],
+      "importance": 1,
+      "importance_reason": "인수합병 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-24T06:17:35Z",
+      "updated_at": "2026-11-24T06:17:35Z",
+      "articles": [
+        {
+          "key": "06d9fdf09f4608ce",
+          "title": "中BOE, 비전옥스 인수 추진",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65798",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-24T06:17:35Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261124-1538",
+      "headline": "AI 수요 급증에 D램 시장 폭발적 성장, 삼성 점유율 38%",
+      "summary": [
+        "2026년 3분기 글로벌 D램 시장 매출이 2,000억 달러에 육박해 전년 동기 대비 4.69배 성장했다고 보도됐다.",
+        "AI 데이터센터와 고성능 컴퓨팅 수요가 중심이 되고 모바일·온디바이스 AI 수요도 성장세에 가세하고 있다.",
+        "AI 인프라 구축 경쟁이 메모리 시장 전반의 외형 확대를 이끌며 삼성전자와 SK하이닉스의 주도권이 이어질 전망이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "D램",
+        "AI 데이터센터",
+        "온디바이스 AI",
+        "시장 점유율"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-24T06:00:00Z",
+      "updated_at": "2026-11-24T06:00:00Z",
+      "articles": [
+        {
+          "key": "c42061b55a28a9eb",
+          "title": "[한장TECH] D램 시장 ‘폭발적 성장’…삼성전자 점유율 38%",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=410217",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-24T06:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261124-1526",
+      "headline": "NIPA·금융결제원, 국산 AI반도체 금융권 실증 확대 협약",
+      "summary": [
+        "NIPA와 금융결제원이 국산 AI 반도체 기반 금융 AI 서비스 활성화를 위한 업무협약을 체결했다.",
+        "협약에 따라 이상거래 탐지 플랫폼 실증과 K-Perf 성능 검증 기준 적용을 추진하며 AX 디바이스 상품화도 계획한다.",
+        "국산 AI 반도체의 안정성을 금융결제 현장에서 입증해 공공과 산업 분야로 확산하는 발판이 될 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "국산 AI 반도체",
+        "NPU",
+        "K-Perf",
+        "금융 AI",
+        "AX 디바이스"
+      ],
+      "companies": [
+        "NIPA",
+        "금융결제원"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "NIPA",
+        "금융결제원"
+      ],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-24T02:50:24Z",
+      "updated_at": "2026-11-24T05:44:07Z",
+      "articles": [
+        {
+          "key": "dcc37fa32e0e1bed",
+          "title": "NIPA·금융결제원, 국산 AI반도체 금융권 실증 확대",
+          "url": "https://www.yna.co.kr/view/AKR20261124084300017",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-24T02:50:24Z"
+        },
+        {
+          "key": "89e5708ee1053e9d",
+          "title": "NIPA, 금융결제원과 국산 AI 반도체 금융권 실증 확대한다",
+          "url": "https://zdnet.co.kr/view/?no=20261124144407",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-24T05:44:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261124-1537",
+      "headline": "삼성 준감위원장, 주주환원 이해상충 논란 검토 언급",
+      "summary": [
+        "이찬희 삼성 준법감시위원장이 삼성전자 주주환원 결정 시점을 둘러싼 이해상충 논란을 다루겠다고 밝혔다.",
+        "기사 본문이 일부만 제공되어 구체적인 결정 내용과 수치, 일정은 확인되지 않는다.",
+        "지배구조와 주주 이익 간 쟁점이 부각되며 향후 투자자 신뢰 측면의 논의가 주목된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "주주환원",
+        "이해상충",
+        "준법감시위원회",
+        "지배구조"
+      ],
+      "companies": [
+        "삼성전자",
+        "삼성"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": false,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점, 관심 기업(삼성전자) +1, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-24T05:41:02Z",
+      "updated_at": "2026-11-24T05:41:02Z",
+      "articles": [
+        {
+          "key": "92520e706f136242",
+          "title": "삼성 준감위원장 \"주주환원 이해상충 논란 신중히 다뤄보겠다\"",
+          "url": "https://www.yna.co.kr/view/AKR20261124122300003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-24T05:41:02Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261124-1536",
+      "headline": "무어의 법칙 한계를 넘는 칩렛·첨단 패키징 기술 조명",
+      "summary": [
+        "마우저일렉트로닉스가 기술 시리즈 최신호 '무어의 법칙을 넘어'를 공개했다.",
+        "호에서는 칩렛, 첨단 패키징, 실리콘 포토닉스, 새 트랜지스터 기술을 다룬다.",
+        "미세화 한계에 맞선 컴퓨팅 성능 향상 방안을 엔지니어 관점에서 소개한 것으로 보인다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "칩렛",
+        "첨단 패키징",
+        "실리콘 포토닉스",
+        "무어의 법칙"
+      ],
+      "companies": [
+        "마우저일렉트로닉스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "마우저일렉트로닉스"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-24T05:40:00Z",
+      "updated_at": "2026-11-24T05:40:00Z",
+      "articles": [
+        {
+          "key": "ab62712ce88cc7fa",
+          "title": "마우저, ‘함께 만드는 혁신’ 기술 시리즈 최신호서 무어의 법칙 넘어서는 컴퓨팅 기술 조명",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=410232",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-24T05:40:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261124-1535",
+      "headline": "피델릭스 분식회계, 중국 최대주주 동심반도체도 제재",
+      "summary": [
+        "국내 메모리 팹리스 피델릭스의 분식회계 여파로 중국 최대주주 동심반도체가 제재를 받았다.",
+        "중국 증권감독관리위원회 상하이 감독국은 동심반도체에 시정명령을, 장쉐밍 회장에 경고장을 발부했다.",
+        "회계부정이 동심반도체 연결재무제표에 반영되면서 중국 주주사의 책임 문제로 번지고 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "분식회계",
+        "피델릭스",
+        "동심반도체",
+        "메모리 팹리스",
+        "금융당국 제재"
+      ],
+      "companies": [
+        "피델릭스",
+        "동심반도체"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "피델릭스",
+        "동심반도체"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-24T05:36:18Z",
+      "updated_at": "2026-11-24T05:36:18Z",
+      "articles": [
+        {
+          "key": "b6dbadf11f6ee654",
+          "title": "메모리 팹리스 피델릭스, 분식회계 파장…中 최대주주도 제재",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65824",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-24T05:36:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
     {
       "id": "c20261124-1505",
       "headline": "삼성전자 DX부문 정기 임원 인사 단행",
@@ -461,6 +1102,50 @@
       "importance_raw": 5
     },
     {
+      "id": "c20261124-1534",
+      "headline": "뷰소닉, 4세대 모바일 LED 디스플레이 LDS136-152 아시아 출하",
+      "summary": [
+        "뷰소닉이 수상작 LDS 시리즈의 4세대 모델 LDS136-152를 아시아태평양 지역에 출하한다고 발표했다.",
+        "제품은 올인원 설계로 접근성과 설치 편의성을 높였다는 점이 특징이며, 기사에 추가 수치는 없다.",
+        "모바일 LED 디스플레이 시장에서 제품 라인업 경쟁이 이어지고 있음을 보여준다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "모바일 LED 디스플레이",
+        "LDS 시리즈",
+        "직시형 LED",
+        "올인원 솔루션"
+      ],
+      "companies": [
+        "뷰소닉"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "뷰소닉"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-24T03:00:00Z",
+      "updated_at": "2026-11-24T03:00:00Z",
+      "articles": [
+        {
+          "key": "e272e75cf74e25e2",
+          "title": "Fourth-Generation Model of the Award-Winning LDS Series of Mobile LED Displays from ViewSonic Now Shipping in Asia Pacific",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343610",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-24T03:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
       "id": "c20261124-1527",
       "headline": "삼성전자, 중국 V9 낸드 생산능력 5배 확대 목표",
       "summary": [
@@ -503,52 +1188,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261124-1526",
-      "headline": "금융권에서 국산 AI반도체 실증 사업 확대",
-      "summary": [
-        "NIPA와 금융결제원이 금융결제 현장에서 국산 AI반도체 실증 사업을 넓히기로 했다.",
-        "기사에는 구체적인 참여 규모나 일정, 실증 대상 제품 수치가 나오지 않았다.",
-        "국산 AI반도체가 금융권 실제 서비스에서 성능과 안정성을 검증받는 단계로 나아간다는 의미가 있다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "AI반도체",
-        "국산 AI반도체",
-        "실증 사업",
-        "금융결제"
-      ],
-      "companies": [
-        "NIPA",
-        "금융결제원"
-      ],
-      "event_type": "지역·인프라",
-      "confirmed": true,
-      "parties": [
-        "NIPA",
-        "금융결제원"
-      ],
-      "importance": 2,
-      "importance_reason": "지역·인프라 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-24T02:50:24Z",
-      "updated_at": "2026-11-24T02:50:24Z",
-      "articles": [
-        {
-          "key": "dcc37fa32e0e1bed",
-          "title": "NIPA·금융결제원, 국산 AI반도체 금융권 실증 확대",
-          "url": "https://www.yna.co.kr/view/AKR20261124084300017",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-24T02:50:24Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261124-1525",
@@ -3273,6 +3912,55 @@
       "importance_raw": 3
     },
     {
+      "id": "c20261124-1533",
+      "headline": "삼성·SK하이닉스·LG, AI 붐 대응 위해 경영진 재편",
+      "summary": [
+        "삼성전자, SK하이닉스, LG전자가 AI 사업 성과를 내기 위해 경험 많은 임원을 전면 배치하는 인사를 단행했다.",
+        "인사는 칩 고객 확대, 미국 기술 협력, 데이터센터 냉각장비 생산에 초점을 맞췄으며 세 회사 모두 2027년 대표이사를 유지했다.",
+        "삼성은 적자가 이어지는 비메모리 사업 재건이 과제이며, 이번 인사가 기업별 사업 압박에 맞춘 조치라는 점이 주목된다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 붐",
+        "경영진 교체",
+        "비메모리",
+        "데이터센터 냉각",
+        "미국 기술 협력"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스",
+        "LG전자"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 관심 기업(SK하이닉스, 삼성전자, LG전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-23T06:31:35Z",
+      "updated_at": "2026-11-23T06:31:35Z",
+      "articles": [
+        {
+          "key": "bdff779e35508bf4",
+          "title": "Samsung, SK hynix, LG redraw playbooks for AI boom",
+          "url": "https://www.koreaherald.com/article/10946347",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-23T06:31:35Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
       "id": "c20261123-1470",
       "headline": "SK하이닉스 윤풍영 사장, 자사주 16억 원어치 매입",
       "summary": [
@@ -3360,6 +4048,52 @@
       ],
       "type_checked": true,
       "importance_raw": 3
+    },
+    {
+      "id": "c20261124-1532",
+      "headline": "삼성글로벌리서치 경영진 승진 및 재무전략 담당 임명",
+      "summary": [
+        "삼성글로벌리서치는 김원준 CEO를 사장으로 승진시키고 최진원 삼성전자 재무 담당 임원을 재무전략 사장으로 선임했다.",
+        "이번 조치는 2027년 정기 임원 인사의 일환으로 발표됐으며 김 사장은 CEO직을 계속 맡는다.",
+        "삼성 싱크탱크의 경영진 재편으로, 그룹 재무전략 기능이 연구조직에 강화되는 흐름으로 볼 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "임원 인사",
+        "삼성글로벌리서치",
+        "재무전략",
+        "2027 인사"
+      ],
+      "companies": [
+        "삼성글로벌리서치",
+        "삼성전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "삼성글로벌리서치",
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-23T05:48:31Z",
+      "updated_at": "2026-11-23T05:48:31Z",
+      "articles": [
+        {
+          "key": "552d6d44a2d47077",
+          "title": "Samsung Global Research promotes CEO, names financial strategy head",
+          "url": "https://www.koreaherald.com/article/10946268",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-23T05:48:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
     },
     {
       "id": "c20261123-1468",
@@ -69284,116 +70018,6 @@
           "source": "OLED-info",
           "lang": "en",
           "published_at": "2026-10-25T08:00:06Z"
-        }
-      ],
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0141",
-      "headline": "삼성전자·SK하이닉스, 역대급 배당 계획 주목",
-      "summary": [
-        "삼성전자와 SK하이닉스는 3분기 실적 발표를 앞두고 있다.",
-        "삼성전자는 30조 원, SK하이닉스는 40조 원의 추가 주주환원을 계획하고 있다.",
-        "이는 반도체 호황에 따른 것으로, 주주들에게 긍정적인 신호를 보낸다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "주주환원",
-        "삼성전자",
-        "SK하이닉스",
-        "반도체 호황",
-        "3분기 실적"
-      ],
-      "companies": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "importance": 4,
-      "importance_reason": "실적 3점, 관심 기업(SK하이닉스, 삼성전자) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-25T07:23:34Z",
-      "updated_at": "2026-10-25T07:23:34Z",
-      "articles": [
-        {
-          "key": "2d42f1be6e5ed2cf",
-          "title": "삼성전자 30조 배당·SK하이닉스 40조 자사주…추가 주주환원 주목",
-          "url": "https://www.inews24.com/view/2018681",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-25T07:23:34Z"
-        }
-      ],
-      "importance_raw": 4
-    },
-    {
-      "id": "c20261026-0137",
-      "headline": "삼성, 하반기 공채 통해 미래인재 확보 나선다",
-      "summary": [
-        "삼성이 2026년 하반기 삼성직무적성검사(GSAT)를 실시하였다.",
-        "이틀 동안 진행된 이번 GSAT에는 19개 관계사가 참여하며, 인재 확보에 집중하고 있다.",
-        "AI 및 반도체 등 미래 산업 분야에서의 인재 육성이 핵심 목표로 설정되었다."
-      ],
-      "category": "기타",
-      "tags": [
-        "GSAT",
-        "삼성전자",
-        "미래인재",
-        "AI",
-        "반도체"
-      ],
-      "companies": [
-        "삼성전자",
-        "삼성물산",
-        "삼성바이오로직스",
-        "삼성디스플레이",
-        "삼성SDI"
-      ],
-      "event_type": "채용·인력",
-      "confirmed": true,
-      "parties": [
-        "삼성"
-      ],
-      "importance": 3,
-      "importance_reason": "채용·인력 2점, 매체 3곳 보도 +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-25T04:00:00Z",
-      "updated_at": "2026-10-25T05:35:16Z",
-      "articles": [
-        {
-          "key": "c68339d69ef6fbfa",
-          "title": "삼성, 하반기 GSAT 실시…19개 관계사 참여",
-          "url": "https://www.etnews.com/20261025000054",
-          "source": "전자신문",
-          "lang": "ko",
-          "published_at": "2026-10-25T04:00:00Z"
-        },
-        {
-          "key": "a67255de827c54ca",
-          "title": "삼성, 2026년 하반기 삼성직무적성검사(GSAT) 실시",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=342677",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-10-25T04:00:00Z"
-        },
-        {
-          "key": "854ab694f706953b",
-          "title": "‘4대그룹 유일’ 공채 삼성…AI·반도체 등 미래인재 확보 나선다",
-          "url": "https://www.dt.co.kr/article/12091082",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-25T05:35:16Z"
         }
       ],
       "importance_raw": 3

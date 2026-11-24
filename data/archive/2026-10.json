@@ -448,6 +448,116 @@
       ],
       "importance_raw": 2,
       "type_checked": true
+    },
+    {
+      "id": "c20261026-0141",
+      "headline": "삼성전자·SK하이닉스, 역대급 배당 계획 주목",
+      "summary": [
+        "삼성전자와 SK하이닉스는 3분기 실적 발표를 앞두고 있다.",
+        "삼성전자는 30조 원, SK하이닉스는 40조 원의 추가 주주환원을 계획하고 있다.",
+        "이는 반도체 호황에 따른 것으로, 주주들에게 긍정적인 신호를 보낸다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "주주환원",
+        "삼성전자",
+        "SK하이닉스",
+        "반도체 호황",
+        "3분기 실적"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(SK하이닉스, 삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-25T07:23:34Z",
+      "updated_at": "2026-10-25T07:23:34Z",
+      "articles": [
+        {
+          "key": "2d42f1be6e5ed2cf",
+          "title": "삼성전자 30조 배당·SK하이닉스 40조 자사주…추가 주주환원 주목",
+          "url": "https://www.inews24.com/view/2018681",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-25T07:23:34Z"
+        }
+      ],
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261026-0137",
+      "headline": "삼성, 하반기 공채 통해 미래인재 확보 나선다",
+      "summary": [
+        "삼성이 2026년 하반기 삼성직무적성검사(GSAT)를 실시하였다.",
+        "이틀 동안 진행된 이번 GSAT에는 19개 관계사가 참여하며, 인재 확보에 집중하고 있다.",
+        "AI 및 반도체 등 미래 산업 분야에서의 인재 육성이 핵심 목표로 설정되었다."
+      ],
+      "category": "기타",
+      "tags": [
+        "GSAT",
+        "삼성전자",
+        "미래인재",
+        "AI",
+        "반도체"
+      ],
+      "companies": [
+        "삼성전자",
+        "삼성물산",
+        "삼성바이오로직스",
+        "삼성디스플레이",
+        "삼성SDI"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "삼성"
+      ],
+      "importance": 3,
+      "importance_reason": "채용·인력 2점, 매체 3곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-25T04:00:00Z",
+      "updated_at": "2026-10-25T05:35:16Z",
+      "articles": [
+        {
+          "key": "c68339d69ef6fbfa",
+          "title": "삼성, 하반기 GSAT 실시…19개 관계사 참여",
+          "url": "https://www.etnews.com/20261025000054",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-10-25T04:00:00Z"
+        },
+        {
+          "key": "a67255de827c54ca",
+          "title": "삼성, 2026년 하반기 삼성직무적성검사(GSAT) 실시",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=342677",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-10-25T04:00:00Z"
+        },
+        {
+          "key": "854ab694f706953b",
+          "title": "‘4대그룹 유일’ 공채 삼성…AI·반도체 등 미래인재 확보 나선다",
+          "url": "https://www.dt.co.kr/article/12091082",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-25T05:35:16Z"
+        }
+      ],
+      "importance_raw": 3
     }
   ]
 }
