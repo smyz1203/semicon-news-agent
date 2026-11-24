@@ -45,6 +45,47 @@
       ],
       "importance_raw": 3,
       "type_checked": true
+    },
+    {
+      "id": "c20261026-0131",
+      "headline": "항공우주 및 반도체 분야 성장 가능성 언급",
+      "summary": [
+        "Magnate Technology가 항공우주와 반도체 분야에서 성장 기회를 보았다.",
+        "회사는 이 시장에서의 전망을 밝게 보고 있으며, 구체적인 계획은 없다.",
+        "이는 산업의 다양화와 경쟁력 강화를 위한 중요한 시점으로 해석된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "항공우주",
+        "반도체",
+        "성장기회",
+        "산업다각화"
+      ],
+      "companies": [
+        "Magnate Technology"
+      ],
+      "event_type": "실적",
+      "confirmed": false,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "실적 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-25T00:41:58Z",
+      "updated_at": "2026-10-25T00:41:58Z",
+      "articles": [
+        {
+          "key": "c2f769bfa82ea9c6",
+          "title": "Magnate Technology sees aerospace, semiconductor growth opportunities",
+          "url": "https://www.digitimes.com/news/a20261023PD207/growth-revenue-aircraft-demand-equipment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-25T00:41:58Z"
+        }
+      ],
+      "importance_raw": 2
     }
   ]
 }
