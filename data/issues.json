@@ -1,7 +1,104 @@
 {
   "version": 1,
-  "updated_at": "2026-11-25T09:28:50Z",
+  "updated_at": "2026-11-25T11:12:14Z",
   "issues": [
+    {
+      "id": "c20261125-1627",
+      "headline": "마이크론 대만 공장 노사갈등 장기화, D램 공급 변수",
+      "summary": [
+        "마이크론 대만 타오위안 공장 노조가 사측의 임금·성과급 제안을 다시 거부해 노사 갈등이 길어지고 있다.",
+        "기사 본문이 일부만 제공돼 구체적인 제안 내용과 협상 일정은 확인되지 않는다.",
+        "AI 수요에 대응한 대만 생산 확대 추진과 맞물려 D램 공급망에 차질 우려가 제기된다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "D램",
+        "노사갈등",
+        "타오위안 공장",
+        "AI 수요",
+        "생산 확대"
+      ],
+      "companies": [
+        "마이크론"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "마이크론"
+      ],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T10:27:26Z",
+      "updated_at": "2026-11-25T10:27:26Z",
+      "articles": [
+        {
+          "key": "7a61f27625308f69",
+          "title": "마이크론 노사갈등 장기화…D램 공급망 변수",
+          "url": "https://www.dt.co.kr/article/12097291",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-25T10:27:26Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261124-1557",
+      "headline": "TSMC, 텍사스 226억 달러 규모 2나노 캠퍼스 추진",
+      "summary": [
+        "TSMC가 텍사스에 226억 달러 규모의 캠퍼스 조성을 검토하는 것으로 알려졌다.",
+        "기사 본문이 제공되지 않아 세부 일정과 생산 계획은 확인하기 어렵다.",
+        "미국 내 2나노 생산 기반 확대 움직임으로, 공급망 재편에 영향을 줄 수 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "2나노",
+        "TSMC",
+        "텍사스 캠퍼스",
+        "미국 생산"
+      ],
+      "companies": [
+        "TSMC"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "TSMC"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-24T09:31:50Z",
+      "updated_at": "2026-11-25T09:42:03Z",
+      "articles": [
+        {
+          "key": "560331dac8b6ad62",
+          "title": "TSMC eyes US$22.6 billion Texas campus for 2nm chips",
+          "url": "https://www.digitimes.com/news/a20261124VL226/tsmc-texas-arizona-investment-manufacturing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-24T09:31:50Z"
+        },
+        {
+          "key": "0f7af711a08315a0",
+          "title": "TSMC plans celebration for Arizona milestone as it weighs US$22.6 billion Texas campus",
+          "url": "https://www.digitimes.com/news/a20261125VL232/tsmc-arizona-texas-fab-expansion.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-25T09:42:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261125-1625",
       "headline": "SK하이닉스, 100조 규모 주주환원 계획 재확인",
@@ -46,6 +143,50 @@
       ],
       "type_checked": true,
       "importance_raw": 3
+    },
+    {
+      "id": "c20261125-1626",
+      "headline": "텍사스, TSMC에 3억5400만 달러 세금 감면 추진",
+      "summary": [
+        "텍사스 회계감사관(comptroller)이 TSMC에 대한 3억5400만 달러 규모 세금 감면을 지지했다고 보도됐다.",
+        "기사 본문은 사진 출처 표기뿐이어서 감면의 세부 조건과 일정은 확인되지 않는다.",
+        "미국 내 반도체 생산 거점 유치 경쟁 속에서 TSMC의 텍사스 투자 확대 여부가 주목된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "세금감면",
+        "TSMC",
+        "텍사스",
+        "미국 반도체 투자"
+      ],
+      "companies": [
+        "TSMC"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [
+        "TSMC"
+      ],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-25T09:02:13Z",
+      "updated_at": "2026-11-25T09:02:13Z",
+      "articles": [
+        {
+          "key": "db3edd214b8e2f80",
+          "title": "Texas comptroller backs US$354 million tax break for TSMC",
+          "url": "https://www.digitimes.com/news/a20261125VL228/tsmc-texas-investment-tax-incentive-arizona.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-25T09:02:13Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
     },
     {
       "id": "c20261125-1624",
@@ -3452,50 +3593,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261124-1557",
-      "headline": "TSMC, 텍사스 226억 달러 규모 2나노 캠퍼스 추진",
-      "summary": [
-        "TSMC가 텍사스에 226억 달러 규모의 캠퍼스 조성을 검토하는 것으로 알려졌다.",
-        "기사 본문이 제공되지 않아 세부 일정과 생산 계획은 확인하기 어렵다.",
-        "미국 내 2나노 생산 기반 확대 움직임으로, 공급망 재편에 영향을 줄 수 있다."
-      ],
-      "category": "파운드리/시스템반도체",
-      "tags": [
-        "2나노",
-        "TSMC",
-        "텍사스 캠퍼스",
-        "미국 생산"
-      ],
-      "companies": [
-        "TSMC"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": false,
-      "parties": [
-        "TSMC"
-      ],
-      "importance": 2,
-      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-24T09:31:50Z",
-      "updated_at": "2026-11-24T09:31:50Z",
-      "articles": [
-        {
-          "key": "560331dac8b6ad62",
-          "title": "TSMC eyes US$22.6 billion Texas campus for 2nm chips",
-          "url": "https://www.digitimes.com/news/a20261124VL226/tsmc-texas-arizona-investment-manufacturing.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-24T09:31:50Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261124-1512",
@@ -72086,247 +72183,6 @@
       ],
       "importance_raw": 2,
       "type_checked": true
-    },
-    {
-      "id": "c20261026-0125",
-      "headline": "전투기용 OLED 기술, 발광층 증가",
-      "summary": [
-        "전투기용 OLED가 스마트폰보다 발광층이 더 쌓인다.",
-        "이 기술은 높은 성능을 요구하는 항공기용 디스플레이에 적용된다.",
-        "이를 통해 OLED 시장에서의 성능 향상이 기대된다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "OLED",
-        "전투기용 디스플레이",
-        "항공기 기술"
-      ],
-      "companies": [],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T10:19:34Z",
-      "updated_at": "2026-10-26T10:19:34Z",
-      "articles": [
-        {
-          "key": "124180b2105b71a8",
-          "title": "전투기용 OLED, 스마트폰보다 발광층 더 쌓는다",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=64251",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-10-26T10:19:34Z"
-        }
-      ],
-      "importance_raw": 2,
-      "type_checked": true
-    },
-    {
-      "id": "c20261026-0103",
-      "headline": "DB하이텍, 차량용 반도체 품질 인증 갱신",
-      "summary": [
-        "DB하이텍이 IATF 16949 인증을 갱신하며 차량용 반도체 품질을 강화했다.",
-        "부천캠퍼스와 상우캠퍼스에서 모두 심사를 통과해 인증을 유지하게 되었다.",
-        "이번 인증 갱신은 반도체 웨이퍼 파운드리 제조 전 분야에 걸쳐 이루어졌다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "DB하이텍",
-        "IATF 16949",
-        "차량용 반도체",
-        "품질 인증"
-      ],
-      "companies": [
-        "DB하이텍"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "DB하이텍"
-      ],
-      "importance": 3,
-      "importance_reason": "업계 일반 2점, 매체 4곳 보도 +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T00:11:54Z",
-      "updated_at": "2026-10-26T10:13:03Z",
-      "articles": [
-        {
-          "key": "2b3eaf7d4c703524",
-          "title": "DB하이텍, 자동차 품질 인증 갱신…차량용 반도체 경쟁력 강화",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408726",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-26T00:11:54Z"
-        },
-        {
-          "key": "0e911e7860009b05",
-          "title": "DB하이텍, 자동차 품질 인증 갱신…車 반도체 경쟁력 강화",
-          "url": "https://www.dt.co.kr/article/12091169",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-26T00:31:27Z"
-        },
-        {
-          "key": "e27b66824c7fdf6a",
-          "title": "DB하이텍, 차량용 반도체 품질 인증 갱신…23년간 유지",
-          "url": "https://www.inews24.com/view/2018781",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-26T02:07:30Z"
-        },
-        {
-          "key": "014b2d1bb7b7079d",
-          "title": "DB하이텍, 파운드리 분야 자동차 품질 표준 인증 갱신",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=64279",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-10-26T10:13:03Z"
-        }
-      ],
-      "importance_raw": 3,
-      "type_checked": true
-    },
-    {
-      "id": "c20261026-0124",
-      "headline": "큐알티, 원자력연구원과 방사선 검증 협력",
-      "summary": [
-        "큐알티가 원자력연구원과 함께 반도체의 내방사선 신뢰성 검증에 나섰다.",
-        "이번 협력은 2026년 10월 26일 발표되었으며, 방사선 신뢰성 향상을 목표로 한다.",
-        "이 기술이 적용되면 반도체의 안정성이 높아져 산업 경쟁력이 강화될 것으로 기대된다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "반도체",
-        "내방사선",
-        "신뢰성 검증",
-        "큐알티",
-        "원자력연구원"
-      ],
-      "companies": [
-        "큐알티",
-        "한국원자력연구원"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "큐알티",
-        "한국원자력연구원"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T10:09:28Z",
-      "updated_at": "2026-10-26T10:09:28Z",
-      "articles": [
-        {
-          "key": "b0f6e14b3a02736a",
-          "title": "큐알티, 원자력연구원과 반도체 내방사선 신뢰성 검증",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=64278",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-10-26T10:09:28Z"
-        }
-      ],
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261026-0123",
-      "headline": "LB세미콘, 퀄컴 계약으로 생산능력 확대",
-      "summary": [
-        "LB세미콘이 퀄컴과의 10년 계약을 체결했다.",
-        "이에 따라 월 1만장의 생산능력을 증설할 예정이다.",
-        "이번 증설은 반도체 공급망 강화와 시장 경쟁력 확보에 기여할 것으로 기대된다."
-      ],
-      "category": "기타",
-      "tags": [
-        "LB세미콘",
-        "퀄컴",
-        "생산능력",
-        "계약",
-        "반도체 공급망"
-      ],
-      "companies": [
-        "LB세미콘",
-        "퀄컴"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": true,
-      "parties": [
-        "LB세미콘",
-        "퀄컴"
-      ],
-      "importance": 3,
-      "importance_reason": "설비 투자 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T09:44:09Z",
-      "updated_at": "2026-10-26T09:44:09Z",
-      "articles": [
-        {
-          "key": "79a4f2083e1e5e09",
-          "title": "LB세미콘, 퀄컴 10년 계약 등에 업고 캐파 월 1만장 증설",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=64269",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-10-26T09:44:09Z"
-        }
-      ],
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0122",
-      "headline": "삼성전자 HBM, 경쟁사보다 가격 최대 25% 비싸",
-      "summary": [
-        "삼성전자의 HBM 가격이 경쟁사 제품보다 최대 25% 높은 것으로 나타났다.",
-        "이는 차세대 메모리 시장에서 가격 경쟁력이 우려되는 상황을 반영한다.",
-        "산업 전반에 가격 차별화가 이어질 가능성이 있어 향후 시장 변화에 주목해야 한다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "HBM",
-        "가격",
-        "경쟁력"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "가격 동향",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 4,
-      "importance_reason": "가격 동향 3점, 관심 기업(삼성전자) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T09:31:44Z",
-      "updated_at": "2026-10-26T09:31:44Z",
-      "articles": [
-        {
-          "key": "26a420a21f97a1e2",
-          "title": "“삼성전자 HBM, 경쟁사보다 최대 25% 비싸다”",
-          "url": "https://www.dt.co.kr/article/12091380",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-26T09:31:44Z"
-        }
-      ],
-      "importance_raw": 4
     }
   ]
 }
