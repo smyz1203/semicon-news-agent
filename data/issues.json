@@ -1,7 +1,566 @@
 {
   "version": 1,
-  "updated_at": "2026-11-25T06:12:59Z",
+  "updated_at": "2026-11-25T07:41:39Z",
   "issues": [
+    {
+      "id": "c20261125-1613",
+      "headline": "삼성디스플레이, ams오스람 지분 9.1% 인수 추진",
+      "summary": [
+        "삼성디스플레이가 약 2억1000만 유로를 투자해 ams오스람 지분 9.1%를 확보하는 투자계약을 체결했다.",
+        "신규 발행 주식 998만4439주를 취득하며, 관련 기관 심의와 승인을 거쳐 내년 초 거래가 마무리될 예정이다.",
+        "거래가 완료되면 삼성디스플레이가 ams오스람 최대주주가 되며, 마이크로 LED 기술 확보와 공동 개발이 추진된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "마이크로 LED",
+        "지분 투자",
+        "전략적 파트너십",
+        "차세대 디스플레이"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "ams오스람"
+      ],
+      "event_type": "인수합병",
+      "confirmed": true,
+      "parties": [
+        "삼성디스플레이",
+        "ams오스람"
+      ],
+      "importance": 4,
+      "importance_reason": "인수합병 2점, 관심 기업(삼성디스플레이) +1, 매체 6곳 보도 +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-25T06:39:45Z",
+      "updated_at": "2026-11-25T07:23:57Z",
+      "articles": [
+        {
+          "key": "c46cf091bc998391",
+          "title": "Samsung Display makes its biggest microLED move yet, to acquire a 9.1% stake in ams OSRAM for $230 million",
+          "url": "https://www.oled-info.com/samsung-display-makes-its-biggest-microled-move-yet-acquire-91-stake-ams-osram",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-25T06:39:45Z"
+        },
+        {
+          "key": "cd645a6a3bf976ff",
+          "title": "삼성디스플레이, 3천억원 투자해 오스람 최대주주 된다",
+          "url": "https://www.yna.co.kr/view/AKR20261125134400003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-25T06:39:57Z"
+        },
+        {
+          "key": "7b6765e35072d3af",
+          "title": "삼성D, ams 오스람 최대주주 된다…마이크로LED 기술 확보",
+          "url": "https://www.dt.co.kr/article/12097194",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-25T06:55:20Z"
+        },
+        {
+          "key": "0500f6faa8a4e2ac",
+          "title": "삼성D, ams오스람에 3000억 투자해 최대주주로",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65901",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-25T07:07:04Z"
+        },
+        {
+          "key": "8cb794cbe6042a9b",
+          "title": "삼성D, 2억1000만 유로 투자해 ams 오스람 최대주주 오른다",
+          "url": "https://www.inews24.com/view/2030380",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-25T07:12:40Z"
+        },
+        {
+          "key": "f9568d1d5281b7ce",
+          "title": "삼성디스플레이, ams오스람 최대주주 된다…마이크로 LED 기술 확보",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=410309",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-25T07:23:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261125-1583",
+      "headline": "엔비디아 급등 하루 만에 반전, 메모리 과잉 우려 부각",
+      "summary": [
+        "엔비디아 주가가 전날 급등 후 하루 만에 급락하는 흐름이 나타났다.",
+        "기사 본문이 짧아 구체적 수치와 급락 폭은 확인되지 않는다.",
+        "메모리 공급 과잉과 관세 우려가 투자 심리를 얼어붙게 한 것으로 보인다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "엔비디아",
+        "젠슨 황",
+        "메모리 과잉",
+        "관세 우려",
+        "주가 급락"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T01:32:40Z",
+      "updated_at": "2026-11-25T07:14:48Z",
+      "articles": [
+        {
+          "key": "68b30387c3d92495",
+          "title": "'젠슨황 랠리' 하루만에 끝?…메모리과잉·관세우려 투심 냉기",
+          "url": "https://www.yna.co.kr/view/AKR20261125066900008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-25T01:32:40Z"
+        },
+        {
+          "key": "4e0b3b661d405350",
+          "title": "'젠슨황 랠리' 하루만에 끝?…메모리과잉·관세우려 투심 냉기(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261125066951008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-25T07:14:48Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
+    {
+      "id": "c20261125-1592",
+      "headline": "에이수스, 엔비디아 베라 루빈 NVL72 대량 출하 시작",
+      "summary": [
+        "에이수스가 4분기부터 엔비디아 베라 루빈 NVL72 시스템의 대량 출하를 본격화한다고 밝혔다.",
+        "국내 인프라 파트너와 협력해 수냉식 AI 데이터센터 및 대규모 AI 인프라 수요에 대응할 계획이다.",
+        "자동화된 제조와 6단계 검증, 엔드투엔드 배포 서비스로 생산 역량을 확대해 AI 서버 시장 공급을 강화한다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "베라 루빈",
+        "NVL72",
+        "수냉식 AI 데이터센터",
+        "대량 출하"
+      ],
+      "companies": [
+        "에이수스",
+        "엔비디아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "에이수스",
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T01:30:28Z",
+      "updated_at": "2026-11-25T07:10:00Z",
+      "articles": [
+        {
+          "key": "1d52eb00246c278c",
+          "title": "에이수스, 엔비디아 베라 루빈 NVL72 시스템 대량 출하 개시",
+          "url": "https://zdnet.co.kr/view/?no=20261125103011",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-25T01:30:28Z"
+        },
+        {
+          "key": "d121eea9d37eaeed",
+          "title": "에이수스, 엔비디아 베라 루빈 NVL72 대량 출하 본격화",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=410306",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-25T07:10:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261125-1617",
+      "headline": "호남 반도체 클러스터 용수 기반시설 비용, 지방재정 부담 논란",
+      "summary": [
+        "전남광주시의회에서 호남권 반도체 클러스터의 용수 공급 기반시설 조성 비용을 지방 재정으로 떠안는 데 대한 우려가 제기됐다.",
+        "기사 본문이 중간에 잘려 있어 구체적인 금액, 사업 규모, 일정은 확인되지 않는다.",
+        "반도체 산업 확장 과정에서 용수 등 인프라 비용 분담 문제가 지역 재정 쟁점으로 떠오른 사례로 볼 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체 클러스터",
+        "용수 공급",
+        "지방재정",
+        "호남권",
+        "기반시설"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T07:04:49Z",
+      "updated_at": "2026-11-25T07:04:49Z",
+      "articles": [
+        {
+          "key": "f4a27907a7caa052",
+          "title": "전남광주시의회, 반도체 용수 확보에 지방재정 부담 우려",
+          "url": "https://www.yna.co.kr/view/AKR20261125136400054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-25T07:04:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261125-1616",
+      "headline": "중국 CSP 메모리 주문 축소, 2027년 성장 둔화 전망",
+      "summary": [
+        "트렌드포스는 중국 CSP들이 2027년 메모리 주문을 줄였다고 분석했다.",
+        "NAND 플래시는 공급 확대로 가격 하락 사이클에 진입할 것으로 예상되며, 2027년 매출 전망은 약 4193억 달러로 하향됐다.",
+        "메모리 가격 전망이 약화되면서 업계 매출 성장세가 둔화될 수 있다는 의미를 가진다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "CSP 수요",
+        "NAND 플래시",
+        "가격 하락",
+        "2027년 전망",
+        "메모리 주문"
+      ],
+      "companies": [
+        "트렌드포스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-25T07:03:40Z",
+      "updated_at": "2026-11-25T07:03:40Z",
+      "articles": [
+        {
+          "key": "9d4bbc3b69f53b81",
+          "title": "Cuts to Chinese CSP Demand Weigh on Price Outlook, Slowing Memory Industry Revenue Growth in 2027, Says TrendForce",
+          "url": "https://www.trendforce.com/presscenter/news/20261125-13321.html",
+          "source": "TrendForce",
+          "lang": "en",
+          "published_at": "2026-11-25T07:03:40Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261125-1615",
+      "headline": "캐논, 24년 만에 신형 ArF 드라이 노광장비 공개",
+      "summary": [
+        "캐논이 신형 ArF 드라이 노광장비 FPA-6300AS6을 공개했다.",
+        "기사에는 24년 만의 신규 ArF 드라이 스캐너 출시라는 내용만 나와 있어 세부 사양은 확인되지 않는다.",
+        "반도체 노광 장비 시장에서 ArF 드라이 장비 경쟁 구도에 변화를 줄 수 있는 소식이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "ArF 드라이 노광",
+        "노광장비",
+        "FPA-6300AS6",
+        "반도체 장비"
+      ],
+      "companies": [
+        "캐논"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "캐논"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-25T06:52:31Z",
+      "updated_at": "2026-11-25T06:52:31Z",
+      "articles": [
+        {
+          "key": "d7b817bdd4ab732b",
+          "title": "Canon unveils first new ArF dry scanner in 24 years",
+          "url": "https://www.digitimes.com/news/a20261125VL218/canon-arf-scanner-equipment-manufacturing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-25T06:52:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261124-1549",
+      "headline": "미국, 메가스피드 등 7개 기업 수출 통제 명단 추가",
+      "summary": [
+        "미국 상무부가 싱가포르 메가스피드 등 7개 기업을 엔티티 리스트에 올렸으며 관보 게재는 11월 25일 예정이다.",
+        "지정된 기업은 미국 허가 없이 반도체 등 규제 품목을 팔 수 없고, 허가 신청은 원칙적으로 거부된다.",
+        "엔비디아 칩 중국 밀반출 의혹 수사가 이어지는 가운데 AI 칩 공급망 통제가 강화되는 흐름이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "수출통제",
+        "엔티티 리스트",
+        "메가스피드",
+        "엔비디아 칩",
+        "밀반출 수사"
+      ],
+      "companies": [
+        "메가스피드",
+        "엔비디아",
+        "MS퓨전",
+        "스피드매트릭스",
+        "에이펙스 엔터프라이즈 솔루션스",
+        "스위프트데이터"
+      ],
+      "event_type": "정책·규제·법",
+      "confirmed": true,
+      "parties": [
+        "미국 상무부",
+        "메가스피드",
+        "MS퓨전",
+        "스피드매트릭스",
+        "에이펙스 엔터프라이즈 솔루션스",
+        "스위프트데이터"
+      ],
+      "importance": 4,
+      "importance_reason": "정책·규제·법 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-24T07:55:13Z",
+      "updated_at": "2026-11-25T06:48:09Z",
+      "articles": [
+        {
+          "key": "14595b5f3e16bb92",
+          "title": "US blacklists Megaspeed amid Nvidia chip smuggling probe; Alibaba disputes affiliate listing",
+          "url": "https://www.digitimes.com/news/a20261124VL222/nvidia-alibaba-probe-entity-list-blacklist.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-24T07:55:13Z"
+        },
+        {
+          "key": "3a7def89c7d0647a",
+          "title": "美 상무부, 메가스피드 수출 통제 명단 추가…엔비디아 칩 차단",
+          "url": "https://zdnet.co.kr/view/?no=20261125154809",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-25T06:48:09Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261125-1614",
+      "headline": "대만 전력公사, 남부 반도체 클러스터 송전망에 1096억 대만달러 투입",
+      "summary": [
+        "대만 전력공사(Taipower)가 대만 남부 반도체 수요 확대에 대응해 송전망 투자 계획을 내놓았다.",
+        "투자 규모는 1096억 대만달러(NT$109.6 billion)이며, 기사 본문은 확인되지 않아 세부 일정은 알 수 없다.",
+        "TSMC 중심의 반도체 호황에 맞춰 전력 인프라가 확충되는 것으로, 대규모 생산기지의 전력 공급 여건을 보여준다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "송전망",
+        "전력 인프라",
+        "TSMC",
+        "대만 남부",
+        "반도체 클러스터"
+      ],
+      "companies": [
+        "대만전력공사",
+        "TSMC"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "대만전력공사"
+      ],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-25T06:45:00Z",
+      "updated_at": "2026-11-25T06:45:00Z",
+      "articles": [
+        {
+          "key": "a66e20d0d6d99e97",
+          "title": "Taipower to pour NT$109.6 billion into grid for TSMC-led chip boom in southern Taiwan",
+          "url": "https://www.digitimes.com/news/a20261125PD217/taiwan-power-company-taiwan-expansion-infrastructure-transmission.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-25T06:45:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261125-1612",
+      "headline": "용인 반도체 클러스터 전력 공급 위한 동서울변환소 증설 착수",
+      "summary": [
+        "경기 용인 반도체 클러스터에 전기를 공급할 하남시 동서울변환소 증설 사업이 올해 안에 절차를 시작한다.",
+        "주민 반대로 지연돼 온 사업이며, 기사에 제시된 구체적 수치와 일정은 확인되지 않았다.",
+        "반도체 생산기지의 전력 인프라 확보가 용인 클러스터 가동의 핵심 과제임을 보여준다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "용인 반도체 클러스터",
+        "동서울변환소",
+        "전력 인프라",
+        "송전망",
+        "주민 반대"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T06:30:06Z",
+      "updated_at": "2026-11-25T06:30:06Z",
+      "articles": [
+        {
+          "key": "1a2a1d9d7191d81b",
+          "title": "'용인 반도체 전력공급' 동서울변환소 증설 연내 절차 착수",
+          "url": "https://www.yna.co.kr/view/AKR20261125125200530",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-25T06:30:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261125-1611",
+      "headline": "마이크론 HBM 증설 속 대만 신공장 차질",
+      "summary": [
+        "마이크론이 HBM 생산능력을 확대하는 가운데 대만 신규 공장 건설에 차질이 생겼다.",
+        "대만에서 노사 갈등이 장기화하면서 공장 건설 일정이 영향을 받고 있다는 보도다.",
+        "HBM 공급 경쟁에서 삼성전자와 SK하이닉스에 추격 변수가 될 수 있다는 분석이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM",
+        "마이크론",
+        "대만 공장",
+        "노사 갈등",
+        "HBM4"
+      ],
+      "companies": [
+        "마이크론",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "마이크론"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T06:25:59Z",
+      "updated_at": "2026-11-25T06:25:59Z",
+      "articles": [
+        {
+          "key": "b1b4fe14b2dfcc0f",
+          "title": "마이크론, HBM4 증설 속 대만 신공장 차질…삼성·SK 추격 변수",
+          "url": "https://www.inews24.com/view/2030308",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-25T06:25:59Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261125-1610",
+      "headline": "반도체 호황 속 대학원 인재 이탈 우려 확대",
+      "summary": [
+        "AI 확산으로 반도체 산업 호황이 이어지며 기업들의 인력 확보 경쟁이 치열해졌다.",
+        "학부생들이 석·박사 진학 대신 대기업 취업을 택하는 사례가 늘고 있다고 학계가 전했다.",
+        "학계 인재 공백은 장기적으로 반도체 기술 연구 기반을 약화시킬 수 있다는 우려가 나온다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "HBM",
+        "AI반도체",
+        "인재 이탈",
+        "대학원"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "채용·인력 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T06:22:46Z",
+      "updated_at": "2026-11-25T06:22:46Z",
+      "articles": [
+        {
+          "key": "a72ac054c157f979",
+          "title": "[기자수첩] 반도체 호황의 역설, 삼성·SK로 향하는 인재...대학에는 누가 남나",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=410308",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-25T06:22:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261125-1607",
       "headline": "TSMC, AI 추론 수요가 수년간 칩 수요 견인 전망",
@@ -1287,98 +1846,6 @@
       ],
       "type_checked": true,
       "importance_raw": 1
-    },
-    {
-      "id": "c20261125-1583",
-      "headline": "엔비디아 급등 하루 만에 반전, 메모리 과잉 우려 부각",
-      "summary": [
-        "엔비디아 주가가 전날 급등 후 하루 만에 급락하는 흐름이 나타났다.",
-        "기사 본문이 짧아 구체적 수치와 급락 폭은 확인되지 않는다.",
-        "메모리 공급 과잉과 관세 우려가 투자 심리를 얼어붙게 한 것으로 보인다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "엔비디아",
-        "젠슨 황",
-        "메모리 과잉",
-        "관세 우려",
-        "주가 급락"
-      ],
-      "companies": [
-        "엔비디아"
-      ],
-      "event_type": "주가 등락",
-      "confirmed": false,
-      "parties": [],
-      "importance": 1,
-      "importance_reason": "주가 등락 1점, 미확정 -1 → 1점(최저점)",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-25T01:32:40Z",
-      "updated_at": "2026-11-25T01:32:40Z",
-      "articles": [
-        {
-          "key": "68b30387c3d92495",
-          "title": "'젠슨황 랠리' 하루만에 끝?…메모리과잉·관세우려 투심 냉기",
-          "url": "https://www.yna.co.kr/view/AKR20261125066900008",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-25T01:32:40Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 0
-    },
-    {
-      "id": "c20261125-1592",
-      "headline": "에이수스, 엔비디아 베라 루빈 NVL72 시스템 대량 출하",
-      "summary": [
-        "에이수스코리아가 엔비디아 베라 루빈 NVL72 시스템의 대량 출하에 들어간다고 25일 밝혔다.",
-        "주력 제품 AI POD XA VR721-E3은 루빈 GPU 72개와 베라 CPU 36개로 구성된 수랭식 랙스케일 시스템이다.",
-        "AI 데이터센터 구축 수요에 대응하기 위해 파트너와 협력하며 자동화 제조와 검증 체계로 생산을 늘린다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "베라 루빈",
-        "NVL72",
-        "랙스케일",
-        "수랭식 데이터센터",
-        "GPU 다이렉트 스토리지"
-      ],
-      "companies": [
-        "에이수스",
-        "엔비디아",
-        "슈나이더 일렉트릭",
-        "IBM"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "에이수스",
-        "엔비디아"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-25T01:30:28Z",
-      "updated_at": "2026-11-25T01:30:28Z",
-      "articles": [
-        {
-          "key": "1d52eb00246c278c",
-          "title": "에이수스, 엔비디아 베라 루빈 NVL72 시스템 대량 출하 개시",
-          "url": "https://zdnet.co.kr/view/?no=20261125103011",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-25T01:30:28Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
     },
     {
       "id": "c20261125-1582",
@@ -3040,55 +3507,6 @@
       "importance_raw": 4
     },
     {
-      "id": "c20261124-1549",
-      "headline": "미국, 엔비디아 칩 밀수 수사 속 메가스피드 블랙리스트 등재",
-      "summary": [
-        "미국 정부가 엔비디아 칩 밀수 수사와 관련해 메가스피드를 블랙리스트에 올렸다.",
-        "알리바바는 자사 계열사가 명단에 포함된 것에 이의를 제기하고 있다.",
-        "AI 반도체 수출 통제가 우회 거래 단속으로 확대되는 흐름을 보여준다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "수출규제",
-        "엔비디아",
-        "칩 밀수",
-        "블랙리스트",
-        "AI반도체"
-      ],
-      "companies": [
-        "메가스피드",
-        "엔비디아",
-        "알리바바"
-      ],
-      "event_type": "소송·특허",
-      "confirmed": true,
-      "parties": [
-        "메가스피드",
-        "엔비디아",
-        "알리바바"
-      ],
-      "importance": 3,
-      "importance_reason": "소송·특허 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-11-24T07:55:13Z",
-      "updated_at": "2026-11-24T07:55:13Z",
-      "articles": [
-        {
-          "key": "14595b5f3e16bb92",
-          "title": "US blacklists Megaspeed amid Nvidia chip smuggling probe; Alibaba disputes affiliate listing",
-          "url": "https://www.digitimes.com/news/a20261124VL222/nvidia-alibaba-probe-entity-list-blacklist.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-24T07:55:13Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
       "id": "c20261124-1506",
       "headline": "SKMP, 반도체용 초고순도 신너 12월 첫 고객사 출하",
       "summary": [
@@ -3473,6 +3891,50 @@
       "importance_raw": 4
     },
     {
+      "id": "c20261125-1609",
+      "headline": "마이크론, 한국 엔지니어 채용 나서 아시아 거점 인재 확보",
+      "summary": [
+        "미국 메모리 업체 마이크론이 한국에서 아시아 법인용 엔지니어 채용 행사를 시작했다.",
+        "제조, 첨단 패키징, HBM 설계 등 직무를 대상으로 서울 코엑스에서 면접을 진행하고 2차 채용도 예정돼 있다.",
+        "HBM 등 고부가 메모리 분야의 기술 인재 경쟁이 심화되고 있음을 보여준다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "인재 채용",
+        "HBM",
+        "첨단 패키징",
+        "반도체 엔지니어"
+      ],
+      "companies": [
+        "마이크론"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "마이크론"
+      ],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-24T06:42:34Z",
+      "updated_at": "2026-11-24T06:42:34Z",
+      "articles": [
+        {
+          "key": "c4bd232f18e57162",
+          "title": "Micron recruits Korean chip engineers for Asian operations",
+          "url": "https://www.koreaherald.com/article/10947716",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-24T06:42:34Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
       "id": "c20261124-1541",
       "headline": "삼성·SK하이닉스, 엔비디아 의존 탈피 모색",
       "summary": [
@@ -3610,6 +4072,54 @@
       ],
       "type_checked": true,
       "importance_raw": 1
+    },
+    {
+      "id": "c20261125-1608",
+      "headline": "중국 TV 업체 프리미엄 공세에 삼성·LG 미니LED 라인업 확대",
+      "summary": [
+        "중국 TV 업체들이 저가 대화면 미니LED TV로 프리미엄 시장을 공략하고 있다.",
+        "TCL은 98인치 QM8L 미니LED TV를 미국 공식 사이트에서 정가의 절반인 2,999.99달러에 판매하고 있다.",
+        "글로벌 TV 수요가 약해진 가운데 삼성전자와 LG전자는 라인업을 넓혀 대응에 나서고 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "미니LED",
+        "대화면 TV",
+        "프리미엄 TV",
+        "가격 경쟁"
+      ],
+      "companies": [
+        "삼성전자",
+        "LG전자",
+        "TCL"
+      ],
+      "event_type": "가격 동향",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "LG전자",
+        "TCL"
+      ],
+      "importance": 4,
+      "importance_reason": "가격 동향 3점, 관심 기업(삼성전자, LG전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-24T06:08:06Z",
+      "updated_at": "2026-11-24T06:08:06Z",
+      "articles": [
+        {
+          "key": "bb3954124984c3d2",
+          "title": "Samsung, LG expand mini-LED TV lineups as Chinese rivals push upmarket",
+          "url": "https://www.koreaherald.com/article/10947649",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-24T06:08:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
     },
     {
       "id": "c20261124-1538",
@@ -71540,230 +72050,6 @@
           "source": "ZDNet Korea",
           "lang": "ko",
           "published_at": "2026-10-26T07:51:45Z"
-        }
-      ],
-      "importance_raw": 2,
-      "type_checked": true
-    },
-    {
-      "id": "c20261026-0119",
-      "headline": "ACM리서치, 평택 공장 증설로 생산 확대",
-      "summary": [
-        "ACM리서치가 미국의 제재 속에서도 한국에서 생산량을 늘리기로 결정했다.",
-        "평택에 위치한 진위 공장을 증설하며 추가 생산 능력을 확보할 예정이다.",
-        "이로 인해 한국의 반도체 생산 기반이 더욱 강화되고, 시장 경쟁력 향상에 기여할 것으로 예상된다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "ACM리서치",
-        "공장 증설",
-        "반도체 생산",
-        "평택",
-        "미국 제재"
-      ],
-      "companies": [
-        "ACM리서치"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": true,
-      "parties": [
-        "ACM리서치"
-      ],
-      "importance": 3,
-      "importance_reason": "설비 투자 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T07:10:26Z",
-      "updated_at": "2026-10-26T07:10:26Z",
-      "articles": [
-        {
-          "key": "f3a4290a7bcfcf49",
-          "title": "美 제재 속 한국 생산 늘리는 ACM리서치…평택 진위 공장 증설",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=64262",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-10-26T07:10:26Z"
-        }
-      ],
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0116",
-      "headline": "이재용, 반도체 부활 넘어 M&A로 미래사업 확장",
-      "summary": [
-        "이재용 삼성전자 회장이 취임 4주년을 맞아 향후 행보에 주목받고 있다.",
-        "반도체 호황을 바탕으로 M&A와 미래 사업 투자 확대를 계획하고 있으며, 5년차 경영을 주도할 예정이다.",
-        "이는 삼성전자의 새로운 성장동력을 확보하고 다양한 산업 포트폴리오를 강화하는 데 의미가 있다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "M&A",
-        "반도체",
-        "신사업",
-        "이재용",
-        "삼성전자"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 4,
-      "importance_reason": "실적 3점, 관심 기업(삼성전자) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T07:00:00Z",
-      "updated_at": "2026-10-26T07:00:00Z",
-      "articles": [
-        {
-          "key": "c4f8f5a616fec103",
-          "title": "이재용 취임 4년, 반도체 부활 넘어 M&A 승부수…미래사업 확장 가속",
-          "url": "https://www.etnews.com/20261026000221",
-          "source": "전자신문",
-          "lang": "ko",
-          "published_at": "2026-10-26T07:00:00Z"
-        }
-      ],
-      "importance_raw": 4
-    },
-    {
-      "id": "c20261026-0114",
-      "headline": "우프틱스, 국내 반도체에 웨이퍼 계측장비 공급",
-      "summary": [
-        "스페인 반도체 업체 우프틱스가 국내 반도체 기업에 웨이퍼 계측장비를 공급한다.",
-        "내년부터 평가용 장비를 배치하고, 2~3년 내 양산라인에 진입할 계획이다.",
-        "삼성벤처투자가 주도한 투자로, 한국 시장의 중요성을 강조했다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "웨이퍼 계측장비",
-        "페멧",
-        "삼성벤처투자",
-        "우프틱스"
-      ],
-      "companies": [
-        "삼성전자",
-        "SK하이닉스",
-        "우프틱스"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "우프틱스",
-        "삼성벤처투자"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T06:56:34Z",
-      "updated_at": "2026-10-26T06:56:34Z",
-      "articles": [
-        {
-          "key": "adea5afc94be6a6f",
-          "title": "[일렉 스타] 삼성이 투자한 우프틱스, 국내에 웨이퍼 계측장비 공급",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=63839",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-10-26T06:56:34Z"
-        }
-      ],
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0113",
-      "headline": "아스플로, A사에 ALD 장비 배관 공급 확정",
-      "summary": [
-        "아스플로가 네덜란드의 ALD 장비 업체 A사에 배관 부품을 공급하기로 했다.",
-        "하스텔로이 소재 배관 조립품을 수주하며, 반도체 장비 부문 매출이 증가할 것으로 예상된다.",
-        "증권가는 내년 아스플로의 매출이 올해의 두 배에 이를 것으로 전망하고 있다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "ALD",
-        "하스텔로이",
-        "아스플로",
-        "배관 부품"
-      ],
-      "companies": [
-        "아스플로",
-        "A사"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "아스플로",
-        "A사"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T06:35:54Z",
-      "updated_at": "2026-10-26T06:35:54Z",
-      "articles": [
-        {
-          "key": "a704c1ba1fd11a9b",
-          "title": "아스플로, L사 이어 ALD 1위 A사에도 장비 내부 배관 공급",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=64174",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-10-26T06:35:54Z"
-        }
-      ],
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0112",
-      "headline": "헨켈, AI 칩용 반도체 접착제 생산 확대",
-      "summary": [
-        "헨켈은 인천 송도의 공장에서 AI 칩용 반도체 접착제를 생산하고 있다.",
-        "엄격한 온도와 습도 관리 아래 클린룸에서 작업하며, 열 발산과 연결 보호에 기여한다.",
-        "이 접착제는 AI 기술의 발전을 뒷받침하는 중요한 소재로 주목받고 있다."
-      ],
-      "category": "기타",
-      "tags": [
-        "AI 칩",
-        "반도체 접착제",
-        "Henkel",
-        "송도",
-        "산업 소재"
-      ],
-      "companies": [
-        "헨켈"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "헨켈"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-26T06:20:34Z",
-      "updated_at": "2026-10-26T06:20:34Z",
-      "articles": [
-        {
-          "key": "527dfc0e9111bd7d",
-          "title": "Inside Henkel's Korean factory making adhesives for AI chips",
-          "url": "https://www.koreaherald.com/article/10915087",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-10-26T06:20:34Z"
         }
       ],
       "importance_raw": 2,

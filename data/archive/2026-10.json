@@ -1591,6 +1591,230 @@
       ],
       "importance_raw": 3,
       "type_checked": true
+    },
+    {
+      "id": "c20261026-0119",
+      "headline": "ACM리서치, 평택 공장 증설로 생산 확대",
+      "summary": [
+        "ACM리서치가 미국의 제재 속에서도 한국에서 생산량을 늘리기로 결정했다.",
+        "평택에 위치한 진위 공장을 증설하며 추가 생산 능력을 확보할 예정이다.",
+        "이로 인해 한국의 반도체 생산 기반이 더욱 강화되고, 시장 경쟁력 향상에 기여할 것으로 예상된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "ACM리서치",
+        "공장 증설",
+        "반도체 생산",
+        "평택",
+        "미국 제재"
+      ],
+      "companies": [
+        "ACM리서치"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "ACM리서치"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T07:10:26Z",
+      "updated_at": "2026-10-26T07:10:26Z",
+      "articles": [
+        {
+          "key": "f3a4290a7bcfcf49",
+          "title": "美 제재 속 한국 생산 늘리는 ACM리서치…평택 진위 공장 증설",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64262",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-26T07:10:26Z"
+        }
+      ],
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261026-0116",
+      "headline": "이재용, 반도체 부활 넘어 M&A로 미래사업 확장",
+      "summary": [
+        "이재용 삼성전자 회장이 취임 4주년을 맞아 향후 행보에 주목받고 있다.",
+        "반도체 호황을 바탕으로 M&A와 미래 사업 투자 확대를 계획하고 있으며, 5년차 경영을 주도할 예정이다.",
+        "이는 삼성전자의 새로운 성장동력을 확보하고 다양한 산업 포트폴리오를 강화하는 데 의미가 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "M&A",
+        "반도체",
+        "신사업",
+        "이재용",
+        "삼성전자"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T07:00:00Z",
+      "updated_at": "2026-10-26T07:00:00Z",
+      "articles": [
+        {
+          "key": "c4f8f5a616fec103",
+          "title": "이재용 취임 4년, 반도체 부활 넘어 M&A 승부수…미래사업 확장 가속",
+          "url": "https://www.etnews.com/20261026000221",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-10-26T07:00:00Z"
+        }
+      ],
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261026-0114",
+      "headline": "우프틱스, 국내 반도체에 웨이퍼 계측장비 공급",
+      "summary": [
+        "스페인 반도체 업체 우프틱스가 국내 반도체 기업에 웨이퍼 계측장비를 공급한다.",
+        "내년부터 평가용 장비를 배치하고, 2~3년 내 양산라인에 진입할 계획이다.",
+        "삼성벤처투자가 주도한 투자로, 한국 시장의 중요성을 강조했다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "웨이퍼 계측장비",
+        "페멧",
+        "삼성벤처투자",
+        "우프틱스"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "우프틱스"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "우프틱스",
+        "삼성벤처투자"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T06:56:34Z",
+      "updated_at": "2026-10-26T06:56:34Z",
+      "articles": [
+        {
+          "key": "adea5afc94be6a6f",
+          "title": "[일렉 스타] 삼성이 투자한 우프틱스, 국내에 웨이퍼 계측장비 공급",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=63839",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-26T06:56:34Z"
+        }
+      ],
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261026-0113",
+      "headline": "아스플로, A사에 ALD 장비 배관 공급 확정",
+      "summary": [
+        "아스플로가 네덜란드의 ALD 장비 업체 A사에 배관 부품을 공급하기로 했다.",
+        "하스텔로이 소재 배관 조립품을 수주하며, 반도체 장비 부문 매출이 증가할 것으로 예상된다.",
+        "증권가는 내년 아스플로의 매출이 올해의 두 배에 이를 것으로 전망하고 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "ALD",
+        "하스텔로이",
+        "아스플로",
+        "배관 부품"
+      ],
+      "companies": [
+        "아스플로",
+        "A사"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "아스플로",
+        "A사"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T06:35:54Z",
+      "updated_at": "2026-10-26T06:35:54Z",
+      "articles": [
+        {
+          "key": "a704c1ba1fd11a9b",
+          "title": "아스플로, L사 이어 ALD 1위 A사에도 장비 내부 배관 공급",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64174",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-26T06:35:54Z"
+        }
+      ],
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261026-0112",
+      "headline": "헨켈, AI 칩용 반도체 접착제 생산 확대",
+      "summary": [
+        "헨켈은 인천 송도의 공장에서 AI 칩용 반도체 접착제를 생산하고 있다.",
+        "엄격한 온도와 습도 관리 아래 클린룸에서 작업하며, 열 발산과 연결 보호에 기여한다.",
+        "이 접착제는 AI 기술의 발전을 뒷받침하는 중요한 소재로 주목받고 있다."
+      ],
+      "category": "기타",
+      "tags": [
+        "AI 칩",
+        "반도체 접착제",
+        "Henkel",
+        "송도",
+        "산업 소재"
+      ],
+      "companies": [
+        "헨켈"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "헨켈"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-26T06:20:34Z",
+      "updated_at": "2026-10-26T06:20:34Z",
+      "articles": [
+        {
+          "key": "527dfc0e9111bd7d",
+          "title": "Inside Henkel's Korean factory making adhesives for AI chips",
+          "url": "https://www.koreaherald.com/article/10915087",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-26T06:20:34Z"
+        }
+      ],
+      "importance_raw": 2,
+      "type_checked": true
     }
   ]
 }
