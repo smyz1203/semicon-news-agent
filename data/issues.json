@@ -1,7 +1,137 @@
 {
   "version": 1,
-  "updated_at": "2026-11-25T03:14:03Z",
+  "updated_at": "2026-11-25T04:26:53Z",
   "issues": [
+    {
+      "id": "c20261125-1596",
+      "headline": "OLED 발광체 3부: TADF, 보조 역할로 살아난 세대",
+      "summary": [
+        "OLED 발광체 기술을 여섯 부분으로 나눠 해설하는 시리즈의 3편으로, TADF 기술을 다룬다.",
+        "TADF는 형광 소재 이후 인광에 밀려 주류에서 밀렸지만, 증감제(sensitizer) 역할로 다시 쓰이고 있다.",
+        "발광체는 픽셀 색상·효율·수명을 좌우하므로 기술 흐름을 이해하는 데 참고가 된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "TADF",
+        "발광체",
+        "인광",
+        "증감제",
+        "하이퍼형광"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-25T04:00:07Z",
+      "updated_at": "2026-11-25T04:00:07Z",
+      "articles": [
+        {
+          "key": "0a08588153562eeb",
+          "title": "OLED Emitter Systems, Part 3: TADF - the generation that became a supporting actor",
+          "url": "https://www.oled-info.com/oled-emitter-systems-part-3-tadf-generation-became-supporting-actor",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-25T04:00:07Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261125-1595",
+      "headline": "삼성 반도체 하청노동자 혈액암 사망, 산재 인정 요구",
+      "summary": [
+        "삼성전자 반도체 공장에서 일하던 하청노동자가 혈액암으로 사망했다는 소식이 전해졌다.",
+        "유족은 해당 사망을 산업재해로 인정해야 한다며 기자회견을 열어 공식적으로 촉구했다.",
+        "반도체 현장 노동자의 건강 피해와 산재 인정 문제가 다시 쟁점으로 떠오른 상황이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "산재 인정",
+        "혈액암",
+        "반도체 하청",
+        "노동자 건강"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "소송·특허 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T03:41:21Z",
+      "updated_at": "2026-11-25T03:41:21Z",
+      "articles": [
+        {
+          "key": "df4e629bee29f4d1",
+          "title": "삼성 반도체 하청노동자 혈액암 사망…유족 \"산재 인정해야\"",
+          "url": "https://www.yna.co.kr/view/AKR20261125095200004",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-25T03:41:21Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261125-1594",
+      "headline": "미 의회, AI 칩 수출 법안 3건 추진",
+      "summary": [
+        "미국 의회가 AI 칩 수출 관련 법안 3건을 추진하는 것으로 보도됐다.",
+        "기사 본문은 제목과 이미지 크레딧만 있어 법안의 구체적 내용과 일정은 확인되지 않는다.",
+        "AI 칩 수출 규제가 입법 단계로 올라서며 엔비디아 등 반도체 기업의 수출 전략에 영향을 줄 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI칩",
+        "수출규제",
+        "미국 의회",
+        "엔비디아"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-25T03:25:00Z",
+      "updated_at": "2026-11-25T03:25:00Z",
+      "articles": [
+        {
+          "key": "4efb639ea9156d64",
+          "title": "US Congress advances three AI chip export bills as CEO returns to Nvidia",
+          "url": "https://www.digitimes.com/news/a20261125PD211/ai-chip-nvidia-chips-equipment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-25T03:25:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261125-1591",
       "headline": "호남 반도체 클러스터 건설인력 주거 대책 요구",
@@ -192,6 +322,50 @@
       ],
       "type_checked": true,
       "importance_raw": 2
+    },
+    {
+      "id": "c20261125-1593",
+      "headline": "엔비디아 AI 부채 우려에 관련주 동반 급락",
+      "summary": [
+        "엔비디아 주가가 5.9% 하락해 시가총액이 하루 만에 약 2330억 달러 줄었다.",
+        "코어위브 주가는 12% 떨어졌고 채권 수익률과 CDS 프리미엄이 사상 최고치를 기록했다.",
+        "엔비디아의 네오클라우드 자금 지원과 순환 금융 구조에 대한 신용 시장의 경계가 커지고 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "AI 부채",
+        "순환 금융",
+        "네오클라우드",
+        "신용부도스와프",
+        "젠슨 황"
+      ],
+      "companies": [
+        "엔비디아",
+        "코어위브"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": true,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T02:20:56Z",
+      "updated_at": "2026-11-25T02:20:56Z",
+      "articles": [
+        {
+          "key": "26e07d16c0a3299b",
+          "title": "젠슨 황 약발 떨어졌나…'부채 우려'에 AI 관련주 동반 하락",
+          "url": "https://zdnet.co.kr/view/?no=20261125084953",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-25T02:20:56Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
     },
     {
       "id": "c20261125-1588",
@@ -673,6 +847,55 @@
       ],
       "type_checked": true,
       "importance_raw": 0
+    },
+    {
+      "id": "c20261125-1592",
+      "headline": "에이수스, 엔비디아 베라 루빈 NVL72 시스템 대량 출하",
+      "summary": [
+        "에이수스코리아가 엔비디아 베라 루빈 NVL72 시스템의 대량 출하에 들어간다고 25일 밝혔다.",
+        "주력 제품 AI POD XA VR721-E3은 루빈 GPU 72개와 베라 CPU 36개로 구성된 수랭식 랙스케일 시스템이다.",
+        "AI 데이터센터 구축 수요에 대응하기 위해 파트너와 협력하며 자동화 제조와 검증 체계로 생산을 늘린다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "베라 루빈",
+        "NVL72",
+        "랙스케일",
+        "수랭식 데이터센터",
+        "GPU 다이렉트 스토리지"
+      ],
+      "companies": [
+        "에이수스",
+        "엔비디아",
+        "슈나이더 일렉트릭",
+        "IBM"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "에이수스",
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T01:30:28Z",
+      "updated_at": "2026-11-25T01:30:28Z",
+      "articles": [
+        {
+          "key": "1d52eb00246c278c",
+          "title": "에이수스, 엔비디아 베라 루빈 NVL72 시스템 대량 출하 개시",
+          "url": "https://zdnet.co.kr/view/?no=20261125103011",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-25T01:30:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
     },
     {
       "id": "c20261125-1582",
