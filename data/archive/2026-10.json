@@ -1416,6 +1416,181 @@
       ],
       "importance_raw": 4,
       "type_checked": true
+    },
+    {
+      "id": "c20261026-0110",
+      "headline": "SK하이닉스, 여의도에서 기업광고 전시회 개최",
+      "summary": [
+        "SK하이닉스가 여의도 IFC몰에서 10월 24일부터 11월 1일까지 전시회를 진행한다.",
+        "이번 전시회는 기업광고 '초심'을 주제로 하며, 다양한 콘텐츠를 선보인다.",
+        "이 행사로 SK하이닉스는 브랜드 이미지 부각과 고객 소통을 강화할 계획이다."
+      ],
+      "category": "기타",
+      "tags": [
+        "기업광고",
+        "전시회",
+        "브랜드 이미지"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 2,
+      "importance_reason": "홍보·수상 1점, 관심 기업(SK하이닉스) +1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T05:55:04Z",
+      "updated_at": "2026-10-26T05:55:04Z",
+      "articles": [
+        {
+          "key": "bb8886d90094d1ed",
+          "title": "SK하이닉스, 여의도 IFC몰서 기업광고 '초심' 전시회",
+          "url": "https://www.yna.co.kr/view/AKR20261026113500003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-26T05:55:04Z"
+        }
+      ],
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0162",
+      "headline": "홍콩증권거래소, AI 및 반도체 지수 발표",
+      "summary": [
+        "홍콩증권거래소(HKEX)가 인공지능 및 반도체 지수를 출시했다.",
+        "이 지수들은 두 가지 주요 기술 테마에 대한 기준을 제공하며, 새로운 ETF 발행을 위해 자산운용사와 라이선스 계약을 체결했다.",
+        "이로 인해 HKEX는 신흥 기술 트렌드에 대한 커버리지를 확대하고 지수 포트폴리오를 강화하게 된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI 지수",
+        "반도체 지수",
+        "ETF",
+        "HKEX",
+        "기술 트렌드"
+      ],
+      "companies": [
+        "홍콩증권거래소",
+        "Southern Asset Management"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "홍콩증권거래소",
+        "Southern Asset Management"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T05:49:00Z",
+      "updated_at": "2026-10-26T05:49:00Z",
+      "articles": [
+        {
+          "key": "cb21419699aa2327",
+          "title": "HKEX Launches Artificial Intelligence and Semiconductor Indices",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=342687",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-10-26T05:49:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261026-0145",
+      "headline": "AI 패권 전쟁 주제로 SK하이닉스 발표",
+      "summary": [
+        "'아이포럼 2026'이 22일 서울에서 열렸다.",
+        "SK하이닉스의 명석주 팀장이 AI 인프라 및 HBM 마케팅에 대해 발표했다.",
+        "이번 발표는 대한민국의 AI 패권을 위한 새로운 질서와 전략을 강조했다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 패권 전쟁",
+        "HBM 마케팅",
+        "AI 인프라"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T04:55:30Z",
+      "updated_at": "2026-10-26T04:55:30Z",
+      "articles": [
+        {
+          "key": "6cda2730a4f95222",
+          "title": "[아이TV] '아이포럼 2026' 명석주 SK하이닉스 AI Infra / HBM Marketing 팀장 발표",
+          "url": "https://www.inews24.com/view/2018940",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-26T04:55:30Z"
+        }
+      ],
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261026-0109",
+      "headline": "AI로 반도체 신물질 개발기간 단축하는 삼성전자",
+      "summary": [
+        "삼성전자가 AI를 활용해 반도체 신물질 개발 기간을 5년에서 2년으로 줄이는 방안을 추진한다.",
+        "소재 후보 발굴 규모를 5배 증가시키고 실험 횟수를 80% 이상 줄일 계획이다.",
+        "이번 기술 개발은 반도체 산업의 혁신을 가속화할 것으로 기대된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "AI",
+        "신물질",
+        "반도체 소재",
+        "삼성전자"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T04:46:39Z",
+      "updated_at": "2026-10-26T04:46:39Z",
+      "articles": [
+        {
+          "key": "9123c29cc59e1038",
+          "title": "삼성전자, AI로 반도체 신물질 개발기간 3년 앞당긴다",
+          "url": "https://www.dt.co.kr/article/12091234",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-26T04:46:39Z"
+        }
+      ],
+      "importance_raw": 3,
+      "type_checked": true
     }
   ]
 }

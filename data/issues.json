@@ -1,7 +1,490 @@
 {
   "version": 1,
-  "updated_at": "2026-11-25T04:26:53Z",
+  "updated_at": "2026-11-25T06:12:59Z",
   "issues": [
+    {
+      "id": "c20261125-1607",
+      "headline": "TSMC, AI 추론 수요가 수년간 칩 수요 견인 전망",
+      "summary": [
+        "TSMC는 AI 추론 수요가 향후 수년간 반도체 수요를 끌어올릴 것이라고 내다봤다.",
+        "기사 본문이 거의 없어 구체적인 수치나 일정은 확인되지 않는다.",
+        "AI 추론 중심의 수요 확대는 파운드리 업계의 중장기 투자 방향에 영향을 줄 수 있다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "AI 추론",
+        "TSMC 전망",
+        "칩 수요"
+      ],
+      "companies": [
+        "TSMC"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "TSMC"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-25T05:58:34Z",
+      "updated_at": "2026-11-25T05:58:34Z",
+      "articles": [
+        {
+          "key": "1e47c05426aad23f",
+          "title": "TSMC sees AI inference fueling chip demand for years",
+          "url": "https://www.digitimes.com/news/a20261125VL222/tsmc-ai-inference-chips-demand-design.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-25T05:58:34Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261125-1606",
+      "headline": "중국 AI 칩 기업, 엔비디아 개발자 생태계 장악 깨뜨릴까",
+      "summary": [
+        "중국 AI 칩 기업들이 엔비디아의 개발자 생태계 장악력에 도전할 수 있을지 논평이 제기됐다.",
+        "기사 본문이 'Credit: AFP' 사진 설명뿐이라 구체적 수치나 일정은 확인되지 않는다.",
+        "다만 개발자 소프트웨어 생태계가 AI 칩 경쟁의 핵심 변수임을 보여주는 논의다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI칩",
+        "엔비디아",
+        "개발자 생태계",
+        "중국 반도체",
+        "CUDA"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-25T05:49:08Z",
+      "updated_at": "2026-11-25T05:49:08Z",
+      "articles": [
+        {
+          "key": "4664b17c45866576",
+          "title": "Commentary: Can China's AI chipmakers break Nvidia's hold on developers?",
+          "url": "https://www.digitimes.com/news/a20261125PD206/nvidia-chipmakers-sales-software-chips.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-25T05:49:08Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261125-1599",
+      "headline": "서울반도체, 패키지 프리 RGB 백라이트 양산 돌입",
+      "summary": [
+        "서울반도체가 자회사 서울바이오시스의 RGB 백라이트 기술 와이캅 픽셀 제품을 양산해 글로벌 TV 제조사에 공급을 시작했다.",
+        "RGB 칩을 수십 마이크로미터 간격으로 배치해 DCI-P3 색영역 100%를 구현했다고 밝혔다.",
+        "백색 LED 기반 LCD의 화질 한계를 넘어 LCD TV의 경쟁력을 높이는 전략으로 해석된다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "RGB 백라이트",
+        "와이캅 픽셀",
+        "패키지 프리",
+        "LCD TV",
+        "DCI-P3"
+      ],
+      "companies": [
+        "서울반도체",
+        "서울바이오시스"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "서울반도체",
+        "서울바이오시스"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T04:35:36Z",
+      "updated_at": "2026-11-25T05:26:23Z",
+      "articles": [
+        {
+          "key": "2ad20b4e8ccd0b47",
+          "title": "서울반도체, RGB 백라이트 '와이콥 픽셀' 양산",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65881",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-25T04:35:36Z"
+        },
+        {
+          "key": "9bee03312e363368",
+          "title": "서울반도체, LCD로 OLED 넘는다…RGB 백라이트 승부수",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=410301",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-25T05:26:23Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261125-1605",
+      "headline": "ISSCC 2027, 한국 메모리 논문 12편 주도 기술 경쟁 예고",
+      "summary": [
+        "ISSCC가 2027년 학회에 채택된 차세대 메모리·시스템 반도체 설계 기술을 공개했다.",
+        "HBM, 차세대 D램, 3D 낸드와 PIM·CIM 기술이 핵심 연구 분야로 꼽혔으며 한국 메모리 논문이 12편 포함됐다.",
+        "AI 시대 데이터 처리량과 메모리 대역폭 수요 확대에 따라 메모리 기술 경쟁이 가속될 전망이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "ISSCC 2027",
+        "HBM",
+        "PIM",
+        "CIM",
+        "차세대 D램",
+        "3D 낸드"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T05:05:30Z",
+      "updated_at": "2026-11-25T05:05:30Z",
+      "articles": [
+        {
+          "key": "6f72dc83767db3d3",
+          "title": "ISSCC 2027, 韓 메모리 분야 논문 12편으로 주요 기술 성과 주도",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=410290",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-25T05:05:30Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261125-1604",
+      "headline": "삼성전자, CXL 3.2 메모리 모듈 내년 샘플 공급",
+      "summary": [
+        "삼성전자가 CXL 3.2 기반 메모리 모듈 CMM-D MD310 샘플을 내년 초 고객에 공급할 계획이다.",
+        "심호준 상무는 고객 인증을 거쳐 양산은 내년 하반기로 예상된다고 밝혔다.",
+        "AI 서버용 메모리 인터페이스 경쟁에서 삼성전자의 차세대 제품 상용화 일정이 구체화된 의미가 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "CXL 3.2",
+        "CMM-D",
+        "MD310",
+        "PCIe 6.0",
+        "DDR5"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": false,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점, 관심 기업(삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T05:02:59Z",
+      "updated_at": "2026-11-25T05:02:59Z",
+      "articles": [
+        {
+          "key": "14d0114d429c475d",
+          "title": "삼성전자, 내년 초 CXL 3.2 샘플 공급...하반기 양산",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65894",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-25T05:02:59Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261125-1603",
+      "headline": "충주 동충주산단 반도체 소재 기업 450억 투자 유치",
+      "summary": [
+        "충북 충주시가 반도체 소재 업체, 건축물 외장재 기업과 생산시설 신설 투자협약을 체결했다.",
+        "동충주산단 2개 기업이 총 450억원을 투자하며 약 80여명을 고용할 계획이다.",
+        "지역 산업단지에 반도체 소재 공급 기반이 늘어나는 의미가 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "동충주산단",
+        "반도체 소재",
+        "투자협약",
+        "지역 고용"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T04:58:48Z",
+      "updated_at": "2026-11-25T04:58:48Z",
+      "articles": [
+        {
+          "key": "a78387983e9e5b01",
+          "title": "충주시, 동충주산단 2개 기업 450억 투자 유치…80여명 고용",
+          "url": "https://www.yna.co.kr/view/AKR20261125107500064",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-25T04:58:48Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261125-1602",
+      "headline": "전남광주 통합특별시, 반도체 지원금 활용계획 수립 예고",
+      "summary": [
+        "민형배 전남광주통합특별시장이 25일 호남 반도체와 통합 재정지원금의 활용 계획을 이번 주까지 마련하겠다고 밝혔다.",
+        "기사 본문이 짧게 잘려 있어 구체적인 금액과 세부 사업 내용은 확인되지 않는다.",
+        "지역 반도체 산업 육성을 위한 재정 집행 방향이 구체화될지 주목된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "호남 반도체",
+        "통합 재정지원금",
+        "지역 산업 육성",
+        "전남광주통합특별시"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T04:46:12Z",
+      "updated_at": "2026-11-25T04:46:12Z",
+      "articles": [
+        {
+          "key": "c519a0fe9eb6d14c",
+          "title": "민형배 \"반도체·통합지원금 활용계획 이번주까지 수립\"",
+          "url": "https://www.yna.co.kr/view/AKR20261125099400054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-25T04:46:12Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261125-1601",
+      "headline": "젠슨 황 방한 이후 한국의 엔비디아 의존도 부각",
+      "summary": [
+        "엔비디아 젠슨 황 CEO의 짧은 방한 이후 한국의 엔비디아 의존 구조가 조명됐다.",
+        "기사 본문은 사실상 이미지 캡션만 담겨 있어 구체적 수치나 일정은 확인되지 않는다.",
+        "AI 반도체 공급망에서 한국 기업들이 엔비디아 수요에 얼마나 묶여 있는지 보여준다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "엔비디아",
+        "AI반도체",
+        "공급망 의존도",
+        "젠슨 황"
+      ],
+      "companies": [
+        "엔비디아",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-25T04:44:04Z",
+      "updated_at": "2026-11-25T04:44:04Z",
+      "articles": [
+        {
+          "key": "78f4568630d9b8c5",
+          "title": "Analysis: Huang's brief exit exposes South Korea's reliance on Nvidia",
+          "url": "https://www.digitimes.com/news/a20261125VL217/nvidia-jensen-huang-south-korea-infrastructure-capacity.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-25T04:44:04Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261125-1600",
+      "headline": "ISTE, 10나노급 공정용 차세대 PECVD 장비 국산화 나서",
+      "summary": [
+        "아이에스티이(ISTE)가 ECR 플라즈마 기반 차세대 PECVD 양산 장비 개발 국책에 최종 선정됐다고 발표했다.",
+        "300mm급 고선택비·고밀도 비정질탄소 박막 증착 장비를 개발하며 국책은 2029년까지 진행된다.",
+        "10나노 이하 반도체 공정 장비의 국산화로 국내 장비 공급망 다변화에 기여할 것으로 보인다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "PECVD",
+        "비정질탄소 박막",
+        "ECR 플라즈마",
+        "10나노 공정",
+        "장비 국산화"
+      ],
+      "companies": [
+        "ISTE",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "아이에스티이"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T04:37:13Z",
+      "updated_at": "2026-11-25T04:37:13Z",
+      "articles": [
+        {
+          "key": "49001240f32c654b",
+          "title": "ISTE, 10나노급 공정용 차세대 PECVD 장비 국산화 도전",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65867",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-25T04:37:13Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261125-1598",
+      "headline": "중국, 첫 반도체 장비 품질 표준 도입으로 공급사 신뢰성 주목",
+      "summary": [
+        "중국이 반도체 장비 분야에서 처음으로 품질 표준을 마련해 주목받고 있다.",
+        "기사 본문은 사진 크레딧만 있어 구체적인 표준 내용과 일정은 확인되지 않는다.",
+        "장비 공급업체의 신뢰성이 핵심 기준으로 떠오르며 업계 영향이 예상된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "반도체 장비",
+        "품질 표준",
+        "공급망 신뢰성",
+        "중국"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-25T04:28:44Z",
+      "updated_at": "2026-11-25T04:28:44Z",
+      "articles": [
+        {
+          "key": "6d64f51079d9bd89",
+          "title": "China's first chip equipment quality standard puts supplier reliability in focus",
+          "url": "https://www.digitimes.com/news/a20261125VL216/china-equipment-component-production-supplier.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-25T04:28:44Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261125-1597",
+      "headline": "젠슨 황 복귀 후 AI 자금 조달 흐름 안정 전망",
+      "summary": [
+        "젠슨 황 엔비디아 복귀 이후 AI 반도체 기업의 자금 조달 흐름이 안정세로 전환됐다는 보도가 나왔다.",
+        "기사 본문은 사진 크레딧만 있어 구체적 금액이나 일정은 확인되지 않는다.",
+        "다만 반도체 업체들이 새로운 자금 조달 시험대에 직면해 있다는 점에서 투자 흐름 변화에 주목할 필요가 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 반도체",
+        "엔비디아",
+        "자금 조달",
+        "젠슨 황"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-25T04:11:32Z",
+      "updated_at": "2026-11-25T04:11:32Z",
+      "articles": [
+        {
+          "key": "051f84c46f26e105",
+          "title": "Jensen Huang's return to Nvidia steadies AI financing chain as chipmakers face new funding test",
+          "url": "https://www.digitimes.com/news/a20261125PD208/ai-chip-chipmakers-financing-funding-nvidia-jensen-huang.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-25T04:11:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
     {
       "id": "c20261125-1596",
       "headline": "OLED 발광체 3부: TADF, 보조 역할로 살아난 세대",
@@ -71284,181 +71767,6 @@
         }
       ],
       "importance_raw": 2,
-      "type_checked": true
-    },
-    {
-      "id": "c20261026-0110",
-      "headline": "SK하이닉스, 여의도에서 기업광고 전시회 개최",
-      "summary": [
-        "SK하이닉스가 여의도 IFC몰에서 10월 24일부터 11월 1일까지 전시회를 진행한다.",
-        "이번 전시회는 기업광고 '초심'을 주제로 하며, 다양한 콘텐츠를 선보인다.",
-        "이 행사로 SK하이닉스는 브랜드 이미지 부각과 고객 소통을 강화할 계획이다."
-      ],
-      "category": "기타",
-      "tags": [
-        "기업광고",
-        "전시회",
-        "브랜드 이미지"
-      ],
-      "companies": [
-        "SK하이닉스"
-      ],
-      "event_type": "홍보·수상",
-      "confirmed": true,
-      "parties": [
-        "SK하이닉스"
-      ],
-      "importance": 2,
-      "importance_reason": "홍보·수상 1점, 관심 기업(SK하이닉스) +1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T05:55:04Z",
-      "updated_at": "2026-10-26T05:55:04Z",
-      "articles": [
-        {
-          "key": "bb8886d90094d1ed",
-          "title": "SK하이닉스, 여의도 IFC몰서 기업광고 '초심' 전시회",
-          "url": "https://www.yna.co.kr/view/AKR20261026113500003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-26T05:55:04Z"
-        }
-      ],
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261027-0162",
-      "headline": "홍콩증권거래소, AI 및 반도체 지수 발표",
-      "summary": [
-        "홍콩증권거래소(HKEX)가 인공지능 및 반도체 지수를 출시했다.",
-        "이 지수들은 두 가지 주요 기술 테마에 대한 기준을 제공하며, 새로운 ETF 발행을 위해 자산운용사와 라이선스 계약을 체결했다.",
-        "이로 인해 HKEX는 신흥 기술 트렌드에 대한 커버리지를 확대하고 지수 포트폴리오를 강화하게 된다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "AI 지수",
-        "반도체 지수",
-        "ETF",
-        "HKEX",
-        "기술 트렌드"
-      ],
-      "companies": [
-        "홍콩증권거래소",
-        "Southern Asset Management"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "홍콩증권거래소",
-        "Southern Asset Management"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T05:49:00Z",
-      "updated_at": "2026-10-26T05:49:00Z",
-      "articles": [
-        {
-          "key": "cb21419699aa2327",
-          "title": "HKEX Launches Artificial Intelligence and Semiconductor Indices",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=342687",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-10-26T05:49:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261026-0145",
-      "headline": "AI 패권 전쟁 주제로 SK하이닉스 발표",
-      "summary": [
-        "'아이포럼 2026'이 22일 서울에서 열렸다.",
-        "SK하이닉스의 명석주 팀장이 AI 인프라 및 HBM 마케팅에 대해 발표했다.",
-        "이번 발표는 대한민국의 AI 패권을 위한 새로운 질서와 전략을 강조했다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "AI 패권 전쟁",
-        "HBM 마케팅",
-        "AI 인프라"
-      ],
-      "companies": [
-        "SK하이닉스"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "SK하이닉스"
-      ],
-      "importance": 3,
-      "importance_reason": "업계 일반 2점, 관심 기업(SK하이닉스) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T04:55:30Z",
-      "updated_at": "2026-10-26T04:55:30Z",
-      "articles": [
-        {
-          "key": "6cda2730a4f95222",
-          "title": "[아이TV] '아이포럼 2026' 명석주 SK하이닉스 AI Infra / HBM Marketing 팀장 발표",
-          "url": "https://www.inews24.com/view/2018940",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-26T04:55:30Z"
-        }
-      ],
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0109",
-      "headline": "AI로 반도체 신물질 개발기간 단축하는 삼성전자",
-      "summary": [
-        "삼성전자가 AI를 활용해 반도체 신물질 개발 기간을 5년에서 2년으로 줄이는 방안을 추진한다.",
-        "소재 후보 발굴 규모를 5배 증가시키고 실험 횟수를 80% 이상 줄일 계획이다.",
-        "이번 기술 개발은 반도체 산업의 혁신을 가속화할 것으로 기대된다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "AI",
-        "신물질",
-        "반도체 소재",
-        "삼성전자"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 3,
-      "importance_reason": "업계 일반 2점, 관심 기업(삼성전자) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T04:46:39Z",
-      "updated_at": "2026-10-26T04:46:39Z",
-      "articles": [
-        {
-          "key": "9123c29cc59e1038",
-          "title": "삼성전자, AI로 반도체 신물질 개발기간 3년 앞당긴다",
-          "url": "https://www.dt.co.kr/article/12091234",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-26T04:46:39Z"
-        }
-      ],
-      "importance_raw": 3,
       "type_checked": true
     }
   ]
