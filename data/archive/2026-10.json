@@ -1103,6 +1103,319 @@
         }
       ],
       "importance_raw": 3
+    },
+    {
+      "id": "c20261026-0108",
+      "headline": "중소기업, 3분기 수출 역대 최대 기록",
+      "summary": [
+        "2026년 3분기 중소기업 수출액이 K-뷰티와 반도체 덕분에 역대 최고치를 기록했다.",
+        "중소벤처기업부에 따르면, 3분기 수출액은 전년 동기 대비 8% 증가한 수치다.",
+        "이 성장은 글로벌 시장에서 한국 제품의 경쟁력이 더욱 강화되고 있음을 시사한다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "K-뷰티",
+        "반도체",
+        "중소기업",
+        "수출",
+        "3분기 실적"
+      ],
+      "companies": [
+        "중소벤처기업부"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "중소기업"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T03:10:36Z",
+      "updated_at": "2026-10-26T03:10:36Z",
+      "articles": [
+        {
+          "key": "29d66152221ac3e8",
+          "title": "中企수출 역대 3분기 최고… \"K-뷰티, 온·오프 수출 쌍끌이\"",
+          "url": "https://www.dt.co.kr/article/12091224",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-26T03:10:36Z"
+        }
+      ],
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261026-0107",
+      "headline": "해외 반도체 테스트 업체, 2억 1500만 달러 투자",
+      "summary": [
+        "대만의 웨이퍼 테스트 공급업체인 Hermes Testing Solutions가 2억 1500만 달러를 투자하기로 했다.",
+        "이 자금은 첨단 칩 테스트 확장에 사용될 예정이며, 세부 사항은 추후 발표된다.",
+        "이번 투자는 세계 반도체 산업 경쟁력 강화에 기여할 것으로 예상된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "반도체 테스트",
+        "투자",
+        "칩 테스트",
+        "대만",
+        "Hermes Testing Solutions"
+      ],
+      "companies": [
+        "Hermes Testing Solutions"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "Hermes Testing Solutions"
+      ],
+      "importance": 3,
+      "importance_reason": "설비 투자 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-26T02:58:19Z",
+      "updated_at": "2026-10-26T02:58:19Z",
+      "articles": [
+        {
+          "key": "3be5faad6a3ba161",
+          "title": "Taiwan wafer-testing supplier Hermes Testing Solutions commits more than US$215 million to advanced chip testing expansion",
+          "url": "https://www.digitimes.com/news/a20261023PD241/taiwan-testing-equipment-budget-investment.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-26T02:58:19Z"
+        }
+      ],
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261026-0106",
+      "headline": "TSMC 3nm 수요 증가, 삼성 HBM 전환",
+      "summary": [
+        "TSMC의 3nm 공정에 대한 수요가 증가하고 있다.",
+        "삼성전자는 새로운 HBM 기술로의 전환을 추진 중이다.",
+        "이번 변화는 반도체 시장의 경쟁력에 큰 영향을 미칠 것으로 보인다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "TSMC",
+        "삼성전자",
+        "3nm",
+        "HBM"
+      ],
+      "companies": [
+        "TSMC",
+        "삼성전자"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "TSMC",
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "시장 전망·통계 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-26T02:57:50Z",
+      "updated_at": "2026-10-26T02:57:50Z",
+      "articles": [
+        {
+          "key": "14f8b2e213642758",
+          "title": "Podcast highlights: TSMC's 3nm demand story, Samsung HBM shift, and A14 ramp",
+          "url": "https://www.digitimes.com/news/a20261023PD235/tsmc-3nm-demand-samsung-hbm.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-26T02:57:50Z"
+        }
+      ],
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261026-0144",
+      "headline": "삼성전자, HBM5 전시로 차세대 기술 공개",
+      "summary": [
+        "삼성전자가 26일부터 30일까지 '2026 삼성기술전'에서 HBM5를 포함한 차세대 기술을 전시한다.",
+        "이 행사에서는 8세대 고대역폭메모리 기술과 다양한 반도체 혁신이 공개될 예정이다.",
+        "삼성의 기술 전시가 반도체 산업의 기술 경쟁력을 강화하는 데 의미가 크다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "HBM5",
+        "삼성기술전",
+        "차세대 반도체",
+        "고대역폭메모리"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T02:09:31Z",
+      "updated_at": "2026-10-26T02:09:31Z",
+      "articles": [
+        {
+          "key": "e6cbbf878499442f",
+          "title": "삼성전자, '삼성기술전'서 HBM5 전시…전영현 등 DS 경영진 참석",
+          "url": "https://www.inews24.com/view/2018816",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-26T02:09:31Z"
+        }
+      ],
+      "importance_raw": 3,
+      "type_checked": true
+    },
+    {
+      "id": "c20261026-0105",
+      "headline": "코트라 인베스트 코리아, 유엔 투자 진흥상 수상",
+      "summary": [
+        "인베스트 코리아가 유엔 투자 진흥상을 수상했다.",
+        "수상은 지난 25일 카타르 도하에서 진행되었으며, 반도체 공급망 강화에 기여한 공로가 인정되었다.",
+        "이는 한국의 반도체 산업에 긍정적인 영향을 미치고, 글로벌 투자 유치에 도움이 될 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "유엔 투자 진흥상",
+        "반도체 공급망",
+        "인베스트 코리아"
+      ],
+      "companies": [
+        "대한무역투자진흥공사"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "인베스트 코리아"
+      ],
+      "importance": 1,
+      "importance_reason": "홍보·수상 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T02:01:31Z",
+      "updated_at": "2026-10-26T02:01:31Z",
+      "articles": [
+        {
+          "key": "fea19a1ece0b2fbc",
+          "title": "코트라 인베스트 코리아, ‘유엔 투자 진흥상’ 수상…반도체 공급망 강화 공로",
+          "url": "https://www.dt.co.kr/article/12091210",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-26T02:01:31Z"
+        }
+      ],
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261026-0104",
+      "headline": "OLED, 프리미엄 노트북 시장 장악 예고",
+      "summary": [
+        "미니 LED 패널 출하량이 2026년에 38% 감소하며, 2027년까지 75% 줄어들 것으로 예상된다.",
+        "반면 OLED 패널 출하량은 2026년에 50% 증가하고, 2027년에도 24%의 성장을 기록할 전망이다.",
+        "특히 애플의 차세대 맥북 프로가 미니 LED에서 OLED로 전환되며, 삼성디스플레이와의 독점 계약으로 생산될 예정이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "미니LED",
+        "애플",
+        "삼성디스플레이",
+        "맥북 프로",
+        "패널 출하량"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "애플"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성디스플레이",
+        "애플"
+      ],
+      "importance": 4,
+      "importance_reason": "실적 3점, 관심 기업(삼성디스플레이) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-26T02:00:05Z",
+      "updated_at": "2026-10-26T02:00:05Z",
+      "articles": [
+        {
+          "key": "c752d1ff615d4a85",
+          "title": "Counterpoint: laptop mini-LED shipments to drop 75% within two years, as OLED takes over the premium laptop market",
+          "url": "https://www.oled-info.com/counterpoint-laptop-mini-led-shipments-drop-75-within-two-years-oled-takes-over",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-10-26T02:00:05Z"
+        }
+      ],
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261026-0143",
+      "headline": "삼성·SK하이닉스, 중국 낸드 적층 고도화 추진",
+      "summary": [
+        "삼성전자와 SK하이닉스가 중국 3D 낸드플래시의 적층 단수를 높이고 있다.",
+        "삼성은 시안 공장에서 200단에서 286단으로, SK는 다롄 공장에서 최대 240단의 생산 승인을 받고 있다.",
+        "이 조치는 AI 수요 증가에 대응하고 중국 YMTC와의 경쟁력을 강화하기 위한 전략이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "3D 낸드",
+        "AI 수요",
+        "중국 YMTC",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 4,
+      "importance_reason": "설비 투자 3점, 관심 기업(SK하이닉스, 삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T02:00:00Z",
+      "updated_at": "2026-10-26T02:00:00Z",
+      "articles": [
+        {
+          "key": "5ae1cb36205a61a3",
+          "title": "삼성·SK하이닉스, 中 낸드 고층화 추진…YMTC 추격 견제",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408732",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-26T02:00:00Z"
+        }
+      ],
+      "importance_raw": 4,
+      "type_checked": true
     }
   ]
 }

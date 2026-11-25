@@ -1,7 +1,720 @@
 {
   "version": 1,
-  "updated_at": "2026-11-25T01:34:05Z",
+  "updated_at": "2026-11-25T03:14:03Z",
   "issues": [
+    {
+      "id": "c20261125-1591",
+      "headline": "호남 반도체 클러스터 건설인력 주거 대책 요구",
+      "summary": [
+        "전남광주통합특별시장이 반도체 팹 건설인력 유입에 대비해 공공임대 주택 1만호 공급 필요성을 제기했다.",
+        "건설인력이 1만명 이상으로 추산되는 호남 반도체 클러스터의 정주 여건 마련이 핵심 과제로 제시됐다.",
+        "지역 인프라와 주거 확보가 반도체 팹 건설 일정과 지역 산업 생태계 조성에 영향을 줄 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "호남 반도체 클러스터",
+        "건설인력",
+        "공공임대주택",
+        "정주 여건",
+        "반도체 팹"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T02:46:52Z",
+      "updated_at": "2026-11-25T02:46:52Z",
+      "articles": [
+        {
+          "key": "c4acdaa2c3733043",
+          "title": "민형배 전남광주시장 \"반도체 팹 건설인력 1만호 공공임대 필요\"",
+          "url": "https://www.yna.co.kr/view/AKR20261125083400054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-25T02:46:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261125-1590",
+      "headline": "미국 AI칩 통제, 클라우드까지 확대 움직임",
+      "summary": [
+        "미국이 AI 반도체 수출 통제를 클라우드 서비스로까지 넓히는 방향이 거론되고 있다.",
+        "기사 본문이 제공되지 않아 구체적인 규정 내용과 시행 시점은 확인할 수 없다.",
+        "클라우드 접근까지 막히면 엔비디아 등 AI칩 기업의 해외 매출과 고객 접근 전략에 영향이 예상된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI반도체",
+        "수출통제",
+        "클라우드",
+        "엔비디아"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-25T02:30:43Z",
+      "updated_at": "2026-11-25T02:30:43Z",
+      "articles": [
+        {
+          "key": "0a7108a8be489185",
+          "title": "Jensen faces a trio of tests as US AI chip controls extend to the cloud",
+          "url": "https://www.digitimes.com/news/a20261125PD204/nvidia-jensen-huang-ai-chip-hardware-exports.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-25T02:30:43Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261124-1569",
+      "headline": "LG디스플레이, 발로란트 EMEA 리그 공식 파트너로 게이밍 OLED 공급",
+      "summary": [
+        "LG디스플레이가 라이엇 게임즈 주최 발로란트 e스포츠 EMEA 2027 리그의 공식 파트너가 됐다.",
+        "이번 협업으로 게이밍용 OLED 패널을 공급하며 초고주사율 제품을 알리는 계획이다.",
+        "게이밍 OLED 시장을 공략하려는 행보로, 디스플레이 업계의 게이밍 수요 확대 신호로 볼 수 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "게이밍 OLED",
+        "발로란트",
+        "e스포츠 파트너십",
+        "초고주사율"
+      ],
+      "companies": [
+        "LG디스플레이",
+        "라이엇 게임즈"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이",
+        "라이엇 게임즈"
+      ],
+      "importance": 3,
+      "importance_reason": "홍보·수상 1점, 관심 기업(LG디스플레이) +1, 매체 3곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-24T21:01:00Z",
+      "updated_at": "2026-11-25T02:30:00Z",
+      "articles": [
+        {
+          "key": "050d16a4d2fb92b5",
+          "title": "LGD, '발로란트 e스포츠 2027' 공식 파트너…게이밍 OLED 공급",
+          "url": "https://www.yna.co.kr/view/AKR20261124160000003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-24T21:01:00Z"
+        },
+        {
+          "key": "389d9fbe3577788a",
+          "title": "LG디스플레이, 발로란트 EMEA 리그와 파트너십…초고주사율 OLED 알린다",
+          "url": "https://www.dt.co.kr/article/12097084",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-24T23:58:57Z"
+        },
+        {
+          "key": "a1402605e3b9712b",
+          "title": "LG디스플레이, '발로란트 e스포츠' 공식 파트너…게이밍 OLED 공급",
+          "url": "https://www.inews24.com/view/2030176",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-25T02:30:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261125-1589",
+      "headline": "원자 단위 두께 조절 AI반도체 소자 구현",
+      "summary": [
+        "국내 연구진이 반도체 소재를 원자 한 층 단위로 깎아 두께를 조절하는 기술을 개발했다.",
+        "이 소자는 빛을 감지하고 정보를 저장할 수 있으며, 기사에 구체적인 수치·일정은 나타나 있지 않다.",
+        "차세대 AI반도체의 구현 가능성을 보여준 연구 성과로, 상용화까지는 추가 검증이 필요하다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI반도체",
+        "원자층 식각",
+        "광센서",
+        "메모리 소자",
+        "2차원 소재"
+      ],
+      "companies": [
+        "한국기계연구원",
+        "한양대학교"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T02:29:43Z",
+      "updated_at": "2026-11-25T02:29:43Z",
+      "articles": [
+        {
+          "key": "a1a77d8354d95ad6",
+          "title": "반도체 소재 두께 ‘자유롭게’ 제어…보고 기억하는 ‘차세대 AI반도체’ 구현",
+          "url": "https://www.dt.co.kr/article/12097127",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-25T02:29:43Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261125-1588",
+      "headline": "젠슨 황 복귀 속 중국 기업용 SSD 회복 지연",
+      "summary": [
+        "엔비디아 젠슨 황 CEO의 복귀 소식과 함께 중국 기업용 SSD 시장 회복 흐름이 함께 언급됐다.",
+        "기사 본문이 제목과 이미지 캡션뿐이라 구체적인 수치나 일정은 확인되지 않았다.",
+        "GPU 공급 부족이 중국 기업용 SSD 수요 회복의 발목을 잡고 있다는 점이 업계에 주는 의미로 보인다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "GPU 공급 부족",
+        "기업용 SSD",
+        "중국 시장",
+        "젠슨 황"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 3,
+      "importance_reason": "경영진 교체 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-25T02:07:46Z",
+      "updated_at": "2026-11-25T02:07:46Z",
+      "articles": [
+        {
+          "key": "1139a21e127a7325",
+          "title": "Jensen Huang returns to Nvidia with China's enterprise SSD recovery still hostage to GPU shortages",
+          "url": "https://www.digitimes.com/news/a20261125PD203/nvidia-jensen-huang-ssd-production-market.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-25T02:07:46Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261125-1574",
+      "headline": "트럼프, 엔비디아 정부 지분 검토와 젠슨 황 사면 언급",
+      "summary": [
+        "트럼프 대통령이 엔비디아에 대한 정부 지분 참여 가능성을 언급하고 젠슨 황 CEO 사면 가능성도 열어뒀다.",
+        "사법당국은 젠슨 황 관련 조사 여부에 대해 입을 다물고 있으며 구체적 일정이나 결정은 확인되지 않았다.",
+        "이는 미국 정부와 AI 반도체 핵심 기업 간 관계가 정책 변수로 부상했다는 점에서 업계가 주목할 만하다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "엔비디아",
+        "정부 지분",
+        "젠슨 황",
+        "사면",
+        "AI반도체"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-25T00:04:44Z",
+      "updated_at": "2026-11-25T02:06:44Z",
+      "articles": [
+        {
+          "key": "ba5b1651a8306a4e",
+          "title": "트럼프 \"젠슨 황 사면도 선택지\"...사법당국은 조사 여부 함구",
+          "url": "https://zdnet.co.kr/view/?no=20261125082616",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-25T00:04:44Z"
+        },
+        {
+          "key": "caf982ba34b3e164",
+          "title": "Trump floats government stake in Nvidia and leaves pardon option for Huang open",
+          "url": "https://www.digitimes.com/news/a20261125VL213/nvidia-usa-government-donald-trump-intel.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-25T02:06:44Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261125-1587",
+      "headline": "호남 반도체 클러스터 용수 공급 덕남정수장 증설 추진",
+      "summary": [
+        "호남 반도체 클러스터에 용수를 공급하는 덕남정수장의 정수량을 두 배로 늘리는 사업이 추진된다.",
+        "송수관로를 새로 설치하는 사업도 함께 진행되며, 기사에 구체적 일정은 나오지 않았다.",
+        "반도체 공장 용수 확보 기반이 강화되어 호남 지역 반도체 산업 인프라에 도움이 될 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "용수 공급",
+        "덕남정수장",
+        "호남 반도체 클러스터",
+        "송수관로",
+        "반도체 인프라"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T02:01:15Z",
+      "updated_at": "2026-11-25T02:01:15Z",
+      "articles": [
+        {
+          "key": "4faa2d9357a48c2e",
+          "title": "호남 반도체 용수 공급 덕남정수장 생산량 2배로 늘린다",
+          "url": "https://www.yna.co.kr/view/AKR20261125072000054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-25T02:01:15Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261125-1586",
+      "headline": "산업부, 팹리스인의 날 기념식…유공자 19점 포상",
+      "summary": [
+        "산업통상부가 국내 시스템반도체 설계(팹리스) 산업을 위한 2026년 팹리스인의 날 기념식을 열었다.",
+        "기념식과 함께 피지컬AI 미래대응 기술교류 행사가 함께 진행됐으며 유공자 19점이 포상을 받았다.",
+        "이번 행사는 팹리스 업계의 공로를 기리고 피지컬AI 등 차세대 기술 대응 방향을 공유하는 자리로 의미가 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "팹리스",
+        "시스템반도체",
+        "피지컬AI",
+        "포상"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T02:00:01Z",
+      "updated_at": "2026-11-25T02:00:01Z",
+      "articles": [
+        {
+          "key": "ecf1c626923da2b8",
+          "title": "산업부, 2026년 팹리스인의 날 행사…유공자 19점 포상",
+          "url": "https://www.yna.co.kr/view/AKR20261125073800003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-25T02:00:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261124-1503",
+      "headline": "삼성전자 2027년 정기 임원 인사, DS 승진 확대·DX 감소",
+      "summary": [
+        "삼성전자가 2027년 정기 임원 인사에서 131명을 승진시켰으며, DS부문은 70명, DX부문은 61명이다.",
+        "DX부문 승진자는 전년 92명에서 31명 줄었고, 3분기 영업손익이 8000억원 적자로 돌아선 실적 부진이 배경으로 보인다.",
+        "HBM4 양산과 파운드리 선단 공정을 이끈 인재가 발탁돼 메모리·시스템반도체 리더십 강화 기조가 드러났다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "임원 인사",
+        "HBM4",
+        "파운드리",
+        "TV 광고 사업",
+        "성과주의"
+      ],
+      "companies": [
+        "삼성전자",
+        "TCL",
+        "소니"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 5,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1, 매체 9곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-24T00:07:04Z",
+      "updated_at": "2026-11-25T01:54:31Z",
+      "articles": [
+        {
+          "key": "504e16dc24d82f84",
+          "title": "삼성전자 2027년 정기 임원 인사 명단",
+          "url": "https://zdnet.co.kr/view/?no=20261124090704",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-24T00:07:04Z"
+        },
+        {
+          "key": "c0a7931530ee335f",
+          "title": "삼성전자 2027년 정기 임원 인사...부사장 39명, 상무 78명, Fellow 2명, Master 12명 등 총 131명 승진",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343604",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-24T00:10:00Z"
+        },
+        {
+          "key": "36ec70b3e5b128b2",
+          "title": "삼성전자, 임원 131명 승진…반도체 성과주의 인사 강화",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=410196",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-24T00:13:30Z"
+        },
+        {
+          "key": "643b93c75f4e2a8c",
+          "title": "삼성전자, 2027년 임원인사…HBM4 주역 승진·AI·로봇 인재 발탁",
+          "url": "https://www.dt.co.kr/article/12096845",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-24T00:13:36Z"
+        },
+        {
+          "key": "0a65a9668fdb27da",
+          "title": "삼성전자 임원 131명 승진…역대 최대 실적에도 30명 줄이고 반도체 집중",
+          "url": "https://www.etnews.com/20261124000060",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-24T00:13:41Z"
+        },
+        {
+          "key": "f890b5dfa067d811",
+          "title": "삼성전자, 부사장 등 131명 승진…\"AI 메모리 핵심인재 적극 발탁\"",
+          "url": "https://zdnet.co.kr/view/?no=20261124090334",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-24T00:21:28Z"
+        },
+        {
+          "key": "4a3934afb09ed937",
+          "title": "삼성전자, 임원 승진 19% 줄였지만 반도체선 70명 대거 발탁",
+          "url": "https://www.yna.co.kr/view/AKR20261124044600003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-24T00:35:43Z"
+        },
+        {
+          "key": "bfd95baeaa1f6742",
+          "title": "삼성전자, 임원 승진 줄여도 반도체 챙겼다…70명 발탁(종합)",
+          "url": "https://www.yna.co.kr/view/AKR20261124044651003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-24T01:39:20Z"
+        },
+        {
+          "key": "c78b50308c1bedeb",
+          "title": "삼성전자, D램·HBM 핵심인재 전면 배치…AI 수요 대응력 높인다",
+          "url": "https://zdnet.co.kr/view/?no=20261124092246",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-24T01:39:47Z"
+        },
+        {
+          "key": "28587bddebab7488",
+          "title": "삼성전자 역대급 실적에도 임원 승진은 9년 만에 최소",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65820",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-24T02:20:31Z"
+        },
+        {
+          "key": "1b464128790801eb",
+          "title": "삼성전자, 임원 131명 승진 인사...HBM4·파운드리 주역 전진 배치",
+          "url": "https://zdnet.co.kr/view/?no=20261124104420",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-24T02:56:40Z"
+        },
+        {
+          "key": "8e8587cbb4967dad",
+          "title": "삼성전자 DS 인사 키워드는 '성과주의'…HBM4 개발·양산 주역 승진",
+          "url": "https://www.inews24.com/view/2029646",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-24T03:01:06Z"
+        },
+        {
+          "key": "cf2480c3a3f63ae2",
+          "title": "삼성전자 DX부문 임원 승진 3분의 1 급감…TV는 '광고'·미래는 '로봇' 방점",
+          "url": "https://zdnet.co.kr/view/?no=20261124112108",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-24T03:02:03Z"
+        },
+        {
+          "key": "22be566e34c8686a",
+          "title": "Samsung cuts executive promotions by 19%, favors chip division",
+          "url": "https://www.digitimes.com/news/a20261124VL212/samsung-hbm-development-business-sales.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-24T03:15:02Z"
+        },
+        {
+          "key": "8419eb48a7f72749",
+          "title": "[2027 삼성전자 인사]HBM 성과 보상·파운드리 인재 중용…로봇·AI 전진 배치",
+          "url": "https://www.etnews.com/20261124000316",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-24T04:36:52Z"
+        },
+        {
+          "key": "cdb94e244beb8c62",
+          "title": "[2027 삼성전자 인사] HBM4 주역 전면에…반도체 승진 절반 넘었다",
+          "url": "https://www.etnews.com/20261124000378",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-24T05:38:16Z"
+        },
+        {
+          "key": "a0d8871ce49ae1ef",
+          "title": "[ET톡] '삼성전자 성과주의' 다음 과제",
+          "url": "https://www.etnews.com/20261125000213",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-25T01:54:31Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261125-1585",
+      "headline": "6인치 웨이퍼 원자층 식각 기술, 반도체 소재 정밀 가공 진전",
+      "summary": [
+        "연합뉴스 보도에 따르면 차세대 반도체 소재를 6인치 웨이퍼 전체에서 원자 단위로 한 층씩 깎는 기술이 소개됐다.",
+        "기사 본문이 짧아 구체적인 기업명, 공정 조건, 일정 등 추가 수치는 확인되지 않는다.",
+        "정밀한 두께 제어 기술로 차세대 소재 연구와 양산 공정 개발에 의미가 있을 것으로 보인다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "원자층 식각",
+        "차세대 반도체 소재",
+        "6인치 웨이퍼",
+        "두께 제어"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T01:41:20Z",
+      "updated_at": "2026-11-25T01:41:20Z",
+      "articles": [
+        {
+          "key": "7c6bde2f235096b8",
+          "title": "6인치 웨이퍼 전체서 원자 한 층씩 깎아 원하는 두께로 맞춘다",
+          "url": "https://www.yna.co.kr/view/AKR20261125072400063",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-25T01:41:20Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261125-1584",
+      "headline": "화웨이, 미국 칩 설계 규제 대응 위해 Phlexing 활용 부각",
+      "summary": [
+        "DigiTimes는 화웨이가 미국의 칩 설계 규제에 대응하는 방식이 Phlexing을 통해 이뤄진다고 보도했다.",
+        "기사에 제시된 구체적 수치나 일정은 확인되지 않으며, 본문은 사진 출처 표기만 있다.",
+        "다만 제목상 중국 기업의 대미 규제 대응 전략을 다룬 것으로, 반도체 설계 공급망 변화 신호로 볼 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "칩 설계 규제",
+        "수출규제",
+        "화웨이",
+        "Phlexing"
+      ],
+      "companies": [
+        "화웨이"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "화웨이",
+        "Phlexing"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-25T01:32:48Z",
+      "updated_at": "2026-11-25T01:32:48Z",
+      "articles": [
+        {
+          "key": "3bd02e00f9018f9b",
+          "title": "Why Huawei's answer to US chip design curbs runs through Phlexing",
+          "url": "https://www.digitimes.com/news/a20261125VL211/huawei-design-software-eda-chairman.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-25T01:32:48Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261125-1583",
+      "headline": "엔비디아 급등 하루 만에 반전, 메모리 과잉 우려 부각",
+      "summary": [
+        "엔비디아 주가가 전날 급등 후 하루 만에 급락하는 흐름이 나타났다.",
+        "기사 본문이 짧아 구체적 수치와 급락 폭은 확인되지 않는다.",
+        "메모리 공급 과잉과 관세 우려가 투자 심리를 얼어붙게 한 것으로 보인다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "엔비디아",
+        "젠슨 황",
+        "메모리 과잉",
+        "관세 우려",
+        "주가 급락"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점, 미확정 -1 → 1점(최저점)",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T01:32:40Z",
+      "updated_at": "2026-11-25T01:32:40Z",
+      "articles": [
+        {
+          "key": "68b30387c3d92495",
+          "title": "'젠슨황 랠리' 하루만에 끝?…메모리과잉·관세우려 투심 냉기",
+          "url": "https://www.yna.co.kr/view/AKR20261125066900008",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-25T01:32:40Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 0
+    },
+    {
+      "id": "c20261125-1582",
+      "headline": "동남아 반도체 우회 수출 차단 움직임, 미국 블랙리스트 여파",
+      "summary": [
+        "동남아 국가들이 미국 블랙리스트에 오른 지역 데이터센터와 관련해 반도체 우회 반출 차단에 나섰다.",
+        "기사 본문은 사진 크레딧만 제공되어 구체적인 조치 내용과 수치는 확인되지 않는다.",
+        "동남아가 미국 수출 통제의 우회 경로로 지목되면서 지역 데이터센터의 AI 칩 조달에 영향이 예상된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "칩 우회 수출",
+        "수출규제",
+        "블랙리스트",
+        "데이터센터",
+        "동남아시아"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-25T01:27:19Z",
+      "updated_at": "2026-11-25T01:27:19Z",
+      "articles": [
+        {
+          "key": "28bb2715cc61922d",
+          "title": "Southeast Asian countries move to stop chip diversion as US blacklist hits regional data centers",
+          "url": "https://www.digitimes.com/news/a20261125VL204/data-chips-data-center.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-25T01:27:19Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261125-1581",
       "headline": "키사이트 EDA로 아토튜드 칩 설계 주기 50% 단축",
@@ -441,105 +1154,6 @@
       ],
       "type_checked": true,
       "importance_raw": 4
-    },
-    {
-      "id": "c20261125-1574",
-      "headline": "트럼프, 젠슨 황 사면·엔비디아 지분 확보 언급",
-      "summary": [
-        "트럼프 대통령이 젠슨 황 엔비디아 CEO의 범죄 혐의가 드러날 경우 사면을 검토할 수 있다고 밝혔다.",
-        "젠슨 황 CEO는 12월 1일 하원 외교위 비공개 브리핑과 12월 3일 상원 은행위 청문회에 출석할 예정이다.",
-        "중국 관계와 수출통제 위반 여부를 두고 의회 조사가 요구되면서 엔비디아의 경영 리스크가 부각되고 있다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "젠슨 황",
-        "엔비디아 CEO 복귀",
-        "수출통제",
-        "의회 청문회",
-        "사면",
-        "지분 확보"
-      ],
-      "companies": [
-        "엔비디아",
-        "인텔"
-      ],
-      "event_type": "소송·특허",
-      "confirmed": false,
-      "parties": [
-        "엔비디아"
-      ],
-      "importance": 2,
-      "importance_reason": "소송·특허 3점, 미확정 -1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-25T00:04:44Z",
-      "updated_at": "2026-11-25T00:04:44Z",
-      "articles": [
-        {
-          "key": "ba5b1651a8306a4e",
-          "title": "트럼프 \"젠슨 황 사면도 선택지\"...사법당국은 조사 여부 함구",
-          "url": "https://zdnet.co.kr/view/?no=20261125082616",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-25T00:04:44Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261124-1569",
-      "headline": "LG디스플레이, e스포츠 리그와 720Hz OLED 패널 홍보 협력",
-      "summary": [
-        "LG디스플레이가 발로란트 EMEA 리그와 파트너십을 맺고 초고주사율 OLED 패널 확대에 나선다.",
-        "e스포츠 특화로 개발한 720Hz OLED 패널을 공식 경기에 적용해 기술력을 알리는 것이 목표다.",
-        "게이밍 디스플레이 시장에서 고주사율 OLED의 입지를 넓히는 계기가 될 전망이다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "720Hz OLED",
-        "게이밍 디스플레이",
-        "e스포츠",
-        "발로란트"
-      ],
-      "companies": [
-        "LG디스플레이"
-      ],
-      "event_type": "홍보·수상",
-      "confirmed": true,
-      "parties": [
-        "LG디스플레이"
-      ],
-      "importance": 2,
-      "importance_reason": "홍보·수상 1점, 관심 기업(LG디스플레이) +1 → 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-24T21:01:00Z",
-      "updated_at": "2026-11-24T23:58:57Z",
-      "articles": [
-        {
-          "key": "050d16a4d2fb92b5",
-          "title": "LGD, '발로란트 e스포츠 2027' 공식 파트너…게이밍 OLED 공급",
-          "url": "https://www.yna.co.kr/view/AKR20261124160000003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-24T21:01:00Z"
-        },
-        {
-          "key": "389d9fbe3577788a",
-          "title": "LG디스플레이, 발로란트 EMEA 리그와 파트너십…초고주사율 OLED 알린다",
-          "url": "https://www.dt.co.kr/article/12097084",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-24T23:58:57Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     },
     {
       "id": "c20261125-1573",
@@ -2432,173 +3046,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261124-1503",
-      "headline": "삼성전자 2027년 정기 임원 인사, DS 승진 확대·DX 감소",
-      "summary": [
-        "삼성전자가 2027년 정기 임원 인사에서 131명을 승진시켰으며, DS부문은 70명, DX부문은 61명이다.",
-        "DX부문 승진자는 전년 92명에서 31명 줄었고, 3분기 영업손익이 8000억원 적자로 돌아선 실적 부진이 배경으로 보인다.",
-        "HBM4 양산과 파운드리 선단 공정을 이끈 인재가 발탁돼 메모리·시스템반도체 리더십 강화 기조가 드러났다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "임원 인사",
-        "HBM4",
-        "파운드리",
-        "TV 광고 사업",
-        "성과주의"
-      ],
-      "companies": [
-        "삼성전자",
-        "TCL",
-        "소니"
-      ],
-      "event_type": "경영진 교체",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 5,
-      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1, 매체 9곳 보도 +1 → 5점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-24T00:07:04Z",
-      "updated_at": "2026-11-24T05:38:16Z",
-      "articles": [
-        {
-          "key": "504e16dc24d82f84",
-          "title": "삼성전자 2027년 정기 임원 인사 명단",
-          "url": "https://zdnet.co.kr/view/?no=20261124090704",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-24T00:07:04Z"
-        },
-        {
-          "key": "c0a7931530ee335f",
-          "title": "삼성전자 2027년 정기 임원 인사...부사장 39명, 상무 78명, Fellow 2명, Master 12명 등 총 131명 승진",
-          "url": "https://www.kipost.net/news/articleView.html?idxno=343604",
-          "source": "KIPOST",
-          "lang": "ko",
-          "published_at": "2026-11-24T00:10:00Z"
-        },
-        {
-          "key": "36ec70b3e5b128b2",
-          "title": "삼성전자, 임원 131명 승진…반도체 성과주의 인사 강화",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=410196",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-24T00:13:30Z"
-        },
-        {
-          "key": "643b93c75f4e2a8c",
-          "title": "삼성전자, 2027년 임원인사…HBM4 주역 승진·AI·로봇 인재 발탁",
-          "url": "https://www.dt.co.kr/article/12096845",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-24T00:13:36Z"
-        },
-        {
-          "key": "0a65a9668fdb27da",
-          "title": "삼성전자 임원 131명 승진…역대 최대 실적에도 30명 줄이고 반도체 집중",
-          "url": "https://www.etnews.com/20261124000060",
-          "source": "전자신문",
-          "lang": "ko",
-          "published_at": "2026-11-24T00:13:41Z"
-        },
-        {
-          "key": "f890b5dfa067d811",
-          "title": "삼성전자, 부사장 등 131명 승진…\"AI 메모리 핵심인재 적극 발탁\"",
-          "url": "https://zdnet.co.kr/view/?no=20261124090334",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-24T00:21:28Z"
-        },
-        {
-          "key": "4a3934afb09ed937",
-          "title": "삼성전자, 임원 승진 19% 줄였지만 반도체선 70명 대거 발탁",
-          "url": "https://www.yna.co.kr/view/AKR20261124044600003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-24T00:35:43Z"
-        },
-        {
-          "key": "bfd95baeaa1f6742",
-          "title": "삼성전자, 임원 승진 줄여도 반도체 챙겼다…70명 발탁(종합)",
-          "url": "https://www.yna.co.kr/view/AKR20261124044651003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-24T01:39:20Z"
-        },
-        {
-          "key": "c78b50308c1bedeb",
-          "title": "삼성전자, D램·HBM 핵심인재 전면 배치…AI 수요 대응력 높인다",
-          "url": "https://zdnet.co.kr/view/?no=20261124092246",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-24T01:39:47Z"
-        },
-        {
-          "key": "28587bddebab7488",
-          "title": "삼성전자 역대급 실적에도 임원 승진은 9년 만에 최소",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65820",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-24T02:20:31Z"
-        },
-        {
-          "key": "1b464128790801eb",
-          "title": "삼성전자, 임원 131명 승진 인사...HBM4·파운드리 주역 전진 배치",
-          "url": "https://zdnet.co.kr/view/?no=20261124104420",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-24T02:56:40Z"
-        },
-        {
-          "key": "8e8587cbb4967dad",
-          "title": "삼성전자 DS 인사 키워드는 '성과주의'…HBM4 개발·양산 주역 승진",
-          "url": "https://www.inews24.com/view/2029646",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-24T03:01:06Z"
-        },
-        {
-          "key": "cf2480c3a3f63ae2",
-          "title": "삼성전자 DX부문 임원 승진 3분의 1 급감…TV는 '광고'·미래는 '로봇' 방점",
-          "url": "https://zdnet.co.kr/view/?no=20261124112108",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-11-24T03:02:03Z"
-        },
-        {
-          "key": "22be566e34c8686a",
-          "title": "Samsung cuts executive promotions by 19%, favors chip division",
-          "url": "https://www.digitimes.com/news/a20261124VL212/samsung-hbm-development-business-sales.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-11-24T03:15:02Z"
-        },
-        {
-          "key": "8419eb48a7f72749",
-          "title": "[2027 삼성전자 인사]HBM 성과 보상·파운드리 인재 중용…로봇·AI 전진 배치",
-          "url": "https://www.etnews.com/20261124000316",
-          "source": "전자신문",
-          "lang": "ko",
-          "published_at": "2026-11-24T04:36:52Z"
-        },
-        {
-          "key": "cdb94e244beb8c62",
-          "title": "[2027 삼성전자 인사] HBM4 주역 전면에…반도체 승진 절반 넘었다",
-          "url": "https://www.etnews.com/20261124000378",
-          "source": "전자신문",
-          "lang": "ko",
-          "published_at": "2026-11-24T05:38:16Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 5
     },
     {
       "id": "c20261124-1535",
@@ -70789,319 +71236,6 @@
         }
       ],
       "importance_raw": 3,
-      "type_checked": true
-    },
-    {
-      "id": "c20261026-0108",
-      "headline": "중소기업, 3분기 수출 역대 최대 기록",
-      "summary": [
-        "2026년 3분기 중소기업 수출액이 K-뷰티와 반도체 덕분에 역대 최고치를 기록했다.",
-        "중소벤처기업부에 따르면, 3분기 수출액은 전년 동기 대비 8% 증가한 수치다.",
-        "이 성장은 글로벌 시장에서 한국 제품의 경쟁력이 더욱 강화되고 있음을 시사한다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "K-뷰티",
-        "반도체",
-        "중소기업",
-        "수출",
-        "3분기 실적"
-      ],
-      "companies": [
-        "중소벤처기업부"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "중소기업"
-      ],
-      "importance": 3,
-      "importance_reason": "실적 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T03:10:36Z",
-      "updated_at": "2026-10-26T03:10:36Z",
-      "articles": [
-        {
-          "key": "29d66152221ac3e8",
-          "title": "中企수출 역대 3분기 최고… \"K-뷰티, 온·오프 수출 쌍끌이\"",
-          "url": "https://www.dt.co.kr/article/12091224",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-26T03:10:36Z"
-        }
-      ],
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0107",
-      "headline": "해외 반도체 테스트 업체, 2억 1500만 달러 투자",
-      "summary": [
-        "대만의 웨이퍼 테스트 공급업체인 Hermes Testing Solutions가 2억 1500만 달러를 투자하기로 했다.",
-        "이 자금은 첨단 칩 테스트 확장에 사용될 예정이며, 세부 사항은 추후 발표된다.",
-        "이번 투자는 세계 반도체 산업 경쟁력 강화에 기여할 것으로 예상된다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "반도체 테스트",
-        "투자",
-        "칩 테스트",
-        "대만",
-        "Hermes Testing Solutions"
-      ],
-      "companies": [
-        "Hermes Testing Solutions"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": true,
-      "parties": [
-        "Hermes Testing Solutions"
-      ],
-      "importance": 3,
-      "importance_reason": "설비 투자 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-26T02:58:19Z",
-      "updated_at": "2026-10-26T02:58:19Z",
-      "articles": [
-        {
-          "key": "3be5faad6a3ba161",
-          "title": "Taiwan wafer-testing supplier Hermes Testing Solutions commits more than US$215 million to advanced chip testing expansion",
-          "url": "https://www.digitimes.com/news/a20261023PD241/taiwan-testing-equipment-budget-investment.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-10-26T02:58:19Z"
-        }
-      ],
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0106",
-      "headline": "TSMC 3nm 수요 증가, 삼성 HBM 전환",
-      "summary": [
-        "TSMC의 3nm 공정에 대한 수요가 증가하고 있다.",
-        "삼성전자는 새로운 HBM 기술로의 전환을 추진 중이다.",
-        "이번 변화는 반도체 시장의 경쟁력에 큰 영향을 미칠 것으로 보인다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "TSMC",
-        "삼성전자",
-        "3nm",
-        "HBM"
-      ],
-      "companies": [
-        "TSMC",
-        "삼성전자"
-      ],
-      "event_type": "시장 전망·통계",
-      "confirmed": true,
-      "parties": [
-        "TSMC",
-        "삼성전자"
-      ],
-      "importance": 3,
-      "importance_reason": "시장 전망·통계 2점, 관심 기업(삼성전자) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-26T02:57:50Z",
-      "updated_at": "2026-10-26T02:57:50Z",
-      "articles": [
-        {
-          "key": "14f8b2e213642758",
-          "title": "Podcast highlights: TSMC's 3nm demand story, Samsung HBM shift, and A14 ramp",
-          "url": "https://www.digitimes.com/news/a20261023PD235/tsmc-3nm-demand-samsung-hbm.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-10-26T02:57:50Z"
-        }
-      ],
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0144",
-      "headline": "삼성전자, HBM5 전시로 차세대 기술 공개",
-      "summary": [
-        "삼성전자가 26일부터 30일까지 '2026 삼성기술전'에서 HBM5를 포함한 차세대 기술을 전시한다.",
-        "이 행사에서는 8세대 고대역폭메모리 기술과 다양한 반도체 혁신이 공개될 예정이다.",
-        "삼성의 기술 전시가 반도체 산업의 기술 경쟁력을 강화하는 데 의미가 크다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "HBM5",
-        "삼성기술전",
-        "차세대 반도체",
-        "고대역폭메모리"
-      ],
-      "companies": [
-        "삼성전자"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "삼성전자"
-      ],
-      "importance": 3,
-      "importance_reason": "업계 일반 2점, 관심 기업(삼성전자) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T02:09:31Z",
-      "updated_at": "2026-10-26T02:09:31Z",
-      "articles": [
-        {
-          "key": "e6cbbf878499442f",
-          "title": "삼성전자, '삼성기술전'서 HBM5 전시…전영현 등 DS 경영진 참석",
-          "url": "https://www.inews24.com/view/2018816",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-26T02:09:31Z"
-        }
-      ],
-      "importance_raw": 3,
-      "type_checked": true
-    },
-    {
-      "id": "c20261026-0105",
-      "headline": "코트라 인베스트 코리아, 유엔 투자 진흥상 수상",
-      "summary": [
-        "인베스트 코리아가 유엔 투자 진흥상을 수상했다.",
-        "수상은 지난 25일 카타르 도하에서 진행되었으며, 반도체 공급망 강화에 기여한 공로가 인정되었다.",
-        "이는 한국의 반도체 산업에 긍정적인 영향을 미치고, 글로벌 투자 유치에 도움이 될 전망이다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "유엔 투자 진흥상",
-        "반도체 공급망",
-        "인베스트 코리아"
-      ],
-      "companies": [
-        "대한무역투자진흥공사"
-      ],
-      "event_type": "홍보·수상",
-      "confirmed": true,
-      "parties": [
-        "인베스트 코리아"
-      ],
-      "importance": 1,
-      "importance_reason": "홍보·수상 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T02:01:31Z",
-      "updated_at": "2026-10-26T02:01:31Z",
-      "articles": [
-        {
-          "key": "fea19a1ece0b2fbc",
-          "title": "코트라 인베스트 코리아, ‘유엔 투자 진흥상’ 수상…반도체 공급망 강화 공로",
-          "url": "https://www.dt.co.kr/article/12091210",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-26T02:01:31Z"
-        }
-      ],
-      "importance_raw": 1
-    },
-    {
-      "id": "c20261026-0104",
-      "headline": "OLED, 프리미엄 노트북 시장 장악 예고",
-      "summary": [
-        "미니 LED 패널 출하량이 2026년에 38% 감소하며, 2027년까지 75% 줄어들 것으로 예상된다.",
-        "반면 OLED 패널 출하량은 2026년에 50% 증가하고, 2027년에도 24%의 성장을 기록할 전망이다.",
-        "특히 애플의 차세대 맥북 프로가 미니 LED에서 OLED로 전환되며, 삼성디스플레이와의 독점 계약으로 생산될 예정이다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "OLED",
-        "미니LED",
-        "애플",
-        "삼성디스플레이",
-        "맥북 프로",
-        "패널 출하량"
-      ],
-      "companies": [
-        "삼성디스플레이",
-        "애플"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "삼성디스플레이",
-        "애플"
-      ],
-      "importance": 4,
-      "importance_reason": "실적 3점, 관심 기업(삼성디스플레이) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-26T02:00:05Z",
-      "updated_at": "2026-10-26T02:00:05Z",
-      "articles": [
-        {
-          "key": "c752d1ff615d4a85",
-          "title": "Counterpoint: laptop mini-LED shipments to drop 75% within two years, as OLED takes over the premium laptop market",
-          "url": "https://www.oled-info.com/counterpoint-laptop-mini-led-shipments-drop-75-within-two-years-oled-takes-over",
-          "source": "OLED-info",
-          "lang": "en",
-          "published_at": "2026-10-26T02:00:05Z"
-        }
-      ],
-      "importance_raw": 4
-    },
-    {
-      "id": "c20261026-0143",
-      "headline": "삼성·SK하이닉스, 중국 낸드 적층 고도화 추진",
-      "summary": [
-        "삼성전자와 SK하이닉스가 중국 3D 낸드플래시의 적층 단수를 높이고 있다.",
-        "삼성은 시안 공장에서 200단에서 286단으로, SK는 다롄 공장에서 최대 240단의 생산 승인을 받고 있다.",
-        "이 조치는 AI 수요 증가에 대응하고 중국 YMTC와의 경쟁력을 강화하기 위한 전략이다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "3D 낸드",
-        "AI 수요",
-        "중국 YMTC",
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "companies": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "event_type": "설비 투자",
-      "confirmed": true,
-      "parties": [
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "importance": 4,
-      "importance_reason": "설비 투자 3점, 관심 기업(SK하이닉스, 삼성전자) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T02:00:00Z",
-      "updated_at": "2026-10-26T02:00:00Z",
-      "articles": [
-        {
-          "key": "5ae1cb36205a61a3",
-          "title": "삼성·SK하이닉스, 中 낸드 고층화 추진…YMTC 추격 견제",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408732",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-26T02:00:00Z"
-        }
-      ],
-      "importance_raw": 4,
       "type_checked": true
     }
   ]
