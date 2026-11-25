@@ -1815,6 +1815,132 @@
       ],
       "importance_raw": 2,
       "type_checked": true
+    },
+    {
+      "id": "c20261026-0121",
+      "headline": "광주권 반도체 마이스터고 설립 추진",
+      "summary": [
+        "전라남도 교육청이 광주권에 반도체 마이스터고를 설립할 계획을 밝혔다.",
+        "해당 학교는 반도체 인재 양성을 목표로 하며, 교육과정 개발을 위한 연구가 진행될 예정이다.",
+        "이 설립은 지역 반도체 산업의 인력을 지원하고 경쟁력 강화를 도모할 것으로 기대된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체",
+        "마이스터고",
+        "인재양성"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "전라남도 교육청"
+      ],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T08:33:45Z",
+      "updated_at": "2026-10-26T08:33:45Z",
+      "articles": [
+        {
+          "key": "b04216ec1a58a0e7",
+          "title": "전남광주교육청, 광주권 반도체 마이스터고 설립 추진",
+          "url": "https://www.yna.co.kr/view/AKR20261026122900054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-26T08:33:45Z"
+        }
+      ],
+      "importance_raw": 2,
+      "type_checked": true
+    },
+    {
+      "id": "c20261026-0147",
+      "headline": "SK하이닉스, 40조원 자사주 5일 소각 예정",
+      "summary": [
+        "SK하이닉스는 40조원 규모의 자사주 매입을 완료하고, 다음 달 5일 전량을 소각할 계획이다.",
+        "정정 공시에 따르면 소각되는 주식은 총 2,369만 3,272주로, 이는 회사의 주가 안정성을 높이기 위한 조치이다.",
+        "이번 자사주 소각은 주주가치를 환원하고 시장 신뢰를 강화하는 데 중요한 의미를 갖는다."
+      ],
+      "category": "기타",
+      "tags": [
+        "자사주 매입",
+        "주가 안정",
+        "주주 환원",
+        "SK하이닉스",
+        "소각"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T08:12:26Z",
+      "updated_at": "2026-10-26T08:12:26Z",
+      "articles": [
+        {
+          "key": "e40f027f5751229b",
+          "title": "SK하이닉스, 자사주 40조원어치 내달 5일 전량 소각",
+          "url": "https://www.inews24.com/view/2019102",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-10-26T08:12:26Z"
+        }
+      ],
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261026-0120",
+      "headline": "국회 AI 미래전환 출범, 여야 35인 참여",
+      "summary": [
+        "임문영 의원과 여야 35인이 '국회 AI 미래전환'을 출범시켰다.",
+        "이들은 산업 혁신과 사회적 격차 해소를 위한 입법을 추진할 예정이다.",
+        "이번 출범은 AI 산업의 발전을 위한 중요한 기틀을 마련할 것으로 기대된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI",
+        "법안",
+        "정치",
+        "산업혁신",
+        "사회격차"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T07:51:45Z",
+      "updated_at": "2026-10-26T07:51:45Z",
+      "articles": [
+        {
+          "key": "a70c58a91d19701a",
+          "title": "임문영 의원, 여야 35인과 '국회 AI 미래전환' 출범…산업AX·사회격차 해소 입법 추진",
+          "url": "https://zdnet.co.kr/view/?no=20261026162009",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-26T07:51:45Z"
+        }
+      ],
+      "importance_raw": 2,
+      "type_checked": true
     }
   ]
 }

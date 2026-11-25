@@ -1,40 +1,130 @@
 {
   "version": 1,
-  "updated_at": "2026-11-25T07:41:39Z",
+  "updated_at": "2026-11-25T09:28:50Z",
   "issues": [
     {
-      "id": "c20261125-1613",
-      "headline": "삼성디스플레이, ams오스람 지분 9.1% 인수 추진",
+      "id": "c20261125-1625",
+      "headline": "SK하이닉스, 100조 규모 주주환원 계획 재확인",
       "summary": [
-        "삼성디스플레이가 약 2억1000만 유로를 투자해 ams오스람 지분 9.1%를 확보하는 투자계약을 체결했다.",
-        "신규 발행 주식 998만4439주를 취득하며, 관련 기관 심의와 승인을 거쳐 내년 초 거래가 마무리될 예정이다.",
-        "거래가 완료되면 삼성디스플레이가 ams오스람 최대주주가 되며, 마이크로 LED 기술 확보와 공동 개발이 추진된다."
+        "반도체주가 AI 투자 회의론과 메모리 수요 둔화 우려로 약세를 보이는 가운데 SK하이닉스가 나섰다.",
+        "SK하이닉스는 100조원 규모의 주주환원 계획을 다시 밝히며 주주가치 제고 의지를 강조했다.",
+        "실적 성장과 재무구조 개선을 바탕으로 한 발표라 업황 우려 속에서도 주주 신뢰 유지에 의미가 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "주주환원",
+        "100조원",
+        "메모리 수요",
+        "AI 투자 회의론",
+        "재무구조 개선"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "재무·주주",
+      "confirmed": true,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T09:03:05Z",
+      "updated_at": "2026-11-25T09:03:05Z",
+      "articles": [
+        {
+          "key": "507fe4344856dea7",
+          "title": "반도체주 급락 속…SK하이닉스, '100조 주주환원' 재확인",
+          "url": "https://www.inews24.com/view/2030461",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-25T09:03:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261125-1624",
+      "headline": "윈본드, 엣지AI 겨냥 NOR 플래시 인증·DRAM 확대",
+      "summary": [
+        "윈본드는 3D 적층 메모리 구조를 더 많은 설계에 적용하기 위해 맞춤화를 줄이는 전략을 내세웠다.",
+        "기사에 따르면 16나노 DRAM 제품군을 넓히고 보안 기능을 추가하며 NOR 플래시 인증도 진행됐다.",
+        "엣지AI 기기 시장에서 윈본드의 메모리 적용 범위가 넓어질 가능성을 보여준다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "NOR 플래시",
+        "16나노 DRAM",
+        "3D 적층 메모리",
+        "엣지AI",
+        "보안"
+      ],
+      "companies": [
+        "윈본드"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "윈본드"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-25T08:59:51Z",
+      "updated_at": "2026-11-25T08:59:51Z",
+      "articles": [
+        {
+          "key": "c5ea8b770cb7130c",
+          "title": "Winbond Widens Edge AI Reach, Certifies NOR Flash",
+          "url": "https://www.eetimes.com/winbond-widens-edge-ai-reach-certifies-nor-flash/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-25T08:59:51Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261125-1613",
+      "headline": "삼성디스플레이, ams 오스람 최대주주로 마이크로 LED 협력 강화",
+      "summary": [
+        "삼성디스플레이가 ams 오스람 신주 9,984,439주를 약 2억1000만 유로에 인수해 지분 9.1%를 확보하고 최대주주가 된다.",
+        "거래는 규제 당국 검토와 승인을 거쳐 내년 초 완료될 예정이며, 양사는 초미세 마이크로 LED 기술 개발에 협력한다.",
+        "이번 제휴로 디스플레이용 마이크로 LED 상용화 속도가 빨라지며 차세대 디스플레이 기술 경쟁에 영향을 줄 것으로 보인다."
       ],
       "category": "디스플레이",
       "tags": [
         "마이크로 LED",
         "지분 투자",
-        "전략적 파트너십",
+        "광반도체",
         "차세대 디스플레이"
       ],
       "companies": [
         "삼성디스플레이",
-        "ams오스람"
+        "ams 오스람"
       ],
       "event_type": "인수합병",
       "confirmed": true,
       "parties": [
         "삼성디스플레이",
-        "ams오스람"
+        "ams 오스람"
       ],
       "importance": 4,
-      "importance_reason": "인수합병 2점, 관심 기업(삼성디스플레이) +1, 매체 6곳 보도 +1 → 4점",
+      "importance_reason": "인수합병 2점, 관심 기업(삼성디스플레이) +1, 매체 7곳 보도 +1 → 4점",
       "status": "summarized",
       "needs_summary": false,
       "attempts": 0,
       "region": "both",
       "first_seen": "2026-11-25T06:39:45Z",
-      "updated_at": "2026-11-25T07:23:57Z",
+      "updated_at": "2026-11-25T08:50:19Z",
       "articles": [
         {
           "key": "c46cf091bc998391",
@@ -83,10 +173,359 @@
           "source": "테크월드뉴스",
           "lang": "ko",
           "published_at": "2026-11-25T07:23:57Z"
+        },
+        {
+          "key": "3f2e87181c5a2bc8",
+          "title": "Samsung Display to become ams Osram’s largest shareholder",
+          "url": "https://www.koreaherald.com/article/10949386",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-25T08:43:11Z"
+        },
+        {
+          "key": "33182d30cd5b723f",
+          "title": "\"ams 오스람 최대주주로\"⋯삼성D, 마이크로 LED 주도권 노린다",
+          "url": "https://www.inews24.com/view/2030452",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-25T08:50:19Z"
         }
       ],
       "type_checked": true,
       "importance_raw": 4
+    },
+    {
+      "id": "c20261125-1622",
+      "headline": "팹리스협회, 한국AI반도체팹리스산업협회로 명칭 변경",
+      "summary": [
+        "한국팹리스산업협회가 '한국AI반도체팹리스산업협회(KAISA)'로 명칭을 바꾸고 절차를 마쳤다.",
+        "협회는 25일 판교에서 K-팹리스 테크포럼과 제4회 반도체팹리스인의 날 기념식을 열고 유공자 19점을 표창했다.",
+        "AI·SW 융합 생태계 지원을 강화하면서 팹리스 업계의 AI 전환 확산을 뒷받침할 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "팹리스",
+        "AI반도체",
+        "AI 전환(AX)",
+        "SW 융합",
+        "명칭 변경"
+      ],
+      "companies": [
+        "한국AI반도체팹리스산업협회",
+        "LG전자",
+        "딥엑스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "한국AI반도체팹리스산업협회"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 매체 3곳 보도 +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T08:30:00Z",
+      "updated_at": "2026-11-25T08:49:41Z",
+      "articles": [
+        {
+          "key": "5f0b04509e5c9d25",
+          "title": "팹리스협회 'AI반도체팹리스산업협회'로 개명",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65887",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-25T08:30:00Z"
+        },
+        {
+          "key": "92be7fab84d3fbd5",
+          "title": "한국팹리스산업협회, '한국AI반도체팹리스산업협회'로 명칭 변경",
+          "url": "https://zdnet.co.kr/view/?no=20261125163504",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-25T08:30:01Z"
+        },
+        {
+          "key": "dc5ad43b5f5b2c57",
+          "title": "한국팹리스산업협회, '한국AI반도체팹리스산업협회'로 명칭 변경",
+          "url": "https://www.inews24.com/view/2030446",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-25T08:49:41Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261125-1623",
+      "headline": "SK하이닉스, 3D D램 4~5년 내 양산 목표 개발 중",
+      "summary": [
+        "SK하이닉스 최강식 DE가 서울대 AI반도체 포럼에서 3D D램 개발 상황을 밝혔다.",
+        "첫 제품은 메모리 셀을 약 100층 쌓은 형태로 시작될 것이라고 설명했고, 2031년께 상용화를 전망했다.",
+        "현재 10나노급 D램과 비슷한 집적도를 내려면 약 75층이 필요하다는 점에서 차세대 D램 구조 전환의 방향을 보여준다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "3D D램",
+        "셀 적층",
+        "10나노급 D램",
+        "차세대 메모리"
+      ],
+      "companies": [
+        "SK하이닉스"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "SK하이닉스"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점, 관심 기업(SK하이닉스) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T08:44:52Z",
+      "updated_at": "2026-11-25T08:44:52Z",
+      "articles": [
+        {
+          "key": "87acb87023bc0b29",
+          "title": "SK하이닉스 \"3D D램 첫 제품은 100층부터, 4~5년 내 양산 목표\"",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65900",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-25T08:44:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261123-1484",
+      "headline": "내년 낸드 가격 하락 전망, 메모리 성장 둔화 우려",
+      "summary": [
+        "내년 D램 공급난은 이어지지만 가격 상승 폭은 줄어들 것이라는 전망이 나왔다.",
+        "낸드플래시는 공급 확대로 가격이 하락할 것이라는 관측이 제기됐다.",
+        "메모리 시장의 성장세가 둔화될 수 있어 관련 기업의 실적 흐름을 주시할 필요가 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "낸드플래시",
+        "D램",
+        "메모리 가격",
+        "공급 확대"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-23T10:08:05Z",
+      "updated_at": "2026-11-25T08:40:27Z",
+      "articles": [
+        {
+          "key": "870f6dfae6f5888c",
+          "title": "[기획] 수출 1조달러 1등 공신 낸드… \"내년엔 떨어진다\"",
+          "url": "https://www.dt.co.kr/article/12096801",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-23T10:08:05Z"
+        },
+        {
+          "key": "de8d23cc87df9309",
+          "title": "\"내년부터 낸드 가격 하락…메모리 시장 성장세 둔화\"",
+          "url": "https://www.yna.co.kr/view/AKR20261125153800003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-25T08:40:27Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261125-1621",
+      "headline": "전남광주 반도체 클러스터 건설인력 주거 대책 검토",
+      "summary": [
+        "전남광주통합특별시가 반도체 클러스터 조성에 따라 유입될 대규모 건설인력의 주거 대책을 마련하기로 했다.",
+        "기사에 따르면 모듈러 주택 도입도 검토 중이며 구체적인 규모와 일정은 확인되지 않았다.",
+        "대규모 건설인력 주거 문제 해결은 반도체 클러스터 공사 차질을 막는 핵심 과제가 될 전망이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체 클러스터",
+        "건설인력",
+        "모듈러 주택",
+        "전남광주통합특별시"
+      ],
+      "companies": [],
+      "event_type": "지역·인프라",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "지역·인프라 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T08:22:40Z",
+      "updated_at": "2026-11-25T08:22:40Z",
+      "articles": [
+        {
+          "key": "9727357a8e1bf326",
+          "title": "전남광주 반도체 건설인력 주거대책 마련…모듈러 주택도 검토",
+          "url": "https://www.yna.co.kr/view/AKR20261125157200054",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-25T08:22:40Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261125-1620",
+      "headline": "UNIST, 2차원 반도체 전류 잡음 100분의 1로 줄인 트랜지스터 개발",
+      "summary": [
+        "UNIST 김명수 교수팀은 윤희인 교수팀과 함께 새로운 절연막을 적용한 MoS2 트랜지스터를 개발했다.",
+        "이 소자는 기존 대비 전류 잡음을 최대 100분의 1 수준으로 낮췄다는 점이 기사에서 확인된다.",
+        "차세대 2차원 반도체의 신뢰성을 높이는 연구 성과로, 상용화 단계의 공정 적용은 기사에 언급되지 않았다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "2차원 반도체",
+        "MoS2",
+        "트랜지스터",
+        "절연막",
+        "전류 잡음"
+      ],
+      "companies": [
+        "UNIST"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "UNIST"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T08:06:16Z",
+      "updated_at": "2026-11-25T08:06:16Z",
+      "articles": [
+        {
+          "key": "a891e3176d8c4ed1",
+          "title": "차세대 2차원 반도체 소자 개발 外 [과학게시판]",
+          "url": "https://www.inews24.com/view/2030422",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-25T08:06:16Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261125-1619",
+      "headline": "ISSCC서 화웨이·CXMT 차세대 메모리 논문 맞불",
+      "summary": [
+        "삼성전자·SK하이닉스가 내년 2월 ISSCC에서 HBM4E와 수직 게이트 D램 연구 성과를 발표할 예정이다.",
+        "화웨이와 CXMT도 같은 세션에서 HBM과 차세대 D램 구조 관련 논문을 발표한다.",
+        "학계는 중국이 HBM과 차세대 D램 구조에서도 한국을 추격하고 있다고 평가해 경쟁이 가열될 전망이다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM4E",
+        "수직 게이트 D램",
+        "ISSCC",
+        "화웨이 HBM",
+        "CXMT"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "화웨이",
+        "CXMT"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스",
+        "화웨이",
+        "CXMT"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점, 관심 기업(SK하이닉스, 삼성전자) +1, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T07:46:17Z",
+      "updated_at": "2026-11-25T07:46:17Z",
+      "articles": [
+        {
+          "key": "13b95a73d6d8581c",
+          "title": "화웨이 HBM, CXMT는 수직 게이트 D램…ISSCC서 삼성·SK에 도전장",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65899",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-25T07:46:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261125-1618",
+      "headline": "후지쯔 2나노 Monaka 서버칩, 초기 수요 강세",
+      "summary": [
+        "후지쯔의 2나노 Monaka 서버용 칩에 대한 초기 수요가 강하게 나타나고 있다고 보도됐다.",
+        "기사 본문은 출처 표기만 있어 구체적인 물량이나 고객사, 일정은 확인되지 않는다.",
+        "확인된 정보만 보면 차세대 공정 기반 서버칩의 시장 반응을 보여주는 소식이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "2나노",
+        "Monaka",
+        "서버칩",
+        "초기 수요"
+      ],
+      "companies": [
+        "후지쯔"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-25T07:15:00Z",
+      "updated_at": "2026-11-25T07:15:00Z",
+      "articles": [
+        {
+          "key": "71861c2acd0a9965",
+          "title": "Fujitsu's 2nm Monaka server chip draws strong early demand",
+          "url": "https://www.digitimes.com/news/a20261125PD220/fujitsu-demand-processor-sales-cpu.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-25T07:15:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
     },
     {
       "id": "c20261125-1583",
@@ -6411,46 +6850,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261123-1484",
-      "headline": "낸드 가격 내년 하락 전망, 수출 1등 공신 흔들",
-      "summary": [
-        "한국 수출 1조달러 돌파를 이끈 낸드플래시 가격이 내년부터 떨어질 것이라는 전망이 나왔다.",
-        "기사는 반도체 가격 하락 시 한국 경제가 2000년 닷컴버블 때와 유사한 충격을 받을 수 있다고 짚었다.",
-        "메모리 가격 하락은 반도체 수출 의존도가 높은 한국 산업 전반에 부담으로 작용할 전망이다."
-      ],
-      "category": "실적/투자/시장",
-      "tags": [
-        "낸드플래시",
-        "메모리 가격",
-        "수출 1조달러",
-        "반도체 수출"
-      ],
-      "companies": [],
-      "event_type": "시장 전망·통계",
-      "confirmed": false,
-      "parties": [],
-      "importance": 1,
-      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-23T10:08:05Z",
-      "updated_at": "2026-11-23T10:08:05Z",
-      "articles": [
-        {
-          "key": "870f6dfae6f5888c",
-          "title": "[기획] 수출 1조달러 1등 공신 낸드… \"내년엔 떨어진다\"",
-          "url": "https://www.dt.co.kr/article/12096801",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-23T10:08:05Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
     },
     {
       "id": "c20261123-1464",
@@ -71928,132 +72327,6 @@
         }
       ],
       "importance_raw": 4
-    },
-    {
-      "id": "c20261026-0121",
-      "headline": "광주권 반도체 마이스터고 설립 추진",
-      "summary": [
-        "전라남도 교육청이 광주권에 반도체 마이스터고를 설립할 계획을 밝혔다.",
-        "해당 학교는 반도체 인재 양성을 목표로 하며, 교육과정 개발을 위한 연구가 진행될 예정이다.",
-        "이 설립은 지역 반도체 산업의 인력을 지원하고 경쟁력 강화를 도모할 것으로 기대된다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "반도체",
-        "마이스터고",
-        "인재양성"
-      ],
-      "companies": [],
-      "event_type": "지역·인프라",
-      "confirmed": true,
-      "parties": [
-        "전라남도 교육청"
-      ],
-      "importance": 2,
-      "importance_reason": "지역·인프라 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T08:33:45Z",
-      "updated_at": "2026-10-26T08:33:45Z",
-      "articles": [
-        {
-          "key": "b04216ec1a58a0e7",
-          "title": "전남광주교육청, 광주권 반도체 마이스터고 설립 추진",
-          "url": "https://www.yna.co.kr/view/AKR20261026122900054",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-26T08:33:45Z"
-        }
-      ],
-      "importance_raw": 2,
-      "type_checked": true
-    },
-    {
-      "id": "c20261026-0147",
-      "headline": "SK하이닉스, 40조원 자사주 5일 소각 예정",
-      "summary": [
-        "SK하이닉스는 40조원 규모의 자사주 매입을 완료하고, 다음 달 5일 전량을 소각할 계획이다.",
-        "정정 공시에 따르면 소각되는 주식은 총 2,369만 3,272주로, 이는 회사의 주가 안정성을 높이기 위한 조치이다.",
-        "이번 자사주 소각은 주주가치를 환원하고 시장 신뢰를 강화하는 데 중요한 의미를 갖는다."
-      ],
-      "category": "기타",
-      "tags": [
-        "자사주 매입",
-        "주가 안정",
-        "주주 환원",
-        "SK하이닉스",
-        "소각"
-      ],
-      "companies": [
-        "SK하이닉스"
-      ],
-      "event_type": "재무·주주",
-      "confirmed": true,
-      "parties": [
-        "SK하이닉스"
-      ],
-      "importance": 3,
-      "importance_reason": "재무·주주 2점, 관심 기업(SK하이닉스) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T08:12:26Z",
-      "updated_at": "2026-10-26T08:12:26Z",
-      "articles": [
-        {
-          "key": "e40f027f5751229b",
-          "title": "SK하이닉스, 자사주 40조원어치 내달 5일 전량 소각",
-          "url": "https://www.inews24.com/view/2019102",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-10-26T08:12:26Z"
-        }
-      ],
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0120",
-      "headline": "국회 AI 미래전환 출범, 여야 35인 참여",
-      "summary": [
-        "임문영 의원과 여야 35인이 '국회 AI 미래전환'을 출범시켰다.",
-        "이들은 산업 혁신과 사회적 격차 해소를 위한 입법을 추진할 예정이다.",
-        "이번 출범은 AI 산업의 발전을 위한 중요한 기틀을 마련할 것으로 기대된다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "AI",
-        "법안",
-        "정치",
-        "산업혁신",
-        "사회격차"
-      ],
-      "companies": [],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T07:51:45Z",
-      "updated_at": "2026-10-26T07:51:45Z",
-      "articles": [
-        {
-          "key": "a70c58a91d19701a",
-          "title": "임문영 의원, 여야 35인과 '국회 AI 미래전환' 출범…산업AX·사회격차 해소 입법 추진",
-          "url": "https://zdnet.co.kr/view/?no=20261026162009",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-10-26T07:51:45Z"
-        }
-      ],
-      "importance_raw": 2,
-      "type_checked": true
     }
   ]
 }
