@@ -1,7 +1,381 @@
 {
   "version": 1,
-  "updated_at": "2026-11-25T11:12:14Z",
+  "updated_at": "2026-11-25T20:29:30Z",
   "issues": [
+    {
+      "id": "c20261125-1634",
+      "headline": "서울반도체, 패키지 없는 WICOP Pixel로 LCD 화질 혁신",
+      "summary": [
+        "서울반도체가 자회사 서울바이오시스 개발 WICOP Pixel의 본격 양산과 TV 업체 공급 확대를 발표했다.",
+        "RGB 칩을 수십 µm 피치로 배열해 DCI-P3 100%를 구현하며 OLED 대비 3배 이상 밝기를 낸다고 밝혔다.",
+        "기존 백라이트 설비를 전환해 설비 투자를 최소화하고 특허 라이선싱으로 로열티 수익을 확보하려는 전략이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "WICOP Pixel",
+        "RGB 백라이트",
+        "LCD",
+        "DCI-P3",
+        "특허 라이선싱"
+      ],
+      "companies": [
+        "서울반도체",
+        "서울바이오시스"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "서울반도체",
+        "서울바이오시스"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-25T20:27:00Z",
+      "updated_at": "2026-11-25T20:27:00Z",
+      "articles": [
+        {
+          "key": "5b3a116265e1d202",
+          "title": "Seoul Semiconductor Enables Beyond-OLED Picture Quality with LCD",
+          "url": "https://www.semiconductor-digest.com/seoul-semiconductor-enables-beyond-oled-picture-quality-with-lcd/?utm_source=rss&utm_medium=rss&utm_campaign=seoul-semiconductor-enables-beyond-oled-picture-quality-with-lcd",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-25T20:27:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261125-1633",
+      "headline": "8.6세대 OLED, 아이패드 프로 패널 원가 39% 절감 전망",
+      "summary": [
+        "카운터포인트리서치가 태블릿·노트북·모니터 OLED·LCD 제조원가 보고서를 발표했다.",
+        "2026년 기준 11.1인치 아이패드 프로 OLED 패널은 8.6세대 라인이 6세대 대비 약 39% 저렴하다고 분석됐다.",
+        "6세대 약 241달러, 8.6세대 약 147달러로 추정되며 감가상각·터치 일체형 공정 효과가 큰 차이를 낸다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "8.6세대 OLED",
+        "아이패드 프로",
+        "OLED 원가",
+        "온셀 터치",
+        "LTPO",
+        "산화물 백플레인"
+      ],
+      "companies": [
+        "카운터포인트리서치",
+        "애플",
+        "삼성디스플레이"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "카운터포인트리서치"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-25T14:00:09Z",
+      "updated_at": "2026-11-25T14:00:09Z",
+      "articles": [
+        {
+          "key": "e68429de82c35a4d",
+          "title": "Counterpoint: an 8.6-Gen line cuts the cost of an 11.1\" iPad Pro OLED panel by 39% compared to a 6-Gen line",
+          "url": "https://www.oled-info.com/counterpoint-86-gen-line-cuts-cost-ipad-pro-oled-panel-39-compared-6-gen-line",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-25T14:00:09Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261125-1632",
+      "headline": "AMD, AI 시대 D램 부족에 낸드 플래시 활용 전략 제시",
+      "summary": [
+        "AMD가 AI 중심으로 급증한 메모리 수요 속에서 D램 공급난에 대응하는 방안을 내놓았다.",
+        "기사에 따르면 공급 제약으로 메모리 가격이 사상 최고 수준까지 올랐으며, 공급 확대가 수요를 따라잡기 어렵다는 전망이 나왔다.",
+        "메모리 부족이 장기화되면서 AI 서버 등 고성능 시스템의 대안 구조에 관심이 커질 것으로 보인다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "D램",
+        "낸드플래시",
+        "AI 메모리",
+        "메모리 가격",
+        "공급 부족"
+      ],
+      "companies": [
+        "AMD"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "AMD"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-25T14:00:00Z",
+      "updated_at": "2026-11-25T14:00:00Z",
+      "articles": [
+        {
+          "key": "9949223886f2e24b",
+          "title": "AMD Tackles DRAM Shortages with AI and Flash Storage",
+          "url": "https://www.eetimes.com/amd-tackles-dram-shortages-with-ai-and-flash-storage/",
+          "source": "EE Times",
+          "lang": "en",
+          "published_at": "2026-11-25T14:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261125-1631",
+      "headline": "내년 낸드 가격 하락 전망, D램 상승 폭 둔화",
+      "summary": [
+        "내년 낸드플래시는 공급과잉으로 가격이 떨어질 것으로 전망됐다.",
+        "D램은 공급 부족이 이어지지만 가격 상승 폭은 줄어들 것으로 예상된다.",
+        "메모리 가격 흐름 변화는 삼성전자와 SK하이닉스의 실적 전망에 영향을 줄 수 있다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "낸드플래시",
+        "D램",
+        "메모리 가격",
+        "공급과잉"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T13:55:22Z",
+      "updated_at": "2026-11-25T13:55:22Z",
+      "articles": [
+        {
+          "key": "38216c23f404f0e3",
+          "title": "삼성·SK, 내년 낸드값 하락 전망…D램 상승 폭도 줄어",
+          "url": "https://www.inews24.com/view/2030509",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-25T13:55:22Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261125-1630",
+      "headline": "중국 메모리 산업 2026년 현황 분석",
+      "summary": [
+        "Tom's Hardware가 2026년 중국 메모리 산업 현황을 다룬 기사를 실었다.",
+        "다만 제공된 기사 본문은 필자 소개문뿐이라 구체적 수치나 사건 내용을 확인할 수 없다.",
+        "따라서 산업적 의미는 본문 확인 전까지 판단하기 어렵다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "중국 메모리",
+        "메모리 산업",
+        "반도체 현황"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": false,
+      "parties": [],
+      "importance": 1,
+      "importance_reason": "시장 전망·통계 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-25T13:00:00Z",
+      "updated_at": "2026-11-25T13:00:00Z",
+      "articles": [
+        {
+          "key": "55913fe44df3b8e2",
+          "title": "The state of China's memory industry in 2026",
+          "url": "https://www.tomshardware.com/tech-industry/semiconductors/the-state-of-chinas-memory-industry-in-2026-cxmt-and-ymtc-are-booming-but-hbm-remains-a-headache",
+          "source": "Tom's Hardware",
+          "lang": "en",
+          "published_at": "2026-11-25T13:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261125-1629",
+      "headline": "딥엑스, 엔비디아 로봇 SW 호환 시험 통과·인텔과 협약",
+      "summary": [
+        "딥엑스가 엔비디아 로봇 개발 소프트웨어와 자체 NPU의 호환성 시험을 마쳤다.",
+        "인텔과 기술협약을 체결했고 AMD와도 협력 방안을 논의 중이라고 전해졌다.",
+        "국산 AI 반도체가 글로벌 로봇 생태계와 연동 범위를 넓히는 신호로 해석된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "NPU",
+        "로봇 SW 호환",
+        "기술협약",
+        "AI반도체"
+      ],
+      "companies": [
+        "딥엑스",
+        "엔비디아",
+        "인텔",
+        "AMD"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "딥엑스",
+        "인텔"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T12:06:52Z",
+      "updated_at": "2026-11-25T12:06:52Z",
+      "articles": [
+        {
+          "key": "0bfde07a65396954",
+          "title": "딥엑스 \"엔비디아 로봇 SW 호환 시험 통과…인텔·AMD와 협력 확대\"",
+          "url": "https://www.inews24.com/view/2030468",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-25T12:06:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261125-1628",
+      "headline": "화웨이 하이브리드 본딩 커스텀 HBM 논문 채택, 국내 업계 경계",
+      "summary": [
+        "화웨이가 하이브리드 본딩 기반 5단 WoW 커스텀 HBM 논문으로 ISSCC 2027 채택 소식을 알렸다.",
+        "미국 수출 규제로 선단 공정이 막히자 수직 적층 패키징으로 돌파구를 찾는 것으로 전해졌다.",
+        "국내 학계는 상용화와 양산 속도에서 삼성전자와 SK하이닉스가 여전히 앞선다고 평가했다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "하이브리드 본딩",
+        "커스텀 HBM",
+        "ISSCC 2027",
+        "수출규제",
+        "HBM4E"
+      ],
+      "companies": [
+        "화웨이",
+        "삼성전자",
+        "SK하이닉스",
+        "CXMT"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "화웨이",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "업계 일반 2점, 관심 기업(SK하이닉스, 삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T11:42:01Z",
+      "updated_at": "2026-11-25T11:42:01Z",
+      "articles": [
+        {
+          "key": "934e333926af5cd6",
+          "title": "화웨이, 하이브리드 본딩 '맞춤형 HBM' 개발…삼성·SK와 속도전",
+          "url": "https://zdnet.co.kr/view/?no=20261125203155",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-11-25T11:42:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261124-1539",
+      "headline": "BOE, 중국 비전옥스 인수 협상 검토 보도",
+      "summary": [
+        "중국 BOE가 AMOLED 업체 비전옥스 인수를 협상 중이라는 보도가 나왔다.",
+        "초기에는 생산라인 일부 매입을 검토했으나 현재는 회사 전체 인수로 논의가 확대된 상태다.",
+        "합병이 성사되면 중국 디스플레이 업계 재편과 OLED 공급 구도에 영향을 줄 수 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "AMOLED",
+        "비전옥스",
+        "인수합병",
+        "중국 디스플레이"
+      ],
+      "companies": [
+        "BOE",
+        "비전옥스"
+      ],
+      "event_type": "인수합병",
+      "confirmed": false,
+      "parties": [
+        "BOE",
+        "비전옥스"
+      ],
+      "importance": 1,
+      "importance_reason": "인수합병 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-24T06:17:35Z",
+      "updated_at": "2026-11-25T10:44:49Z",
+      "articles": [
+        {
+          "key": "06d9fdf09f4608ce",
+          "title": "中BOE, 비전옥스 인수 추진",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65798",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-24T06:17:35Z"
+        },
+        {
+          "key": "301e950906b69935",
+          "title": "BOE reportedly in talks to acquire Visionox",
+          "url": "https://www.oled-info.com/boe-reportedly-talks-acquire-visionox",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-25T10:44:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
     {
       "id": "c20261125-1627",
       "headline": "마이크론 대만 공장 노사갈등 장기화, D램 공급 변수",
@@ -4562,52 +4936,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261124-1539",
-      "headline": "BOE, 비전옥스 인수 논의 확대…12월 결정 전망",
-      "summary": [
-        "중국 BOE가 비전옥스 인수를 추진 중인 것으로 확인됐다.",
-        "당초 OLED 생산라인 한 곳만 인수하려 했으나 회사 전체 인수로 논의 범위를 넓혔다.",
-        "디스플레이 업계는 오는 12월 인수 범위가 구체적으로 결정될 것으로 보고 있다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "OLED",
-        "비전옥스",
-        "BOE",
-        "기업 인수"
-      ],
-      "companies": [
-        "BOE",
-        "비전옥스"
-      ],
-      "event_type": "인수합병",
-      "confirmed": false,
-      "parties": [
-        "BOE",
-        "비전옥스"
-      ],
-      "importance": 1,
-      "importance_reason": "인수합병 2점, 미확정 -1 → 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-11-24T06:17:35Z",
-      "updated_at": "2026-11-24T06:17:35Z",
-      "articles": [
-        {
-          "key": "06d9fdf09f4608ce",
-          "title": "中BOE, 비전옥스 인수 추진",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65798",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-24T06:17:35Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
     },
     {
       "id": "c20261125-1608",
@@ -71768,421 +72096,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261026-0098",
-      "headline": "다우인시스, 롤러블 자동차 OLED용 초박막 유리 개발",
-      "summary": [
-        "다우인시스는 롤러블 자동차 OLED 디스플레이용 초박막 유리(UTG)를 개발 중이다.",
-        "2027년 하반기부터 상용화를 목표로 하며, 주요 자동차 전자 기업과 협력하고 있다.",
-        "기존 플라스틱 필름 대비 유리의 내구성과 시각적 품질을 개선할 수 있어 기대된다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "롤러블 OLED",
-        "초박막 유리",
-        "상용화",
-        "자동차 디스플레이"
-      ],
-      "companies": [
-        "다우인시스"
-      ],
-      "event_type": "신제품·신기술·양산",
-      "confirmed": true,
-      "parties": [
-        "다우인시스"
-      ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-25T22:31:08Z",
-      "updated_at": "2026-10-26T19:00:07Z",
-      "articles": [
-        {
-          "key": "a106135e316c949d",
-          "title": "Dowoo Insys Develops UTG for Automotive Rollable OLED Displays",
-          "url": "https://www.thelec.net/news/articleView.html?idxno=14876",
-          "source": "디일렉",
-          "lang": "en",
-          "published_at": "2026-10-25T22:31:08Z"
-        },
-        {
-          "key": "464718ed38b52af0",
-          "title": "Dowoo Insys develops ultra-thin glass for rollable automotive OLED displays, aims for commercialization in 2027-2028",
-          "url": "https://www.oled-info.com/dowoo-insys-develops-ultra-thin-glass-rollable-automotive-oled-displays-aims",
-          "source": "OLED-info",
-          "lang": "en",
-          "published_at": "2026-10-26T19:00:07Z"
-        }
-      ],
-      "importance_raw": 5,
-      "type_checked": true
-    },
-    {
-      "id": "c20261026-0153",
-      "headline": "Cadence, 반도체 설계를 위한 Maestro AI 모델 출시",
-      "summary": [
-        "Cadence가 반도체 및 시스템 설계를 위한 Maestro AI 모델 포트폴리오를 발표했다.",
-        "이 모델은 강화 학습을 통합하여 효율성을 증가시키고 설계 시간을 단축시키는 데 초점을 맞춘다.",
-        "Maestro 기술은 고객에게 혁신을 지원하는 안전한 플랫폼을 제공하고, 복잡한 엔지니어링 작업에서 전문적인 지능을 제공한다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "Maestro AI",
-        "반도체 설계",
-        "강화 학습",
-        "전자 설계 자동화",
-        "시스템 설계 자동화"
-      ],
-      "companies": [
-        "Cadence"
-      ],
-      "event_type": "신제품·신기술·양산",
-      "confirmed": true,
-      "parties": [
-        "Cadence"
-      ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-26T18:30:33Z",
-      "updated_at": "2026-10-26T18:30:33Z",
-      "articles": [
-        {
-          "key": "87ca36d055eb2fad",
-          "title": "Cadence Unveils Domain-Specialized Maestro AI Models for Chip Design",
-          "url": "https://www.semiconductor-digest.com/cadence-unveils-domain-specialized-maestro-ai-models-for-chip-design/?utm_source=rss&utm_medium=rss&utm_campaign=cadence-unveils-domain-specialized-maestro-ai-models-for-chip-design",
-          "source": "Semiconductor Digest",
-          "lang": "en",
-          "published_at": "2026-10-26T18:30:33Z"
-        }
-      ],
-      "importance_raw": 5,
-      "type_checked": true
-    },
-    {
-      "id": "c20261026-0127",
-      "headline": "HD 현대일렉트릭, SK hynix 전력 장비 추가 수주",
-      "summary": [
-        "HD 현대일렉트릭이 SK hynix와 추가 전력 장비 계약을 체결했다.",
-        "구체적인 수주 규모와 내용은 공개되지 않았으나, 이는 양사의 협력을 강화하는 중요한 성과로 평가된다.",
-        "이로 인해 HD 현대일렉트릭의 사업 확대와 SK hynix의 생산 안정성 향상에 기여할 것으로 보인다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "전력 장비",
-        "수주",
-        "SK hynix",
-        "HD 현대일렉트릭"
-      ],
-      "companies": [
-        "HD 현대일렉트릭",
-        "SK hynix"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "HD 현대일렉트릭",
-        "SK hynix"
-      ],
-      "importance": 4,
-      "importance_reason": "수주·공급 3점, 관심 기업(SK하이닉스) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-10-26T07:53:38Z",
-      "updated_at": "2026-10-26T13:30:09Z",
-      "articles": [
-        {
-          "key": "f0704afde62586c3",
-          "title": "HD현대, SK하이닉스 전력기기 수주 릴레이",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=64263",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-10-26T07:53:38Z"
-        },
-        {
-          "key": "466c2e5153a26d15",
-          "title": "HD Hyundai Electric Wins More SK hynix Power Equipment Orders",
-          "url": "https://www.thelec.net/news/articleView.html?idxno=14930",
-          "source": "디일렉",
-          "lang": "en",
-          "published_at": "2026-10-26T13:30:09Z"
-        }
-      ],
-      "importance_raw": 4
-    },
-    {
-      "id": "c20261026-0152",
-      "headline": "스팟파이어, AI로 반도체 수율 분석 혁신",
-      "summary": [
-        "스팟파이어는 반도체 수율 엔지니어를 위한 AI 기반 분석 솔루션을 공개했다.",
-        "최신 업데이트에서는 자연어 지원과 AI 거버넌스 제어 기능이 추가되어 있다.",
-        "이 기술은 더욱 빠른 의사결정을 가능하게 하여 제조업체의 수익성을 높일 것으로 기대된다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "AI 분석",
-        "반도체 수율",
-        "데이터 센터",
-        "스팟파이어",
-        "자연어 처리"
-      ],
-      "companies": [
-        "스팟파이어"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "스팟파이어"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-26T13:15:12Z",
-      "updated_at": "2026-10-26T13:15:12Z",
-      "articles": [
-        {
-          "key": "70c4961048fe4463",
-          "title": "Spotfire Puts AI Inside the Analysis for Yield Engineers",
-          "url": "https://www.semiconductor-digest.com/spotfire-puts-ai-inside-the-analysis-for-yield-engineers/?utm_source=rss&utm_medium=rss&utm_campaign=spotfire-puts-ai-inside-the-analysis-for-yield-engineers",
-          "source": "Semiconductor Digest",
-          "lang": "en",
-          "published_at": "2026-10-26T13:15:12Z"
-        }
-      ],
-      "importance_raw": 2,
-      "type_checked": true
-    },
-    {
-      "id": "c20261026-0151",
-      "headline": "SEMI, 첨단 패키징 글로벌 허브 구축",
-      "summary": [
-        "SEMI가 첨단 패키징 전문가 네트워크 APHI를 통해 글로벌 거점을 만들고 있다.",
-        "APHI는 기술 개발, 표준화 및 민관 연구개발을 지원하며, 2028년까지 유리 코어 기판의 중요성이 커질 것으로 예상된다.",
-        "이러한 노력이 데이터 센터에서 비트당 에너지를 줄이는 데 도움을 줄 것으로 보인다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "첨단 패키징",
-        "SEMI",
-        "APHI",
-        "유리 코어 기판",
-        "데이터 센터"
-      ],
-      "companies": [
-        "SEMI"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "SEMI",
-        "APHI"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-26T13:12:26Z",
-      "updated_at": "2026-10-26T13:12:26Z",
-      "articles": [
-        {
-          "key": "6fdd382868f7053b",
-          "title": "SEMI Builds a Global Home for Advanced Packaging",
-          "url": "https://www.semiconductor-digest.com/semi-builds-a-global-home-for-advanced-packaging-2/?utm_source=rss&utm_medium=rss&utm_campaign=semi-builds-a-global-home-for-advanced-packaging-2",
-          "source": "Semiconductor Digest",
-          "lang": "en",
-          "published_at": "2026-10-26T13:12:26Z"
-        }
-      ],
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261026-0150",
-      "headline": "에드워즈, 미국 제네시에서 드라이 펌프 생산 개시",
-      "summary": [
-        "에드워즈의 제네시 공장이 저속량 생산을 시작하여 한국 의존도를 줄인다.",
-        "2027년 중반부터 Ganymede 드라이 펌프의 생산이 시작되며, 연간 10,000대에서 20,000대로 확대 가능하다.",
-        "이 공장은 280개의 일자리를 창출하며, 친환경 에너지를 사용해 효율성을 강화한다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "드라이 펌프",
-        "Ganymede",
-        "제네시 공장",
-        "미국 생산",
-        "280개 일자리"
-      ],
-      "companies": [
-        "에드워즈",
-        "마이크론",
-        "인텔"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "에드워즈"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-26T13:01:07Z",
-      "updated_at": "2026-10-26T13:01:07Z",
-      "articles": [
-        {
-          "key": "fedab48f6efbeaf4",
-          "title": "Edwards’ Genesee Facility Enters Production, Bringing Dry Pump Manufacturing to the U.S.",
-          "url": "https://www.semiconductor-digest.com/edwards-genesee-facility-enters-production-bringing-dry-pump-manufacturing-to-the-u-s/?utm_source=rss&utm_medium=rss&utm_campaign=edwards-genesee-facility-enters-production-bringing-dry-pump-manufacturing-to-the-u-s",
-          "source": "Semiconductor Digest",
-          "lang": "en",
-          "published_at": "2026-10-26T13:01:07Z"
-        }
-      ],
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261026-0126",
-      "headline": "AI 패키징의 도전과제, 패널 기술 급부상",
-      "summary": [
-        "AI 패키징 분야에서의 도전과제로 패널 기술이 주목받고 있다.",
-        "5가지 이유에서 패널 기술의 성장 동력이 확인되며, 시장에서도 관심을 받고 있다.",
-        "AI 반도체 산업의 경쟁력 강화를 위한 방향성을 제시하는 중요한 변화로 평가된다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "AI 패키징",
-        "패널 기술",
-        "반도체",
-        "시장 성장",
-        "기술 혁신"
-      ],
-      "companies": [],
-      "event_type": "업계 일반",
-      "confirmed": false,
-      "parties": [],
-      "importance": 1,
-      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-26T13:00:00Z",
-      "updated_at": "2026-10-26T13:00:00Z",
-      "articles": [
-        {
-          "key": "90a25889b984f573",
-          "title": "The AI Packaging Challenge: 5 Reasons Panels Are Gaining Momentum",
-          "url": "https://www.eetimes.com/the-ai-packaging-challenge-5-reasons-panels-are-gaining-momentum/",
-          "source": "EE Times",
-          "lang": "en",
-          "published_at": "2026-10-26T13:00:00Z"
-        }
-      ],
-      "importance_raw": 1,
-      "type_checked": true
-    },
-    {
-      "id": "c20261026-0149",
-      "headline": "에드워즈, 차세대 터보펌프 공개",
-      "summary": [
-        "에드워즈가 차세대 터보펌프를 공개하며 펌프 속도를 5,000리터 이상으로 늘렸다고 밝혔다.",
-        "이 새로운 펌프는 SEMICON West에서 공식 출시되며, 7,000리터 펌프도 개발 중이다.",
-        "향상된 펌핑 속도로 FinFET 및 메모리 구조의 균일성과 수율을 개선할 수 있을 것으로 기대된다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "터보펌프",
-        "펌핑속도",
-        "SEMICON West",
-        "AI모델링",
-        "우주항공기술"
-      ],
-      "companies": [
-        "에드워즈"
-      ],
-      "event_type": "신제품·신기술·양산",
-      "confirmed": true,
-      "parties": [
-        "에드워즈"
-      ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-26T12:58:47Z",
-      "updated_at": "2026-10-26T12:58:47Z",
-      "articles": [
-        {
-          "key": "8bbb0d6d578eaf8d",
-          "title": "More Pumping Speed, Same Footprint: Edwards Previews Its Next-Gen Turbopumps",
-          "url": "https://www.semiconductor-digest.com/more-pumping-speed-same-footprint-edwards-previews-its-next-gen-turbopumps/?utm_source=rss&utm_medium=rss&utm_campaign=more-pumping-speed-same-footprint-edwards-previews-its-next-gen-turbopumps",
-          "source": "Semiconductor Digest",
-          "lang": "en",
-          "published_at": "2026-10-26T12:58:47Z"
-        }
-      ],
-      "importance_raw": 5,
-      "type_checked": true
-    },
-    {
-      "id": "c20261026-0148",
-      "headline": "광학 안정성, 반도체 공정관리의 새로운 이슈로 부상",
-      "summary": [
-        "SEMI에 따르면 2026년 300mm 팹 장비 지출이 1330억 달러로 18% 증가할 예정이다.",
-        "OPTOMAN의 테스트에서 193nm 이온빔 스퍼터링 거울이 50억 번의 레이저 펄스를 견디며 반사율이 0.5% 미만으로 감소했다.",
-        "정확한 공정 관리를 위해, 장비 제작자들은 초기의 반사타겟 외에도 다양한 실험적 조건들을 요구해야 한다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "광학 안정성",
-        "레이저 펄스",
-        "공정 관리",
-        "반사율",
-        "장비 제작"
-      ],
-      "companies": [
-        "OPTOMAN"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-26T12:55:37Z",
-      "updated_at": "2026-10-26T12:55:37Z",
-      "articles": [
-        {
-          "key": "7997dbba8115d519",
-          "title": "Optical Stability Is Becoming a Process-Control Issue",
-          "url": "https://www.semiconductor-digest.com/optical-stability-is-becoming-a-process-control-issue/?utm_source=rss&utm_medium=rss&utm_campaign=optical-stability-is-becoming-a-process-control-issue",
-          "source": "Semiconductor Digest",
-          "lang": "en",
-          "published_at": "2026-10-26T12:55:37Z"
-        }
-      ],
-      "importance_raw": 2,
-      "type_checked": true
     }
   ]
 }
