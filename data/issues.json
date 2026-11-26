@@ -1,32 +1,576 @@
 {
   "version": 1,
-  "updated_at": "2026-11-25T20:29:30Z",
+  "updated_at": "2026-11-26T03:36:24Z",
   "issues": [
     {
-      "id": "c20261125-1634",
-      "headline": "서울반도체, 패키지 없는 WICOP Pixel로 LCD 화질 혁신",
+      "id": "c20261126-1653",
+      "headline": "삼성전자 DS부문 조직개편, 메모리 개발체제 일원화",
       "summary": [
-        "서울반도체가 자회사 서울바이오시스 개발 WICOP Pixel의 본격 양산과 TV 업체 공급 확대를 발표했다.",
-        "RGB 칩을 수십 µm 피치로 배열해 DCI-P3 100%를 구현하며 OLED 대비 3배 이상 밝기를 낸다고 밝혔다.",
-        "기존 백라이트 설비를 전환해 설비 투자를 최소화하고 특허 라이선싱으로 로열티 수익을 확보하려는 전략이다."
+        "삼성전자가 DS부문 기술 개발과 영업 경쟁력 강화를 목표로 조직개편을 단행했다.",
+        "메모리사업부는 사업부장 직속 개발체제를 구축하고 로직 설계 조직을 새로 만들었다.",
+        "이번 개편은 메모리 기술 개발 체계를 한곳으로 모아 반도체 사업 경쟁력을 높이려는 움직임으로 볼 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "조직개편",
+        "메모리 개발체제",
+        "시스템LSI",
+        "DS부문"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-26T03:27:53Z",
+      "updated_at": "2026-11-26T03:27:53Z",
+      "articles": [
+        {
+          "key": "13ffd4b3415b8ca4",
+          "title": "삼성전자, 메모리 개발체제 일원화…시스템LSI 영업 조직 격상",
+          "url": "https://www.inews24.com/view/2030737",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-26T03:27:53Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261126-1652",
+      "headline": "한은 총재, 반도체 시총 대비 수익 괴리 지적",
+      "summary": [
+        "한국은행 신현송 총재가 반도체 기업의 시가총액이 수익에 비해 과도하다는 취지로 발언했다.",
+        "기사에 따르면 반도체 기업의 올해 영업이익은 700조원이고 시가총액은 2천조원으로, 수익의 약 3배 수준이다.",
+        "중앙은행 수장의 발언인 만큼 반도체 주가 밸류에이션에 대한 시장의 시각에 영향을 줄 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "반도체 시가총액",
+        "영업이익",
+        "밸류에이션",
+        "주가 거품"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-26T03:18:18Z",
+      "updated_at": "2026-11-26T03:18:18Z",
+      "articles": [
+        {
+          "key": "74472adffe867193",
+          "title": "한은 총재 \"반도체 시총 2천조, 수익 3배밖에 안돼…설명 불가\"",
+          "url": "https://www.yna.co.kr/view/AKR20261126102000002",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-26T03:18:18Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261126-1651",
+      "headline": "한은 총재 \"반도체 영업익 700조원\" 전망 발언",
+      "summary": [
+        "신현송 한국은행 총재가 올해 명목 GDP가 3천조원을 넘어설 것이라고 밝혔다.",
+        "기사에 따르면 작년 2천600조원 수준이던 명목 GDP가 올해 크게 늘어날 전망이다.",
+        "반도체 영업이익이 700조원에 이를 것이라는 발언으로, 반도체가 국내 경제 성장을 이끈다는 의미다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "명목GDP",
+        "반도체 영업이익",
+        "한국은행",
+        "경제 전망"
+      ],
+      "companies": [
+        "한국은행"
+      ],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [
+        "한국은행"
+      ],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-26T02:35:18Z",
+      "updated_at": "2026-11-26T02:50:26Z",
+      "articles": [
+        {
+          "key": "f42fba9114b1557c",
+          "title": "[속보] 한은 총재 \"올해 명목GDP 3천조원 상회…반도체 영업익 700조원\"",
+          "url": "https://www.yna.co.kr/view/AKR20261126092000002",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-26T02:35:18Z"
+        },
+        {
+          "key": "f972591356d35c3f",
+          "title": "한은 총재 \"올해 명목GDP 3천조원 상회…반도체 영업익 700조원\"",
+          "url": "https://www.yna.co.kr/view/AKR20261126098400002",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-26T02:50:26Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261126-1650",
+      "headline": "엔비디아 경영진 변동, AI 공급망 고객 검증 주목",
+      "summary": [
+        "엔비디아의 경영진 변동이 불거지며 AI 공급망 전반에서 고객 실사가 주목받고 있다.",
+        "기사 본문은 사진 크레딧 표기만 있어 구체적인 인사 내용과 수치는 확인되지 않는다.",
+        "다만 AI 칩 수요를 좌우하는 핵심 기업의 리더십 변화는 공급망 파트너의 거래 리스크 점검을 키울 수 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI반도체",
+        "경영진 변동",
+        "고객 실사",
+        "공급망 리스크"
+      ],
+      "companies": [
+        "엔비디아"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": false,
+      "parties": [
+        "엔비디아"
+      ],
+      "importance": 2,
+      "importance_reason": "경영진 교체 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-26T02:34:08Z",
+      "updated_at": "2026-11-26T02:34:08Z",
+      "articles": [
+        {
+          "key": "b221e6798357fa67",
+          "title": "Nvidia leadership turmoil puts customer due diligence in spotlight across AI supply chain",
+          "url": "https://www.digitimes.com/news/a20261126PD205/nvidia-supply-chain-ceo-development.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-26T02:34:08Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261126-1649",
+      "headline": "YMTC, 삼성·SK하이닉스에 낸드 특허 라이선스 제공 보도",
+      "summary": [
+        "YMTC가 Xtacking 관련 특허를 삼성전자와 SK하이닉스에 라이선스하는 것으로 보도됐다.",
+        "기사 본문이 사실상 비어 있어 계약 조건, 금액, 적용 범위 등 구체적 수치는 확인되지 않는다.",
+        "낸드 특허 장벽이 400단 이상 고적층 메모리 경쟁 구도를 바꿀 수 있다는 점에서 업계의 관심이 크다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "낸드플래시",
+        "Xtacking",
+        "400단 낸드",
+        "특허 라이선스",
+        "YMTC"
+      ],
+      "companies": [
+        "YMTC",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": false,
+      "parties": [
+        "YMTC",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점, 관심 기업(SK하이닉스, 삼성전자) +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-26T02:26:05Z",
+      "updated_at": "2026-11-26T02:26:05Z",
+      "articles": [
+        {
+          "key": "f9b2c2f26f64be9d",
+          "title": "YMTC now licenses NAND tech to Samsung, SK Hynix: Inside the Xtacking patent wall reshaping 400-layer memory",
+          "url": "https://www.digitimes.com/news/a20261126VL210/samsung-sk-hynix-ymtc-nand-patent.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-26T02:26:05Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261126-1648",
+      "headline": "삼성전자 미주법인장에 윤하룡 메모리 인사 단행",
+      "summary": [
+        "삼성전자가 DS부문 미주법인(DSA) 신임 법인장에 윤하룡 DSA 메모리 담당을 임명했다.",
+        "기사 본문이 일부만 제공되어 구체적인 조직 개편 범위와 세부 일정은 확인되지 않는다.",
+        "이번 인사는 미주 지역 반도체 사업 운영 체제를 재편하는 신호로 해석될 수 있다."
+      ],
+      "category": "실적/투자/시장",
+      "tags": [
+        "미주법인",
+        "DSA",
+        "조직 개편",
+        "메모리",
+        "법인장 인사"
+      ],
+      "companies": [
+        "삼성전자"
+      ],
+      "event_type": "경영진 교체",
+      "confirmed": true,
+      "parties": [
+        "삼성전자"
+      ],
+      "importance": 4,
+      "importance_reason": "경영진 교체 3점, 관심 기업(삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-26T02:25:22Z",
+      "updated_at": "2026-11-26T02:25:22Z",
+      "articles": [
+        {
+          "key": "dd2fafc38e9ad055",
+          "title": "삼성전자, 메모리사업부장 직속 개발체제로…미주법인장 윤하룡",
+          "url": "https://www.yna.co.kr/view/AKR20261126084300003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-26T02:25:22Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261126-1647",
+      "headline": "레조낙, 2027년 패널 패키징용 감광성 필름 양산 목표",
+      "summary": [
+        "레조낙이 패널 패키징용 감광성 필름의 2027년 생산을 목표로 하고 있다고 보도됐다.",
+        "기사 본문이 사실상 없어 구체적인 물량, 투자 규모, 고객사 등은 확인되지 않는다.",
+        "패널 레벨 패키징 소재 공급 일정이 잡힌 것으로, 관련 소재 시장 경쟁에 영향을 줄 수 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "감광성 필름",
+        "패널 패키징",
+        "패널 레벨 패키징",
+        "2027년 양산"
+      ],
+      "companies": [
+        "레조낙"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "레조낙"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-26T02:08:45Z",
+      "updated_at": "2026-11-26T02:08:45Z",
+      "articles": [
+        {
+          "key": "2b7187ec9887892d",
+          "title": "Resonac targets 2027 production of photosensitive film for panel packaging",
+          "url": "https://www.digitimes.com/news/a20261126PR202/resonac-packaging-production-2027-demand.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-26T02:08:45Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261126-1646",
+      "headline": "산업부, 홋카이도서 반도체·AI 협력 포럼 개최",
+      "summary": [
+        "산업통상부는 26일 일본 삿포로에서 일본 경제산업성 홋카이도경제산업국과 미래성장산업 포럼을 열었다.",
+        "기사 본문이 일부만 제공되어 포럼의 세부 참석자, 논의 결과, 구체적 과제는 확인되지 않는다.",
+        "양국 지방 정부 간 반도체·AI 분야 협력 확대 흐름을 보여주는 행사로, 산업 교류 측면에서 의미가 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "한일 협력",
+        "미래성장산업",
+        "반도체",
+        "AI",
+        "홋카이도"
+      ],
+      "companies": [],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-26T02:00:01Z",
+      "updated_at": "2026-11-26T02:00:01Z",
+      "articles": [
+        {
+          "key": "3114664769e8e1f0",
+          "title": "산업부, 홋카이도서 미래성장산업포럼…반도체·AI 협력 확대",
+          "url": "https://www.yna.co.kr/view/AKR20261126067000003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-26T02:00:01Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261126-1645",
+      "headline": "EnliTech, 반도체 검사 점유율 50% 근접… 실리콘포토닉스 양산 추진",
+      "summary": [
+        "EnliTech의 반도체 검사 장비 점유율이 50%에 가까워졌다고 보도됐다.",
+        "NT$10억 규모의 신규 공장이 실리콘포토닉스(SiPh) 양산을 목표로 추진되고 있다.",
+        "광학 인터커넥트 수요에 맞춘 검사 역량 확보는 관련 장비 시장에서 의미가 크다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "반도체 검사",
+        "실리콘포토닉스",
+        "EnliTech",
+        "양산",
+        "공장 투자"
+      ],
+      "companies": [
+        "EnliTech"
+      ],
+      "event_type": "설비 투자",
+      "confirmed": false,
+      "parties": [
+        "EnliTech"
+      ],
+      "importance": 2,
+      "importance_reason": "설비 투자 3점, 미확정 -1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-26T01:55:19Z",
+      "updated_at": "2026-11-26T01:55:19Z",
+      "articles": [
+        {
+          "key": "03e0a3bd9a0700f7",
+          "title": "EnliTech's semiconductor inspection share nears 50% as NT$1 billion plant targets SiPh mass production",
+          "url": "https://www.digitimes.com/news/a20261125PD228/inspection-siph-production-demand-plant.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-26T01:55:19Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261126-1644",
+      "headline": "삼성전자서비스, 제31회 기술경진·안전혁신대회 개최",
+      "summary": [
+        "삼성전자서비스가 경기 수원 CS 아카데미에서 제31회 서비스 기술경진 및 안전혁신대회를 연다고 밝혔다.",
+        "수리 경진 5개 종목 등으로 구성되며 AI 활용 역량과 현장 안전 혁신사례를 평가한다.",
+        "AI 확산에 따른 서비스 환경 변화에 대응하고 현장 안전문화를 확산하려는 취지의 행사다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "서비스 기술경진대회",
+        "AI 활용",
+        "안전혁신",
+        "수리 엔지니어"
+      ],
+      "companies": [
+        "삼성전자서비스",
+        "삼성전자"
+      ],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "삼성전자서비스"
+      ],
+      "importance": 3,
+      "importance_reason": "채용·인력 2점, 관심 기업(삼성전자) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-26T01:47:25Z",
+      "updated_at": "2026-11-26T01:47:25Z",
+      "articles": [
+        {
+          "key": "d6a7b36703fd431c",
+          "title": "삼성전자서비스, '서비스 기술경진 및 안전혁신대회' 개최",
+          "url": "https://www.etnews.com/20261126000204",
+          "source": "전자신문",
+          "lang": "ko",
+          "published_at": "2026-11-26T01:47:25Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261126-1643",
+      "headline": "안보시설 국산 반도체 우선구매 제도화 추진",
+      "summary": [
+        "이형일 부총리가 반도체특별법 개정으로 국가 안보 인프라에 국산 반도체 우선구매를 제도화하겠다고 밝혔다.",
+        "정부서울청사 전략경제자문단 정책제안 보고회에서 발표됐으며 구체적인 시행 시기는 기사에 나오지 않았다.",
+        "국산 반도체 수요를 법으로 보장하려는 조치로, 국내 반도체 공급망 육성에 의미가 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체특별법",
+        "국산 반도체",
+        "우선구매",
+        "안보 인프라"
+      ],
+      "companies": [],
+      "event_type": "정책·규제·법",
+      "confirmed": false,
+      "parties": [],
+      "importance": 3,
+      "importance_reason": "정책·규제·법 4점, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-26T01:32:16Z",
+      "updated_at": "2026-11-26T01:32:16Z",
+      "articles": [
+        {
+          "key": "573ae3178884e156",
+          "title": "안보시설 국산 반도체 우선 구매…특별법 개정 추진",
+          "url": "https://www.dt.co.kr/article/12097352",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-26T01:32:16Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261126-1642",
+      "headline": "303인치 마이크로LED 미디어월, 예술의전당서 실증 가동",
+      "summary": [
+        "한국디스플레이산업협회가 국내 기업이 공동 제작한 303인치 마이크로LED 미디어월의 실증 가동식을 서울 예술의전당에서 열었다.",
+        "68인치 마이크로LED 모듈 10대를 이어 붙여 구성했으며 산업통상부 지원 융복합 디스플레이 실증사업의 일환이다.",
+        "초대형 마이크로LED 응용처를 넓히는 실증 사례로, 공공 공간 디스플레이 시장 확대의 가능성을 보여준다."
       ],
       "category": "디스플레이",
       "tags": [
-        "WICOP Pixel",
-        "RGB 백라이트",
-        "LCD",
-        "DCI-P3",
-        "특허 라이선싱"
+        "마이크로LED",
+        "미디어월",
+        "실증사업",
+        "융복합 디스플레이",
+        "투명 OLED"
       ],
       "companies": [
-        "서울반도체",
-        "서울바이오시스"
+        "LG",
+        "한국디스플레이산업협회"
+      ],
+      "event_type": "홍보·수상",
+      "confirmed": true,
+      "parties": [
+        "한국디스플레이산업협회",
+        "LG디스플레이"
+      ],
+      "importance": 2,
+      "importance_reason": "홍보·수상 1점, 관심 기업(LG디스플레이) +1 → 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-26T01:12:14Z",
+      "updated_at": "2026-11-26T01:30:00Z",
+      "articles": [
+        {
+          "key": "dc8b2f69b82df291",
+          "title": "디스플레이협회, 예술의전당에 LG제작 7.5·1.7ｍ 미디어월 설치",
+          "url": "https://www.yna.co.kr/view/AKR20261126060200003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-26T01:12:14Z"
+        },
+        {
+          "key": "1f31595a24f9397b",
+          "title": "국내 기업들이 만든 303인치 마이크로LED, 예술의전당에 ‘꿈의 디지털 캔버스’ 펼친다",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343682",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-26T01:30:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261125-1634",
+      "headline": "서울반도체, LCD TV용 WICOP 픽셀 RGB 백라이트 양산 시작",
+      "summary": [
+        "서울반도체가 LCD TV용 WICOP 픽셀 RGB 백라이트의 양산을 시작했다고 발표했다.",
+        "기사 본문이 제한적이라 세부 사양이나 생산 규모, 공급 고객사는 확인되지 않는다.",
+        "LCD에서도 OLED에 버금가는 화질을 구현할 수 있어 LCD TV 화질 경쟁력 강화에 의미가 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "WICOP",
+        "RGB 백라이트",
+        "LCD TV",
+        "미니 LED"
+      ],
+      "companies": [
+        "서울반도체"
       ],
       "event_type": "신제품·신기술·양산",
       "confirmed": true,
       "parties": [
-        "서울반도체",
-        "서울바이오시스"
+        "서울반도체"
       ],
       "importance": 5,
       "importance_reason": "신제품·신기술·양산 5점",
@@ -35,7 +579,7 @@
       "attempts": 0,
       "region": "en",
       "first_seen": "2026-11-25T20:27:00Z",
-      "updated_at": "2026-11-25T20:27:00Z",
+      "updated_at": "2026-11-26T01:26:28Z",
       "articles": [
         {
           "key": "5b3a116265e1d202",
@@ -44,6 +588,437 @@
           "source": "Semiconductor Digest",
           "lang": "en",
           "published_at": "2026-11-25T20:27:00Z"
+        },
+        {
+          "key": "ca59fe6e99f52f8e",
+          "title": "Seoul Semiconductor begins mass production of WICOP Pixel RGB backlights for LCD TVs",
+          "url": "https://www.digitimes.com/news/a20261126PR201/seoul-semiconductor-production-lcd-technology-tv.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-26T01:26:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261125-1613",
+      "headline": "삼성디스플레이, ams오스람 최대주주 올라 마이크로LED 확보",
+      "summary": [
+        "삼성디스플레이가 오스트리아 반도체 기업 ams오스람의 최대주주가 되는 방안이 보도됐다.",
+        "기사에 구체적인 지분율, 인수 금액, 일정은 제시되지 않았다.",
+        "마이크로LED 기술 주도권 확보를 노린 움직임으로, 차세대 디스플레이 경쟁에 영향을 줄 수 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "마이크로LED",
+        "ams오스람",
+        "지분 인수",
+        "차세대 디스플레이"
+      ],
+      "companies": [
+        "삼성디스플레이",
+        "ams오스람"
+      ],
+      "event_type": "인수합병",
+      "confirmed": false,
+      "parties": [
+        "삼성디스플레이",
+        "ams오스람"
+      ],
+      "importance": 3,
+      "importance_reason": "인수합병 2점, 관심 기업(삼성디스플레이) +1, 매체 8곳 보도 +1, 미확정 -1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-11-25T06:39:45Z",
+      "updated_at": "2026-11-26T01:14:43Z",
+      "articles": [
+        {
+          "key": "c46cf091bc998391",
+          "title": "Samsung Display makes its biggest microLED move yet, to acquire a 9.1% stake in ams OSRAM for $230 million",
+          "url": "https://www.oled-info.com/samsung-display-makes-its-biggest-microled-move-yet-acquire-91-stake-ams-osram",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-11-25T06:39:45Z"
+        },
+        {
+          "key": "cd645a6a3bf976ff",
+          "title": "삼성디스플레이, 3천억원 투자해 오스람 최대주주 된다",
+          "url": "https://www.yna.co.kr/view/AKR20261125134400003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-25T06:39:57Z"
+        },
+        {
+          "key": "7b6765e35072d3af",
+          "title": "삼성D, ams 오스람 최대주주 된다…마이크로LED 기술 확보",
+          "url": "https://www.dt.co.kr/article/12097194",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-25T06:55:20Z"
+        },
+        {
+          "key": "0500f6faa8a4e2ac",
+          "title": "삼성D, ams오스람에 3000억 투자해 최대주주로",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=65901",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-11-25T07:07:04Z"
+        },
+        {
+          "key": "8cb794cbe6042a9b",
+          "title": "삼성D, 2억1000만 유로 투자해 ams 오스람 최대주주 오른다",
+          "url": "https://www.inews24.com/view/2030380",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-25T07:12:40Z"
+        },
+        {
+          "key": "f9568d1d5281b7ce",
+          "title": "삼성디스플레이, ams오스람 최대주주 된다…마이크로 LED 기술 확보",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=410309",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-11-25T07:23:57Z"
+        },
+        {
+          "key": "3f2e87181c5a2bc8",
+          "title": "Samsung Display to become ams Osram’s largest shareholder",
+          "url": "https://www.koreaherald.com/article/10949386",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-11-25T08:43:11Z"
+        },
+        {
+          "key": "33182d30cd5b723f",
+          "title": "\"ams 오스람 최대주주로\"⋯삼성D, 마이크로 LED 주도권 노린다",
+          "url": "https://www.inews24.com/view/2030452",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-25T08:50:19Z"
+        },
+        {
+          "key": "e7310bdcbd6fa0cf",
+          "title": "Samsung Display to become ams OSRAM's largest shareholder in microLED push",
+          "url": "https://www.digitimes.com/news/a20261126PR200/sdc-microled-technology-investment-partnership.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-26T01:14:43Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261126-1641",
+      "headline": "LG디스플레이 해외 특허 32.5% 증가, 중국 OLED 경쟁 확대 대응",
+      "summary": [
+        "LG디스플레이의 해외 특허 출원·등록이 32.5% 증가한 것으로 보도됐다.",
+        "중국 OLED 업체들의 사업 확대가 이 증가세의 배경으로 언급됐다.",
+        "기사 본문이 제공되지 않아 구체적 건수와 세부 내용은 확인하기 어렵다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED",
+        "해외 특허",
+        "중국 OLED",
+        "특허 경쟁"
+      ],
+      "companies": [
+        "LG디스플레이"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "LG디스플레이"
+      ],
+      "importance": 4,
+      "importance_reason": "소송·특허 3점, 관심 기업(LG디스플레이) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-26T00:06:54Z",
+      "updated_at": "2026-11-26T00:06:54Z",
+      "articles": [
+        {
+          "key": "417e830dd9cfe4fb",
+          "title": "LG Display's overseas patents rise 32.5% as Chinese OLED rivals expand",
+          "url": "https://www.digitimes.com/news/a20261125VL230/lg-display-patent-oled-panel-2026.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-11-26T00:06:54Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261126-1640",
+      "headline": "아이브이웍스, 글로벌 팁스 선정…50억 원 R&D 지원 확보",
+      "summary": [
+        "반도체 소재 기업 아이브이웍스가 중소벤처기업부 글로벌 팁스 일반형 과제에 최종 선정됐다고 밝혔다.",
+        "향후 48개월간 정부 개발 지원금 50억 원을 확보해 선택적 재성장(reGaN) 생산 기술을 고도화할 계획이다.",
+        "정부 R&D 지원으로 반도체 소재 기술의 상용화와 글로벌 시장 진출 기반이 강화될 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "글로벌 팁스",
+        "선택적 재성장",
+        "reGaN",
+        "반도체 소재",
+        "R&D 지원"
+      ],
+      "companies": [
+        "아이브이웍스"
+      ],
+      "event_type": "소송·특허",
+      "confirmed": true,
+      "parties": [
+        "아이브이웍스"
+      ],
+      "importance": 3,
+      "importance_reason": "소송·특허 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T23:40:00Z",
+      "updated_at": "2026-11-25T23:40:00Z",
+      "articles": [
+        {
+          "key": "d51fdd62a09dd4b9",
+          "title": "반도체 소재 스타트업 아이브이웍스, 중소벤처기업부 ‘글로벌 팁스’ 선정",
+          "url": "https://www.kipost.net/news/articleView.html?idxno=343678",
+          "source": "KIPOST",
+          "lang": "ko",
+          "published_at": "2026-11-25T23:40:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261126-1639",
+      "headline": "메모리값 급등에 스마트폰 업계 수익성 압박 심화",
+      "summary": [
+        "샤오미 등 주요 스마트폰 제조사들이 3분기 메모리 가격 급등으로 생산 부담을 겪었다고 밝혔다.",
+        "루웨이빙 샤오미 총재는 지난 24일 실적 발표 컨퍼런스콜에서 올해 3분기가 업계 생활 중 가장 힘든 분기였다고 말했다.",
+        "메모리 원가 상승이 스마트폰 수익성을 짓누르면서 삼성·애플 등 대형 업체의 대응 전략이 주목된다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "메모리 가격",
+        "스마트폰 수익성",
+        "원가 부담",
+        "실적 발표"
+      ],
+      "companies": [
+        "샤오미",
+        "삼성전자",
+        "애플"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "샤오미"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T22:00:00Z",
+      "updated_at": "2026-11-25T22:00:00Z",
+      "articles": [
+        {
+          "key": "d5a5a0f13eb55a8d",
+          "title": "스마트폰 최악의 보릿고개…삼성·애플·샤오미 대응법은",
+          "url": "https://www.inews24.com/view/2030398",
+          "source": "아이뉴스24",
+          "lang": "ko",
+          "published_at": "2026-11-25T22:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261126-1638",
+      "headline": "엔비디아 신용등급 하향 경고…S&P 부정적 관찰대상 지정",
+      "summary": [
+        "S&P가 25일 엔비디아의 장기 기업신용등급과 선순위 무담보채권 등급을 부정적 관찰대상에 올렸다.",
+        "지배구조 논란과 대중국 수출통제 위반 의혹이 배경으로 거론되며 등급 하향 가능성이 제기됐다.",
+        "AI 반도체 선두 기업의 신용 리스크가 부각되며 투자자와 공급망에 영향을 줄 수 있다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "신용등급",
+        "부정적 관찰대상",
+        "대중국 수출통제",
+        "지배구조",
+        "엔비디아"
+      ],
+      "companies": [
+        "엔비디아",
+        "S&P"
+      ],
+      "event_type": "주가 등락",
+      "confirmed": true,
+      "parties": [
+        "엔비디아",
+        "S&P"
+      ],
+      "importance": 1,
+      "importance_reason": "주가 등락 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-11-25T21:16:53Z",
+      "updated_at": "2026-11-25T21:16:53Z",
+      "articles": [
+        {
+          "key": "46c38b8ce67994da",
+          "title": "엔비디아 신용등급 낮아지나…S&P, ‘부정적 관찰대상’ 지정",
+          "url": "https://www.dt.co.kr/article/12097313",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-11-25T21:16:53Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261126-1637",
+      "headline": "미국 반도체 투자세액공제 5년 연장 법안 발의",
+      "summary": [
+        "미국 상원의원 코닌과 켈리가 반도체 첨단제조 투자세액공제(AMIC) 5년 연장 법안(S.5809)을 초당적으로 발의했다.",
+        "현행 공제는 2026년 말 만료 예정이며, SIA는 이 공제로 8,250억 달러 이상의 민간 투자가 유치됐다고 밝혔다.",
+        "정책 예측 가능성이 확보돼 미국 반도체 투자가 이어질 수 있어 업계 의미가 크다는 평가다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "투자세액공제",
+        "AMIC",
+        "미국 반도체법",
+        "초당적 법안",
+        "반도체 제조"
+      ],
+      "companies": [
+        "SIA"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-25T20:42:57Z",
+      "updated_at": "2026-11-25T20:42:57Z",
+      "articles": [
+        {
+          "key": "de347243724293dc",
+          "title": "SIA Applauds Introduction of Bipartisan Legislation to Extend Semiconductor Investment Credit",
+          "url": "https://www.semiconductor-digest.com/sia-applauds-introduction-of-bipartisan-legislation-to-extend-semiconductor-investment-credit/?utm_source=rss&utm_medium=rss&utm_campaign=sia-applauds-introduction-of-bipartisan-legislation-to-extend-semiconductor-investment-credit",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-25T20:42:57Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261126-1636",
+      "headline": "인듐코퍼레이션, EPTC 2026서 AI 패키징 소재 공개",
+      "summary": [
+        "인듐코퍼레이션이 12월 1~4일 싱가포르 EPTC 2026에서 AI 대응 패키징 소재를 선보인다고 밝혔다.",
+        "포름산 솔더링 소재, 열계면 소재 Heat-Spring, 갈륨 액체금속 GalliTHERM 등을 전시한다.",
+        "고성능 전력반도체와 AI 칩의 열관리·접합 공정 소재 경쟁력을 알리는 행사다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "어드밴스드 패키징",
+        "열계면소재(TIM)",
+        "액체금속",
+        "포름산 솔더링",
+        "EPTC 2026"
+      ],
+      "companies": [
+        "인듐코퍼레이션"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-25T20:40:33Z",
+      "updated_at": "2026-11-25T20:40:33Z",
+      "articles": [
+        {
+          "key": "5c90f1de84ce5395",
+          "title": "Indium Corporation to Showcase Advanced Packaging Materials at EPTC 2026",
+          "url": "https://www.semiconductor-digest.com/indium-corporation-to-showcase-advanced-packaging-materials-at-eptc-2026/?utm_source=rss&utm_medium=rss&utm_campaign=indium-corporation-to-showcase-advanced-packaging-materials-at-eptc-2026",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-25T20:40:33Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261126-1635",
+      "headline": "ST, 8m 이상 측거 초소형 ToF 센서 VL53LB 출시",
+      "summary": [
+        "STMicroelectronics가 직접 ToF 방식의 FlightSense VL53LB 거리 센서를 출시했다.",
+        "8m 이상 측정 거리, 낮은 소비전력, 초소형 올인원 구조를 갖춰 PCB 면적과 전력 부담을 줄였다.",
+        "스마트폰과 로봇·산업 자동화 등 소형 기기의 거리 감지 성능 향상에 기여할 전망이다."
+      ],
+      "category": "파운드리/시스템반도체",
+      "tags": [
+        "ToF 센서",
+        "dToF",
+        "FlightSense VL53LB",
+        "저전력 센싱",
+        "소형 패키지"
+      ],
+      "companies": [
+        "STMicroelectronics"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "STMicroelectronics"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-11-25T20:36:39Z",
+      "updated_at": "2026-11-25T20:36:39Z",
+      "articles": [
+        {
+          "key": "9c7809e80535bdbb",
+          "title": "STMicroelectronics Introduces Miniature Time-of-Flight Sensor With 8-Meter Range",
+          "url": "https://www.semiconductor-digest.com/stmicroelectronics-introduces-miniature-time-of-flight-sensor-with-8-meter-range/?utm_source=rss&utm_medium=rss&utm_campaign=stmicroelectronics-introduces-miniature-time-of-flight-sensor-with-8-meter-range",
+          "source": "Semiconductor Digest",
+          "lang": "en",
+          "published_at": "2026-11-25T20:36:39Z"
         }
       ],
       "type_checked": true,
@@ -606,108 +1581,6 @@
       ],
       "type_checked": true,
       "importance_raw": 2
-    },
-    {
-      "id": "c20261125-1613",
-      "headline": "삼성디스플레이, ams 오스람 최대주주로 마이크로 LED 협력 강화",
-      "summary": [
-        "삼성디스플레이가 ams 오스람 신주 9,984,439주를 약 2억1000만 유로에 인수해 지분 9.1%를 확보하고 최대주주가 된다.",
-        "거래는 규제 당국 검토와 승인을 거쳐 내년 초 완료될 예정이며, 양사는 초미세 마이크로 LED 기술 개발에 협력한다.",
-        "이번 제휴로 디스플레이용 마이크로 LED 상용화 속도가 빨라지며 차세대 디스플레이 기술 경쟁에 영향을 줄 것으로 보인다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "마이크로 LED",
-        "지분 투자",
-        "광반도체",
-        "차세대 디스플레이"
-      ],
-      "companies": [
-        "삼성디스플레이",
-        "ams 오스람"
-      ],
-      "event_type": "인수합병",
-      "confirmed": true,
-      "parties": [
-        "삼성디스플레이",
-        "ams 오스람"
-      ],
-      "importance": 4,
-      "importance_reason": "인수합병 2점, 관심 기업(삼성디스플레이) +1, 매체 7곳 보도 +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-11-25T06:39:45Z",
-      "updated_at": "2026-11-25T08:50:19Z",
-      "articles": [
-        {
-          "key": "c46cf091bc998391",
-          "title": "Samsung Display makes its biggest microLED move yet, to acquire a 9.1% stake in ams OSRAM for $230 million",
-          "url": "https://www.oled-info.com/samsung-display-makes-its-biggest-microled-move-yet-acquire-91-stake-ams-osram",
-          "source": "OLED-info",
-          "lang": "en",
-          "published_at": "2026-11-25T06:39:45Z"
-        },
-        {
-          "key": "cd645a6a3bf976ff",
-          "title": "삼성디스플레이, 3천억원 투자해 오스람 최대주주 된다",
-          "url": "https://www.yna.co.kr/view/AKR20261125134400003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-25T06:39:57Z"
-        },
-        {
-          "key": "7b6765e35072d3af",
-          "title": "삼성D, ams 오스람 최대주주 된다…마이크로LED 기술 확보",
-          "url": "https://www.dt.co.kr/article/12097194",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-11-25T06:55:20Z"
-        },
-        {
-          "key": "0500f6faa8a4e2ac",
-          "title": "삼성D, ams오스람에 3000억 투자해 최대주주로",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=65901",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-11-25T07:07:04Z"
-        },
-        {
-          "key": "8cb794cbe6042a9b",
-          "title": "삼성D, 2억1000만 유로 투자해 ams 오스람 최대주주 오른다",
-          "url": "https://www.inews24.com/view/2030380",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-25T07:12:40Z"
-        },
-        {
-          "key": "f9568d1d5281b7ce",
-          "title": "삼성디스플레이, ams오스람 최대주주 된다…마이크로 LED 기술 확보",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=410309",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-11-25T07:23:57Z"
-        },
-        {
-          "key": "3f2e87181c5a2bc8",
-          "title": "Samsung Display to become ams Osram’s largest shareholder",
-          "url": "https://www.koreaherald.com/article/10949386",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-11-25T08:43:11Z"
-        },
-        {
-          "key": "33182d30cd5b723f",
-          "title": "\"ams 오스람 최대주주로\"⋯삼성D, 마이크로 LED 주도권 노린다",
-          "url": "https://www.inews24.com/view/2030452",
-          "source": "아이뉴스24",
-          "lang": "ko",
-          "published_at": "2026-11-25T08:50:19Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
     },
     {
       "id": "c20261125-1622",
@@ -71220,882 +72093,6 @@
       ],
       "type_checked": true,
       "importance_raw": 3
-    },
-    {
-      "id": "c20261027-0179",
-      "headline": "중국 디스플레이, 새로운 시장 확대 전략 추진",
-      "summary": [
-        "중국 디스플레이 업계가 자체 생태계를 통해 시장 영역을 확장하고 있다.",
-        "C-터치 & 디스플레이 전시회에서 AI와 자율주행차 관련 기술을 집중 조명하고 기판 제조를 실증할 예정이다.",
-        "중국은 글로벌 공급망 생태계를 구축하며 디지털 경제의 핵심으로 자리 잡고 있다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "CPO",
-        "AI 데이터센터",
-        "스마트글래스",
-        "TGV 기판",
-        "증강현실",
-        "디지털 경제"
-      ],
-      "companies": [
-        "중국영상산업협회",
-        "AI 광통신 기업",
-        "AR/VR 제조업체"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "중국 디스플레이 업계"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-27T03:34:55Z",
-      "updated_at": "2026-10-27T03:34:55Z",
-      "articles": [
-        {
-          "key": "86f2b8e3b16e9709",
-          "title": "中디스플레이, 자체 생태계로 유리기판·CPO 등 신시장 정조준",
-          "url": "https://zdnet.co.kr/view/?no=20261027114901",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-10-27T03:34:55Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261027-0178",
-      "headline": "어플라이드 머티리얼즈, 베시 지분 20%로 확대",
-      "summary": [
-        "어플라이드 머티리얼즈는 베시의 지분을 20%로 늘릴 계획이다.",
-        "이는 하이브리드 본딩 수주가 급증함에 따른 결정이다.",
-        "이로 인해 반도체 패키징 기술 강화가 기대된다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "하이브리드 본딩",
-        "통합 다이-웨이퍼 시스템",
-        "어플라이드 머티리얼즈",
-        "베시"
-      ],
-      "companies": [
-        "어플라이드 머티리얼즈",
-        "베시"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "어플라이드 머티리얼즈",
-        "베시"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-27T03:27:49Z",
-      "updated_at": "2026-10-27T03:27:49Z",
-      "articles": [
-        {
-          "key": "c83e72d7239ccb7a",
-          "title": "Applied Materials to raise Besi stake to 20% as hybrid-bonding orders surge",
-          "url": "https://www.digitimes.com/news/a20261027VL216/applied-materials-equipment-demand-dutch-2025.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-10-27T03:27:49Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261027-0176",
-      "headline": "국민소득 4만달러 달성 예상, 3% 중반 성장 전망",
-      "summary": [
-        "정부는 올해 1인당 국민소득이 4만달러에 진입할 것이라고 밝혔다.",
-        "반도체 수출과 설비 투자가 호조를 보이며 연간 경제성장률은 3%대 중반에 이를 것으로 예상된다.",
-        "그러나 민간 소비 감소와 물가 부담이 성장에 부정적인 영향을 줄 가능성이 있다."
-      ],
-      "category": "기타",
-      "tags": [
-        "국민소득",
-        "경제성장률",
-        "반도체 수출",
-        "설비 투자",
-        "물가"
-      ],
-      "companies": [],
-      "event_type": "시장 전망·통계",
-      "confirmed": true,
-      "parties": [],
-      "importance": 2,
-      "importance_reason": "시장 전망·통계 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-27T03:18:15Z",
-      "updated_at": "2026-10-27T03:18:15Z",
-      "articles": [
-        {
-          "key": "62e44f044853e32a",
-          "title": "국민소득 4만달러 눈앞…정부 “3% 중반 성장 가능”",
-          "url": "https://www.dt.co.kr/article/12091502",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-27T03:18:15Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261027-0177",
-      "headline": "삼성전자·SK하이닉스, 2027년 2분기 HBM4 출하 계획",
-      "summary": [
-        "삼성전자와 SK하이닉스가 2027년 2분기에 8층 HBM4 칩을 엔비디아에 출하할 계획이다.",
-        "이들 기업은 차세대 메모리 기술인 HBM4의 시장 진입을 통해 경쟁력을 강화할 예정이다.",
-        "HBM4 출하는 고성능 컴퓨팅 시장에서의 수익성에 긍정적인 영향을 미칠 것으로 보인다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "HBM4",
-        "8층",
-        "삼성전자",
-        "SK하이닉스"
-      ],
-      "companies": [
-        "삼성전자",
-        "SK하이닉스",
-        "엔비디아"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "삼성전자",
-        "SK하이닉스",
-        "엔비디아"
-      ],
-      "importance": 4,
-      "importance_reason": "수주·공급 3점, 관심 기업(SK하이닉스, 삼성전자) +1 → 4점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-27T03:06:24Z",
-      "updated_at": "2026-10-27T03:06:24Z",
-      "articles": [
-        {
-          "key": "27f7411c6161b1dd",
-          "title": "Samsung, SK Hynix eye 2Q27 shipments of 8-layer HBM4 to Nvidia",
-          "url": "https://www.digitimes.com/news/a20261027VL215/samsung-sk-hynix-hbm4-shipments-nvidia.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-10-27T03:06:24Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 4
-    },
-    {
-      "id": "c20261027-0173",
-      "headline": "SK 하이닉스, AI 사업 전환 계획 발표",
-      "summary": [
-        "SK텔레콤이 SK 하이닉스의 반도체 공장을 AI 사업으로 전환하는 계획을 세웠다.",
-        "2026년 10월 27일에 발표된 이 계획은 AI 기술을 반도체 제조에 적용하는 내용을 담고 있다.",
-        "이로 인해 SK 하이닉스는 AI 분야에서 경쟁력을 높이며 새로운 성장 기회를 모색할 것으로 보인다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "AI 사업전환",
-        "SK 하이닉스",
-        "반도체",
-        "SK텔레콤",
-        "공장 전환"
-      ],
-      "companies": [
-        "SK 하이닉스",
-        "SK텔레콤"
-      ],
-      "event_type": "지역·인프라",
-      "confirmed": true,
-      "parties": [
-        "SK 하이닉스",
-        "SK텔레콤"
-      ],
-      "importance": 3,
-      "importance_reason": "지역·인프라 2점, 관심 기업(SK하이닉스) +1 → 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-27T02:51:28Z",
-      "updated_at": "2026-10-27T02:51:28Z",
-      "articles": [
-        {
-          "key": "6561214ebfac1ee1",
-          "title": "Inside SKT’s push to turn SK Hynix’s fabs into an AI business",
-          "url": "https://www.digitimes.com/news/a20261027PD204/sk-telecom-sk-hynix-business-b2b-data.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-10-27T02:51:28Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261027-0172",
-      "headline": "DRAM 공급 축소에도 가격 상승 미비",
-      "summary": [
-        "2026년 10월 27일자 보고서에 따르면, DRAM 공급이 최대 50% 감소하고 있다.",
-        "그럼에도 불구하고 DRAM 가격 상승폭은 기대에 미치지 못하고 있다.",
-        "이는 공급 감소에도 불구하고 시장의 수요가 약세를 보이고 있음을 의미한다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "DRAM",
-        "가격 상승",
-        "공급 감소",
-        "반도체 시장",
-        "2026년"
-      ],
-      "companies": [],
-      "event_type": "가격 동향",
-      "confirmed": true,
-      "parties": [],
-      "importance": 3,
-      "importance_reason": "가격 동향 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-27T02:30:03Z",
-      "updated_at": "2026-10-27T02:30:03Z",
-      "articles": [
-        {
-          "key": "6336601c7b8c234f",
-          "title": "DRAM price gains fall short as supply shrinks up to 50%",
-          "url": "https://www.digitimes.com/news/a20261027PD211/dram-price-growth-demand-2026.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-10-27T02:30:03Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261027-0171",
-      "headline": "AI 데이터 센터 증가, 전력 반도체 공급 위험 초래",
-      "summary": [
-        "AI 데이터 센터의 급증이 전력 반도체 공급에 압박을 가하고 있다.",
-        "특히 자동차와 전자 기기 산업에서 수급 불균형이 우려된다.",
-        "이로 인해 전력 반도체 가격 상승 및 공급망 안정성에 부정적인 영향을 미칠 가능성이 있다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "AI 데이터 센터",
-        "전력 반도체",
-        "공급 위기",
-        "자동차",
-        "전자 기기"
-      ],
-      "companies": [],
-      "event_type": "시장 전망·통계",
-      "confirmed": true,
-      "parties": [],
-      "importance": 2,
-      "importance_reason": "시장 전망·통계 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-27T02:29:51Z",
-      "updated_at": "2026-10-27T02:29:51Z",
-      "articles": [
-        {
-          "key": "016f1dc51aa571c8",
-          "title": "AI data center boom risks squeezing power chip supplies for auto, electronics",
-          "url": "https://www.digitimes.com/news/a20261027PD215/data-data-center-expansion-electronics-chips.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-10-27T02:29:51Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261027-0170",
-      "headline": "HCLTech와 Rapidus, 인도 반도체 센터 개소",
-      "summary": [
-        "HCLTech와 Rapidus가 인도에 반도체 엔지니어링 지원 센터를 개소했다.",
-        "이 센터는 반도체 산업의 기술력 강화를 목표로 2026년 10월 27일에 개소되었다.",
-        "이는 인도의 반도체 생태계 발전에 도움이 될 것으로 기대된다."
-      ],
-      "category": "메모리",
-      "tags": [
-        "반도체 센터",
-        "HCLTech",
-        "Rapidus",
-        "인도",
-        "엔지니어링 지원"
-      ],
-      "companies": [
-        "HCLTech",
-        "Rapidus"
-      ],
-      "event_type": "지역·인프라",
-      "confirmed": true,
-      "parties": [
-        "HCLTech",
-        "Rapidus"
-      ],
-      "importance": 2,
-      "importance_reason": "지역·인프라 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-27T02:18:17Z",
-      "updated_at": "2026-10-27T02:18:17Z",
-      "articles": [
-        {
-          "key": "3ceac6ac4d8e6150",
-          "title": "HCLTech and Rapidus open India centers to support semiconductor engineering",
-          "url": "https://www.digitimes.com/news/a20261027PR200/india-rapidus-semiconductors-design-development-manufacturing.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-10-27T02:18:17Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261027-0169",
-      "headline": "칼테라, UWB 기술로 차량용 반도체 시장 확대",
-      "summary": [
-        "칼테라가 초광대역(UWB) 기술을 활용한 통합 플랫폼을 발표했다.",
-        "이 플랫폼은 디지털 키, 탑승자 감지, 물체 인식, 주차 보조 등 다양한 기능을 포함한다.",
-        "UWB 기술의 발전은 한국 시장에서 새로운 기회를 창출하고 있다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "UWB",
-        "차량용 반도체",
-        "디지털 키",
-        "주차 보조 시스템",
-        "센싱"
-      ],
-      "companies": [
-        "칼테라"
-      ],
-      "event_type": "신제품·신기술·양산",
-      "confirmed": true,
-      "parties": [
-        "칼테라"
-      ],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-27T02:00:00Z",
-      "updated_at": "2026-10-27T02:00:00Z",
-      "articles": [
-        {
-          "key": "bfaed4215d9dca46",
-          "title": "칼테라 “UWB, 거리 측정 넘어 센싱으로”…차량용 반도체 확장",
-          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408792",
-          "source": "테크월드뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-27T02:00:00Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 5
-    },
-    {
-      "id": "c20261027-0168",
-      "headline": "OPTOELEC, AI 데이터 센터 주문 확보 나서",
-      "summary": [
-        "OPTOELEC가 Daegu에서 열린 FIX 2026에서 웨이퍼 수준의 광학 샘플을 전시했다.",
-        "Himax는 CPO 광학 기술을 발전시키고 있으며, 이에 따라 AI 데이터 센터 주문을 모색하고 있다.",
-        "이는 AI 반도체 시장의 성장과 관련하여 OPTOELEC의 사업 확장을 의미한다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "AI 데이터 센터",
-        "CPO 광학",
-        "웨이퍼 수준 광학",
-        "OPTOELEC",
-        "Himax"
-      ],
-      "companies": [
-        "OPTOELEC",
-        "Himax"
-      ],
-      "event_type": "수주·공급",
-      "confirmed": true,
-      "parties": [
-        "OPTOELEC",
-        "Himax"
-      ],
-      "importance": 3,
-      "importance_reason": "수주·공급 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-27T01:52:39Z",
-      "updated_at": "2026-10-27T01:52:39Z",
-      "articles": [
-        {
-          "key": "1f5a456a33c72026",
-          "title": "OPTOELEC seeks AI data center orders as Himax advances CPO optics",
-          "url": "https://www.digitimes.com/news/a20261024VL202/optics-cpo-data-center-himax-production.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-10-27T01:52:39Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261027-0167",
-      "headline": "한미일, 반도체 공정으로 촉매 제조 혁신",
-      "summary": [
-        "한미일 연구팀이 반도체 공정을 활용해 촉매 제조 기술을 개발했다.",
-        "메탄을 에틸렌으로 전환하는 실험에서 에틸렌 수율이 29배 개선되었고, 활성점 활용률도 82%로 증가했다.",
-        "이 기술은 다양한 화학 반응 및 맞춤형 촉매 설계에 활용될 것으로 기대된다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "촉매",
-        "CVD",
-        "에틸렌",
-        "반도체 공정",
-        "화학 반응"
-      ],
-      "companies": [
-        "한국에너지기술연구원",
-        "서울대학교",
-        "브룩헤이븐국립연구소",
-        "일본 국립재료과학연구소"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "한미일 연구팀"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-27T01:52:06Z",
-      "updated_at": "2026-10-27T01:52:06Z",
-      "articles": [
-        {
-          "key": "beaf867c0be31cf0",
-          "title": "한미일, 반도체 공정으로 촉매 제조 성공…에틸렌 수율 29배 개선",
-          "url": "https://zdnet.co.kr/view/?no=20261027105206",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-10-27T01:52:06Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261027-0161",
-      "headline": "케이던스, AI로 칩 설계 효율 1000배 향상 전망",
-      "summary": [
-        "케이던스가 AI 기술을 활용해 칩 설계 생산성을 1000배 높일 수 있다고 발표했다.",
-        "CEO는 과거 500명이 5년 걸리던 CPU 설계가 이제 50명이 6개월이면 가능하다고 밝혔다.",
-        "이러한 변화는 반도체 산업의 생산성 향상과 비용 절감을 가져올 전망이다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "AI",
-        "칩 설계",
-        "생산성",
-        "케이던스"
-      ],
-      "companies": [
-        "케이던스"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "케이던스"
-      ],
-      "importance": 3,
-      "importance_reason": "실적 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-27T01:38:58Z",
-      "updated_at": "2026-10-27T01:38:58Z",
-      "articles": [
-        {
-          "key": "821dce986fc43943",
-          "title": "케이던스 \"칩 설계 1000배 쉬워진다\"...연간 실적 전망 또 올렸다",
-          "url": "https://www.thelec.kr/news/articleView.html?idxno=64296",
-          "source": "디일렉",
-          "lang": "ko",
-          "published_at": "2026-10-27T01:38:58Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261027-0166",
-      "headline": "로옴, GaN 기반 고효율 PFC 컨트롤러 IC 출시",
-      "summary": [
-        "로옴은 GaN HEMT에 최적화된 TP-PFC 컨트롤러 IC 'BM85060FV'를 개발했다.",
-        "이 제품은 300W~500W AC-DC 전원에서 99% 효율을 달성하며, 전력 손실을 크게 줄인다.",
-        "로옴은 이를 통해 시장의 소형화 및 에너지 절감 요구에 부응하고, 향후 고성능 파워 솔루션을 지속적으로 개발할 계획이다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "GaN",
-        "PFC 컨트롤러",
-        "BM85060FV",
-        "전원 효율",
-        "소형화",
-        "에너지 절감"
-      ],
-      "companies": [
-        "로옴"
-      ],
-      "event_type": "신제품·신기술·양산",
-      "confirmed": true,
-      "parties": [],
-      "importance": 5,
-      "importance_reason": "신제품·신기술·양산 5점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-27T01:38:54Z",
-      "updated_at": "2026-10-27T01:38:54Z",
-      "articles": [
-        {
-          "key": "43b56ed19caf1c5d",
-          "title": "로옴, GaN 고주파 스위칭 대응 TP-PFC 컨트롤러 IC 'BM85060FV' 개발",
-          "url": "https://zdnet.co.kr/view/?no=20261027103353",
-          "source": "ZDNet Korea",
-          "lang": "ko",
-          "published_at": "2026-10-27T01:38:54Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 5
-    },
-    {
-      "id": "c20261027-0165",
-      "headline": "암콕, 고객 선지급금으로 글로벌 포장 투자 강화",
-      "summary": [
-        "암콕이 글로벌 포장 투자를 가속화하며 고객 선지급금 방식을 도입했다.",
-        "이는 디스플레이 및 반도체 패키징 부문에서의 경쟁력 확보를 위해 이루어진 결정이다.",
-        "포장 산업의 변화에 대응하기 위한 전략으로, 고객의 투자 참여를 유도하고 있다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "포장 투자",
-        "선지급금",
-        "반도체 패키징",
-        "아시아 시장"
-      ],
-      "companies": [
-        "암콕"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "암콕"
-      ],
-      "importance": 3,
-      "importance_reason": "실적 3점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "en",
-      "first_seen": "2026-10-27T01:20:32Z",
-      "updated_at": "2026-10-27T01:20:32Z",
-      "articles": [
-        {
-          "key": "14f3ff8ddab5ef81",
-          "title": "Amkor turns to customer prepayments as global packaging investment accelerates",
-          "url": "https://www.digitimes.com/news/a20261027VL205/amkor-packaging-investment-expansion-manufacturing.html",
-          "source": "DigiTimes Asia",
-          "lang": "en",
-          "published_at": "2026-10-27T01:20:32Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 3
-    },
-    {
-      "id": "c20261027-0160",
-      "headline": "수원시, 성균관대와 반도체 연구협약 체결",
-      "summary": [
-        "수원시와 성균관대학교, 한국나노기술원이 반도체 연구개발 협약을 체결했다.",
-        "이 협약은 첨단 반도체 기술 개발과 지역 산업 생태계 구축을 목표로 한다.",
-        "이는 지역 산업 경쟁력 강화를 위한 중요한 발걸음으로 평가된다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "반도체",
-        "연구개발",
-        "산업 생태계",
-        "협약"
-      ],
-      "companies": [
-        "성균관대학교",
-        "한국나노기술원"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": true,
-      "parties": [
-        "수원시",
-        "성균관대학교",
-        "한국나노기술원"
-      ],
-      "importance": 2,
-      "importance_reason": "업계 일반 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-27T01:16:26Z",
-      "updated_at": "2026-10-27T01:16:26Z",
-      "articles": [
-        {
-          "key": "412578edd5eb1e72",
-          "title": "수원시-성균관대-한국나노기술원, 반도체 연구개발 업무협약",
-          "url": "https://www.yna.co.kr/view/AKR20261027062500061",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-27T01:16:26Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261026-0128",
-      "headline": "삼성전자·애플, OLED 패널 주문 축소로 삼성디스플레이 수익 감소 우려",
-      "summary": [
-        "삼성전자와 애플이 메모리 가격 상승에 따라 OLED 패널 주문을 줄이고 있다.",
-        "삼성의 모바일 부서는 Q4 부품 납품을 20-30% 축소 요청했으며, 애플은 iPhone 18 Pro 주문을 15-20% 줄였다.",
-        "여기서 삼성디스플레이는 두 고객에게서 연간 수익의 62.8%를 차지해 수익성에 부정적인 영향을 받을 전망이다."
-      ],
-      "category": "디스플레이",
-      "tags": [
-        "OLED 패널",
-        "주문 축소",
-        "수익 감소",
-        "삼성디스플레이",
-        "애플",
-        "삼성전자"
-      ],
-      "companies": [
-        "삼성전자",
-        "삼성디스플레이",
-        "애플"
-      ],
-      "event_type": "실적",
-      "confirmed": true,
-      "parties": [
-        "삼성전자",
-        "삼성디스플레이",
-        "애플"
-      ],
-      "importance": 5,
-      "importance_reason": "실적 3점, 관심 기업(삼성전자, 삼성디스플레이) +1, 매체 3곳 보도 +1 → 5점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "both",
-      "first_seen": "2026-10-24T23:49:15Z",
-      "updated_at": "2026-10-27T01:00:07Z",
-      "articles": [
-        {
-          "key": "4ba0fceda336ea4c",
-          "title": "삼성D, 폴더블 OLED ‘초격차’ 잇는다…점유율 66%로 선두 수성",
-          "url": "https://www.dt.co.kr/article/12090995",
-          "source": "디지털타임스",
-          "lang": "ko",
-          "published_at": "2026-10-24T23:49:15Z"
-        },
-        {
-          "key": "4f97da7afbee3dfa",
-          "title": "Samsung Display faces profit squeeze as Apple, Samsung cut orders",
-          "url": "https://www.koreaherald.com/article/10914960",
-          "source": "Korea Herald",
-          "lang": "en",
-          "published_at": "2026-10-26T05:31:06Z"
-        },
-        {
-          "key": "19f8dc1494978c71",
-          "title": "Samsung Electronics and Apple reduce their OLED panel orders, and Samsung Display may see weaker Q4 profit",
-          "url": "https://www.oled-info.com/samsung-display-faces-q4-profit-squeeze-apple-and-samsung-electronics-cut-their",
-          "source": "OLED-info",
-          "lang": "en",
-          "published_at": "2026-10-27T01:00:07Z"
-        }
-      ],
-      "importance_raw": 5,
-      "type_checked": true
-    },
-    {
-      "id": "c20261027-0158",
-      "headline": "경량 PC 기둥으로 반도체 공장 시공 가속화",
-      "summary": [
-        "한국건설기술연구원이 중공 프리캐스트 기둥을 개발했다.",
-        "이 기둥은 반도체 공장과 데이터센터에 적용될 수 있으며, 시공 속도를 높인다.",
-        "이 기술은 산업시설의 효율성을 개선하고 공사 기간 단축에 기여할 전망이다."
-      ],
-      "category": "장비/소재/부품",
-      "tags": [
-        "PC 기둥",
-        "중공 프리캐스트",
-        "반도체 공장",
-        "시공 속도",
-        "데이터센터"
-      ],
-      "companies": [
-        "한국건설기술연구원"
-      ],
-      "event_type": "지역·인프라",
-      "confirmed": true,
-      "parties": [],
-      "importance": 2,
-      "importance_reason": "지역·인프라 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-27T00:46:34Z",
-      "updated_at": "2026-10-27T00:46:34Z",
-      "articles": [
-        {
-          "key": "38392b13f3ea6aa6",
-          "title": "무게 줄인 PC 기둥으로 반도체 공장 시공 속도 높인다",
-          "url": "https://www.yna.co.kr/view/AKR20261027052700003",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-27T00:46:34Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
-    },
-    {
-      "id": "c20261027-0156",
-      "headline": "호서대, 초저전력 AI 반도체 연구개발 참여",
-      "summary": [
-        "호서대학교 벤처대학원 연구팀이 초저전력 온칩러닝 AI 반도체 개발에 나선다.",
-        "이들은 산업통상부의 국가 연구개발사업에 참여해 기술 개발을 진행할 계획이다.",
-        "이번 연구는 AI 반도체 기술의 발전에 기여할 것으로 기대된다."
-      ],
-      "category": "AI반도체",
-      "tags": [
-        "초저전력",
-        "AI 반도체",
-        "온칩러닝",
-        "연구개발",
-        "산업통상부"
-      ],
-      "companies": [
-        "호서대학교"
-      ],
-      "event_type": "업계 일반",
-      "confirmed": false,
-      "parties": [
-        "호서대학교",
-        "산업통상부"
-      ],
-      "importance": 1,
-      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-27T00:16:30Z",
-      "updated_at": "2026-10-27T00:16:30Z",
-      "articles": [
-        {
-          "key": "240a7dbc48869142",
-          "title": "호서대, '초저전력 온칩러닝 AI 반도체' 국가연구개발사업 참여",
-          "url": "https://www.yna.co.kr/view/AKR20261027042000063",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-27T00:16:30Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 1
-    },
-    {
-      "id": "c20261027-0154",
-      "headline": "대구·경북, 720억 투입해 AI·반도체 인재 양성",
-      "summary": [
-        "대구시와 경북도가 AI와 반도체 인재 3천명을 양성할 계획을 세웠다.",
-        "이 프로젝트에는 총 720억 원의 예산이 투입되며, 피지컬 AI 분야에 집중한다.",
-        "이 initiative는 지역 산업 경쟁력을 강화하고 인재의 시장 진입을 돕는 중요한 기반이 될 것이다."
-      ],
-      "category": "정책/무역",
-      "tags": [
-        "AI",
-        "반도체",
-        "인재양성",
-        "대구경북"
-      ],
-      "companies": [],
-      "event_type": "채용·인력",
-      "confirmed": true,
-      "parties": [
-        "대구시",
-        "경북도"
-      ],
-      "importance": 2,
-      "importance_reason": "채용·인력 2점",
-      "status": "summarized",
-      "needs_summary": false,
-      "attempts": 0,
-      "region": "ko",
-      "first_seen": "2026-10-26T23:59:52Z",
-      "updated_at": "2026-10-26T23:59:52Z",
-      "articles": [
-        {
-          "key": "2c8041f0c5a6e921",
-          "title": "대구·경북, 720억 투입해 AI·반도체 인재 3천명 키운다",
-          "url": "https://www.yna.co.kr/view/AKR20261027034500053",
-          "source": "연합뉴스",
-          "lang": "ko",
-          "published_at": "2026-10-26T23:59:52Z"
-        }
-      ],
-      "type_checked": true,
-      "importance_raw": 2
     }
   ]
 }

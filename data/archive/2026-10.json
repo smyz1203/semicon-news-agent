@@ -2597,6 +2597,882 @@
       ],
       "importance_raw": 2,
       "type_checked": true
+    },
+    {
+      "id": "c20261027-0179",
+      "headline": "중국 디스플레이, 새로운 시장 확대 전략 추진",
+      "summary": [
+        "중국 디스플레이 업계가 자체 생태계를 통해 시장 영역을 확장하고 있다.",
+        "C-터치 & 디스플레이 전시회에서 AI와 자율주행차 관련 기술을 집중 조명하고 기판 제조를 실증할 예정이다.",
+        "중국은 글로벌 공급망 생태계를 구축하며 디지털 경제의 핵심으로 자리 잡고 있다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "CPO",
+        "AI 데이터센터",
+        "스마트글래스",
+        "TGV 기판",
+        "증강현실",
+        "디지털 경제"
+      ],
+      "companies": [
+        "중국영상산업협회",
+        "AI 광통신 기업",
+        "AR/VR 제조업체"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "중국 디스플레이 업계"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T03:34:55Z",
+      "updated_at": "2026-10-27T03:34:55Z",
+      "articles": [
+        {
+          "key": "86f2b8e3b16e9709",
+          "title": "中디스플레이, 자체 생태계로 유리기판·CPO 등 신시장 정조준",
+          "url": "https://zdnet.co.kr/view/?no=20261027114901",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-27T03:34:55Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0178",
+      "headline": "어플라이드 머티리얼즈, 베시 지분 20%로 확대",
+      "summary": [
+        "어플라이드 머티리얼즈는 베시의 지분을 20%로 늘릴 계획이다.",
+        "이는 하이브리드 본딩 수주가 급증함에 따른 결정이다.",
+        "이로 인해 반도체 패키징 기술 강화가 기대된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "하이브리드 본딩",
+        "통합 다이-웨이퍼 시스템",
+        "어플라이드 머티리얼즈",
+        "베시"
+      ],
+      "companies": [
+        "어플라이드 머티리얼즈",
+        "베시"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "어플라이드 머티리얼즈",
+        "베시"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T03:27:49Z",
+      "updated_at": "2026-10-27T03:27:49Z",
+      "articles": [
+        {
+          "key": "c83e72d7239ccb7a",
+          "title": "Applied Materials to raise Besi stake to 20% as hybrid-bonding orders surge",
+          "url": "https://www.digitimes.com/news/a20261027VL216/applied-materials-equipment-demand-dutch-2025.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-27T03:27:49Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261027-0176",
+      "headline": "국민소득 4만달러 달성 예상, 3% 중반 성장 전망",
+      "summary": [
+        "정부는 올해 1인당 국민소득이 4만달러에 진입할 것이라고 밝혔다.",
+        "반도체 수출과 설비 투자가 호조를 보이며 연간 경제성장률은 3%대 중반에 이를 것으로 예상된다.",
+        "그러나 민간 소비 감소와 물가 부담이 성장에 부정적인 영향을 줄 가능성이 있다."
+      ],
+      "category": "기타",
+      "tags": [
+        "국민소득",
+        "경제성장률",
+        "반도체 수출",
+        "설비 투자",
+        "물가"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T03:18:15Z",
+      "updated_at": "2026-10-27T03:18:15Z",
+      "articles": [
+        {
+          "key": "62e44f044853e32a",
+          "title": "국민소득 4만달러 눈앞…정부 “3% 중반 성장 가능”",
+          "url": "https://www.dt.co.kr/article/12091502",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-27T03:18:15Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0177",
+      "headline": "삼성전자·SK하이닉스, 2027년 2분기 HBM4 출하 계획",
+      "summary": [
+        "삼성전자와 SK하이닉스가 2027년 2분기에 8층 HBM4 칩을 엔비디아에 출하할 계획이다.",
+        "이들 기업은 차세대 메모리 기술인 HBM4의 시장 진입을 통해 경쟁력을 강화할 예정이다.",
+        "HBM4 출하는 고성능 컴퓨팅 시장에서의 수익성에 긍정적인 영향을 미칠 것으로 보인다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "HBM4",
+        "8층",
+        "삼성전자",
+        "SK하이닉스"
+      ],
+      "companies": [
+        "삼성전자",
+        "SK하이닉스",
+        "엔비디아"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "SK하이닉스",
+        "엔비디아"
+      ],
+      "importance": 4,
+      "importance_reason": "수주·공급 3점, 관심 기업(SK하이닉스, 삼성전자) +1 → 4점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T03:06:24Z",
+      "updated_at": "2026-10-27T03:06:24Z",
+      "articles": [
+        {
+          "key": "27f7411c6161b1dd",
+          "title": "Samsung, SK Hynix eye 2Q27 shipments of 8-layer HBM4 to Nvidia",
+          "url": "https://www.digitimes.com/news/a20261027VL215/samsung-sk-hynix-hbm4-shipments-nvidia.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-27T03:06:24Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 4
+    },
+    {
+      "id": "c20261027-0173",
+      "headline": "SK 하이닉스, AI 사업 전환 계획 발표",
+      "summary": [
+        "SK텔레콤이 SK 하이닉스의 반도체 공장을 AI 사업으로 전환하는 계획을 세웠다.",
+        "2026년 10월 27일에 발표된 이 계획은 AI 기술을 반도체 제조에 적용하는 내용을 담고 있다.",
+        "이로 인해 SK 하이닉스는 AI 분야에서 경쟁력을 높이며 새로운 성장 기회를 모색할 것으로 보인다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 사업전환",
+        "SK 하이닉스",
+        "반도체",
+        "SK텔레콤",
+        "공장 전환"
+      ],
+      "companies": [
+        "SK 하이닉스",
+        "SK텔레콤"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "SK 하이닉스",
+        "SK텔레콤"
+      ],
+      "importance": 3,
+      "importance_reason": "지역·인프라 2점, 관심 기업(SK하이닉스) +1 → 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T02:51:28Z",
+      "updated_at": "2026-10-27T02:51:28Z",
+      "articles": [
+        {
+          "key": "6561214ebfac1ee1",
+          "title": "Inside SKT’s push to turn SK Hynix’s fabs into an AI business",
+          "url": "https://www.digitimes.com/news/a20261027PD204/sk-telecom-sk-hynix-business-b2b-data.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-27T02:51:28Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261027-0172",
+      "headline": "DRAM 공급 축소에도 가격 상승 미비",
+      "summary": [
+        "2026년 10월 27일자 보고서에 따르면, DRAM 공급이 최대 50% 감소하고 있다.",
+        "그럼에도 불구하고 DRAM 가격 상승폭은 기대에 미치지 못하고 있다.",
+        "이는 공급 감소에도 불구하고 시장의 수요가 약세를 보이고 있음을 의미한다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "DRAM",
+        "가격 상승",
+        "공급 감소",
+        "반도체 시장",
+        "2026년"
+      ],
+      "companies": [],
+      "event_type": "가격 동향",
+      "confirmed": true,
+      "parties": [],
+      "importance": 3,
+      "importance_reason": "가격 동향 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T02:30:03Z",
+      "updated_at": "2026-10-27T02:30:03Z",
+      "articles": [
+        {
+          "key": "6336601c7b8c234f",
+          "title": "DRAM price gains fall short as supply shrinks up to 50%",
+          "url": "https://www.digitimes.com/news/a20261027PD211/dram-price-growth-demand-2026.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-27T02:30:03Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261027-0171",
+      "headline": "AI 데이터 센터 증가, 전력 반도체 공급 위험 초래",
+      "summary": [
+        "AI 데이터 센터의 급증이 전력 반도체 공급에 압박을 가하고 있다.",
+        "특히 자동차와 전자 기기 산업에서 수급 불균형이 우려된다.",
+        "이로 인해 전력 반도체 가격 상승 및 공급망 안정성에 부정적인 영향을 미칠 가능성이 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "AI 데이터 센터",
+        "전력 반도체",
+        "공급 위기",
+        "자동차",
+        "전자 기기"
+      ],
+      "companies": [],
+      "event_type": "시장 전망·통계",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "시장 전망·통계 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T02:29:51Z",
+      "updated_at": "2026-10-27T02:29:51Z",
+      "articles": [
+        {
+          "key": "016f1dc51aa571c8",
+          "title": "AI data center boom risks squeezing power chip supplies for auto, electronics",
+          "url": "https://www.digitimes.com/news/a20261027PD215/data-data-center-expansion-electronics-chips.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-27T02:29:51Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0170",
+      "headline": "HCLTech와 Rapidus, 인도 반도체 센터 개소",
+      "summary": [
+        "HCLTech와 Rapidus가 인도에 반도체 엔지니어링 지원 센터를 개소했다.",
+        "이 센터는 반도체 산업의 기술력 강화를 목표로 2026년 10월 27일에 개소되었다.",
+        "이는 인도의 반도체 생태계 발전에 도움이 될 것으로 기대된다."
+      ],
+      "category": "메모리",
+      "tags": [
+        "반도체 센터",
+        "HCLTech",
+        "Rapidus",
+        "인도",
+        "엔지니어링 지원"
+      ],
+      "companies": [
+        "HCLTech",
+        "Rapidus"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [
+        "HCLTech",
+        "Rapidus"
+      ],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T02:18:17Z",
+      "updated_at": "2026-10-27T02:18:17Z",
+      "articles": [
+        {
+          "key": "3ceac6ac4d8e6150",
+          "title": "HCLTech and Rapidus open India centers to support semiconductor engineering",
+          "url": "https://www.digitimes.com/news/a20261027PR200/india-rapidus-semiconductors-design-development-manufacturing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-27T02:18:17Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0169",
+      "headline": "칼테라, UWB 기술로 차량용 반도체 시장 확대",
+      "summary": [
+        "칼테라가 초광대역(UWB) 기술을 활용한 통합 플랫폼을 발표했다.",
+        "이 플랫폼은 디지털 키, 탑승자 감지, 물체 인식, 주차 보조 등 다양한 기능을 포함한다.",
+        "UWB 기술의 발전은 한국 시장에서 새로운 기회를 창출하고 있다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "UWB",
+        "차량용 반도체",
+        "디지털 키",
+        "주차 보조 시스템",
+        "센싱"
+      ],
+      "companies": [
+        "칼테라"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [
+        "칼테라"
+      ],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T02:00:00Z",
+      "updated_at": "2026-10-27T02:00:00Z",
+      "articles": [
+        {
+          "key": "bfaed4215d9dca46",
+          "title": "칼테라 “UWB, 거리 측정 넘어 센싱으로”…차량용 반도체 확장",
+          "url": "https://www.epnc.co.kr/news/articleView.html?idxno=408792",
+          "source": "테크월드뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T02:00:00Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261027-0168",
+      "headline": "OPTOELEC, AI 데이터 센터 주문 확보 나서",
+      "summary": [
+        "OPTOELEC가 Daegu에서 열린 FIX 2026에서 웨이퍼 수준의 광학 샘플을 전시했다.",
+        "Himax는 CPO 광학 기술을 발전시키고 있으며, 이에 따라 AI 데이터 센터 주문을 모색하고 있다.",
+        "이는 AI 반도체 시장의 성장과 관련하여 OPTOELEC의 사업 확장을 의미한다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI 데이터 센터",
+        "CPO 광학",
+        "웨이퍼 수준 광학",
+        "OPTOELEC",
+        "Himax"
+      ],
+      "companies": [
+        "OPTOELEC",
+        "Himax"
+      ],
+      "event_type": "수주·공급",
+      "confirmed": true,
+      "parties": [
+        "OPTOELEC",
+        "Himax"
+      ],
+      "importance": 3,
+      "importance_reason": "수주·공급 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T01:52:39Z",
+      "updated_at": "2026-10-27T01:52:39Z",
+      "articles": [
+        {
+          "key": "1f5a456a33c72026",
+          "title": "OPTOELEC seeks AI data center orders as Himax advances CPO optics",
+          "url": "https://www.digitimes.com/news/a20261024VL202/optics-cpo-data-center-himax-production.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-27T01:52:39Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261027-0167",
+      "headline": "한미일, 반도체 공정으로 촉매 제조 혁신",
+      "summary": [
+        "한미일 연구팀이 반도체 공정을 활용해 촉매 제조 기술을 개발했다.",
+        "메탄을 에틸렌으로 전환하는 실험에서 에틸렌 수율이 29배 개선되었고, 활성점 활용률도 82%로 증가했다.",
+        "이 기술은 다양한 화학 반응 및 맞춤형 촉매 설계에 활용될 것으로 기대된다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "촉매",
+        "CVD",
+        "에틸렌",
+        "반도체 공정",
+        "화학 반응"
+      ],
+      "companies": [
+        "한국에너지기술연구원",
+        "서울대학교",
+        "브룩헤이븐국립연구소",
+        "일본 국립재료과학연구소"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "한미일 연구팀"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T01:52:06Z",
+      "updated_at": "2026-10-27T01:52:06Z",
+      "articles": [
+        {
+          "key": "beaf867c0be31cf0",
+          "title": "한미일, 반도체 공정으로 촉매 제조 성공…에틸렌 수율 29배 개선",
+          "url": "https://zdnet.co.kr/view/?no=20261027105206",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-27T01:52:06Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0161",
+      "headline": "케이던스, AI로 칩 설계 효율 1000배 향상 전망",
+      "summary": [
+        "케이던스가 AI 기술을 활용해 칩 설계 생산성을 1000배 높일 수 있다고 발표했다.",
+        "CEO는 과거 500명이 5년 걸리던 CPU 설계가 이제 50명이 6개월이면 가능하다고 밝혔다.",
+        "이러한 변화는 반도체 산업의 생산성 향상과 비용 절감을 가져올 전망이다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "AI",
+        "칩 설계",
+        "생산성",
+        "케이던스"
+      ],
+      "companies": [
+        "케이던스"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "케이던스"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T01:38:58Z",
+      "updated_at": "2026-10-27T01:38:58Z",
+      "articles": [
+        {
+          "key": "821dce986fc43943",
+          "title": "케이던스 \"칩 설계 1000배 쉬워진다\"...연간 실적 전망 또 올렸다",
+          "url": "https://www.thelec.kr/news/articleView.html?idxno=64296",
+          "source": "디일렉",
+          "lang": "ko",
+          "published_at": "2026-10-27T01:38:58Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261027-0166",
+      "headline": "로옴, GaN 기반 고효율 PFC 컨트롤러 IC 출시",
+      "summary": [
+        "로옴은 GaN HEMT에 최적화된 TP-PFC 컨트롤러 IC 'BM85060FV'를 개발했다.",
+        "이 제품은 300W~500W AC-DC 전원에서 99% 효율을 달성하며, 전력 손실을 크게 줄인다.",
+        "로옴은 이를 통해 시장의 소형화 및 에너지 절감 요구에 부응하고, 향후 고성능 파워 솔루션을 지속적으로 개발할 계획이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "GaN",
+        "PFC 컨트롤러",
+        "BM85060FV",
+        "전원 효율",
+        "소형화",
+        "에너지 절감"
+      ],
+      "companies": [
+        "로옴"
+      ],
+      "event_type": "신제품·신기술·양산",
+      "confirmed": true,
+      "parties": [],
+      "importance": 5,
+      "importance_reason": "신제품·신기술·양산 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T01:38:54Z",
+      "updated_at": "2026-10-27T01:38:54Z",
+      "articles": [
+        {
+          "key": "43b56ed19caf1c5d",
+          "title": "로옴, GaN 고주파 스위칭 대응 TP-PFC 컨트롤러 IC 'BM85060FV' 개발",
+          "url": "https://zdnet.co.kr/view/?no=20261027103353",
+          "source": "ZDNet Korea",
+          "lang": "ko",
+          "published_at": "2026-10-27T01:38:54Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 5
+    },
+    {
+      "id": "c20261027-0165",
+      "headline": "암콕, 고객 선지급금으로 글로벌 포장 투자 강화",
+      "summary": [
+        "암콕이 글로벌 포장 투자를 가속화하며 고객 선지급금 방식을 도입했다.",
+        "이는 디스플레이 및 반도체 패키징 부문에서의 경쟁력 확보를 위해 이루어진 결정이다.",
+        "포장 산업의 변화에 대응하기 위한 전략으로, 고객의 투자 참여를 유도하고 있다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "포장 투자",
+        "선지급금",
+        "반도체 패키징",
+        "아시아 시장"
+      ],
+      "companies": [
+        "암콕"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "암콕"
+      ],
+      "importance": 3,
+      "importance_reason": "실적 3점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "en",
+      "first_seen": "2026-10-27T01:20:32Z",
+      "updated_at": "2026-10-27T01:20:32Z",
+      "articles": [
+        {
+          "key": "14f3ff8ddab5ef81",
+          "title": "Amkor turns to customer prepayments as global packaging investment accelerates",
+          "url": "https://www.digitimes.com/news/a20261027VL205/amkor-packaging-investment-expansion-manufacturing.html",
+          "source": "DigiTimes Asia",
+          "lang": "en",
+          "published_at": "2026-10-27T01:20:32Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 3
+    },
+    {
+      "id": "c20261027-0160",
+      "headline": "수원시, 성균관대와 반도체 연구협약 체결",
+      "summary": [
+        "수원시와 성균관대학교, 한국나노기술원이 반도체 연구개발 협약을 체결했다.",
+        "이 협약은 첨단 반도체 기술 개발과 지역 산업 생태계 구축을 목표로 한다.",
+        "이는 지역 산업 경쟁력 강화를 위한 중요한 발걸음으로 평가된다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "반도체",
+        "연구개발",
+        "산업 생태계",
+        "협약"
+      ],
+      "companies": [
+        "성균관대학교",
+        "한국나노기술원"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": true,
+      "parties": [
+        "수원시",
+        "성균관대학교",
+        "한국나노기술원"
+      ],
+      "importance": 2,
+      "importance_reason": "업계 일반 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T01:16:26Z",
+      "updated_at": "2026-10-27T01:16:26Z",
+      "articles": [
+        {
+          "key": "412578edd5eb1e72",
+          "title": "수원시-성균관대-한국나노기술원, 반도체 연구개발 업무협약",
+          "url": "https://www.yna.co.kr/view/AKR20261027062500061",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T01:16:26Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261026-0128",
+      "headline": "삼성전자·애플, OLED 패널 주문 축소로 삼성디스플레이 수익 감소 우려",
+      "summary": [
+        "삼성전자와 애플이 메모리 가격 상승에 따라 OLED 패널 주문을 줄이고 있다.",
+        "삼성의 모바일 부서는 Q4 부품 납품을 20-30% 축소 요청했으며, 애플은 iPhone 18 Pro 주문을 15-20% 줄였다.",
+        "여기서 삼성디스플레이는 두 고객에게서 연간 수익의 62.8%를 차지해 수익성에 부정적인 영향을 받을 전망이다."
+      ],
+      "category": "디스플레이",
+      "tags": [
+        "OLED 패널",
+        "주문 축소",
+        "수익 감소",
+        "삼성디스플레이",
+        "애플",
+        "삼성전자"
+      ],
+      "companies": [
+        "삼성전자",
+        "삼성디스플레이",
+        "애플"
+      ],
+      "event_type": "실적",
+      "confirmed": true,
+      "parties": [
+        "삼성전자",
+        "삼성디스플레이",
+        "애플"
+      ],
+      "importance": 5,
+      "importance_reason": "실적 3점, 관심 기업(삼성전자, 삼성디스플레이) +1, 매체 3곳 보도 +1 → 5점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "both",
+      "first_seen": "2026-10-24T23:49:15Z",
+      "updated_at": "2026-10-27T01:00:07Z",
+      "articles": [
+        {
+          "key": "4ba0fceda336ea4c",
+          "title": "삼성D, 폴더블 OLED ‘초격차’ 잇는다…점유율 66%로 선두 수성",
+          "url": "https://www.dt.co.kr/article/12090995",
+          "source": "디지털타임스",
+          "lang": "ko",
+          "published_at": "2026-10-24T23:49:15Z"
+        },
+        {
+          "key": "4f97da7afbee3dfa",
+          "title": "Samsung Display faces profit squeeze as Apple, Samsung cut orders",
+          "url": "https://www.koreaherald.com/article/10914960",
+          "source": "Korea Herald",
+          "lang": "en",
+          "published_at": "2026-10-26T05:31:06Z"
+        },
+        {
+          "key": "19f8dc1494978c71",
+          "title": "Samsung Electronics and Apple reduce their OLED panel orders, and Samsung Display may see weaker Q4 profit",
+          "url": "https://www.oled-info.com/samsung-display-faces-q4-profit-squeeze-apple-and-samsung-electronics-cut-their",
+          "source": "OLED-info",
+          "lang": "en",
+          "published_at": "2026-10-27T01:00:07Z"
+        }
+      ],
+      "importance_raw": 5,
+      "type_checked": true
+    },
+    {
+      "id": "c20261027-0158",
+      "headline": "경량 PC 기둥으로 반도체 공장 시공 가속화",
+      "summary": [
+        "한국건설기술연구원이 중공 프리캐스트 기둥을 개발했다.",
+        "이 기둥은 반도체 공장과 데이터센터에 적용될 수 있으며, 시공 속도를 높인다.",
+        "이 기술은 산업시설의 효율성을 개선하고 공사 기간 단축에 기여할 전망이다."
+      ],
+      "category": "장비/소재/부품",
+      "tags": [
+        "PC 기둥",
+        "중공 프리캐스트",
+        "반도체 공장",
+        "시공 속도",
+        "데이터센터"
+      ],
+      "companies": [
+        "한국건설기술연구원"
+      ],
+      "event_type": "지역·인프라",
+      "confirmed": true,
+      "parties": [],
+      "importance": 2,
+      "importance_reason": "지역·인프라 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T00:46:34Z",
+      "updated_at": "2026-10-27T00:46:34Z",
+      "articles": [
+        {
+          "key": "38392b13f3ea6aa6",
+          "title": "무게 줄인 PC 기둥으로 반도체 공장 시공 속도 높인다",
+          "url": "https://www.yna.co.kr/view/AKR20261027052700003",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T00:46:34Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
+    },
+    {
+      "id": "c20261027-0156",
+      "headline": "호서대, 초저전력 AI 반도체 연구개발 참여",
+      "summary": [
+        "호서대학교 벤처대학원 연구팀이 초저전력 온칩러닝 AI 반도체 개발에 나선다.",
+        "이들은 산업통상부의 국가 연구개발사업에 참여해 기술 개발을 진행할 계획이다.",
+        "이번 연구는 AI 반도체 기술의 발전에 기여할 것으로 기대된다."
+      ],
+      "category": "AI반도체",
+      "tags": [
+        "초저전력",
+        "AI 반도체",
+        "온칩러닝",
+        "연구개발",
+        "산업통상부"
+      ],
+      "companies": [
+        "호서대학교"
+      ],
+      "event_type": "업계 일반",
+      "confirmed": false,
+      "parties": [
+        "호서대학교",
+        "산업통상부"
+      ],
+      "importance": 1,
+      "importance_reason": "업계 일반 2점, 미확정 -1 → 1점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-27T00:16:30Z",
+      "updated_at": "2026-10-27T00:16:30Z",
+      "articles": [
+        {
+          "key": "240a7dbc48869142",
+          "title": "호서대, '초저전력 온칩러닝 AI 반도체' 국가연구개발사업 참여",
+          "url": "https://www.yna.co.kr/view/AKR20261027042000063",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-27T00:16:30Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 1
+    },
+    {
+      "id": "c20261027-0154",
+      "headline": "대구·경북, 720억 투입해 AI·반도체 인재 양성",
+      "summary": [
+        "대구시와 경북도가 AI와 반도체 인재 3천명을 양성할 계획을 세웠다.",
+        "이 프로젝트에는 총 720억 원의 예산이 투입되며, 피지컬 AI 분야에 집중한다.",
+        "이 initiative는 지역 산업 경쟁력을 강화하고 인재의 시장 진입을 돕는 중요한 기반이 될 것이다."
+      ],
+      "category": "정책/무역",
+      "tags": [
+        "AI",
+        "반도체",
+        "인재양성",
+        "대구경북"
+      ],
+      "companies": [],
+      "event_type": "채용·인력",
+      "confirmed": true,
+      "parties": [
+        "대구시",
+        "경북도"
+      ],
+      "importance": 2,
+      "importance_reason": "채용·인력 2점",
+      "status": "summarized",
+      "needs_summary": false,
+      "attempts": 0,
+      "region": "ko",
+      "first_seen": "2026-10-26T23:59:52Z",
+      "updated_at": "2026-10-26T23:59:52Z",
+      "articles": [
+        {
+          "key": "2c8041f0c5a6e921",
+          "title": "대구·경북, 720억 투입해 AI·반도체 인재 3천명 키운다",
+          "url": "https://www.yna.co.kr/view/AKR20261027034500053",
+          "source": "연합뉴스",
+          "lang": "ko",
+          "published_at": "2026-10-26T23:59:52Z"
+        }
+      ],
+      "type_checked": true,
+      "importance_raw": 2
     }
   ]
 }
